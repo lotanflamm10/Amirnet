@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r48-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Microplastics originate exclusively from industrial waste dumped into oceans.",
+        "Microplastics are tiny plastic particles that spread through multiple environmental pathways and accumulate widely.",
+        "Scientists have found a reliable method to remove microplastics from drinking water.",
+        "Ocean currents are the sole mechanism responsible for distributing microplastics globally."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains that microplastics form from various sources and travel through air, water, and soil to reach ecosystems worldwide, making option B the central idea.",
+      "wrongReasons": [
+        "The passage states microplastics come from multiple sources including clothing and packaging, not exclusively industrial waste.",
+        "No removal method is described; the passage focuses on how microplastics spread, not how to eliminate them.",
+        "The passage explicitly mentions wind, rivers, and groundwater alongside ocean currents as dispersal routes."
+      ],
+      "passage": {
+        "id": "r48-passage",
+        "title": "How Microplastics Spread",
+        "body": "Microplastics are plastic fragments smaller than five millimeters, produced when larger plastic objects break down under sunlight, heat, and mechanical stress. They originate from sources as varied as synthetic clothing fibers, disposable packaging, and industrial pellets. Once released into the environment, microplastics travel through an astonishing range of pathways. Wind carries airborne particles thousands of kilometers, depositing them in remote mountain ranges and arctic ice fields far from any human settlement. Rivers and storm drains funnel terrestrial microplastics into coastal waters, where ocean currents distribute them across entire ocean basins. Even groundwater is not immune: studies have detected microplastic contamination in aquifers used for drinking water. Marine organisms ingest microplastics directly, allowing the particles to move up the food chain. Soil ecosystems are equally affected, as microplastics alter the structure of agricultural land and reduce earthworm activity. Researchers warn that without significant reductions in plastic production, concentrations in every major environment will continue to rise throughout this century."
+      }
+    },
+    {
+      "id": "r48-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which of the following is listed as a source of microplastics?",
+      "choices": [
+        "Volcanic ash deposits along coastal areas",
+        "Natural rubber products used in vehicles",
+        "Synthetic clothing fibers",
+        "Organic fertilizers applied to farmland"
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly names 'synthetic clothing fibers' as one of the sources from which microplastics originate.",
+      "wrongReasons": [
+        "Volcanic ash is never mentioned in the passage as a source of microplastics.",
+        "Natural rubber is not discussed; the passage focuses on synthetic plastics.",
+        "Organic fertilizers are not cited as a source; only plastic-derived materials are mentioned."
+      ],
+      "passage": {
+        "id": "r48-passage",
+        "title": "How Microplastics Spread",
+        "body": "Microplastics are plastic fragments smaller than five millimeters, produced when larger plastic objects break down under sunlight, heat, and mechanical stress. They originate from sources as varied as synthetic clothing fibers, disposable packaging, and industrial pellets. Once released into the environment, microplastics travel through an astonishing range of pathways. Wind carries airborne particles thousands of kilometers, depositing them in remote mountain ranges and arctic ice fields far from any human settlement. Rivers and storm drains funnel terrestrial microplastics into coastal waters, where ocean currents distribute them across entire ocean basins. Even groundwater is not immune: studies have detected microplastic contamination in aquifers used for drinking water. Marine organisms ingest microplastics directly, allowing the particles to move up the food chain. Soil ecosystems are equally affected, as microplastics alter the structure of agricultural land and reduce earthworm activity. Researchers warn that without significant reductions in plastic production, concentrations in every major environment will continue to rise throughout this century."
+      }
+    },
+    {
+      "id": "r48-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about remote mountain regions based on the passage?",
+      "choices": [
+        "They are protected from microplastic contamination because of their altitude.",
+        "They receive microplastics only through river systems originating downstream.",
+        "They are not immune to microplastic deposition despite being far from human activity.",
+        "Scientists have not yet studied microplastic levels in mountain environments."
+      ],
+      "answer": 2,
+      "explanation": "The passage states wind deposits microplastics in 'remote mountain ranges and arctic ice fields far from any human settlement,' implying even isolated regions are contaminated.",
+      "wrongReasons": [
+        "The passage directly contradicts this by stating microplastics reach remote mountains via wind.",
+        "Wind, not rivers, is the dispersal mechanism described for reaching mountain ranges.",
+        "The passage mentions studies detecting microplastics in these areas, implying research has been conducted."
+      ],
+      "passage": {
+        "id": "r48-passage",
+        "title": "How Microplastics Spread",
+        "body": "Microplastics are plastic fragments smaller than five millimeters, produced when larger plastic objects break down under sunlight, heat, and mechanical stress. They originate from sources as varied as synthetic clothing fibers, disposable packaging, and industrial pellets. Once released into the environment, microplastics travel through an astonishing range of pathways. Wind carries airborne particles thousands of kilometers, depositing them in remote mountain ranges and arctic ice fields far from any human settlement. Rivers and storm drains funnel terrestrial microplastics into coastal waters, where ocean currents distribute them across entire ocean basins. Even groundwater is not immune: studies have detected microplastic contamination in aquifers used for drinking water. Marine organisms ingest microplastics directly, allowing the particles to move up the food chain. Soil ecosystems are equally affected, as microplastics alter the structure of agricultural land and reduce earthworm activity. Researchers warn that without significant reductions in plastic production, concentrations in every major environment will continue to rise throughout this century."
+      }
+    },
+    {
+      "id": "r48-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'funnel' most nearly means:",
+      "choices": [
+        "Filter and purify",
+        "Channel and direct",
+        "Absorb and store",
+        "Evaporate and disperse"
+      ],
+      "answer": 1,
+      "explanation": "In the sentence 'Rivers and storm drains funnel terrestrial microplastics into coastal waters,' 'funnel' means to channel or direct materials from one place to another.",
+      "wrongReasons": [
+        "'Filter and purify' implies removing contaminants, which is the opposite of what rivers do to microplastics in this context.",
+        "'Absorb and store' suggests retention rather than the movement toward the coast described in the passage.",
+        "'Evaporate and disperse' is associated with gas or liquid loss, not the physical transport of particles through waterways."
+      ],
+      "passage": {
+        "id": "r48-passage",
+        "title": "How Microplastics Spread",
+        "body": "Microplastics are plastic fragments smaller than five millimeters, produced when larger plastic objects break down under sunlight, heat, and mechanical stress. They originate from sources as varied as synthetic clothing fibers, disposable packaging, and industrial pellets. Once released into the environment, microplastics travel through an astonishing range of pathways. Wind carries airborne particles thousands of kilometers, depositing them in remote mountain ranges and arctic ice fields far from any human settlement. Rivers and storm drains funnel terrestrial microplastics into coastal waters, where ocean currents distribute them across entire ocean basins. Even groundwater is not immune: studies have detected microplastic contamination in aquifers used for drinking water. Marine organisms ingest microplastics directly, allowing the particles to move up the food chain. Soil ecosystems are equally affected, as microplastics alter the structure of agricultural land and reduce earthworm activity. Researchers warn that without significant reductions in plastic production, concentrations in every major environment will continue to rise throughout this century."
+      }
+    },
+    {
+      "id": "r48-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To argue that governments must immediately ban all plastic manufacturing.",
+        "To describe scientific research methods used to detect microplastics in water.",
+        "To inform readers about the diverse pathways through which microplastics permeate global environments.",
+        "To compare the effectiveness of different strategies for reducing plastic pollution."
+      ],
+      "answer": 2,
+      "explanation": "The passage systematically traces how microplastics spread via wind, water, and food chains. Its purpose is informational — explaining the breadth of environmental contamination rather than advocating policy or comparing solutions.",
+      "wrongReasons": [
+        "While the conclusion implies urgency, the passage makes no explicit policy argument or call for a ban.",
+        "Research methods are mentioned only briefly; the passage does not focus on how scientists detect microplastics.",
+        "No strategies for reduction are compared; the passage describes the problem, not solutions."
+      ],
+      "passage": {
+        "id": "r48-passage",
+        "title": "How Microplastics Spread",
+        "body": "Microplastics are plastic fragments smaller than five millimeters, produced when larger plastic objects break down under sunlight, heat, and mechanical stress. They originate from sources as varied as synthetic clothing fibers, disposable packaging, and industrial pellets. Once released into the environment, microplastics travel through an astonishing range of pathways. Wind carries airborne particles thousands of kilometers, depositing them in remote mountain ranges and arctic ice fields far from any human settlement. Rivers and storm drains funnel terrestrial microplastics into coastal waters, where ocean currents distribute them across entire ocean basins. Even groundwater is not immune: studies have detected microplastic contamination in aquifers used for drinking water. Marine organisms ingest microplastics directly, allowing the particles to move up the food chain. Soil ecosystems are equally affected, as microplastics alter the structure of agricultural land and reduce earthworm activity. Researchers warn that without significant reductions in plastic production, concentrations in every major environment will continue to rise throughout this century."
+      }
+    },
+    {
+      "id": "r49-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Curiosity is an innate trait that cannot be developed through education or environment.",
+        "Curiosity drives deeper learning by motivating exploration, sustaining attention, and strengthening memory.",
+        "Modern school curricula successfully foster curiosity by rewarding students who ask questions.",
+        "The relationship between curiosity and academic performance has not yet been scientifically studied."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that curiosity functions as a cognitive engine — motivating exploration, maintaining focus, and improving retention — making option B the central claim.",
+      "wrongReasons": [
+        "The passage suggests curiosity can be cultivated, contradicting the idea that it is entirely fixed.",
+        "The passage criticizes school curricula for prioritizing memorization over inquiry, not praising them.",
+        "The passage cites neuroscientific research and cognitive studies, indicating the topic has been extensively studied."
+      ],
+      "passage": {
+        "id": "r49-passage",
+        "title": "The Role of Curiosity in Learning",
+        "body": "Curiosity is far more than a pleasant personality trait — it is a fundamental engine of learning. Neuroscientific research has shown that when people encounter information that sparks genuine interest, the brain releases dopamine, a neurotransmitter associated with reward and motivation. This chemical response heightens attention and makes the brain more receptive to storing new information in long-term memory. Students who approach subjects with curiosity tend to ask deeper questions, pursue answers beyond the required curriculum, and connect new knowledge to existing frameworks more effectively than those who study purely for examinations. Psychologists describe this as intrinsic motivation, distinguishing it from external rewards such as grades or praise. The implications for education are significant. Traditional models that emphasize rote memorization and standardized testing often suppress the very curiosity that makes learning durable and transferable. Educators who create environments where questions are welcomed and uncertainty is treated as an invitation rather than a failure report higher levels of student engagement and retention. Cultivating curiosity, researchers conclude, is not merely a pedagogical ideal but a neurological necessity for deep and lasting learning."
+      }
+    },
+    {
+      "id": "r49-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what chemical is released in the brain when a person encounters genuinely interesting information?",
+      "choices": [
+        "Serotonin",
+        "Cortisol",
+        "Dopamine",
+        "Adrenaline"
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that the brain releases dopamine — associated with reward and motivation — when people encounter information that sparks genuine interest.",
+      "wrongReasons": [
+        "Serotonin is commonly linked to mood regulation but is not mentioned in the passage.",
+        "Cortisol is a stress hormone and is not referenced anywhere in the passage.",
+        "Adrenaline is associated with the fight-or-flight response and is not discussed in the context of curiosity."
+      ],
+      "passage": {
+        "id": "r49-passage",
+        "title": "The Role of Curiosity in Learning",
+        "body": "Curiosity is far more than a pleasant personality trait — it is a fundamental engine of learning. Neuroscientific research has shown that when people encounter information that sparks genuine interest, the brain releases dopamine, a neurotransmitter associated with reward and motivation. This chemical response heightens attention and makes the brain more receptive to storing new information in long-term memory. Students who approach subjects with curiosity tend to ask deeper questions, pursue answers beyond the required curriculum, and connect new knowledge to existing frameworks more effectively than those who study purely for examinations. Psychologists describe this as intrinsic motivation, distinguishing it from external rewards such as grades or praise. The implications for education are significant. Traditional models that emphasize rote memorization and standardized testing often suppress the very curiosity that makes learning durable and transferable. Educators who create environments where questions are welcomed and uncertainty is treated as an invitation rather than a failure report higher levels of student engagement and retention. Cultivating curiosity, researchers conclude, is not merely a pedagogical ideal but a neurological necessity for deep and lasting learning."
+      }
+    },
+    {
+      "id": "r49-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the relationship between standardized testing and curiosity?",
+      "choices": [
+        "Standardized testing effectively measures a student's level of curiosity.",
+        "Standardized testing and curiosity are complementary forces that reinforce each other.",
+        "Excessive focus on standardized testing may undermine the development of curiosity.",
+        "Students who score well on standardized tests are usually more curious than their peers."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that traditional models emphasizing 'rote memorization and standardized testing often suppress the very curiosity that makes learning durable,' implying an antagonistic relationship.",
+      "wrongReasons": [
+        "The passage does not suggest tests measure curiosity; curiosity is described as intrinsic motivation, not a testable output.",
+        "The passage frames standardized testing as suppressing curiosity, not reinforcing it.",
+        "No correlation between test scores and curiosity levels is drawn; the passage treats them as separate phenomena."
+      ],
+      "passage": {
+        "id": "r49-passage",
+        "title": "The Role of Curiosity in Learning",
+        "body": "Curiosity is far more than a pleasant personality trait — it is a fundamental engine of learning. Neuroscientific research has shown that when people encounter information that sparks genuine interest, the brain releases dopamine, a neurotransmitter associated with reward and motivation. This chemical response heightens attention and makes the brain more receptive to storing new information in long-term memory. Students who approach subjects with curiosity tend to ask deeper questions, pursue answers beyond the required curriculum, and connect new knowledge to existing frameworks more effectively than those who study purely for examinations. Psychologists describe this as intrinsic motivation, distinguishing it from external rewards such as grades or praise. The implications for education are significant. Traditional models that emphasize rote memorization and standardized testing often suppress the very curiosity that makes learning durable and transferable. Educators who create environments where questions are welcomed and uncertainty is treated as an invitation rather than a failure report higher levels of student engagement and retention. Cultivating curiosity, researchers conclude, is not merely a pedagogical ideal but a neurological necessity for deep and lasting learning."
+      }
+    },
+    {
+      "id": "r49-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'transferable' most nearly means:",
+      "choices": [
+        "Easy to forget under pressure",
+        "Applicable across different subjects and contexts",
+        "Dependent on the guidance of a teacher",
+        "Stored only in short-term memory"
+      ],
+      "answer": 1,
+      "explanation": "In the phrase 'learning durable and transferable,' the passage contrasts curiosity-driven learning with rote memorization, implying that transferable knowledge can be applied beyond the original context.",
+      "wrongReasons": [
+        "'Easy to forget under pressure' is the opposite of the durable, lasting learning the passage promotes.",
+        "The passage emphasizes learner-driven curiosity rather than teacher dependency as a hallmark of transferable knowledge.",
+        "The passage links curiosity to long-term memory storage, not short-term memory."
+      ],
+      "passage": {
+        "id": "r49-passage",
+        "title": "The Role of Curiosity in Learning",
+        "body": "Curiosity is far more than a pleasant personality trait — it is a fundamental engine of learning. Neuroscientific research has shown that when people encounter information that sparks genuine interest, the brain releases dopamine, a neurotransmitter associated with reward and motivation. This chemical response heightens attention and makes the brain more receptive to storing new information in long-term memory. Students who approach subjects with curiosity tend to ask deeper questions, pursue answers beyond the required curriculum, and connect new knowledge to existing frameworks more effectively than those who study purely for examinations. Psychologists describe this as intrinsic motivation, distinguishing it from external rewards such as grades or praise. The implications for education are significant. Traditional models that emphasize rote memorization and standardized testing often suppress the very curiosity that makes learning durable and transferable. Educators who create environments where questions are welcomed and uncertainty is treated as an invitation rather than a failure report higher levels of student engagement and retention. Cultivating curiosity, researchers conclude, is not merely a pedagogical ideal but a neurological necessity for deep and lasting learning."
+      }
+    },
+    {
+      "id": "r49-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To entertain readers with anecdotes about curious students who outperformed their classmates.",
+        "To persuade educators and policymakers that nurturing curiosity should be a central educational priority.",
+        "To present a neutral summary of competing theories about the causes of student disengagement.",
+        "To warn parents that dopamine dependency can develop if children are given too much freedom in learning."
+      ],
+      "answer": 1,
+      "explanation": "The passage uses neuroscientific evidence and criticism of rote-learning models to build an argument that curiosity is essential and that education systems should prioritize it — a clear persuasive purpose.",
+      "wrongReasons": [
+        "No anecdotes or stories about individual students appear; the passage relies on research and general observations.",
+        "The passage takes a clear position in favor of curiosity-driven learning rather than presenting competing theories neutrally.",
+        "The passage frames dopamine release as a benefit of curiosity, not a warning about dependency."
+      ],
+      "passage": {
+        "id": "r49-passage",
+        "title": "The Role of Curiosity in Learning",
+        "body": "Curiosity is far more than a pleasant personality trait — it is a fundamental engine of learning. Neuroscientific research has shown that when people encounter information that sparks genuine interest, the brain releases dopamine, a neurotransmitter associated with reward and motivation. This chemical response heightens attention and makes the brain more receptive to storing new information in long-term memory. Students who approach subjects with curiosity tend to ask deeper questions, pursue answers beyond the required curriculum, and connect new knowledge to existing frameworks more effectively than those who study purely for examinations. Psychologists describe this as intrinsic motivation, distinguishing it from external rewards such as grades or praise. The implications for education are significant. Traditional models that emphasize rote memorization and standardized testing often suppress the very curiosity that makes learning durable and transferable. Educators who create environments where questions are welcomed and uncertainty is treated as an invitation rather than a failure report higher levels of student engagement and retention. Cultivating curiosity, researchers conclude, is not merely a pedagogical ideal but a neurological necessity for deep and lasting learning."
+      }
+    },
+    {
+      "id": "r50-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Trust between individuals and institutions is built instantly through a single honest interaction.",
+        "Trust is a structural phenomenon built incrementally through consistent behavior, transparency, and accountability.",
+        "Modern organizations have abandoned trust in favor of legal contracts as a more reliable foundation.",
+        "Research shows that personal trust and institutional trust develop through identical psychological processes."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes trust as something constructed layer by layer through repeated reliable actions, openness, and willingness to accept responsibility — making option B the central argument.",
+      "wrongReasons": [
+        "The passage explicitly states trust is built 'incrementally' over time, not instantly through a single event.",
+        "The passage argues trust remains essential even alongside legal agreements, contradicting the idea it has been abandoned.",
+        "The passage distinguishes interpersonal and institutional trust as related but not identical, noting each has its own dynamics."
+      ],
+      "passage": {
+        "id": "r50-passage",
+        "title": "The Architecture of Trust",
+        "body": "Trust is not a feeling but a structure — one assembled gradually through repeated experiences of reliability, honesty, and mutual vulnerability. Psychologists distinguish between interpersonal trust, which develops between individuals, and institutional trust, which governs relationships between people and organizations such as governments, banks, or media outlets. Both forms share a common architecture: they are built incrementally and can be destroyed in an instant. A single act of betrayal — a lie exposed, a promise broken, a confidence violated — can unravel years of carefully accumulated credibility. Conversely, consistent behavior over time creates what researchers call 'trust capital,' a reservoir of goodwill that allows relationships to absorb occasional mistakes without collapsing. Transparency plays a critical role. Organizations and individuals who communicate openly about their limitations and uncertainties tend to earn more durable trust than those who project invulnerability. Accountability is equally important: acknowledging errors and taking corrective action signals that the trustworthy party values the relationship more than its own reputation. In an era of widespread skepticism, understanding trust's architecture is essential for rebuilding connections that hold communities and institutions together."
+      }
+    },
+    {
+      "id": "r50-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what do researchers call the accumulated goodwill that helps relationships survive occasional mistakes?",
+      "choices": [
+        "Social resilience",
+        "Emotional capital",
+        "Trust capital",
+        "Credibility reserve"
+      ],
+      "answer": 2,
+      "explanation": "The passage directly uses the term 'trust capital' to describe the reservoir of goodwill that allows relationships to absorb mistakes without collapsing.",
+      "wrongReasons": [
+        "'Social resilience' is not a term used in the passage; it is not presented as a research concept here.",
+        "'Emotional capital' does not appear in the passage; the specific term used is 'trust capital.'",
+        "'Credibility reserve' is not mentioned; while credibility is discussed, the exact phrase from the passage is 'trust capital.'"
+      ],
+      "passage": {
+        "id": "r50-passage",
+        "title": "The Architecture of Trust",
+        "body": "Trust is not a feeling but a structure — one assembled gradually through repeated experiences of reliability, honesty, and mutual vulnerability. Psychologists distinguish between interpersonal trust, which develops between individuals, and institutional trust, which governs relationships between people and organizations such as governments, banks, or media outlets. Both forms share a common architecture: they are built incrementally and can be destroyed in an instant. A single act of betrayal — a lie exposed, a promise broken, a confidence violated — can unravel years of carefully accumulated credibility. Conversely, consistent behavior over time creates what researchers call 'trust capital,' a reservoir of goodwill that allows relationships to absorb occasional mistakes without collapsing. Transparency plays a critical role. Organizations and individuals who communicate openly about their limitations and uncertainties tend to earn more durable trust than those who project invulnerability. Accountability is equally important: acknowledging errors and taking corrective action signals that the trustworthy party values the relationship more than its own reputation. In an era of widespread skepticism, understanding trust's architecture is essential for rebuilding connections that hold communities and institutions together."
+      }
+    },
+    {
+      "id": "r50-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about organizations that project an image of invulnerability?",
+      "choices": [
+        "They are more likely to earn lasting public trust because they appear competent and reliable.",
+        "They tend to accumulate more trust capital than transparent organizations over time.",
+        "They may earn less durable trust compared to organizations that openly acknowledge limitations.",
+        "They avoid public scrutiny by using legal contracts instead of transparency."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that organizations communicating openly about limitations 'tend to earn more durable trust than those who project invulnerability,' implying the latter earn less lasting trust.",
+      "wrongReasons": [
+        "The passage directly contradicts this, stating transparency — not projected invulnerability — builds more lasting trust.",
+        "The passage implies invulnerable-seeming organizations build less, not more, trust capital.",
+        "Legal contracts replacing transparency is not discussed; the passage focuses on communication style."
+      ],
+      "passage": {
+        "id": "r50-passage",
+        "title": "The Architecture of Trust",
+        "body": "Trust is not a feeling but a structure — one assembled gradually through repeated experiences of reliability, honesty, and mutual vulnerability. Psychologists distinguish between interpersonal trust, which develops between individuals, and institutional trust, which governs relationships between people and organizations such as governments, banks, or media outlets. Both forms share a common architecture: they are built incrementally and can be destroyed in an instant. A single act of betrayal — a lie exposed, a promise broken, a confidence violated — can unravel years of carefully accumulated credibility. Conversely, consistent behavior over time creates what researchers call 'trust capital,' a reservoir of goodwill that allows relationships to absorb occasional mistakes without collapsing. Transparency plays a critical role. Organizations and individuals who communicate openly about their limitations and uncertainties tend to earn more durable trust than those who project invulnerability. Accountability is equally important: acknowledging errors and taking corrective action signals that the trustworthy party values the relationship more than its own reputation. In an era of widespread skepticism, understanding trust's architecture is essential for rebuilding connections that hold communities and institutions together."
+      }
+    },
+    {
+      "id": "r50-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'accumulated' most nearly means:",
+      "choices": [
+        "Suddenly acquired",
+        "Publicly displayed",
+        "Built up gradually over time",
+        "Formally documented"
+      ],
+      "answer": 2,
+      "explanation": "In 'years of carefully accumulated credibility,' the word 'accumulated' describes credibility built up through sustained effort over a long period, consistent with its meaning of gradual buildup.",
+      "wrongReasons": [
+        "'Suddenly acquired' contradicts the passage's emphasis on gradual, incremental trust-building over years.",
+        "'Publicly displayed' refers to visibility, not the process of building credibility described in the passage.",
+        "'Formally documented' implies legal or official recording, which is not the sense intended or described here."
+      ],
+      "passage": {
+        "id": "r50-passage",
+        "title": "The Architecture of Trust",
+        "body": "Trust is not a feeling but a structure — one assembled gradually through repeated experiences of reliability, honesty, and mutual vulnerability. Psychologists distinguish between interpersonal trust, which develops between individuals, and institutional trust, which governs relationships between people and organizations such as governments, banks, or media outlets. Both forms share a common architecture: they are built incrementally and can be destroyed in an instant. A single act of betrayal — a lie exposed, a promise broken, a confidence violated — can unravel years of carefully accumulated credibility. Conversely, consistent behavior over time creates what researchers call 'trust capital,' a reservoir of goodwill that allows relationships to absorb occasional mistakes without collapsing. Transparency plays a critical role. Organizations and individuals who communicate openly about their limitations and uncertainties tend to earn more durable trust than those who project invulnerability. Accountability is equally important: acknowledging errors and taking corrective action signals that the trustworthy party values the relationship more than its own reputation. In an era of widespread skepticism, understanding trust's architecture is essential for rebuilding connections that hold communities and institutions together."
+      }
+    },
+    {
+      "id": "r50-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To entertain readers with historical examples of famous betrayals that destroyed public institutions.",
+        "To explain the psychological and structural mechanisms of trust and highlight their importance in society.",
+        "To argue that interpersonal trust is more valuable than institutional trust in modern democracies.",
+        "To warn that legal contracts are insufficient replacements for genuine accountability."
+      ],
+      "answer": 1,
+      "explanation": "The author systematically explains how trust is built and damaged using psychological concepts, then closes with a statement about trust's importance for communities — a clear informative and analytical purpose.",
+      "wrongReasons": [
+        "No historical examples or famous betrayals are narrated; the passage uses general principles, not anecdotes.",
+        "The passage treats both interpersonal and institutional trust as equally important, not arguing for one over the other.",
+        "Legal contracts are not mentioned in the passage; the focus is on transparency and accountability, not legal instruments."
+      ],
+      "passage": {
+        "id": "r50-passage",
+        "title": "The Architecture of Trust",
+        "body": "Trust is not a feeling but a structure — one assembled gradually through repeated experiences of reliability, honesty, and mutual vulnerability. Psychologists distinguish between interpersonal trust, which develops between individuals, and institutional trust, which governs relationships between people and organizations such as governments, banks, or media outlets. Both forms share a common architecture: they are built incrementally and can be destroyed in an instant. A single act of betrayal — a lie exposed, a promise broken, a confidence violated — can unravel years of carefully accumulated credibility. Conversely, consistent behavior over time creates what researchers call 'trust capital,' a reservoir of goodwill that allows relationships to absorb occasional mistakes without collapsing. Transparency plays a critical role. Organizations and individuals who communicate openly about their limitations and uncertainties tend to earn more durable trust than those who project invulnerability. Accountability is equally important: acknowledging errors and taking corrective action signals that the trustworthy party values the relationship more than its own reputation. In an era of widespread skepticism, understanding trust's architecture is essential for rebuilding connections that hold communities and institutions together."
+      }
+    },
+    {
+      "id": "r51-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Noise pollution is a minor inconvenience that humans adapt to within a few weeks of exposure.",
+        "Noise pollution poses serious and wide-ranging health risks that extend well beyond hearing damage.",
+        "Governments have successfully implemented regulations that have eliminated urban noise pollution.",
+        "Traffic noise is less harmful than aircraft noise because it fluctuates more predictably."
+      ],
+      "answer": 1,
+      "explanation": "The passage surveys multiple health consequences of noise pollution — cardiovascular disease, cognitive impairment, sleep disruption, and mental health effects — establishing that its harms are serious and wide-ranging.",
+      "wrongReasons": [
+        "The passage describes chronic stress and lasting health damage, not adaptation; no adaptation timeline is mentioned.",
+        "The passage notes regulation exists but implies health burdens remain high, suggesting elimination has not occurred.",
+        "No comparison between traffic and aircraft noise severity is made in the passage."
+      ],
+      "passage": {
+        "id": "r51-passage",
+        "title": "Noise Pollution and Health",
+        "body": "Noise pollution is increasingly recognized as a significant public health threat, extending far beyond the obvious risk of hearing loss. Chronic exposure to elevated sound levels — particularly from traffic, aircraft, and industrial machinery — activates the body's stress response even during sleep, triggering the release of cortisol and adrenaline. Over time, this sustained physiological arousal contributes to elevated blood pressure, increased risk of cardiovascular disease, and impaired immune function. Children are especially vulnerable: studies conducted near busy airports and motorways consistently show that pupils exposed to chronic noise perform worse on reading comprehension, memory tasks, and problem-solving tests compared to peers in quieter environments. Sleep disruption compounds these effects, as noise at night prevents the restorative processes essential for cognitive consolidation and physical repair. Mental health outcomes are also affected; populations living in high-noise areas report higher rates of anxiety, depression, and social withdrawal. Despite growing evidence, noise pollution remains chronically underfunded relative to air and water pollution in environmental health budgets. Researchers argue that treating it as a lower priority is a costly mistake given the scale of its measurable health burden."
+      }
+    },
+    {
+      "id": "r51-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which group is identified as especially vulnerable to noise pollution?",
+      "choices": [
+        "Elderly adults living in rural areas",
+        "Industrial workers exposed to machinery",
+        "Children living near airports and motorways",
+        "Commuters who use public transportation daily"
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that 'children are especially vulnerable' and cites studies of pupils near airports and motorways showing impaired academic performance.",
+      "wrongReasons": [
+        "Elderly adults are not identified as a specifically vulnerable group in the passage.",
+        "Industrial workers are mentioned as a noise source but are not identified as the especially vulnerable population.",
+        "Commuters are not discussed or identified as a vulnerable group anywhere in the passage."
+      ],
+      "passage": {
+        "id": "r51-passage",
+        "title": "Noise Pollution and Health",
+        "body": "Noise pollution is increasingly recognized as a significant public health threat, extending far beyond the obvious risk of hearing loss. Chronic exposure to elevated sound levels — particularly from traffic, aircraft, and industrial machinery — activates the body's stress response even during sleep, triggering the release of cortisol and adrenaline. Over time, this sustained physiological arousal contributes to elevated blood pressure, increased risk of cardiovascular disease, and impaired immune function. Children are especially vulnerable: studies conducted near busy airports and motorways consistently show that pupils exposed to chronic noise perform worse on reading comprehension, memory tasks, and problem-solving tests compared to peers in quieter environments. Sleep disruption compounds these effects, as noise at night prevents the restorative processes essential for cognitive consolidation and physical repair. Mental health outcomes are also affected; populations living in high-noise areas report higher rates of anxiety, depression, and social withdrawal. Despite growing evidence, noise pollution remains chronically underfunded relative to air and water pollution in environmental health budgets. Researchers argue that treating it as a lower priority is a costly mistake given the scale of its measurable health burden."
+      }
+    },
+    {
+      "id": "r51-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the relationship between noise pollution and cardiovascular health?",
+      "choices": [
+        "Cardiovascular risk only increases if noise exposure occurs during waking hours.",
+        "The passage suggests a link between chronic noise, prolonged stress responses, and elevated cardiovascular risk.",
+        "Heart disease caused by noise is reversible once individuals move to quieter neighborhoods.",
+        "Cardiovascular disease from noise is primarily observed in industrial workers, not urban residents."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes a chain: chronic noise activates the stress response even during sleep, releasing cortisol and adrenaline, which over time contributes to elevated blood pressure and increased cardiovascular disease risk.",
+      "wrongReasons": [
+        "The passage specifically notes the stress response is triggered 'even during sleep,' contradicting the waking-hours-only claim.",
+        "The passage makes no mention of reversibility; it focuses on describing the cumulative harm.",
+        "The passage discusses urban populations broadly and children near airports; it does not restrict cardiovascular risk to industrial workers."
+      ],
+      "passage": {
+        "id": "r51-passage",
+        "title": "Noise Pollution and Health",
+        "body": "Noise pollution is increasingly recognized as a significant public health threat, extending far beyond the obvious risk of hearing loss. Chronic exposure to elevated sound levels — particularly from traffic, aircraft, and industrial machinery — activates the body's stress response even during sleep, triggering the release of cortisol and adrenaline. Over time, this sustained physiological arousal contributes to elevated blood pressure, increased risk of cardiovascular disease, and impaired immune function. Children are especially vulnerable: studies conducted near busy airports and motorways consistently show that pupils exposed to chronic noise perform worse on reading comprehension, memory tasks, and problem-solving tests compared to peers in quieter environments. Sleep disruption compounds these effects, as noise at night prevents the restorative processes essential for cognitive consolidation and physical repair. Mental health outcomes are also affected; populations living in high-noise areas report higher rates of anxiety, depression, and social withdrawal. Despite growing evidence, noise pollution remains chronically underfunded relative to air and water pollution in environmental health budgets. Researchers argue that treating it as a lower priority is a costly mistake given the scale of its measurable health burden."
+      }
+    },
+    {
+      "id": "r51-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'compounds' most nearly means:",
+      "choices": [
+        "Reduces and simplifies",
+        "Separates into distinct categories",
+        "Worsens by adding to existing effects",
+        "Chemically alters the structure of"
+      ],
+      "answer": 2,
+      "explanation": "In 'Sleep disruption compounds these effects,' the word means that sleep disruption makes the existing health harms worse by adding its own negative contributions on top of them.",
+      "wrongReasons": [
+        "'Reduces and simplifies' is the opposite of the intensifying meaning used in the passage.",
+        "'Separates into distinct categories' implies division, not the accumulation of harmful effects described here.",
+        "'Chemically alters the structure of' is a literal scientific meaning unrelated to the figurative health-effects context used in the passage."
+      ],
+      "passage": {
+        "id": "r51-passage",
+        "title": "Noise Pollution and Health",
+        "body": "Noise pollution is increasingly recognized as a significant public health threat, extending far beyond the obvious risk of hearing loss. Chronic exposure to elevated sound levels — particularly from traffic, aircraft, and industrial machinery — activates the body's stress response even during sleep, triggering the release of cortisol and adrenaline. Over time, this sustained physiological arousal contributes to elevated blood pressure, increased risk of cardiovascular disease, and impaired immune function. Children are especially vulnerable: studies conducted near busy airports and motorways consistently show that pupils exposed to chronic noise perform worse on reading comprehension, memory tasks, and problem-solving tests compared to peers in quieter environments. Sleep disruption compounds these effects, as noise at night prevents the restorative processes essential for cognitive consolidation and physical repair. Mental health outcomes are also affected; populations living in high-noise areas report higher rates of anxiety, depression, and social withdrawal. Despite growing evidence, noise pollution remains chronically underfunded relative to air and water pollution in environmental health budgets. Researchers argue that treating it as a lower priority is a costly mistake given the scale of its measurable health burden."
+      }
+    },
+    {
+      "id": "r51-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To compare noise pollution regulations across different countries and assess their effectiveness.",
+        "To convince readers that hearing protection devices should be required in all workplaces.",
+        "To demonstrate that noise pollution is a serious, underfunded public health issue deserving greater attention and resources.",
+        "To provide a historical account of how awareness of noise pollution developed in the twentieth century."
+      ],
+      "answer": 2,
+      "explanation": "The passage builds a case that noise pollution causes serious health damage across multiple domains, then explicitly criticizes the underfunding of noise pollution research relative to other environmental issues — a clear advocacy purpose.",
+      "wrongReasons": [
+        "No international regulatory comparison is made; the passage focuses on health effects and funding gaps, not policy differences.",
+        "Workplace hearing protection is not mentioned; the passage focuses on community-level environmental noise, not occupational safety.",
+        "No historical timeline of awareness is given; the passage presents current research findings and an argument about present priorities."
+      ],
+      "passage": {
+        "id": "r51-passage",
+        "title": "Noise Pollution and Health",
+        "body": "Noise pollution is increasingly recognized as a significant public health threat, extending far beyond the obvious risk of hearing loss. Chronic exposure to elevated sound levels — particularly from traffic, aircraft, and industrial machinery — activates the body's stress response even during sleep, triggering the release of cortisol and adrenaline. Over time, this sustained physiological arousal contributes to elevated blood pressure, increased risk of cardiovascular disease, and impaired immune function. Children are especially vulnerable: studies conducted near busy airports and motorways consistently show that pupils exposed to chronic noise perform worse on reading comprehension, memory tasks, and problem-solving tests compared to peers in quieter environments. Sleep disruption compounds these effects, as noise at night prevents the restorative processes essential for cognitive consolidation and physical repair. Mental health outcomes are also affected; populations living in high-noise areas report higher rates of anxiety, depression, and social withdrawal. Despite growing evidence, noise pollution remains chronically underfunded relative to air and water pollution in environmental health budgets. Researchers argue that treating it as a lower priority is a costly mistake given the scale of its measurable health burden."
+      }
+    },
+    {
+      "id": "r52-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Electric vehicles are replacing buses and trains as the preferred form of public transportation worldwide.",
+        "Public transport is being transformed by technology and policy shifts that could make it faster, cleaner, and more equitable.",
+        "Most cities have already completed the transition to fully autonomous public transport systems.",
+        "Rising fuel costs are the primary obstacle preventing cities from expanding their public transport networks."
+      ],
+      "answer": 1,
+      "explanation": "The passage surveys emerging technologies and policy directions reshaping public transport, presenting a vision of systems that are more efficient, sustainable, and accessible — matching option B.",
+      "wrongReasons": [
+        "The passage presents electric vehicles as part of bus and train fleet modernization, not as a replacement for public transport.",
+        "The passage describes autonomous vehicles as 'beginning pilot programs,' indicating the transition is in early stages, not complete.",
+        "Fuel costs are not mentioned; the passage focuses on technology and policy as drivers of change."
+      ],
+      "passage": {
+        "id": "r52-passage",
+        "title": "The Future of Public Transport",
+        "body": "Public transportation systems worldwide stand at a pivotal moment of transformation, driven by advances in technology, shifting urban demographics, and mounting pressure to reduce carbon emissions. Electric buses and hydrogen-powered trains are replacing fossil fuel fleets in cities from Oslo to Singapore, dramatically reducing both operational costs and air pollution. Autonomous vehicles are beginning pilot programs in controlled urban corridors, promising to extend service to underserved neighborhoods where driver shortages make traditional routes economically unviable. Real-time data and artificial intelligence are reshaping how networks are planned and managed, enabling dynamic routing that responds to passenger demand rather than fixed schedules. Smart ticketing systems that integrate multiple transport modes — buses, metros, bicycles, and rideshare services — are reducing friction for commuters and encouraging modal shifts away from private cars. Yet significant challenges remain. Infrastructure investment gaps disproportionately affect lower-income cities and rural regions, risking a two-tier system where only wealthy urban centers benefit from modernization. Policymakers must therefore balance technological ambition with equity considerations, ensuring that the future of public transport serves not just efficiency metrics but the full diversity of communities that depend on it."
+      }
+    },
+    {
+      "id": "r52-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what advantage do autonomous vehicles offer for underserved neighborhoods?",
+      "choices": [
+        "They eliminate the need for smart ticketing systems in low-income areas.",
+        "They can extend transit service where driver shortages make traditional routes unviable.",
+        "They have already replaced all fixed-schedule bus routes in major cities.",
+        "They reduce carbon emissions more effectively than hydrogen-powered trains."
+      ],
+      "answer": 1,
+      "explanation": "The passage states autonomous vehicles promise to 'extend service to underserved neighborhoods where driver shortages make traditional routes economically unviable.'",
+      "wrongReasons": [
+        "The passage links smart ticketing to commuter integration across modes, not specifically to low-income areas replacing autonomous vehicles.",
+        "The passage says autonomous vehicles are in 'pilot programs,' not that they have replaced fixed routes everywhere.",
+        "No comparison of emissions between autonomous vehicles and hydrogen trains is made in the passage."
+      ],
+      "passage": {
+        "id": "r52-passage",
+        "title": "The Future of Public Transport",
+        "body": "Public transportation systems worldwide stand at a pivotal moment of transformation, driven by advances in technology, shifting urban demographics, and mounting pressure to reduce carbon emissions. Electric buses and hydrogen-powered trains are replacing fossil fuel fleets in cities from Oslo to Singapore, dramatically reducing both operational costs and air pollution. Autonomous vehicles are beginning pilot programs in controlled urban corridors, promising to extend service to underserved neighborhoods where driver shortages make traditional routes economically unviable. Real-time data and artificial intelligence are reshaping how networks are planned and managed, enabling dynamic routing that responds to passenger demand rather than fixed schedules. Smart ticketing systems that integrate multiple transport modes — buses, metros, bicycles, and rideshare services — are reducing friction for commuters and encouraging modal shifts away from private cars. Yet significant challenges remain. Infrastructure investment gaps disproportionately affect lower-income cities and rural regions, risking a two-tier system where only wealthy urban centers benefit from modernization. Policymakers must therefore balance technological ambition with equity considerations, ensuring that the future of public transport serves not just efficiency metrics but the full diversity of communities that depend on it."
+      }
+    },
+    {
+      "id": "r52-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the risk of a 'two-tier system' described in the passage?",
+      "choices": [
+        "A two-tier system would benefit both wealthy and lower-income cities equally through shared technology.",
+        "If investment gaps persist, advanced transport improvements may benefit only wealthier urban areas while others fall behind.",
+        "The two-tier system refers to separating passenger classes on the same transport network.",
+        "Rural regions will inevitably achieve transport parity with cities once autonomous vehicles are fully deployed."
+      ],
+      "answer": 1,
+      "explanation": "The passage warns that infrastructure investment gaps 'risk a two-tier system where only wealthy urban centers benefit from modernization,' implying lower-income and rural areas could be left behind.",
+      "wrongReasons": [
+        "The passage warns the two-tier system would benefit only wealthy areas, not both equally.",
+        "The passage uses 'two-tier' to distinguish between cities and regions by wealth and investment, not by passenger class on shared networks.",
+        "The passage does not suggest inevitability of parity; it frames equity as something policymakers must actively pursue."
+      ],
+      "passage": {
+        "id": "r52-passage",
+        "title": "The Future of Public Transport",
+        "body": "Public transportation systems worldwide stand at a pivotal moment of transformation, driven by advances in technology, shifting urban demographics, and mounting pressure to reduce carbon emissions. Electric buses and hydrogen-powered trains are replacing fossil fuel fleets in cities from Oslo to Singapore, dramatically reducing both operational costs and air pollution. Autonomous vehicles are beginning pilot programs in controlled urban corridors, promising to extend service to underserved neighborhoods where driver shortages make traditional routes economically unviable. Real-time data and artificial intelligence are reshaping how networks are planned and managed, enabling dynamic routing that responds to passenger demand rather than fixed schedules. Smart ticketing systems that integrate multiple transport modes — buses, metros, bicycles, and rideshare services — are reducing friction for commuters and encouraging modal shifts away from private cars. Yet significant challenges remain. Infrastructure investment gaps disproportionately affect lower-income cities and rural regions, risking a two-tier system where only wealthy urban centers benefit from modernization. Policymakers must therefore balance technological ambition with equity considerations, ensuring that the future of public transport serves not just efficiency metrics but the full diversity of communities that depend on it."
+      }
+    },
+    {
+      "id": "r52-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'friction' most nearly means:",
+      "choices": [
+        "Physical resistance between vehicle wheels and road surfaces",
+        "Conflict between commuters and transport operators",
+        "Barriers and inconveniences that make using transit harder",
+        "Regulatory delays slowing the approval of new transport technologies"
+      ],
+      "answer": 2,
+      "explanation": "In 'reducing friction for commuters,' friction is used figuratively to mean the inconveniences and complications — such as juggling different tickets or apps — that make using multiple transport modes cumbersome.",
+      "wrongReasons": [
+        "'Physical resistance between wheels and road' is a literal mechanical meaning unrelated to the passenger experience context used here.",
+        "Conflict between commuters and operators is not discussed; the passage focuses on the ease of using ticketing systems.",
+        "Regulatory delays are not mentioned; friction in this context refers to the commuter experience, not the policy process."
+      ],
+      "passage": {
+        "id": "r52-passage",
+        "title": "The Future of Public Transport",
+        "body": "Public transportation systems worldwide stand at a pivotal moment of transformation, driven by advances in technology, shifting urban demographics, and mounting pressure to reduce carbon emissions. Electric buses and hydrogen-powered trains are replacing fossil fuel fleets in cities from Oslo to Singapore, dramatically reducing both operational costs and air pollution. Autonomous vehicles are beginning pilot programs in controlled urban corridors, promising to extend service to underserved neighborhoods where driver shortages make traditional routes economically unviable. Real-time data and artificial intelligence are reshaping how networks are planned and managed, enabling dynamic routing that responds to passenger demand rather than fixed schedules. Smart ticketing systems that integrate multiple transport modes — buses, metros, bicycles, and rideshare services — are reducing friction for commuters and encouraging modal shifts away from private cars. Yet significant challenges remain. Infrastructure investment gaps disproportionately affect lower-income cities and rural regions, risking a two-tier system where only wealthy urban centers benefit from modernization. Policymakers must therefore balance technological ambition with equity considerations, ensuring that the future of public transport serves not just efficiency metrics but the full diversity of communities that depend on it."
+      }
+    },
+    {
+      "id": "r52-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To celebrate the technological achievements of cities like Oslo and Singapore as models for all nations to copy immediately.",
+        "To warn that autonomous vehicles are too dangerous to be deployed in urban environments without further testing.",
+        "To present a balanced analysis of public transport's transformative potential while cautioning that equity must guide implementation.",
+        "To argue that private cars should be banned in order to accelerate the adoption of new public transport systems."
+      ],
+      "answer": 2,
+      "explanation": "The passage acknowledges exciting technological advances and then introduces equity concerns, concluding that policymakers must balance both goals — a hallmark of balanced analytical writing with an advocacy dimension.",
+      "wrongReasons": [
+        "While Oslo and Singapore are mentioned, the passage does not frame them as universal models or call for immediate imitation.",
+        "The passage presents autonomous vehicles positively as a solution to service gaps; no safety concerns are raised.",
+        "No argument for banning private cars is made; the passage notes that smart ticketing 'encourages modal shifts' but does not call for prohibition."
+      ],
+      "passage": {
+        "id": "r52-passage",
+        "title": "The Future of Public Transport",
+        "body": "Public transportation systems worldwide stand at a pivotal moment of transformation, driven by advances in technology, shifting urban demographics, and mounting pressure to reduce carbon emissions. Electric buses and hydrogen-powered trains are replacing fossil fuel fleets in cities from Oslo to Singapore, dramatically reducing both operational costs and air pollution. Autonomous vehicles are beginning pilot programs in controlled urban corridors, promising to extend service to underserved neighborhoods where driver shortages make traditional routes economically unviable. Real-time data and artificial intelligence are reshaping how networks are planned and managed, enabling dynamic routing that responds to passenger demand rather than fixed schedules. Smart ticketing systems that integrate multiple transport modes — buses, metros, bicycles, and rideshare services — are reducing friction for commuters and encouraging modal shifts away from private cars. Yet significant challenges remain. Infrastructure investment gaps disproportionately affect lower-income cities and rural regions, risking a two-tier system where only wealthy urban centers benefit from modernization. Policymakers must therefore balance technological ambition with equity considerations, ensuring that the future of public transport serves not just efficiency metrics but the full diversity of communities that depend on it."
+      }
+    }
+  ]
+}

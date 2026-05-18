@@ -1,0 +1,722 @@
+[
+  {
+    "id": "r39-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Advertising is effective only when consumers are unaware of persuasive intent.",
+      "Advertising employs a range of psychological mechanisms to shape consumer attitudes and behaviour.",
+      "Emotional appeals in advertising are more powerful than any other technique.",
+      "Regulatory bodies must ban subliminal advertising to protect consumers."
+    ],
+    "answer": 1,
+    "explanation": "The passage surveys multiple psychological techniques used in advertising — social proof, scarcity, emotional appeals, mere-exposure, reciprocity — showing that advertising operates through a broad array of mental mechanisms.",
+    "wrongReasons": [
+      "Option A is too narrow; the passage covers conscious as well as unconscious techniques.",
+      "Option C elevates emotional appeals above other techniques without support from the passage.",
+      "Option D introduces regulatory policy not discussed in the passage."
+    ],
+    "passage": {
+      "id": "r39-passage",
+      "title": "The Psychology of Advertising",
+      "body": "Advertising is one of the most psychologically sophisticated industries in the world, drawing on decades of research in perception, emotion, and social behaviour. Among the most powerful techniques is social proof: consumers are more likely to buy a product when they believe others already have. This is why testimonials, star ratings, and phrases like 'bestselling' are so prevalent. Scarcity cues — 'limited time offer' or 'only three left in stock' — exploit loss aversion, the psychological tendency to weight potential losses more heavily than equivalent gains. Emotional appeals bypass analytical thinking by associating products with feelings of happiness, belonging, or security. The mere-exposure effect, discovered by psychologist Robert Zajonc, shows that repeated exposure to a stimulus increases liking, which is why brand logos and jingles are repeated so insistently. Advertisers also use the principle of reciprocity: offering free samples or small gifts creates a felt obligation to reciprocate with a purchase. Critically, many of these techniques operate below the threshold of conscious awareness, meaning consumers may be influenced without realising it. Media literacy researchers argue that understanding these mechanisms is the first step toward becoming a more critical consumer."
+    }
+  },
+  {
+    "id": "r39-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what is the 'mere-exposure effect'?",
+    "choices": [
+      "The tendency to trust products that are endorsed by celebrities.",
+      "The psychological principle that repeated exposure to a stimulus increases liking.",
+      "The effect of free samples in creating a felt obligation to buy.",
+      "The loss aversion triggered by scarcity messages such as 'limited time offer.'"
+    ],
+    "answer": 1,
+    "explanation": "The passage explicitly attributes the mere-exposure effect to Robert Zajonc and defines it as repeated exposure to a stimulus increasing liking.",
+    "wrongReasons": [
+      "Option A describes celebrity endorsement, not the mere-exposure effect.",
+      "Option C describes the reciprocity principle.",
+      "Option D describes scarcity and loss aversion, separate mechanisms."
+    ],
+    "passage": {
+      "id": "r39-passage",
+      "title": "The Psychology of Advertising",
+      "body": "Advertising is one of the most psychologically sophisticated industries in the world, drawing on decades of research in perception, emotion, and social behaviour. Among the most powerful techniques is social proof: consumers are more likely to buy a product when they believe others already have. This is why testimonials, star ratings, and phrases like 'bestselling' are so prevalent. Scarcity cues — 'limited time offer' or 'only three left in stock' — exploit loss aversion, the psychological tendency to weight potential losses more heavily than equivalent gains. Emotional appeals bypass analytical thinking by associating products with feelings of happiness, belonging, or security. The mere-exposure effect, discovered by psychologist Robert Zajonc, shows that repeated exposure to a stimulus increases liking, which is why brand logos and jingles are repeated so insistently. Advertisers also use the principle of reciprocity: offering free samples or small gifts creates a felt obligation to reciprocate with a purchase. Critically, many of these techniques operate below the threshold of conscious awareness, meaning consumers may be influenced without realising it. Media literacy researchers argue that understanding these mechanisms is the first step toward becoming a more critical consumer."
+    }
+  },
+  {
+    "id": "r39-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "Which of the following can be inferred from the passage about consumers who are aware of advertising techniques?",
+    "choices": [
+      "They are completely immune to advertising's influence.",
+      "They are more likely to stop buying from brands that use psychological tactics.",
+      "They are better positioned to evaluate advertising messages critically.",
+      "They tend to prefer emotional appeals over social proof."
+    ],
+    "answer": 2,
+    "explanation": "The passage closes with media literacy researchers arguing that 'understanding these mechanisms is the first step toward becoming a more critical consumer,' implying awareness improves critical evaluation.",
+    "wrongReasons": [
+      "Option A overstates; the passage says awareness is the 'first step,' not a guarantee of immunity.",
+      "Option B introduces a boycott response not mentioned in the passage.",
+      "Option D makes a preference comparison not supported by the passage."
+    ],
+    "passage": {
+      "id": "r39-passage",
+      "title": "The Psychology of Advertising",
+      "body": "Advertising is one of the most psychologically sophisticated industries in the world, drawing on decades of research in perception, emotion, and social behaviour. Among the most powerful techniques is social proof: consumers are more likely to buy a product when they believe others already have. This is why testimonials, star ratings, and phrases like 'bestselling' are so prevalent. Scarcity cues — 'limited time offer' or 'only three left in stock' — exploit loss aversion, the psychological tendency to weight potential losses more heavily than equivalent gains. Emotional appeals bypass analytical thinking by associating products with feelings of happiness, belonging, or security. The mere-exposure effect, discovered by psychologist Robert Zajonc, shows that repeated exposure to a stimulus increases liking, which is why brand logos and jingles are repeated so insistently. Advertisers also use the principle of reciprocity: offering free samples or small gifts creates a felt obligation to reciprocate with a purchase. Critically, many of these techniques operate below the threshold of conscious awareness, meaning consumers may be influenced without realising it. Media literacy researchers argue that understanding these mechanisms is the first step toward becoming a more critical consumer."
+    }
+  },
+  {
+    "id": "r39-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'loss aversion' most nearly means:",
+    "choices": [
+      "A preference for products that are no longer available on the market.",
+      "The tendency to value potential losses more heavily than equivalent gains.",
+      "The reluctance of advertisers to disclose when stock is genuinely limited.",
+      "A consumer habit of returning purchased products for refunds."
+    ],
+    "answer": 1,
+    "explanation": "The passage defines loss aversion as the 'psychological tendency to weight potential losses more heavily than equivalent gains,' which is why scarcity messages are effective.",
+    "wrongReasons": [
+      "Option A misreads the concept as a product preference rather than a weighting asymmetry.",
+      "Option C attributes loss aversion to advertisers rather than consumers.",
+      "Option D describes return behaviour, unrelated to the passage's definition."
+    ],
+    "passage": {
+      "id": "r39-passage",
+      "title": "The Psychology of Advertising",
+      "body": "Advertising is one of the most psychologically sophisticated industries in the world, drawing on decades of research in perception, emotion, and social behaviour. Among the most powerful techniques is social proof: consumers are more likely to buy a product when they believe others already have. This is why testimonials, star ratings, and phrases like 'bestselling' are so prevalent. Scarcity cues — 'limited time offer' or 'only three left in stock' — exploit loss aversion, the psychological tendency to weight potential losses more heavily than equivalent gains. Emotional appeals bypass analytical thinking by associating products with feelings of happiness, belonging, or security. The mere-exposure effect, discovered by psychologist Robert Zajonc, shows that repeated exposure to a stimulus increases liking, which is why brand logos and jingles are repeated so insistently. Advertisers also use the principle of reciprocity: offering free samples or small gifts creates a felt obligation to reciprocate with a purchase. Critically, many of these techniques operate below the threshold of conscious awareness, meaning consumers may be influenced without realising it. Media literacy researchers argue that understanding these mechanisms is the first step toward becoming a more critical consumer."
+    }
+  },
+  {
+    "id": "r39-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author include the detail that many advertising techniques 'operate below the threshold of conscious awareness'?",
+    "choices": [
+      "To argue that advertising is illegal when it targets the unconscious mind.",
+      "To strengthen the case for media literacy by showing that awareness is not automatic.",
+      "To suggest that emotional appeals are the only techniques that work unconsciously.",
+      "To indicate that consumers need professional help to resist advertising."
+    ],
+    "answer": 1,
+    "explanation": "By noting that influence can happen without conscious awareness, the author reinforces the following argument for media literacy: because consumers cannot rely on natural awareness, they must actively learn these mechanisms to protect themselves.",
+    "wrongReasons": [
+      "Option A introduces a legal claim the passage does not make.",
+      "Option C restricts unconscious influence to emotional appeals, contradicting the passage's broader claim.",
+      "Option D adds a claim about professional help that the passage does not make."
+    ],
+    "passage": {
+      "id": "r39-passage",
+      "title": "The Psychology of Advertising",
+      "body": "Advertising is one of the most psychologically sophisticated industries in the world, drawing on decades of research in perception, emotion, and social behaviour. Among the most powerful techniques is social proof: consumers are more likely to buy a product when they believe others already have. This is why testimonials, star ratings, and phrases like 'bestselling' are so prevalent. Scarcity cues — 'limited time offer' or 'only three left in stock' — exploit loss aversion, the psychological tendency to weight potential losses more heavily than equivalent gains. Emotional appeals bypass analytical thinking by associating products with feelings of happiness, belonging, or security. The mere-exposure effect, discovered by psychologist Robert Zajonc, shows that repeated exposure to a stimulus increases liking, which is why brand logos and jingles are repeated so insistently. Advertisers also use the principle of reciprocity: offering free samples or small gifts creates a felt obligation to reciprocate with a purchase. Critically, many of these techniques operate below the threshold of conscious awareness, meaning consumers may be influenced without realising it. Media literacy researchers argue that understanding these mechanisms is the first step toward becoming a more critical consumer."
+    }
+  },
+  {
+    "id": "r40-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "The ocean absorbs so much carbon that it is no longer affected by climate change.",
+      "Oceans store vast amounts of carbon through physical and biological processes, but this capacity has limits.",
+      "Marine organisms are the sole mechanism by which the ocean removes carbon from the atmosphere.",
+      "Human carbon emissions have had no measurable effect on ocean chemistry."
+    ],
+    "answer": 1,
+    "explanation": "The passage describes how oceans absorb carbon through physical dissolution and the biological pump, but notes that warming and acidification are reducing this capacity.",
+    "wrongReasons": [
+      "Option A contradicts the passage, which notes the ocean's declining storage capacity.",
+      "Option C overstates the biological role; the passage also discusses physical dissolution.",
+      "Option D directly contradicts the passage, which details measurable effects on ocean chemistry."
+    ],
+    "passage": {
+      "id": "r40-passage",
+      "title": "How Oceans Store Carbon",
+      "body": "The world's oceans are the planet's largest active carbon sink, absorbing roughly a quarter of the carbon dioxide emitted by human activity each year. This happens through two main mechanisms. First, CO₂ dissolves directly into seawater — a purely physical process driven by the difference in concentration between atmosphere and ocean. Cold water absorbs more CO₂ than warm water, which is why polar seas are especially important. Second, the biological pump: phytoplankton near the ocean surface absorb CO₂ through photosynthesis, converting it into organic matter. When these organisms die, their carbon-rich bodies sink to the deep ocean, effectively locking carbon away for centuries. However, the ocean's ability to store carbon is not unlimited. As seawater absorbs more CO₂, it becomes more acidic — a process called ocean acidification — which threatens marine ecosystems, particularly organisms that build calcium carbonate shells, such as corals and molluscs. Warmer ocean temperatures also reduce the efficiency of the biological pump, because warmer water holds less dissolved oxygen and disrupts the circulation patterns that carry nutrient-rich water to the surface. Scientists warn that as climate change intensifies, the ocean may become a less effective carbon sink, potentially accelerating atmospheric CO₂ accumulation."
+    }
+  },
+  {
+    "id": "r40-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, why are polar seas particularly important for carbon absorption?",
+    "choices": [
+      "They contain the highest concentrations of phytoplankton in the world.",
+      "They have the largest surface area of any ocean region.",
+      "Cold water absorbs more carbon dioxide than warm water.",
+      "Polar currents transport carbon directly to the deep ocean faster than elsewhere."
+    ],
+    "answer": 2,
+    "explanation": "The passage states clearly that 'cold water absorbs more CO₂ than warm water,' making polar seas especially effective carbon absorbers.",
+    "wrongReasons": [
+      "Option A makes a phytoplankton claim not stated in the passage.",
+      "Option B makes a surface area claim not stated in the passage.",
+      "Option D describes ocean circulation as a polar-specific mechanism, which the passage does not assert."
+    ],
+    "passage": {
+      "id": "r40-passage",
+      "title": "How Oceans Store Carbon",
+      "body": "The world's oceans are the planet's largest active carbon sink, absorbing roughly a quarter of the carbon dioxide emitted by human activity each year. This happens through two main mechanisms. First, CO₂ dissolves directly into seawater — a purely physical process driven by the difference in concentration between atmosphere and ocean. Cold water absorbs more CO₂ than warm water, which is why polar seas are especially important. Second, the biological pump: phytoplankton near the ocean surface absorb CO₂ through photosynthesis, converting it into organic matter. When these organisms die, their carbon-rich bodies sink to the deep ocean, effectively locking carbon away for centuries. However, the ocean's ability to store carbon is not unlimited. As seawater absorbs more CO₂, it becomes more acidic — a process called ocean acidification — which threatens marine ecosystems, particularly organisms that build calcium carbonate shells, such as corals and molluscs. Warmer ocean temperatures also reduce the efficiency of the biological pump, because warmer water holds less dissolved oxygen and disrupts the circulation patterns that carry nutrient-rich water to the surface. Scientists warn that as climate change intensifies, the ocean may become a less effective carbon sink, potentially accelerating atmospheric CO₂ accumulation."
+    }
+  },
+  {
+    "id": "r40-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about the long-term relationship between climate change and ocean carbon storage?",
+    "choices": [
+      "As the ocean warms, it will absorb carbon at the same rate but store it more deeply.",
+      "Climate change is likely to weaken the ocean's role as a carbon sink, creating a feedback cycle.",
+      "Ocean acidification will eventually destroy all phytoplankton, ending the biological pump entirely.",
+      "Polar ice melt will increase the ocean surface area and therefore increase total carbon absorption."
+    ],
+    "answer": 1,
+    "explanation": "The passage warns that warming reduces the biological pump's efficiency and may make the ocean a less effective sink, implying a feedback cycle where more CO₂ causes warming which reduces ocean absorption which allows more CO₂ to accumulate.",
+    "wrongReasons": [
+      "Option A claims unchanged absorption rates, contradicted by the passage.",
+      "Option C overstates by claiming total destruction of phytoplankton, which the passage does not claim.",
+      "Option D introduces ice melt and surface area as a positive mechanism, which the passage does not mention."
+    ],
+    "passage": {
+      "id": "r40-passage",
+      "title": "How Oceans Store Carbon",
+      "body": "The world's oceans are the planet's largest active carbon sink, absorbing roughly a quarter of the carbon dioxide emitted by human activity each year. This happens through two main mechanisms. First, CO₂ dissolves directly into seawater — a purely physical process driven by the difference in concentration between atmosphere and ocean. Cold water absorbs more CO₂ than warm water, which is why polar seas are especially important. Second, the biological pump: phytoplankton near the ocean surface absorb CO₂ through photosynthesis, converting it into organic matter. When these organisms die, their carbon-rich bodies sink to the deep ocean, effectively locking carbon away for centuries. However, the ocean's ability to store carbon is not unlimited. As seawater absorbs more CO₂, it becomes more acidic — a process called ocean acidification — which threatens marine ecosystems, particularly organisms that build calcium carbonate shells, such as corals and molluscs. Warmer ocean temperatures also reduce the efficiency of the biological pump, because warmer water holds less dissolved oxygen and disrupts the circulation patterns that carry nutrient-rich water to the surface. Scientists warn that as climate change intensifies, the ocean may become a less effective carbon sink, potentially accelerating atmospheric CO₂ accumulation."
+    }
+  },
+  {
+    "id": "r40-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'biological pump' most nearly refers to:",
+    "choices": [
+      "A mechanical device used by marine researchers to measure CO₂ levels in seawater.",
+      "The process by which phytoplankton absorb CO₂ and eventually transfer it to the deep ocean.",
+      "The circulation of warm and cold water between the surface and the ocean floor.",
+      "The chemical reaction that occurs when CO₂ dissolves in seawater."
+    ],
+    "answer": 1,
+    "explanation": "The passage defines the biological pump as phytoplankton absorbing CO₂ through photosynthesis, dying, and sinking to lock carbon in the deep ocean.",
+    "wrongReasons": [
+      "Option A describes a physical instrument not mentioned in the passage.",
+      "Option C describes thermohaline circulation, not the biological pump.",
+      "Option D describes the physical dissolution mechanism, which the passage presents as a separate first mechanism."
+    ],
+    "passage": {
+      "id": "r40-passage",
+      "title": "How Oceans Store Carbon",
+      "body": "The world's oceans are the planet's largest active carbon sink, absorbing roughly a quarter of the carbon dioxide emitted by human activity each year. This happens through two main mechanisms. First, CO₂ dissolves directly into seawater — a purely physical process driven by the difference in concentration between atmosphere and ocean. Cold water absorbs more CO₂ than warm water, which is why polar seas are especially important. Second, the biological pump: phytoplankton near the ocean surface absorb CO₂ through photosynthesis, converting it into organic matter. When these organisms die, their carbon-rich bodies sink to the deep ocean, effectively locking carbon away for centuries. However, the ocean's ability to store carbon is not unlimited. As seawater absorbs more CO₂, it becomes more acidic — a process called ocean acidification — which threatens marine ecosystems, particularly organisms that build calcium carbonate shells, such as corals and molluscs. Warmer ocean temperatures also reduce the efficiency of the biological pump, because warmer water holds less dissolved oxygen and disrupts the circulation patterns that carry nutrient-rich water to the surface. Scientists warn that as climate change intensifies, the ocean may become a less effective carbon sink, potentially accelerating atmospheric CO₂ accumulation."
+    }
+  },
+  {
+    "id": "r40-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "The structure of the passage moves from describing carbon storage mechanisms to discussing threats to those mechanisms. What is the author's purpose in this organisation?",
+    "choices": [
+      "To reassure readers that the ocean can absorb unlimited carbon despite current threats.",
+      "To establish the ocean's importance as a carbon sink before showing why that capacity is at risk.",
+      "To argue that biological mechanisms are superior to physical ones for long-term carbon storage.",
+      "To present a historical account of how ocean chemistry changed before industrialisation."
+    ],
+    "answer": 1,
+    "explanation": "By first explaining how and how much the ocean stores carbon, the author establishes its critical importance, making the subsequent account of warming and acidification threats more impactful — a common problem–consequence rhetorical structure.",
+    "wrongReasons": [
+      "Option A contradicts the passage's explicit warning about limited capacity.",
+      "Option C introduces a comparison between mechanisms not made in the passage.",
+      "Option D is inaccurate; the passage is not historical but mechanistic and forward-looking."
+    ],
+    "passage": {
+      "id": "r40-passage",
+      "title": "How Oceans Store Carbon",
+      "body": "The world's oceans are the planet's largest active carbon sink, absorbing roughly a quarter of the carbon dioxide emitted by human activity each year. This happens through two main mechanisms. First, CO₂ dissolves directly into seawater — a purely physical process driven by the difference in concentration between atmosphere and ocean. Cold water absorbs more CO₂ than warm water, which is why polar seas are especially important. Second, the biological pump: phytoplankton near the ocean surface absorb CO₂ through photosynthesis, converting it into organic matter. When these organisms die, their carbon-rich bodies sink to the deep ocean, effectively locking carbon away for centuries. However, the ocean's ability to store carbon is not unlimited. As seawater absorbs more CO₂, it becomes more acidic — a process called ocean acidification — which threatens marine ecosystems, particularly organisms that build calcium carbonate shells, such as corals and molluscs. Warmer ocean temperatures also reduce the efficiency of the biological pump, because warmer water holds less dissolved oxygen and disrupts the circulation patterns that carry nutrient-rich water to the surface. Scientists warn that as climate change intensifies, the ocean may become a less effective carbon sink, potentially accelerating atmospheric CO₂ accumulation."
+    }
+  },
+  {
+    "id": "r41-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Citizen science is a new phenomenon made possible only by the internet and smartphones.",
+      "Citizen science enables non-professional volunteers to contribute meaningfully to scientific research, with significant benefits and some limitations.",
+      "Professional scientists should rely exclusively on citizen science data to reduce research costs.",
+      "Citizen science projects are most valuable when studying local weather patterns."
+    ],
+    "answer": 1,
+    "explanation": "The passage covers the definition, history, benefits (scale, public engagement), and limitations (data quality, bias) of citizen science, concluding it is a valuable but imperfect tool.",
+    "wrongReasons": [
+      "Option A is contradicted by the passage's mention of nineteenth-century bird counts as an early example.",
+      "Option C overstates; the passage does not argue for exclusive reliance on citizen data.",
+      "Option D is too narrow; the passage mentions astronomy, ecology, and other fields."
+    ],
+    "passage": {
+      "id": "r41-passage",
+      "title": "The Rise of Citizen Science",
+      "body": "Citizen science — the involvement of non-professional volunteers in data collection and analysis — has a longer history than many assume. The Christmas Bird Count, organised by amateur naturalists in North America, dates to 1900, long before the term 'citizen science' was coined. What has changed dramatically in recent decades is scale. Digital platforms and smartphone apps allow millions of volunteers worldwide to record wildlife sightings, measure air quality, classify galaxies, or identify proteins in biochemical images — tasks that would overwhelm any professional research team. The ecological monitoring project iNaturalist, for example, has accumulated hundreds of millions of observations contributed by users across every continent. Citizen science expands the geographic and temporal coverage of research while simultaneously building public understanding of and engagement with science. However, the model is not without challenges. Data quality can vary widely: volunteers may misidentify species, fail to report absences, or concentrate observations in accessible urban areas, introducing systematic bias. Researchers have developed statistical tools to correct for some of these biases, and carefully designed protocols can improve reliability. When professional oversight is paired with community enthusiasm, citizen science has proved capable of generating datasets impossible to obtain by other means."
+    }
+  },
+  {
+    "id": "r41-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what limitation of citizen science is explicitly mentioned?",
+    "choices": [
+      "Volunteers lack the motivation to participate for more than a few months.",
+      "Citizen science projects are too expensive for universities to fund.",
+      "Observations may be concentrated in accessible urban areas, introducing geographic bias.",
+      "Digital platforms are unreliable for large-scale data collection."
+    ],
+    "answer": 2,
+    "explanation": "The passage states volunteers may 'concentrate observations in accessible urban areas, introducing systematic bias' as one of the cited limitations.",
+    "wrongReasons": [
+      "Option A introduces a motivational claim not discussed in the passage.",
+      "Option B introduces a funding argument not present in the passage.",
+      "Option D suggests platform unreliability, which contradicts the passage's positive portrayal of digital tools."
+    ],
+    "passage": {
+      "id": "r41-passage",
+      "title": "The Rise of Citizen Science",
+      "body": "Citizen science — the involvement of non-professional volunteers in data collection and analysis — has a longer history than many assume. The Christmas Bird Count, organised by amateur naturalists in North America, dates to 1900, long before the term 'citizen science' was coined. What has changed dramatically in recent decades is scale. Digital platforms and smartphone apps allow millions of volunteers worldwide to record wildlife sightings, measure air quality, classify galaxies, or identify proteins in biochemical images — tasks that would overwhelm any professional research team. The ecological monitoring project iNaturalist, for example, has accumulated hundreds of millions of observations contributed by users across every continent. Citizen science expands the geographic and temporal coverage of research while simultaneously building public understanding of and engagement with science. However, the model is not without challenges. Data quality can vary widely: volunteers may misidentify species, fail to report absences, or concentrate observations in accessible urban areas, introducing systematic bias. Researchers have developed statistical tools to correct for some of these biases, and carefully designed protocols can improve reliability. When professional oversight is paired with community enthusiasm, citizen science has proved capable of generating datasets impossible to obtain by other means."
+    }
+  },
+  {
+    "id": "r41-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred from the passage about the relationship between professional scientists and citizen science projects?",
+    "choices": [
+      "Professional scientists view citizen science as a threat to the credibility of their research.",
+      "Professional oversight is essential for citizen science to reach its full potential.",
+      "Professional scientists contribute data alongside volunteers in all citizen science projects.",
+      "Professional scientists are unnecessary once digital platforms are in place."
+    ],
+    "answer": 1,
+    "explanation": "The passage concludes that 'when professional oversight is paired with community enthusiasm,' citizen science can generate exceptional datasets, implying professional involvement is key to maximising the model's value.",
+    "wrongReasons": [
+      "Option A introduces hostility not present in the passage.",
+      "Option C claims professionals contribute data alongside volunteers, which the passage does not state.",
+      "Option D is the opposite of the passage's conclusion about professional oversight."
+    ],
+    "passage": {
+      "id": "r41-passage",
+      "title": "The Rise of Citizen Science",
+      "body": "Citizen science — the involvement of non-professional volunteers in data collection and analysis — has a longer history than many assume. The Christmas Bird Count, organised by amateur naturalists in North America, dates to 1900, long before the term 'citizen science' was coined. What has changed dramatically in recent decades is scale. Digital platforms and smartphone apps allow millions of volunteers worldwide to record wildlife sightings, measure air quality, classify galaxies, or identify proteins in biochemical images — tasks that would overwhelm any professional research team. The ecological monitoring project iNaturalist, for example, has accumulated hundreds of millions of observations contributed by users across every continent. Citizen science expands the geographic and temporal coverage of research while simultaneously building public understanding of and engagement with science. However, the model is not without challenges. Data quality can vary widely: volunteers may misidentify species, fail to report absences, or concentrate observations in accessible urban areas, introducing systematic bias. Researchers have developed statistical tools to correct for some of these biases, and carefully designed protocols can improve reliability. When professional oversight is paired with community enthusiasm, citizen science has proved capable of generating datasets impossible to obtain by other means."
+    }
+  },
+  {
+    "id": "r41-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'temporal coverage' most nearly means:",
+    "choices": [
+      "The number of different species that a dataset includes.",
+      "The span of time over which data is collected.",
+      "The accuracy with which volunteers record the time of their observations.",
+      "The proportion of volunteer observations that are verified by professionals."
+    ],
+    "answer": 1,
+    "explanation": "In context, 'temporal coverage' is paired with 'geographic coverage' and refers to how widely across time the dataset extends, enabled by large volunteer numbers collecting data continuously.",
+    "wrongReasons": [
+      "Option A describes species diversity, not temporal range.",
+      "Option C focuses on accuracy of time-stamps rather than overall time span.",
+      "Option D describes verification rates, a separate concept."
+    ],
+    "passage": {
+      "id": "r41-passage",
+      "title": "The Rise of Citizen Science",
+      "body": "Citizen science — the involvement of non-professional volunteers in data collection and analysis — has a longer history than many assume. The Christmas Bird Count, organised by amateur naturalists in North America, dates to 1900, long before the term 'citizen science' was coined. What has changed dramatically in recent decades is scale. Digital platforms and smartphone apps allow millions of volunteers worldwide to record wildlife sightings, measure air quality, classify galaxies, or identify proteins in biochemical images — tasks that would overwhelm any professional research team. The ecological monitoring project iNaturalist, for example, has accumulated hundreds of millions of observations contributed by users across every continent. Citizen science expands the geographic and temporal coverage of research while simultaneously building public understanding of and engagement with science. However, the model is not without challenges. Data quality can vary widely: volunteers may misidentify species, fail to report absences, or concentrate observations in accessible urban areas, introducing systematic bias. Researchers have developed statistical tools to correct for some of these biases, and carefully designed protocols can improve reliability. When professional oversight is paired with community enthusiasm, citizen science has proved capable of generating datasets impossible to obtain by other means."
+    }
+  },
+  {
+    "id": "r41-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author open the passage by noting that citizen science 'has a longer history than many assume'?",
+    "choices": [
+      "To argue that modern technology has made citizen science worse than its historical forms.",
+      "To correct a misconception and establish that volunteer science has proven value independent of digital tools.",
+      "To suggest that the Christmas Bird Count is the most important citizen science project ever created.",
+      "To imply that funding for citizen science should be redirected to historical research."
+    ],
+    "answer": 1,
+    "explanation": "The opening combats the likely assumption that citizen science is a digital-era invention, establishing credibility and historical depth to counter potential scepticism about its validity.",
+    "wrongReasons": [
+      "Option A contradicts the passage's positive view of digital tools.",
+      "Option C elevates the Bird Count above other projects in a way the passage does not.",
+      "Option D introduces a funding redirection claim not made in the passage."
+    ],
+    "passage": {
+      "id": "r41-passage",
+      "title": "The Rise of Citizen Science",
+      "body": "Citizen science — the involvement of non-professional volunteers in data collection and analysis — has a longer history than many assume. The Christmas Bird Count, organised by amateur naturalists in North America, dates to 1900, long before the term 'citizen science' was coined. What has changed dramatically in recent decades is scale. Digital platforms and smartphone apps allow millions of volunteers worldwide to record wildlife sightings, measure air quality, classify galaxies, or identify proteins in biochemical images — tasks that would overwhelm any professional research team. The ecological monitoring project iNaturalist, for example, has accumulated hundreds of millions of observations contributed by users across every continent. Citizen science expands the geographic and temporal coverage of research while simultaneously building public understanding of and engagement with science. However, the model is not without challenges. Data quality can vary widely: volunteers may misidentify species, fail to report absences, or concentrate observations in accessible urban areas, introducing systematic bias. Researchers have developed statistical tools to correct for some of these biases, and carefully designed protocols can improve reliability. When professional oversight is paired with community enthusiasm, citizen science has proved capable of generating datasets impossible to obtain by other means."
+    }
+  },
+  {
+    "id": "r42-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the central claim of the passage?",
+    "choices": [
+      "Sleep deprivation affects mood but has no measurable impact on decision-making quality.",
+      "Even mild sleep deprivation significantly impairs the brain's ability to make sound decisions.",
+      "Decision-making is best improved by training rational thinking rather than improving sleep.",
+      "Severe sleep deprivation produces the same cognitive deficits as moderate alcohol intoxication in all cases."
+    ],
+    "answer": 1,
+    "explanation": "The passage argues that even mild sleep loss degrades prefrontal cortex function, risk assessment, and moral reasoning, collectively impairing decision quality.",
+    "wrongReasons": [
+      "Option A contradicts the passage's core claim about measurable decision-making impairment.",
+      "Option C introduces a training-based solution not discussed in the passage.",
+      "Option D is a misstatement; the passage compares severe deprivation to alcohol intoxication in specific respects, not as identical."
+    ],
+    "passage": {
+      "id": "r42-passage",
+      "title": "Sleep Deprivation and Decision Making",
+      "body": "The relationship between sleep and decision-making is more consequential than most people recognise. The prefrontal cortex — the region of the brain responsible for judgement, impulse control, and weighing future consequences — is among the areas most sensitive to sleep loss. Even reducing sleep by one to two hours per night can measurably reduce activity in this region, leading individuals to make more impulsive, short-sighted, and risk-seeking choices. Research using simulated financial tasks shows that sleep-deprived participants are more likely to chase losses and take excessive risks, even when they can articulate the rules clearly. Sleep deprivation also undermines the brain's ability to distinguish between relevant and irrelevant information, making it harder to focus on what actually matters when making a decision. In high-stakes environments such as medicine, aviation, and military operations, these effects have documented real-world consequences: a disproportionate share of medical errors and accidents occur during night shifts or after extended periods of wakefulness. Severely sleep-deprived individuals often resemble alcohol-intoxicated individuals in their impaired judgement and slowed reaction times. Crucially, most people dramatically underestimate the degree to which they are impaired, making self-assessment unreliable as a safeguard."
+    }
+  },
+  {
+    "id": "r42-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, which brain region is most affected by sleep loss?",
+    "choices": [
+      "The hippocampus, responsible for forming long-term memories.",
+      "The amygdala, responsible for processing emotional responses.",
+      "The prefrontal cortex, responsible for judgement and impulse control.",
+      "The cerebellum, responsible for coordinating movement and balance."
+    ],
+    "answer": 2,
+    "explanation": "The passage explicitly identifies the prefrontal cortex as 'among the areas most sensitive to sleep loss' and as responsible for judgement and impulse control.",
+    "wrongReasons": [
+      "Option A names the hippocampus, which the passage does not mention.",
+      "Option B names the amygdala, which the passage does not mention.",
+      "Option D names the cerebellum, which is unrelated to the passage's discussion."
+    ],
+    "passage": {
+      "id": "r42-passage",
+      "title": "Sleep Deprivation and Decision Making",
+      "body": "The relationship between sleep and decision-making is more consequential than most people recognise. The prefrontal cortex — the region of the brain responsible for judgement, impulse control, and weighing future consequences — is among the areas most sensitive to sleep loss. Even reducing sleep by one to two hours per night can measurably reduce activity in this region, leading individuals to make more impulsive, short-sighted, and risk-seeking choices. Research using simulated financial tasks shows that sleep-deprived participants are more likely to chase losses and take excessive risks, even when they can articulate the rules clearly. Sleep deprivation also undermines the brain's ability to distinguish between relevant and irrelevant information, making it harder to focus on what actually matters when making a decision. In high-stakes environments such as medicine, aviation, and military operations, these effects have documented real-world consequences: a disproportionate share of medical errors and accidents occur during night shifts or after extended periods of wakefulness. Severely sleep-deprived individuals often resemble alcohol-intoxicated individuals in their impaired judgement and slowed reaction times. Crucially, most people dramatically underestimate the degree to which they are impaired, making self-assessment unreliable as a safeguard."
+    }
+  },
+  {
+    "id": "r42-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred from the passage about sleep-deprived people's self-awareness of their condition?",
+    "choices": [
+      "They accurately perceive their impairment and compensate by making fewer decisions.",
+      "They tend to overestimate their impairment and therefore make overly cautious choices.",
+      "They typically underestimate their impairment, making self-monitoring an unreliable safety measure.",
+      "They are more aware of their impairment than alcohol-intoxicated individuals."
+    ],
+    "answer": 2,
+    "explanation": "The passage states that 'most people dramatically underestimate the degree to which they are impaired, making self-assessment unreliable as a safeguard.'",
+    "wrongReasons": [
+      "Option A claims accurate perception and compensation, contradicted by the passage.",
+      "Option B claims overestimation of impairment, the opposite of what the passage states.",
+      "Option D introduces a comparison with intoxicated individuals not made in the passage regarding self-awareness."
+    ],
+    "passage": {
+      "id": "r42-passage",
+      "title": "Sleep Deprivation and Decision Making",
+      "body": "The relationship between sleep and decision-making is more consequential than most people recognise. The prefrontal cortex — the region of the brain responsible for judgement, impulse control, and weighing future consequences — is among the areas most sensitive to sleep loss. Even reducing sleep by one to two hours per night can measurably reduce activity in this region, leading individuals to make more impulsive, short-sighted, and risk-seeking choices. Research using simulated financial tasks shows that sleep-deprived participants are more likely to chase losses and take excessive risks, even when they can articulate the rules clearly. Sleep deprivation also undermines the brain's ability to distinguish between relevant and irrelevant information, making it harder to focus on what actually matters when making a decision. In high-stakes environments such as medicine, aviation, and military operations, these effects have documented real-world consequences: a disproportionate share of medical errors and accidents occur during night shifts or after extended periods of wakefulness. Severely sleep-deprived individuals often resemble alcohol-intoxicated individuals in their impaired judgement and slowed reaction times. Crucially, most people dramatically underestimate the degree to which they are impaired, making self-assessment unreliable as a safeguard."
+    }
+  },
+  {
+    "id": "r42-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'chase losses' most nearly means:",
+    "choices": [
+      "Seeking opportunities to recover previous financial losses by taking additional risks.",
+      "Avoiding further investment after experiencing an initial setback.",
+      "Attempting to reduce losses by withdrawing from financial markets.",
+      "Pursuing strategies that have historically produced the greatest average returns."
+    ],
+    "answer": 0,
+    "explanation": "In the context of simulated financial tasks, 'chasing losses' refers to taking extra risks in an attempt to recover money already lost — a classic irrational behaviour associated with impaired judgement.",
+    "wrongReasons": [
+      "Option B describes the opposite behaviour (withdrawal after loss).",
+      "Option C describes a risk-reduction strategy, contradicting the risk-seeking context.",
+      "Option D describes rational return-maximising strategy, not the impulsive loss-chasing described."
+    ],
+    "passage": {
+      "id": "r42-passage",
+      "title": "Sleep Deprivation and Decision Making",
+      "body": "The relationship between sleep and decision-making is more consequential than most people recognise. The prefrontal cortex — the region of the brain responsible for judgement, impulse control, and weighing future consequences — is among the areas most sensitive to sleep loss. Even reducing sleep by one to two hours per night can measurably reduce activity in this region, leading individuals to make more impulsive, short-sighted, and risk-seeking choices. Research using simulated financial tasks shows that sleep-deprived participants are more likely to chase losses and take excessive risks, even when they can articulate the rules clearly. Sleep deprivation also undermines the brain's ability to distinguish between relevant and irrelevant information, making it harder to focus on what actually matters when making a decision. In high-stakes environments such as medicine, aviation, and military operations, these effects have documented real-world consequences: a disproportionate share of medical errors and accidents occur during night shifts or after extended periods of wakefulness. Severely sleep-deprived individuals often resemble alcohol-intoxicated individuals in their impaired judgement and slowed reaction times. Crucially, most people dramatically underestimate the degree to which they are impaired, making self-assessment unreliable as a safeguard."
+    }
+  },
+  {
+    "id": "r42-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author specifically mention medicine, aviation, and military operations in the passage?",
+    "choices": [
+      "To argue that these professions require more sleep than other occupations.",
+      "To show that sleep deprivation research has only been conducted in these professional contexts.",
+      "To provide high-stakes examples that concretise the real-world dangers of impaired decision-making.",
+      "To suggest that shift-work schedules in these industries should be legally eliminated."
+    ],
+    "answer": 2,
+    "explanation": "After establishing cognitive impairments in laboratory settings, the author cites medicine, aviation, and military operations to demonstrate that these effects translate into serious real-world consequences, strengthening the argument through vivid examples.",
+    "wrongReasons": [
+      "Option A makes a comparative sleep-need claim the passage does not make.",
+      "Option B misrepresents the passage, which does not limit its research claims to these sectors.",
+      "Option D introduces a legal policy recommendation not present in the passage."
+    ],
+    "passage": {
+      "id": "r42-passage",
+      "title": "Sleep Deprivation and Decision Making",
+      "body": "The relationship between sleep and decision-making is more consequential than most people recognise. The prefrontal cortex — the region of the brain responsible for judgement, impulse control, and weighing future consequences — is among the areas most sensitive to sleep loss. Even reducing sleep by one to two hours per night can measurably reduce activity in this region, leading individuals to make more impulsive, short-sighted, and risk-seeking choices. Research using simulated financial tasks shows that sleep-deprived participants are more likely to chase losses and take excessive risks, even when they can articulate the rules clearly. Sleep deprivation also undermines the brain's ability to distinguish between relevant and irrelevant information, making it harder to focus on what actually matters when making a decision. In high-stakes environments such as medicine, aviation, and military operations, these effects have documented real-world consequences: a disproportionate share of medical errors and accidents occur during night shifts or after extended periods of wakefulness. Severely sleep-deprived individuals often resemble alcohol-intoxicated individuals in their impaired judgement and slowed reaction times. Crucially, most people dramatically underestimate the degree to which they are impaired, making self-assessment unreliable as a safeguard."
+    }
+  },
+  {
+    "id": "r43-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Green spaces are aesthetically pleasing but have little measurable effect on physical health.",
+      "Access to green spaces produces a range of social and health benefits that justify urban investment.",
+      "Parks reduce crime primarily by removing unused land that would otherwise attract criminal activity.",
+      "Wealthier neighbourhoods benefit more from green spaces than lower-income areas."
+    ],
+    "answer": 1,
+    "explanation": "The passage presents multiple documented benefits of green spaces — stress reduction, social cohesion, physical activity, children's development, crime reduction — as a comprehensive case for urban investment.",
+    "wrongReasons": [
+      "Option A contradicts the passage's extensive evidence of measurable health effects.",
+      "Option C presents only one proposed crime-reduction mechanism and misrepresents the passage's broader discussion.",
+      "Option D introduces an inequality claim that the passage argues against when discussing equitable access."
+    ],
+    "passage": {
+      "id": "r43-passage",
+      "title": "The Social Benefits of Green Spaces",
+      "body": "Decades of research have demonstrated that access to parks, gardens, and other green spaces delivers measurable social and health benefits that extend far beyond recreation. Studies consistently show that people who live near green spaces report lower levels of stress and anxiety, and physiological measures confirm reduced cortisol levels after time spent in natural environments. The mechanisms are several: natural settings invite physical activity; trees and vegetation reduce noise and air pollution; and the visual complexity of nature appears to restore directed attention in ways that built environments do not. Green spaces also serve as social infrastructure. In diverse urban neighbourhoods, parks act as neutral ground where residents from different backgrounds mix freely, fostering social cohesion. Research in Chicago found that blocks with more trees and vegetation had significantly lower rates of violent crime and property crime — an association partly explained by the increased social monitoring that comes when residents spend more time outdoors. Children who have regular access to nature show greater creativity, improved concentration, and better emotional regulation. Despite these benefits, access to quality green space remains highly unequal: lower-income neighbourhoods are systematically under-served. Urban planners and public health advocates increasingly argue that equitable access to green space should be treated as a matter of social justice, not merely urban aesthetics."
+    }
+  },
+  {
+    "id": "r43-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what explanation does the research offer for why green spaces reduce crime?",
+    "choices": [
+      "Trees act as physical barriers that make it harder for criminals to escape.",
+      "Green spaces attract police patrols more frequently than other areas.",
+      "Residents who spend more time outdoors provide informal social monitoring.",
+      "Vegetation reduces air pollution, which has been linked to violent behaviour."
+    ],
+    "answer": 2,
+    "explanation": "The passage explains that trees and vegetation lead residents to spend more time outdoors, increasing 'social monitoring' — informal surveillance by community members — which the research associates with lower crime rates.",
+    "wrongReasons": [
+      "Option A invents a physical barrier mechanism not mentioned in the passage.",
+      "Option B invents a police patrol claim not present in the passage.",
+      "Option D links air pollution to violence, which the passage does not state."
+    ],
+    "passage": {
+      "id": "r43-passage",
+      "title": "The Social Benefits of Green Spaces",
+      "body": "Decades of research have demonstrated that access to parks, gardens, and other green spaces delivers measurable social and health benefits that extend far beyond recreation. Studies consistently show that people who live near green spaces report lower levels of stress and anxiety, and physiological measures confirm reduced cortisol levels after time spent in natural environments. The mechanisms are several: natural settings invite physical activity; trees and vegetation reduce noise and air pollution; and the visual complexity of nature appears to restore directed attention in ways that built environments do not. Green spaces also serve as social infrastructure. In diverse urban neighbourhoods, parks act as neutral ground where residents from different backgrounds mix freely, fostering social cohesion. Research in Chicago found that blocks with more trees and vegetation had significantly lower rates of violent crime and property crime — an association partly explained by the increased social monitoring that comes when residents spend more time outdoors. Children who have regular access to nature show greater creativity, improved concentration, and better emotional regulation. Despite these benefits, access to quality green space remains highly unequal: lower-income neighbourhoods are systematically under-served. Urban planners and public health advocates increasingly argue that equitable access to green space should be treated as a matter of social justice, not merely urban aesthetics."
+    }
+  },
+  {
+    "id": "r43-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred from the passage about lower-income neighbourhoods?",
+    "choices": [
+      "Residents of lower-income neighbourhoods use green spaces less frequently than wealthier residents.",
+      "Lower-income neighbourhoods are likely missing many of the social and health benefits described in the passage.",
+      "Crime rates in lower-income neighbourhoods are unrelated to the absence of green space.",
+      "Lower-income areas have historically had more parks but of lower quality."
+    ],
+    "answer": 1,
+    "explanation": "The passage states lower-income neighbourhoods are 'systematically under-served' in green space access; given the passage's documented benefits, those without adequate green space would logically miss those benefits.",
+    "wrongReasons": [
+      "Option A claims lower usage, but the issue the passage identifies is lower availability, not usage behaviour.",
+      "Option C contradicts the passage's implied relationship between green space, social monitoring, and crime.",
+      "Option D reverses the pattern described — the passage indicates under-service (fewer or lower quality spaces), not more parks."
+    ],
+    "passage": {
+      "id": "r43-passage",
+      "title": "The Social Benefits of Green Spaces",
+      "body": "Decades of research have demonstrated that access to parks, gardens, and other green spaces delivers measurable social and health benefits that extend far beyond recreation. Studies consistently show that people who live near green spaces report lower levels of stress and anxiety, and physiological measures confirm reduced cortisol levels after time spent in natural environments. The mechanisms are several: natural settings invite physical activity; trees and vegetation reduce noise and air pollution; and the visual complexity of nature appears to restore directed attention in ways that built environments do not. Green spaces also serve as social infrastructure. In diverse urban neighbourhoods, parks act as neutral ground where residents from different backgrounds mix freely, fostering social cohesion. Research in Chicago found that blocks with more trees and vegetation had significantly lower rates of violent crime and property crime — an association partly explained by the increased social monitoring that comes when residents spend more time outdoors. Children who have regular access to nature show greater creativity, improved concentration, and better emotional regulation. Despite these benefits, access to quality green space remains highly unequal: lower-income neighbourhoods are systematically under-served. Urban planners and public health advocates increasingly argue that equitable access to green space should be treated as a matter of social justice, not merely urban aesthetics."
+    }
+  },
+  {
+    "id": "r43-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'directed attention' most nearly means:",
+    "choices": [
+      "A teaching technique in which instructors guide students through complex material.",
+      "Focused, deliberate cognitive effort required for tasks such as problem-solving.",
+      "The instinctive way humans respond to sudden sounds or movements in nature.",
+      "A form of meditation practised in outdoor environments to improve concentration."
+    ],
+    "answer": 1,
+    "explanation": "The passage contrasts nature's restoration of 'directed attention' with built environments that fail to do this, implying directed attention is the kind of focused, effortful concentration needed for demanding tasks.",
+    "wrongReasons": [
+      "Option A applies the phrase to teaching, a context not relevant here.",
+      "Option C describes reflexive (involuntary) attention, which attention-restoration theory actually distinguishes from directed attention.",
+      "Option D describes an outdoor meditation practice not discussed in the passage."
+    ],
+    "passage": {
+      "id": "r43-passage",
+      "title": "The Social Benefits of Green Spaces",
+      "body": "Decades of research have demonstrated that access to parks, gardens, and other green spaces delivers measurable social and health benefits that extend far beyond recreation. Studies consistently show that people who live near green spaces report lower levels of stress and anxiety, and physiological measures confirm reduced cortisol levels after time spent in natural environments. The mechanisms are several: natural settings invite physical activity; trees and vegetation reduce noise and air pollution; and the visual complexity of nature appears to restore directed attention in ways that built environments do not. Green spaces also serve as social infrastructure. In diverse urban neighbourhoods, parks act as neutral ground where residents from different backgrounds mix freely, fostering social cohesion. Research in Chicago found that blocks with more trees and vegetation had significantly lower rates of violent crime and property crime — an association partly explained by the increased social monitoring that comes when residents spend more time outdoors. Children who have regular access to nature show greater creativity, improved concentration, and better emotional regulation. Despite these benefits, access to quality green space remains highly unequal: lower-income neighbourhoods are systematically under-served. Urban planners and public health advocates increasingly argue that equitable access to green space should be treated as a matter of social justice, not merely urban aesthetics."
+    }
+  },
+  {
+    "id": "r43-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "What is the author's purpose in framing unequal access to green space as 'a matter of social justice, not merely urban aesthetics'?",
+    "choices": [
+      "To argue that green spaces are only valuable in low-income areas where residents have no other amenities.",
+      "To elevate green space from a design preference to a rights-based issue with serious health and social consequences.",
+      "To imply that urban planners prioritise aesthetics over justice in all their decisions.",
+      "To suggest that the only way to achieve social justice is to redistribute existing park land."
+    ],
+    "answer": 1,
+    "explanation": "By reframing green space from an aesthetic matter to a justice issue, the author draws on the passage's documented health and social benefits to argue that unequal access constitutes a genuine inequity in wellbeing, not just a question of appearances.",
+    "wrongReasons": [
+      "Option A limits the argument to low-income areas, which the passage does not do.",
+      "Option C overgeneralises planners' priorities in a way the passage does not.",
+      "Option D prescribes redistribution as the only solution, a claim the passage does not make."
+    ],
+    "passage": {
+      "id": "r43-passage",
+      "title": "The Social Benefits of Green Spaces",
+      "body": "Decades of research have demonstrated that access to parks, gardens, and other green spaces delivers measurable social and health benefits that extend far beyond recreation. Studies consistently show that people who live near green spaces report lower levels of stress and anxiety, and physiological measures confirm reduced cortisol levels after time spent in natural environments. The mechanisms are several: natural settings invite physical activity; trees and vegetation reduce noise and air pollution; and the visual complexity of nature appears to restore directed attention in ways that built environments do not. Green spaces also serve as social infrastructure. In diverse urban neighbourhoods, parks act as neutral ground where residents from different backgrounds mix freely, fostering social cohesion. Research in Chicago found that blocks with more trees and vegetation had significantly lower rates of violent crime and property crime — an association partly explained by the increased social monitoring that comes when residents spend more time outdoors. Children who have regular access to nature show greater creativity, improved concentration, and better emotional regulation. Despite these benefits, access to quality green space remains highly unequal: lower-income neighbourhoods are systematically under-served. Urban planners and public health advocates increasingly argue that equitable access to green space should be treated as a matter of social justice, not merely urban aesthetics."
+    }
+  },
+  {
+    "id": "r44-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Pandemics are primarily medical events that can be controlled through better hospital infrastructure.",
+      "Pandemics have repeatedly and profoundly reshaped social institutions, behaviours, and political structures.",
+      "The Black Death was the most significant pandemic in human history because of its death toll.",
+      "Modern public health systems have eliminated the risk of pandemics reshaping societies."
+    ],
+    "answer": 1,
+    "explanation": "The passage traces social and political transformations across multiple pandemics — the Black Death, cholera, COVID-19 — arguing that pandemics are agents of broad societal change.",
+    "wrongReasons": [
+      "Option A reduces pandemics to medical events, missing the social transformation argument.",
+      "Option C singles out the Black Death as most significant, a comparative claim the passage does not make.",
+      "Option D contradicts the passage, which notes COVID-19's recent social transformations."
+    ],
+    "passage": {
+      "id": "r44-passage",
+      "title": "How Pandemics Shape Societies",
+      "body": "Infectious disease has been one of history's most powerful — and least acknowledged — forces of social change. The Black Death, which killed approximately a third of Europe's population in the fourteenth century, contributed to the collapse of feudalism by dramatically raising the bargaining power of surviving labourers who were suddenly scarce. Cholera outbreaks in nineteenth-century European cities prompted the first systematic sewage and water-treatment infrastructure, effectively giving birth to modern public health. The influenza pandemic of 1918–1919 killed more people than the First World War, yet it reshaped government approaches to surveillance and international health cooperation. More recently, the COVID-19 pandemic accelerated remote work, exposed gaps in social safety nets, and intensified debates about the role of government in managing public risk. Scholars of historical pandemics note several recurring patterns: disease disproportionately strikes the poor, revealing and deepening pre-existing inequalities; emergency measures adopted during crises often persist long after the crisis ends; and societies that invest in preparedness before a pandemic suffer less disruption than those that react only after the outbreak begins. Far from being merely medical events, pandemics are social, political, and economic upheavals that leave lasting imprints on the institutions they traverse."
+    }
+  },
+  {
+    "id": "r44-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what was one consequence of the cholera outbreaks in nineteenth-century European cities?",
+    "choices": [
+      "They triggered the first organised international quarantine treaties.",
+      "They caused the collapse of the feudal system by reducing the labour supply.",
+      "They led to the construction of systematic sewage and water-treatment infrastructure.",
+      "They prompted governments to adopt remote work policies for civil servants."
+    ],
+    "answer": 2,
+    "explanation": "The passage states that cholera outbreaks 'prompted the first systematic sewage and water-treatment infrastructure, effectively giving birth to modern public health.'",
+    "wrongReasons": [
+      "Option A describes international quarantine treaties, which the passage associates with influenza, not cholera.",
+      "Option B describes the feudalism collapse, which the passage links to the Black Death.",
+      "Option D describes remote work, which the passage associates with COVID-19."
+    ],
+    "passage": {
+      "id": "r44-passage",
+      "title": "How Pandemics Shape Societies",
+      "body": "Infectious disease has been one of history's most powerful — and least acknowledged — forces of social change. The Black Death, which killed approximately a third of Europe's population in the fourteenth century, contributed to the collapse of feudalism by dramatically raising the bargaining power of surviving labourers who were suddenly scarce. Cholera outbreaks in nineteenth-century European cities prompted the first systematic sewage and water-treatment infrastructure, effectively giving birth to modern public health. The influenza pandemic of 1918–1919 killed more people than the First World War, yet it reshaped government approaches to surveillance and international health cooperation. More recently, the COVID-19 pandemic accelerated remote work, exposed gaps in social safety nets, and intensified debates about the role of government in managing public risk. Scholars of historical pandemics note several recurring patterns: disease disproportionately strikes the poor, revealing and deepening pre-existing inequalities; emergency measures adopted during crises often persist long after the crisis ends; and societies that invest in preparedness before a pandemic suffer less disruption than those that react only after the outbreak begins. Far from being merely medical events, pandemics are social, political, and economic upheavals that leave lasting imprints on the institutions they traverse."
+    }
+  },
+  {
+    "id": "r44-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What does the passage suggest about emergency measures adopted during pandemics?",
+    "choices": [
+      "They are always reversed once the health crisis is resolved.",
+      "They tend to outlast the crisis that originally justified them.",
+      "They are most effective when introduced at the start of an outbreak.",
+      "They primarily benefit wealthier populations who can afford to comply."
+    ],
+    "answer": 1,
+    "explanation": "The passage states that 'emergency measures adopted during crises often persist long after the crisis ends,' implying they tend to become permanent features of governance.",
+    "wrongReasons": [
+      "Option A is the opposite of what the passage states.",
+      "Option C describes a timing claim about preparedness that is a different pattern from the one about persistence of emergency measures.",
+      "Option D introduces a wealth-based benefit claim not made in this part of the passage."
+    ],
+    "passage": {
+      "id": "r44-passage",
+      "title": "How Pandemics Shape Societies",
+      "body": "Infectious disease has been one of history's most powerful — and least acknowledged — forces of social change. The Black Death, which killed approximately a third of Europe's population in the fourteenth century, contributed to the collapse of feudalism by dramatically raising the bargaining power of surviving labourers who were suddenly scarce. Cholera outbreaks in nineteenth-century European cities prompted the first systematic sewage and water-treatment infrastructure, effectively giving birth to modern public health. The influenza pandemic of 1918–1919 killed more people than the First World War, yet it reshaped government approaches to surveillance and international health cooperation. More recently, the COVID-19 pandemic accelerated remote work, exposed gaps in social safety nets, and intensified debates about the role of government in managing public risk. Scholars of historical pandemics note several recurring patterns: disease disproportionately strikes the poor, revealing and deepening pre-existing inequalities; emergency measures adopted during crises often persist long after the crisis ends; and societies that invest in preparedness before a pandemic suffer less disruption than those that react only after the outbreak begins. Far from being merely medical events, pandemics are social, political, and economic upheavals that leave lasting imprints on the institutions they traverse."
+    }
+  },
+  {
+    "id": "r44-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, the word 'traverse' most nearly means:",
+    "choices": [
+      "Destroy completely and leave in ruins.",
+      "Study or examine in careful academic detail.",
+      "Pass through or move across, affecting along the way.",
+      "Avoid or bypass without causing disruption."
+    ],
+    "answer": 2,
+    "explanation": "The passage closes by saying pandemics 'leave lasting imprints on the institutions they traverse,' meaning the institutions they move through or pass through over time.",
+    "wrongReasons": [
+      "Option A (destroy completely) is too strong; the passage describes lasting imprints, not complete destruction.",
+      "Option B (study in detail) is a different meaning of traverse unrelated to the passage's context.",
+      "Option D (avoid) is the opposite of the passage's meaning."
+    ],
+    "passage": {
+      "id": "r44-passage",
+      "title": "How Pandemics Shape Societies",
+      "body": "Infectious disease has been one of history's most powerful — and least acknowledged — forces of social change. The Black Death, which killed approximately a third of Europe's population in the fourteenth century, contributed to the collapse of feudalism by dramatically raising the bargaining power of surviving labourers who were suddenly scarce. Cholera outbreaks in nineteenth-century European cities prompted the first systematic sewage and water-treatment infrastructure, effectively giving birth to modern public health. The influenza pandemic of 1918–1919 killed more people than the First World War, yet it reshaped government approaches to surveillance and international health cooperation. More recently, the COVID-19 pandemic accelerated remote work, exposed gaps in social safety nets, and intensified debates about the role of government in managing public risk. Scholars of historical pandemics note several recurring patterns: disease disproportionately strikes the poor, revealing and deepening pre-existing inequalities; emergency measures adopted during crises often persist long after the crisis ends; and societies that invest in preparedness before a pandemic suffer less disruption than those that react only after the outbreak begins. Far from being merely medical events, pandemics are social, political, and economic upheavals that leave lasting imprints on the institutions they traverse."
+    }
+  },
+  {
+    "id": "r44-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "The author describes infectious disease as 'least acknowledged' as a force of social change. What purpose does this phrase serve?",
+    "choices": [
+      "To argue that historians have deliberately ignored pandemics in order to focus on wars.",
+      "To introduce a corrective framing that positions the passage's argument against a common oversight.",
+      "To suggest that infectious disease is less important than wars or economic crises in shaping history.",
+      "To provide a concession before arguing that pandemics should not be studied historically."
+    ],
+    "answer": 1,
+    "explanation": "Calling pandemics 'least acknowledged' signals that the author is correcting an omission in how we understand history's forces, positioning the entire passage as a corrective argument.",
+    "wrongReasons": [
+      "Option A attributes a deliberate choice to historians that the passage does not claim.",
+      "Option C is the opposite of the passage's argument — the author elevates, not minimises, disease's importance.",
+      "Option D is a self-defeating reading; the passage argues for studying pandemics, not against it."
+    ],
+    "passage": {
+      "id": "r44-passage",
+      "title": "How Pandemics Shape Societies",
+      "body": "Infectious disease has been one of history's most powerful — and least acknowledged — forces of social change. The Black Death, which killed approximately a third of Europe's population in the fourteenth century, contributed to the collapse of feudalism by dramatically raising the bargaining power of surviving labourers who were suddenly scarce. Cholera outbreaks in nineteenth-century European cities prompted the first systematic sewage and water-treatment infrastructure, effectively giving birth to modern public health. The influenza pandemic of 1918–1919 killed more people than the First World War, yet it reshaped government approaches to surveillance and international health cooperation. More recently, the COVID-19 pandemic accelerated remote work, exposed gaps in social safety nets, and intensified debates about the role of government in managing public risk. Scholars of historical pandemics note several recurring patterns: disease disproportionately strikes the poor, revealing and deepening pre-existing inequalities; emergency measures adopted during crises often persist long after the crisis ends; and societies that invest in preparedness before a pandemic suffer less disruption than those that react only after the outbreak begins. Far from being merely medical events, pandemics are social, political, and economic upheavals that leave lasting imprints on the institutions they traverse."
+    }
+  }
+]

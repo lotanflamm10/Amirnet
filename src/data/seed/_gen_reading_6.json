@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r38-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Working memory is unlimited and can handle any amount of information at once.",
+        "Cognitive load theory explains how the brain manages limited mental resources during learning.",
+        "Long-term memory is less important than short-term memory for academic success.",
+        "Multitasking improves learning outcomes by engaging multiple brain regions simultaneously."
+      ],
+      "answer": 1,
+      "explanation": "The passage centers on cognitive load theory and how managing mental resources affects learning efficiency.",
+      "wrongReasons": [
+        "The passage explicitly states working memory is limited, not unlimited.",
+        "The passage does not claim long-term memory is less important; it describes how information moves into long-term memory.",
+        "The passage warns against overloading cognition, implying multitasking hinders rather than helps learning."
+      ],
+      "passage": {
+        "id": "r38-passage",
+        "title": "Cognitive Load and Memory",
+        "body": "Cognitive load theory, developed by educational psychologist John Sweller in the 1980s, proposes that the human brain has a limited capacity for processing information at any given moment. This capacity, known as working memory, can hold only a small number of items simultaneously — typically between five and nine chunks of information. When learners are exposed to overly complex material without adequate scaffolding, their working memory becomes overwhelmed, leading to poor retention and comprehension.\n\nThere are three types of cognitive load: intrinsic load, which relates to the inherent complexity of the material; extraneous load, caused by poor instructional design; and germane load, which supports the formation of long-term schemas. Effective teaching minimizes extraneous load while optimizing germane load, allowing students to transfer knowledge into long-term memory more efficiently.\n\nUnderstanding cognitive load has transformed modern instructional design. Educators now use strategies such as worked examples, spaced repetition, and chunking to help students process information without overwhelming their mental resources. These approaches acknowledge that learning is not simply about exposure to information, but about how that information is structured and delivered."
+      }
+    },
+    {
+      "id": "r38-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, approximately how many chunks of information can working memory hold at one time?",
+      "choices": [
+        "Between two and four chunks.",
+        "Between five and nine chunks.",
+        "Between ten and fifteen chunks.",
+        "An unlimited number of chunks."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that working memory can hold 'typically between five and nine chunks of information.'",
+      "wrongReasons": [
+        "The passage specifies five to nine, not two to four.",
+        "The passage specifies five to nine, not ten to fifteen.",
+        "The passage explicitly states working memory capacity is limited, not unlimited."
+      ],
+      "passage": {
+        "id": "r38-passage",
+        "title": "Cognitive Load and Memory",
+        "body": "Cognitive load theory, developed by educational psychologist John Sweller in the 1980s, proposes that the human brain has a limited capacity for processing information at any given moment. This capacity, known as working memory, can hold only a small number of items simultaneously — typically between five and nine chunks of information. When learners are exposed to overly complex material without adequate scaffolding, their working memory becomes overwhelmed, leading to poor retention and comprehension.\n\nThere are three types of cognitive load: intrinsic load, which relates to the inherent complexity of the material; extraneous load, caused by poor instructional design; and germane load, which supports the formation of long-term schemas. Effective teaching minimizes extraneous load while optimizing germane load, allowing students to transfer knowledge into long-term memory more efficiently.\n\nUnderstanding cognitive load has transformed modern instructional design. Educators now use strategies such as worked examples, spaced repetition, and chunking to help students process information without overwhelming their mental resources. These approaches acknowledge that learning is not simply about exposure to information, but about how that information is structured and delivered."
+      }
+    },
+    {
+      "id": "r38-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about a student who struggles to understand a poorly organized textbook chapter?",
+      "choices": [
+        "The student likely has a low intrinsic load capacity.",
+        "High extraneous load from the poor design is interfering with the student's learning.",
+        "The student's long-term memory schemas are already fully developed.",
+        "The student needs to increase germane load by avoiding all instructional aids."
+      ],
+      "answer": 1,
+      "explanation": "The passage defines extraneous load as being 'caused by poor instructional design,' which would describe a disorganized textbook. This type of load impedes learning.",
+      "wrongReasons": [
+        "Intrinsic load refers to the complexity of the subject matter itself, not the student's capacity.",
+        "The passage does not suggest the student's schemas are fully developed; poor design hinders schema formation.",
+        "The passage says effective teaching optimizes germane load and minimizes extraneous load — avoiding aids would not help."
+      ],
+      "passage": {
+        "id": "r38-passage",
+        "title": "Cognitive Load and Memory",
+        "body": "Cognitive load theory, developed by educational psychologist John Sweller in the 1980s, proposes that the human brain has a limited capacity for processing information at any given moment. This capacity, known as working memory, can hold only a small number of items simultaneously — typically between five and nine chunks of information. When learners are exposed to overly complex material without adequate scaffolding, their working memory becomes overwhelmed, leading to poor retention and comprehension.\n\nThere are three types of cognitive load: intrinsic load, which relates to the inherent complexity of the material; extraneous load, caused by poor instructional design; and germane load, which supports the formation of long-term schemas. Effective teaching minimizes extraneous load while optimizing germane load, allowing students to transfer knowledge into long-term memory more efficiently.\n\nUnderstanding cognitive load has transformed modern instructional design. Educators now use strategies such as worked examples, spaced repetition, and chunking to help students process information without overwhelming their mental resources. These approaches acknowledge that learning is not simply about exposure to information, but about how that information is structured and delivered."
+      }
+    },
+    {
+      "id": "r38-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'scaffolding' most nearly means:",
+      "choices": [
+        "A physical structure used in construction to support workers.",
+        "Supportive instructional frameworks that help learners manage complex material.",
+        "A method of testing students under high-pressure conditions.",
+        "The process of memorizing facts through repetitive drills."
+      ],
+      "answer": 1,
+      "explanation": "In context, 'scaffolding' refers to instructional support provided to learners facing complex material — consistent with the educational usage of the term described in the passage.",
+      "wrongReasons": [
+        "That is the literal, construction-related meaning, not the educational meaning used here.",
+        "The passage does not associate scaffolding with high-pressure testing; it is a support mechanism, not a stressor.",
+        "Scaffolding in this context refers to instructional structure, not rote memorization drills."
+      ],
+      "passage": {
+        "id": "r38-passage",
+        "title": "Cognitive Load and Memory",
+        "body": "Cognitive load theory, developed by educational psychologist John Sweller in the 1980s, proposes that the human brain has a limited capacity for processing information at any given moment. This capacity, known as working memory, can hold only a small number of items simultaneously — typically between five and nine chunks of information. When learners are exposed to overly complex material without adequate scaffolding, their working memory becomes overwhelmed, leading to poor retention and comprehension.\n\nThere are three types of cognitive load: intrinsic load, which relates to the inherent complexity of the material; extraneous load, caused by poor instructional design; and germane load, which supports the formation of long-term schemas. Effective teaching minimizes extraneous load while optimizing germane load, allowing students to transfer knowledge into long-term memory more efficiently.\n\nUnderstanding cognitive load has transformed modern instructional design. Educators now use strategies such as worked examples, spaced repetition, and chunking to help students process information without overwhelming their mental resources. These approaches acknowledge that learning is not simply about exposure to information, but about how that information is structured and delivered."
+      }
+    },
+    {
+      "id": "r38-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To argue that John Sweller's theory is outdated and should be replaced by newer models.",
+        "To entertain readers with anecdotes about students struggling in school.",
+        "To explain cognitive load theory and demonstrate its practical relevance to instructional design.",
+        "To persuade educators to abandon traditional teaching methods entirely."
+      ],
+      "answer": 2,
+      "explanation": "The author presents cognitive load theory, explains its three components, and then connects the theory to modern instructional strategies — a clear explanatory and applied purpose.",
+      "wrongReasons": [
+        "The passage does not critique Sweller's theory; it presents it favorably and shows its continued influence.",
+        "The passage is academic in tone and contains no personal anecdotes or entertainment-driven content.",
+        "While the passage advocates for informed teaching, it does not call for abandoning traditional methods entirely."
+      ],
+      "passage": {
+        "id": "r38-passage",
+        "title": "Cognitive Load and Memory",
+        "body": "Cognitive load theory, developed by educational psychologist John Sweller in the 1980s, proposes that the human brain has a limited capacity for processing information at any given moment. This capacity, known as working memory, can hold only a small number of items simultaneously — typically between five and nine chunks of information. When learners are exposed to overly complex material without adequate scaffolding, their working memory becomes overwhelmed, leading to poor retention and comprehension.\n\nThere are three types of cognitive load: intrinsic load, which relates to the inherent complexity of the material; extraneous load, caused by poor instructional design; and germane load, which supports the formation of long-term schemas. Effective teaching minimizes extraneous load while optimizing germane load, allowing students to transfer knowledge into long-term memory more efficiently.\n\nUnderstanding cognitive load has transformed modern instructional design. Educators now use strategies such as worked examples, spaced repetition, and chunking to help students process information without overwhelming their mental resources. These approaches acknowledge that learning is not simply about exposure to information, but about how that information is structured and delivered."
+      }
+    },
+    {
+      "id": "r39-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Advertising is primarily about providing consumers with truthful product information.",
+        "Psychological principles such as emotional appeal and social proof are central to effective advertising.",
+        "Most consumers are fully aware of and immune to advertising techniques.",
+        "Digital advertising is less effective than traditional print advertising."
+      ],
+      "answer": 1,
+      "explanation": "The passage focuses on how advertisers use psychological tactics — emotional appeals, social proof, and scarcity — to influence consumer behavior.",
+      "wrongReasons": [
+        "The passage describes advertising as often manipulative and emotion-driven, not primarily informational.",
+        "The passage implies consumers are frequently influenced without realizing it, contradicting the idea of immunity.",
+        "The passage does not compare digital and print advertising effectiveness."
+      ],
+      "passage": {
+        "id": "r39-passage",
+        "title": "The Psychology of Advertising",
+        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+      }
+    },
+    {
+      "id": "r39-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which demographic is particularly targeted by FOMO-based marketing?",
+      "choices": [
+        "Older adults with established brand loyalty.",
+        "Business-to-business corporate clients.",
+        "Younger demographics in digital marketing campaigns.",
+        "Rural consumers who rely on print media."
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that FOMO 'is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.'",
+      "wrongReasons": [
+        "The passage does not mention older adults in connection with FOMO; they are not identified as the target group.",
+        "The passage discusses consumer advertising, not B2B marketing strategies.",
+        "The passage links FOMO to digital marketing, not print media or rural consumers."
+      ],
+      "passage": {
+        "id": "r39-passage",
+        "title": "The Psychology of Advertising",
+        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+      }
+    },
+    {
+      "id": "r39-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Based on the passage, what can be inferred about a consumer who buys a product solely because a celebrity endorsed it?",
+      "choices": [
+        "The consumer has carefully evaluated the product's quality and found it superior.",
+        "The consumer is primarily motivated by the product's low price.",
+        "The consumer has been influenced by social proof without necessarily assessing the product's merits.",
+        "The consumer is immune to emotional advertising and relies only on facts."
+      ],
+      "answer": 2,
+      "explanation": "The passage explains that social proof — including celebrity endorsements — leads consumers to 'perceive [a product] as trustworthy and desirable,' tapping into conformity rather than independent evaluation.",
+      "wrongReasons": [
+        "Celebrity endorsement is a social proof tactic, not an objective quality indicator, so careful evaluation is not implied.",
+        "The passage links celebrity endorsement to social proof and desirability, not to price sensitivity.",
+        "Being influenced by a celebrity endorsement is precisely an example of emotional/social influence, not fact-based reasoning."
+      ],
+      "passage": {
+        "id": "r39-passage",
+        "title": "The Psychology of Advertising",
+        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+      }
+    },
+    {
+      "id": "r39-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the phrase 'loss aversion' most nearly refers to:",
+      "choices": [
+        "A consumer's preference for lower prices over brand loyalty.",
+        "The tendency to avoid purchasing unfamiliar products.",
+        "A cognitive bias where people strongly prefer avoiding losses over acquiring equivalent gains.",
+        "An advertiser's strategy of reducing product inventory to cut costs."
+      ],
+      "answer": 2,
+      "explanation": "The passage uses 'loss aversion' in the context of scarcity tactics that make consumers fear missing out on an opportunity — consistent with the psychological bias of weighting losses more heavily than gains.",
+      "wrongReasons": [
+        "Loss aversion relates to the psychology of missing out, not simply price preference.",
+        "Avoiding unfamiliar products describes neophobia, not loss aversion as described in the passage.",
+        "Loss aversion is described as a consumer cognitive bias exploited by advertisers, not an inventory management strategy."
+      ],
+      "passage": {
+        "id": "r39-passage",
+        "title": "The Psychology of Advertising",
+        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+      }
+    },
+    {
+      "id": "r39-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in concluding with the sentence about 'more conscious, informed choices'?",
+      "choices": [
+        "To suggest that advertising should be banned because it manipulates consumers.",
+        "To imply that only educated consumers are capable of making good decisions.",
+        "To empower readers by framing knowledge of advertising psychology as a tool for better decision-making.",
+        "To criticize advertisers for using unethical practices in their campaigns."
+      ],
+      "answer": 2,
+      "explanation": "The final sentence shifts from description to empowerment, suggesting that awareness of these psychological mechanisms enables consumers to exercise greater agency — a constructive, informative purpose.",
+      "wrongReasons": [
+        "The passage does not call for banning advertising; it takes an informative, not activist, stance.",
+        "The passage does not suggest that only educated people make good choices; the implication is that all readers can benefit from awareness.",
+        "While the passage describes tactics that some might find manipulative, it does not explicitly label them unethical or condemn advertisers."
+      ],
+      "passage": {
+        "id": "r39-passage",
+        "title": "The Psychology of Advertising",
+        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+      }
+    },
+    {
+      "id": "r40-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Oceans are primarily responsible for producing the oxygen humans breathe.",
+        "Oceans absorb and store significant amounts of carbon dioxide, playing a critical role in regulating Earth's climate.",
+        "Human industrial activity has no measurable effect on ocean chemistry.",
+        "Carbon dioxide dissolves in ocean water but does not affect marine ecosystems."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes how oceans absorb atmospheric CO2 through physical and biological processes, and how this carbon storage function is vital for climate regulation.",
+      "wrongReasons": [
+        "While oceans do produce oxygen, the passage focuses on carbon storage, not oxygen production.",
+        "The passage explicitly states that increased CO2 absorption due to human activity is causing ocean acidification.",
+        "The passage directly links CO2 dissolution in oceans to ocean acidification, which affects marine ecosystems."
+      ],
+      "passage": {
+        "id": "r40-passage",
+        "title": "How Oceans Store Carbon",
+        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+      }
+    },
+    {
+      "id": "r40-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what percentage of annually released atmospheric CO2 do oceans absorb?",
+      "choices": [
+        "About ten percent.",
+        "About fifty percent.",
+        "About seventy percent.",
+        "About twenty-five percent."
+      ],
+      "answer": 3,
+      "explanation": "The passage states that oceans absorb 'approximately twenty-five percent of the carbon dioxide released into the atmosphere each year.'",
+      "wrongReasons": [
+        "Ten percent is not mentioned in the passage as the absorption figure.",
+        "Fifty percent overstates the figure given in the passage.",
+        "Seventy percent refers to the ocean's coverage of Earth's surface, not its CO2 absorption rate."
+      ],
+      "passage": {
+        "id": "r40-passage",
+        "title": "How Oceans Store Carbon",
+        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+      }
+    },
+    {
+      "id": "r40-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the long-term consequences if human CO2 emissions continue to rise?",
+      "choices": [
+        "Phytoplankton populations will expand rapidly, absorbing all excess CO2.",
+        "The ocean will become more alkaline, benefiting coral reef ecosystems.",
+        "The ocean's ability to buffer climate change will weaken, potentially speeding up global warming.",
+        "Cold surface water will warm and rise, eliminating the physical pump permanently."
+      ],
+      "answer": 2,
+      "explanation": "The passage warns that if emissions are not reduced, 'the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change,' implying a feedback loop worsening global warming.",
+      "wrongReasons": [
+        "The passage does not predict phytoplankton expansion; acidification threatens marine ecosystems, including phytoplankton.",
+        "The passage describes acidification as a drop in pH (more acidic), not an increase in alkalinity.",
+        "The passage does not claim the physical pump will be permanently eliminated; it warns about diminished buffering capacity overall."
+      ],
+      "passage": {
+        "id": "r40-passage",
+        "title": "How Oceans Store Carbon",
+        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+      }
+    },
+    {
+      "id": "r40-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'sequestered' most nearly means:",
+      "choices": [
+        "Released rapidly into the atmosphere.",
+        "Isolated and stored away for a long period.",
+        "Converted into oxygen through photosynthesis.",
+        "Distributed evenly across the ocean's surface."
+      ],
+      "answer": 1,
+      "explanation": "The passage says dissolved carbon sinks into the deep ocean 'where it can remain sequestered for centuries,' meaning it is stored and isolated from the atmosphere for a long time.",
+      "wrongReasons": [
+        "The passage says carbon is carried down and stored, not released — the opposite of sequestered.",
+        "Conversion to oxygen describes photosynthesis, which is the biological pump's mechanism, not what sequestered means.",
+        "The passage describes carbon sinking into the deep ocean, not being distributed across the surface."
+      ],
+      "passage": {
+        "id": "r40-passage",
+        "title": "How Oceans Store Carbon",
+        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+      }
+    },
+    {
+      "id": "r40-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in this passage?",
+      "choices": [
+        "To celebrate the ocean's resilience and its ability to solve the climate crisis independently.",
+        "To inform readers about how oceans store carbon while cautioning about the risks of continued emissions.",
+        "To argue that phytoplankton are more important than all other climate solutions combined.",
+        "To present a purely scientific description of ocean chemistry with no implications for human behavior."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains the mechanisms of ocean carbon storage and then pivots to a warning about acidification and the risk of diminishing the ocean's buffering capacity — combining information with a cautionary message about emissions.",
+      "wrongReasons": [
+        "The passage does not suggest the ocean can solve the climate crisis on its own; it warns the opposite — that the ocean's capacity may be overwhelmed.",
+        "Phytoplankton are one part of the biological pump described, but the passage does not claim they are superior to other climate solutions.",
+        "The final paragraph explicitly ties ocean chemistry to human emissions and climate consequences, making it relevant to human behavior."
+      ],
+      "passage": {
+        "id": "r40-passage",
+        "title": "How Oceans Store Carbon",
+        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+      }
+    },
+    {
+      "id": "r41-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Professional scientists are losing their jobs because volunteers are replacing them.",
+        "Citizen science is a growing movement in which non-experts contribute meaningfully to scientific research.",
+        "Citizen science projects are unreliable because volunteers lack formal training.",
+        "Technology has made traditional laboratory science obsolete."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes the rise of citizen science as a collaborative model in which non-professional volunteers contribute to real research, with increasing impact enabled by digital tools.",
+      "wrongReasons": [
+        "The passage does not suggest professional scientists are being displaced; citizen science is described as complementing professional research.",
+        "The passage acknowledges quality control challenges but argues that citizen science produces valid contributions, not that it is unreliable.",
+        "The passage highlights how technology enables citizen science but does not claim it makes laboratory science obsolete."
+      ],
+      "passage": {
+        "id": "r41-passage",
+        "title": "The Rise of Citizen Science",
+        "body": "Citizen science — the practice of engaging non-professional volunteers in scientific research — has grown from a niche hobby into a globally recognized research methodology. Enabled by smartphones, online platforms, and open-access databases, millions of people now contribute to scientific projects spanning ecology, astronomy, public health, and linguistics.\n\nProjects such as Galaxy Zoo, which enlists volunteers to classify distant galaxies from telescope images, and iNaturalist, which uses crowdsourced biodiversity observations, have demonstrated that large-scale, distributed data collection by non-experts can yield results of genuine scientific value. Peer-reviewed studies based on citizen science data have been published in leading journals, lending the movement academic credibility.\n\nNonetheless, citizen science faces real challenges. Data quality can be inconsistent when volunteers lack standardized training, and motivating sustained participation over time requires careful community management. Some critics also question whether discoveries made with volunteer labor are always properly attributed.\n\nDespite these concerns, the movement continues to expand. Researchers increasingly view citizen scientists not merely as data collectors but as collaborative partners capable of asking novel questions and generating unexpected insights. The democratization of science — putting research tools in the hands of curious, motivated individuals — may fundamentally reshape how knowledge is produced in the twenty-first century."
+      }
+    },
+    {
+      "id": "r41-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which of the following is an example of a citizen science project mentioned in the text?",
+      "choices": [
+        "NASA's Mars Rover program.",
+        "The Human Genome Project.",
+        "Galaxy Zoo, which asks volunteers to classify galaxies.",
+        "The World Health Organization's disease surveillance network."
+      ],
+      "answer": 2,
+      "explanation": "The passage specifically mentions 'Galaxy Zoo, which enlists volunteers to classify distant galaxies from telescope images' as an example of a successful citizen science project.",
+      "wrongReasons": [
+        "NASA's Mars Rover program is operated by professional scientists and engineers, not mentioned in the passage.",
+        "The Human Genome Project was a professional scientific collaboration, not referenced in the passage.",
+        "The WHO's disease surveillance network involves health authorities, not citizen science volunteers as described in the passage."
+      ],
+      "passage": {
+        "id": "r41-passage",
+        "title": "The Rise of Citizen Science",
+        "body": "Citizen science — the practice of engaging non-professional volunteers in scientific research — has grown from a niche hobby into a globally recognized research methodology. Enabled by smartphones, online platforms, and open-access databases, millions of people now contribute to scientific projects spanning ecology, astronomy, public health, and linguistics.\n\nProjects such as Galaxy Zoo, which enlists volunteers to classify distant galaxies from telescope images, and iNaturalist, which uses crowdsourced biodiversity observations, have demonstrated that large-scale, distributed data collection by non-experts can yield results of genuine scientific value. Peer-reviewed studies based on citizen science data have been published in leading journals, lending the movement academic credibility.\n\nNonetheless, citizen science faces real challenges. Data quality can be inconsistent when volunteers lack standardized training, and motivating sustained participation over time requires careful community management. Some critics also question whether discoveries made with volunteer labor are always properly attributed.\n\nDespite these concerns, the movement continues to expand. Researchers increasingly view citizen scientists not merely as data collectors but as collaborative partners capable of asking novel questions and generating unexpected insights. The democratization of science — putting research tools in the hands of curious, motivated individuals — may fundamentally reshape how knowledge is produced in the twenty-first century."
+      }
+    },
+    {
+      "id": "r41-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the future of citizen science based on the passage's final paragraph?",
+      "choices": [
+        "Citizen science will soon be replaced by artificial intelligence and automated data collection.",
+        "Researchers will eventually restrict citizen science to projects with minimal scientific significance.",
+        "Citizen science is likely to play an increasingly prominent role in shaping how scientific knowledge is created.",
+        "Volunteer participation will decline as online platforms become more difficult to access."
+      ],
+      "answer": 2,
+      "explanation": "The final paragraph states that citizen scientists are becoming 'collaborative partners' and that the movement 'may fundamentally reshape how knowledge is produced in the twenty-first century,' implying a growing and increasingly important role.",
+      "wrongReasons": [
+        "The passage does not mention AI or automation as replacements for citizen science; the emphasis is on human participation.",
+        "The passage describes expansion and growing academic credibility, not restriction to minor projects.",
+        "The passage highlights digital tools as enablers of citizen science, suggesting no decline in accessibility."
+      ],
+      "passage": {
+        "id": "r41-passage",
+        "title": "The Rise of Citizen Science",
+        "body": "Citizen science — the practice of engaging non-professional volunteers in scientific research — has grown from a niche hobby into a globally recognized research methodology. Enabled by smartphones, online platforms, and open-access databases, millions of people now contribute to scientific projects spanning ecology, astronomy, public health, and linguistics.\n\nProjects such as Galaxy Zoo, which enlists volunteers to classify distant galaxies from telescope images, and iNaturalist, which uses crowdsourced biodiversity observations, have demonstrated that large-scale, distributed data collection by non-experts can yield results of genuine scientific value. Peer-reviewed studies based on citizen science data have been published in leading journals, lending the movement academic credibility.\n\nNonetheless, citizen science faces real challenges. Data quality can be inconsistent when volunteers lack standardized training, and motivating sustained participation over time requires careful community management. Some critics also question whether discoveries made with volunteer labor are always properly attributed.\n\nDespite these concerns, the movement continues to expand. Researchers increasingly view citizen scientists not merely as data collectors but as collaborative partners capable of asking novel questions and generating unexpected insights. The democratization of science — putting research tools in the hands of curious, motivated individuals — may fundamentally reshape how knowledge is produced in the twenty-first century."
+      }
+    },
+    {
+      "id": "r41-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'democratization' most nearly means:",
+      "choices": [
+        "The process of electing scientific leaders through public vote.",
+        "Making something accessible to a broader, more diverse group of people.",
+        "A political movement to fund science through government taxes.",
+        "The standardization of scientific methods across different countries."
+      ],
+      "answer": 1,
+      "explanation": "The passage uses 'democratization of science' to describe 'putting research tools in the hands of curious, motivated individuals' — meaning making science more broadly accessible rather than restricted to elite institutions.",
+      "wrongReasons": [
+        "The passage is not referring to political elections or voting for scientific leadership.",
+        "The passage's use of democratization is about accessibility of research, not government funding policy.",
+        "The passage does not discuss standardizing methods internationally; it focuses on broadening participation."
+      ],
+      "passage": {
+        "id": "r41-passage",
+        "title": "The Rise of Citizen Science",
+        "body": "Citizen science — the practice of engaging non-professional volunteers in scientific research — has grown from a niche hobby into a globally recognized research methodology. Enabled by smartphones, online platforms, and open-access databases, millions of people now contribute to scientific projects spanning ecology, astronomy, public health, and linguistics.\n\nProjects such as Galaxy Zoo, which enlists volunteers to classify distant galaxies from telescope images, and iNaturalist, which uses crowdsourced biodiversity observations, have demonstrated that large-scale, distributed data collection by non-experts can yield results of genuine scientific value. Peer-reviewed studies based on citizen science data have been published in leading journals, lending the movement academic credibility.\n\nNonetheless, citizen science faces real challenges. Data quality can be inconsistent when volunteers lack standardized training, and motivating sustained participation over time requires careful community management. Some critics also question whether discoveries made with volunteer labor are always properly attributed.\n\nDespite these concerns, the movement continues to expand. Researchers increasingly view citizen scientists not merely as data collectors but as collaborative partners capable of asking novel questions and generating unexpected insights. The democratization of science — putting research tools in the hands of curious, motivated individuals — may fundamentally reshape how knowledge is produced in the twenty-first century."
+      }
+    },
+    {
+      "id": "r41-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in including the paragraph about challenges facing citizen science?",
+      "choices": [
+        "To convince readers that citizen science is fundamentally flawed and should be discontinued.",
+        "To balance the passage's positive portrayal of citizen science with an honest acknowledgment of its limitations.",
+        "To argue that only professional scientists should be allowed to conduct peer-reviewed research.",
+        "To suggest that critics of citizen science have more valid arguments than its supporters."
+      ],
+      "answer": 1,
+      "explanation": "The challenges paragraph provides a balanced perspective — the passage overall is favorable toward citizen science but acknowledges real concerns, giving the piece intellectual credibility rather than reading as one-sided advocacy.",
+      "wrongReasons": [
+        "The passage's conclusion reaffirms citizen science's growth and promise, clearly not arguing for its discontinuation.",
+        "The passage never restricts research to professionals; it explicitly champions non-expert participation.",
+        "The passage uses 'despite these concerns' to pivot back to a positive outlook, indicating the author does not favor the critics' position."
+      ],
+      "passage": {
+        "id": "r41-passage",
+        "title": "The Rise of Citizen Science",
+        "body": "Citizen science — the practice of engaging non-professional volunteers in scientific research — has grown from a niche hobby into a globally recognized research methodology. Enabled by smartphones, online platforms, and open-access databases, millions of people now contribute to scientific projects spanning ecology, astronomy, public health, and linguistics.\n\nProjects such as Galaxy Zoo, which enlists volunteers to classify distant galaxies from telescope images, and iNaturalist, which uses crowdsourced biodiversity observations, have demonstrated that large-scale, distributed data collection by non-experts can yield results of genuine scientific value. Peer-reviewed studies based on citizen science data have been published in leading journals, lending the movement academic credibility.\n\nNonetheless, citizen science faces real challenges. Data quality can be inconsistent when volunteers lack standardized training, and motivating sustained participation over time requires careful community management. Some critics also question whether discoveries made with volunteer labor are always properly attributed.\n\nDespite these concerns, the movement continues to expand. Researchers increasingly view citizen scientists not merely as data collectors but as collaborative partners capable of asking novel questions and generating unexpected insights. The democratization of science — putting research tools in the hands of curious, motivated individuals — may fundamentally reshape how knowledge is produced in the twenty-first century."
+      }
+    },
+    {
+      "id": "r42-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Sleep deprivation primarily affects physical performance but has little impact on mental functioning.",
+        "Getting exactly eight hours of sleep each night eliminates all cognitive deficits.",
+        "Sleep deprivation impairs judgment, emotional regulation, and decision-making in significant ways.",
+        "Modern societies have largely solved the problem of sleep deprivation through technology."
+      ],
+      "answer": 2,
+      "explanation": "The passage focuses on how sleep deprivation degrades multiple cognitive functions including judgment, risk assessment, emotional control, and decision-making quality.",
+      "wrongReasons": [
+        "The passage focuses specifically on mental and cognitive impairments, not physical performance.",
+        "The passage does not claim that eight hours eliminates all deficits; it discusses the pervasive effects of sleep loss without prescribing a simple cure.",
+        "The passage describes sleep deprivation as a widespread, ongoing problem and does not suggest it has been solved."
+      ],
+      "passage": {
+        "id": "r42-passage",
+        "title": "Sleep Deprivation and Decision Making",
+        "body": "Sleep is not merely a passive state of rest but an active biological process essential for cognitive functioning. Research consistently demonstrates that sleep deprivation — defined as obtaining less than the recommended seven to nine hours per night for adults — profoundly impairs the brain's capacity for sound judgment, risk assessment, and complex decision-making.\n\nThe prefrontal cortex, the brain region most responsible for rational thought and impulse control, is particularly vulnerable to sleep loss. Studies using neuroimaging have shown that sleep-deprived individuals exhibit reduced activity in this region, leading to heightened impulsivity and a tendency to favor short-term rewards over long-term benefits. This explains why fatigued people often make financial decisions or dietary choices they later regret.\n\nEmotional regulation also suffers under sleep deprivation. The amygdala — the brain's emotional response center — becomes hyperactive, making individuals more reactive to negative stimuli and less capable of moderating their responses. This combination of impaired rational thinking and heightened emotional reactivity creates conditions ripe for poor interpersonal decisions.\n\nParticularly troubling is the phenomenon known as 'performance overconfidence': sleep-deprived individuals frequently underestimate how impaired they are, rating their own performance as adequate even as objective measures reveal significant deficits. This blind spot makes sleep deprivation especially insidious in high-stakes environments such as medicine, aviation, and emergency response."
+      }
+    },
+    {
+      "id": "r42-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which brain region is most vulnerable to the effects of sleep deprivation?",
+      "choices": [
+        "The amygdala, which controls emotional responses.",
+        "The hippocampus, which manages long-term memory storage.",
+        "The prefrontal cortex, which is responsible for rational thought and impulse control.",
+        "The cerebellum, which coordinates physical movement and balance."
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that 'the prefrontal cortex, the brain region most responsible for rational thought and impulse control, is particularly vulnerable to sleep loss.'",
+      "wrongReasons": [
+        "The amygdala is described as becoming hyperactive under sleep deprivation, but the passage says the prefrontal cortex is 'most vulnerable,' not the amygdala.",
+        "The hippocampus is not mentioned in the passage.",
+        "The cerebellum is not mentioned in the passage; the discussion focuses on decision-making regions, not motor coordination."
+      ],
+      "passage": {
+        "id": "r42-passage",
+        "title": "Sleep Deprivation and Decision Making",
+        "body": "Sleep is not merely a passive state of rest but an active biological process essential for cognitive functioning. Research consistently demonstrates that sleep deprivation — defined as obtaining less than the recommended seven to nine hours per night for adults — profoundly impairs the brain's capacity for sound judgment, risk assessment, and complex decision-making.\n\nThe prefrontal cortex, the brain region most responsible for rational thought and impulse control, is particularly vulnerable to sleep loss. Studies using neuroimaging have shown that sleep-deprived individuals exhibit reduced activity in this region, leading to heightened impulsivity and a tendency to favor short-term rewards over long-term benefits. This explains why fatigued people often make financial decisions or dietary choices they later regret.\n\nEmotional regulation also suffers under sleep deprivation. The amygdala — the brain's emotional response center — becomes hyperactive, making individuals more reactive to negative stimuli and less capable of moderating their responses. This combination of impaired rational thinking and heightened emotional reactivity creates conditions ripe for poor interpersonal decisions.\n\nParticularly troubling is the phenomenon known as 'performance overconfidence': sleep-deprived individuals frequently underestimate how impaired they are, rating their own performance as adequate even as objective measures reveal significant deficits. This blind spot makes sleep deprivation especially insidious in high-stakes environments such as medicine, aviation, and emergency response."
+      }
+    },
+    {
+      "id": "r42-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Based on the passage, why is 'performance overconfidence' considered especially dangerous?",
+      "choices": [
+        "It causes sleep-deprived people to sleep more than necessary, worsening their condition.",
+        "It leads individuals to accurately perceive their impairment but refuse to act on that knowledge.",
+        "It prevents sleep-deprived individuals from recognizing their own deficits, making errors in critical fields more likely.",
+        "It only affects people in low-stakes jobs, where the consequences of poor decisions are minimal."
+      ],
+      "answer": 2,
+      "explanation": "The passage explains that sleep-deprived individuals 'underestimate how impaired they are,' creating a 'blind spot' that is especially dangerous in high-stakes environments like medicine and aviation.",
+      "wrongReasons": [
+        "The passage does not suggest overconfidence causes people to oversleep; it is about misjudging one's own cognitive state.",
+        "The passage says individuals fail to recognize their impairment — the opposite of accurately perceiving it.",
+        "The passage explicitly states this is most dangerous in 'high-stakes environments,' not low-stakes ones."
+      ],
+      "passage": {
+        "id": "r42-passage",
+        "title": "Sleep Deprivation and Decision Making",
+        "body": "Sleep is not merely a passive state of rest but an active biological process essential for cognitive functioning. Research consistently demonstrates that sleep deprivation — defined as obtaining less than the recommended seven to nine hours per night for adults — profoundly impairs the brain's capacity for sound judgment, risk assessment, and complex decision-making.\n\nThe prefrontal cortex, the brain region most responsible for rational thought and impulse control, is particularly vulnerable to sleep loss. Studies using neuroimaging have shown that sleep-deprived individuals exhibit reduced activity in this region, leading to heightened impulsivity and a tendency to favor short-term rewards over long-term benefits. This explains why fatigued people often make financial decisions or dietary choices they later regret.\n\nEmotional regulation also suffers under sleep deprivation. The amygdala — the brain's emotional response center — becomes hyperactive, making individuals more reactive to negative stimuli and less capable of moderating their responses. This combination of impaired rational thinking and heightened emotional reactivity creates conditions ripe for poor interpersonal decisions.\n\nParticularly troubling is the phenomenon known as 'performance overconfidence': sleep-deprived individuals frequently underestimate how impaired they are, rating their own performance as adequate even as objective measures reveal significant deficits. This blind spot makes sleep deprivation especially insidious in high-stakes environments such as medicine, aviation, and emergency response."
+      }
+    },
+    {
+      "id": "r42-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'insidious' most nearly means:",
+      "choices": [
+        "Immediately obvious and easy to detect.",
+        "Harmless in small doses but beneficial in large amounts.",
+        "Proceeding gradually in a harmful way that is hard to notice.",
+        "Loudly disruptive and attention-grabbing."
+      ],
+      "answer": 2,
+      "explanation": "The passage uses 'insidious' to describe sleep deprivation's 'blind spot' quality — the harm develops without the person being aware of it, which fits the meaning of a subtle, gradually worsening danger.",
+      "wrongReasons": [
+        "The passage implies the opposite — sleep deprivation's effects are not immediately obvious to the person experiencing them.",
+        "The passage presents sleep deprivation as entirely harmful with no beneficial dose, not a substance with variable effects.",
+        "Insidious implies subtlety and concealment, not loud disruption."
+      ],
+      "passage": {
+        "id": "r42-passage",
+        "title": "Sleep Deprivation and Decision Making",
+        "body": "Sleep is not merely a passive state of rest but an active biological process essential for cognitive functioning. Research consistently demonstrates that sleep deprivation — defined as obtaining less than the recommended seven to nine hours per night for adults — profoundly impairs the brain's capacity for sound judgment, risk assessment, and complex decision-making.\n\nThe prefrontal cortex, the brain region most responsible for rational thought and impulse control, is particularly vulnerable to sleep loss. Studies using neuroimaging have shown that sleep-deprived individuals exhibit reduced activity in this region, leading to heightened impulsivity and a tendency to favor short-term rewards over long-term benefits. This explains why fatigued people often make financial decisions or dietary choices they later regret.\n\nEmotional regulation also suffers under sleep deprivation. The amygdala — the brain's emotional response center — becomes hyperactive, making individuals more reactive to negative stimuli and less capable of moderating their responses. This combination of impaired rational thinking and heightened emotional reactivity creates conditions ripe for poor interpersonal decisions.\n\nParticularly troubling is the phenomenon known as 'performance overconfidence': sleep-deprived individuals frequently underestimate how impaired they are, rating their own performance as adequate even as objective measures reveal significant deficits. This blind spot makes sleep deprivation especially insidious in high-stakes environments such as medicine, aviation, and emergency response."
+      }
+    },
+    {
+      "id": "r42-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To persuade governments to legislate mandatory sleep hours for all workers.",
+        "To describe the neurological and cognitive consequences of sleep deprivation and highlight why they matter in critical contexts.",
+        "To argue that emotional regulation is more important than rational thinking in decision-making.",
+        "To entertain readers with surprising facts about the brain's sleep requirements."
+      ],
+      "answer": 1,
+      "explanation": "The passage systematically explains the brain mechanisms affected by sleep deprivation (prefrontal cortex, amygdala, overconfidence) and closes by emphasizing the real-world stakes in high-risk professions — a clearly informative and cautionary purpose.",
+      "wrongReasons": [
+        "The passage makes no policy recommendations or calls for legislation; it is descriptive and analytical, not prescriptive.",
+        "The passage presents impaired rational thinking and heightened emotional reactivity as equally problematic consequences, not arguing that emotion dominates.",
+        "While the passage contains interesting neuroscience, its tone is academic and serious, not entertainment-focused; and the emphasis on high-stakes environments signals a purposeful warning."
+      ],
+      "passage": {
+        "id": "r42-passage",
+        "title": "Sleep Deprivation and Decision Making",
+        "body": "Sleep is not merely a passive state of rest but an active biological process essential for cognitive functioning. Research consistently demonstrates that sleep deprivation — defined as obtaining less than the recommended seven to nine hours per night for adults — profoundly impairs the brain's capacity for sound judgment, risk assessment, and complex decision-making.\n\nThe prefrontal cortex, the brain region most responsible for rational thought and impulse control, is particularly vulnerable to sleep loss. Studies using neuroimaging have shown that sleep-deprived individuals exhibit reduced activity in this region, leading to heightened impulsivity and a tendency to favor short-term rewards over long-term benefits. This explains why fatigued people often make financial decisions or dietary choices they later regret.\n\nEmotional regulation also suffers under sleep deprivation. The amygdala — the brain's emotional response center — becomes hyperactive, making individuals more reactive to negative stimuli and less capable of moderating their responses. This combination of impaired rational thinking and heightened emotional reactivity creates conditions ripe for poor interpersonal decisions.\n\nParticularly troubling is the phenomenon known as 'performance overconfidence': sleep-deprived individuals frequently underestimate how impaired they are, rating their own performance as adequate even as objective measures reveal significant deficits. This blind spot makes sleep deprivation especially insidious in high-stakes environments such as medicine, aviation, and emergency response."
+      }
+    }
+  ]
+}

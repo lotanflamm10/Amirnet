@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-ar-151",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to BOLD?",
+    "choices": [
+      "timid",
+      "brave",
+      "daring",
+      "confident"
+    ],
+    "answer": 0,
+    "explanation": "Bold means showing willingness to take risks or be daring. Its antonym is timid, which means lacking courage or being shy and fearful.",
+    "wrongReasons": [
+      "Brave is a synonym of bold, meaning ready to face danger without fear.",
+      "Daring is a synonym of bold, meaning willing to take risks.",
+      "Confident is closely related to bold, meaning feeling sure of oneself."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["bold"],
+    "hebrewExplanation": "bold = נועז, אמיץ. הפכו: timid = ביישן, פחדן. bold מתאר אומץ ונועזות, timid מתאר פחד וחוסר בטחון.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-152",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to ANCIENT?",
+    "choices": [
+      "historic",
+      "aged",
+      "modern",
+      "antique"
+    ],
+    "answer": 2,
+    "explanation": "Ancient means belonging to the very distant past. Its antonym is modern, which means relating to the present time or recent times.",
+    "wrongReasons": [
+      "Historic is related to ancient, referring to things important in history.",
+      "Aged is a synonym of ancient, meaning very old.",
+      "Antique is a synonym of ancient, meaning old and often valuable."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["ancient"],
+    "hebrewExplanation": "ancient = עתיק, קדום. הפכו: modern = מודרני, עכשווי. ancient מתאר את העבר הרחוק, modern מתאר את ההווה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-153",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to GENEROUS?",
+    "choices": [
+      "charitable",
+      "stingy",
+      "giving",
+      "liberal"
+    ],
+    "answer": 1,
+    "explanation": "Generous means willing to give more than expected. Its antonym is stingy, which means unwilling to spend or give; mean with money or resources.",
+    "wrongReasons": [
+      "Charitable is a synonym of generous, meaning willing to give to those in need.",
+      "Giving is a synonym of generous, meaning inclined to give freely.",
+      "Liberal is a synonym of generous in this context, meaning giving freely."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["generous"],
+    "hebrewExplanation": "generous = נדיב. הפכו: stingy = קמצן, כילי. generous מתאר נדיבות, stingy מתאר קמצנות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-154",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to HUMBLE?",
+    "choices": [
+      "modest",
+      "meek",
+      "arrogant",
+      "unassuming"
+    ],
+    "answer": 2,
+    "explanation": "Humble means having a low opinion of one's own importance; modest. Its antonym is arrogant, which means having an exaggerated sense of one's own importance.",
+    "wrongReasons": [
+      "Modest is a synonym of humble, meaning not boastful or vain.",
+      "Meek is a synonym of humble, meaning quiet, gentle, and easily imposed on.",
+      "Unassuming is a synonym of humble, meaning not pretentious or arrogant."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["humble"],
+    "hebrewExplanation": "humble = עניו, צנוע. הפכו: arrogant = יהיר, מתנשא. humble מתאר צניעות, arrogant מתאר יהירות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-155",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to SWIFT?",
+    "choices": [
+      "rapid",
+      "sluggish",
+      "speedy",
+      "hasty"
+    ],
+    "answer": 1,
+    "explanation": "Swift means moving or happening quickly. Its antonym is sluggish, which means slow-moving or lacking energy.",
+    "wrongReasons": [
+      "Rapid is a synonym of swift, meaning happening in a short time.",
+      "Speedy is a synonym of swift, meaning moving quickly.",
+      "Hasty is a synonym of swift in some contexts, meaning done with excessive speed."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["swift"],
+    "hebrewExplanation": "swift = מהיר, זריז. הפכו: sluggish = אטי, כבד. swift מתאר מהירות, sluggish מתאר איטיות וחוסר אנרגיה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-156",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to GENUINE?",
+    "choices": [
+      "authentic",
+      "real",
+      "counterfeit",
+      "true"
+    ],
+    "answer": 2,
+    "explanation": "Genuine means truly what it is said to be; authentic. Its antonym is counterfeit, which means made in imitation of something to deceive.",
+    "wrongReasons": [
+      "Authentic is a synonym of genuine, meaning of undisputed origin or quality.",
+      "Real is a synonym of genuine, meaning actually existing.",
+      "True is a synonym of genuine, meaning genuine and not false."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["genuine"],
+    "hebrewExplanation": "genuine = אמיתי, מקורי. הפכו: counterfeit = מזויף, מוחלף. genuine מתאר מקוריות, counterfeit מתאר זיוף.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-157",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to RIGID?",
+    "choices": [
+      "firm",
+      "inflexible",
+      "flexible",
+      "stiff"
+    ],
+    "answer": 2,
+    "explanation": "Rigid means unable to bend or be forced out of shape; inflexible. Its antonym is flexible, which means capable of bending easily or adapting to change.",
+    "wrongReasons": [
+      "Firm is a synonym of rigid, meaning not giving way under pressure.",
+      "Inflexible is a synonym of rigid, meaning unwilling to change.",
+      "Stiff is a synonym of rigid, meaning not easily bent."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["rigid"],
+    "hebrewExplanation": "rigid = נוקשה, קשיח. הפכו: flexible = גמיש. rigid מתאר חוסר גמישות, flexible מתאר גמישות ויכולת הסתגלות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-158",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to FLAWLESS?",
+    "choices": [
+      "perfect",
+      "impeccable",
+      "defective",
+      "immaculate"
+    ],
+    "answer": 2,
+    "explanation": "Flawless means without any imperfections or defects. Its antonym is defective, which means imperfect or faulty.",
+    "wrongReasons": [
+      "Perfect is a synonym of flawless, meaning free from any flaw or defect.",
+      "Impeccable is a synonym of flawless, meaning in accordance with the highest standards.",
+      "Immaculate is a synonym of flawless, meaning perfectly clean or tidy."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["flawless"],
+    "hebrewExplanation": "flawless = ללא דופי, מושלם. הפכו: defective = פגום, לקוי. flawless מתאר שלמות, defective מתאר פגם או ליקוי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-159",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to DIMINISH?",
+    "choices": [
+      "lessen",
+      "augment",
+      "decrease",
+      "reduce"
+    ],
+    "answer": 1,
+    "explanation": "Diminish means to make or become less. Its antonym is augment, which means to make something greater by adding to it; increase.",
+    "wrongReasons": [
+      "Lessen is a synonym of diminish, meaning to make less.",
+      "Decrease is a synonym of diminish, meaning to become smaller in size or amount.",
+      "Reduce is a synonym of diminish, meaning to make smaller or less."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["diminish"],
+    "hebrewExplanation": "diminish = להפחית, לצמצם. הפכו: augment = להגדיל, להרחיב. diminish מתאר הקטנה, augment מתאר הגדלה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-160",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to HOSTILE?",
+    "choices": [
+      "aggressive",
+      "antagonistic",
+      "amicable",
+      "belligerent"
+    ],
+    "answer": 2,
+    "explanation": "Hostile means showing or feeling opposition or dislike; unfriendly. Its antonym is amicable, which means having a spirit of friendliness.",
+    "wrongReasons": [
+      "Aggressive is a synonym of hostile, meaning ready or likely to attack.",
+      "Antagonistic is a synonym of hostile, meaning showing or feeling active opposition.",
+      "Belligerent is a synonym of hostile, meaning hostile and aggressive."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["hostile"],
+    "hebrewExplanation": "hostile = עוין, אגרסיבי. הפכו: amicable = ידידותי, בידידות. hostile מתאר עוינות, amicable מתאר יחסים ידידותיים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-161",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to DEPLETE?",
+    "choices": [
+      "exhaust",
+      "drain",
+      "replenish",
+      "consume"
+    ],
+    "answer": 2,
+    "explanation": "Deplete means to reduce something in quantity, size, or importance. Its antonym is replenish, which means to fill something up again.",
+    "wrongReasons": [
+      "Exhaust is a synonym of deplete, meaning to use up completely.",
+      "Drain is a synonym of deplete, meaning to cause liquid or resources to flow away.",
+      "Consume is a synonym of deplete, meaning to use up a resource."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["deplete"],
+    "hebrewExplanation": "deplete = לדלדל, לרוקן. הפכו: replenish = למלא מחדש. deplete מתאר התרוקנות, replenish מתאר מילוי מחדש.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-162",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to ELUSIVE?",
+    "choices": [
+      "evasive",
+      "tangible",
+      "slippery",
+      "fleeting"
+    ],
+    "answer": 1,
+    "explanation": "Elusive means difficult to find, catch, or achieve. Its antonym is tangible, which means perceptible by touch; clear and definite; real.",
+    "wrongReasons": [
+      "Evasive is a synonym of elusive, meaning tending to avoid commitment.",
+      "Slippery is a synonym of elusive in informal usage, meaning difficult to hold.",
+      "Fleeting is related to elusive, meaning lasting for a very short time."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["elusive"],
+    "hebrewExplanation": "elusive = חמקמק, קשה לתפיסה. הפכו: tangible = מוחשי, ממשי. elusive מתאר משהו שקשה לתפוס, tangible מתאר משהו ממשי ומוחשי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-163",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to FRUGAL?",
+    "choices": [
+      "thrifty",
+      "economical",
+      "extravagant",
+      "sparing"
+    ],
+    "answer": 2,
+    "explanation": "Frugal means sparing or economical with money or food. Its antonym is extravagant, which means spending much more than is necessary.",
+    "wrongReasons": [
+      "Thrifty is a synonym of frugal, meaning using money and resources carefully.",
+      "Economical is a synonym of frugal, meaning giving good value or return.",
+      "Sparing is a synonym of frugal, meaning moderate and economical in use of resources."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["frugal"],
+    "hebrewExplanation": "frugal = חסכוני, מצומצם. הפכו: extravagant = בזבזני, מופרז. frugal מתאר חיסכון, extravagant מתאר בזבוז.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-164",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to BENEVOLENT?",
+    "choices": [
+      "malevolent",
+      "kind",
+      "charitable",
+      "compassionate"
+    ],
+    "answer": 0,
+    "explanation": "Benevolent means well-meaning and kindly. Its antonym is malevolent, which means having or showing a wish to do evil to others.",
+    "wrongReasons": [
+      "Kind is a synonym of benevolent, meaning friendly and generous.",
+      "Charitable is a synonym of benevolent, meaning generous to those in need.",
+      "Compassionate is a synonym of benevolent, meaning feeling concern for others' suffering."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["benevolent"],
+    "hebrewExplanation": "benevolent = טוב לב, נדיב. הפכו: malevolent = רשע, זדוני. benevolent מתאר כוונות טובות, malevolent מתאר כוונות רעות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-165",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to CONCEDE?",
+    "choices": [
+      "acknowledge",
+      "admit",
+      "contest",
+      "yield"
+    ],
+    "answer": 2,
+    "explanation": "Concede means to admit that something is true or to give up. Its antonym is contest, which means to oppose or challenge.",
+    "wrongReasons": [
+      "Acknowledge is a synonym of concede, meaning to accept or admit the existence of.",
+      "Admit is a synonym of concede, meaning to confess to be true.",
+      "Yield is a synonym of concede, meaning to give way to another."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["concede"],
+    "hebrewExplanation": "concede = להודות, לוותר. הפכו: contest = לערער, להתנגד. concede מתאר ויתור או הסכמה, contest מתאר התנגדות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-166",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to ELOQUENT?",
+    "choices": [
+      "articulate",
+      "fluent",
+      "incoherent",
+      "expressive"
+    ],
+    "answer": 2,
+    "explanation": "Eloquent means fluent or persuasive in speaking or writing. Its antonym is incoherent, which means expressed in a way that is unclear and hard to understand.",
+    "wrongReasons": [
+      "Articulate is a synonym of eloquent, meaning able to speak clearly and effectively.",
+      "Fluent is a synonym of eloquent, meaning speaking or writing smoothly.",
+      "Expressive is a synonym of eloquent, meaning effectively conveying thought or feeling."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["eloquent"],
+    "hebrewExplanation": "eloquent = רהוט, מבטא היטב. הפכו: incoherent = בלתי קוהרנטי, לא מובן. eloquent מתאר ביטוי ברור ומשכנע, incoherent מתאר ביטוי מבולבל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-167",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to IMPEDE?",
+    "choices": [
+      "hinder",
+      "obstruct",
+      "expedite",
+      "hamper"
+    ],
+    "answer": 2,
+    "explanation": "Impede means to delay or prevent something by obstructing it. Its antonym is expedite, which means to make something happen sooner or more quickly.",
+    "wrongReasons": [
+      "Hinder is a synonym of impede, meaning to make it difficult for someone to do something.",
+      "Obstruct is a synonym of impede, meaning to block or be in the way of.",
+      "Hamper is a synonym of impede, meaning to hinder the movement or progress of."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["impede"],
+    "hebrewExplanation": "impede = לעכב, למנוע. הפכו: expedite = להאיץ, לזרז. impede מתאר עיכוב, expedite מתאר האצה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-168",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to SEGREGATE?",
+    "choices": [
+      "separate",
+      "isolate",
+      "integrate",
+      "divide"
+    ],
+    "answer": 2,
+    "explanation": "Segregate means to set apart from the rest or from each other; separate. Its antonym is integrate, which means to combine or bring together into a whole.",
+    "wrongReasons": [
+      "Separate is a synonym of segregate, meaning to cause to move apart.",
+      "Isolate is a synonym of segregate, meaning to set apart from others.",
+      "Divide is a synonym of segregate, meaning to separate into parts."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["segregate"],
+    "hebrewExplanation": "segregate = להפריד, לבודד. הפכו: integrate = לשלב, לאחד. segregate מתאר הפרדה, integrate מתאר שילוב ואיחוד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-169",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to COVERT?",
+    "choices": [
+      "overt",
+      "secretive",
+      "clandestine",
+      "hidden"
+    ],
+    "answer": 0,
+    "explanation": "Covert means not openly acknowledged or displayed; secret. Its antonym is overt, which means done openly and not secretly.",
+    "wrongReasons": [
+      "Secretive is a synonym of covert, meaning inclined to conceal feelings or information.",
+      "Clandestine is a synonym of covert, meaning kept secret especially because illicit.",
+      "Hidden is a synonym of covert, meaning kept out of sight."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["covert"],
+    "hebrewExplanation": "covert = סמוי, חשאי. הפכו: overt = גלוי, פומבי. covert מתאר פעולה חשאית, overt מתאר פעולה גלויה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-170",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to DEFY?",
+    "choices": [
+      "challenge",
+      "resist",
+      "comply",
+      "confront"
+    ],
+    "answer": 2,
+    "explanation": "Defy means to openly resist or refuse to obey. Its antonym is comply, which means to act in accordance with a wish or command.",
+    "wrongReasons": [
+      "Challenge is a synonym of defy, meaning to invite to a fight or dispute.",
+      "Resist is a synonym of defy, meaning to withstand the action of.",
+      "Confront is a synonym of defy, meaning to face up to and deal with."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["defy"],
+    "hebrewExplanation": "defy = למרוד, להתנגד. הפכו: comply = לציית, לעמוד בדרישות. defy מתאר מרד, comply מתאר ציות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-171",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to ARBITRARY?",
+    "choices": [
+      "random",
+      "capricious",
+      "principled",
+      "whimsical"
+    ],
+    "answer": 2,
+    "explanation": "Arbitrary means based on random choice or personal whim rather than reason or system. Its antonym is principled, which means acting according to a clear set of standards.",
+    "wrongReasons": [
+      "Random is a synonym of arbitrary, meaning made without careful choice.",
+      "Capricious is a synonym of arbitrary, meaning given to sudden changes of mood.",
+      "Whimsical is a synonym of arbitrary, meaning playfully quaint or fanciful."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["arbitrary"],
+    "hebrewExplanation": "arbitrary = שרירותי, אקראי. הפכו: principled = עקרוני, מנחה עקרונות. arbitrary מתאר החלטות ללא בסיס, principled מתאר פעולה לפי עקרונות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-172",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to LAMENT?",
+    "choices": [
+      "mourn",
+      "grieve",
+      "rejoice",
+      "deplore"
+    ],
+    "answer": 2,
+    "explanation": "Lament means to feel or express grief or regret. Its antonym is rejoice, which means to feel or show great joy or delight.",
+    "wrongReasons": [
+      "Mourn is a synonym of lament, meaning to feel sorrow for the death of someone.",
+      "Grieve is a synonym of lament, meaning to feel intense sorrow.",
+      "Deplore is a synonym of lament, meaning to feel or express strong disapproval."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["lament"],
+    "hebrewExplanation": "lament = להתאבל, לבכות. הפכו: rejoice = לשמוח, לגיל. lament מתאר צער ואבל, rejoice מתאר שמחה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-173",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to RECTIFY?",
+    "choices": [
+      "correct",
+      "remedy",
+      "worsen",
+      "fix"
+    ],
+    "answer": 2,
+    "explanation": "Rectify means to put something right; correct. Its antonym is worsen, which means to make something worse or become worse.",
+    "wrongReasons": [
+      "Correct is a synonym of rectify, meaning to put right.",
+      "Remedy is a synonym of rectify, meaning to set right or improve.",
+      "Fix is a synonym of rectify, meaning to mend or repair."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["rectify"],
+    "hebrewExplanation": "rectify = לתקן, לשפר. הפכו: worsen = להחמיר. rectify מתאר תיקון, worsen מתאר החמרה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-174",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to DETRIMENTAL?",
+    "choices": [
+      "harmful",
+      "damaging",
+      "beneficial",
+      "injurious"
+    ],
+    "answer": 2,
+    "explanation": "Detrimental means tending to cause harm. Its antonym is beneficial, which means resulting in good; advantageous.",
+    "wrongReasons": [
+      "Harmful is a synonym of detrimental, meaning causing or likely to cause harm.",
+      "Damaging is a synonym of detrimental, meaning causing harm.",
+      "Injurious is a synonym of detrimental, meaning causing injury; harmful."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["detrimental"],
+    "hebrewExplanation": "detrimental = מזיק, פוגע. הפכו: beneficial = מועיל, מיטיב. detrimental מתאר נזק, beneficial מתאר תועלת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-175",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to PLAUSIBLE?",
+    "choices": [
+      "credible",
+      "reasonable",
+      "implausible",
+      "convincing"
+    ],
+    "answer": 2,
+    "explanation": "Plausible means seeming reasonable or probable. Its antonym is implausible, which means not seeming reasonable or probable.",
+    "wrongReasons": [
+      "Credible is a synonym of plausible, meaning able to be believed.",
+      "Reasonable is a synonym of plausible, meaning having sound judgment.",
+      "Convincing is a synonym of plausible, meaning capable of causing belief."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["plausible"],
+    "hebrewExplanation": "plausible = סביר, אמין. הפכו: implausible = לא סביר, לא אמין. plausible מתאר משהו שנראה הגיוני, implausible מתאר משהו לא הגיוני.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-176",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to VAGUE?",
+    "choices": [
+      "hazy",
+      "obscure",
+      "precise",
+      "unclear"
+    ],
+    "answer": 2,
+    "explanation": "Vague means of uncertain or indefinite character or meaning. Its antonym is precise, which means marked by exactness and accuracy of expression or detail.",
+    "wrongReasons": [
+      "Hazy is a synonym of vague, meaning indistinct or unclear.",
+      "Obscure is a synonym of vague, meaning not clearly expressed.",
+      "Unclear is a synonym of vague, meaning not easy to understand."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["vague"],
+    "hebrewExplanation": "vague = מעורפל, לא ברור. הפכו: precise = מדויק, ברור. vague מתאר חוסר בהירות, precise מתאר דיוק ובהירות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-177",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to DILIGENT?",
+    "choices": [
+      "industrious",
+      "hardworking",
+      "negligent",
+      "persistent"
+    ],
+    "answer": 2,
+    "explanation": "Diligent means having or showing care and effort in work. Its antonym is negligent, which means failing to take proper care in doing something.",
+    "wrongReasons": [
+      "Industrious is a synonym of diligent, meaning hardworking.",
+      "Hardworking is a synonym of diligent, meaning tending to work with effort.",
+      "Persistent is related to diligent, meaning continuing firmly despite difficulty."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["diligent"],
+    "hebrewExplanation": "diligent = חרוץ, שקדן. הפכו: negligent = רשלן, לא זהיר. diligent מתאר שקידה ומאמץ, negligent מתאר רשלנות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-178",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to STEADFAST?",
+    "choices": [
+      "resolute",
+      "determined",
+      "vacillating",
+      "unwavering"
+    ],
+    "answer": 2,
+    "explanation": "Steadfast means resolutely or dutifully firm and unwavering. Its antonym is vacillating, which means alternating between different opinions or actions; indecisive.",
+    "wrongReasons": [
+      "Resolute is a synonym of steadfast, meaning admirably purposeful and determined.",
+      "Determined is a synonym of steadfast, meaning having made a firm decision.",
+      "Unwavering is a synonym of steadfast, meaning not wavering; steady."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["steadfast"],
+    "hebrewExplanation": "steadfast = נחוש, יציב. הפכו: vacillating = מתלבט, נע ונד. steadfast מתאר נחישות, vacillating מתאר חוסר החלטיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-179",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to NOTORIOUS?",
+    "choices": [
+      "infamous",
+      "disreputable",
+      "reputable",
+      "scandalous"
+    ],
+    "answer": 2,
+    "explanation": "Notorious means famous for something bad. Its antonym is reputable, which means having a good reputation; respected.",
+    "wrongReasons": [
+      "Infamous is a synonym of notorious, meaning well known for some bad quality.",
+      "Disreputable is a synonym of notorious, meaning not considered to be respectable.",
+      "Scandalous is a synonym of notorious, meaning causing general public outrage."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["notorious"],
+    "hebrewExplanation": "notorious = ידוע לשמצה. הפכו: reputable = בעל שם טוב. notorious מתאר מוניטין שלילי, reputable מתאר מוניטין חיובי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-180",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to PESSIMISTIC?",
+    "choices": [
+      "cynical",
+      "gloomy",
+      "sanguine",
+      "despairing"
+    ],
+    "answer": 2,
+    "explanation": "Pessimistic means tending to see the worst aspect of things or believe the worst will happen. Its antonym is sanguine, which means optimistic, especially in a difficult situation.",
+    "wrongReasons": [
+      "Cynical is related to pessimistic, meaning distrustful of people's motives.",
+      "Gloomy is a synonym of pessimistic, meaning dark or poorly lit; depressing.",
+      "Despairing is a synonym of pessimistic, meaning showing loss of hope."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["pessimistic"],
+    "hebrewExplanation": "pessimistic = פסימי, שלילי. הפכו: sanguine = אופטימי, מלא תקווה. pessimistic מתאר ייאוש, sanguine מתאר תקווה ואופטימיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-181",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to RELUCTANT?",
+    "choices": [
+      "hesitant",
+      "unwilling",
+      "eager",
+      "disinclined"
+    ],
+    "answer": 2,
+    "explanation": "Reluctant means unwilling and hesitant; disinclined. Its antonym is eager, which means wanting to do or have something very much.",
+    "wrongReasons": [
+      "Hesitant is a synonym of reluctant, meaning tentative; unsure.",
+      "Unwilling is a synonym of reluctant, meaning not ready, eager, or prepared to do.",
+      "Disinclined is a synonym of reluctant, meaning unwilling; reluctant."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["reluctant"],
+    "hebrewExplanation": "reluctant = מהסס, לא מוכן. הפכו: eager = להוט, נלהב. reluctant מתאר חוסר רצון, eager מתאר להיטות ורצון עז.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-182",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to FORTIFY?",
+    "choices": [
+      "strengthen",
+      "reinforce",
+      "weaken",
+      "bolster"
+    ],
+    "answer": 2,
+    "explanation": "Fortify means to strengthen a place against attack or make stronger. Its antonym is weaken, which means to make or become weaker.",
+    "wrongReasons": [
+      "Strengthen is a synonym of fortify, meaning to make or become stronger.",
+      "Reinforce is a synonym of fortify, meaning to strengthen with additional material.",
+      "Bolster is a synonym of fortify, meaning to support or strengthen."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["fortify"],
+    "hebrewExplanation": "fortify = לחזק, לבצר. הפכו: weaken = להחליש. fortify מתאר חיזוק, weaken מתאר החלשה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-183",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to TURBULENT?",
+    "choices": [
+      "chaotic",
+      "stormy",
+      "serene",
+      "tempestuous"
+    ],
+    "answer": 2,
+    "explanation": "Turbulent means characterized by conflict or unrest; moving in a chaotic way. Its antonym is serene, which means calm, peaceful, and untroubled.",
+    "wrongReasons": [
+      "Chaotic is a synonym of turbulent, meaning in a state of complete disorder.",
+      "Stormy is a synonym of turbulent, meaning having strong winds and rain.",
+      "Tempestuous is a synonym of turbulent, meaning very stormy."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["turbulent"],
+    "hebrewExplanation": "turbulent = סוער, אלים. הפכו: serene = שליו, רגוע. turbulent מתאר סערה ותגלית, serene מתאר שקט ורוגע.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-184",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to CONDEMN?",
+    "choices": [
+      "censure",
+      "denounce",
+      "commend",
+      "criticize"
+    ],
+    "answer": 2,
+    "explanation": "Condemn means to express complete disapproval of. Its antonym is commend, which means to praise formally or officially.",
+    "wrongReasons": [
+      "Censure is a synonym of condemn, meaning to express severe disapproval.",
+      "Denounce is a synonym of condemn, meaning to publicly declare to be wrong.",
+      "Criticize is a synonym of condemn, meaning to indicate faults; to judge unfavorably."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["condemn"],
+    "hebrewExplanation": "condemn = לגנות, להאשים. הפכו: commend = לשבח, להמליץ. condemn מתאר גינוי, commend מתאר שבח.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-185",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to EQUIVOCAL?",
+    "choices": [
+      "unequivocal",
+      "ambiguous",
+      "vague",
+      "evasive"
+    ],
+    "answer": 0,
+    "explanation": "Equivocal means open to more than one interpretation; ambiguous. Its antonym is unequivocal, which means leaving no doubt; unambiguous.",
+    "wrongReasons": [
+      "Ambiguous is a synonym of equivocal, meaning open to more than one interpretation.",
+      "Vague is a synonym of equivocal, meaning of uncertain or indefinite character.",
+      "Evasive is a synonym of equivocal, meaning tending to avoid commitment."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["equivocal"],
+    "hebrewExplanation": "equivocal = דו-משמעי, מעורפל. הפכו: unequivocal = חד-משמעי, ברור. equivocal מתאר חוסר בהירות, unequivocal מתאר בהירות מוחלטת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-186",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to LACONIC?",
+    "choices": [
+      "verbose",
+      "succinct",
+      "terse",
+      "brief"
+    ],
+    "answer": 0,
+    "explanation": "Laconic means using very few words. Its antonym is verbose, which means using or expressed in more words than are needed.",
+    "wrongReasons": [
+      "Succinct is a synonym of laconic, meaning briefly and clearly expressed.",
+      "Terse is a synonym of laconic, meaning sparing with words; abrupt.",
+      "Brief is a synonym of laconic, meaning of short duration or length."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["laconic"],
+    "hebrewExplanation": "laconic = תמציתי, קצר-לשון. הפכו: verbose = דברני, מלא מילים. laconic מתאר ביטוי בעמ מילים מועטות, verbose מתאר שימוש יתר במילים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-187",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to SYCOPHANTIC?",
+    "choices": [
+      "obsequious",
+      "fawning",
+      "candid",
+      "flattering"
+    ],
+    "answer": 2,
+    "explanation": "Sycophantic means behaving in an obsequious way; excessively complimentary to gain favor. Its antonym is candid, which means truthful and straightforward, without flattery.",
+    "wrongReasons": [
+      "Obsequious is a synonym of sycophantic, meaning obedient or attentive to an excessive degree.",
+      "Fawning is a synonym of sycophantic, meaning displaying exaggerated flattery.",
+      "Flattering is a synonym of sycophantic, meaning full of praise and compliments."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["sycophantic"],
+    "hebrewExplanation": "sycophantic = חנפני, מחמיא בשקר. הפכו: candid = כן, גלוי לב. sycophantic מתאר חנופה, candid מתאר כנות וישירות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-188",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to PERFIDIOUS?",
+    "choices": [
+      "treacherous",
+      "deceitful",
+      "faithful",
+      "disloyal"
+    ],
+    "answer": 2,
+    "explanation": "Perfidious means deceitful and untrustworthy. Its antonym is faithful, which means loyal, constant, and steadfast.",
+    "wrongReasons": [
+      "Treacherous is a synonym of perfidious, meaning guilty of betrayal.",
+      "Deceitful is a synonym of perfidious, meaning guilty of deception.",
+      "Disloyal is a synonym of perfidious, meaning failing to be loyal."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["perfidious"],
+    "hebrewExplanation": "perfidious = בוגדני, מרמה. הפכו: faithful = נאמן. perfidious מתאר בגידה ורמאות, faithful מתאר נאמנות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-189",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to INIMICAL?",
+    "choices": [
+      "hostile",
+      "adverse",
+      "favorable",
+      "antagonistic"
+    ],
+    "answer": 2,
+    "explanation": "Inimical means tending to obstruct or harm; unfriendly or hostile. Its antonym is favorable, which means expressing approval or expressing a positive attitude.",
+    "wrongReasons": [
+      "Hostile is a synonym of inimical, meaning showing opposition and dislike.",
+      "Adverse is a synonym of inimical, meaning preventing success or development.",
+      "Antagonistic is a synonym of inimical, meaning showing or feeling active opposition."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["inimical"],
+    "hebrewExplanation": "inimical = עוין, מזיק. הפכו: favorable = נוח, חיובי. inimical מתאר עוינות או נזק, favorable מתאר תמיכה ותנאים חיוביים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-190",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to MENDACIOUS?",
+    "choices": [
+      "untruthful",
+      "deceptive",
+      "veracious",
+      "dishonest"
+    ],
+    "answer": 2,
+    "explanation": "Mendacious means not telling the truth; lying. Its antonym is veracious, which means speaking or representing the truth; truthful.",
+    "wrongReasons": [
+      "Untruthful is a synonym of mendacious, meaning saying things that are not true.",
+      "Deceptive is a synonym of mendacious, meaning giving a false impression.",
+      "Dishonest is a synonym of mendacious, meaning not truthful or trustworthy."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["mendacious"],
+    "hebrewExplanation": "mendacious = שקרן, כוזב. הפכו: veracious = אמת-אומר, אמין. mendacious מתאר שקר, veracious מתאר אמיתות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-191",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to VOCIFEROUS?",
+    "choices": [
+      "clamorous",
+      "strident",
+      "reticent",
+      "boisterous"
+    ],
+    "answer": 2,
+    "explanation": "Vociferous means making a loud, insistent outcry. Its antonym is reticent, which means not revealing one's thoughts or feelings readily; reserved and quiet.",
+    "wrongReasons": [
+      "Clamorous is a synonym of vociferous, meaning making a loud and confused noise.",
+      "Strident is a synonym of vociferous, meaning loud and harsh.",
+      "Boisterous is a synonym of vociferous, meaning noisy, energetic, and cheerful."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["vociferous"],
+    "hebrewExplanation": "vociferous = רועש, קולני. הפכו: reticent = שקט, מסויג. vociferous מתאר רעש וצעקות, reticent מתאר עצור ושקט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-192",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to INTRANSIGENT?",
+    "choices": [
+      "obdurate",
+      "inflexible",
+      "amenable",
+      "unyielding"
+    ],
+    "answer": 2,
+    "explanation": "Intransigent means unwilling to change one's views or agree. Its antonym is amenable, which means open and responsive to suggestion; willing to cooperate.",
+    "wrongReasons": [
+      "Obdurate is a synonym of intransigent, meaning stubbornly refusing to change.",
+      "Inflexible is a synonym of intransigent, meaning unwilling to change or compromise.",
+      "Unyielding is a synonym of intransigent, meaning not giving way; stubbornly determined."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["intransigent"],
+    "hebrewExplanation": "intransigent = עקשן, לא מוכן לפשרה. הפכו: amenable = נוח לעבוד איתו, פתוח. intransigent מתאר עקשנות, amenable מתאר פתיחות לשינוי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-193",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to RECONDITE?",
+    "choices": [
+      "abstruse",
+      "esoteric",
+      "accessible",
+      "arcane"
+    ],
+    "answer": 2,
+    "explanation": "Recondite means not known by many people; obscure. Its antonym is accessible, which means friendly and easy to talk to; easy to understand.",
+    "wrongReasons": [
+      "Abstruse is a synonym of recondite, meaning difficult to understand; obscure.",
+      "Esoteric is a synonym of recondite, meaning intended for a small group with specialized knowledge.",
+      "Arcane is a synonym of recondite, meaning understood by few; mysterious."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["recondite"],
+    "hebrewExplanation": "recondite = נסתר, לא ידוע לרבים. הפכו: accessible = נגיש, מובן. recondite מתאר ידע מסתורי ומוסתר, accessible מתאר נגישות ופשטות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-194",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to ACRIMONIOUS?",
+    "choices": [
+      "bitter",
+      "caustic",
+      "cordial",
+      "vitriolic"
+    ],
+    "answer": 2,
+    "explanation": "Acrimonious means angry and bitter, especially in speech or manner. Its antonym is cordial, which means warm and friendly.",
+    "wrongReasons": [
+      "Bitter is a synonym of acrimonious, meaning angry or resentful.",
+      "Caustic is a synonym of acrimonious, meaning sarcastic in a scathing way.",
+      "Vitriolic is a synonym of acrimonious, meaning filled with bitter criticism."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["acrimonious"],
+    "hebrewExplanation": "acrimonious = מריר, עוקצני. הפכו: cordial = חם, ידידותי. acrimonious מתאר מרירות ועוינות, cordial מתאר חמימות וידידות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-195",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to LOQUACIOUS?",
+    "choices": [
+      "garrulous",
+      "voluble",
+      "taciturn",
+      "talkative"
+    ],
+    "answer": 2,
+    "explanation": "Loquacious means tending to talk a great deal. Its antonym is taciturn, which means reserved or uncommunicative in speech; saying little.",
+    "wrongReasons": [
+      "Garrulous is a synonym of loquacious, meaning excessively talkative.",
+      "Voluble is a synonym of loquacious, meaning talking fluently or incessantly.",
+      "Talkative is a synonym of loquacious, meaning fond of talking."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["loquacious"],
+    "hebrewExplanation": "loquacious = דברני, פטפטן. הפכו: taciturn = שתקן, לקצר מילים. loquacious מתאר נטייה לדבר הרבה, taciturn מתאר נטייה לדבר מעט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-196",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to IMPERIOUS?",
+    "choices": [
+      "domineering",
+      "overbearing",
+      "deferential",
+      "authoritarian"
+    ],
+    "answer": 2,
+    "explanation": "Imperious means assuming power or authority without justification; arrogant. Its antonym is deferential, which means showing respectful submission to another's opinion.",
+    "wrongReasons": [
+      "Domineering is a synonym of imperious, meaning asserting one's will over others.",
+      "Overbearing is a synonym of imperious, meaning unpleasantly overpowering.",
+      "Authoritarian is a synonym of imperious, meaning favoring strict obedience to authority."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["imperious"],
+    "hebrewExplanation": "imperious = שתלטן, שחצן. הפכו: deferential = כבוד-מוקדש, מכבד. imperious מתאר שלטנות, deferential מתאר ענווה וכבוד.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-197",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to NEFARIOUS?",
+    "choices": [
+      "wicked",
+      "villainous",
+      "virtuous",
+      "heinous"
+    ],
+    "answer": 2,
+    "explanation": "Nefarious means wicked or criminal. Its antonym is virtuous, which means having or showing high moral standards.",
+    "wrongReasons": [
+      "Wicked is a synonym of nefarious, meaning evil or morally wrong.",
+      "Villainous is a synonym of nefarious, meaning relating to, constituting, or guilty of wicked.",
+      "Heinous is a synonym of nefarious, meaning utterly odious or wicked."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["nefarious"],
+    "hebrewExplanation": "nefarious = רשע, פושע. הפכו: virtuous = מוסרי, צדיק. nefarious מתאר רשעות, virtuous מתאר מוסריות גבוהה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-198",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to TORPID?",
+    "choices": [
+      "sluggish",
+      "lethargic",
+      "vivacious",
+      "dormant"
+    ],
+    "answer": 2,
+    "explanation": "Torpid means mentally or physically inactive; lethargic. Its antonym is vivacious, which means attractively lively and animated.",
+    "wrongReasons": [
+      "Sluggish is a synonym of torpid, meaning slow-moving or inactive.",
+      "Lethargic is a synonym of torpid, meaning affected by lethargy; sluggish.",
+      "Dormant is a synonym of torpid, meaning having normal physical functions suspended."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["torpid"],
+    "hebrewExplanation": "torpid = עצלני, רדום. הפכו: vivacious = חיוני, תוסס. torpid מתאר ניוון ועייפות, vivacious מתאר חיוניות ואנרגיה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-199",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to INSIPID?",
+    "choices": [
+      "bland",
+      "vapid",
+      "piquant",
+      "tasteless"
+    ],
+    "answer": 2,
+    "explanation": "Insipid means lacking flavor or interest; dull. Its antonym is piquant, which means having a pleasantly sharp or appetizing taste; pleasantly stimulating or interesting.",
+    "wrongReasons": [
+      "Bland is a synonym of insipid, meaning lacking strong features; dull and uninteresting.",
+      "Vapid is a synonym of insipid, meaning offering nothing stimulating or challenging.",
+      "Tasteless is a synonym of insipid, meaning lacking flavor."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["insipid"],
+    "hebrewExplanation": "insipid = חסר טעם, משעמם. הפכו: piquant = חריף, מגרה. insipid מתאר חוסר טעם, piquant מתאר טעם חד ומעניין.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-200",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to PUSILLANIMOUS?",
+    "choices": [
+      "cowardly",
+      "timorous",
+      "intrepid",
+      "faint-hearted"
+    ],
+    "answer": 2,
+    "explanation": "Pusillanimous means showing a lack of courage or determination; timid. Its antonym is intrepid, which means fearless; adventurous.",
+    "wrongReasons": [
+      "Cowardly is a synonym of pusillanimous, meaning lacking courage.",
+      "Timorous is a synonym of pusillanimous, meaning showing nervousness or fear.",
+      "Faint-hearted is a synonym of pusillanimous, meaning lacking courage or conviction."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["pusillanimous"],
+    "hebrewExplanation": "pusillanimous = פחדן, חסר אומץ. הפכו: intrepid = אמיץ, נועז. pusillanimous מתאר פחדנות, intrepid מתאר אומץ ונועזות.",
+    "estimatedTimeSeconds": 45
+  }
+]

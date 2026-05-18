@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-cp-151",
+    "difficulty": "easy",
+    "text": "The experiment produced unexpected results. ________, the scientists decided to repeat it three more times.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Although",
+      "Moreover",
+      "Unless"
+    ],
+    "answer": 0,
+    "explanation": "'Therefore' connects the unexpected results (a problem demanding action) to the logical response of repeating the experiment. The decision to retry is a direct consequence of the anomalous findings.",
+    "wrongReasons": [
+      "'Although' introduces a concession — it would suggest the scientists repeated the experiment despite the unexpected results, but the results are the reason, not an obstacle.",
+      "'Moreover' adds supplementary information of the same type, not a result triggered by what came before.",
+      "'Unless' is a conditional meaning 'except if,' which would create an ungrammatical conditional relationship between the result and the decision."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THEREFORE = לכן / לפיכך. הסבר: 'therefore' מבטא תוצאה הגיונית ישירה. הרמז הלוגי: תוצאות בלתי צפויות → לכן החוקרים החליטו לחזור על הניסוי. השאר אינם מתאימים כי 'although' מביע ויתור, 'moreover' מוסיף מידע, ו-'unless' מביע תנאי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-152",
+    "difficulty": "easy",
+    "text": "The government invested heavily in renewable energy. ________, carbon emissions dropped significantly over the next decade.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "As a result",
+      "In contrast",
+      "Provided that"
+    ],
+    "answer": 1,
+    "explanation": "'As a result' marks the drop in carbon emissions as a direct consequence of investing in renewable energy. The second clause is the measurable outcome of the policy described in the first.",
+    "wrongReasons": [
+      "'However' signals an unexpected contrast or reversal, but lower emissions after investing in clean energy is the expected, not surprising, outcome.",
+      "'In contrast' draws a comparison between two opposing things, yet both clauses move in the same positive environmental direction.",
+      "'Provided that' introduces a condition that must be met, but the sentence presents a completed fact, not a conditional future scenario."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך. הסבר: 'as a result' מציין שהמשפט השני הוא תוצאה ישירה של הראשון. הרמז הלוגי: השקעה באנרגיה מתחדשת → כתוצאה מכך פליטות הפחמן ירדו. 'however' מביע ניגוד, 'in contrast' משווה ניגודים, ו-'provided that' מביע תנאי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-153",
+    "difficulty": "easy",
+    "text": "The new hospital offers state-of-the-art equipment. ________, it provides a wide range of specialist services.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "Whereas",
+      "In addition",
+      "Consequently"
+    ],
+    "answer": 2,
+    "explanation": "'In addition' adds another positive feature (specialist services) to the one already mentioned (modern equipment). Both clauses describe benefits of the same hospital, stacked together.",
+    "wrongReasons": [
+      "'Nevertheless' means 'despite that,' implying that offering specialist services is surprising or contradicts the previous point — but both are straightforward positives.",
+      "'Whereas' highlights a contrast between two different subjects or situations; here both clauses describe the same hospital favorably.",
+      "'Consequently' implies the second fact is caused by the first — but offering specialist services is not a result of having modern equipment."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN ADDITION = בנוסף לכך. הסבר: 'in addition' מוסיף עוד נקודה חיובית באותו הכיוון. הרמז הלוגי: ציוד מתקדם → בנוסף, שירותי מומחים. 'nevertheless' מביע ניגוד מפתיע, 'whereas' משווה ניגודים, ו-'consequently' מביע תוצאה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-154",
+    "difficulty": "easy",
+    "text": "Students will not be allowed to retake the final exam ________ they can provide a valid medical certificate.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "moreover",
+      "therefore",
+      "unless",
+      "however"
+    ],
+    "answer": 2,
+    "explanation": "'Unless' creates the correct conditional: retaking is forbidden except in the specific case of a valid medical certificate. It expresses the one exception to the rule.",
+    "wrongReasons": [
+      "'Moreover' is an additive connector that lists extra information; it cannot grammatically link a condition to a rule.",
+      "'Therefore' signals a result or conclusion, but the sentence needs a conditional structure, not a cause-and-effect relationship.",
+      "'However' introduces contrast between two independent ideas, but what follows the blank is a condition, not a contrasting statement."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "UNLESS = אלא אם כן. הסבר: 'unless' מביע חריג לכלל — הדבר לא יקרה חוץ מאם מתקיים תנאי מסוים. הרמז הלוגי: לא יורשה לגשת לבחינה חוזרת אלא אם כן יציג אישור רפואי. 'moreover' מוסיף מידע, 'therefore' מביע תוצאה, ו-'however' מביע ניגוד.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-155",
+    "difficulty": "easy",
+    "text": "The two cities share a similar climate. ________, their economies are very different from each other.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "Therefore",
+      "However",
+      "As a result"
+    ],
+    "answer": 2,
+    "explanation": "'However' introduces an unexpected contrast: despite sharing a similar climate, the two cities have very different economies. The second clause contradicts the expectation set by the first.",
+    "wrongReasons": [
+      "'Furthermore' adds information in the same direction — it would suggest the different economies is another similar trait, not a contrast.",
+      "'Therefore' implies the different economies resulted from the similar climate, but climate does not logically cause economic differences in this context.",
+      "'As a result' marks a cause-and-effect relationship, but the different economies are not a result of the shared climate."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: 'however' מביע ניגוד — משהו שמפתיע או סותר את מה שנאמר קודם. הרמז הלוגי: אקלים דומה → אך כלכלות שונות מאוד. 'furthermore' מוסיף, 'therefore' מביע תוצאה, 'as a result' מביע תוצאה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-156",
+    "difficulty": "easy",
+    "text": "The researcher published her findings in a top journal. ________, she was invited to speak at an international conference.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Although",
+      "Nevertheless",
+      "Consequently",
+      "Whereas"
+    ],
+    "answer": 2,
+    "explanation": "'Consequently' shows that the conference invitation was a direct result of publishing in a top journal. Prestigious publication logically leads to recognition such as speaking invitations.",
+    "wrongReasons": [
+      "'Although' would imply the invitation was granted in spite of her publication, treating publication as an obstacle rather than the reason for the invitation.",
+      "'Nevertheless' means 'despite that,' suggesting the invitation was unexpected or contrary to what her publication implied — but it was a natural outcome.",
+      "'Whereas' draws a contrast between two subjects or situations, but both clauses describe the same researcher's rising success."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "CONSEQUENTLY = כתוצאה מכך / לפיכך. הסבר: 'consequently' מביע תוצאה הגיונית. הרמז הלוגי: פרסמה מחקר בכתב עת מוביל → כתוצאה מכך הוזמנה להרצאה. 'although' ו-'nevertheless' מביעים ויתור, ו-'whereas' מביע ניגוד.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-157",
+    "difficulty": "easy",
+    "text": "The company will expand into new markets ________ the economic conditions remain stable.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "however",
+      "as a result",
+      "provided that",
+      "furthermore"
+    ],
+    "answer": 2,
+    "explanation": "'Provided that' sets a condition that must be satisfied for the expansion to happen: it will occur only if economic conditions remain stable. This is a forward-looking conditional.",
+    "wrongReasons": [
+      "'However' introduces contrast between independent statements; it cannot grammatically introduce a condition inside a single sentence.",
+      "'As a result' marks a consequence of a prior event, but here we need a conditional clause about future circumstances, not a result.",
+      "'Furthermore' adds extra information of the same type; it cannot connect a main clause to its prerequisite condition."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "PROVIDED THAT = בתנאי ש- / כל עוד. הסבר: 'provided that' מביע תנאי הכרחי להתרחשות הדבר. הרמז הלוגי: החברה תתרחב — בתנאי שהתנאים הכלכליים יישארו יציבים. 'however' מביע ניגוד, 'as a result' מביע תוצאה, 'furthermore' מוסיף מידע.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-158",
+    "difficulty": "easy",
+    "text": "Regular exercise improves physical health. ________, it has proven benefits for mental well-being.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "However",
+      "Therefore",
+      "Unless"
+    ],
+    "answer": 0,
+    "explanation": "'Moreover' adds a further benefit (mental well-being) on top of the one already stated (physical health). Both points reinforce the positive case for exercise.",
+    "wrongReasons": [
+      "'However' signals a contrast or surprise, but mental benefits are another positive aspect of exercise — not something that contradicts physical benefits.",
+      "'Therefore' implies mental well-being results from physical health improvement, but the sentence describes two separate and independent benefits of exercise.",
+      "'Unless' is conditional and would create a nonsensical meaning — exercise improves physical health except if it benefits mental well-being makes no sense."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "MOREOVER = יתרה מזאת / בנוסף. הסבר: 'moreover' מוסיף יתרון נוסף. הרמז הלוגי: פעילות גופנית משפרת בריאות פיזית → ויתרה מזאת, יש לה יתרונות נפשיים. 'however' מביע ניגוד, 'therefore' מביע תוצאה, ו-'unless' מביע תנאי שלילי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-159",
+    "difficulty": "medium",
+    "text": "The vaccine was widely distributed across the country. ________, infection rates fell sharply within two months.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nonetheless",
+      "Thus",
+      "Whereas",
+      "In order to"
+    ],
+    "answer": 1,
+    "explanation": "'Thus' signals that falling infection rates are the logical consequence of wide vaccine distribution. It is a formal result/conclusion connector appropriate for scientific or academic contexts.",
+    "wrongReasons": [
+      "'Nonetheless' means 'despite that' and would imply infection rates fell surprisingly despite the vaccination effort — but the drop is the expected outcome.",
+      "'Whereas' introduces a contrast between two different things or groups; here both clauses describe related aspects of the same public-health success.",
+      "'In order to' expresses purpose and must be followed by a verb phrase, not an independent clause with a subject."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THUS = לפיכך / כך. הסבר: 'thus' מביע מסקנה פורמלית או תוצאה הגיונית. הרמז הלוגי: חיסון הופץ באופן נרחב → לפיכך שיעורי ההדבקה ירדו חדות. 'nonetheless' מביע ויתור מפתיע, 'whereas' מביע ניגוד, ו-'in order to' מביע מטרה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-160",
+    "difficulty": "medium",
+    "text": "Developed nations consume far more energy per capita than developing ones. ________, many poorer countries are now the fastest-growing sources of emissions.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Similarly",
+      "Nevertheless",
+      "In addition to"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' acknowledges the established fact (developed nations use more energy per capita) but introduces the surprising counter-fact that developing nations are the fastest-growing emitters. This is a classic concession-contrast structure.",
+    "wrongReasons": [
+      "'Therefore' would suggest that developing countries growing fastest in emissions is a result of developed nations' high per-capita consumption — but the sentence is presenting a contrast, not a cause.",
+      "'Similarly' draws a parallel, implying the two situations are alike; but the sentence contrasts the high per-capita consumption of rich countries with the rapid emission growth of poor ones.",
+      "'In addition to' is a preposition requiring a noun phrase, not a connector that can introduce an independent clause."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / אף על פי כן. הסבר: 'nevertheless' מודה בנקודה אחת אך מציג עובדה מנוגדת ומפתיעה. הרמז הלוגי: מדינות מפותחות צורכות יותר אנרגיה לנפש — בכל זאת, מדינות מתפתחות הן המקור הצומח ביותר לפליטות. 'therefore' מביע תוצאה, 'similarly' מביע דמיון, 'in addition to' הוא מילת יחס.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-161",
+    "difficulty": "medium",
+    "text": "The psychologist suggested that social media can increase feelings of loneliness. ________, studies also show it can strengthen community ties when used mindfully.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Hence",
+      "On the other hand",
+      "In particular",
+      "As long as"
+    ],
+    "answer": 1,
+    "explanation": "'On the other hand' presents the opposing side of the argument — social media can harm OR help, depending on how it is used. It signals a balanced two-sided discussion.",
+    "wrongReasons": [
+      "'Hence' is a result connector meaning 'therefore'; it would imply the community benefits result from the loneliness risk, which is not the logical relationship.",
+      "'In particular' narrows down to a specific example of a broader point, but the second clause introduces a contrasting idea, not a specific instance of the first.",
+      "'As long as' introduces a condition; it cannot begin an independent clause presenting a contrasting perspective."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ON THE OTHER HAND = מצד שני. הסבר: 'on the other hand' מציג את הצד הנגדי של הוויכוח. הרמז הלוגי: מדיה חברתית יכולה להגביר בדידות — מצד שני, יכולה גם לחזק קשרים קהילתיים. 'hence' מביע תוצאה, 'in particular' מביע דוגמה ספציפית, 'as long as' מביע תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-162",
+    "difficulty": "medium",
+    "text": "The new tax policy was designed to reduce inequality. ________, critics argue that it has disproportionately hurt small businesses.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "In contrast",
+      "However",
+      "Consequently"
+    ],
+    "answer": 2,
+    "explanation": "'However' introduces a contrast between the stated intention (reducing inequality) and the critics' view of the actual effect (hurting small businesses). The second clause contradicts or complicates the expectation set by the first.",
+    "wrongReasons": [
+      "'Furthermore' would add a supporting point in the same direction — implying the criticism also helps reduce inequality, which is the opposite of what is meant.",
+      "'In contrast' is used to compare two different subjects or situations; here both clauses concern the same policy, not two separate things.",
+      "'Consequently' would imply that hurting small businesses is a result that the designers intended, but the sentence frames the criticism as an unintended negative outcome."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: 'however' מביע ניגוד בין הכוונה לתוצאה. הרמז הלוגי: המדיניות תוכננה להפחית אי-שוויון — אולם, מבקרים טוענים שהיא פגעה בעסקים קטנים. 'furthermore' מוסיף, 'in contrast' משווה דברים שונים, 'consequently' מביע תוצאה מכוונת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-163",
+    "difficulty": "medium",
+    "text": "The patient followed the prescribed diet strictly. ________, her recovery was faster than expected.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Although",
+      "Whereas",
+      "As a result",
+      "In addition"
+    ],
+    "answer": 2,
+    "explanation": "'As a result' indicates that the fast recovery is a direct outcome of strictly following the prescribed diet. The first clause is the cause, and the second is the measurable effect.",
+    "wrongReasons": [
+      "'Although' introduces a concession, implying that fast recovery occurred despite strictly following the diet — which would mean the diet was an obstacle, contradicting the medical logic.",
+      "'Whereas' draws a contrast between two different things; here both clauses describe the same patient's positive health journey.",
+      "'In addition' adds another piece of information of the same type, but the second clause is a consequence of the first, not an independent additional fact."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך. הסבר: 'as a result' מבטא שהמשפט השני הוא תוצאה ישירה של הראשון. הרמז הלוגי: המטופלת הקפידה על הדיאטה → כתוצאה מכך התאוששותה הייתה מהירה. 'although' מביע ויתור, 'whereas' מביע ניגוד, 'in addition' מוסיף מידע.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-164",
+    "difficulty": "medium",
+    "text": "Many teenagers report feeling anxious about the future. ________, school counselors are reporting record numbers of students seeking help.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In contrast",
+      "Admittedly",
+      "Consequently",
+      "Provided that"
+    ],
+    "answer": 2,
+    "explanation": "'Consequently' links widespread teen anxiety (cause) to the record demand for school counseling (effect). The surge in help-seeking is a direct and logical result of the reported anxiety.",
+    "wrongReasons": [
+      "'In contrast' would suggest that students seeking help is somehow opposite to feeling anxious — but it is a natural response to anxiety, not a contrast.",
+      "'Admittedly' is used to acknowledge a point the speaker concedes, typically followed by a 'but' clause; it does not signal a cause-and-effect relationship.",
+      "'Provided that' introduces a condition that must be met; it cannot link two descriptive factual statements in a cause-and-effect chain."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "CONSEQUENTLY = כתוצאה מכך / לפיכך. הסבר: 'consequently' מביע שהמצב השני נגרם על ידי הראשון. הרמז הלוגי: מתבגרים מדווחים על חרדה → כתוצאה מכך יועצים רושמים מספרי שיא של פניות לעזרה. 'in contrast' מביע ניגוד, 'admittedly' מביע ויתור, 'provided that' מביע תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-165",
+    "difficulty": "medium",
+    "text": "__________ she had no prior programming experience, she completed the software development course with distinction.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Even though",
+      "As a result",
+      "In addition"
+    ],
+    "answer": 1,
+    "explanation": "'Even though' introduces a strong concessive clause: despite the obstacle of no prior experience, she succeeded with distinction. It emphasizes that the success was achieved in spite of a significant disadvantage.",
+    "wrongReasons": [
+      "'Therefore' signals a result, but the sentence presents a contrast — her success despite a disadvantage, not a conclusion drawn from it.",
+      "'As a result' implies the completion with distinction was a result of having no prior experience, which reverses the logic — lack of experience is the obstacle, not the cause of success.",
+      "'In addition' adds supplementary information of the same type; it cannot introduce a concessive clause about overcoming a disadvantage."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "EVEN THOUGH = למרות ש- / אף שעה ש-. הסבר: 'even though' מביע ויתור חזק — ניצחון על מכשול. הרמז הלוגי: לא הייתה לה ניסיון בתכנות → בכל זאת השלימה בהצטיינות. 'therefore' מביע תוצאה, 'as a result' מביע תוצאה, 'in addition' מוסיף מידע.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-166",
+    "difficulty": "medium",
+    "text": "The report highlighted several key challenges in urban housing. ________, it pointed to skyrocketing rents in major cities as the most critical issue.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "In particular",
+      "Even so",
+      "Hence"
+    ],
+    "answer": 1,
+    "explanation": "'In particular' zooms into a specific example — skyrocketing rents — that stands out as the most important among the several challenges mentioned. It narrows the general to the specific.",
+    "wrongReasons": [
+      "'Nevertheless' means 'despite that' and would imply that pointing out rents is surprising given the general challenges listed — but it is a natural elaboration, not a contrast.",
+      "'Even so' is a concessive connector meaning 'despite this'; it would incorrectly suggest the rent issue is being raised in opposition to the challenges, not as a specific one.",
+      "'Hence' means 'therefore' and would imply the rent crisis is a logical result of the report's findings, rather than a specific example cited within it."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN PARTICULAR = בפרט / במיוחד. הסבר: 'in particular' מצמצם מהכלל לפרט — דוגמה ספציפית שבולטת. הרמז הלוגי: הדוח הדגיש אתגרים רבים → בפרט, מחירי השכירות הגבוהים. 'nevertheless' מביע ניגוד מפתיע, 'even so' מביע ויתור, 'hence' מביע תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-167",
+    "difficulty": "medium",
+    "text": "Traditional farming methods have declined in many regions. ________, some rural communities are working to revive heritage agricultural practices.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Furthermore",
+      "Nevertheless",
+      "As a result"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' concedes the decline but introduces a contrasting positive trend: some communities are actively working to revive what has been lost. The second clause is unexpected given the first.",
+    "wrongReasons": [
+      "'Therefore' would imply that communities are reviving practices as a logical result of the decline, but revival efforts are a response to the decline, not its logical conclusion.",
+      "'Furthermore' would add more information suggesting decline is continuing or worsening — not a contrasting counter-movement of revival.",
+      "'As a result' implies revival is a direct consequence of decline, but the two ideas are in tension, not in a cause-and-effect chain."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / אף על פי כן. הסבר: 'nevertheless' מודה בעובדה הקודמת אך מציג תגובה מנוגדת ומפתיעה. הרמז הלוגי: שיטות חקלאות מסורתיות ירדו — בכל זאת, קהילות כפריות עובדות לשקמן. 'therefore' מביע תוצאה, 'furthermore' מוסיף, 'as a result' מביע תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-168",
+    "difficulty": "medium",
+    "text": "The new curriculum includes more practical projects. ________, students are assessed through real-world simulations rather than written exams.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Unless",
+      "Furthermore",
+      "Despite"
+    ],
+    "answer": 2,
+    "explanation": "'Furthermore' adds another aspect of the curriculum's practical focus: real-world simulations for assessment. Both clauses reinforce the same theme of a more hands-on approach to learning.",
+    "wrongReasons": [
+      "'However' introduces a contrast, but both clauses describe complementary features of the same practical curriculum — there is no contradiction between them.",
+      "'Unless' is conditional, implying assessment through simulations happens only if the curriculum lacks projects — the opposite of the intended meaning.",
+      "'Despite' is a preposition requiring a noun phrase, not an independent clause; using it here would make the sentence grammatically incorrect."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "FURTHERMORE = יתרה מכך / בנוסף לכך. הסבר: 'furthermore' מוסיף נקודה נוספת באותו הכיוון. הרמז הלוגי: תוכנית לימודים כוללת פרויקטים מעשיים → יתרה מכך, ההערכה מתבצעת דרך סימולציות. 'however' מביע ניגוד, 'unless' מביע תנאי שלילי, 'despite' הוא מילת יחס.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-169",
+    "difficulty": "medium",
+    "text": "Air pollution is a serious health hazard in large cities. ________, noise pollution is increasingly recognized as a significant threat to residents' quality of life.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Therefore",
+      "Similarly",
+      "Unless"
+    ],
+    "answer": 2,
+    "explanation": "'Similarly' draws a parallel: just as air pollution harms health, noise pollution also damages quality of life. Both are types of urban pollution that pose related threats — a comparison of parallel situations.",
+    "wrongReasons": [
+      "'However' signals a contrast or reversal, but both clauses describe related urban hazards moving in the same direction of concern.",
+      "'Therefore' implies noise pollution is a consequence of air pollution, but they are independent environmental problems caused by different sources.",
+      "'Unless' is conditional and would absurdly suggest that noise pollution is recognized only if air pollution is not — there is no conditional relationship here."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SIMILARLY = בדומה לכך / כמו כן. הסבר: 'similarly' מצייר מקביליות בין שני דברים דומים. הרמז הלוגי: זיהום אוויר מסכן בריאות → בדומה לכך, זיהום רעש פוגע באיכות החיים. 'however' מביע ניגוד, 'therefore' מביע תוצאה, 'unless' מביע תנאי שלילי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-170",
+    "difficulty": "medium",
+    "text": "The government allocated substantial funding to public transportation. ________, the roads remain congested due to an ongoing preference for private vehicles.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In addition",
+      "Yet",
+      "Hence",
+      "Namely"
+    ],
+    "answer": 1,
+    "explanation": "'Yet' functions as a contrast connector, similar to 'but' or 'however.' Despite funding public transit, the roads are still congested — an unexpected outcome that contradicts the aim of the investment.",
+    "wrongReasons": [
+      "'In addition' would add another positive outcome of the funding, but the second clause presents a problem that persists despite the funding.",
+      "'Hence' means 'therefore,' implying congestion is a result of funding public transportation — which is the opposite of the intended meaning.",
+      "'Namely' introduces a specific restatement or identification of something already mentioned; it cannot introduce a contrasting idea."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "YET = אך / ואולם. הסבר: 'yet' מביע ניגוד מפתיע — דבר שמתרחש למרות מה שנאמר קודם. הרמז הלוגי: הממשלה השקיעה בתחבורה ציבורית — אך הדרכים עדיין עמוסות. 'in addition' מוסיף, 'hence' מביע תוצאה, 'namely' מציין פירוט ספציפי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-171",
+    "difficulty": "medium",
+    "text": "Economists have proposed several measures to curb inflation, ________ raising interest rates and cutting government spending.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "however",
+      "for instance",
+      "therefore",
+      "even though"
+    ],
+    "answer": 1,
+    "explanation": "'For instance' introduces specific examples (raising interest rates, cutting spending) from the broader category of 'several measures.' It is the exemplification connector that best fits this listing-of-examples structure.",
+    "wrongReasons": [
+      "'However' would introduce a contrast, but the examples listed are not contradictions of the measures — they are the measures themselves.",
+      "'Therefore' implies raising interest rates and cutting spending are conclusions drawn from economists' proposals, rather than being the proposals themselves.",
+      "'Even though' introduces a concessive clause, suggesting these specific measures are somehow in conflict with the proposals — but they are the proposals."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "FOR INSTANCE = לדוגמה / למשל. הסבר: 'for instance' מציג דוגמאות ספציפיות מתוך קטגוריה רחבה יותר. הרמז הלוגי: כלכלנים הציעו מספר צעדים → לדוגמה, העלאת ריבית וקיצוץ בהוצאות. 'however' מביע ניגוד, 'therefore' מביע תוצאה, 'even though' מביע ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-172",
+    "difficulty": "medium",
+    "text": "The study found that children who read regularly score higher on comprehension tests. ________, they tend to have a broader vocabulary than their peers.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "On the other hand",
+      "In addition",
+      "Nevertheless",
+      "Unless"
+    ],
+    "answer": 1,
+    "explanation": "'In addition' stacks a second benefit (broader vocabulary) on top of the first (higher comprehension scores). Both benefits apply to the same group of regular readers and move in the same positive direction.",
+    "wrongReasons": [
+      "'On the other hand' presents the opposing perspective, suggesting vocabulary development contradicts comprehension improvement — but both are related benefits of reading.",
+      "'Nevertheless' implies the vocabulary benefit is surprising or occurs despite the comprehension finding, when in fact it is a complementary outcome.",
+      "'Unless' is conditional, creating the nonsensical meaning that regular readers have broader vocabulary only if they do not score higher on tests."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN ADDITION = בנוסף. הסבר: 'in addition' מוסיף יתרון נוסף באותו הכיוון. הרמז הלוגי: ילדים שקוראים קורים טוב יותר במבחני הבנה → בנוסף, יש להם אוצר מילים עשיר יותר. 'on the other hand' מביע ניגוד, 'nevertheless' מביע הפתעה, 'unless' מביע תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-173",
+    "difficulty": "medium",
+    "text": "The tech company launched its product in Asia first. ________, it entered the European market six months later.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Consequently",
+      "In contrast",
+      "Subsequently",
+      "Even though"
+    ],
+    "answer": 2,
+    "explanation": "'Subsequently' signals that the European launch happened after the Asian launch — it is a temporal connector indicating a sequence of events, which is the correct relationship here.",
+    "wrongReasons": [
+      "'Consequently' implies the European launch was caused by the Asian launch, but the second is simply the next step in a planned rollout, not a consequence of the first.",
+      "'In contrast' would suggest the European market entry is somehow opposite to or contradicts the Asian launch, but both are forward steps in expansion.",
+      "'Even though' introduces a concession, implying the European entry was surprising given the Asian launch — but there is no surprise or obstacle here, just a timeline."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SUBSEQUENTLY = לאחר מכן / לאחריו. הסבר: 'subsequently' מציין רצף זמנים — מה שקרה אחרי כן. הרמז הלוגי: השיקו בשוק האסייתי → לאחר מכן נכנסו לשוק האירופאי. 'consequently' מביע תוצאה, 'in contrast' מביע ניגוד, 'even though' מביע ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-174",
+    "difficulty": "medium",
+    "text": "Admittedly, the new system has several technical limitations. ________, the overall efficiency gains justify its adoption.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "Even so",
+      "As a result",
+      "In particular"
+    ],
+    "answer": 1,
+    "explanation": "'Even so' works in tandem with 'Admittedly' — the writer concedes the limitations but then argues the gains still justify adoption. 'Even so' maintains the concession while pivoting to a positive conclusion.",
+    "wrongReasons": [
+      "'Moreover' would add another point in the same direction as the limitations — implying the efficiency gains are also a problem, which contradicts the intended meaning.",
+      "'As a result' implies efficiency gains are a consequence of the limitations, but the two are independent considerations being weighed against each other.",
+      "'In particular' would zoom into a specific example of the limitations, but the second clause introduces a contrasting positive argument, not a specific flaw."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "EVEN SO = בכל זאת / למרות זאת. הסבר: 'even so' שומר על הויתור (אכן יש מגבלות) אך מציג את הצד החיובי מנגד. הרמז הלוגי: המערכת החדשה מוגבלת — בכל זאת, הרווחים בייעולות מצדיקים אימוצה. 'moreover' מוסיף, 'as a result' מביע תוצאה, 'in particular' מציין פרט ספציפי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-175",
+    "difficulty": "medium",
+    "text": "The new urban planning regulations require all new buildings ________ include green spaces and rooftop gardens.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "however",
+      "in order to",
+      "as a result",
+      "despite"
+    ],
+    "answer": 1,
+    "explanation": "'In order to' expresses purpose — in this case, the regulations require buildings to include green spaces for the purpose of achieving environmental or quality-of-life goals. However, note: the sentence works best if it continues with a purpose clause, and 'in order to' here is followed by the required action, framing it as a purposive requirement.",
+    "wrongReasons": [
+      "'However' introduces contrast and cannot function grammatically inside a sentence to link 'require all new buildings' to a required action.",
+      "'As a result' marks a consequence, but the inclusion of green spaces is not presented as a result of the regulations — it is what the regulations demand.",
+      "'Despite' is a preposition for noun phrases signaling concession; it cannot introduce an infinitive phrase as a required action here."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN ORDER TO = במטרה ל- / כדי ל-. הסבר: 'in order to' מביע מטרה — לשם מה מחייבים הבניינים לכלול שטחים ירוקים. הרמז הלוגי: תקנות דורשות מבניינים חדשים לכלול שטחים ירוקים כדי להשיג מטרה סביבתית. 'however' מביע ניגוד, 'as a result' מביע תוצאה, 'despite' הוא מילת יחס.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-176",
+    "difficulty": "medium",
+    "text": "The political leader's approval ratings dropped significantly after the scandal. ________, his party lost its majority in the regional elections.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "Additionally",
+      "Hence",
+      "Whereas"
+    ],
+    "answer": 2,
+    "explanation": "'Hence' is a formal connector meaning 'therefore' — it signals that losing the majority in regional elections is the logical consequence of the approval rating drop following the scandal.",
+    "wrongReasons": [
+      "'Nevertheless' would mean the party lost its majority despite the approval rating drop, suggesting the loss was unexpected — but it is the predicted political consequence.",
+      "'Additionally' adds another item in the same category, but it would imply losing the majority is just an extra negative development alongside the ratings drop, not caused by it.",
+      "'Whereas' draws a contrast between two different things; here both clauses describe sequential political setbacks for the same leader."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HENCE = לפיכך / לכן (פורמלי). הסבר: 'hence' מביע תוצאה הגיונית בסגנון פורמלי. הרמז הלוגי: אחוזי האישור ירדו לאחר הפרשה → לפיכך, המפלגה איבדה את הרוב. 'nevertheless' מביע ויתור, 'additionally' מוסיף, 'whereas' מביע ניגוד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-177",
+    "difficulty": "medium",
+    "text": "The diet plan strictly limits sugar and processed foods. ________, participants are encouraged to exercise for at least 30 minutes daily.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Otherwise",
+      "Moreover",
+      "Although",
+      "Thus"
+    ],
+    "answer": 1,
+    "explanation": "'Moreover' adds another requirement of the diet plan — daily exercise — on top of dietary restrictions already mentioned. Both components are positive features of the same holistic wellness plan.",
+    "wrongReasons": [
+      "'Otherwise' is conditional, implying that if sugar and processed foods are not limited, then participants must exercise — but the exercise recommendation is an independent additional component.",
+      "'Although' would create a concessive clause, oddly suggesting the exercise recommendation contradicts or undermines the dietary restrictions.",
+      "'Thus' implies daily exercise is a logical conclusion drawn from limiting sugar and processed foods, but the exercise component is an independent recommendation, not derived from the dietary rule."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "MOREOVER = יתרה מזאת / בנוסף. הסבר: 'moreover' מוסיף דרישה נוספת באותו הכיוון. הרמז הלוגי: תוכנית הדיאטה מגבילה סוכר → יתרה מכך, המשתתפים מעודדים לעסוק בפעילות גופנית. 'otherwise' מביע תנאי שלילי, 'although' מביע ויתור, 'thus' מביע תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-178",
+    "difficulty": "medium",
+    "text": "The documentary explored various causes of food insecurity, ________ the unequal distribution of resources and climate-related crop failures.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "however",
+      "consequently",
+      "namely",
+      "even though"
+    ],
+    "answer": 2,
+    "explanation": "'Namely' specifies what the 'various causes' are — unequal distribution and climate-related crop failures. It introduces a definitive identification or restatement of something already referred to in general terms.",
+    "wrongReasons": [
+      "'However' would introduce a contrast, implying the two causes somehow contradict the 'various causes' rather than being examples of them.",
+      "'Consequently' implies the two named causes are results of the documentary exploring the topic, rather than the specific causes the documentary explored.",
+      "'Even though' creates a concessive relationship, suggesting these causes are surprising despite the general exploration — but they are simply specific examples of it."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NAMELY = כלומר / דהיינו. הסבר: 'namely' מציין פירוט ספציפי של מה שהוזכר בצורה כללית. הרמז הלוגי: הסרטה חקרה גורמים שונים לחוסר ביטחון תזונתי → כלומר, חלוקת משאבים לא שוויונית וכשלי יבול. 'however' מביע ניגוד, 'consequently' מביע תוצאה, 'even though' מביע ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-179",
+    "difficulty": "medium",
+    "text": "The startup raised significant venture capital. ________, it struggled to retain top engineering talent due to below-market salaries.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Additionally",
+      "Despite this",
+      "As a result"
+    ],
+    "answer": 2,
+    "explanation": "'Despite this' concedes the advantage of significant funding but introduces the contradiction: even with capital, the company struggled to retain talent because of low salaries. The second clause is surprising given the first.",
+    "wrongReasons": [
+      "'Therefore' would suggest that struggling to retain talent is a logical result of raising capital — but retaining talent should be easier with more money, not harder.",
+      "'Additionally' would add another positive aspect of the startup's situation, but the second clause describes a problem contradicting the success of fundraising.",
+      "'As a result' implies the talent retention struggle is caused by raising capital, which contradicts the logical expectation that funding should help attract talent."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "DESPITE THIS = למרות זאת / על אף האמור. הסבר: 'despite this' מודה ביתרון של גיוס ההון אך מציג סתירה מפתיעה. הרמז הלוגי: הסטארטאפ גייס הון — למרות זאת, התקשה לשמר מהנדסים. 'therefore' מביע תוצאה הגיונית, 'additionally' מוסיף, 'as a result' מביע תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-180",
+    "difficulty": "medium",
+    "text": "Both nations agreed that diplomatic dialogue was essential. ________, talks collapsed within two weeks over territorial disputes.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "In addition",
+      "Nonetheless",
+      "Consequently"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' acknowledges the shared commitment to dialogue but introduces the surprising collapse of talks — a concessive contrast showing that even agreed-upon principles did not prevent failure.",
+    "wrongReasons": [
+      "'Furthermore' would add more evidence of the nations' commitment to dialogue, but the second clause introduces a failure that contradicts that commitment.",
+      "'In addition' similarly adds information in the same direction; it cannot signal the reversal of a situation.",
+      "'Consequently' would imply the talks collapsed as a result of both nations agreeing dialogue was essential, which is logically backwards."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NONETHELESS = בכל זאת / ואף על פי כן. הסבר: 'nonetheless' מודה בנקודה קודמת אך מציג תוצאה מנוגדת ומפתיעה. הרמז הלוגי: שתי המדינות הסכימו שדיאלוג חיוני — בכל זאת, השיחות קרסו. 'furthermore' ו-'in addition' מוסיפים, 'consequently' מביע תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-181",
+    "difficulty": "medium",
+    "text": "The medication reduced pain effectively. ________, patients were warned about potential side effects including nausea and dizziness.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As a result",
+      "However",
+      "Therefore",
+      "Similarly"
+    ],
+    "answer": 1,
+    "explanation": "'However' introduces a contrasting consideration — the medication works, but it comes with potential side effects. The warning represents a complication or caveat to the positive outcome of pain reduction.",
+    "wrongReasons": [
+      "'As a result' would imply the side effects are a consequence of the medication reducing pain effectively — but they are independent pharmacological effects, not caused by the pain relief.",
+      "'Therefore' implies the warning follows logically as the primary conclusion from effective pain reduction, when in fact the warning is a separate safety consideration.",
+      "'Similarly' would draw a parallel suggesting side effects are a type of pain reduction, which makes no sense medically or logically."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: 'however' מציג את הצד השני — היתרון (הפחתת כאב) אל מול האזהרה (תופעות לוואי). הרמז הלוגי: התרופה הפחיתה כאב — אולם, נדרש אזהרה על תופעות לוואי. 'as a result' מביע תוצאה, 'therefore' מביע מסקנה, 'similarly' מביע דמיון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-182",
+    "difficulty": "medium",
+    "text": "The online learning platform offers courses in over 50 languages. ________, it provides accessibility features for students with visual or hearing impairments.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Nevertheless",
+      "Additionally",
+      "Hence"
+    ],
+    "answer": 2,
+    "explanation": "'Additionally' adds another inclusive feature (accessibility for impaired students) to the one already mentioned (50 languages). Both point to the platform's commitment to broad accessibility, and stack in the same positive direction.",
+    "wrongReasons": [
+      "'However' signals contrast, but providing accessibility features does not contradict or reverse the point about 50 languages — both are additional inclusive features.",
+      "'Nevertheless' implies accessibility is offered despite the 50-language offering, suggesting a contradiction that does not exist.",
+      "'Hence' means 'therefore,' implying accessibility features are a logical consequence of offering 50 languages — but the two features are independent design choices."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ADDITIONALLY = בנוסף לכך / גם כן. הסבר: 'additionally' מוסיף תכונה נוספת באותו הכיוון. הרמז הלוגי: הפלטפורמה מציעה קורסים ב-50 שפות → בנוסף, מספקת נגישות לסטודנטים עם מוגבלויות. 'however' מביע ניגוד, 'nevertheless' מביע הפתעה, 'hence' מביע תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-183",
+    "difficulty": "medium",
+    "text": "The city installed hundreds of electric vehicle charging stations ________ encourage citizens to switch from petrol-powered cars.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "however",
+      "as long as",
+      "so as to",
+      "even though"
+    ],
+    "answer": 2,
+    "explanation": "'So as to' expresses purpose — the city installed the charging stations for the specific purpose of encouraging a shift to electric vehicles. It is a formal purpose connector equivalent to 'in order to.'",
+    "wrongReasons": [
+      "'However' introduces contrast; it cannot grammatically connect a noun phrase (charging stations) to a purpose verb phrase.",
+      "'As long as' introduces a condition that must be maintained, but the second part of the sentence expresses a goal, not a condition.",
+      "'Even though' introduces a concessive clause, implying the city installed charging stations despite wanting to encourage the switch — which directly contradicts the intended meaning."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SO AS TO = כדי ל- / במטרה ל-. הסבר: 'so as to' מביע מטרה — לשם מה הותקנו עמדות הטעינה. הרמז הלוגי: העיר התקינה עמדות טעינה → כדי לעודד מעבר לרכבים חשמליים. 'however' מביע ניגוד, 'as long as' מביע תנאי, 'even though' מביע ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-184",
+    "difficulty": "medium",
+    "text": "The professor is known for her rigorous grading standards. ________, she is considered one of the most inspiring teachers on campus.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "As a result",
+      "Nevertheless",
+      "Similarly"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' acknowledges the tough reputation (rigorous grading) but introduces a surprising, positive counterpoint: she is also seen as inspiring. The second clause is unexpected given the first.",
+    "wrongReasons": [
+      "'Furthermore' would add another critical or positive point in the same direction as rigorous grading, but being inspiring is a different dimension that contrasts with (or compensates for) toughness.",
+      "'As a result' would imply that being an inspiring teacher is a consequence of rigorous grading — but inspiration and strictness are independent qualities.",
+      "'Similarly' draws a parallel, suggesting being inspiring is a type of or similar to rigorous grading — the two qualities are complementary but not parallel."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / אף על פי כן. הסבר: 'nevertheless' מודה בנקודה הקשה (ציונים קפדניים) אך מציג את הצד המפתיע (מעוררת השראה). הרמז הלוגי: מוכרת כקפדנית → בכל זאת, נחשבת אחת המורות המעוררות ביותר. 'furthermore' מוסיף, 'as a result' מביע תוצאה, 'similarly' מביע דמיון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-185",
+    "difficulty": "hard",
+    "text": "The data clearly indicated a downward trend in consumer confidence. ________, analysts hesitated to predict a recession, citing the resilience of the labor market.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Consequently",
+      "Moreover",
+      "Nevertheless",
+      "Hence"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' is essential here: the data strongly pointed toward recession, yet analysts resisted that conclusion because of one countervailing factor — the labor market. This is a sophisticated concession: acknowledging a powerful signal while qualifying the conclusion it might support.",
+    "wrongReasons": [
+      "'Consequently' would imply the analysts' hesitation was a direct result of the downward trend, but the sentence shows them resisting the trend's implication, not yielding to it.",
+      "'Moreover' would add another point reinforcing the downward trend, but the analysts' hesitation is a contrasting reaction to the trend, not an additional piece of evidence for it.",
+      "'Hence' means 'therefore' and would illogically imply analysts hesitated to predict a recession because the trend was negative — but the trend should logically make them more likely to predict one."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / אף על פי כן. הסבר: כאן מדובר בוויתור מתוחכם — הנתונים מצביעים בכיוון ברור, אך האנליסטים מסרבים להסיק מסקנה פשוטה. 'nevertheless' מבטא את ההסתייגות הזו. 'consequently' ו-'hence' מביעים תוצאה (הפוכה ממה שנאמר), ו-'moreover' מוסיף עדויות לכיוון אחד.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-186",
+    "difficulty": "hard",
+    "text": "The clinical trial demonstrated that the drug was highly effective in controlled settings. ________, real-world outcomes have proven far more variable, raising questions about the study's external validity.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "In addition",
+      "However",
+      "Therefore"
+    ],
+    "answer": 2,
+    "explanation": "'However' is the correct contrast connector: the controlled trial showed strong results, but real-world application reveals significant variability. This gap between lab and life is a classic contrast in medical research, and 'however' precisely signals that the second clause complicates or qualifies the first.",
+    "wrongReasons": [
+      "'Furthermore' would add another positive finding about the drug, but the real-world variability is a complication that undermines confidence in the trial results.",
+      "'In addition' similarly stacks the same-direction information, implying real-world variability is another success — but it is actually a concern.",
+      "'Therefore' would illogically suggest that real-world variability is a result of the drug's high effectiveness in controlled settings — but these are opposing observations."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: כאן יש פער קלאסי בין תנאי מחקר מבוקרים לתוצאות בעולם האמיתי. 'however' מציין שהמשפט השני מסבך או מסייג את הראשון. 'furthermore' ו-'in addition' מוסיפים באותו הכיוון, 'therefore' מביע תוצאה — כולם הפוך מהנדרש.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-187",
+    "difficulty": "hard",
+    "text": "The international agreement was celebrated as a landmark in environmental policy. ________, several major emitters declined to ratify it, fundamentally undermining its global impact.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In addition",
+      "Similarly",
+      "Consequently",
+      "Yet"
+    ],
+    "answer": 3,
+    "explanation": "'Yet' functions as a strong adversative connector — equivalent to 'but' or 'however' — introducing a devastating counterpoint: the very agreement celebrated as landmark was undermined by non-ratifying major emitters. The juxtaposition is sharp and rhetorically powerful.",
+    "wrongReasons": [
+      "'In addition' would suggest that major emitters declining to ratify is another positive achievement, alongside the celebration — which is the opposite of what the sentence intends.",
+      "'Similarly' draws a parallel, as if the major emitters declining is a type of landmark achievement — but it is a critical failure, not a similar success.",
+      "'Consequently' would imply that major emitters declining to ratify was caused by the agreement being celebrated as a landmark, which is not logically coherent."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "YET = אך / ואולם. הסבר: 'yet' כאן מביע ניגוד חד וריטורי — ההסכם נחגג כציון דרך, אך (yet) פגיעה קריטית בו הגיעה ממדינות שלא אשררו אותו. 'in addition' ו-'similarly' מוסיפים או מקבילים באותו הכיוון, 'consequently' מביע תוצאה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-188",
+    "difficulty": "hard",
+    "text": "Admittedly, critics have raised valid concerns about the privacy implications of facial recognition technology. ________, the technology's proven success in preventing crime and locating missing persons cannot be easily dismissed.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As a result",
+      "Even so",
+      "Furthermore",
+      "In contrast"
+    ],
+    "answer": 1,
+    "explanation": "'Even so' is the precise concessive pivot after 'Admittedly': the writer acknowledges the privacy concerns are valid, but then argues that proven security benefits still carry significant weight. 'Even so' maintains the concession while pressing the counterargument.",
+    "wrongReasons": [
+      "'As a result' would illogically suggest that the technology's success is a consequence of the privacy concerns — but the two points are in tension, not in a cause-and-effect relationship.",
+      "'Furthermore' would add another point supporting the critics, but the second clause defends the technology — moving in the opposite direction from the admitted concerns.",
+      "'In contrast' is used to compare two different subjects or situations; here, the writer is weighing two aspects of the same technology, not contrasting two separate things."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "EVEN SO = בכל זאת / גם כך. הסבר: 'even so' עובד בצמד עם 'admittedly' — הכותב מודה בתוקף הביקורת, ואז אומר 'בכל זאת' יש לשקול את היתרונות. 'as a result' מביע תוצאה, 'furthermore' מוסיף לאותו כיוון (ביקורת), 'in contrast' משווה דברים שונים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-189",
+    "difficulty": "hard",
+    "text": "The sociological research consistently links low socioeconomic status to poorer educational outcomes. ________, it is essential to avoid the assumption that poverty inevitably determines a child's academic future.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Similarly",
+      "Nevertheless",
+      "Consequently"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' signals a critical nuance: while the statistical link between poverty and poor outcomes is real and consistent, one must not treat correlation as determinism. The second clause urges caution against overgeneralizing — a classic academic concession.",
+    "wrongReasons": [
+      "'Therefore' would derive from the research the conclusion that we must avoid the assumption of determinism — but the connector implies the opposite: that the research strengthens determinism, and then the writer unexpectedly resists that conclusion.",
+      "'Similarly' would draw a parallel, suggesting avoiding assumptions is a type of sociological finding comparable to the link — which misrepresents the logical structure.",
+      "'Consequently' implies the warning against determinism is caused by the consistent research findings, but the relationship is one of concession and nuance, not consequence."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / אף על פי כן. הסבר: כאן מדובר בנואנס אקדמי מתוחכם — המחקר מראה קשר עקבי, אך (nevertheless) חשוב לא לטפל בקשר סטטיסטי כגורל בלתי נמנע. 'therefore' ו-'consequently' מביעים תוצאה, 'similarly' מביע דמיון — כולם מחמיצים את הניגוד הנדרש.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-190",
+    "difficulty": "hard",
+    "text": "The company's quarterly profits exceeded analyst forecasts by a wide margin. ________, the board of directors announced plans to delay expansion into the Asian market for another fiscal year.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As a result",
+      "Consequently",
+      "Nonetheless",
+      "Furthermore"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' captures the unexpected disconnect: strong profits would typically prompt expansion, yet the board chose delay. This is a counter-intuitive decision that requires a concessive connector to signal the surprise.",
+    "wrongReasons": [
+      "'As a result' would make the delay a direct consequence of exceeding profit forecasts — but strong profits logically should enable expansion, not delay it, so 'as a result' cannot signal the intended surprise.",
+      "'Consequently' similarly marks a logical cause-and-effect chain — but expansion delay after record profits is counter-intuitive, not a straightforward consequence.",
+      "'Furthermore' would add another positive development after the strong profits, but the delay is a cautious, arguably negative, strategic decision — not a complementary positive point."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NONETHELESS = בכל זאת / אף על פי כן. הסבר: 'nonetheless' מבטא את הפער המפתיע — רווחים גדולים בדרך כלל יובילו להתרחבות, אך (nonetheless) ההנהלה דחתה את ההתרחבות. 'as a result' ו-'consequently' מביעים תוצאה הגיונית, 'furthermore' מוסיף נקודה חיובית — אף אחד אינו מבטא את ההפתעה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-191",
+    "difficulty": "hard",
+    "text": "Some philosophers argue that free will is an illusion; ________, decisions that feel voluntary are, at a neurological level, already determined before the subject becomes conscious of them.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "however",
+      "in addition",
+      "that is",
+      "even though"
+    ],
+    "answer": 2,
+    "explanation": "'That is' (equivalent to 'namely' or 'i.e.') clarifies and reformulates the preceding claim. The second clause does not add new information — it explains precisely what it means for free will to be an 'illusion' at the neurological level.",
+    "wrongReasons": [
+      "'However' introduces a contrast or objection, but the second clause supports and explains the first — it is a clarification, not a contradiction.",
+      "'In addition' stacks new information of the same type, but the neurological detail is not a separate additional argument — it is the mechanism behind the claim already made.",
+      "'Even though' introduces a concessive clause suggesting the neurological determination is somehow in conflict with philosophical arguments about free will — but it is the evidence for them."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THAT IS = כלומר / דהיינו. הסבר: 'that is' מנסח מחדש ומבהיר את הטענה הקודמת. הרמז הלוגי: חופש הרצון הוא אשליה → כלומר, החלטות שנחוות כרצוניות כבר נקבעו נוירולוגית לפני שהנבדק מודע להן. 'however' מביע ניגוד, 'in addition' מוסיף, 'even though' מביע ויתור.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-192",
+    "difficulty": "hard",
+    "text": "__________ the increased frequency of extreme weather events can be linked to climate change, attributing any single storm or drought to global warming requires careful statistical analysis.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As long as",
+      "Whereas",
+      "Therefore",
+      "In contrast"
+    ],
+    "answer": 1,
+    "explanation": "'Whereas' introduces a precise contrast between two related but distinct statements: the general link between climate change and extreme weather frequency is accepted, whereas attributing any single event to global warming is more complex. 'Whereas' is ideal for distinguishing two nuanced positions within the same domain.",
+    "wrongReasons": [
+      "'As long as' is conditional — it would suggest that attributing a single storm requires careful analysis only on the condition that the frequency-climate link is established, which distorts the independent nature of the two claims.",
+      "'Therefore' implies that the need for statistical analysis when attributing single events is a logical conclusion from the frequency-climate link — but the two are presented as distinct, parallel constraints.",
+      "'In contrast' is used between independent clauses, not to introduce a subordinate clause at the start of a sentence; it also tends to contrast two different subjects or cases rather than two aspects of the same scientific question."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "WHEREAS = בעוד ש- / לעומת זאת. הסבר: 'whereas' מנגיד בין שתי עמדות קשורות אך שונות — ניתן לקשר שינויי אקלים לתדירות קיצוניות, אך ייחוס סופה בודדת דורש ניתוח סטטיסטי מדוקדק. 'as long as' מביע תנאי, 'therefore' מביע תוצאה, 'in contrast' אינו מתאים כפותח משפט כולל.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-193",
+    "difficulty": "hard",
+    "text": "The algorithm was trained on data from high-income urban neighborhoods. ________, when deployed in rural or low-income communities, it consistently produced biased recommendations.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "As a result",
+      "In addition",
+      "Consequently"
+    ],
+    "answer": 1,
+    "explanation": "'As a result' correctly links the biased training data (cause) to the biased recommendations in underrepresented communities (effect). The algorithm's failure in those contexts is a direct consequence of its limited training set.",
+    "wrongReasons": [
+      "'Furthermore' would add another characteristic of the algorithm's performance, implying the bias is just one more feature alongside the urban training — but the bias is caused by the training limitation, not merely co-existing with it.",
+      "'In addition' similarly lists an additional feature rather than establishing a causal relationship between training data limitations and deployment failures.",
+      "'Consequently' is semantically similar to 'as a result' but here the more natural phrasing is 'as a result,' and additionally 'consequently' tends to introduce broader, more formal conclusions — whereas this is a specific, direct empirical outcome."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך. הסבר: האלגוריתם אומן על נתונים מצרים עשירים → כתוצאה מכך, ביישומו בקהילות כפריות ועניות הוא הפיק המלצות מוטות. הקשר הוא סיבה-תוצאה ישיר. 'furthermore' ו-'in addition' מוסיפים מידע, 'consequently' מתאים פחות לתוצאה ספציפית ומיידית זו.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-194",
+    "difficulty": "hard",
+    "text": "Economic growth and environmental sustainability have long been framed as mutually exclusive. ________, recent evidence suggests that green investments can simultaneously drive both GDP growth and ecological recovery.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Hence",
+      "Similarly",
+      "Nevertheless",
+      "In particular"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' challenges the established framing: the conventional wisdom says growth and sustainability are opposites, but recent evidence contradicts this view. The connector acknowledges the long-held assumption before pivoting to the surprising counter-evidence.",
+    "wrongReasons": [
+      "'Hence' would imply the evidence supporting simultaneous growth and sustainability is a logical conclusion from the assumption that they are mutually exclusive — but the evidence refutes, not follows from, that assumption.",
+      "'Similarly' would draw a parallel, suggesting the new evidence mirrors or confirms the mutual-exclusivity framing — but it contradicts it.",
+      "'In particular' narrows to a specific example of a broader point; here, the new evidence is a broad challenge to the established view, not a specific sub-case of it."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / אף על פי כן. הסבר: ההנחה המקובלת היא שצמיחה ושמירה על הסביבה סותרות זו את זו — בכל זאת (nevertheless), עדויות עדכניות מראות שהשקעות ירוקות יכולות להניע את שניהם. 'hence' מביע מסקנה מהתפיסה הישנה, 'similarly' מקביל, 'in particular' מצמצם לפרט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-195",
+    "difficulty": "hard",
+    "text": "The indigenous languages of the region are critically endangered, with fewer than a hundred fluent speakers remaining. ________, efforts to create digital archives and school curricula in these languages have gained significant momentum in recent years.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "Consequently",
+      "Nonetheless",
+      "Similarly"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' introduces a hopeful counter-narrative: despite the severe endangerment described in the first clause, revitalization efforts are growing. The second clause is unexpected and positive given the dire situation established by the first.",
+    "wrongReasons": [
+      "'Moreover' would add another negative detail about the language endangerment, but the second clause presents a positive counter-effort — a turn in direction, not an addition.",
+      "'Consequently' would imply that revitalization efforts are a direct cause of the languages being critically endangered, which is logically circular — the efforts respond to the crisis, not follow from it as a natural consequence.",
+      "'Similarly' would draw a parallel between the languages being endangered and the revitalization efforts, as if both are instances of the same phenomenon — but they are opposing trends."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NONETHELESS = בכל זאת / על אף זאת. הסבר: השפות בסכנת הכחדה חמורה — בכל זאת (nonetheless), מאמצי שיקום ותיעוד דיגיטלי תפסו תאוצה. הקשר הוא ויתור: מצב חמור → תגובה חיובית מפתיעה. 'moreover' מוסיף, 'consequently' מביע תוצאה הגיונית, 'similarly' מביע דמיון.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-196",
+    "difficulty": "hard",
+    "text": "The audit revealed that the organization had failed to comply with financial reporting standards. ________, the board announced the immediate resignation of the chief financial officer.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "In contrast",
+      "In addition",
+      "As a result"
+    ],
+    "answer": 3,
+    "explanation": "'As a result' precisely identifies the CFO's resignation as a direct institutional response to the non-compliance revealed by the audit. The sequence — audit reveals failure → organization takes accountability action — is a clear cause-and-effect chain.",
+    "wrongReasons": [
+      "'Nevertheless' would imply the board announced the CFO's resignation despite the audit findings, suggesting the resignation was unrelated or surprising — but it is the direct response to the findings.",
+      "'In contrast' would draw a comparison, as if announcing the resignation contradicts or opposes the audit's findings — but the resignation is a consequence of them.",
+      "'In addition' would suggest the resignation is simply another piece of news alongside the audit finding, not caused by it — but the sentence clearly establishes accountability."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך. הסבר: הביקורת גילתה כשל בדיווח הפיננסי → כתוצאה מכך, הדירקטוריון הכריז על פרישת המנהל הפיננסי. זהו קשר ישיר בין גילוי לתגובה ארגונית. 'nevertheless' מביע הפתעה, 'in contrast' מביע ניגוד, 'in addition' מוסיף מידע ללא קשר סיבתי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-197",
+    "difficulty": "hard",
+    "text": "The government's austerity measures succeeded in reducing the budget deficit. ________, they triggered widespread social unrest and a sharp decline in public services.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "However",
+      "Hence",
+      "In particular"
+    ],
+    "answer": 1,
+    "explanation": "'However' is the correct adversative connector: the austerity achieved its fiscal target (reducing the deficit) but at a severe social cost (unrest and declining services). The second clause presents the negative trade-off, complicating the partial success of the first.",
+    "wrongReasons": [
+      "'Furthermore' would add another success of the austerity measures, but the second clause describes deeply negative side effects — the exact opposite of the additive direction.",
+      "'Hence' means 'therefore,' implying social unrest and service decline were the intended or predictable outcomes — but they are negative unintended consequences, not logical conclusions.",
+      "'In particular' would zoom into a specific example of how the deficit was reduced, but the second clause introduces a broader societal consequence, not a specific sub-case."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: אמצעי הצנע הצליחו בהורדת הגירעון — אולם (however), הם גרמו לאי-שקט חברתי ולירידה בשירותים. זהו ניגוד קלאסי בין הצלחה חלקית לעלות חברתית. 'furthermore' מוסיף הצלחה, 'hence' מביע תוצאה מכוונת, 'in particular' מצמצם לפרט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-198",
+    "difficulty": "hard",
+    "text": "Online misinformation spreads far more rapidly than factual corrections, ________ social media platforms must invest in proactive moderation rather than reactive fact-checking alone.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "whereas",
+      "even though",
+      "which is why",
+      "despite"
+    ],
+    "answer": 2,
+    "explanation": "'Which is why' creates a cause-and-effect relationship within a single sentence: because misinformation spreads faster than corrections (cause), platforms must adopt proactive moderation (effect). It is a relative clause connector that integrates the result directly into the main sentence structure.",
+    "wrongReasons": [
+      "'Whereas' introduces a contrast, but the second clause is not contrasting the speed of misinformation spread — it is prescribing a solution that logically follows from it.",
+      "'Even though' creates a concession, implying platforms must invest in proactive moderation despite — not because of — the spread differential, which reverses the logical relationship.",
+      "'Despite' is a preposition requiring a noun phrase, not a connector that can introduce a full clause about what platforms must do."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "WHICH IS WHY = ולכן / וזו הסיבה ש-. הסבר: 'which is why' יוצר קשר סיבה-תוצאה בתוך משפט אחד — מידע שגוי מתפשט מהר יותר, וזו הסיבה שפלטפורמות חייבות להשקיע בפיקוח יזום. 'whereas' מביע ניגוד, 'even though' מביע ויתור הפוך, 'despite' הוא מילת יחס.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-199",
+    "difficulty": "hard",
+    "text": "The study's sample was limited exclusively to university students in one city. ________, the researchers cautioned against generalizing the findings to broader or more diverse populations.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "Moreover",
+      "Therefore",
+      "Even so"
+    ],
+    "answer": 2,
+    "explanation": "'Therefore' is correct here: the narrow sample (limited to one city, one type of institution) is the logical reason for cautioning against generalization. The second clause is the appropriate scientific conclusion drawn from the methodological limitation described in the first.",
+    "wrongReasons": [
+      "'Nevertheless' would imply that despite the limited sample, researchers urged generalization — the exact opposite of what the sentence states.",
+      "'Moreover' would add another detail about the sample limitation rather than drawing the methodological conclusion from it.",
+      "'Even so' is used after a conceded point to argue for a contrasting position — but here the caution against generalization is a direct, straightforward result of the limitation, not a counter-argument to it."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THEREFORE = לכן / לפיכך. הסבר: המדגם הוגבל לסטודנטים בעיר אחת → לכן החוקרים הזהירו מהכללה לאוכלוסיות רחבות יותר. זוהי מסקנה מדעית ישירה מהמגבלה המתודולוגית. 'nevertheless' מביע ניגוד הפוך, 'moreover' מוסיף מידע, 'even so' מביע טיעון נגדי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-200",
+    "difficulty": "hard",
+    "text": "The historian acknowledged that primary sources from the period are scarce and often contradictory. ________, she argued that a coherent narrative of events can still be constructed through careful triangulation of available evidence.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Consequently",
+      "As a result",
+      "Nonetheless",
+      "Similarly"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' is the precise concessive connector for this scholarly argument: the historian concedes the difficulty (scarce, contradictory sources) but maintains that coherent historical narrative is still achievable through methodological rigor. This is the structure of academic argumentation under epistemic constraint.",
+    "wrongReasons": [
+      "'Consequently' would imply that the possibility of constructing a coherent narrative is a result of sources being scarce and contradictory — but scarcity and contradiction are obstacles to coherent narrative, not enablers of it.",
+      "'As a result' makes the same error as 'consequently' — it would frame the historian's optimism as a consequence of the sources' limitations, reversing the intended logical relationship.",
+      "'Similarly' would draw a parallel, as if constructing a coherent narrative is analogous to or mirrors the scarcity of sources — which makes no logical sense in this context."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NONETHELESS = בכל זאת / אף על פי כן. הסבר: ההיסטוריונית מודה בקושי (מקורות נדירים וסותרים) — בכל זאת (nonetheless), היא טוענת שניתן לבנות נרטיב קוהרנטי דרך ניתוח מדוקדק. זהו מבנה ויכוח אקדמי קלאסי. 'consequently' ו-'as a result' מביעים תוצאה הפוכה, 'similarly' מביע דמיון שאינו קיים כאן.",
+    "estimatedTimeSeconds": 45
+  }
+]

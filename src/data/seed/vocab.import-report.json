@@ -1,0 +1,16 @@
+{
+  "totalRawLines": 3385,
+  "totalParsed": 1692,
+  "totalValid": 1692,
+  "duplicateCount": 0,
+  "needsReviewCount": 0,
+  "sourceBreakdown": {
+    "user_psychometric_vocab_file": 1692,
+    "existing_vocab_json": 0,
+    "hard_vocab_addon": 0,
+    "generated_original_enrichment": 0
+  },
+  "sampleIssues": [],
+  "missingDefinitions": 1692,
+  "missingTranslations": 0
+}

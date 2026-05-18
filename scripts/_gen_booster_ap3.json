@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-ap-201",
+    "difficulty": "easy",
+    "text": "The researchers have, ___ , collected data from over 2,000 participants.",
+    "choices": [
+      "to date",
+      "in contrast",
+      "by means",
+      "at length"
+    ],
+    "answer": 0,
+    "explanation": "'To date' means 'up until now' and is the standard academic phrase for describing the current state of ongoing work.",
+    "wrongReasons": [
+      "'In contrast' is used to compare two different things, not to indicate time elapsed.",
+      "'By means' requires an object (e.g., 'by means of') and refers to method, not time.",
+      "'At length' means 'in detail' or 'after a long time,' not 'up until now.'"
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'To date' משמעותו 'עד כה' ומשמש לתיאור מצב עדכני של עבודה מתמשכת במאמרים אקדמיים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-202",
+    "difficulty": "easy",
+    "text": "Women ___ approximately 40% of the engineering workforce in this country.",
+    "choices": [
+      "clarify",
+      "shed light on",
+      "make up",
+      "fall short of"
+    ],
+    "answer": 2,
+    "explanation": "'Make up' means 'to constitute or form a portion of a whole,' making it the correct choice when describing a proportion of a group.",
+    "wrongReasons": [
+      "'Clarify' means to make something easier to understand; it cannot describe a proportion.",
+      "'Shed light on' means to explain or reveal something; it cannot describe a proportion.",
+      "'Fall short of' means to fail to reach a goal or standard; it does not describe composition."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Make up' משמעותו 'להוות' או 'להרכיב', ומשמש לתיאור שיעור או חלק מתוך כלל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-203",
+    "difficulty": "easy",
+    "text": "The new findings ___ the mechanisms behind the disease.",
+    "choices": [
+      "fall short of",
+      "shed light on",
+      "go beyond",
+      "call for"
+    ],
+    "answer": 1,
+    "explanation": "'Shed light on' is an academic idiom meaning to reveal or explain something previously unclear, which fits the context of explaining mechanisms.",
+    "wrongReasons": [
+      "'Fall short of' means to fail to reach a standard; it does not describe revealing information.",
+      "'Go beyond' means to exceed or surpass; it does not mean to explain something.",
+      "'Call for' means to demand or require; it does not describe revealing information."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Shed light on' הוא ביטוי אקדמי שמשמעותו 'לשפוך אור על' או 'להבהיר' משהו שלא היה ברור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-204",
+    "difficulty": "easy",
+    "text": "___ a few minor errors, the report was accurate and well-organized.",
+    "choices": [
+      "With the exception of",
+      "Under the assumption that",
+      "As of yet",
+      "Consistent with"
+    ],
+    "answer": 0,
+    "explanation": "'With the exception of' means 'excluding' and is used to note something that does not follow the general statement — here, the few errors are excluded from the otherwise positive assessment.",
+    "wrongReasons": [
+      "'Under the assumption that' introduces a conditional premise, not an exception.",
+      "'As of yet' means 'until now' and refers to time, not exclusion.",
+      "'Consistent with' means 'in agreement with' and cannot introduce an exception."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'With the exception of' משמעותו 'למעט' ומשמש לציון דבר שאינו כלול בהצהרה הכללית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-205",
+    "difficulty": "easy",
+    "text": "The project's success ___ adequate funding from the government.",
+    "choices": [
+      "goes beyond",
+      "is consistent with",
+      "is contingent on",
+      "draws on"
+    ],
+    "answer": 2,
+    "explanation": "'Is contingent on' means 'depends on' or 'is conditional on,' correctly expressing that success requires a specific condition to be met.",
+    "wrongReasons": [
+      "'Goes beyond' means to exceed or surpass, not to depend on something.",
+      "'Is consistent with' means to align or agree with, not to depend on.",
+      "'Draws on' means to use or derive from a source, not to depend on a condition."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Is contingent on' משמעותו 'תלוי ב' ומשמש לביטוי תנאי הכרחי להצלחה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-206",
+    "difficulty": "easy",
+    "text": "___ , no cure for the condition has been discovered.",
+    "choices": [
+      "So far",
+      "Apart from",
+      "Other than",
+      "On the grounds that"
+    ],
+    "answer": 0,
+    "explanation": "'So far' means 'up to this point in time' and is used to describe the current state of affairs, fitting perfectly in a sentence about what has not yet been achieved.",
+    "wrongReasons": [
+      "'Apart from' means 'except for' or 'in addition to'; it introduces an exception or addition, not a time frame.",
+      "'Other than' means 'except' and introduces an exception, not a time reference.",
+      "'On the grounds that' introduces a reason or justification, not a time frame."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'So far' משמעותו 'עד כה' ומשמש לתיאור המצב הנוכחי ביחס למה שהושג עד עכשיו.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-207",
+    "difficulty": "easy",
+    "text": "The study's results ___ those of previous research conducted in 2018.",
+    "choices": [
+      "call for",
+      "are consistent with",
+      "shed light on",
+      "go beyond"
+    ],
+    "answer": 1,
+    "explanation": "'Are consistent with' means the results match or agree with previous findings, which is a very common academic phrase used when comparing study outcomes.",
+    "wrongReasons": [
+      "'Call for' means to require or demand something; it does not express agreement between results.",
+      "'Shed light on' means to explain or reveal; it does not express agreement between results.",
+      "'Go beyond' means to exceed or surpass; it implies a difference, not agreement."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Are consistent with' משמעותו 'עקביים עם' ומשמש להשוואת תוצאות מחקר עם ממצאים קודמים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-208",
+    "difficulty": "easy",
+    "text": "Addressing climate change ___ international cooperation at an unprecedented scale.",
+    "choices": [
+      "draws on",
+      "stands in contrast to",
+      "falls short of",
+      "calls for"
+    ],
+    "answer": 3,
+    "explanation": "'Calls for' means 'requires' or 'demands,' and is a standard academic phrase used when arguing that a situation necessitates a particular response or action.",
+    "wrongReasons": [
+      "'Draws on' means to use or derive from; it cannot describe what is required.",
+      "'Stands in contrast to' means to differ from; it cannot describe what is required.",
+      "'Falls short of' means to fail to reach a standard; it cannot describe what is required."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Calls for' משמעותו 'מחייב' או 'דורש' ומשמש לטיעון שמצב מסוים מחייב תגובה מסוימת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-209",
+    "difficulty": "medium",
+    "text": "The theoretical framework ___ a wide range of sociological and anthropological literature.",
+    "choices": [
+      "falls short of",
+      "stands in contrast to",
+      "draws on",
+      "calls for"
+    ],
+    "answer": 2,
+    "explanation": "'Draws on' means to use or derive ideas from a source, which is the correct phrase when a framework incorporates ideas from existing literature.",
+    "wrongReasons": [
+      "'Falls short of' means to fail to reach a standard; it does not describe incorporating sources.",
+      "'Stands in contrast to' means to differ from; it implies opposition, not incorporation.",
+      "'Calls for' means to require or demand; it does not mean to use or derive from sources."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Draws on' משמעותו 'שואב מ' ומשמש כאשר מסגרת תיאורטית מגייסת רעיונות מספרות קיימת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-210",
+    "difficulty": "medium",
+    "text": "The actual unemployment rate ___ the government's optimistic projections by nearly 3%.",
+    "choices": [
+      "accounts for",
+      "exceeds",
+      "aligns with",
+      "illuminates"
+    ],
+    "answer": 1,
+    "explanation": "'Exceeds' means to go beyond a limit or figure, fitting a context where the actual rate is higher than projected. 'Exceeds' is the precise word when a numerical value surpasses another.",
+    "wrongReasons": [
+      "'Accounts for' means to explain or constitute a portion of something; it does not compare two figures.",
+      "'Aligns with' means to agree or correspond with; it implies matching, not surpassing.",
+      "'Illuminates' means to clarify; it cannot describe a numerical comparison."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Exceeds' משמעותו 'עולה על' ומשמש כאשר ערך מספרי עולה על ערך אחר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-211",
+    "difficulty": "medium",
+    "text": "The policy reform ___ a comprehensive review of existing legislation and stakeholder consultation.",
+    "choices": [
+      "necessitates",
+      "elucidates",
+      "comprises",
+      "contradicts"
+    ],
+    "answer": 0,
+    "explanation": "'Necessitates' means to make something necessary or essential, which correctly expresses that the reform requires these actions.",
+    "wrongReasons": [
+      "'Elucidates' means to make something clear; it cannot express a requirement.",
+      "'Comprises' means to consist of or include; it describes composition, not requirement.",
+      "'Contradicts' means to oppose or conflict with; it cannot express a requirement."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Necessitates' משמעותו 'מחייב' או 'הופך לנחוץ' ומשמש לביטוי דרישה הכרחית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-212",
+    "difficulty": "medium",
+    "text": "___ the population studied, nearly 60% reported experiencing symptoms of burnout.",
+    "choices": [
+      "Apart from",
+      "Up to now",
+      "Across",
+      "As of yet"
+    ],
+    "answer": 2,
+    "explanation": "'Across' in academic writing means 'throughout' or 'among' a group, fitting the context of reporting findings from a population studied.",
+    "wrongReasons": [
+      "'Apart from' means 'except for'; it introduces an exception, not a distribution across a group.",
+      "'Up to now' refers to time, not to a population being studied.",
+      "'As of yet' refers to time, not to a population being studied."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Across' במאמרים אקדמיים משמעותו 'בקרב' או 'לאורך כל' ומשמש לתיאור ממצאים בקרב קבוצה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-213",
+    "difficulty": "medium",
+    "text": "The experimental results ___ the hypothesis that increased temperature accelerates chemical reactions.",
+    "choices": [
+      "fall short of",
+      "go beyond",
+      "lend support to",
+      "call for"
+    ],
+    "answer": 2,
+    "explanation": "'Lend support to' means to provide evidence in favour of something, which is the correct phrase when experimental results confirm a hypothesis.",
+    "wrongReasons": [
+      "'Fall short of' means to fail to reach a standard; it implies the results did not confirm the hypothesis.",
+      "'Go beyond' means to surpass or exceed; it does not specifically mean to confirm a hypothesis.",
+      "'Call for' means to require or demand; it does not mean to confirm or support a hypothesis."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Lend support to' משמעותו 'תומך ב' ומשמש כאשר ממצאים ניסויים מאשרים השערה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-214",
+    "difficulty": "medium",
+    "text": "This study ___ previous work by examining the long-term effects of the intervention.",
+    "choices": [
+      "falls short of",
+      "builds on",
+      "stands in contrast to",
+      "is contingent on"
+    ],
+    "answer": 1,
+    "explanation": "'Builds on' means to extend or develop from existing work, which fits a study that takes previous research as a foundation and examines further dimensions.",
+    "wrongReasons": [
+      "'Falls short of' means to fail to reach a standard set by previous work; it implies a deficiency.",
+      "'Stands in contrast to' means to differ from; it implies opposition to previous work, not extension.",
+      "'Is contingent on' means to depend on; it does not mean to extend or develop from."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Builds on' משמעותו 'מתבסס על' ומשמש כאשר מחקר מרחיב עבודה קודמת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-215",
+    "difficulty": "medium",
+    "text": "Children from low-income families ___ a disproportionately high number of school dropouts.",
+    "choices": [
+      "shed light on",
+      "account for",
+      "correspond to",
+      "go beyond"
+    ],
+    "answer": 1,
+    "explanation": "'Account for' means to constitute or explain a portion of something, which is the correct choice when describing that a group makes up a disproportionately large share of a figure.",
+    "wrongReasons": [
+      "'Shed light on' means to explain or reveal; it does not describe comprising a proportion.",
+      "'Correspond to' means to match or be equivalent to; it does not describe comprising a proportion.",
+      "'Go beyond' means to exceed or surpass; it implies moving past something, not constituting a share."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Account for' משמעותו 'מהווים' ומשמש לתיאור חלקה של קבוצה מתוך כלל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-216",
+    "difficulty": "medium",
+    "text": "The observed decline in biodiversity ___ the predictions made by climate models a decade ago.",
+    "choices": [
+      "calls for",
+      "draws on",
+      "aligns with",
+      "elucidates"
+    ],
+    "answer": 2,
+    "explanation": "'Aligns with' means to correspond to or be in agreement with, which is the appropriate phrase when observed data matches earlier predictions.",
+    "wrongReasons": [
+      "'Calls for' means to require or demand; it cannot describe agreement between data and predictions.",
+      "'Draws on' means to use or derive from; it cannot describe agreement between two sets of data.",
+      "'Elucidates' means to explain or clarify; it does not mean to match or correspond."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Aligns with' משמעותו 'מתיישר עם' ומשמש כאשר נתונים נצפים תואמים לתחזיות קודמות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-217",
+    "difficulty": "medium",
+    "text": "The research agenda ___ individual studies; it also promotes interdisciplinary collaboration.",
+    "choices": [
+      "falls short of",
+      "goes beyond",
+      "is consistent with",
+      "makes up"
+    ],
+    "answer": 1,
+    "explanation": "'Goes beyond' means to extend further than or to exceed the scope of something. Here it signals that the agenda does more than just support individual studies.",
+    "wrongReasons": [
+      "'Falls short of' means to fail to reach a standard; it implies insufficiency, not extension.",
+      "'Is consistent with' means to agree with; it does not indicate exceeding the scope of something.",
+      "'Makes up' means to constitute; it cannot describe extending beyond individual studies."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Goes beyond' משמעותו 'חורג מ' ומשמש לציון שמשהו עושה יותר מהצפוי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-218",
+    "difficulty": "medium",
+    "text": "The government's response to the crisis ___ expectations set by international observers.",
+    "choices": [
+      "fell short of",
+      "shed light on",
+      "drew on",
+      "stood in contrast to"
+    ],
+    "answer": 0,
+    "explanation": "'Fell short of' means to fail to reach or meet expectations, which correctly expresses that the response was inadequate compared to what was expected.",
+    "wrongReasons": [
+      "'Shed light on' means to explain or reveal; it cannot describe failing to meet expectations.",
+      "'Drew on' means to use or derive from; it cannot describe falling below expectations.",
+      "'Stood in contrast to' means to differ from; it implies a difference, but not necessarily failure to meet expectations."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Fell short of' משמעותו 'לא עמד בציפיות' ומשמש לביטוי כישלון בעמידה בסטנדרט.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-219",
+    "difficulty": "medium",
+    "text": "The approach taken in this study ___ the dominant quantitative paradigm in the field.",
+    "choices": [
+      "necessitates",
+      "accounts for",
+      "stands in contrast to",
+      "is contingent on"
+    ],
+    "answer": 2,
+    "explanation": "'Stands in contrast to' means to differ significantly from something else, which correctly describes a study that takes a different approach from the dominant paradigm.",
+    "wrongReasons": [
+      "'Necessitates' means to require; it cannot describe a methodological difference.",
+      "'Accounts for' means to constitute or explain; it cannot describe a methodological difference.",
+      "'Is contingent on' means to depend on; it cannot describe a methodological difference."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Stands in contrast to' משמעותו 'עומד בניגוד ל' ומשמש לתיאור גישה שונה מהפרדיגמה הרווחת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-220",
+    "difficulty": "medium",
+    "text": "These results have significant ___ the design of future public health interventions.",
+    "choices": [
+      "implications for",
+      "exceptions to",
+      "assumptions for",
+      "consistencies with"
+    ],
+    "answer": 0,
+    "explanation": "'Implications for' means relevance or consequences for something, and is the standard academic phrase used to indicate that findings are meaningful for a field or practice.",
+    "wrongReasons": [
+      "'Exceptions to' means things that are excluded from a rule; it cannot describe consequences of findings.",
+      "'Assumptions for' is not a standard academic collocation in this context.",
+      "'Consistencies with' describes agreement, not the consequences or relevance of findings."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Implications for' משמעותו 'השלכות על' ומשמש לציון רלוונטיות של ממצאים לתחום מסוים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-221",
+    "difficulty": "medium",
+    "text": "The sample ___ students from three different universities across the country.",
+    "choices": [
+      "calls for",
+      "sheds light on",
+      "comprises",
+      "falls short of"
+    ],
+    "answer": 2,
+    "explanation": "'Comprises' means to consist of or include, which is the correct phrase to describe what elements make up a sample.",
+    "wrongReasons": [
+      "'Calls for' means to require or demand; it cannot describe the composition of a sample.",
+      "'Sheds light on' means to explain or reveal; it cannot describe composition.",
+      "'Falls short of' means to fail to meet a standard; it cannot describe composition."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Comprises' משמעותו 'כולל' או 'מורכב מ' ומשמש לתיאור הרכב מדגם.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-222",
+    "difficulty": "medium",
+    "text": "___ , very little research has examined the long-term effects of this medication on children.",
+    "choices": [
+      "With the exception of",
+      "As of yet",
+      "On the grounds that",
+      "Under the assumption that"
+    ],
+    "answer": 1,
+    "explanation": "'As of yet' means 'up to this point in time' and is used in academic writing to note that something has not happened as of the present moment.",
+    "wrongReasons": [
+      "'With the exception of' introduces an exclusion, not a time reference about what has occurred.",
+      "'On the grounds that' introduces a reason or justification, not a time reference.",
+      "'Under the assumption that' introduces a conditional premise, not a time reference."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'As of yet' משמעותו 'עד כה' ומשמש לציון שמשהו לא התרחש עד לרגע זה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-223",
+    "difficulty": "medium",
+    "text": "The participants were granted anonymity ___ they could share their experiences more freely.",
+    "choices": [
+      "with the exception that",
+      "so that",
+      "apart from",
+      "on the assumption that"
+    ],
+    "answer": 3,
+    "explanation": "'On the assumption that' introduces a conditional premise or expectation — here, the anonymity was granted with the expectation that it would enable more candid responses.",
+    "wrongReasons": [
+      "'With the exception that' introduces an exclusion, not an expectation or reason.",
+      "'So that' expresses purpose and is informal; the academic equivalent 'on the assumption that' better suits formal writing here.",
+      "'Apart from' means 'except for' or 'in addition to'; it does not introduce a condition."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'On the assumption that' משמעותו 'בהנחה ש' ומציג תנאי או ציפייה שעל בסיסה נעשתה פעולה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-224",
+    "difficulty": "medium",
+    "text": "Native speakers ___ about 75% of the total population surveyed in the linguistic study.",
+    "choices": [
+      "clarified",
+      "constituted",
+      "exceeded",
+      "contradicted"
+    ],
+    "answer": 1,
+    "explanation": "'Constituted' means 'made up' or 'formed,' which is the correct choice when describing a proportion of a surveyed population.",
+    "wrongReasons": [
+      "'Clarified' means to make something clearer; it does not describe forming a proportion.",
+      "'Exceeded' means to go beyond a limit; it does not describe forming a proportion.",
+      "'Contradicted' means to oppose or conflict with; it does not describe forming a proportion."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Constituted' משמעותו 'היוו' ומשמש לתיאור שיעור של אוכלוסייה שנסקרה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-225",
+    "difficulty": "medium",
+    "text": "The distribution of resources was unequal ___ urban areas, which received the majority of funding.",
+    "choices": [
+      "other than",
+      "so far as",
+      "except for",
+      "up to now"
+    ],
+    "answer": 2,
+    "explanation": "'Except for' means 'with the exclusion of' and correctly identifies urban areas as the exception to the general statement about unequal distribution.",
+    "wrongReasons": [
+      "'Other than' can mean 'except' but is more informal; in academic writing 'except for' is preferred when specifying an exception to a general claim.",
+      "'So far as' introduces a limitation or scope ('so far as X is concerned'), not an exception.",
+      "'Up to now' refers to time, not to an exception within a distribution."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Except for' משמעותו 'למעט' ומשמש לציון חריג להצהרה הכללית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-226",
+    "difficulty": "medium",
+    "text": "The level of student engagement ___ the quality of instruction provided in each classroom.",
+    "choices": [
+      "is contingent on",
+      "goes beyond",
+      "makes up",
+      "is consistent with"
+    ],
+    "answer": 0,
+    "explanation": "'Is contingent on' means 'depends on' or 'is determined by,' which correctly expresses that engagement levels are shaped by instruction quality.",
+    "wrongReasons": [
+      "'Goes beyond' means to exceed or surpass; it does not express a dependency relationship.",
+      "'Makes up' means to constitute; it does not describe a cause-effect relationship.",
+      "'Is consistent with' means to agree or align with; it implies similarity, not dependency."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Is contingent on' משמעותו 'תלוי ב' ומשמש לביטוי יחסי תלות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-227",
+    "difficulty": "medium",
+    "text": "The new data ___ on earlier theories by introducing the concept of networked resilience.",
+    "choices": [
+      "falls short",
+      "calls",
+      "builds",
+      "stands in contrast"
+    ],
+    "answer": 2,
+    "explanation": "'Builds on' means to develop or extend from a foundation. In this context, the new data extends earlier theories by introducing a new concept.",
+    "wrongReasons": [
+      "'Falls short' requires 'of' and means to fail to meet a standard; it implies inadequacy.",
+      "'Calls' requires 'for' and means to demand or require; it does not mean to extend theories.",
+      "'Stands in contrast' requires 'to' and means to differ significantly; it implies opposition, not extension."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Builds on' משמעותו 'מתבסס על' ומשמש כאשר נתונים חדשים מרחיבים תיאוריות קיימות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-228",
+    "difficulty": "medium",
+    "text": "This discovery ___ significant consequences for the treatment of autoimmune disorders.",
+    "choices": [
+      "draws on",
+      "has implications for",
+      "falls short of",
+      "is contingent on"
+    ],
+    "answer": 1,
+    "explanation": "'Has implications for' is the standard academic phrase meaning that something is relevant to or has consequences for a particular area.",
+    "wrongReasons": [
+      "'Draws on' means to use or derive from; it cannot describe the consequences of a discovery.",
+      "'Falls short of' means to fail to reach a standard; it implies inadequacy, not consequence.",
+      "'Is contingent on' means to depend on; it cannot describe the consequences of a discovery."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Has implications for' משמעותו 'יש לו השלכות על' ומשמש לתיאור חשיבות ממצא לתחום.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-229",
+    "difficulty": "medium",
+    "text": "The performance of rural schools ___ that of urban schools in almost every metric measured.",
+    "choices": [
+      "accounts for",
+      "surpasses",
+      "illuminates",
+      "necessitates"
+    ],
+    "answer": 1,
+    "explanation": "'Surpasses' means to go beyond or be better than something else, which correctly conveys that rural schools outperform urban schools across the measured metrics.",
+    "wrongReasons": [
+      "'Accounts for' means to constitute or explain; it cannot compare performance levels.",
+      "'Illuminates' means to make clear or explain; it cannot compare performance levels.",
+      "'Necessitates' means to require or make necessary; it cannot compare performance levels."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Surpasses' משמעותו 'עולה על' ומשמש להשוואת ביצועים כאשר אחד עולה על השני.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-230",
+    "difficulty": "medium",
+    "text": "The study was approved ___ it would contribute to medical knowledge without posing risks to participants.",
+    "choices": [
+      "with the exception that",
+      "as of yet",
+      "on the grounds that",
+      "apart from which"
+    ],
+    "answer": 2,
+    "explanation": "'On the grounds that' means 'because' or 'for the reason that' and is used in formal writing to introduce a justification or rationale.",
+    "wrongReasons": [
+      "'With the exception that' introduces an exception, not a rationale for approval.",
+      "'As of yet' refers to time, not to a justification.",
+      "'Apart from which' means 'besides which'; it introduces an addition, not a justification."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'On the grounds that' משמעותו 'על בסיס ש' ומשמש להצגת הצדקה או נימוק.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-231",
+    "difficulty": "medium",
+    "text": "The intervention ___ traditional methods by incorporating real-time digital feedback.",
+    "choices": [
+      "accounts for",
+      "is consistent with",
+      "goes beyond",
+      "falls short of"
+    ],
+    "answer": 2,
+    "explanation": "'Goes beyond' means to extend further than or to do more than, correctly expressing that the intervention does more than traditional methods alone.",
+    "wrongReasons": [
+      "'Accounts for' means to constitute or explain; it cannot describe extending beyond traditional methods.",
+      "'Is consistent with' means to agree with; it implies similarity, not extension beyond.",
+      "'Falls short of' means to fail to meet; it implies the intervention is less effective, which contradicts the context."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Goes beyond' משמעותו 'חורג מ' ומשמש לציון שהתערבות עושה יותר משיטות מסורתיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-232",
+    "difficulty": "medium",
+    "text": "The new findings ___ earlier work by demonstrating that the relationship is bidirectional.",
+    "choices": [
+      "are contingent on",
+      "extend",
+      "shed light on",
+      "fall short of"
+    ],
+    "answer": 1,
+    "explanation": "'Extend' in academic writing means to expand or develop from a foundation, correctly expressing that the new findings add to earlier work.",
+    "wrongReasons": [
+      "'Are contingent on' means to depend on; it does not describe adding to earlier work.",
+      "'Shed light on' means to explain or clarify; it does not describe extending prior research.",
+      "'Fall short of' means to fail to reach a standard; it implies the new findings are insufficient."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Extend' משמעותו 'מרחיב' ומשמש כאשר ממצאים חדשים מוסיפים על עבודה קודמת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-233",
+    "difficulty": "medium",
+    "text": "This chapter ___ the theoretical foundations established in the previous sections.",
+    "choices": [
+      "relies on",
+      "falls short of",
+      "is at odds with",
+      "calls for"
+    ],
+    "answer": 0,
+    "explanation": "'Relies on' means to depend on or use as a foundation, correctly expressing that this chapter uses the theoretical work from earlier sections.",
+    "wrongReasons": [
+      "'Falls short of' means to fail to meet a standard; it implies the chapter is insufficient.",
+      "'Is at odds with' means to conflict or disagree with; it implies a contradiction, not reliance.",
+      "'Calls for' means to demand or require; it does not describe using prior theoretical foundations."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Relies on' משמעותו 'מסתמך על' ומשמש לביטוי שפרק מסוים מבוסס על יסודות תיאורטיים קודמים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-234",
+    "difficulty": "medium",
+    "text": "These findings ___ the view that socioeconomic status is the primary driver of academic success.",
+    "choices": [
+      "are contingent on",
+      "make up",
+      "contradict",
+      "illuminate"
+    ],
+    "answer": 2,
+    "explanation": "'Contradict' means to be in direct opposition to something, which correctly expresses that the findings oppose the established view.",
+    "wrongReasons": [
+      "'Are contingent on' means to depend on; it does not describe opposing a view.",
+      "'Make up' means to constitute; it does not describe opposing a view.",
+      "'Illuminate' means to clarify or explain; it implies the findings clarify rather than oppose the view."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Contradict' משמעותו 'סותרים' ומשמש כאשר ממצאים מנוגדים לדעה קיימת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-235",
+    "difficulty": "hard",
+    "text": "The mechanism by which stress ___ on immune function remains poorly understood.",
+    "choices": [
+      "impacts",
+      "influences",
+      "affects",
+      "bears"
+    ],
+    "answer": 3,
+    "explanation": "'Bears on' is the precise academic collocation meaning 'is relevant to' or 'has an effect on,' specifically used in scientific writing to describe a mechanism's relationship to a function. 'Impacts,' 'influences,' and 'affects' are all valid but less precise in describing mechanistic relationships.",
+    "wrongReasons": [
+      "'Impacts' is often considered informal in academic writing and typically takes a direct object ('impacts X'), not 'on X.'",
+      "'Influences' is vaguer and typically describes a softer, indirect effect rather than a mechanistic relationship.",
+      "'Affects' is a general term; 'bears on' is specifically preferred when describing a mechanism's relationship to a function."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Bears on' הוא הביטוי האקדמי המדויק שמשמעותו 'משפיע על' כאשר מדברים על מנגנון ביחס לפונקציה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-236",
+    "difficulty": "hard",
+    "text": "The proposed budget ___ international standards for development aid, raising concerns among analysts.",
+    "choices": [
+      "falls short of",
+      "is inconsistent with",
+      "fails to meet",
+      "does not achieve"
+    ],
+    "answer": 0,
+    "explanation": "'Falls short of' specifically emphasizes a quantitative or qualitative gap between what is proposed and an established standard, making it the most precise academic phrase in this context.",
+    "wrongReasons": [
+      "'Is inconsistent with' emphasizes a lack of coherence or compatibility rather than failing to reach a measurable standard.",
+      "'Fails to meet' is correct but less formal and less precise than 'falls short of' when the gap from a standard is being highlighted.",
+      "'Does not achieve' is informal and typically used for goals rather than standards set by external bodies."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Falls short of' הוא הביטוי המדויק שמשמעותו 'אינו עומד ב' כאשר קיים פער מדיד מסטנדרט.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-237",
+    "difficulty": "hard",
+    "text": "The argument ___ an implicit assumption that market forces will self-correct without regulation.",
+    "choices": [
+      "draws on",
+      "builds on",
+      "rests on",
+      "relies on"
+    ],
+    "answer": 2,
+    "explanation": "'Rests on' is the most precise academic phrase for describing the foundational premise of an argument. While 'draws on,' 'builds on,' and 'relies on' are related, 'rests on' specifically conveys that an argument is founded upon or supported by an assumption.",
+    "wrongReasons": [
+      "'Draws on' means to use existing knowledge as a resource; it describes the sources an argument uses, not the premise it is built upon.",
+      "'Builds on' means to extend from prior work; it implies development over time, not a foundational assumption.",
+      "'Relies on' implies dependence but is more commonly used for resources or data, whereas 'rests on' is the standard phrase for an argument's foundational premise."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Rests on' הוא הביטוי האקדמי המדויק לתיאור ההנחה הבסיסית עליה מושתת טיעון.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-238",
+    "difficulty": "hard",
+    "text": "The committee's decision to proceed was ___ sufficient evidence being presented within the allotted timeframe.",
+    "choices": [
+      "dependent on",
+      "conditional on",
+      "contingent on",
+      "based on"
+    ],
+    "answer": 2,
+    "explanation": "'Contingent on' is the most precise academic and legal-register phrase for expressing that one event or decision depends on another condition being met, particularly in formal or institutional contexts.",
+    "wrongReasons": [
+      "'Dependent on' is correct but broader; it describes general dependency rather than a conditional trigger for a decision.",
+      "'Conditional on' is grammatically correct but used more in statistical and mathematical contexts to describe conditional probability.",
+      "'Based on' describes the foundation for a decision already made, not a future condition that must be met."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Contingent on' הוא הביטוי האקדמי המדויק לביטוי שהחלטה תלויה בתנאי מסוים שיתממש.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-239",
+    "difficulty": "hard",
+    "text": "Contrary to the dominant view, the qualitative data ___ the assumption that productivity is purely technology-driven.",
+    "choices": [
+      "is inconsistent with",
+      "is at odds with",
+      "contradicts",
+      "differs from"
+    ],
+    "answer": 1,
+    "explanation": "'Is at odds with' is the most academically precise phrase for expressing that data fundamentally conflicts with a dominant assumption, especially when the conflict is substantive and significant.",
+    "wrongReasons": [
+      "'Is inconsistent with' describes a lack of harmony or coherence but is less emphatic about a direct and fundamental conflict.",
+      "'Contradicts' is a direct verb that is correct but blunter; in academic writing 'is at odds with' is preferred when framing nuanced opposition to assumptions.",
+      "'Differs from' merely describes a difference, not necessarily a conflict or incompatibility."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Is at odds with' הוא הביטוי האקדמי לתיאור סתירה מהותית בין נתונים להנחה שולטת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-240",
+    "difficulty": "hard",
+    "text": "Minority groups, ___ recent immigrants, were significantly underrepresented in the final dataset.",
+    "choices": [
+      "apart from",
+      "except for",
+      "with the exception of",
+      "other than"
+    ],
+    "answer": 2,
+    "explanation": "'With the exception of' is the most formally appropriate phrase in academic prose when introducing a named exception to a broader category. It signals a clear, deliberate exclusion within a formal register.",
+    "wrongReasons": [
+      "'Apart from' is correct but also means 'in addition to,' creating potential ambiguity; 'with the exception of' is unambiguous.",
+      "'Except for' is grammatically correct but slightly less formal than 'with the exception of' in academic writing.",
+      "'Other than' is more colloquial and typically used in speech or informal writing rather than academic prose."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'With the exception of' הוא הביטוי הפורמלי ביותר בכתיבה אקדמית להצגת חריג ספציפי לקטגוריה רחבה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-241",
+    "difficulty": "hard",
+    "text": "The paper ___ the existing literature on organizational behavior and extends it to the nonprofit sector.",
+    "choices": [
+      "relies on",
+      "is based on",
+      "draws on",
+      "builds on"
+    ],
+    "answer": 2,
+    "explanation": "'Draws on' specifically describes using a body of literature as a resource or source of ideas, which is precise when a paper selectively incorporates insights from existing literature rather than being entirely derived from it.",
+    "wrongReasons": [
+      "'Relies on' implies heavy dependence, suggesting the paper could not stand without the literature; 'draws on' is more appropriate for selective incorporation.",
+      "'Is based on' implies the paper's entire foundation is the prior literature, which is too strong; 'draws on' allows for independence.",
+      "'Builds on' implies the paper extends prior work; here the sentence separately states extension, so 'draws on' (using the literature) and then 'extends it' are two distinct actions."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Draws on' מתאר שימוש סלקטיבי בספרות קיימת כמקור רעיונות, בניגוד ל-'relies on' שמשמע תלות מלאה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-242",
+    "difficulty": "hard",
+    "text": "This analysis ___ a simple cost-benefit framework; it incorporates distributional and ethical dimensions.",
+    "choices": [
+      "exceeds",
+      "surpasses",
+      "goes beyond",
+      "extends"
+    ],
+    "answer": 2,
+    "explanation": "'Goes beyond' is the standard academic phrase for signalling that a study does more than what a simpler or prior approach would do, especially when introducing additional dimensions of analysis.",
+    "wrongReasons": [
+      "'Exceeds' compares magnitudes or quantities; it is not idiomatic when describing the scope of an analytical framework.",
+      "'Surpasses' implies being better than something else in quality or performance; it does not naturally describe expanding the scope of an analysis.",
+      "'Extends' means to stretch further and is closely related, but 'goes beyond' is the standard collocation when the sentence structure is '[subject] goes beyond [noun phrase].'"
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Goes beyond' הוא הביטוי האקדמי לציון שניתוח חורג ממסגרת פשוטה יותר ומוסיף ממדים נוספים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-243",
+    "difficulty": "hard",
+    "text": "The observed correlation ___ the direction predicted by the theoretical model but not its magnitude.",
+    "choices": [
+      "corresponds to",
+      "is consistent with",
+      "aligns with",
+      "matches"
+    ],
+    "answer": 1,
+    "explanation": "'Is consistent with' is used when data agrees with a prediction in some respects but not necessarily all, which is precisely the meaning needed here — the direction is consistent but magnitude is not.",
+    "wrongReasons": [
+      "'Corresponds to' implies a full one-to-one equivalence; it is too strong when only partial agreement is described.",
+      "'Aligns with' suggests general harmony or agreement; it does not convey the partial agreement the sentence expresses.",
+      "'Matches' implies exact equivalence; the sentence explicitly states there is not a full match."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Is consistent with' מתאר התאמה חלקית — הכיוון נכון אך הגודל לא, בניגוד ל-'matches' שמשמע התאמה מלאה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-244",
+    "difficulty": "hard",
+    "text": "The study's conclusions ___ its methodology; any generalisations must therefore be made cautiously.",
+    "choices": [
+      "are contingent on",
+      "depend on",
+      "are conditional on",
+      "rely on"
+    ],
+    "answer": 0,
+    "explanation": "'Are contingent on' expresses that the conclusions are bounded by and dependent upon the methodology, which is the most precise academic phrasing for limiting the scope of findings.",
+    "wrongReasons": [
+      "'Depend on' is grammatically correct but less formal; in academic writing 'are contingent on' is preferred for epistemological limitations.",
+      "'Are conditional on' is primarily used in probability and statistics to describe conditional relationships, not the scope of research conclusions.",
+      "'Rely on' implies the conclusions use the methodology as a resource, rather than being bounded by it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Are contingent on' הוא הביטוי הפורמלי ביותר לציון שמסקנות המחקר מוגבלות על ידי המתודולוגיה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-245",
+    "difficulty": "hard",
+    "text": "The ethical implications of this technology ___ the immediate medical community; they touch every sector of society.",
+    "choices": [
+      "impact",
+      "go beyond",
+      "extend beyond",
+      "exceed"
+    ],
+    "answer": 2,
+    "explanation": "'Extend beyond' is the most precise academic phrase when describing implications or effects that reach further than a defined group, particularly when the subject is abstract ('ethical implications').",
+    "wrongReasons": [
+      "'Impact' is a transitive verb taking a direct object ('impact X'), not 'beyond X'; this construction is ungrammatical.",
+      "'Go beyond' is similar but is more commonly used with a concrete subject doing an action; 'extend beyond' is preferred for abstract subjects like 'implications.'",
+      "'Exceed' compares magnitudes; it is not idiomatic with 'implications' and a named group."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Extend beyond' הוא הביטוי המדויק כאשר השלכות מופשטות חורגות מעבר לקבוצה מוגדרת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-246",
+    "difficulty": "hard",
+    "text": "The author ___ the seminal work of Foucault to interrogate modern surveillance practices.",
+    "choices": [
+      "builds on",
+      "draws on",
+      "relies on",
+      "is based on"
+    ],
+    "answer": 1,
+    "explanation": "'Draws on' is the correct choice when an author uses another scholar's work as a conceptual resource or lens, without claiming to extend it directly. It is the standard academic phrase for theoretical borrowing.",
+    "wrongReasons": [
+      "'Builds on' implies the author directly extends or develops Foucault's specific argument, which is not stated.",
+      "'Relies on' implies the author's own argument cannot stand independently without Foucault; 'draws on' is less dependent.",
+      "'Is based on' would mean the entire paper is founded on Foucault, which is too strong and grammatically awkward with 'the author' as subject."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Draws on' מתאר שימוש ביצירת חוקר אחר כמשאב תיאורטי מבלי לטעון שמאריכים אותה ישירות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-247",
+    "difficulty": "hard",
+    "text": "A more holistic approach is needed that ___ technical solutions and addresses the human dimensions of the crisis.",
+    "choices": [
+      "goes beyond",
+      "exceeds",
+      "surpasses",
+      "extends"
+    ],
+    "answer": 0,
+    "explanation": "'Goes beyond' is the standard academic collocation for expressing that an approach should do more than a narrower alternative, particularly in normative arguments ('a more holistic approach is needed').",
+    "wrongReasons": [
+      "'Exceeds' compares numerical or qualitative magnitudes and is not idiomatic in this normative context.",
+      "'Surpasses' implies outperforming in quality; it does not naturally introduce the idea of doing something additionally.",
+      "'Extends' means to stretch or lengthen; it can work but 'goes beyond' is the conventional collocation in prescriptive academic arguments."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Goes beyond' הוא הביטוי הקבוע בטיעונים נורמטיביים לציון שגישה צריכה לעשות יותר מחלופה צרה יותר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-248",
+    "difficulty": "hard",
+    "text": "A comprehensive reform of pension systems ___ addressing demographic shifts, not merely adjusting contribution rates.",
+    "choices": [
+      "demands",
+      "requires",
+      "calls for",
+      "necessitates"
+    ],
+    "answer": 2,
+    "explanation": "'Calls for' is the most idiomatic and formal academic phrase when a situation or condition necessitates a specific type of action, especially in policy discourse. It carries a normative implication that the action is both needed and justified.",
+    "wrongReasons": [
+      "'Demands' has a stronger, more imperative tone and is typically used in political or advocacy writing rather than neutral academic analysis.",
+      "'Requires' is correct but more neutral and technical; 'calls for' better captures the prescriptive urgency of policy recommendations.",
+      "'Necessitates' is formal but emphasises logical compulsion more than normative urgency; 'calls for' better suits policy arguments."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Calls for' הוא הביטוי הפורמלי ביותר בשיח מדיניות לציון שמצב מסוים מחייב פעולה ספציפית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-249",
+    "difficulty": "hard",
+    "text": "These anomalous results ___ the standard model and suggest that a revised framework may be necessary.",
+    "choices": [
+      "are inconsistent with",
+      "contradict",
+      "are at odds with",
+      "differ from"
+    ],
+    "answer": 2,
+    "explanation": "'Are at odds with' is the most academically precise phrase for expressing that anomalous results fundamentally conflict with an established model. It implies a substantive, structural incompatibility.",
+    "wrongReasons": [
+      "'Are inconsistent with' suggests a lack of harmony but not necessarily a fundamental conflict; 'are at odds with' is stronger.",
+      "'Contradict' is a direct verb that is grammatically correct but stylistically blunter; in academic writing 'are at odds with' is the preferred collocation.",
+      "'Differ from' describes only a difference, without implying conflict or incompatibility."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Are at odds with' מבטא אי-תאימות מהותית בין תוצאות אנומליות למודל קיים, חזק יותר מ-'differ from'.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-250",
+    "difficulty": "hard",
+    "text": "___ , no universally accepted definition of 'wellbeing' has emerged in the psychological literature.",
+    "choices": [
+      "Up to now",
+      "To date",
+      "So far",
+      "As of yet"
+    ],
+    "answer": 3,
+    "explanation": "'As of yet' is the most formal and precise academic phrase for expressing that something has not occurred up to the present moment. It is typically used in academic writing when noting an absence of consensus or discovery.",
+    "wrongReasons": [
+      "'Up to now' is more colloquial and is less common in formal academic prose.",
+      "'To date' is also academic but typically appears mid-sentence or after the subject ('No definition has emerged, to date'); starting a sentence with 'As of yet' is more emphatic.",
+      "'So far' is informal and rarely used to open a formal academic sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'As of yet' הוא הביטוי הפורמלי ביותר לציון שמשהו לא התרחש עד כה, מועדף על פני 'so far' בכתיבה אקדמית.",
+    "estimatedTimeSeconds": 40
+  }
+]

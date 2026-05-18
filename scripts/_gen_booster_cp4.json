@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-cp-251",
+    "difficulty": "easy",
+    "text": "Aspirin reduces fever and relieves mild pain. ________, it is widely available without a prescription in most countries.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "In addition",
+      "Although",
+      "Provided that"
+    ],
+    "answer": 1,
+    "explanation": "'In addition' signals that the second clause adds a related positive fact to the first. Both sentences describe benefits or accessible qualities of aspirin, so an additive connector is needed.",
+    "wrongReasons": [
+      "'However' introduces contrast or an unexpected reversal — but being widely available is not surprising or contradictory given aspirin's established benefits.",
+      "'Although' introduces a concession, implying the two facts are in tension with each other — which they are not.",
+      "'Provided that' is a conditional meaning 'only if,' but neither clause depends on the other as a prerequisite."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN ADDITION = בנוסף / יתר על כן. הסבר: 'in addition' מוסיף מידע תומך נוסף. הרמז הלוגי: אספירין מפחית חום ← בנוסף ← נגיש ללא מרשם. שני המשפטים מציינים יתרונות, לכן נדרש מחבר של הוספה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-252",
+    "difficulty": "easy",
+    "text": "The ancient Egyptians built elaborate irrigation canals along the Nile. ________, they could grow crops even during dry seasons.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "As a result",
+      "In contrast",
+      "Unless"
+    ],
+    "answer": 1,
+    "explanation": "'As a result' connects a cause (building irrigation canals) to its logical consequence (growing crops in dry seasons). The second clause is a direct outcome of the engineering described in the first.",
+    "wrongReasons": [
+      "'Nevertheless' expresses a concession or unexpected continuation despite an obstacle — but there is no obstacle here to overcome.",
+      "'In contrast' highlights a difference between two things, yet both clauses describe the same civilization's achievements.",
+      "'Unless' introduces a negative condition, which would imply crops could only be grown if canals were NOT built — the opposite of the intended meaning."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך / לפיכך. הסבר: 'as a result' מבטא קשר סיבה-תוצאה. הרמז הלוגי: בניית תעלות השקיה ← כתוצאה מכך ← יכלו לגדל יבולים בעונות יבשות. 'nevertheless' מביע ויתור, 'in contrast' מדגיש ניגוד, ו-'unless' מביע תנאי שלילי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-253",
+    "difficulty": "easy",
+    "text": "The Sahara Desert receives very little rainfall each year. ________, it supports a surprisingly diverse range of plant and animal species.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Furthermore",
+      "However",
+      "So that"
+    ],
+    "answer": 2,
+    "explanation": "'However' signals a contrast between the expected (little life in a dry desert) and the surprising reality (diverse species). The second clause presents an unexpected fact that contradicts the implication of the first.",
+    "wrongReasons": [
+      "'Therefore' implies the diverse species are a direct result of the low rainfall — which is the opposite of the logical relationship; drought typically reduces biodiversity.",
+      "'Furthermore' adds a similar or supporting point, but supporting very little rainfall with biodiversity creates a logical contradiction rather than addition.",
+      "'So that' expresses purpose, implying the desert receives little rain in order to support diverse species — which makes no causal sense."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / עם זאת. הסבר: 'however' מביע ניגוד בין הציפייה (מעט חיים במדבר יבש) לבין המציאות המפתיעה (מגוון ביולוגי עשיר). 'therefore' מביע תוצאה, 'furthermore' מוסיף מידע, ו-'so that' מביע מטרה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-254",
+    "difficulty": "easy",
+    "text": "Karl Popper argued that a scientific theory must be falsifiable. ________, claims that cannot be tested or disproved are not considered scientific.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Although",
+      "In other words",
+      "Even though",
+      "In spite of"
+    ],
+    "answer": 1,
+    "explanation": "'In other words' introduces a restatement or clarification of the preceding idea. The second clause rephrases Popper's criterion for falsifiability in plainer language.",
+    "wrongReasons": [
+      "'Although' introduces a concession, suggesting the two clauses contradict each other — but the second simply explains the first.",
+      "'Even though' also signals concession and contrast, which does not fit since the two clauses reinforce the same idea.",
+      "'In spite of' indicates something happens despite an obstacle, which is inappropriate when the second clause elaborates on, rather than resists, the first."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN OTHER WORDS = במילים אחרות / כלומר. הסבר: 'in other words' מנסח מחדש את הרעיון הקודם בצורה ברורה יותר. המשפט השני פשוט מסביר את קריטריון הניתנות להפרכה של פופר. 'although' ו-'even though' מביעים ויתור, ו-'in spite of' מביע ניגוד להשלכה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-255",
+    "difficulty": "easy",
+    "text": "Machine learning models require large quantities of training data ________ they can make accurate predictions on new inputs.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "although",
+      "in contrast",
+      "so that",
+      "nevertheless"
+    ],
+    "answer": 2,
+    "explanation": "'So that' expresses purpose — the large quantities of training data are gathered with the goal of enabling accurate predictions. The second clause states the intended outcome of the action in the first.",
+    "wrongReasons": [
+      "'Although' introduces a concession, implying that large data and accurate predictions are somehow in conflict — which contradicts the technical reality.",
+      "'In contrast' signals a difference, yet both clauses describe aspects of the same learning process, not two opposed things.",
+      "'Nevertheless' suggests a concession or unexpected continuation despite difficulty, but no obstacle is mentioned here."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SO THAT = כדי ש / על מנת ש. הסבר: 'so that' מביע מטרה. הרמז הלוגי: דגמי למידת מכונה זקוקים לנתוני אימון רבים ← כדי ש ← יוכלו לבצע תחזיות מדויקות. 'although' ו-'nevertheless' מביעים ויתור, ו-'in contrast' מביע ניגוד.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-256",
+    "difficulty": "easy",
+    "text": "Many languages use word order to indicate grammatical relationships. ________, Latin relies primarily on case endings rather than position.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Similarly",
+      "In contrast",
+      "Therefore",
+      "As a result"
+    ],
+    "answer": 1,
+    "explanation": "'In contrast' highlights the structural difference between languages that use word order (like English) and Latin, which uses case endings. The two clauses describe directly opposed grammatical strategies.",
+    "wrongReasons": [
+      "'Similarly' signals that the two clauses share a common feature, but Latin's case-ending system is the opposite of word-order dependence.",
+      "'Therefore' implies Latin uses case endings because other languages use word order — which is a false causal connection.",
+      "'As a result' also implies causation, suggesting Latin developed case endings as a consequence of word-order systems elsewhere, which is historically and logically unsound."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN CONTRAST = לעומת זאת / בניגוד לכך. הסבר: 'in contrast' מדגיש את ההבדל המבני בין שפות המסתמכות על סדר מילים לבין לטינית המסתמכת על סיומות נטייה. 'similarly' מציין דמיון, ו-'therefore'/'as a result' מציינים קשר סיבתי שאינו קיים כאן.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-257",
+    "difficulty": "easy",
+    "text": "The global birth rate has been declining steadily for several decades. ________, the world population continues to grow overall.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Consequently",
+      "For instance",
+      "Nevertheless",
+      "Moreover"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' concedes the declining birth rate yet shows that population growth persists despite this. The second clause presents an outcome that seems to defy the trend mentioned in the first.",
+    "wrongReasons": [
+      "'Consequently' implies population growth results from the declining birth rate — a logical contradiction, since a lower birth rate would typically slow growth.",
+      "'For instance' introduces an example of the preceding idea, but a growing population is not an example of a declining birth rate.",
+      "'Moreover' adds a parallel or reinforcing fact, but continued population growth does not reinforce the idea of a declining birth rate."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / ואף על פי כן. הסבר: 'nevertheless' מביע ויתור — שיעור הלידות יורד, ועם זאת האוכלוסייה ממשיכה לגדול. 'consequently' מביע תוצאה (הפוכה מהלוגי כאן), 'for instance' מביע דוגמה, ו-'moreover' מוסיף מידע תומך.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-258",
+    "difficulty": "easy",
+    "text": "Game theory analyzes strategic decision-making in competitive situations, ________ negotiations, auctions, and international trade disputes.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "so that",
+      "although",
+      "such as",
+      "however"
+    ],
+    "answer": 2,
+    "explanation": "'Such as' introduces specific examples of the competitive situations mentioned. The three items listed (negotiations, auctions, trade disputes) are concrete illustrations of the general category.",
+    "wrongReasons": [
+      "'So that' introduces a purpose clause, but a list of situation types is not a goal or intended outcome.",
+      "'Although' introduces a concession, implying the examples contradict the general definition — which they do not.",
+      "'However' signals contrast, but examples of a concept do not contrast with it."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SUCH AS = כגון / כמו. הסבר: 'such as' מציג דוגמאות ספציפיות לקטגוריה הכללית שהוזכרה. שלושת הפריטים (משא ומתן, מכרזים, סכסוכי סחר) הם המחשות קונקרטיות. 'so that' מביע מטרה, 'although' מביע ויתור, ו-'however' מביע ניגוד.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-cp-259",
+    "difficulty": "medium",
+    "text": "Penicillin was discovered largely by accident in 1928. ________, Alexander Fleming's observation of mold inhibiting bacterial growth changed the course of medicine forever.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As a result",
+      "In contrast",
+      "Nevertheless",
+      "Provided that"
+    ],
+    "answer": 0,
+    "explanation": "'As a result' connects the accidental discovery (cause) to its enormous medical consequence (effect). Fleming's observation was the specific event that produced the world-changing outcome.",
+    "wrongReasons": [
+      "'In contrast' signals a difference, but both clauses describe the same discovery event from different angles — there is no opposition.",
+      "'Nevertheless' implies the consequence happened despite an obstacle, but no obstacle to Fleming's observation is mentioned.",
+      "'Provided that' introduces a condition, yet the medical transformation was a consequence, not a conditional outcome."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך. הסבר: 'as a result' מקשר בין הגילוי המקרי (סיבה) להשפעתו הרפואית העצומה (תוצאה). תצפית פלמינג היא האירוע שהוליד את השינוי. 'in contrast' מציין ניגוד, 'nevertheless' מביע ויתור, ו-'provided that' מביע תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-260",
+    "difficulty": "medium",
+    "text": "The Black Death wiped out roughly one-third of Europe's population in the fourteenth century. ________, the resulting labor shortage fundamentally altered feudal economic structures.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Consequently",
+      "Even though",
+      "For example"
+    ],
+    "answer": 1,
+    "explanation": "'Consequently' signals that the labor shortage and the subsequent economic transformation were direct outcomes of the catastrophic population loss. The second clause describes what happened because of what the first clause stated.",
+    "wrongReasons": [
+      "'However' introduces contrast or an unexpected fact, yet a labor shortage following mass death is the expected, not surprising, result.",
+      "'Even though' introduces a concession, implying the economic changes happened despite the population loss — which inverts the actual causal relationship.",
+      "'For example' would mean the economic shift is an illustration of the population loss, but they are related as cause and effect, not as category and instance."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "CONSEQUENTLY = כתוצאה מכך / לפיכך. הסבר: 'consequently' מבטא שמחסור כוח העבודה והשינויים הכלכליים הם תוצאה ישירה של אובדן האוכלוסייה. 'however' מביע ניגוד בלתי צפוי, 'even though' מביע ויתור, ו-'for example' מביע דוגמה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-261",
+    "difficulty": "medium",
+    "text": "The Amazon rainforest is often called the 'lungs of the Earth.' ________, it produces about twenty percent of the world's oxygen and absorbs vast amounts of carbon dioxide.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "In other words",
+      "Although",
+      "Unless"
+    ],
+    "answer": 1,
+    "explanation": "'In other words' introduces a concrete explanation of why the Amazon deserves its metaphorical title. The oxygen production and carbon absorption figures give precise meaning to the 'lungs' metaphor.",
+    "wrongReasons": [
+      "'Nevertheless' implies the specific facts about oxygen hold true despite some obstacle related to the nickname — but no such obstacle exists.",
+      "'Although' introduces a concession, suggesting the oxygen and carbon facts contradict the 'lungs' metaphor — which they actually support.",
+      "'Unless' introduces a condition, implying the Amazon only produces oxygen if it is not called 'lungs of the Earth' — which is nonsensical."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN OTHER WORDS = במילים אחרות / כלומר. הסבר: 'in other words' מסביר את הכינוי 'ריאות כדור הארץ' על ידי מתן נתונים קונקרטיים. 'nevertheless' מביע ויתור, 'although' מביע ויתור/ניגוד, ו-'unless' מביע תנאי שלילי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-262",
+    "difficulty": "medium",
+    "text": "Immanuel Kant distinguished between what he called the 'phenomenal' world and the 'noumenal' world. ________, he argued that human perception can only ever access appearances, never things as they truly are in themselves.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "For instance",
+      "However",
+      "Specifically",
+      "Even so"
+    ],
+    "answer": 2,
+    "explanation": "'Specifically' narrows the general philosophical distinction down to its precise content — that perception is limited to appearances. It signals that the second clause explains the exact nature of Kant's broader distinction.",
+    "wrongReasons": [
+      "'For instance' introduces an example of a broader category, but the second clause is not an example of the distinction — it is the definition of it.",
+      "'However' introduces contrast or an unexpected fact, yet the second clause elaborates the distinction rather than opposing it.",
+      "'Even so' expresses concession ('despite this'), which implies an obstacle is being overcome — but the second clause simply clarifies the first."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SPECIFICALLY = בפרט / ביתר דיוק. הסבר: 'specifically' מצמצם מההבחנה הפילוסופית הכללית לתוכנה המדויק — שהתפיסה האנושית מוגבלת לתופעות. 'for instance' מביע דוגמה, 'however' מביע ניגוד, ו-'even so' מביע ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-263",
+    "difficulty": "medium",
+    "text": "Neural networks can identify cancerous cells in medical images with remarkable accuracy. ________, radiologists still provide essential oversight, as the models can produce false positives that require clinical judgment to evaluate.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "Therefore",
+      "Nevertheless",
+      "Similarly"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' acknowledges the impressive accuracy of neural networks while indicating that human radiologists remain necessary despite this capability. The second clause qualifies rather than reinforces the first.",
+    "wrongReasons": [
+      "'Moreover' adds a supporting point in the same direction — but the continued need for radiologists is a limitation, not an additional strength of neural networks.",
+      "'Therefore' implies that radiologists provide oversight because neural networks are accurate — which reverses the logical relationship; it is the limitations, not the strengths, that justify oversight.",
+      "'Similarly' draws a parallel between the two clauses, yet they describe contrasting rather than similar roles."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / ואף על פי כן. הסבר: 'nevertheless' מודה ביכולת הרשתות הנוירוניות אך מצביע על כך שרדיולוגים עדיין נדרשים למרות זאת. 'moreover' מוסיף יתרון, 'therefore' מביע תוצאה לא נכונה כאן, ו-'similarly' מציין קווי דמיון שאינם קיימים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-264",
+    "difficulty": "medium",
+    "text": "Ferdinand de Saussure proposed that the relationship between a word and its meaning is entirely arbitrary. ________, there is no inherent reason why the sound 'tree' should refer to a woody plant rather than to any other concept.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In contrast",
+      "As a result",
+      "For example",
+      "Provided that"
+    ],
+    "answer": 2,
+    "explanation": "'For example' introduces a concrete illustration of the abstract principle of arbitrariness. The word 'tree' is used as a specific case to make Saussure's general claim more tangible.",
+    "wrongReasons": [
+      "'In contrast' signals opposition, but the example of 'tree' supports, rather than opposes, Saussure's claim.",
+      "'As a result' implies the 'tree' example is a consequence of the arbitrariness principle — but it is an illustration, not an outcome.",
+      "'Provided that' introduces a condition, yet the example depends on no condition related to the principle."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "FOR EXAMPLE = לדוגמה / למשל. הסבר: 'for example' מציג דוגמה קונקרטית לעיקרון האמנותיות המופשט. המילה 'tree' ממחישה את טענתו הכללית של סוסיר. 'in contrast' מציין ניגוד, 'as a result' מציין תוצאה, ו-'provided that' מציין תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-265",
+    "difficulty": "medium",
+    "text": "Antibiotic resistance is growing faster than the development of new drugs. ________, experts warn that common infections may become untreatable within the next few decades.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Although",
+      "Consequently",
+      "In addition"
+    ],
+    "answer": 2,
+    "explanation": "'Consequently' links the acceleration of antibiotic resistance (cause) to the expert warning about untreatable infections (effect). The alarming prediction is a direct logical result of the trend described.",
+    "wrongReasons": [
+      "'However' suggests the warning is unexpected or contradicts the resistance trend — but it logically follows from it.",
+      "'Although' introduces a concession, implying the infections may become untreatable despite resistance growing — which makes little sense.",
+      "'In addition' adds a parallel fact, but the warning about untreatable infections is not a separate parallel point; it is the consequence of the resistance trend."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "CONSEQUENTLY = כתוצאה מכך / לפיכך. הסבר: 'consequently' מקשר בין ההאצה בעמידות לאנטיביוטיקה (סיבה) לאזהרת המומחים (תוצאה). 'however' מציין ניגוד בלתי צפוי, 'although' מביע ויתור, ו-'in addition' מוסיף מידע מקביל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-266",
+    "difficulty": "medium",
+    "text": "The ancient city of Carthage rivaled Rome in commercial power during the third century BCE. ________, after three devastating Punic Wars, Rome reduced it to rubble and salted the surrounding earth.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "Similarly",
+      "Yet",
+      "So that"
+    ],
+    "answer": 2,
+    "explanation": "'Yet' concedes Carthage's former greatness while introducing the dramatic contrast of its total destruction. It signals an unexpected reversal from dominance to annihilation.",
+    "wrongReasons": [
+      "'Moreover' adds information in the same direction, implying Rome's destruction of Carthage was an additional sign of Carthaginian power — which contradicts the facts.",
+      "'Similarly' draws a parallel, suggesting Rome also became rubble — but the sentence clearly describes Carthage's unique fate.",
+      "'So that' introduces purpose, implying Carthage rivaled Rome in order to be destroyed — which is absurd."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "YET = אך / ואולם. הסבר: 'yet' מודה בגדולת קרתגו לשעבר ומציג את הניגוד הדרמטי של השמדתה המוחלטת. 'moreover' מוסיף בכיוון אחד, 'similarly' מציין קווי דמיון, ו-'so that' מציין מטרה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-267",
+    "difficulty": "medium",
+    "text": "Economists use the concept of Nash Equilibrium to predict how rational agents will behave when their outcomes depend on each other's choices. ________, no player can benefit by changing strategy if all others keep theirs unchanged.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Unless",
+      "That is",
+      "Even though"
+    ],
+    "answer": 2,
+    "explanation": "'That is' (or 'that is to say') introduces a precise clarification or reformulation of the preceding concept. The second clause gives the technical definition of Nash Equilibrium in concrete terms.",
+    "wrongReasons": [
+      "'However' introduces contrast, but the second clause expands rather than opposes the concept introduced in the first.",
+      "'Unless' introduces a condition, implying the Equilibrium only functions if players cannot benefit by changing — but this is the definition itself, not a precondition.",
+      "'Even though' signals concession, suggesting no player can benefit despite the equilibrium concept — which contradicts the meaning."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THAT IS = כלומר / כלומר לאמור. הסבר: 'that is' מציג הגדרה מדויקת של שיווי המשקל של נאש במונחים קונקרטיים. 'however' מציין ניגוד, 'unless' מציין תנאי שלילי, ו-'even though' מציין ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-268",
+    "difficulty": "medium",
+    "text": "The surface temperature of Venus reaches over 460 degrees Celsius, making it the hottest planet in the solar system. ________, it is not the closest planet to the Sun.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "In addition",
+      "Surprisingly",
+      "As a result"
+    ],
+    "answer": 2,
+    "explanation": "'Surprisingly' flags the counterintuitive fact that follows: most readers would assume the hottest planet is the nearest to the Sun, but Venus is not. The adverb signals that the information defies expectation.",
+    "wrongReasons": [
+      "'Therefore' implies Venus is not the closest planet because it is the hottest — but the two facts are independent; proximity does not cause heat ranking.",
+      "'In addition' adds a parallel supporting fact, but being 'not the closest to the Sun' does not support or reinforce the extreme heat claim — it counters the expected explanation.",
+      "'As a result' implies the extreme heat caused Venus to not be the closest planet, which is physically and logically incoherent."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SURPRISINGLY = באופן מפתיע / מפתיע. הסבר: 'surprisingly' מסמן שהמידע שיבוא מנוגד לציפיות — רוב הקוראים יניחו שהכוכב החם ביותר הוא הקרוב ביותר לשמש, אך ונוס אינה כך. 'therefore'/'as a result' מציינים קשר סיבתי שגוי, ו-'in addition' מוסיף מידע מקביל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-269",
+    "difficulty": "medium",
+    "text": "Cultural anthropologists distinguish between 'emic' accounts, which reflect an insider's perspective, and 'etic' accounts, which apply an external analytical framework. ________, a study of a religious ritual written by a practitioner would be emic, while one written by an outside scholar would be etic.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "For instance",
+      "Therefore",
+      "In contrast"
+    ],
+    "answer": 1,
+    "explanation": "'For instance' introduces a concrete real-world example that illustrates both sides of the abstract distinction. The ritual study scenario makes the emic/etic concepts tangible and easier to understand.",
+    "wrongReasons": [
+      "'However' introduces contrast or an unexpected reversal, but the example is consistent with and supportive of the distinction, not opposed to it.",
+      "'Therefore' implies the practitioner/scholar example results from the emic/etic definition — but it is an illustration, not a consequence.",
+      "'In contrast' signals that the example is the opposite of what was defined — but the example actually demonstrates the definition."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "FOR INSTANCE = לדוגמה / למשל. הסבר: 'for instance' מציג דוגמה קונקרטית הממחישה את שני צדי ההבחנה המופשטת. תרחיש חקר הטקס הדתי הופך את המושגים המופשטים לנגישים. 'however' מציין ניגוד, 'therefore' מציין תוצאה, ו-'in contrast' מציין ניגוד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-270",
+    "difficulty": "medium",
+    "text": "Most stars in the Milky Way are much smaller and dimmer than our Sun. ________, red dwarf stars, which make up about seventy percent of all stars, burn far cooler and can last tens of billions of years longer.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As a result",
+      "Although",
+      "In particular",
+      "Unless"
+    ],
+    "answer": 2,
+    "explanation": "'In particular' narrows from the general claim (most stars are smaller and dimmer) to a specific category (red dwarfs) that best exemplifies it. It signals that the following clause is the prime illustration of the preceding generalization.",
+    "wrongReasons": [
+      "'As a result' implies red dwarfs burn cooler because most stars are smaller — but the coolness is an inherent property, not a consequence of the general comparison.",
+      "'Although' introduces a concession, suggesting red dwarfs contradict the claim that most stars are smaller — but they are a prime example of it.",
+      "'Unless' introduces a negative condition that would make no logical sense in this context."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN PARTICULAR = בפרט / במיוחד. הסבר: 'in particular' מצמצם מהטענה הכללית (רוב הכוכבים קטנים וחלשים) לקטגוריה ספציפית (ננסים אדומים) שממחישה אותה בצורה הטובה ביותר. 'as a result' מציין תוצאה שגויה, 'although' מציין ויתור, ו-'unless' מציין תנאי שלילי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-271",
+    "difficulty": "medium",
+    "text": "The placebo effect demonstrates that a patient's belief in a treatment can produce measurable physiological changes. ________, the mechanism by which the brain converts expectation into biochemical response remains poorly understood.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Therefore",
+      "Similarly",
+      "Nevertheless",
+      "In addition"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' concedes that the placebo effect is real and measurable while indicating that its biological mechanism is still unclear. The second clause introduces a significant gap in scientific understanding despite the established phenomenon.",
+    "wrongReasons": [
+      "'Therefore' implies the brain mechanism is unknown because the placebo effect has been demonstrated — which is a non-sequitur; confirming a phenomenon does not cause its mechanism to be unknown.",
+      "'Similarly' draws a parallel, suggesting the mechanism is also poorly understood in a comparable way to the placebo effect itself — but the two clauses are not parallel.",
+      "'In addition' adds a supporting fact, but an unresolved mechanism does not reinforce; it qualifies the claim about a well-documented effect."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / ואף על פי כן. הסבר: 'nevertheless' מודה שאפקט הפלצבו קיים ומדיד, אך מציין שהמנגנון הביולוגי שלו עדיין אינו ברור. 'therefore' מציין קשר סיבתי שגוי, 'similarly' מציין קווי דמיון שאינם קיימים, ו-'in addition' מוסיף מידע מחזק שאינו מתאים כאן.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-272",
+    "difficulty": "medium",
+    "text": "Urban populations worldwide are projected to grow from roughly four billion today to nearly seven billion by 2050. ________, cities will need to dramatically expand infrastructure, housing, and public services over the coming decades.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In contrast",
+      "Even though",
+      "As a result",
+      "For example"
+    ],
+    "answer": 2,
+    "explanation": "'As a result' connects the massive projected population growth (cause) to the urgent infrastructure demands (effect). The need to expand cities follows logically from the scale of the demographic trend.",
+    "wrongReasons": [
+      "'In contrast' signals a difference, but the population growth and the infrastructure needs are causally linked, not contrasted.",
+      "'Even though' introduces a concession, implying cities must expand despite, rather than because of, the population growth — which inverts the logic.",
+      "'For example' implies the infrastructure needs are an illustration of the population growth, but they are a consequence, not an example."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך. הסבר: 'as a result' מקשר בין צמיחת האוכלוסייה העירונית הצפויה (סיבה) לדרישות התשתית הדחופות (תוצאה). 'in contrast' מציין ניגוד, 'even though' מציין ויתור, ו-'for example' מציין דוגמה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-273",
+    "difficulty": "medium",
+    "text": "Thomas Kuhn argued that scientific progress does not occur through gradual accumulation of knowledge. ________, it happens through sudden, disruptive 'paradigm shifts' in which an entire theoretical framework is replaced.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "Provided that",
+      "Instead",
+      "Even so"
+    ],
+    "answer": 2,
+    "explanation": "'Instead' signals a substitution or replacement: the second clause offers Kuhn's alternative account of scientific progress in place of the gradual accumulation model rejected in the first clause.",
+    "wrongReasons": [
+      "'Moreover' adds a supporting or additional point in the same direction — but the paradigm shift idea replaces, rather than supplements, the gradualist model.",
+      "'Provided that' introduces a condition, implying paradigm shifts occur only if gradual accumulation does not — but Kuhn's argument is structural, not conditional.",
+      "'Even so' expresses concession ('despite this'), suggesting paradigm shifts happen despite gradual accumulation — but Kuhn explicitly rejects the gradualist model."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "INSTEAD = במקום זאת / להיפך. הסבר: 'instead' מסמן תחלופה — המשפט השני מציע את חלופת הפרדיגמות של קון במקום מודל ההצטברות ההדרגתית שנדחה. 'moreover' מוסיף מידע, 'provided that' מציין תנאי, ו-'even so' מביע ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-274",
+    "difficulty": "medium",
+    "text": "The Hawaiian archipelago was formed by volcanic activity over a stationary 'hot spot' in the Earth's mantle. ________, the oldest islands in the chain are located to the northwest, where the Pacific Plate has carried them over millions of years.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Although",
+      "Therefore",
+      "In contrast",
+      "Unless"
+    ],
+    "answer": 1,
+    "explanation": "'Therefore' connects the geological mechanism (stationary hot spot) to the observable spatial pattern (older islands to the northwest). The position of the oldest islands is a direct predictable consequence of how the hot spot and plate movement interact.",
+    "wrongReasons": [
+      "'Although' introduces a concession, suggesting the older islands are to the northwest despite the hot spot mechanism — but the location is exactly what the hot spot model predicts.",
+      "'In contrast' signals opposition, but the northwest distribution of older islands supports, rather than contradicts, the hot spot explanation.",
+      "'Unless' introduces a negative condition, implying the oldest islands are only in the northwest if the hot spot does not exist — which inverts the logic."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THEREFORE = לכן / לפיכך. הסבר: 'therefore' מקשר בין המנגנון הגיאולוגי (נקודה חמה סטציונרית) לדפוס המרחבי הנצפה (האיים העתיקים ביותר בצפון-מערב). 'although' מציין ויתור, 'in contrast' מציין ניגוד, ו-'unless' מציין תנאי שלילי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-275",
+    "difficulty": "medium",
+    "text": "Dopamine is commonly associated with the experience of pleasure. ________, neuroscientists increasingly emphasize its role in anticipation and reward-seeking behavior rather than in the pleasure itself.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Similarly",
+      "For example",
+      "However",
+      "So that"
+    ],
+    "answer": 2,
+    "explanation": "'However' signals the contrast between the popular belief (dopamine = pleasure) and the more nuanced scientific view (dopamine = anticipation and wanting). The second clause revises the claim made in the first.",
+    "wrongReasons": [
+      "'Similarly' draws a parallel, suggesting the scientific emphasis on anticipation is consistent with the pleasure association — but the sentence explicitly revises it.",
+      "'For example' introduces an illustration of a broader point, yet the neuroscientific view does not illustrate the pleasure association — it challenges it.",
+      "'So that' expresses purpose, implying dopamine is associated with pleasure in order to serve a role in anticipation — which is mechanistically incoherent."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: 'however' מסמן את הניגוד בין האמונה הפופולרית (דופמין = עונג) לבין הדעה המדעית המורכבת יותר (דופמין = ציפייה ורצון). 'similarly' מציין קווי דמיון, 'for example' מציין דוגמה, ו-'so that' מציין מטרה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-276",
+    "difficulty": "medium",
+    "text": "Ancient Mesopotamian writing systems, such as Sumerian cuneiform, originally used pictographic symbols to represent objects. ________, over centuries they evolved into abstract wedge-shaped marks that stood for sounds rather than images.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As a result",
+      "In contrast",
+      "Over time",
+      "Provided that"
+    ],
+    "answer": 2,
+    "explanation": "'Over time' signals a gradual historical change across centuries. The second clause describes the eventual phonetic abstraction of cuneiform as a long process of evolution, not a sudden or conditional shift.",
+    "wrongReasons": [
+      "'As a result' implies the abstract wedge marks resulted directly from the pictographic origin — but the relationship is one of gradual temporal development, not straightforward cause and effect.",
+      "'In contrast' signals that abstract marks are opposed to pictographs, but the sentence describes evolution of one into the other, not two separate systems.",
+      "'Provided that' introduces a condition, implying the writing evolved only if certain conditions were met — but the evolution is presented as a historical fact, not a conditional outcome."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "OVER TIME = עם הזמן / לאורך הזמן. הסבר: 'over time' מסמן שינוי היסטורי הדרגתי לאורך מאות שנים. 'as a result' מציין קשר סיבתי פשוט מדי, 'in contrast' מציין ניגוד בין שני מערכות נפרדות, ו-'provided that' מציין תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-277",
+    "difficulty": "medium",
+    "text": "The prisoner's dilemma shows that individually rational choices can produce outcomes that are collectively irrational. ________, two suspects who act in their own best interests will both confess, resulting in longer sentences than if both had stayed silent.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "Specifically",
+      "Although",
+      "In contrast"
+    ],
+    "answer": 1,
+    "explanation": "'Specifically' narrows from the abstract principle (individually rational choices producing collectively irrational outcomes) to the concrete mechanics of the prisoner's dilemma scenario. It signals a more detailed or exact elaboration.",
+    "wrongReasons": [
+      "'Nevertheless' implies the confessions happen despite the rational-choice problem, but confessing is the direct demonstration of the problem, not a response to it.",
+      "'Although' introduces a concession, implying the suspects confess even though it is irrational — but the scenario is precisely the one that proves individual rationality produces collective irrationality.",
+      "'In contrast' signals opposition, yet the prisoner scenario illustrates, rather than contradicts, the general principle."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "SPECIFICALLY = בפרט / ביתר דיוק. הסבר: 'specifically' מצמצם מהעיקרון המופשט לפרטי הדילמה של האסיר הקונקרטית. 'nevertheless' מביע ויתור, 'although' מביע ויתור/ניגוד, ו-'in contrast' מציין ניגוד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-278",
+    "difficulty": "medium",
+    "text": "Sociolinguists have found that speakers unconsciously adjust their accent and vocabulary depending on who they are talking to. ________, a person may speak very differently at a job interview than with close friends.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Unless",
+      "For example",
+      "In spite of this"
+    ],
+    "answer": 2,
+    "explanation": "'For example' introduces a concrete illustration of the abstract sociolinguistic finding. The job interview versus friends scenario is a familiar real-world case of code-switching or style-shifting.",
+    "wrongReasons": [
+      "'However' introduces contrast or reversal, yet speaking differently in different contexts supports, rather than contradicts, the finding about unconscious adjustment.",
+      "'Unless' introduces a negative condition, implying adjusting accent only happens if one does NOT speak differently in different contexts — which is circular and nonsensical.",
+      "'In spite of this' signals that speaking differently happens despite the sociolinguistic finding — but it is a demonstration of that very finding."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "FOR EXAMPLE = לדוגמה / למשל. הסבר: 'for example' מציג המחשה קונקרטית של הממצא הסוציולינגוויסטי המופשט. תרחיש ראיון העבודה לעומת חברים קרובים הוא מקרה מוכר של העברת קוד. 'however' מציין ניגוד, 'unless' מציין תנאי שלילי, ו-'in spite of this' מציין ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-279",
+    "difficulty": "medium",
+    "text": "The Mongol Empire reached its peak extent in the thirteenth century, spanning from the Pacific coast to Eastern Europe. ________, its administrative systems were remarkably sophisticated, incorporating local governance structures rather than imposing a single rigid model.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "Consequently",
+      "In contrast",
+      "Unless"
+    ],
+    "answer": 0,
+    "explanation": "'Furthermore' adds a second impressive fact about the Mongol Empire — its administrative sophistication — to the first fact about its extraordinary geographic extent. Both points reinforce the theme of Mongol achievement.",
+    "wrongReasons": [
+      "'Consequently' implies the administrative sophistication was caused by the geographic extent — but these are two separate achievements with no direct causal link stated.",
+      "'In contrast' signals opposition, suggesting the administrative system contradicts the geographic extent — but both are presented as positive features of the same empire.",
+      "'Unless' introduces a condition, implying the administrative system was sophisticated only if the empire had that extent — which is logically unrelated."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "FURTHERMORE = יתרה מכך / בנוסף לכך. הסבר: 'furthermore' מוסיף עובדה מרשימה שנייה על האימפריה המונגולית לעובדה הראשונה על היקפה הגיאוגרפי. 'consequently' מציין קשר סיבתי שאינו קיים, 'in contrast' מציין ניגוד, ו-'unless' מציין תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-280",
+    "difficulty": "medium",
+    "text": "The efficiency of a Carnot heat engine depends solely on the temperatures of the hot and cold reservoirs. ________, no real engine operating between these same temperatures can exceed this theoretical maximum efficiency.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In contrast",
+      "For example",
+      "Therefore",
+      "Although"
+    ],
+    "answer": 2,
+    "explanation": "'Therefore' connects the defining principle of the Carnot engine (efficiency depends on reservoir temperatures) to its implication (no real engine can surpass this limit). The impossibility of exceeding Carnot efficiency follows directly from the theoretical framework.",
+    "wrongReasons": [
+      "'In contrast' signals opposition, suggesting real engines perform better than the Carnot limit — which contradicts the second law of thermodynamics.",
+      "'For example' implies the impossibility of exceeding Carnot efficiency is an example of the temperature-dependence principle, but it is a consequence, not an illustration.",
+      "'Although' introduces a concession, implying no real engine can exceed Carnot efficiency despite the temperature-dependence principle — which reverses the logical relationship."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THEREFORE = לכן / לפיכך. הסבר: 'therefore' מקשר בין עיקרון מנוע קארנו (היעילות תלויה בטמפרטורות) לנגזרתו (אף מנוע אמיתי אינו יכול לעלות על גבול זה). 'in contrast' מציין ניגוד שגוי, 'for example' מציין דוגמה, ו-'although' מציין ויתור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-281",
+    "difficulty": "medium",
+    "text": "Medieval Islamic scholars preserved and expanded upon Greek philosophical and scientific texts at a time when much of this knowledge had been lost in Western Europe. ________, works by Aristotle and Euclid were reintroduced to Europe largely through Arabic translations.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "As a result",
+      "Even though",
+      "Unless"
+    ],
+    "answer": 1,
+    "explanation": "'As a result' links the preservation activity (Islamic scholars maintaining Greek texts) to the historical outcome (Europe receiving the texts back through Arabic translations). The second clause describes what happened because of the scholarship described in the first.",
+    "wrongReasons": [
+      "'However' introduces an unexpected contrast, but the reintroduction of Greek knowledge through Arabic channels is the expected and celebrated result of Islamic scholarly work.",
+      "'Even though' introduces a concession, suggesting the reintroduction happened despite the preservation activity — which inverts the causal relationship.",
+      "'Unless' introduces a negative condition, implying the texts were reintroduced only if Islamic scholars had not preserved them — the exact opposite of what occurred."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A RESULT = כתוצאה מכך. הסבר: 'as a result' מקשר בין פעילות השימור (חוקרים אסלמיים שמרו על הטקסטים היווניים) לתוצאה ההיסטורית (אירופה קיבלה את הטקסטים בחזרה דרך תרגומים ערביים). 'however' מציין ניגוד, 'even though' מציין ויתור, ו-'unless' מציין תנאי שלילי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-282",
+    "difficulty": "medium",
+    "text": "Public goods are defined by two characteristics: non-excludability and non-rivalry. ________, clean air is a public good because no one can be prevented from breathing it, and one person's use does not diminish the amount available to others.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Nevertheless",
+      "To illustrate",
+      "However",
+      "Provided that"
+    ],
+    "answer": 1,
+    "explanation": "'To illustrate' signals that the clean air example is being introduced to make the abstract economic definition concrete and easier to understand. It is a connector of exemplification.",
+    "wrongReasons": [
+      "'Nevertheless' implies clean air is a public good despite being non-excludable and non-rival — but those properties are precisely why it qualifies as one.",
+      "'However' introduces contrast, suggesting clean air contradicts the definition of public goods — which is the opposite of the logical relationship.",
+      "'Provided that' introduces a condition, implying clean air is a public good only if certain criteria are met in isolation — but the sentence is providing the example to support, not to condition, the definition."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "TO ILLUSTRATE = כדי להמחיש / לשם המחשה. הסבר: 'to illustrate' מסמן שדוגמת האוויר הנקי מוצגת כדי להפוך את ההגדרה הכלכלית המופשטת לממשית. 'nevertheless' מציין ויתור, 'however' מציין ניגוד, ו-'provided that' מציין תנאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-283",
+    "difficulty": "medium",
+    "text": "The development of CRISPR-Cas9 gene-editing technology has made it possible to modify DNA sequences with unprecedented precision. ________, ethical debates about its application in human germline editing remain deeply unresolved.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "Similarly",
+      "Nonetheless",
+      "So that"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' acknowledges the impressive technical achievement of CRISPR while indicating that significant ethical controversy persists despite this advancement. The second clause qualifies the optimism implied by the first.",
+    "wrongReasons": [
+      "'Moreover' adds a supporting or reinforcing point — but ongoing ethical controversy does not reinforce the technological breakthrough; it complicates it.",
+      "'Similarly' draws a parallel between the precision of CRISPR and the ethical debate — but precision and unresolved ethics are not analogous phenomena.",
+      "'So that' expresses purpose, implying CRISPR was developed in order to create ethical debates — which is clearly not the intent."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NONETHELESS = בכל זאת / ואף על פי כן. הסבר: 'nonetheless' מודה בהישג הטכנולוגי המרשים של CRISPR אך מציין שמחלוקות אתיות עמוקות נותרות למרות ההתקדמות. 'moreover' מוסיף מידע מחזק, 'similarly' מציין קווי דמיון, ו-'so that' מציין מטרה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-284",
+    "difficulty": "medium",
+    "text": "The Renaissance witnessed a profound shift from a medieval worldview centered on divine authority to one that placed human reason and individual potential at its center. ________, many Renaissance thinkers remained deeply committed to Christian theology.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "As a result",
+      "That said",
+      "So that"
+    ],
+    "answer": 2,
+    "explanation": "'That said' concedes the major intellectual shift described in the first clause while signaling an important qualification: the humanist turn did not simply replace religious commitment. It introduces a nuance that complicates the neat narrative.",
+    "wrongReasons": [
+      "'Furthermore' adds a supporting or reinforcing fact, yet the continued Christian commitment of Renaissance thinkers complicates rather than reinforces the humanist-shift narrative.",
+      "'As a result' implies that religious commitment resulted from the shift toward humanism — but the two coexisted rather than being causally linked.",
+      "'So that' expresses purpose, implying the Renaissance shifted toward human reason in order to remain committed to Christianity — which does not reflect the historical dynamic."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THAT SAID = עם זאת / אמנם כן, אך. הסבר: 'that said' מודה במהפכה האינטלקטואלית שתוארה ומציג סייג חשוב: המפנה ההומניסטי לא החליף את המחויבות הדתית. 'furthermore' מוסיף מידע מחזק, 'as a result' מציין קשר סיבתי שגוי, ו-'so that' מציין מטרה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-cp-285",
+    "difficulty": "hard",
+    "text": "The concept of ecological succession posits that ecosystems do not remain static but transition through predictable stages from pioneer species to a stable climax community. ________, a severe wildfire may reset a mature forest to its earliest successional stage, restarting the entire developmental sequence.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In contrast",
+      "Specifically",
+      "However",
+      "Nevertheless"
+    ],
+    "answer": 2,
+    "explanation": "'However' introduces a critical qualification to the orderly succession model: while the theory predicts a predictable progression toward a climax community, environmental disturbances like wildfires can abruptly reverse this trajectory. The second clause highlights a limitation or disruption of the theoretical framework.",
+    "wrongReasons": [
+      "'In contrast' would require the second clause to describe a different ecosystem or a contrasting phenomenon — but it describes the same forest ecosystem experiencing a setback within the succession framework.",
+      "'Specifically' narrows from general to particular — but the wildfire example complicates the model rather than specifying a subset of it.",
+      "'Nevertheless' implies the succession still proceeds toward a climax community despite the wildfire — but the sentence says the fire resets the entire process, which is the opposite of continuation."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: 'however' מציג סייג קריטי למודל הרציף: בעוד שהתיאוריה חוזה התקדמות סדירה לעבר קהילת שיא, הפרעות כמו שריפות יכולות להפוך בחדות את הנתיב הזה. 'in contrast' דורש תופעה שונה, 'specifically' מצמצם מהכלל לפרט, ו-'nevertheless' מרמז על המשך שאינו מתרחש כאן.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-286",
+    "difficulty": "hard",
+    "text": "Proponents of the efficient market hypothesis argue that asset prices always fully reflect all available information. ________, persistent anomalies such as the momentum effect — whereby past winners continue to outperform — challenge the hypothesis's claim that markets are truly rational.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "In other words",
+      "Yet",
+      "So that"
+    ],
+    "answer": 2,
+    "explanation": "'Yet' concedes the theoretical elegance of the efficient market hypothesis while signaling the counterevidence that undermines it. Momentum anomalies are real-world deviations that the hypothesis struggles to explain, creating a tension that 'yet' captures precisely.",
+    "wrongReasons": [
+      "'Furthermore' adds supporting evidence in the same direction — but momentum anomalies challenge, rather than reinforce, the efficient market hypothesis.",
+      "'In other words' would restate the hypothesis in simpler terms — but the second clause introduces contradictory empirical evidence, not a paraphrase.",
+      "'So that' expresses purpose, implying the hypothesis was formulated in order to be challenged by momentum anomalies — which has no logical basis."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "YET = אך / ואולם. הסבר: 'yet' מודה בהשקפה התיאורטית אך מסמן את הנגד-עדות שמערערת אותה. האנומליית המומנטום היא סטייה ממשית שההשערה מתקשה להסביר. 'furthermore' מוסיף מידע תומך, 'in other words' מנסח מחדש, ו-'so that' מציין מטרה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-287",
+    "difficulty": "hard",
+    "text": "Linguistic relativity — the idea that the language one speaks influences the way one thinks — has long been a contentious hypothesis. ________, recent experiments showing that speakers of languages with different color-term boundaries respond faster to color discrimination tasks within their own categorical boundaries lend the hypothesis renewed empirical credibility.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "As a result",
+      "Similarly",
+      "Nonetheless",
+      "Unless"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' acknowledges the controversial status of linguistic relativity while asserting that despite this contention, new experimental evidence has strengthened its credibility. The second clause signals a positive development for a hypothesis that faced skepticism.",
+    "wrongReasons": [
+      "'As a result' implies the experimental evidence resulted from the controversy — but the evidence is independent research; the contention did not cause the experiments.",
+      "'Similarly' draws a parallel, suggesting the hypothesis is contentious in the same way the experiments lend credibility — but these are contrasting rather than parallel developments.",
+      "'Unless' introduces a condition, implying the hypothesis gains credibility only if it remains contentious — which has no logical basis."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NONETHELESS = בכל זאת / ואף על פי כן. הסבר: 'nonetheless' מכיר בסטטוס השנוי במחלוקת של יחסות הלשון אך מציין שלמרות זאת, עדויות ניסיוניות חדשות חיזקו את אמינותה. 'as a result' מציין קשר סיבתי שגוי, 'similarly' מציין קווי דמיון שאינם קיימים, ו-'unless' מציין תנאי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-288",
+    "difficulty": "hard",
+    "text": "The Fermi Paradox observes that given the age and size of the universe, we should statistically expect to have detected evidence of extraterrestrial civilizations by now. ________, the silence of the cosmos remains one of the most profound unresolved puzzles in modern astrophysics.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Consequently",
+      "In addition",
+      "Yet",
+      "Provided that"
+    ],
+    "answer": 2,
+    "explanation": "'Yet' signals a striking contrast between the statistical expectation (we should have detected aliens) and the empirical reality (complete cosmic silence). It frames the silence as a puzzling failure of expectation rather than a confirming result.",
+    "wrongReasons": [
+      "'Consequently' implies the cosmic silence results from the statistical expectation — which reverses the logic; the silence is the anomaly that the expectation fails to predict.",
+      "'In addition' adds a parallel supporting fact, yet the silence of the cosmos does not supplement the statistical argument — it contradicts its implied prediction.",
+      "'Provided that' introduces a condition, implying the silence only constitutes a puzzle if we should have detected civilizations — but the sentence presents these as two established facts in tension."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "YET = אך / ואולם. הסבר: 'yet' מסמן ניגוד בולט בין הציפייה הסטטיסטית (היינו אמורים לזהות חיים חוצניים) לבין המציאות האמפירית (שקט קוסמי מוחלט). 'consequently' מציין תוצאה שגויה, 'in addition' מוסיף מידע, ו-'provided that' מציין תנאי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-289",
+    "difficulty": "hard",
+    "text": "Structuralist anthropology, as developed by Claude Lévi-Strauss, proposed that beneath the surface diversity of myths across cultures lies a universal set of binary oppositions — nature versus culture, raw versus cooked — that reflect deep structures of the human mind. ________, post-structuralist critics argued that these supposedly universal patterns are themselves culturally constructed projections rather than objective features of cognition.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "In contrast",
+      "As a result",
+      "For instance"
+    ],
+    "answer": 1,
+    "explanation": "'In contrast' marks the opposition between the structuralist claim (universal binary patterns reflect the human mind) and the post-structuralist rebuttal (those patterns are culturally constructed). The two positions are directly opposed theoretical stances.",
+    "wrongReasons": [
+      "'Furthermore' adds a supporting point in the same direction — but post-structuralist criticism opposes, rather than extends, Lévi-Strauss's argument.",
+      "'As a result' implies post-structuralist criticism resulted from structuralism's universal claims — while historically related, the criticism is a theoretical opposition, not a direct consequence.",
+      "'For instance' would make the post-structuralist view an example of the structuralist framework — which is the opposite of what the sentence conveys."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "IN CONTRAST = לעומת זאת / בניגוד לכך. הסבר: 'in contrast' מסמן את ההתנגדות בין הטענה הסטרוקטורליסטית (דפוסים בינאריים אוניברסליים המשקפים את המוח האנושי) לתגובה הפוסט-סטרוקטורליסטית (הדפוסים הם השלכות תרבותיות). 'furthermore' מוסיף מידע, 'as a result' מציין תוצאה, ו-'for instance' מציין דוגמה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-290",
+    "difficulty": "hard",
+    "text": "The Doppler effect causes the observed frequency of a wave to shift depending on whether the source is moving toward or away from the observer. ________, astronomers use the redshift of light from distant galaxies — a stretching toward lower frequencies — to infer that the universe is expanding.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Accordingly",
+      "Even so",
+      "Unless"
+    ],
+    "answer": 1,
+    "explanation": "'Accordingly' signals that astronomers are applying the Doppler principle (stated in the first clause) to draw a cosmological inference. The second clause describes how the established physics is put to use — the application follows from the principle.",
+    "wrongReasons": [
+      "'However' introduces contrast, suggesting that redshift somehow contradicts or qualifies the Doppler effect — but redshift is a direct application of it.",
+      "'Even so' implies astronomers use redshift despite the Doppler effect — which inverts the relationship; they use it because of the Doppler effect.",
+      "'Unless' introduces a negative condition, implying redshift is used to infer expansion only if the Doppler effect does not apply — which negates the entire scientific basis."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ACCORDINGLY = בהתאם לכך / לפיכך. הסבר: 'accordingly' מסמן שאסטרונומים מיישמים את עיקרון דופלר (המוצג במשפט הראשון) כדי להסיק מסקנה קוסמולוגית. 'however' מציין ניגוד, 'even so' מציין ויתור, ו-'unless' מציין תנאי שלילי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-291",
+    "difficulty": "hard",
+    "text": "Herd immunity is achieved when a sufficiently large proportion of a population has become immune to a pathogen, ________ preventing the pathogen from spreading efficiently even to those who remain susceptible.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "although",
+      "provided that",
+      "thereby",
+      "however"
+    ],
+    "answer": 2,
+    "explanation": "'Thereby' introduces the mechanism by which herd immunity achieves its protective effect. It signals that the high rate of immunity is the means through which pathogen transmission is blocked — it describes the pathway from cause to consequence.",
+    "wrongReasons": [
+      "'Although' introduces a concession, implying the pathogen is prevented from spreading despite a large immune proportion — which contradicts how herd immunity actually works.",
+      "'Provided that' introduces a condition, but the second clause describes the ongoing mechanism of herd immunity, not a precondition for achieving it.",
+      "'However' signals contrast, suggesting that preventing transmission contradicts the achievement of herd immunity — which is logically backwards."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THEREBY = בכך / על ידי כך. הסבר: 'thereby' מציג את המנגנון שבאמצעותו חסינות העדר משיגה את אפקט ההגנה שלה. שיעור החסינות הגבוה הוא האמצעי שדרכו העברת המחלה נחסמת. 'although' מציין ויתור, 'provided that' מציין תנאי, ו-'however' מציין ניגוד.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-292",
+    "difficulty": "hard",
+    "text": "The Byzantine Empire maintained the political and cultural continuity of Rome for nearly a millennium after the fall of the Western Roman Empire. ________, historians have long debated whether it should be understood as a continuation of Rome or as a fundamentally distinct civilization that merely inherited Roman trappings.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "As a result",
+      "Nevertheless",
+      "For example"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' concedes the long continuity of the Byzantine Empire while introducing the persistent scholarly debate about its identity. Despite the seemingly clear continuity with Rome, historians contest whether this apparent continuity masks a fundamentally different civilization.",
+    "wrongReasons": [
+      "'Furthermore' adds a reinforcing point in the same direction — but the ongoing scholarly debate about Byzantine identity does not reinforce the continuity claim; it complicates it.",
+      "'As a result' implies the historiographical debate resulted from the millennium of continuity — but the debate concerns the nature of that continuity, not a consequence of it.",
+      "'For example' would mean the debate is an illustration of the continuity — but it is a contestation of the continuity claim, not an example of it."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NEVERTHELESS = בכל זאת / ואף על פי כן. הסבר: 'nevertheless' מודה ברצף הארוך של האימפריה הביזנטית אך מציג את הוויכוח המלומד המתמשך על זהותה. 'furthermore' מוסיף מידע מחזק, 'as a result' מציין תוצאה שגויה, ו-'for example' מציין דוגמה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-293",
+    "difficulty": "hard",
+    "text": "Behavioral economists have documented that people systematically overweight small probabilities and underweight moderate ones when making decisions under uncertainty — a pattern that standard expected utility theory cannot explain. ________, policymakers who design choice architectures must account for these predictable irrationalities rather than assuming purely rational calculation.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Similarly",
+      "In contrast",
+      "Consequently",
+      "Although"
+    ],
+    "answer": 2,
+    "explanation": "'Consequently' connects the documented cognitive bias (systematic over- and underweighting of probabilities) to the practical policy implication (designing choice architectures that account for irrationality). The need for irrational-bias-aware policy is a direct consequence of the behavioral economic findings.",
+    "wrongReasons": [
+      "'Similarly' draws a parallel between the findings and the policy implication — but they are causally linked as finding and application, not two parallel observations.",
+      "'In contrast' signals opposition, suggesting policymakers designing for irrationality contradicts the behavioral economic finding — but it is the appropriate response to it.",
+      "'Although' introduces a concession, implying policymakers must account for irrationalities despite the documented biases — which inverts the causal logic."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "CONSEQUENTLY = כתוצאה מכך / לפיכך. הסבר: 'consequently' מקשר בין ההטיה הקוגניטיבית המתועדת לנגזרת המדיניות המעשית. הצורך במדיניות המתחשבת בחוסר רציונליות הוא תוצאה ישירה של הממצאים ההתנהגותיים-כלכליים. 'similarly' מציין קווי דמיון, 'in contrast' מציין ניגוד, ו-'although' מציין ויתור.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-294",
+    "difficulty": "hard",
+    "text": "Dark matter neither emits, absorbs, nor reflects electromagnetic radiation, making it impossible to observe directly with any conventional telescope. ________, its existence is inferred from its gravitational effects on visible matter, galaxy rotation curves, and the large-scale structure of the universe.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "Although",
+      "Instead",
+      "Provided that"
+    ],
+    "answer": 2,
+    "explanation": "'Instead' signals a substitution of method: because direct observation is impossible, scientists use an alternative approach — indirect inference through gravitational effects. The second clause offers the means scientists use in place of direct detection.",
+    "wrongReasons": [
+      "'Furthermore' adds information in the same direction — but gravitational inference is not an additional point about invisibility; it is the workaround that compensates for it.",
+      "'Although' introduces a concession, implying the existence is inferred despite dark matter being undetectable — which is partially true but misframes the causal logic; 'instead' more precisely captures the substitution of method.",
+      "'Provided that' introduces a condition, implying dark matter's existence is inferred only if it cannot be directly observed — but the inference is a permanent methodological reality, not a conditional outcome."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "INSTEAD = במקום זאת. הסבר: 'instead' מסמן תחלופת שיטה — מכיוון שהתצפית הישירה בחומר האפל אינה אפשרית, מדענים משתמשים בגישה חלופית: היסק עקיף דרך ההשפעות הגרביטציוניות. 'furthermore' מוסיף מידע, 'although' מציין ויתור שאינו מדויק כמו 'instead', ו-'provided that' מציין תנאי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-295",
+    "difficulty": "hard",
+    "text": "The concept of path dependency in economics holds that the choices available to a system at any given moment are constrained by decisions made in the past, even when those earlier decisions are no longer optimal. ________, the continued global dominance of the QWERTY keyboard layout, designed to prevent mechanical typewriter jamming, persists in an age when jamming is an irrelevant concern.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "However",
+      "Similarly",
+      "As a result",
+      "To illustrate"
+    ],
+    "answer": 3,
+    "explanation": "'To illustrate' introduces the QWERTY keyboard as a well-known concrete example of path dependency. It signals that the second clause is an accessible real-world case designed to make the abstract economic concept tangible.",
+    "wrongReasons": [
+      "'However' introduces contrast or an unexpected turn, suggesting QWERTY contradicts path dependency — but it is a textbook example of it.",
+      "'Similarly' draws a parallel, implying path dependency and QWERTY are two comparable phenomena at the same level of abstraction — but QWERTY is a specific instance of the concept, not a peer phenomenon.",
+      "'As a result' implies QWERTY's dominance resulted from the economic concept being defined — but it is an empirical case that predates and illustrates the concept."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "TO ILLUSTRATE = כדי להמחיש / לשם המחשה. הסבר: 'to illustrate' מציג את מקלדת QWERTY כדוגמה קונקרטית של תלות נתיב. 'however' מציין ניגוד שגוי, 'similarly' מציין קווי דמיון לא מתאימים, ו-'as a result' מציין קשר סיבתי שגוי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-296",
+    "difficulty": "hard",
+    "text": "Epigenetic modifications — chemical changes to DNA or histone proteins that regulate gene expression without altering the underlying nucleotide sequence — can be passed from parent to offspring. ________, environmental stressors experienced by one generation may influence the health and behavioral traits of subsequent generations.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "In contrast",
+      "Nonetheless",
+      "As a consequence",
+      "Even though"
+    ],
+    "answer": 2,
+    "explanation": "'As a consequence' links the heritability of epigenetic modifications (cause) to the transgenerational transmission of environmentally induced traits (effect). The second clause describes an important implication that follows directly from the biological mechanism described in the first.",
+    "wrongReasons": [
+      "'In contrast' signals opposition, suggesting transgenerational trait transmission contradicts epigenetic inheritance — but the second clause is a direct result of it.",
+      "'Nonetheless' implies transgenerational influence occurs despite epigenetic modifications — which inverts the causal relationship; the modifications are precisely the mechanism for this influence.",
+      "'Even though' introduces a concession, suggesting subsequent generation health is affected despite environmental stressors being epigenetically transmitted — which misrepresents the causal chain."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "AS A CONSEQUENCE = כתוצאה מכך / כנגזרת. הסבר: 'as a consequence' מקשר בין ההורשה של שינויים אפיגנטיים (סיבה) לבין העברה בין-דורית של תכונות (תוצאה). 'in contrast' מציין ניגוד שגוי, 'nonetheless' מציין ויתור שמהפך את הסיבתיות, ו-'even though' מציין ויתור.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-297",
+    "difficulty": "hard",
+    "text": "The Sapir-Whorf hypothesis in its strong form claims that language determines thought entirely, leaving speakers of different languages with fundamentally incommensurable worldviews. ________, even its proponents today typically advocate only the weak version — that language influences, rather than strictly determines, cognition.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "In response to this",
+      "Indeed",
+      "So that"
+    ],
+    "answer": 2,
+    "explanation": "'Indeed' might initially seem to reinforce — but in this sentence structure it functions concessively: it acknowledges the strong-form claim while signaling that the very proponents of the hypothesis have stepped back from its extreme version. 'Indeed' here emphasizes that even insiders reject the strong position, amplifying the contrast.",
+    "wrongReasons": [
+      "'Furthermore' adds supporting information in the same direction — but the retreat of proponents to the weak form undermines rather than supports the strong-form claim.",
+      "'In response to this' implies the weak-form advocacy was formulated as a direct reaction to the strong claim — which partially fits but is less precise than 'indeed' in highlighting that supporters themselves have pulled back.",
+      "'So that' expresses purpose, implying the strong hypothesis was formulated in order for proponents to later advocate the weak version — which is absurd."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "INDEED = אכן / ובאמת. הסבר: 'indeed' מדגיש שאפילו תומכי ההשערה עצמם נסוגו מגרסתה החזקה — מה שמחזק את הניגוד עם הגרסה הקיצונית. 'furthermore' מוסיף מידע תומך, 'in response to this' פחות מדויק, ו-'so that' מציין מטרה אבסורדית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-298",
+    "difficulty": "hard",
+    "text": "Quantum entanglement allows two particles to share a quantum state such that measuring one instantly determines the corresponding property of the other, regardless of the distance separating them. ________, this phenomenon does not permit faster-than-light communication, because the measurement outcomes remain statistically random from the perspective of each observer.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "As a result",
+      "That said",
+      "Similarly"
+    ],
+    "answer": 2,
+    "explanation": "'That said' concedes the genuinely remarkable and counterintuitive property of entanglement — instantaneous correlation across any distance — while introducing the important caveat that this does not violate relativity by enabling faster-than-light signaling. It signals a qualification that limits the implication of the first clause.",
+    "wrongReasons": [
+      "'Moreover' adds a reinforcing fact in the same direction — but the impossibility of faster-than-light communication qualifies rather than reinforces the impressive nature of entanglement.",
+      "'As a result' implies the impossibility of FTL communication results from entanglement — while related, the second clause is a limitation on what entanglement can do, not a consequence of it.",
+      "'Similarly' draws a parallel, suggesting entanglement and the impossibility of FTL communication are two comparable phenomena — but one is a property and the other is its limitation."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "THAT SAID = עם זאת / אמנם כן, אך. הסבר: 'that said' מודה בתכונה המרהיבה של ההסתבכות הקוונטית — מתאם מיידי בכל מרחק — אך מציג את הסייג החשוב שאין כאן הפרה של יחסיות. 'moreover' מוסיף מידע מחזק, 'as a result' מציין תוצאה לא מדויקת, ו-'similarly' מציין קווי דמיון שאינם קיימים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-299",
+    "difficulty": "hard",
+    "text": "Demographic transition theory predicts that as countries industrialize, they pass through a sequence of stages moving from high birth and death rates to low birth and death rates, with a period of rapid population growth in between. ________, several sub-Saharan African nations have experienced declining child mortality without a corresponding fall in fertility rates, a divergence that complicates the theory's universalist claims.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Furthermore",
+      "As a result",
+      "In contrast",
+      "However"
+    ],
+    "answer": 3,
+    "explanation": "'However' introduces an empirical exception that challenges the universal predictive power of demographic transition theory. The sub-Saharan cases diverge from the predicted sequence, highlighting a limitation of the model that the theory does not fully account for.",
+    "wrongReasons": [
+      "'Furthermore' adds supporting evidence — but the sub-Saharan divergence challenges, rather than reinforces, the universal applicability of the theory.",
+      "'As a result' implies the sub-Saharan divergence was caused by the theory's predictions — but empirical patterns in specific countries are not caused by theoretical models.",
+      "'In contrast' would signal an opposition between two defined entities, but the contrast here is between a general theory and specific empirical cases — 'however' better captures this as a qualification of the theoretical claim."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "HOWEVER = אולם / אך. הסבר: 'however' מציג חריג אמפירי המאתגר את כוח הניבוי האוניברסלי של תורת המעבר הדמוגרפי. המקרים ב-Sub-Saharan Africa סוטים מהסדר החזוי. 'furthermore' מוסיף מידע תומך, 'as a result' מציין קשר סיבתי שגוי, ו-'in contrast' פחות מדויק מ-'however' כאן.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-cp-300",
+    "difficulty": "hard",
+    "text": "The principle of falsifiability, which Karl Popper placed at the heart of the scientific method, has itself been criticized on epistemological grounds: not all productive scientific research programs generate readily testable predictions, and some of the most celebrated theories in physics — such as string theory — have so far resisted decisive empirical testing. ________, abandoning falsifiability as the criterion of scientific demarcation entirely would leave no principled basis for distinguishing science from pseudoscience.\nChoose the word or phrase that best completes the sentence.",
+    "choices": [
+      "Moreover",
+      "Therefore",
+      "Nonetheless",
+      "Similarly"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' concedes that falsifiability as a criterion faces genuine challenges — from unfalsifiable yet productive theories like string theory — while insisting that these criticisms do not justify abandoning the principle entirely. It balances the concession with a consequential defense.",
+    "wrongReasons": [
+      "'Moreover' adds a reinforcing point in the same direction — but the warning against abandoning falsifiability follows the criticisms as a qualification, not as a further attack on the criterion.",
+      "'Therefore' implies abandoning falsifiability is the logical conclusion of the criticisms — which is exactly the opposite of what the sentence argues.",
+      "'Similarly' draws a parallel, suggesting that abandoning falsifiability is comparable in nature to the criticisms of it — which does not capture the argumentative structure."
+    ],
+    "subType": "connectorPractice",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["connectors", "transitions", "sentence-logic"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "NONETHELESS = בכל זאת / ואף על פי כן. הסבר: 'nonetheless' מודה שניתנות הפרכה כקריטריון מתמודדת עם אתגרים אמיתיים — תיאוריות כמו תורת המיתרים — אך מתעקש שביקורות אלה אינן מצדיקות נטישת העיקרון לחלוטין. 'moreover' מוסיף מידע, 'therefore' מציין מסקנה הפוכה מכוונת המשפט, ו-'similarly' מציין קווי דמיון שאינם מתאימים.",
+    "estimatedTimeSeconds": 45
+  }
+]

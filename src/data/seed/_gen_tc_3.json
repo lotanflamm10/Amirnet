@@ -1,0 +1,529 @@
+{
+  "textCompletion": [
+    {
+      "id": "tc86",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["diffuse", "reinforce", "isolate", "quantify"],
+      "answer": 0,
+      "explanation": "Diffuse fits because the passage describes how cultural practices spread outward from a point of origin into surrounding populations, which is the core anthropological concept being discussed.",
+      "wrongReasons": ["Reinforce means to strengthen existing patterns, not to spread them outward.", "Isolate means to separate, the opposite of spreading between cultures.", "Quantify means to measure numerically, not to describe the spread of cultural elements."],
+      "passage": {
+        "id": "tc86-passage",
+        "title": "Cultural Diffusion",
+        "body": "Anthropologists use the concept of cultural diffusion to explain how practices, beliefs, and material objects spread from one society to another without requiring the physical relocation of populations. When traders, missionaries, or migrants carry ideas across boundaries, receiving communities may selectively adopt elements that fit their existing frameworks while rejecting or modifying those that conflict. The adoption of iron-smelting technology across sub-Saharan Africa offers a classic illustration: metallurgical knowledge moved through contact networks over centuries, transforming agriculture and warfare across a vast region. Contemporary scholars note that digital communication has dramatically shortened the time needed for innovations to ___ across cultural boundaries, compressing what once took generations into months."
+      }
+    },
+    {
+      "id": "tc87",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["lateralized", "synchronized", "suppressed", "amplified"],
+      "answer": 0,
+      "explanation": "Lateralized fits because the passage describes how specific cognitive functions are localized to one hemisphere of the brain, which is the neuroscientific term for this phenomenon.",
+      "wrongReasons": ["Synchronized means operating in coordinated timing, not concentrated on one side.", "Suppressed means reduced or inhibited, not located on a specific side.", "Amplified means increased in intensity, not assigned to one hemisphere."],
+      "passage": {
+        "id": "tc87-passage",
+        "title": "Brain Hemispheres",
+        "body": "One of the most enduring findings in neuroscience is that the human brain does not treat all cognitive functions symmetrically. The left and right cerebral hemispheres, while connected by the corpus callosum and coordinated in most activities, tend to specialize in different operations. Language processing, for the overwhelming majority of right-handed individuals and many left-handers, depends primarily on structures in the left hemisphere, including Broca's and Wernicke's areas. Visuospatial reasoning and the recognition of faces draw more heavily on right-hemisphere networks. Researchers describe these functions as ___, meaning that each is preferentially processed in one hemisphere, though the degree of specialization varies considerably across individuals and can shift following brain injury."
+      }
+    },
+    {
+      "id": "tc88",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["binding", "advisory", "bilateral", "provisional"],
+      "answer": 1,
+      "explanation": "Advisory fits because the passage describes resolutions that carry moral weight and political influence but cannot compel state compliance, which is the defining feature of non-binding international instruments.",
+      "wrongReasons": ["Binding means legally obligatory, which contradicts the passage's description of voluntary compliance.", "Bilateral refers to agreements between two parties, not to the UN General Assembly's universal membership context.", "Provisional means temporary or conditional, not describing the enforcement status of these resolutions."],
+      "passage": {
+        "id": "tc88-passage",
+        "title": "UN General Assembly Resolutions",
+        "body": "The United Nations General Assembly provides a global forum in which every member state possesses one vote, regardless of size, population, or economic power. This structure gives smaller nations a platform for voicing concerns that might otherwise go unheard. However, the resolutions the Assembly adopts operate under a significant legal limitation: unlike Security Council decisions taken under Chapter VII of the UN Charter, they cannot be enforced against member states. Countries that vote against a resolution may simply disregard it. Critics argue this limits the Assembly's effectiveness, while defenders note that resolutions carry political and moral weight that shapes diplomatic behavior even when they are technically ___ and lack direct enforcement mechanisms."
+      }
+    },
+    {
+      "id": "tc89",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["cantilever", "buttress", "colonnade", "facade"],
+      "answer": 1,
+      "explanation": "Buttress fits because the passage describes external masonry supports that transfer the lateral thrust of a vault away from the main wall, which is the precise architectural function of a buttress.",
+      "wrongReasons": ["Cantilever is a projecting horizontal element supported only at one end, not an external support transferring lateral thrust.", "Colonnade is a row of columns, not a structural support that counters outward wall pressure.", "Facade is the front face of a building, not a structural support element."],
+      "passage": {
+        "id": "tc89-passage",
+        "title": "Gothic Structural Innovation",
+        "body": "The great cathedrals of the High Middle Ages represent some of the most ambitious engineering achievements of the premodern world. Gothic architects pursued unprecedented heights and luminosity, replacing the thick, solid walls of Romanesque construction with slender stone piers and vast windows filled with colored glass. This ambition created a structural problem: pointed vaults exerted powerful outward forces on the supporting walls that threatened to push them apart. Builders solved this by constructing external masonry arches that reached from a free-standing pier outside the building to the top of the nave wall, transferring the outward thrust over the side aisles and safely into the ground. This ingenious element, called the flying ___, became the defining structural signature of Gothic architecture."
+      }
+    },
+    {
+      "id": "tc90",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["plateau", "decline", "surge", "inversion"],
+      "answer": 2,
+      "explanation": "Surge fits because the passage describes a rapid, dramatic increase in urban population following a specific historical transition, which is captured by the word 'surge' rather than a gradual rise.",
+      "wrongReasons": ["Plateau means a period of no growth, the opposite of the rapid increase described.", "Decline means a decrease, contradicting the population growth discussed.", "Inversion refers to a reversal of order, not to a population increase."],
+      "passage": {
+        "id": "tc90-passage",
+        "title": "Demographic Transition",
+        "body": "Demographers describe a pattern that has repeated across industrializing societies: as improvements in sanitation, nutrition, and medicine cause death rates to fall faster than birth rates can adjust, populations grow rapidly for a generation or more before eventually stabilizing. This transition has reshaped the distribution of humanity across the globe over the past two centuries. One of its most visible consequences is urban growth. As rural families shed excess labor to industrial cities, and as natural increase adds to the urban pool, cities experience a ___ in population that infrastructure rarely keeps pace with, producing the overcrowded, underserviced megacities that characterize much of the developing world today."
+      }
+    },
+    {
+      "id": "tc91",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["degrade", "replenish", "compact", "acidify"],
+      "answer": 1,
+      "explanation": "Replenish fits because the passage describes the process of restoring soil nutrients that have been depleted by cultivation, which requires inputs that renew rather than damage the soil.",
+      "wrongReasons": ["Degrade means to worsen or break down, the opposite of restoration.", "Compact means to press together, reducing pore space rather than restoring nutrients.", "Acidify means to lower pH, not to restore nutrient content."],
+      "passage": {
+        "id": "tc91-passage",
+        "title": "Soil Nutrient Cycles",
+        "body": "Agricultural productivity depends on the cycling of key elements—nitrogen, phosphorus, potassium, and trace minerals—through soil, plants, and organic matter. Each harvest removes a portion of these elements from the field, since the nutrients bound in grain and fiber leave with the crop rather than returning to the soil as they would in an undisturbed ecosystem. Continuous cultivation without intervention therefore depletes the chemical reserves available to subsequent crops, reducing yields over time. Farmers have historically addressed this through the application of animal manure, crop rotation with nitrogen-fixing legumes, and fallow periods that allow natural biological processes to ___ the soil's nutrient reserves before the next growing season."
+      }
+    },
+    {
+      "id": "tc92",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["confound", "illuminate", "replicate", "undermine"],
+      "answer": 0,
+      "explanation": "Confound fits because the passage describes variables that interfere with the ability to isolate cause and effect in psychological research, which is the precise technical meaning of a confounding variable.",
+      "wrongReasons": ["Illuminate means to clarify or shed light on, the opposite of interfering with interpretation.", "Replicate means to reproduce, not to interfere with causal inference.", "Undermine means to weaken, which is close but lacks the precise technical meaning of an uncontrolled third variable distorting results."],
+      "passage": {
+        "id": "tc92-passage",
+        "title": "Research Design in Psychology",
+        "body": "Establishing causal relationships in psychology is considerably more difficult than simply observing that two variables are correlated. When researchers find that children who spend more time reading score higher on vocabulary tests, they cannot conclude that reading causes the improvement without ruling out alternative explanations. Wealthier households may provide both more books and better nutrition, both of which independently affect cognitive development. When such external variables are associated with both the proposed cause and its supposed effect, they ___ the relationship and make it impossible to determine whether the observed correlation reflects a genuine causal link or merely the shared influence of an unmeasured third factor, necessitating more controlled experimental designs."
+      }
+    },
+    {
+      "id": "tc93",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["attenuate", "displace", "intensify", "stabilize"],
+      "answer": 0,
+      "explanation": "Attenuate fits because the passage describes how ocean circulation reduces the severity of temperature extremes in coastal regions by moderating heat, which is a precise fit for the word meaning to reduce intensity.",
+      "wrongReasons": ["Displace means to move something out of position, not to reduce severity.", "Intensify means to increase strength, the opposite of moderating temperature swings.", "Stabilize is partially correct but lacks the specific directional connotation of reducing extremes."],
+      "passage": {
+        "id": "tc93-passage",
+        "title": "Oceanic Climate Regulation",
+        "body": "The world's oceans play a critical role in regulating surface temperatures across vast distances by absorbing heat in summer and releasing it slowly through autumn and winter. Because water has a high specific heat capacity, it changes temperature far more slowly than land surfaces under equivalent solar radiation. Coastal regions therefore experience far smaller seasonal and diurnal temperature swings than continental interiors at the same latitude. Cities located on windward coasts may remain mild in winter and cool in summer because prevailing winds carry marine air over land. This moderating effect tends to ___ temperature extremes, making coastal environments more hospitable for agriculture and human settlement than their geographic latitude alone would suggest."
+      }
+    },
+    {
+      "id": "tc94",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["virality", "monetization", "curation", "aggregation"],
+      "answer": 2,
+      "explanation": "Curation fits because the passage describes the editorial selection and organization of content by gatekeepers, which is the precise function described—choosing what to surface to audiences rather than allowing all content equal exposure.",
+      "wrongReasons": ["Virality refers to the organic spread of content by users, not to editorial selection.", "Monetization refers to generating revenue from content, not to its selection and organization.", "Aggregation refers to collecting content from multiple sources, not to applying editorial judgment in selecting it."],
+      "passage": {
+        "id": "tc94-passage",
+        "title": "Algorithmic Gatekeeping",
+        "body": "The transition from print to digital media has profoundly altered who decides which information reaches large audiences. Newspaper editors once served as explicit gatekeepers, selecting among competing stories based on criteria of newsworthiness they could articulate and defend. Readers received a finite, deliberately chosen set of items each day. Digital platforms replaced this editorial function with algorithmic systems that rank and filter content based on predicted engagement rather than journalistic judgment. Critics argue that algorithmic ___ systematically disadvantages accurate but emotionally unremarkable content in favor of sensational material, because the signals used to train recommendation systems reflect user behavior rather than informational value. The result is an information environment shaped by engagement metrics rather than editorial responsibility."
+      }
+    },
+    {
+      "id": "tc95",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["vernacular", "canonical", "didactic", "allegorical"],
+      "answer": 0,
+      "explanation": "Vernacular fits because the passage describes literary works written in the everyday spoken language of common people rather than the learned Latin of the church, which is precisely what vernacular literature means.",
+      "wrongReasons": ["Canonical refers to works accepted as authoritative or classic, not to the language in which they are written.", "Didactic means intended to teach moral lessons, describing purpose not language register.", "Allegorical means using symbolic narrative, describing technique not linguistic medium."],
+      "passage": {
+        "id": "tc95-passage",
+        "title": "Medieval Literature",
+        "body": "Throughout the medieval period, Latin served as the dominant language of scholarship, religious practice, and formal written culture across Europe. Most texts that survive from the early Middle Ages were composed by clerics for an educated minority capable of reading the classical tongue. Beginning in the twelfth and thirteenth centuries, however, a significant shift occurred: writers increasingly composed romances, epics, and lyric poetry in the everyday spoken languages of their regions. Dante's Divine Comedy in Tuscan Italian, Chaucer's Canterbury Tales in Middle English, and the anonymous Nibelungenlied in Middle High German represent landmark examples of this movement. Scholars describe these works as ___ literature, celebrating their role in elevating spoken languages to vehicles of serious artistic and philosophical expression."
+      }
+    },
+    {
+      "id": "tc96",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["mitigate", "eliminate", "exacerbate", "overlook"],
+      "answer": 0,
+      "explanation": "Mitigate fits because the passage describes international climate agreements as partial measures that reduce but do not remove the severity of warming—a context requiring a word meaning to lessen without fully resolving. The passage explicitly notes that commitments fall short of preventing all damage.",
+      "wrongReasons": ["Eliminate implies complete removal of harm, but the passage emphasizes that current pledges are insufficient for full prevention.", "Exacerbate means to worsen, the opposite of the protective intent of the agreements described.", "Overlook means to fail to notice or address, whereas the agreements deliberately attempt to reduce harm."],
+      "passage": {
+        "id": "tc96-passage",
+        "title": "Climate Diplomacy",
+        "body": "International climate negotiations have produced a succession of agreements that commit signatory states to reducing greenhouse gas emissions on specified timescales. The Paris Agreement of 2015 marked a significant achievement in diplomatic terms, establishing a framework through which countries submit nationally determined contributions and undergo periodic review. However, analysts at leading climate research institutions have consistently found that even full implementation of existing pledges would leave the world on a trajectory toward warming well above the 1.5-degree threshold identified as critical. The agreements therefore serve primarily to ___ the worst projected consequences of climate disruption rather than to prevent them entirely, buying time for deeper structural transformations in energy systems that current political conditions have not yet made possible."
+      }
+    },
+    {
+      "id": "tc97",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["elicited", "precluded", "supplanted", "corroborated"],
+      "answer": 3,
+      "explanation": "Corroborated fits because the passage describes new archaeological findings that support and confirm earlier hypotheses proposed on indirect evidence, requiring a word meaning to strengthen or verify an existing claim.",
+      "wrongReasons": ["Elicited means to draw out or provoke a response, not to confirm an existing argument.", "Precluded means to prevent or rule out, the opposite of confirming a hypothesis.", "Supplanted means replaced, implying the new findings overturned the hypothesis rather than supported it."],
+      "passage": {
+        "id": "tc97-passage",
+        "title": "Migration Archaeology",
+        "body": "For decades, archaeologists debated whether the spread of the Corded Ware cultural complex across Neolithic Europe represented genuine population movement or merely the diffusion of pottery styles and burial practices among settled communities. The question seemed unlikely to be resolved definitively given the fragmentary nature of the material record. Ancient DNA analysis has transformed this debate. Genomic studies of skeletal remains from multiple European sites reveal a dramatic shift in ancestry approximately five thousand years ago, consistent with large-scale migration from the Pontic-Caspian steppe. These findings ___ the steppe migration hypothesis that linguists and archaeologists had proposed on circumstantial grounds, providing molecular evidence that population displacement, rather than cultural borrowing alone, drove the change."
+      }
+    },
+    {
+      "id": "tc98",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["erode", "consolidate", "fragment", "circumscribe"],
+      "answer": 3,
+      "explanation": "Circumscribe fits because the passage describes peremptory norms of international law as constraints that limit the range of actions states may legally take, requiring a word meaning to restrict within defined limits. The passage emphasizes limitation of authority rather than its destruction or fragmentation.",
+      "wrongReasons": ["Erode means to gradually wear away, implying a progressive weakening rather than a defined legal boundary.", "Consolidate means to combine or strengthen, the opposite of limiting state authority.", "Fragment means to break into pieces, implying disintegration rather than a principled legal constraint."],
+      "passage": {
+        "id": "tc98-passage",
+        "title": "Jus Cogens Norms",
+        "body": "International law operates primarily through the voluntary consent of sovereign states, which retain broad discretion over their domestic and foreign policies. However, a category of norms recognized as jus cogens occupies a special hierarchical position: these are peremptory principles from which no derogation is permitted by treaty or custom. The prohibition on genocide, the ban on torture, and the rules against slavery represent the core examples acknowledged in contemporary jurisprudence. States cannot contract out of these obligations even through bilateral agreement. Jus cogens norms therefore ___ the domain of sovereign discretion by establishing an outer boundary of conduct that international law treats as non-negotiable regardless of political circumstances or the expressed preferences of the parties involved."
+      }
+    },
+    {
+      "id": "tc99",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["tensile", "compressive", "torsional", "shear"],
+      "answer": 0,
+      "explanation": "Tensile fits because the passage describes the capacity of materials to withstand stretching forces without breaking, which is precisely what tensile strength measures. The context of suspension cables bearing loads under tension makes this the only accurate technical term.",
+      "wrongReasons": ["Compressive strength refers to resistance to crushing forces, not to stretching—cables experience tension, not compression.", "Torsional strength refers to resistance to twisting forces, not the axial pulling force in a suspension cable.", "Shear strength refers to resistance to sliding forces acting perpendicular to the material axis, not to the along-axis tension in cables."],
+      "passage": {
+        "id": "tc99-passage",
+        "title": "Suspension Bridge Engineering",
+        "body": "The suspension bridge achieves its remarkable spans through an elegant transfer of forces. The deck, carrying the weight of traffic and its own structure, hangs from vertical suspender cables attached to two main cables that sweep in a catenary curve between tall towers. The main cables then anchor into massive concrete blocks at each end of the bridge, transferring the load into the ground. The critical property demanded of the steel used in these main cables is extraordinary resistance to stretching forces: as load increases, the material must lengthen without fracturing. Engineers specify steel with very high ___ strength for cable applications, ensuring that the cables can sustain the enormous pulling forces generated by the bridge's dead load and live traffic without yielding."
+      }
+    },
+    {
+      "id": "tc100",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["regressive", "progressive", "proportional", "neutral"],
+      "answer": 0,
+      "explanation": "Regressive fits because the passage describes a tax structure in which lower-income households pay a higher share of their income than wealthier households, which is the precise technical definition of a regressive tax. The passage emphasizes this inverse relationship between income and effective tax rate.",
+      "wrongReasons": ["Progressive means higher-income earners pay a higher share, the opposite of the described structure.", "Proportional means everyone pays the same percentage regardless of income, which is not the pattern described where lower earners pay more.", "Neutral implies no distributional effect, whereas the passage explicitly describes an unequal burden falling on lower earners."],
+      "passage": {
+        "id": "tc100-passage",
+        "title": "Tax Incidence",
+        "body": "Public finance economists analyze not merely the statutory rate at which taxes are levied but the ultimate distribution of the tax burden across income groups after behavioral adjustments and price changes are accounted for. Sales taxes, excise duties, and value-added taxes are often cited as examples where formal and effective incidence diverge from apparent neutrality. Because lower-income households spend a higher proportion of their earnings on consumption and save relatively little, they contribute a larger fraction of their income to consumption-based levies than wealthier households who direct more of their earnings into savings and investment. A tax structured this way is described as ___, since the effective rate falls as income rises rather than remaining constant or increasing."
+      }
+    },
+    {
+      "id": "tc101",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["recidivism", "desistance", "deterrence", "incapacitation"],
+      "answer": 1,
+      "explanation": "Desistance fits because the passage describes the process by which individuals cease offending behavior over time, which is the criminological term for the gradual withdrawal from criminal activity. The passage asks about the mechanism of stopping crime rather than preventing or punishing it.",
+      "wrongReasons": ["Recidivism means relapsing into criminal behavior, the opposite of ceasing offending.", "Deterrence refers to preventing future crime through fear of punishment, a systemic mechanism rather than an individual developmental process.", "Incapacitation refers to physically preventing crime by removing offenders from society, not the organic process of stopping offending."],
+      "passage": {
+        "id": "tc101-passage",
+        "title": "Life-Course Criminology",
+        "body": "Criminologists studying criminal careers have long recognized that offending behavior is not randomly distributed across the life course. Most individuals who commit crimes do so during adolescence and early adulthood, with rates declining sharply as people move into their late twenties and thirties. Researchers debate what drives this pattern. Some emphasize biological maturation; others point to the stabilizing effects of employment, marriage, and parenthood, which provide stakes in conventional life that make criminal behavior increasingly costly. The process by which offenders gradually cease their criminal activity as they age and acquire social bonds is called ___, and understanding its mechanisms has become a central focus for practitioners seeking alternatives to incarceration as the primary response to crime."
+      }
+    },
+    {
+      "id": "tc102",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["autonomy", "beneficence", "nonmaleficence", "justice"],
+      "answer": 2,
+      "explanation": "Nonmaleficence fits because the passage describes the bioethical principle specifically concerned with avoiding harm—distinct from beneficence (doing good) or autonomy (patient choice). The context of unintended side effects and the duty not to harm makes this the precise term.",
+      "wrongReasons": ["Autonomy refers to respecting patient self-determination, not to the obligation to avoid causing harm.", "Beneficence refers to actively promoting patient welfare, whereas the passage emphasizes refraining from harm, a distinct though related concept.", "Justice refers to fair distribution of healthcare resources and burdens, not to harm avoidance in individual clinical encounters."],
+      "passage": {
+        "id": "tc102-passage",
+        "title": "Bioethical Principles",
+        "body": "Modern bioethics draws on a framework of four foundational principles developed by Tom Beauchamp and James Childress in their influential work Principles of Biomedical Ethics. Each principle addresses a distinct dimension of the ethical relationship between clinician and patient. The principle most directly concerned with avoiding harm to patients occupies a pivotal place in clinical decision-making: when a proposed treatment carries significant risk of side effects or complications, physicians must weigh whether those risks are justified by the anticipated benefits. Hippocratic tradition encapsulated this obligation in the injunction 'first, do no harm.' Contemporary bioethics labels this duty ___, distinguishing it from the positive obligation to promote welfare and treating it as a constraint on interventions even when patient benefit is the stated goal."
+      }
+    },
+    {
+      "id": "tc103",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["neuroplasticity", "neurogenesis", "myelination", "lateralization"],
+      "answer": 2,
+      "explanation": "Myelination fits because the passage describes the developmental process by which axons acquire a fatty insulating sheath that accelerates signal transmission, and explicitly links this to increases in processing speed during adolescence.",
+      "wrongReasons": ["Neuroplasticity refers to the brain's capacity to reorganize its connections in response to experience, not specifically to the insulation of axons.", "Neurogenesis refers to the formation of new neurons, not to the sheathing of existing axonal pathways.", "Lateralization refers to the distribution of functions between hemispheres, not to the maturation of axonal conduction speed."],
+      "passage": {
+        "id": "tc103-passage",
+        "title": "Adolescent Brain Development",
+        "body": "The human brain continues to develop well into early adulthood, with some regions reaching structural maturity only in the mid-twenties. Among the most consequential maturational processes that occur during adolescence is the progressive sheathing of nerve fibers with a fatty substance called myelin. This insulating layer dramatically increases the speed at which electrical signals travel along axonal pathways, allowing different brain regions to coordinate their activity more rapidly and efficiently. The prefrontal cortex, which governs impulse control, planning, and evaluation of long-term consequences, is among the last regions to complete this process. Incomplete ___ in these pathways partially explains the heightened risk-taking and reduced capacity for long-term deliberation observed in typical adolescent behavior."
+      }
+    },
+    {
+      "id": "tc104",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["sovereignty", "jurisdiction", "standing", "immunity"],
+      "answer": 2,
+      "explanation": "Standing fits because the passage describes the legal requirement that a party bringing a case before an international court must demonstrate a sufficient legal interest in the dispute, which is the technical meaning of 'standing' in international procedural law.",
+      "wrongReasons": ["Sovereignty refers to a state's supreme authority over its territory, not to the procedural right to bring a claim.", "Jurisdiction refers to a court's authority to hear a case, not a party's right to appear as a claimant.", "Immunity refers to protection from legal proceedings, the opposite of the right to initiate them."],
+      "passage": {
+        "id": "tc104-passage",
+        "title": "Access to International Courts",
+        "body": "The International Court of Justice, as the principal judicial organ of the United Nations, resolves legal disputes between states in accordance with international law. However, not every state that believes it has been wronged may simply file a case and expect it to be heard on the merits. A preliminary determination must be made as to whether the applicant state has a sufficient legal interest in the subject matter of the dispute to justify bringing the claim before the court. States that are merely affected in a general political sense, without a specific legally cognizable interest in the matter, may have their applications dismissed before any examination of the underlying facts. This threshold requirement, known as ___, ensures that the court's docket is occupied by genuine legal controversies between parties with direct interests at stake."
+      }
+    },
+    {
+      "id": "tc105",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["ductile", "brittle", "malleable", "resilient"],
+      "answer": 1,
+      "explanation": "Brittle fits because the passage describes materials that fracture suddenly without prior deformation under stress, which is the precise materials science definition of brittleness. The passage explicitly contrasts this with ductile behavior, making brittle the only accurate answer.",
+      "wrongReasons": ["Ductile describes materials that deform plastically before fracturing—the passage explicitly defines this as the contrasting behavior.", "Malleable describes the capacity to be permanently deformed by compressive forces without cracking, a related but distinct property.", "Resilient refers to the capacity to absorb energy and recover elastically, not to sudden fracture without deformation."],
+      "passage": {
+        "id": "tc105-passage",
+        "title": "Fracture Mechanics",
+        "body": "Materials scientists classify the failure behavior of solids along a spectrum that has fundamental consequences for engineering design. At one end, ductile materials such as mild steel deform significantly before fracturing, providing visible warning of impending failure and absorbing large amounts of energy in the process. At the other end of the spectrum, certain ceramics, glasses, and cast irons fail in a very different manner: they absorb little energy, show almost no plastic deformation prior to fracture, and crack catastrophically with minimal warning. Engineers must account for this characteristic when selecting materials for structural applications, particularly those subjected to impact loading or low temperatures, which can induce even normally ductile metals to behave in a ___ fashion."
+      }
+    },
+    {
+      "id": "tc106",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["hegemony", "multipolarity", "bipolarity", "anarchy"],
+      "answer": 0,
+      "explanation": "Hegemony fits because the passage describes a configuration in which a single dominant power sets the rules and norms of the international system and can enforce them, which is the geopolitical meaning of hegemony. The passage explicitly discusses a single state's disproportionate capacity to shape outcomes.",
+      "wrongReasons": ["Multipolarity describes a system with several roughly equal great powers, not one dominant actor.", "Bipolarity describes a system with two competing superpowers of comparable strength, not one dominant state.", "Anarchy describes the absence of a central governing authority in the international system, not the dominance of one state."],
+      "passage": {
+        "id": "tc106-passage",
+        "title": "International Order",
+        "body": "The structure of the international system—the distribution of power among its major actors—has varied considerably across historical periods and carries significant consequences for the stability and character of relations between states. When one state possesses such a disproportionate share of economic, military, and institutional power that it can shape the rules governing international trade, security arrangements, and diplomatic norms, scholars describe the resulting order as one of ___, with the dominant state functioning as a system manager whose preferences are reflected in global institutions. The United States occupied this position in the decades immediately following the Second World War, when it designed the Bretton Woods financial system, the United Nations, and a network of security alliances that reflected its interests and values."
+      }
+    },
+    {
+      "id": "tc107",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["inductive", "deductive", "abductive", "analogical"],
+      "answer": 2,
+      "explanation": "Abductive fits because the passage describes reasoning from incomplete observations to the most probable explanation—the hallmark of abductive inference—as distinct from deductive certainty or inductive generalization from many cases.",
+      "wrongReasons": ["Inductive reasoning moves from many specific observations to a general conclusion, not from a single puzzling fact to the likeliest explanation.", "Deductive reasoning moves from general premises to a necessary conclusion, whereas the passage describes selecting among competing explanations under uncertainty.", "Analogical reasoning draws conclusions by comparison with similar cases, not by inferring the best available explanation from available evidence."],
+      "passage": {
+        "id": "tc107-passage",
+        "title": "Scientific Inference",
+        "body": "Philosophers of science distinguish several forms of reasoning that scientists employ in moving from evidence to conclusions. The mode most characteristic of clinical medicine, forensic investigation, and historical reconstruction involves encountering a puzzling or surprising phenomenon and then selecting among available hypotheses the explanation that would, if true, most economically account for all the observed evidence. A physician examining a constellation of symptoms reasons in this way when she settles on a diagnosis: she cannot achieve deductive certainty, nor does she have enough similar cases to generalize inductively. Instead, she reasons to the best available explanation given the information at hand. This mode of inference is called ___ reasoning, and it captures how scientists often work at the frontier of knowledge where data are incomplete and multiple explanations remain live possibilities."
+      }
+    },
+    {
+      "id": "tc108",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["subsidize", "crowd out", "monetize", "sterilize"],
+      "answer": 1,
+      "explanation": "Crowd out fits because the passage describes the mechanism by which government borrowing competes with private borrowers for available funds, raising interest rates and reducing private investment—the precise economic phenomenon known as crowding out.",
+      "wrongReasons": ["Subsidize means to provide financial support, not to compete for and displace private access to credit.", "Monetize in this context would mean converting debt to money by central bank purchase, a different mechanism not described in the passage.", "Sterilize refers to offsetting the money supply effects of central bank operations, an entirely different monetary policy concept."],
+      "passage": {
+        "id": "tc108-passage",
+        "title": "Fiscal and Monetary Interaction",
+        "body": "The economic consequences of large-scale government borrowing extend beyond the direct impact of fiscal deficits on the public debt stock. When the government enters capital markets to sell bonds, it competes with private firms and households who are simultaneously seeking to borrow funds for investment and consumption. If the supply of savings available in the economy is limited, increased government demand for credit drives up the interest rate—the price of borrowing—making it more expensive for private entities to finance investment projects. Higher borrowing costs cause some private investment that would have been profitable at lower rates to become unviable. Economists warn that large fiscal deficits may therefore ___ private investment, partially or wholly offsetting the direct stimulative effect of government spending."
+      }
+    },
+    {
+      "id": "tc109",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["polyphonic", "homophonic", "monophonic", "contrapuntal"],
+      "answer": 3,
+      "explanation": "Contrapuntal fits because the passage describes the specific compositional technique in which two or more independent melodic lines are combined according to strict rules of counterpoint, which is the precise musical term 'contrapuntal' captures. Polyphonic is broader and does not imply the rule-governed independence described.",
+      "wrongReasons": ["Polyphonic simply means having multiple voices or parts, without implying the rigorous rule-governed independence of melodic lines that characterizes counterpoint.", "Homophonic describes music in which one main melody is supported by chordal accompaniment, the opposite of independent equal voices.", "Monophonic means a single unaccompanied melody, with no independent parts at all."],
+      "passage": {
+        "id": "tc109-passage",
+        "title": "Baroque Composition",
+        "body": "The music of Johann Sebastian Bach represents the apex of a compositional tradition that prioritized the independent movement of distinct melodic voices over harmonic simplicity. Rather than writing a single prominent tune supported by chords, Bach wove together two, three, or four entirely independent melodic lines, each following its own path while simultaneously conforming to strict rules governing how the voices could interact. Intervals of a second or seventh required careful preparation and resolution; parallel perfect consonances between any two voices were forbidden. This exacting discipline produced music of extraordinary complexity and structural coherence. Analysts describe Bach's fugues and inventions as masterpieces of ___ writing, in which the horizontal independence of each voice takes precedence over the vertical relationships that govern later harmonic styles."
+      }
+    },
+    {
+      "id": "tc110",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["endemic", "pandemic", "epidemic", "sporadic"],
+      "answer": 0,
+      "explanation": "Endemic fits because the passage describes disease that is persistently present in a defined geographic population at a stable baseline level, which is the epidemiological definition of endemic. The passage emphasizes steady presence rather than outbreak or global spread.",
+      "wrongReasons": ["Pandemic refers to disease spreading across multiple countries or continents, not to stable regional baseline presence.", "Epidemic refers to a sudden increase above the expected baseline in a population, whereas the passage describes the baseline itself.", "Sporadic means occurring irregularly and infrequently, the opposite of the persistent steady presence described."],
+      "passage": {
+        "id": "tc110-passage",
+        "title": "Disease Ecology",
+        "body": "Epidemiologists categorize the patterns of disease occurrence using a vocabulary that distinguishes between fundamentally different dynamics. A disease that circulates continuously within a defined geographic population, maintaining a relatively stable and predictable rate of occurrence year after year without requiring repeated external introduction, occupies a distinct category from outbreaks that arrive suddenly, burn through a susceptible population, and then subside. Malaria in sub-Saharan Africa provides the most cited example of the former pattern: it does not disappear between transmission seasons but persists in the human reservoir and mosquito population alike, generating a predictable annual burden. Epidemiologists describe such diseases as ___, reflecting their settled, self-sustaining presence in a community rather than their explosive spread."
+      }
+    },
+    {
+      "id": "tc111",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["precipitate", "forestall", "perpetuate", "ameliorate"],
+      "answer": 1,
+      "explanation": "Forestall fits because the passage describes early warning systems and diplomatic interventions designed to prevent conflict from breaking out before it starts—the precise meaning of forestalling, as distinct from ameliorating (improving after the fact) or perpetuating (maintaining).",
+      "wrongReasons": ["Precipitate means to cause something to happen prematurely, the opposite of preventing it.", "Perpetuate means to cause to continue, not to prevent from occurring.", "Ameliorate means to improve a bad situation that has already arisen, whereas the passage focuses on preventing conflict from beginning."],
+      "passage": {
+        "id": "tc111-passage",
+        "title": "Conflict Prevention",
+        "body": "The field of conflict prevention rests on the premise that violent disputes between states or within them follow trajectories that can be identified and interrupted before they reach the threshold of organized violence. Early warning systems that monitor indicators such as political exclusion, economic grievance, ethnic polarization, and arms flows aim to give the international community actionable intelligence before tensions crystallize into open conflict. Diplomatic engagement, economic incentives, and the deployment of international observers have all been used in efforts to reduce pressure along fault lines before violence erupts. The goal of these instruments is to ___ armed conflict by addressing the structural conditions and immediate triggers that drive parties toward violence, rather than waiting to respond after the killing has begun."
+      }
+    },
+    {
+      "id": "tc112",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["assay", "anneal", "temper", "quench"],
+      "answer": 1,
+      "explanation": "Anneal fits because the passage describes the process of slowly cooling a material after heating to relieve internal stresses and restore ductility, which is precisely what annealing accomplishes in metallurgy and glassmaking. Tempering and quenching involve different temperature treatments with different outcomes.",
+      "wrongReasons": ["Assay means to analyze or test the composition of a material, not to heat-treat it.", "Temper involves reheating a previously hardened metal to reduce brittleness, but the passage emphasizes relief of residual stress through slow cooling from a high temperature rather than re-treatment after quenching.", "Quench means to cool rapidly, which introduces stress rather than relieving it, the opposite of what the passage describes."],
+      "passage": {
+        "id": "tc112-passage",
+        "title": "Heat Treatment of Materials",
+        "body": "When metals and glasses are formed by casting, welding, or rapid cooling, internal stresses become locked into the material's crystalline or amorphous structure. These residual stresses can cause premature fracture under service loads and make the material far more susceptible to fatigue failure than its nominal strength would suggest. Materials engineers address this problem through a controlled thermal process: the material is heated to a temperature high enough to allow atomic movement but below the melting point, then cooled very slowly in a furnace over many hours. This gradual cooling allows internal stresses to redistribute and dissipate without introducing new thermal gradients. The process is known as ___, and it restores the toughness and dimensional stability that rapid thermal cycling had compromised."
+      }
+    },
+    {
+      "id": "tc113",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["displaced", "suppressed", "sublimated", "projected"],
+      "answer": 2,
+      "explanation": "Sublimated fits because the passage describes the psychoanalytic defense mechanism in which unacceptable impulses are channeled into socially valued activities such as art or athletic competition, which is the specific Freudian concept of sublimation.",
+      "wrongReasons": ["Displaced means redirecting an impulse toward a substitute target rather than channeling it constructively into valued activity.", "Suppressed means consciously pushing an impulse out of awareness, a different and less transformative mechanism.", "Projected means attributing one's own unacceptable impulses to others, not redirecting them into productive outlets."],
+      "passage": {
+        "id": "tc113-passage",
+        "title": "Freudian Defense Mechanisms",
+        "body": "Psychoanalytic theory proposes that the mind employs a range of unconscious strategies to manage the tension between instinctual drives that seek immediate gratification and the demands of social reality that prohibit their direct expression. Sigmund Freud identified several such strategies, which he called defense mechanisms, each involving a different transformation of the original impulse. Among the most socially adaptive of these mechanisms is one in which aggressive or sexual energies are not merely redirected toward substitute targets but converted into culturally valued activities: the competitive drive finds expression in athletic achievement; erotic longing becomes lyric poetry; destructive impulses are channeled into surgical precision. Freud argued that civilization itself depended on this capacity to have dangerous impulses ___ into the creative and intellectual work that sustains culture."
+      }
+    },
+    {
+      "id": "tc114",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["entrenched", "nascent", "pervasive", "contested"],
+      "answer": 1,
+      "explanation": "Nascent fits because the passage describes international human rights law as a body of norms that was just beginning to develop and take institutional form in the mid-twentieth century, requiring a word meaning newly emerging or in early stages of formation.",
+      "wrongReasons": ["Entrenched means deeply established and resistant to change, the opposite of a system just coming into existence.", "Pervasive means widespread and thoroughly present, not descriptive of something newly forming.", "Contested means disputed, which is not the primary quality the passage attributes to the emerging post-war legal order."],
+      "passage": {
+        "id": "tc114-passage",
+        "title": "Origins of Human Rights Law",
+        "body": "The idea that individuals possess rights by virtue of their humanity, independent of citizenship in any particular state, has ancient philosophical roots. However, its translation into binding international legal instruments represents a distinctly modern development. The atrocities of the Second World War provided the political impetus for institutionalizing protections that existing international law, focused exclusively on relations between states, had failed to guarantee. The Universal Declaration of Human Rights, adopted by the United Nations General Assembly in 1948, marked the beginning of what would become an elaborate architecture of treaties, monitoring bodies, and enforcement mechanisms. Scholars of international law describe the post-war human rights regime as ___, a system whose core principles were only then beginning to crystallize into recognized legal obligations."
+      }
+    },
+    {
+      "id": "tc115",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["diaspora", "exodus", "emigration", "resettlement"],
+      "answer": 0,
+      "explanation": "Diaspora fits because the passage describes the dispersed global community of people sharing a common origin who maintain cultural and emotional ties to a homeland, which is the specific sociological meaning of diaspora as distinct from the act of emigration or the process of resettlement.",
+      "wrongReasons": ["Exodus refers to a large-scale departure of people from a place, describing the movement itself rather than the resulting dispersed community.", "Emigration refers to the act of leaving one country for another, not to the settled dispersed community that results.", "Resettlement refers to the process of establishing displaced people in a new location, not to the ongoing transnational community that maintains homeland ties."],
+      "passage": {
+        "id": "tc115-passage",
+        "title": "Transnational Communities",
+        "body": "When significant numbers of people leave their country of origin and settle across multiple foreign societies, they do not necessarily sever their connections to the homeland. Through remittances, cultural organizations, religious institutions, media consumption, and political engagement, dispersed communities can maintain strong transnational identities that span continents. The children and grandchildren of migrants born in receiving countries often sustain these connections, preserving language, cuisine, and ritual in ways that challenge simple assimilation narratives. Scholars use a specific term to describe such a geographically scattered community that retains a shared sense of collective origin and identity: the ___, a concept originally applied to Jewish and Armenian communities but now extended to describe virtually any dispersed transnational population organized around a common ancestral homeland."
+      }
+    },
+    {
+      "id": "tc116",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["rectify", "preempt", "countermand", "redress"],
+      "answer": 3,
+      "explanation": "Redress fits because the passage describes the legal concept of providing remedies for established wrongs—compensating, restoring, or correcting injuries that have already occurred—which is the precise legal meaning of redress as distinct from rectification (correction of errors) or preemption (preventing future wrongs).",
+      "wrongReasons": ["Rectify means to correct an error or fault, which is close but lacks the legal connotation of providing remedy to injured parties for a recognized wrong.", "Preempt means to prevent something from happening by acting first, focusing on future wrongs rather than remedying past ones.", "Countermand means to revoke a previous order, unrelated to providing remedies for established wrongs."],
+      "passage": {
+        "id": "tc116-passage",
+        "title": "Reparations Theory",
+        "body": "Legal and political philosophers have developed elaborate frameworks for thinking about the obligations that arise when individuals, institutions, or governments have caused recognized wrongs to identifiable groups. The core intuition is that wrongdoing creates a moral debt: those who have suffered unjust harm are owed something beyond acknowledgment, whether in the form of material compensation, formal apology, restoration of rights, or structural changes that address ongoing disadvantage. Courts and legislative bodies have implemented various schemes to ___ historical injustices, ranging from individual payments to survivors of documented abuses to broader programs targeting communities whose members were affected across generations. The theoretical challenge lies in determining who owes obligations, to whom, and what forms of remedy are morally required versus merely appropriate."
+      }
+    },
+    {
+      "id": "tc117",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["phenology", "morphology", "taxonomy", "physiology"],
+      "answer": 0,
+      "explanation": "Phenology fits because the passage describes the study of cyclical and seasonal natural events—such as flowering times, migration arrivals, and breeding seasons—and how these are shifting in response to climate change. This is the precise scientific discipline of phenology.",
+      "wrongReasons": ["Morphology is the study of the form and structure of organisms, not of seasonal timing.", "Taxonomy is the science of classification of organisms, not of their seasonal timing cycles.", "Physiology is the study of the functions and mechanisms of living organisms, not of the timing of seasonal biological events."],
+      "passage": {
+        "id": "tc117-passage",
+        "title": "Ecological Timing",
+        "body": "Many of the most sensitive indicators of climate change are not temperature records or sea-level measurements but shifts in the timing of biological events that have been recorded by naturalists for centuries. The date on which the first cherry blossoms open in Kyoto has been documented for over a thousand years; similar long-term records exist for the arrival of migratory birds, the emergence of butterflies, and the breeding dates of amphibians. As temperatures warm, these events are occurring earlier in the calendar year, sometimes at rates that cause dangerous mismatches between species that depend on each other—pollinators that emerge before the flowers they visit, or caterpillars that peak before the birds that feed on them return. The scientific discipline that studies these seasonal timing patterns and their ecological consequences is called ___, and it has become a critical tool for assessing biodiversity impacts."
+      }
+    },
+    {
+      "id": "tc118",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["alleviate", "perpetuate", "exacerbate", "mitigate"],
+      "answer": 1,
+      "explanation": "Perpetuate fits because the passage describes how structural features of educational systems reproduce and maintain existing socioeconomic inequalities across generations—not merely worsening them (exacerbate) or reducing them (alleviate/mitigate). The passage emphasizes self-reproduction and continuity of the same pattern.",
+      "wrongReasons": ["Alleviate means to reduce the severity of inequality, the opposite of what the passage describes.", "Exacerbate means to worsen beyond the existing level, whereas the passage focuses specifically on the reproduction and maintenance of existing stratification rather than its intensification.", "Mitigate means to lessen severity, contradicting the passage's description of the system reinforcing itself."],
+      "passage": {
+        "id": "tc118-passage",
+        "title": "Education and Inequality",
+        "body": "Sociologists of education have long examined the paradox that systems ostensibly designed to provide equal opportunity often reproduce the very inequalities they purport to address. Schools in wealthy districts receive more resources, attract more experienced teachers, and offer richer curricula than those serving poor communities. Children from professional families arrive at school with larger vocabularies, greater familiarity with the norms of academic discourse, and more robust social networks than their less advantaged peers. Assessment systems that reward these prior advantages tend to direct credentials toward those who already possess cultural capital, conferring further advantage on the already privileged. Critics argue that educational institutions, rather than serving as engines of mobility, ___ entrenched hierarchies by systematically rewarding advantages that are themselves products of inherited social position."
+      }
+    },
+    {
+      "id": "tc119",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["deprecate", "supplant", "augment", "precede"],
+      "answer": 1,
+      "explanation": "Supplant fits because the passage describes digital streaming platforms completely replacing physical media as the dominant mode of content delivery—not merely supplementing it (augment) or coming before it (precede). The passage emphasizes displacement and substitution.",
+      "wrongReasons": ["Deprecate means to express disapproval of, or in technical contexts to mark for retirement while still available, not to actively replace.", "Augment means to add to or increase, whereas the passage describes replacement of one system by another.", "Precede means to come before in time, which is not the competitive displacement relationship described."],
+      "passage": {
+        "id": "tc119-passage",
+        "title": "Media Industry Disruption",
+        "body": "The history of media industries in the twenty-first century is largely a chronicle of how digital distribution eroded the economic foundations of formats that had dominated for decades. The compact disc, which had itself displaced vinyl records and cassette tapes, sustained the music industry through the 1990s before peer-to-peer file sharing undermined its commercial logic. Subscription streaming services subsequently resolved the piracy crisis by offering legal, convenient access at a price point that captured sufficient consumer demand. Physical disc sales collapsed not gradually but precipitously, as a critical mass of listeners shifted their habits. Digital platforms did not merely compete with physical media; they ultimately ___ it as the primary vehicle through which the vast majority of audiences access recorded music, rendering retail disc sales a niche pursuit for enthusiasts."
+      }
+    },
+    {
+      "id": "tc120",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["corroborate", "qualify", "contradict", "contextualize"],
+      "answer": 1,
+      "explanation": "Qualify fits because the passage describes how subsequent research introduces important conditions, exceptions, and limitations that refine and restrict the scope of an original finding without overturning it. Qualifying a claim makes it more precise rather than supporting (corroborate), opposing (contradict), or historicizing (contextualize) it.",
+      "wrongReasons": ["Corroborate means to provide additional support for a claim, whereas the passage describes subsequent research that introduces important limitations and exceptions.", "Contradict means to directly oppose or disprove, whereas the passage describes research that refines rather than overturns the original finding.", "Contextualize means to place in historical or situational context, not to add conditions that restrict a claim's scope."],
+      "passage": {
+        "id": "tc120-passage",
+        "title": "Replication and Refinement",
+        "body": "A scientific finding rarely stands permanently in its original form. Once published, it enters a process of examination, replication, and extension by other researchers who probe its boundaries and test its generalizability. Original studies are often conducted on specific populations, under particular experimental conditions, or using measures that may not transfer straightforwardly to other contexts. When researchers working in different settings attempt to reproduce a finding, they frequently discover that the effect holds only under certain conditions: it may be stronger for some demographic groups, weaker in naturalistic settings, or absent when alternative methodologies are applied. This accumulated evidence does not necessarily overturn the original claim but serves to ___ it, establishing the boundary conditions within which it reliably holds and preventing its overgeneralization beyond the circumstances in which it was first demonstrated."
+      }
+    }
+  ]
+}

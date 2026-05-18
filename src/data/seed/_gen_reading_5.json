@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r33-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "The human eye contains millions of colour receptors that work independently of the brain.",
+        "Colour perception is a complex process involving both the eye and the brain interpreting light wavelengths.",
+        "All animals perceive colour in the same way that humans do.",
+        "The visible spectrum consists only of the three primary colours: red, green, and blue."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains that colour perception involves the eye detecting wavelengths of light via cone cells and the brain interpreting those signals, making it a combined physiological and neurological process.",
+      "wrongReasons": [
+        "The passage states that the brain plays a central role in interpreting colour signals, not that the eye works independently.",
+        "The passage notes that colour perception varies among species, contradicting the idea that all animals see colour the same way.",
+        "The passage describes a broad visible spectrum of wavelengths, not just three primary colours."
+      ],
+      "passage": {
+        "id": "r33-passage",
+        "title": "The Science of Colour Perception",
+        "body": "Colour perception is one of the most fascinating aspects of human biology. When light enters the eye, it strikes the retina, which contains two types of photoreceptor cells: rods and cones. Rods detect overall brightness and enable vision in low-light conditions, while cones are responsible for colour vision. Humans possess three types of cones, each sensitive to different wavelengths of light corresponding roughly to red, green, and blue. The brain receives electrical signals from these cones and combines them to produce the full spectrum of colours we perceive in daily life. Interestingly, the experience of colour is not simply a property of light itself but is constructed by the brain. This is why optical illusions involving colour can fool us so effectively. Different species have evolved different numbers of cone types: many birds have four, giving them access to ultraviolet colours invisible to humans, while most mammals have only two. Understanding colour perception has important applications in art, design, medicine, and technology."
+      }
+    },
+    {
+      "id": "r33-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is the function of rod cells in the eye?",
+      "choices": [
+        "They detect specific colours by responding to different wavelengths.",
+        "They send colour signals directly to the cone cells for processing.",
+        "They detect brightness and support vision in low-light conditions.",
+        "They filter ultraviolet light before it reaches the cone cells."
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that rods detect overall brightness and enable vision in low-light conditions, distinguishing them from cones which handle colour.",
+      "wrongReasons": [
+        "The passage attributes wavelength detection to cones, not rods.",
+        "The passage does not describe rods sending signals to cones; both send signals to the brain.",
+        "The passage does not mention rods filtering ultraviolet light."
+      ],
+      "passage": {
+        "id": "r33-passage",
+        "title": "The Science of Colour Perception",
+        "body": "Colour perception is one of the most fascinating aspects of human biology. When light enters the eye, it strikes the retina, which contains two types of photoreceptor cells: rods and cones. Rods detect overall brightness and enable vision in low-light conditions, while cones are responsible for colour vision. Humans possess three types of cones, each sensitive to different wavelengths of light corresponding roughly to red, green, and blue. The brain receives electrical signals from these cones and combines them to produce the full spectrum of colours we perceive in daily life. Interestingly, the experience of colour is not simply a property of light itself but is constructed by the brain. This is why optical illusions involving colour can fool us so effectively. Different species have evolved different numbers of cone types: many birds have four, giving them access to ultraviolet colours invisible to humans, while most mammals have only two. Understanding colour perception has important applications in art, design, medicine, and technology."
+      }
+    },
+    {
+      "id": "r33-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about a person who lacks one of the three types of cone cells?",
+      "choices": [
+        "They would be completely blind and unable to detect any light.",
+        "They would likely have difficulty distinguishing certain colours from one another.",
+        "They would develop extra rod cells to compensate for the missing cones.",
+        "They would perceive ultraviolet colours that normal humans cannot see."
+      ],
+      "answer": 1,
+      "explanation": "Since the passage explains that the brain combines signals from three cone types to produce the colour spectrum, the absence of one type would impair the ability to distinguish the colours that cone detects, leading to colour confusion.",
+      "wrongReasons": [
+        "Rods would still function, so complete blindness is not implied by missing one cone type.",
+        "The passage does not suggest any compensatory mechanism involving rod cells.",
+        "Ultraviolet perception is linked to having four cone types, as in birds, not to losing one of the human three."
+      ],
+      "passage": {
+        "id": "r33-passage",
+        "title": "The Science of Colour Perception",
+        "body": "Colour perception is one of the most fascinating aspects of human biology. When light enters the eye, it strikes the retina, which contains two types of photoreceptor cells: rods and cones. Rods detect overall brightness and enable vision in low-light conditions, while cones are responsible for colour vision. Humans possess three types of cones, each sensitive to different wavelengths of light corresponding roughly to red, green, and blue. The brain receives electrical signals from these cones and combines them to produce the full spectrum of colours we perceive in daily life. Interestingly, the experience of colour is not simply a property of light itself but is constructed by the brain. This is why optical illusions involving colour can fool us so effectively. Different species have evolved different numbers of cone types: many birds have four, giving them access to ultraviolet colours invisible to humans, while most mammals have only two. Understanding colour perception has important applications in art, design, medicine, and technology."
+      }
+    },
+    {
+      "id": "r33-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"constructed\" most nearly means:",
+      "choices": [
+        "Built physically out of raw materials.",
+        "Actively assembled or created by mental processes.",
+        "Distorted and made inaccurate by the brain.",
+        "Inherited genetically from one's ancestors."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that the experience of colour 'is constructed by the brain,' meaning the brain actively assembles sensory data into a colour experience rather than passively receiving it.",
+      "wrongReasons": [
+        "The passage is discussing a neurological process, not physical construction of a structure.",
+        "The passage does not suggest the brain makes colour perception inaccurate, only that it is brain-generated.",
+        "The passage discusses biological evolution of cone types, but 'constructed' in this sentence refers to a real-time brain process, not inheritance."
+      ],
+      "passage": {
+        "id": "r33-passage",
+        "title": "The Science of Colour Perception",
+        "body": "Colour perception is one of the most fascinating aspects of human biology. When light enters the eye, it strikes the retina, which contains two types of photoreceptor cells: rods and cones. Rods detect overall brightness and enable vision in low-light conditions, while cones are responsible for colour vision. Humans possess three types of cones, each sensitive to different wavelengths of light corresponding roughly to red, green, and blue. The brain receives electrical signals from these cones and combines them to produce the full spectrum of colours we perceive in daily life. Interestingly, the experience of colour is not simply a property of light itself but is constructed by the brain. This is why optical illusions involving colour can fool us so effectively. Different species have evolved different numbers of cone types: many birds have four, giving them access to ultraviolet colours invisible to humans, while most mammals have only two. Understanding colour perception has important applications in art, design, medicine, and technology."
+      }
+    },
+    {
+      "id": "r33-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in including information about other species' cone types?",
+      "choices": [
+        "To argue that humans should develop technology to perceive ultraviolet light.",
+        "To suggest that human colour vision is inferior and should be studied further.",
+        "To illustrate that colour perception systems vary across species, reinforcing that it is a biological construct rather than a fixed property of light.",
+        "To explain why optical illusions are more effective on birds than on humans."
+      ],
+      "answer": 2,
+      "explanation": "By showing that different species have different numbers of cone types and therefore perceive different colour ranges, the author reinforces the central point that colour is not an inherent property of light but a biological construction that varies with physiology.",
+      "wrongReasons": [
+        "The passage mentions applications of colour science but does not advocate for developing ultraviolet vision technology.",
+        "The passage is descriptive and comparative, not a critique suggesting human vision is deficient.",
+        "The passage does not discuss whether optical illusions affect birds; the illusion point is made only in relation to humans."
+      ],
+      "passage": {
+        "id": "r33-passage",
+        "title": "The Science of Colour Perception",
+        "body": "Colour perception is one of the most fascinating aspects of human biology. When light enters the eye, it strikes the retina, which contains two types of photoreceptor cells: rods and cones. Rods detect overall brightness and enable vision in low-light conditions, while cones are responsible for colour vision. Humans possess three types of cones, each sensitive to different wavelengths of light corresponding roughly to red, green, and blue. The brain receives electrical signals from these cones and combines them to produce the full spectrum of colours we perceive in daily life. Interestingly, the experience of colour is not simply a property of light itself but is constructed by the brain. This is why optical illusions involving colour can fool us so effectively. Different species have evolved different numbers of cone types: many birds have four, giving them access to ultraviolet colours invisible to humans, while most mammals have only two. Understanding colour perception has important applications in art, design, medicine, and technology."
+      }
+    },
+    {
+      "id": "r34-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Human cooperation is driven purely by genetic self-interest and has no cultural component.",
+        "Cooperation among humans is a complex behaviour shaped by both evolutionary pressures and cultural institutions.",
+        "Humans began cooperating only after the development of agriculture and permanent settlements.",
+        "Reciprocity is the only mechanism that explains why humans help strangers."
+      ],
+      "answer": 1,
+      "explanation": "The passage presents cooperation as a multifaceted behaviour rooted in evolutionary advantages and reinforced by cultural norms, language, and institutions, making it a combined biological and cultural phenomenon.",
+      "wrongReasons": [
+        "The passage explicitly states that cultural norms and institutions also drive cooperation, not genetics alone.",
+        "The passage discusses evolutionary origins predating agriculture, not limiting cooperation's origins to that period.",
+        "The passage describes multiple mechanisms including kin selection, reciprocity, and cultural norms, not reciprocity alone."
+      ],
+      "passage": {
+        "id": "r34-passage",
+        "title": "Why Humans Cooperate",
+        "body": "Humans are among the most cooperative species on Earth, capable of working together in groups of millions. Evolutionary biologists have long sought to explain this remarkable trait. One early explanation was kin selection: individuals help relatives because shared genes are passed on indirectly. However, humans routinely cooperate with strangers, which kin selection alone cannot explain. Reciprocal altruism offers a partial answer — individuals help others expecting future assistance in return. Yet even this falls short, as people often assist others when no personal benefit is possible. Researchers now believe that cultural norms, enforced through reputation and social punishment, play a crucial role. Societies that developed strong cooperative norms outcompeted those that did not, creating an evolutionary advantage for cultures that promoted trust and collective action. Language allowed humans to coordinate complex tasks and share knowledge across generations. Institutions such as laws, contracts, and markets further extended cooperation to strangers on a massive scale. Understanding why humans cooperate is essential for addressing collective challenges such as climate change, public health, and international conflict."
+      }
+    },
+    {
+      "id": "r34-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is kin selection?",
+      "choices": [
+        "The process by which individuals choose cooperative partners based on shared cultural values.",
+        "A mechanism by which people help relatives, indirectly passing on shared genes.",
+        "A form of reciprocal altruism in which family members repay each other's favours.",
+        "A cultural norm enforced by social punishment to promote group loyalty."
+      ],
+      "answer": 1,
+      "explanation": "The passage defines kin selection as individuals helping relatives because shared genes are thereby passed on indirectly, which is a purely genetic explanation for cooperative behaviour.",
+      "wrongReasons": [
+        "The passage defines kin selection as genetically motivated, not based on shared cultural values.",
+        "The passage treats kin selection and reciprocal altruism as separate explanations, not overlapping ones.",
+        "Social punishment enforcing norms is described separately as a cultural mechanism, not as kin selection."
+      ],
+      "passage": {
+        "id": "r34-passage",
+        "title": "Why Humans Cooperate",
+        "body": "Humans are among the most cooperative species on Earth, capable of working together in groups of millions. Evolutionary biologists have long sought to explain this remarkable trait. One early explanation was kin selection: individuals help relatives because shared genes are passed on indirectly. However, humans routinely cooperate with strangers, which kin selection alone cannot explain. Reciprocal altruism offers a partial answer — individuals help others expecting future assistance in return. Yet even this falls short, as people often assist others when no personal benefit is possible. Researchers now believe that cultural norms, enforced through reputation and social punishment, play a crucial role. Societies that developed strong cooperative norms outcompeted those that did not, creating an evolutionary advantage for cultures that promoted trust and collective action. Language allowed humans to coordinate complex tasks and share knowledge across generations. Institutions such as laws, contracts, and markets further extended cooperation to strangers on a massive scale. Understanding why humans cooperate is essential for addressing collective challenges such as climate change, public health, and international conflict."
+      }
+    },
+    {
+      "id": "r34-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about societies that failed to develop strong cooperative norms?",
+      "choices": [
+        "They relied exclusively on kin selection and therefore thrived in small family units.",
+        "They were likely at a competitive disadvantage compared to more cooperative societies.",
+        "They developed superior institutions such as laws and markets to compensate.",
+        "They experienced more innovation because individuals pursued personal rather than collective goals."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that societies with strong cooperative norms outcompeted those that did not develop them, implying that non-cooperative societies were at a disadvantage.",
+      "wrongReasons": [
+        "The passage does not suggest non-cooperative societies thrived in small units; it implies they were outcompeted overall.",
+        "The passage presents institutions as extensions of cooperative norms, not as compensatory mechanisms for their absence.",
+        "The passage makes no connection between lack of cooperation and innovation; it focuses on competitive disadvantage."
+      ],
+      "passage": {
+        "id": "r34-passage",
+        "title": "Why Humans Cooperate",
+        "body": "Humans are among the most cooperative species on Earth, capable of working together in groups of millions. Evolutionary biologists have long sought to explain this remarkable trait. One early explanation was kin selection: individuals help relatives because shared genes are passed on indirectly. However, humans routinely cooperate with strangers, which kin selection alone cannot explain. Reciprocal altruism offers a partial answer — individuals help others expecting future assistance in return. Yet even this falls short, as people often assist others when no personal benefit is possible. Researchers now believe that cultural norms, enforced through reputation and social punishment, play a crucial role. Societies that developed strong cooperative norms outcompeted those that did not, creating an evolutionary advantage for cultures that promoted trust and collective action. Language allowed humans to coordinate complex tasks and share knowledge across generations. Institutions such as laws, contracts, and markets further extended cooperation to strangers on a massive scale. Understanding why humans cooperate is essential for addressing collective challenges such as climate change, public health, and international conflict."
+      }
+    },
+    {
+      "id": "r34-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"altruism\" most nearly means:",
+      "choices": [
+        "Selfishness disguised as generosity for personal gain.",
+        "Behaviour that benefits others, sometimes at a cost to oneself.",
+        "A genetic trait passed from parents to offspring.",
+        "A legal contract obligating individuals to assist one another."
+      ],
+      "answer": 1,
+      "explanation": "In context, reciprocal altruism describes helping others (benefiting them) with the expectation of future return, implying the core meaning of altruism is behaviour that benefits others, potentially at personal cost.",
+      "wrongReasons": [
+        "While reciprocal altruism involves expected return, the word altruism itself is not defined as disguised selfishness in the passage.",
+        "Altruism is presented as a behavioural explanation, not a genetic trait; kin selection covers genetic inheritance.",
+        "The passage introduces legal contracts as institutional tools, not as the definition of altruism."
+      ],
+      "passage": {
+        "id": "r34-passage",
+        "title": "Why Humans Cooperate",
+        "body": "Humans are among the most cooperative species on Earth, capable of working together in groups of millions. Evolutionary biologists have long sought to explain this remarkable trait. One early explanation was kin selection: individuals help relatives because shared genes are passed on indirectly. However, humans routinely cooperate with strangers, which kin selection alone cannot explain. Reciprocal altruism offers a partial answer — individuals help others expecting future assistance in return. Yet even this falls short, as people often assist others when no personal benefit is possible. Researchers now believe that cultural norms, enforced through reputation and social punishment, play a crucial role. Societies that developed strong cooperative norms outcompeted those that did not, creating an evolutionary advantage for cultures that promoted trust and collective action. Language allowed humans to coordinate complex tasks and share knowledge across generations. Institutions such as laws, contracts, and markets further extended cooperation to strangers on a massive scale. Understanding why humans cooperate is essential for addressing collective challenges such as climate change, public health, and international conflict."
+      }
+    },
+    {
+      "id": "r34-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author end the passage by mentioning climate change, public health, and international conflict?",
+      "choices": [
+        "To suggest that these problems were caused by excessive human cooperation in the past.",
+        "To demonstrate that scientific understanding of cooperation has no practical relevance.",
+        "To emphasise that insight into human cooperation has real-world importance for solving global problems that require collective action.",
+        "To argue that governments should replace cultural norms with formal laws to address these challenges."
+      ],
+      "answer": 2,
+      "explanation": "By concluding with major collective challenges, the author signals that understanding the mechanisms of human cooperation is not merely academic but directly relevant to solving problems that require large-scale coordinated effort.",
+      "wrongReasons": [
+        "The passage frames cooperation as beneficial and does not suggest these problems resulted from it.",
+        "Ending with practical applications implies relevance, directly contradicting the idea of no practical use.",
+        "The passage describes laws as one existing institution among many and does not advocate replacing cultural norms with laws."
+      ],
+      "passage": {
+        "id": "r34-passage",
+        "title": "Why Humans Cooperate",
+        "body": "Humans are among the most cooperative species on Earth, capable of working together in groups of millions. Evolutionary biologists have long sought to explain this remarkable trait. One early explanation was kin selection: individuals help relatives because shared genes are passed on indirectly. However, humans routinely cooperate with strangers, which kin selection alone cannot explain. Reciprocal altruism offers a partial answer — individuals help others expecting future assistance in return. Yet even this falls short, as people often assist others when no personal benefit is possible. Researchers now believe that cultural norms, enforced through reputation and social punishment, play a crucial role. Societies that developed strong cooperative norms outcompeted those that did not, creating an evolutionary advantage for cultures that promoted trust and collective action. Language allowed humans to coordinate complex tasks and share knowledge across generations. Institutions such as laws, contracts, and markets further extended cooperation to strangers on a massive scale. Understanding why humans cooperate is essential for addressing collective challenges such as climate change, public health, and international conflict."
+      }
+    },
+    {
+      "id": "r35-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Edward Jenner invented all modern vaccines by studying smallpox in the eighteenth century.",
+        "Vaccination has a long history of development that transformed medicine by training the immune system to fight disease.",
+        "The immune system cannot distinguish between a vaccine and a natural infection.",
+        "Mass vaccination campaigns have been abandoned in favour of antiviral drugs."
+      ],
+      "answer": 1,
+      "explanation": "The passage traces vaccination from early inoculation practices through Jenner's discovery to modern techniques, presenting the overall story as a transformative development in medicine centred on immune training.",
+      "wrongReasons": [
+        "The passage credits Jenner with a key early vaccine but notes that subsequent scientists developed many others, so he did not invent all modern vaccines.",
+        "The passage explains that vaccines work by mimicking infection without causing disease, implying the immune system does respond differently.",
+        "The passage describes ongoing mass vaccination campaigns as successes, not as something abandoned."
+      ],
+      "passage": {
+        "id": "r35-passage",
+        "title": "The History of Vaccination",
+        "body": "The history of vaccination stretches back centuries before modern medicine. As early as the tenth century, Chinese physicians practised variolation — deliberately exposing patients to dried smallpox material to induce mild immunity. This dangerous but effective technique spread to the Ottoman Empire and eventually Europe. In 1796, English physician Edward Jenner made a pivotal discovery: milkmaids who contracted cowpox seemed immune to the far deadlier smallpox. Jenner tested his theory by inoculating a young boy with cowpox material and later exposing him to smallpox — the boy remained healthy. This experiment established the principle of vaccination: introducing a harmless or weakened form of a pathogen to stimulate the immune system without causing disease. Over the following two centuries, scientists developed vaccines for cholera, rabies, diphtheria, polio, and many other diseases. Mass vaccination campaigns eradicated smallpox by 1980 and have nearly eliminated polio worldwide. Modern biotechnology has accelerated vaccine development dramatically, as demonstrated by the rapid creation of COVID-19 vaccines. Today vaccination remains one of the most cost-effective public health interventions available."
+      }
+    },
+    {
+      "id": "r35-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what observation led Jenner to develop his vaccine?",
+      "choices": [
+        "He noticed that patients who survived cholera were immune to smallpox.",
+        "He observed that milkmaids who had cowpox appeared to be protected against smallpox.",
+        "He discovered that variolation with dried smallpox material was always safe and effective.",
+        "He found that rabies survivors developed broad immunity to other viral diseases."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly states that Jenner observed milkmaids who contracted cowpox seemed immune to the far deadlier smallpox, which was the observation that prompted his vaccine experiment.",
+      "wrongReasons": [
+        "The passage does not mention any link between cholera survivors and smallpox immunity; cholera is mentioned only as a later vaccine development.",
+        "The passage describes variolation as dangerous, not always safe, and presents it as a precursor to Jenner's safer approach.",
+        "The passage does not mention any link between rabies survivors and broad immunity."
+      ],
+      "passage": {
+        "id": "r35-passage",
+        "title": "The History of Vaccination",
+        "body": "The history of vaccination stretches back centuries before modern medicine. As early as the tenth century, Chinese physicians practised variolation — deliberately exposing patients to dried smallpox material to induce mild immunity. This dangerous but effective technique spread to the Ottoman Empire and eventually Europe. In 1796, English physician Edward Jenner made a pivotal discovery: milkmaids who contracted cowpox seemed immune to the far deadlier smallpox. Jenner tested his theory by inoculating a young boy with cowpox material and later exposing him to smallpox — the boy remained healthy. This experiment established the principle of vaccination: introducing a harmless or weakened form of a pathogen to stimulate the immune system without causing disease. Over the following two centuries, scientists developed vaccines for cholera, rabies, diphtheria, polio, and many other diseases. Mass vaccination campaigns eradicated smallpox by 1980 and have nearly eliminated polio worldwide. Modern biotechnology has accelerated vaccine development dramatically, as demonstrated by the rapid creation of COVID-19 vaccines. Today vaccination remains one of the most cost-effective public health interventions available."
+      }
+    },
+    {
+      "id": "r35-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about variolation compared to Jenner's vaccination method?",
+      "choices": [
+        "Variolation was safer than Jenner's method because it used human smallpox material.",
+        "Jenner's method was an improvement because it used a related but less dangerous pathogen to confer immunity.",
+        "Both methods were equally dangerous and equally effective at preventing smallpox.",
+        "Variolation was invented by Jenner as a preliminary step before developing the cowpox vaccine."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes variolation as 'dangerous but effective' because it used actual smallpox material, whereas Jenner's method used cowpox, a harmless related pathogen, making his approach safer while achieving the same protective effect.",
+      "wrongReasons": [
+        "The passage says variolation was dangerous, while Jenner's method used a harmless form, so Jenner's approach was safer.",
+        "The passage distinguishes the two: variolation was dangerous, Jenner's method was based on a harmless pathogen, so they were not equally dangerous.",
+        "The passage credits variolation to Chinese physicians centuries before Jenner, not to Jenner himself."
+      ],
+      "passage": {
+        "id": "r35-passage",
+        "title": "The History of Vaccination",
+        "body": "The history of vaccination stretches back centuries before modern medicine. As early as the tenth century, Chinese physicians practised variolation — deliberately exposing patients to dried smallpox material to induce mild immunity. This dangerous but effective technique spread to the Ottoman Empire and eventually Europe. In 1796, English physician Edward Jenner made a pivotal discovery: milkmaids who contracted cowpox seemed immune to the far deadlier smallpox. Jenner tested his theory by inoculating a young boy with cowpox material and later exposing him to smallpox — the boy remained healthy. This experiment established the principle of vaccination: introducing a harmless or weakened form of a pathogen to stimulate the immune system without causing disease. Over the following two centuries, scientists developed vaccines for cholera, rabies, diphtheria, polio, and many other diseases. Mass vaccination campaigns eradicated smallpox by 1980 and have nearly eliminated polio worldwide. Modern biotechnology has accelerated vaccine development dramatically, as demonstrated by the rapid creation of COVID-19 vaccines. Today vaccination remains one of the most cost-effective public health interventions available."
+      }
+    },
+    {
+      "id": "r35-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"pivotal\" most nearly means:",
+      "choices": [
+        "Controversial and widely disputed by other scientists at the time.",
+        "Slow and incremental, building on many previous discoveries.",
+        "Critically important and marking a turning point.",
+        "Accidental and unintended, occurring without a clear hypothesis."
+      ],
+      "answer": 2,
+      "explanation": "In context, Jenner's 'pivotal discovery' is the observation that launched the principle of vaccination, making it a turning point in medical history — the core meaning of pivotal.",
+      "wrongReasons": [
+        "The passage does not describe Jenner's discovery as controversial; it presents it as establishing a founding principle.",
+        "The passage frames Jenner's discovery as a single key moment, not a slow incremental process.",
+        "The passage states Jenner 'tested his theory,' indicating he had a clear hypothesis, so the discovery was not accidental."
+      ],
+      "passage": {
+        "id": "r35-passage",
+        "title": "The History of Vaccination",
+        "body": "The history of vaccination stretches back centuries before modern medicine. As early as the tenth century, Chinese physicians practised variolation — deliberately exposing patients to dried smallpox material to induce mild immunity. This dangerous but effective technique spread to the Ottoman Empire and eventually Europe. In 1796, English physician Edward Jenner made a pivotal discovery: milkmaids who contracted cowpox seemed immune to the far deadlier smallpox. Jenner tested his theory by inoculating a young boy with cowpox material and later exposing him to smallpox — the boy remained healthy. This experiment established the principle of vaccination: introducing a harmless or weakened form of a pathogen to stimulate the immune system without causing disease. Over the following two centuries, scientists developed vaccines for cholera, rabies, diphtheria, polio, and many other diseases. Mass vaccination campaigns eradicated smallpox by 1980 and have nearly eliminated polio worldwide. Modern biotechnology has accelerated vaccine development dramatically, as demonstrated by the rapid creation of COVID-19 vaccines. Today vaccination remains one of the most cost-effective public health interventions available."
+      }
+    },
+    {
+      "id": "r35-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in structuring the passage chronologically from ancient China to COVID-19?",
+      "choices": [
+        "To argue that ancient Chinese medicine was more advanced than European medicine.",
+        "To show that vaccine development has always been straightforward and free of scientific debate.",
+        "To demonstrate that vaccination is a continuously evolving field with deep historical roots, reinforcing its credibility and importance.",
+        "To suggest that modern biotechnology has made all earlier vaccine methods obsolete and irrelevant."
+      ],
+      "answer": 2,
+      "explanation": "The chronological structure lets the author trace a continuous line of scientific progress from early inoculation to cutting-edge biotechnology, building a narrative that validates vaccination's long track record and enduring relevance.",
+      "wrongReasons": [
+        "The passage presents Chinese variolation as an early step, not as superior to European contributions; it credits Jenner prominently.",
+        "The passage omits mention of scientific debate, but the presence of 'dangerous' variolation implies challenges were involved; the structure aims to show progress, not absence of debate.",
+        "The passage ends by calling vaccination 'one of the most cost-effective public health interventions available,' framing all history as relevant context, not as obsolete."
+      ],
+      "passage": {
+        "id": "r35-passage",
+        "title": "The History of Vaccination",
+        "body": "The history of vaccination stretches back centuries before modern medicine. As early as the tenth century, Chinese physicians practised variolation — deliberately exposing patients to dried smallpox material to induce mild immunity. This dangerous but effective technique spread to the Ottoman Empire and eventually Europe. In 1796, English physician Edward Jenner made a pivotal discovery: milkmaids who contracted cowpox seemed immune to the far deadlier smallpox. Jenner tested his theory by inoculating a young boy with cowpox material and later exposing him to smallpox — the boy remained healthy. This experiment established the principle of vaccination: introducing a harmless or weakened form of a pathogen to stimulate the immune system without causing disease. Over the following two centuries, scientists developed vaccines for cholera, rabies, diphtheria, polio, and many other diseases. Mass vaccination campaigns eradicated smallpox by 1980 and have nearly eliminated polio worldwide. Modern biotechnology has accelerated vaccine development dramatically, as demonstrated by the rapid creation of COVID-19 vaccines. Today vaccination remains one of the most cost-effective public health interventions available."
+      }
+    },
+    {
+      "id": "r36-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Forests are primarily valuable for their timber and should be managed as economic resources.",
+        "Forests regulate the global climate through carbon storage, water cycling, and surface albedo effects.",
+        "Deforestation has no measurable impact on local weather patterns or global temperatures.",
+        "The Amazon rainforest is the only forest with significant influence on global climate systems."
+      ],
+      "answer": 1,
+      "explanation": "The passage details three major mechanisms by which forests regulate climate — carbon sequestration, the water cycle through evapotranspiration, and albedo effects — making climate regulation the central topic.",
+      "wrongReasons": [
+        "The passage focuses on ecological and climate functions of forests, not their economic timber value.",
+        "The passage explicitly states that deforestation disrupts rainfall patterns and increases temperatures, contradicting this choice.",
+        "The passage discusses forests broadly, mentioning the Amazon as one example alongside boreal and temperate forests."
+      ],
+      "passage": {
+        "id": "r36-passage",
+        "title": "How Forests Regulate Climate",
+        "body": "Forests play a critical role in regulating Earth's climate, functioning as vast carbon sinks, water pumps, and temperature moderators. Through photosynthesis, trees absorb carbon dioxide from the atmosphere and store it in their trunks, roots, and soil. This carbon sequestration helps offset human greenhouse gas emissions. When forests are cleared, stored carbon is released, accelerating climate change. Forests also influence the water cycle profoundly. Trees draw water from the soil and release it into the atmosphere through a process called evapotranspiration, generating clouds and rainfall both locally and thousands of kilometres away. The Amazon rainforest, for example, produces what scientists call 'flying rivers' — aerial streams of moisture that bring rain to distant regions of South America. Additionally, forests affect surface albedo, the measure of how much sunlight an area reflects. Dense forest canopies absorb more solar radiation than open land, which influences local and regional temperatures. Boreal forests in the far north, however, may offset some cooling benefits by trapping heat via their low albedo in winter. Protecting and restoring forests is therefore central to climate mitigation strategies worldwide."
+      }
+    },
+    {
+      "id": "r36-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what are 'flying rivers'?",
+      "choices": [
+        "Underground water channels that carry moisture from the Amazon to the Andes mountains.",
+        "Streams of atmospheric moisture produced by the Amazon that carry rain to distant regions.",
+        "Seasonal floods caused by deforestation that travel across South America.",
+        "Rivers that change course due to the weight of large forest canopies above them."
+      ],
+      "answer": 1,
+      "explanation": "The passage defines flying rivers as aerial streams of moisture generated by the Amazon through evapotranspiration that bring rain to distant regions of South America.",
+      "wrongReasons": [
+        "The passage describes flying rivers as aerial, not underground phenomena.",
+        "The passage links flying rivers to evapotranspiration by healthy forests, not to deforestation-caused flooding.",
+        "The passage makes no mention of forest canopies physically affecting river courses."
+      ],
+      "passage": {
+        "id": "r36-passage",
+        "title": "How Forests Regulate Climate",
+        "body": "Forests play a critical role in regulating Earth's climate, functioning as vast carbon sinks, water pumps, and temperature moderators. Through photosynthesis, trees absorb carbon dioxide from the atmosphere and store it in their trunks, roots, and soil. This carbon sequestration helps offset human greenhouse gas emissions. When forests are cleared, stored carbon is released, accelerating climate change. Forests also influence the water cycle profoundly. Trees draw water from the soil and release it into the atmosphere through a process called evapotranspiration, generating clouds and rainfall both locally and thousands of kilometres away. The Amazon rainforest, for example, produces what scientists call 'flying rivers' — aerial streams of moisture that bring rain to distant regions of South America. Additionally, forests affect surface albedo, the measure of how much sunlight an area reflects. Dense forest canopies absorb more solar radiation than open land, which influences local and regional temperatures. Boreal forests in the far north, however, may offset some cooling benefits by trapping heat via their low albedo in winter. Protecting and restoring forests is therefore central to climate mitigation strategies worldwide."
+      }
+    },
+    {
+      "id": "r36-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the climate impact of cutting down boreal forests compared to tropical forests?",
+      "choices": [
+        "Cutting boreal forests would have a greater warming effect than cutting tropical forests in all seasons.",
+        "Cutting tropical forests would likely cause more net warming because tropical forests provide greater cooling through albedo and evapotranspiration.",
+        "Cutting either type of forest would have identical climate impacts because carbon release is the same.",
+        "Cutting boreal forests would actually cool the climate because their low winter albedo currently traps heat."
+      ],
+      "answer": 1,
+      "explanation": "The passage notes that dense tropical forest canopies absorb solar radiation (cooling) and drive evapotranspiration, while boreal forests can trap heat through low albedo in winter, partially offsetting cooling benefits — implying tropical deforestation carries a greater net warming risk.",
+      "wrongReasons": [
+        "The passage suggests boreal forests offset some cooling benefits, meaning their loss may not have as large a warming effect as tropical forests in all scenarios.",
+        "The passage distinguishes the albedo and evapotranspiration properties of different forest types, so their climate impacts would not be identical.",
+        "The passage says boreal forests trap heat through low albedo, meaning their presence — not their removal — has a potential warming effect in winter; removing them would change this dynamic."
+      ],
+      "passage": {
+        "id": "r36-passage",
+        "title": "How Forests Regulate Climate",
+        "body": "Forests play a critical role in regulating Earth's climate, functioning as vast carbon sinks, water pumps, and temperature moderators. Through photosynthesis, trees absorb carbon dioxide from the atmosphere and store it in their trunks, roots, and soil. This carbon sequestration helps offset human greenhouse gas emissions. When forests are cleared, stored carbon is released, accelerating climate change. Forests also influence the water cycle profoundly. Trees draw water from the soil and release it into the atmosphere through a process called evapotranspiration, generating clouds and rainfall both locally and thousands of kilometres away. The Amazon rainforest, for example, produces what scientists call 'flying rivers' — aerial streams of moisture that bring rain to distant regions of South America. Additionally, forests affect surface albedo, the measure of how much sunlight an area reflects. Dense forest canopies absorb more solar radiation than open land, which influences local and regional temperatures. Boreal forests in the far north, however, may offset some cooling benefits by trapping heat via their low albedo in winter. Protecting and restoring forests is therefore central to climate mitigation strategies worldwide."
+      }
+    },
+    {
+      "id": "r36-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"sequestration\" most nearly means:",
+      "choices": [
+        "The gradual release of stored gases back into the atmosphere.",
+        "The scientific measurement of carbon dioxide levels in the air.",
+        "The capture and long-term storage of carbon in trees and soil.",
+        "The conversion of carbon dioxide into oxygen during respiration."
+      ],
+      "answer": 2,
+      "explanation": "The passage uses 'carbon sequestration' to describe trees absorbing CO2 and storing it in trunks, roots, and soil — which is the capture and long-term storage of carbon.",
+      "wrongReasons": [
+        "The passage says sequestration offsets emissions; releasing stored carbon is the opposite, described as what happens when forests are cleared.",
+        "The passage defines sequestration through the mechanism of storage, not the scientific act of measuring CO2 levels.",
+        "The passage associates sequestration with photosynthesis absorbing CO2, not respiration producing oxygen."
+      ],
+      "passage": {
+        "id": "r36-passage",
+        "title": "How Forests Regulate Climate",
+        "body": "Forests play a critical role in regulating Earth's climate, functioning as vast carbon sinks, water pumps, and temperature moderators. Through photosynthesis, trees absorb carbon dioxide from the atmosphere and store it in their trunks, roots, and soil. This carbon sequestration helps offset human greenhouse gas emissions. When forests are cleared, stored carbon is released, accelerating climate change. Forests also influence the water cycle profoundly. Trees draw water from the soil and release it into the atmosphere through a process called evapotranspiration, generating clouds and rainfall both locally and thousands of kilometres away. The Amazon rainforest, for example, produces what scientists call 'flying rivers' — aerial streams of moisture that bring rain to distant regions of South America. Additionally, forests affect surface albedo, the measure of how much sunlight an area reflects. Dense forest canopies absorb more solar radiation than open land, which influences local and regional temperatures. Boreal forests in the far north, however, may offset some cooling benefits by trapping heat via their low albedo in winter. Protecting and restoring forests is therefore central to climate mitigation strategies worldwide."
+      }
+    },
+    {
+      "id": "r36-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author include the detail about boreal forests potentially trapping heat in winter?",
+      "choices": [
+        "To argue that boreal forests should be cut down to prevent unnecessary heat retention.",
+        "To suggest that the relationship between forests and climate is nuanced, and not all forests provide identical climate benefits.",
+        "To prove that carbon sequestration is less important than albedo effects for global climate.",
+        "To show that scientists disagree entirely about whether forests help or harm the climate."
+      ],
+      "answer": 1,
+      "explanation": "By introducing the nuance of boreal forest albedo, the author avoids presenting forests as uniformly beneficial and instead shows that the climate effects of forests are complex and vary by type, strengthening the passage's scientific credibility.",
+      "wrongReasons": [
+        "The passage concludes by advocating for forest protection and restoration, not recommending cutting down boreal forests.",
+        "The passage presents carbon sequestration and albedo as co-existing mechanisms; it does not rank them or argue one outweighs the other.",
+        "The passage presents a scientific consensus about forests' climate role; the boreal detail adds nuance, not fundamental disagreement."
+      ],
+      "passage": {
+        "id": "r36-passage",
+        "title": "How Forests Regulate Climate",
+        "body": "Forests play a critical role in regulating Earth's climate, functioning as vast carbon sinks, water pumps, and temperature moderators. Through photosynthesis, trees absorb carbon dioxide from the atmosphere and store it in their trunks, roots, and soil. This carbon sequestration helps offset human greenhouse gas emissions. When forests are cleared, stored carbon is released, accelerating climate change. Forests also influence the water cycle profoundly. Trees draw water from the soil and release it into the atmosphere through a process called evapotranspiration, generating clouds and rainfall both locally and thousands of kilometres away. The Amazon rainforest, for example, produces what scientists call 'flying rivers' — aerial streams of moisture that bring rain to distant regions of South America. Additionally, forests affect surface albedo, the measure of how much sunlight an area reflects. Dense forest canopies absorb more solar radiation than open land, which influences local and regional temperatures. Boreal forests in the far north, however, may offset some cooling benefits by trapping heat via their low albedo in winter. Protecting and restoring forests is therefore central to climate mitigation strategies worldwide."
+      }
+    },
+    {
+      "id": "r37-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Education spending always leads to economic growth, regardless of how funds are used.",
+        "Higher education is the only type of schooling with measurable economic returns.",
+        "Education generates both private financial returns and broader social and economic benefits, making it a sound investment.",
+        "Governments should reduce education funding because private individuals bear the costs of schooling."
+      ],
+      "answer": 2,
+      "explanation": "The passage argues that education yields returns at both the individual level (higher wages) and the societal level (growth, innovation, civic engagement), presenting it as a valuable investment overall.",
+      "wrongReasons": [
+        "The passage notes diminishing returns and equity concerns, acknowledging that spending alone does not guarantee growth.",
+        "The passage discusses all levels of schooling and their returns, including primary education, not only higher education.",
+        "The passage presents a case for public investment in education based on its social benefits, not an argument for reducing government funding."
+      ],
+      "passage": {
+        "id": "r37-passage",
+        "title": "The Economics of Education",
+        "body": "Economists have long studied education as an investment rather than merely a cultural good. At the individual level, each additional year of schooling is associated with higher lifetime earnings. This relationship, formalised in human capital theory, suggests that education raises workers' productivity, making them more valuable to employers. Returns vary by level: primary education typically yields the highest returns in developing economies, while higher education offers the greatest premium in advanced economies. At the societal level, educated populations are linked to stronger economic growth, greater innovation, and improved public health outcomes. Education also plays a role in civic life, with higher levels of schooling correlating with greater political participation and lower crime rates. However, the economics of education are not without complications. Rising tuition costs and student debt burdens raise questions about accessibility and equity. Some researchers argue that credential inflation — the tendency for qualification requirements to rise without corresponding increases in skill demands — reduces the net benefit of expanded higher education. Despite these concerns, the consensus among economists is that well-targeted educational investment remains one of the most reliable drivers of long-term prosperity."
+      }
+    },
+    {
+      "id": "r37-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, where do primary education returns tend to be highest?",
+      "choices": [
+        "In advanced economies with well-developed technology sectors.",
+        "In countries that invest heavily in university research programs.",
+        "In developing economies, where basic literacy and numeracy have transformative effects.",
+        "In regions where credential inflation is most pronounced."
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that primary education typically yields the highest returns in developing economies, while higher education offers the greatest premium in advanced ones.",
+      "wrongReasons": [
+        "The passage associates higher education premiums with advanced economies, not primary education returns.",
+        "The passage does not link primary education returns to university research investment.",
+        "The passage presents credential inflation as a problem in higher education, not as a context where primary education returns are highest."
+      ],
+      "passage": {
+        "id": "r37-passage",
+        "title": "The Economics of Education",
+        "body": "Economists have long studied education as an investment rather than merely a cultural good. At the individual level, each additional year of schooling is associated with higher lifetime earnings. This relationship, formalised in human capital theory, suggests that education raises workers' productivity, making them more valuable to employers. Returns vary by level: primary education typically yields the highest returns in developing economies, while higher education offers the greatest premium in advanced economies. At the societal level, educated populations are linked to stronger economic growth, greater innovation, and improved public health outcomes. Education also plays a role in civic life, with higher levels of schooling correlating with greater political participation and lower crime rates. However, the economics of education are not without complications. Rising tuition costs and student debt burdens raise questions about accessibility and equity. Some researchers argue that credential inflation — the tendency for qualification requirements to rise without corresponding increases in skill demands — reduces the net benefit of expanded higher education. Despite these concerns, the consensus among economists is that well-targeted educational investment remains one of the most reliable drivers of long-term prosperity."
+      }
+    },
+    {
+      "id": "r37-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about credential inflation from the passage?",
+      "choices": [
+        "It benefits students by ensuring that degrees signal genuine increases in worker skill.",
+        "It is welcomed by employers because it gives them more qualified candidates to choose from.",
+        "It may reduce the value of higher education by raising qualification requirements beyond actual skill needs.",
+        "It is caused primarily by rising tuition fees making degrees unaffordable."
+      ],
+      "answer": 2,
+      "explanation": "The passage defines credential inflation as qualification requirements rising without corresponding skill demand increases, and states that researchers argue this reduces the net benefit of expanded higher education — implying the degree loses some of its value signal.",
+      "wrongReasons": [
+        "Credential inflation is described as requirements rising without genuine skill increases, so degrees would not reliably signal real skill gains.",
+        "The passage frames credential inflation as a concern reducing net benefit, not as something welcomed by employers.",
+        "The passage presents rising tuition and credential inflation as separate concerns; it does not causally link tuition to credential inflation."
+      ],
+      "passage": {
+        "id": "r37-passage",
+        "title": "The Economics of Education",
+        "body": "Economists have long studied education as an investment rather than merely a cultural good. At the individual level, each additional year of schooling is associated with higher lifetime earnings. This relationship, formalised in human capital theory, suggests that education raises workers' productivity, making them more valuable to employers. Returns vary by level: primary education typically yields the highest returns in developing economies, while higher education offers the greatest premium in advanced economies. At the societal level, educated populations are linked to stronger economic growth, greater innovation, and improved public health outcomes. Education also plays a role in civic life, with higher levels of schooling correlating with greater political participation and lower crime rates. However, the economics of education are not without complications. Rising tuition costs and student debt burdens raise questions about accessibility and equity. Some researchers argue that credential inflation — the tendency for qualification requirements to rise without corresponding increases in skill demands — reduces the net benefit of expanded higher education. Despite these concerns, the consensus among economists is that well-targeted educational investment remains one of the most reliable drivers of long-term prosperity."
+      }
+    },
+    {
+      "id": "r37-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"premium\" most nearly means:",
+      "choices": [
+        "A fee charged for luxury educational services above standard tuition.",
+        "An additional financial advantage or earnings boost.",
+        "A government subsidy provided to encourage higher education enrollment.",
+        "A penalty applied to workers without advanced qualifications."
+      ],
+      "answer": 1,
+      "explanation": "In context, 'higher education offers the greatest premium in advanced economies' means that advanced degrees provide the largest additional earnings advantage in those settings.",
+      "wrongReasons": [
+        "The passage uses premium to describe an earnings advantage, not a fee charged for services.",
+        "The passage does not mention government subsidies in this sentence; premium refers to economic returns.",
+        "A premium is described as something higher education offers (a benefit), not a penalty imposed on workers."
+      ],
+      "passage": {
+        "id": "r37-passage",
+        "title": "The Economics of Education",
+        "body": "Economists have long studied education as an investment rather than merely a cultural good. At the individual level, each additional year of schooling is associated with higher lifetime earnings. This relationship, formalised in human capital theory, suggests that education raises workers' productivity, making them more valuable to employers. Returns vary by level: primary education typically yields the highest returns in developing economies, while higher education offers the greatest premium in advanced economies. At the societal level, educated populations are linked to stronger economic growth, greater innovation, and improved public health outcomes. Education also plays a role in civic life, with higher levels of schooling correlating with greater political participation and lower crime rates. However, the economics of education are not without complications. Rising tuition costs and student debt burdens raise questions about accessibility and equity. Some researchers argue that credential inflation — the tendency for qualification requirements to rise without corresponding increases in skill demands — reduces the net benefit of expanded higher education. Despite these concerns, the consensus among economists is that well-targeted educational investment remains one of the most reliable drivers of long-term prosperity."
+      }
+    },
+    {
+      "id": "r37-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author use the phrase 'well-targeted educational investment' in the final sentence rather than simply 'educational investment'?",
+      "choices": [
+        "To suggest that only investment in mathematics and science education produces economic returns.",
+        "To acknowledge the complications raised earlier and indicate that the benefits of education depend on how funds are allocated.",
+        "To argue that private investment in education is more effective than public funding.",
+        "To imply that developing economies should not invest in higher education at all."
+      ],
+      "answer": 1,
+      "explanation": "Having discussed credential inflation, equity concerns, and rising costs, the author qualifies the conclusion with 'well-targeted' to signal that not all education spending is equally effective — the benefits depend on directing resources wisely.",
+      "wrongReasons": [
+        "The passage discusses broad education benefits including civic and health outcomes, not only STEM subjects.",
+        "The passage does not distinguish private from public investment in its conclusion; the qualifier addresses targeting, not funding source.",
+        "The passage notes primary education yields the highest returns in developing economies, implying investment there is valuable, not that it should be avoided."
+      ],
+      "passage": {
+        "id": "r37-passage",
+        "title": "The Economics of Education",
+        "body": "Economists have long studied education as an investment rather than merely a cultural good. At the individual level, each additional year of schooling is associated with higher lifetime earnings. This relationship, formalised in human capital theory, suggests that education raises workers' productivity, making them more valuable to employers. Returns vary by level: primary education typically yields the highest returns in developing economies, while higher education offers the greatest premium in advanced economies. At the societal level, educated populations are linked to stronger economic growth, greater innovation, and improved public health outcomes. Education also plays a role in civic life, with higher levels of schooling correlating with greater political participation and lower crime rates. However, the economics of education are not without complications. Rising tuition costs and student debt burdens raise questions about accessibility and equity. Some researchers argue that credential inflation — the tendency for qualification requirements to rise without corresponding increases in skill demands — reduces the net benefit of expanded higher education. Despite these concerns, the consensus among economists is that well-targeted educational investment remains one of the most reliable drivers of long-term prosperity."
+      }
+    }
+  ]
+}

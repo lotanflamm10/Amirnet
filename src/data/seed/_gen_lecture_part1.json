@@ -1,0 +1,770 @@
+[
+  {
+    "id": "l13-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "What is the main purpose of this lecture?",
+    "choices": [
+      "To explain how food production contributes to carbon emissions",
+      "To persuade students to become vegetarian",
+      "To compare the nutritional value of different diets",
+      "To describe how supermarkets reduce waste"
+    ],
+    "answer": 0,
+    "explanation": "The professor opens by stating the lecture will cover how the food we eat leaves a carbon footprint, and the entire talk develops that theme.",
+    "wrongReasons": [
+      "B: vegetarianism is mentioned as one implication but is not the lecture's purpose",
+      "C: nutrition is never discussed",
+      "D: supermarket waste is not mentioned"
+    ],
+    "passage": {
+      "id": "l13-passage",
+      "title": "Lecture: The Carbon Footprint of Food",
+      "body": "Professor: Most people think about carbon emissions in terms of cars or factories, but today I want to focus on something closer to home — the food on your plate. Every item you eat has what we call a carbon footprint: the total greenhouse gases released during its production, transport, and disposal. Red meat, especially beef, has the largest footprint of any common food. Producing one kilogram of beef releases roughly 27 kilograms of CO₂-equivalent gases, largely because cattle produce methane and require enormous amounts of land and water. Vegetables and legumes, by contrast, emit a fraction of that. Then there is transport — flying fresh strawberries from Chile to Germany in winter adds significantly to their footprint. And food waste is a major factor too; roughly one third of all food produced globally is never eaten, meaning those emissions were entirely pointless. So when we talk about reducing our personal carbon footprint, diet is one of the most powerful levers we have."
+    }
+  },
+  {
+    "id": "l13-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "According to the professor, approximately how much CO₂-equivalent is released per kilogram of beef?",
+    "choices": [
+      "3 kilograms",
+      "10 kilograms",
+      "27 kilograms",
+      "50 kilograms"
+    ],
+    "answer": 2,
+    "explanation": "The professor explicitly states 'producing one kilogram of beef releases roughly 27 kilograms of CO₂-equivalent gases.'",
+    "wrongReasons": [
+      "A: 3 kg is not mentioned",
+      "B: 10 kg is not mentioned",
+      "D: 50 kg is not mentioned"
+    ],
+    "passage": {
+      "id": "l13-passage",
+      "title": "Lecture: The Carbon Footprint of Food",
+      "body": "Professor: Most people think about carbon emissions in terms of cars or factories, but today I want to focus on something closer to home — the food on your plate. Every item you eat has what we call a carbon footprint: the total greenhouse gases released during its production, transport, and disposal. Red meat, especially beef, has the largest footprint of any common food. Producing one kilogram of beef releases roughly 27 kilograms of CO₂-equivalent gases, largely because cattle produce methane and require enormous amounts of land and water. Vegetables and legumes, by contrast, emit a fraction of that. Then there is transport — flying fresh strawberries from Chile to Germany in winter adds significantly to their footprint. And food waste is a major factor too; roughly one third of all food produced globally is never eaten, meaning those emissions were entirely pointless. So when we talk about reducing our personal carbon footprint, diet is one of the most powerful levers we have."
+    }
+  },
+  {
+    "id": "l13-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What is the professor's attitude toward food waste?",
+    "choices": [
+      "Resigned — it is an unavoidable part of modern agriculture",
+      "Critical — the associated emissions are needlessly produced",
+      "Optimistic — new technologies will soon eliminate it",
+      "Neutral — it is just one small factor among many"
+    ],
+    "answer": 1,
+    "explanation": "The professor calls the emissions from wasted food 'entirely pointless,' signalling clear criticism rather than resignation or optimism.",
+    "wrongReasons": [
+      "A: the professor does not frame it as unavoidable",
+      "C: no technology solution is mentioned",
+      "D: the word 'pointless' conveys strong negative judgment, not neutrality"
+    ],
+    "passage": {
+      "id": "l13-passage",
+      "title": "Lecture: The Carbon Footprint of Food",
+      "body": "Professor: Most people think about carbon emissions in terms of cars or factories, but today I want to focus on something closer to home — the food on your plate. Every item you eat has what we call a carbon footprint: the total greenhouse gases released during its production, transport, and disposal. Red meat, especially beef, has the largest footprint of any common food. Producing one kilogram of beef releases roughly 27 kilograms of CO₂-equivalent gases, largely because cattle produce methane and require enormous amounts of land and water. Vegetables and legumes, by contrast, emit a fraction of that. Then there is transport — flying fresh strawberries from Chile to Germany in winter adds significantly to their footprint. And food waste is a major factor too; roughly one third of all food produced globally is never eaten, meaning those emissions were entirely pointless. So when we talk about reducing our personal carbon footprint, diet is one of the most powerful levers we have."
+    }
+  },
+  {
+    "id": "l13-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "Why does the professor mention strawberries flown from Chile to Germany?",
+    "choices": [
+      "To illustrate the role of transport in a food's carbon footprint",
+      "To argue that imported fruit should be banned",
+      "To show that fruit has a higher footprint than beef",
+      "To introduce the topic of seasonal eating as healthier"
+    ],
+    "answer": 0,
+    "explanation": "The strawberry example immediately follows the discussion of transport costs and serves as a concrete illustration of how flying food long distances increases its footprint.",
+    "wrongReasons": [
+      "B: no ban is suggested",
+      "C: the lecture states beef has the largest footprint",
+      "D: health is not discussed"
+    ],
+    "passage": {
+      "id": "l13-passage",
+      "title": "Lecture: The Carbon Footprint of Food",
+      "body": "Professor: Most people think about carbon emissions in terms of cars or factories, but today I want to focus on something closer to home — the food on your plate. Every item you eat has what we call a carbon footprint: the total greenhouse gases released during its production, transport, and disposal. Red meat, especially beef, has the largest footprint of any common food. Producing one kilogram of beef releases roughly 27 kilograms of CO₂-equivalent gases, largely because cattle produce methane and require enormous amounts of land and water. Vegetables and legumes, by contrast, emit a fraction of that. Then there is transport — flying fresh strawberries from Chile to Germany in winter adds significantly to their footprint. And food waste is a major factor too; roughly one third of all food produced globally is never eaten, meaning those emissions were entirely pointless. So when we talk about reducing our personal carbon footprint, diet is one of the most powerful levers we have."
+    }
+  },
+  {
+    "id": "l14-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "What is the main topic of the conversation?",
+    "choices": [
+      "How the student can better manage academic stress",
+      "Why the student failed a recent examination",
+      "How to apply for a medical leave of absence",
+      "Which courses the student should drop"
+    ],
+    "answer": 0,
+    "explanation": "The advisor opens by asking about the student's stress levels, and the whole conversation focuses on strategies for coping with academic pressure.",
+    "wrongReasons": [
+      "B: no exam failure is mentioned",
+      "C: medical leave is not discussed",
+      "D: dropping courses is never proposed"
+    ],
+    "passage": {
+      "id": "l14-passage",
+      "title": "Campus Conversation: Managing Academic Stress",
+      "body": "Advisor: Hi, come in. You mentioned in your email that things have been feeling overwhelming lately. Can you tell me more? Student: Yeah, I've got three major deadlines this week, and I honestly don't know where to start. I haven't been sleeping well either. Advisor: That's a really common pattern — when stress peaks, sleep suffers, and then everything feels harder. Have you tried breaking those deadlines down into smaller daily tasks? Student: Not really. I usually just stare at the whole project and panic. Advisor: That's the problem right there. Big tasks feel unmanageable until you chunk them. Try listing every single step needed — even tiny ones like 'open document' — and tick them off. The sense of progress helps. Student: What about the sleep side? Advisor: Avoid screens for an hour before bed, keep a consistent wake time even on weekends, and if your mind races at night, write your worries down on paper before you sleep. It externalises the anxiety. Student: Okay, that actually sounds doable. Advisor: Good. Come back and see me next week and we'll check in."
+    }
+  },
+  {
+    "id": "l14-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What specific sleep advice does the advisor give?",
+    "choices": [
+      "Take a short nap every afternoon",
+      "Avoid screens for an hour before bed and keep a consistent wake time",
+      "Use sleeping pills if the mind races at night",
+      "Sleep for at least nine hours each night"
+    ],
+    "answer": 1,
+    "explanation": "The advisor explicitly lists: avoid screens an hour before bed, keep a consistent wake time, and write worries down. The first two match choice B.",
+    "wrongReasons": [
+      "A: naps are not mentioned",
+      "C: medication is never suggested",
+      "D: a specific hour count is not given"
+    ],
+    "passage": {
+      "id": "l14-passage",
+      "title": "Campus Conversation: Managing Academic Stress",
+      "body": "Advisor: Hi, come in. You mentioned in your email that things have been feeling overwhelming lately. Can you tell me more? Student: Yeah, I've got three major deadlines this week, and I honestly don't know where to start. I haven't been sleeping well either. Advisor: That's a really common pattern — when stress peaks, sleep suffers, and then everything feels harder. Have you tried breaking those deadlines down into smaller daily tasks? Student: Not really. I usually just stare at the whole project and panic. Advisor: That's the problem right there. Big tasks feel unmanageable until you chunk them. Try listing every single step needed — even tiny ones like 'open document' — and tick them off. The sense of progress helps. Student: What about the sleep side? Advisor: Avoid screens for an hour before bed, keep a consistent wake time even on weekends, and if your mind races at night, write your worries down on paper before you sleep. It externalises the anxiety. Student: Okay, that actually sounds doable. Advisor: Good. Come back and see me next week and we'll check in."
+    }
+  },
+  {
+    "id": "l14-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What does the advisor imply when suggesting that writing worries down 'externalises the anxiety'?",
+    "choices": [
+      "Writing makes the student share problems with others",
+      "Moving worries onto paper frees the mind from holding them",
+      "The student should show the written list to a counsellor",
+      "Writing increases awareness of how many worries one has"
+    ],
+    "answer": 1,
+    "explanation": "To externalise means to move something outside oneself; in this context the advisor means transferring mental worries to paper so the brain no longer has to hold onto them, reducing nighttime racing thoughts.",
+    "wrongReasons": [
+      "A: sharing with others is not implied",
+      "C: showing the list to anyone is not mentioned",
+      "D: awareness of quantity is not the point being made"
+    ],
+    "passage": {
+      "id": "l14-passage",
+      "title": "Campus Conversation: Managing Academic Stress",
+      "body": "Advisor: Hi, come in. You mentioned in your email that things have been feeling overwhelming lately. Can you tell me more? Student: Yeah, I've got three major deadlines this week, and I honestly don't know where to start. I haven't been sleeping well either. Advisor: That's a really common pattern — when stress peaks, sleep suffers, and then everything feels harder. Have you tried breaking those deadlines down into smaller daily tasks? Student: Not really. I usually just stare at the whole project and panic. Advisor: That's the problem right there. Big tasks feel unmanageable until you chunk them. Try listing every single step needed — even tiny ones like 'open document' — and tick them off. The sense of progress helps. Student: What about the sleep side? Advisor: Avoid screens for an hour before bed, keep a consistent wake time even on weekends, and if your mind races at night, write your worries down on paper before you sleep. It externalises the anxiety. Student: Okay, that actually sounds doable. Advisor: Good. Come back and see me next week and we'll check in."
+    }
+  },
+  {
+    "id": "l14-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "How does the advisor organise the advice given in the conversation?",
+    "choices": [
+      "By moving from long-term strategies to immediate fixes",
+      "By addressing the student's two stated problems in the order they were raised",
+      "By presenting the most important strategy last for emphasis",
+      "By listing all strategies at once and then explaining each"
+    ],
+    "answer": 1,
+    "explanation": "The student first raises deadline overwhelm, then sleep problems. The advisor addresses each in exactly that order: task-chunking for deadlines, then sleep hygiene advice.",
+    "wrongReasons": [
+      "A: both strategies are short-term; no long-term/immediate distinction is made",
+      "C: there is no climactic final strategy",
+      "D: strategies are not listed in a block first"
+    ],
+    "passage": {
+      "id": "l14-passage",
+      "title": "Campus Conversation: Managing Academic Stress",
+      "body": "Advisor: Hi, come in. You mentioned in your email that things have been feeling overwhelming lately. Can you tell me more? Student: Yeah, I've got three major deadlines this week, and I honestly don't know where to start. I haven't been sleeping well either. Advisor: That's a really common pattern — when stress peaks, sleep suffers, and then everything feels harder. Have you tried breaking those deadlines down into smaller daily tasks? Student: Not really. I usually just stare at the whole project and panic. Advisor: That's the problem right there. Big tasks feel unmanageable until you chunk them. Try listing every single step needed — even tiny ones like 'open document' — and tick them off. The sense of progress helps. Student: What about the sleep side? Advisor: Avoid screens for an hour before bed, keep a consistent wake time even on weekends, and if your mind races at night, write your worries down on paper before you sleep. It externalises the anxiety. Student: Okay, that actually sounds doable. Advisor: Good. Come back and see me next week and we'll check in."
+    }
+  },
+  {
+    "id": "l15-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "What is the lecture mainly about?",
+    "choices": [
+      "The stages of sleep and why dreaming occurs",
+      "How the brain consolidates memories during sleep",
+      "The effects of sleep deprivation on academic performance",
+      "How to improve sleep quality through behavioural changes"
+    ],
+    "answer": 1,
+    "explanation": "The professor explicitly states the lecture is about memory consolidation during sleep, and every part of the talk develops that concept.",
+    "wrongReasons": [
+      "A: dreaming is not the focus; it is mentioned only in passing",
+      "C: sleep deprivation is not discussed",
+      "D: behavioural sleep tips are not given"
+    ],
+    "passage": {
+      "id": "l15-passage",
+      "title": "Lecture: How Memory Consolidation Works During Sleep",
+      "body": "Professor: Today we're looking at one of the most fascinating functions of sleep — memory consolidation. When you learn something new during the day, the memory is initially fragile and stored in the hippocampus, a region of the brain associated with short-term storage. During sleep, especially during the slow-wave stages, the hippocampus essentially replays those memories and transfers them to the neocortex for long-term storage. Think of it like moving files from a temporary folder to permanent storage on a hard drive. REM sleep — the stage where most dreaming occurs — also plays a role, particularly in consolidating emotional memories and procedural skills like riding a bike or playing an instrument. This is why sleep-deprived students often find that material they studied the night before feels hazier the next morning. The consolidation process simply didn't complete. One practical implication: studying then sleeping is far more effective than an all-night revision session, because the brain needs sleep to cement what it has learned."
+    }
+  },
+  {
+    "id": "l15-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "According to the professor, where are new memories initially stored?",
+    "choices": [
+      "The neocortex",
+      "The prefrontal cortex",
+      "The hippocampus",
+      "The amygdala"
+    ],
+    "answer": 2,
+    "explanation": "The professor states that newly learned memories 'are initially fragile and stored in the hippocampus.'",
+    "wrongReasons": [
+      "A: the neocortex is the destination after consolidation, not initial storage",
+      "B: the prefrontal cortex is not mentioned",
+      "D: the amygdala is not mentioned"
+    ],
+    "passage": {
+      "id": "l15-passage",
+      "title": "Lecture: How Memory Consolidation Works During Sleep",
+      "body": "Professor: Today we're looking at one of the most fascinating functions of sleep — memory consolidation. When you learn something new during the day, the memory is initially fragile and stored in the hippocampus, a region of the brain associated with short-term storage. During sleep, especially during the slow-wave stages, the hippocampus essentially replays those memories and transfers them to the neocortex for long-term storage. Think of it like moving files from a temporary folder to permanent storage on a hard drive. REM sleep — the stage where most dreaming occurs — also plays a role, particularly in consolidating emotional memories and procedural skills like riding a bike or playing an instrument. This is why sleep-deprived students often find that material they studied the night before feels hazier the next morning. The consolidation process simply didn't complete. One practical implication: studying then sleeping is far more effective than an all-night revision session, because the brain needs sleep to cement what it has learned."
+    }
+  },
+  {
+    "id": "l15-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What does the professor most likely think about all-night study sessions?",
+    "choices": [
+      "They are effective if the material is reviewed again in the morning",
+      "They are counterproductive because the consolidation process cannot complete",
+      "They are acceptable for procedural skills but not for factual knowledge",
+      "They cause permanent damage to the hippocampus"
+    ],
+    "answer": 1,
+    "explanation": "The professor directly states that studying then sleeping 'is far more effective than an all-night revision session, because the brain needs sleep to cement what it has learned,' implying all-nighters are counterproductive.",
+    "wrongReasons": [
+      "A: morning review as a fix is not mentioned",
+      "C: no such distinction between skill types is made",
+      "D: permanent damage is never claimed"
+    ],
+    "passage": {
+      "id": "l15-passage",
+      "title": "Lecture: How Memory Consolidation Works During Sleep",
+      "body": "Professor: Today we're looking at one of the most fascinating functions of sleep — memory consolidation. When you learn something new during the day, the memory is initially fragile and stored in the hippocampus, a region of the brain associated with short-term storage. During sleep, especially during the slow-wave stages, the hippocampus essentially replays those memories and transfers them to the neocortex for long-term storage. Think of it like moving files from a temporary folder to permanent storage on a hard drive. REM sleep — the stage where most dreaming occurs — also plays a role, particularly in consolidating emotional memories and procedural skills like riding a bike or playing an instrument. This is why sleep-deprived students often find that material they studied the night before feels hazier the next morning. The consolidation process simply didn't complete. One practical implication: studying then sleeping is far more effective than an all-night revision session, because the brain needs sleep to cement what it has learned."
+    }
+  },
+  {
+    "id": "l15-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "What is the purpose of the hard-drive analogy in the lecture?",
+    "choices": [
+      "To suggest that the brain has a limited storage capacity that can be expanded",
+      "To make the abstract process of memory transfer between brain regions easier to visualise",
+      "To argue that digital technology can replicate human memory",
+      "To introduce a contrast between short-term and long-term thinking styles"
+    ],
+    "answer": 1,
+    "explanation": "The professor uses the analogy — 'moving files from a temporary folder to permanent storage' — immediately after explaining hippocampus-to-neocortex transfer, clearly to clarify that abstract neurological process.",
+    "wrongReasons": [
+      "A: brain storage limits are not discussed",
+      "C: digital replication of memory is not the point",
+      "D: thinking styles are not compared"
+    ],
+    "passage": {
+      "id": "l15-passage",
+      "title": "Lecture: How Memory Consolidation Works During Sleep",
+      "body": "Professor: Today we're looking at one of the most fascinating functions of sleep — memory consolidation. When you learn something new during the day, the memory is initially fragile and stored in the hippocampus, a region of the brain associated with short-term storage. During sleep, especially during the slow-wave stages, the hippocampus essentially replays those memories and transfers them to the neocortex for long-term storage. Think of it like moving files from a temporary folder to permanent storage on a hard drive. REM sleep — the stage where most dreaming occurs — also plays a role, particularly in consolidating emotional memories and procedural skills like riding a bike or playing an instrument. This is why sleep-deprived students often find that material they studied the night before feels hazier the next morning. The consolidation process simply didn't complete. One practical implication: studying then sleeping is far more effective than an all-night revision session, because the brain needs sleep to cement what it has learned."
+    }
+  },
+  {
+    "id": "l16-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "Why has the student come to office hours?",
+    "choices": [
+      "To get help choosing between qualitative and quantitative research methods",
+      "To ask for an extension on the research paper deadline",
+      "To discuss feedback on a previously submitted draft",
+      "To learn how to format citations correctly"
+    ],
+    "answer": 0,
+    "explanation": "The student opens by saying he cannot decide between qualitative and quantitative approaches for his project, and the professor guides him through that choice.",
+    "wrongReasons": [
+      "B: no extension request is made",
+      "C: no draft has been submitted",
+      "D: citations are never mentioned"
+    ],
+    "passage": {
+      "id": "l16-passage",
+      "title": "Office Hours: Choosing a Research Methodology",
+      "body": "Student: Professor, I'm stuck on the methodology section. I can't decide whether to go qualitative or quantitative for my project on student attitudes to online learning. Professor: Good question. What's your core research question? Student: I want to understand why students prefer or avoid online classes — the reasons behind it. Professor: In that case, qualitative is almost certainly the better fit. When you're trying to understand the 'why' behind human behaviour — motivations, feelings, interpretations — qualitative methods like interviews or focus groups give you depth that a survey never can. Student: But wouldn't a survey reach more people? Professor: It would, but you'd end up with numbers telling you how many students feel a certain way, not why they feel that way. Quantitative is great for measuring and comparing; qualitative is great for understanding and exploring. Since you haven't done prior research establishing what factors matter, you need the exploratory depth first. Student: That makes sense. So interviews? Professor: Probably semi-structured interviews — gives you a guide but lets the conversation go where it needs to. Aim for around twelve to fifteen participants. Student: Perfect, thanks."
+    }
+  },
+  {
+    "id": "l16-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What type of interviews does the professor recommend, and how many participants?",
+    "choices": [
+      "Structured interviews with at least 30 participants",
+      "Unstructured interviews with 5 to 8 participants",
+      "Semi-structured interviews with around 12 to 15 participants",
+      "Focus groups with 20 to 25 participants"
+    ],
+    "answer": 2,
+    "explanation": "The professor explicitly recommends 'semi-structured interviews' and says to 'aim for around twelve to fifteen participants.'",
+    "wrongReasons": [
+      "A: structured interviews and 30 participants are not mentioned",
+      "B: unstructured interviews and 5–8 participants are not mentioned",
+      "D: focus groups are mentioned as an example of qualitative methods generally, not the specific recommendation"
+    ],
+    "passage": {
+      "id": "l16-passage",
+      "title": "Office Hours: Choosing a Research Methodology",
+      "body": "Student: Professor, I'm stuck on the methodology section. I can't decide whether to go qualitative or quantitative for my project on student attitudes to online learning. Professor: Good question. What's your core research question? Student: I want to understand why students prefer or avoid online classes — the reasons behind it. Professor: In that case, qualitative is almost certainly the better fit. When you're trying to understand the 'why' behind human behaviour — motivations, feelings, interpretations — qualitative methods like interviews or focus groups give you depth that a survey never can. Student: But wouldn't a survey reach more people? Professor: It would, but you'd end up with numbers telling you how many students feel a certain way, not why they feel that way. Quantitative is great for measuring and comparing; qualitative is great for understanding and exploring. Since you haven't done prior research establishing what factors matter, you need the exploratory depth first. Student: That makes sense. So interviews? Professor: Probably semi-structured interviews — gives you a guide but lets the conversation go where it needs to. Aim for around twelve to fifteen participants. Student: Perfect, thanks."
+    }
+  },
+  {
+    "id": "l16-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What is the professor's view of quantitative methods for this particular project?",
+    "choices": [
+      "They are inappropriate for any student-related research",
+      "They would provide numbers but not the depth of explanation the project needs",
+      "They are more rigorous and should be combined with qualitative methods",
+      "They are only suitable for large-scale national studies"
+    ],
+    "answer": 1,
+    "explanation": "The professor acknowledges surveys reach more people but says they produce numbers about how many feel a way — not why — and that the project needs exploratory depth, making quantitative insufficient here.",
+    "wrongReasons": [
+      "A: quantitative is not dismissed for all student research",
+      "C: mixed methods is not suggested",
+      "D: scale is not given as the criterion"
+    ],
+    "passage": {
+      "id": "l16-passage",
+      "title": "Office Hours: Choosing a Research Methodology",
+      "body": "Student: Professor, I'm stuck on the methodology section. I can't decide whether to go qualitative or quantitative for my project on student attitudes to online learning. Professor: Good question. What's your core research question? Student: I want to understand why students prefer or avoid online classes — the reasons behind it. Professor: In that case, qualitative is almost certainly the better fit. When you're trying to understand the 'why' behind human behaviour — motivations, feelings, interpretations — qualitative methods like interviews or focus groups give you depth that a survey never can. Student: But wouldn't a survey reach more people? Professor: It would, but you'd end up with numbers telling you how many students feel a certain way, not why they feel that way. Quantitative is great for measuring and comparing; qualitative is great for understanding and exploring. Since you haven't done prior research establishing what factors matter, you need the exploratory depth first. Student: That makes sense. So interviews? Professor: Probably semi-structured interviews — gives you a guide but lets the conversation go where it needs to. Aim for around twelve to fifteen participants. Student: Perfect, thanks."
+    }
+  },
+  {
+    "id": "l16-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "What does the professor imply by saying the student has not 'done prior research establishing what factors matter'?",
+    "choices": [
+      "The student needs to read more academic articles before starting",
+      "Because the relevant variables are unknown, an exploratory method is needed before measurement",
+      "The student's topic has not been studied before and is therefore too risky",
+      "A literature review must be completed before any interviews can begin"
+    ],
+    "answer": 1,
+    "explanation": "The professor uses the absence of prior work as a reason to choose exploratory (qualitative) methods: you must first discover which factors matter before you can measure them quantitatively.",
+    "wrongReasons": [
+      "A: more reading is not the conclusion drawn",
+      "C: risk is not implied; novelty supports qualitative choice",
+      "D: a literature review is not mentioned as a prerequisite"
+    ],
+    "passage": {
+      "id": "l16-passage",
+      "title": "Office Hours: Choosing a Research Methodology",
+      "body": "Student: Professor, I'm stuck on the methodology section. I can't decide whether to go qualitative or quantitative for my project on student attitudes to online learning. Professor: Good question. What's your core research question? Student: I want to understand why students prefer or avoid online classes — the reasons behind it. Professor: In that case, qualitative is almost certainly the better fit. When you're trying to understand the 'why' behind human behaviour — motivations, feelings, interpretations — qualitative methods like interviews or focus groups give you depth that a survey never can. Student: But wouldn't a survey reach more people? Professor: It would, but you'd end up with numbers telling you how many students feel a certain way, not why they feel that way. Quantitative is great for measuring and comparing; qualitative is great for understanding and exploring. Since you haven't done prior research establishing what factors matter, you need the exploratory depth first. Student: That makes sense. So interviews? Professor: Probably semi-structured interviews — gives you a guide but lets the conversation go where it needs to. Aim for around twelve to fifteen participants. Student: Perfect, thanks."
+    }
+  },
+  {
+    "id": "l17-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "What is the main purpose of the lecture?",
+    "choices": [
+      "To trace the key stages in the development of the internet",
+      "To explain the technical protocols that power the web",
+      "To argue that the internet has had a negative effect on society",
+      "To compare the internet with earlier communication technologies"
+    ],
+    "answer": 0,
+    "explanation": "The professor says they will cover 'the key stages' in the history of the internet, and the lecture moves chronologically through those stages.",
+    "wrongReasons": [
+      "B: technical protocols are only briefly named, not the focus",
+      "C: no negative argument is made",
+      "D: earlier technologies are mentioned only as brief context"
+    ],
+    "passage": {
+      "id": "l17-passage",
+      "title": "Lecture: The History of the Internet",
+      "body": "Professor: The internet is so embedded in our lives that it is easy to forget it is a relatively recent invention. Today I want to trace its key stages. It starts in 1969 with ARPANET, a US Defence Department project that linked four university computers together — the first network. Through the 1970s, email was invented and the TCP/IP protocol was developed, essentially creating the shared language that lets computers communicate. The 1980s saw the network expand to universities worldwide, and in 1989 Tim Berners-Lee proposed the World Wide Web — a system of linked documents running on top of the internet. Many people confuse the web with the internet, but the web is just one application that uses the internet infrastructure. The 1990s brought commercial internet access, web browsers, and the dot-com boom. By the 2000s, broadband replaced dial-up, social media emerged, and smartphones made internet access mobile. Today we are entering a phase of ubiquitous connectivity — the Internet of Things — where everyday objects from fridges to traffic lights are networked. The story is still being written."
+    }
+  },
+  {
+    "id": "l17-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "Who proposed the World Wide Web, and in which year?",
+    "choices": [
+      "Vint Cerf, in 1973",
+      "Tim Berners-Lee, in 1989",
+      "Bill Gates, in 1991",
+      "Tim Berners-Lee, in 1995"
+    ],
+    "answer": 1,
+    "explanation": "The professor states: 'in 1989 Tim Berners-Lee proposed the World Wide Web.'",
+    "wrongReasons": [
+      "A: Vint Cerf is associated with TCP/IP, not the web",
+      "C: Bill Gates is not mentioned",
+      "D: 1995 is incorrect; the professor says 1989"
+    ],
+    "passage": {
+      "id": "l17-passage",
+      "title": "Lecture: The History of the Internet",
+      "body": "Professor: The internet is so embedded in our lives that it is easy to forget it is a relatively recent invention. Today I want to trace its key stages. It starts in 1969 with ARPANET, a US Defence Department project that linked four university computers together — the first network. Through the 1970s, email was invented and the TCP/IP protocol was developed, essentially creating the shared language that lets computers communicate. The 1980s saw the network expand to universities worldwide, and in 1989 Tim Berners-Lee proposed the World Wide Web — a system of linked documents running on top of the internet. Many people confuse the web with the internet, but the web is just one application that uses the internet infrastructure. The 1990s brought commercial internet access, web browsers, and the dot-com boom. By the 2000s, broadband replaced dial-up, social media emerged, and smartphones made internet access mobile. Today we are entering a phase of ubiquitous connectivity — the Internet of Things — where everyday objects from fridges to traffic lights are networked. The story is still being written."
+    }
+  },
+  {
+    "id": "l17-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What misconception does the professor address during the lecture?",
+    "choices": [
+      "That ARPANET was a civilian project",
+      "That email was invented in the 1980s",
+      "That the World Wide Web and the internet are the same thing",
+      "That smartphones created the internet"
+    ],
+    "answer": 2,
+    "explanation": "The professor directly states: 'many people confuse the web with the internet, but the web is just one application that uses the internet infrastructure.'",
+    "wrongReasons": [
+      "A: ARPANET's military origin is stated, not corrected as a misconception",
+      "B: no claim about when email was invented is challenged",
+      "D: smartphones are described as making access mobile, not creating the internet"
+    ],
+    "passage": {
+      "id": "l17-passage",
+      "title": "Lecture: The History of the Internet",
+      "body": "Professor: The internet is so embedded in our lives that it is easy to forget it is a relatively recent invention. Today I want to trace its key stages. It starts in 1969 with ARPANET, a US Defence Department project that linked four university computers together — the first network. Through the 1970s, email was invented and the TCP/IP protocol was developed, essentially creating the shared language that lets computers communicate. The 1980s saw the network expand to universities worldwide, and in 1989 Tim Berners-Lee proposed the World Wide Web — a system of linked documents running on top of the internet. Many people confuse the web with the internet, but the web is just one application that uses the internet infrastructure. The 1990s brought commercial internet access, web browsers, and the dot-com boom. By the 2000s, broadband replaced dial-up, social media emerged, and smartphones made internet access mobile. Today we are entering a phase of ubiquitous connectivity — the Internet of Things — where everyday objects from fridges to traffic lights are networked. The story is still being written."
+    }
+  },
+  {
+    "id": "l17-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "What does the professor imply by ending the lecture with 'the story is still being written'?",
+    "choices": [
+      "That historians have not yet fully documented the internet's origins",
+      "That the internet continues to evolve and its full significance is not yet known",
+      "That students should research the topic further independently",
+      "That future lectures will cover the remaining history"
+    ],
+    "answer": 1,
+    "explanation": "After describing the Internet of Things as the current emerging phase, the professor's closing phrase signals that internet development is an ongoing, unfinished process whose ultimate impact remains unknown.",
+    "wrongReasons": [
+      "A: historical documentation is not the concern",
+      "C: independent research is not suggested",
+      "D: future lectures are not mentioned"
+    ],
+    "passage": {
+      "id": "l17-passage",
+      "title": "Lecture: The History of the Internet",
+      "body": "Professor: The internet is so embedded in our lives that it is easy to forget it is a relatively recent invention. Today I want to trace its key stages. It starts in 1969 with ARPANET, a US Defence Department project that linked four university computers together — the first network. Through the 1970s, email was invented and the TCP/IP protocol was developed, essentially creating the shared language that lets computers communicate. The 1980s saw the network expand to universities worldwide, and in 1989 Tim Berners-Lee proposed the World Wide Web — a system of linked documents running on top of the internet. Many people confuse the web with the internet, but the web is just one application that uses the internet infrastructure. The 1990s brought commercial internet access, web browsers, and the dot-com boom. By the 2000s, broadband replaced dial-up, social media emerged, and smartphones made internet access mobile. Today we are entering a phase of ubiquitous connectivity — the Internet of Things — where everyday objects from fridges to traffic lights are networked. The story is still being written."
+    }
+  },
+  {
+    "id": "l18-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "What is the main problem the two students are discussing?",
+    "choices": [
+      "They disagree about how to divide the work in their group project",
+      "One student wants to drop the course",
+      "Their professor has given them conflicting instructions",
+      "They cannot agree on which topic to choose for the project"
+    ],
+    "answer": 0,
+    "explanation": "The conversation centres on Maya feeling she does too much work and Lior not completing his assigned sections, which is a disagreement over workload division.",
+    "wrongReasons": [
+      "B: dropping the course is not mentioned",
+      "C: conflicting instructions from a professor are not mentioned",
+      "D: a topic has already been chosen; the dispute is about workload"
+    ],
+    "passage": {
+      "id": "l18-passage",
+      "title": "Campus Conversation: Group Project Disagreement",
+      "body": "Maya: Lior, can we talk? I feel like I've been doing most of the work on this project and I'm really frustrated. Lior: What do you mean? I did the introduction. Maya: You did the introduction two days after the deadline we agreed on, and I ended up rewriting half of it. Lior: I had a lot going on with other assignments. Maya: I get that, but so did I. We agreed to split the work equally and that's not what's happening. Lior: Okay, look — what's left to do? Maya: The data analysis section and the conclusion. Lior: I'll do the conclusion — it's shorter. Maya: That's the problem right there. I don't want you to take the easier part again. We should split the data analysis together. Lior: Fine. But I need you to actually tell me when you think something isn't working, instead of just redoing it yourself and then being angry later. Maya: You're right, I should have said something sooner. So — data analysis together, you draft the conclusion, I review it, and we meet Thursday to put it all together? Lior: Deal."
+    }
+  },
+  {
+    "id": "l18-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What specific criticism does Maya raise about Lior's introduction?",
+    "choices": [
+      "It was too short and lacked references",
+      "It was submitted late and she had to rewrite half of it",
+      "It did not follow the format agreed with the professor",
+      "It was copied from another source"
+    ],
+    "answer": 1,
+    "explanation": "Maya says Lior submitted the introduction 'two days after the deadline we agreed on' and that she 'ended up rewriting half of it.'",
+    "wrongReasons": [
+      "A: length and references are not mentioned",
+      "C: format problems are not raised",
+      "D: plagiarism is not mentioned"
+    ],
+    "passage": {
+      "id": "l18-passage",
+      "title": "Campus Conversation: Group Project Disagreement",
+      "body": "Maya: Lior, can we talk? I feel like I've been doing most of the work on this project and I'm really frustrated. Lior: What do you mean? I did the introduction. Maya: You did the introduction two days after the deadline we agreed on, and I ended up rewriting half of it. Lior: I had a lot going on with other assignments. Maya: I get that, but so did I. We agreed to split the work equally and that's not what's happening. Lior: Okay, look — what's left to do? Maya: The data analysis section and the conclusion. Lior: I'll do the conclusion — it's shorter. Maya: That's the problem right there. I don't want you to take the easier part again. We should split the data analysis together. Lior: Fine. But I need you to actually tell me when you think something isn't working, instead of just redoing it yourself and then being angry later. Maya: You're right, I should have said something sooner. So — data analysis together, you draft the conclusion, I review it, and we meet Thursday to put it all together? Lior: Deal."
+    }
+  },
+  {
+    "id": "l18-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What does Lior suggest Maya should change about her behaviour?",
+    "choices": [
+      "She should contribute more to the written sections",
+      "She should communicate problems earlier rather than silently redoing work",
+      "She should speak to the professor about the workload distribution",
+      "She should set firmer internal deadlines for the group"
+    ],
+    "answer": 1,
+    "explanation": "Lior tells Maya she should 'actually tell me when you think something isn't working, instead of just redoing it yourself and then being angry later.' Maya agrees.",
+    "wrongReasons": [
+      "A: Lior does not say Maya contributes too little",
+      "C: involving the professor is not suggested",
+      "D: firmer deadlines are not Lior's suggestion"
+    ],
+    "passage": {
+      "id": "l18-passage",
+      "title": "Campus Conversation: Group Project Disagreement",
+      "body": "Maya: Lior, can we talk? I feel like I've been doing most of the work on this project and I'm really frustrated. Lior: What do you mean? I did the introduction. Maya: You did the introduction two days after the deadline we agreed on, and I ended up rewriting half of it. Lior: I had a lot going on with other assignments. Maya: I get that, but so did I. We agreed to split the work equally and that's not what's happening. Lior: Okay, look — what's left to do? Maya: The data analysis section and the conclusion. Lior: I'll do the conclusion — it's shorter. Maya: That's the problem right there. I don't want you to take the easier part again. We should split the data analysis together. Lior: Fine. But I need you to actually tell me when you think something isn't working, instead of just redoing it yourself and then being angry later. Maya: You're right, I should have said something sooner. So — data analysis together, you draft the conclusion, I review it, and we meet Thursday to put it all together? Lior: Deal."
+    }
+  },
+  {
+    "id": "l18-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "What does Maya's response 'you're right, I should have said something sooner' reveal?",
+    "choices": [
+      "She realises she is primarily responsible for the project's problems",
+      "She acknowledges that her habit of silent correction contributed to the breakdown in communication",
+      "She is trying to end the argument quickly by agreeing with Lior",
+      "She plans to rewrite Lior's conclusion without telling him"
+    ],
+    "answer": 1,
+    "explanation": "By admitting she should have spoken up sooner, Maya concedes that not voicing her concerns earlier — and instead silently redoing Lior's work — helped create the resentment and miscommunication.",
+    "wrongReasons": [
+      "A: she does not accept full responsibility; Lior's lateness is also acknowledged",
+      "C: the conversation continues productively with a full plan, suggesting genuine agreement",
+      "D: no intention to rewrite silently again is implied; she agrees to review, not rewrite"
+    ],
+    "passage": {
+      "id": "l18-passage",
+      "title": "Campus Conversation: Group Project Disagreement",
+      "body": "Maya: Lior, can we talk? I feel like I've been doing most of the work on this project and I'm really frustrated. Lior: What do you mean? I did the introduction. Maya: You did the introduction two days after the deadline we agreed on, and I ended up rewriting half of it. Lior: I had a lot going on with other assignments. Maya: I get that, but so did I. We agreed to split the work equally and that's not what's happening. Lior: Okay, look — what's left to do? Maya: The data analysis section and the conclusion. Lior: I'll do the conclusion — it's shorter. Maya: That's the problem right there. I don't want you to take the easier part again. We should split the data analysis together. Lior: Fine. But I need you to actually tell me when you think something isn't working, instead of just redoing it yourself and then being angry later. Maya: You're right, I should have said something sooner. So — data analysis together, you draft the conclusion, I review it, and we meet Thursday to put it all together? Lior: Deal."
+    }
+  },
+  {
+    "id": "l19-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "What is the lecture mainly about?",
+    "choices": [
+      "The reasons coral reefs are declining worldwide",
+      "How coral reefs support marine biodiversity",
+      "Methods scientists use to restore damaged reefs",
+      "The economic value of reef tourism"
+    ],
+    "answer": 0,
+    "explanation": "The professor states at the outset that the lecture covers 'why coral reefs are disappearing,' and every section explains a cause of reef decline.",
+    "wrongReasons": [
+      "B: biodiversity is mentioned as context but is not the main topic",
+      "C: restoration methods are not discussed",
+      "D: tourism economics are not addressed"
+    ],
+    "passage": {
+      "id": "l19-passage",
+      "title": "Lecture: Why Coral Reefs Are Disappearing",
+      "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. Today we're asking why they're disappearing. The primary driver is ocean warming caused by climate change. Corals live in a narrow temperature range, and when water gets too warm, they expel the algae living in their tissues — a process called bleaching. Without that algae, the coral loses its colour and its main food source. If temperatures remain elevated, the coral dies. The second major threat is ocean acidification: as the ocean absorbs atmospheric CO₂, it becomes more acidic, which weakens the calcium carbonate skeletons corals build. Then there are localised threats — overfishing disrupts the ecosystems reefs depend on, coastal development causes sedimentation that blocks sunlight, and agricultural runoff creates algal blooms that smother corals. The combination of these stressors is devastating. In the past thirty years, roughly half of the world's coral reefs have been lost. Scientists warn that without significant reductions in greenhouse gas emissions, most remaining reefs will be gone by 2050."
+    }
+  },
+  {
+    "id": "l19-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What happens to coral during a bleaching event?",
+    "choices": [
+      "The coral skeleton dissolves due to increased ocean acidity",
+      "The coral expels its algae, losing colour and its main food source",
+      "The coral is smothered by sediment from coastal construction",
+      "The coral is overgrown by algae due to nutrient runoff"
+    ],
+    "answer": 1,
+    "explanation": "The professor explains bleaching directly: corals 'expel the algae living in their tissues,' lose colour, and lose 'their main food source.'",
+    "wrongReasons": [
+      "A: skeleton dissolution is a separate process (acidification), not bleaching",
+      "C: sedimentation is a different localised threat",
+      "D: algal blooms smothering are a separate threat, the opposite of bleaching"
+    ],
+    "passage": {
+      "id": "l19-passage",
+      "title": "Lecture: Why Coral Reefs Are Disappearing",
+      "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. Today we're asking why they're disappearing. The primary driver is ocean warming caused by climate change. Corals live in a narrow temperature range, and when water gets too warm, they expel the algae living in their tissues — a process called bleaching. Without that algae, the coral loses its colour and its main food source. If temperatures remain elevated, the coral dies. The second major threat is ocean acidification: as the ocean absorbs atmospheric CO₂, it becomes more acidic, which weakens the calcium carbonate skeletons corals build. Then there are localised threats — overfishing disrupts the ecosystems reefs depend on, coastal development causes sedimentation that blocks sunlight, and agricultural runoff creates algal blooms that smother corals. The combination of these stressors is devastating. In the past thirty years, roughly half of the world's coral reefs have been lost. Scientists warn that without significant reductions in greenhouse gas emissions, most remaining reefs will be gone by 2050."
+    }
+  },
+  {
+    "id": "l19-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "What is the professor's tone when presenting the statistic about reef loss over the past thirty years?",
+    "choices": [
+      "Cautiously optimistic — emphasising that half still remain",
+      "Alarmed — using it to stress the severity of the crisis",
+      "Detached — treating it as a neutral scientific observation",
+      "Sceptical — questioning the accuracy of the figure"
+    ],
+    "answer": 1,
+    "explanation": "The statistic follows the word 'devastating' and leads directly into a warning about 2050, clearly framing it as evidence of a crisis rather than a neutral data point.",
+    "wrongReasons": [
+      "A: the professor does not frame the remaining reefs optimistically",
+      "C: words like 'devastating' and the 2050 warning signal engagement, not detachment",
+      "D: no doubt is cast on the statistic"
+    ],
+    "passage": {
+      "id": "l19-passage",
+      "title": "Lecture: Why Coral Reefs Are Disappearing",
+      "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. Today we're asking why they're disappearing. The primary driver is ocean warming caused by climate change. Corals live in a narrow temperature range, and when water gets too warm, they expel the algae living in their tissues — a process called bleaching. Without that algae, the coral loses its colour and its main food source. If temperatures remain elevated, the coral dies. The second major threat is ocean acidification: as the ocean absorbs atmospheric CO₂, it becomes more acidic, which weakens the calcium carbonate skeletons corals build. Then there are localised threats — overfishing disrupts the ecosystems reefs depend on, coastal development causes sedimentation that blocks sunlight, and agricultural runoff creates algal blooms that smother corals. The combination of these stressors is devastating. In the past thirty years, roughly half of the world's coral reefs have been lost. Scientists warn that without significant reductions in greenhouse gas emissions, most remaining reefs will be gone by 2050."
+    }
+  },
+  {
+    "id": "l19-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "How does the professor organise the threats to coral reefs?",
+    "choices": [
+      "From least to most damaging",
+      "Alphabetically by category",
+      "From global climate-driven threats to localised human activities",
+      "Chronologically from oldest to most recent threat"
+    ],
+    "answer": 2,
+    "explanation": "The lecture presents ocean warming and acidification — both global, climate-driven — first (labelled 'primary' and 'second major'), then shifts to 'localised threats': overfishing, coastal development, and agricultural runoff.",
+    "wrongReasons": [
+      "A: severity ranking is not the stated organising principle",
+      "B: alphabetical order is not used",
+      "D: no dates or timeline are given for when each threat emerged"
+    ],
+    "passage": {
+      "id": "l19-passage",
+      "title": "Lecture: Why Coral Reefs Are Disappearing",
+      "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly a quarter of all marine species. Today we're asking why they're disappearing. The primary driver is ocean warming caused by climate change. Corals live in a narrow temperature range, and when water gets too warm, they expel the algae living in their tissues — a process called bleaching. Without that algae, the coral loses its colour and its main food source. If temperatures remain elevated, the coral dies. The second major threat is ocean acidification: as the ocean absorbs atmospheric CO₂, it becomes more acidic, which weakens the calcium carbonate skeletons corals build. Then there are localised threats — overfishing disrupts the ecosystems reefs depend on, coastal development causes sedimentation that blocks sunlight, and agricultural runoff creates algal blooms that smother corals. The combination of these stressors is devastating. In the past thirty years, roughly half of the world's coral reefs have been lost. Scientists warn that without significant reductions in greenhouse gas emissions, most remaining reefs will be gone by 2050."
+    }
+  },
+  {
+    "id": "l20-q1",
+    "category": "lectureQuestions",
+    "difficulty": "easy",
+    "text": "What is the main goal of the tutorial session?",
+    "choices": [
+      "To help the student understand what statistical significance means",
+      "To teach the student how to use statistical software",
+      "To review the student's entire research methodology",
+      "To explain the difference between mean and median"
+    ],
+    "answer": 0,
+    "explanation": "The tutor opens by asking what the student knows about statistical significance, and the whole session is devoted to explaining and clarifying that concept.",
+    "wrongReasons": [
+      "B: software is not mentioned",
+      "C: only one aspect of methodology — significance — is covered",
+      "D: mean and median are not discussed"
+    ],
+    "passage": {
+      "id": "l20-passage",
+      "title": "Tutorial: Understanding Statistical Significance",
+      "body": "Tutor: Okay, your results section uses the phrase 'statistically significant' several times. Can you tell me what that actually means? Student: It means the result is important? Tutor: That's the most common misconception. Statistical significance does not mean importance — it means the result is unlikely to be due to chance alone. Specifically, when we say a result is significant at p less than 0.05, we mean there is less than a five percent probability that we would see this result if there were actually no real effect. Student: Oh. So a significant result could still be a small effect? Tutor: Exactly. A study with a huge sample size can find a statistically significant difference of, say, one millimetre in height between two groups. That's real, not chance — but it's practically meaningless. That's why we also report effect size. Student: What's effect size? Tutor: It's a measure of how large or meaningful the difference actually is — things like Cohen's d or r. Significance tells you the result is probably real; effect size tells you whether it matters. Student: I've been using 'significant' to mean important this whole time. Tutor: Most people do. Go back through your results section and make sure you're using it correctly."
+    }
+  },
+  {
+    "id": "l20-q2",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "According to the tutor, what does a p-value of less than 0.05 indicate?",
+    "choices": [
+      "There is less than a 5% chance that the result is due to chance alone",
+      "The result is five times more important than average",
+      "The sample size was large enough to detect a real effect",
+      "The effect size is at least 0.05 standard deviations"
+    ],
+    "answer": 0,
+    "explanation": "The tutor states explicitly: 'p less than 0.05 means there is less than a five percent probability that we would see this result if there were actually no real effect.'",
+    "wrongReasons": [
+      "B: importance is the misconception being corrected",
+      "C: sample size adequacy is not what p-value measures",
+      "D: p-value and effect size are different statistics"
+    ],
+    "passage": {
+      "id": "l20-passage",
+      "title": "Tutorial: Understanding Statistical Significance",
+      "body": "Tutor: Okay, your results section uses the phrase 'statistically significant' several times. Can you tell me what that actually means? Student: It means the result is important? Tutor: That's the most common misconception. Statistical significance does not mean importance — it means the result is unlikely to be due to chance alone. Specifically, when we say a result is significant at p less than 0.05, we mean there is less than a five percent probability that we would see this result if there were actually no real effect. Student: Oh. So a significant result could still be a small effect? Tutor: Exactly. A study with a huge sample size can find a statistically significant difference of, say, one millimetre in height between two groups. That's real, not chance — but it's practically meaningless. That's why we also report effect size. Student: What's effect size? Tutor: It's a measure of how large or meaningful the difference actually is — things like Cohen's d or r. Significance tells you the result is probably real; effect size tells you whether it matters. Student: I've been using 'significant' to mean important this whole time. Tutor: Most people do. Go back through your results section and make sure you're using it correctly."
+    }
+  },
+  {
+    "id": "l20-q3",
+    "category": "lectureQuestions",
+    "difficulty": "medium",
+    "text": "How does the tutor feel about the student's misuse of the word 'significant'?",
+    "choices": [
+      "Surprised — it is a rare error among students",
+      "Unsympathetic — the student should have known this already",
+      "Understanding — the tutor acknowledges it is a very common mistake",
+      "Indifferent — the tutor changes the subject quickly"
+    ],
+    "answer": 2,
+    "explanation": "When the student admits misusing the term, the tutor responds 'most people do,' normalising the error and showing understanding rather than criticism.",
+    "wrongReasons": [
+      "A: the tutor says 'most people' make this error, implying it is common not rare",
+      "B: no criticism or impatience is expressed",
+      "D: the tutor immediately gives constructive correction, not indifference"
+    ],
+    "passage": {
+      "id": "l20-passage",
+      "title": "Tutorial: Understanding Statistical Significance",
+      "body": "Tutor: Okay, your results section uses the phrase 'statistically significant' several times. Can you tell me what that actually means? Student: It means the result is important? Tutor: That's the most common misconception. Statistical significance does not mean importance — it means the result is unlikely to be due to chance alone. Specifically, when we say a result is significant at p less than 0.05, we mean there is less than a five percent probability that we would see this result if there were actually no real effect. Student: Oh. So a significant result could still be a small effect? Tutor: Exactly. A study with a huge sample size can find a statistically significant difference of, say, one millimetre in height between two groups. That's real, not chance — but it's practically meaningless. That's why we also report effect size. Student: What's effect size? Tutor: It's a measure of how large or meaningful the difference actually is — things like Cohen's d or r. Significance tells you the result is probably real; effect size tells you whether it matters. Student: I've been using 'significant' to mean important this whole time. Tutor: Most people do. Go back through your results section and make sure you're using it correctly."
+    }
+  },
+  {
+    "id": "l20-q4",
+    "category": "lectureQuestions",
+    "difficulty": "hard",
+    "text": "What is the implicit lesson the tutor conveys through the one-millimetre height example?",
+    "choices": [
+      "Large sample sizes should be avoided in research",
+      "A result can be statistically real yet have no practical importance",
+      "Height differences are the easiest way to illustrate statistics",
+      "Statistical software often produces errors with large datasets"
+    ],
+    "answer": 1,
+    "explanation": "The tutor uses the absurd example of a one-millimetre height difference that is statistically significant but 'practically meaningless' to show that statistical significance alone does not indicate practical or scientific importance.",
+    "wrongReasons": [
+      "A: large sample sizes are not criticised as a method",
+      "C: height is used as an arbitrary example, not because it is specially suited",
+      "D: software errors are not mentioned"
+    ],
+    "passage": {
+      "id": "l20-passage",
+      "title": "Tutorial: Understanding Statistical Significance",
+      "body": "Tutor: Okay, your results section uses the phrase 'statistically significant' several times. Can you tell me what that actually means? Student: It means the result is important? Tutor: That's the most common misconception. Statistical significance does not mean importance — it means the result is unlikely to be due to chance alone. Specifically, when we say a result is significant at p less than 0.05, we mean there is less than a five percent probability that we would see this result if there were actually no real effect. Student: Oh. So a significant result could still be a small effect? Tutor: Exactly. A study with a huge sample size can find a statistically significant difference of, say, one millimetre in height between two groups. That's real, not chance — but it's practically meaningless. That's why we also report effect size. Student: What's effect size? Tutor: It's a measure of how large or meaningful the difference actually is — things like Cohen's d or r. Significance tells you the result is probably real; effect size tells you whether it matters. Student: I've been using 'significant' to mean important this whole time. Tutor: Most people do. Go back through your results section and make sure you're using it correctly."
+    }
+  }
+]

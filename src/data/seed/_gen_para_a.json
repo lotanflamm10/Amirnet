@@ -1,0 +1,1923 @@
+{
+  "paraphrasing": [
+    {
+      "id": "p19",
+      "difficulty": "easy",
+      "text": "The library extended its opening hours to accommodate students during exam season.",
+      "choices": [
+        "The library stayed open longer to help students during exams.",
+        "The library closed early during exam season.",
+        "Students were not allowed in the library during exam season.",
+        "The library reduced its services to focus on exam preparation."
+      ],
+      "answer": 0,
+      "explanation": "Extended opening hours = stayed open longer; the purpose of helping students during exams is preserved.",
+      "wrongReasons": [
+        "Choice B reverses the meaning — the library closed early, not extended hours.",
+        "Choice C contradicts the original, which implies students were welcome.",
+        "Choice D introduces the idea of reducing services, which is not mentioned."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p20",
+      "difficulty": "easy",
+      "text": "The children were excited about the field trip because it was their first visit to a science museum.",
+      "choices": [
+        "The children had visited the science museum many times before.",
+        "The science museum was not interesting to the children.",
+        "The children's excitement stemmed from the fact that the science museum visit was new to them.",
+        "The children were nervous about their first field trip."
+      ],
+      "answer": 2,
+      "explanation": "Excited because it was their first visit = excitement stemmed from the novelty of the visit.",
+      "wrongReasons": [
+        "Choice A contradicts the original — it states they had visited many times before.",
+        "Choice B contradicts the original — the children were clearly excited, not uninterested.",
+        "Choice D replaces excitement with nervousness, which changes the emotional meaning."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p21",
+      "difficulty": "easy",
+      "text": "The road was closed due to construction work expected to last three weeks.",
+      "choices": [
+        "The road closure was unrelated to any construction activity.",
+        "The road was temporarily shut down because of ongoing construction set to continue for three weeks.",
+        "Construction on the road was completed within three weeks.",
+        "The road was closed permanently after construction began."
+      ],
+      "answer": 1,
+      "explanation": "Closed due to construction = temporarily shut down because of ongoing construction; the three-week duration is preserved.",
+      "wrongReasons": [
+        "Choice A directly contradicts the original by denying a connection to construction.",
+        "Choice C states construction was completed, whereas the original says it was expected to last three weeks.",
+        "Choice D says the closure was permanent, but the original implies a temporary closure."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p22",
+      "difficulty": "easy",
+      "text": "Mia decided to switch careers after realizing her current job no longer challenged her.",
+      "choices": [
+        "Mia changed careers because she found her job too demanding.",
+        "Mia stayed in her job despite finding it unchallenging.",
+        "Mia's desire for more challenge in her work motivated her to change careers.",
+        "Mia was forced to leave her job due to poor performance."
+      ],
+      "answer": 2,
+      "explanation": "Switched careers because no longer challenged = desire for more challenge motivated a career change.",
+      "wrongReasons": [
+        "Choice A reverses the reason — too demanding is the opposite of not challenging enough.",
+        "Choice B contradicts the original — Mia did switch, not stay.",
+        "Choice D introduces forced departure and poor performance, neither of which is in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p23",
+      "difficulty": "easy",
+      "text": "The new policy requires all employees to complete a mandatory safety training course.",
+      "choices": [
+        "Safety training is optional for employees under the new policy.",
+        "The new policy makes safety training compulsory for all staff members.",
+        "Employees may choose whether to attend safety training under the new policy.",
+        "The new policy eliminates the need for safety training."
+      ],
+      "answer": 1,
+      "explanation": "Mandatory = compulsory; all employees = all staff members; the core requirement is preserved.",
+      "wrongReasons": [
+        "Choice A states training is optional, directly contradicting mandatory.",
+        "Choice C says employees may choose, which contradicts the compulsory nature.",
+        "Choice D says the policy eliminates training, which is the opposite of requiring it."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p24",
+      "difficulty": "easy",
+      "text": "Despite her busy schedule, the doctor found time to meet with each patient individually.",
+      "choices": [
+        "Because her schedule was busy, the doctor could not meet patients individually.",
+        "The doctor's schedule was not busy, so she met patients easily.",
+        "The doctor managed to see each patient separately, even though her schedule was full.",
+        "The doctor preferred group meetings because of her busy schedule."
+      ],
+      "answer": 2,
+      "explanation": "Despite busy schedule, found time = managed to see patients separately even though schedule was full; the concession is preserved.",
+      "wrongReasons": [
+        "Choice A reverses the outcome — it says she could not meet patients, not that she did.",
+        "Choice B changes the premise — it removes the busyness entirely.",
+        "Choice D introduces a preference for group meetings, which is not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p25",
+      "difficulty": "easy",
+      "text": "The experiment was repeated three times to ensure the results were reliable.",
+      "choices": [
+        "The experiment was conducted once, and the results were considered reliable.",
+        "The experiment was repeated because the initial results were incorrect.",
+        "To verify the reliability of the findings, the experiment was carried out three times.",
+        "Three different experiments were performed to test different hypotheses."
+      ],
+      "answer": 2,
+      "explanation": "Repeated three times to ensure reliability = carried out three times to verify reliability of findings.",
+      "wrongReasons": [
+        "Choice A contradicts the original — it was run once, not three times.",
+        "Choice B changes the reason — incorrect results is different from ensuring reliability.",
+        "Choice D changes the design — three different experiments testing different hypotheses is not the same."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p26",
+      "difficulty": "easy",
+      "text": "The town's population grew significantly after the new factory opened.",
+      "choices": [
+        "The new factory caused a notable increase in the town's population.",
+        "The town's population declined after the factory was established.",
+        "The factory opened because the town's population had grown.",
+        "The town's population was unaffected by the opening of the factory."
+      ],
+      "answer": 0,
+      "explanation": "Population grew significantly after factory opened = factory caused a notable increase in population; the causal direction is preserved.",
+      "wrongReasons": [
+        "Choice B reverses the population trend from growth to decline.",
+        "Choice C reverses the causal direction — the factory opens because of growth rather than causing it.",
+        "Choice D states there was no effect, contradicting the significant growth."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p27",
+      "difficulty": "easy",
+      "text": "Students who participated in the after-school program showed improved academic performance.",
+      "choices": [
+        "The after-school program had no measurable effect on students' grades.",
+        "Academic performance improved among students who took part in the after-school program.",
+        "Only students with strong academic records joined the after-school program.",
+        "Students improved their social skills rather than their academic performance."
+      ],
+      "answer": 1,
+      "explanation": "Showed improved academic performance = academic performance improved; the subject and the program are preserved.",
+      "wrongReasons": [
+        "Choice A contradicts the original by stating no measurable effect.",
+        "Choice C changes the focus to who joined, not what the effect was.",
+        "Choice D changes the type of improvement from academic to social."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p28",
+      "difficulty": "easy",
+      "text": "The government allocated additional funding to public hospitals following a rise in patient numbers.",
+      "choices": [
+        "Public hospitals received extra financial support from the government in response to increased patient demand.",
+        "The government cut hospital funding despite a rise in patient numbers.",
+        "Additional funding was provided to private clinics, not public hospitals.",
+        "Patient numbers fell after the government allocated new funding."
+      ],
+      "answer": 0,
+      "explanation": "Allocated additional funding = received extra financial support; following a rise in patient numbers = in response to increased patient demand.",
+      "wrongReasons": [
+        "Choice B reverses the action — cuts, not additional funding.",
+        "Choice C changes the recipient from public hospitals to private clinics.",
+        "Choice D reverses the sequence — patient numbers fell rather than rose."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p29",
+      "difficulty": "easy",
+      "text": "The artist chose simple colors to highlight the emotional complexity of the scene.",
+      "choices": [
+        "The artist used complex colors to simplify the emotional scene.",
+        "The artist's use of plain colors was intended to draw attention to the emotional depth of the scene.",
+        "Simple colors made the scene appear emotionally flat.",
+        "The artist avoided all color to focus on the scene's emotions."
+      ],
+      "answer": 1,
+      "explanation": "Chose simple colors to highlight emotional complexity = use of plain colors intended to draw attention to emotional depth.",
+      "wrongReasons": [
+        "Choice A swaps simple and complex, reversing the technique.",
+        "Choice C states the opposite effect — emotionally flat vs. highlighting complexity.",
+        "Choice D exaggerates — avoided all color is not the same as using simple colors."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p30",
+      "difficulty": "easy",
+      "text": "The team finished the project ahead of the deadline thanks to effective collaboration.",
+      "choices": [
+        "The team missed the deadline despite trying to collaborate effectively.",
+        "The project was completed early because the team worked together well.",
+        "Effective collaboration began only after the deadline was extended.",
+        "The project deadline was moved earlier to encourage collaboration."
+      ],
+      "answer": 1,
+      "explanation": "Finished ahead of deadline thanks to effective collaboration = completed early because team worked together well.",
+      "wrongReasons": [
+        "Choice A reverses the outcome — the team missed the deadline instead of meeting it early.",
+        "Choice C introduces a deadline extension, which is not in the original.",
+        "Choice D changes the causal direction — deadline moved to encourage collaboration, not the other way."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p31",
+      "difficulty": "easy",
+      "text": "Parents were advised to limit their children's screen time to two hours per day.",
+      "choices": [
+        "Parents were told to allow unlimited screen time for their children.",
+        "Children were recommended to spend at least two hours per day on screens.",
+        "The advice given to parents was to restrict their children's screen use to no more than two hours daily.",
+        "Parents were encouraged to monitor their children's screen content, not the amount of time."
+      ],
+      "answer": 2,
+      "explanation": "Advised to limit screen time to two hours = advice to restrict screen use to no more than two hours daily.",
+      "wrongReasons": [
+        "Choice A contradicts the original — unlimited is the opposite of limited.",
+        "Choice B distorts the advice — at least two hours is a minimum, not a maximum.",
+        "Choice D changes the focus from time limits to content monitoring."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p32",
+      "difficulty": "easy",
+      "text": "The train was delayed because of a technical fault on the track.",
+      "choices": [
+        "A technical problem on the track caused the train to arrive late.",
+        "The train ran on time despite a technical fault.",
+        "The technical fault was caused by the train's delay.",
+        "The track was repaired before the train arrived."
+      ],
+      "answer": 0,
+      "explanation": "Delayed because of technical fault = technical problem caused the train to arrive late.",
+      "wrongReasons": [
+        "Choice B contradicts the original — it says the train ran on time.",
+        "Choice C reverses causation — the delay caused the fault instead of the fault causing the delay.",
+        "Choice D introduces track repair before arrival, which is not stated in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p33",
+      "difficulty": "easy",
+      "text": "The survey revealed that most respondents preferred remote work to working in an office.",
+      "choices": [
+        "According to the survey, the majority of respondents favored working from home over office-based work.",
+        "The survey showed that most people disliked both remote and office work.",
+        "Most respondents in the survey had no preference between remote and office work.",
+        "The survey found that office work was preferred by the majority of respondents."
+      ],
+      "answer": 0,
+      "explanation": "Preferred remote work = favored working from home; majority of respondents is preserved.",
+      "wrongReasons": [
+        "Choice B introduces disliking both options, which is not in the original.",
+        "Choice C states no preference, which contradicts the clear preference in the original.",
+        "Choice D reverses the preference — office work, not remote work, is preferred."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p34",
+      "difficulty": "easy",
+      "text": "The new regulation prohibits the use of plastic bags in all retail stores.",
+      "choices": [
+        "Retail stores are now required by law to charge a fee for plastic bags.",
+        "The use of plastic bags in retail stores has been banned by the new regulation.",
+        "Plastic bags may still be used in retail stores under the new regulation.",
+        "The new regulation encourages, but does not require, stores to stop using plastic bags."
+      ],
+      "answer": 1,
+      "explanation": "Prohibits the use = has been banned; in all retail stores is preserved.",
+      "wrongReasons": [
+        "Choice A introduces a fee, which is different from a prohibition.",
+        "Choice C contradicts the original — bags may still be used.",
+        "Choice D weakens the regulation from a ban to an encouragement."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p35",
+      "difficulty": "easy",
+      "text": "The patient recovered faster than expected after the surgery.",
+      "choices": [
+        "The patient's recovery took longer than the doctors had predicted.",
+        "The surgery was completed faster than expected.",
+        "The patient's post-surgical recovery exceeded the doctors' expectations in terms of speed.",
+        "The patient had an unexpectedly difficult recovery after the surgery."
+      ],
+      "answer": 2,
+      "explanation": "Recovered faster than expected = recovery exceeded expectations in terms of speed.",
+      "wrongReasons": [
+        "Choice A reverses the meaning — recovery took longer instead of being faster.",
+        "Choice B changes the subject from patient's recovery to the surgery's duration.",
+        "Choice D contradicts the original — difficult recovery is opposite to faster than expected."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p36",
+      "difficulty": "easy",
+      "text": "The charity raised more money this year than in any previous campaign.",
+      "choices": [
+        "This year's fundraising campaign was the most successful in the charity's history.",
+        "The charity raised less money this year compared to previous campaigns.",
+        "The charity matched its previous fundraising record this year.",
+        "Previous campaigns had always raised more money than this year's effort."
+      ],
+      "answer": 0,
+      "explanation": "Raised more money than any previous campaign = most successful fundraising campaign in history.",
+      "wrongReasons": [
+        "Choice B reverses the comparison — less money instead of more.",
+        "Choice C says they matched the record, not exceeded it.",
+        "Choice D reverses the comparison — previous campaigns raised more."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p37",
+      "difficulty": "easy",
+      "text": "The judge ruled that the contract was invalid because one party had not given informed consent.",
+      "choices": [
+        "The contract was declared void by the judge due to the lack of informed consent from one party.",
+        "The judge upheld the contract despite concerns about informed consent.",
+        "Both parties had given informed consent, so the contract was considered valid.",
+        "The contract was invalidated because it was poorly written."
+      ],
+      "answer": 0,
+      "explanation": "Ruled invalid = declared void; lack of informed consent from one party is preserved.",
+      "wrongReasons": [
+        "Choice B contradicts the original — the contract was not upheld.",
+        "Choice C reverses the finding — both parties gave consent in Choice C, but the original says one did not.",
+        "Choice D changes the reason from lack of consent to poor writing."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p38",
+      "difficulty": "easy",
+      "text": "The researcher noted that stress levels among university students had increased over the past decade.",
+      "choices": [
+        "The researcher observed a rise in stress among university students over the last ten years.",
+        "University students reported lower stress levels over the past decade, according to the researcher.",
+        "The researcher found that stress levels among university students had remained stable.",
+        "Rising stress levels among university students were first identified a decade ago."
+      ],
+      "answer": 0,
+      "explanation": "Noted stress levels increased over past decade = observed a rise in stress over the last ten years.",
+      "wrongReasons": [
+        "Choice B reverses the direction — lower stress levels instead of higher.",
+        "Choice C says stress remained stable, contradicting the increase.",
+        "Choice D changes the claim — stress was first identified a decade ago is different from increasing over the decade."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p39",
+      "difficulty": "easy",
+      "text": "The volcano had been dormant for centuries before it suddenly erupted last year.",
+      "choices": [
+        "The volcano erupted regularly over the past century.",
+        "Last year's eruption followed hundreds of years of inactivity.",
+        "The volcano erupted last year because scientists had predicted it would.",
+        "The volcano has remained inactive since last year's eruption."
+      ],
+      "answer": 1,
+      "explanation": "Dormant for centuries, then suddenly erupted last year = last year's eruption followed hundreds of years of inactivity.",
+      "wrongReasons": [
+        "Choice A contradicts the original — regular eruptions vs. dormancy for centuries.",
+        "Choice C introduces a prediction by scientists, which is not in the original.",
+        "Choice D shifts the timeframe to after the eruption, not before."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p40",
+      "difficulty": "easy",
+      "text": "The documentary highlighted the impact of deforestation on local wildlife populations.",
+      "choices": [
+        "The documentary showed that wildlife populations were unaffected by deforestation.",
+        "Local wildlife populations were the main cause of deforestation, according to the documentary.",
+        "The documentary drew attention to how deforestation has affected wildlife in the area.",
+        "The documentary focused on reforestation efforts to protect local wildlife."
+      ],
+      "answer": 2,
+      "explanation": "Highlighted the impact of deforestation on wildlife = drew attention to how deforestation has affected wildlife.",
+      "wrongReasons": [
+        "Choice A contradicts the original — unaffected is the opposite of impacted.",
+        "Choice B reverses the causal direction — wildlife causing deforestation instead of being affected by it.",
+        "Choice D introduces reforestation, which is not mentioned in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p41",
+      "difficulty": "easy",
+      "text": "The teacher encouraged students to ask questions rather than passively absorb information.",
+      "choices": [
+        "The teacher told students to stop asking so many questions and listen more carefully.",
+        "Students were discouraged from participating actively in class.",
+        "Rather than simply taking in information, students were urged by the teacher to engage by asking questions.",
+        "The teacher preferred students who could absorb information quickly without asking questions."
+      ],
+      "answer": 2,
+      "explanation": "Encouraged asking questions rather than passive absorption = urged students to engage by asking questions rather than simply taking in information.",
+      "wrongReasons": [
+        "Choice A reverses the message — stop asking questions contradicts the encouragement.",
+        "Choice B contradicts the original — students were discouraged, not encouraged.",
+        "Choice D describes the opposite preference of what the original states."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p42",
+      "difficulty": "easy",
+      "text": "The ancient city was rediscovered by archaeologists after lying buried for over a thousand years.",
+      "choices": [
+        "Archaeologists discovered the ancient city for the first time after a millennium underground.",
+        "The city had been continuously inhabited for over a thousand years before archaeologists arrived.",
+        "Archaeologists searched for over a thousand years before finding the ancient city.",
+        "The ancient city was rebuilt by archaeologists after it had been buried."
+      ],
+      "answer": 0,
+      "explanation": "Rediscovered after lying buried for over a thousand years = discovered after a millennium underground. Rediscovered implies it was known before but lost.",
+      "wrongReasons": [
+        "Choice B contradicts buried — continuously inhabited is the opposite of buried and lost.",
+        "Choice C misrepresents the timeline — archaeologists searched for a thousand years, not the city was buried.",
+        "Choice D introduces rebuilding, which is not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p43",
+      "difficulty": "easy",
+      "text": "The summit was canceled due to security concerns raised by intelligence agencies.",
+      "choices": [
+        "Intelligence agencies recommended enhanced security measures for the summit.",
+        "Security agencies called off the summit after intelligence raised concerns.",
+        "The summit was held as planned despite security concerns.",
+        "Intelligence agencies participated in the summit to address security issues."
+      ],
+      "answer": 1,
+      "explanation": "Canceled due to security concerns raised by intelligence agencies = called off after intelligence raised concerns.",
+      "wrongReasons": [
+        "Choice A says the summit was enhanced, not canceled.",
+        "Choice C contradicts the original — the summit was held, not canceled.",
+        "Choice D says agencies participated in the summit, which contradicts the cancellation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p44",
+      "difficulty": "medium",
+      "text": "While the policy aimed to reduce inequality, critics argued it disproportionately burdened low-income households.",
+      "choices": [
+        "Critics claimed the policy successfully reduced inequality without harming low-income households.",
+        "The policy's stated goal was reducing inequality, but opponents contended it placed an unfair weight on poorer families.",
+        "Critics supported the policy's goal but disagreed about its methods of reducing inequality.",
+        "Low-income households were exempt from the policy, despite critics' concerns."
+      ],
+      "answer": 1,
+      "explanation": "Aimed to reduce inequality but critics argued it disproportionately burdened low-income households = stated goal was reducing inequality, but opponents contended it placed unfair weight on poorer families.",
+      "wrongReasons": [
+        "Choice A contradicts the critics' view — it says the policy was successful without harm.",
+        "Choice C misrepresents the critics' position — they did not support the goal while opposing methods.",
+        "Choice D introduces an exemption for low-income households, which reverses the original claim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p45",
+      "difficulty": "medium",
+      "text": "The philosopher contends that moral judgments are inherently subjective and cannot be verified through empirical evidence.",
+      "choices": [
+        "The philosopher argues that empirical evidence is the only valid basis for moral judgments.",
+        "According to the philosopher, moral judgments are objective truths discoverable through observation.",
+        "The philosopher holds that moral judgments are personal and cannot be confirmed by factual evidence.",
+        "The philosopher concedes that some moral judgments may be objective while others are subjective."
+      ],
+      "answer": 2,
+      "explanation": "Inherently subjective and cannot be verified through empirical evidence = personal and cannot be confirmed by factual evidence.",
+      "wrongReasons": [
+        "Choice A reverses the argument — empirical evidence as the only basis is the opposite of what is claimed.",
+        "Choice B contradicts the original — objective truths discoverable through observation is the opposite position.",
+        "Choice D introduces a mixed view (some objective, some subjective), which the original does not support."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p46",
+      "difficulty": "medium",
+      "text": "Urban sprawl has been linked to increased car dependency, which in turn contributes to higher carbon emissions.",
+      "choices": [
+        "Higher carbon emissions cause urban sprawl by increasing car dependency.",
+        "Studies show that urban sprawl reduces the need for private vehicles, lowering emissions.",
+        "The spread of cities beyond their traditional boundaries tends to make residents more reliant on cars, thereby increasing carbon output.",
+        "Car dependency contributes to urban sprawl, which increases carbon emissions."
+      ],
+      "answer": 2,
+      "explanation": "Urban sprawl linked to car dependency which contributes to carbon emissions = spread of cities makes residents more reliant on cars, thereby increasing carbon output.",
+      "wrongReasons": [
+        "Choice A reverses the causal chain — carbon emissions cause sprawl rather than the reverse.",
+        "Choice B contradicts the original — reduces car dependency and lowers emissions is the opposite.",
+        "Choice D also reverses part of the chain — car dependency causes sprawl rather than sprawl causing car dependency."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p47",
+      "difficulty": "medium",
+      "text": "The novel's narrator is unreliable, which forces readers to question the accuracy of the events described.",
+      "choices": [
+        "Because the narrator cannot be fully trusted, readers are compelled to doubt the truthfulness of the account.",
+        "The narrator's unreliability is never noticed by readers, who accept all events as accurate.",
+        "Readers trust the narrator despite knowing the account may be inaccurate.",
+        "The novel describes events accurately through an unreliable narrator who is later corrected."
+      ],
+      "answer": 0,
+      "explanation": "Unreliable narrator forces readers to question accuracy = narrator cannot be fully trusted, compelling readers to doubt the account's truthfulness.",
+      "wrongReasons": [
+        "Choice B contradicts the original — readers never notice the unreliability, but the original says they are forced to question.",
+        "Choice C contradicts the original — readers trust despite knowing inaccuracy, opposite of being forced to question.",
+        "Choice D introduces a correction of the narrator, which is not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p48",
+      "difficulty": "medium",
+      "text": "The central bank raised interest rates in an attempt to curb inflation, though economists warned this could slow economic growth.",
+      "choices": [
+        "Economists recommended that the central bank raise interest rates to promote economic growth.",
+        "The central bank lowered interest rates to stimulate growth despite inflationary concerns.",
+        "In raising interest rates to fight inflation, the central bank faced warnings from economists that growth might suffer.",
+        "The central bank's rate increase successfully curbed inflation without affecting economic growth."
+      ],
+      "answer": 2,
+      "explanation": "Raised rates to curb inflation; economists warned it could slow growth = in raising rates to fight inflation, faced warnings that growth might suffer.",
+      "wrongReasons": [
+        "Choice A reverses the purpose — promoting growth, not curbing inflation.",
+        "Choice B reverses the action — lowered rates, not raised them.",
+        "Choice D claims success without affecting growth, which contradicts the economists' warning."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p49",
+      "difficulty": "medium",
+      "text": "Access to clean water remains unequal across regions, reflecting broader disparities in infrastructure investment.",
+      "choices": [
+        "Infrastructure investment is equally distributed, yet access to clean water varies by region.",
+        "Regional differences in access to clean water mirror the uneven distribution of infrastructure spending.",
+        "Clean water access is now equal across all regions due to infrastructure improvements.",
+        "Infrastructure investment has successfully reduced regional inequality in water access."
+      ],
+      "answer": 1,
+      "explanation": "Unequal water access reflecting infrastructure disparities = regional differences in water access mirror uneven infrastructure spending.",
+      "wrongReasons": [
+        "Choice A contradicts the original — infrastructure investment is equal in Choice A, but the original says disparities exist.",
+        "Choice C contradicts the original — access is now equal, but the original states it remains unequal.",
+        "Choice D says infrastructure investment reduced inequality, which contradicts the original's implication of ongoing disparity."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p50",
+      "difficulty": "medium",
+      "text": "The study found that bilingual children tend to develop stronger executive function skills than their monolingual peers.",
+      "choices": [
+        "Bilingual and monolingual children were found to have similar executive function skills.",
+        "Monolingual children outperformed bilingual children on measures of executive function.",
+        "According to the study, children who speak two languages generally show greater executive function ability compared to those who speak one.",
+        "The study concluded that executive function skills are unrelated to the number of languages a child speaks."
+      ],
+      "answer": 2,
+      "explanation": "Bilingual children develop stronger executive function than monolingual peers = children who speak two languages show greater executive function ability compared to those who speak one.",
+      "wrongReasons": [
+        "Choice A says skills are similar, contradicting the finding of stronger skills in bilinguals.",
+        "Choice B reverses the comparison — monolingual children outperformed.",
+        "Choice D says skills are unrelated to language count, contradicting the study's finding."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p51",
+      "difficulty": "medium",
+      "text": "Although unemployment fell last quarter, wage growth remained stagnant, suggesting workers did not benefit proportionately.",
+      "choices": [
+        "Falling unemployment and rising wages in the last quarter showed workers were benefiting.",
+        "Despite a drop in unemployment last quarter, wages did not grow significantly, indicating workers' gains were limited.",
+        "Stagnant wages caused unemployment to fall last quarter.",
+        "Workers benefited proportionately from the fall in unemployment despite stagnant wages."
+      ],
+      "answer": 1,
+      "explanation": "Unemployment fell but wages stagnant, suggesting workers did not benefit proportionately = drop in unemployment, but wages did not grow, indicating workers' gains were limited.",
+      "wrongReasons": [
+        "Choice A says wages rose and workers benefited, contradicting the stagnant wages in the original.",
+        "Choice C reverses causation — stagnant wages caused unemployment to fall.",
+        "Choice D contradicts the original's conclusion about limited worker benefit."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p52",
+      "difficulty": "medium",
+      "text": "The architect's design was praised for balancing aesthetic appeal with functional requirements.",
+      "choices": [
+        "Critics felt the architect prioritized aesthetics over functionality.",
+        "The design was criticized for failing to meet both aesthetic and functional standards.",
+        "The architect was commended for creating a design that was both visually attractive and practically effective.",
+        "The architect's design was functional but was widely regarded as unattractive."
+      ],
+      "answer": 2,
+      "explanation": "Praised for balancing aesthetic appeal with functional requirements = commended for creating a design that was visually attractive and practically effective.",
+      "wrongReasons": [
+        "Choice A says aesthetics were prioritized over functionality, contradicting the balance praised.",
+        "Choice B says the design was criticized, which is the opposite of praised.",
+        "Choice D introduces the design being unattractive, contradicting the aesthetic praise."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p53",
+      "difficulty": "medium",
+      "text": "The committee postponed a final decision pending the outcome of further consultations with stakeholders.",
+      "choices": [
+        "The committee reached a final decision after consulting all stakeholders.",
+        "Stakeholders requested that the committee delay consultations until a final decision was made.",
+        "Further stakeholder consultations were required before the committee would make a final ruling.",
+        "The committee decided to proceed without consulting stakeholders due to time constraints."
+      ],
+      "answer": 2,
+      "explanation": "Postponed final decision pending further consultations = further consultations required before a final ruling would be made.",
+      "wrongReasons": [
+        "Choice A says a decision was reached after consulting, contradicting the postponement.",
+        "Choice B reverses the sequence — stakeholders wanted to delay consultations, not the committee delay the decision.",
+        "Choice D contradicts the original — the committee decided to consult, not bypass, stakeholders."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p54",
+      "difficulty": "medium",
+      "text": "The species adapted to colder climates over thousands of generations, gradually developing thicker fur and smaller extremities.",
+      "choices": [
+        "Over many generations, the species underwent changes that helped it survive in colder environments, including denser fur and reduced limb size.",
+        "The species migrated to colder regions after developing thicker fur and smaller extremities.",
+        "Colder climates caused the species to become extinct over thousands of generations.",
+        "The species developed thicker fur and larger extremities in response to colder climates."
+      ],
+      "answer": 0,
+      "explanation": "Adapted to cold over thousands of generations with thicker fur and smaller extremities = underwent changes over generations to survive cold, including denser fur and reduced limb size.",
+      "wrongReasons": [
+        "Choice B reverses the sequence — migration occurred after adaptation, whereas the original describes adaptation over time.",
+        "Choice C contradicts the original — extinction is the opposite of successful adaptation.",
+        "Choice D changes smaller extremities to larger extremities, reversing a key detail."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p55",
+      "difficulty": "medium",
+      "text": "The author argues that cultural identity is not fixed but continually reshaped by migration, technology, and global exchange.",
+      "choices": [
+        "The author claims that cultural identity is stable and resistant to outside influences.",
+        "Migration, technology, and global exchange are seen by the author as threats to cultural identity.",
+        "According to the author, cultural identity is dynamic, being constantly renegotiated through migration, technological change, and global interaction.",
+        "The author suggests that global exchange has eliminated distinct cultural identities."
+      ],
+      "answer": 2,
+      "explanation": "Not fixed but continually reshaped by migration, technology, and global exchange = dynamic, constantly renegotiated through those same forces.",
+      "wrongReasons": [
+        "Choice A contradicts the argument — stable and resistant is the opposite of continually reshaped.",
+        "Choice B introduces the idea of threats, which the original does not imply.",
+        "Choice D exaggerates — eliminated distinct identities is far stronger than continually reshaped."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p56",
+      "difficulty": "medium",
+      "text": "The legal reforms were designed to streamline court procedures, yet implementation proved slower than anticipated.",
+      "choices": [
+        "The legal reforms were successfully implemented and court procedures were streamlined ahead of schedule.",
+        "Although the intent of the legal reforms was to make court procedures more efficient, putting them into practice took longer than expected.",
+        "Implementation of the legal reforms was rapid, but court procedures became more complex.",
+        "The legal reforms were abandoned because implementation took too long."
+      ],
+      "answer": 1,
+      "explanation": "Designed to streamline courts but implementation slower than anticipated = intent was efficiency, but putting reforms into practice took longer than expected.",
+      "wrongReasons": [
+        "Choice A contradicts the original — successfully implemented ahead of schedule is opposite to slower than anticipated.",
+        "Choice C reverses the outcome — implementation was rapid, but procedures became more complex.",
+        "Choice D goes beyond the original — abandoned is not stated; only that implementation was slower."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p57",
+      "difficulty": "medium",
+      "text": "Public trust in institutions tends to decline when transparency is lacking and accountability mechanisms are weak.",
+      "choices": [
+        "Strong accountability mechanisms can increase public trust even in the absence of transparency.",
+        "When institutions fail to be open and do not have effective oversight, public confidence in them is likely to fall.",
+        "Public distrust of institutions is caused primarily by media coverage, not by a lack of transparency.",
+        "Transparency alone is sufficient to maintain public trust regardless of accountability."
+      ],
+      "answer": 1,
+      "explanation": "Trust declines when transparency lacking and accountability weak = when institutions fail to be open and lack effective oversight, public confidence falls.",
+      "wrongReasons": [
+        "Choice A contradicts the original — says strong accountability compensates for lack of transparency.",
+        "Choice C introduces media coverage as the primary cause, which is not in the original.",
+        "Choice D says transparency alone is sufficient, ignoring accountability, which the original treats as equally important."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p58",
+      "difficulty": "medium",
+      "text": "The organization shifted its focus from short-term relief to long-term development projects.",
+      "choices": [
+        "The organization combined short-term relief with long-term development goals equally.",
+        "After completing its long-term development projects, the organization returned to short-term relief work.",
+        "Rather than providing immediate aid, the organization redirected its efforts toward sustained development initiatives.",
+        "The organization expanded its scope to include both emergency relief and development work."
+      ],
+      "answer": 2,
+      "explanation": "Shifted from short-term relief to long-term development = redirected efforts from immediate aid toward sustained development initiatives.",
+      "wrongReasons": [
+        "Choice A implies both goals are maintained equally, whereas the original describes a shift away from one.",
+        "Choice B reverses the direction — returns to relief after development, opposite of the original.",
+        "Choice D says the organization expanded to include both, whereas the original describes replacing one with the other."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p59",
+      "difficulty": "medium",
+      "text": "Language acquisition in young children appears to be facilitated by exposure to rich conversational input rather than formal instruction.",
+      "choices": [
+        "Formal instruction is the most effective method for supporting language development in young children.",
+        "Young children learn language more effectively through formal classes than through natural conversation.",
+        "In young children, language development seems to be supported more by engaging conversational exposure than by structured teaching.",
+        "Young children acquire language equally well whether through conversation or formal instruction."
+      ],
+      "answer": 2,
+      "explanation": "Facilitated by rich conversational input rather than formal instruction = supported more by engaging conversational exposure than by structured teaching.",
+      "wrongReasons": [
+        "Choice A reverses the finding — formal instruction is most effective, the opposite of the original.",
+        "Choice B also reverses the finding — formal classes over natural conversation.",
+        "Choice D states equivalence, which the original does not support."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p60",
+      "difficulty": "medium",
+      "text": "The historian contends that the war's causes were economic rather than ideological, despite popular belief to the contrary.",
+      "choices": [
+        "The historian agrees with popular belief that the war was primarily ideological in origin.",
+        "Contrary to widespread opinion, the historian argues that economic factors, not ideological ones, were the primary drivers of the war.",
+        "The historian acknowledges that ideology played a role in the war alongside economic factors.",
+        "Economic and ideological factors were seen by the historian as equally responsible for the war."
+      ],
+      "answer": 1,
+      "explanation": "Contends causes were economic not ideological, despite popular belief = contrary to widespread opinion, argues economic factors, not ideological, were primary drivers.",
+      "wrongReasons": [
+        "Choice A contradicts the original — agrees with popular belief is the opposite of challenging it.",
+        "Choice C introduces a shared role for ideology, whereas the original argues against ideology as a cause.",
+        "Choice D suggests equal responsibility, but the original explicitly favors economic over ideological causes."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p61",
+      "difficulty": "medium",
+      "text": "The social media platform altered its algorithm to reduce the spread of misinformation, though users reported a decline in engagement.",
+      "choices": [
+        "Changes to the algorithm increased user engagement while successfully reducing misinformation.",
+        "The platform modified its algorithm to limit false information, but this change led to users experiencing less interaction with content.",
+        "Users complained that the algorithm change increased the spread of misinformation.",
+        "The platform's algorithm update was reversed after users reported a drop in engagement."
+      ],
+      "answer": 1,
+      "explanation": "Algorithm altered to reduce misinformation but users reported decline in engagement = modified to limit false information, but users experienced less interaction with content.",
+      "wrongReasons": [
+        "Choice A reverses the engagement outcome — increased engagement rather than a decline.",
+        "Choice C reverses the misinformation outcome — increased spread instead of reduced.",
+        "Choice D introduces a reversal of the update, which is not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p62",
+      "difficulty": "medium",
+      "text": "The researcher cautions that small sample sizes limit the generalizability of the findings.",
+      "choices": [
+        "The findings cannot be generalized to any population, according to the researcher.",
+        "The researcher warns that the results may not be broadly applicable due to the limited number of participants.",
+        "Small sample sizes were used to ensure the findings could be generalized more widely.",
+        "The researcher encourages other scientists to replicate the study with larger samples to confirm generalizability."
+      ],
+      "answer": 1,
+      "explanation": "Small sample sizes limit generalizability = results may not be broadly applicable due to limited number of participants.",
+      "wrongReasons": [
+        "Choice A overstates the caution — cannot be generalized to any population is stronger than limited generalizability.",
+        "Choice C reverses the logic — small samples used to ensure generalizability, opposite of the original.",
+        "Choice D introduces a call for replication, which goes beyond what the original states."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p63",
+      "difficulty": "medium",
+      "text": "The proposal was welcomed by the majority of council members but faced strong opposition from the business community.",
+      "choices": [
+        "Most council members and the business community supported the proposal.",
+        "The business community's support helped the proposal pass over council objections.",
+        "While most council members were in favor of the proposal, business groups strongly opposed it.",
+        "The proposal was rejected by the council after pressure from the business community."
+      ],
+      "answer": 2,
+      "explanation": "Welcomed by majority of council but faced strong business opposition = most council members in favor, but business groups strongly opposed it.",
+      "wrongReasons": [
+        "Choice A says both groups supported the proposal, contradicting the business opposition.",
+        "Choice B reverses the alignment — business community supported, council opposed.",
+        "Choice D says the proposal was rejected, which is not stated in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p64",
+      "difficulty": "medium",
+      "text": "The public health campaign succeeded in raising awareness but fell short of changing long-term behavior.",
+      "choices": [
+        "The campaign both raised awareness and achieved lasting behavioral change.",
+        "Despite increasing public awareness, the campaign did not produce sustained changes in behavior.",
+        "The campaign failed entirely, neither raising awareness nor changing behavior.",
+        "Long-term behavioral change was achieved by the campaign, though awareness remained low."
+      ],
+      "answer": 1,
+      "explanation": "Succeeded in raising awareness but fell short of changing long-term behavior = increased awareness but did not produce sustained behavioral change.",
+      "wrongReasons": [
+        "Choice A says both goals were achieved, contradicting the shortfall in behavioral change.",
+        "Choice C overstates failure — the campaign did succeed in raising awareness.",
+        "Choice D reverses the two outcomes — behavioral change succeeded, awareness did not."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p65",
+      "difficulty": "medium",
+      "text": "The government's austerity measures were criticized for placing a heavier burden on vulnerable populations than on wealthier citizens.",
+      "choices": [
+        "Critics praised the government's austerity measures for protecting the most vulnerable.",
+        "The government's austerity measures were designed specifically to benefit lower-income groups.",
+        "Opponents of the austerity measures argued that they disproportionately affected disadvantaged groups relative to those with greater wealth.",
+        "Austerity measures were applied equally across income groups, but critics still opposed them."
+      ],
+      "answer": 2,
+      "explanation": "Criticized for heavier burden on vulnerable than wealthier = opponents argued measures disproportionately affected disadvantaged groups relative to those with greater wealth.",
+      "wrongReasons": [
+        "Choice A reverses the criticism — praised for protecting vulnerable is the opposite.",
+        "Choice B reverses the intent — designed to benefit lower-income groups, not burden them.",
+        "Choice D says measures were applied equally, contradicting the disproportionate burden claimed."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p66",
+      "difficulty": "medium",
+      "text": "Unlike classical economics, behavioral economics acknowledges that human decision-making is often irrational.",
+      "choices": [
+        "Behavioral economics, like classical economics, assumes that humans always make rational decisions.",
+        "Classical economics and behavioral economics both recognize the role of irrationality in human behavior.",
+        "In contrast to the classical economic assumption of rational actors, behavioral economics recognizes that people often make illogical choices.",
+        "Behavioral economics argues that irrationality in decision-making can be fully corrected through better information."
+      ],
+      "answer": 2,
+      "explanation": "Unlike classical economics, behavioral economics acknowledges irrationality = in contrast to classical assumption of rational actors, behavioral economics recognizes illogical choices.",
+      "wrongReasons": [
+        "Choice A contradicts the original — says both schools assume rational decision-making.",
+        "Choice B says both recognize irrationality, whereas the original contrasts them.",
+        "Choice D introduces a corrective claim about information that is not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p67",
+      "difficulty": "medium",
+      "text": "The policy document acknowledged existing gaps in healthcare access while outlining steps to address them over the next five years.",
+      "choices": [
+        "The policy document ignored existing healthcare gaps and focused only on future improvements.",
+        "The policy document recognized deficiencies in healthcare access and proposed measures to remedy them within a five-year period.",
+        "Healthcare access gaps were resolved in the policy document before any long-term plan was proposed.",
+        "The five-year plan in the policy document was criticized for failing to address healthcare access gaps."
+      ],
+      "answer": 1,
+      "explanation": "Acknowledged gaps and outlined steps over five years = recognized deficiencies and proposed remedies within a five-year period.",
+      "wrongReasons": [
+        "Choice A says the document ignored gaps, directly contradicting acknowledged.",
+        "Choice C says gaps were resolved immediately, which misrepresents the five-year plan.",
+        "Choice D introduces criticism, which is not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p68",
+      "difficulty": "medium",
+      "text": "Voters in rural areas were significantly less likely to support the new transit plan than those in urban centers.",
+      "choices": [
+        "Support for the new transit plan was equally distributed between rural and urban voters.",
+        "Urban voters were far more enthusiastic about the transit plan than their rural counterparts.",
+        "Rural voters supported the transit plan more strongly than urban voters.",
+        "The new transit plan failed to gain support from both rural and urban voters."
+      ],
+      "answer": 1,
+      "explanation": "Rural voters significantly less likely to support = urban voters far more enthusiastic than rural counterparts.",
+      "wrongReasons": [
+        "Choice A says support was equally distributed, contradicting the significant difference.",
+        "Choice C reverses the comparison — rural voters more supportive than urban.",
+        "Choice D says both groups failed to support, which overstates and distorts the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p69",
+      "difficulty": "medium",
+      "text": "The enzyme catalyzes the reaction only in the presence of a specific co-factor, without which the process cannot proceed.",
+      "choices": [
+        "The enzyme can catalyze the reaction independently, without requiring any co-factor.",
+        "Without the particular co-factor, the enzyme is unable to facilitate the reaction.",
+        "The co-factor catalyzes the reaction independently of the enzyme.",
+        "The presence of the co-factor slows down the reaction catalyzed by the enzyme."
+      ],
+      "answer": 1,
+      "explanation": "Catalyzes only in presence of co-factor, without which process cannot proceed = without the particular co-factor, enzyme is unable to facilitate the reaction.",
+      "wrongReasons": [
+        "Choice A says the enzyme acts independently without a co-factor, directly contradicting the original.",
+        "Choice C replaces the enzyme with the co-factor as the catalytic agent.",
+        "Choice D says the co-factor slows the reaction, contradicting its enabling role in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p70",
+      "difficulty": "medium",
+      "text": "The treaty was signed only after both nations made significant concessions on border demarcation.",
+      "choices": [
+        "Neither nation was willing to make concessions, so the treaty was never signed.",
+        "The treaty was signed before either nation had agreed to changes in border demarcation.",
+        "Both countries had to give ground on the issue of border boundaries before they were able to conclude the treaty.",
+        "The treaty required one nation to concede on border issues while the other made no changes."
+      ],
+      "answer": 2,
+      "explanation": "Signed only after both nations made concessions on border demarcation = both countries had to give ground on border boundaries before concluding the treaty.",
+      "wrongReasons": [
+        "Choice A contradicts the original — the treaty was never signed vs. was signed.",
+        "Choice B says the treaty was signed before concessions, reversing the sequence.",
+        "Choice D says only one nation made concessions, while the original says both did."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p71",
+      "difficulty": "medium",
+      "text": "The growing demand for renewable energy is being driven partly by falling production costs and partly by tighter environmental regulations.",
+      "choices": [
+        "Renewable energy demand has grown because environmental regulations have been relaxed.",
+        "Both decreasing costs of production and stricter environmental policies are contributing to the increased demand for renewable energy.",
+        "Falling production costs alone explain the rising demand for renewable energy.",
+        "Tighter environmental regulations have reduced the demand for renewable energy by raising costs."
+      ],
+      "answer": 1,
+      "explanation": "Driven by falling production costs and tighter regulations = both decreasing costs and stricter environmental policies contributing to increased demand.",
+      "wrongReasons": [
+        "Choice A says regulations have been relaxed, contradicting tighter in the original.",
+        "Choice C attributes demand growth to falling costs alone, ignoring the regulations factor.",
+        "Choice D says regulations reduced demand, which is the opposite of what the original states."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p72",
+      "difficulty": "medium",
+      "text": "The report warns that without coordinated international action, the spread of antibiotic-resistant bacteria could become a global health crisis.",
+      "choices": [
+        "The report suggests that antibiotic resistance has already reached crisis levels globally.",
+        "Coordinated international efforts have been sufficient to prevent the spread of antibiotic-resistant bacteria.",
+        "According to the report, a failure to act collectively at the international level risks turning antibiotic resistance into a worldwide health emergency.",
+        "The report concludes that antibiotic-resistant bacteria pose no serious threat as long as some nations act independently."
+      ],
+      "answer": 2,
+      "explanation": "Without coordinated international action, could become a global health crisis = failure to act collectively at the international level risks turning it into a worldwide health emergency.",
+      "wrongReasons": [
+        "Choice A says crisis levels have already been reached, but the original says it could become a crisis.",
+        "Choice B says efforts have been sufficient, contradicting the warning.",
+        "Choice D introduces independent national action as sufficient, which contradicts the need for coordinated action."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p73",
+      "difficulty": "medium",
+      "text": "The concept of meritocracy assumes that success is determined by talent and effort rather than by social background.",
+      "choices": [
+        "Meritocracy holds that social background is the primary determinant of individual success.",
+        "Under a meritocratic framework, people succeed based on their abilities and hard work, not on where they come from.",
+        "Meritocracy acknowledges that social background and individual effort are equally important in determining success.",
+        "The concept of meritocracy has been proven to function effectively in all social contexts."
+      ],
+      "answer": 1,
+      "explanation": "Assumes success is determined by talent and effort rather than social background = people succeed based on abilities and hard work, not where they come from.",
+      "wrongReasons": [
+        "Choice A reverses the assumption — social background is the primary determinant.",
+        "Choice C introduces equal weight for social background, which contradicts the either/or framing in the original.",
+        "Choice D introduces an empirical claim about its effectiveness, which the original does not make."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p74",
+      "difficulty": "medium",
+      "text": "The court upheld the regulation, finding that it was a reasonable restriction on commercial activity rather than an unconstitutional overreach.",
+      "choices": [
+        "The court struck down the regulation as an unconstitutional overreach.",
+        "The court ruled that the regulation was so restrictive as to exceed constitutional limits.",
+        "Finding the regulation to be a justifiable limit on business activity and not a constitutional violation, the court upheld it.",
+        "The court upheld the regulation but questioned whether it was constitutionally sound."
+      ],
+      "answer": 2,
+      "explanation": "Upheld as reasonable restriction, not unconstitutional overreach = justifiable limit on business activity and not a constitutional violation, so court upheld it.",
+      "wrongReasons": [
+        "Choice A reverses the outcome — struck down vs. upheld.",
+        "Choice B says the regulation exceeded constitutional limits, which is the opposite finding.",
+        "Choice D introduces doubt about constitutionality, whereas the original clearly found it constitutional."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p75",
+      "difficulty": "medium",
+      "text": "The narrative structure of the novel shifts between past and present, creating a sense of temporal disorientation for the reader.",
+      "choices": [
+        "The novel's linear narrative provides readers with a clear chronological experience.",
+        "By alternating between different time periods, the novel's structure leaves readers with an unsettled sense of time.",
+        "The novel's narrative is disorienting because it is told entirely in the past tense.",
+        "The temporal shifts in the novel are used to provide historical context rather than to disorient the reader."
+      ],
+      "answer": 1,
+      "explanation": "Shifts between past and present creating temporal disorientation = alternating between time periods leaves readers with an unsettled sense of time.",
+      "wrongReasons": [
+        "Choice A describes a linear narrative, which contradicts the shifting structure.",
+        "Choice C attributes the disorientation solely to past tense narration, not to temporal shifts.",
+        "Choice D changes the purpose from disorientation to providing historical context."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p76",
+      "difficulty": "medium",
+      "text": "The committee's recommendation was not binding, but it carried significant political weight.",
+      "choices": [
+        "The committee's recommendation was both legally enforceable and politically influential.",
+        "While the committee's recommendation was legally obligatory, it had little political impact.",
+        "Although the recommendation lacked legal force, it nonetheless held considerable political influence.",
+        "The recommendation was ignored politically because it was not legally binding."
+      ],
+      "answer": 2,
+      "explanation": "Not binding but carried significant political weight = lacked legal force but held considerable political influence.",
+      "wrongReasons": [
+        "Choice A says it was legally enforceable, contradicting not binding.",
+        "Choice B reverses both qualities — legally obligatory and little political impact.",
+        "Choice D says it was ignored politically, contradicting the significant political weight."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p77",
+      "difficulty": "medium",
+      "text": "The indigenous community's land rights were recognized under the new legislation, marking a significant legal milestone.",
+      "choices": [
+        "New legislation failed to recognize the indigenous community's land rights despite legal pressure.",
+        "The new law's acknowledgment of the indigenous community's land rights represented an important legal achievement.",
+        "The indigenous community gained economic benefits from the new legislation but not formal land rights.",
+        "Legal experts criticized the new legislation for recognizing land rights without enforcement mechanisms."
+      ],
+      "answer": 1,
+      "explanation": "Land rights recognized under new legislation, marking a significant legal milestone = new law's acknowledgment of land rights represented an important legal achievement.",
+      "wrongReasons": [
+        "Choice A says legislation failed to recognize rights, contradicting the original.",
+        "Choice C says economic benefits but not land rights, contradicting the original.",
+        "Choice D introduces criticism about enforcement, which is not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p78",
+      "difficulty": "medium",
+      "text": "The findings suggest that regular physical activity can mitigate some of the cognitive decline associated with aging.",
+      "choices": [
+        "Regular physical activity has been shown to eliminate all cognitive decline in older adults.",
+        "Cognitive decline is unaffected by physical activity, according to the findings.",
+        "The findings indicate that physical activity can help reverse cognitive decline in all age groups.",
+        "According to the findings, engaging regularly in physical activity may help reduce some of the mental deterioration linked to growing older."
+      ],
+      "answer": 3,
+      "explanation": "Can mitigate some cognitive decline associated with aging = may help reduce some mental deterioration linked to growing older.",
+      "wrongReasons": [
+        "Choice A overstates — eliminate all cognitive decline, whereas the original says mitigate some.",
+        "Choice B contradicts the finding — unaffected by physical activity.",
+        "Choice C says reverse and in all age groups, which the original does not claim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p79",
+      "difficulty": "medium",
+      "text": "The rise of e-commerce has forced many traditional retailers to either adapt their business models or face closure.",
+      "choices": [
+        "Traditional retailers have benefited from the growth of e-commerce by expanding their customer base.",
+        "E-commerce growth has created new opportunities for traditional retailers without threatening existing ones.",
+        "The expansion of online shopping has put conventional retailers in the position of needing to transform how they operate or risk going out of business.",
+        "Traditional retailers chose to close rather than compete with e-commerce platforms."
+      ],
+      "answer": 2,
+      "explanation": "E-commerce forced retailers to adapt or face closure = expansion of online shopping put retailers in position of needing to transform or risk going out of business.",
+      "wrongReasons": [
+        "Choice A says retailers benefited without threat, contradicting the pressure described in the original.",
+        "Choice B says e-commerce created only opportunities without threats, also contradicting the original.",
+        "Choice D says retailers chose to close rather than compete, which overstates and misrepresents the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p80",
+      "difficulty": "medium",
+      "text": "The new tax incentives are intended to encourage domestic investment by making it more financially attractive than foreign alternatives.",
+      "choices": [
+        "The tax incentives aim to make investing locally more appealing financially than investing abroad.",
+        "The tax incentives are designed to discourage both domestic and foreign investment equally.",
+        "Foreign investment has been made more attractive than domestic investment through the new tax incentives.",
+        "The new incentives remove financial barriers to both domestic and foreign investment."
+      ],
+      "answer": 0,
+      "explanation": "Intended to encourage domestic investment by making it more financially attractive than foreign = aim to make investing locally more appealing financially than investing abroad.",
+      "wrongReasons": [
+        "Choice B says both types of investment are discouraged, contradicting the encouragement of domestic investment.",
+        "Choice C reverses the comparison — foreign investment made more attractive, not domestic.",
+        "Choice D says both types benefit equally, whereas the original focuses only on domestic investment."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p81",
+      "difficulty": "medium",
+      "text": "The sociologist argues that social mobility has declined in recent decades, challenging the assumption that modern societies are fundamentally meritocratic.",
+      "choices": [
+        "Recent decades have seen rising social mobility, confirming the meritocratic nature of modern societies.",
+        "The sociologist supports the traditional view that meritocracy ensures social mobility.",
+        "According to the sociologist, the reduction in social mobility over recent decades calls into question whether modern societies truly reward merit.",
+        "The sociologist argues that social mobility is irrelevant to evaluating the meritocratic nature of society."
+      ],
+      "answer": 2,
+      "explanation": "Social mobility declined, challenging meritocracy assumption = reduction in social mobility calls into question whether modern societies truly reward merit.",
+      "wrongReasons": [
+        "Choice A reverses both claims — rising mobility confirming meritocracy.",
+        "Choice B says the sociologist supports the meritocracy view, contradicting the challenge.",
+        "Choice D says social mobility is irrelevant to meritocracy, contradicting the direct connection made in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p82",
+      "difficulty": "medium",
+      "text": "The drought prompted authorities to implement emergency water rationing across the affected regions.",
+      "choices": [
+        "Water rationing was introduced as a precaution before the drought began.",
+        "In response to the drought, officials put emergency water restrictions in place throughout the areas impacted.",
+        "Authorities lifted water restrictions after the drought intensified.",
+        "Emergency water rationing was considered but ultimately rejected by authorities during the drought."
+      ],
+      "answer": 1,
+      "explanation": "Drought prompted authorities to implement emergency water rationing = in response to drought, officials put emergency water restrictions in place throughout impacted areas.",
+      "wrongReasons": [
+        "Choice A changes the timing — rationing introduced before, not prompted by, the drought.",
+        "Choice C says restrictions were lifted, contradicting the implementation of rationing.",
+        "Choice D says rationing was rejected, contradicting the implementation described."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p83",
+      "difficulty": "medium",
+      "text": "The clinical trial demonstrated that the drug was effective in reducing symptoms, though side effects were reported by a minority of participants.",
+      "choices": [
+        "The clinical trial showed that the drug reduced symptoms without any side effects.",
+        "The drug was found to be ineffective in the clinical trial, despite a reduction in reported side effects.",
+        "The trial proved the drug's effectiveness at symptom reduction, even though some participants experienced adverse effects.",
+        "Side effects were reported by the majority of participants, limiting the drug's overall effectiveness."
+      ],
+      "answer": 2,
+      "explanation": "Effective at reducing symptoms, though side effects reported by minority = proved effectiveness at symptom reduction, even though some participants experienced adverse effects.",
+      "wrongReasons": [
+        "Choice A says no side effects, contradicting the reported side effects.",
+        "Choice B says the drug was ineffective, contradicting the demonstrated effectiveness.",
+        "Choice D says majority reported side effects, whereas the original says minority."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p84",
+      "difficulty": "hard",
+      "text": "The author concedes that while economic growth may generate wealth, it does not automatically distribute that wealth in ways that benefit all members of society.",
+      "choices": [
+        "The author argues that economic growth inevitably leads to equitable wealth distribution across society.",
+        "While acknowledging that growth can produce wealth, the author maintains that its benefits are not necessarily shared by all.",
+        "The author disputes the link between economic growth and wealth generation.",
+        "According to the author, distribution of wealth depends entirely on economic growth rather than on policy choices."
+      ],
+      "answer": 1,
+      "explanation": "Concedes growth generates wealth but does not automatically distribute it beneficially = while acknowledging growth can produce wealth, author maintains benefits are not necessarily shared by all.",
+      "wrongReasons": [
+        "Choice A reverses the author's point — inevitably equitable distribution is the opposite of the cautious view expressed.",
+        "Choice C misrepresents the author — the author accepts the growth-wealth link but questions distribution.",
+        "Choice D says distribution depends entirely on growth, whereas the author implies growth alone is insufficient."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p85",
+      "difficulty": "hard",
+      "text": "Critics of the study contend that the observed correlation between social media use and depression cannot be interpreted as evidence of causation without controlling for confounding variables.",
+      "choices": [
+        "Critics argue that the study has proven that social media use causes depression.",
+        "The study's critics hold that the correlation between social media use and depression is meaningless and should be disregarded.",
+        "According to the critics, the correlation identified in the study does not establish that social media use leads to depression, unless other influencing factors are accounted for.",
+        "Critics suggest that confounding variables, not social media use, are the direct cause of depression."
+      ],
+      "answer": 2,
+      "explanation": "Correlation cannot be interpreted as causation without controlling for confounding variables = correlation does not establish causation unless other influencing factors are accounted for.",
+      "wrongReasons": [
+        "Choice A says the study proved causation, which is exactly what critics dispute.",
+        "Choice B says the correlation is meaningless, which overstates the critics' position — they question causation, not correlation.",
+        "Choice D makes a definitive causal claim about confounders, whereas the critics only caution about uncontrolled variables."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p86",
+      "difficulty": "hard",
+      "text": "The theory posits that individuals internalize social norms not through explicit instruction but through repeated exposure to normative behavior within their communities.",
+      "choices": [
+        "According to the theory, social norms are internalized mainly through formal education and direct guidance.",
+        "The theory claims that individuals adopt social norms by observing and repeatedly experiencing normative behavior in their social environment, rather than through being explicitly taught.",
+        "The theory holds that normative behavior within communities is shaped by individuals rather than the other way around.",
+        "Repeated exposure to non-normative behavior is what drives norm internalization, according to the theory."
+      ],
+      "answer": 1,
+      "explanation": "Internalized through repeated exposure to normative behavior, not explicit instruction = adopt norms by observing and repeatedly experiencing normative behavior in social environment, not through explicit teaching.",
+      "wrongReasons": [
+        "Choice A says norms are internalized mainly through formal education, contradicting the not through explicit instruction claim.",
+        "Choice C reverses the direction — individuals shape communities, not communities shaping individuals.",
+        "Choice D changes normative to non-normative, reversing the mechanism described."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p87",
+      "difficulty": "hard",
+      "text": "Although the new curriculum claims to promote critical thinking, its assessment framework continues to reward rote memorization over analytical reasoning.",
+      "choices": [
+        "The new curriculum's assessment tools effectively measure critical thinking rather than rote memorization.",
+        "While the stated aim of the new curriculum is fostering critical thinking, the way students are evaluated still favors memorization above analysis.",
+        "The curriculum's emphasis on analytical reasoning has replaced rote memorization in all assessments.",
+        "The new curriculum was designed to reward memorization, and its assessment framework reflects this goal accurately."
+      ],
+      "answer": 1,
+      "explanation": "Claims to promote critical thinking but assessment rewards rote memorization over analytical reasoning = stated aim is fostering critical thinking, but evaluation still favors memorization above analysis.",
+      "wrongReasons": [
+        "Choice A says assessment tools effectively measure critical thinking, contradicting the criticism.",
+        "Choice C says analytical reasoning has replaced memorization, contradicting the original's claim of continuing memorization rewards.",
+        "Choice D says the curriculum was designed to reward memorization, removing the tension between stated aim and actual practice."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p88",
+      "difficulty": "hard",
+      "text": "The policy's failure to distinguish between short-term fiscal pressures and structural economic weaknesses has led to interventions that address symptoms rather than underlying causes.",
+      "choices": [
+        "The policy has successfully addressed both the immediate financial pressures and the deeper structural causes of economic weakness.",
+        "By conflating immediate budgetary difficulties with deeper systemic problems, the policy has produced measures that treat surface manifestations rather than root causes.",
+        "The policy distinguished carefully between short-term and structural issues but still failed to produce effective interventions.",
+        "Structural economic weaknesses are better addressed through short-term fiscal interventions than through systemic reforms."
+      ],
+      "answer": 1,
+      "explanation": "Failure to distinguish short-term pressures from structural weaknesses led to addressing symptoms not causes = conflating immediate budgetary difficulties with systemic problems produced measures treating surface manifestations not root causes.",
+      "wrongReasons": [
+        "Choice A says the policy successfully addressed both, contradicting the failure described.",
+        "Choice C says the policy did distinguish but still failed — the original says the failure was due to not distinguishing.",
+        "Choice D introduces a prescription that is not in the original and reverses the implied logic."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p89",
+      "difficulty": "hard",
+      "text": "The study's reliance on self-reported data introduces the possibility of response bias, which may systematically skew the findings in a particular direction.",
+      "choices": [
+        "Because the study used self-reported data, participants may have provided inaccurate responses, potentially distorting the results consistently in one direction.",
+        "Self-reported data is considered the most reliable method available for this type of study.",
+        "Response bias in the study affected some participants but not enough to influence the overall findings.",
+        "The findings are valid because self-reported data was verified against independent sources."
+      ],
+      "answer": 0,
+      "explanation": "Self-reported data introduces response bias possibly skewing findings in a particular direction = participants may have provided inaccurate responses, potentially distorting results consistently in one direction.",
+      "wrongReasons": [
+        "Choice B says self-reported data is most reliable, contradicting the concern raised.",
+        "Choice C minimizes the problem, saying it was insufficient to influence overall findings — the original raises the possibility of systematic skewing.",
+        "Choice D says data was verified, which would resolve the concern rather than preserve it."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p90",
+      "difficulty": "hard",
+      "text": "The philosopher distinguishes between freedom as the absence of external constraint and freedom as the capacity to act in accordance with one's authentic values.",
+      "choices": [
+        "The philosopher equates freedom with the absence of external constraint and views all other definitions as secondary.",
+        "The philosopher identifies two distinct conceptions of freedom: one defined by the lack of outside interference, and another by the ability to act in line with one's genuine values.",
+        "According to the philosopher, true freedom requires both the absence of constraints and complete alignment with social norms.",
+        "The philosopher argues that external constraints are necessary for authentic freedom."
+      ],
+      "answer": 1,
+      "explanation": "Distinguishes between freedom as absence of constraint and freedom as capacity to act according to authentic values = identifies two conceptions: lack of outside interference and ability to act in line with genuine values.",
+      "wrongReasons": [
+        "Choice A says the philosopher equates freedom with absence of constraint only, ignoring the second conception.",
+        "Choice C introduces alignment with social norms, which substitutes authentic values and adds an external standard.",
+        "Choice D reverses the first conception — external constraints are necessary, contradicting freedom as their absence."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p91",
+      "difficulty": "hard",
+      "text": "The paradox of tolerance, as articulated by Popper, holds that a society that tolerates all views, including intolerance, risks undermining the very conditions that make tolerance possible.",
+      "choices": [
+        "Popper argues that a tolerant society must suppress all intolerant views in order to remain functional.",
+        "According to Popper, unlimited tolerance is self-defeating because it permits the spread of intolerance, which could destroy the foundations of tolerance itself.",
+        "Popper's paradox suggests that intolerance is inherent in any society that claims to be tolerant.",
+        "Popper holds that tolerance is only possible in societies that have already eliminated intolerant views."
+      ],
+      "answer": 1,
+      "explanation": "Tolerating all views including intolerance risks undermining conditions for tolerance = unlimited tolerance is self-defeating because it permits intolerance, which could destroy the foundations of tolerance itself.",
+      "wrongReasons": [
+        "Choice A overstates Popper's prescription — suppress all intolerant views goes beyond the nuanced claim in the original.",
+        "Choice C makes a different claim — intolerance is inherent in tolerant societies, not a risk from tolerating intolerance.",
+        "Choice D states that tolerance is possible only after intolerance is eliminated, which is a different argument from Popper's."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p92",
+      "difficulty": "hard",
+      "text": "The author suggests that institutional inertia, rather than a lack of political will, is the primary obstacle to meaningful educational reform.",
+      "choices": [
+        "According to the author, insufficient political commitment is the main barrier preventing effective changes to the education system.",
+        "The author contends that while political will for educational reform exists, it is the resistance embedded in existing institutions that most significantly impedes genuine change.",
+        "The author argues that both institutional inertia and lack of political will equally obstruct educational reform.",
+        "Educational reform has been blocked primarily by public opposition rather than institutional inertia, according to the author."
+      ],
+      "answer": 1,
+      "explanation": "Institutional inertia, not lack of political will, is primary obstacle = while political will exists, institutional resistance most significantly impedes genuine change.",
+      "wrongReasons": [
+        "Choice A says insufficient political commitment is the main barrier, contradicting the argument that political will is not the obstacle.",
+        "Choice C says both are equally responsible, but the original identifies institutional inertia as the primary factor.",
+        "Choice D substitutes public opposition for institutional inertia, introducing an entirely different obstacle."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p93",
+      "difficulty": "hard",
+      "text": "Whereas early proponents of globalization emphasized its capacity to lift populations out of poverty, contemporary critics point to its role in intensifying inequality both within and between nations.",
+      "choices": [
+        "Early and contemporary perspectives on globalization are unified in their positive assessment of its impact on global poverty.",
+        "Contemporary critics and early proponents of globalization both focus on its effects on inequality within nations.",
+        "Early advocates highlighted globalization's potential to alleviate poverty, while today's critics argue it has deepened inequality at both the domestic and international levels.",
+        "Contemporary critics now accept that globalization reduces poverty, though they argue it also worsens inequality within countries."
+      ],
+      "answer": 2,
+      "explanation": "Early proponents emphasized poverty reduction; contemporary critics point to intensifying inequality within and between nations = early advocates highlighted poverty alleviation potential; today's critics argue it deepened inequality domestically and internationally.",
+      "wrongReasons": [
+        "Choice A says both perspectives are unified positively, ignoring the contrast between them.",
+        "Choice B says both focus on inequality within nations, misrepresenting early proponents and the between-nations dimension.",
+        "Choice D says critics now accept poverty reduction, which is not in the original — critics point to inequality, not poverty reduction."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p94",
+      "difficulty": "hard",
+      "text": "The regulation operates not by prohibiting the behavior outright but by restructuring the incentives in ways that make compliance the economically rational choice.",
+      "choices": [
+        "The regulation achieves compliance by banning the behavior and imposing penalties for non-compliance.",
+        "Rather than imposing an outright ban, the regulation works by altering the incentive structure so that following the rules becomes the most economically sensible option.",
+        "The regulation assumes that economic incentives alone are insufficient to change behavior without accompanying prohibitions.",
+        "By making non-compliance more attractive economically, the regulation encourages a shift in behavior."
+      ],
+      "answer": 1,
+      "explanation": "Not by prohibiting outright but by restructuring incentives making compliance economically rational = rather than imposing an outright ban, alters incentive structure so compliance becomes most economically sensible option.",
+      "wrongReasons": [
+        "Choice A says the regulation operates by banning and imposing penalties, contradicting the incentive-based approach.",
+        "Choice C says economic incentives alone are insufficient, implying prohibitions are also needed — the opposite of what the original describes.",
+        "Choice D says non-compliance is made more attractive, reversing the incentive direction."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p95",
+      "difficulty": "hard",
+      "text": "The evidence is consistent with the hypothesis but does not uniquely support it, as alternative explanations remain plausible.",
+      "choices": [
+        "The evidence proves the hypothesis while ruling out all alternative explanations.",
+        "The evidence contradicts the hypothesis, leaving only alternative explanations plausible.",
+        "While the evidence does not rule out alternative explanations, it is incompatible with the hypothesis.",
+        "The evidence aligns with the hypothesis without confirming it exclusively, given that other explanations cannot be ruled out."
+      ],
+      "answer": 3,
+      "explanation": "Consistent with hypothesis but does not uniquely support it as alternatives remain plausible = aligns with hypothesis without confirming it exclusively, given other explanations cannot be ruled out.",
+      "wrongReasons": [
+        "Choice A says the evidence proves the hypothesis and rules out alternatives — this overstates both claims.",
+        "Choice B says the evidence contradicts the hypothesis, directly reversing consistent with.",
+        "Choice C says the evidence is incompatible with the hypothesis, contradicting consistent with."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p96",
+      "difficulty": "hard",
+      "text": "The narrative's ambiguity is not a flaw but a deliberate device that compels the reader to participate in constructing meaning.",
+      "choices": [
+        "The author's inability to construct a clear narrative has been misinterpreted as an intentional literary strategy.",
+        "The author views narrative clarity as essential to ensuring readers can construct meaning independently.",
+        "Rather than being an unintentional weakness, the narrative's lack of clarity is a purposeful technique that draws the reader into the meaning-making process.",
+        "The narrative's ambiguity reduces reader engagement by leaving too much meaning unresolved."
+      ],
+      "answer": 2,
+      "explanation": "Ambiguity is not a flaw but a deliberate device compelling reader to construct meaning = lack of clarity is purposeful technique that draws reader into meaning-making process.",
+      "wrongReasons": [
+        "Choice A attributes the ambiguity to inability rather than intention, contradicting deliberate device.",
+        "Choice B says narrative clarity is essential, which is the opposite of valuing ambiguity.",
+        "Choice D says ambiguity reduces engagement, contradicting the notion that it compels participation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p97",
+      "difficulty": "hard",
+      "text": "Proponents of the precautionary principle argue that in the absence of scientific consensus, the burden of proof should lie with those who advocate for a potentially harmful action, not those who seek to prevent it.",
+      "choices": [
+        "The precautionary principle holds that actions should be permitted unless scientific consensus has established their harmfulness.",
+        "Supporters of the precautionary principle contend that when scientific certainty is lacking, those wishing to proceed with a potentially dangerous action must demonstrate its safety rather than expecting opponents to prove its harm.",
+        "The precautionary principle requires scientific consensus before any potentially harmful action is either permitted or prevented.",
+        "Advocates of the precautionary principle argue that both proponents and opponents of an action share equal responsibility for establishing its safety."
+      ],
+      "answer": 1,
+      "explanation": "Burden of proof on those advocating potentially harmful action, not those seeking to prevent it, in absence of consensus = those wishing to proceed must demonstrate safety rather than opponents proving harm.",
+      "wrongReasons": [
+        "Choice A reverses the principle — actions permitted unless harm is established, placing burden on opponents.",
+        "Choice C requires consensus before any action, which is different from specifying where the burden of proof lies.",
+        "Choice D says the burden is shared equally, contradicting the clear assignment of burden in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p98",
+      "difficulty": "hard",
+      "text": "The committee's mandate was narrowly interpreted to exclude matters of fiscal policy, thereby limiting its ability to address what many considered the root cause of the crisis.",
+      "choices": [
+        "The committee's broad mandate allowed it to address fiscal policy, which was seen as central to resolving the crisis.",
+        "A narrow reading of the committee's authority meant fiscal policy was outside its purview, restricting its capacity to tackle what was widely viewed as the crisis's fundamental cause.",
+        "The committee chose to exclude fiscal policy from its agenda, despite having the authority to address it.",
+        "Fiscal policy was the main focus of the committee's mandate, though the committee was criticized for its narrow interpretation."
+      ],
+      "answer": 1,
+      "explanation": "Narrowly interpreted to exclude fiscal policy, limiting ability to address root cause = narrow reading of authority meant fiscal policy outside purview, restricting capacity to tackle fundamental cause.",
+      "wrongReasons": [
+        "Choice A reverses the mandate — broad mandate allowing fiscal policy coverage.",
+        "Choice C says the committee chose to exclude fiscal policy, implying it had the authority but opted not to use it — the original says it was excluded by interpretation of the mandate.",
+        "Choice D says fiscal policy was the main focus, contradicting its exclusion from the mandate."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p99",
+      "difficulty": "hard",
+      "text": "The apparent contradiction between the two datasets dissolves once one accounts for the different measurement criteria applied in each study.",
+      "choices": [
+        "The two datasets contradict each other even when the same measurement criteria are applied.",
+        "The inconsistency between the two datasets can be explained by the fact that each study employed different standards of measurement.",
+        "Both studies applied the same measurement criteria, which explains why their datasets appear consistent.",
+        "The contradiction between the datasets is irresolvable because no common measurement criteria can be established."
+      ],
+      "answer": 1,
+      "explanation": "Apparent contradiction dissolves once different measurement criteria are accounted for = inconsistency can be explained by the fact that each study employed different measurement standards.",
+      "wrongReasons": [
+        "Choice A says contradiction persists even with same criteria, contradicting the idea of it dissolving.",
+        "Choice C says both studies applied the same criteria, contradicting the explanation relying on different criteria.",
+        "Choice D says the contradiction is irresolvable, contradicting the original which says it dissolves."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p100",
+      "difficulty": "hard",
+      "text": "The economist argues that price controls, while superficially appealing as a measure against inflation, tend to produce shortages by discouraging production at the controlled price.",
+      "choices": [
+        "Price controls are advocated by the economist as an effective long-term solution to both inflation and production shortages.",
+        "According to the economist, price controls reduce inflation without any significant effect on production levels.",
+        "The economist contends that although price controls may seem like an attractive anti-inflation tool, they often lead to supply deficits by reducing producers' incentive to produce at the regulated price.",
+        "The economist warns that inflation tends to cause price controls, which then lead to shortages."
+      ],
+      "answer": 2,
+      "explanation": "Price controls superficially appealing against inflation but produce shortages by discouraging production = although seemingly attractive anti-inflation tool, often lead to supply deficits by reducing producers' incentive at regulated price.",
+      "wrongReasons": [
+        "Choice A says the economist advocates price controls as an effective long-term solution, contradicting the criticism.",
+        "Choice B says price controls reduce inflation without affecting production, ignoring the discouragement of production.",
+        "Choice D reverses the causal direction — inflation causes price controls in Choice D, whereas the original discusses price controls as a response to inflation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p101",
+      "difficulty": "hard",
+      "text": "The distinction between de jure and de facto authority is significant precisely because formal legal power and actual social influence often diverge in practice.",
+      "choices": [
+        "De jure and de facto authority are effectively identical in societies where legal frameworks are strong.",
+        "The difference between legal and actual authority is important because formal power and real-world influence do not always coincide.",
+        "In practice, de facto authority is always more powerful than de jure authority, making the distinction irrelevant.",
+        "The distinction between de jure and de facto authority only matters in societies without a functioning legal system."
+      ],
+      "answer": 1,
+      "explanation": "De jure vs. de facto authority significant because formal legal power and actual social influence often diverge = difference between legal and actual authority important because formal power and real-world influence do not always coincide.",
+      "wrongReasons": [
+        "Choice A says they are effectively identical in strong legal systems, contradicting the premise that they often diverge.",
+        "Choice C says de facto is always more powerful, which introduces an absolute claim not in the original and calls the distinction irrelevant.",
+        "Choice D limits the relevance to societies without legal systems, whereas the original states the divergence occurs generally in practice."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p102",
+      "difficulty": "hard",
+      "text": "The reform was conceived not as a radical departure from existing practice but as an incremental adjustment designed to preserve core institutional values while improving efficiency.",
+      "choices": [
+        "The reform was intended to completely overhaul existing practices in order to achieve maximum efficiency.",
+        "Existing institutional values were seen as incompatible with efficiency, prompting the reform.",
+        "The reform sought to balance continuity and improvement, making gradual changes to enhance efficiency without abandoning core institutional principles.",
+        "The reform was incremental in scope because radical changes were considered too efficient to be practical."
+      ],
+      "answer": 2,
+      "explanation": "Not a radical departure but incremental adjustment preserving core values while improving efficiency = gradual changes to enhance efficiency without abandoning core institutional principles.",
+      "wrongReasons": [
+        "Choice A says the reform was a complete overhaul, contradicting not a radical departure.",
+        "Choice B says core values were seen as incompatible with efficiency, which is the opposite of preserving them.",
+        "Choice D introduces a logically incoherent statement that reverses the meaning of radical and efficient."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p103",
+      "difficulty": "hard",
+      "text": "The scientist cautions that the model's predictive accuracy decreases significantly when it is applied to conditions that fall outside the range of data on which it was trained.",
+      "choices": [
+        "The model performs equally well across all conditions, whether or not they were represented in the training data.",
+        "The model was trained on a wide range of data precisely to ensure its accuracy in new and unfamiliar conditions.",
+        "According to the scientist, the model is less reliable when used to make predictions in contexts that were not covered by its original training data.",
+        "The scientist argues that predictive accuracy depends more on the quality of the model than on the range of training data."
+      ],
+      "answer": 2,
+      "explanation": "Predictive accuracy decreases outside training data range = model is less reliable when making predictions in contexts not covered by training data.",
+      "wrongReasons": [
+        "Choice A says the model performs equally well in all conditions, contradicting the decrease in accuracy outside trained conditions.",
+        "Choice B says the model was trained widely to ensure accuracy — the opposite concern from the scientist's caution.",
+        "Choice D says accuracy depends more on model quality than training data range, which shifts the focus away from the scientist's specific warning."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p104",
+      "difficulty": "hard",
+      "text": "What appears to be public consensus on the issue may in fact reflect a manufactured agreement produced by the selective amplification of certain voices and the marginalization of others.",
+      "choices": [
+        "The public consensus on the issue is genuine because it is based on a wide range of voices being heard.",
+        "The apparent agreement among the public may actually be an artificial unanimity created by the overrepresentation of some perspectives and the suppression of others.",
+        "Public consensus can only be considered genuine if all voices are given equal weight in the discussion.",
+        "The selective amplification of voices tends to produce genuine consensus by filtering out less informed perspectives."
+      ],
+      "answer": 1,
+      "explanation": "Apparent consensus may reflect manufactured agreement from selective amplification and marginalization = apparent agreement may be artificial unanimity created by overrepresentation of some and suppression of others.",
+      "wrongReasons": [
+        "Choice A says the consensus is genuine based on wide representation, contradicting the manufactured quality.",
+        "Choice C introduces a normative claim about what makes consensus genuine, which goes beyond the original.",
+        "Choice D says selective amplification produces genuine consensus, reversing the critical logic of the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p105",
+      "difficulty": "hard",
+      "text": "The concept of negative externalities refers to costs imposed on third parties who are not involved in the transaction that generates them.",
+      "choices": [
+        "Negative externalities are costs borne by the parties directly involved in a transaction.",
+        "The term describes the financial losses that arise when a transaction fails to generate any benefit.",
+        "A negative externality is defined as a burden that falls on individuals or groups outside the transaction that caused it.",
+        "Negative externalities describe the costs incurred by a firm when it fails to sell its product at market price."
+      ],
+      "answer": 2,
+      "explanation": "Costs imposed on third parties not involved in the transaction = burden that falls on individuals or groups outside the transaction that caused it.",
+      "wrongReasons": [
+        "Choice A says costs are borne by parties directly involved, contradicting third parties not involved.",
+        "Choice B redefines as financial losses from a failed transaction, which is not the meaning of negative externalities.",
+        "Choice D restricts the concept to a firm's internal costs, which is entirely different from externalities affecting third parties."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p106",
+      "difficulty": "hard",
+      "text": "The historian argues that attributing the decline of the empire solely to external invasions neglects the internal political fragmentation and economic stagnation that had weakened it over decades.",
+      "choices": [
+        "The historian holds that internal political and economic problems, rather than external invasions, were the sole cause of the empire's decline.",
+        "According to the historian, external invasions occurred because the empire had already been weakened by internal political and economic difficulties.",
+        "The historian contends that a full account of the empire's collapse must consider internal political disunity and economic weakness alongside external military pressure, not just the latter.",
+        "The historian argues that the empire's internal fragmentation was a result of the external invasions it suffered."
+      ],
+      "answer": 2,
+      "explanation": "Attributing decline solely to external invasions neglects internal fragmentation and economic stagnation = full account must consider internal disunity and economic weakness alongside external pressure, not just the latter.",
+      "wrongReasons": [
+        "Choice A says internal factors, not external invasions, were the sole cause — this replaces one oversimplification with another, contrary to the historian's call for a more complete account.",
+        "Choice B introduces a causal sequence (invasions occurred because of internal weaknesses) that is not in the original.",
+        "Choice D reverses the relationship — internal fragmentation caused by invasions, not pre-existing alongside them."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p107",
+      "difficulty": "hard",
+      "text": "The principle of subsidiarity holds that decisions should be taken at the most local level capable of addressing the issue effectively, delegating to higher levels only when necessary.",
+      "choices": [
+        "Subsidiarity argues that all significant decisions should be made at the highest possible level of governance to ensure efficiency.",
+        "Under subsidiarity, the default position is to address issues at the closest level to those affected, escalating to higher authority only when the local level lacks the capacity to handle it.",
+        "The principle of subsidiarity requires decisions to be made jointly by local and higher-level authorities in all cases.",
+        "Subsidiarity dictates that higher levels of governance should take precedence over local decision-making whenever efficiency is a concern."
+      ],
+      "answer": 1,
+      "explanation": "Decisions at most local level capable of addressing effectively, delegating upward only when necessary = default is closest level to those affected, escalating only when local level lacks capacity.",
+      "wrongReasons": [
+        "Choice A says decisions should be at the highest level, which directly inverts the subsidiarity principle.",
+        "Choice C says all decisions are made jointly, which removes the preference for local authority.",
+        "Choice D says higher levels take precedence whenever efficiency is a concern, contradicting the local-first principle."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p108",
+      "difficulty": "hard",
+      "text": "The text's silence on certain historical events is as revealing as its explicit statements, pointing to deliberate editorial choices rather than mere omission.",
+      "choices": [
+        "The text's failure to address certain historical events is evidence of poor research rather than intentional selection.",
+        "Explicit statements in the text are more informative than its omissions regarding historical events.",
+        "Just as informative as what the text openly states is what it leaves out, since the gaps appear to reflect conscious curatorial decisions rather than accidental oversight.",
+        "The text addresses all relevant historical events, leaving no meaningful omissions."
+      ],
+      "answer": 2,
+      "explanation": "Silence as revealing as explicit statements, pointing to deliberate choices not mere omission = what text leaves out as informative as what it states, gaps reflecting conscious decisions not accidental oversight.",
+      "wrongReasons": [
+        "Choice A attributes omissions to poor research, contradicting deliberate editorial choices.",
+        "Choice B says explicit statements are more informative than omissions, reversing the equivalence stated in the original.",
+        "Choice D says the text covers all events without omissions, contradicting the premise entirely."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p109",
+      "difficulty": "hard",
+      "text": "The failure of the peace negotiations was attributable not to a breakdown of goodwill but to a fundamental asymmetry in the parties' respective definitions of what an acceptable settlement would entail.",
+      "choices": [
+        "Peace talks collapsed because neither side demonstrated goodwill or a genuine desire to reach an agreement.",
+        "Both parties shared the same definition of an acceptable settlement, but a lack of goodwill prevented agreement.",
+        "The negotiations broke down not because the parties stopped wanting peace but because they could not agree on what peace would look like.",
+        "An acceptable settlement was proposed by one party but rejected by the other, causing the negotiations to fail."
+      ],
+      "answer": 2,
+      "explanation": "Failure not due to breakdown of goodwill but to asymmetry in definitions of acceptable settlement = broke down not because parties stopped wanting peace but because they disagreed on what peace would look like.",
+      "wrongReasons": [
+        "Choice A says neither side showed goodwill, directly contradicting not attributable to a breakdown of goodwill.",
+        "Choice B says both shared the same definition but lacked goodwill, reversing both key elements of the original.",
+        "Choice D says one party proposed and the other rejected, introducing specifics not in the original and implying only one-sided willingness."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p110",
+      "difficulty": "hard",
+      "text": "The linguistic relativity hypothesis, in its strong form, claims that the language one speaks determines the thoughts one is capable of thinking.",
+      "choices": [
+        "The strong version of linguistic relativity argues that language shapes but does not constrain the range of possible thoughts.",
+        "In its weak form, the linguistic relativity hypothesis holds that language determines the full extent of human thought.",
+        "According to the strong form of linguistic relativity, the structure and vocabulary of one's language set the limits of one's cognitive possibilities.",
+        "The linguistic relativity hypothesis in all its forms rejects any connection between language and thought."
+      ],
+      "answer": 2,
+      "explanation": "Strong form: language determines thoughts one can think = structure and vocabulary of one's language set limits of cognitive possibilities.",
+      "wrongReasons": [
+        "Choice A describes a weak form (shapes but does not constrain), not the strong form.",
+        "Choice B attributes the strong claim to the weak form, mislabeling the hypothesis.",
+        "Choice D says all forms reject any connection, directly contradicting the hypothesis's core claim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p111",
+      "difficulty": "hard",
+      "text": "The welfare state's critics argue that universal benefits, by extending entitlements to those who do not need them, dilute the redistributive purpose of social spending.",
+      "choices": [
+        "Critics of the welfare state believe that universal benefits fail to reach those most in need because they are too narrowly targeted.",
+        "Opponents of the welfare state argue that universal benefits undermine redistribution by providing support to individuals who have no financial need for it.",
+        "Welfare state critics claim that universal benefits strengthen redistribution by building broad political support for social spending.",
+        "Universal benefits are criticized for being too redistributive, benefiting only the lowest-income groups."
+      ],
+      "answer": 1,
+      "explanation": "Universal benefits dilute redistributive purpose by extending entitlements to those who do not need them = undermine redistribution by providing support to individuals with no financial need for it.",
+      "wrongReasons": [
+        "Choice A says benefits are too narrowly targeted, the opposite of universal — the criticism in the original is that they are too broad.",
+        "Choice C says universal benefits strengthen redistribution, contradicting the dilution argument.",
+        "Choice D says benefits are too redistributive and only benefit the lowest-income groups, reversing the universal nature."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p112",
+      "difficulty": "hard",
+      "text": "The study's authors acknowledge that their model accounts for the most commonly cited variables but cannot rule out the influence of factors that have not yet been identified in the literature.",
+      "choices": [
+        "The authors claim their model is comprehensive and eliminates the possibility of any unknown influencing factors.",
+        "The model's limitations stem entirely from the failure to include the most commonly cited variables.",
+        "While the model incorporates the variables most frequently referenced in existing research, the authors admit it may still be affected by unknown factors not yet documented in the field.",
+        "The study identifies previously unknown variables that explain the findings more fully than the commonly cited ones."
+      ],
+      "answer": 2,
+      "explanation": "Accounts for common variables but cannot rule out unidentified factors = incorporates frequently referenced variables but may still be affected by unknown factors not yet documented in the field.",
+      "wrongReasons": [
+        "Choice A claims the model eliminates unknown factors, directly contradicting cannot rule out.",
+        "Choice B says the model's limitations come from excluding common variables, which is the opposite — the model includes them but still has limits.",
+        "Choice D says the study identifies previously unknown variables, whereas the original says those variables cannot yet be identified."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p113",
+      "difficulty": "hard",
+      "text": "The transition from authoritarian to democratic governance is rarely linear, often involving reversals, stagnation, and periods of hybrid rule in which democratic institutions coexist with authoritarian practices.",
+      "choices": [
+        "Democratization is a straightforward and predictable process in which authoritarian institutions are gradually replaced by democratic ones.",
+        "Authoritarian governance systems always collapse before democratic ones can be established in their place.",
+        "The move from authoritarian to democratic systems is not a smooth progression but a complex and irregular process that may include setbacks, standstills, and phases where both types of governance operate simultaneously.",
+        "Democratic transitions invariably succeed once they begin, though the pace of change may vary."
+      ],
+      "answer": 2,
+      "explanation": "Rarely linear, involving reversals, stagnation, and hybrid rule = not a smooth progression but complex and irregular, including setbacks, standstills, and phases with both governance types simultaneously.",
+      "wrongReasons": [
+        "Choice A says it is straightforward and predictable, contradicting rarely linear.",
+        "Choice B says authoritarian systems always collapse before democracy emerges, introducing a claim not in the original.",
+        "Choice D says transitions invariably succeed, contradicting the possibility of reversals and stagnation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p114",
+      "difficulty": "hard",
+      "text": "The concept of epistemic injustice, as developed by Miranda Fricker, refers to the wrong done to someone specifically in their capacity as a knower — that is, by being discredited as a source of knowledge or being denied the concepts needed to make sense of their own experience.",
+      "choices": [
+        "Fricker's epistemic injustice describes the harm caused when knowledge itself is used as a tool of political oppression.",
+        "Epistemic injustice, in Fricker's account, encompasses two related wrongs: being dismissed as a credible source of knowledge, and lacking the interpretive resources to understand one's own situation.",
+        "The concept refers to the injustice of restricting access to education and thus limiting individuals' capacity for knowledge.",
+        "Fricker argues that epistemic injustice occurs only when knowledge is deliberately withheld from marginalized communities."
+      ],
+      "answer": 1,
+      "explanation": "Wrong done as a knower: being discredited as source of knowledge or denied concepts to understand experience = two wrongs: being dismissed as credible source of knowledge, and lacking interpretive resources to understand one's situation.",
+      "wrongReasons": [
+        "Choice A introduces political oppression through knowledge as a tool, which is a different concept not described in the original.",
+        "Choice C reframes as restricting access to education, which is a different kind of injustice from the epistemic one described.",
+        "Choice D says injustice only occurs when knowledge is deliberately withheld, which is not what Fricker describes — the original focuses on credibility and conceptual access."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p115",
+      "difficulty": "hard",
+      "text": "The judicial doctrine of proportionality requires that a restriction on a fundamental right be no greater than necessary to achieve the legitimate aim that justifies the restriction.",
+      "choices": [
+        "Proportionality doctrine holds that any restriction on a fundamental right is justified if it serves a legitimate aim, regardless of its extent.",
+        "Under proportionality, courts assess whether a rights restriction is the minimum required to fulfil the lawful objective that underpins it.",
+        "The proportionality doctrine prohibits all restrictions on fundamental rights unless they are unanimously approved by a legislative body.",
+        "Proportionality requires that rights restrictions be as extensive as possible to ensure that the legitimate aim is fully achieved."
+      ],
+      "answer": 1,
+      "explanation": "Restriction no greater than necessary to achieve legitimate aim = minimum required to fulfil the lawful objective that underpins it.",
+      "wrongReasons": [
+        "Choice A says any restriction is justified if it serves a legitimate aim regardless of extent, removing the necessity/proportionality requirement.",
+        "Choice C introduces unanimous legislative approval, which is not part of the proportionality doctrine.",
+        "Choice D says restrictions should be as extensive as possible, directly contradicting no greater than necessary."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p116",
+      "difficulty": "hard",
+      "text": "The emergence of multi-modal large language models has blurred the boundary between tasks traditionally considered the domain of computer vision and those associated with natural language processing.",
+      "choices": [
+        "Multi-modal large language models have replaced both computer vision and natural language processing as distinct fields of research.",
+        "The rise of large language models has reinforced the separation between computer vision and natural language processing by specializing each field.",
+        "Because multi-modal large language models integrate visual and linguistic capabilities, the formerly distinct boundaries between computer vision and natural language processing have become less clear.",
+        "Computer vision and natural language processing were historically unified before large language models separated them into distinct domains."
+      ],
+      "answer": 2,
+      "explanation": "Multi-modal LLMs blurred boundary between computer vision and NLP tasks = integrating visual and linguistic capabilities made formerly distinct boundaries less clear.",
+      "wrongReasons": [
+        "Choice A says multi-modal models replaced both fields, which is stronger than blurring the boundary.",
+        "Choice B says models reinforced separation, directly contradicting blurred the boundary.",
+        "Choice D reverses the historical narrative — the original says a boundary existed before multi-modal models, not that it was unified before LLMs separated it."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p117",
+      "difficulty": "hard",
+      "text": "The paradox at the heart of the privacy debate is that individuals often voluntarily disclose personal information in exchange for services while simultaneously demanding stronger legal protections for their data.",
+      "choices": [
+        "Legal protections for personal data have made individuals more willing to share information in exchange for services.",
+        "Individuals who demand legal protections for their data rarely use digital services that require personal information disclosure.",
+        "There is an internal tension in the privacy debate: people tend to give away personal data for services of their own accord while also calling for robust legislative safeguards for that same data.",
+        "The paradox is resolved once individuals stop sharing personal information voluntarily, at which point legal protections become unnecessary."
+      ],
+      "answer": 2,
+      "explanation": "Paradox: voluntary disclosure for services while demanding stronger legal protections = internal tension: people give away data voluntarily while also calling for robust legislative safeguards.",
+      "wrongReasons": [
+        "Choice A says legal protections increase willingness to share, which removes the paradox entirely.",
+        "Choice B says individuals who demand protections rarely use services requiring disclosure, which also resolves the paradox rather than describing it.",
+        "Choice D says the paradox is resolved when sharing stops, which is a proposed solution, not a description of the paradox."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p118",
+      "difficulty": "hard",
+      "text": "The sociological concept of habitus, as theorized by Bourdieu, refers to the set of durable, transposable dispositions that individuals acquire through socialization and that shape their perceptions, actions, and aspirations in ways largely outside conscious awareness.",
+      "choices": [
+        "Habitus, according to Bourdieu, is a consciously adopted set of rules that individuals use to navigate social environments.",
+        "Bourdieu's habitus describes the formal institutions through which social norms are transmitted to individuals.",
+        "In Bourdieu's framework, habitus denotes the internalized, lasting tendencies formed through socialization that influence how people perceive, behave, and aspire, typically below the level of conscious reflection.",
+        "Habitus refers to the economic capital that individuals accumulate over time through participation in social institutions."
+      ],
+      "answer": 2,
+      "explanation": "Durable, transposable dispositions from socialization shaping perceptions, actions, aspirations outside conscious awareness = internalized, lasting tendencies from socialization influencing perception, behavior, aspiration typically below conscious reflection.",
+      "wrongReasons": [
+        "Choice A describes habitus as consciously adopted rules, contradicting the outside conscious awareness quality.",
+        "Choice B describes formal institutions, whereas habitus is about internalized dispositions, not institutions.",
+        "Choice D defines habitus as economic capital, which conflates it with a different Bourdieuian concept."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p119",
+      "difficulty": "hard",
+      "text": "Democratic backsliding often proceeds incrementally through formally legal mechanisms — the amendment of electoral rules, the packing of courts, and the erosion of press freedom — rather than through outright coups.",
+      "choices": [
+        "Democratic backsliding is characterized primarily by violent overthrows of government rather than by gradual, legally framed changes.",
+        "Amendments to electoral rules, court packing, and restrictions on press freedom are illegal under all democratic constitutions.",
+        "The process of democratic decline frequently occurs step by step, using technically lawful tools such as changing election rules, appointing loyalists to courts, and weakening press freedoms, rather than via sudden unconstitutional seizures of power.",
+        "Democratic backsliding is rare because legal mechanisms prevent the erosion of democratic institutions."
+      ],
+      "answer": 2,
+      "explanation": "Proceeds incrementally through formally legal mechanisms rather than outright coups = occurs step by step using technically lawful tools rather than sudden unconstitutional seizures of power.",
+      "wrongReasons": [
+        "Choice A says it is characterized primarily by violent overthrows, directly contradicting the incremental, legal character described.",
+        "Choice B claims the mechanisms are illegal under all democratic constitutions, contradicting formally legal mechanisms.",
+        "Choice D says backsliding is rare because legal mechanisms prevent it, which inverts the original claim that legal mechanisms are used to facilitate it."
+      ],
+      "category": "restatements"
+    }
+  ]
+}

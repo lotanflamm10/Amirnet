@@ -1,0 +1,669 @@
+{
+  "textCompletion": [
+    {
+      "id": "tc51",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["absorb", "reflect", "emit", "scatter"],
+      "answer": 0,
+      "explanation": "absorb fits because plants absorb sunlight during photosynthesis, converting light energy into chemical energy stored in glucose.",
+      "wrongReasons": [
+        "reflect fails because plants do not primarily reflect sunlight to produce energy; reflection would bounce light away.",
+        "emit fails because plants release (emit) oxygen as a byproduct but do not emit sunlight.",
+        "scatter fails because scatter describes light dispersal, not the plant's active use of light for energy production."
+      ],
+      "passage": {
+        "id": "tc51-passage",
+        "title": "Photosynthesis Basics",
+        "body": "Photosynthesis is the process by which green plants and certain other organisms convert light energy into chemical energy. Inside the cells of a leaf, tiny structures called chloroplasts contain a pigment known as chlorophyll. Chlorophyll gives plants their characteristic green color and plays a central role in capturing solar energy. During photosynthesis, carbon dioxide from the air and water from the soil are transformed into glucose, which fuels the plant's growth and metabolism. Oxygen is released as a byproduct. For all of this to occur, the chlorophyll molecules must first ___ sunlight and convert it into a usable form of energy."
+      }
+    },
+    {
+      "id": "tc52",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["rises", "falls", "stabilizes", "fluctuates"],
+      "answer": 1,
+      "explanation": "falls fits because basic economic theory states that as price increases, consumer demand decreases — demand falls.",
+      "wrongReasons": [
+        "rises fails because demand rising when price increases contradicts the standard law of demand.",
+        "stabilizes fails because demand does not remain constant when price changes under normal market conditions.",
+        "fluctuates fails because fluctuates implies random variation rather than the predictable inverse relationship described."
+      ],
+      "passage": {
+        "id": "tc52-passage",
+        "title": "The Law of Demand",
+        "body": "One of the most fundamental principles in economics is the law of demand. This law describes the relationship between the price of a good and the quantity that consumers are willing to purchase. When the price of a product increases, consumers typically seek cheaper alternatives or reduce their overall consumption. Conversely, when prices drop, more people can afford the product and purchases tend to increase. This inverse relationship forms the basis of demand curves used in economic analysis. In most standard markets, when the price of a commodity rises, consumer demand for that product ___."
+      }
+    },
+    {
+      "id": "tc53",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["density", "sprawl", "zoning", "infrastructure"],
+      "answer": 1,
+      "explanation": "sprawl fits because the passage describes unplanned outward expansion of cities into surrounding land, which is the definition of urban sprawl.",
+      "wrongReasons": [
+        "density fails because density refers to concentration of population, not the outward expansion being described.",
+        "zoning fails because zoning is a regulatory tool for land use, not the expansion phenomenon itself.",
+        "infrastructure fails because infrastructure refers to physical systems like roads and utilities, not the pattern of city growth."
+      ],
+      "passage": {
+        "id": "tc53-passage",
+        "title": "Cities Expanding Outward",
+        "body": "Over the past several decades, many cities around the world have experienced rapid outward expansion as populations grow and residents seek more affordable housing away from city centers. This pattern of growth often results in low-density residential neighborhoods built on former agricultural or natural land. Roads, utilities, and services must be extended to reach these new developments, which drives up public costs and increases reliance on private vehicles. Critics argue that this form of unplanned expansion consumes land inefficiently and undermines public transit viability. Planners have coined a specific term for this phenomenon, calling it urban ___."
+      }
+    },
+    {
+      "id": "tc54",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["invented", "borrowed", "translated", "simplified"],
+      "answer": 1,
+      "explanation": "borrowed fits because the passage describes English taking words from other languages, which is called linguistic borrowing.",
+      "wrongReasons": [
+        "invented fails because the words described came from other languages, not from original English creation.",
+        "translated fails because borrowed words retain their foreign form rather than being converted to English equivalents.",
+        "simplified fails because the process described is adoption of foreign words, not making existing words simpler."
+      ],
+      "passage": {
+        "id": "tc54-passage",
+        "title": "English and Its Sources",
+        "body": "English is often described as a language of remarkable diversity, drawing its vocabulary from an unusually wide range of sources. Following the Norman Conquest of 1066, a large number of French words entered everyday English speech. Later, during the Renaissance, scholars introduced many Latin and Greek terms into academic and scientific writing. Throughout the centuries of exploration and trade, English also incorporated words from Arabic, Hindi, Dutch, and countless other languages. Words such as algebra, shampoo, and yacht all came into English from foreign tongues. Linguists say that English has freely ___ words from virtually every language it has come into contact with."
+      }
+    },
+    {
+      "id": "tc55",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["authority", "legitimacy", "power", "sovereignty"],
+      "answer": 1,
+      "explanation": "legitimacy fits because the passage discusses whether citizens accept a government's right to rule — the concept of political legitimacy.",
+      "wrongReasons": [
+        "authority fails because authority is the capacity to exercise power, while legitimacy specifically addresses whether that exercise is accepted as rightful.",
+        "power fails because power is the ability to compel behavior, lacking the normative dimension of public acceptance described.",
+        "sovereignty fails because sovereignty describes supreme legal jurisdiction over territory, not citizens' belief in a government's rightfulness."
+      ],
+      "passage": {
+        "id": "tc55-passage",
+        "title": "Governments and Public Trust",
+        "body": "Political scientists have long been interested in why citizens obey their governments. Simple coercion explains some compliance, but most scholars agree that long-term stable governance requires something more than the threat of force. When people believe that a government has the right to rule — that its laws are just and its processes fair — they are far more likely to comply voluntarily and to participate in civic life. This belief in the rightfulness of rule is what distinguishes governments that endure from those that collapse under popular resistance. Scholars refer to this public acceptance of a government's right to govern as political ___."
+      }
+    },
+    {
+      "id": "tc56",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["empirical", "rational", "dogmatic", "aesthetic"],
+      "answer": 0,
+      "explanation": "empirical fits because the passage describes knowledge derived from observation and experiment, which is the definition of empirical knowledge.",
+      "wrongReasons": [
+        "rational fails because rational knowledge is derived through reason alone, not through observation and experiment as described.",
+        "dogmatic fails because dogmatic knowledge is accepted on authority or faith without questioning, the opposite of the scientific method described.",
+        "aesthetic fails because aesthetic refers to appreciation of beauty, unrelated to the observational knowledge-gathering process described."
+      ],
+      "passage": {
+        "id": "tc56-passage",
+        "title": "How Science Builds Knowledge",
+        "body": "Philosophy of science examines the methods by which humans gain reliable knowledge about the world. The scientific method relies on careful observation, controlled experimentation, and the systematic testing of hypotheses. Unlike knowledge derived purely from logic or from received tradition, scientific knowledge must ultimately be grounded in what can be observed and measured in the real world. Scientists form hypotheses and then test them against data, revising their theories whenever evidence demands it. This commitment to basing claims on observation and experiment rather than on pure reason or authority is the hallmark of ___ inquiry."
+      }
+    },
+    {
+      "id": "tc57",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["calories", "vitamins", "minerals", "antioxidants"],
+      "answer": 3,
+      "explanation": "antioxidants fits because the passage specifically describes compounds that neutralize free radicals and protect cells from oxidative damage, which is the function of antioxidants.",
+      "wrongReasons": [
+        "calories fail because calories are units of energy, not protective compounds that neutralize free radicals.",
+        "vitamins fail because vitamins are a broader category of nutrients, whereas the passage describes a specific functional role of neutralizing free radicals.",
+        "minerals fail because minerals are inorganic elements like calcium and iron, not the organic protective compounds described."
+      ],
+      "passage": {
+        "id": "tc57-passage",
+        "title": "Protecting the Body's Cells",
+        "body": "The human body constantly produces unstable molecules known as free radicals as a byproduct of normal metabolism. These molecules can damage cell membranes, proteins, and DNA if they accumulate in excessive amounts. Research suggests that chronic oxidative stress caused by free radicals may contribute to aging and to the development of certain diseases, including cancer and heart disease. Fortunately, many fruits and vegetables contain compounds that can neutralize free radicals before they cause harm. Blueberries, spinach, and dark chocolate are particularly rich sources of these protective compounds. Nutritionists encourage people to consume a diet rich in ___ to help shield cells from oxidative damage."
+      }
+    },
+    {
+      "id": "tc58",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["orbit", "rotate", "revolve", "collapse"],
+      "answer": 1,
+      "explanation": "rotate fits because the passage describes celestial bodies spinning on their own axes, which is rotation, not revolution or orbit.",
+      "wrongReasons": [
+        "orbit fails because orbit describes the path one object takes around another, not the spinning on an axis described.",
+        "revolve fails because revolve typically means moving around another object, whereas the passage describes spinning on an internal axis.",
+        "collapse fails because collapse describes a structural failure, unrelated to the spinning motion described."
+      ],
+      "passage": {
+        "id": "tc58-passage",
+        "title": "Earth's Daily Spin",
+        "body": "The alternation of day and night on Earth is a consequence of our planet's continuous spinning motion. As Earth spins, different parts of its surface are exposed to the Sun's light, creating the cycle of daylight and darkness that most living creatures have adapted to over millions of years. This spinning motion takes approximately twenty-four hours to complete one full cycle, which defines the length of a single day. Other planets in our solar system also spin on their axes, though at very different speeds. For example, Jupiter completes one spin in about ten hours. Astronomers use the term axial spin to describe how planets ___ on their own axes."
+      }
+    },
+    {
+      "id": "tc59",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["linear", "Renaissance", "Baroque", "Gothic"],
+      "answer": 2,
+      "explanation": "Baroque fits because the passage describes the ornate, dramatic, and emotionally intense style that emerged in Europe in the 17th century, which is the Baroque period.",
+      "wrongReasons": [
+        "linear fails because linear is not a period of art history but a description of style involving lines.",
+        "Renaissance fails because the Renaissance preceded the period described and was characterized by harmony and balance, not dramatic excess.",
+        "Gothic fails because Gothic art predated the Renaissance and was associated with medieval cathedrals, not the 17th-century drama described."
+      ],
+      "passage": {
+        "id": "tc59-passage",
+        "title": "Drama and Grandeur in European Art",
+        "body": "In the late sixteenth and seventeenth centuries, European art underwent a dramatic transformation driven in part by the Counter-Reformation. The Catholic Church sought to use art as a powerful tool to inspire devotion and awe in worshippers. Artists responded by creating works of intense emotion, dynamic movement, and theatrical grandeur. Elaborate gilded ceilings, swirling compositions, and contrasting light and shadow became hallmarks of this new aesthetic. Figures like Caravaggio, Bernini, and Rubens were among its greatest practitioners. Art historians classify this style, which replaced the calm harmony of the preceding era with emotional excess and ornate decoration, as the ___ style."
+      }
+    },
+    {
+      "id": "tc60",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["epidemic", "pandemic", "endemic", "outbreak"],
+      "answer": 2,
+      "explanation": "endemic fits because the passage describes a disease consistently present in a specific region at a predictable rate, which is the definition of an endemic disease.",
+      "wrongReasons": [
+        "epidemic fails because an epidemic refers to a sudden increase in disease cases beyond normal expectation, not a steady persistent presence.",
+        "pandemic fails because a pandemic is a global spread of disease, whereas the passage describes a geographically confined persistent condition.",
+        "outbreak fails because an outbreak is a sudden limited surge, not the stable long-term presence described."
+      ],
+      "passage": {
+        "id": "tc60-passage",
+        "title": "Disease Presence in Populations",
+        "body": "Public health professionals use specific terminology to describe how diseases exist within populations. When a disease spreads rapidly and affects many people across a wide area in a short time, it may be declared an epidemic or, if global in scale, a pandemic. However, not all diseases follow this pattern of sudden surges. Some diseases are consistently present in certain geographic regions, maintaining a relatively stable and predictable rate of infection year after year. Malaria, for example, remains consistently prevalent in many parts of sub-Saharan Africa. When a disease maintains this kind of steady, ongoing presence within a specific region, public health officials classify it as ___."
+      }
+    },
+    {
+      "id": "tc61",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["cognitive", "emotional", "behavioral", "social"],
+      "answer": 0,
+      "explanation": "cognitive fits because the passage describes a type of therapy specifically targeting thought patterns and mental distortions, which is cognitive behavioral therapy — the word cognitive describes the thought-focused component.",
+      "wrongReasons": [
+        "emotional fails because while emotions are involved, the therapy described specifically targets thought patterns and mental distortions, not emotions directly.",
+        "behavioral fails because behavioral refers to changing actions, but the passage emphasizes restructuring thought patterns, which is the cognitive component.",
+        "social fails because social refers to interpersonal interactions, not the internal thought restructuring described."
+      ],
+      "passage": {
+        "id": "tc61-passage",
+        "title": "Restructuring Thought Patterns",
+        "body": "Psychological research over the past several decades has produced strong evidence for a form of therapy that focuses on identifying and changing unhelpful patterns of thinking. The approach holds that mental health difficulties are often maintained by distorted or maladaptive thought patterns — tendencies to catastrophize, overgeneralize, or interpret neutral events negatively. By learning to recognize these patterns and systematically challenge them, patients can reduce symptoms of depression, anxiety, and other conditions. Therapists who use this approach work collaboratively with clients to examine the evidence for and against their thoughts. This method, which targets the connection between thoughts, feelings, and behaviors, is known as ___ behavioral therapy."
+      }
+    },
+    {
+      "id": "tc62",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["erode", "deposit", "uplift", "compact"],
+      "answer": 0,
+      "explanation": "erode fits because the passage describes wind and water wearing away rock and soil over time, which is erosion.",
+      "wrongReasons": [
+        "deposit fails because deposit means adding material, the opposite of the wearing-away process described.",
+        "uplift fails because uplift describes tectonic forces raising land, not the breakdown of existing surfaces.",
+        "compact fails because compaction involves pressing material together, not breaking it down and carrying it away."
+      ],
+      "passage": {
+        "id": "tc62-passage",
+        "title": "Shaping the Land",
+        "body": "The surface of the Earth is constantly being reshaped by natural forces. Over millions of years, wind, water, and ice act as powerful agents of change, gradually wearing away even the hardest rock formations. The Grand Canyon, one of the most spectacular landforms on Earth, was carved over approximately five to six million years by the Colorado River and associated geological processes. Softer materials are removed more quickly, while resistant rock layers remain as cliffs and ridges. These processes operate continuously, even in landscapes that appear stable from year to year. Given enough time, wind and water can ___ even the most imposing mountain ranges into plains."
+      }
+    },
+    {
+      "id": "tc63",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["assimilate", "segregate", "integrate", "marginalize"],
+      "answer": 2,
+      "explanation": "integrate fits because the passage discusses bringing previously separated racial groups together within shared social institutions, which is the goal of racial integration.",
+      "wrongReasons": [
+        "assimilate fails because assimilation implies minority groups adopting the culture of the majority, not the mutual inclusion in shared institutions described.",
+        "segregate fails because segregation is the opposite of what the civil rights movement sought — it means enforcing separation.",
+        "marginalize fails because marginalization means pushing groups to the periphery, contrary to the inclusive goal described."
+      ],
+      "passage": {
+        "id": "tc63-passage",
+        "title": "The Civil Rights Movement",
+        "body": "The American civil rights movement of the 1950s and 1960s challenged the system of legally enforced racial separation that had structured Southern society since the end of Reconstruction. Activists used nonviolent protest, legal challenges, and political organizing to dismantle discriminatory laws that kept Black Americans from equal access to schools, public facilities, and the political process. Landmark legislation such as the Civil Rights Act of 1964 and the Voting Rights Act of 1965 transformed the legal landscape. Central to the movement's vision was the goal of bringing all racial groups together into a shared civic life — to fully ___ American society across racial lines."
+      }
+    },
+    {
+      "id": "tc64",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["chronic", "acute", "latent", "terminal"],
+      "answer": 1,
+      "explanation": "acute fits because the passage describes a sudden, severe, short-duration medical condition requiring immediate intervention, which is the clinical meaning of acute.",
+      "wrongReasons": [
+        "chronic fails because chronic conditions develop slowly and persist over a long time, opposite to the sudden severe episode described.",
+        "latent fails because latent means present but not yet active or symptomatic, whereas the passage describes an active, severe episode.",
+        "terminal fails because terminal describes a condition expected to cause death, not necessarily one that is sudden and severe."
+      ],
+      "passage": {
+        "id": "tc64-passage",
+        "title": "Medical Emergencies",
+        "body": "Medical conditions are often classified by their onset and duration. Some conditions develop gradually over many years and require long-term management, while others arise suddenly and demand immediate attention. A patient experiencing sudden severe chest pain, difficulty breathing, and intense pressure radiating to the arm is presenting with a classic medical emergency requiring rapid diagnosis and treatment. In such cases, every minute matters, as delay can lead to permanent organ damage or death. Emergency physicians are trained to respond quickly to this kind of crisis. Clinically, a condition characterized by sudden onset, high severity, and short duration is described as ___."
+      }
+    },
+    {
+      "id": "tc65",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["habitat", "niche", "territory", "range"],
+      "answer": 1,
+      "explanation": "niche fits because the passage describes the specific functional role and set of conditions an organism occupies within its ecosystem, which is the ecological niche.",
+      "wrongReasons": [
+        "habitat fails because habitat refers to the physical environment where a species lives, not its functional role and resource use.",
+        "territory fails because territory is the area an animal defends against others of its species, not a broader ecological role.",
+        "range fails because range refers to the geographic area a species inhabits, not its specific functional role in the ecosystem."
+      ],
+      "passage": {
+        "id": "tc65-passage",
+        "title": "Roles in an Ecosystem",
+        "body": "Ecologists are interested not only in where species live but also in how they function within their communities. Each species in an ecosystem occupies a distinct position defined by what it eats, what eats it, what conditions it tolerates, and what resources it uses. Two species that are very similar may coexist if they differ sufficiently in diet, timing of activity, or use of space. When two species occupy identical functional positions, competition typically drives one to local extinction. This precise functional position — encompassing the organism's diet, environmental tolerances, and interactions with other species — is what ecologists refer to as the species' ecological ___."
+      }
+    },
+    {
+      "id": "tc66",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["inflation", "deflation", "stagflation", "recession"],
+      "answer": 2,
+      "explanation": "stagflation fits because the passage describes the simultaneous occurrence of high inflation and economic stagnation (low growth and high unemployment), which is the definition of stagflation.",
+      "wrongReasons": [
+        "inflation fails because inflation alone refers to rising prices without the accompanying economic stagnation described.",
+        "deflation fails because deflation is a general decrease in prices, the opposite of the rising prices described in the passage.",
+        "recession fails because a recession is a period of economic decline, but does not necessarily involve simultaneous high inflation."
+      ],
+      "passage": {
+        "id": "tc66-passage",
+        "title": "When Growth Stalls and Prices Rise",
+        "body": "Conventional economic models long assumed that high inflation and high unemployment could not coexist, since inflation was associated with a hot economy and low unemployment. This assumption was shattered during the 1970s, when the global economy experienced an oil shock that drove up the cost of energy and goods while simultaneously slowing economic growth and pushing unemployment higher. Policymakers found themselves facing a paradox: the usual remedies for high inflation — raising interest rates and reducing spending — tended to make unemployment even worse. Economists coined a new term for this troubling combination of rising prices alongside stagnant growth and high unemployment, calling the phenomenon ___."
+      }
+    },
+    {
+      "id": "tc67",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["syntax", "semantics", "pragmatics", "morphology"],
+      "answer": 2,
+      "explanation": "pragmatics fits because the passage describes how context and social knowledge affect the interpretation of meaning beyond literal sentence content, which is the domain of pragmatics.",
+      "wrongReasons": [
+        "syntax fails because syntax concerns grammatical structure and sentence formation, not context-dependent interpretation.",
+        "semantics fails because semantics deals with literal meaning of words and sentences, not how context shapes interpretation.",
+        "morphology fails because morphology studies word structure and formation, unrelated to context-sensitive meaning."
+      ],
+      "passage": {
+        "id": "tc67-passage",
+        "title": "Language Beyond the Literal",
+        "body": "Understanding language requires more than decoding the literal meaning of words and sentences. When someone says, \"Can you pass the salt?\" in a restaurant, no one interprets this as a question about physical ability. Instead, listeners recognize it as a polite request. Similarly, a comment such as \"Nice weather we're having\" during a rainstorm is understood as irony. These interpretations depend on context, social conventions, and shared knowledge between speakers and listeners. Linguists note that the rules governing how context shapes the meaning of utterances — including how speakers imply more than they literally say — fall within the branch of linguistics known as ___."
+      }
+    },
+    {
+      "id": "tc68",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["utilitarianism", "deontology", "virtue ethics", "nihilism"],
+      "answer": 0,
+      "explanation": "utilitarianism fits because the passage describes a moral framework that evaluates actions based on their outcomes and the greatest happiness produced for the greatest number.",
+      "wrongReasons": [
+        "deontology fails because deontology judges actions by adherence to rules or duties, regardless of outcomes, opposite to the consequence-focused approach described.",
+        "virtue ethics fails because virtue ethics focuses on the character of the agent, not the consequences of particular actions.",
+        "nihilism fails because nihilism denies moral values altogether, while the passage describes a positive ethical framework."
+      ],
+      "passage": {
+        "id": "tc68-passage",
+        "title": "The Greatest Good",
+        "body": "Moral philosophy offers several competing frameworks for evaluating the rightness of actions. One influential approach, developed by Jeremy Bentham and refined by John Stuart Mill, holds that the morality of an action is determined entirely by its consequences. An action is right if it produces more happiness or well-being than any available alternative, and wrong if it does not. On this view, the correct moral choice in any situation is the one that maximizes the total happiness of all those affected. The morality of lying, for instance, depends not on any absolute rule against dishonesty but on whether lying produces better outcomes than telling the truth. This framework is known as ___."
+      }
+    },
+    {
+      "id": "tc69",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["isotopes", "compounds", "alloys", "polymers"],
+      "answer": 0,
+      "explanation": "isotopes fits because the passage describes atoms of the same element with different numbers of neutrons and therefore different atomic masses, which is the definition of isotopes.",
+      "wrongReasons": [
+        "compounds fail because compounds are combinations of different elements chemically bonded together, not variants of a single element.",
+        "alloys fail because alloys are mixtures of metals, not variants of atoms of the same element.",
+        "polymers fail because polymers are large molecules made of repeating units, unrelated to atomic variants."
+      ],
+      "passage": {
+        "id": "tc69-passage",
+        "title": "Variants of an Element",
+        "body": "Atomic nuclei contain protons and neutrons. The number of protons defines which element an atom is — carbon always has six protons, oxygen always has eight. However, atoms of the same element can differ in the number of neutrons they contain. Carbon, for example, most commonly has six neutrons, giving it an atomic mass of twelve. But some carbon atoms have seven neutrons, producing a heavier variant with an atomic mass of thirteen, and others have eight neutrons, producing the radioactive form with an atomic mass of fourteen. These variants of the same element, identical in chemical behavior but differing in mass, are called ___."
+      }
+    },
+    {
+      "id": "tc70",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["imperialism", "nationalism", "federalism", "mercantilism"],
+      "answer": 3,
+      "explanation": "mercantilism fits because the passage describes the economic doctrine that nations should maximize exports, minimize imports, and accumulate gold to increase national wealth, which is mercantilism.",
+      "wrongReasons": [
+        "imperialism fails because imperialism refers to extending political or economic control over other territories, not the specific trade doctrine described.",
+        "nationalism fails because nationalism is devotion to the interests of one's nation, not the specific economic doctrine of trade surpluses described.",
+        "federalism fails because federalism is a system of shared governance between central and regional governments, unrelated to the trade doctrine described."
+      ],
+      "passage": {
+        "id": "tc70-passage",
+        "title": "Trade and National Wealth",
+        "body": "From the sixteenth through the eighteenth centuries, European states operated under a dominant economic philosophy that shaped their trade policies and colonial ambitions. According to this doctrine, national prosperity depended on accumulating as much gold and silver as possible. To achieve this, governments sought to maximize exports while minimizing imports, ensuring that more money flowed into the country than out. Colonies were valued primarily as sources of raw materials and as captive markets for finished goods produced at home. Tariffs, trade monopolies, and navigation laws were all instruments used to protect this system. Economists now use the term ___ to describe this doctrine of managed trade and bullion accumulation."
+      }
+    },
+    {
+      "id": "tc71",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["stratification", "mobility", "cohesion", "alienation"],
+      "answer": 0,
+      "explanation": "stratification fits because the passage describes the hierarchical layering of society into distinct levels based on wealth, status, and power, which is social stratification.",
+      "wrongReasons": [
+        "mobility fails because mobility refers to movement between social levels, not the existence of the hierarchical levels themselves.",
+        "cohesion fails because cohesion describes unity and togetherness in a group, not the hierarchical divisions described.",
+        "alienation fails because alienation refers to a sense of estrangement or disconnection, not the structural hierarchies described."
+      ],
+      "passage": {
+        "id": "tc71-passage",
+        "title": "Hierarchy in Society",
+        "body": "Sociologists have long observed that all human societies organize their members into hierarchical layers. These layers differ in access to wealth, prestige, and power, creating structured inequalities that tend to be transmitted across generations. In some societies this hierarchy is formally defined by law — as in the caste systems of historical India or the estate system of pre-revolutionary France. In others it is less formal but equally real, shaped by income, education, and occupation. Individuals born into higher layers tend to enjoy significant advantages over those born at the bottom. Sociologists use the term social ___ to describe this layering of society into ranked positions with unequal rewards."
+      }
+    },
+    {
+      "id": "tc72",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["immunization", "quarantine", "sterilization", "surveillance"],
+      "answer": 1,
+      "explanation": "quarantine fits because the passage describes isolating individuals who may have been exposed to an infectious disease to prevent its spread, which is quarantine.",
+      "wrongReasons": [
+        "immunization fails because immunization involves administering vaccines to build immunity, not isolating exposed individuals.",
+        "sterilization fails because sterilization involves killing microorganisms on surfaces or objects, not isolating potentially infectious people.",
+        "surveillance fails because surveillance refers to monitoring disease trends in populations, not physically isolating potentially exposed individuals."
+      ],
+      "passage": {
+        "id": "tc72-passage",
+        "title": "Stopping Disease Spread",
+        "body": "When a dangerous infectious disease appears in a community, public health authorities have a range of tools at their disposal to limit its spread. One of the oldest and most fundamental measures involves physically separating individuals who may have been exposed to the pathogen from those who have not. By restricting the movement of potentially infected persons for a defined period corresponding to the disease's incubation period, health officials can prevent transmission chains from extending further into the general population. This practice was used extensively during outbreaks of plague in medieval Europe and more recently during Ebola and COVID-19 responses. The formal term for this isolation of potentially exposed individuals is ___."
+      }
+    },
+    {
+      "id": "tc73",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["renewable", "sustainable", "fossil", "nuclear"],
+      "answer": 1,
+      "explanation": "sustainable fits because the passage describes development that meets present needs without compromising the ability of future generations to meet their own needs, which is the definition of sustainable development.",
+      "wrongReasons": [
+        "renewable fails because renewable specifically describes energy sources, not the broader development framework encompassing economic and social dimensions.",
+        "fossil fails because fossil fuels are non-renewable carbon-based fuels, not a development philosophy.",
+        "nuclear fails because nuclear energy is a specific technology, not a framework for balancing present and future needs across all domains."
+      ],
+      "passage": {
+        "id": "tc73-passage",
+        "title": "Balancing Present and Future Needs",
+        "body": "As global awareness of environmental degradation has grown, policymakers and economists have sought frameworks for guiding development that do not sacrifice long-term well-being for short-term gain. The challenge is to improve living standards, reduce poverty, and support economic growth while simultaneously protecting ecosystems, conserving resources, and addressing climate change. This requires integrating environmental considerations into economic planning, ensuring that the exploitation of natural resources does not exceed the planet's capacity to replenish them. The 1987 Brundtland Report defined this approach as development that meets the needs of the present without compromising the ability of future generations to meet their own needs — a concept called ___ development."
+      }
+    },
+    {
+      "id": "tc74",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["iconography", "perspective", "chiaroscuro", "fresco"],
+      "answer": 2,
+      "explanation": "chiaroscuro fits because the passage describes the artistic technique of using strong contrasts between light and shadow to create depth and drama, which is chiaroscuro.",
+      "wrongReasons": [
+        "iconography fails because iconography refers to the symbolic imagery and themes used in artworks, not the lighting technique described.",
+        "perspective fails because perspective is the technique of representing three-dimensional space on a flat surface, not the manipulation of light and shadow.",
+        "fresco fails because fresco is a painting technique using pigment on wet plaster, not a method of depicting light and darkness."
+      ],
+      "passage": {
+        "id": "tc74-passage",
+        "title": "Light and Shadow in Painting",
+        "body": "Among the most powerful tools in a painter's arsenal is the manipulation of light and shadow. When used skillfully, the contrast between brightly lit areas and deep darkness can create a sense of volume, depth, and dramatic intensity that flat, evenly lit compositions cannot achieve. Renaissance painters began experimenting with this technique, but it was Caravaggio who elevated it to its most extreme and theatrical form, bathing figures in a single harsh light source while plunging surrounding areas into near-total darkness. His followers, known as Caravaggisti, spread this approach across Europe. Art historians use the Italian term ___ to describe this powerful technique of modeling form through extreme light and shadow contrast."
+      }
+    },
+    {
+      "id": "tc75",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["stimulus", "reinforcement", "punishment", "extinction"],
+      "answer": 3,
+      "explanation": "extinction fits because the passage describes the gradual disappearance of a conditioned response when the reinforcing stimulus is no longer provided, which is extinction in behavioral psychology.",
+      "wrongReasons": [
+        "stimulus fails because a stimulus is any event that triggers a response, not the process of response disappearance described.",
+        "reinforcement fails because reinforcement strengthens behavior, the opposite of the weakening and disappearance described.",
+        "punishment fails because punishment actively suppresses behavior through negative consequences, whereas extinction involves the passive removal of reinforcement."
+      ],
+      "passage": {
+        "id": "tc75-passage",
+        "title": "When Learned Behaviors Disappear",
+        "body": "Behavioral psychologists have extensively studied the conditions under which learned responses are acquired and the conditions under which they fade. In classical conditioning, an organism learns to associate a neutral stimulus with an outcome, eventually responding to the neutral stimulus alone. In operant conditioning, behaviors are shaped by their consequences — actions that produce rewards tend to be repeated. However, when the reinforcing consequence is consistently withheld, the learned behavior typically weakens and eventually ceases altogether. A rat that has been trained to press a lever for food pellets will gradually stop pressing if the food dispenser is permanently disconnected. Psychologists call this gradual disappearance of a conditioned response behavioral ___."
+      }
+    },
+    {
+      "id": "tc76",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["mitigate", "exacerbate", "ameliorate", "perpetuate"],
+      "answer": 3,
+      "explanation": "perpetuate fits because the passage argues that certain welfare structures sustain cycles of poverty across generations rather than merely worsening or improving them, and perpetuate specifically means to cause something to continue indefinitely.",
+      "wrongReasons": [
+        "mitigate fails because mitigate means to lessen the severity of something, but the argument presented is that these structures maintain rather than reduce poverty.",
+        "exacerbate fails because exacerbate means to make worse, whereas the critique is specifically that structures sustain cycles without necessarily intensifying them.",
+        "ameliorate fails because ameliorate means to improve conditions, the opposite of the structural critique presented."
+      ],
+      "passage": {
+        "id": "tc76-passage",
+        "title": "Cycles of Poverty",
+        "body": "Sociologists studying poverty have long debated whether welfare institutions designed to assist the poor inadvertently create conditions that sustain economic disadvantage across generations. Critics argue that certain structural features — means-testing that penalizes earned income, inadequate investment in early childhood education, and housing policies that concentrate poverty geographically — do not merely fail to break cycles of deprivation but actively reinforce them. Children raised in resource-deprived environments face compounding disadvantages in education, health, and social capital that make upward mobility statistically unlikely. These scholars contend that without structural reform, even well-intentioned policy interventions may ultimately ___ the very cycles of intergenerational poverty they seek to address."
+      }
+    },
+    {
+      "id": "tc77",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["corroborate", "contradict", "supplement", "undermine"],
+      "answer": 0,
+      "explanation": "corroborate fits because the passage describes new archaeological evidence that confirms and strengthens the existing historical record, which is precisely what corroborate means in academic discourse.",
+      "wrongReasons": [
+        "contradict fails because the passage describes evidence aligning with and confirming the record, not challenging or opposing it.",
+        "supplement fails because supplement means to add to something incomplete, whereas corroborate specifically means to confirm existing claims with additional evidence.",
+        "undermine fails because undermine means to weaken the basis of something, the opposite of what the passage describes."
+      ],
+      "passage": {
+        "id": "tc77-passage",
+        "title": "Archaeology and Written Records",
+        "body": "Historians of the ancient world often face the challenge of reconstructing the past from fragmentary and biased written sources. Archaeological excavations can provide an independent line of evidence that either complicates or confirms the textual record. Recent excavations at a site in the Levant have uncovered administrative tablets, storage jar handles with official seals, and fortification structures whose architectural characteristics align closely with descriptions preserved in ancient written accounts. The physical evidence matches the textual narrative in a number of specific and independently verifiable details. Archaeologists are cautious about overstating the significance, but many agree that these discoveries significantly ___ the historical account preserved in the written sources."
+      }
+    },
+    {
+      "id": "tc78",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["diffuse", "discrete", "pervasive", "latent"],
+      "answer": 1,
+      "explanation": "discrete fits because the passage describes a mathematical structure composed of separate, distinct, individually countable elements rather than a continuous quantity, which is the precise meaning of discrete in mathematics.",
+      "wrongReasons": [
+        "diffuse fails because diffuse means spread out or not concentrated, which does not capture the key property of separate, individually distinct elements.",
+        "pervasive fails because pervasive means widespread throughout, describing extent rather than the countable separateness of discrete structures.",
+        "latent fails because latent means present but not yet active or apparent, unrelated to the countable separate-unit property described."
+      ],
+      "passage": {
+        "id": "tc78-passage",
+        "title": "Counting vs. Measuring",
+        "body": "Mathematics draws a fundamental distinction between quantities that can be measured continuously and quantities that exist as distinct, countable units. Temperature, length, and time can in principle take any value within a range — one can always find a value between any two given values. In contrast, the number of students in a classroom, the count of edges in a graph, or the number of moves in a chess game consist of separate, individually identifiable units with no intermediate values possible. This distinction has profound implications for the branch of mathematics concerned with algorithms, combinatorics, and formal logic. Mathematicians describe structures composed of individually countable, separate elements as ___ rather than continuous."
+      }
+    },
+    {
+      "id": "tc79",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["hegemony", "sovereignty", "autonomy", "legitimacy"],
+      "answer": 0,
+      "explanation": "hegemony fits because the passage describes the cultural and ideological dominance exercised by a powerful group over subordinate groups through consent rather than coercion — Gramsci's concept of cultural hegemony.",
+      "wrongReasons": [
+        "sovereignty fails because sovereignty refers to supreme legal authority over a territory, not the cultural dominance through consent described.",
+        "autonomy fails because autonomy means self-governance and independence, the opposite of the subordinating dominance described.",
+        "legitimacy fails because legitimacy is the quality of being accepted as rightful, whereas the passage specifically addresses how dominant groups maintain power through cultural means."
+      ],
+      "passage": {
+        "id": "tc79-passage",
+        "title": "Dominance Without Force",
+        "body": "The Italian Marxist theorist Antonio Gramsci, writing from a fascist prison cell in the 1930s, sought to explain why the working class in advanced capitalist societies had not revolted despite material conditions that seemed ripe for revolution. His answer lay in the realm of culture and ideas. Dominant groups, he argued, maintain their position not merely through economic power or state coercion but by shaping the very values, norms, and common sense through which subordinate groups understand their world. When dominated groups internalize the worldview of those who dominate them and accept it as natural, ruling groups exercise a form of ideological leadership that Gramsci called cultural ___."
+      }
+    },
+    {
+      "id": "tc80",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["attenuate", "potentiate", "inhibit", "stimulate"],
+      "answer": 1,
+      "explanation": "potentiate fits because the passage describes one drug dramatically increasing the effect of another beyond what either would produce alone, which is the precise pharmacological meaning of potentiation.",
+      "wrongReasons": [
+        "attenuate fails because attenuate means to reduce or weaken an effect, the opposite of the enhanced combined effect described.",
+        "inhibit fails because inhibit means to suppress or prevent an activity, whereas the passage describes dramatically enhanced effects.",
+        "stimulate fails because stimulate means to increase activity generally, but potentiate has a precise pharmacological meaning of one substance enhancing the effect of another specifically."
+      ],
+      "passage": {
+        "id": "tc80-passage",
+        "title": "Drug Interactions",
+        "body": "Pharmacologists studying drug interactions have identified several distinct ways in which two substances administered together can produce effects different from either alone. In some cases the combined effect is simply additive — roughly equal to the sum of the individual effects. In other cases, however, the presence of one compound dramatically enhances the effectiveness of another, producing effects far exceeding what either drug would achieve independently. This is particularly relevant in pain management, where certain adjuvant compounds can make opioid analgesics effective at doses that would be insufficient without them. Clinicians must account carefully for such interactions, since they can amplify both therapeutic effects and dangerous side effects. When one drug dramatically enhances the effect of another, it is said to ___ it."
+      }
+    },
+    {
+      "id": "tc81",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["reductionist", "holistic", "mechanistic", "deterministic"],
+      "answer": 0,
+      "explanation": "reductionist fits because the passage describes an approach that explains complex phenomena by breaking them down into their smallest component parts, which is the philosophical method of reductionism.",
+      "wrongReasons": [
+        "holistic fails because holistic approaches consider systems as integrated wholes rather than breaking them into parts — the opposite of the approach described.",
+        "mechanistic fails because while related, mechanistic refers to explaining phenomena through physical mechanisms, whereas reductionist specifically means explaining wholes by analyzing their smallest components.",
+        "deterministic fails because deterministic refers to the doctrine that all events are causally predetermined, not the decomposition methodology described."
+      ],
+      "passage": {
+        "id": "tc81-passage",
+        "title": "Explaining the Whole by Its Parts",
+        "body": "A longstanding methodological debate in philosophy of science concerns the appropriate level of analysis for explaining complex phenomena. One prominent view holds that any phenomenon — however complex — can ultimately be explained by identifying its smallest component parts and specifying how those parts interact. Biology, on this account, reduces to chemistry, chemistry reduces to physics, and physics reduces to the behavior of fundamental particles. Critics argue that this approach neglects emergent properties that arise only when components are organized in particular ways and cannot be detected by studying parts in isolation. Proponents insist, however, that the approach remains the most powerful tool available to science. This methodology of explaining wholes by analyzing their parts is called ___."
+      }
+    },
+    {
+      "id": "tc82",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["endemic", "sporadic", "idiopathic", "iatrogenic"],
+      "answer": 3,
+      "explanation": "iatrogenic fits because the passage describes conditions that are caused by medical treatment itself — the precise clinical meaning of iatrogenic.",
+      "wrongReasons": [
+        "endemic fails because endemic describes a disease persistently present in a population, not one caused by medical intervention.",
+        "sporadic fails because sporadic describes conditions that occur irregularly or occasionally, without specifying causation by treatment.",
+        "idiopathic fails because idiopathic means arising from an unknown cause, whereas the passage explicitly describes conditions caused by medical treatment."
+      ],
+      "passage": {
+        "id": "tc82-passage",
+        "title": "Harm Caused by Healing",
+        "body": "Medicine's primary obligation is encapsulated in the ancient maxim primum non nocere — first, do no harm. Yet the very interventions designed to heal patients can themselves become sources of injury. Powerful antibiotics that cure bacterial infections may simultaneously destroy beneficial gut flora, leaving patients vulnerable to secondary infections. Chemotherapy regimens that target tumors inevitably damage healthy tissue. Surgical procedures, however carefully performed, carry risks of infection, blood loss, and nerve damage. Even diagnostic imaging with contrast agents can trigger allergic reactions. Clinicians are trained to recognize and minimize these treatment-induced complications. The formal medical term for conditions caused by the process of medical treatment itself is ___."
+      }
+    },
+    {
+      "id": "tc83",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["apogee", "nadir", "zenith", "perihelion"],
+      "answer": 3,
+      "explanation": "perihelion fits because the passage describes the point in a planet's elliptical orbit at which it is closest to the Sun, which is perihelion — not to be confused with apogee (closest to Earth) or zenith (directly overhead).",
+      "wrongReasons": [
+        "apogee fails because apogee specifically refers to the point farthest from Earth in the orbit of an Earth-orbiting body, not the point closest to the Sun.",
+        "nadir fails because nadir is the point directly below an observer on the celestial sphere, or metaphorically the lowest point, not a position in a heliocentric orbit.",
+        "zenith fails because zenith is the point directly above an observer on the celestial sphere, not a position describing a planet's distance from the Sun."
+      ],
+      "passage": {
+        "id": "tc83-passage",
+        "title": "Orbital Mechanics",
+        "body": "The orbits of planets around the Sun are not perfect circles but ellipses, as Johannes Kepler established in the early seventeenth century. As a result, the distance between a planet and the Sun varies over the course of each orbital period. Earth, for example, is approximately 147 million kilometers from the Sun at one extreme of its ellipse and approximately 152 million kilometers at the other. The planet moves fastest in its orbit when it is closest to the Sun, in accordance with Kepler's second law, which states that a line connecting a planet to the Sun sweeps equal areas in equal times. Astronomers call the orbital point of minimum distance from the Sun the ___."
+      }
+    },
+    {
+      "id": "tc84",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["transient", "visceral", "ineffable", "liminal"],
+      "answer": 3,
+      "explanation": "liminal fits because the passage describes a threshold state of being between two defined conditions — neither fully one thing nor the other — which is precisely the anthropological concept of liminality.",
+      "wrongReasons": [
+        "transient fails because transient means temporary or short-lived, whereas liminal specifically denotes the in-between threshold state of a transition, not simply its brevity.",
+        "visceral fails because visceral means relating to deep instinctive feeling, unrelated to the threshold or in-between state described.",
+        "ineffable fails because ineffable means too great or extreme to be expressed in words, unrelated to the transitional threshold state described."
+      ],
+      "passage": {
+        "id": "tc84-passage",
+        "title": "Crossing Thresholds",
+        "body": "Anthropologist Arnold van Gennep, in his seminal 1909 study of ritual, identified a three-stage structure common to rites of passage across diverse cultures: separation, transition, and incorporation. The transitional stage is of particular theoretical interest. During this phase, the initiate has left their previous social status behind but has not yet assumed their new one. They exist, in a sense, between categories — no longer what they were, not yet what they will become. Victor Turner later elaborated this concept, noting that individuals in this state often experience a suspension of ordinary social distinctions and a sense of communal solidarity. Anthropologists use the term ___ to describe this ambiguous in-between threshold state."
+      }
+    },
+    {
+      "id": "tc85",
+      "category": "textCompletion",
+      "difficulty": "hard",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["contiguous", "sovereign", "suzerainty", "tributary"],
+      "answer": 2,
+      "explanation": "suzerainty fits because the passage describes a political relationship in which a dominant power controls the foreign policy and defense of a subordinate state while allowing it internal self-governance — the precise meaning of suzerainty.",
+      "wrongReasons": [
+        "contiguous fails because contiguous means sharing a boundary, a geographic description unrelated to the political relationship described.",
+        "sovereign fails because sovereign describes a state with supreme independent authority, the opposite of the subordinate relationship described.",
+        "tributary fails because a tributary state pays tribute to a dominant power but the term does not capture the specific division of internal autonomy and external control that characterizes suzerainty."
+      ],
+      "passage": {
+        "id": "tc85-passage",
+        "title": "Partial Sovereignty",
+        "body": "International relations scholars recognize that the binary distinction between fully independent states and outright colonies does not capture the full spectrum of political arrangements that have existed historically. Many polities have occupied an intermediate position, retaining a degree of internal self-governance while ceding control over foreign policy, defense, and sometimes trade to a dominant external power. The Ottoman Empire's relationship with several of its peripheral territories exemplified this arrangement, as did Britain's relationship with certain protectorates. The subordinate entity manages its internal affairs — taxation, law, local administration — but the dominant power acts on its behalf in international affairs. The term for this relationship, in which a dominant power controls external sovereignty while allowing internal autonomy, is ___."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-dt-151",
+    "difficulty": "easy",
+    "text": "The charity received a ________ donation from the local business community.\nWhich adjective most precisely fits the context of a gift that is large in amount?",
+    "choices": [
+      "notable",
+      "significant",
+      "substantial",
+      "considerable"
+    ],
+    "answer": 2,
+    "explanation": "'Substantial' means large in size or amount — it is the most precise word for describing a donation that is physically or monetarily large. The sentence focuses on the size of the gift, not its importance or noteworthiness.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'significant' and 'considerable' and 'notable' all overlap in meaning with 'substantial,' but 'significant' emphasizes importance or meaning rather than sheer size, making it less precise here. Students pick it because it sounds academic and strong.",
+      "'Notable' means worthy of attention or remarkable — it stresses fame or prominence, not size. A notable donation is one people talk about, but a substantial donation is simply a large one.",
+      "'Considerable' is close but tends to emphasize degree of quantity relative to expectations; 'substantial' more directly conveys large absolute size, which is what 'large in amount' calls for."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: כל ארבע המילים נראות דומות. הבעיה: 'significant' מדגיש חשיבות, לא גודל; 'notable' מדגיש בולטות; 'considerable' מדגיש כמות יחסית. התשובה הנכונה: 'substantial' — תרומה גדולה בסכום ממשי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-152",
+    "difficulty": "easy",
+    "text": "In her academic essay, she argued that the government should 'look into' the problem immediately.\nWhich word best replaces the informal phrase 'look into' in a formal essay?",
+    "choices": [
+      "investigate",
+      "check out",
+      "figure out",
+      "dig into"
+    ],
+    "answer": 0,
+    "explanation": "'Investigate' is the formal, single-word equivalent of 'look into.' Academic writing requires formal register, so the phrasal verb must be replaced with a single formal verb.",
+    "wrongReasons": [
+      "TRAP: Register — 'check out,' 'figure out,' and 'dig into' are all informal phrasal verbs — they solve the wrong problem by substituting one informal phrase for another. Students may pick 'check out' because it sounds more professional than 'dig into,' but all three remain informal.",
+      "'Check out' is casual and belongs in spoken English or informal writing, not academic essays. It implies a casual review, not a formal investigation.",
+      "'Figure out' means to solve or understand — it shifts the meaning slightly (understanding rather than examining), and it is also informal in register."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: רישום לשוני (register). הבעיה: 'check out', 'figure out', 'dig into' הם כולם ביטויים בלתי פורמליים — הם מחליפים ביטוי לא פורמלי בביטוי לא פורמלי אחר. התשובה הנכונה: 'investigate' — פועל פורמלי מתאים לכתיבה אקדמית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-153",
+    "difficulty": "easy",
+    "text": "The professor was deeply concerned ________ the students' lack of preparation.\nWhich preposition correctly completes the collocation 'concerned ________'?",
+    "choices": [
+      "for",
+      "with",
+      "about",
+      "of"
+    ],
+    "answer": 2,
+    "explanation": "'Concerned about' is the standard English collocation meaning worried or troubled about something. 'About' is the fixed preposition that follows 'concerned' in this sense.",
+    "wrongReasons": [
+      "TRAP: Collocation — 'concerned for' exists but means caring about someone's wellbeing (concerned for her safety), not worried about a problem. Students mix these two uses because both prepositions follow 'concerned' in different contexts.",
+      "'Concerned with' means related to or dealing with a topic — 'the report is concerned with policy' — not expressing worry or anxiety. This is a meaning shift disguised as a preposition choice.",
+      "'Concerned of' is not a standard English collocation at all — it is a direct transfer error from other languages (including Hebrew: מודאג מ-) that sounds plausible to L2 speakers."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: collocation — 'concerned' יכול להופיע עם מספר מילות יחס. הבעיה: 'concerned for' = דאגה לרווחת מישהו; 'concerned with' = עוסק בנושא. התשובה הנכונה: 'concerned about' = מודאג לגבי בעיה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-154",
+    "difficulty": "easy",
+    "text": "The new law applies to ________ citizens who were born after 1990.\nWhich word correctly fills the blank without overstating?",
+    "choices": [
+      "all",
+      "every",
+      "those",
+      "any"
+    ],
+    "answer": 2,
+    "explanation": "'Those' refers to a specific subgroup — citizens born after 1990. The sentence is restricting the scope of the law to a particular group, not claiming it applies universally to every citizen.",
+    "wrongReasons": [
+      "TRAP: Overgeneralization — 'all' and 'every' make an absolute universal claim that the law covers every single citizen born after 1990 with no exceptions. While this may seem correct, 'those' is more precise because it points to a defined group without implying 100% coverage.",
+      "'Every' is singular and absolute — 'every citizen' implies no exceptions exist, which is an overgeneralization. Legal language typically uses 'those' to refer to a defined category.",
+      "'Any' means whichever one — it implies an open, indefinite selection ('any citizen who applies'), not a defined group who automatically falls under the law."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה יתרה. הבעיה: 'all' ו-'every' מציינים כלל מוחלט ללא יוצא מן הכלל. התשובה הנכונה: 'those' מתייחס לקבוצה מוגדרת — אותם אזרחים שנולדו אחרי 1990.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-155",
+    "difficulty": "easy",
+    "text": "The instructions stated that participants should ________ submit their forms before noon.\nWhich adverb correctly fills the blank based on the instruction?",
+    "choices": [
+      "always",
+      "never",
+      "rarely",
+      "not"
+    ],
+    "answer": 3,
+    "explanation": "The instruction tells participants NOT to submit their forms before noon — meaning they must wait until noon or after. 'Not' is the simple negation that accurately conveys this restriction.",
+    "wrongReasons": [
+      "TRAP: Subtle negation — 'never' seems like the obvious negative choice, but 'never' means at no time ever, implying forms can never be submitted, period. 'Not' simply negates the specific action of submitting before noon while leaving the after-noon submission open.",
+      "'Always' is positive and would mean participants should always submit before noon — the opposite of the intended meaning. Students who misread 'should' may miss the negation context.",
+      "'Rarely' introduces frequency nuance — it means submissions before noon are uncommon but possible, which misrepresents an absolute rule as a statistical tendency."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלילה עדינה. הבעיה: 'never' פירושו לעולם לא — אך כאן הכוונה רק לא לפני הצהריים. התשובה הנכונה: 'not' — שלילה פשוטה ומדויקת של הפעולה הספציפית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-156",
+    "difficulty": "easy",
+    "text": "Read the passage: 'Maria practiced piano every day for six months. Her teacher smiled when she played at the recital.'\nWhat can we conclude about Maria's performance?",
+    "choices": [
+      "Maria played perfectly at the recital.",
+      "The teacher was proud of Maria's progress.",
+      "Maria's teacher approved of how she played.",
+      "Maria will become a professional pianist."
+    ],
+    "answer": 2,
+    "explanation": "The teacher's smile when Maria played is a direct signal of approval — this is a reasonable inference from the text. The passage directly states the teacher smiled, which implies approval of the playing.",
+    "wrongReasons": [
+      "TRAP: Inference — 'Maria played perfectly' goes beyond the text. The passage never says the performance was perfect; a smile can indicate approval of good progress without perfection. This answer over-infers.",
+      "'The teacher was proud of Maria's progress' is partially supported but goes beyond the text — the passage doesn't say the teacher was proud or that it was about progress specifically; it just describes a smile during playing.",
+      "'Maria will become a professional pianist' is a future prediction with no textual basis — this is pure inference beyond what the passage states or implies."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות. הבעיה: 'played perfectly' חורג מהטקסט — חיוך לא מוכיח ביצוע מושלם. התשובה הנכונה: 'approved of how she played' — מה שניתן להסיק ישירות מהחיוך של המורה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-157",
+    "difficulty": "easy",
+    "text": "She was pleased with the ________ of the project, though it did not cover all aspects of the issue.\nWhich word correctly fills the blank?",
+    "choices": [
+      "outcome",
+      "result",
+      "scope",
+      "findings"
+    ],
+    "answer": 2,
+    "explanation": "'Scope' means the range or extent of coverage — the sentence contrasts being pleased with what the project covered against the fact that it did not cover everything. 'Scope' directly refers to what the project included or covered.",
+    "wrongReasons": [
+      "TRAP: Partial match — 'outcome' and 'result' both match the idea of being pleased with a project, but neither connects to 'did not cover all aspects.' You are pleased with outcomes/results regardless of coverage. 'Scope' specifically refers to what was covered.",
+      "'Result' means what happened at the end — being pleased with a result is natural, but the second clause about not covering all aspects describes scope, not the end result. The two clauses must be logically connected.",
+      "'Findings' refers to discoveries or conclusions — they can be pleasing, but 'findings' do not cover or not cover aspects of an issue; only scope does."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: התאמה חלקית. הבעיה: 'outcome' ו-'result' מתאימים לחלק הראשון אך לא מסבירים את 'did not cover all aspects'. התשובה הנכונה: 'scope' — היקף הכיסוי של הפרויקט.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-158",
+    "difficulty": "easy",
+    "text": "The scientist ________ working on the experiment when the power went out.\nWhich verb form correctly fills the blank?",
+    "choices": [
+      "has been",
+      "is",
+      "had",
+      "was"
+    ],
+    "answer": 3,
+    "explanation": "'Was working' (past continuous) describes an action in progress at a specific moment in the past — when the power went out. The past tense reference 'went out' anchors the timeline in the past.",
+    "wrongReasons": [
+      "TRAP: Temporal confusion — 'is working' (present continuous) shifts the tense to the present, but the sentence describes a past event ('went out'). Students who focus on the progressive meaning without checking tense pick 'is.'",
+      "'Has been working' is present perfect continuous — it implies ongoing action up to now, not action interrupted in the past. The past event 'went out' signals we need simple past tense framing.",
+      "'Had working' is not grammatically correct — 'had' as an auxiliary requires a past participle, not a present participle. 'Had been working' would be possible, but that option is not offered."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול זמנים. הבעיה: 'is working' הוא הווה אך האירוע (went out) הוא עבר. התשובה הנכונה: 'was' — was working (עבר ממושך) לתיאור פעולה שהתרחשה בנקודת עבר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-159",
+    "difficulty": "medium",
+    "text": "The committee's decision had a ________ impact on the budget: it changed how funds were distributed across all departments.\nWhich adjective is most precisely correct?",
+    "choices": [
+      "notable",
+      "substantial",
+      "considerable",
+      "significant"
+    ],
+    "answer": 3,
+    "explanation": "'Significant' means having an important meaning or consequence — the decision changed how funds were distributed, implying it had consequences that mattered structurally. 'Significant' captures both the importance and the far-reaching effect.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'substantial' emphasizes large size or amount, 'considerable' emphasizes large degree, and 'notable' emphasizes being worth noticing. But the sentence specifies the impact changed distribution across all departments — this is about importance and consequence, the core meaning of 'significant.'",
+      "'Substantial' would suggest the impact was physically large or numerically big — but the sentence describes structural change in distribution, not the size of the impact itself.",
+      "'Notable' means remarkable or worth noting — it focuses on being noteworthy rather than on importance or consequence, making it less precise than 'significant' for describing how the decision functioned."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי. הבעיה: כל המילים נראות דומות אך 'substantial' = גדול בכמות, 'considerable' = גדול במידה, 'notable' = ראוי לתשומת לב. התשובה הנכונה: 'significant' — בעל חשיבות ותוצאה, המתאים לשינוי מבני.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-160",
+    "difficulty": "medium",
+    "text": "The academic paper argued that urban sprawl ________ a notable increase in commuting times for most residents.\nWhich verb best fits a formal academic claim about cause and effect?",
+    "choices": [
+      "caused",
+      "brought about",
+      "resulted in",
+      "gave rise to"
+    ],
+    "answer": 0,
+    "explanation": "'Caused' is the most precise, direct, and formal single-word verb for a causal academic claim. It is unambiguous, concise, and appropriate for academic writing.",
+    "wrongReasons": [
+      "TRAP: Register — 'brought about,' 'resulted in,' and 'gave rise to' are all phrasal or semi-idiomatic expressions that are slightly less formal than a single precise verb. While 'resulted in' is acceptable, it shifts focus from active causation to passive outcome. In academic precision, 'caused' is direct and preferred.",
+      "'Brought about' is phrasal and slightly informal — it implies gradual or indirect causation, and phrasal verbs are generally avoided in formal academic prose when a single verb is available.",
+      "'Gave rise to' is metaphorical and more suitable for literary or descriptive writing — in formal academic argumentation, literal and precise language is preferred over figurative expressions."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: רישום לשוני. הבעיה: 'brought about' ו-'gave rise to' הם ביטויים ניבים — פחות פורמליים מפועל יחיד. התשובה הנכונה: 'caused' — ישיר, מדויק, ופורמלי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-161",
+    "difficulty": "medium",
+    "text": "The new policy is aimed ________ reducing carbon emissions by 2035.\nWhich preposition correctly completes the collocation?",
+    "choices": [
+      "to",
+      "for",
+      "at",
+      "towards"
+    ],
+    "answer": 2,
+    "explanation": "'Aimed at' is the fixed English collocation — 'aimed at doing something' means designed or intended to achieve something. The preposition 'at' is mandatory in this expression.",
+    "wrongReasons": [
+      "TRAP: Collocation — 'aimed to' sounds logical because 'aim to do something' is a valid construction, but that uses 'aim' as a verb without 'aimed at.' The passive/adjectival form 'is aimed' requires 'at,' not 'to.' Students mix the two constructions.",
+      "'Aimed for' is not a standard English collocation in this construction — 'for' would suggest direction toward a target but is not the conventional preposition after 'aimed' in this passive structure.",
+      "'Aimed towards' is redundant and non-standard — 'towards' adds a directional sense that 'at' already captures, and 'aimed towards reducing' is not conventional English collocation."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: collocation. הבעיה: 'aimed to' נראה נכון כי 'aim to' הוא פועל נפוץ, אך 'is aimed' בנטייה פסיבית דורש 'at'. התשובה הנכונה: 'aimed at' — ביטוי קבוע.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-162",
+    "difficulty": "medium",
+    "text": "Critics argued that the reform would solve ________ the problems facing the education system.\nWhich word correctly fills the blank without overstating the claim?",
+    "choices": [
+      "all",
+      "every",
+      "most of",
+      "each of"
+    ],
+    "answer": 2,
+    "explanation": "'Most of' acknowledges that the reform would address the majority of problems without claiming total or universal coverage. The word 'argued' signals the speaker is presenting one view, making a qualified claim more accurate.",
+    "wrongReasons": [
+      "TRAP: Overgeneralization — 'all' and 'every' and 'each of' claim that the reform would solve every single problem without exception. Critics making an argument typically use qualified language; claiming 'all problems' would be an absolute statement unlikely in an academic or critical context.",
+      "'All the problems' is a total, absolute claim — critics rarely argue that any single reform solves everything. 'All' leaves no room for qualification or exceptions.",
+      "'Each of the problems' is distributive and absolute — it implies individually addressing every problem one by one, which is both overstated and grammatically awkward in this context."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה יתרה. הבעיה: 'all' ו-'every' טוענים שהרפורמה תפתור כל בעיה — טענה מוחלטת. התשובה הנכונה: 'most of' — טענה מוסמכת ומציאותית יותר.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-163",
+    "difficulty": "medium",
+    "text": "The residents ________ complained about the noise — the street was almost always quiet.\nWhat does this sentence most likely mean?",
+    "choices": [
+      "Residents almost never complained about the noise.",
+      "Residents frequently complained about the noise.",
+      "Residents sometimes complained about the noise.",
+      "Residents had valid reasons to complain about the noise."
+    ],
+    "answer": 0,
+    "explanation": "'Seldom' (or 'hardly ever') means very rarely or almost never. Combined with the explanation that the street was almost always quiet, it is clear that complaints were very infrequent — almost never.",
+    "wrongReasons": [
+      "TRAP: Subtle negation — the blank contains 'seldom' or 'hardly,' which are negative frequency adverbs that students often misread as positive ('frequently' or 'sometimes'). The word 'almost always quiet' reinforces that complaints were rare, not common.",
+      "'Residents frequently complained' is the opposite of the correct meaning — 'seldom' means rarely, not frequently. This is the classic misreading trap for negative frequency adverbs.",
+      "'Residents sometimes complained' is closer but still overstates — 'seldom' means almost never, which is rarer than 'sometimes.' The context clue 'almost always quiet' confirms near-absence of complaints."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלילה עדינה. הבעיה: 'seldom' הוא תדירות שלילית (כמעט אף פעם לא) אך תלמידים קוראים אותו כחיובי. התשובה הנכונה: 'almost never complained' — נתמך גם ע\"י 'almost always quiet'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-164",
+    "difficulty": "medium",
+    "text": "Read the passage: 'The study enrolled 500 participants over three years. Seventy percent reported improved sleep quality after using the new app.'\nWhat can be DIRECTLY concluded from this passage?",
+    "choices": [
+      "The app is effective for all users.",
+      "The app will improve sleep for anyone who uses it.",
+      "The study proves the app is the best solution for sleep problems.",
+      "Most participants in the study reported better sleep."
+    ],
+    "answer": 3,
+    "explanation": "'Most participants reported better sleep' directly matches '70 percent reported improved sleep quality' — 70% is most. This is a direct statement from the passage with no inference needed.",
+    "wrongReasons": [
+      "TRAP: Inference — 'effective for all users' and 'anyone who uses it' go beyond the study's 70% finding. The passage does not say all users benefit, only that 70% of study participants reported improvement. Extrapolating to 'all users' or 'anyone' is an unsupported inference.",
+      "'The app is effective for all users' contradicts the data — 30% of participants did NOT report improvement, so the app clearly is not effective for all users.",
+      "'The study proves the app is the best solution' uses superlative language ('best') that no comparative data in the passage supports — the passage does not compare the app to any other solution."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות. הבעיה: 'effective for all users' חורג מהנתון — 70% אינם 100%. התשובה הנכונה: 'most participants reported better sleep' — ישירות מהנתון 70%.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-165",
+    "difficulty": "medium",
+    "text": "The policy reduced crime rates ________ the northern districts, where community programs had been implemented.\nWhich preposition correctly fills the blank?",
+    "choices": [
+      "across",
+      "throughout",
+      "in",
+      "within"
+    ],
+    "answer": 2,
+    "explanation": "'In the northern districts' is the most natural and precise preposition for specifying a location. The sentence identifies a specific geographical area where an effect occurred.",
+    "wrongReasons": [
+      "TRAP: Collocation — 'across' and 'throughout' both suggest distribution over an entire area (across all of the northern districts / throughout the entire region), but the sentence simply specifies where the reduction happened, not that it spread across every corner. 'In' is the neutral, precise locator.",
+      "'Throughout' implies the effect covered every part of the northern districts comprehensively — the sentence does not make that comprehensive claim, just states where the programs and effects occurred.",
+      "'Within' is more formal and suggests contained boundaries — while grammatically possible, 'in' is more natural and standard for specifying that something occurred in a named location."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: collocation. הבעיה: 'across' ו-'throughout' מרמזים על פיזור נרחב בכל הרובע — יותר ממה שהמשפט טוען. התשובה הנכונה: 'in' — מציין מיקום ספציפי בצורה ניטרלית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-166",
+    "difficulty": "medium",
+    "text": "His argument was persuasive; it ________ addressed the core issue of resource allocation.\nWhich adverb most precisely fits the sentence?",
+    "choices": [
+      "broadly",
+      "directly",
+      "generally",
+      "largely"
+    ],
+    "answer": 1,
+    "explanation": "'Directly' means in a straight, unambiguous way — the argument addressed the core issue head-on. Combined with 'core issue,' this adverb signals precision and relevance without qualification.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'broadly,' 'generally,' and 'largely' all suggest the argument addressed the issue in an approximate or wide-ranging way, not specifically and precisely. A 'persuasive' argument that only 'broadly' addresses the core issue would not be very persuasive.",
+      "'Broadly addressed' implies a wide but shallow treatment — this contradicts the notion that a persuasive argument hit the core issue squarely.",
+      "'Generally' means in most cases or in a non-specific way — using 'generally addressed the core issue' weakens the claim of persuasiveness, since 'generally' implies incomplete or vague coverage."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי. הבעיה: 'broadly' ו-'generally' מרמזים על טיפול כללי ולא מדויק — זה חלש לטיעון שכנועי. התשובה הנכונה: 'directly' — טיפול ישיר וממוקד בסוגיה המרכזית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-167",
+    "difficulty": "medium",
+    "text": "Read the passage: 'The bridge was constructed in 1987 and has been inspected annually since then. The last inspection found minor structural weaknesses.'\nWhich conclusion is directly supported by the passage?",
+    "choices": [
+      "The bridge is unsafe and should be closed.",
+      "The bridge has been regularly monitored since 1987.",
+      "The bridge will collapse if not repaired immediately.",
+      "Annual inspections have prevented major damage."
+    ],
+    "answer": 1,
+    "explanation": "'Inspected annually since then' directly states that regular monitoring has occurred since 1987. This is a factual statement from the passage requiring no inference.",
+    "wrongReasons": [
+      "TRAP: Inference — 'The bridge is unsafe' and 'will collapse' go far beyond the text. The passage says minor weaknesses were found, not that the bridge is dangerous or about to collapse. These are over-inferences based on the word 'weaknesses.'",
+      "'The bridge is unsafe and should be closed' is not stated or implied — 'minor weaknesses' does not equal unsafety or closure-level danger. This answer uses a partial match (weaknesses) to leap to an extreme conclusion.",
+      "'Annual inspections have prevented major damage' is an inference about causation — the passage states inspections occurred but does not claim they prevented damage. This goes beyond what the text says."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות. הבעיה: 'unsafe' ו-'will collapse' חורגים בהרבה מ'minor weaknesses'. התשובה הנכונה: 'regularly monitored since 1987' — עובדה ישירה מהטקסט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-168",
+    "difficulty": "medium",
+    "text": "The manager insisted that all employees ________ the new training module before the end of the quarter.\nWhich verb form is grammatically correct after 'insisted that'?",
+    "choices": [
+      "completed",
+      "complete",
+      "would complete",
+      "completing"
+    ],
+    "answer": 1,
+    "explanation": "'Complete' is the subjunctive form — after 'insisted that,' English uses the base form of the verb (subjunctive mood) regardless of the subject. 'Insisted that all employees complete' is grammatically required.",
+    "wrongReasons": [
+      "TRAP: Temporal confusion — 'completed' (simple past) looks correct because the sentence is in the past tense, but after 'insisted that' the verb must be in the subjunctive base form. The tense of 'insisted' does not carry over to the subordinate clause.",
+      "'Would complete' introduces a conditional meaning — it implies the completion depends on something else happening, changing the manager's firm insistence into a conditional suggestion.",
+      "'Completing' is a gerund/participle and cannot function as the main verb in the that-clause. After 'insisted that,' a finite verb form is required."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול זמנים. הבעיה: 'completed' נראה נכון כי המשפט בעבר, אך אחרי 'insisted that' נדרש נטיית subjunctive (צורת בסיס). התשובה הנכונה: 'complete' — צורת הבסיס.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-169",
+    "difficulty": "medium",
+    "text": "The review panel found the research ________ — it was thorough, well-documented, and addressed a genuine gap in the literature.\nWhich adjective best fits the blank in a formal academic context?",
+    "choices": [
+      "awesome",
+      "solid",
+      "rigorous",
+      "really good"
+    ],
+    "answer": 2,
+    "explanation": "'Rigorous' is the formal academic term for thorough and methodologically sound research. It matches 'thorough, well-documented' precisely and is appropriate for a review panel's formal assessment.",
+    "wrongReasons": [
+      "TRAP: Register — 'awesome,' 'solid,' and 'really good' are informal or colloquial expressions inappropriate for a formal review panel context. Students may choose 'solid' because it sounds neutral, but it is informal in academic writing.",
+      "'Awesome' is highly informal and enthusiastic — a review panel would never describe research as 'awesome' in a formal context. It belongs in casual conversation, not academic assessment.",
+      "'Really good' is informal, vague, and intensified with the colloquial adverb 'really' — formal academic writing avoids intensifiers like 'really' and requires specific evaluative vocabulary like 'rigorous.'"
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: רישום לשוני. הבעיה: 'awesome', 'solid', 'really good' הם ביטויים בלתי פורמליים. התשובה הנכונה: 'rigorous' — מונח אקדמי פורמלי לתיאור מחקר קפדני.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-170",
+    "difficulty": "medium",
+    "text": "The experiment showed ________ results — some variables increased while others remained unchanged.\nWhich adjective most precisely describes this outcome?",
+    "choices": [
+      "mixed",
+      "various",
+      "diverse",
+      "different"
+    ],
+    "answer": 0,
+    "explanation": "'Mixed results' is the standard academic collocation for outcomes where some variables went up and others did not — a combination of positive and neutral (or negative) findings. 'Mixed' specifically describes this co-occurrence of different outcomes.",
+    "wrongReasons": [
+      "TRAP: Collocation — 'various results,' 'diverse results,' and 'different results' are grammatically possible but not the standard academic collocation. 'Mixed results' is the fixed expression used in research contexts for results that are partly positive and partly not.",
+      "'Various results' implies many different types of results rather than the specific combination of some positive and some neutral/negative — it lacks the implication of contrasting directions.",
+      "'Diverse results' emphasizes variety and range, more suitable for describing many different types of data — 'diverse' doesn't carry the specific meaning of results pulling in different directions."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: collocation. הבעיה: 'various' ו-'diverse' תקינים דקדוקית אך לא הביטוי הקבוע. התשובה הנכונה: 'mixed results' — הביטוי האקדמי הקבוע לתוצאות מעורבות (חלקן חיוביות, חלקן לא).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-171",
+    "difficulty": "medium",
+    "text": "The data ________ suggests that urban populations are growing faster than rural ones.\nWhich adverb most precisely fits in a research context where the data is strong but not absolute?",
+    "choices": [
+      "conclusively",
+      "strongly",
+      "absolutely",
+      "certainly"
+    ],
+    "answer": 1,
+    "explanation": "'Strongly suggests' is the academic hedging phrase for data that points clearly in a direction without making an absolute claim. 'Strongly' conveys confidence while acknowledging that 'suggests' is not a proven fact.",
+    "wrongReasons": [
+      "TRAP: Overgeneralization — 'conclusively,' 'absolutely,' and 'certainly' all make claims of complete certainty, but the verb 'suggests' already hedges — data that 'absolutely suggests' is contradictory because absolute means no doubt, while 'suggests' means points toward.",
+      "'Conclusively suggests' is a contradiction — 'conclusively' means with final proof, but 'suggests' means implies without full proof. You cannot conclusively suggest something; you can only conclusively prove it.",
+      "'Certainly suggests' similarly mixes certainty ('certainly') with uncertainty ('suggests') — these are semantically incompatible modifiers in academic writing."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה יתרה. הבעיה: 'conclusively suggests' הוא סתירה — 'conclusively' = הוכחה מוחלטת; 'suggests' = רומז. התשובה הנכונה: 'strongly suggests' — ביטחון גבוה עם הסתייגות מתאימה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-172",
+    "difficulty": "medium",
+    "text": "The students ________ paid attention during the lecture — the professor had to repeat the key points three times.\nWhich adverb completes the sentence correctly?",
+    "choices": [
+      "always",
+      "usually",
+      "barely",
+      "clearly"
+    ],
+    "answer": 2,
+    "explanation": "'Barely paid attention' means they paid almost no attention — this explains why the professor had to repeat key points three times. The second clause provides evidence of very poor attention.",
+    "wrongReasons": [
+      "TRAP: Subtle negation — 'barely' is a negative adverb meaning almost not at all, but students may overlook its negative force and read it as a positive qualifier like 'clearly.' The resulting misreading would lead to the wrong interpretation of the sentence.",
+      "'Always paid attention' directly contradicts the evidence — if students always paid attention, the professor would not need to repeat points three times. This answer is logically impossible.",
+      "'Usually paid attention' means they generally paid attention, which also contradicts needing three repetitions — if they usually paid attention, one or two repetitions would suffice."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלילה עדינה. הבעיה: 'barely' = כמעט ולא — שלילי, אך תלמידים עלולים לקרוא אותו כחיובי. התשובה הנכונה: 'barely' — מסביר מדוע המרצה נאלץ לחזור שלוש פעמים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-173",
+    "difficulty": "medium",
+    "text": "Read the passage: 'The new transportation plan reduced average commute times by 15 minutes. Residents expressed satisfaction with the changes.'\nWhich statement is BEST supported by the passage?",
+    "choices": [
+      "The transportation plan was a complete success.",
+      "All residents were happy with the new plan.",
+      "The plan improved commute times and residents responded positively.",
+      "The plan solved all transportation problems in the city."
+    ],
+    "answer": 2,
+    "explanation": "The passage states commute times were reduced (improvement) and residents expressed satisfaction (positive response). This answer directly combines the two facts from the text without overstating.",
+    "wrongReasons": [
+      "TRAP: Overgeneralization — 'complete success,' 'all residents were happy,' and 'solved all transportation problems' are absolute claims that the passage does not support. The passage mentions one improvement (15 minutes) and satisfaction, not total success.",
+      "'The plan was a complete success' goes beyond the evidence — a 15-minute reduction is one data point, not comprehensive proof of complete success.",
+      "'All residents were happy' overgeneralizes 'residents expressed satisfaction' — some residents expressed satisfaction, but 'all' is not stated and cannot be inferred from the plural 'residents.'"
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה יתרה. הבעיה: 'complete success' ו-'all residents' חורגים מהמידע הנתון. התשובה הנכונה: 'improved commute times and residents responded positively' — שילוב ישיר של שני עובדות מהטקסט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-174",
+    "difficulty": "medium",
+    "text": "The government ________ implementing the new regulations by the start of next year.\nWhich verb phrase correctly completes the sentence in a formal context?",
+    "choices": [
+      "aims to begin",
+      "is going to start",
+      "is gonna start",
+      "wants to kick off"
+    ],
+    "answer": 0,
+    "explanation": "'Aims to begin' is formal, concise, and appropriate for describing government plans in official or academic writing. 'Aim to' conveys intention professionally.",
+    "wrongReasons": [
+      "TRAP: Register — 'is gonna start' and 'wants to kick off' are clearly informal and unsuitable in formal writing. 'Is going to start' is grammatically correct but less formal than 'aims to begin' for official government communication.",
+      "'Is gonna start' is a contracted, spoken form — 'gonna' is never appropriate in formal written English of any kind.",
+      "'Wants to kick off' uses a phrasal verb ('kick off') that is informal and idiomatic — in formal contexts about government implementation, precise formal verbs are required."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: רישום לשוני. הבעיה: 'gonna' ו-'kick off' ביטויים בלתי פורמליים לחלוטין; 'is going to start' תקין אך פחות פורמלי. התשובה הנכונה: 'aims to begin' — פורמלי ומדויק.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-175",
+    "difficulty": "medium",
+    "text": "The budget cut affected ________ the research division — the marketing department was also significantly reduced.\nWhich word correctly fills the blank?",
+    "choices": [
+      "only",
+      "not only",
+      "just",
+      "merely"
+    ],
+    "answer": 1,
+    "explanation": "'Not only' introduces the first part of a 'not only…but also' structure — it signals that the budget cut went beyond one department. The second clause confirms the marketing department was also affected, completing the 'not only…but also' pattern.",
+    "wrongReasons": [
+      "TRAP: Partial match — 'only,' 'just,' and 'merely' all suggest the cut was limited or exclusive to the research division, which directly contradicts the second clause that says marketing was also affected. Students who focus on the first clause miss the logical relationship.",
+      "'Only the research division' means the cut was exclusive to that division — but the sentence explicitly states marketing was also reduced, making 'only' logically impossible.",
+      "'Merely the research division' adds a sense of minimization but still implies exclusivity to that one division, contradicting the second clause."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: התאמה חלקית. הבעיה: 'only' ו-'just' מרמזים על בלעדיות — אך המשפט אומר שגם שיווק הופחת. התשובה הנכונה: 'not only' — חלק מהמבנה not only...but also.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-176",
+    "difficulty": "medium",
+    "text": "The article claims that social media ________ responsible for increased levels of anxiety among teenagers.\nWhich verb construction completes this hedged academic sentence?",
+    "choices": [
+      "is",
+      "must be",
+      "definitely is",
+      "may be"
+    ],
+    "answer": 3,
+    "explanation": "'May be' is the appropriate hedging modal for an academic claim that presents a possibility without asserting certainty. The word 'claims' already signals that this is a reported view, and 'may be' maintains appropriate epistemic caution.",
+    "wrongReasons": [
+      "TRAP: Overgeneralization — 'must be' and 'definitely is' assert certainty or logical necessity, which is inappropriate for a hedged academic claim. 'Is' makes a flat assertion without acknowledging uncertainty. Academic writing requires calibrated language.",
+      "'Must be' implies logical necessity — it would mean social media is necessarily responsible, which is a much stronger claim than any academic article would make without definitive proof.",
+      "'Definitely is' is both informal (the adverb 'definitely') and absolute — academic writing avoids absolute certainty claims, especially in areas of ongoing research like social media and mental health."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה יתרה. הבעיה: 'must be' ו-'definitely is' מציינים ודאות מוחלטת — לא מתאים לטענה אקדמית. התשובה הנכונה: 'may be' — הסתייגות מתאימה לכתיבה אקדמית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-177",
+    "difficulty": "medium",
+    "text": "The children ________ played outside — they preferred to stay indoors with their devices.\nWhat does this sentence most accurately communicate?",
+    "choices": [
+      "The children often played outside.",
+      "The children never played outside at all.",
+      "The children rarely played outside.",
+      "The children always preferred devices to outdoor play."
+    ],
+    "answer": 2,
+    "explanation": "'Hardly ever' (or 'seldom') means very rarely — almost never but not an absolute never. The context confirms an indoor preference, but 'rarely' is the accurate reading of 'hardly ever' without overstating to 'never.'",
+    "wrongReasons": [
+      "TRAP: Subtle negation — 'hardly ever' is a negative frequency expression meaning almost never. Students who misread it as a positive adverb may choose 'often played outside,' which is the exact opposite of the intended meaning.",
+      "'Never played outside at all' overstates — 'hardly ever' means almost never but not an absolute never. Absolute never would require 'never' explicitly, not 'hardly ever.'",
+      "'Always preferred devices' makes an absolute claim about their preference — the sentence shows a preference but 'always' is an overgeneralization; the sentence simply explains why they rarely went outside."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלילה עדינה. הבעיה: 'hardly ever' = כמעט אף פעם לא — שלילי. תלמידים עלולים לקרוא 'often'. התשובה הנכונה: 'rarely played outside' — קרוב ביותר למשמעות 'hardly ever'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-178",
+    "difficulty": "medium",
+    "text": "Read the passage: 'Company X increased its marketing budget by 40% in the third quarter. Sales rose by 12% in the same period.'\nWhich conclusion is best supported by the passage?",
+    "choices": [
+      "Both marketing spending and sales increased in Q3.",
+      "The marketing increase caused the sales rise.",
+      "A 40% marketing increase will always lead to higher sales.",
+      "Company X's marketing strategy is the most effective in the industry."
+    ],
+    "answer": 0,
+    "explanation": "The passage states two facts: marketing budget increased 40% and sales rose 12% in Q3. Stating that both increased is a direct reading of the text. No causal relationship is stated.",
+    "wrongReasons": [
+      "TRAP: Inference — 'The marketing increase caused the sales rise' goes beyond the text. The passage shows correlation (both happened in Q3) but does not claim causation. Assuming cause from correlation is a classic inference trap.",
+      "'A 40% increase will always lead to higher sales' overgeneralizes one data point to a universal rule — 'always' is an absolute claim based on a single quarter's data.",
+      "'The most effective in the industry' requires comparison data that the passage does not provide — no other companies are mentioned, so no superlative comparison is possible."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות. הבעיה: הטקסט מציג קורלציה, לא סיבתיות. התשובה הנכונה: 'both marketing spending and sales increased in Q3' — שתי עובדות ישירות מהטקסט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-179",
+    "difficulty": "medium",
+    "text": "The students were ________ aware of the examination schedule, so there was minimal confusion on the day.\nWhich adverb best fits a sentence implying the awareness was sufficient and well in advance?",
+    "choices": [
+      "barely",
+      "fully",
+      "hardly",
+      "slightly"
+    ],
+    "answer": 1,
+    "explanation": "'Fully aware' means completely informed — this explains why there was minimal confusion. If students were fully aware of the schedule, confusion would naturally be low.",
+    "wrongReasons": [
+      "TRAP: Subtle negation — 'barely' and 'hardly' are negative adverbs meaning almost not at all. If students were 'barely aware,' there would be maximum confusion, not minimal confusion. Choosing these creates a logical contradiction with the second clause.",
+      "'Barely aware' means almost no awareness — this directly contradicts 'minimal confusion.' If students barely knew the schedule, confusion would be high, not low.",
+      "'Slightly aware' means only a little bit aware — this is also too low a level of awareness to explain minimal confusion. Only 'fully aware' logically explains the outcome."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלילה עדינה. הבעיה: 'barely' ו-'hardly' = כמעט ולא — זה סותר 'minimal confusion'. התשובה הנכונה: 'fully aware' — מסביר מדוע הייתה בלבול מינימלי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-180",
+    "difficulty": "medium",
+    "text": "The researcher's earlier claims about the benefits of the drug ________ by subsequent studies.\nWhich verb form correctly completes the passive sentence?",
+    "choices": [
+      "has not been supported",
+      "were not supported",
+      "have not been supporting",
+      "did not support"
+    ],
+    "answer": 1,
+    "explanation": "'Were not supported' is the past passive — the subject (claims) is plural, the verb is in the past tense (subsequent studies already happened), and the passive voice is required because the claims were acted upon by the studies.",
+    "wrongReasons": [
+      "TRAP: Temporal confusion — 'has not been supported' uses the present perfect with a singular auxiliary 'has,' which does not agree with the plural subject 'claims.' It also implies the situation is still ongoing from the present perspective, whereas the sentence describes a completed research process.",
+      "'Have not been supporting' uses active voice progressive form — the subject (claims) cannot 'support' anything; the studies are the active agent. This form also makes claims the actor rather than the object.",
+      "'Did not support' is active voice — it would mean the claims did not support something, but the sentence needs passive voice: the claims were not supported by studies."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול זמנים. הבעיה: 'has not been supported' = הווה שלם עם 'has' יחיד — לא מתאים לנושא רבים. התשובה הנכונה: 'were not supported' — עבר פסיבי רבים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-181",
+    "difficulty": "medium",
+    "text": "The team's performance in the final match ________ that of their rivals, who had won the championship the previous year.\nWhich verb most precisely expresses that the team did better than the rivals?",
+    "choices": [
+      "matched",
+      "equaled",
+      "surpassed",
+      "rivaled"
+    ],
+    "answer": 2,
+    "explanation": "'Surpassed' means went beyond or exceeded — the team performed better than their rivals. The context of comparing against reigning champions implies the team did better, not merely equal.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'matched' and 'equaled' mean the same level of performance, not better. 'Rivaled' means came close to or competed with. Only 'surpassed' means definitively exceeded. Students may choose 'equaled' because it sounds like a strong positive comparison.",
+      "'Matched that of their rivals' means performance was the same — but the sentence implies the team did BETTER (they beat reigning champions, suggesting they exceeded the rivals' level).",
+      "'Rivaled' means competed closely with or came near to — it does not confirm the team performed better, only that they were comparable. This leaves the outcome ambiguous."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי. הבעיה: 'matched' ו-'equaled' = שווה, לא טוב יותר; 'rivaled' = התחרה אך לא בהכרח עלה עליו. התשובה הנכונה: 'surpassed' — עלה על, ביצע טוב יותר מ.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-182",
+    "difficulty": "medium",
+    "text": "The company announced it would ________ its operations to three new countries by the end of the fiscal year.\nWhich verb is the most formal and precise for planned business growth?",
+    "choices": [
+      "spread",
+      "grow",
+      "expand",
+      "push"
+    ],
+    "answer": 2,
+    "explanation": "'Expand' is the standard formal business term for extending operations into new markets or territories. It is specific, formal, and the conventional word in business and academic contexts for this type of growth.",
+    "wrongReasons": [
+      "TRAP: Register — 'spread' and 'push' are informal or metaphorical in business contexts. 'Grow' is general and informal compared to 'expand.' Students may choose 'grow' because it is positive and common, but it lacks the formal precision required.",
+      "'Spread its operations' sounds informal and suggests organic or uncontrolled growth — in formal business announcements, 'expand' is the standard term for planned extension.",
+      "'Push its operations' is idiomatic and informal — 'push into' new markets is a casual expression not appropriate for formal company announcements."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: רישום לשוני. הבעיה: 'spread' ו-'push' ביטויים בלתי פורמליים; 'grow' כללי. התשובה הנכונה: 'expand' — מונח עסקי פורמלי לצמיחה מתוכננת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-183",
+    "difficulty": "medium",
+    "text": "The law requires that every business owner ________ a valid license before operating.\nWhich verb form is grammatically correct in this formal legal requirement?",
+    "choices": [
+      "obtains",
+      "obtained",
+      "obtain",
+      "is obtaining"
+    ],
+    "answer": 2,
+    "explanation": "'Obtain' is the subjunctive base form — after 'requires that,' formal English uses the subjunctive (base form of the verb) regardless of subject or tense. 'Requires that every owner obtain' is the grammatically required form.",
+    "wrongReasons": [
+      "TRAP: Temporal confusion — 'obtains' follows the pattern of present tense third-person singular agreement, which students apply automatically after 'every business owner.' However, 'requires that' triggers the subjunctive, overriding standard agreement rules.",
+      "'Obtained' is past tense — while the law itself may be old, the requirement is ongoing and the subjunctive base form is needed, not the past tense.",
+      "'Is obtaining' is present continuous — it would describe an action currently in progress, not a general legal requirement. Legal requirements use the subjunctive base form."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול זמנים ודקדוק. הבעיה: 'obtains' נראה נכון לנטיית גוף שלישי יחיד, אך 'requires that' מפעיל את ה-subjunctive. התשובה הנכונה: 'obtain' — צורת בסיס (subjunctive).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-184",
+    "difficulty": "medium",
+    "text": "Read the passage: 'The hospital introduced a new triage system in January. Patient waiting times dropped by an average of 20 minutes per visit by March.'\nWhich conclusion is MOST directly supported?",
+    "choices": [
+      "The triage system eliminated waiting times completely.",
+      "Waiting times decreased after the new system was introduced.",
+      "The hospital has the best triage system in the region.",
+      "All patients now wait less than 20 minutes."
+    ],
+    "answer": 1,
+    "explanation": "The passage states waiting times dropped after the system was introduced — this is a direct, accurate summary of what the passage reports. No overgeneralization is required.",
+    "wrongReasons": [
+      "TRAP: Overgeneralization — 'eliminated waiting times completely,' 'best in the region,' and 'all patients wait less than 20 minutes' all go beyond the text. The passage says times DROPPED by 20 minutes on average, not that they were eliminated or reduced to under 20 minutes.",
+      "'Eliminated waiting times completely' uses the absolute 'completely' — the passage reports a 20-minute drop, not elimination. A 20-minute reduction still leaves waiting time unless the original was exactly 20 minutes.",
+      "'All patients now wait less than 20 minutes' misinterprets the statistic — a 20-minute average REDUCTION does not mean all patients now wait under 20 minutes; it means the average wait is 20 minutes less than before."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה יתרה. הבעיה: 'eliminated' ו-'all patients' חורגים מהנתון — ירידה ממוצעת של 20 דקות אינה ביטול ההמתנה. התשובה הנכונה: 'waiting times decreased after the new system' — עובדה ישירה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-185",
+    "difficulty": "hard",
+    "text": "The report noted that the intervention had a ________ effect on outcomes: statistically meaningful but not transformative in practical terms.\nWhich adjective most precisely fits this nuanced academic description?",
+    "choices": [
+      "substantial",
+      "notable",
+      "significant",
+      "considerable"
+    ],
+    "answer": 2,
+    "explanation": "'Significant' in academic research specifically means statistically meaningful — it is a technical term indicating the result passed a statistical threshold. The sentence explicitly says 'statistically meaningful,' which maps precisely onto 'significant' as used in research contexts, even when the practical effect is small.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'substantial,' 'notable,' and 'considerable' all imply large size or impressiveness in everyday language, which contradicts 'not transformative in practical terms.' 'Significant' is the only word that can mean statistically meaningful while not implying large practical magnitude.",
+      "'Substantial' means large in size or amount — a substantial effect would be practically large, contradicting 'not transformative in practical terms.'",
+      "'Considerable' implies a degree of size that is worth considering — but an effect that is 'not transformative in practical terms' would not typically be described as considerable, making this adjective logically inconsistent with the second half of the sentence."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי. הבעיה: 'substantial' ו-'considerable' מרמזים על גודל מעשי — אך המשפט אומר 'not transformative in practical terms'. התשובה הנכונה: 'significant' — מונח טכני-סטטיסטי שאינו מרמז בהכרח על גודל מעשי.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-186",
+    "difficulty": "hard",
+    "text": "The author contends that economic inequality ________ social mobility, thereby perpetuating cycles of poverty across generations.\nWhich verb most formally and precisely captures a relationship of systematic prevention?",
+    "choices": [
+      "limits",
+      "stops",
+      "blocks",
+      "impedes"
+    ],
+    "answer": 3,
+    "explanation": "'Impedes' is the formal academic verb for systematic obstruction — it means to hinder or slow the progress of something structurally. 'Impedes social mobility' is a precise academic collocation. 'Impedes' also suggests ongoing, systematic obstruction rather than complete prevention.",
+    "wrongReasons": [
+      "TRAP: Register — 'stops' and 'blocks' are informal, blunt verbs that suggest complete prevention. 'Limits' is acceptable but less precise than 'impedes' for structural systemic hindrance. Academic writing about systemic inequality requires 'impedes' for its formal precision.",
+      "'Stops social mobility' implies complete cessation — but the sentence says it perpetuates cycles, implying ongoing reduction, not absolute prevention. 'Stops' overstates.",
+      "'Limits' is acceptable academically but lacks the systemic connotation of 'impedes.' 'Limits' suggests a ceiling or cap, while 'impedes' suggests active obstruction of a process."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: רישום לשוני + דיוק סמנטי. הבעיה: 'stops' ו-'blocks' ביטויים בלתי פורמליים ומציינים מניעה מוחלטת; 'limits' פחות מדויק. התשובה הנכונה: 'impedes' — מונח אקדמי פורמלי לעיכוב מערכתי.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-187",
+    "difficulty": "hard",
+    "text": "Read the passage: 'Professor Chen published three studies on climate adaptation between 2018 and 2022. Her most recent work received international recognition.'\nWhich inference is MOST JUSTIFIED by the passage?",
+    "choices": [
+      "Professor Chen is the world's leading expert on climate adaptation.",
+      "Professor Chen's research has solved the climate adaptation problem.",
+      "All of Professor Chen's work has been internationally recognized.",
+      "Professor Chen has been actively researching climate adaptation in recent years."
+    ],
+    "answer": 3,
+    "explanation": "Three studies published in a four-year period (2018-2022) directly supports the inference of active, recent research. This is a minimal, justified inference that does not go beyond what the passage states.",
+    "wrongReasons": [
+      "TRAP: Inference — 'world's leading expert,' 'solved the problem,' and 'all work recognized' all require information not present in the passage. The passage mentions recognition for the MOST RECENT work only, not all work. Students who read 'international recognition' as applying broadly fall into the partial match trap.",
+      "'World's leading expert' requires comparative data not provided — the passage doesn't compare her to other researchers.",
+      "'All of Professor Chen's work has been internationally recognized' misreads the passage — only 'her most recent work' received recognition, not all three studies."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות + התאמה חלקית. הבעיה: 'all work recognized' מרחיב את ההכרה מ'most recent work' לכל עבודותיה. התשובה הנכונה: 'actively researching in recent years' — הסקה מינימלית ומוצדקת.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-188",
+    "difficulty": "hard",
+    "text": "The delegates at the summit ________ reached a consensus on the proposed framework after three days of negotiation.\nWhich adverb most precisely fits, given that consensus was achieved but only with difficulty?",
+    "choices": [
+      "easily",
+      "finally",
+      "quickly",
+      "obviously"
+    ],
+    "answer": 1,
+    "explanation": "'Finally' signals that the consensus came after a prolonged process — three days of negotiation — and implies it was not immediate or easy. It captures both the achievement and the difficulty without overstating either.",
+    "wrongReasons": [
+      "TRAP: Temporal confusion — 'easily' and 'quickly' contradict 'three days of negotiation.' Three days implies difficulty and length, so both adverbs are logically impossible. Students who focus on the positive outcome (consensus reached) may choose 'easily' without checking it against the time context.",
+      "'Easily reached a consensus' directly contradicts the three-day negotiation — if it were easy, it would not take three days.",
+      "'Obviously reached a consensus' means it was self-evident or apparent that they would agree — this is unjustified in a context of difficult multi-day negotiation and also shifts meaning from 'how it was reached' to 'that it was predictable.'"
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול זמנים + התאמה חלקית. הבעיה: 'easily' ו-'quickly' סותרים שלושה ימי משא ומתן. התשובה הנכונה: 'finally' — מסמן השגה לאחר תהליך ממושך.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-189",
+    "difficulty": "hard",
+    "text": "Despite the promising early results, the clinical trial ________ demonstrated that the treatment was safe for long-term use.\nWhich adverb most accurately reflects the passage's implicit caution about long-term safety?",
+    "choices": [
+      "conclusively",
+      "has not yet",
+      "clearly",
+      "strongly"
+    ],
+    "answer": 1,
+    "explanation": "'Has not yet demonstrated' means the evidence is not yet complete — this correctly reflects the caution implied by 'despite promising early results.' The word 'yet' signals ongoing investigation, and the negative accurately reflects that long-term safety is unproven.",
+    "wrongReasons": [
+      "TRAP: Subtle negation — 'has not yet' contains a crucial negation ('not') that reverses the meaning. Students who scan for positive framing may choose 'strongly' or 'clearly,' which would claim the trial DID demonstrate safety. But 'despite the promising early results' implies the opposite: safety is not yet proven.",
+      "'Conclusively demonstrated' means the trial proved safety beyond doubt — this directly contradicts 'despite promising early results,' which implies concerns remain.",
+      "'Clearly demonstrated' is also positive and assertive — it would mean the trial showed clear proof of safety, but the sentence structure (despite + promising) sets up a concession, not confirmation."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלילה עדינה. הבעיה: 'despite' = למרות — מרמז שיש עדיין ספק לגבי הבטיחות. תלמידים בוחרים 'clearly' כי הם מחפשים חיוב. התשובה הנכונה: 'has not yet' — שלילה מתאימה לעוד-לא-הוכח.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-190",
+    "difficulty": "hard",
+    "text": "The philosopher argued that free will ________ compatible with determinism — a view known as compatibilism.\nWhich verb construction most precisely expresses this philosophical claim?",
+    "choices": [
+      "is not",
+      "could be",
+      "is",
+      "might not be"
+    ],
+    "answer": 2,
+    "explanation": "'Is compatible' is the correct answer — compatibilism is precisely the philosophical position that free will IS compatible with determinism. The view is named in the sentence itself, confirming this is a positive assertion, not a hedged or negative one.",
+    "wrongReasons": [
+      "TRAP: Semantic precision + partial match — 'is not compatible' is the opposite view (hard determinism), not compatibilism. Students who recognize 'free will vs. determinism' as a controversial debate may assume the answer must be negative or hedged, falling into the partial match trap of answering based on prior knowledge rather than the sentence's own definition.",
+      "'Could be compatible' introduces unnecessary hedging — the sentence says this view IS called compatibilism, which is an established position. Hedging 'could be' weakens a named philosophical stance to a mere possibility.",
+      "'Might not be compatible' describes incompatibilism or hard determinism — the sentence explicitly labels the position compatibilism, which definitionally holds that the two ARE compatible."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי + התאמה חלקית. הבעיה: תלמידים מניחים שהתשובה שלילית כי הם מכירים את הוויכוח. אך המשפט עצמו מגדיר את הקומפטיביליזם כתואמות. התשובה הנכונה: 'is' — is compatible with determinism.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-191",
+    "difficulty": "hard",
+    "text": "The committee ________ reviewed the proposals before the original deadline was extended.\nWhich verb form most precisely indicates the review was completed before the deadline extension happened?",
+    "choices": [
+      "was reviewing",
+      "reviewed",
+      "had reviewed",
+      "has reviewed"
+    ],
+    "answer": 2,
+    "explanation": "'Had reviewed' is the past perfect — it expresses an action completed before another past event (the deadline extension). The sequence is: first the committee completed the review, then the deadline was extended. Past perfect is required to show this prior completion.",
+    "wrongReasons": [
+      "TRAP: Temporal confusion — 'reviewed' (simple past) does not indicate which action happened first. Both events (reviewing and extending) would appear equally in the past with no sequencing. The past perfect 'had reviewed' is specifically required to show prior completion.",
+      "'Was reviewing' (past continuous) shows the review was in progress when the deadline was extended — this implies the review was NOT yet complete at the moment of extension, which changes the meaning.",
+      "'Has reviewed' (present perfect) implies the review extends to the present — but the sentence places both events in the past. Present perfect cannot anchor a completed action before another past event."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול זמנים. הבעיה: 'reviewed' (עבר פשוט) לא מציין רצף; 'was reviewing' מרמז שהסקירה לא הושלמה. התשובה הנכונה: 'had reviewed' — עבר מושלם לפני אירוע עבר אחר.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-192",
+    "difficulty": "hard",
+    "text": "Read the passage: 'Between 2010 and 2020, the number of electric vehicles registered in the country grew from 5,000 to 250,000. During the same period, air pollution levels in major cities declined by an average of 18%.'\nWhich statement is BEST supported by the passage?",
+    "choices": [
+      "Electric vehicles are the primary cause of reduced air pollution.",
+      "A 50-fold increase in EVs will always reduce pollution by 18%.",
+      "Air pollution declined during the period when EV adoption increased.",
+      "Switching to electric vehicles is the most effective way to fight pollution."
+    ],
+    "answer": 2,
+    "explanation": "The passage describes two parallel trends in the same period: EV growth and pollution decline. Stating both happened simultaneously is directly supported. No causal claim is made in the text.",
+    "wrongReasons": [
+      "TRAP: Inference — 'primary cause,' 'most effective way,' and 'will always reduce' all require causal and comparative claims not in the passage. The passage shows correlation between two trends, not causation or comparison with other methods.",
+      "'Electric vehicles are the primary cause' assumes causation from correlation — the passage does not eliminate other factors (such as new regulations or industry changes) that could explain the pollution decline.",
+      "'A 50-fold increase will always reduce pollution by 18%' generalizes one data point to a universal rule — 'always' is an absolute claim that no single case study can establish."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות. הבעיה: הטקסט מציג קורלציה, לא סיבתיות. 'primary cause' ו-'most effective way' דורשים מידע השוואתי שאינו בטקסט. התשובה הנכונה: 'air pollution declined during the period when EV adoption increased' — קורלציה בלבד.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-193",
+    "difficulty": "hard",
+    "text": "The director's latest film ________ her earlier work in both technical mastery and emotional depth.\nWhich verb most precisely indicates that the new film is superior to the earlier work?",
+    "choices": [
+      "echoed",
+      "recalled",
+      "transcended",
+      "reflected"
+    ],
+    "answer": 2,
+    "explanation": "'Transcended' means went beyond or exceeded — the film surpassed the earlier work in both dimensions mentioned. 'Transcended' specifically captures the idea of rising above a previous level.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'echoed,' 'recalled,' and 'reflected' all suggest similarity or reminiscence rather than superiority. They indicate the new film resembles the earlier work, not that it surpassed it. Students may choose 'echoed' because it sounds evaluative, but it means resembled, not exceeded.",
+      "'Echoed her earlier work' means the new film sounded or felt similar to previous work — echo implies repetition or similarity, not advancement or surpassing.",
+      "'Reflected her earlier work' means it showed or expressed qualities of the earlier work — again similarity rather than superiority. You reflect something by representing it, not by going beyond it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי. הבעיה: 'echoed' ו-'reflected' = דמיון, לא עדיפות; 'recalled' = הזכיר. התשובה הנכונה: 'transcended' — עלה על, חצה את הגבול של היצירות הקודמות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-194",
+    "difficulty": "hard",
+    "text": "The professor's lecture was so dense that students ________ followed more than half of the material presented.\nWhich adverb correctly fills the blank, given that the lecture was too complex for full comprehension?",
+    "choices": [
+      "easily",
+      "barely",
+      "always",
+      "fully"
+    ],
+    "answer": 1,
+    "explanation": "'Barely followed more than half' means students could only just manage to follow slightly over half — this is consistent with a dense, difficult lecture. 'Barely' here signals minimal, effortful comprehension just crossing the halfway mark.",
+    "wrongReasons": [
+      "TRAP: Subtle negation — 'barely' is a negative-leaning adverb meaning 'only just' or 'almost not.' Students who scan for the blank without tracking the sentence logic may miss that 'barely' means they struggled to follow even half, not that they comfortably followed most.",
+      "'Easily followed more than half' contradicts the premise — a lecture described as 'so dense' would not allow easy comprehension. Easy comprehension and dense lectures are logically incompatible.",
+      "'Fully followed more than half' is redundant and contradictory — 'followed more than half' already implies they didn't follow all of it; adding 'fully' to 'more than half' is contradictory because 'fully' implies total comprehension."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלילה עדינה. הבעיה: 'barely' = בקושי, כמעט ולא — עיבוד מינימלי, תואם הרצאה צפופה מדי. 'easily' סותר 'so dense'. התשובה הנכונה: 'barely' — בקושי עקבו אחרי יותר ממחצית.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-195",
+    "difficulty": "hard",
+    "text": "Read the passage: 'The ancient ruins were discovered in 2015 by a team of archaeologists. Carbon dating placed the site at approximately 3,000 years old. The site contains pottery, tools, and what appear to be the remains of a large building.'\nWhich statement CANNOT be directly concluded from the passage?",
+    "choices": [
+      "The site was discovered in 2015.",
+      "The civilization that built the site had advanced construction techniques.",
+      "The site is approximately 3,000 years old.",
+      "Pottery and tools were found at the site."
+    ],
+    "answer": 1,
+    "explanation": "'Advanced construction techniques' cannot be concluded — the passage mentions 'the remains of a large building,' but large does not necessarily mean advanced techniques. This is an inference that goes beyond what 'large building' states.",
+    "wrongReasons": [
+      "TRAP: Inference — 'advanced construction techniques' requires interpreting 'large building' as evidence of sophistication. But 'large' only means big, not technically sophisticated. The passage provides no details about construction methods. Students who associate large ancient buildings with advanced civilizations fall into the inference trap.",
+      "'The site was discovered in 2015' IS directly stated — 'discovered in 2015 by archaeologists' is explicit text.",
+      "'Pottery and tools were found' IS directly stated — 'the site contains pottery, tools' is explicit text, making this a directly supported conclusion."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות. הבעיה: 'advanced construction techniques' חורג מ'large building' — גדול לא אומר מתוחכם. התשובה הנכונה: 'advanced techniques' — לא ניתן להסיק זאת מהטקסט.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-196",
+    "difficulty": "hard",
+    "text": "The policy was introduced to ________ the widening gap between high-income and low-income households.\nWhich verb most formally and precisely describes the intended goal of reducing an existing disparity?",
+    "choices": [
+      "fix",
+      "close",
+      "narrow",
+      "deal with"
+    ],
+    "answer": 2,
+    "explanation": "'Narrow' is the formal, precise academic term for reducing a gap — it directly matches 'widening gap' by proposing to make it smaller (narrower). It is specific, formal, and the conventional word in policy and economics discussions.",
+    "wrongReasons": [
+      "TRAP: Register + semantic precision — 'fix' and 'deal with' are informal. 'Close' implies eliminating the gap entirely, which is a stronger and potentially overstated claim. 'Narrow' acknowledges the gap will be reduced but not necessarily eliminated.",
+      "'Fix the gap' is informal and vague — 'fix' implies something broken that is restored, and it is too casual for formal policy language.",
+      "'Close the gap' means eliminate it completely — but a policy aimed at a widening gap may realistically aim to narrow it, not close it entirely. 'Narrow' is the more precise and realistic policy goal."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: רישום לשוני + דיוק סמנטי. הבעיה: 'fix' ו-'deal with' בלתי פורמליים; 'close' = לסגור לחלוטין — יעד מוגזם. התשובה הנכונה: 'narrow' — לצמצם את הפער, מדויק ופורמלי.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-197",
+    "difficulty": "hard",
+    "text": "The legislation ________ proposed three years ago, but it was only enacted last month.\nWhich verb form correctly indicates the proposal happened further in the past than the enactment?",
+    "choices": [
+      "was",
+      "has been",
+      "had been",
+      "is"
+    ],
+    "answer": 2,
+    "explanation": "'Had been proposed' (past perfect passive) correctly places the proposal before the enactment — both are in the past, but past perfect marks the earlier of the two past events. 'Was enacted last month' anchors the more recent past event.",
+    "wrongReasons": [
+      "TRAP: Temporal confusion — 'was proposed' (simple past passive) does not grammatically distinguish which event happened first. Both 'was proposed' and 'was enacted' would appear equally in the past with no sequencing. Past perfect is required for explicit prior sequencing.",
+      "'Has been proposed' (present perfect passive) implies the proposal extends to the present — but the sentence places the proposal firmly three years ago, and present perfect cannot indicate one past event preceding another past event.",
+      "'Is proposed' (present passive) would mean the legislation is being proposed now — this is a tense error since 'but it was only enacted last month' places everything in the past."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול זמנים. הבעיה: 'was proposed' (עבר פשוט) לא מציין רצף; 'has been proposed' (הווה שלם) אינו יכול להקדים אירוע עבר אחר. התשובה הנכונה: 'had been proposed' — עבר מושלם פסיבי לאירוע קדום.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-198",
+    "difficulty": "hard",
+    "text": "The activist's speech ________ the need for immediate structural reform — she argued that gradual change alone would be insufficient.\nWhich verb most precisely conveys that the speech strongly communicated an urgent message?",
+    "choices": [
+      "mentioned",
+      "underlined",
+      "said about",
+      "noted"
+    ],
+    "answer": 1,
+    "explanation": "'Underlined' (or 'underscored') means emphasized strongly — it conveys that the speech gave special prominence to the need for reform, matching the urgent tone of 'immediate structural reform' and the argument that gradual change is insufficient.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'mentioned' and 'noted' both imply brief, matter-of-fact references — they convey minimal emphasis. An activist speech arguing for immediate reform would strongly emphasize its central point, not merely mention or note it.",
+      "'Mentioned the need' implies a passing reference — mentioned suggests it was brought up among other things, not made central. A speech arguing for urgent reform would more than merely mention its main point.",
+      "'Said about' is grammatically non-standard — you cannot 'say about the need'; the correct construction would be 'said something about' or better, use a more precise verb. 'Said about' is also informal and incomplete."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי. הבעיה: 'mentioned' ו-'noted' = אזכור קצר ולא מודגש — לא מתאים לנאום פעיל הדוחק לרפורמה מיידית. התשובה הנכונה: 'underlined' = הדגיש בחוזקה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-199",
+    "difficulty": "hard",
+    "text": "Read the passage: 'The school implemented a reading program in September. By December, students in the program showed a 25% improvement in reading fluency scores compared to those not in the program.'\nWhich conclusion goes BEYOND what the passage supports?",
+    "choices": [
+      "Students in the program improved their reading fluency by 25%.",
+      "The reading program is the best approach to improving literacy.",
+      "A comparison was made between program participants and non-participants.",
+      "The improvement was measured within the same academic year."
+    ],
+    "answer": 1,
+    "explanation": "'The best approach' requires comparative data against other programs — the passage only compares program participants to non-participants, not to other reading programs. No superlative claim about the program's relative effectiveness is supported.",
+    "wrongReasons": [
+      "TRAP: Inference — 'best approach to improving literacy' goes beyond the passage, which only measures one program against a control group. No other programs are compared, so no superlative ('best') can be justified. Students who see a 25% improvement may assume it proves the approach is best.",
+      "'Students improved by 25%' IS directly stated — '25% improvement in reading fluency scores compared to those not in the program' is explicit.",
+      "'A comparison was made between participants and non-participants' IS directly stated — 'compared to those not in the program' explicitly describes the comparison group."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסקת מסקנות. הבעיה: 'best approach' דורש השוואה לתוכניות אחרות — הטקסט רק מציג קבוצת בקרה, לא תוכניות אחרות. התשובה הנכונה: 'best approach' — חורג מהנתונים.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-200",
+    "difficulty": "hard",
+    "text": "The economist warned that the proposed tax cut would ________ benefit wealthy households, while doing little to alleviate poverty.\nWhich adverb most precisely and formally expresses that the benefit is exclusively or predominantly directed toward wealthy households?",
+    "choices": [
+      "mainly",
+      "disproportionately",
+      "totally",
+      "exclusively"
+    ],
+    "answer": 1,
+    "explanation": "'Disproportionately' means to a degree greater than is fair or expected — it precisely captures the idea that wealthy households would benefit more than their share, without claiming the benefit is exclusively theirs. It is also the formal academic term for unequal distribution relative to group size.",
+    "wrongReasons": [
+      "TRAP: Semantic precision — 'totally' and 'exclusively' claim wealthy households are the ONLY beneficiaries, which overstates the economist's warning. 'Mainly' is correct in direction but less precise than 'disproportionately,' which specifically signals an unfair or unequal distribution relative to expectations.",
+      "'Totally benefit wealthy households' would mean only wealthy households receive any benefit at all — an economist warning about inequality would typically acknowledge some benefit reaches others, just not equitably distributed.",
+      "'Exclusively benefit wealthy households' has the same problem as 'totally' — it makes an absolute claim that no other group benefits, which is an overgeneralization of what 'disproportionately' conveys."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: דיוק סמנטי. הבעיה: 'totally' ו-'exclusively' טוענים שרק משקי בית עשירים נהנים — הכללה מוחלטת. 'mainly' נכון בכיוון אך פחות מדויק. התשובה הנכונה: 'disproportionately' — מסמן חלוקה לא שוויונית ביחס לציפיות.",
+    "estimatedTimeSeconds": 55
+  }
+]

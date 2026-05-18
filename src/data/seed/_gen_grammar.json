@@ -1,0 +1,704 @@
+{
+  "grammar": [
+    {
+      "id": "g51",
+      "difficulty": "easy",
+      "text": "The committee _____ its final decision at the end of last month.",
+      "choices": ["announced", "announcing", "was announce", "has announcing"],
+      "answer": 0,
+      "explanation": "'Announced' is the correct simple past tense form to describe a completed action at a specific past time.",
+      "wrongReasons": ["'Announcing' is a present participle and cannot serve as the main verb alone.", "'Was announce' is not a grammatical construction.", "'Has announcing' incorrectly combines a present perfect auxiliary with a present participle."],
+      "category": "grammar"
+    },
+    {
+      "id": "g52",
+      "difficulty": "easy",
+      "text": "Students who submit their assignments late _____ a penalty in their final grade.",
+      "choices": ["receive", "receives", "receiving", "will receives"],
+      "answer": 0,
+      "explanation": "The subject 'Students' is plural, so the verb must also be plural: 'receive', not 'receives'.",
+      "wrongReasons": ["'Receives' is the third-person singular form, which does not agree with the plural subject 'Students'.", "'Receiving' is a participle and cannot function as the main verb without an auxiliary.", "'Will receives' incorrectly adds an -s ending after a modal verb."],
+      "category": "grammar"
+    },
+    {
+      "id": "g53",
+      "difficulty": "easy",
+      "text": "By the time the professor arrived, the students _____ for more than an hour.",
+      "choices": ["had been waiting", "have waited", "were waited", "waited"],
+      "answer": 0,
+      "explanation": "The past perfect continuous 'had been waiting' expresses an action that was ongoing up to a past reference point (the professor's arrival).",
+      "wrongReasons": ["'Have waited' is present perfect and cannot be used to refer to a point before another past event.", "'Were waited' is an incorrect passive construction; 'wait' in this context is intransitive.", "'Waited' as simple past does not convey the duration leading up to the arrival."],
+      "category": "grammar"
+    },
+    {
+      "id": "g54",
+      "difficulty": "easy",
+      "text": "The researchers decided _____ the experiment under controlled laboratory conditions.",
+      "choices": ["to conduct", "conducting", "conduct", "conducted"],
+      "answer": 0,
+      "explanation": "'Decide' is followed by an infinitive ('to conduct'), not a gerund or bare infinitive.",
+      "wrongReasons": ["'Conducting' is a gerund; 'decide' does not take a gerund complement.", "'Conduct' is a bare infinitive, which is not used after 'decided'.", "'Conducted' is a past participle and cannot follow 'decided' in this structure."],
+      "category": "grammar"
+    },
+    {
+      "id": "g55",
+      "difficulty": "easy",
+      "text": "Neither the principal nor the teachers _____ aware of the policy change before the announcement.",
+      "choices": ["were", "was", "are", "being"],
+      "answer": 0,
+      "explanation": "With 'neither...nor', the verb agrees with the subject closest to it ('teachers', which is plural), so 'were' is correct.",
+      "wrongReasons": ["'Was' would agree with a singular subject, but the nearer subject 'teachers' is plural.", "'Are' is present tense, but the context describes a past situation.", "'Being' is a participle and cannot function as the main verb alone."],
+      "category": "grammar"
+    },
+    {
+      "id": "g56",
+      "difficulty": "easy",
+      "text": "The laboratory report must _____ submitted before the end of the semester.",
+      "choices": ["be", "being", "have being", "been"],
+      "answer": 0,
+      "explanation": "The passive infinitive after a modal ('must') requires 'be' + past participle: 'must be submitted'.",
+      "wrongReasons": ["'Being' forms a continuous passive, which is not appropriate with 'must' in this context.", "'Have being' is not a grammatical construction.", "'Been' alone without 'be' would create an ungrammatical sequence: 'must been submitted'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g57",
+      "difficulty": "easy",
+      "text": "If you heat water to 100 degrees Celsius, it _____ into steam.",
+      "choices": ["turns", "would turn", "turned", "will have turned"],
+      "answer": 0,
+      "explanation": "A zero conditional (general scientific truth) uses simple present in both clauses: 'if you heat...it turns'.",
+      "wrongReasons": ["'Would turn' is used in second conditionals for hypothetical situations, not scientific facts.", "'Turned' is simple past, inconsistent with the present tense 'heat' in the if-clause.", "'Will have turned' is future perfect, far too complex for a zero conditional statement."],
+      "category": "grammar"
+    },
+    {
+      "id": "g58",
+      "difficulty": "easy",
+      "text": "The scientist who _____ the discovery received the Nobel Prize.",
+      "choices": ["made", "making", "has make", "makes"],
+      "answer": 0,
+      "explanation": "'Made' is the correct simple past form in the relative clause describing a past completed action.",
+      "wrongReasons": ["'Making' is a present participle and cannot function as the finite verb in a relative clause.", "'Has make' incorrectly combines an auxiliary with a base form instead of a past participle.", "'Makes' is present tense, inconsistent with the past-tense main clause context."],
+      "category": "grammar"
+    },
+    {
+      "id": "g59",
+      "difficulty": "easy",
+      "text": "There _____ several important factors that the research team overlooked in their analysis.",
+      "choices": ["were", "was", "has been", "being"],
+      "answer": 0,
+      "explanation": "In an inverted sentence beginning with 'There', the verb agrees with the real subject 'several factors' (plural), requiring 'were'.",
+      "wrongReasons": ["'Was' would require a singular subject, but 'several important factors' is plural.", "'Has been' is present perfect singular, which does not agree with the plural subject in the past context.", "'Being' is a participle and cannot serve as the main verb."],
+      "category": "grammar"
+    },
+    {
+      "id": "g60",
+      "difficulty": "easy",
+      "text": "The new policy requires students to show _____ student identification card at the entrance.",
+      "choices": ["their", "its", "his", "a"],
+      "answer": 0,
+      "explanation": "'Their' is the correct gender-neutral plural possessive pronoun referring back to the plural noun 'students'.",
+      "wrongReasons": ["'Its' is a singular possessive for non-human referents and does not refer to 'students'.", "'His' is gender-specific and excludes female students.", "'A' is an article, not a possessive pronoun, and would not show the connection to 'students'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g61",
+      "difficulty": "easy",
+      "text": "The professor suggested _____ extra practice problems before the examination.",
+      "choices": ["doing", "to do", "do", "did"],
+      "answer": 0,
+      "explanation": "'Suggest' is followed by a gerund ('doing'), not an infinitive or bare infinitive.",
+      "wrongReasons": ["'To do' is an infinitive; 'suggest' does not take an infinitive complement directly.", "'Do' is a bare infinitive, which cannot follow 'suggested' in this structure.", "'Did' is a past tense form that cannot follow 'suggested' as a verbal complement."],
+      "category": "grammar"
+    },
+    {
+      "id": "g62",
+      "difficulty": "easy",
+      "text": "The findings of the study _____ published in an international journal last year.",
+      "choices": ["were", "was", "had", "being"],
+      "answer": 0,
+      "explanation": "'Were published' is the correct simple past passive for the plural subject 'The findings'.",
+      "wrongReasons": ["'Was published' would require a singular subject, but 'findings' is plural.", "'Had published' is active voice past perfect and changes the meaning entirely.", "'Being published' is a participle phrase, not a complete finite verb."],
+      "category": "grammar"
+    },
+    {
+      "id": "g63",
+      "difficulty": "easy",
+      "text": "The team needs _____ its data before drawing any conclusions.",
+      "choices": ["to verify", "verifying", "verify", "verified"],
+      "answer": 0,
+      "explanation": "'Need' in its main verb function is followed by an infinitive: 'needs to verify'.",
+      "wrongReasons": ["'Verifying' is a gerund; while 'need' can sometimes take a gerund in British English with passive meaning, it doesn't apply here with an active object.", "'Verify' is a bare infinitive, which does not follow 'needs' in standard grammar.", "'Verified' is a past participle and cannot follow 'needs' without an auxiliary like 'be'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g64",
+      "difficulty": "easy",
+      "text": "The graph shows the amount of rainfall that _____ recorded over the past decade.",
+      "choices": ["was", "were", "has", "had been"],
+      "answer": 0,
+      "explanation": "'That' refers to 'the amount' (singular), so the relative clause verb must be singular: 'was recorded'.",
+      "wrongReasons": ["'Were recorded' would require a plural antecedent, but 'the amount' is singular.", "'Has recorded' is active present perfect, inconsistent with the passive and past-tense context.", "'Had been recorded' uses the past perfect, which implies an action prior to another past event — unnecessary here."],
+      "category": "grammar"
+    },
+    {
+      "id": "g65",
+      "difficulty": "easy",
+      "text": "She has studied economics at university for three years _____ she has not yet chosen a specialization.",
+      "choices": ["but", "because", "so", "although"],
+      "answer": 0,
+      "explanation": "'But' correctly introduces a contrast between her three years of study and her lack of specialization.",
+      "wrongReasons": ["'Because' introduces a cause, but the second clause is a contrasting fact, not a reason.", "'So' introduces a result, which contradicts the logical relationship between the two clauses.", "'Although' can introduce contrast but is a subordinating conjunction that would restructure the sentence incorrectly."],
+      "category": "grammar"
+    },
+    {
+      "id": "g66",
+      "difficulty": "easy",
+      "text": "A _____ of students has been selected to participate in the national science competition.",
+      "choices": ["group", "number", "few", "lot"],
+      "answer": 0,
+      "explanation": "'A group of students' takes a singular verb ('has been selected') and is the most natural collective noun for a selected set.",
+      "wrongReasons": ["'A number of students' typically takes a plural verb, making 'has been' incorrect.", "'A few' is a quantifier, not a collective noun, and would not pair idiomatically with the singular verb.", "'A lot of students' would normally take a plural verb and is less formal than the context requires."],
+      "category": "grammar"
+    },
+    {
+      "id": "g67",
+      "difficulty": "easy",
+      "text": "The committee _____ meeting every Tuesday to review the new curriculum proposals.",
+      "choices": ["is", "are", "were", "have been"],
+      "answer": 0,
+      "explanation": "In American English, collective nouns like 'committee' take singular verbs. 'Is meeting' is correct for an ongoing present action.",
+      "wrongReasons": ["'Are meeting' treats 'committee' as a plural noun, which is standard in British but not American English in this context.", "'Were meeting' is past continuous, but the present continuous is needed for a current ongoing schedule.", "'Have been meeting' is present perfect continuous, implying duration up to now rather than a scheduled present activity."],
+      "category": "grammar"
+    },
+    {
+      "id": "g68",
+      "difficulty": "medium",
+      "text": "If the university _____ additional funding last year, the research centre would have been completed on time.",
+      "choices": ["had received", "received", "would receive", "has received"],
+      "answer": 0,
+      "explanation": "The third conditional requires past perfect ('had received') in the if-clause to describe a hypothetical past situation.",
+      "wrongReasons": ["'Received' is simple past, which forms a second conditional, not a third conditional.", "'Would receive' is the result clause form and cannot appear in the if-clause.", "'Has received' is present perfect, which refers to a time frame that includes the present, not a purely past hypothetical."],
+      "category": "grammar"
+    },
+    {
+      "id": "g69",
+      "difficulty": "medium",
+      "text": "The participants were asked _____ a detailed questionnaire about their study habits.",
+      "choices": ["to complete", "completing", "complete", "having completed"],
+      "answer": 0,
+      "explanation": "The passive construction 'were asked' is followed by an infinitive ('to complete') to express what they were requested to do.",
+      "wrongReasons": ["'Completing' is a gerund; passives with 'asked' require the infinitive form.", "'Complete' is a bare infinitive, which is not used after 'were asked'.", "'Having completed' is a perfect gerund that would imply the action was already done before being asked."],
+      "category": "grammar"
+    },
+    {
+      "id": "g70",
+      "difficulty": "medium",
+      "text": "The data that _____ collected during the fieldwork phase proved surprisingly consistent.",
+      "choices": ["was", "were", "had", "being"],
+      "answer": 0,
+      "explanation": "'Data' is used here as a singular mass noun (referring to the collective dataset), so 'was collected' is correct.",
+      "wrongReasons": ["'Were collected' treats 'data' as a count plural, which is acceptable in formal scientific writing but inconsistent with the singular predicate 'proved' later in the sentence.", "'Had collected' is active voice, but the sentence requires a passive since the data was collected by researchers.", "'Being collected' is a participial form and cannot serve as the finite verb in the relative clause."],
+      "category": "grammar"
+    },
+    {
+      "id": "g71",
+      "difficulty": "medium",
+      "text": "She reported that the experiment _____ the previous week and the results were promising.",
+      "choices": ["had been conducted", "has been conducted", "was conducting", "conducted"],
+      "answer": 0,
+      "explanation": "In reported speech, the past simple in direct speech shifts to past perfect ('had been conducted'), and the passive is maintained.",
+      "wrongReasons": ["'Has been conducted' is present perfect, which does not shift back correctly in reported speech about a past event.", "'Was conducting' is past continuous active, which changes both the voice and aspect inappropriately.", "'Conducted' is simple past and does not reflect the tense backshift required in reported speech."],
+      "category": "grammar"
+    },
+    {
+      "id": "g72",
+      "difficulty": "medium",
+      "text": "The article, _____ was published in a leading journal, challenged several widely accepted theories.",
+      "choices": ["which", "that", "who", "whose"],
+      "answer": 0,
+      "explanation": "'Which' introduces a non-restrictive relative clause (set off by commas) referring to 'the article', a non-human noun.",
+      "wrongReasons": ["'That' is used in restrictive (defining) relative clauses, not in non-restrictive clauses set off by commas.", "'Who' refers to people, not to inanimate objects like an article.", "'Whose' is a possessive relative pronoun and would require a noun after it (e.g., 'whose conclusion')."],
+      "category": "grammar"
+    },
+    {
+      "id": "g73",
+      "difficulty": "medium",
+      "text": "The students are looking forward to _____ from the admissions committee next week.",
+      "choices": ["hearing", "hear", "have heard", "be heard"],
+      "answer": 0,
+      "explanation": "After the prepositional phrase 'look forward to', a gerund ('hearing') is required, not an infinitive.",
+      "wrongReasons": ["'Hear' is a bare infinitive; after 'to' functioning as a preposition, only a gerund is grammatical.", "'Have heard' is a perfect infinitive; it cannot follow the preposition 'to' in this construction.", "'Be heard' is a passive infinitive, which changes the meaning to suggest the students want to be listened to."],
+      "category": "grammar"
+    },
+    {
+      "id": "g74",
+      "difficulty": "medium",
+      "text": "Rarely _____ such a significant error in the methodology of a peer-reviewed study.",
+      "choices": ["does one encounter", "one encounters", "one does encounter", "encounters one"],
+      "answer": 0,
+      "explanation": "After the negative adverb 'Rarely' at the start of a clause, subject-auxiliary inversion is required: 'does one encounter'.",
+      "wrongReasons": ["'One encounters' uses normal word order without the required inversion after the fronted negative adverb.", "'One does encounter' places the auxiliary after the subject, reversing the required inverted order.", "'Encounters one' inverts subject and main verb instead of subject and auxiliary, which is not standard English inversion."],
+      "category": "grammar"
+    },
+    {
+      "id": "g75",
+      "difficulty": "medium",
+      "text": "The lecturer reminded the students that they _____ submit their research proposals by Friday.",
+      "choices": ["had to", "must", "should have", "ought"],
+      "answer": 0,
+      "explanation": "In reported speech, 'must' (obligation) shifts back to 'had to' when the reporting verb is in the past tense.",
+      "wrongReasons": ["'Must' does not backshift in reported speech and would imply the obligation is still present rather than being reported from the past.", "'Should have' expresses criticism of a past action not performed, which changes the meaning entirely.", "'Ought' is incomplete without 'to' and would require 'ought to submit', not a natural fit in backshifted reported speech."],
+      "category": "grammar"
+    },
+    {
+      "id": "g76",
+      "difficulty": "medium",
+      "text": "The results of the experiment _____ not only surprising but also highly relevant to current policy debates.",
+      "choices": ["proved", "proved to be", "were proved", "proving"],
+      "answer": 1,
+      "explanation": "'Proved to be' is the correct linking verb construction when followed by an adjective complement ('not only surprising but also...').",
+      "wrongReasons": ["'Proved' without 'to be' sounds incomplete when linking the subject to an adjective phrase that follows.", "'Were proved' is a passive construction implying someone proved them, which changes the meaning.", "'Proving' is a present participle that cannot serve as the finite main verb in the sentence."],
+      "category": "grammar"
+    },
+    {
+      "id": "g77",
+      "difficulty": "medium",
+      "text": "Neither of the two proposed solutions _____ been tested under real-world conditions.",
+      "choices": ["has", "have", "had", "having"],
+      "answer": 0,
+      "explanation": "'Neither of' takes a singular verb ('has'), as 'neither' refers to not one of two, functioning as a singular pronoun.",
+      "wrongReasons": ["'Have' would require a plural subject, but 'neither' is singular.", "'Had' is past perfect auxiliary, but the present perfect is needed to describe a state that extends to the present.", "'Having' is a gerund or participle and cannot be the finite verb in this clause."],
+      "category": "grammar"
+    },
+    {
+      "id": "g78",
+      "difficulty": "medium",
+      "text": "The professor, _____ research focuses on climate change, will deliver the opening lecture.",
+      "choices": ["whose", "who", "which", "that"],
+      "answer": 0,
+      "explanation": "'Whose' is the possessive relative pronoun used to indicate that the research belongs to the professor (a person).",
+      "wrongReasons": ["'Who' is a subject relative pronoun, not a possessive; it cannot precede 'research' as a possessive determiner.", "'Which' refers to non-human antecedents and also lacks the possessive function needed here.", "'That' is not used in non-restrictive relative clauses and cannot serve as a possessive."],
+      "category": "grammar"
+    },
+    {
+      "id": "g79",
+      "difficulty": "medium",
+      "text": "The government proposed _____ the education budget by fifteen percent over the next five years.",
+      "choices": ["increasing", "to increase", "increase", "having increased"],
+      "answer": 0,
+      "explanation": "'Propose' is followed by a gerund ('increasing') in standard usage when the subject of the gerund is the same as the main subject.",
+      "wrongReasons": ["'To increase' is an infinitive; while sometimes acceptable with 'propose', the gerund is the standard complement after 'proposed' in formal academic writing.", "'Increase' is a bare infinitive that cannot directly follow 'proposed'.", "'Having increased' implies the increase already occurred, which contradicts the future-oriented context."],
+      "category": "grammar"
+    },
+    {
+      "id": "g80",
+      "difficulty": "medium",
+      "text": "The survey revealed that _____ students had read the assigned texts before the seminar.",
+      "choices": ["few", "a few", "little", "a little"],
+      "answer": 0,
+      "explanation": "'Few' (without 'a') emphasizes scarcity and has a negative connotation — very few students read the texts, implying disappointment.",
+      "wrongReasons": ["'A few' has a positive connotation, suggesting 'some, though not many', which would weaken the critical finding.", "'Little' is used with uncountable nouns, but 'students' is countable.", "'A little' is also for uncountable nouns and would not modify the countable noun 'students'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g81",
+      "difficulty": "medium",
+      "text": "The board agreed that the new assessment criteria _____ implemented from the following academic year.",
+      "choices": ["would be", "will be", "were", "are being"],
+      "answer": 0,
+      "explanation": "In reported speech after the past-tense verb 'agreed', 'will be' backtracks to 'would be' in the reported clause.",
+      "wrongReasons": ["'Will be' does not backshift appropriately when the reporting verb ('agreed') is in the past tense.", "'Were' is simple past passive, which implies the criteria were already implemented rather than planned for the future.", "'Are being' is present continuous passive, which conflicts with the future time reference."],
+      "category": "grammar"
+    },
+    {
+      "id": "g82",
+      "difficulty": "medium",
+      "text": "The technician spent three hours _____ the malfunction in the laboratory equipment.",
+      "choices": ["diagnosing", "to diagnose", "diagnose", "diagnosed"],
+      "answer": 0,
+      "explanation": "'Spend time doing something' requires a gerund after the time expression: 'spent three hours diagnosing'.",
+      "wrongReasons": ["'To diagnose' is an infinitive; 'spend + time' does not take an infinitive complement.", "'Diagnose' is a bare infinitive that cannot follow 'spent three hours' in standard grammar.", "'Diagnosed' is a past participle that would create an ungrammatical construction in this position."],
+      "category": "grammar"
+    },
+    {
+      "id": "g83",
+      "difficulty": "medium",
+      "text": "The museum curator showed the delegates the artifacts _____ had been excavated from the ancient site.",
+      "choices": ["that", "which", "who", "whom"],
+      "answer": 0,
+      "explanation": "'That' correctly introduces a restrictive relative clause identifying which artifacts are being referred to, as the clause is essential to the meaning.",
+      "wrongReasons": ["'Which' can be used in restrictive clauses but is less preferred than 'that' in American English when defining essential information.", "'Who' is used for people, not for inanimate objects like artifacts.", "'Whom' is an object relative pronoun for people and cannot refer to inanimate artifacts."],
+      "category": "grammar"
+    },
+    {
+      "id": "g84",
+      "difficulty": "medium",
+      "text": "By the time the new regulations come into force, the company _____ its compliance procedures.",
+      "choices": ["will have revised", "will revise", "revises", "would have revised"],
+      "answer": 0,
+      "explanation": "The future perfect ('will have revised') is used to describe an action that will be completed before a specific future time ('by the time the regulations come into force').",
+      "wrongReasons": ["'Will revise' is simple future, which does not emphasize completion before the deadline.", "'Revises' is present simple, appropriate for zero conditionals but not for this future-completion context.", "'Would have revised' is used in third conditionals (past hypotheticals), not for genuine future completion."],
+      "category": "grammar"
+    },
+    {
+      "id": "g85",
+      "difficulty": "medium",
+      "text": "The authority figure insisted on _____ the report before any decisions were made.",
+      "choices": ["reviewing", "to review", "review", "reviewed"],
+      "answer": 0,
+      "explanation": "'Insist on' is a prepositional verb that must be followed by a gerund ('reviewing'), not an infinitive.",
+      "wrongReasons": ["'To review' is an infinitive; prepositions require gerunds, not infinitives.", "'Review' is a bare infinitive that cannot follow the preposition 'on'.", "'Reviewed' is a past participle that cannot follow the preposition 'on' in this active context."],
+      "category": "grammar"
+    },
+    {
+      "id": "g86",
+      "difficulty": "medium",
+      "text": "There is _____ evidence to support the conclusion that intensive revision leads to better outcomes.",
+      "choices": ["considerable", "many", "a great number of", "a lot"],
+      "answer": 0,
+      "explanation": "'Considerable' is a strong adjective modifying the uncountable noun 'evidence', which requires an adjective rather than a plural quantifier.",
+      "wrongReasons": ["'Many' is used with countable plural nouns, not with the uncountable noun 'evidence'.", "'A great number of' is used with countable plural nouns, not uncountable nouns.", "'A lot' would need 'of' after it to function as a quantifier before a noun: 'a lot of evidence', but even then 'considerable' is more formal and appropriate here."],
+      "category": "grammar"
+    },
+    {
+      "id": "g87",
+      "difficulty": "medium",
+      "text": "The student _____ the assignment already when the professor extended the deadline.",
+      "choices": ["had submitted", "submitted", "has submitted", "was submitting"],
+      "answer": 0,
+      "explanation": "The past perfect ('had submitted') correctly places the submission as completed before the past event of the deadline extension.",
+      "wrongReasons": ["'Submitted' as simple past would imply both actions happened at roughly the same time, not that one preceded the other.", "'Has submitted' is present perfect, which cannot be used for a sequence of two past events.", "'Was submitting' is past continuous, implying the submission was in progress at the moment of the deadline extension, not already completed."],
+      "category": "grammar"
+    },
+    {
+      "id": "g88",
+      "difficulty": "medium",
+      "text": "The regulations _____ all students to carry valid identification on campus at all times.",
+      "choices": ["require", "require of", "demands", "requiring"],
+      "answer": 0,
+      "explanation": "'Require' with 'all students' as the direct object and 'to carry' as the infinitive complement is the correct construction: 'require someone to do something'.",
+      "wrongReasons": ["'Require of' is not used before a direct object in this structure — 'require of' means 'to expect from', which needs rephrasing.", "'Demands' is singular and would require a singular subject, but 'The regulations' is plural.", "'Requiring' is a participle and cannot serve as the finite main verb."],
+      "category": "grammar"
+    },
+    {
+      "id": "g89",
+      "difficulty": "medium",
+      "text": "If I were the department head, I _____ a more collaborative approach to curriculum development.",
+      "choices": ["would encourage", "will encourage", "encouraged", "had encouraged"],
+      "answer": 0,
+      "explanation": "The second conditional uses 'would + base form' in the main clause to describe a hypothetical present/future scenario.",
+      "wrongReasons": ["'Will encourage' forms a first conditional, implying a real and likely situation rather than a hypothetical one.", "'Encouraged' as simple past in the main clause is not grammatically correct in a second conditional.", "'Had encouraged' is used in third conditionals referring to unreal past situations."],
+      "category": "grammar"
+    },
+    {
+      "id": "g90",
+      "difficulty": "medium",
+      "text": "The team leader, together with all her colleagues, _____ the award at the annual conference.",
+      "choices": ["accepted", "accepted of", "accept", "have accepted"],
+      "answer": 0,
+      "explanation": "The phrase 'together with' does not create a compound subject; the verb agrees with the true subject 'The team leader' (singular), and 'accepted' is correct in the past tense.",
+      "wrongReasons": ["'Accepted of' is ungrammatical — 'accept' does not take the preposition 'of' after it.", "'Accept' is present tense base form, inconsistent with the past-tense narrative context.", "'Have accepted' is plural present perfect; 'The team leader' is singular and the context is past."],
+      "category": "grammar"
+    },
+    {
+      "id": "g91",
+      "difficulty": "medium",
+      "text": "Not until the second review _____ that several key variables had been omitted.",
+      "choices": ["did the panel realise", "the panel realised", "realised the panel", "had the panel realised"],
+      "answer": 0,
+      "explanation": "After fronted 'Not until', inversion with 'did' is required: 'did the panel realise'.",
+      "wrongReasons": ["'The panel realised' uses normal word order without the required inversion after the fronted negative time adverbial.", "'Realised the panel' inverts subject and main verb instead of subject and auxiliary.", "'Had the panel realised' uses past perfect auxiliary, but simple past inversion with 'did' is required here."],
+      "category": "grammar"
+    },
+    {
+      "id": "g92",
+      "difficulty": "medium",
+      "text": "The conference organisers announced that the keynote speaker _____ the previous evening.",
+      "choices": ["had arrived", "has arrived", "arrived", "was arriving"],
+      "answer": 0,
+      "explanation": "In reported speech, the simple past 'arrived' in direct speech shifts back to the past perfect 'had arrived'.",
+      "wrongReasons": ["'Has arrived' is present perfect and does not follow the required tense backshift in reported speech.", "'Arrived' is simple past without tense backshift, which is acceptable informally but incorrect for formal reported speech.", "'Was arriving' is past continuous, which would mean the arrival was in progress when announced, changing the meaning."],
+      "category": "grammar"
+    },
+    {
+      "id": "g93",
+      "difficulty": "medium",
+      "text": "_____ completing the online registration form, applicants should attach their academic transcripts.",
+      "choices": ["After", "Having", "Once", "On"],
+      "answer": 0,
+      "explanation": "'After completing' correctly uses a preposition before a gerund to describe a sequential action.",
+      "wrongReasons": ["'Having completing' is grammatically incorrect — 'having' must be followed by a past participle, not a gerund.", "'Once completing' is not standard; 'once' is a conjunction and would need a finite clause: 'once they have completed'.", "'On completing' is possible in British English but less natural and common than 'After completing'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g94",
+      "difficulty": "medium",
+      "text": "The study involved _____ over five hundred participants across three different age groups.",
+      "choices": ["surveying", "to survey", "survey", "surveyed"],
+      "answer": 0,
+      "explanation": "'Involve' is always followed by a gerund ('surveying'), not an infinitive or bare verb form.",
+      "wrongReasons": ["'To survey' is an infinitive; 'involve' does not take an infinitive complement.", "'Survey' is a bare infinitive that cannot follow 'involved'.", "'Surveyed' is a past participle and would create an ungrammatical structure after 'involved'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g95",
+      "difficulty": "medium",
+      "text": "The director has worked in educational reform _____ over twenty years.",
+      "choices": ["for", "since", "during", "within"],
+      "answer": 0,
+      "explanation": "'For' is used with a duration of time ('over twenty years') alongside present perfect to indicate how long something has been happening.",
+      "wrongReasons": ["'Since' is used with a starting point in time (e.g., 'since 2001'), not with a duration.", "'During' describes a period within which something happens, but it cannot link present perfect to a duration.", "'Within' indicates something happening before the end of a time frame, not a duration of ongoing activity."],
+      "category": "grammar"
+    },
+    {
+      "id": "g96",
+      "difficulty": "hard",
+      "text": "Only after all the evidence _____ did the scientific community begin to revise its theoretical framework.",
+      "choices": ["had been analysed", "was analysed", "has been analysed", "would be analysed"],
+      "answer": 0,
+      "explanation": "After fronted 'Only after', the subordinate clause requires past perfect to show the analysis preceded the main past action. The main clause then uses inversion ('did...begin').",
+      "wrongReasons": ["'Was analysed' is simple past passive; while grammatically possible, it fails to clearly sequence the analysis as prior to the revision.", "'Has been analysed' is present perfect, which cannot be used for completed actions in a fully past narrative.", "'Would be analysed' is a conditional form that does not fit the factual past context."],
+      "category": "grammar"
+    },
+    {
+      "id": "g97",
+      "difficulty": "hard",
+      "text": "If the funding proposal _____ approved last spring, the research centre would now be operational.",
+      "choices": ["had been", "was", "would have been", "were"],
+      "answer": 0,
+      "explanation": "This is a mixed conditional: the if-clause uses past perfect ('had been approved') for an unreal past condition, while the result clause uses 'would now be' for a present consequence.",
+      "wrongReasons": ["'Was' forms a second conditional with a present reference, not a mixed conditional where the condition is in the past.", "'Would have been' is used in the result clause of third conditionals, not in the if-clause.", "'Were' is used in second conditionals for present/future hypotheticals, not for unreal past conditions."],
+      "category": "grammar"
+    },
+    {
+      "id": "g98",
+      "difficulty": "hard",
+      "text": "The conference proceedings, _____ editing for three months, were finally sent to the publisher.",
+      "choices": ["having undergone", "undergoing", "having been undergoing", "undergone"],
+      "answer": 0,
+      "explanation": "'Having undergone' is a perfect active participle clause correctly indicating that the editing was completed before the proceedings were sent.",
+      "wrongReasons": ["'Undergoing' is a present participle that would imply the editing was still in progress when the proceedings were sent.", "'Having been undergoing' is grammatically awkward and non-standard — 'undergo' does not typically form a past perfect continuous participle.", "'Undergone' is a past participle that would need an auxiliary (e.g., 'having been undergone') to function correctly in a participle clause."],
+      "category": "grammar"
+    },
+    {
+      "id": "g99",
+      "difficulty": "hard",
+      "text": "No sooner _____ the results than the research team began planning a follow-up study.",
+      "choices": ["had they published", "they had published", "did they publish", "they published"],
+      "answer": 0,
+      "explanation": "After 'No sooner', subject-auxiliary inversion with past perfect is required: 'No sooner had they published...than...'.",
+      "wrongReasons": ["'They had published' uses normal word order without the required inversion after the fronted negative adverb.", "'Did they publish' uses simple past inversion, but 'No sooner...than' requires past perfect inversion.", "'They published' uses normal word order and simple past, both of which are incorrect after 'No sooner'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g100",
+      "difficulty": "hard",
+      "text": "The participants were instructed to avoid _____ their responses based on what they thought the researcher expected.",
+      "choices": ["adjusting", "to adjust", "adjust", "having adjusted"],
+      "answer": 0,
+      "explanation": "'Avoid' is always followed by a gerund ('adjusting'), never by an infinitive or bare verb.",
+      "wrongReasons": ["'To adjust' is an infinitive; 'avoid' categorically does not take an infinitive complement.", "'Adjust' is a bare infinitive that cannot follow 'avoid'.", "'Having adjusted' implies a completed prior action, but the instruction was about avoiding future adjustments."],
+      "category": "grammar"
+    },
+    {
+      "id": "g101",
+      "difficulty": "hard",
+      "text": "The policy document, _____ by the advisory board, outlined several measures to address declining enrolment.",
+      "choices": ["drafted", "drafting", "having drafting", "being drafting"],
+      "answer": 0,
+      "explanation": "'Drafted by the advisory board' is a reduced passive relative clause correctly modifying 'The policy document'.",
+      "wrongReasons": ["'Drafting' would imply the document was doing the drafting (active), not being drafted.", "'Having drafting' is grammatically incorrect — 'having' must be followed by a past participle, not a gerund.", "'Being drafting' is not a grammatical construction."],
+      "category": "grammar"
+    },
+    {
+      "id": "g102",
+      "difficulty": "hard",
+      "text": "Under no circumstances _____ personal data be shared with third parties without explicit written consent.",
+      "choices": ["should", "would", "shall", "must"],
+      "answer": 0,
+      "explanation": "After fronted 'Under no circumstances', inversion is required. 'Should' expresses obligation/prohibition appropriately, and the inverted form 'should...be shared' is grammatically required.",
+      "wrongReasons": ["'Would' expresses willingness or hypothetical situations, not the prohibition intended here.", "'Shall' can express obligation but is more formal/archaic; in modern usage 'should' is standard for this regulatory prohibition.", "'Must' is also possible for obligation, but 'must...be shared' after inversion does not naturally follow 'Under no circumstances' in standard formal English."],
+      "category": "grammar"
+    },
+    {
+      "id": "g103",
+      "difficulty": "hard",
+      "text": "The researcher acknowledged _____ overlooked a critical variable in the initial design of the study.",
+      "choices": ["having", "to have", "that having", "have"],
+      "answer": 0,
+      "explanation": "'Acknowledge' can be followed by a perfect gerund ('having overlooked') when the action being acknowledged occurred before the acknowledgment.",
+      "wrongReasons": ["'To have overlooked' is a perfect infinitive; while it may be acceptable in some dialects, the gerund form 'having' is the standard complement after 'acknowledged'.", "'That having' creates an incorrect subordinate clause structure — 'that' requires a full finite clause: 'acknowledged that they had overlooked'.", "'Have overlooked' without 'to' or a gerund marker is ungrammatical as the object of 'acknowledged'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g104",
+      "difficulty": "hard",
+      "text": "It is essential that each participant _____ a separate consent form prior to the commencement of the trial.",
+      "choices": ["sign", "signs", "signed", "should sign"],
+      "answer": 0,
+      "explanation": "After 'It is essential that', the subjunctive mood requires the base form of the verb ('sign') regardless of the subject's person or number.",
+      "wrongReasons": ["'Signs' adds the third-person singular -s ending, violating the subjunctive requirement after 'essential that'.", "'Signed' is past tense and does not reflect the present subjunctive required in this formal prescriptive statement.", "'Should sign' is sometimes used as an alternative to the subjunctive in British English but is considered redundant and less formal than the bare subjunctive."],
+      "category": "grammar"
+    },
+    {
+      "id": "g105",
+      "difficulty": "hard",
+      "text": "The more rigorously the methodology _____ scrutinised, the more robust the final conclusions will be.",
+      "choices": ["is", "was", "will be", "has been"],
+      "answer": 0,
+      "explanation": "In a 'the more...the more' comparative structure expressing a present general truth, the present simple ('is scrutinised') is used in the first clause.",
+      "wrongReasons": ["'Was' is past tense and would limit the statement to past scrutiny rather than expressing a general ongoing principle.", "'Will be' in the first clause would create a double future in the comparative structure, which is non-standard.", "'Has been' is present perfect and refers to completed past actions, not the ongoing general relationship being expressed."],
+      "category": "grammar"
+    },
+    {
+      "id": "g106",
+      "difficulty": "hard",
+      "text": "The student denied _____ the source material without proper attribution in her dissertation.",
+      "choices": ["having used", "to have used", "using", "to use"],
+      "answer": 0,
+      "explanation": "'Deny' takes a gerund complement, and since the action being denied occurred before the denial, the perfect gerund 'having used' correctly expresses this temporal relationship.",
+      "wrongReasons": ["'To have used' is a perfect infinitive; 'deny' does not take infinitive complements.", "'Using' is a simple gerund that does not explicitly convey that the use preceded the denial.", "'To use' is a base infinitive, which cannot follow 'denied'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g107",
+      "difficulty": "hard",
+      "text": "Were the university to _____ its entrance requirements, applications from international students would likely increase.",
+      "choices": ["lower", "have lowered", "be lowering", "lower down"],
+      "answer": 0,
+      "explanation": "'Were...to + base form' is a formal second conditional inversion structure. The base form 'lower' is required after 'to' in this inverted subjunctive construction.",
+      "wrongReasons": ["'Have lowered' would form a perfect infinitive, implying a past hypothetical in a third conditional rather than a present hypothetical.", "'Be lowering' is a continuous infinitive, which is not standard in the formal inverted conditional structure.", "'Lower down' is redundant — 'lower' already implies downward movement, and 'down' would be a non-standard particle here."],
+      "category": "grammar"
+    },
+    {
+      "id": "g108",
+      "difficulty": "hard",
+      "text": "The proposal was so poorly structured that the committee could not help but _____ fundamental revisions.",
+      "choices": ["request", "requesting", "to request", "have requested"],
+      "answer": 0,
+      "explanation": "The idiom 'cannot help but' requires a bare infinitive: 'could not help but request'.",
+      "wrongReasons": ["'Requesting' is a gerund used with 'cannot help doing' (British English), but 'cannot help but' specifically requires the bare infinitive.", "'To request' is a full infinitive; 'cannot help but' takes the bare form without 'to'.", "'Have requested' is a perfect infinitive that would shift the action into a completed past, inconsistent with the immediate context."],
+      "category": "grammar"
+    },
+    {
+      "id": "g109",
+      "difficulty": "hard",
+      "text": "The dean, along with several faculty members, _____ that the examination timetable should be revised.",
+      "choices": ["argued", "argue", "have argued", "are arguing"],
+      "answer": 0,
+      "explanation": "'Along with several faculty members' is a parenthetical phrase and does not change the grammatical subject. 'The dean' is singular and past tense, so 'argued' is correct.",
+      "wrongReasons": ["'Argue' is present tense base form, inconsistent with the narrative past context.", "'Have argued' is plural present perfect, but 'the dean' is singular and the context is clearly past.", "'Are arguing' is plural present continuous, doubly incorrect: wrong number and wrong tense."],
+      "category": "grammar"
+    },
+    {
+      "id": "g110",
+      "difficulty": "hard",
+      "text": "Hardly _____ begun the lecture when a fire alarm interrupted the session.",
+      "choices": ["had the professor", "the professor had", "did the professor", "was the professor"],
+      "answer": 0,
+      "explanation": "After 'Hardly' at the front of a clause, subject-auxiliary inversion with past perfect is required: 'Hardly had the professor begun...'.",
+      "wrongReasons": ["'The professor had' uses normal word order without the required inversion after the fronted negative adverb 'Hardly'.", "'Did the professor' uses simple past inversion, but 'Hardly' requires past perfect inversion.", "'Was the professor' uses the wrong auxiliary — 'had begun' (past perfect) is required, not 'was beginning'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g111",
+      "difficulty": "hard",
+      "text": "The editorial board requires that each submitted manuscript _____ for originality before undergoing peer review.",
+      "choices": ["be checked", "is checked", "should be checked", "will be checked"],
+      "answer": 0,
+      "explanation": "After 'require that', the mandative subjunctive requires the base form of the verb in passive: 'be checked'.",
+      "wrongReasons": ["'Is checked' adds the third-person singular -s, violating the subjunctive requirement after 'require that'.", "'Should be checked' is an alternative in British English but is considered a departure from the pure subjunctive in formal academic usage.", "'Will be checked' is indicative future and does not satisfy the mandative subjunctive requirement after 'require that'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g112",
+      "difficulty": "hard",
+      "text": "The extent to _____ the intervention succeeded in changing behaviour remains a subject of debate.",
+      "choices": ["which", "that", "what", "whom"],
+      "answer": 0,
+      "explanation": "'The extent to which' is a fixed prepositional relative phrase. When a preposition precedes the relative pronoun, 'which' (not 'that') must be used.",
+      "wrongReasons": ["'That' cannot be used after a preposition; only 'which' or 'whom' can directly follow a preposition in a formal relative clause.", "'What' is not a relative pronoun in this context; it would introduce a free relative clause, but 'the extent' requires a prepositional relative.", "'Whom' is used for people in object relative clauses, not for abstract concepts like 'the extent'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g113",
+      "difficulty": "hard",
+      "text": "I would rather the participants _____ their responses before the moderator closed the discussion.",
+      "choices": ["had submitted", "submit", "submitted", "would submit"],
+      "answer": 0,
+      "explanation": "'Would rather + subject' takes a past subjunctive for present preference (simple past) or a past perfect for expressing preference about a past situation. Here the time reference is past, so 'had submitted' is correct.",
+      "wrongReasons": ["'Submit' is base form used for present/future preference in the 'would rather + subject' structure, but the context is past ('before...closed').", "'Submitted' is used for present/future hypothetical preference after 'would rather', not for referring to a completed past action.", "'Would submit' is doubly modal and does not correctly follow 'would rather + subject'."],
+      "category": "grammar"
+    },
+    {
+      "id": "g114",
+      "difficulty": "hard",
+      "text": "The examination results, _____ earlier than expected, caused considerable surprise among the students.",
+      "choices": ["released", "releasing", "having releasing", "being released"],
+      "answer": 0,
+      "explanation": "'Released earlier than expected' is a reduced passive participial clause modifying 'The examination results'. The past participle 'released' is correct for passive meaning.",
+      "wrongReasons": ["'Releasing' is an active present participle, implying the results themselves were releasing something, which is nonsensical.", "'Having releasing' is grammatically incorrect — 'having' requires a past participle, not a gerund.", "'Being released' suggests the release was in progress at the time, whereas 'released' simply states it had occurred before surprising the students."],
+      "category": "grammar"
+    },
+    {
+      "id": "g115",
+      "difficulty": "hard",
+      "text": "It was not until the third replication attempt _____ the anomalous data pattern emerge consistently.",
+      "choices": ["that", "when", "which", "then"],
+      "answer": 0,
+      "explanation": "'It was not until...that' is the correct cleft sentence construction used to emphasise a time reference.",
+      "wrongReasons": ["'When' introduces a temporal adverb clause but cannot complete the 'It was not until...that' cleft structure.", "'Which' is a relative pronoun and cannot complete this emphatic cleft construction.", "'Then' is an adverb and creates an ungrammatical sentence structure in this position."],
+      "category": "grammar"
+    },
+    {
+      "id": "g116",
+      "difficulty": "hard",
+      "text": "The accuracy of the findings depends on the degree _____ the sampling procedure followed established protocols.",
+      "choices": ["to which", "in which", "at which", "by which"],
+      "answer": 0,
+      "explanation": "'The degree to which' is the correct fixed prepositional phrase used to introduce a relative clause measuring extent.",
+      "wrongReasons": ["'In which' would be appropriate for 'the way in which' or 'the context in which', not for expressing degree of adherence.", "'At which' is used for locations or specific points in time, not for measuring degree.", "'By which' is used with means or mechanism (e.g., 'the method by which'), not for expressing degree."],
+      "category": "grammar"
+    },
+    {
+      "id": "g117",
+      "difficulty": "hard",
+      "text": "Had the researchers _____ more time on the preliminary analysis, they might have detected the flaw earlier.",
+      "choices": ["spent", "spend", "been spending", "to spend"],
+      "answer": 0,
+      "explanation": "'Had the researchers spent' is a third conditional inversion with the if-clause inverted: 'had + subject + past participle'. 'Spent' is the correct past participle.",
+      "wrongReasons": ["'Spend' is the base form; the inverted conditional structure requires a past participle after 'had'.", "'Been spending' would form a past perfect continuous in an inverted conditional, but simple past perfect is standard here.", "'To spend' is an infinitive and cannot follow 'had' in a past perfect or inverted conditional structure."],
+      "category": "grammar"
+    },
+    {
+      "id": "g118",
+      "difficulty": "hard",
+      "text": "The supervisor expressed concern about the candidate _____ sufficient evidence to support the central thesis.",
+      "choices": ["not having provided", "not to have provided", "not providing", "having not provided"],
+      "answer": 0,
+      "explanation": "'About' is a preposition requiring a gerund complement. The negative perfect gerund 'not having provided' correctly places the negation before 'having' and indicates the action preceded the concern.",
+      "wrongReasons": ["'Not to have provided' is a negative perfect infinitive; prepositions require gerunds, not infinitives.", "'Not providing' is a simple negative gerund that does not explicitly mark the provision as having already (not) occurred before the concern was expressed.", "'Having not provided' places 'not' in the wrong position — in negative gerund constructions, 'not' should precede the entire gerund phrase."],
+      "category": "grammar"
+    },
+    {
+      "id": "g119",
+      "difficulty": "hard",
+      "text": "Such was the significance of the discovery _____ the journal agreed to publish it without peer review.",
+      "choices": ["that", "which", "so that", "as"],
+      "answer": 0,
+      "explanation": "'Such was...that' is an inverted emphatic structure: 'Such was the significance...that the journal agreed'. 'That' introduces the result clause.",
+      "wrongReasons": ["'Which' is a relative pronoun and cannot introduce a result clause after 'such was'.", "'So that' expresses purpose, not consequence; and using 'so that' after 'such was' creates a redundant and ungrammatical structure.", "'As' would form the construction 'such...as', which introduces a comparison or example, not a result."],
+      "category": "grammar"
+    },
+    {
+      "id": "g120",
+      "difficulty": "hard",
+      "text": "The committee would sooner _____ the entire application process than risk overlooking a qualified candidate.",
+      "choices": ["overhaul", "to overhaul", "overhauling", "have overhauled"],
+      "answer": 0,
+      "explanation": "'Would sooner' (meaning 'would prefer to') takes a bare infinitive: 'would sooner overhaul'.",
+      "wrongReasons": ["'To overhaul' is a full infinitive; 'would sooner' requires the bare infinitive without 'to'.", "'Overhauling' is a gerund; modal-like expressions such as 'would sooner' take bare infinitives, not gerunds.", "'Have overhauled' is a perfect infinitive that would shift the meaning to a past preference, which is not intended here."],
+      "category": "grammar"
+    }
+  ]
+}

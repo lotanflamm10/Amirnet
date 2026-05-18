@@ -1,0 +1,394 @@
+[
+  {
+    "id": "v1",
+    "word": "allocate",
+    "definition": "to distribute for a purpose",
+    "example": "Universities allocate funds to strong projects.",
+    "difficulty": "hard",
+    "choices": [
+      "distribute",
+      "ignore",
+      "copy",
+      "reduce"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v2",
+    "word": "assume",
+    "definition": "to accept as true without proof",
+    "example": "Do not assume the first answer is correct.",
+    "difficulty": "easy",
+    "choices": [
+      "predict",
+      "suppose",
+      "forbid",
+      "withdraw"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v3",
+    "word": "benefit",
+    "definition": "an advantage or positive effect",
+    "example": "Regular review has a clear benefit for memory.",
+    "difficulty": "easy",
+    "choices": [
+      "penalty",
+      "advantage",
+      "argument",
+      "delay"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v4",
+    "word": "comprehensive",
+    "definition": "complete and thorough",
+    "example": "The report offers a comprehensive analysis of the issue.",
+    "difficulty": "hard",
+    "choices": [
+      "brief",
+      "thorough",
+      "fragile",
+      "casual"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v5",
+    "word": "decline",
+    "definition": "to decrease",
+    "example": "Error rates often decline after focused practice.",
+    "difficulty": "easy",
+    "choices": [
+      "decrease",
+      "announce",
+      "borrow",
+      "expand"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v6",
+    "word": "efficient",
+    "definition": "achieving results with little waste",
+    "example": "A short routine can be more efficient than a long unfocused one.",
+    "difficulty": "medium",
+    "choices": [
+      "wasteful",
+      "effective",
+      "silent",
+      "unclear"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v7",
+    "word": "evidence",
+    "definition": "information that supports a claim",
+    "example": "Choose the answer supported by the evidence.",
+    "difficulty": "medium",
+    "choices": [
+      "prediction",
+      "proof",
+      "ceremony",
+      "permission"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v8",
+    "word": "factor",
+    "definition": "something that influences a result",
+    "example": "Time pressure is one factor in exam performance.",
+    "difficulty": "medium",
+    "choices": [
+      "result",
+      "influence",
+      "device",
+      "punishment"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v9",
+    "word": "justify",
+    "definition": "to provide a good reason",
+    "example": "Your choice should be easy to justify from the sentence.",
+    "difficulty": "hard",
+    "choices": [
+      "forget",
+      "explain",
+      "observe",
+      "delay"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v10",
+    "word": "maintain",
+    "definition": "to keep at the same level",
+    "example": "Try to maintain your reading speed under pressure.",
+    "difficulty": "medium",
+    "choices": [
+      "keep",
+      "reject",
+      "invite",
+      "decorate"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v11",
+    "word": "precise",
+    "definition": "exact and clear",
+    "example": "A precise question is easier to answer.",
+    "difficulty": "medium",
+    "choices": [
+      "exact",
+      "decorative",
+      "temporary",
+      "vague"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v12",
+    "word": "reliable",
+    "definition": "able to be trusted",
+    "example": "Use reliable clues, not random guesses.",
+    "difficulty": "medium",
+    "choices": [
+      "trustworthy",
+      "expensive",
+      "narrow",
+      "fragile"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v13",
+    "word": "significant",
+    "definition": "important or large enough to matter",
+    "example": "Vocabulary has a significant effect on Amirnet results.",
+    "difficulty": "hard",
+    "choices": [
+      "minor",
+      "important",
+      "hidden",
+      "temporary"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v14",
+    "word": "strategy",
+    "definition": "a plan for reaching a goal",
+    "example": "Good elimination is a useful test strategy.",
+    "difficulty": "easy",
+    "choices": [
+      "plan",
+      "mistake",
+      "resource",
+      "warning"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v15",
+    "word": "sufficient",
+    "definition": "enough for a purpose",
+    "example": "One clue is not always sufficient to choose correctly.",
+    "difficulty": "hard",
+    "choices": [
+      "enough",
+      "dangerous",
+      "temporary",
+      "mysterious"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v16",
+    "word": "sustain",
+    "definition": "to continue over time",
+    "example": "It is easier to sustain focus in short blocks.",
+    "difficulty": "hard",
+    "choices": [
+      "continue",
+      "interrupt",
+      "invent",
+      "refuse"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v17",
+    "word": "temporary",
+    "definition": "lasting for a limited time",
+    "example": "Stress before the test is often temporary.",
+    "difficulty": "easy",
+    "choices": [
+      "brief",
+      "permanent",
+      "useful",
+      "social"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v18",
+    "word": "vague",
+    "definition": "not clear enough",
+    "example": "Eliminate vague choices that do not fit the sentence.",
+    "difficulty": "medium",
+    "choices": [
+      "unclear",
+      "exact",
+      "careful",
+      "expensive"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v19",
+    "word": "valid",
+    "definition": "logically acceptable or well founded",
+    "example": "The best answer must be valid in context.",
+    "difficulty": "medium",
+    "choices": [
+      "acceptable",
+      "rare",
+      "silent",
+      "careless"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v20",
+    "word": "withstand",
+    "definition": "to remain strong under pressure",
+    "example": "The best strategy must withstand time pressure.",
+    "difficulty": "hard",
+    "choices": [
+      "collapse under",
+      "endure",
+      "announce",
+      "copy"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "v21",
+    "word": "substantial",
+    "definition": "significant in amount or importance",
+    "example": "The research required a substantial amount of funding.",
+    "difficulty": "hard",
+    "choices": [
+      "significant",
+      "temporary",
+      "hidden",
+      "minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v22",
+    "word": "inevitable",
+    "definition": "certain to happen and unavoidable",
+    "example": "Given the circumstances, a delay was inevitable.",
+    "difficulty": "hard",
+    "choices": [
+      "unavoidable",
+      "unusual",
+      "dangerous",
+      "optional"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v23",
+    "word": "coherent",
+    "definition": "logical and well organised",
+    "example": "Her explanation was coherent and easy to follow.",
+    "difficulty": "hard",
+    "choices": [
+      "logical",
+      "uncertain",
+      "brief",
+      "hostile"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v24",
+    "word": "plausible",
+    "definition": "seeming reasonable or likely to be true",
+    "example": "The scientist offered a plausible explanation for the unusual results.",
+    "difficulty": "hard",
+    "choices": [
+      "convincing",
+      "careless",
+      "irrelevant",
+      "fragile"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v25",
+    "word": "constraint",
+    "definition": "a limitation or restriction",
+    "example": "Budget constraints forced the team to delay the project.",
+    "difficulty": "hard",
+    "choices": [
+      "restriction",
+      "advantage",
+      "reward",
+      "prediction"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v26",
+    "word": "derive",
+    "definition": "to obtain or develop from a source",
+    "example": "Many medicines derive from compounds found in plants.",
+    "difficulty": "hard",
+    "choices": [
+      "obtain",
+      "refuse",
+      "delay",
+      "forget"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v27",
+    "word": "mitigate",
+    "definition": "to make something less severe",
+    "example": "New safety measures were introduced to mitigate the risks.",
+    "difficulty": "hard",
+    "choices": [
+      "reduce",
+      "predict",
+      "announce",
+      "observe"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v28",
+    "word": "rigorous",
+    "definition": "very thorough and careful",
+    "example": "The results were accepted only after a rigorous review process.",
+    "difficulty": "hard",
+    "choices": [
+      "thorough",
+      "casual",
+      "silent",
+      "brief"
+    ],
+    "answer": 0
+  }
+]

@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-dt-101",
+    "difficulty": "easy",
+    "text": "She ________ to finish the report before the deadline.\nWhich verb form correctly completes the sentence?",
+    "choices": [
+      "managed",
+      "succeed",
+      "was able",
+      "could to"
+    ],
+    "answer": 0,
+    "explanation": "'Managed' (managed to + infinitive) is the correct form expressing success at completing something. It fits naturally and grammatically.",
+    "wrongReasons": [
+      "'Succeed' is the main trap because students recognize it as a word meaning success, but 'succeed' requires the preposition 'in' followed by a gerund — 'succeeded in finishing' — not a bare verb.",
+      "'Was able' is incomplete — 'was able to finish' requires 'to' after it, making 'was able' alone grammatically broken in this slot.",
+      "'Could to' is the main grammar trap for L2 speakers — 'could' is a modal verb and is NEVER followed by 'to'; it takes a bare infinitive."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "critical-thinking", "exam-strategy"],
+    "vocabularyWords": ["managed", "succeed"],
+    "hebrewExplanation": "מלכודת עיקרית: 'succeed' נראה נכון כי המשמעות היא הצלחה. הבעיה: 'succeed' דורש 'in' ואחריו גרונד — 'succeeded in finishing'. התשובה הנכונה: 'managed' (managed to + infinitive) היא הצורה הנכונה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-102",
+    "difficulty": "easy",
+    "text": "The medicine had a strong ________ on the patient's recovery.\nWhich word correctly fills the blank?",
+    "choices": [
+      "affect",
+      "effect",
+      "impact on",
+      "effecting"
+    ],
+    "answer": 1,
+    "explanation": "'Effect' is the noun form meaning result or impact. 'The medicine had a strong effect on recovery' is grammatically correct — 'effect' follows the article 'a' as a noun.",
+    "wrongReasons": [
+      "'Affect' is the main trap because it sounds nearly identical to 'effect' and both relate to the concept of influence — but 'affect' is a VERB (to affect), while this sentence needs a NOUN after the article 'a'.",
+      "'Impact on' creates a double preposition problem — 'had a strong impact on on the patient' is redundant since 'on' is already in the sentence.",
+      "'Effecting' is a gerund/participle form that doesn't fit grammatically after 'a strong' — the sentence needs a simple noun, not a verb form."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "word-form", "affect-effect"],
+    "vocabularyWords": ["affect", "effect"],
+    "hebrewExplanation": "מלכודת עיקרית: 'affect' נראה נכון כי הוא נשמע כמעט זהה ל-'effect'. הבעיה: 'affect' הוא פועל ואילו כאן נדרש שם עצם אחרי 'a strong'. התשובה הנכונה: 'effect' הוא שם העצם הנכון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-103",
+    "difficulty": "easy",
+    "text": "The prices ________ sharply after the new policy was introduced.\nWhich verb correctly completes the sentence?",
+    "choices": [
+      "raised",
+      "arose",
+      "rose",
+      "were risen"
+    ],
+    "answer": 2,
+    "explanation": "'Rose' is the simple past of 'rise' — an intransitive verb meaning to go up on its own. Prices rise; they do not 'raise' themselves (raise is transitive and needs an object).",
+    "wrongReasons": [
+      "'Raised' is the main trap because it sounds authoritative and students confuse 'raise' (transitive — you raise something) with 'rise' (intransitive — prices rise by themselves). 'Prices raised' is grammatically incorrect without an object.",
+      "'Arose' is the past tense of 'arise,' which means to come up or originate — used for problems or situations, not prices moving upward numerically.",
+      "'Were risen' is a passive construction, but 'rise' is intransitive and cannot be used in the passive voice — 'risen' can only appear as a past participle in active perfect tenses."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "word-form", "rise-raise"],
+    "vocabularyWords": ["rise", "raise", "arose"],
+    "hebrewExplanation": "מלכודת עיקרית: 'raised' נראה נכון כי הוא עבר של פועל קשור לעלייה. הבעיה: 'raise' הוא פועל עובר הדורש מושא — 'you raise prices'. 'Rise' הוא פועל עצמאי — 'prices rise'. התשובה הנכונה: 'rose' (עבר של rise).",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-dt-104",
+    "difficulty": "easy",
+    "text": "The report was written; ________, it contained several errors.\nWhich connector correctly completes the sentence?",
+    "choices": [
+      "therefore",
+      "furthermore",
+      "nevertheless",
+      "consequently"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' signals contrast — the report was written (positive), but it contained errors (negative). This contrast connector is the only logical choice.",
+    "wrongReasons": [
+      "'Therefore' is the main trap because students often default to cause-effect connectors, but this sentence shows CONTRAST, not a result. Using 'therefore' would illogically say errors resulted FROM the report being written.",
+      "'Furthermore' adds information in the same direction — it would mean errors are an additional positive point, which contradicts the logic of the sentence.",
+      "'Consequently' signals a result or consequence, which has the same problem as 'therefore' — it implies errors are a logical result of being written, not a contrasting fact."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "connectors", "contrast"],
+    "vocabularyWords": ["nevertheless", "consequently", "furthermore"],
+    "hebrewExplanation": "מלכודת עיקרית: 'therefore' נראה נכון כי הוא מחבר שכיח. הבעיה: המשפט מציג ניגוד, לא תוצאה. התשובה הנכונה: 'nevertheless' מביע ניגוד — למרות שהדוח נכתב, הכיל שגיאות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-105",
+    "difficulty": "easy",
+    "text": "Each of the students ________ required to submit a final project.\nWhich verb form is grammatically correct?",
+    "choices": [
+      "are",
+      "were",
+      "is",
+      "have been"
+    ],
+    "answer": 2,
+    "explanation": "'Is' is correct because 'each' is a singular indefinite pronoun — it always takes a singular verb regardless of the noun that follows. 'Each of the students IS' is the grammatically required form.",
+    "wrongReasons": [
+      "'Are' is the main trap because students focus on 'students' (plural) and apply plural verb agreement, ignoring that 'each' is the true grammatical subject and is always singular.",
+      "'Were' is the past plural form — it fails on two counts: it is plural (same problem as 'are') and shifts the tense unnecessarily to past when the sentence context implies present obligation.",
+      "'Have been' is a present perfect plural form — it incorrectly uses plural agreement and introduces a tense shift that is not supported by the sentence context."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "grammar", "subject-verb-agreement"],
+    "vocabularyWords": ["each"],
+    "hebrewExplanation": "מלכודת עיקרית: 'are' נראה נכון כי 'students' הוא רבים. הבעיה: הנושא האמיתי הוא 'each' שהוא תמיד יחיד. התשובה הנכונה: 'is' — each of the students IS.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-dt-106",
+    "difficulty": "medium",
+    "text": "The scientist's findings ________ the existing theory by showing the opposite result.\nWhich verb best fits the meaning?",
+    "choices": [
+      "confirmed",
+      "supported",
+      "contradicted",
+      "complemented"
+    ],
+    "answer": 2,
+    "explanation": "'Contradicted' means showed the opposite — the findings proved the opposite of what the existing theory claimed. This matches 'showing the opposite result' exactly.",
+    "wrongReasons": [
+      "'Confirmed' is the main trap because it is the most natural collocation with 'findings' — students often write 'findings confirmed' without checking the logical content. Here the findings show the OPPOSITE, so confirming is logically impossible.",
+      "'Supported' has the same logical problem as 'confirmed' — it implies the findings agreed with the theory, directly contradicting 'opposite result' in the sentence.",
+      "'Complemented' means added something that enhances or completes — it implies harmony, not opposition, and does not match 'opposite result' at all."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "reversal-trap"],
+    "vocabularyWords": ["contradicted", "complemented", "confirmed"],
+    "hebrewExplanation": "מלכודת עיקרית: 'confirmed' נראה נכון כי 'findings confirmed' הוא צירוף שכיח. הבעיה: התוצאות מראות את ההפך — לכן לא יתכן אישור. התשובה הנכונה: 'contradicted' — הממצאים סתרו את התיאוריה.",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-107",
+    "difficulty": "medium",
+    "text": "He ________ on the couch for two hours before anyone noticed he was missing.\nWhich verb is correct?",
+    "choices": [
+      "laid",
+      "lied",
+      "lay",
+      "was laying"
+    ],
+    "answer": 2,
+    "explanation": "'Lay' is the simple past of 'lie' (to recline). A person lies down; the past tense is 'lay.' He lay on the couch — intransitive, no object needed.",
+    "wrongReasons": [
+      "'Laid' is the main trap — it is the past tense of 'lay' (the transitive verb meaning to place something), but this sentence has no object. You LAID something, but you LAY (past of lie) on the couch. Students confuse the two because 'laid' sounds more natural to non-native speakers.",
+      "'Lied' is the past tense of 'lie' meaning to tell an untruth — a completely different verb. It has nothing to do with reclining or physical position.",
+      "'Was laying' is a progressive form of the transitive 'lay' — it requires an object ('was laying eggs,' 'was laying bricks'). Without an object, it is grammatically incomplete."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "word-form", "lay-lie"],
+    "vocabularyWords": ["lay", "lie", "laid"],
+    "hebrewExplanation": "מלכודת עיקרית: 'laid' נראה נכון כי הוא עבר נפוץ. הבעיה: 'laid' הוא עבר של 'lay' העובר (להניח משהו), אך כאן אין מושא. 'Lie' (לשכב) בעבר הוא 'lay'. התשובה הנכונה: 'lay' — he lay on the couch.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-108",
+    "difficulty": "medium",
+    "text": "The new policy will ________ all employees, regardless of their department.\nWhich word best completes the sentence?",
+    "choices": [
+      "effect",
+      "affect",
+      "impact",
+      "influence on"
+    ],
+    "answer": 1,
+    "explanation": "'Affect' is the verb meaning to have an impact on or to influence. 'The policy will affect all employees' is correct — 'affect' (verb) is needed here, not 'effect' (noun).",
+    "wrongReasons": [
+      "'Effect' is the main trap because it appears in the same context and sounds identical in speech. However, 'effect' is typically a NOUN. 'To effect' can be a formal verb meaning 'to bring about,' but it would require an object like 'to effect change' — 'effect all employees' is not idiomatic.",
+      "'Impact' can function as a verb but is generally considered less formal and often criticized in academic writing; more importantly, it is incorrect here because 'impact on' is the standard collocation, not 'impact' alone as a transitive verb in formal contexts.",
+      "'Influence on' is a noun phrase — 'to influence' (verb) would be correct, but 'influence on' creates an awkward construction: 'will influence on all employees' is not grammatically correct."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "word-form", "affect-effect"],
+    "vocabularyWords": ["affect", "effect", "influence"],
+    "hebrewExplanation": "מלכודת עיקרית: 'effect' נראה נכון כי הוא נשמע זהה ל-'affect'. הבעיה: כאן נדרש פועל, ו-'effect' הוא בדרך כלל שם עצם. התשובה הנכונה: 'affect' הוא הפועל הנכון.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-dt-109",
+    "difficulty": "medium",
+    "text": "Despite practicing for months, the athlete's performance ________ during the championship.\nWhich word logically fits?",
+    "choices": [
+      "improved",
+      "excelled",
+      "deteriorated",
+      "progressed"
+    ],
+    "answer": 2,
+    "explanation": "'Deteriorated' (got worse) is the only word that logically fits after 'despite practicing.' The word 'despite' signals that something unexpected happened — practice did not help, performance got worse.",
+    "wrongReasons": [
+      "'Improved' is the main trap because improvement after practice is the expected, logical outcome. Students often miss the word 'despite' and pick the answer that describes what SHOULD happen, not what the sentence actually says. 'Despite' signals the opposite.",
+      "'Excelled' has the same logical problem as 'improved' — it describes exceptional performance, which would be EXPECTED after months of practice, contradicting the contrast signal 'despite.'",
+      "'Progressed' similarly implies positive development — it cannot logically follow 'despite practicing' without the sentence meaning that progress is a surprising or unfortunate outcome."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "reversal-trap", "connectors"],
+    "vocabularyWords": ["deteriorated", "excelled", "progressed"],
+    "hebrewExplanation": "מלכודת עיקרית: 'improved' נראה נכון כי שיפור הוא תוצאה צפויה של אימונים. הבעיה: המילה 'despite' מסמנת ניגוד — משהו בלתי צפוי קרה. התשובה הנכונה: 'deteriorated' — הביצועים הידרדרו למרות האימון.",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-110",
+    "difficulty": "medium",
+    "text": "The committee decided to ________ the decision until more data was available.\nWhich verb best fits?",
+    "choices": [
+      "delay",
+      "postpone",
+      "defer",
+      "cancel"
+    ],
+    "answer": 2,
+    "explanation": "'Defer' specifically means to postpone a decision to a later time, especially in formal or official contexts. It is the most precise fit for decision-making language in committee settings.",
+    "wrongReasons": [
+      "'Postpone' is the main trap — it is nearly synonymous with 'defer,' and both mean 'to delay.' However, 'postpone' is more commonly used for events and meetings (postpone a meeting), while 'defer' is the standard formal term specifically for deferring decisions. The context (committee, decision) makes 'defer' the precise choice.",
+      "'Delay' is more general — it refers to making something take longer than expected, often involuntarily. 'Defer a decision' is an active, deliberate formal act; 'delay' does not carry this precision.",
+      "'Cancel' means to call off entirely rather than postpone — the committee still plans to decide, just later; 'cancel' would mean they are abandoning the decision altogether."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["defer", "postpone", "delay"],
+    "hebrewExplanation": "מלכודת עיקרית: 'postpone' נראה נכון כי משמעותו דחייה, בדיוק כמו 'defer'. הבעיה: 'defer' הוא המינוח הרשמי הספציפי לדחיית החלטות בהקשר של ועדות. התשובה הנכונה: 'defer' — to defer a decision.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-111",
+    "difficulty": "medium",
+    "text": "The professor's explanation was so ________ that even the advanced students found it hard to follow.\nWhich adjective is correct?",
+    "choices": [
+      "complex",
+      "complicated",
+      "sophisticated",
+      "intricate"
+    ],
+    "answer": 1,
+    "explanation": "'Complicated' implies something that is unnecessarily difficult to understand — often with a negative connotation, suggesting poor explanation. This fits 'hard to follow' for even advanced students.",
+    "wrongReasons": [
+      "'Complex' is the main trap because it is similar in meaning, but 'complex' is often neutral or even positive — describing something with many interrelated parts. 'Complex' does not imply the professor's explanation was poorly constructed. 'Complicated' carries the additional nuance of being unnecessarily or frustratingly difficult.",
+      "'Sophisticated' actually implies high quality and refinement — a sophisticated explanation is typically admirable, not something that makes students struggle. Using it here would be a logical mismatch.",
+      "'Intricate' describes something with fine detailed complexity — it is neutral-to-positive and is more commonly used for systems, patterns, or designs, not for verbal explanations."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["complicated", "complex", "sophisticated", "intricate"],
+    "hebrewExplanation": "מלכודת עיקרית: 'complex' נראה נכון כי הוא מילה שכיחה לתיאור קושי. הבעיה: 'complex' הוא ניטרלי ואפילו חיובי לעתים, בעוד 'complicated' מרמז על קושי מיותר ומתסכל. התשובה הנכונה: 'complicated' — קשה לעקוב.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-112",
+    "difficulty": "medium",
+    "text": "The government's new tax plan will ________ citizens who earn less than a certain income threshold.\nWhich word correctly fills the blank?",
+    "choices": [
+      "exempt",
+      "exclude",
+      "excuse",
+      "exonerate"
+    ],
+    "answer": 0,
+    "explanation": "'Exempt' means to officially free someone from a rule, tax, or duty. 'Exempt citizens from the tax' is the standard legal and formal usage for tax policy.",
+    "wrongReasons": [
+      "'Exclude' is the main trap because students think 'exclude' and 'exempt' both mean 'leave out.' However, 'exclude' means to keep out of a group or activity — it does not carry the formal legal meaning of releasing from an obligation. You exempt someone from a tax; you exclude someone from a meeting.",
+      "'Excuse' is used for pardoning behavior or releasing someone from blame, not for formal legal or financial exemptions. 'Excuse citizens from paying tax' sounds informal and is not standard policy language.",
+      "'Exonerate' specifically means to officially clear someone of blame or a criminal charge — it is a legal term related to guilt, not financial obligation, and is completely inappropriate in a tax context."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "near-synonym"],
+    "vocabularyWords": ["exempt", "exclude", "exonerate"],
+    "hebrewExplanation": "מלכודת עיקרית: 'exclude' נראה נכון כי משמעותו 'להוציא' — בדומה ל-'exempt'. הבעיה: 'exclude' הוא הוצאה מקבוצה, בעוד 'exempt' הוא פטור רשמי מחובה. התשובה הנכונה: 'exempt' — לפטור אזרחים ממס.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-113",
+    "difficulty": "medium",
+    "text": "The researchers found that the new drug ________ the symptoms but did not cure the disease.\nWhat is the correct word?",
+    "choices": [
+      "relieved",
+      "cured",
+      "eliminated",
+      "resolved"
+    ],
+    "answer": 0,
+    "explanation": "'Relieved' means reduced or eased symptoms without curing the underlying disease. This matches the sentence exactly — partial improvement, not complete cure.",
+    "wrongReasons": [
+      "'Cured' is the main trap because students read 'drug' and automatically associate it with 'cured.' But the sentence explicitly says 'did not cure' — choosing 'cured' would directly contradict the second clause of the sentence.",
+      "'Eliminated' implies complete removal — if symptoms were eliminated, that would be a near-cure. The sentence says the drug helped symptoms but did NOT cure, implying reduction not elimination.",
+      "'Resolved' means completely solved — like 'eliminated,' it implies total removal of the problem, contradicting the 'did not cure' clause that suggests the disease persists."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "partial-truth"],
+    "vocabularyWords": ["relieved", "eliminated", "resolved"],
+    "hebrewExplanation": "מלכודת עיקרית: 'cured' נראה נכון כי זה מה שתרופות עושות. הבעיה: המשפט אומר במפורש 'did not cure' — לכן 'cured' סותר את המשפט. התשובה הנכונה: 'relieved' — הקל על הסימפטומים אך לא ריפא.",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-114",
+    "difficulty": "medium",
+    "text": "The manager ________ the team's success to their hard work and dedication.\nWhich verb is correct?",
+    "choices": [
+      "attributed",
+      "contributed",
+      "accredited",
+      "assigned"
+    ],
+    "answer": 0,
+    "explanation": "'Attributed' means to credit or assign a cause to something. 'Attributed the success to hard work' is the standard English expression for identifying a cause or reason.",
+    "wrongReasons": [
+      "'Contributed' is the main trap — students confuse 'attribute to' and 'contribute to' because both use 'to.' However, 'contribute' means to give or add something, not to assign a cause. 'Contributed the success to hard work' is grammatically incorrect.",
+      "'Accredited' means to officially recognize or certify (as in an accredited institution). It is not used to assign credit for success. This is a vocabulary register trap.",
+      "'Assigned' means to give someone a task or responsibility — you assign work to people, not causes to results. 'Assigned the success to hard work' is not a natural English expression."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "near-synonym"],
+    "vocabularyWords": ["attributed", "contributed", "accredited"],
+    "hebrewExplanation": "מלכודת עיקרית: 'contributed' נראה נכון כי גם הוא מגיע עם 'to'. הבעיה: 'contribute' אומר לתרום משהו, לא לייחס סיבה. התשובה הנכונה: 'attributed' — ייחס את ההצלחה לעבודה קשה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-115",
+    "difficulty": "medium",
+    "text": "Neither the students nor the teacher ________ aware of the schedule change.\nWhich verb form is grammatically correct?",
+    "choices": [
+      "were",
+      "are",
+      "was",
+      "have been"
+    ],
+    "answer": 2,
+    "explanation": "With 'neither...nor,' the verb agrees with the subject closest to it (the teacher). 'Teacher' is singular, so 'was' is correct. This is the proximity rule for correlative conjunctions.",
+    "wrongReasons": [
+      "'Were' is the main trap because there are two subjects mentioned (students + teacher) and students naturally apply plural agreement. However, 'neither...nor' follows the proximity rule — the verb agrees with the nearest subject ('teacher'), which is singular.",
+      "'Are' is present tense — the sentence uses 'aware' in a context that can be either, but 'are' is plural (same problem as 'were') and doesn't follow the proximity rule.",
+      "'Have been' is present perfect plural — it fails on both the tense appropriateness and the plural agreement, violating the proximity rule for 'neither...nor.'"
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "grammar", "subject-verb-agreement"],
+    "vocabularyWords": ["neither", "nor"],
+    "hebrewExplanation": "מלכודת עיקרית: 'were' נראה נכון כי יש שני נושאים. הבעיה: עם 'neither...nor' הפועל מסכים עם הנושא הקרוב ביותר — 'teacher' (יחיד). התשובה הנכונה: 'was'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-116",
+    "difficulty": "medium",
+    "text": "The author's argument is persuasive ________ it relies too heavily on anecdotal evidence.\nWhich connector is logically correct?",
+    "choices": [
+      "and",
+      "because",
+      "although",
+      "therefore"
+    ],
+    "answer": 2,
+    "explanation": "'Although' introduces a concession — the argument is persuasive, BUT it has a flaw (overreliance on anecdotes). This contrast relationship requires a concessive connector.",
+    "wrongReasons": [
+      "'Therefore' is the main trap — it implies the argument is persuasive AS A RESULT of relying on anecdotal evidence. This reverses the logic: a flaw in evidence cannot make an argument more persuasive.",
+      "'And' simply adds information without showing any logical relationship — 'persuasive and it relies too heavily' does not convey the contrast or evaluation in the sentence.",
+      "'Because' creates a causal relationship, implying persuasiveness is caused by heavy reliance on anecdotes — this is logically backwards. Weak evidence undermines, not supports, persuasiveness."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "connectors", "reversal-trap"],
+    "vocabularyWords": ["although", "anecdotal", "persuasive"],
+    "hebrewExplanation": "מלכודת עיקרית: 'therefore' נראה נכון כי הוא מחבר שכיח ומוכר. הבעיה: 'therefore' מרמז שהסתמכות על עדויות אנקדוטליות גרמה לטיעון להיות משכנע — ההיפך ממה שהגיוני. התשובה הנכונה: 'although' — הטיעון משכנע אף על פי שיש בו פגם.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-117",
+    "difficulty": "medium",
+    "text": "The CEO ________ the importance of teamwork at every company meeting.\nWhich verb is most precise?",
+    "choices": [
+      "told",
+      "said",
+      "emphasized",
+      "spoke"
+    ],
+    "answer": 2,
+    "explanation": "'Emphasized' means to stress something as particularly important — it captures both the action (speaking) and the intention (highlighting importance). The sentence is about the importance of teamwork being stressed, not just mentioned.",
+    "wrongReasons": [
+      "'Said' is the main trap because it is the most common reporting verb and students default to it automatically. However, 'said' is neutral — it only reports speech. The sentence specifically highlights that importance was communicated, making 'emphasized' (stressed the importance) far more precise.",
+      "'Told' requires a person as its indirect object — 'told the importance' is not correct English. You 'tell someone something,' not 'tell the importance.'",
+      "'Spoke' is intransitive and does not take a direct object — 'spoke the importance' is not grammatical. You speak about something or speak to someone."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "near-synonym"],
+    "vocabularyWords": ["emphasized", "told", "spoke"],
+    "hebrewExplanation": "מלכודת עיקרית: 'said' נראה נכון כי הוא פועל הדיווח הנפוץ ביותר. הבעיה: 'said' הוא ניטרלי ולא מבטא הדגשה. התשובה הנכונה: 'emphasized' — הדגיש את חשיבות העבודה הצוותית.",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-118",
+    "difficulty": "medium",
+    "text": "The study ________ that sleep deprivation negatively affects academic performance.\nWhich verb best fills the blank?",
+    "choices": [
+      "told",
+      "showed",
+      "spoke",
+      "expressed"
+    ],
+    "answer": 1,
+    "explanation": "'Showed' is the correct verb for research findings — studies show, demonstrate, reveal, or indicate results. 'The study showed that...' is standard academic reporting language.",
+    "wrongReasons": [
+      "'Told' is the main trap because students translate from their native language where 'the study said/told' is acceptable. In English, studies and reports SHOW or DEMONSTRATE findings — they do not 'tell' because 'tell' requires a human or conscious communicator and an indirect object.",
+      "'Spoke' requires a preposition ('spoke about') and cannot take a 'that-clause' directly — 'the study spoke that...' is grammatically incorrect in standard English.",
+      "'Expressed' is typically used for emotions or opinions by people — 'the study expressed that...' sounds odd because studies are not emotional agents. Academic writing uses 'showed,' 'revealed,' 'indicated,' or 'demonstrated.'"
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "academic-writing"],
+    "vocabularyWords": ["showed", "demonstrated", "expressed"],
+    "hebrewExplanation": "מלכודת עיקרית: 'told' נראה נכון כי בעברית אומרים 'המחקר אמר'. הבעיה: באנגלית מחקרים 'show/demonstrate' — לא 'tell'. התשובה הנכונה: 'showed' — the study showed that...",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-119",
+    "difficulty": "medium",
+    "text": "By the time the ambulance arrived, the patient ________ consciousness.\nWhich tense is grammatically required?",
+    "choices": [
+      "lost",
+      "has lost",
+      "had lost",
+      "was losing"
+    ],
+    "answer": 2,
+    "explanation": "'Had lost' (past perfect) is required because the sequence of events must be shown: losing consciousness happened BEFORE the ambulance arrived. Past perfect marks the earlier event in a past-time sequence.",
+    "wrongReasons": [
+      "'Lost' is the main trap — it is simple past and the most natural-sounding choice. Students who don't notice 'by the time' (which requires past perfect for a sequence of past events) will pick this. But 'by the time...arrived' signals that one past event preceded another.",
+      "'Has lost' is present perfect — it cannot be used for events that were both completed in the past before another past event. Present perfect refers to events with relevance to the present, not to past-before-past sequences.",
+      "'Was losing' is past progressive — it describes an action in progress at a moment in past time. It would imply the patient was in the process of losing consciousness exactly when the ambulance arrived, not that consciousness was already gone."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "grammar", "tense"],
+    "vocabularyWords": ["consciousness", "past perfect"],
+    "hebrewExplanation": "מלכודת עיקרית: 'lost' נראה נכון כי הוא עבר פשוט ונשמע טבעי. הבעיה: 'by the time...arrived' מסמן שפעולה אחת קרתה לפני פעולה אחרת בעבר — דורש past perfect. התשובה הנכונה: 'had lost'.",
+    "estimatedTimeSeconds": 48
+  },
+  {
+    "id": "sb-dt-120",
+    "difficulty": "medium",
+    "text": "The organization aims to ________ poverty in rural communities by 2030.\nWhich word is most appropriate?",
+    "choices": [
+      "reduce",
+      "eradicate",
+      "minimize",
+      "decrease"
+    ],
+    "answer": 1,
+    "explanation": "'Eradicate' means to completely eliminate — it is the strongest and most formal term, appropriate for ambitious policy goals like poverty elimination by a set date. It implies total removal.",
+    "wrongReasons": [
+      "'Reduce' is the main trap — it is very commonly used with poverty ('reduce poverty') and sounds natural. However, 'reduce' only implies partial improvement, not total elimination. An organization with a 2030 deadline typically aims for complete eradication, and the formal register of the sentence supports the stronger term.",
+      "'Minimize' means to reduce to the smallest possible amount — it implies the problem will always remain to some degree. An 'aim to minimize' is a weaker, more cautious goal than 'eradicate.'",
+      "'Decrease' is the most informal and least precise of the options — it is synonymous with 'reduce' and similarly implies only partial improvement, not the complete elimination implied by the ambitious 2030 goal."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "scope-trap"],
+    "vocabularyWords": ["eradicate", "minimize", "reduce"],
+    "hebrewExplanation": "מלכודת עיקרית: 'reduce' נראה נכון כי הוא הביטוי הנפוץ 'reduce poverty'. הבעיה: 'reduce' הוא שיפור חלקי. ההקשר של יעד שאפתני ב-2030 מצריך מילה חזקה יותר. התשובה הנכונה: 'eradicate' — לעקור את העוני לחלוטין.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-121",
+    "difficulty": "medium",
+    "text": "The politician's speech was impressive; ________, many voters remained unconvinced.\nWhich connector is logically correct?",
+    "choices": [
+      "consequently",
+      "furthermore",
+      "nevertheless",
+      "similarly"
+    ],
+    "answer": 2,
+    "explanation": "'Nevertheless' shows contrast — the speech was impressive (positive), yet voters were unconvinced (negative result). This concessive connector bridges the two contradictory ideas.",
+    "wrongReasons": [
+      "'Consequently' is the main trap because students see a two-part sentence and assume the second clause is a result. Here, 'unconvinced voters' is NOT a logical consequence of an 'impressive speech' — it is the opposite of what would be expected. 'Consequently' would imply voters were unconvinced BECAUSE of the impressive speech.",
+      "'Furthermore' adds information in the same direction — both clauses would need to be positive (or both negative) for 'furthermore' to work. A positive clause followed by a negative clause requires a contrast connector.",
+      "'Similarly' draws a comparison between two parallel things — there is no comparison being made here, and the two clauses are not parallel; they are contradictory."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "connectors", "contrast"],
+    "vocabularyWords": ["nevertheless", "consequently", "furthermore"],
+    "hebrewExplanation": "מלכודת עיקרית: 'consequently' נראה נכון כי המשפט הוא דו-חלקי ו-'consequently' מחבר בין משפטים. הבעיה: 'consequently' מרמז על תוצאה לוגית, אך מצביעים לא משוכנעים הוא ההפך ממה שצפוי. התשובה הנכונה: 'nevertheless'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-122",
+    "difficulty": "medium",
+    "text": "The book ________ a detailed account of events that took place during the revolution.\nWhich verb is most appropriate?",
+    "choices": [
+      "tells",
+      "says",
+      "provides",
+      "informs"
+    ],
+    "answer": 2,
+    "explanation": "'Provides' is the most precise word — the book provides a detailed account. Books provide, offer, or give accounts, analyses, and descriptions. 'Provides' matches the noun 'account' perfectly.",
+    "wrongReasons": [
+      "'Tells' is the main trap — 'the book tells' is natural-sounding English ('the book tells us about'). However, 'tells a detailed account' is not grammatically correct; 'tell' requires an indirect object (tells someone) or 'tells about' — not 'tells an account.'",
+      "'Says' has the same collocation problem as 'tells' — 'says' takes a direct quote or a 'that-clause' ('says that...'), not a noun phrase like 'a detailed account.'",
+      "'Informs' requires an indirect object (informs someone of something) — 'the book informs a detailed account' is grammatically incorrect in standard English."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "collocation"],
+    "vocabularyWords": ["provides", "account", "informs"],
+    "hebrewExplanation": "מלכודת עיקרית: 'tells' נראה נכון כי 'the book tells' נשמע טבעי. הבעיה: 'tells a detailed account' לא נכון דקדוקית — 'tell' דורש מושא עקיף. התשובה הנכונה: 'provides' — the book provides a detailed account.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-123",
+    "difficulty": "medium",
+    "text": "The research ________ significant differences between the two groups.\nWhich verb is correct for academic writing?",
+    "choices": [
+      "found",
+      "discovered",
+      "invented",
+      "created"
+    ],
+    "answer": 0,
+    "explanation": "'Found' (past tense of find) is the standard academic verb for reporting research results — 'the research found that...' or 'the study found significant differences.' It is neutral, precise, and widely used in academic contexts.",
+    "wrongReasons": [
+      "'Discovered' is the main trap — students think 'discovered' and 'found' are completely interchangeable. However, 'discovered' implies revealing something previously completely unknown to science or humanity. Differences between groups in a study are typically 'found' (identified within the study), not 'discovered' (revealed to the world as a new fact).",
+      "'Invented' means to create something new — research cannot invent differences; it can only identify or fail to identify pre-existing differences.",
+      "'Created' implies actively making something — again, a study cannot create differences between groups; it can only reveal whether they exist."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "academic-writing"],
+    "vocabularyWords": ["found", "discovered", "significant"],
+    "hebrewExplanation": "מלכודת עיקרית: 'discovered' נראה נכון כי 'found' ו-'discovered' נראים זהים. הבעיה: 'discovered' מרמז על גילוי דבר חדש לאנושות, בעוד מחקר מזהה הבדלים בתוך הניסוי. התשובה הנכונה: 'found' — הנפוץ בכתיבה אקדמית.",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-124",
+    "difficulty": "medium",
+    "text": "After the company's failure, she felt ________ for having invested her savings in it.\nWhich adjective best fits?",
+    "choices": [
+      "sorry",
+      "regretful",
+      "apologetic",
+      "guilty"
+    ],
+    "answer": 1,
+    "explanation": "'Regretful' means feeling sad or disappointed about a past decision. 'She felt regretful for having invested' captures her personal sorrow over her own financial decision.",
+    "wrongReasons": [
+      "'Apologetic' is the main trap — 'sorry' and 'apologetic' seem interchangeable, but 'apologetic' means feeling or expressing apology to someone else who was wronged. The sentence is about her personal regret over her own decision, not about apologizing to another person.",
+      "'Sorry' (while sometimes used similarly to 'regretful') in formal writing refers to an apology expressed TO someone. Here there is no one to apologize to — she is reflecting on her own loss.",
+      "'Guilty' implies moral responsibility or having done something wrong. Making a bad investment is not a moral failure — it is an unfortunate decision. 'Guilty' adds a moral judgment that is not appropriate here."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["regretful", "apologetic", "guilty"],
+    "hebrewExplanation": "מלכודת עיקרית: 'apologetic' נראה נכון כי 'sorry' ו-'apologetic' נראים זהים. הבעיה: 'apologetic' הוא התנצלות כלפי מישהו אחר. כאן מדובר בחרטה אישית על החלטתה שלה. התשובה הנכונה: 'regretful'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-125",
+    "difficulty": "medium",
+    "text": "The two studies produced ________ results, making it difficult to draw a clear conclusion.\nWhich adjective is correct?",
+    "choices": [
+      "contradictory",
+      "contrary",
+      "controversial",
+      "conflicting"
+    ],
+    "answer": 3,
+    "explanation": "'Conflicting' specifically describes results or findings that are contradictory to each other — it is the standard academic term for results that cannot both be correct or that point in different directions.",
+    "wrongReasons": [
+      "'Contradictory' is the main trap — it is nearly synonymous with 'conflicting' and both mean opposing each other. However, 'conflicting results' is the fixed academic collocation. 'Contradictory results' is technically possible but less standard in research writing.",
+      "'Contrary' is typically used as a prepositional complement ('contrary to expectations') — as a standalone adjective before a noun, 'contrary results' sounds awkward and non-standard.",
+      "'Controversial' means causing public disagreement or debate — it describes something that people ARGUE about, not scientific results that are internally inconsistent or point in different directions."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "collocation"],
+    "vocabularyWords": ["conflicting", "contradictory", "controversial"],
+    "hebrewExplanation": "מלכודת עיקרית: 'contradictory' נראה נכון כי משמעותו כמעט זהה. הבעיה: 'conflicting results' הוא הצירוף האקדמי המקובל. התשובה הנכונה: 'conflicting' — conflicting results.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-126",
+    "difficulty": "medium",
+    "text": "The government ________ the new regulation despite strong public opposition.\nWhich verb is most appropriate?",
+    "choices": [
+      "implemented",
+      "obeyed",
+      "followed",
+      "respected"
+    ],
+    "answer": 0,
+    "explanation": "'Implemented' means to put a plan or policy into action. When a government enacts a regulation, it 'implements' it — this is the standard verb for government policy action.",
+    "wrongReasons": [
+      "'Obeyed' is the main trap — 'obeyed' means to comply with or follow a rule or authority. Governments do not obey regulations; they CREATE and IMPLEMENT them. Citizens or organizations obey regulations. This is a subject-action mismatch.",
+      "'Followed' has the same problem as 'obeyed' — it implies compliance, typically from a position of being governed. A government that creates and enacts a regulation does not 'follow' it.",
+      "'Respected' implies acknowledging authority or showing deference — again, this implies the government is subject to the regulation rather than the authority creating it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "collocation"],
+    "vocabularyWords": ["implemented", "regulation", "opposition"],
+    "hebrewExplanation": "מלכודת עיקרית: 'obeyed' נראה נכון כי הוא קשור לחוקים ותקנות. הבעיה: אזרחים מציתים לתקנות, אך ממשלות מיישמות אותן. התשובה הנכונה: 'implemented' — ביצעה/יישמה את התקנה.",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-127",
+    "difficulty": "medium",
+    "text": "The artist was known for her ________ use of color, which made her work immediately recognizable.\nWhich adjective is most precise?",
+    "choices": [
+      "unique",
+      "distinct",
+      "distinctive",
+      "original"
+    ],
+    "answer": 2,
+    "explanation": "'Distinctive' means characteristic and easily recognizable — it is the precise word for a style that makes work immediately identifiable. 'Her distinctive use of color' is the standard English expression for a recognizable artistic quality.",
+    "wrongReasons": [
+      "'Unique' is the main trap — 'unique' means one-of-a-kind, unlike anything else. While the artist's style may be unique, 'distinctive' more precisely captures 'immediately recognizable' — something that defines and identifies the work. 'Unique' describes singularity; 'distinctive' describes recognizability.",
+      "'Distinct' means clearly separate or different — it describes the difference between things, not the recognizable quality of a single style. 'A distinct use of color' implies her color use is different from others, but does not capture the 'immediately recognizable' quality.",
+      "'Original' means new or first — it emphasizes novelty and innovation, not recognizability. The sentence focuses on recognition, not on whether she was the first to use this color style."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["distinctive", "unique", "distinct", "original"],
+    "hebrewExplanation": "מלכודת עיקרית: 'unique' נראה נכון כי הוא מילה חזקה לתיאור סגנון. הבעיה: 'unique' = ייחודי/חד פעמי; 'distinctive' = מזוהה ומאפיין — וזה מה שהמשפט מתאר. התשובה הנכונה: 'distinctive'.",
+    "estimatedTimeSeconds": 48
+  },
+  {
+    "id": "sb-dt-128",
+    "difficulty": "medium",
+    "text": "The professor ________ students from using their phones during the exam.\nWhich verb is grammatically correct?",
+    "choices": [
+      "prohibited",
+      "forbade",
+      "prevented",
+      "restricted"
+    ],
+    "answer": 0,
+    "explanation": "'Prohibited' followed by 'from' + gerund is correct — 'prohibited students from using.' This is the standard formal construction for banning an activity in academic/institutional contexts.",
+    "wrongReasons": [
+      "'Forbade' is the main trap — 'forbade' is the past tense of 'forbid' and is nearly synonymous with 'prohibited.' However, 'forbade' typically uses an infinitive construction (forbade them TO use) or is followed by a gerund without 'from' in some styles. 'Forbade students from using' is less standard than 'prohibited students from using.'",
+      "'Prevented' means to stop something from happening — 'prevented students from using' is grammatically possible, but 'prevent' focuses on stopping an action that was about to occur, not on announcing a rule. A rule prohibits; 'prevent' implies physical or practical stopping.",
+      "'Restricted' means to limit rather than completely ban — 'restricted students from using' could mean partial limitation (e.g., only during certain parts), not the complete prohibition that an exam setting requires."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "grammar"],
+    "vocabularyWords": ["prohibited", "forbade", "restricted"],
+    "hebrewExplanation": "מלכודת עיקרית: 'forbade' נראה נכון כי הוא עבר של 'forbid' בעל משמעות זהה. הבעיה: 'forbade from using' פחות סטנדרטי מ-'prohibited from using' בהקשר פורמלי. התשובה הנכונה: 'prohibited'.",
+    "estimatedTimeSeconds": 48
+  },
+  {
+    "id": "sb-dt-129",
+    "difficulty": "medium",
+    "text": "The experiment's results were ________ — the same outcome appeared in every trial.\nWhich adjective best completes the sentence?",
+    "choices": [
+      "consistent",
+      "persistent",
+      "constant",
+      "continuous"
+    ],
+    "answer": 0,
+    "explanation": "'Consistent' means producing the same result across multiple instances — 'consistent results' is the exact academic term for reproducible findings across trials.",
+    "wrongReasons": [
+      "'Persistent' is the main trap — it sounds similar and both mean 'continuing.' However, 'persistent' describes something that continues over time despite obstacles (a persistent headache, persistent effort). It is not used for experimental results that are reproducible.",
+      "'Constant' means unchanging and uninterrupted — it can describe physical quantities (constant temperature) but not experimental results across trials. 'Constant results' is not a standard academic collocation.",
+      "'Continuous' means without interruption — it describes something that does not stop (continuous noise, continuous monitoring). It does not describe results that are reproducible across separate trials."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "academic-writing"],
+    "vocabularyWords": ["consistent", "persistent", "constant", "continuous"],
+    "hebrewExplanation": "מלכודת עיקרית: 'persistent' נראה נכון כי הוא מרמז על המשכיות. הבעיה: 'persistent' מתאר דבר שנמשך למרות מכשולים, לא תוצאות ניתנות לשחזור. התשובה הנכונה: 'consistent' — consistent results.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-130",
+    "difficulty": "medium",
+    "text": "The speaker's tone was ________ — she clearly wanted to motivate the audience rather than criticize them.\nWhich adjective is most precise?",
+    "choices": [
+      "positive",
+      "encouraging",
+      "cheerful",
+      "optimistic"
+    ],
+    "answer": 1,
+    "explanation": "'Encouraging' specifically means motivating or giving confidence to others — it precisely matches 'wanted to motivate the audience.' It describes the speaker's intention toward the audience.",
+    "wrongReasons": [
+      "'Positive' is the main trap — it is a broad, common adjective that students pick by default. However, 'positive' describes a general upbeat attitude, not specifically the act of motivating others. The sentence focuses on the speaker's intention to motivate, making 'encouraging' more precise.",
+      "'Cheerful' describes an emotional state of being happy or bright — it focuses on the speaker's mood, not on her communicative intention to motivate others.",
+      "'Optimistic' describes a belief that things will turn out well — it is about outlook and expectation, not about the communicative act of motivating an audience."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["encouraging", "positive", "optimistic", "cheerful"],
+    "hebrewExplanation": "מלכודת עיקרית: 'positive' נראה נכון כי הוא מילה שכיחה ורחבה. הבעיה: 'positive' הוא כללי; 'encouraging' ספציפי — פועל להניע אחרים. התשובה הנכונה: 'encouraging' — מעודד, מניע.",
+    "estimatedTimeSeconds": 42
+  },
+  {
+    "id": "sb-dt-131",
+    "difficulty": "hard",
+    "text": "The evidence presented in the study, while ________, does not warrant the sweeping conclusions the authors propose.\nWhich adverb-adjective combination is most precise?",
+    "choices": [
+      "largely inconclusive",
+      "highly suggestive",
+      "broadly comprehensive",
+      "entirely definitive"
+    ],
+    "answer": 1,
+    "explanation": "'Highly suggestive' means the evidence strongly implies something but does not prove it — this is the precise qualifier that explains why sweeping conclusions are unwarranted: the evidence points in a direction but cannot support definitive claims.",
+    "wrongReasons": [
+      "'Largely inconclusive' is the main trap — it sounds like a sophisticated academic qualifier. However, 'inconclusive' means the evidence does NOT point to any conclusion. If the evidence were inconclusive, no conclusions could even be attempted. The sentence implies the evidence does support SOME conclusions, just not sweeping ones.",
+      "'Broadly comprehensive' describes the scope of evidence coverage — it means the study covers many areas, which is actually a positive quality that would strengthen conclusions, not limit them.",
+      "'Entirely definitive' means completely certain — if evidence is entirely definitive, sweeping conclusions WOULD be warranted. This contradicts the second clause of the sentence entirely."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "scope-trap", "academic-writing"],
+    "vocabularyWords": ["suggestive", "inconclusive", "definitive", "warrant"],
+    "hebrewExplanation": "מלכודת עיקרית: 'largely inconclusive' נראה נכון כי הוא נשמע אקדמי ומתוחכם. הבעיה: 'inconclusive' = לא מצביע על מסקנה כלל — אך המשפט מרמז שהראיות כן מצביעות, רק לא מספיק לתוצאות גורפות. התשובה הנכונה: 'highly suggestive' — מצביע על כיוון מבלי להוכיח.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-132",
+    "difficulty": "hard",
+    "text": "The committee's decision to ________ the proposal was criticized as hasty, given that several key stakeholders had not yet been consulted.\nWhich verb best fits?",
+    "choices": [
+      "ratify",
+      "table",
+      "endorse",
+      "sanction"
+    ],
+    "answer": 0,
+    "explanation": "'Ratify' means to formally approve or confirm a decision — ratifying a proposal without consulting stakeholders would be criticized as hasty. The sentence requires a verb for formal approval.",
+    "wrongReasons": [
+      "'Table' is the main trap — in American English, 'to table' means to postpone or set aside a discussion. If the committee TABLED (postponed) the proposal, that would actually not be hasty at all — postponing until stakeholders are consulted is the cautious, reasonable action. Students who know British English (where 'table' means to bring forward for discussion) will choose it for a different reason, creating a double trap.",
+      "'Endorse' means to publicly support or approve — while similar to ratify, 'endorse' is less formal and is usually an expression of support rather than an official binding decision. The formal institutional context calls for 'ratify.'",
+      "'Sanction' has two opposite meanings (to approve OR to penalize) — this ambiguity makes it unsuitable for precise communication in this context."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "reversal-trap"],
+    "vocabularyWords": ["ratify", "table", "endorse", "sanction"],
+    "hebrewExplanation": "מלכודת עיקרית: 'table' נראה נכון לדוברי אנגלית בריטית (להעלות לדיון). הבעיה: באנגלית אמריקאית 'table' = לדחות לדיון — ואז הביקורת אינה הגיונית. התשובה הנכונה: 'ratify' — לאשר רשמית, מה שנחשב חפוז.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-133",
+    "difficulty": "hard",
+    "text": "The critic argued that the novel's ending, rather than resolving the central conflict, merely ________ it.\nWhich verb is most precise?",
+    "choices": [
+      "avoided",
+      "deferred",
+      "circumvented",
+      "obscured"
+    ],
+    "answer": 1,
+    "explanation": "'Deferred' means postponed or put off — the ending defers (delays/postpones) the conflict's resolution rather than resolving it. This is the precise literary criticism term for an ending that doesn't resolve but delays.",
+    "wrongReasons": [
+      "'Circumvented' is the main trap — students pick it because it sounds sophisticated and means 'went around.' However, 'circumvented' implies finding a clever workaround, suggesting agency and strategy. An ending cannot strategically circumvent a conflict the way a person avoids a problem. 'Deferred' is the precise literary/critical term.",
+      "'Avoided' is too simple and active — it implies the author deliberately steered away from the conflict. 'Deferred' has the academic nuance of delaying something that was supposed to happen.",
+      "'Obscured' means to make unclear or hard to see — if the conflict were obscured, readers couldn't understand it. The sentence implies they can see it but it isn't resolved, not that it is hidden."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "academic-writing"],
+    "vocabularyWords": ["deferred", "circumvented", "obscured"],
+    "hebrewExplanation": "מלכודת עיקרית: 'circumvented' נראה נכון כי הוא נשמע מתוחכם ומשמעותו 'עקיפה'. הבעיה: 'circumvented' מרמז על תכסיס מכוון — לא המונח הספרותי המדויק. התשובה הנכונה: 'deferred' — דחה/עיכב את פתרון הקונפליקט.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-134",
+    "difficulty": "hard",
+    "text": "The policy's ________ impact on low-income communities was well-documented, yet policymakers chose to ignore the warnings.\nWhich adjective is most precise?",
+    "choices": [
+      "adverse",
+      "negative",
+      "harmful",
+      "detrimental"
+    ],
+    "answer": 3,
+    "explanation": "'Detrimental' means causing damage or harm, with the specific nuance of harm arising as a side effect of an action or policy. It is the most formal and precise term for policy-related negative consequences.",
+    "wrongReasons": [
+      "'Adverse' is the main trap — 'adverse' and 'detrimental' are nearly synonymous, but 'adverse' typically collocates with 'conditions,' 'effects,' or 'reactions' (adverse weather conditions, adverse side effects). The standard academic policy collocation is 'detrimental impact,' not 'adverse impact.'",
+      "'Negative' is too general — it is the broadest possible word for 'bad' and carries no formal or academic precision. In a formal policy analysis sentence, 'negative impact' is weaker than 'detrimental impact.'",
+      "'Harmful' is similar to 'detrimental' in everyday usage but is less formal — 'harmful impact' is acceptable but lacks the precise academic register that 'detrimental impact' carries in policy writing."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "collocation", "academic-writing"],
+    "vocabularyWords": ["detrimental", "adverse", "negative", "harmful"],
+    "hebrewExplanation": "מלכודת עיקרית: 'adverse' נראה נכון כי הוא מילה פורמלית קרובה ל-'detrimental'. הבעיה: הצירוף האקדמי המקובל הוא 'detrimental impact' בהקשר של מדיניות. התשובה הנכונה: 'detrimental'.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-dt-135",
+    "difficulty": "hard",
+    "text": "The historian noted that the primary sources, ________ authentic, had been selectively edited to support a particular narrative.\nWhich participial phrase is correct?",
+    "choices": [
+      "while being",
+      "although",
+      "despite being",
+      "even if"
+    ],
+    "answer": 2,
+    "explanation": "'Despite being authentic' is the correct concessive participial phrase — it introduces a concession (the sources ARE authentic) before the contrasting fact (they were selectively edited). 'Despite + gerund' is a standard academic construction.",
+    "wrongReasons": [
+      "'Although' is the main trap — 'although' is also a concessive connector and could work, BUT when used with a participial phrase rather than a full clause, 'despite being' is more grammatically elegant. 'Although authentic' (without a subject and verb) is acceptable in informal use but 'despite being authentic' is the preferred formal construction for participial concessions.",
+      "'While being' could be used for simultaneous actions, but 'while being authentic' creates a slightly ambiguous reading — implying that during the time they were being authentic, they were also edited. The concessive meaning is less clear than 'despite being.'",
+      "'Even if' introduces a hypothetical or conditional situation — but the sentence states the sources ARE authentic as a fact, not a hypothesis. 'Even if authentic' wrongly implies their authenticity is uncertain or conditional."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "grammar", "connectors"],
+    "vocabularyWords": ["despite", "authentic", "narrative", "selectively"],
+    "hebrewExplanation": "מלכודת עיקרית: 'although' נראה נכון כי הוא מחבר ויתורי שכיח. הבעיה: כאשר אין נושא ופועל בתת-המשפט, 'despite being' הוא הצורה הפורמלית הנכונה. התשובה הנכונה: 'despite being' authentic.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-136",
+    "difficulty": "hard",
+    "text": "The two theories are not mutually exclusive; in fact, they may be ________ in explaining the phenomenon.\nWhich adjective is most precise?",
+    "choices": [
+      "complementary",
+      "supplementary",
+      "compatible",
+      "identical"
+    ],
+    "answer": 0,
+    "explanation": "'Complementary' means two things that together form a complete whole — each adds what the other lacks. Two theories that are complementary explain different aspects of the same phenomenon, together providing a fuller picture.",
+    "wrongReasons": [
+      "'Compatible' is the main trap — 'compatible' means able to exist together without conflict. Two compatible theories do not contradict each other, but they don't necessarily add to each other either. 'Complementary' implies active mutual enhancement, which is a stronger and more precise claim.",
+      "'Supplementary' means additional — one theory would add extra, secondary information to the other. This implies a hierarchy (primary theory + supplementary theory), while 'complementary' implies equal partnership.",
+      "'Identical' would mean the theories say the same thing — if they were identical, studying both would be redundant, and the sentence explicitly says they are 'not mutually exclusive' while implying they are distinct."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["complementary", "supplementary", "compatible"],
+    "hebrewExplanation": "מלכודת עיקרית: 'compatible' נראה נכון כי הוא מרמז שהתיאוריות יכולות לדור בכפיפה אחת. הבעיה: 'compatible' = אינן סותרות, אך 'complementary' = מחזקות ומשלימות זו את זו — רעיון חזק יותר. התשובה הנכונה: 'complementary'.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-dt-137",
+    "difficulty": "hard",
+    "text": "The witness's testimony was ________ — it confirmed some details but contradicted others provided by the defendant.\nWhich adjective is most accurate?",
+    "choices": [
+      "ambiguous",
+      "contradictory",
+      "inconsistent",
+      "unreliable"
+    ],
+    "answer": 2,
+    "explanation": "'Inconsistent' specifically means not in agreement with itself or with other information — the testimony matched SOME things but contradicted OTHERS, making it internally or externally inconsistent. This is the precise legal/analytical term.",
+    "wrongReasons": [
+      "'Contradictory' is the main trap — students choose it because 'contradict' appears in the sentence. However, 'contradictory' means completely opposed to something — the testimony didn't ONLY contradict; it also confirmed some details. 'Inconsistent' (partially matching, partially contradicting) is more accurate.",
+      "'Ambiguous' means unclear or having multiple possible interpretations — the testimony is not unclear; specific details clearly confirmed OR contradicted. The problem is inconsistency, not ambiguity.",
+      "'Unreliable' means cannot be trusted generally — it is a broad judgment about the witness, not a precise description of the testimony's relationship to other evidence. 'Inconsistent' is the analytically precise term."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "partial-truth"],
+    "vocabularyWords": ["inconsistent", "contradictory", "ambiguous", "unreliable"],
+    "hebrewExplanation": "מלכודת עיקרית: 'contradictory' נראה נכון כי המילה 'contradicted' מופיעה במשפט. הבעיה: 'contradictory' = סותר לחלוטין, אך העדות גם אישרה פרטים. 'Inconsistent' = חלקית נכון, חלקית לא. התשובה הנכונה: 'inconsistent'.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-dt-138",
+    "difficulty": "hard",
+    "text": "The government's austerity measures were intended to ________ the budget deficit, though critics argued they would worsen inequality.\nWhich verb is most precise?",
+    "choices": [
+      "eliminate",
+      "address",
+      "reduce",
+      "mitigate"
+    ],
+    "answer": 3,
+    "explanation": "'Mitigate' means to make a negative situation less severe — it is the most formal and policy-appropriate term for measures aimed at reducing (but not necessarily eliminating) a budget deficit. It captures the limited ambition of 'austerity' measures.",
+    "wrongReasons": [
+      "'Reduce' is the main trap because it is the most straightforward synonym and 'reduce a deficit' is a natural collocation. However, 'mitigate' is more precise in formal policy contexts — it specifically means to lessen the severity of a problem, with the implication that complete elimination is not the goal.",
+      "'Eliminate' implies completely removing the deficit — this is an overly strong claim for 'austerity measures,' which typically aim to reduce, not eliminate. 'Eliminate the deficit' would require far more drastic action.",
+      "'Address' means to deal with or focus on a problem — it is intentionally vague and does not specify how. 'Intended to address the budget deficit' is too weak — it simply says the measures were about the deficit, not what they aimed to do to it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "scope-trap", "vocabulary"],
+    "vocabularyWords": ["mitigate", "austerity", "deficit", "address"],
+    "hebrewExplanation": "מלכודת עיקרית: 'reduce' נראה נכון כי 'reduce a deficit' הוא צירוף טבעי. הבעיה: 'mitigate' הוא המינוח הפורמלי המדויק במדיניות — להפחית חומרה מבלי לחסל לחלוטין. התשובה הנכונה: 'mitigate'.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-139",
+    "difficulty": "hard",
+    "text": "The board's decision was ________ by the CEO's resignation, which shifted the balance of power significantly.\nWhich verb is most precise?",
+    "choices": [
+      "triggered",
+      "precipitated",
+      "influenced",
+      "caused"
+    ],
+    "answer": 1,
+    "explanation": "'Precipitated' means to cause something to happen sooner than expected, often suddenly — the CEO's resignation precipitated (hastened/triggered) the board's decision. It implies the event was pending and the resignation pushed it over the edge.",
+    "wrongReasons": [
+      "'Triggered' is the main trap — it is very close in meaning to 'precipitated' and both mean to set something off. However, 'triggered' is more informal and mechanical (triggers a response, triggers an alarm). 'Precipitated' carries the academic nuance of hastening an event that was already building, making it more precise for the board governance context.",
+      "'Influenced' is too weak — it implies partial effect without necessarily being the determining factor. The sentence implies the CEO's resignation was the key event that made the decision happen (or happen sooner).",
+      "'Caused' is too simple and direct — 'caused' implies a straightforward cause-effect relationship, but 'precipitated' suggests the decision might have eventually happened anyway; the resignation merely hastened it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["precipitated", "triggered", "influenced"],
+    "hebrewExplanation": "מלכודת עיקרית: 'triggered' נראה נכון כי הוא קרוב מאוד ל-'precipitated'. הבעיה: 'triggered' יותר מכני ובלתי פורמלי. 'Precipitated' = זרז אירוע שהיה עומד לקרות ממילא. התשובה הנכונה: 'precipitated'.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-140",
+    "difficulty": "hard",
+    "text": "The philosopher argued that free will and determinism, though seemingly ________, are in fact compatible under a compatibilist framework.\nWhich adjective is correct?",
+    "choices": [
+      "conflicting",
+      "paradoxical",
+      "irreconcilable",
+      "contradictory"
+    ],
+    "answer": 2,
+    "explanation": "'Irreconcilable' means impossible to make compatible — the philosopher says free will and determinism SEEM irreconcilable (completely incompatible) but actually are not. This is the precise philosophical term for positions that appear to have no common ground.",
+    "wrongReasons": [
+      "'Contradictory' is the main trap — 'contradictory' and 'irreconcilable' are close in meaning, but in philosophy, 'irreconcilable' specifically means positions cannot be brought into agreement. 'Contradictory' simply means opposing, while 'irreconcilable' captures the philosophical claim that there is NO possible way to harmonize them — making the compatibilist solution more striking.",
+      "'Conflicting' is too general — it means in opposition, which is correct, but it doesn't capture the full philosophical weight of 'seemingly impossible to reconcile' that sets up the compatibilist argument.",
+      "'Paradoxical' means appearing to be self-contradictory or absurd despite being possibly true — it is close in philosophical usage, but the sentence focuses on incompatibility (can they coexist?) rather than self-contradiction."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary", "scope-trap"],
+    "vocabularyWords": ["irreconcilable", "contradictory", "paradoxical", "compatibilist"],
+    "hebrewExplanation": "מלכודת עיקרית: 'contradictory' נראה נכון כי הוא מתאר ניגוד. הבעיה: 'irreconcilable' = בלתי ניתן להתאמה — המינוח הפילוסופי המדויק לעמדות שנראה כי אין להן מכנה משותף. התשובה הנכונה: 'irreconcilable'.",
+    "estimatedTimeSeconds": 58
+  },
+  {
+    "id": "sb-dt-141",
+    "difficulty": "hard",
+    "text": "The author's ________ use of metaphor throughout the novel transforms what might otherwise be a straightforward narrative into a richly layered allegory.\nWhich adjective is most precise?",
+    "choices": [
+      "consistent",
+      "pervasive",
+      "frequent",
+      "systematic"
+    ],
+    "answer": 1,
+    "explanation": "'Pervasive' means spreading throughout and present everywhere — it is the most precise literary term for a technique that saturates the entire work. The sentence describes metaphor that transforms the whole narrative, implying it is everywhere.",
+    "wrongReasons": [
+      "'Consistent' is the main trap — a 'consistent use of metaphor' means the metaphors are used in the same way throughout. This is different from 'pervasive' (present throughout). 'Consistent' describes quality/uniformity; 'pervasive' describes extent/presence throughout.",
+      "'Frequent' means happening often — it implies repetition but not the all-encompassing presence that 'pervasive' suggests. 'Frequent metaphors' appear many times; 'pervasive metaphor' saturates the entire work.",
+      "'Systematic' implies an organized, methodical approach — it suggests the author has a plan or system for using metaphors. The sentence emphasizes the breadth and effect of the metaphor use, not the organizational method behind it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary", "academic-writing"],
+    "vocabularyWords": ["pervasive", "consistent", "systematic", "allegory"],
+    "hebrewExplanation": "מלכודת עיקרית: 'consistent' נראה נכון כי 'consistent use' הוא צירוף שכיח. הבעיה: 'consistent' = אחיד; 'pervasive' = נוכח בכל מקום ומחלחל לכל הרומן. התשובה הנכונה: 'pervasive'.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-142",
+    "difficulty": "hard",
+    "text": "The legal team advised against signing the contract, citing a clause that could be ________ to require unlimited liability.\nWhich adjective is most precise?",
+    "choices": [
+      "interpreted",
+      "construed",
+      "read",
+      "understood"
+    ],
+    "answer": 1,
+    "explanation": "'Construed' is the standard legal term meaning interpreted in a particular way — 'could be construed to require' is the precise legal phrasing for how a clause might be legally interpreted. This is a fixed legal collocation.",
+    "wrongReasons": [
+      "'Interpreted' is the main trap — 'interpreted' and 'construed' are nearly synonymous in everyday English, and 'could be interpreted to mean' is widely used. However, in legal writing, 'construed' is the precise technical term for how courts read legal language. The legal context ('legal team,' 'contract,' 'liability') signals that the technical legal term is required.",
+      "'Read' could work informally ('could be read to require') but is too casual for formal legal documents and the precise professional context described.",
+      "'Understood' means comprehended — 'could be understood to require' is possible but passive and less precise than 'construed,' which implies active legal interpretation with potential legal consequences."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary", "register"],
+    "vocabularyWords": ["construed", "interpreted", "liability", "clause"],
+    "hebrewExplanation": "מלכודת עיקרית: 'interpreted' נראה נכון כי הוא שווה ערך ל-'construed'. הבעיה: בכתיבה משפטית, 'construed' הוא המינוח הטכני המדויק לפרשנות משפטית. התשובה הנכונה: 'construed' — could be construed to require.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-143",
+    "difficulty": "hard",
+    "text": "The clinical trial was halted after ________ evidence emerged linking the drug to severe cardiac events.\nWhich adjective is most appropriate?",
+    "choices": [
+      "compelling",
+      "substantial",
+      "overwhelming",
+      "preliminary"
+    ],
+    "answer": 0,
+    "explanation": "'Compelling' means convincing enough to require action — in a medical/clinical context, 'compelling evidence' is the term that justifies stopping a trial. It implies the evidence is strong enough to make the ethical case for halting irresistible.",
+    "wrongReasons": [
+      "'Preliminary' is the main trap because clinical trials are commonly associated with preliminary data. Students think 'preliminary evidence' sounds medical and technical. However, 'preliminary' means early/not yet confirmed — preliminary evidence alone typically is NOT sufficient to halt a trial. 'Compelling' evidence (convincing enough to require action) is what triggers a halt.",
+      "'Substantial' means large in amount — 'substantial evidence' is academically common but implies quantity rather than quality. 'Compelling' specifically means the evidence forces a conclusion, which is why trials are HALTED.",
+      "'Overwhelming' means so large that it leaves no room for doubt — it is stronger than needed here. 'Overwhelming evidence' for cardiac events would mean the drug is definitively dangerous. 'Compelling' appropriately signals enough evidence to act on, which is the threshold for halting trials."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "scope-trap", "vocabulary"],
+    "vocabularyWords": ["compelling", "preliminary", "substantial", "cardiac"],
+    "hebrewExplanation": "מלכודת עיקרית: 'preliminary' נראה נכון כי ניסויים קליניים קשורים לנתונים ראשוניים. הבעיה: ראיות 'preliminary' לא מספיקות להפסקת ניסוי. 'Compelling' = משכנעות מספיק כדי להכריח פעולה. התשובה הנכונה: 'compelling'.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-144",
+    "difficulty": "hard",
+    "text": "The archaeologist's discovery ________ established chronologies and forced a revision of the field's foundational assumptions.\nWhich verb is most precise?",
+    "choices": [
+      "challenged",
+      "disputed",
+      "overturned",
+      "questioned"
+    ],
+    "answer": 2,
+    "explanation": "'Overturned' means completely reversed or invalidated — if a discovery forces a revision of foundational assumptions, it doesn't merely challenge them; it overturns them. 'Overturn' signals complete reversal, consistent with 'forced a revision.'",
+    "wrongReasons": [
+      "'Challenged' is the main trap — 'challenged established chronologies' is a natural academic expression. However, 'challenged' implies raising doubts or creating debate without necessarily changing anything. The sentence says the discovery 'forced a revision' — this is a much stronger outcome than a challenge. 'Overturned' reflects that complete reversal.",
+      "'Disputed' means argued against — it is an action taken by people (scholars dispute findings), not by discoveries themselves. 'The discovery disputed' sounds odd; discoveries overturn, challenge, or undermine.",
+      "'Questioned' is the weakest option — it implies mild doubt, not the drastic 'forced a revision of foundational assumptions.' The sentence describes a paradigm-shifting discovery, not a minor academic query."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "vocabulary", "scope-trap"],
+    "vocabularyWords": ["overturned", "challenged", "disputed", "chronologies"],
+    "hebrewExplanation": "מלכודת עיקרית: 'challenged' נראה נכון כי 'challenged established chronologies' הוא צירוף אקדמי טבעי. הבעיה: 'challenged' = הציב ספקות; הגילוי 'forced a revision' — מה שמצביע על הפיכה מוחלטת. התשובה הנכונה: 'overturned'.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-145",
+    "difficulty": "hard",
+    "text": "The economist argued that the recession was not caused by market failure but by ________ government intervention that disrupted natural price signals.\nWhich adjective is most precise?",
+    "choices": [
+      "excessive",
+      "unnecessary",
+      "misguided",
+      "harmful"
+    ],
+    "answer": 2,
+    "explanation": "'Misguided' means based on wrong assumptions or poor judgment — it precisely describes government intervention that was wrong in its approach (disrupting price signals), not merely too much or unneeded. It captures the quality of the error, not just its quantity.",
+    "wrongReasons": [
+      "'Excessive' is the main trap — students associate government intervention criticism with 'excessive intervention' (too much). However, the sentence focuses on HOW the intervention disrupted price signals, not on how much intervention there was. 'Misguided' addresses the quality and direction of the intervention, not its quantity.",
+      "'Unnecessary' means not needed — but even a small amount of this type of intervention would be harmful if it disrupted price signals. 'Unnecessary' doesn't explain WHY it was harmful, only that it wasn't needed.",
+      "'Harmful' describes the result, not the nature of the intervention — the sentence is about what caused the harm (misguided policy that disrupted price signals). 'Harmful intervention' is circular: it says the harmful thing was harmful."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["misguided", "excessive", "intervention", "recession"],
+    "hebrewExplanation": "מלכודת עיקרית: 'excessive' נראה נכון כי ביקורת על התערבות ממשלתית מזוהה עם 'יותר מדי'. הבעיה: המשפט מתמקד באיכות ההתערבות (שיבוש מחירים), לא בכמותה. התשובה הנכונה: 'misguided' = מוטעה בגישתה.",
+    "estimatedTimeSeconds": 58
+  },
+  {
+    "id": "sb-dt-146",
+    "difficulty": "hard",
+    "text": "Although the results initially appeared promising, further analysis revealed that the improvements were ________ rather than genuine advances.\nWhich adjective is most precise?",
+    "choices": [
+      "temporary",
+      "superficial",
+      "illusory",
+      "minimal"
+    ],
+    "answer": 2,
+    "explanation": "'Illusory' means not real — appearing to exist or be true but actually not. 'Illusory improvements' are improvements that turn out not to be real at all, which is the strongest logical contrast to 'genuine advances.'",
+    "wrongReasons": [
+      "'Superficial' is the main trap — 'superficial improvements' means surface-level changes that don't go deep. This is close to 'not genuine,' but 'superficial' implies the improvements are real but shallow. 'Illusory' implies they were not real at all — a stronger negation of 'genuine advances.'",
+      "'Temporary' means lasting only a short time — the improvements might have been real but brief. The sentence says they were not 'genuine advances,' which implies a fundamental problem with their validity, not their duration.",
+      "'Minimal' means very small in amount — this would mean the improvements were real but tiny. The sentence contrasts them with 'genuine advances,' suggesting the problem is quality/authenticity, not size."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary", "scope-trap"],
+    "vocabularyWords": ["illusory", "superficial", "temporary", "genuine"],
+    "hebrewExplanation": "מלכודת עיקרית: 'superficial' נראה נכון כי 'superficial improvements' = שיפורים שטחיים, לא אמיתיים. הבעיה: 'superficial' = ממשי אך רדוד; 'illusory' = לא ממשי כלל — ניגוד חזק יותר ל-'genuine advances'. התשובה הנכונה: 'illusory'.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-147",
+    "difficulty": "hard",
+    "text": "The senator's remarks were criticized for being ________ — they appeared to address the issue while carefully avoiding any concrete commitment.\nWhich adjective is most precise?",
+    "choices": [
+      "vague",
+      "evasive",
+      "ambiguous",
+      "diplomatic"
+    ],
+    "answer": 1,
+    "explanation": "'Evasive' means deliberately avoiding a direct answer — it captures the intentionality of the senator's strategy (appearing to address while avoiding commitment). The sentence describes a deliberate rhetorical maneuver.",
+    "wrongReasons": [
+      "'Vague' is the main trap — 'vague remarks' are unclear or imprecise, and students associate political criticism with vagueness. However, 'vague' implies accidental or incidental lack of clarity. 'Evasive' implies DELIBERATE avoidance — the senator's remarks appeared to address the issue (showing intention), which means the vagueness was strategic.",
+      "'Ambiguous' means having more than one possible interpretation — this describes the remarks' effect on the audience, not the senator's strategy. The sentence focuses on deliberate action (avoiding commitment), not on interpretive uncertainty.",
+      "'Diplomatic' means tactfully handling sensitive matters — it is generally a positive term. Using 'diplomatic' to describe remarks that avoid commitment would be too charitable and contradict the critical framing ('criticized for being')."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary"],
+    "vocabularyWords": ["evasive", "vague", "ambiguous", "diplomatic"],
+    "hebrewExplanation": "מלכודת עיקרית: 'vague' נראה נכון כי ביקורת פוליטית מזוהה עם 'עמימות'. הבעיה: 'vague' = לא ברור, אקראי; 'evasive' = מתחמק בכוונה — מה שמתאים לאסטרטגיה מכוונת. התשובה הנכונה: 'evasive'.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-148",
+    "difficulty": "hard",
+    "text": "The new regulation ________ companies to disclose their environmental impact annually, with penalties for non-compliance.\nWhich verb is most precise?",
+    "choices": [
+      "forces",
+      "requires",
+      "obliges",
+      "mandates"
+    ],
+    "answer": 3,
+    "explanation": "'Mandates' is the most precise formal/legal term for government regulations imposing requirements — 'the regulation mandates' is standard legal and policy language for a binding requirement. It carries the strongest sense of official authority.",
+    "wrongReasons": [
+      "'Requires' is the main trap — 'requires companies to disclose' is perfectly grammatical and widely used. However, 'mandates' specifically implies an authoritative, binding directive from a regulatory body with enforcement power (evidenced by 'penalties for non-compliance'). 'Mandates' is the standard regulatory language.",
+      "'Obliges' is a near-synonym of 'requires' but is typically used in formal obligations that arise from contracts or moral duties, not regulatory law. 'Obliges companies' sounds more formal-personal than regulatory.",
+      "'Forces' is too strong and informal — it implies coercion by power rather than legal authority. While technically accurate, 'forces' is not the language of legislation or regulation; 'mandates' is."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary", "register"],
+    "vocabularyWords": ["mandates", "requires", "obliges", "compliance"],
+    "hebrewExplanation": "מלכודת עיקרית: 'requires' נראה נכון כי הוא נפוץ ומקובל. הבעיה: בשפה רגולטורית, 'mandates' הוא המינוח הרשמי לדרישה מחייבת עם אכיפה. התשובה הנכונה: 'mandates'.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-dt-149",
+    "difficulty": "hard",
+    "text": "The philosopher's ________ of the concept of justice challenges readers to reconsider assumptions they may have regarded as self-evident.\nWhich noun is most precise?",
+    "choices": [
+      "analysis",
+      "critique",
+      "deconstruction",
+      "interpretation"
+    ],
+    "answer": 2,
+    "explanation": "'Deconstruction' in philosophical and literary analysis means systematically dismantling a concept to reveal its hidden assumptions and contradictions — it precisely describes an approach that challenges 'self-evident' assumptions and makes readers 'reconsider' foundational beliefs.",
+    "wrongReasons": [
+      "'Analysis' is the main trap because it is the broadest and most commonly used academic noun for examining an idea. 'Analysis of justice' is natural and widely acceptable. However, 'analysis' does not specifically imply challenging self-evident assumptions or revealing hidden contradictions — 'deconstruction' is the precise philosophical term for this dismantling approach.",
+      "'Critique' means a detailed assessment pointing out faults — it implies negative evaluation from a particular standpoint. 'Deconstruction' is more neutral and methodological, focusing on revealing assumptions rather than pointing out errors.",
+      "'Interpretation' means explaining the meaning — it is too passive for the sentence's description of something that 'challenges' readers and makes them 'reconsider.' Deconstruction is an active, transformative process."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary", "academic-writing"],
+    "vocabularyWords": ["deconstruction", "analysis", "critique", "self-evident"],
+    "hebrewExplanation": "מלכודת עיקרית: 'analysis' נראה נכון כי הוא המונח האקדמי הנפוץ ביותר. הבעיה: 'analysis' הוא כללי; 'deconstruction' הוא המינוח הפילוסופי המדויק לפירוק הנחות יסוד מובנות מאליהן. התשובה הנכונה: 'deconstruction'.",
+    "estimatedTimeSeconds": 58
+  },
+  {
+    "id": "sb-dt-150",
+    "difficulty": "hard",
+    "text": "The findings were ________ in that they revealed a pattern that no prior research had successfully identified, despite years of investigation.\nWhich adjective is most precise?",
+    "choices": [
+      "significant",
+      "novel",
+      "groundbreaking",
+      "unprecedented"
+    ],
+    "answer": 3,
+    "explanation": "'Unprecedented' means never having occurred or existed before — it is the most precise word for findings that 'no prior research had successfully identified despite years of investigation.' It literally means 'without precedent' — no previous example exists.",
+    "wrongReasons": [
+      "'Novel' is the main trap — 'novel findings' is a standard academic collocation meaning new and original. However, 'novel' implies freshness and newness without necessarily implying that something was previously impossible to identify. 'Unprecedented' is stronger and more precise: it means this specific identification had never been done before despite attempts.",
+      "'Groundbreaking' means revolutionary and highly important — it emphasizes impact and importance, not uniqueness of identification. Something can be groundbreaking without being the first of its kind, while 'unprecedented' specifically means no prior example existed.",
+      "'Significant' means important or meaningful — it says nothing about novelty or uniqueness. 'Significant findings' exist in virtually every published study, making it too weak and unspecific for the sentence's emphasis on being the first to identify a pattern despite years of failed attempts."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["distractors", "near-synonym", "vocabulary", "scope-trap"],
+    "vocabularyWords": ["unprecedented", "novel", "groundbreaking", "significant"],
+    "hebrewExplanation": "מלכודת עיקרית: 'novel' נראה נכון כי 'novel findings' הוא ביטוי אקדמי תקני. הבעיה: 'novel' = חדש; 'unprecedented' = ללא תקדים — לא היה כמוהו קודם, מה שמדויק יותר עבור ממצאים שאף מחקר קודם לא הצליח לזהות. התשובה הנכונה: 'unprecedented'.",
+    "estimatedTimeSeconds": 58
+  }
+]

@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-sr-101",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"ACCURATE\".",
+    "choices": [
+      "precise",
+      "vague",
+      "rapid",
+      "complex"
+    ],
+    "answer": 0,
+    "explanation": "Accurate means exact and correct; precise is the closest synonym.",
+    "wrongReasons": [
+      "Vague means unclear or uncertain — the opposite of accurate.",
+      "Rapid refers to speed, not correctness.",
+      "Complex means complicated, unrelated to accuracy."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["accurate"],
+    "hebrewExplanation": "accurate = מדויק. precise = מדויק. טעויות נפוצות: vague = מעורפל (ההפך), rapid = מהיר (לא קשור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-102",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"CONCISE\".",
+    "choices": [
+      "wordy",
+      "brief",
+      "accurate",
+      "formal"
+    ],
+    "answer": 1,
+    "explanation": "Concise means expressing much in few words; brief is the closest synonym.",
+    "wrongReasons": [
+      "Wordy means using too many words — the opposite of concise.",
+      "Accurate means correct or precise, not necessarily short.",
+      "Formal refers to style or register, not length."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["concise"],
+    "hebrewExplanation": "concise = תמציתי. brief = קצר/תמציתי. טעויות נפוצות: wordy = מילולי יתר (ההפך), accurate = מדויק (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-103",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"EVIDENT\".",
+    "choices": [
+      "hidden",
+      "likely",
+      "obvious",
+      "complex"
+    ],
+    "answer": 2,
+    "explanation": "Evident means clearly seen or understood; obvious is the closest synonym.",
+    "wrongReasons": [
+      "Hidden means concealed — the opposite of evident.",
+      "Likely means probable, which is related but not the same as clearly apparent.",
+      "Complex means complicated, unrelated to clarity of visibility."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["evident"],
+    "hebrewExplanation": "evident = ברור/מובן מאליו. obvious = ברור. טעויות נפוצות: hidden = מוסתר (ההפך), likely = סביר (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-104",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"SIGNIFICANT\".",
+    "choices": [
+      "trivial",
+      "rapid",
+      "complex",
+      "important"
+    ],
+    "answer": 3,
+    "explanation": "Significant means having great meaning or effect; important is the closest synonym.",
+    "wrongReasons": [
+      "Trivial means unimportant or minor — the opposite of significant.",
+      "Rapid refers to speed, not importance.",
+      "Complex means complicated and does not capture the idea of importance."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["significant"],
+    "hebrewExplanation": "significant = משמעותי. important = חשוב. טעויות נפוצות: trivial = שולי (ההפך), rapid = מהיר (לא קשור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-105",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"ADEQUATE\".",
+    "choices": [
+      "sufficient",
+      "excessive",
+      "scarce",
+      "accurate"
+    ],
+    "answer": 0,
+    "explanation": "Adequate means enough or satisfactory for a purpose; sufficient is the closest synonym.",
+    "wrongReasons": [
+      "Excessive means more than enough — beyond adequacy.",
+      "Scarce means in short supply — not enough, the opposite of adequate.",
+      "Accurate means correct or precise, unrelated to quantity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["adequate"],
+    "hebrewExplanation": "adequate = מספיק/הולם. sufficient = מספיק. טעויות נפוצות: excessive = מופרז (יותר מדי), scarce = נדיר/חסר (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-106",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"OBTAIN\".",
+    "choices": [
+      "lose",
+      "acquire",
+      "deny",
+      "assess"
+    ],
+    "answer": 1,
+    "explanation": "Obtain means to get or gain something; acquire is the closest synonym.",
+    "wrongReasons": [
+      "Lose is the antonym of obtain.",
+      "Deny means to refuse or reject, the opposite of acquiring.",
+      "Assess means to evaluate or judge, not to get something."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["obtain"],
+    "hebrewExplanation": "obtain = להשיג. acquire = לרכוש/להשיג. טעויות נפוצות: lose = לאבד (ההפך), deny = לסרב (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-107",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"DIVERSE\".",
+    "choices": [
+      "uniform",
+      "scarce",
+      "varied",
+      "similar"
+    ],
+    "answer": 2,
+    "explanation": "Diverse means showing a great deal of variety; varied is the closest synonym.",
+    "wrongReasons": [
+      "Uniform means all the same — the opposite of diverse.",
+      "Scarce means insufficient in quantity, unrelated to variety.",
+      "Similar means nearly the same, which is the opposite of diverse."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["diverse"],
+    "hebrewExplanation": "diverse = מגוון. varied = מגוון. טעויות נפוצות: uniform = אחיד (ההפך), similar = דומה (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-108",
+    "difficulty": "easy",
+    "text": "Choose the word that is closest in meaning to \"REQUIRE\".",
+    "choices": [
+      "suggest",
+      "prefer",
+      "avoid",
+      "need"
+    ],
+    "answer": 3,
+    "explanation": "Require means to need something as necessary; need is the closest synonym.",
+    "wrongReasons": [
+      "Suggest means to propose, which is weaker than require.",
+      "Prefer means to like one thing over another, implying choice rather than necessity.",
+      "Avoid means to stay away from — essentially the opposite of requiring something."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["require"],
+    "hebrewExplanation": "require = לדרוש/להזדקק. need = להזדקק. טעויות נפוצות: suggest = להציע (חלש יותר), prefer = להעדיף (בחירה, לא חובה).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-109",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"AMBIGUOUS\".",
+    "choices": [
+      "unclear",
+      "incorrect",
+      "complex",
+      "biased"
+    ],
+    "answer": 0,
+    "explanation": "Ambiguous means open to more than one interpretation; unclear captures this meaning best.",
+    "wrongReasons": [
+      "Incorrect means wrong or false, but ambiguous does not necessarily mean wrong.",
+      "Complex means complicated, but something can be complex without being ambiguous.",
+      "Biased means unfairly prejudiced, which is unrelated to having multiple meanings."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["ambiguous"],
+    "hebrewExplanation": "ambiguous = דו-משמעי/מעורפל. unclear = לא ברור. טעויות נפוצות: incorrect = שגוי (לא קשור), biased = מוטה (לא קשור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-110",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"INEVITABLE\".",
+    "choices": [
+      "avoidable",
+      "surprising",
+      "certain",
+      "gradual"
+    ],
+    "answer": 2,
+    "explanation": "Inevitable means certain to happen and impossible to avoid; certain is the closest synonym.",
+    "wrongReasons": [
+      "Avoidable is the direct antonym of inevitable.",
+      "Surprising suggests unexpectedness, while inevitable implies something known in advance.",
+      "Gradual refers to pace, not certainty of occurrence."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["inevitable"],
+    "hebrewExplanation": "inevitable = בלתי נמנע. certain = ודאי. טעויות נפוצות: avoidable = ניתן להימנע (ההפך), surprising = מפתיע (לא קשור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-111",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"INHERENT\".",
+    "choices": [
+      "acquired",
+      "external",
+      "intrinsic",
+      "temporary"
+    ],
+    "answer": 2,
+    "explanation": "Inherent means existing as a natural and permanent part of something; intrinsic is the closest synonym.",
+    "wrongReasons": [
+      "Acquired means gained through experience, not naturally present — the opposite of inherent.",
+      "External means coming from outside, whereas inherent refers to an inward quality.",
+      "Temporary means lasting only a short time; inherent qualities are permanent."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["inherent"],
+    "hebrewExplanation": "inherent = מובנה/טבוע. intrinsic = פנימי/עצמי. טעויות נפוצות: acquired = נרכש (ההפך), external = חיצוני (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-112",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"SUBSTANTIAL\".",
+    "choices": [
+      "minor",
+      "considerable",
+      "partial",
+      "fragile"
+    ],
+    "answer": 1,
+    "explanation": "Substantial means of considerable importance, size, or worth; considerable is the closest synonym.",
+    "wrongReasons": [
+      "Minor means small or unimportant — the opposite of substantial.",
+      "Partial means incomplete, not capturing the idea of large size or amount.",
+      "Fragile means easily broken, unrelated to size or importance."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["substantial"],
+    "hebrewExplanation": "substantial = ניכר/משמעותי. considerable = ניכר/משמעותי. טעויות נפוצות: minor = זניח (ההפך), partial = חלקי (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-113",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"PROFOUND\".",
+    "choices": [
+      "superficial",
+      "sudden",
+      "deep",
+      "broad"
+    ],
+    "answer": 2,
+    "explanation": "Profound means having or showing great knowledge or insight; deep is the closest synonym.",
+    "wrongReasons": [
+      "Superficial means lacking depth — the direct antonym of profound.",
+      "Sudden refers to timing, not depth of thought or feeling.",
+      "Broad means wide in scope, which does not capture the depth implied by profound."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["profound"],
+    "hebrewExplanation": "profound = עמוק/מעמיק. deep = עמוק. טעויות נפוצות: superficial = שטחי (ההפך), broad = רחב (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-114",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"SUPERFICIAL\".",
+    "choices": [
+      "shallow",
+      "obvious",
+      "precise",
+      "visible"
+    ],
+    "answer": 0,
+    "explanation": "Superficial means existing or occurring at or on the surface, lacking depth; shallow is the closest synonym.",
+    "wrongReasons": [
+      "Obvious means easy to see or understand, but does not imply lack of depth.",
+      "Precise means exact, unrelated to depth or surface level.",
+      "Visible means able to be seen, which does not capture the idea of lacking depth."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["superficial"],
+    "hebrewExplanation": "superficial = שטחי. shallow = שטחי. טעויות נפוצות: obvious = ברור (לא אותו דבר), precise = מדויק (לא קשור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-115",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"DYNAMIC\".",
+    "choices": [
+      "stable",
+      "active",
+      "predictable",
+      "rigid"
+    ],
+    "answer": 1,
+    "explanation": "Dynamic means characterized by constant change and activity; active is the closest synonym.",
+    "wrongReasons": [
+      "Stable means not likely to change — nearly the opposite of dynamic.",
+      "Predictable means behaving as expected, which conflicts with the changing nature of dynamic.",
+      "Rigid means unable to change — the opposite of dynamic."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["dynamic"],
+    "hebrewExplanation": "dynamic = דינמי/פעיל. active = פעיל. טעויות נפוצות: stable = יציב (ההפך), rigid = נוקשה (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-116",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"COHERENT\".",
+    "choices": [
+      "fragmented",
+      "logical",
+      "complex",
+      "vague"
+    ],
+    "answer": 1,
+    "explanation": "Coherent means forming a unified, logical whole; logical is the closest synonym.",
+    "wrongReasons": [
+      "Fragmented means broken into disconnected parts — the opposite of coherent.",
+      "Complex means intricate, but something can be complex without being coherent.",
+      "Vague means unclear, which is almost the opposite of coherent."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["coherent"],
+    "hebrewExplanation": "coherent = קוהרנטי/עקבי/הגיוני. logical = הגיוני. טעויות נפוצות: fragmented = מפוצל (ההפך), vague = מעורפל (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-117",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"EXPLICIT\".",
+    "choices": [
+      "hidden",
+      "detailed",
+      "clear",
+      "complex"
+    ],
+    "answer": 2,
+    "explanation": "Explicit means stated clearly and in detail, leaving no room for confusion; clear is the closest synonym.",
+    "wrongReasons": [
+      "Hidden means not visible — the opposite of explicit.",
+      "Detailed means containing many details, but something can be detailed yet still unclear.",
+      "Complex means complicated, unrelated to clarity of statement."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["explicit"],
+    "hebrewExplanation": "explicit = מפורש/ברור. clear = ברור. טעויות נפוצות: hidden = מוסתר (ההפך), detailed = מפורט (אפשרי אך לא המדויק ביותר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-118",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"IMPLICIT\".",
+    "choices": [
+      "stated",
+      "implied",
+      "obvious",
+      "assumed"
+    ],
+    "answer": 1,
+    "explanation": "Implicit means suggested or understood without being directly stated; implied is the closest synonym.",
+    "wrongReasons": [
+      "Stated means directly expressed, which is the opposite of implicit.",
+      "Obvious means easy to perceive, but implicit things may not be obvious at all.",
+      "Assumed means taken for granted, but implicit more precisely means hinted at without being stated."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["implicit"],
+    "hebrewExplanation": "implicit = משתמע/מרומז. implied = מרומז. טעויות נפוצות: stated = מפורש (ההפך), obvious = ברור (לא בהכרח).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-119",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"ARBITRARY\".",
+    "choices": [
+      "systematic",
+      "random",
+      "intentional",
+      "biased"
+    ],
+    "answer": 1,
+    "explanation": "Arbitrary means based on random choice or personal whim rather than reason; random is the closest synonym.",
+    "wrongReasons": [
+      "Systematic means done according to a plan — the opposite of arbitrary.",
+      "Intentional means done on purpose and deliberately, implying reason — the opposite of arbitrary.",
+      "Biased means unfairly prejudiced, which is distinct from being random or without reason."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["arbitrary"],
+    "hebrewExplanation": "arbitrary = שרירותי/אקראי. random = אקראי. טעויות נפוצות: systematic = שיטתי (ההפך), intentional = מכוון (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-120",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"PLAUSIBLE\".",
+    "choices": [
+      "certain",
+      "credible",
+      "proven",
+      "unlikely"
+    ],
+    "answer": 1,
+    "explanation": "Plausible means seeming reasonable or probable; credible is the closest synonym.",
+    "wrongReasons": [
+      "Certain means definitely true, which is stronger than plausible (which is only probable).",
+      "Proven means established with evidence — plausible does not require proof.",
+      "Unlikely means not probable — the opposite of plausible."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["plausible"],
+    "hebrewExplanation": "plausible = סביר/מתקבל על הדעת. credible = אמין/סביר. טעויות נפוצות: certain = ודאי (חזק מדי), unlikely = לא סביר (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-121",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"FEASIBLE\".",
+    "choices": [
+      "impossible",
+      "necessary",
+      "practical",
+      "advisable"
+    ],
+    "answer": 2,
+    "explanation": "Feasible means possible and practical to achieve; practical is the closest synonym.",
+    "wrongReasons": [
+      "Impossible means unable to be done — the direct antonym of feasible.",
+      "Necessary means required rather than merely possible.",
+      "Advisable means recommended, not merely possible or doable."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["feasible"],
+    "hebrewExplanation": "feasible = ישים/אפשרי. practical = מעשי/ישים. טעויות נפוצות: impossible = בלתי אפשרי (ההפך), necessary = הכרחי (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-122",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"COMPREHENSIVE\".",
+    "choices": [
+      "thorough",
+      "brief",
+      "selective",
+      "accurate"
+    ],
+    "answer": 0,
+    "explanation": "Comprehensive means covering or including everything; thorough is the closest synonym.",
+    "wrongReasons": [
+      "Brief means short, which contradicts the all-encompassing nature of comprehensive.",
+      "Selective means choosing only certain things — the opposite of comprehensive.",
+      "Accurate means correct, but does not capture the idea of completeness."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["comprehensive"],
+    "hebrewExplanation": "comprehensive = מקיף/יסודי. thorough = יסודי/מקיף. טעויות נפוצות: brief = קצר (ההפך), selective = סלקטיבי (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-123",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"DIMINISH\".",
+    "choices": [
+      "expand",
+      "reduce",
+      "estimate",
+      "replace"
+    ],
+    "answer": 1,
+    "explanation": "Diminish means to make or become smaller or less; reduce is the closest synonym.",
+    "wrongReasons": [
+      "Expand means to grow larger — the opposite of diminish.",
+      "Estimate means to judge approximately, which is unrelated to making smaller.",
+      "Replace means to substitute, not to reduce in size or importance."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["diminish"],
+    "hebrewExplanation": "diminish = להפחית/לצמצם. reduce = להפחית. טעויות נפוצות: expand = להרחיב (ההפך), estimate = להעריך (לא קשור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-124",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"ADVOCATE\".",
+    "choices": [
+      "oppose",
+      "support",
+      "evaluate",
+      "implement"
+    ],
+    "answer": 1,
+    "explanation": "Advocate means to publicly recommend or support; support is the closest synonym.",
+    "wrongReasons": [
+      "Oppose means to argue against — the direct antonym of advocate.",
+      "Evaluate means to assess something, not to publicly champion it.",
+      "Implement means to put into action, not to recommend or support."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["advocate"],
+    "hebrewExplanation": "advocate = לתמוך/לדגול. support = לתמוך. טעויות נפוצות: oppose = להתנגד (ההפך), evaluate = להעריך (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-125",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"ELABORATE\".",
+    "choices": [
+      "simplify",
+      "repeat",
+      "expand",
+      "confirm"
+    ],
+    "answer": 2,
+    "explanation": "Elaborate means to develop or explain in more detail; expand is the closest synonym in this context.",
+    "wrongReasons": [
+      "Simplify means to make simpler — the opposite of elaborating.",
+      "Repeat means to say again, but elaborating adds new detail rather than repeating.",
+      "Confirm means to verify, not to provide further detail."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["elaborate"],
+    "hebrewExplanation": "elaborate = להרחיב/לפרט. expand = להרחיב. טעויות נפוצות: simplify = לפשט (ההפך), repeat = לחזור (לא מוסיף פרטים).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-126",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"COMPENSATE\".",
+    "choices": [
+      "reward",
+      "balance",
+      "deprive",
+      "ignore"
+    ],
+    "answer": 1,
+    "explanation": "Compensate means to make up for something or counterbalance; balance captures this meaning most closely.",
+    "wrongReasons": [
+      "Reward means to give something for a service, which is only one narrow meaning of compensate and misses the 'counterbalance' sense.",
+      "Deprive means to take away — the opposite of compensating.",
+      "Ignore means to disregard, unrelated to making up for something."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["compensate"],
+    "hebrewExplanation": "compensate = לפצות/לאזן. balance = לאזן. טעויות נפוצות: reward = לתגמל (צר יותר), deprive = לשלול (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-127",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"CONTRADICT\".",
+    "choices": [
+      "support",
+      "deny",
+      "oppose",
+      "confuse"
+    ],
+    "answer": 2,
+    "explanation": "Contradict means to deny or go against something said or done; oppose is the closest synonym.",
+    "wrongReasons": [
+      "Support means to agree with or back up — the opposite of contradict.",
+      "Deny means to refuse or declare untrue, but contradict specifically means to conflict with a statement.",
+      "Confuse means to cause bewilderment, not to logically conflict with something."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["contradict"],
+    "hebrewExplanation": "contradict = לסתור/להתנגד. oppose = להתנגד. טעויות נפוצות: support = לתמוך (ההפך), deny = לכחש (קרוב אך לא מדויק).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-128",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"ENHANCE\".",
+    "choices": [
+      "weaken",
+      "maintain",
+      "improve",
+      "replace"
+    ],
+    "answer": 2,
+    "explanation": "Enhance means to intensify, increase, or improve the quality of something; improve is the closest synonym.",
+    "wrongReasons": [
+      "Weaken means to reduce strength — the opposite of enhance.",
+      "Maintain means to keep in the same state, not to improve.",
+      "Replace means to substitute with something else, not to make better."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["enhance"],
+    "hebrewExplanation": "enhance = לשפר/להגביר. improve = לשפר. טעויות נפוצות: weaken = להחליש (ההפך), maintain = לשמור (אין שיפור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-129",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"INHIBIT\".",
+    "choices": [
+      "encourage",
+      "restrict",
+      "promote",
+      "enable"
+    ],
+    "answer": 1,
+    "explanation": "Inhibit means to hinder, restrain, or hold back; restrict is the closest synonym.",
+    "wrongReasons": [
+      "Encourage means to give support or confidence — the opposite of inhibit.",
+      "Promote means to further the progress of something — also the opposite of inhibit.",
+      "Enable means to make possible — again, the opposite of inhibit."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["inhibit"],
+    "hebrewExplanation": "inhibit = לעכב/להגביל. restrict = להגביל. טעויות נפוצות: encourage = לעודד (ההפך), promote = לקדם (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-130",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"JUSTIFY\".",
+    "choices": [
+      "criticize",
+      "explain",
+      "defend",
+      "dismiss"
+    ],
+    "answer": 2,
+    "explanation": "Justify means to show or prove to be right or reasonable; defend is the closest synonym.",
+    "wrongReasons": [
+      "Criticize means to find fault with — often the opposite of justifying.",
+      "Explain means to make clear, but justify specifically means to show something is right.",
+      "Dismiss means to refuse to consider — the opposite of justifying."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["justify"],
+    "hebrewExplanation": "justify = להצדיק. defend = להגן/להצדיק. טעויות נפוצות: criticize = לבקר (ההפך), dismiss = לדחות (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-131",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"MODIFY\".",
+    "choices": [
+      "alter",
+      "destroy",
+      "confirm",
+      "replace"
+    ],
+    "answer": 0,
+    "explanation": "Modify means to make partial or minor changes to something; alter is the closest synonym.",
+    "wrongReasons": [
+      "Destroy means to completely ruin — far more extreme than modifying.",
+      "Confirm means to verify or establish, not to change.",
+      "Replace means to substitute entirely, whereas modify implies partial change."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["modify"],
+    "hebrewExplanation": "modify = לשנות/לשנות חלקית. alter = לשנות. טעויות נפוצות: destroy = להרוס (קיצוני מדי), replace = להחליף (שינוי מלא, לא חלקי).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-132",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"PERCEIVE\".",
+    "choices": [
+      "ignore",
+      "imagine",
+      "observe",
+      "assume"
+    ],
+    "answer": 2,
+    "explanation": "Perceive means to become aware of something through the senses; observe is the closest synonym.",
+    "wrongReasons": [
+      "Ignore means to deliberately pay no attention — the opposite of perceiving.",
+      "Imagine means to form a mental picture without necessarily sensing, so it differs from perceiving.",
+      "Assume means to take for granted without evidence, which goes beyond mere perception."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["perceive"],
+    "hebrewExplanation": "perceive = לתפוס/להבחין. observe = להבחין/לצפות. טעויות נפוצות: ignore = להתעלם (ההפך), assume = להניח (מעבר לתפיסה).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-133",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"VERIFY\".",
+    "choices": [
+      "disprove",
+      "assume",
+      "confirm",
+      "question"
+    ],
+    "answer": 2,
+    "explanation": "Verify means to make sure or demonstrate that something is true; confirm is the closest synonym.",
+    "wrongReasons": [
+      "Disprove means to prove false — the opposite of verifying.",
+      "Assume means to take for granted without checking — the opposite of verifying.",
+      "Question means to express doubt, whereas verifying resolves doubt."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["verify"],
+    "hebrewExplanation": "verify = לאמת/לאשר. confirm = לאשר. טעויות נפוצות: disprove = להפריך (ההפך), assume = להניח (ההפך מבחינת בדיקה).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-134",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"ASSUME\".",
+    "choices": [
+      "prove",
+      "presuppose",
+      "deny",
+      "discover"
+    ],
+    "answer": 1,
+    "explanation": "Assume means to suppose or take for granted without proof; presuppose is the closest synonym.",
+    "wrongReasons": [
+      "Prove means to demonstrate with evidence, which is the opposite of assuming.",
+      "Deny means to declare something untrue, not to take it for granted.",
+      "Discover means to find something unknown, not to assume it beforehand."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["assume"],
+    "hebrewExplanation": "assume = להניח/לקחת כמובן מאליו. presuppose = להניח מראש. טעויות נפוצות: prove = להוכיח (ההפך), discover = לגלות (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-135",
+    "difficulty": "medium",
+    "text": "Choose the word that is closest in meaning to \"SUSTAIN\".",
+    "choices": [
+      "abandon",
+      "maintain",
+      "initiate",
+      "weaken"
+    ],
+    "answer": 1,
+    "explanation": "Sustain means to keep going or maintain over time; maintain is the closest synonym.",
+    "wrongReasons": [
+      "Abandon means to give up entirely — the opposite of sustaining.",
+      "Initiate means to begin, not to continue or maintain.",
+      "Weaken means to reduce strength — the opposite of sustaining."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["sustain"],
+    "hebrewExplanation": "sustain = לקיים/לשמר. maintain = לשמר/לשמור. טעויות נפוצות: abandon = לנטוש (ההפך), initiate = להתחיל (לא להמשיך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-136",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"TENUOUS\".",
+    "choices": [
+      "strong",
+      "flimsy",
+      "temporary",
+      "controversial"
+    ],
+    "answer": 1,
+    "explanation": "Tenuous means very weak or thin in substance; flimsy is the closest synonym.",
+    "wrongReasons": [
+      "Strong is the direct antonym of tenuous.",
+      "Temporary refers to duration, not to the strength of a connection or argument.",
+      "Controversial means causing debate, which is not the same as being weakly supported."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["tenuous"],
+    "hebrewExplanation": "tenuous = רופף/דק/חלש. flimsy = רופף/חלש. טעויות נפוצות: strong = חזק (ההפך), temporary = זמני (לא קשור לחוזק).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-137",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"MITIGATE\".",
+    "choices": [
+      "aggravate",
+      "alleviate",
+      "eliminate",
+      "accelerate"
+    ],
+    "answer": 1,
+    "explanation": "Mitigate means to make less severe or intense; alleviate is the closest synonym.",
+    "wrongReasons": [
+      "Aggravate means to make worse — the direct antonym of mitigate.",
+      "Eliminate means to completely remove, which is stronger than merely reducing severity.",
+      "Accelerate means to speed up, which is unrelated to reducing severity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["mitigate"],
+    "hebrewExplanation": "mitigate = להקל/לצמצם. alleviate = להקל. טעויות נפוצות: aggravate = להחמיר (ההפך), eliminate = לחסל (חזק מדי).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-138",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"AMBIVALENT\".",
+    "choices": [
+      "indifferent",
+      "conflicted",
+      "hostile",
+      "enthusiastic"
+    ],
+    "answer": 1,
+    "explanation": "Ambivalent means having mixed feelings or contradictory ideas; conflicted is the closest synonym.",
+    "wrongReasons": [
+      "Indifferent means having no strong feelings at all, whereas ambivalent means having strong but opposing feelings.",
+      "Hostile means unfriendly or aggressive, implying a clear negative stance — not mixed feelings.",
+      "Enthusiastic means having strong positive feelings — the opposite of ambivalence."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["ambivalent"],
+    "hebrewExplanation": "ambivalent = דו-ערכי/מפוצל. conflicted = מפוצל/מבולבל. טעויות נפוצות: indifferent = אדיש (ללא רגשות, לא מעורבים), hostile = עוין (שלילי ברור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-139",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"PROLIFERATE\".",
+    "choices": [
+      "diminish",
+      "regulate",
+      "multiply",
+      "distribute"
+    ],
+    "answer": 2,
+    "explanation": "Proliferate means to increase rapidly in number; multiply is the closest synonym.",
+    "wrongReasons": [
+      "Diminish means to decrease — the opposite of proliferating.",
+      "Regulate means to control, not to grow in number.",
+      "Distribute means to spread out among recipients, not to grow or multiply."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["proliferate"],
+    "hebrewExplanation": "proliferate = להתרבות/להתפשט. multiply = להתרבות. טעויות נפוצות: diminish = להצטמצם (ההפך), distribute = לחלק (לא אותו דבר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-140",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"EXACERBATE\".",
+    "choices": [
+      "resolve",
+      "worsen",
+      "expose",
+      "prevent"
+    ],
+    "answer": 1,
+    "explanation": "Exacerbate means to make a problem or negative situation worse; worsen is the closest synonym.",
+    "wrongReasons": [
+      "Resolve means to find a solution — the opposite of exacerbating.",
+      "Expose means to reveal or uncover, not to make worse.",
+      "Prevent means to stop from happening — also the opposite of exacerbating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["exacerbate"],
+    "hebrewExplanation": "exacerbate = להחריף/להחמיר. worsen = להחמיר. טעויות נפוצות: resolve = לפתור (ההפך), prevent = למנוע (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-141",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"EQUIVOCAL\".",
+    "choices": [
+      "precise",
+      "ambiguous",
+      "misleading",
+      "indirect"
+    ],
+    "answer": 1,
+    "explanation": "Equivocal means open to more than one interpretation; ambiguous is the closest synonym.",
+    "wrongReasons": [
+      "Precise means exact and clear — the opposite of equivocal.",
+      "Misleading suggests intent to deceive, while equivocal simply means unclear.",
+      "Indirect means not going straight to the point, which is similar but misses the 'double meaning' aspect of equivocal."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["equivocal"],
+    "hebrewExplanation": "equivocal = דו-משמעי/מעורפל. ambiguous = דו-משמעי. טעויות נפוצות: precise = מדויק (ההפך), misleading = מטעה (מרמז על כוונה).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-142",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"PERVASIVE\".",
+    "choices": [
+      "rare",
+      "dominant",
+      "widespread",
+      "persistent"
+    ],
+    "answer": 2,
+    "explanation": "Pervasive means spreading widely throughout an area; widespread is the closest synonym.",
+    "wrongReasons": [
+      "Rare means occurring infrequently — the opposite of pervasive.",
+      "Dominant means most powerful or influential, which is not the same as being spread everywhere.",
+      "Persistent means continuing despite obstacles, but does not capture the idea of being spread widely."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["pervasive"],
+    "hebrewExplanation": "pervasive = נפוץ/חודר. widespread = נפוץ. טעויות נפוצות: rare = נדיר (ההפך), dominant = דומיננטי (כוח, לא התפשטות).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-143",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"SCRUTINIZE\".",
+    "choices": [
+      "overlook",
+      "examine",
+      "criticize",
+      "compare"
+    ],
+    "answer": 1,
+    "explanation": "Scrutinize means to examine or inspect closely and thoroughly; examine is the closest synonym.",
+    "wrongReasons": [
+      "Overlook means to fail to notice — the opposite of scrutinizing.",
+      "Criticize means to judge negatively, whereas scrutinize is a neutral act of careful inspection.",
+      "Compare means to analyze differences/similarities, not specifically to inspect closely."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["scrutinize"],
+    "hebrewExplanation": "scrutinize = לבחון/לדקדק. examine = לבחון. טעויות נפוצות: overlook = להתעלם (ההפך), criticize = לבקר (שיפוטי, לא ניטרלי).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-144",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"DELINEATE\".",
+    "choices": [
+      "outline",
+      "discover",
+      "analyze",
+      "obscure"
+    ],
+    "answer": 0,
+    "explanation": "Delineate means to describe or portray something precisely; outline is the closest synonym.",
+    "wrongReasons": [
+      "Discover means to find something previously unknown, not to describe it.",
+      "Analyze means to examine in detail, which is a step beyond merely delineating.",
+      "Obscure means to make unclear — the opposite of delineating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["delineate"],
+    "hebrewExplanation": "delineate = לתחם/לתאר במדויק. outline = לתאר/לשרטט. טעויות נפוצות: discover = לגלות (לא לתאר), obscure = לטשטש (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-145",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"COERCE\".",
+    "choices": [
+      "persuade",
+      "compel",
+      "request",
+      "motivate"
+    ],
+    "answer": 1,
+    "explanation": "Coerce means to use force or threats to make someone do something; compel is the closest synonym.",
+    "wrongReasons": [
+      "Persuade means to convince through reasoning or appeals — without force, unlike coerce.",
+      "Request means to ask politely — the opposite of coercing.",
+      "Motivate means to encourage through positive means, not through force."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["coerce"],
+    "hebrewExplanation": "coerce = לכפות/להכריח. compel = להכריח. טעויות נפוצות: persuade = לשכנע (ללא כוח), request = לבקש (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-146",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"PARADOXICAL\".",
+    "choices": [
+      "logical",
+      "contradictory",
+      "unexpected",
+      "complex"
+    ],
+    "answer": 1,
+    "explanation": "Paradoxical means seemingly contradictory but possibly true; contradictory is the closest synonym.",
+    "wrongReasons": [
+      "Logical means following clear reasoning — nearly the opposite of paradoxical.",
+      "Unexpected means surprising, but paradoxical specifically implies self-contradiction.",
+      "Complex means intricate, but not necessarily self-contradictory."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["paradoxical"],
+    "hebrewExplanation": "paradoxical = פרדוקסלי/סותר לכאורה. contradictory = סותר. טעויות נפוצות: logical = הגיוני (ההפך), unexpected = מפתיע (לא בהכרח סותר).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-147",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"ALLEVIATE\".",
+    "choices": [
+      "intensify",
+      "remove",
+      "ease",
+      "delay"
+    ],
+    "answer": 2,
+    "explanation": "Alleviate means to make suffering or a problem less severe; ease is the closest synonym.",
+    "wrongReasons": [
+      "Intensify means to increase in strength — the opposite of alleviating.",
+      "Remove means to completely eliminate, whereas alleviate only reduces severity.",
+      "Delay means to postpone, not to reduce severity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["alleviate"],
+    "hebrewExplanation": "alleviate = להקל/לצמצם. ease = להקל. טעויות נפוצות: intensify = להגביר (ההפך), remove = להסיר (חזק יותר מהקלה).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-148",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"SUPERFLUOUS\".",
+    "choices": [
+      "essential",
+      "redundant",
+      "excessive",
+      "insufficient"
+    ],
+    "answer": 1,
+    "explanation": "Superfluous means unnecessary, especially through being more than enough; redundant is the closest synonym.",
+    "wrongReasons": [
+      "Essential means absolutely necessary — the direct antonym of superfluous.",
+      "Excessive means more than necessary, which overlaps but does not capture the 'serving no purpose' meaning as precisely as redundant.",
+      "Insufficient means not enough — the opposite of superfluous."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["superfluous"],
+    "hebrewExplanation": "superfluous = מיותר/עודף. redundant = מיותר/כפול. טעויות נפוצות: essential = חיוני (ההפך), excessive = מופרז (חופף אך פחות מדויק).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-149",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"RETICENT\".",
+    "choices": [
+      "talkative",
+      "reluctant",
+      "reserved",
+      "timid"
+    ],
+    "answer": 2,
+    "explanation": "Reticent means not revealing one's thoughts or feelings readily; reserved is the closest synonym.",
+    "wrongReasons": [
+      "Talkative means inclined to talk a great deal — the direct antonym of reticent.",
+      "Reluctant means unwilling to do something, which is related but does not specifically mean quiet or uncommunicative.",
+      "Timid means showing lack of courage, which is different from simply being quiet or reserved."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["reticent"],
+    "hebrewExplanation": "reticent = שתקן/שמור. reserved = שמור/סגור. טעויות נפוצות: talkative = פטפטן (ההפך), reluctant = לא רצוני (קרוב אך לא מדויק).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-150",
+    "difficulty": "hard",
+    "text": "Choose the word that is closest in meaning to \"PRAGMATIC\".",
+    "choices": [
+      "idealistic",
+      "theoretical",
+      "practical",
+      "flexible"
+    ],
+    "answer": 2,
+    "explanation": "Pragmatic means dealing with things sensibly and realistically based on actual conditions; practical is the closest synonym.",
+    "wrongReasons": [
+      "Idealistic means guided by ideals rather than reality — the opposite of pragmatic.",
+      "Theoretical means concerned with theory rather than practical application — the opposite of pragmatic.",
+      "Flexible means willing to change, which is a possible trait of a pragmatic person but not a synonym."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["synonyms", "vocabulary"],
+    "vocabularyWords": ["pragmatic"],
+    "hebrewExplanation": "pragmatic = פרגמטי/מעשי. practical = מעשי. טעויות נפוצות: idealistic = אידיאליסטי (ההפך), theoretical = תיאורטי (ההפך).",
+    "estimatedTimeSeconds": 30
+  }
+]

@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-sl-101",
+    "difficulty": "easy",
+    "text": "Students who review vocabulary every day are more likely to ________.",
+    "choices": [
+      "improve their reading comprehension",
+      "forget words quickly",
+      "avoid learning new material",
+      "misunderstand simple instructions"
+    ],
+    "answer": 0,
+    "explanation": "Daily vocabulary review reinforces memory and directly supports reading comprehension, making choice A the logical outcome of consistent study habits.",
+    "wrongReasons": [
+      "B contradicts the premise — reviewing daily is the opposite of forgetting quickly.",
+      "C is illogical because someone actively studying vocabulary is engaging with new material, not avoiding it.",
+      "D is unrelated and contradicts the benefit of expanded vocabulary."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["sentence-completion", "logic", "academic-vocabulary"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: סטודנט שחוזר על אוצר מילים כל יום צפוי לשפר את הבנת הנקרא שלו. הרמז: 'more likely' מוביל לתוצאה חיובית.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sl-102",
+    "difficulty": "easy",
+    "text": "Because the weather forecast predicted heavy rain, the outdoor event was ________.",
+    "choices": [
+      "relocated to an indoor venue",
+      "expected to attract more visitors",
+      "extended by several hours",
+      "broadcast on national television"
+    ],
+    "answer": 0,
+    "explanation": "Heavy rain makes outdoor events impractical, so relocating to an indoor venue is the logical and practical response to the forecast.",
+    "wrongReasons": [
+      "B is illogical — rain typically deters visitors rather than attracting more.",
+      "C contradicts the premise; extending an event during predicted heavy rain would be impractical.",
+      "D is unrelated to the weather forecast and has no causal connection to rain."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "sentence-completion", "everyday-context"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: גשם כבד גורם להעברת אירועים חוצות למקום מקורה. הרמז: 'because' מציין סיבה לתוצאה הגיונית.",
+    "estimatedTimeSeconds": 28
+  },
+  {
+    "id": "sb-sl-103",
+    "difficulty": "easy",
+    "text": "If a company invests heavily in employee training, its workforce is likely to become more ________.",
+    "choices": [
+      "resistant to change",
+      "productive and skilled",
+      "dependent on supervision",
+      "prone to frequent absences"
+    ],
+    "answer": 1,
+    "explanation": "Training programs are designed to build skills and efficiency, so a heavily trained workforce logically becomes more productive and skilled.",
+    "wrongReasons": [
+      "A is the opposite effect — training typically reduces resistance to change by expanding employees' capabilities.",
+      "C contradicts training goals; skilled employees generally require less supervision, not more.",
+      "D is unrelated — there is no causal link between training investment and absenteeism."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "workplace", "sentence-completion"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: השקעה בהכשרת עובדים מביאה לכוח עבודה מיומן יותר ופרודוקטיבי. הרמז: 'invest heavily' מרמז על תוצאה חיובית.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sl-104",
+    "difficulty": "easy",
+    "text": "Unlike processed foods, fresh fruits and vegetables tend to contain ________.",
+    "choices": [
+      "higher levels of preservatives",
+      "fewer essential vitamins",
+      "more natural nutrients and fiber",
+      "greater amounts of added sugar"
+    ],
+    "answer": 2,
+    "explanation": "Fresh produce is nutritionally rich by nature, making 'more natural nutrients and fiber' the logically and factually correct completion that contrasts with processed foods.",
+    "wrongReasons": [
+      "A is wrong — preservatives are associated with processed foods, not fresh produce.",
+      "B directly contradicts nutritional fact; fresh produce is known for its vitamin content.",
+      "D is wrong — added sugar is a characteristic of processed foods, not fresh fruits and vegetables."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "sentence-completion", "health"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'בניגוד ל' מרמז על הנגדה — מזון טרי מכיל יותר חומרים מזינים טבעיים לעומת מזון מעובד.",
+    "estimatedTimeSeconds": 28
+  },
+  {
+    "id": "sb-sl-105",
+    "difficulty": "easy",
+    "text": "The experiment failed to produce reliable results because the sample size was ________.",
+    "choices": [
+      "too small to be statistically significant",
+      "larger than originally planned",
+      "carefully selected by experts",
+      "representative of the entire population"
+    ],
+    "answer": 0,
+    "explanation": "A small sample size is a well-known cause of unreliable experimental results, making this the only logically consistent completion.",
+    "wrongReasons": [
+      "B would typically improve reliability, not cause failure — it contradicts the premise.",
+      "C describes a controlled process that would support reliability, not undermine it.",
+      "D a representative sample improves validity and would not cause failure."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "academic-argument", "science"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: גודל מדגם קטן מדי הוא הסיבה הישירה לתוצאות לא אמינות. הרמז: 'because' מצביע על גורם הכישלון.",
+    "estimatedTimeSeconds": 32
+  },
+  {
+    "id": "sb-sl-106",
+    "difficulty": "easy",
+    "text": "Only when a patient fully understands their diagnosis can they ________.",
+    "choices": [
+      "make informed decisions about their treatment",
+      "be expected to recover without any medical assistance",
+      "avoid all future health complications",
+      "demand a different doctor immediately"
+    ],
+    "answer": 0,
+    "explanation": "Understanding a diagnosis is a prerequisite for informed medical decision-making, making this the logically sound completion of the conditional sentence.",
+    "wrongReasons": [
+      "B is an overstatement — understanding a diagnosis does not eliminate the need for medical assistance.",
+      "C is an absolute claim with no logical basis; understanding a diagnosis cannot prevent all future complications.",
+      "D is an emotional reaction unrelated to the logical consequence of understanding a diagnosis."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["conditional-logic", "medicine", "sentence-completion"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'רק כאשר' מציין תנאי הכרחי — הבנת האבחנה מאפשרת קבלת החלטות מושכלות. הרמז: 'only when' = תנאי בלעדיו אין.",
+    "estimatedTimeSeconds": 32
+  },
+  {
+    "id": "sb-sl-107",
+    "difficulty": "easy",
+    "text": "Because urban populations have grown significantly over the past century, cities have had to ________.",
+    "choices": [
+      "expand their infrastructure and public services",
+      "reduce spending on education and healthcare",
+      "discourage immigration from rural areas",
+      "eliminate green spaces to save costs"
+    ],
+    "answer": 0,
+    "explanation": "Population growth in cities creates demand for expanded infrastructure and public services — this is the direct and logical consequence of urbanization.",
+    "wrongReasons": [
+      "B contradicts logic — more people require more services, not less spending on them.",
+      "C discouraging immigration would not address existing population growth already described.",
+      "D eliminating green spaces is not a necessary or logical response to population growth."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "social-science", "urbanization"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: גידול אוכלוסייה עירונית מוביל להרחבת תשתיות ושירותים ציבוריים. הרמז: 'because' מחבר גורם לתוצאה הגיונית.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sl-108",
+    "difficulty": "easy",
+    "text": "Unlike authoritarian governments, democratic systems tend to ________.",
+    "choices": [
+      "concentrate power in the hands of a single leader",
+      "allow citizens to participate in the political process",
+      "restrict freedom of speech and assembly",
+      "operate without formal legal frameworks"
+    ],
+    "answer": 1,
+    "explanation": "The defining feature of democracy is citizen participation in governance, making this the correct contrast with authoritarian systems.",
+    "wrongReasons": [
+      "A describes the authoritarian model being contrasted against, not democracy.",
+      "C is a characteristic of authoritarian regimes, not democratic systems.",
+      "D is inaccurate — democracies are typically governed by constitutional legal frameworks."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "social-science", "politics"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'בניגוד ל' מצביע על הנגדה — דמוקרטיה מאפשרת השתתפות אזרחית, בעוד אוטוריטריזם מגביל אותה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sl-109",
+    "difficulty": "medium",
+    "text": "Researchers found that students who were given autonomy over their learning schedules demonstrated ________ compared to those following rigid timetables.",
+    "choices": [
+      "greater motivation and self-regulation",
+      "lower academic performance overall",
+      "increased dependence on teacher feedback",
+      "a preference for passive learning strategies"
+    ],
+    "answer": 0,
+    "explanation": "Autonomy over learning schedules fosters intrinsic motivation and self-regulatory behavior — a well-established finding in educational psychology that contrasts with the outcomes of rigid timetables.",
+    "wrongReasons": [
+      "B contradicts research on autonomy-supported learning, which is associated with higher, not lower, academic performance.",
+      "C is the opposite of what autonomy produces — self-directed learners typically rely less on teacher feedback.",
+      "D passive learning contradicts the active, self-directed approach that autonomy encourages."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "education", "psychology"],
+    "vocabularyWords": ["autonomy", "self-regulation", "timetable"],
+    "hebrewExplanation": "הסבר: אוטונומיה בלמידה מגבירה מוטיבציה ויכולת ויסות עצמי. הרמז: 'compared to those following rigid timetables' מצביע על יתרון.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-110",
+    "difficulty": "medium",
+    "text": "Although the new drug showed promising results in laboratory settings, it was not approved for public use because it ________.",
+    "choices": [
+      "cost too much to manufacture at scale",
+      "failed to demonstrate safety in clinical trials",
+      "was developed by a foreign pharmaceutical company",
+      "had already been patented by a competitor"
+    ],
+    "answer": 1,
+    "explanation": "Drug approval requires demonstrated safety in clinical trials — failure at this stage is the legally and logically correct reason a promising lab drug would be denied public approval.",
+    "wrongReasons": [
+      "A manufacturing cost is not a regulatory basis for denying drug approval; safety and efficacy are.",
+      "C the country of origin is not a valid reason for regulatory rejection in standard pharmaceutical approval processes.",
+      "D patent status affects commercialization but not the safety-based approval process."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "medicine", "academic-argument"],
+    "vocabularyWords": ["clinical trials", "pharmaceutical", "regulatory"],
+    "hebrewExplanation": "הסבר: אישור תרופות מחייב הוכחת בטיחות בניסויים קליניים. הרמז: 'not approved... because' מצביע על כישלון בשלב הרגולציה.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-111",
+    "difficulty": "medium",
+    "text": "If global temperatures continue to rise at the current rate, coastal cities will likely face ________.",
+    "choices": [
+      "declining property values due to flooding risks",
+      "an increase in agricultural productivity",
+      "reduced demand for air conditioning systems",
+      "greater political stability in affected regions"
+    ],
+    "answer": 0,
+    "explanation": "Rising global temperatures accelerate ice melt and sea level rise, making flooding a direct threat to coastal cities and thereby reducing property values in vulnerable areas.",
+    "wrongReasons": [
+      "B agricultural productivity is harmed by extreme heat and irregular rainfall, not boosted by it.",
+      "C rising temperatures would increase, not reduce, demand for cooling systems.",
+      "D climate-related disasters typically destabilize rather than stabilize political systems."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "environment", "climate"],
+    "vocabularyWords": ["coastal", "flooding", "property values"],
+    "hebrewExplanation": "הסבר: עליית טמפרטורות גורמת להצפות ופוגעת בערך הנדל\"ן בערים חוף. הרמז: 'if... continue' מוביל לתוצאה שלילית.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-112",
+    "difficulty": "medium",
+    "text": "The report concluded that economic inequality tends to widen when ________.",
+    "choices": [
+      "progressive taxation policies are strengthened",
+      "access to quality education remains unevenly distributed",
+      "minimum wage legislation is regularly updated",
+      "social mobility programs receive increased funding"
+    ],
+    "answer": 1,
+    "explanation": "Uneven access to quality education perpetuates socioeconomic disparities across generations, making this the logically and empirically correct driver of widening inequality.",
+    "wrongReasons": [
+      "A progressive taxation is specifically designed to reduce inequality, not widen it.",
+      "C regular minimum wage updates help lower-income workers and tend to narrow inequality.",
+      "D increased funding for social mobility programs would reduce inequality, not widen it."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["conditional-logic", "economics", "social-science"],
+    "vocabularyWords": ["inequality", "progressive taxation", "social mobility"],
+    "hebrewExplanation": "הסבר: חינוך לא שוויוני מנציח פערים כלכליים. הרמז: 'tends to widen when' מצביע על גורם שמחריף אי-שוויון.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-113",
+    "difficulty": "medium",
+    "text": "Unlike short-term memory, which decays within seconds, long-term memory ________.",
+    "choices": [
+      "requires no cognitive effort to maintain",
+      "can store information for years or even a lifetime",
+      "is primarily used for processing sensory input",
+      "functions independently of emotional experience"
+    ],
+    "answer": 1,
+    "explanation": "The defining contrast between short-term and long-term memory is duration — long-term memory can persist for years or a lifetime, directly contrasting with the seconds-long decay of short-term memory.",
+    "wrongReasons": [
+      "A long-term memory requires encoding and consolidation effort; it does not maintain itself automatically.",
+      "C processing sensory input is the role of sensory memory, not long-term memory.",
+      "D research shows that emotional experiences significantly influence long-term memory formation."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "psychology", "cognitive-science"],
+    "vocabularyWords": ["short-term memory", "long-term memory", "cognitive"],
+    "hebrewExplanation": "הסבר: 'בניגוד ל' מצביע על הנגדה — זיכרון לטווח קצר מתפוגג, זיכרון לטווח ארוך נשמר שנים. הרמז: 'decays within seconds' vs. מה שמחזיק זמן רב.",
+    "estimatedTimeSeconds": 36
+  },
+  {
+    "id": "sb-sl-114",
+    "difficulty": "medium",
+    "text": "The scientist argued that her findings were inconclusive because the variables had not been ________.",
+    "choices": [
+      "adequately controlled throughout the study",
+      "presented at an international conference",
+      "analyzed by a competing research team",
+      "published in a peer-reviewed journal"
+    ],
+    "answer": 0,
+    "explanation": "Inadequate control of variables is a fundamental methodological flaw that makes experimental findings inconclusive — this is the direct and logical cause stated in the sentence.",
+    "wrongReasons": [
+      "B conference presentation is not a methodological requirement and does not affect the conclusiveness of findings.",
+      "C analysis by competitors is not a prerequisite for valid conclusions within a study.",
+      "D publication status does not determine whether results within a study are conclusive."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "academic-argument", "science"],
+    "vocabularyWords": ["inconclusive", "variables", "controlled"],
+    "hebrewExplanation": "הסבר: שליטה לקויה במשתנים היא הסיבה המדעית הישירה לממצאים לא חד-משמעיים. הרמז: 'because' מחבר פגם מתודולוגי לתוצאה.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-115",
+    "difficulty": "medium",
+    "text": "Only when organizations prioritize transparency in decision-making can they expect employees to ________.",
+    "choices": [
+      "demand higher compensation packages",
+      "develop genuine trust in leadership",
+      "reduce their productivity voluntarily",
+      "bypass established company policies"
+    ],
+    "answer": 1,
+    "explanation": "Transparency in organizational decision-making is a proven prerequisite for building employee trust — the conditional 'only when' signals that trust is the specific outcome that depends on this condition.",
+    "wrongReasons": [
+      "A compensation demands are driven by market factors, not by organizational transparency.",
+      "C transparency would increase, not reduce, employee motivation and productivity.",
+      "D bypassing policies reflects low trust, which is the opposite of what transparency fosters."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["conditional-logic", "workplace", "organizational-behavior"],
+    "vocabularyWords": ["transparency", "decision-making", "leadership"],
+    "hebrewExplanation": "הסבר: שקיפות ניהולית היא התנאי ליצירת אמון עובדים. הרמז: 'only when' מגדיר תנאי הכרחי לתוצאה חיובית.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-116",
+    "difficulty": "medium",
+    "text": "Because chronic stress impairs the immune system, individuals who experience prolonged stress are more susceptible to ________.",
+    "choices": [
+      "accelerated career advancement",
+      "infectious diseases and prolonged recovery times",
+      "improved concentration and mental clarity",
+      "decreased sensitivity to physical pain"
+    ],
+    "answer": 1,
+    "explanation": "Chronic stress weakening the immune system directly increases vulnerability to infections and slows recovery — this is the medically established causal outcome.",
+    "wrongReasons": [
+      "A career advancement is unrelated to immune function and contradicts the negative health premise.",
+      "C chronic stress impairs, rather than improves, concentration and mental clarity.",
+      "D stress is generally associated with increased pain sensitivity, not decreased sensitivity."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "medicine", "psychology"],
+    "vocabularyWords": ["chronic stress", "immune system", "susceptible"],
+    "hebrewExplanation": "הסבר: סטרס כרוני פוגע במערכת החיסון ומגביר רגישות למחלות. הרמז: 'because... impairs' מוביל לתוצאה בריאותית שלילית.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-117",
+    "difficulty": "medium",
+    "text": "The adoption of renewable energy sources is expected to ________ as the cost of solar and wind technology continues to decrease.",
+    "choices": [
+      "decline sharply in developed nations",
+      "accelerate significantly across global markets",
+      "remain limited to government-funded projects",
+      "face increasing regulatory opposition"
+    ],
+    "answer": 1,
+    "explanation": "Decreasing costs of solar and wind technology remove the primary economic barrier to adoption, making accelerated global uptake the logical and well-supported projection.",
+    "wrongReasons": [
+      "A declining adoption contradicts the economic logic — lower costs incentivize greater, not lesser, adoption.",
+      "C lower costs make renewables accessible to private markets, not restricted to government projects.",
+      "D decreased costs remove barriers and typically reduce rather than generate regulatory opposition."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "environment", "economics"],
+    "vocabularyWords": ["renewable energy", "solar", "regulatory"],
+    "hebrewExplanation": "הסבר: ירידת עלויות טכנולוגיה מתחדשת מזרזת את אימוצה בשוק הגלובלי. הרמז: 'as the cost continues to decrease' = תנאי שמוביל לצמיחה.",
+    "estimatedTimeSeconds": 36
+  },
+  {
+    "id": "sb-sl-118",
+    "difficulty": "medium",
+    "text": "Although the policy was initially unpopular, public support grew once citizens ________.",
+    "choices": [
+      "received detailed information about its long-term benefits",
+      "realized that taxes would be increased significantly",
+      "observed that neighboring countries had rejected it",
+      "learned that implementation would begin immediately"
+    ],
+    "answer": 0,
+    "explanation": "Public opposition often stems from lack of information — once citizens understand the long-term benefits of a policy, support logically increases, explaining the shift described in the sentence.",
+    "wrongReasons": [
+      "B learning about tax increases would sustain or intensify opposition, not build support.",
+      "C rejection by neighboring countries would likely reinforce opposition, not convert it to support.",
+      "D immediate implementation alone provides no new information to change opinion."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "social-science", "politics"],
+    "vocabularyWords": ["unpopular", "policy", "implementation"],
+    "hebrewExplanation": "הסבר: תמיכה ציבורית גדלה כאשר אזרחים מקבלים מידע על היתרונות לטווח ארוך. הרמז: 'once citizens...' מצביע על סיבה לשינוי עמדה.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-119",
+    "difficulty": "medium",
+    "text": "Unlike economies driven by manufacturing, service-based economies tend to rely more heavily on ________.",
+    "choices": [
+      "the extraction of raw materials",
+      "human capital and intellectual skills",
+      "physical infrastructure such as ports and railways",
+      "commodity exports to international markets"
+    ],
+    "answer": 1,
+    "explanation": "Service-based economies generate value through knowledge, expertise, and human capabilities rather than physical production — making human capital the defining resource of such economies.",
+    "wrongReasons": [
+      "A raw material extraction is a hallmark of resource-based or manufacturing economies, not service economies.",
+      "C physical infrastructure like ports and railways supports manufacturing and trade, not primarily service industries.",
+      "D commodity exports are characteristic of manufacturing and resource-extraction economies."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "economics", "academic-vocabulary"],
+    "vocabularyWords": ["manufacturing", "service-based", "human capital"],
+    "hebrewExplanation": "הסבר: 'בניגוד ל' מצביע על הנגדה — כלכלות שירותים מסתמכות על הון אנושי, לא על ייצור פיזי.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-120",
+    "difficulty": "medium",
+    "text": "If a student fails to develop strong critical thinking skills, they may struggle to ________.",
+    "choices": [
+      "memorize large volumes of factual information",
+      "evaluate the credibility of sources and arguments",
+      "follow instructions given by their teachers",
+      "complete assignments within scheduled deadlines"
+    ],
+    "answer": 1,
+    "explanation": "Critical thinking is specifically the skill used to assess the validity and credibility of information — without it, evaluating sources and arguments becomes the area of greatest difficulty.",
+    "wrongReasons": [
+      "A memorization is a rote skill that does not require critical thinking to perform.",
+      "C following instructions is a comprehension and compliance task unrelated to critical thinking.",
+      "D meeting deadlines is a time-management skill, not a critical thinking function."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "education", "academic-argument"],
+    "vocabularyWords": ["critical thinking", "credibility", "evaluate"],
+    "hebrewExplanation": "הסבר: חשיבה ביקורתית נחוצה כדי להעריך אמינות מקורות. הרמז: 'if... fails to develop' מוביל לחולשה ספציפית.",
+    "estimatedTimeSeconds": 36
+  },
+  {
+    "id": "sb-sl-121",
+    "difficulty": "medium",
+    "text": "The professor noted that many students struggle with academic writing not because they lack ideas, but because they ________.",
+    "choices": [
+      "have difficulty organizing and expressing them coherently",
+      "are unwilling to attend class regularly",
+      "prefer to submit assignments without proofreading",
+      "rely too heavily on feedback from their peers"
+    ],
+    "answer": 0,
+    "explanation": "The sentence explicitly separates the lack of ideas from the actual problem — the logical completion is difficulty with organization and expression, which is distinct from idea generation.",
+    "wrongReasons": [
+      "B class attendance is irrelevant to the specific writing problem described in the sentence.",
+      "C skipping proofreading is a superficial behavior and does not explain the underlying writing struggle.",
+      "D peer feedback reliance is not a cause of writing difficulty; it could even be beneficial."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "education", "sentence-completion"],
+    "vocabularyWords": ["coherently", "academic writing", "organizing"],
+    "hebrewExplanation": "הסבר: 'not because... but because' מגדיר את הסיבה האמיתית — לא חוסר רעיונות אלא קושי בארגון ובביטוי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-122",
+    "difficulty": "medium",
+    "text": "In competitive markets, businesses that fail to innovate risk ________.",
+    "choices": [
+      "attracting a more loyal customer base",
+      "losing market share to more adaptive competitors",
+      "benefiting from reduced regulatory scrutiny",
+      "increasing their profit margins over time"
+    ],
+    "answer": 1,
+    "explanation": "Failure to innovate in a competitive market means falling behind competitors who do adapt — losing market share is the direct and logical commercial consequence.",
+    "wrongReasons": [
+      "A customer loyalty typically follows quality and innovation, not the absence of it.",
+      "C there is no logical link between failing to innovate and reduced regulatory oversight.",
+      "D profit margins would decline, not increase, as the business loses competitive ground."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "economics", "workplace"],
+    "vocabularyWords": ["innovate", "competitive", "market share"],
+    "hebrewExplanation": "הסבר: אי-חדשנות בשוק תחרותי גורמת לאובדן נתח שוק. הרמז: 'risk' מרמז על תוצאה שלילית.",
+    "estimatedTimeSeconds": 36
+  },
+  {
+    "id": "sb-sl-123",
+    "difficulty": "medium",
+    "text": "The anthropologist concluded that cultural practices are best understood when they are studied ________.",
+    "choices": [
+      "in isolation from the societies that produce them",
+      "through the lens of the researcher's own cultural values",
+      "within the social and historical context in which they exist",
+      "exclusively through quantitative data and statistical models"
+    ],
+    "answer": 2,
+    "explanation": "Cultural practices are shaped by their social and historical contexts — studying them within these contexts is the foundational methodological principle of anthropology.",
+    "wrongReasons": [
+      "A isolating practices from their societies strips away the contextual meaning that makes them understandable.",
+      "B applying the researcher's own cultural values introduces ethnocentrism, a recognized methodological flaw.",
+      "D quantitative models alone cannot capture the symbolic and social dimensions of cultural practices."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "social-science", "methodology"],
+    "vocabularyWords": ["anthropologist", "cultural practices", "quantitative"],
+    "hebrewExplanation": "הסבר: פרקטיקות תרבותיות מובנות בצורה הטובה ביותר בתוך ההקשר החברתי וההיסטורי שלהן. הרמז: המסקנה של האנתרופולוג מצביעה על גישה הוליסטית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-124",
+    "difficulty": "medium",
+    "text": "Because automation is replacing routine jobs, workers in many industries are under increasing pressure to ________.",
+    "choices": [
+      "acquire skills that machines cannot easily replicate",
+      "accept lower wages to remain competitive",
+      "reduce their working hours voluntarily",
+      "abandon technical training in favor of manual labor"
+    ],
+    "answer": 0,
+    "explanation": "When machines replace routine tasks, the logical response for workers is to develop uniquely human skills — creativity, complex problem-solving, and interpersonal abilities — that automation cannot replicate.",
+    "wrongReasons": [
+      "B wage reduction is not a skills-based or structural solution and does not address the automation threat.",
+      "C reducing hours does not address displacement from automation and has no logical connection.",
+      "D abandoning technical training contradicts what is needed; more advanced skills are required, not fewer."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "technology", "workplace"],
+    "vocabularyWords": ["automation", "replicate", "routine"],
+    "hebrewExplanation": "הסבר: אוטומציה מחייבת עובדים לפתח מיומנויות שמכונות אינן יכולות לשכפל. הרמז: 'because automation is replacing' מוביל לצורך בהסתגלות.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-125",
+    "difficulty": "medium",
+    "text": "The therapist explained that effective communication in relationships requires not only speaking clearly but also ________.",
+    "choices": [
+      "dominating the conversation to ensure clarity",
+      "actively listening and acknowledging the other person's perspective",
+      "avoiding emotionally charged topics altogether",
+      "summarizing the discussion in written form afterward"
+    ],
+    "answer": 1,
+    "explanation": "Effective communication is bidirectional — the sentence uses 'not only... but also' to signal that a complementary skill is needed, and active listening is the established communicative counterpart to speaking clearly.",
+    "wrongReasons": [
+      "A dominating conversation undermines mutual communication and contradicts therapeutic principles.",
+      "C avoiding emotional topics would limit communication, not enhance it.",
+      "D written summaries are a follow-up tool, not a core component of effective interpersonal communication."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "psychology", "sentence-completion"],
+    "vocabularyWords": ["effective communication", "perspective", "acknowledging"],
+    "hebrewExplanation": "הסבר: 'not only... but also' מצביע על רכיב משלים — האזנה פעילה היא המשלים הטבעי לדיבור ברור.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-126",
+    "difficulty": "medium",
+    "text": "Countries with higher levels of public investment in early childhood education tend to experience ________.",
+    "choices": [
+      "greater long-term economic productivity and lower social inequality",
+      "declining birth rates due to increased dependency on institutions",
+      "reduced parental engagement in children's academic development",
+      "higher rates of youth unemployment in later decades"
+    ],
+    "answer": 0,
+    "explanation": "Research consistently shows that early childhood education yields long-term economic and social benefits, including improved productivity and reduced inequality — this is the established policy outcome.",
+    "wrongReasons": [
+      "B birth rates are influenced by many factors; no evidence links public early education to declining birth rates.",
+      "C quality early education programs often increase, not reduce, parental engagement.",
+      "D investment in early education is associated with lower, not higher, youth unemployment through better preparation."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "education", "economics"],
+    "vocabularyWords": ["public investment", "early childhood", "productivity"],
+    "hebrewExplanation": "הסבר: השקעה בחינוך בגיל הרך מביאה לפרודוקטיביות כלכלית ולפחות אי-שוויון לאורך זמן. הרמז: 'tend to experience' מצביע על תוצאה מוכחת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-127",
+    "difficulty": "medium",
+    "text": "When the organization failed to address internal conflicts promptly, team cohesion ________ and overall performance declined.",
+    "choices": [
+      "strengthened as employees sought common ground",
+      "remained unchanged despite the tensions present",
+      "deteriorated as trust among members eroded",
+      "improved due to increased competitive pressure"
+    ],
+    "answer": 2,
+    "explanation": "Unresolved internal conflicts erode trust, which directly undermines team cohesion — the sentence then logically links this to declining performance, confirming that deterioration is the correct outcome.",
+    "wrongReasons": [
+      "A conflict without resolution rarely leads to cohesion; common ground requires active mediation.",
+      "B the sentence implies a negative change ('performance declined'), so cohesion could not have remained unchanged.",
+      "D competitive pressure among conflicting team members would worsen cohesion, not improve it."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "workplace", "organizational-behavior"],
+    "vocabularyWords": ["cohesion", "deteriorated", "eroded"],
+    "hebrewExplanation": "הסבר: קונפליקטים לא פתורים פוגעים בגיבוש הצוות ומדרדרים את הביצועים. הרמז: 'and overall performance declined' מאשר תוצאה שלילית.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-128",
+    "difficulty": "medium",
+    "text": "Unlike traditional classroom settings, online learning environments often require students to take greater responsibility for ________.",
+    "choices": [
+      "complying with strict attendance policies",
+      "managing their own time and learning pace",
+      "participating in structured group activities",
+      "receiving direct instruction from subject experts"
+    ],
+    "answer": 1,
+    "explanation": "Online learning lacks the external structure of traditional classrooms, so students must self-manage time and pace — this is the defining characteristic that distinguishes online from in-person education.",
+    "wrongReasons": [
+      "A strict attendance policies are more characteristic of traditional classrooms, not flexible online environments.",
+      "C structured group activities are more common in traditional classroom settings with physical proximity.",
+      "D direct instruction from experts occurs in both settings; it is not the distinguishing responsibility of online learners."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "education", "technology"],
+    "vocabularyWords": ["online learning", "self-management", "attendance"],
+    "hebrewExplanation": "הסבר: 'בניגוד ל' מצביע על הנגדה — למידה מקוונת דורשת אחריות עצמית יותר לניהול זמן ולקצב הלמידה.",
+    "estimatedTimeSeconds": 36
+  },
+  {
+    "id": "sb-sl-129",
+    "difficulty": "medium",
+    "text": "The study revealed that patients who maintained a positive outlook during recovery were more likely to ________.",
+    "choices": [
+      "report higher pain levels than pessimistic patients",
+      "adhere to treatment protocols and recover more quickly",
+      "require more frequent medical interventions",
+      "develop secondary complications after discharge"
+    ],
+    "answer": 1,
+    "explanation": "A positive outlook is consistently linked in medical literature to better treatment adherence and faster recovery times — this is the psychologically and medically supported outcome.",
+    "wrongReasons": [
+      "A research indicates that positive affect is associated with lower, not higher, perceived pain levels.",
+      "C a positive outlook reduces, not increases, the need for frequent medical interventions.",
+      "D developing secondary complications contradicts the premise that a positive outlook supports recovery."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "medicine", "psychology"],
+    "vocabularyWords": ["positive outlook", "adhere", "treatment protocols"],
+    "hebrewExplanation": "הסבר: השקפה חיובית מגבירה היענות לטיפול ומאיצה התאוששות. הרמז: 'more likely to' מצביע על תוצאה חיובית.",
+    "estimatedTimeSeconds": 38
+  },
+  {
+    "id": "sb-sl-130",
+    "difficulty": "medium",
+    "text": "If a society's infrastructure is neglected for decades, it becomes increasingly difficult to ________.",
+    "choices": [
+      "attract foreign investment and sustain economic growth",
+      "implement new environmental protection laws",
+      "regulate private sector competition effectively",
+      "measure public satisfaction through surveys"
+    ],
+    "answer": 0,
+    "explanation": "Deteriorating infrastructure signals instability and increases operational costs, deterring foreign investors and stifling economic growth — this is the direct and well-established consequence of prolonged neglect.",
+    "wrongReasons": [
+      "B implementing environmental laws is a legislative process not directly dependent on infrastructure quality.",
+      "C private sector regulation is a governance function unrelated to the state of physical infrastructure.",
+      "D public satisfaction surveys can be conducted regardless of infrastructure conditions."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "economics", "social-science"],
+    "vocabularyWords": ["infrastructure", "foreign investment", "sustain"],
+    "hebrewExplanation": "הסבר: תשתית מוזנחת מרתיעה השקעות זרות ומעכבת צמיחה כלכלית. הרמז: 'if... neglected for decades' = תוצאה כלכלית ארוכת טווח.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-131",
+    "difficulty": "medium",
+    "text": "The sociologist argued that social norms serve an important function because they ________.",
+    "choices": [
+      "guarantee equal treatment for all members of a society",
+      "provide shared expectations that enable predictable social interaction",
+      "eliminate the need for formal legal enforcement mechanisms",
+      "prevent individuals from forming independent opinions"
+    ],
+    "answer": 1,
+    "explanation": "Social norms function by establishing shared behavioral expectations, which allow members of a society to predict each other's actions and coordinate effectively — this is the classical sociological explanation of their purpose.",
+    "wrongReasons": [
+      "A social norms do not guarantee equality; they can reflect and reinforce existing inequalities.",
+      "C norms and laws serve complementary but distinct functions; norms do not eliminate the need for legal systems.",
+      "D norms shape, but do not prevent, individual opinion formation — people can conform outwardly while dissenting privately."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "social-science", "causal-logic"],
+    "vocabularyWords": ["social norms", "predictable", "enforcement"],
+    "hebrewExplanation": "הסבר: נורמות חברתיות מספקות ציפיות משותפות שמאפשרות אינטראקציה חברתית צפויה. הרמז: 'serve an important function because' מוביל לנימוק פונקציונלי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-132",
+    "difficulty": "medium",
+    "text": "Although the two researchers reached different conclusions, both agreed that further investigation was necessary to ________.",
+    "choices": [
+      "confirm whether either set of findings could be replicated",
+      "determine which researcher should receive academic credit",
+      "eliminate the need for additional peer review",
+      "prove that the original hypothesis had been correct"
+    ],
+    "answer": 0,
+    "explanation": "When findings diverge, the standard scientific response is to call for replication studies — this is the logically consistent next step that both researchers could agree on regardless of their differing conclusions.",
+    "wrongReasons": [
+      "B credit allocation is an administrative concern, not a scientific one, and would not be the basis of joint agreement.",
+      "C additional investigation would generate more material for peer review, not eliminate it.",
+      "D proving one specific hypothesis correct is not something both could agree on given their different conclusions."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "science", "sentence-completion"],
+    "vocabularyWords": ["replicated", "investigation", "peer review"],
+    "hebrewExplanation": "הסבר: כאשר שני חוקרים מגיעים למסקנות שונות, הם יכולים להסכים שיש צורך בשכפול הממצאים. הרמז: 'both agreed' מצביע על נקודת הסכמה מדעית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-133",
+    "difficulty": "medium",
+    "text": "Governments that consistently underfund mental health services may find that ________.",
+    "choices": [
+      "citizens develop stronger social support networks independently",
+      "long-term economic costs from untreated disorders increase substantially",
+      "private healthcare providers voluntarily fill the funding gap",
+      "demand for psychiatric medication decreases over time"
+    ],
+    "answer": 1,
+    "explanation": "Untreated mental health disorders lead to lost productivity, increased hospitalization, and higher social welfare costs — chronic underfunding therefore drives long-term economic costs upward, a well-documented policy consequence.",
+    "wrongReasons": [
+      "A while informal networks exist, they cannot adequately substitute for professional mental health services.",
+      "C private providers may step in partially, but this is not guaranteed and does not benefit those who cannot pay.",
+      "D demand for psychiatric medication does not decrease when services are underfunded; unmet need typically rises."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["consequential-logic", "medicine", "economics"],
+    "vocabularyWords": ["mental health", "underfund", "untreated"],
+    "hebrewExplanation": "הסבר: מימון חסר של שירותי בריאות נפשית מגדיל עלויות כלכליות לטווח ארוך. הרמז: 'consistently underfund... may find that' = תוצאה שלילית מצטברת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-134",
+    "difficulty": "medium",
+    "text": "The effectiveness of a public health campaign depends largely on whether the message ________.",
+    "choices": [
+      "is endorsed by celebrities with large social media followings",
+      "resonates with the cultural values and concerns of the target audience",
+      "is broadcast simultaneously in all available media channels",
+      "avoids any reference to potentially sensitive health topics"
+    ],
+    "answer": 1,
+    "explanation": "Public health communication research emphasizes cultural resonance as the key determinant of campaign effectiveness — messages aligned with the audience's values and concerns drive behavior change.",
+    "wrongReasons": [
+      "A celebrity endorsements can help reach audiences but are not the primary determinant of effectiveness.",
+      "C simultaneous broadcast on all channels addresses reach, not whether the message actually works.",
+      "D avoiding sensitive topics would undermine health campaigns, which often must address exactly those topics."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "medicine", "social-science"],
+    "vocabularyWords": ["public health", "resonates", "target audience"],
+    "hebrewExplanation": "הסבר: הצלחת קמפיין בריאות תלויה בהתאמה תרבותית של המסר לקהל היעד. הרמז: 'depends largely on whether' מצביע על הגורם הקריטי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-sl-135",
+    "difficulty": "hard",
+    "text": "Only when empirical evidence is systematically gathered and critically appraised can scientific claims be considered ________, rather than mere conjecture.",
+    "choices": [
+      "commercially viable for industrial application",
+      "epistemologically defensible within the academic community",
+      "accessible to members of the general public",
+      "exempt from the process of peer evaluation"
+    ],
+    "answer": 1,
+    "explanation": "The sentence frames the collection and appraisal of evidence as the prerequisite for moving from conjecture to legitimate scientific knowledge — 'epistemologically defensible' is the precise academic term for claims that can be justified through evidence.",
+    "wrongReasons": [
+      "A commercial viability is an applied outcome unrelated to the epistemological status of a scientific claim.",
+      "C public accessibility is a communication goal, not a criterion for evaluating the validity of scientific claims.",
+      "D exemption from peer evaluation contradicts the very process of critical appraisal mentioned in the sentence."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["conditional-logic", "academic-argument", "epistemology"],
+    "vocabularyWords": ["empirical", "appraised", "epistemologically", "conjecture"],
+    "hebrewExplanation": "הסבר: 'only when' מגדיר תנאי — ראיות אמפיריות הן הדרישה להפוך טענה מהשערה לידיעה מוצדקת אפיסטמולוגית. הרמז: 'rather than mere conjecture' = ניגוד בין ידע לגישוש.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-sl-136",
+    "difficulty": "hard",
+    "text": "The economist argued that fiscal austerity measures, while intended to reduce public debt, often ________ by suppressing the aggregate demand that drives recovery.",
+    "choices": [
+      "stimulate private sector investment through reduced government borrowing",
+      "exacerbate the very economic conditions they were designed to alleviate",
+      "demonstrate the government's commitment to long-term fiscal responsibility",
+      "encourage international lenders to offer more favorable loan terms"
+    ],
+    "answer": 1,
+    "explanation": "Austerity reduces government spending, which lowers aggregate demand and slows the economy — this paradox, where the cure worsens the disease, is the central critique of austerity the economist is articulating.",
+    "wrongReasons": [
+      "A austerity does not directly stimulate private investment; reduced demand often discourages business spending.",
+      "C demonstrating commitment is a political optics outcome, not an economic effect on recovery conditions.",
+      "D favorable loan terms are influenced by many factors; suppressing demand does not straightforwardly attract lenders."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "economics", "academic-argument"],
+    "vocabularyWords": ["fiscal austerity", "aggregate demand", "exacerbate", "alleviate"],
+    "hebrewExplanation": "הסבר: צנע פיסקלי מדכא ביקוש מצרפי ובכך מחמיר את המצב הכלכלי שניסה לרפא. הרמז: 'while intended to... often' = פרדוקס של מדיניות.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-sl-137",
+    "difficulty": "hard",
+    "text": "Because cognitive biases operate largely below the threshold of conscious awareness, individuals who believe themselves to be rational decision-makers may be ________.",
+    "choices": [
+      "the most susceptible to systematic errors in judgment",
+      "better equipped to recognize flawed reasoning in others",
+      "more likely to seek external validation before committing to a decision",
+      "resistant to persuasion techniques used in marketing"
+    ],
+    "answer": 0,
+    "explanation": "The irony of cognitive bias is that overconfidence in one's rationality can make a person less vigilant about bias — those most certain of their objectivity are often the least protected against systematic errors.",
+    "wrongReasons": [
+      "B recognizing bias in others is not directly impeded by one's own biases and is unrelated to the stated premise.",
+      "C seeking external validation is a behavior associated with low confidence, contradicting the premise of believing oneself rational.",
+      "D cognitive biases make individuals more, not less, susceptible to marketing and persuasion techniques."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "psychology", "cognitive-science"],
+    "vocabularyWords": ["cognitive biases", "threshold", "susceptible", "systematic"],
+    "hebrewExplanation": "הסבר: האמונה ברציונליות עצמית עלולה להגביר פגיעות להטיות קוגניטיביות. הרמז: 'because... below conscious awareness' = מה שאינך רואה מסוכן יותר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-sl-138",
+    "difficulty": "hard",
+    "text": "Unlike positivist approaches that privilege quantifiable data, interpretivist research frameworks are designed to ________ the subjective meanings that individuals attach to their social experiences.",
+    "choices": [
+      "systematically challenge and disconfirm",
+      "reduce to measurable behavioral outputs",
+      "capture, interpret, and understand",
+      "exclude in favor of generalizable statistical findings"
+    ],
+    "answer": 2,
+    "explanation": "Interpretivist frameworks are defined by their focus on understanding subjective meaning from the participant's perspective — capturing and interpreting such meanings is the central methodological purpose of this research tradition.",
+    "wrongReasons": [
+      "A challenging and disconfirming subjective meanings is a positivist or critical realist goal, not an interpretivist one.",
+      "B reducing experience to behavioral outputs is a behaviorist or positivist approach that contradicts interpretivist principles.",
+      "D exclusion of subjective data in favor of statistical generalization is precisely what interpretivism opposes."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "social-science", "methodology"],
+    "vocabularyWords": ["positivist", "interpretivist", "subjective", "quantifiable"],
+    "hebrewExplanation": "הסבר: 'בניגוד ל' מגדיר ניגוד — גישה פרשנית מיועדת להבין משמעות סובייקטיבית, לא לכמת אותה. הרמז: הנגדה בין שתי פרדיגמות מחקר.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-sl-139",
+    "difficulty": "hard",
+    "text": "The principle of diminishing marginal utility suggests that, as a consumer acquires successive units of the same good, each additional unit ________.",
+    "choices": [
+      "generates proportionally greater economic value to the producer",
+      "yields progressively less satisfaction to the consumer",
+      "triggers an equivalent increase in the consumer's willingness to pay",
+      "results in a corresponding expansion of market supply"
+    ],
+    "answer": 1,
+    "explanation": "Diminishing marginal utility is defined as the decreasing satisfaction derived from each additional unit of a good consumed — choice B directly states this principle.",
+    "wrongReasons": [
+      "A the principle concerns consumer satisfaction, not producer economic value — this is a category error.",
+      "C diminishing marginal utility predicts declining, not equivalent or increasing, willingness to pay for successive units.",
+      "D market supply is determined by producers and is not a consequence of individual consumer utility patterns."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "economics", "sentence-completion"],
+    "vocabularyWords": ["diminishing marginal utility", "successive", "willingness to pay"],
+    "hebrewExplanation": "הסבר: עיקרון התועלת השולית הפוחתת — כל יחידה נוספת מספקת פחות שביעות רצון. הרמז: 'successive units' + 'each additional unit' = הקשר כלכלי ישיר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-sl-140",
+    "difficulty": "hard",
+    "text": "If a legal system fails to ensure that its procedures are applied consistently regardless of the defendant's social status, it undermines the foundational principle of ________.",
+    "choices": [
+      "prosecutorial discretion in determining charges",
+      "equality before the law and procedural justice",
+      "judicial independence from legislative oversight",
+      "the presumption of innocence in criminal proceedings"
+    ],
+    "answer": 1,
+    "explanation": "The requirement that law applies equally to all, regardless of social status, is the essence of equality before the law and procedural justice — inconsistent application based on status directly violates this principle.",
+    "wrongReasons": [
+      "A prosecutorial discretion refers to charging decisions, not the consistency of procedural application described.",
+      "C judicial independence concerns the separation of powers, not equal application of procedure to all defendants.",
+      "D the presumption of innocence is a specific evidentiary standard, not the principle governing consistent procedural application."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["conditional-logic", "social-science", "academic-argument"],
+    "vocabularyWords": ["procedural justice", "defendant", "prosecutorial discretion"],
+    "hebrewExplanation": "הסבר: יישום לא עקבי של הנהלים על בסיס מעמד חברתי פוגע בעקרון השוויון בפני החוק. הרמז: 'if... fails to ensure consistency regardless of status' = עיקרון יסוד שנפגע.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-sl-141",
+    "difficulty": "hard",
+    "text": "The neuroscientist noted that neuroplasticity — the brain's ability to reorganize itself — implies that cognitive rehabilitation is most effective when ________.",
+    "choices": [
+      "initiated as early as possible following neurological injury",
+      "administered exclusively through pharmacological intervention",
+      "delayed until the patient has stabilized physically",
+      "confined to tasks that do not challenge existing neural pathways"
+    ],
+    "answer": 0,
+    "explanation": "Neuroplasticity is most robust in the period immediately following injury — early intervention capitalizes on this window of heightened neural reorganization, making early initiation the logically supported clinical approach.",
+    "wrongReasons": [
+      "B pharmacological intervention alone does not engage the activity-dependent mechanisms of neuroplasticity.",
+      "C delaying rehabilitation misses the critical window of neuroplastic change immediately following injury.",
+      "D challenging existing pathways is the mechanism of neuroplasticity; confining tasks to easy activities would inhibit reorganization."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["conditional-logic", "medicine", "cognitive-science"],
+    "vocabularyWords": ["neuroplasticity", "cognitive rehabilitation", "pharmacological"],
+    "hebrewExplanation": "הסבר: נוירופלסטיות חזקה ביותר מיד לאחר פגיעה — התערבות מוקדמת מנצלת חלון זמן קריטי. הרמז: 'most effective when' = תנאי אופטימלי.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-sl-142",
+    "difficulty": "hard",
+    "text": "Critics of globalization contend that, despite its role in expanding economic growth, it has simultaneously ________ local cultural identities by accelerating the spread of homogenized consumer culture.",
+    "choices": [
+      "reinforced and preserved",
+      "commodified and marginalized",
+      "diversified and enriched",
+      "documented and archived"
+    ],
+    "answer": 1,
+    "explanation": "The critical argument against globalization is that it treats culture as a commodity and displaces local identities through the dominance of standardized consumer culture — 'commodified and marginalized' precisely captures this critique.",
+    "wrongReasons": [
+      "A reinforcing and preserving local identities is the opposite of the critical position being articulated.",
+      "C 'diversified and enriched' represents a pro-globalization view that contradicts the critical argument the sentence presents.",
+      "D documenting and archiving are passive preservation activities unrelated to globalization's cultural impact."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "social-science", "economics"],
+    "vocabularyWords": ["globalization", "homogenized", "commodified", "marginalized"],
+    "hebrewExplanation": "הסבר: המבקרים טוענים שגלובליזציה מסחרת זהויות מקומיות ומשולית אותן מול תרבות צרכנית אחידה. הרמז: 'simultaneously' + 'despite its role' = ביקורת על תופעת לוואי שלילית.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-sl-143",
+    "difficulty": "hard",
+    "text": "Because language acquisition in early childhood involves both innate biological mechanisms and environmental input, a purely nativist account of language development is considered ________.",
+    "choices": [
+      "a comprehensive explanation of second language learning",
+      "incompatible with evidence from bilingual research",
+      "insufficient on its own to account for the full complexity of the process",
+      "inconsistent with Chomsky's universal grammar hypothesis"
+    ],
+    "answer": 2,
+    "explanation": "The sentence explicitly states that both innate mechanisms and environmental input are involved — this directly implies that a purely nativist account, which attributes language to biology alone, is insufficient to explain the full picture.",
+    "wrongReasons": [
+      "A a purely nativist account does not address second language learning comprehensively and would not be described as comprehensive.",
+      "B Chomsky's nativism actually aligns with some bilingual research; the issue is its incompleteness, not incompatibility.",
+      "D the nativist account is derived from Chomsky's universal grammar — they are the same position, not inconsistent with each other."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "psychology", "academic-argument"],
+    "vocabularyWords": ["nativist", "innate", "environmental input", "acquisition"],
+    "hebrewExplanation": "הסבר: הסבר נייטיביסטי בלעדי אינו מספיק כי הוא מתעלם מהתשומה הסביבתית החיונית. הרמז: 'both... and' = גורמים כפולים שהסבר חלקי לא יכול לכסות.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-sl-144",
+    "difficulty": "hard",
+    "text": "The philosopher argued that genuine moral agency requires not merely the capacity to follow rules, but also the ability to ________.",
+    "choices": [
+      "adhere consistently to institutionally prescribed behavioral codes",
+      "calculate outcomes with mathematical precision before acting",
+      "critically evaluate the ethical foundations of those rules themselves",
+      "defer to recognized moral authorities in moments of uncertainty"
+    ],
+    "answer": 2,
+    "explanation": "Genuine moral agency, as opposed to mere rule-following, requires autonomous ethical reasoning — including the reflective capacity to question and evaluate the very rules one is following, not just comply with them.",
+    "wrongReasons": [
+      "A adhering to institutional codes describes rule-following, which is the starting point being contrasted against, not surpassed.",
+      "B mathematical calculation of outcomes describes consequentialism mechanically, not the reflective moral agency being argued for.",
+      "D deferring to moral authorities is a form of heteronomy — dependency on others — which contradicts the autonomy that genuine moral agency requires."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-argument", "social-science", "conditional-logic"],
+    "vocabularyWords": ["moral agency", "ethical foundations", "heteronomy", "autonomous"],
+    "hebrewExplanation": "הסבר: 'not merely... but also' מצביע על יכולת גבוהה יותר — סוכנות מוסרית אמיתית דורשת יכולת הערכה ביקורתית של הכללים עצמם.",
+    "estimatedTimeSeconds": 54
+  },
+  {
+    "id": "sb-sl-145",
+    "difficulty": "hard",
+    "text": "In epidemiology, correlation between two variables does not establish causation because ________.",
+    "choices": [
+      "statistical associations are always the result of measurement error",
+      "a third confounding variable may explain the relationship independently",
+      "causation can only be inferred from experimental data collected prospectively",
+      "population-level data are inherently less reliable than individual case studies"
+    ],
+    "answer": 1,
+    "explanation": "The classic reason correlation does not imply causation is the possible presence of a confounding variable — an unmeasured factor that influences both variables, creating an apparent but spurious association between them.",
+    "wrongReasons": [
+      "A statistical associations are not always due to measurement error; many are genuine but non-causal correlations.",
+      "C while experimental designs strengthen causal inference, prospective data alone is not the defining criterion — confounding is.",
+      "D population-level data is widely used in epidemiology and is not inherently less reliable than case studies."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "science", "academic-argument"],
+    "vocabularyWords": ["epidemiology", "confounding variable", "correlation", "causation"],
+    "hebrewExplanation": "הסבר: משתנה מבלבל (confound) עשוי להסביר קשר לכאורה בין שתי משתנים בצורה עצמאית. הרמז: 'does not establish causation because' = סיבה מתודולוגית ישירה.",
+    "estimatedTimeSeconds": 52
+  },
+  {
+    "id": "sb-sl-146",
+    "difficulty": "hard",
+    "text": "Unlike welfare states that provide universal benefits regardless of income, means-tested programs allocate resources only to those who ________, thereby targeting public expenditure more narrowly.",
+    "choices": [
+      "have demonstrated a history of civic engagement",
+      "fall below a specified threshold of financial need",
+      "reside in regions designated as economically underdeveloped",
+      "have applied for assistance through formal administrative channels"
+    ],
+    "answer": 1,
+    "explanation": "'Means-tested' programs are defined by eligibility based on income or wealth below a set threshold — this definition is directly expressed in the sentence's contrast with universal benefit systems.",
+    "wrongReasons": [
+      "A civic engagement is not a criterion used in means-tested eligibility determinations.",
+      "C geographic residence may be a supplementary criterion in some programs but is not the defining feature of means-testing.",
+      "D formal application may be required procedurally but is not the criterion that makes a program 'means-tested.'"
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["comparative-logic", "economics", "social-science"],
+    "vocabularyWords": ["means-tested", "threshold", "welfare state", "expenditure"],
+    "hebrewExplanation": "הסבר: תוכניות 'means-tested' מותנות בסף הכנסה — זוהי ההגדרה הישירה המובלטת בניגוד לתגמולים אוניברסליים. הרמז: 'thereby targeting... more narrowly' = צמצום לבעלי צורך מוכח.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-sl-147",
+    "difficulty": "hard",
+    "text": "Because deforestation disrupts the carbon cycle by removing trees that absorb CO₂, large-scale forest loss is expected to ________ the rate of atmospheric warming.",
+    "choices": [
+      "mitigate and reverse",
+      "have no measurable effect on",
+      "accelerate and intensify",
+      "stabilize by releasing stored moisture"
+    ],
+    "answer": 2,
+    "explanation": "Removing CO₂-absorbing trees reduces the planet's carbon sink capacity while releasing stored carbon, both of which increase atmospheric CO₂ concentration and thereby accelerate warming.",
+    "wrongReasons": [
+      "A mitigating and reversing warming is the opposite of deforestation's effect; this would describe reforestation.",
+      "B there is substantial empirical evidence that large-scale deforestation measurably affects atmospheric CO₂ levels.",
+      "D releasing stored moisture is a hydrological effect of deforestation, but it does not stabilize warming — it contributes to regional climate disruption."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "environment", "science"],
+    "vocabularyWords": ["deforestation", "carbon cycle", "atmospheric", "mitigate"],
+    "hebrewExplanation": "הסבר: כריתת יערות מפחיתה ספיגת CO₂ ומאיצה את התחממות האטמוספרה. הרמז: 'because deforestation disrupts the carbon cycle' = גורם ישיר להחמרת ההתחממות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-sl-148",
+    "difficulty": "hard",
+    "text": "The theory of path dependence in institutional economics argues that even when superior alternatives exist, organizations often continue to follow suboptimal practices because ________.",
+    "choices": [
+      "decision-makers consistently overestimate the value of radical innovation",
+      "the cost of transitioning away from established systems can outweigh the perceived benefits",
+      "regulatory frameworks prohibit the adoption of newly developed institutional models",
+      "executives lack the authority to implement changes without shareholder approval"
+    ],
+    "answer": 1,
+    "explanation": "Path dependence is explained by lock-in effects — the switching costs, entrenched interests, and coordination challenges associated with abandoning established practices can make change economically irrational even when better options exist.",
+    "wrongReasons": [
+      "A path dependence describes conservative behavior, not overestimation of innovation; this contradicts the theory's logic.",
+      "C regulatory prohibition is an external constraint that explains specific cases, not the general mechanism of path dependence.",
+      "D executive authority constraints are an organizational governance issue, not the structural economic explanation of path dependence."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "economics", "academic-argument"],
+    "vocabularyWords": ["path dependence", "suboptimal", "switching costs", "lock-in"],
+    "hebrewExplanation": "הסבר: 'path dependence' מסביר שעלות המעבר מהמערכת הקיימת עולה על התועלת הנתפסת, ולכן ארגונים נשארים עם שיטות נחותות. הרמז: 'even when superior alternatives exist' = המפתח הוא עלות המעבר.",
+    "estimatedTimeSeconds": 54
+  },
+  {
+    "id": "sb-sl-149",
+    "difficulty": "hard",
+    "text": "In social psychology, bystander apathy is partly attributed to the phenomenon of diffusion of responsibility, whereby individuals in a group are less likely to intervene because ________.",
+    "choices": [
+      "they assume other group members possess superior knowledge of the situation",
+      "each person perceives their individual obligation to act as reduced by the presence of others",
+      "social norms explicitly discourage intervention in the presence of strangers",
+      "larger groups are statistically associated with greater collective moral concern"
+    ],
+    "answer": 1,
+    "explanation": "Diffusion of responsibility specifically describes how the perceived obligation of each individual to act decreases as group size increases — each person assumes others will or should intervene, reducing their own felt responsibility.",
+    "wrongReasons": [
+      "A assuming others have superior knowledge describes pluralistic ignorance, a related but distinct phenomenon.",
+      "C social norms do not generally prohibit intervention — diffusion of responsibility operates independently of explicit norms.",
+      "D greater collective moral concern contradicts the bystander effect; larger groups typically show less intervention, not more."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["causal-logic", "psychology", "social-science"],
+    "vocabularyWords": ["bystander apathy", "diffusion of responsibility", "intervene", "pluralistic ignorance"],
+    "hebrewExplanation": "הסבר: 'diffusion of responsibility' = כל פרט תופס את חובתו האישית לפעול כמופחתת בנוכחות אחרים. הרמז: ההגדרה של התופעה מובנית בשאלה עצמה.",
+    "estimatedTimeSeconds": 54
+  },
+  {
+    "id": "sb-sl-150",
+    "difficulty": "hard",
+    "text": "A consequentialist ethical framework evaluates the morality of an action solely on the basis of its outcomes, which means that an action traditionally considered wrong may be deemed justifiable if ________.",
+    "choices": [
+      "it is performed with sincere intentions and without malicious intent",
+      "it conforms to universally recognized deontological principles",
+      "it produces a sufficiently favorable balance of benefits over harms",
+      "it is endorsed by a recognized religious or cultural authority"
+    ],
+    "answer": 2,
+    "explanation": "Consequentialism judges actions by their outcomes — if an action produces more benefit than harm overall, it is morally justified under this framework regardless of its conventional moral classification.",
+    "wrongReasons": [
+      "A sincere intentions are the basis of deontological or virtue ethics, not consequentialism, which focuses on results not motives.",
+      "B conformity to deontological principles contradicts consequentialism; the two frameworks are explicitly contrasted in ethical theory.",
+      "D endorsement by religious or cultural authority is an appeal to tradition or authority, not a consequentialist standard of evaluation."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["conditional-logic", "academic-argument", "social-science"],
+    "vocabularyWords": ["consequentialist", "deontological", "justifiable", "morality"],
+    "hebrewExplanation": "הסבר: קונסקוונציאליזם שופט פעולה לפי תוצאותיה — אם היתרונות עולים על הנזקים, הפעולה מוצדקת. הרמז: 'evaluated solely on the basis of its outcomes' = המפתח לתשובה הנכונה.",
+    "estimatedTimeSeconds": 54
+  }
+]

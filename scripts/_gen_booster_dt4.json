@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-dt-251",
+    "difficulty": "easy",
+    "text": "Read the passage and answer the question.\n\n\"The school library was open every day except Sunday. Students could borrow up to five books at a time.\"\n\nAccording to the passage, when was the library CLOSED?",
+    "choices": [
+      "On Sunday",
+      "On weekdays",
+      "On Saturday",
+      "On holidays"
+    ],
+    "answer": 0,
+    "explanation": "The passage explicitly states the library was open 'every day except Sunday.' The word 'except' means Sunday was the one day it was closed. No other days are mentioned as closed.",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated — 'On holidays' (choice D) sounds like a reasonable answer (libraries are often closed on holidays), but the passage never mentions holidays. Only Sunday is stated as a closed day.",
+      "'On weekdays' contradicts the passage, which says the library was open every day except Sunday. Weekdays are open.",
+      "'On Saturday' is not supported by the passage. Saturday is included in 'every day except Sunday.'"
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: תשובה הגיונית אך לא מוזכרת בטקסט. הבעיה: 'ב חגים' נשמע הגיוני (ספריות סגורות בחגים) אך הטקסט לא מזכיר חגים כלל. רק יום ראשון צוין כיום סגור. התשובה הנכונה: C — ביום ראשון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-252",
+    "difficulty": "easy",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The teacher asked the students to ADDRESS the main problems in their essays.\"\n\nWhat does 'address' mean in this sentence?",
+    "choices": [
+      "Write the location of",
+      "Give a speech about",
+      "Deal with / tackle",
+      "Send a letter to"
+    ],
+    "answer": 2,
+    "explanation": "'Address' has a common everyday meaning (location, mailing) and a less common academic meaning: to deal with or tackle a subject or problem. In academic English, 'address an issue' means to focus on and handle it.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common word in uncommon academic sense — 'Write the location of' is the most common meaning of 'address' (your home address), so students default to it. But in academic English, 'address a problem' means to deal with it.",
+      "'Give a speech about' is another meaning of 'address' (to address an audience), but the sentence is about tackling essay problems, not delivering a speech.",
+      "'Send a letter to' confuses 'address' as a verb with the postal meaning, which applies to envelopes, not to academic problem-solving."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["address"],
+    "hebrewExplanation": "מלכודת עיקרית: מילה נפוצה בהקשר אקדמי לא שגרתי. הבעיה: 'address' בדרך כלל פירושו 'כתובת', אבל באנגלית אקדמית 'to address a problem' = לטפל בבעיה / להתמודד עמה. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-253",
+    "difficulty": "easy",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"Lack of sleep can DETERMINE how well students perform on exams.\"\n\nWhat does 'determine' mean in this sentence?",
+    "choices": [
+      "Decide with certainty",
+      "Cause / shape the outcome of",
+      "Find out by investigation",
+      "Show a strong character"
+    ],
+    "answer": 1,
+    "explanation": "In academic English, 'determine' frequently means to cause or control an outcome. 'Lack of sleep determines performance' means it shapes or controls how well students do. The more familiar meaning (to decide or find out) does not fit the causal structure here.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common word in uncommon academic sense — 'Decide with certainty' is a very common meaning of 'determine' (I am determined; the court determined the verdict), but in scientific/academic writing, 'X determines Y' means X causes or controls Y.",
+      "'Find out by investigation' is another valid meaning of 'determine' (scientists determined the cause), but the sentence is describing a causal relationship, not an investigative process.",
+      "'Show a strong character' confuses 'determine' with 'determined' (adjective = persistent, resolute). These are entirely different meanings."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["determine"],
+    "hebrewExplanation": "מלכודת עיקרית: מילה נפוצה בהקשר אקדמי מיוחד. הבעיה: 'determine' בדרך כלל = 'לקבוע' או 'לגלות', אך בכתיבה מדעית 'X determines Y' = X גורם ל-Y / שולט בתוצאה. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-254",
+    "difficulty": "easy",
+    "text": "Read the passage and answer the question.\n\n\"The new sports center has a swimming pool, three tennis courts, and a gym. It is open to all residents of the city.\"\n\nWhich of the following is mentioned as a facility in the sports center?",
+    "choices": [
+      "A basketball court",
+      "A yoga studio",
+      "A running track",
+      "Tennis courts"
+    ],
+    "answer": 3,
+    "explanation": "The passage explicitly lists three facilities: a swimming pool, three tennis courts, and a gym. Tennis courts are directly mentioned. Basketball court, running track, and yoga studio are not mentioned anywhere in the passage.",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated — 'A basketball court' is commonly found in sports centers, so students assume it is present. The passage does not mention it at all.",
+      "'A running track' is equally plausible for a sports center but is simply not in the text. Plausibility is not the same as evidence.",
+      "'A yoga studio' may sound modern and likely, but the passage mentions only three specific facilities and a yoga studio is not among them."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: תשובה הגיונית שאינה מוזכרת בטקסט. הבעיה: 'מגרש כדורסל' ו'מסלול ריצה' הגיוניים למרכז ספורט, אבל הטקסט מזכיר רק: בריכת שחייה, מגרשי טניס, וחדר כושר. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-255",
+    "difficulty": "easy",
+    "text": "Read the sentence and choose what the writer MOST LIKELY means.\n\n\"The study MAY SUGGEST that coffee consumption is linked to improved focus.\"\n\nWhat can we conclude from this sentence?",
+    "choices": [
+      "It is proven that coffee improves focus",
+      "Coffee definitely causes better concentration",
+      "There is possible but uncertain evidence for a link",
+      "The study found no connection between coffee and focus"
+    ],
+    "answer": 2,
+    "explanation": "The phrase 'may suggest' uses two hedging elements: 'may' (possibility, not certainty) and 'suggest' (points toward, not proves). Together they indicate possible but uncertain evidence — far from proof or certainty.",
+    "wrongReasons": [
+      "TRAP: Hedging word trap — 'may suggest' treated as proof — 'It is proven that coffee improves focus' ignores both hedge words. Students who skim past 'may suggest' and focus on the content (coffee + focus) treat the hedged claim as a proven fact.",
+      "'Coffee definitely causes better concentration' adds 'definitely' and causal language, both of which are stronger than what the hedge words allow.",
+      "'The study found no connection' is the opposite of the sentence's meaning. 'May suggest a link' means there might be a connection, not that there is none."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["suggest", "may"],
+    "hebrewExplanation": "מלכודת עיקרית: מילות ריכוך (hedge words) מתפרשות כהוכחה. הבעיה: 'may suggest' = אולי מצביע על... זה לא הוכחה ולא ודאות. התשובה הנכונה: C — יש ראיות אפשריות אך לא ודאיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-256",
+    "difficulty": "easy",
+    "text": "Read the passage and answer the question.\n\n\"Maria finished the project on time despite having very few resources.\"\n\nWhat does this sentence tell us about Maria?",
+    "choices": [
+      "She had plenty of resources",
+      "She asked for more resources before finishing",
+      "She completed the project late",
+      "She succeeded even with limited resources"
+    ],
+    "answer": 3,
+    "explanation": "'Despite' introduces a contrasting condition: even though she had very few resources, she still finished on time. This directly states she succeeded under limited conditions. Nothing in the sentence suggests she was late or asked for help.",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated — 'She asked for more resources before finishing' is a plausible real-world behavior when someone has few resources, but the sentence says absolutely nothing about requesting more resources.",
+      "'She had plenty of resources' directly contradicts 'very few resources' — the opposite of what the text states.",
+      "'She completed the project late' contradicts 'finished the project on time.' Students who miss 'despite' may misconstrue the outcome."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["despite"],
+    "hebrewExplanation": "מלכודת עיקרית: תשובה הגיונית שאינה בטקסט. הבעיה: 'היא ביקשה משאבים נוספים' נשמע הגיוני, אך המשפט לא מזכיר זאת. 'Despite' = למרות; היא הצליחה אף שהיו לה מעט משאבים. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-257",
+    "difficulty": "easy",
+    "text": "Read the sentence and identify what it actually states.\n\n\"One student in the class found the homework confusing.\"\n\nWhat can we conclude?",
+    "choices": [
+      "All students found the homework confusing",
+      "Most students found the homework confusing",
+      "A single student had difficulty with the homework",
+      "The homework was too difficult for the whole class"
+    ],
+    "answer": 2,
+    "explanation": "'One student' refers to a single individual, not a group. The sentence makes no claim about other students' experiences. Generalizing from one student to 'all' or 'most' is an unsupported conclusion.",
+    "wrongReasons": [
+      "TRAP: Singular/plural scope trap — 'All students found the homework confusing' takes one student's experience and incorrectly applies it to the whole class. The word 'one' limits the scope to a single individual.",
+      "'Most students found the homework confusing' also generalizes beyond what 'one student' supports. One is not most.",
+      "'The homework was too difficult for the whole class' draws a class-wide conclusion from one student's difficulty — another example of over-generalizing from a single case."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה מיחיד לרבים. הבעיה: 'one student' = תלמיד אחד בלבד. המשפט לא אומר שאר התלמידים התקשו. לא ניתן להסיק על כלל הכיתה. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-258",
+    "difficulty": "easy",
+    "text": "Read the sentence and answer the question.\n\n\"In 1990, researchers discovered that the compound was effective against the virus.\"\n\nWhat does this sentence tell us about the compound TODAY?",
+    "choices": [
+      "The sentence only tells us about a 1990 finding, not the present",
+      "The compound is currently used as a treatment",
+      "The compound is definitely still effective today",
+      "Researchers continue to study the compound"
+    ],
+    "answer": 0,
+    "explanation": "The sentence describes a discovery made in 1990. It says nothing about the current status of the compound — whether it is still used, still effective, or still being studied. Applying a past finding to the present requires additional evidence not given here.",
+    "wrongReasons": [
+      "TRAP: Time scope trap — past finding applied to the present — 'The compound is definitely still effective today' (choice C) takes a 1990 result and assumes it is still valid now. Scientific findings from 35 years ago may have been superseded, revised, or disproven.",
+      "'The compound is currently used as a treatment' goes beyond the passage. Being discovered to be effective is not the same as being adopted as a treatment.",
+      "'Researchers continue to study the compound' is a plausible next step but is not stated in the sentence. We only know about the 1990 discovery."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: ממצא עבר מוחל על ההווה. הבעיה: הטקסט מספר על גילוי מ-1990 בלבד. הוא לא אומר דבר על מה שקורה היום. התשובה הנכונה: C — המשפט מספר רק על ממצא מ-1990.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-259",
+    "difficulty": "medium",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The professor asked the committee to ENGAGE WITH the evidence before forming conclusions.\"\n\nWhat does 'engage with' mean in this academic context?",
+    "choices": [
+      "Start an argument about",
+      "Carefully analyze and interact with",
+      "Agree with and support",
+      "Collect and organize"
+    ],
+    "answer": 1,
+    "explanation": "In academic English, 'engage with' something means to examine it carefully, interact with it critically, and consider it seriously before drawing conclusions. It does not mean to argue with it, agree with it, or simply collect it.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common phrase in uncommon academic sense — 'Start an argument about' is a common interpretation of 'engage' (to engage in conflict), but 'engage WITH evidence' in academic contexts means to interact with it thoughtfully, not argue against it.",
+      "'Agree with and support' is the opposite of critical engagement. Engaging with evidence means considering it carefully, which may lead to agreement OR disagreement.",
+      "'Collect and organize' describes data collection, not engagement. Engaging with evidence happens after collection, during analysis."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["engage with"],
+    "hebrewExplanation": "מלכודת עיקרית: ביטוי יומיומי בהקשר אקדמי. הבעיה: 'engage with' = 'להתעמת עם' בשפה יומיומית, אך בהקשר אקדמי = לנתח ולהתייחס ברצינות לראיות. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-260",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"Although the city's new transport system reduced commute times by 15 minutes on average, many residents reported that they still felt the service was unreliable.\"\n\nWhich statement is BEST SUPPORTED by the passage?",
+    "choices": [
+      "Commute times did not change after the new system was introduced",
+      "The new transport system was a complete failure",
+      "Residents were fully satisfied with the new system",
+      "The system improved speed but not perceived reliability"
+    ],
+    "answer": 3,
+    "explanation": "The passage presents two facts: (1) commute times were reduced by 15 minutes — an improvement; (2) residents still felt the service was unreliable — a remaining problem. Option C captures this contrast accurately. The system is not a failure (times improved) but also not fully satisfactory.",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated — 'The new transport system was a complete failure' ignores the 15-minute reduction. Because residents reported dissatisfaction, students may conclude it was a failure, but the text shows a mixed outcome.",
+      "'Residents were fully satisfied with the new system' contradicts 'still felt the service was unreliable.' Partial improvement is not full satisfaction.",
+      "'Commute times did not change' directly contradicts 'reduced commute times by 15 minutes.' The passage explicitly states times improved."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: תשובה קיצונית הנשמעת הגיונית. הבעיה: 'כישלון מוחלט' מתעלמת מהשיפור בזמן הנסיעה. הטקסט מציג תוצאה מעורבת: שיפור מהירות, אך אמינות נתפסת נמוכה. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-261",
+    "difficulty": "medium",
+    "text": "Read the sentence carefully and answer the question.\n\n\"Students who studied in groups, reviewed their notes at least three times, and tested themselves using practice questions performed significantly better on the final exam.\"\n\nWhat is the PRIMARY factor the sentence credits for better performance?",
+    "choices": [
+      "Studying in groups",
+      "Reviewing notes three times",
+      "Using practice questions",
+      "All three methods combined"
+    ],
+    "answer": 3,
+    "explanation": "The sentence describes three behaviors joined by commas in a list, and credits all three together for the better performance. The sentence does not single out any one method as primary — the conjunction links them as a combined strategy.",
+    "wrongReasons": [
+      "TRAP: Structural trap — correct answer is at the end of a long sentence, students choose based on first phrase — 'Studying in groups' comes first in the sentence, so students who focus on the beginning may choose it as the main factor without reading the full list.",
+      "'Reviewing notes three times' is the second item. Students who pause mid-sentence may select it, missing that 'testing themselves' also contributes.",
+      "'Using practice questions' is the final behavior listed — some students may overemphasize it as a conclusion marker, but it is equally part of a three-part combination."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מיקוד בתחילת משפט ארוך במקום בסופו. הבעיה: התשובה הנכונה היא שלוש השיטות יחד. תלמידים שבוחרים לפי הביטוי הראשון בלבד בוחרים 'לימוד בקבוצות'. התשובה הנכונה: D.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-262",
+    "difficulty": "medium",
+    "text": "Read the conditional sentence and answer the question.\n\n\"If a student submits the assignment late, the teacher will deduct points.\"\n\nWhich conclusion is DIRECTLY supported by this sentence?",
+    "choices": [
+      "If the teacher deducts points, the student submitted late",
+      "If the student submits on time, no points will be deducted",
+      "If the assignment is late, points will be deducted",
+      "Teachers always penalize late submissions"
+    ],
+    "answer": 2,
+    "explanation": "The sentence states: IF late submission → points deducted. This is the only claim directly made. Option A reverses the logic (if B then A — the fallacy of affirming the consequent). Option B assumes the contrapositive is also stated (it is not stated). Option D adds 'always' and 'teachers' generally, going beyond one teacher.",
+    "wrongReasons": [
+      "TRAP: Conditional trap — 'if A then B' misread as 'if B then A' — 'If the teacher deducts points, the student submitted late' reverses the conditional. Deducting points might have other causes. The sentence only guarantees the forward direction: late → deduction.",
+      "'If the student submits on time, no points will be deducted' assumes the inverse (not-A → not-B), which is a logical fallacy. The sentence does not say anything about what happens when work is on time.",
+      "'Teachers always penalize late submissions' overgeneralizes from one teacher's stated policy to a universal claim about all teachers."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: היפוך תנאי (if A then B מתפרש כ-if B then A). הבעיה: 'אם המורה מוריד נקודות ← הגשה באיחור' הוא היפוך שגוי. המשפט אמר רק: הגשה מאוחרת ← הורדת נקודות. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-263",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"The ancient ruins were discovered in 1923 by a team of archaeologists. The site contained pottery, tools, and jewelry dating back to approximately 3,000 BCE.\"\n\nWhich conclusion is MOST DIRECTLY supported by the passage?",
+    "choices": [
+      "Archaeologists discovered the ruins while searching for jewelry",
+      "Artifacts found at the site date to around 3,000 BCE",
+      "The site was inhabited continuously from 3,000 BCE to 1923",
+      "The civilization that made the artifacts was highly advanced"
+    ],
+    "answer": 1,
+    "explanation": "The passage explicitly states that pottery, tools, and jewelry at the site dated to approximately 3,000 BCE. This is the only directly supported conclusion. Nothing in the passage claims continuous habitation, advanced civilization, or a motive for the discovery.",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated — 'The site was inhabited continuously from 3,000 BCE to 1923' is a plausible inference students might draw from an old site being found, but the passage says nothing about continuous habitation.",
+      "'The civilization that made the artifacts was highly advanced' is an inference that goes beyond the evidence. Having pottery and jewelry does not automatically mean the civilization was 'highly advanced' as stated in the text.",
+      "'Archaeologists discovered the ruins while searching for jewelry' invents a motive not mentioned in the passage. The passage states they were 'a team of archaeologists' with no stated objective."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מסקנה הגיונית שאינה נתמכת בטקסט. הבעיה: 'אתר מיושב ברציפות' ו'ציוויליזציה מתקדמת' הגיוניים אך הטקסט לא אומר זאת. רק הממצא: חפצים מ-3,000 לפנה\"ס. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-264",
+    "difficulty": "medium",
+    "text": "Read the comparative sentence and answer the question.\n\n\"Electric vehicles are more efficient than traditional cars in urban environments.\"\n\nWhat does this sentence MOST ACCURATELY claim?",
+    "choices": [
+      "All vehicles should be electric in cities",
+      "Electric vehicles are very efficient",
+      "Electric vehicles are more efficient than traditional cars in cities",
+      "Traditional cars are inefficient"
+    ],
+    "answer": 2,
+    "explanation": "The sentence makes a comparative claim: electric vehicles > traditional cars in urban settings. It says nothing about whether traditional cars are inefficient in absolute terms, does not call EVs 'very efficient,' and makes no policy recommendation.",
+    "wrongReasons": [
+      "TRAP: Comparative trap — 'more X than Y' misread as 'X is very X' — 'Electric vehicles are very efficient' drops the comparison with traditional cars and converts a relative claim into an absolute one. 'More efficient than' does not mean 'very efficient.'",
+      "'Traditional cars are inefficient' is also an absolute statement. Being less efficient than EVs does not mean traditional cars are inefficient — they could both be fairly efficient, with EVs slightly better.",
+      "'All vehicles should be electric in cities' is a policy conclusion that is entirely absent from the descriptive comparison. The sentence describes, not prescribes."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: השוואה מתפרשת כהצהרה מוחלטת. הבעיה: 'יעיל יותר מ-' ≠ 'יעיל מאוד'. ההשוואה יחסית בלבד — עדיין לא אומרת שהמכוניות המסורתיות לא יעילות. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-265",
+    "difficulty": "medium",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The new policy INFORMS the way the university handles student complaints.\"\n\nWhat does 'informs' mean in this sentence?",
+    "choices": [
+      "Is informed by / learns from",
+      "Notifies students about",
+      "Shapes and influences",
+      "Provides facts or data to"
+    ],
+    "answer": 2,
+    "explanation": "In academic English, 'inform' frequently means to shape, guide, or influence something — particularly when talking about how a principle or policy affects a practice. 'The policy informs the approach' means it shapes how things are done, not that it sends notifications.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common word in uncommon academic sense — 'Notifies students about' is the everyday meaning of 'inform' (I will inform you of the decision), but 'X informs Y' in academic writing means X shapes or influences Y.",
+      "'Provides facts or data to' is related to the idea of informing but misses the sense of shaping. Academic 'inform' refers to influence over a process, not data provision.",
+      "'Is informed by' reverses the direction. The policy shapes the handling process, not the reverse. 'Informs' (active) ≠ 'is informed by' (passive)."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["inform"],
+    "hebrewExplanation": "מלכודת עיקרית: מילה נפוצה בהקשר אקדמי מיוחד. הבעיה: 'inform' בדרך כלל = 'להודיע', אך בכתיבה אקדמית 'X informs Y' = X מעצב / משפיע על Y. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-266",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"A 2018 study conducted in Sweden found that children who ate breakfast regularly scored higher on cognitive tests than those who skipped breakfast.\"\n\nWhich conclusion is DIRECTLY supported by this passage?",
+    "choices": [
+      "Eating breakfast causes improved cognitive ability in all children",
+      "Skipping breakfast permanently damages children's cognitive development",
+      "Children worldwide should eat breakfast every day",
+      "In this 2018 Swedish study, breakfast eaters outperformed breakfast skippers on cognitive tests"
+    ],
+    "answer": 3,
+    "explanation": "The passage reports one specific study (2018, Sweden) with one specific finding: breakfast eaters scored higher on tests. This is the only supported conclusion. Universal claims about all children, policy recommendations, and permanent damage all go beyond what one study in one country can support.",
+    "wrongReasons": [
+      "TRAP: Singular/plural scope trap — 'Eating breakfast causes improved cognitive ability in all children' takes a single study in one country and applies it to all children everywhere. One study cannot establish universal causation.",
+      "'Children worldwide should eat breakfast every day' is a policy recommendation not made in the passage, and applies globally what was observed in Sweden.",
+      "'Skipping breakfast permanently damages children's cognitive development' introduces 'permanently' and 'damage' — much stronger claims than the observed score difference in one study."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה ממחקר אחד לכל הילדים. הבעיה: מחקר אחד בשוודיה ב-2018 לא מוכיח טענה אוניברסלית על כל ילד בעולם. התשובה הנכונה: C — רק ממצא ספציפי של מחקר ספציפי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-267",
+    "difficulty": "medium",
+    "text": "Read the conditional sentence and identify the logical error in one of the answer choices.\n\n\"If a candidate passes the written test, they will be invited for an interview.\"\n\nA student concluded: 'Sarah was invited for an interview, so she must have passed the written test.'\n\nIs this conclusion valid?",
+    "choices": [
+      "No, because Sarah may not be a candidate",
+      "Yes, because passing the test guarantees an interview",
+      "No, because the sentence does not say the test is the ONLY way to get an interview",
+      "Yes, because all interview invitations require passing the test"
+    ],
+    "answer": 2,
+    "explanation": "The sentence says: IF pass test → interview. This does not mean interview → pass test. There could be other reasons for being invited (exceptions, special cases, other tracks). Assuming 'if B then A' from 'if A then B' is the fallacy of affirming the consequent.",
+    "wrongReasons": [
+      "TRAP: Conditional trap — contrapositive confusion — 'Yes, because all interview invitations require passing the test' assumes the test is the only path to an interview. The sentence only says passing IS sufficient, not that it is necessary (the only way).",
+      "'Yes, because passing the test guarantees an interview' restates the original sentence correctly but does not address the student's reverse inference. Passing guarantees an interview; but an interview does not guarantee passing was the route.",
+      "'No, because Sarah may not be a candidate' is a distractor that changes the subject. The question is about logical inference from the conditional, not about Sarah's candidate status."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול תנאי הפוך. הבעיה: 'אם עבר בדיקה ← הוזמן לראיון' לא אומר 'אם הוזמן ← עבר בדיקה'. ייתכנו דרכים אחרות להתקבל לראיון. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-268",
+    "difficulty": "medium",
+    "text": "Read the sentence carefully, focusing on ALL its parts, and answer the question.\n\n\"Despite initial resistance from several board members, the proposal to expand the research budget, which had been debated for over a year, was eventually approved by a unanimous vote.\"\n\nWhat was the final outcome of the vote?",
+    "choices": [
+      "The proposal was rejected by several board members",
+      "The vote was postponed for another year",
+      "Several board members refused to vote",
+      "The proposal was approved by all board members"
+    ],
+    "answer": 3,
+    "explanation": "'Unanimous vote' means all members voted in favor. Despite early resistance, the final outcome was full approval. The word 'eventually' indicates the resistance was overcome. 'Unanimous' is the key word appearing near the end of a long sentence.",
+    "wrongReasons": [
+      "TRAP: Structural trap — the key word 'unanimous' appears at the end of a long sentence and students choose based on the first phrase — 'The proposal was rejected by several board members' focuses on 'initial resistance' from the beginning of the sentence, ignoring 'eventually approved by unanimous vote' at the end.",
+      "'Several board members refused to vote' misreads 'resistance' as 'refusal to vote.' Resistance here meant opposition during debate, not abstaining from voting.",
+      "'The vote was postponed for another year' confuses 'debated for over a year' with postponing the vote. The debate lasted a year; the vote itself eventually happened and was unanimous."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["unanimous", "eventually"],
+    "hebrewExplanation": "מלכודת עיקרית: התשובה הנכונה נמצאת בסוף משפט ארוך. הבעיה: תלמידים בוחרים לפי תחילת המשפט ('התנגדות ראשונית') ומפספסים 'unanimous vote' בסוף. התשובה הנכונה: C — כל חברי הוועד הצביעו בעד.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-269",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"Research in the 1970s indicated that moderate exercise was associated with lower rates of heart disease among middle-aged men.\"\n\nWhich of the following is a VALID conclusion from this passage?",
+    "choices": [
+      "A 1970s study found an association between moderate exercise and lower heart disease rates in middle-aged men",
+      "Exercise reduces heart disease in all people today",
+      "All middle-aged men who exercise will avoid heart disease",
+      "Moderate exercise is the best way to prevent heart disease"
+    ],
+    "answer": 0,
+    "explanation": "The passage reports a specific, limited finding: a 1970s association between exercise and heart disease rates in middle-aged men. It says nothing universal, nothing about women, nothing about today, and nothing about causation or ranking exercise as 'best.'",
+    "wrongReasons": [
+      "TRAP: Time scope trap — past finding applied to the present — 'Exercise reduces heart disease in all people today' takes a 1970s finding and applies it to all people in the present. The passage is about one historical study with a limited population.",
+      "'All middle-aged men who exercise will avoid heart disease' converts a statistical association (lower rates) into an absolute guarantee (will avoid). Association is not certainty.",
+      "'Moderate exercise is the best way to prevent heart disease' introduces a superlative comparison ('best way') that the passage does not make. No comparison with other methods is given."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["associated with"],
+    "hebrewExplanation": "מלכודת עיקרית: ממצא מחקר מהעבר מוחל על ההווה ועל כולם. הבעיה: המחקר מה-1970s עסק בגברים בגיל ביניים בלבד ומצא קשר סטטיסטי — לא הוכחת סיבתיות ולא טענה אוניברסלית. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-270",
+    "difficulty": "medium",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The findings CHALLENGE the long-held assumption that memory declines inevitably with age.\"\n\nWhat does 'challenge' mean in this academic sentence?",
+    "choices": [
+      "Invite the assumption to compete",
+      "Question and undermine",
+      "Test the assumption's strength",
+      "Encourage further research into"
+    ],
+    "answer": 1,
+    "explanation": "In academic writing, 'challenge an assumption' means to question it, cast doubt on it, or provide evidence against it. It does not mean to invite competition or simply encourage more research.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common word in uncommon academic sense — 'Test the assumption's strength' captures part of the meaning but 'challenge' in this context specifically means to cast doubt or argue against, not merely to probe. Students may choose this because testing sounds scientific.",
+      "'Invite the assumption to compete' interprets 'challenge' as a sports/competition metaphor. While 'challenge' can mean issuing a competition invitation, this is not how it is used academically.",
+      "'Encourage further research into' is a possible downstream effect of challenging an assumption, but it is not what 'challenge' itself means. The word signals critique, not encouragement."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["challenge"],
+    "hebrewExplanation": "מלכודת עיקרית: מילה נפוצה בהקשר אקדמי. הבעיה: 'challenge' בכתיבה אקדמית = לערער/להטיל ספק, לא סתם לבחון. 'The findings challenge the assumption' = הממצאים מערערים על ההנחה. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-271",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"The pharmaceutical company announced that its new drug MIGHT reduce inflammation in some patients with chronic joint pain.\"\n\nWhat does the company's announcement claim?",
+    "choices": [
+      "There is a possibility the drug reduces inflammation in some patients",
+      "The drug will definitely reduce inflammation in all patients",
+      "The drug has been approved for treating inflammation",
+      "The drug is proven to cure chronic joint pain"
+    ],
+    "answer": 0,
+    "explanation": "'Might' signals possibility, not certainty. 'Some patients' limits the scope — not all patients. The sentence makes a hedged, limited claim: possible benefit for some people. Approval, cures, and guaranteed outcomes are all absent from the text.",
+    "wrongReasons": [
+      "TRAP: Hedging word trap — 'might' treated as certainty — 'The drug will definitely reduce inflammation in all patients' ignores both 'might' (uncertainty) and 'some' (limited scope). Students who focus on the content (drug + inflammation) may miss these crucial qualifiers.",
+      "'The drug is proven to cure chronic joint pain' converts 'might reduce inflammation' into a cure — far stronger than any claim in the sentence. 'Reduce' ≠ 'cure' and 'might' ≠ 'proven.'",
+      "'The drug has been approved for treating inflammation' introduces regulatory approval, which is entirely absent from the passage. An announcement of potential efficacy is not an approval statement."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["might"],
+    "hebrewExplanation": "מלכודת עיקרית: מילת ריכוך (might) מתפרשת כוודאות. הבעיה: 'might reduce' = עשוי להפחית (אפשרות בלבד, לא ודאות). גם 'some patients' = חלק מהמטופלים, לא כולם. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-272",
+    "difficulty": "medium",
+    "text": "Read the sentence and identify what it claims.\n\n\"Several employees at the company reported feeling stressed during the reorganization period.\"\n\nWhat does this sentence establish?",
+    "choices": [
+      "Some employees reported experiencing stress during this period",
+      "All employees were stressed during the reorganization",
+      "Employee stress is a universal result of company reorganizations",
+      "The reorganization caused stress for the entire company"
+    ],
+    "answer": 0,
+    "explanation": "'Several employees' means some, not all. 'Reported feeling' means they self-reported — not that the reorganization was objectively proven to cause stress. The sentence describes what some employees said, confined to this specific company and period.",
+    "wrongReasons": [
+      "TRAP: Singular/plural scope trap — 'All employees were stressed during the reorganization' generalizes 'several' (some) to 'all.' Several means more than two but not necessarily all or most.",
+      "'The reorganization caused stress for the entire company' goes further by claiming causation AND universality. The sentence only reports self-reported feelings by some employees.",
+      "'Employee stress is a universal result of company reorganizations' takes one event at one company and turns it into a universal principle. The sentence makes no generalization about reorganizations in general."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["several"],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה מ'כמה' ל'כולם'. הבעיה: 'several employees' = כמה עובדים (לא כולם). המשפט מדווח על חוויה סובייקטיבית של חלק מהעובדים בחברה אחת בלבד. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-273",
+    "difficulty": "medium",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The author's argument RESTS ON three key assumptions.\"\n\nWhat does 'rests on' mean in this academic context?",
+    "choices": [
+      "Is stopped by",
+      "Takes a break because of",
+      "Is relaxed about",
+      "Depends on / is based on"
+    ],
+    "answer": 3,
+    "explanation": "In academic English, 'an argument rests on X' means the argument depends on X or is built upon X as a foundation. This is a metaphorical use of 'rest' that differs from its physical meaning of relaxing or pausing.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common word in uncommon academic sense — 'Takes a break because of' treats 'rests' in its literal physical sense (to rest = to relax). Students who know only the literal meaning of 'rest' will choose this option.",
+      "'Is relaxed about' is another literal/emotional misreading of 'rest.' Academic arguments do not have emotional states; 'rests on' signals logical or structural dependence.",
+      "'Is stopped by' confuses 'rests on' with 'is blocked by.' These are opposite meanings. An argument that rests on assumptions is supported by them, not stopped by them."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["rests on"],
+    "hebrewExplanation": "מלכודת עיקרית: ביטוי יומיומי בהקשר אקדמי. הבעיה: 'rests on' בכתיבה אקדמית = מבוסס על / תלוי ב-, לא 'נח' במובן הפיזי. 'The argument rests on assumptions' = הטיעון מבוסס על הנחות. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-274",
+    "difficulty": "medium",
+    "text": "Read the comparative sentence and answer the question.\n\n\"Online learning platforms have shown faster growth than traditional universities over the past decade.\"\n\nWhich statement does this sentence SUPPORT?",
+    "choices": [
+      "Most students now prefer online learning",
+      "Online learning is better than traditional universities",
+      "Traditional universities have declined in popularity",
+      "Online platforms grew more quickly than universities in the last ten years"
+    ],
+    "answer": 3,
+    "explanation": "The sentence states one comparative fact about growth rate over one decade. It says nothing about decline (universities could still be growing, just more slowly), quality comparisons, or student preferences.",
+    "wrongReasons": [
+      "TRAP: Comparative trap — 'more X than Y' misread as 'Y has declined' — 'Traditional universities have declined in popularity' assumes that faster growth by one side implies decline by the other. But slower growth is not the same as shrinking or declining.",
+      "'Online learning is better than traditional universities' converts a comparison of growth rates (a quantitative measure) into a qualitative judgment (better). Growth rate ≠ quality.",
+      "'Most students now prefer online learning' is a preference claim not mentioned in the passage. Growth rate data does not directly reveal student preferences."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'צמח יותר מהר מ-' מתפרש כ'ירד'. הבעיה: אוניברסיטאות מסורתיות יכולות לצמוח לאט ועדיין לצמוח — צמיחה איטית יותר ≠ ירידה. ההשוואה עוסקת בקצב צמיחה בלבד. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-275",
+    "difficulty": "medium",
+    "text": "Read the sentence carefully and answer the question.\n\n\"The government's policy on urban planning, introduced following years of community consultation and revised multiple times based on expert feedback, aims to reduce traffic congestion in city centers by 2030.\"\n\nWhat is the MAIN GOAL of the policy described?",
+    "choices": [
+      "To consult with communities about urban planning",
+      "To incorporate expert feedback into government decisions",
+      "To reduce traffic congestion in city centers by 2030",
+      "To revise urban planning policies multiple times"
+    ],
+    "answer": 2,
+    "explanation": "The main clause of the sentence ends with 'aims to reduce traffic congestion in city centers by 2030.' This is the stated goal. The community consultation and expert feedback are background information about how the policy was developed, not the goal itself.",
+    "wrongReasons": [
+      "TRAP: Structural trap — key information at the end of a complex sentence — 'To consult with communities' picks up on information from the first part of the sentence (community consultation) and mistakes background process for the main objective.",
+      "'To incorporate expert feedback' also focuses on the development process mentioned mid-sentence, not the stated aim at the end.",
+      "'To revise urban planning policies multiple times' describes what happened during development (the policy was revised), not what the policy is meant to achieve."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["aims to"],
+    "hebrewExplanation": "מלכודת עיקרית: מידע מרכזי בסוף משפט ארוך. הבעיה: תלמידים בוחרים לפי המידע הראשון (ייעוץ קהילתי) ומפספסים את מטרת המדיניות שמופיעה בסוף: להפחית פקקים עד 2030. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-276",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"When the factory implemented new safety protocols in 2015, workplace injuries dropped by 40% in the following year.\"\n\nWhat is the SAFEST conclusion from this passage?",
+    "choices": [
+      "The new safety protocols caused the drop in injuries",
+      "After the protocols were introduced, injuries decreased significantly",
+      "The factory had a very high injury rate before 2015",
+      "All factories should implement similar safety protocols"
+    ],
+    "answer": 1,
+    "explanation": "The passage shows a correlation: protocols introduced in 2015, injuries dropped in 2016. This supports the observation that injuries decreased after the protocols — but not that the protocols directly caused the drop (other factors may have contributed). No information about the pre-2015 rate is given beyond the percentage change.",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated — 'The new safety protocols caused the drop in injuries' assumes causation from correlation. The passage shows a temporal sequence, not proven causation. Other factors might also have contributed.",
+      "'The factory had a very high injury rate before 2015' adds the word 'very high' which the passage does not state. A 40% drop could mean going from a low rate to an even lower one.",
+      "'All factories should implement similar safety protocols' is a policy recommendation not made in the passage. One factory's result does not justify a universal mandate."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: קשר טמפורלי מתפרש כסיבתיות. הבעיה: הטקסט מציג: אחרי הפרוטוקולים ← ירידה. לא ניתן להסיק: הפרוטוקולים גרמו לירידה. ייתכנו גורמים נוספים. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-277",
+    "difficulty": "medium",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The experiment YIELDED unexpected results that contradicted the original hypothesis.\"\n\nWhat does 'yielded' mean in this context?",
+    "choices": [
+      "Accepted the results of",
+      "Gave way to / surrendered",
+      "Slowed down because of",
+      "Produced / generated"
+    ],
+    "answer": 3,
+    "explanation": "In scientific and academic writing, 'yield results' or 'yield data' means to produce or generate those results. The experiment produced or generated findings. This is a technical use that differs from everyday meanings like surrendering or giving way.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common word in uncommon academic sense — 'Gave way to / surrendered' is the most common everyday meaning of 'yield' (drivers yield at intersections; yield to pressure). Students who know only this meaning choose it automatically.",
+      "'Slowed down because of' confuses 'yielded' with 'was hindered by' or 'stalled because of.' The experiment's results did not slow it down; it produced results.",
+      "'Accepted the results of' reverses the direction. The experiment is the source (it yields = produces results), not the receiver. 'Accepted' implies being on the receiving end."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["yield"],
+    "hebrewExplanation": "מלכודת עיקרית: מילה נפוצה בהקשר מדעי. הבעיה: 'yield' ביומיום = 'לפנות דרך / להיכנע', אך בכתיבה מדעית 'the experiment yielded results' = הניסוי הניב תוצאות. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-278",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"According to the report, the region experienced its warmest decade on record between 2010 and 2020.\"\n\nWhich of the following conclusions is DIRECTLY SUPPORTED by the passage?",
+    "choices": [
+      "Climate change caused the warmth in the region from 2010 to 2020",
+      "From 2010 to 2020, this region had its highest recorded temperatures for any ten-year period",
+      "The next decade (2020-2030) will be even warmer",
+      "The entire country experienced record warmth from 2010 to 2020"
+    ],
+    "answer": 1,
+    "explanation": "The passage states that one specific region had its warmest decade on record — meaning that of all recorded decades, 2010-2020 was the warmest for that region. It says nothing about the future, other regions, or causes.",
+    "wrongReasons": [
+      "TRAP: Time scope trap — past finding applied to the future — 'The next decade will be even warmer' takes a past record and predicts the future. The passage describes what was recorded, not what will happen.",
+      "'The entire country experienced record warmth' expands from 'region' to 'country.' A region is a part of a country; the passage makes no claim about the whole country.",
+      "'Climate change caused the warmth' introduces a causal explanation not present in the passage. The report states a temperature record without attributing it to any cause."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: ממצא עבר מוחל על עתיד ו/או הרחבת היקף. הבעיה: הטקסט מדבר על אזור אחד בעשור ספציפי. לא ניתן להסיק על כל המדינה או על העתיד. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-279",
+    "difficulty": "medium",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The committee will CONSIDER the proposal at its next meeting.\"\n\nWhat does 'consider' most likely mean in a formal, academic context?",
+    "choices": [
+      "Think about and evaluate carefully",
+      "Immediately reject",
+      "Announce publicly",
+      "Definitely approve"
+    ],
+    "answer": 0,
+    "explanation": "In formal English, 'consider' means to think about something carefully and evaluate it — it makes no promise about the outcome (approval or rejection). Students sometimes assume 'consider' means favorable attention, but it is simply the act of examination.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — academic sense vs. assumed positive meaning — 'Definitely approve' wrongly treats 'consider' as a synonym for 'accept' or 'approve.' Considering something does not mean accepting it; it means reviewing it without predetermined outcome.",
+      "'Immediately reject' is the opposite error — assuming 'consider' means the proposal has no chance. 'Consider' is neutral regarding outcome.",
+      "'Announce publicly' confuses 'consider' with 'address publicly' or 'present.' Consideration is an internal deliberative process, not a public announcement."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["consider"],
+    "hebrewExplanation": "מלכודת עיקרית: 'consider' מתפרש כאישור. הבעיה: 'consider' = לשקול / לבחון — לא לאשר. שקילת הצעה אינה מבטיחה אישורה. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-280",
+    "difficulty": "medium",
+    "text": "Read the following conditional and identify the correct interpretation.\n\n\"You will pass the exam only if you study the grammar chapter.\"\n\nWhich of the following correctly interprets this sentence?",
+    "choices": [
+      "Studying the grammar chapter guarantees you will pass",
+      "If you study the grammar chapter, you will definitely pass",
+      "Studying the grammar chapter is necessary but may not be sufficient to pass",
+      "You do not need to study grammar to pass"
+    ],
+    "answer": 2,
+    "explanation": "'Only if' creates a necessary condition: studying grammar is REQUIRED to pass, but not necessarily sufficient. You might study grammar and still fail for other reasons. 'Only if' ≠ 'if and only if.' This is a crucial logical distinction tested in exam-reading contexts.",
+    "wrongReasons": [
+      "TRAP: Conditional trap — 'only if' misread as 'if' (necessary vs. sufficient condition) — 'Studying the grammar chapter guarantees you will pass' treats 'only if' as a guarantee. But 'only if' means grammar study is necessary, not sufficient. Other conditions may also be needed.",
+      "'If you study the grammar chapter, you will definitely pass' repeats the same error — confusing necessary condition (only if) with sufficient condition (if...then definitely). The sentence does not promise that grammar study alone ensures passing.",
+      "'You do not need to study grammar to pass' directly contradicts 'only if you study.' 'Only if' means you CANNOT pass without studying it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["only if"],
+    "hebrewExplanation": "מלכודת עיקרית: 'only if' מתפרש כתנאי מספיק במקום תנאי הכרחי. הבעיה: 'only if' = תנאי הכרחי — ללא לימוד דקדוק לא תעבור, אבל לימוד דקדוק לא מבטיח עמידה. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-281",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"A local newspaper reported that one school in the district changed its lunch menu to include more vegetables, and students at that school reported eating more vegetables as a result.\"\n\nWhich conclusion is BEST SUPPORTED by the passage?",
+    "choices": [
+      "At this one school, a menu change was followed by students eating more vegetables",
+      "All schools should change their lunch menus to include more vegetables",
+      "The district as a whole improved student nutrition through menu changes",
+      "Students everywhere eat more vegetables when schools provide them"
+    ],
+    "answer": 0,
+    "explanation": "The passage reports on one school, one change, and one outcome — self-reported by students at that school. Any conclusion about all schools, all students, or the whole district extends beyond what a single local news report about one school can support.",
+    "wrongReasons": [
+      "TRAP: Singular/plural scope trap — 'All schools should change their lunch menus' applies a single school's experience to a universal recommendation for all schools. One case does not establish a universal rule.",
+      "'Students everywhere eat more vegetables when schools provide them' makes a global claim from one school's self-reported outcome. 'Everywhere' is far beyond one district school.",
+      "'The district as a whole improved student nutrition' expands from 'one school in the district' to 'the district as a whole.' The passage explicitly says one school, not the district."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מ'בית ספר אחד' ל'כל בתי הספר'. הבעיה: הטקסט מדווח על שינוי בבית ספר אחד בלבד. לא ניתן להסיק מסקנות על כל בתי הספר, כל התלמידים, או כל המחוז. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-282",
+    "difficulty": "medium",
+    "text": "Read the sentence carefully and answer the question.\n\n\"The organization, which was founded in 1950 and has since grown to include over 200 member countries, primarily focuses on promoting international trade agreements, though it also addresses environmental and labor standards.\"\n\nWhat is described as the PRIMARY focus of the organization?",
+    "choices": [
+      "International trade agreements",
+      "Labor standards",
+      "Environmental standards",
+      "Managing member country disputes"
+    ],
+    "answer": 0,
+    "explanation": "The sentence states the organization 'primarily focuses on promoting international trade agreements.' Environmental and labor standards are mentioned as secondary concerns ('also addresses'). 'Managing disputes' is never mentioned.",
+    "wrongReasons": [
+      "TRAP: Structural trap — secondary information mid-sentence chosen over primary focus stated later — 'Environmental standards' appears near the end of the sentence after 'also addresses,' which signals secondary focus. Students may recall it because it is the most recent item read.",
+      "'Labor standards' has the same problem — it comes at the very end of the sentence after 'environmental,' making it the last word in students' short-term memory, but it is explicitly secondary ('also addresses').",
+      "'Managing member country disputes' is never mentioned in the sentence. Students may infer this from the idea of 200 member countries, but it is not stated."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["primarily", "though"],
+    "hebrewExplanation": "מלכודת עיקרית: מידע משני בסוף משפט ארוך נבחר כמרכזי. הבעיה: 'primarily focuses on international trade' = ההתמקדות העיקרית. 'also addresses' = משני. תלמידים זוכרים את המילים האחרונות ובוחרים 'standards סביבתיים/עבודה'. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-283",
+    "difficulty": "medium",
+    "text": "Read the passage and answer the question.\n\n\"The results of the survey APPEAR TO INDICATE a preference for remote work among employees in the technology sector.\"\n\nWhat does this sentence tell us?",
+    "choices": [
+      "Technology employees are required to work remotely",
+      "It is confirmed that tech employees prefer remote work",
+      "Survey results prove remote work is better for technology companies",
+      "Survey findings weakly suggest tech employees may favor remote work"
+    ],
+    "answer": 3,
+    "explanation": "'Appear to indicate' combines two hedging elements: 'appear' (seems, but not certain) and 'indicate' (points toward, not proves). This double hedge makes the claim very tentative. Nothing is confirmed or proven; the finding is suggestive at most.",
+    "wrongReasons": [
+      "TRAP: Hedging word trap — double hedge phrase treated as confirmation — 'It is confirmed that tech employees prefer remote work' drops both hedges ('appear to' and 'indicate') and converts a tentative finding into a confirmed fact. Students who focus on the content miss the qualifier.",
+      "'Survey results prove remote work is better for technology companies' both removes the hedges AND introduces a value judgment ('better') not present in the original sentence.",
+      "'Technology employees are required to work remotely' invents a mandate from a preference finding. A preference is a choice, not a requirement."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["appear to indicate"],
+    "hebrewExplanation": "מלכודת עיקרית: ביטוי ריכוך כפול מתפרש כאישור. הבעיה: 'appear to indicate' = נראה שמצביע על... — ריכוך כפול. זו טענה זהירה מאוד, לא הוכחה. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-284",
+    "difficulty": "medium",
+    "text": "Read the comparative sentence and answer the question.\n\n\"Participants who followed a plant-based diet reported fewer digestive complaints than those who ate a mixed diet during the eight-week trial.\"\n\nWhat does this sentence claim?",
+    "choices": [
+      "A plant-based diet eliminates all digestive problems",
+      "A mixed diet causes serious digestive harm",
+      "In this study, plant-based dieters reported fewer digestive complaints than mixed dieters",
+      "Doctors recommend a plant-based diet for digestive health"
+    ],
+    "answer": 2,
+    "explanation": "The sentence makes a comparative, time-limited, self-reported finding: fewer complaints among one group vs. another over eight weeks. It says nothing about eliminating all problems, causing harm, or medical recommendations.",
+    "wrongReasons": [
+      "TRAP: Comparative trap — relative reduction misread as total elimination — 'A plant-based diet eliminates all digestive problems' converts 'fewer complaints' into 'no complaints.' Fewer ≠ zero. The comparison is relative, not absolute.",
+      "'A mixed diet causes serious digestive harm' makes the mixed-diet group sound harmful, but the sentence only says they had more complaints — more complaints is not the same as serious harm.",
+      "'Doctors recommend a plant-based diet for digestive health' introduces a clinical recommendation not mentioned in the passage. A study finding is not the same as medical advice."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'פחות תלונות' מתפרש כ'אין תלונות'. הבעיה: 'fewer complaints' = פחות תלונות (יחסית), לא 'אפס תלונות'. גם עצם ההשוואה מוגבלת לניסוי של 8 שבועות. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-285",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"While early research suggested that low-dose aspirin might protect against a second heart attack, more recent reviews of larger datasets have found that the benefit for patients without prior cardiovascular events is less clear, and some studies have noted potential gastrointestinal risks. Guidelines issued in 2022 now recommend individualized assessment rather than routine use.\"\n\nWhich statement MOST ACCURATELY reflects what the passage says?",
+    "choices": [
+      "Aspirin is proven to prevent heart attacks in all patients",
+      "The 2022 guidelines confirm that aspirin is beneficial for all adults over 50",
+      "Aspirin is dangerous and should no longer be used",
+      "Recent evidence has made the blanket recommendation for aspirin less straightforward, especially for those without prior heart events"
+    ],
+    "answer": 3,
+    "explanation": "The passage presents a nuanced picture: early research supported aspirin, but newer data has complicated the picture — particularly for primary prevention. The 2022 guidelines reflect this complexity by recommending individualized assessment rather than routine blanket use. Nothing is 'proven,' nothing is banned, and no age group is universally endorsed.",
+    "wrongReasons": [
+      "TRAP: Hedging word trap combined with time scope trap — 'Aspirin is proven to prevent heart attacks in all patients' ignores multiple hedges ('might,' 'less clear') and the time scope (early research vs. more recent data), and universalizes to 'all patients' what was a qualified, evolving finding.",
+      "'Aspirin is dangerous and should no longer be used' over-interprets 'potential gastrointestinal risks' as proof of danger, and converts a nuanced guideline shift into a ban. The passage says individualized assessment, not discontinuation.",
+      "'The 2022 guidelines confirm aspirin is beneficial for all adults over 50' inverts the direction of the guideline change. The 2022 guidelines moved AWAY from routine use, not toward broader endorsement, and the text mentions no specific age group."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["individualized", "cardiovascular"],
+    "hebrewExplanation": "מלכודת עיקרית: מילות ריכוך + זמן מחקר מתפרשות כהוכחה. הבעיה: 'might,' 'less clear,' 'potential' — כל אלו מילות ריכוך. הטקסט מציג תמונה מורכבת: מחקר מוקדם תמך באספירין; נתונים חדשים מסבכים את התמונה. ההנחיות משנת 2022 קוראות להערכה אישית, לא המלצה גורפת. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-286",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"The architect's proposal included a ground-floor community center, five floors of affordable housing units, a rooftop garden accessible to residents, and a small retail space on the east wing of the building; the city council praised the affordable housing component specifically as a model for future developments.\"\n\nWhich part of the proposal did the city council specifically highlight?",
+    "choices": [
+      "The rooftop garden",
+      "The affordable housing units",
+      "The ground-floor community center",
+      "The retail space in the east wing"
+    ],
+    "answer": 1,
+    "explanation": "The long sentence lists four components of the proposal, then specifies after the semicolon that the city council praised 'the affordable housing component specifically.' Students reading quickly may not reach or fully process the post-semicolon clause.",
+    "wrongReasons": [
+      "TRAP: Structural trap — the answer appears after a semicolon at the end of a very long sentence — 'The rooftop garden' is mentioned third in the list and sounds distinctive and memorable (it is an unusual feature), leading students to select it without reading to the end.",
+      "'The ground-floor community center' is listed first in the sentence — the position most likely to be remembered by students who stop reading early and choose based on the first notable item.",
+      "'The retail space in the east wing' is the last item in the list before the semicolon, creating a recency effect — but the key information comes after the semicolon and specifies affordable housing, not retail space."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["specifically", "component"],
+    "hebrewExplanation": "מלכודת עיקרית: תשובה הנכונה מופיעה אחרי נקודה-פסיק בסוף משפט ארוך. הבעיה: הרשימה הארוכה גורמת לתלמידים לבחור את הפריט הראשון או האחרון ברשימה. הסעיף הנכון מופיע אחרי הנקודה-פסיק: 'the affordable housing component specifically.' התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-287",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"Studies from the 1980s showed that children raised in multilingual households scored higher on certain executive function tasks. However, a 2015 meta-analysis examining 63 studies found that the bilingual advantage in executive function may be substantially smaller than originally reported, or may not exist in many contexts.\"\n\nWhat does the passage MOST ACCURATELY tell us about the bilingual advantage?",
+    "choices": [
+      "More recent large-scale analysis has significantly questioned the size and reliability of the earlier bilingual advantage findings",
+      "The bilingual advantage is definitively proven by both old and new research",
+      "The 1980s research proves multilingualism always improves executive function",
+      "The 2015 meta-analysis confirmed that bilingualism has no benefits"
+    ],
+    "answer": 0,
+    "explanation": "The passage presents two bodies of evidence in tension: 1980s studies suggesting an advantage, and a 2015 meta-analysis casting doubt on its size and generalizability. The conclusion is that the advantage is uncertain, not proven and not disproven. The later evidence is larger and more systematic.",
+    "wrongReasons": [
+      "TRAP: Time scope trap combined with hedging word trap — 'The bilingual advantage is definitively proven by both old and new research' ignores 'may be substantially smaller' and 'may not exist in many contexts' — clear hedges. It also misreads the 2015 meta-analysis as confirming the advantage when it actually questions it.",
+      "'The 1980s research proves multilingualism always improves executive function' applies older, smaller studies as definitive proof and adds 'always' (absolute claim). The passage presents the 1980s studies as early findings, subsequently challenged.",
+      "'The 2015 meta-analysis confirmed that bilingualism has no benefits' overstates the meta-analysis. It found the advantage 'may not exist in many contexts' — a hedged finding, not a disproof of all benefits."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["meta-analysis", "executive function"],
+    "hebrewExplanation": "מלכודת עיקרית: מחקר ישן מוצג כהוכחה מוחלטת / מחקר חדש כהפרכה מוחלטת. הבעיה: הטקסט מציג מתח בין שני גופי מחקר. מחקר 2015 הטיל ספק בגודל היתרון ואמינותו — לא הוכיח שאין יתרון כלל. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-288",
+    "difficulty": "hard",
+    "text": "Read the conditional passage and answer the question.\n\n\"A business will receive the tax exemption only if it employs more than 50 full-time workers AND is registered in an approved economic development zone.\"\n\nA business employs 75 workers and is registered in an approved zone. Which conclusion follows?",
+    "choices": [
+      "The business definitely receives the tax exemption",
+      "The business might receive the tax exemption, but other conditions could also be required",
+      "The business does not qualify because it employs too many workers",
+      "The business qualifies for a partial exemption"
+    ],
+    "answer": 1,
+    "explanation": "The passage says 'only if' both conditions are met — but 'only if' establishes necessary conditions, not necessarily sufficient ones. The passage does not say these are the ONLY two requirements; other unstated conditions may also apply. However, since both stated conditions are met, the business is not disqualified. The most accurate answer acknowledges the conditions are met but notes the passage does not guarantee this is sufficient.",
+    "wrongReasons": [
+      "TRAP: Conditional trap — 'only if' with AND treated as both necessary AND sufficient — 'The business definitely receives the exemption' assumes meeting both stated conditions is enough. 'Only if' means these conditions are necessary, but the passage does not explicitly say they are also sufficient (no other conditions exist).",
+      "'The business does not qualify because it employs too many workers' misreads the condition as an upper limit. The condition says 'more than 50' — 75 satisfies this. There is no upper limit stated.",
+      "'The business qualifies for a partial exemption' invents a tier not mentioned in the passage. The passage discusses one exemption with specific conditions, not partial exemptions."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["only if", "exemption"],
+    "hebrewExplanation": "מלכודת עיקרית: 'only if' עם AND מתפרש כתנאי מספיק. הבעיה: 'only if' קובע תנאים הכרחיים — בלעדיהם אין פטור. אך הטקסט לא אומר שאלו התנאים היחידים. ייתכנו דרישות נוספות. התשובה הנכונה: B — ייתכן שיש זכאות, אך ייתכנו תנאים נוספים.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-289",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"The data collected between 2000 and 2005 from three urban hospitals showed that patients receiving the new treatment protocol had a 22% lower readmission rate compared to those receiving standard care during the same period.\"\n\nWhich of the following is the MOST DEFENSIBLE conclusion based ONLY on this passage?",
+    "choices": [
+      "Standard care is ineffective and harmful to patients",
+      "The new treatment should immediately replace standard care in all hospitals",
+      "The new protocol causes a 22% reduction in readmissions in all hospitals worldwide",
+      "In this specific 2000-2005 sample from three urban hospitals, the new protocol was associated with lower readmission rates"
+    ],
+    "answer": 3,
+    "explanation": "The finding is narrow: three urban hospitals, a five-year window, one outcome measure, an association (not proven causation). The most defensible conclusion stays within these limits. Universal application, policy mandates, and judgments about standard care's effectiveness are all beyond the passage's scope.",
+    "wrongReasons": [
+      "TRAP: Singular/plural scope trap combined with time scope trap — 'The new protocol causes a 22% reduction in readmissions in all hospitals worldwide' universalizes findings from three urban hospitals over five years to all hospitals at all times. Scope (3 hospitals) + time (2000-2005) + causation vs. association are all overstated.",
+      "'The new treatment should immediately replace standard care in all hospitals' is a policy prescription requiring evidence of safety, cost-effectiveness, and generalizability — none of which the passage provides. One metric (readmission rate) is not sufficient for replacement decisions.",
+      "'Standard care is ineffective and harmful to patients' mischaracterizes the comparison. A lower readmission rate for the new protocol does not mean standard care is ineffective or harmful — both approaches might have good outcomes, with one marginally better."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["readmission", "associated with"],
+    "hebrewExplanation": "מלכודת עיקרית: הכללה ממדגם ספציפי לכלל העולם + ממצא עבר מוחל על הווה. הבעיה: שלושה בתי חולים עירוניים בין 2000-2005 הם מדגם מוגבל. לא ניתן להסיק על כל בתי החולים בעולם היום. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-290",
+    "difficulty": "hard",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The theory ACCOUNTS FOR the observed variation in species distribution across the island chain.\"\n\nWhat does 'accounts for' mean in this academic context?",
+    "choices": [
+      "Reports and records accurately",
+      "Pays for the cost of",
+      "Is responsible for creating",
+      "Provides a satisfactory explanation of"
+    ],
+    "answer": 3,
+    "explanation": "In academic writing, 'accounts for' means explains or provides a satisfactory explanation of. 'The theory accounts for the variation' = the theory explains why the variation exists. This is a very common academic expression that students confuse with financial or reporting meanings.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — common phrase in uncommon academic sense — 'Pays for the cost of' uses the financial meaning of 'account for' (accounting = financial tracking). Students who associate 'account' with banking or money choose this option.",
+      "'Is responsible for creating' confuses 'accounts for' (explains) with 'causes' or 'is responsible for.' The theory explains the variation; it did not create it.",
+      "'Reports and records accurately' uses the meaning of 'account' in the sense of reporting or journalistic accounting. In academic argumentation, 'accounts for' specifically means explains, not records."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["accounts for"],
+    "hebrewExplanation": "מלכודת עיקרית: ביטוי יומיומי בהקשר אקדמי. הבעיה: 'accounts for' בכתיבה אקדמית = מסביר / מספק הסבר מניח את הדעת. לא קשור לכספים או לדיווח. 'The theory accounts for the variation' = התיאוריה מסבירה את השונות. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-291",
+    "difficulty": "hard",
+    "text": "Read the passage carefully and answer the question.\n\n\"While the intervention showed promising results in the first six months — reducing anxiety symptoms by an average of 30% among participants — follow-up assessments conducted at the 18-month mark revealed that symptom levels had largely returned to baseline in most participants, though a minority maintained significant improvement.\"\n\nWhat does the passage MOST ACCURATELY convey about the intervention's effectiveness?",
+    "choices": [
+      "The intervention was highly effective and its benefits lasted 18 months",
+      "Initial benefits were substantial but faded for most participants by 18 months, though some maintained gains",
+      "The intervention had no effect on anxiety symptoms",
+      "The intervention was effective only for a minority of participants from the start"
+    ],
+    "answer": 1,
+    "explanation": "The passage presents a nuanced trajectory: strong early results (30% reduction) that did not persist for most participants at 18 months, with a minority exception. Any answer that ignores the time dimension, the majority/minority distinction, or either end of the arc misrepresents the passage.",
+    "wrongReasons": [
+      "TRAP: Time scope trap combined with structural trap — 'The intervention was highly effective and its benefits lasted 18 months' picks up on the promising first-six-month results (beginning of the passage) and ignores the 18-month follow-up reversal described in the second half of the sentence.",
+      "'The intervention had no effect on anxiety symptoms' ignores the clear 30% reduction in the first six months. Zero effect is contradicted by the data.",
+      "'The intervention was effective only for a minority of participants from the start' inverts the finding. The majority showed improvement initially; the minority retained it at 18 months. 'From the start' also contradicts the data."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["baseline", "minority"],
+    "hebrewExplanation": "מלכודת עיקרית: ממצא מתחילת הטקסט (6 חודשים) מוחל כאילו הוא המסקנה הסופית. הבעיה: הטקסט מציג קשת זמן: שיפור ראשוני חזק (6 חודשים) ← רוב המשתתפים חזרו לבסיס (18 חודשים). התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-292",
+    "difficulty": "hard",
+    "text": "Read the sentence and identify the logical structure.\n\n\"Research indicates that students who read for pleasure at least three times per week tend to have stronger vocabulary skills than those who read less frequently.\"\n\nA teacher concluded: 'Therefore, making students read more often will definitely improve their vocabulary.'\n\nWhat is wrong with this conclusion?",
+    "choices": [
+      "Nothing — the conclusion follows logically from the research",
+      "The conclusion ignores that the research is about pleasure reading, not assigned reading, and assumes correlation implies causation",
+      "The conclusion is wrong because frequency of reading has no effect on vocabulary",
+      "The conclusion is wrong because only reading novels improves vocabulary"
+    ],
+    "answer": 1,
+    "explanation": "The research shows an association between voluntary pleasure reading and vocabulary — not that mandated reading causes vocabulary improvement. Two problems: (1) correlation vs. causation (frequent readers may have stronger vocabulary for other reasons), and (2) the type of reading (voluntary pleasure) differs from what the teacher proposes (assigned reading).",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated, combined with conditional trap — 'Nothing — the conclusion follows logically' ignores that the research is observational (association), not experimental (causation). Association between X and Y does not prove that forcing X causes Y.",
+      "'The conclusion is wrong because frequency of reading has no effect on vocabulary' overcorrects. The research does suggest a relationship; the problem is with the causal inference and the shift from voluntary to assigned reading.",
+      "'The conclusion is wrong because only reading novels improves vocabulary' invents a restriction not in the passage. The research says 'reading for pleasure,' not specifically novels."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["correlation", "indicates"],
+    "hebrewExplanation": "מלכודת עיקרית: מסקנה סבירה שאינה נתמכת על ידי המחקר. הבעיה: (1) המחקר מוצא קשר (קורלציה) — לא סיבתיות. (2) קריאה מרצון ≠ קריאה מוכתבת. המסקנה מתעלמת משני ההבדלים. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-293",
+    "difficulty": "hard",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The new legislation SUBSUMES the older regulations under a single framework.\"\n\nWhat does 'subsumes' mean in this context?",
+    "choices": [
+      "Summarizes in simpler language",
+      "Replaces completely and deletes",
+      "Includes and absorbs within a larger category",
+      "Disagrees with and overturns"
+    ],
+    "answer": 2,
+    "explanation": "'Subsume' means to include something within a larger category or framework. The older regulations are not deleted — they are absorbed into the new, broader framework. This is a technical academic and legal term students rarely encounter but may confuse with 'replace' or 'summarize.'",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — uncommon academic word confused with similar common words — 'Replaces completely and deletes' confuses 'subsumes' with 'supersedes' or 'replaces.' Subsuming keeps the content within a broader structure; it does not delete it.",
+      "'Disagrees with and overturns' confuses 'subsumes' with 'challenges' or 'overturns.' Subsuming is an inclusive act (bringing in), not an adversarial one (overturning).",
+      "'Summarizes in simpler language' confuses 'subsumes' with 'summarizes' — a phonetically similar word. Subsuming is about categorization and inclusion, not linguistic simplification."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["subsumes"],
+    "hebrewExplanation": "מלכודת עיקרית: מילה אקדמית נדירה המבולבלת עם מילים דומות. הבעיה: 'subsumes' = כולל ובולע בתוך קטגוריה רחבה יותר — לא מחליף, לא מפריך, לא מסכם. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-294",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"The fossil record from this excavation site contains only marine species. Therefore, this area was once covered by an ocean.\"\n\nIs the conclusion well-supported by the evidence?",
+    "choices": [
+      "Yes, because fossils always prove the environment where an organism lived",
+      "Yes, because marine fossils can only form underwater",
+      "Largely yes, but only if we assume marine fossils could not have been deposited here by other means such as ancient river transport",
+      "No, because fossils cannot prove anything about past environments"
+    ],
+    "answer": 2,
+    "explanation": "Marine fossils are strong evidence of past marine coverage, but the conclusion requires the assumption that the fossils were deposited in place (in situ) rather than transported by rivers or other geological processes. The conclusion is reasonable but not logically airtight without ruling out alternative explanations. Option C correctly identifies the necessary assumption.",
+    "wrongReasons": [
+      "TRAP: Reading comprehension — text-supported vs. reasonable-but-unstated — 'Yes, because marine fossils can only form underwater' is partially true (marine organisms live in water) but doesn't address whether fossils could be transported to a non-marine site. Formation location ≠ deposition location.",
+      "'Yes, because fossils always prove the environment where an organism lived' uses 'always' — an absolute claim. Fossils can be displaced by geological activity, making 'always' indefensible.",
+      "'No, because fossils cannot prove anything about past environments' is too strong a rejection. Fossil evidence is valuable and widely used in paleoenvironmental reconstruction; the issue is one of degree and assumptions, not total uselessness."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["fossil record", "marine"],
+    "hebrewExplanation": "מלכודת עיקרית: מסקנה הגיונית שדורשת הנחה נוספת שאינה מפורשת. הבעיה: מאובנים ימיים הם ראיה טובה — אך המסקנה דורשת הנחה שהמאובנים לא הוסעו ממקום אחר. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-295",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"The authors CONTEND that current urban housing policies, despite their intended social benefits, systematically disadvantage lower-income households by prioritizing market-rate development.\"\n\nWhat does 'contend' signal about the authors' claim?",
+    "choices": [
+      "The claim has been proven by government statistics",
+      "The claim is an established, universally accepted fact",
+      "The claim is a neutral, objective observation",
+      "The claim is the authors' argued position, which others may dispute"
+    ],
+    "answer": 3,
+    "explanation": "'Contend' is a reporting verb that signals the following statement is an argued position or claim — not a proven fact or neutral observation. In academic writing, 'contend' introduces a view that is debated. This distinguishes it from 'prove,' 'show,' or 'demonstrate,' which imply evidential support.",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — reporting verb 'contend' treated as a fact-stating verb — 'The claim is an established, universally accepted fact' ignores the signal function of 'contend.' Verbs like 'contend,' 'argue,' and 'claim' introduce debatable positions; 'demonstrate' or 'show' introduce supported findings.",
+      "'The claim is a neutral, objective observation' misreads 'contend' as a neutral descriptor. 'Contend' specifically signals argumentation and implies the authors have a stake in the position.",
+      "'The claim has been proven by government statistics' invents external evidence not mentioned in the sentence. 'Contend' makes no claim about the source or proof of the position."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["contend"],
+    "hebrewExplanation": "מלכודת עיקרית: פועל דיווח אקדמי מתפרש כהצהרת עובדה. הבעיה: 'contend' = טוענים / מתדיינים — סימן שמדובר בעמדה שניתן לחלוק עליה, לא עובדה מוכחת. פעלי דיווח כמו 'argue,' 'contend,' 'claim' שונים מ-'prove,' 'show.' התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-296",
+    "difficulty": "hard",
+    "text": "Read the long sentence carefully and answer the question.\n\n\"The research team, drawing on longitudinal data spanning 20 years and accounting for confounding variables including socioeconomic status, parental education, and neighborhood quality, concluded that early childhood nutrition had a statistically significant and independent effect on academic achievement at age 16.\"\n\nWhat is the PRIMARY conclusion of the research?",
+    "choices": [
+      "Early childhood nutrition independently and significantly predicted academic achievement at age 16",
+      "Socioeconomic status is the most important factor in academic achievement",
+      "Parental education determines children's academic success at age 16",
+      "Neighborhood quality was controlled in the study but its effect was not measured"
+    ],
+    "answer": 0,
+    "explanation": "The main conclusion clause is: 'early childhood nutrition had a statistically significant and independent effect on academic achievement at age 16.' Socioeconomic status, parental education, and neighborhood quality are controlled variables (confounders), not the main finding. Students reading the middle of the sentence may confuse the list of confounders with the primary result.",
+    "wrongReasons": [
+      "TRAP: Structural trap — confounders listed mid-sentence confused with main findings — 'Socioeconomic status is the most important factor in academic achievement' picks up a variable from the middle of the sentence (listed as a confounder that was controlled for) and elevates it to the main finding. Being controlled for is not the same as being the primary conclusion.",
+      "'Parental education determines children's academic success at age 16' makes the same structural error — parental education is in the list of controlled confounders, not the conclusion variable.",
+      "'Neighborhood quality was controlled in the study but its effect was not measured' is partially accurate (it was controlled for) but draws attention to a detail not asked about, and incorrectly implies the study ignored its effect entirely — controlling for a variable requires measuring it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["longitudinal", "confounding variables", "statistically significant"],
+    "hebrewExplanation": "מלכודת עיקרית: משתנים מבלבלים (confounders) באמצע משפט ארוך מתבלבלים עם המסקנה הראשית. הבעיה: מעמד סוציו-אקונומי, השכלת הורים, ואיכות שכונה — אלו משתנים שנשלטו (controlled for), לא הממצא. הממצא בסוף: תזונה בינקות → הישגים אקדמיים. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-297",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"A 1999 survey of 500 business leaders in North America found that 78% believed globalization had primarily benefited large corporations. The survey did not include small business owners or employees.\"\n\nWhich of the following is the MOST accurate conclusion from this passage?",
+    "choices": [
+      "Globalization has primarily benefited large corporations",
+      "The survey proves that business leaders do not support globalization",
+      "The majority of people believe globalization benefits large corporations",
+      "In 1999, a majority of a specific group of North American business leaders surveyed believed globalization mainly benefited large corporations"
+    ],
+    "answer": 3,
+    "explanation": "The passage reports beliefs of a specific, limited, non-random sample (500 business leaders, North America, 1999) who are not representative of all people or all stakeholders. The most accurate conclusion stays precisely within these limits: time, place, sample type, and it reports belief not fact.",
+    "wrongReasons": [
+      "TRAP: Singular/plural scope trap combined with time scope trap — 'Globalization has primarily benefited large corporations' treats the survey's belief finding as an objective fact about the world, removes the time limitation (1999), removes the sample limitation (500 business leaders), and converts a majority belief into an established truth.",
+      "'The majority of people believe globalization benefits large corporations' generalizes from 500 business leaders to 'people' in general, and from 1999 North America to an implied universal or current view. The excluded groups (small business owners, employees) are specifically noted as missing.",
+      "'The survey proves that business leaders do not support globalization' misreads the finding. Believing globalization benefited large corporations is not the same as opposing globalization — business leaders might still support it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["globalization", "survey"],
+    "hebrewExplanation": "מלכודת עיקרית: אמונה של קבוצה ספציפית ב-1999 מוצגת כעובדה אוניברסלית עכשווית. הבעיה: 500 מנהלים בצפון אמריקה ב-1999 הם מדגם מוגבל מאוד. לא ניתן להסיק מסקנות כלליות על כל אנשים, כל זמן, או כעובדה מוכחת. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-298",
+    "difficulty": "hard",
+    "text": "Read the passage and answer the question.\n\n\"The economist noted that while the minimum wage increase in City A was followed by a 3% rise in unemployment, City B implemented the same increase without any measurable change in unemployment. She concluded that minimum wage increases do not necessarily cause unemployment.\"\n\nWhich statement BEST evaluates the economist's conclusion?",
+    "choices": [
+      "The conclusion is wrong because City A's data proves minimum wage increases always cause unemployment",
+      "The conclusion is reasonable: mixed results across two cities suggest the relationship is not universal",
+      "The conclusion is correct because City B proves minimum wage never causes unemployment",
+      "The conclusion cannot be evaluated without knowing the population of both cities"
+    ],
+    "answer": 1,
+    "explanation": "The economist's conclusion ('do not necessarily cause') is carefully hedged — she is not saying minimum wage never causes unemployment, only that it does not always do so. Two cities with different outcomes support this nuanced conclusion. Neither city's data alone proves a universal rule.",
+    "wrongReasons": [
+      "TRAP: Comparative trap combined with singular/plural scope trap — 'City A's data proves minimum wage increases always cause unemployment' takes one city's outcome and universalizes it to 'always.' One data point cannot establish a universal causal law.",
+      "'The conclusion is correct because City B proves minimum wage never causes unemployment' makes the opposite error: one city with no unemployment effect is generalized to 'never causes.' Both 'always' and 'never' are unjustifiable from two data points.",
+      "'The conclusion cannot be evaluated without knowing the population of both cities' is a real research concern, but the question asks which statement BEST evaluates the conclusion as written. The conclusion itself ('not necessarily') is appropriately hedged and supportable from the two cities' contrasting results."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["necessarily", "unemployment"],
+    "hebrewExplanation": "מלכודת עיקרית: תוצאה של עיר אחת מוכלת לכלל. הבעיה: עיר A ועיר B הראו תוצאות שונות. 'לא בהכרח גורם' הוא מסקנה זהירה ומתאימה — לא 'תמיד גורם' ולא 'לעולם לא גורם'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-299",
+    "difficulty": "hard",
+    "text": "Read the sentence and choose the correct meaning of the underlined word.\n\n\"The committee's decision to approve the merger was PREDICATED ON the assumption that both companies would maintain current staffing levels.\"\n\nWhat does 'predicated on' mean in this sentence?",
+    "choices": [
+      "Announced before / predicted in advance",
+      "Based on / conditional upon",
+      "Made despite / in contradiction to",
+      "Stated in writing in"
+    ],
+    "answer": 1,
+    "explanation": "'Predicated on' is a formal academic and legal phrase meaning 'based on' or 'dependent upon.' The decision was made on the condition that staffing levels would be maintained. This is distinct from 'predicted' (forecast) or 'stated' (written down).",
+    "wrongReasons": [
+      "TRAP: Vocabulary range — 'predicated on' confused with 'predicted' — 'Announced before / predicted in advance' confuses 'predicated' with 'predicted' — a near-homophone. Students who do not know the academic phrase 'predicated on' default to the familiar word 'predicted,' changing the meaning entirely.",
+      "'Made despite / in contradiction to' is the opposite meaning. 'Predicated on' means based on (the assumption supports the decision), not made in contradiction to the assumption.",
+      "'Stated in writing in' confuses 'predicated on' with 'put on the record in' or 'written in.' 'Predicated on' is about logical or conditional dependency, not written documentation."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["predicated on"],
+    "hebrewExplanation": "מלכודת עיקרית: 'predicated on' מתבלבל עם 'predicted' (חיזוי). הבעיה: 'predicated on' = מבוסס על / מותנה ב- (ביטוי פורמלי-משפטי). לא קשור ל'חיזוי' (predicted). התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-300",
+    "difficulty": "hard",
+    "text": "Read the complex passage and answer the question.\n\n\"Although critics at the time dismissed the architect's early designs as impractical and commercially unviable, the buildings completed during the final decade of his career — constructed with materials unavailable in earlier years and incorporating engineering advances made possible only by digital modeling — received widespread critical acclaim and fundamentally reshaped the city's skyline, earning him a posthumous recognition award from the national architectural institute.\"\n\nWhen did the architect receive recognition from the national institute?",
+    "choices": [
+      "During his early career, when the controversial designs were made",
+      "During the final decade of his career, when the acclaimed buildings were completed",
+      "After his death",
+      "When critics first dismissed his designs as impractical"
+    ],
+    "answer": 2,
+    "explanation": "'Posthumous' means after death. 'A posthumous recognition award' is explicitly described, meaning the architect received the award after he died. This key word appears at the very end of a complex, multi-clause sentence — easy to miss or misread.",
+    "wrongReasons": [
+      "TRAP: Structural trap — 'posthumous' at the very end of a very long complex sentence — 'During the final decade of his career' is when the acclaimed buildings were completed, and it is the most recent positive event described before the last clause. Students who lose track of the sentence structure assign the award to this period.",
+      "'During his early career' confuses the time of the criticized designs with the time of recognition. The early career is when critics dismissed his work, the opposite of recognition.",
+      "'When critics first dismissed his designs as impractical' is another mismatch — critics' initial negative reaction is the beginning of the sentence, the farthest from the award clause at the end."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": ["posthumous"],
+    "hebrewExplanation": "מלכודת עיקרית: מילת מפתח ('posthumous') בסוף משפט מורכב ארוך מאוד. הבעיה: 'posthumous' = לאחר המוות. המילה מופיעה בסוף המשפט ותלמידים שאיבדו את הפוקוס בוחרים 'בעשור האחרון לקריירתו' שהוא הארוע החיובי האחרון לפני הסוף. התשובה הנכונה: C — לאחר מותו.",
+    "estimatedTimeSeconds": 55
+  }
+]

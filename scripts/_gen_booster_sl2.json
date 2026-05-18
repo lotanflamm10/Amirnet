@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "sb-sl-151",
+    "difficulty": "easy",
+    "text": "Because she had studied the material thoroughly, the student felt ________ going into the exam.",
+    "choices": [
+      "confident and well-prepared",
+      "confused and overwhelmed",
+      "indifferent to the results",
+      "reluctant to begin"
+    ],
+    "answer": 0,
+    "explanation": "Thorough preparation logically leads to confidence and readiness, making choice A the natural consequence of the cause stated in the sentence.",
+    "wrongReasons": [
+      "B contradicts the premise — thorough study reduces confusion rather than causing it.",
+      "C is inconsistent because someone who prepared thoroughly is invested in the outcome, not indifferent.",
+      "D has no logical connection to having studied well; reluctance would follow lack of preparation."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הסיבה (לימוד יסודי) מובילה לתוצאה לוגית (ביטחון עצמי). הקשר הוא סיבה-תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-152",
+    "difficulty": "easy",
+    "text": "The research team ran out of funding before completing the study; ________, the final report was never published.",
+    "choices": [
+      "however, the results were praised",
+      "as a result",
+      "in contrast",
+      "similarly"
+    ],
+    "answer": 1,
+    "explanation": "'As a result' correctly signals that the unpublished report is the direct consequence of running out of funding, expressing a cause-and-effect relationship.",
+    "wrongReasons": [
+      "A introduces a contrasting positive outcome which contradicts the negative consequence implied by the setup.",
+      "C introduces contrast, but the two clauses share the same negative direction, not opposing ones.",
+      "D signals similarity, which is illogical here — the sentence describes a single chain of events, not a comparison."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הקשר הוא סיבה-תוצאה. 'As a result' מחבר בין אובדן המימון לבין אי-פרסום הדוח.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-153",
+    "difficulty": "easy",
+    "text": "If a person consumes more calories than they burn each day, they will ________ gain weight over time.",
+    "choices": [
+      "never",
+      "unlikely",
+      "inevitably",
+      "accidentally"
+    ],
+    "answer": 2,
+    "explanation": "A persistent caloric surplus inevitably leads to weight gain; 'inevitably' captures the certain, logical outcome of this physiological fact.",
+    "wrongReasons": [
+      "A directly contradicts the established biological principle of caloric surplus causing weight gain.",
+      "B understates the certainty — it is not merely unlikely to avoid weight gain, it is nearly impossible.",
+      "D implies chance rather than a predictable causal mechanism, which misrepresents the scientific relationship."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הסבר מדעי — צריכת קלוריות עודפת מובילה בהכרח לעלייה במשקל. הקשר הוא תנאי-תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-154",
+    "difficulty": "easy",
+    "text": "The new library policy requires students to ________ their borrowed books within two weeks, or they will face a fine.",
+    "choices": [
+      "return",
+      "purchase",
+      "donate",
+      "review"
+    ],
+    "answer": 0,
+    "explanation": "Library policies governing borrowed books logically involve returning them within a set period; 'return' is the only choice consistent with borrowing conventions.",
+    "wrongReasons": [
+      "B contradicts the premise of borrowing — borrowed items are not meant to be purchased unless separately specified.",
+      "C is implausible as a policy requirement for borrowed books; donating implies ownership.",
+      "D 'review' is academically unrelated to a library lending policy about physical items."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ספריות מלוות ספרים בתנאי שיוחזרו. הקשר הוא כלל-תוצאה של הפרת הכלל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-155",
+    "difficulty": "easy",
+    "text": "Although the professor's lecture was highly technical, the students ________ because she used clear examples.",
+    "choices": [
+      "struggled to take notes",
+      "were able to follow along",
+      "left the classroom early",
+      "refused to participate"
+    ],
+    "answer": 1,
+    "explanation": "'Although' sets up a contrast: despite the difficulty, the clear examples enabled understanding — 'were able to follow along' resolves the contrast logically.",
+    "wrongReasons": [
+      "A reinforces the difficulty instead of contrasting with it, ignoring the mitigating effect of clear examples.",
+      "C is an extreme negative action unrelated to the concession introduced by 'although.'",
+      "D 'refused to participate' introduces unrelated motivation that has no connection to the logical structure."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'Although' יוצר ניגוד בין הקושי לבין ההצלחה. הדוגמאות הברורות מתגברות על הקושי הטכני.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-156",
+    "difficulty": "easy",
+    "text": "The city introduced new recycling bins in every neighborhood; ________, the volume of waste sent to landfills decreased significantly.",
+    "choices": [
+      "consequently",
+      "however",
+      "despite this",
+      "in comparison"
+    ],
+    "answer": 0,
+    "explanation": "'Consequently' correctly signals a causal chain: introducing recycling infrastructure leads to less landfill waste.",
+    "wrongReasons": [
+      "B 'however' signals contrast, but the two clauses logically flow in the same direction.",
+      "C 'despite this' implies an unexpected or contrary result, contradicting the expected positive outcome of recycling bins.",
+      "D 'in comparison' requires two entities being compared, but the sentence describes a single chain of events."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: קשר סיבה-תוצאה בין מיכלי מחזור לבין ירידה בפסולת. 'Consequently' מבטא תוצאה ישירה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-157",
+    "difficulty": "easy",
+    "text": "A child who is praised for their effort rather than their intelligence is more likely to ________ when faced with difficult tasks.",
+    "choices": [
+      "give up immediately",
+      "persist and try harder",
+      "avoid challenging problems",
+      "feel embarrassed by praise"
+    ],
+    "answer": 1,
+    "explanation": "Research on growth mindset shows that praising effort encourages persistence; choice B logically follows from this well-established psychological finding.",
+    "wrongReasons": [
+      "A contradicts the premise — effort-based praise builds resilience, not helplessness.",
+      "C is the opposite of what effort praise produces; children praised for effort seek challenges.",
+      "D introduces an emotional response (embarrassment) that has no logical basis in the described scenario."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: שבח על מאמץ מוביל לעמידות ועקשנות. הקשר הוא פסיכולוגי: גישת הצמיחה (growth mindset).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-158",
+    "difficulty": "easy",
+    "text": "Since the experiment produced unexpected results, the scientists decided to ________ their original hypothesis.",
+    "choices": [
+      "confirm",
+      "ignore",
+      "revise",
+      "publish"
+    ],
+    "answer": 2,
+    "explanation": "When experimental results are unexpected, the scientific method demands revisiting and revising the hypothesis — 'revise' is the only logically consistent response.",
+    "wrongReasons": [
+      "A 'confirm' is the opposite of what unexpected results warrant — they challenge, not support, the hypothesis.",
+      "B 'ignore' contradicts the fundamental principle of scientific inquiry, which requires addressing contradictory data.",
+      "D 'publish' is premature and does not address the logical problem created by unexpected results."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תוצאות בלתי צפויות מחייבות עדכון ההיפותזה. הקשר הוא כלל מדעי: תצפית סותרת → תיקון תיאוריה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-159",
+    "difficulty": "medium",
+    "text": "The government's decision to cut education spending was heavily criticized; ________, studies showed that student performance declined in the years that followed.",
+    "choices": [
+      "in contrast",
+      "nevertheless",
+      "moreover",
+      "regardless"
+    ],
+    "answer": 2,
+    "explanation": "'Moreover' adds supporting evidence in the same direction: the criticism was validated by declining student performance, strengthening the argument against the cuts.",
+    "wrongReasons": [
+      "A 'in contrast' signals an opposing idea, but declining performance reinforces, not contradicts, the criticism.",
+      "B 'nevertheless' implies that performance held up despite the criticism, reversing the logical direction.",
+      "D 'regardless' suggests indifference or independence, which does not connect the two related clauses."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'Moreover' מחזק טיעון קיים בהוספת ראיות נוספות. הקשר הוא צבירת עדויות לביקורת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-160",
+    "difficulty": "medium",
+    "text": "Patients who adhere strictly to their medication schedules tend to recover more quickly; those who do not, ________.",
+    "choices": [
+      "also show rapid improvement",
+      "often experience prolonged illness",
+      "are generally healthier overall",
+      "rarely need follow-up appointments"
+    ],
+    "answer": 1,
+    "explanation": "The sentence sets up a contrast between adherent and non-adherent patients; the logical counterpart to faster recovery is prolonged illness for those who do not adhere.",
+    "wrongReasons": [
+      "A contradicts the contrast implied by 'those who do not' — it would eliminate any distinction between the two groups.",
+      "C reverses the logic; non-adherent patients cannot be generally healthier if adherence improves recovery.",
+      "D is a non-sequitur; follow-up appointments are unrelated to the medication adherence contrast being drawn."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הניגוד בין שתי קבוצות מחייב תוצאות הפוכות — ציות מוביל להחלמה מהירה; אי-ציות מוביל למחלה ממושכת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-161",
+    "difficulty": "medium",
+    "text": "The theory of cognitive dissonance suggests that when people hold two contradictory beliefs simultaneously, they will ________ one of them to reduce psychological discomfort.",
+    "choices": [
+      "aggressively defend",
+      "publicly proclaim",
+      "unconsciously modify",
+      "carefully document"
+    ],
+    "answer": 2,
+    "explanation": "Cognitive dissonance theory predicts that people resolve internal contradiction by unconsciously modifying one belief to restore psychological consistency.",
+    "wrongReasons": [
+      "A 'aggressively defend' contradicts the goal of reducing discomfort — defending both would maintain the tension.",
+      "B 'publicly proclaim' is illogical because dissonance is an internal psychological state, not a public performance.",
+      "D 'carefully document' is a research behavior, not a psychological coping mechanism described by the theory."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תיאוריית הדיסוננס הקוגניטיבי — אנשים משנים אמונה בלא-מודע כדי להפחית מתח פסיכולוגי פנימי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-162",
+    "difficulty": "medium",
+    "text": "Economic models predict that when supply decreases while demand remains constant, prices will ________.",
+    "choices": [
+      "stabilize at the current level",
+      "fall due to reduced availability",
+      "rise to reflect the scarcity",
+      "become impossible to determine"
+    ],
+    "answer": 2,
+    "explanation": "Basic supply-and-demand logic: when supply falls and demand holds steady, scarcity drives prices upward — 'rise to reflect the scarcity' is the economically correct answer.",
+    "wrongReasons": [
+      "A 'stabilize' contradicts supply-demand theory, which predicts movement when either variable changes.",
+      "B reverses the direction — reduced supply raises prices, it does not lower them.",
+      "D claims indeterminacy, but supply-demand theory gives a clear directional prediction in this scenario."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: כלכלת ביקוש והיצע — ירידה בהיצע עם ביקוש קבוע מובילה לעלייה במחירים (מחסור → מחיר גבוה יותר).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-163",
+    "difficulty": "medium",
+    "text": "While early studies suggested a link between social media use and depression, more recent research indicates that the relationship is ________, influenced by factors such as usage patterns, content type, and individual personality.",
+    "choices": [
+      "straightforward and well-established",
+      "non-existent and should be dismissed",
+      "far more complex and nuanced",
+      "primarily determined by age"
+    ],
+    "answer": 2,
+    "explanation": "The sentence contrasts early simple findings with the complexity revealed by newer research and multiple influencing factors — 'far more complex and nuanced' is the logical conclusion.",
+    "wrongReasons": [
+      "A contradicts the sentence's own description of multiple complicating factors, implying simplicity where complexity is stated.",
+      "B overstates the revision — newer research complicates the link, it does not eliminate it entirely.",
+      "D introduces a single variable (age) as the primary determinant, contradicting the listed range of factors."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המחקרים החדשים מציגים תמונה מורכבת יותר. הקשר הוא ניגוד בין פשטות ראשונית לבין מורכבות מחקרית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-164",
+    "difficulty": "medium",
+    "text": "Linguists argue that language does not merely reflect thought but actively ________ it, shaping how speakers perceive and categorize their reality.",
+    "choices": [
+      "contradicts",
+      "structures",
+      "replaces",
+      "simplifies"
+    ],
+    "answer": 1,
+    "explanation": "The Sapir-Whorf hypothesis holds that language structures thought and perception; 'structures' logically completes the claim that language shapes how reality is understood.",
+    "wrongReasons": [
+      "A 'contradicts' creates an incoherent statement — language cannot both be thought and contradict it.",
+      "C 'replaces' implies thought would not exist without language, which goes beyond the claim the sentence makes.",
+      "D 'simplifies' reverses the intended nuance — the argument is that language adds structure, not removes complexity."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: השפה לא רק משקפת מחשבה — היא מעצבת אותה. הקשר הוא תפיסה לשונית (Sapir-Whorf).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-165",
+    "difficulty": "medium",
+    "text": "The pharmaceutical company claimed their new drug was safe; ________, post-market surveillance revealed serious side effects in a small but significant proportion of patients.",
+    "choices": [
+      "furthermore",
+      "therefore",
+      "however",
+      "similarly"
+    ],
+    "answer": 2,
+    "explanation": "'However' introduces the contrastive idea that real-world monitoring contradicted the company's safety claim, establishing an adversative relationship.",
+    "wrongReasons": [
+      "A 'furthermore' adds information in the same direction, but the side effects contradict, not reinforce, the safety claim.",
+      "B 'therefore' indicates that the side effects follow logically from the safety claim, which is the opposite of the sentence's meaning.",
+      "D 'similarly' implies the two clauses express the same idea, but they are in direct opposition."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'However' מציין ניגוד בין טענת הבטיחות לבין הממצאים הפוסט-שיווקיים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-166",
+    "difficulty": "medium",
+    "text": "Climate scientists warn that unless greenhouse gas emissions are drastically reduced within the next decade, the average global temperature will ________ the threshold beyond which certain climate tipping points become irreversible.",
+    "choices": [
+      "remain well below",
+      "stabilize just beneath",
+      "exceed",
+      "gradually approach but never cross"
+    ],
+    "answer": 2,
+    "explanation": "The conditional 'unless emissions are reduced' implies the consequence of inaction: crossing the critical threshold — 'exceed' is the direct logical consequence of the warning.",
+    "wrongReasons": [
+      "A 'remain well below' contradicts the conditional warning, implying no danger even without action.",
+      "B 'stabilize just beneath' similarly minimizes the risk stated in the warning clause.",
+      "D contradicts the premise that tipping points become irreversible — 'never cross' eliminates the very danger the scientists warn about."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: מבנה תנאי 'unless' — ללא הפחתת פליטות, הטמפרטורה תחצה את הסף הקריטי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-167",
+    "difficulty": "medium",
+    "text": "In psychology, the placebo effect demonstrates that a patient's ________ that a treatment is effective can produce measurable improvements in their condition, even when the treatment itself is inert.",
+    "choices": [
+      "doubt",
+      "belief",
+      "memory",
+      "resistance"
+    ],
+    "answer": 1,
+    "explanation": "The placebo effect is defined by the patient's belief in treatment efficacy causing real improvements; 'belief' is the precise psychological mechanism described.",
+    "wrongReasons": [
+      "A 'doubt' is the opposite of the mechanism — doubt would suppress, not produce, the placebo response.",
+      "C 'memory' is unrelated to the mechanism of expectation that drives the placebo effect.",
+      "D 'resistance' contradicts the phenomenon — resistance would prevent the placebo effect from occurring."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אפקט הפלצבו מבוסס על אמונת המטופל ביעילות הטיפול — הציפייה יוצרת שיפור אמיתי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-168",
+    "difficulty": "medium",
+    "text": "Although the policy was introduced to promote equality, critics argued that in practice it ________ existing disparities.",
+    "choices": [
+      "significantly reduced",
+      "unintentionally reinforced",
+      "completely eliminated",
+      "accurately measured"
+    ],
+    "answer": 1,
+    "explanation": "'Although' sets up a contrast between intention (promoting equality) and outcome (critics' view). 'Unintentionally reinforced' captures the ironic, contrastive outcome the critics identify.",
+    "wrongReasons": [
+      "A and C both align with the intended purpose, eliminating the contrast that 'although' demands.",
+      "D 'accurately measured' is irrelevant — critics are challenging outcomes, not measurement accuracy."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'Although' יוצר ניגוד בין כוונת המדיניות לבין תוצאתה בפועל — מדיניות שתכליתה שוויון גרמה לפערים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-169",
+    "difficulty": "medium",
+    "text": "The philosopher argued that moral obligations exist only when an individual has the capacity to act otherwise; therefore, determinism, if true, would ________ moral responsibility.",
+    "choices": [
+      "strengthen the basis for",
+      "have no effect on",
+      "undermine the concept of",
+      "expand the scope of"
+    ],
+    "answer": 2,
+    "explanation": "If determinism is true, individuals cannot act otherwise; by the philosopher's definition, this eliminates the capacity for alternative action, thereby undermining moral responsibility.",
+    "wrongReasons": [
+      "A contradicts the logical chain — determinism removes the precondition for moral obligation, so it weakens rather than strengthens it.",
+      "B claims no logical consequence, but the argument explicitly links free will to moral responsibility.",
+      "D expanding scope makes no logical sense if the capacity for choice is eliminated by determinism."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אם דטרמיניזם נכון, אין אפשרות לפעול אחרת → לא קיימת אחריות מוסרית. קשר לוגי: תנאי → תוצאה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-170",
+    "difficulty": "medium",
+    "text": "Neuroscientific research has shown that chronic stress impairs the hippocampus, the brain region responsible for memory formation; consequently, individuals under prolonged stress often experience ________.",
+    "choices": [
+      "enhanced recall of emotional events",
+      "difficulty forming new memories",
+      "improved spatial navigation",
+      "increased creative problem-solving"
+    ],
+    "answer": 1,
+    "explanation": "Since the hippocampus handles memory formation and chronic stress impairs it, the logical consequence is difficulty forming new memories — a direct causal inference.",
+    "wrongReasons": [
+      "A contradicts the impairing effect stated — emotional recall is also hippocampus-dependent and would worsen, not improve.",
+      "C spatial navigation is unrelated to the memory formation function that the sentence specifically identifies as impaired.",
+      "D creative problem-solving depends on the prefrontal cortex, not the hippocampus, making this a non-sequitur."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: לחץ כרוני פוגע בהיפוקמפוס → קשיים ביצירת זיכרונות חדשים. קשר סיבה-תוצאה נוירולוגי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-171",
+    "difficulty": "medium",
+    "text": "The report concluded that the intervention was cost-effective; ________, the program's long-term sustainability remained in question due to reliance on temporary funding.",
+    "choices": [
+      "therefore",
+      "in addition",
+      "nonetheless",
+      "as a result"
+    ],
+    "answer": 2,
+    "explanation": "'Nonetheless' acknowledges the positive finding (cost-effectiveness) while introducing a contrasting concern (sustainability), perfectly capturing the concessive logical relationship.",
+    "wrongReasons": [
+      "A 'therefore' implies that sustainability concerns logically follow from cost-effectiveness, which reverses the intended contrast.",
+      "B 'in addition' adds information in the same direction, but the second clause introduces a problem, not additional praise.",
+      "D 'as a result' treats the sustainability problem as a consequence of cost-effectiveness, which is logically incoherent."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'Nonetheless' מכיר בהצלחה ומציג ניגוד — למרות יעילות עלות, הקיימות עדיין מוטלת בספק.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-172",
+    "difficulty": "medium",
+    "text": "In a democratic system, the legitimacy of a law depends not only on its content but also on ________ — the process by which it was created must reflect fair and inclusive procedures.",
+    "choices": [
+      "its economic impact on society",
+      "the speed with which it is enforced",
+      "procedural justice",
+      "the popularity of the ruling party"
+    ],
+    "answer": 2,
+    "explanation": "The explanatory clause after the dash defines the missing concept: fair and inclusive procedures in law-making — this is precisely what 'procedural justice' means in political theory.",
+    "wrongReasons": [
+      "A economic impact relates to the law's effects, not the creation process described in the explanation.",
+      "B speed of enforcement relates to implementation, not to the legitimacy of the law-making process.",
+      "D popularity of the ruling party is not equivalent to fair and inclusive procedures; popularity does not equal procedural fairness."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ההסבר שאחרי המקף מגדיר את המושג החסר — נהלים הוגנים ומכלילים = צדק פרוצדורלי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-173",
+    "difficulty": "medium",
+    "text": "When a technology is adopted too rapidly without sufficient testing, the risk of ________ failure increases significantly, potentially reversing any initial gains.",
+    "choices": [
+      "incremental",
+      "theoretical",
+      "systemic",
+      "marginal"
+    ],
+    "answer": 2,
+    "explanation": "Rapid adoption without testing risks failures that affect the entire system — 'systemic' failure captures the broad, cascading nature of such risks, consistent with the scale of the warning.",
+    "wrongReasons": [
+      "A 'incremental' failure implies small, gradual problems, which is too mild for the warning about 'reversing all gains.'",
+      "B 'theoretical' failure is a contradiction in terms in this context — the sentence warns about actual, real-world consequences.",
+      "D 'marginal' implies a minor problem at the edges, which contradicts the severity implied by 'reversing initial gains.'"
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אימוץ מהיר ללא בדיקה מספקת מסכן את המערכת כולה — 'כישלון מערכתי' מתאים לסקאלה שמתוארת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-174",
+    "difficulty": "medium",
+    "text": "Studies on bilingualism suggest that managing two languages simultaneously exercises executive function; ________, bilingual individuals often show stronger inhibitory control than monolinguals.",
+    "choices": [
+      "in contrast",
+      "however",
+      "as a result",
+      "despite this"
+    ],
+    "answer": 2,
+    "explanation": "'As a result' correctly links the causal mechanism (exercising executive function) to its outcome (stronger inhibitory control), expressing a direct consequence.",
+    "wrongReasons": [
+      "A and B both signal contrast, but the second clause is a direct positive consequence of the first, not a contradiction.",
+      "D 'despite this' implies inhibitory control is strong in spite of managing two languages, which reverses the causal direction."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: דו-לשוניות מתרגלת פונקציית ביצוע → שליטה בעיכוב חזקה יותר. קשר סיבה-תוצאה ישיר.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-175",
+    "difficulty": "medium",
+    "text": "The sociologist noted that while industrialization raised average living standards, it also created ________ inequality, concentrating wealth in the hands of a small elite.",
+    "choices": [
+      "diminished",
+      "unprecedented",
+      "temporary",
+      "balanced"
+    ],
+    "answer": 1,
+    "explanation": "The sentence draws an ironic contrast: industrialization raised living standards yet produced inequality on a historically new scale — 'unprecedented' captures the extraordinary scope of this new inequality.",
+    "wrongReasons": [
+      "A 'diminished' contradicts the sentence — it cannot both create inequality and diminish it in the same clause.",
+      "C 'temporary' contradicts the historical record and weakens the sociologist's critical argument.",
+      "D 'balanced' is an oxymoron in this context — concentrating wealth in a small elite is by definition unbalanced."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אי-שוויון חסר תקדים עולה בקנה אחד עם הניגוד שיוצר הסוציולוג — התיעוש שיפר תנאים אך גם ריכז עושר.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-176",
+    "difficulty": "medium",
+    "text": "If a democratic government consistently fails to represent the interests of marginalized groups, those groups may begin to ________ the legitimacy of the political system itself.",
+    "choices": [
+      "celebrate",
+      "consolidate",
+      "question",
+      "preserve"
+    ],
+    "answer": 2,
+    "explanation": "When government fails to represent marginalized groups, logical political theory predicts loss of trust — 'question' the legitimacy of the system is the rational political response to consistent misrepresentation.",
+    "wrongReasons": [
+      "A 'celebrate' is the opposite of what consistent exclusion would produce among marginalized communities.",
+      "B 'consolidate' implies strengthening the system, which would be illogical for groups it consistently fails to represent.",
+      "D 'preserve' similarly implies support for a system that is harming their interests, which is politically illogical."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: כאשר ממשלה אינה מייצגת קבוצות מוחלשות, הן מטילות ספק בלגיטימיות המערכת. קשר פוליטי לוגי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-177",
+    "difficulty": "medium",
+    "text": "Because the algorithm was trained exclusively on data from urban populations, its predictions for rural communities were ________ accurate.",
+    "choices": [
+      "remarkably",
+      "unexpectedly",
+      "consistently",
+      "significantly less"
+    ],
+    "answer": 3,
+    "explanation": "A model trained on urban data lacks representation of rural patterns; 'significantly less accurate' logically follows from this training data bias.",
+    "wrongReasons": [
+      "A 'remarkably accurate' contradicts the known limitation of training on non-representative data.",
+      "B 'unexpectedly accurate' implies a surprising positive result, which is inconsistent with the described data bias.",
+      "C 'consistently accurate' suggests reliable performance regardless of population, which training data bias would prevent."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אלגוריתם שאומן על נתוני ערים בלבד יהיה פחות מדויק עבור אוכלוסיות כפריות — הטיית נתוני אימון.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-178",
+    "difficulty": "medium",
+    "text": "The historian argued that revolutions rarely achieve their original goals; ________, many post-revolutionary societies replicate the very power structures they sought to dismantle.",
+    "choices": [
+      "accordingly",
+      "in fact",
+      "however",
+      "conversely"
+    ],
+    "answer": 1,
+    "explanation": "'In fact' introduces an empirical illustration that reinforces and specifies the general claim — that post-revolutionary societies replicate old power structures confirms the claim about failing to meet goals.",
+    "wrongReasons": [
+      "A 'accordingly' implies the replication of power structures is an expected consequence, but the sentence presents it as a surprising or ironic pattern.",
+      "C 'however' signals contradiction, but the second clause supports rather than refutes the historian's argument.",
+      "D 'conversely' implies an opposite scenario, but what follows is an elaboration of the same point."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'In fact' מחזק את הטענה על ידי הדגמה אמפירית — חברות פוסט-מהפכניות משחזרות מבני כוח.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-179",
+    "difficulty": "medium",
+    "text": "A public health campaign aimed at reducing smoking must address not only the physical addiction but also ________, since many smokers light up in response to stress, boredom, or social pressure.",
+    "choices": [
+      "the genetic predisposition to cancer",
+      "the economic cost of healthcare",
+      "the psychological and behavioral triggers",
+      "the environmental regulation of tobacco"
+    ],
+    "answer": 2,
+    "explanation": "The explanatory clause lists stress, boredom, and social pressure as reasons for smoking — these are psychological and behavioral triggers, making choice C the precise logical completion.",
+    "wrongReasons": [
+      "A genetic predisposition relates to disease risk, not the behavioral act of smoking in specific social or emotional contexts.",
+      "B economic healthcare costs are a consequence of smoking, not a trigger that campaigns need to address behaviorally.",
+      "D environmental regulation is a policy issue, not the individual psychological factors listed in the explanatory clause."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ההסבר מאחרי 'since' מפרט גורמים פסיכולוגיים והתנהגותיים — לחץ, שיעמום, לחץ חברתי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-180",
+    "difficulty": "medium",
+    "text": "Unlike developed nations, which have stable tax systems and diversified economies, many developing countries remain ________ to global commodity price fluctuations.",
+    "choices": [
+      "indifferent",
+      "immune",
+      "highly vulnerable",
+      "only partially exposed"
+    ],
+    "answer": 2,
+    "explanation": "The comparative structure contrasts developing countries (lacking stability and diversification) with developed nations (which have it); 'highly vulnerable' logically follows from their lack of economic buffers.",
+    "wrongReasons": [
+      "A 'indifferent' implies they are unaffected, which contradicts their described structural weaknesses.",
+      "B 'immune' is the opposite of the correct answer and contradicts the contrast with stable, diversified economies.",
+      "D 'only partially exposed' understates the vulnerability implied by the lack of stable systems and diversification."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: השוואה בין מדינות מפותחות (יציבות) לפחות מפותחות (חסרות גיוון) — המסקנה היא פגיעות גבוהה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-181",
+    "difficulty": "medium",
+    "text": "The debate over genetically modified organisms often conflates scientific risk assessment with ________ concerns, making rational policy-making considerably more difficult.",
+    "choices": [
+      "nutritional",
+      "ethical and cultural",
+      "purely economic",
+      "historical"
+    ],
+    "answer": 1,
+    "explanation": "GMO debates are characterized by mixing empirical safety questions with value-based objections rooted in ethics and culture; 'ethical and cultural' correctly identifies the non-scientific dimension that complicates policy.",
+    "wrongReasons": [
+      "A nutritional concerns are a subset of scientific risk assessment, not a separate conflated dimension.",
+      "C purely economic concerns are analytical and policy-relevant, not typically what disrupts rational debate in the same way as values.",
+      "D historical concerns are not a recognized major dimension in the GMO debate that creates the described policy difficulty."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הוויכוח על GMO מערבב הערכת סיכונים מדעית עם חששות ערכיים ותרבותיים — מה שמקשה על קביעת מדיניות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-182",
+    "difficulty": "medium",
+    "text": "Research on confirmation bias shows that people tend to seek out information that ________ their existing beliefs while ignoring contradictory evidence.",
+    "choices": [
+      "challenges",
+      "complicates",
+      "confirms",
+      "replaces"
+    ],
+    "answer": 2,
+    "explanation": "Confirmation bias is defined as the tendency to seek information that confirms existing beliefs — 'confirms' is the precise term that defines the phenomenon described.",
+    "wrongReasons": [
+      "A 'challenges' is the opposite of confirmation bias; seeking challenging information is open-minded inquiry, not bias.",
+      "B 'complicates' does not capture the selective affirmation that defines confirmation bias.",
+      "D 'replaces' implies abandoning beliefs, which is the opposite of the bias that reinforces them."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הגדרת הטיית האישור — אנשים מחפשים מידע שמאשר אמונות קיימות תוך התעלמות מסתירות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-183",
+    "difficulty": "medium",
+    "text": "Because antibiotic resistance spreads across national borders through travel and trade, it cannot be effectively controlled by ________ alone and requires coordinated international action.",
+    "choices": [
+      "any single country",
+      "pharmaceutical innovation",
+      "patient education campaigns",
+      "hospital infection protocols"
+    ],
+    "answer": 0,
+    "explanation": "The sentence argues that a cross-border phenomenon cannot be addressed by a bounded actor — 'any single country' is the entity whose limitation is logically established by the transnational nature of the problem.",
+    "wrongReasons": [
+      "B pharmaceutical innovation is a technical intervention, not the bounded actor whose jurisdiction the sentence criticizes.",
+      "C patient education is one tool, but the sentence's argument is about jurisdictional limits, not the type of intervention.",
+      "D hospital protocols address a specific setting and are not the actor whose geographic limitation the sentence highlights."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תופעה חוצת גבולות אינה ניתנת לשליטה על ידי מדינה בודדת — נדרש שיתוף פעולה בינלאומי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-184",
+    "difficulty": "medium",
+    "text": "The study found a strong correlation between exercise frequency and mental well-being; ________, it cautioned that correlation does not imply causation and that other variables may be responsible.",
+    "choices": [
+      "as a result",
+      "therefore",
+      "however",
+      "in addition"
+    ],
+    "answer": 2,
+    "explanation": "'However' correctly signals that the caution about causation qualifies and partially contradicts the positive finding, introducing a necessary methodological caveat.",
+    "wrongReasons": [
+      "A 'as a result' implies the caution follows causally from the correlation finding, which is logically backwards.",
+      "B 'therefore' would suggest the caution is a logical conclusion of the correlation, rather than a contrasting qualification.",
+      "D 'in addition' adds information in the same direction, but the caveat restricts the scope of the finding rather than extending it."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'However' מציין סייג לממצא — קורלציה אינה סיבתיות, ויש להיזהר מהסקת מסקנות מוגזמות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-185",
+    "difficulty": "hard",
+    "text": "Proponents of universal basic income argue that by decoupling survival from employment, individuals will be freed to pursue more meaningful work; critics, however, contend that this reasoning ________ the extent to which financial necessity drives productivity and innovation.",
+    "choices": [
+      "accurately captures",
+      "deliberately overestimates",
+      "fundamentally underestimates",
+      "partially acknowledges"
+    ],
+    "answer": 2,
+    "explanation": "Critics' counterargument is that UBI proponents fail to appreciate how financial need motivates work and innovation — 'fundamentally underestimates' captures the critics' position that the UBI argument misses a key economic reality.",
+    "wrongReasons": [
+      "A 'accurately captures' would mean critics agree with the proponents' reasoning, negating the adversative 'however.'",
+      "B 'deliberately overestimates' implies intentional misrepresentation, but critics typically charge theoretical naivety, not deception.",
+      "D 'partially acknowledges' is too mild and concessive for a strong critical counterargument introduced by 'however.'"
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המבקרים טוענים שהתומכים ב-UBI לא מעריכים מספיק עד כמה הצורך הכלכלי מניע פריון וחדשנות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-186",
+    "difficulty": "hard",
+    "text": "The philosopher of science argued that a theory cannot be considered genuinely scientific unless it is ________, meaning that there must exist some conceivable observation that could prove it false.",
+    "choices": [
+      "verifiable through repeated confirmation",
+      "endorsed by the broader academic community",
+      "falsifiable in principle",
+      "consistent with existing paradigms"
+    ],
+    "answer": 2,
+    "explanation": "The blank is defined by the explanatory clause that follows the dash: a conceivable observation that could prove it false — this is Karl Popper's criterion of falsifiability. 'Falsifiable in principle' is the exact concept described.",
+    "wrongReasons": [
+      "A 'verifiable through confirmation' is the verificationist view that Popper explicitly rejected as insufficient for demarcating science.",
+      "B community endorsement is a sociological criterion, not the logical/epistemological one the sentence describes.",
+      "D consistency with existing paradigms contradicts the essence of the criterion — it must be open to refutation, not just consonant with what we already believe."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ההגדרה שאחרי הקו מגדירה falsifiability — קיום תצפית תיאורטית שיכולה להפריך את התיאוריה (פופר).",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-187",
+    "difficulty": "hard",
+    "text": "The paradox of tolerance, as articulated by Karl Popper, states that a society committed to tolerance must ultimately be ________ of those who use tolerance as a tool to dismantle the very conditions that make tolerance possible.",
+    "choices": [
+      "accommodating",
+      "supportive",
+      "intolerant",
+      "cautiously aware"
+    ],
+    "answer": 2,
+    "explanation": "Popper's paradox concludes that unlimited tolerance undermines itself — the society must be intolerant of those who exploit tolerance to destroy it, or tolerance itself is destroyed.",
+    "wrongReasons": [
+      "A 'accommodating' toward groups who destroy tolerance would lead to the collapse of tolerance — the opposite of the paradox's prescription.",
+      "B 'supportive' of such groups is also self-defeating and contradicts Popper's logical conclusion.",
+      "D 'cautiously aware' is too passive and does not capture the active intolerance that Popper argues is logically necessary."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: פרדוקס הסובלנות — חברה סובלנית חייבת להיות בלתי-סובלנית כלפי מי שמשתמש בסובלנות כדי להשמיד אותה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-188",
+    "difficulty": "hard",
+    "text": "Although epigenetic changes do not alter the DNA sequence itself, they can ________ gene expression patterns in ways that may be transmitted across generations, challenging traditional models of inheritance.",
+    "choices": [
+      "permanently destroy",
+      "profoundly modify",
+      "completely prevent",
+      "randomly generate"
+    ],
+    "answer": 1,
+    "explanation": "'Profoundly modify' correctly expresses that epigenetic mechanisms alter gene expression without changing the underlying DNA sequence, and the intergenerational transmission challenges classical Mendelian inheritance.",
+    "wrongReasons": [
+      "A 'permanently destroy' is too extreme and inaccurate — epigenetic changes are often reversible and affect expression, not the genes themselves.",
+      "C 'completely prevent' overstates the effect — epigenetics modulates expression, it does not categorically prevent it.",
+      "D 'randomly generate' introduces a stochastic mechanism not implied by the sentence, and misrepresents epigenetic processes as random."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אפיגנטיקה משנה ביטוי גנים (לא רצף ה-DNA) — שינויים עמוקים שעשויים לעבור בין דורות ולאתגר מודלי תורשה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-189",
+    "difficulty": "hard",
+    "text": "In moral philosophy, the doctrine of double effect permits an action with harmful consequences only if the harm is foreseen but not ________, and the good achieved is proportionate to the harm caused.",
+    "choices": [
+      "preventable by any means",
+      "intended as a means or end",
+      "acknowledged by the agent",
+      "directly related to the goal"
+    ],
+    "answer": 1,
+    "explanation": "The doctrine of double effect requires that harm be an unintended side effect, not a means or end of the action — 'intended as a means or end' is the precise philosophical condition that distinguishes permissible from impermissible acts.",
+    "wrongReasons": [
+      "A preventability is not one of the four conditions of the doctrine of double effect; the doctrine addresses intention, not avoidability.",
+      "C whether the agent acknowledges the harm is not the relevant condition — intention is, not acknowledgment.",
+      "D whether the harm is 'directly related to the goal' conflates instrumentality with causal proximity, which is not the doctrine's criterion."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: דוקטרינת ה'תוצאה הכפולה' — הנזק מותר רק אם הוא לא מכוון כאמצעי או כמטרה, אלא תופעת לוואי.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-190",
+    "difficulty": "hard",
+    "text": "Critics of purely quantitative approaches to social research argue that statistical methods, while valuable, ________ the subjective meanings that individuals attach to their experiences — meanings that are essential to understanding social behavior.",
+    "choices": [
+      "accurately reveal",
+      "consistently overestimate",
+      "systematically capture",
+      "inherently fail to capture"
+    ],
+    "answer": 3,
+    "explanation": "The argument is that quantitative methods cannot access subjective meaning — 'inherently fail to capture' expresses the fundamental methodological limitation the critics identify, supporting the case for qualitative approaches.",
+    "wrongReasons": [
+      "A 'accurately reveal' would be a defense of quantitative methods, contradicting the critics' position stated in the sentence.",
+      "B 'overestimate' implies quantitative methods exaggerate subjective meaning, but the criticism is that they miss it entirely.",
+      "C 'systematically capture' endorses the adequacy of quantitative methods for subjective meaning, contradicting the critical stance."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המבקרים טוענים שמחקר כמותי אינו מצליח לתפוס את המשמעויות הסובייקטיביות — ומכאן הצורך בגישות איכותניות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-191",
+    "difficulty": "hard",
+    "text": "The economist argued that rent control policies, though intended to make housing more affordable, paradoxically ________ the housing shortage by discouraging new construction and incentivizing landlords to convert rental units to other uses.",
+    "choices": [
+      "alleviate",
+      "accurately measure",
+      "exacerbate",
+      "temporarily resolve"
+    ],
+    "answer": 2,
+    "explanation": "'Exacerbate' captures the paradox: policies meant to help worsen the problem. The mechanisms described (reduced construction, converted units) logically worsen, not alleviate, the housing shortage.",
+    "wrongReasons": [
+      "A 'alleviate' contradicts the paradoxical logic being described — the very point is that the policy achieves the opposite of its intention.",
+      "B 'accurately measure' is semantically incoherent in this context; measurement is not a consequence of rent control policy.",
+      "D 'temporarily resolve' partially concedes a benefit, but the mechanisms described (long-term structural effects) go beyond a temporary fix and worsen the situation."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הפרדוקס הכלכלי — מדיניות שנועדה להוזיל דיור מחמירה את מחסור הדיור על ידי הרתעת בנייה חדשה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-192",
+    "difficulty": "hard",
+    "text": "Unlike the classical view that the brain is fixed after early development, contemporary neuroscience has demonstrated that the brain retains ________ throughout life, enabling recovery from injury and adaptation to new experiences.",
+    "choices": [
+      "neurodegeneration",
+      "synaptic rigidity",
+      "neuroplasticity",
+      "metabolic efficiency"
+    ],
+    "answer": 2,
+    "explanation": "'Neuroplasticity' is the scientific term for the brain's capacity to reorganize and adapt — exactly what the sentence describes as enabling recovery and adaptation, contrasting with the fixed, classical view.",
+    "wrongReasons": [
+      "A 'neurodegeneration' is the opposite — it refers to deterioration, not adaptation and recovery.",
+      "B 'synaptic rigidity' contradicts the concept described; rigidity implies inflexibility, not the adaptive capacity stated.",
+      "D 'metabolic efficiency' is an unrelated physiological property that has no logical connection to injury recovery or learning adaptation."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הניגוד בין השקפה קלאסית (מוח קבוע) לנוירומדע מודרני מוביל ל-neuroplasticity — יכולת המוח להסתגל לאורך החיים.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-193",
+    "difficulty": "hard",
+    "text": "The introduction of artificial intelligence into clinical diagnosis raises not only technical questions about accuracy, but also profound ________ questions about accountability when an algorithmic recommendation leads to patient harm.",
+    "choices": [
+      "statistical",
+      "logistical",
+      "ethical and legal",
+      "financial"
+    ],
+    "answer": 2,
+    "explanation": "Questions of accountability for harm caused by algorithmic recommendations involve responsibility, liability, and moral duty — these are ethical and legal questions, precisely what 'ethical and legal' denotes.",
+    "wrongReasons": [
+      "A 'statistical' questions concern accuracy and precision — already covered by the 'technical questions' earlier in the sentence.",
+      "B 'logistical' questions concern implementation and coordination, not accountability for harm.",
+      "D 'financial' concerns are secondary to the primary issue of who bears responsibility — accountability is not reducible to cost."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אחריות לנזק שנגרם ממלצת אלגוריתמית מעלה שאלות אתיות ומשפטיות — מי אחראי ומהו הדין?",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-194",
+    "difficulty": "hard",
+    "text": "In international relations theory, the security dilemma describes a situation in which one state's efforts to increase its own security ________ other states, who interpret the buildup as threatening and respond by increasing their own military capabilities.",
+    "choices": [
+      "reassure",
+      "inadvertently alarm",
+      "directly benefit",
+      "diplomatically engage"
+    ],
+    "answer": 1,
+    "explanation": "The security dilemma is defined by the unintended consequence that one state's defensive buildup is perceived as threatening by others — 'inadvertently alarm' captures both the unintentional nature and the fear response.",
+    "wrongReasons": [
+      "A 'reassure' is the opposite of the security dilemma's dynamic — reassurance would prevent the arms race the concept describes.",
+      "C 'directly benefit' contradicts the competitive, zero-sum security dynamic inherent in the dilemma.",
+      "D 'diplomatically engage' introduces a cooperative response that does not match the reactive military escalation described."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: דילמת הביטחון — מאמצי ביטחון של מדינה אחת מאיימים בלא-כוונה על מדינות אחרות ומובילים להסלמה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-195",
+    "difficulty": "hard",
+    "text": "The concept of regulatory capture occurs when a regulatory agency, created to act in the public interest, instead advances the commercial or political interests of the industries it is meant to ________, often as a result of revolving-door relationships between regulators and regulated entities.",
+    "choices": [
+      "promote",
+      "fund",
+      "regulate",
+      "consult"
+    ],
+    "answer": 2,
+    "explanation": "Regulatory capture describes an agency failing its oversight mission — the parallel structure requires 'regulate' as the intended purpose that is subverted when the agency serves industry instead.",
+    "wrongReasons": [
+      "A 'promote' contradicts the agency's defined purpose — regulatory agencies oversee industries, they do not promote them.",
+      "B 'fund' is not a function of regulatory agencies; they are not established to finance the industries they oversee.",
+      "D 'consult' is too passive — regulatory agencies are established with enforcement authority to regulate, not merely advise."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'לכידת רגולציה' — גוף פיקוח שנוצר להסדיר תעשייה משרת אותה במקום לפקח עליה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-196",
+    "difficulty": "hard",
+    "text": "Researchers studying implicit bias have found that individuals who explicitly endorse egalitarian values can nonetheless ________ biased behavior, suggesting that conscious beliefs and unconscious associations operate through distinct cognitive pathways.",
+    "choices": [
+      "consistently avoid",
+      "spontaneously recognize",
+      "involuntarily exhibit",
+      "deliberately suppress"
+    ],
+    "answer": 2,
+    "explanation": "The sentence argues for a dissociation between conscious beliefs and unconscious behavior — 'involuntarily exhibit' captures the automatic, unintentional nature of implicit bias that operates despite egalitarian values.",
+    "wrongReasons": [
+      "A 'consistently avoid' would eliminate the dissociation the sentence is describing — if egalitarians avoid bias, the two systems would not be distinct.",
+      "B 'spontaneously recognize' addresses awareness, not behavior, and does not complete the argument about cognitive pathway dissociation.",
+      "D 'deliberately suppress' implies conscious effort, which contradicts the claim that implicit bias operates through a separate, non-conscious pathway."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הפרדה בין אמונות מודעות (ערכי שוויון) לבין התנהגות לא-מודעת — הטיה סמויה פועלת בנתיבים קוגניטיביים נפרדים.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-197",
+    "difficulty": "hard",
+    "text": "The Malthusian argument holds that population growth will always tend to outpace agricultural production, leading to periodic ________ that naturally check population levels; critics, however, argue that technological innovation consistently defies this prediction.",
+    "choices": [
+      "periods of unprecedented prosperity",
+      "governmental interventions in birth rates",
+      "crises of famine, disease, and conflict",
+      "improvements in crop yield efficiency"
+    ],
+    "answer": 2,
+    "explanation": "Malthus identified 'positive checks' — famine, disease, war — as the mechanisms that reduce population when it exceeds food supply. 'Crises of famine, disease, and conflict' directly names these Malthusian checks.",
+    "wrongReasons": [
+      "A contradicts Malthus's argument — prosperity is incompatible with a theory predicting periodic crises as a corrective mechanism.",
+      "B governmental birth-rate interventions are 'preventive checks' in Malthusian terminology, but the sentence describes natural population checks, not policy interventions.",
+      "D crop yield improvements are precisely what critics cite against Malthus, making this the critics' position, not the Malthusian argument itself."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הטענה המאלתוסית — צמיחת אוכלוסייה עולה על ייצור מזון → משברי רעב, מחלה ומלחמה מאזנים את האוכלוסייה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-198",
+    "difficulty": "hard",
+    "text": "Postcolonial theorists argue that the Western academy's claim to produce ________ knowledge obscures the fact that its frameworks, categories, and methods are deeply shaped by colonial historical contexts.",
+    "choices": [
+      "regionally specific",
+      "practically applicable",
+      "universal and objective",
+      "culturally embedded"
+    ],
+    "answer": 2,
+    "explanation": "The postcolonial critique targets the claim that Western knowledge is universal and objective — this universalist claim is what obscures its culturally and historically situated origins.",
+    "wrongReasons": [
+      "A 'regionally specific' knowledge would already acknowledge its particularity and could not 'obscure' its historical embeddedness — the critique targets universalism, not regionalism.",
+      "B 'practically applicable' is a pragmatic claim, not the epistemological universalism that postcolonial critics challenge.",
+      "D 'culturally embedded' would be an honest acknowledgment of the limitation, not a claim that obscures it — the sentence describes a false claim, not an accurate one."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הביקורת הפוסט-קולוניאלית — הטענה לידע אוניברסאלי ואובייקטיבי מסתירה את המקורות הקולוניאליים של המסגרות המערביות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-199",
+    "difficulty": "hard",
+    "text": "The phenomenon of groupthink is most likely to occur when a highly cohesive team operates under pressure and its members prioritize ________ over critical evaluation, resulting in poor collective decision-making.",
+    "choices": [
+      "individual accountability",
+      "diverse analytical perspectives",
+      "consensus and harmony",
+      "transparent conflict resolution"
+    ],
+    "answer": 2,
+    "explanation": "Groupthink, as defined by Irving Janis, is characterized by the desire for consensus and avoidance of conflict overriding rational analysis — 'consensus and harmony' is the precisely correct description of what is prioritized.",
+    "wrongReasons": [
+      "A 'individual accountability' would counteract groupthink by making members personally responsible for their judgments.",
+      "B 'diverse analytical perspectives' is the antidote to groupthink, not its cause — groupthink suppresses such diversity.",
+      "D 'transparent conflict resolution' requires openly addressing disagreement, which is the opposite of the conflict suppression that enables groupthink."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: חשיבה קבוצתית (groupthink) — מאפיין מרכזי הוא העדפת הסכמה והרמוניה על פני הערכה ביקורתית.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-200",
+    "difficulty": "hard",
+    "text": "Scholars of constitutional democracy argue that judicial review serves a ________ function: by insulating courts from direct electoral accountability, it enables judges to protect minority rights even when majorities would prefer to curtail them.",
+    "choices": [
+      "purely symbolic",
+      "counter-majoritarian",
+      "administratively efficient",
+      "legislative supplementary"
+    ],
+    "answer": 1,
+    "explanation": "'Counter-majoritarian' is the precise constitutional theory term for a mechanism that limits or overrides majority rule — the sentence's description of courts protecting minorities against majority preferences defines this function exactly.",
+    "wrongReasons": [
+      "A 'purely symbolic' would mean judicial review has no real effect, which contradicts its described ability to protect minority rights.",
+      "C 'administratively efficient' describes procedural effectiveness, not the political-theoretical function the sentence articulates.",
+      "D 'legislative supplementary' suggests courts merely add to legislative work, rather than serving as a check on majoritarian legislative outcomes."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ביקורת שיפוטית היא מנגנון נגד-רובני — בתי משפט מגנים על מיעוטים גם כאשר הרוב מבקש לפגוע בזכויותיהם.",
+    "estimatedTimeSeconds": 55
+  }
+]

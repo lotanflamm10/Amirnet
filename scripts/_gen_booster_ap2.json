@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-ap-151",
+    "difficulty": "easy",
+    "text": "The Eiffel Tower ________ being one of the most visited landmarks in the world.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "is known for",
+      "in light of",
+      "at the expense of",
+      "in the absence of"
+    ],
+    "answer": 0,
+    "explanation": "'Is known for' means the Eiffel Tower has a well-established reputation for being a top tourist destination — it introduces a characteristic or achievement a subject is recognized for.",
+    "wrongReasons": [
+      "'In light of' introduces information that provides context or justification for a conclusion — it does not describe a reputation.",
+      "'At the expense of' means something is gained while something else is sacrificed — it cannot describe what a landmark is famous for.",
+      "'In the absence of' means 'without' or 'when something is lacking' — it introduces a condition of missing something, not a reputation."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is known for = ידוע בזכות / מוכר בשל. שימוש: מתאר מוניטין או תכונה מוכרת של אדם, מקום, או תופעה. טעות נפוצה: לבלבל עם 'is known as' — known for = ידוע בשל תכונה, known as = ידוע בשם מסוים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-152",
+    "difficulty": "easy",
+    "text": "Marie Curie ________ her groundbreaking research on radioactivity.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "rather than",
+      "is renowned for",
+      "in turn",
+      "as a whole"
+    ],
+    "answer": 1,
+    "explanation": "'Is renowned for' means Marie Curie has great fame or distinction specifically because of her research on radioactivity — it expresses widely recognized achievement.",
+    "wrongReasons": [
+      "'Rather than' introduces a contrast or preferred alternative — it cannot connect a person to their achievement.",
+      "'In turn' means 'subsequently' or 'as a result' — it describes a sequence or consequence, not a reputation.",
+      "'As a whole' means 'taken together' or 'overall' — it describes something considered in its entirety, not fame for a specific achievement."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is renowned for = נודע בזכות / מפורסם בשל. שימוש: מביע פרסום רחב וכבוד — חזק יותר מ-known for. טעות נפוצה: לבלבל עם 'is famous for' — renowned מודגש יותר בהקשרים אקדמיים ורשמיים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-153",
+    "difficulty": "easy",
+    "text": "________ the new evidence, the committee decided to reopen the investigation.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "Rather than",
+      "As a whole",
+      "In light of",
+      "In turn"
+    ],
+    "answer": 2,
+    "explanation": "'In light of' introduces information or circumstances that justify or explain a decision — the new evidence provided the reason for reopening the investigation.",
+    "wrongReasons": [
+      "'Rather than' introduces a preference or contrast — it cannot introduce evidence that justifies a decision.",
+      "'As a whole' means 'overall' — it describes something collectively and cannot introduce a reason for a decision.",
+      "'In turn' describes a subsequent action in a sequence — it requires a preceding event to respond to and cannot begin a sentence introducing context."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in light of = לאור / בהתחשב ב. שימוש: מציין מידע שמצדיק או מסביר החלטה. טעות נפוצה: לבלבל עם 'in view of' — שניהם דומים, אך in light of נפוץ יותר כשמדובר בעדויות חדשות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-154",
+    "difficulty": "easy",
+    "text": "The new technology ________ researchers to analyze vast amounts of data in seconds.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "calls into question",
+      "is subject to",
+      "enables",
+      "rather than"
+    ],
+    "answer": 2,
+    "explanation": "'Enables' means the technology gives researchers the ability or capacity to do something they could not do before — it is followed directly by a person and an infinitive verb.",
+    "wrongReasons": [
+      "'Calls into question' means 'casts doubt on' — the technology is not doubting researchers; it is giving them a capability.",
+      "'Is subject to' means 'is exposed to' or 'is governed by' — it cannot express giving someone a capability.",
+      "'Rather than' introduces a contrast or alternative — it cannot express that a technology provides a capability."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "enables = מאפשר ל / נותן יכולת ל. שימוש: enables + אדם/דבר + פועל בצורת בסיס. טעות נפוצה: לבלבל עם 'allows' — enables מדגיש מתן יכולת חדשה, allows מדגיש הרשאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-155",
+    "difficulty": "easy",
+    "text": "The students chose to collaborate online ________ meeting in person.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in light of",
+      "rather than",
+      "in turn",
+      "as a whole"
+    ],
+    "answer": 1,
+    "explanation": "'Rather than' introduces a rejected alternative — the students preferred online collaboration over the option of meeting in person.",
+    "wrongReasons": [
+      "'In light of' introduces justifying context or evidence — it cannot introduce a rejected alternative after a verb.",
+      "'In turn' means 'subsequently' or 'in response' — it describes a sequence, not a preference between two options.",
+      "'As a whole' means 'overall' or 'taken together' — it describes collective consideration, not a preference."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "rather than = במקום / ולא. שימוש: מציין העדפה על פני חלופה. טעות נפוצה: לבלבל עם 'instead of' — שניהם דומים, אך rather than נפוץ יותר בהשוואות אקדמיות בין שתי אפשרויות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-156",
+    "difficulty": "easy",
+    "text": "Economic growth was achieved ________ environmental protection, which caused long-term damage.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "as a whole",
+      "in turn",
+      "at the expense of"
+    ],
+    "answer": 3,
+    "explanation": "'At the expense of' means one thing was gained while another was sacrificed — economic growth was achieved by sacrificing environmental protection.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — 'achieved in the absence of environmental protection' would mean protection was simply missing, not that it was deliberately traded away.",
+      "'As a whole' means 'overall' — it cannot express a trade-off between two things.",
+      "'In turn' describes a subsequent action in a causal chain — it cannot express that one benefit came at the cost of another."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "at the expense of = על חשבון. שימוש: מתאר מצב שבו הצלחה בתחום אחד גורמת לנזק בתחום אחר. טעות נפוצה: לבלבל עם 'at the cost of' — שניהם דומים, אך at the expense of נפוץ יותר כשהקורבן הוא ערך או משאב.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-157",
+    "difficulty": "easy",
+    "text": "The results were surprising; the treatment worked, and ________ patients reported improved quality of life.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "at the expense of",
+      "in turn",
+      "in the absence of",
+      "rather than"
+    ],
+    "answer": 1,
+    "explanation": "'In turn' means 'as a consequence' or 'following from this' — the treatment's success led to patients then reporting better quality of life.",
+    "wrongReasons": [
+      "'At the expense of' means one gain comes at the cost of another — there is no trade-off being described here.",
+      "'In the absence of' means 'without' — 'patients reported improved quality of life in the absence of' is incomplete and changes the meaning entirely.",
+      "'Rather than' introduces a contrast or rejected alternative — no alternative is being rejected in this sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in turn = בתורו / כתוצאה מכך. שימוש: מתאר שדבר אחד גרם לדבר הבא בשרשרת אירועים. טעות נפוצה: לבלבל עם 'in return' — in turn = בסדר רצף/תגובה, in return = בתמורה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-158",
+    "difficulty": "easy",
+    "text": "________, the report concludes that urban air quality has declined significantly over the past decade.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "In the absence of",
+      "At the expense of",
+      "Rather than",
+      "As a whole"
+    ],
+    "answer": 3,
+    "explanation": "'As a whole' means 'overall' or 'taken together' — the report's overall conclusion summarizes the main finding about air quality decline.",
+    "wrongReasons": [
+      "'In the absence of' means 'without something' — it would require a noun phrase to follow, not a full concluding statement.",
+      "'At the expense of' introduces a trade-off — there is no sacrifice being described in this concluding statement.",
+      "'Rather than' introduces a contrast — no alternative is being rejected in this summarizing conclusion."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "as a whole = בסך הכל / בכללותו. שימוש: מסכם מסקנה כוללת לאחר פירוט. טעות נפוצה: לבלבל עם 'overall' — as a whole מדגיש שהדברים נלקחו יחד כיחידה אחת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-159",
+    "difficulty": "medium",
+    "text": "The region ________ its rich biodiversity, attracting scientists from around the globe.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "is noted for",
+      "in view of",
+      "calls into question",
+      "gives rise to"
+    ],
+    "answer": 0,
+    "explanation": "'Is noted for' means the region is particularly recognized or distinguished by its biodiversity — it is a slightly more formal synonym of 'is known for', often used in academic and travel writing.",
+    "wrongReasons": [
+      "'In view of' introduces contextual information that justifies something — it cannot describe what a region is recognized for.",
+      "'Calls into question' means 'casts doubt on' — the region is not doubting its biodiversity; it is celebrated for it.",
+      "'Gives rise to' means 'causes' or 'produces' — while biodiversity could give rise to scientific interest, the sentence structure requires a phrase describing the region's reputation, not a causal claim."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is noted for = מוכר בשל / בולט בזכות. שימוש: מתאר תכונה ייחודית שבגללה מקום או אדם זוכים להכרה — רשמי יותר מ-known for. טעות נפוצה: לבלבל עם 'is notorious for' — noted for מתאר תכונה חיובית, notorious for מתאר שם רע.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-160",
+    "difficulty": "medium",
+    "text": "________ the worsening economic conditions, the government announced a new stimulus package.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "Rather than",
+      "In view of",
+      "In turn",
+      "At the expense of"
+    ],
+    "answer": 1,
+    "explanation": "'In view of' introduces circumstances or facts that justify a decision — the government's decision to announce a stimulus package was a direct response to the worsening economic conditions.",
+    "wrongReasons": [
+      "'Rather than' introduces a rejected alternative — worsening conditions are not an alternative being rejected; they are context.",
+      "'In turn' means 'subsequently' or 'as a consequence' — it requires a preceding statement establishing a cause and cannot open a sentence with a noun phrase.",
+      "'At the expense of' describes a trade-off — the government did not sacrifice economic conditions to announce the package."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in view of = לנוכח / בהתחשב ב. שימוש: מציין נסיבות שמצדיקות פעולה — דומה ל-in light of אך נפוץ יותר בהקשרים של תגובה למדיניות. טעות נפוצה: לבלבל עם 'in view that' — הצורה הנכונה היא in view of + שם עצם.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-161",
+    "difficulty": "medium",
+    "text": "The software ________ users to customize their workspace according to their preferences.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "calls into question",
+      "is prone to",
+      "allows",
+      "gives rise to"
+    ],
+    "answer": 2,
+    "explanation": "'Allows' means the software gives users the permission or freedom to customize — it is used when expressing that something grants a right or possibility, followed by 'users to + verb'.",
+    "wrongReasons": [
+      "'Calls into question' means 'challenges' or 'casts doubt on' — the software is not doubting the users' customization.",
+      "'Is prone to' means 'tends to suffer from' or 'is likely to experience something negative' — it cannot describe a feature or capability.",
+      "'Gives rise to' means 'causes' or 'produces' — while grammatically possible, it would mean the software accidentally creates customization rather than deliberately enabling it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "allows = מאפשר / מרשה. שימוש: allows + שם עצם + to + פועל — מביע הרשאה או אפשרות. טעות נפוצה: לבלבל עם 'enables' — allows מדגיש הרשאה, enables מדגיש מתן יכולת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-162",
+    "difficulty": "medium",
+    "text": "The researcher chose to focus on qualitative methods ________ quantitative approaches.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "as opposed to",
+      "in turn",
+      "is subject to"
+    ],
+    "answer": 1,
+    "explanation": "'As opposed to' introduces a direct contrast — the researcher preferred qualitative methods in contrast to (rather than) quantitative approaches.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — it would imply qualitative methods were chosen because quantitative approaches were unavailable, not that they were preferred.",
+      "'In turn' describes a sequential consequence — no preceding cause-and-effect chain is being described here.",
+      "'Is subject to' means 'is exposed to' or 'is governed by' — it is a verb phrase that cannot introduce the noun 'quantitative approaches' as a contrast."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "as opposed to = בניגוד ל / לעומת. שימוש: מביע ניגוד ישיר בין שתי גישות או קבוצות. טעות נפוצה: לבלבל עם 'as compared to' — as opposed to מדגיש ניגוד, as compared to מדגיש השוואה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-163",
+    "difficulty": "medium",
+    "text": "Industrial expansion came ________ local communities, who suffered from increased pollution.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "to the detriment of",
+      "in the absence of",
+      "as a whole",
+      "subsequently"
+    ],
+    "answer": 0,
+    "explanation": "'To the detriment of' means something was harmed or damaged as a result — industrial expansion harmed local communities who suffered pollution as a consequence.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — 'expansion came without local communities' changes the meaning; communities were present and harmed, not absent.",
+      "'As a whole' means 'overall' — it cannot describe a harm done to one group as a result of another group's gain.",
+      "'Subsequently' is an adverb meaning 'afterwards' — it describes time sequence and cannot appear after 'came' in this structure to show who was harmed."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "to the detriment of = לנזק של / על חשבון. שימוש: מתאר שמשהו נפגע כתוצאה מהתפתחות אחרת. טעות נפוצה: לבלבל עם 'at the expense of' — שניהם דומים, אך to the detriment of מדגיש פגיעה בצד מסוים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-164",
+    "difficulty": "medium",
+    "text": "The first vaccine was developed, and ________, clinical trials were launched across twelve countries.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "at the expense of",
+      "as a consequence",
+      "is known for"
+    ],
+    "answer": 2,
+    "explanation": "'As a consequence' means 'as a result of what preceded' — the development of the vaccine directly led to the subsequent launch of clinical trials.",
+    "wrongReasons": [
+      "'In the absence of' means 'without something' — it would imply the trials happened without the vaccine, contradicting the meaning.",
+      "'At the expense of' describes a trade-off — no sacrifice is being implied in this sequence of events.",
+      "'Is known for' describes a reputation — it is a verb phrase that cannot connect two events in a temporal sequence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "as a consequence = כתוצאה מכך / בעקבות זאת. שימוש: מציין תוצאה שנובעת ממה שתואר קודם. טעות נפוצה: לבלבל עם 'consequently' — as a consequence נפוץ יותר באמצע משפט עצמאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-165",
+    "difficulty": "medium",
+    "text": "This approach is superior to the previous one ________ efficiency and long-term outcomes.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "to a greater extent",
+      "in the absence of",
+      "calls into question",
+      "in place of"
+    ],
+    "answer": 0,
+    "explanation": "'To a greater extent' means 'more so' or 'in larger degree' — the approach is superior when measured in terms of both efficiency and long-term outcomes.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — 'superior to the previous one without efficiency' changes the meaning to imply efficiency is missing.",
+      "'Calls into question' means 'casts doubt on' — the subject is an approach, not an entity that doubts something.",
+      "'In place of' means 'instead of' or 'as a substitute for' — it would mean the approach replaces efficiency and outcomes rather than excelling in them."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "to a greater extent = במידה רבה יותר. שימוש: מדגיש שמשהו נכון יותר, חזק יותר, או בולט יותר. טעות נפוצה: לבלבל עם 'to a great extent' — greater = השוואתי (יותר מ-), great = מידה גדולה באופן כללי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-166",
+    "difficulty": "medium",
+    "text": "The new findings ________ the long-held assumption that exercise alone is sufficient for weight loss.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in view of",
+      "calls into question",
+      "is renowned for",
+      "in the absence of"
+    ],
+    "answer": 1,
+    "explanation": "'Calls into question' means 'raises doubts about' or 'challenges' — the new findings challenge the previously accepted assumption about exercise and weight loss.",
+    "wrongReasons": [
+      "'In view of' introduces contextual justification — it cannot serve as the main verb phrase of the sentence.",
+      "'Is renowned for' describes reputation — new findings cannot be renowned for challenging an assumption in this grammatical structure.",
+      "'In the absence of' means 'without' — 'the new findings without the long-held assumption' is semantically incoherent."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "calls into question = מטיל ספק ב / מערער על. שימוש: מתאר ראיות או טיעונים שמאיימים על הנחות קיימות. טעות נפוצה: לבלבל עם 'raises questions about' — calls into question חזק יותר, מרמז על ערעור ממשי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-167",
+    "difficulty": "medium",
+    "text": "Coastal cities ________ flooding as sea levels continue to rise.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "are renowned for",
+      "are prone to",
+      "make it possible",
+      "give rise to"
+    ],
+    "answer": 1,
+    "explanation": "'Are prone to' means 'are inclined to suffer from' or 'are at risk of' — coastal cities are naturally at higher risk of flooding due to their geography.",
+    "wrongReasons": [
+      "'Are renowned for' describes a positive reputation — cities are not celebrated for flooding; they suffer from it.",
+      "'Make it possible' means 'enable something to happen' — it would imply cities actively create the conditions for flooding, which reverses the relationship.",
+      "'Give rise to' means 'cause' — coastal cities do not cause flooding; they experience it as a result of rising sea levels."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "are prone to = נוטים ל / עלולים לסבול מ. שימוש: מתאר נטייה לחוות משהו שלילי. טעות נפוצה: לבלבל עם 'are likely to' — prone to = נטייה טבעית/מובנית, likely to = סתם סבירות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-168",
+    "difficulty": "medium",
+    "text": "A good model ________ all relevant variables when predicting future outcomes.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "takes into account",
+      "gives rise to",
+      "is noted for",
+      "rather than"
+    ],
+    "answer": 0,
+    "explanation": "'Takes into account' means 'considers' or 'factors in' — a good predictive model considers all relevant variables rather than ignoring them.",
+    "wrongReasons": [
+      "'Gives rise to' means 'produces' or 'causes' — a good model does not produce the variables; it considers them.",
+      "'Is noted for' describes reputation — a model cannot be noted for variables in this grammatical construction.",
+      "'Rather than' introduces a contrast — it cannot serve as the main verb phrase linking the model to what it does."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "takes into account = לוקח בחשבון / מתחשב ב. שימוש: מציין שגורם מסוים נשקל בקבלת החלטה או בניית מודל. טעות נפוצה: לבלבל עם 'accounts for' — takes into account = שוקל, accounts for = מסביר/מהווה חלק מ.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-169",
+    "difficulty": "medium",
+    "text": "Rapid deforestation ________ a significant loss of habitat for endangered species.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in place of",
+      "is subject to",
+      "takes into account",
+      "gives rise to"
+    ],
+    "answer": 3,
+    "explanation": "'Gives rise to' means 'produces' or 'causes' — rapid deforestation directly causes or generates a significant loss of habitat, making this the precise academic phrase for this causal relationship.",
+    "wrongReasons": [
+      "'In place of' means 'instead of' — 'deforestation in place of a significant loss of habitat' is semantically incoherent.",
+      "'Is subject to' means 'is vulnerable to' or 'is governed by' — deforestation is an active cause, not a passive recipient of habitat loss.",
+      "'Takes into account' means 'considers' — deforestation does not consider anything; it causes something."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "gives rise to = גורם ל / מוביל ל. שימוש: מתאר שתהליך אחד מוליד תוצאה אחרת — נפוץ בכתיבה אקדמית לתיאור גורם. טעות נפוצה: לבלבל עם 'leads to' — gives rise to מדגיש יצירה/הופעה, leads to מדגיש כיוון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-170",
+    "difficulty": "medium",
+    "text": "________ adequate funding, the project was forced to shut down before completion.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "Rather than",
+      "In the absence of",
+      "As a whole",
+      "In turn"
+    ],
+    "answer": 1,
+    "explanation": "'In the absence of' means 'without' or 'when something is lacking' — the project shut down because adequate funding was not available.",
+    "wrongReasons": [
+      "'Rather than' introduces a preference over an alternative — no alternative choice is being described; the project simply lacked funding.",
+      "'As a whole' means 'overall' — it describes collective consideration, not the condition of missing something.",
+      "'In turn' describes a consequence in a sequence — it cannot open a sentence to describe a condition of absence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in the absence of = בהיעדר / ללא. שימוש: מתאר מצב שבו משהו חסר ולכן תוצאה מסוימת מתרחשת. טעות נפוצה: לבלבל עם 'without' — in the absence of רשמי יותר ומדגיש השלכות של החסר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-171",
+    "difficulty": "medium",
+    "text": "The report examines global health trends ________ and provides specific recommendations for each region.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "at the expense of",
+      "as a whole",
+      "in turn"
+    ],
+    "answer": 2,
+    "explanation": "'As a whole' means 'taken together' or 'overall' — the report first examines all global trends collectively before then addressing each region separately.",
+    "wrongReasons": [
+      "'In the absence of' means 'without something' — the sentence does not imply anything is missing; it describes a two-part analysis.",
+      "'At the expense of' describes a trade-off — no sacrifice is implied in conducting a global then regional analysis.",
+      "'In turn' describes a consequence in a sequence — while the regional recommendations follow, this phrase would need to link the recommendations to a cause, not to the overall examination."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "as a whole = בכללותו / כמכלול. שימוש: מציין שמשהו נבחן בצורה כוללת לפני פירוט. טעות נפוצה: לבלבל עם 'in general' — as a whole מדגיש את כל החלקים יחד, in general מדגיש כלל נרחב.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-172",
+    "difficulty": "medium",
+    "text": "The university ________ its innovative approach to interdisciplinary research.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "is famous for",
+      "in response to",
+      "accounts for",
+      "is susceptible to"
+    ],
+    "answer": 0,
+    "explanation": "'Is famous for' means the university is widely known and recognized specifically because of its interdisciplinary research approach — it expresses a positive public reputation.",
+    "wrongReasons": [
+      "'In response to' means 'as a reaction to' — it introduces a reaction to an event and cannot describe a reputation.",
+      "'Accounts for' means 'explains' or 'is responsible for a proportion of' — 'the university accounts for its innovative approach' is semantically awkward and does not convey reputation.",
+      "'Is susceptible to' means 'is vulnerable to something negative' — a university cannot be susceptible to its own positive approach."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is famous for = מפורסם בזכות. שימוש: מתאר פרסום רחב ומוכר — נפוץ בהקשרים ציבוריים ואקדמיים. טעות נפוצה: להשתמש ב-famous for לדברים שליליים — לשם רע יש להשתמש ב-infamous for.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-173",
+    "difficulty": "medium",
+    "text": "Policies that prioritize speed ________ thoroughness often produce flawed results.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in place of",
+      "as a consequence",
+      "in the absence of",
+      "is known for"
+    ],
+    "answer": 0,
+    "explanation": "'In place of' means 'instead of' or 'as a substitute for' — policies that use speed as a substitute for thoroughness create problems because they are replacing a crucial element.",
+    "wrongReasons": [
+      "'As a consequence' means 'as a result' — the sentence is describing a substitution, not a sequential consequence.",
+      "'In the absence of' means 'without' — while similar in implication, 'in the absence of thoroughness' would suggest thoroughness is simply missing rather than being actively replaced by speed.",
+      "'Is known for' describes reputation — it cannot function as a preposition connecting two nouns in this structure."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in place of = במקום / כתחליף ל. שימוש: מתאר שדבר אחד מחליף דבר אחר. טעות נפוצה: לבלבל עם 'instead of' — שניהם דומים, אך in place of נפוץ יותר כשמדובר בתחליף פיזי או מדיניותי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-174",
+    "difficulty": "medium",
+    "text": "The immune system ________ infections introduced through open wounds.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "gives rise to",
+      "is vulnerable to",
+      "takes into account",
+      "in turn"
+    ],
+    "answer": 1,
+    "explanation": "'Is vulnerable to' means 'is at risk from' or 'can be harmed by' — open wounds make the immune system susceptible to infections entering the body.",
+    "wrongReasons": [
+      "'Gives rise to' means 'produces' — the immune system does not produce infections; it fights them or is harmed by them.",
+      "'Takes into account' means 'considers' — an immune system cannot consider infections in this academic sense.",
+      "'In turn' is an adverb describing a sequential consequence — it cannot function as the main verb phrase in this sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is vulnerable to = פגיע ל / חשוף ל. שימוש: מתאר חשיפה לסיכון — נפוץ בהקשרים רפואיים ואבטחתיים. טעות נפוצה: לבלבל עם 'is prone to' — prone to מדגיש נטייה חוזרת, vulnerable to מדגיש חולשה ספציפית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-175",
+    "difficulty": "medium",
+    "text": "The analysis ________ factors such as age, income level, and geographic location.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "calls into question",
+      "is renowned for",
+      "factors in",
+      "gives rise to"
+    ],
+    "answer": 2,
+    "explanation": "'Factors in' means 'includes as a relevant consideration' — the analysis incorporates all specified variables as part of its calculation or evaluation.",
+    "wrongReasons": [
+      "'Calls into question' means 'casts doubt on' — the analysis is not doubting those factors; it is including them.",
+      "'Is renowned for' describes reputation — an analysis cannot be renowned for variables in this grammatical structure.",
+      "'Gives rise to' means 'produces' — the analysis does not generate age, income, and location; it uses them."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "factors in = מביא בחשבון / כולל כגורם. שימוש: מתאר שמשתנה מסוים נכלל בתוך ניתוח. טעות נפוצה: לבלבל עם 'takes into account' — factors in נפוץ יותר בכתיבה כמותית, takes into account נפוץ יותר בהקשרים כלליים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-176",
+    "difficulty": "medium",
+    "text": "Increased automation ________ new challenges for the labor market and social welfare systems.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "results in",
+      "is noted for",
+      "rather than"
+    ],
+    "answer": 1,
+    "explanation": "'Results in' means 'leads to' or 'produces as an outcome' — automation directly produces new challenges in the labor market as its consequence.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — automation is present, not absent, in this context.",
+      "'Is noted for' describes reputation — automation is not being praised for challenges; it is causing them.",
+      "'Rather than' introduces an alternative — no rejected alternative is being presented in this sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "results in = גורם ל / מוביל ל. שימוש: מתאר תוצאה ישירה של תהליך או פעולה. טעות נפוצה: לבלבל עם 'gives rise to' — results in מדגיש תוצאה סופית, gives rise to מדגיש הופעת תופעה חדשה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-177",
+    "difficulty": "medium",
+    "text": "Collaboration between institutions ________ more comprehensive and impactful research outcomes.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "makes it possible to achieve",
+      "is subject to",
+      "in view of",
+      "calls into question"
+    ],
+    "answer": 0,
+    "explanation": "'Makes it possible to achieve' means 'enables the achievement of' — collaboration creates the conditions under which more comprehensive outcomes become achievable.",
+    "wrongReasons": [
+      "'Is subject to' means 'is exposed to' or 'is governed by' — collaboration is not vulnerable to comprehensive research outcomes.",
+      "'In view of' introduces context that justifies a decision — it cannot serve as the main verb phrase predicting what collaboration produces.",
+      "'Calls into question' means 'casts doubt on' — collaboration does not challenge or undermine research outcomes; it improves them."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "makes it possible to = מאפשר / גורם לכך שניתן. שימוש: makes it possible + to + פועל — מדגיש שתנאי מסוים יוצר אפשרות. טעות נפוצה: לבלבל עם 'enables' — makes it possible to מדגיש יצירת תנאי, enables מדגיש הענקת יכולת ישירה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-178",
+    "difficulty": "medium",
+    "text": "The long-term effects of stress ________ the cardiovascular system, increasing the risk of heart disease.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "as a whole",
+      "undermine",
+      "rather than"
+    ],
+    "answer": 2,
+    "explanation": "'Undermine' means 'weaken' or 'damage gradually' — stress gradually weakens the cardiovascular system over time, which fits both the meaning and grammar of the sentence.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — it would require a following noun phrase describing something missing, not a noun that stress acts on.",
+      "'As a whole' means 'overall' — it describes collective consideration and cannot serve as a verb phrase acting on the cardiovascular system.",
+      "'Rather than' introduces a preference or contrast — no alternative is being rejected in this cause-and-effect statement."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "undermine = מחליש / פוגע בהדרגה. שימוש: מתאר פגיעה מצטברת בבסיס של משהו — נפוץ לתיאור ערעור מערכות, מדיניות, או אמון. טעות נפוצה: לבלבל עם 'damage' — undermine מדגיש תהליך הדרגתי של החלשה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-179",
+    "difficulty": "medium",
+    "text": "The regulation ________ frequent inspections, ensuring safety standards are met.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "gives rise to",
+      "in the absence of",
+      "permits",
+      "calls into question"
+    ],
+    "answer": 2,
+    "explanation": "'Permits' means 'officially allows' or 'authorizes' — the regulation authorizes frequent inspections as a mechanism for maintaining safety standards.",
+    "wrongReasons": [
+      "'Gives rise to' means 'causes' or 'produces' — regulations do not accidentally produce inspections; they officially authorize them.",
+      "'In the absence of' means 'without' — it would require a following noun indicating something lacking, not an action the regulation enables.",
+      "'Calls into question' means 'casts doubt on' — a regulation that permits inspections supports safety, it does not doubt it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "permits = מתיר / מרשה (רשמית). שימוש: permits + שם עצם — מביע הרשאה רשמית. טעות נפוצה: לבלבל עם 'allows' — permits מדגיש אישור רשמי/חוקי, allows יותר כללי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-180",
+    "difficulty": "medium",
+    "text": "Temperatures in the Arctic have risen ________ in the tropics, accelerating polar ice melt.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "to a greater extent than",
+      "in the absence of",
+      "in place of",
+      "as a consequence"
+    ],
+    "answer": 0,
+    "explanation": "'To a greater extent than' means 'more so than' or 'to a higher degree compared to' — Arctic temperatures have risen more severely than those in the tropics.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — it would imply Arctic temperatures rose without the tropics existing, which makes no sense.",
+      "'In place of' means 'instead of' — Arctic temperatures are not replacing tropical temperatures; both exist and are being compared.",
+      "'As a consequence' means 'as a result' — it describes an outcome of a preceding event, not a degree of comparison."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "to a greater extent than = במידה רבה יותר מ. שימוש: משמש להשוואה כמותית בין שתי תופעות. טעות נפוצה: לשכוח את המילה 'than' — to a greater extent תמיד מגיע עם than כשיש השוואה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-181",
+    "difficulty": "medium",
+    "text": "The opposition party's new report ________ the government's handling of the economic crisis.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in turn",
+      "raises doubts about",
+      "is prone to",
+      "in place of"
+    ],
+    "answer": 1,
+    "explanation": "'Raises doubts about' means 'questions the validity or reliability of' — the report challenges and casts doubt on how the government managed the economic crisis.",
+    "wrongReasons": [
+      "'In turn' is an adverb describing a sequential consequence — it cannot function as the main verb phrase of the sentence.",
+      "'Is prone to' means 'tends to experience something negative' — a report cannot be prone to the government's handling.",
+      "'In place of' means 'instead of' — the report is not replacing the government's handling; it is questioning it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "raises doubts about = מעורר ספקות לגבי / מטיל ספק ב. שימוש: מתאר שמסמך או ראיה מערערים על אמינות טענה. טעות נפוצה: לבלבל עם 'calls into question' — שניהם דומים; raises doubts about נפוץ יותר בהקשרי ביקורת פוליטית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-182",
+    "difficulty": "medium",
+    "text": "The experiment succeeded ________ the difficult conditions and limited equipment available.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "given that",
+      "in turn",
+      "to a greater extent",
+      "subsequently"
+    ],
+    "answer": 0,
+    "explanation": "'Given that' introduces a surprising or significant condition or fact — the success of the experiment is noteworthy given the difficult circumstances it faced.",
+    "wrongReasons": [
+      "'In turn' describes a sequential consequence — no preceding cause is being identified for why the experiment succeeded.",
+      "'To a greater extent' means 'more so' — it introduces a degree of comparison, but there is no comparison being made here.",
+      "'Subsequently' means 'afterwards' — it describes what happened after something else, not a surprising circumstance."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "given that = בהתחשב בכך ש / לאור העובדה ש. שימוש: מציין תנאי ידוע שמעניק הקשר לטענה. טעות נפוצה: לבלבל עם 'considering that' — given that מדגיש עובדה מוסכמת, considering that מדגיש שיקול דעת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-183",
+    "difficulty": "medium",
+    "text": "Urban noise levels have increased dramatically; ________, researchers have documented rising rates of stress-related illness.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "in place of",
+      "subsequently",
+      "is known for"
+    ],
+    "answer": 2,
+    "explanation": "'Subsequently' means 'afterwards' or 'following from this' — first noise levels rose, and then, as a temporal consequence, researchers documented stress-related illness.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — there is no condition of absence being described; researchers did document rising illness.",
+      "'In place of' means 'instead of' — no substitution is being described between noise levels and illness documentation.",
+      "'Is known for' describes reputation — it is a verb phrase that cannot connect two independent clauses as a sequential connector."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "subsequently = לאחר מכן / בהמשך. שימוש: מחבר בין שני אירועים בסדר כרונולוגי — נפוץ מאוד בכתיבה אקדמית. טעות נפוצה: לבלבל עם 'consequently' — subsequently מדגיש רצף זמן, consequently מדגיש קשר סיבתי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-184",
+    "difficulty": "medium",
+    "text": "The policy change ________ significant public concern about data privacy.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "is noted for",
+      "brought about",
+      "in consideration of",
+      "is prone to"
+    ],
+    "answer": 1,
+    "explanation": "'Brought about' means 'caused' or 'produced' — the policy change was the direct cause of significant public concern about data privacy.",
+    "wrongReasons": [
+      "'Is noted for' describes recognition or reputation — a policy change is not recognized for public concern; it caused it.",
+      "'In consideration of' means 'taking into account' — it introduces something that was factored in, not something that was produced.",
+      "'Is prone to' means 'tends to suffer from' — a policy change cannot be described as suffering from public concern."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "brought about = גרם ל / הביא ל. שימוש: מתאר גורם שיצר שינוי או תוצאה — נפוץ לתיאור השפעות של מדיניות. טעות נפוצה: לבלבל עם 'resulted in' — brought about מדגיש יוזמה פעילה, resulted in מדגיש תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-185",
+    "difficulty": "hard",
+    "text": "The philosopher ________ his unconventional approach to ethics and his rejection of traditional moral frameworks.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "is subject to",
+      "is renowned for",
+      "gives rise to",
+      "in consideration of"
+    ],
+    "answer": 1,
+    "explanation": "'Is renowned for' expresses that the philosopher has great and widespread recognition specifically for his unconventional approach — 'renowned' implies a higher level of distinction than merely 'known', fitting a philosophical legacy.",
+    "wrongReasons": [
+      "'Is subject to' means 'is exposed to' or 'is governed by' — a philosopher is not governed by his own approach; he is celebrated for it.",
+      "'Gives rise to' means 'produces' or 'causes' — the philosopher cannot give rise to his own approach in this grammatical structure.",
+      "'In consideration of' means 'taking into account' — it introduces something factored into a decision, not a reason for fame."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is renowned for = נודע מאוד בזכות. שימוש: מביע פרסום רחב ומוכר — משמש לדמויות ותחומים שזכו להכרה בינלאומית. טעות נפוצה: לבלבל עם 'is famous for' — renowned for מכובד יותר ונפוץ בטקסטים אקדמיים ורשמיים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-186",
+    "difficulty": "hard",
+    "text": "________ the potential risks involved, the ethics committee approved the study under strict conditions.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "In consideration of",
+      "As a whole",
+      "Subsequently",
+      "In place of"
+    ],
+    "answer": 0,
+    "explanation": "'In consideration of' means 'taking into account' or 'after carefully weighing' — the ethics committee approved the study after carefully considering the potential risks and deciding the conditions could mitigate them.",
+    "wrongReasons": [
+      "'As a whole' means 'overall' or 'taken together' — it describes a collective view but cannot introduce a specific factor that was weighed in a decision.",
+      "'Subsequently' means 'afterwards' — it describes a time sequence and cannot begin a sentence introducing the reason behind a decision.",
+      "'In place of' means 'instead of' — it introduces a substitution, not the reason a decision was made."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in consideration of = תוך התחשבות ב / לאחר שקילת. שימוש: מציין שגורם מסוים נשקל בקבלת החלטה — רשמי מאוד. טעות נפוצה: לבלבל עם 'in light of' — in consideration of מדגיש שקילה מכוונת, in light of מדגיש הקשר חדש.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-187",
+    "difficulty": "hard",
+    "text": "Advanced imaging technology ________ non-invasive diagnosis of conditions that previously required surgery.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "calls into question",
+      "is susceptible to",
+      "makes it possible to conduct",
+      "in turn"
+    ],
+    "answer": 2,
+    "explanation": "'Makes it possible to conduct' means 'enables the performance of' — advanced imaging creates the conditions for non-invasive diagnosis to occur, using the structure 'makes it possible + to + verb'.",
+    "wrongReasons": [
+      "'Calls into question' means 'casts doubt on' — advanced technology does not doubt diagnosis; it enables it.",
+      "'Is susceptible to' means 'is vulnerable to something negative' — technology is not vulnerable to diagnosis; it supports it.",
+      "'In turn' is an adverb indicating sequence — it cannot serve as the main predicate connecting technology to the possibility of diagnosis."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "makes it possible to conduct = מאפשר לבצע. שימוש: מדגיש שתנאי חדש (כמו טכנולוגיה) יוצר אפשרות שלא הייתה קיימת. טעות נפוצה: לשכוח את 'it' — אסור לכתוב 'makes possible to' בלי it.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-188",
+    "difficulty": "hard",
+    "text": "The committee chose to implement gradual reform ________ radical restructuring of the entire system.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in turn",
+      "as opposed to",
+      "in the absence of",
+      "gives rise to"
+    ],
+    "answer": 1,
+    "explanation": "'As opposed to' introduces a direct and deliberate contrast — the committee explicitly chose gradual reform as a counterpoint to radical restructuring, which was considered and rejected.",
+    "wrongReasons": [
+      "'In turn' describes a sequential consequence — no causal chain is being described; a preference is being stated.",
+      "'In the absence of' means 'without' — 'chose gradual reform without radical restructuring' would imply radical restructuring was unavailable, not that it was rejected.",
+      "'Gives rise to' means 'causes' — gradual reform does not cause radical restructuring; it is chosen instead of it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "as opposed to = בניגוד ל / לעומת. שימוש: מדגיש ניגוד בין שתי גישות שנשקלו — חזק יותר מ-rather than בהקשרים של ניתוח מדיניות. טעות נפוצה: לבלבל עם 'instead of' — as opposed to יותר פורמלי ומדגיש ניגוד מושגי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-189",
+    "difficulty": "hard",
+    "text": "Speed of production was maximized ________ quality control, leading to widespread product failures.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "at the cost of",
+      "in the absence of",
+      "in response to",
+      "as a whole"
+    ],
+    "answer": 0,
+    "explanation": "'At the cost of' means 'by sacrificing' — production speed was maximized at the sacrifice of quality control, which directly caused the product failures.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — this would mean quality control was simply not present, but 'at the cost of' more precisely captures the deliberate trade-off between speed and quality.",
+      "'In response to' means 'as a reaction to' — production speed was not a response to quality control; quality was sacrificed for speed.",
+      "'As a whole' means 'overall' — it describes collective consideration and cannot express a trade-off."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "at the cost of = במחיר של / על חשבון. שימוש: מתאר הצלחה שהושגה על חשבון קורבן מסוים. טעות נפוצה: לבלבל עם 'at the expense of' — at the cost of מדגיש מחיר ספציפי שמשולם, at the expense of מדגיש מי נפגע.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-190",
+    "difficulty": "hard",
+    "text": "The discovery of the new mineral deposit triggered investor interest; the government, ________, announced plans to develop the region.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "at the expense of",
+      "in response",
+      "is noted for"
+    ],
+    "answer": 2,
+    "explanation": "'In response' means 'as a reaction to what preceded' — the government's announcement was a direct reaction to the discovery and the resulting investor interest.",
+    "wrongReasons": [
+      "'In the absence of' means 'without something' — no condition of absence is being described; the government is reacting to a discovery.",
+      "'At the expense of' describes a trade-off — the government's announcement does not come at the sacrifice of something else in this context.",
+      "'Is noted for' describes reputation — it is a verb phrase that cannot function as a sentence connector between two independent clauses."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in response = בתגובה. שימוש: מתאר תגובה לאירוע קודם — נפוץ לתיאור התנהגות ממשלות, מוסדות, או אנשים. טעות נפוצה: לבלבל עם 'in return' — in response = בתגובה לאירוע, in return = בתמורה לטובה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-191",
+    "difficulty": "hard",
+    "text": "The credibility of the witness testimony ________ by evidence showing the witness was not present at the scene.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "was undermined",
+      "gives rise to",
+      "in view of",
+      "is noted for"
+    ],
+    "answer": 0,
+    "explanation": "'Was undermined' means 'was gradually weakened or destroyed' — the evidence damaged the credibility of the testimony by showing the witness could not have seen what they claimed.",
+    "wrongReasons": [
+      "'Gives rise to' means 'produces' or 'causes' — credibility cannot give rise to evidence showing absence; the relationship is reversed.",
+      "'In view of' introduces justifying context — it cannot serve as the main predicate in the passive construction this sentence requires.",
+      "'Is noted for' describes reputation — credibility of testimony cannot be noted for evidence against it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "was undermined = נוערה / הוחלש. שימוש: מתאר שאמינות, מדיניות, או מבנה נפגע על ידי גורם חיצוני. טעות נפוצה: לבלבל עם 'was challenged' — undermined מדגיש פגיעה מבנית עמוקה, challenged מדגיש ערעור בלבד.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-192",
+    "difficulty": "hard",
+    "text": "Infrastructure in developing regions ________ disruption from extreme weather events, particularly flooding and landslides.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "gives rise to",
+      "makes it possible",
+      "is susceptible to",
+      "accounts for"
+    ],
+    "answer": 2,
+    "explanation": "'Is susceptible to' means 'is vulnerable to being harmed by' — infrastructure in developing regions lacks the resilience to withstand extreme weather, making it highly vulnerable.",
+    "wrongReasons": [
+      "'Gives rise to' means 'produces' — infrastructure does not cause weather events; it suffers from them.",
+      "'Makes it possible' requires a following 'to + verb' — 'makes it possible disruption from extreme weather events' is ungrammatical.",
+      "'Accounts for' means 'explains' or 'represents a proportion of' — 'infrastructure accounts for disruption from weather' would mean infrastructure explains the disruption, not that it is harmed by it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is susceptible to = רגיש ל / פגיע בפני. שימוש: מתאר פגיעות של מערכת לגורם מסוים — נפוץ בניתוחי סיכון. טעות נפוצה: לבלבל עם 'is vulnerable to' — susceptible to מדגיש נטייה פנימית, vulnerable to מדגיש חשיפה חיצונית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-193",
+    "difficulty": "hard",
+    "text": "The model ________ socioeconomic background, age, and prior academic achievement when predicting student outcomes.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "calls into question",
+      "accounts for",
+      "is renowned for",
+      "gives rise to"
+    ],
+    "answer": 1,
+    "explanation": "'Accounts for' means 'includes as a variable' or 'takes into consideration' — the predictive model incorporates those three variables as factors that explain variation in student outcomes.",
+    "wrongReasons": [
+      "'Calls into question' means 'casts doubt on' — the model is using these variables, not challenging them.",
+      "'Is renowned for' describes reputation — a model is not renowned for its variables in this grammatical construction.",
+      "'Gives rise to' means 'produces' — the model does not produce socioeconomic background or age; it accounts for them as variables."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "accounts for = מסביר / מביא בחשבון / מהווה. שימוש: במדע נתונים — accounts for = כולל גורם; בסטטיסטיקה — מסביר שונות. טעות נפוצה: לבלבל עם 'takes into account' — accounts for מדגיש שהמשתנה מסביר חלק מהשונות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-194",
+    "difficulty": "hard",
+    "text": "Increased investment in renewable energy ________ a fundamental shift in national energy policy.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in place of",
+      "leads to",
+      "is subject to",
+      "in consideration of"
+    ],
+    "answer": 1,
+    "explanation": "'Leads to' means 'results in' or 'causes over time' — increased investment in renewable energy drives and produces a fundamental shift in how energy policy is structured.",
+    "wrongReasons": [
+      "'In place of' means 'instead of' — investment cannot serve as a substitute for a policy shift; it causes one.",
+      "'Is subject to' means 'is governed by' or 'is exposed to' — investment is not vulnerable to policy shifts; it drives them.",
+      "'In consideration of' means 'taking into account' — it introduces what was factored in during a decision, not a causal outcome."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "leads to = מוביל ל / גורם ל. שימוש: מתאר שינוי הדרגתי או תוצאה של תהליך. טעות נפוצה: לבלבל עם 'results in' — leads to מדגיש כיוון/מסלול, results in מדגיש תוצאה סופית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-195",
+    "difficulty": "hard",
+    "text": "The findings of the audit ________ the board's long-standing claim that all funds had been properly allocated.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "subsequently",
+      "challenged",
+      "in consideration of"
+    ],
+    "answer": 2,
+    "explanation": "'Challenged' means 'questioned the validity of' or 'contradicted' — the audit findings directly contradicted the board's claim about fund allocation.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — audit findings cannot be absent of a claim; the sentence requires a verb describing what the findings did to the claim.",
+      "'Subsequently' is an adverb of time — it cannot function as the main verb connecting findings to the claim they affected.",
+      "'In consideration of' means 'taking into account' — it introduces something factored in during a decision, not what happened to a claim as a result of findings."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "challenged = ערער על / הטיל ספק ב. שימוש: מתאר שממצאים או ראיות עומדים בסתירה לטענה קיימת. טעות נפוצה: לבלבל עם 'questioned' — challenged מרמז על עימות ישיר, questioned מרמז על שאלה מאסיבית פחות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-196",
+    "difficulty": "hard",
+    "text": "The security system ________ unauthorized access, which led to a significant data breach.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "gave rise to",
+      "made it possible",
+      "was vulnerable to",
+      "in consideration of"
+    ],
+    "answer": 2,
+    "explanation": "'Was vulnerable to' means 'was exposed to the risk of' — the security system had weaknesses that made it susceptible to unauthorized access, which then caused the breach.",
+    "wrongReasons": [
+      "'Gave rise to' means 'produced' or 'caused' — the security system did not cause the unauthorized access by design; it failed to prevent it.",
+      "'Made it possible' requires 'to + verb' — 'made it possible unauthorized access' is ungrammatical.",
+      "'In consideration of' means 'taking into account' — it introduces what was weighed in a decision, not a vulnerability."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "was vulnerable to = היה פגיע ל / חשוף ל. שימוש: מתאר שמערכת או ישות סבלה מחולשה שאפשרה פגיעה. טעות נפוצה: לבלבל עם 'was susceptible to' — שניהם דומים, vulnerable to נפוץ יותר בהקשרי אבטחה ותשתיות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-197",
+    "difficulty": "hard",
+    "text": "Declining birth rates, combined with longer life expectancy, ________ significant pressure on pension systems across Europe.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "in the absence of",
+      "rather than",
+      "bring about",
+      "is noted for"
+    ],
+    "answer": 2,
+    "explanation": "'Bring about' means 'produce' or 'cause' — the combination of demographic factors actively produces significant pressure on pension systems.",
+    "wrongReasons": [
+      "'In the absence of' means 'without' — the sentence is about factors that are present and causing effects, not absent ones.",
+      "'Rather than' introduces a rejected alternative — no alternative is being rejected; two combined causes are being identified.",
+      "'Is noted for' describes reputation — demographic trends are not recognized for pressuring pension systems; they cause it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "bring about = גורמים ל / מביאים לידי. שימוש: מתאר שגורמים מרובים יחד מייצרים שינוי. טעות נפוצה: לבלבל עם 'lead to' — bring about מדגיש תהליך פעיל של יצירה, lead to מדגיש כיוון.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-198",
+    "difficulty": "hard",
+    "text": "The proposed merger ________ serious scrutiny from both regulators and industry analysts.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "is subject to",
+      "gives rise to",
+      "in place of",
+      "broadly speaking"
+    ],
+    "answer": 0,
+    "explanation": "'Is subject to' means 'is exposed to' or 'must undergo' — the proposed merger is required to undergo serious scrutiny from regulators and analysts before it can proceed.",
+    "wrongReasons": [
+      "'Gives rise to' means 'produces' or 'causes' — while a merger could give rise to scrutiny, the phrase 'is subject to' better captures that the scrutiny is imposed on the merger as an obligatory process.",
+      "'In place of' means 'instead of' — the merger is not replacing scrutiny; it is being subjected to it.",
+      "'Broadly speaking' is an adverb phrase meaning 'in general' — it cannot serve as the main predicate of the sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is subject to = כפוף ל / נתון ל. שימוש: מתאר שדבר מה חייב לעבור תהליך או חשוף להשפעה — נפוץ בהקשרים משפטיים ורגולטוריים. טעות נפוצה: לבלבל עם 'is exposed to' — is subject to מדגיש כפיפות/חובה, is exposed to מדגיש חשיפה בלבד.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-199",
+    "difficulty": "hard",
+    "text": "________, the research demonstrates that early childhood nutrition has a lasting effect on cognitive development.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "In the absence of",
+      "Broadly speaking",
+      "At the expense of",
+      "In place of"
+    ],
+    "answer": 1,
+    "explanation": "'Broadly speaking' means 'in general terms' or 'as a general statement' — it signals that the following claim is an overarching conclusion derived from the research.",
+    "wrongReasons": [
+      "'In the absence of' means 'without something' — it requires a following noun phrase indicating what is missing, not a full concluding statement.",
+      "'At the expense of' describes a trade-off — no sacrifice is being described in this summary conclusion.",
+      "'In place of' means 'instead of' — no substitution is being described; the sentence presents a general research finding."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "broadly speaking = באופן כללי / בגדול. שימוש: מציין שהמשפט הבא הוא הכללה — מאפשר גמישות בטענה. טעות נפוצה: לבלבל עם 'in general' — broadly speaking מרמז שיתכנו יוצאי דופן, in general יותר קטגורי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-200",
+    "difficulty": "hard",
+    "text": "The budget cuts ________ the department's ability to carry out long-term research projects effectively.\nChoose the phrase that best completes the sentence.",
+    "choices": [
+      "gave rise to",
+      "in the absence of",
+      "is noted for",
+      "undermined"
+    ],
+    "answer": 3,
+    "explanation": "'Undermined' means 'weakened' or 'damaged the foundation of' — the budget cuts gradually eroded the department's capacity to sustain long-term research, fitting both the grammar (past tense transitive verb) and the semantic context.",
+    "wrongReasons": [
+      "'Gave rise to' means 'produced' or 'caused something new to emerge' — budget cuts do not produce the department's ability; they damage it.",
+      "'In the absence of' means 'without' — it introduces a condition of absence and cannot function as the main transitive verb the sentence requires.",
+      "'Is noted for' describes reputation — budget cuts are not recognized for affecting the department's ability; they cause the damage."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "undermined = ערער / החליש. שימוש: מתאר שחיתות הדרגתית של יכולת, מדיניות, או מבנה — נפוץ בהקשרים של מימון ורפורמה. טעות נפוצה: לבלבל עם 'damaged' — undermined מדגיש פגיעה בבסיס/מבנה, damaged מדגיש נזק כללי.",
+    "estimatedTimeSeconds": 40
+  }
+]

@@ -1,0 +1,3996 @@
+{
+  "sentenceCompletion": [
+    {
+      "id": "sc1",
+      "difficulty": "easy",
+      "text": "The scientist repeated the experiment to make sure the results were _____.",
+      "choices": [
+        "reliable",
+        "ceremonial",
+        "fragile",
+        "annual"
+      ],
+      "answer": 0,
+      "explanation": "Reliable fits the idea of results that can be trusted after repetition.",
+      "wrongReasons": [
+        "Ceremonial is unrelated to research.",
+        "Fragile describes physical weakness, not data quality.",
+        "Annual describes time, not trustworthiness."
+      ]
+    },
+    {
+      "id": "sc2",
+      "difficulty": "easy",
+      "text": "Because the library was unusually quiet, Maya could study without any _____.",
+      "choices": [
+        "distraction",
+        "prediction",
+        "creation",
+        "reward"
+      ],
+      "answer": 0,
+      "explanation": "A quiet library helps her study without distraction.",
+      "wrongReasons": [
+        "Prediction does not fit the context.",
+        "Creation is unrelated.",
+        "Reward does not complete the meaning."
+      ]
+    },
+    {
+      "id": "sc3",
+      "difficulty": "medium",
+      "text": "The committee rejected the proposal because several details remained too _____ to support a final decision.",
+      "choices": [
+        "vague",
+        "efficient",
+        "curious",
+        "portable"
+      ],
+      "answer": 0,
+      "explanation": "Vague details are unclear and make decisions difficult.",
+      "wrongReasons": [
+        "Efficient does not describe missing clarity.",
+        "Curious does not fit.",
+        "Portable is unrelated."
+      ]
+    },
+    {
+      "id": "sc4",
+      "difficulty": "medium",
+      "text": "Although the lecture was long, the professor presented the material in such a _____ way that students remained attentive.",
+      "choices": [
+        "engaging",
+        "fragile",
+        "silent",
+        "ordinary"
+      ],
+      "answer": 0,
+      "explanation": "An engaging lecture keeps students attentive.",
+      "wrongReasons": [
+        "Fragile and silent do not fit the teaching context.",
+        "Ordinary does not explain why they remained attentive."
+      ]
+    },
+    {
+      "id": "sc5",
+      "difficulty": "hard",
+      "text": "The new policy was introduced gradually so that employees would have time to _____ to the revised procedures.",
+      "choices": [
+        "adapt",
+        "predict",
+        "hesitate",
+        "forbid"
+      ],
+      "answer": 0,
+      "explanation": "Adapt means adjust to a new situation.",
+      "wrongReasons": [
+        "Predict is about forecasting, not adjusting.",
+        "Hesitate does not match the purpose.",
+        "Forbid is the opposite of what is needed."
+      ]
+    },
+    {
+      "id": "sc6",
+      "difficulty": "hard",
+      "text": "The report was praised for its _____ analysis, which considered both the short-term and long-term effects of the reform.",
+      "choices": [
+        "comprehensive",
+        "accidental",
+        "artificial",
+        "temporary"
+      ],
+      "answer": 0,
+      "explanation": "Comprehensive analysis considers the issue fully.",
+      "wrongReasons": [
+        "Accidental and artificial do not describe a careful report.",
+        "Temporary does not fit the idea of scope."
+      ]
+    },
+    {
+      "id": "sc7",
+      "difficulty": "medium",
+      "text": "The manager asked for a concise summary because she did not have time to read the entire _____.",
+      "choices": [
+        "document",
+        "ceremony",
+        "landscape",
+        "permission"
+      ],
+      "answer": 0,
+      "explanation": "A summary replaces reading a full document.",
+      "wrongReasons": [
+        "The other nouns do not fit the office context."
+      ]
+    },
+    {
+      "id": "sc8",
+      "difficulty": "hard",
+      "text": "Many researchers are cautious about drawing conclusions from a small sample because the data may not be _____.",
+      "choices": [
+        "representative",
+        "decorative",
+        "submissive",
+        "portable"
+      ],
+      "answer": 0,
+      "explanation": "Representative means the sample reflects the larger group.",
+      "wrongReasons": [
+        "Decorative, submissive, and portable are unrelated."
+      ]
+    },
+    {
+      "id": "sc9",
+      "difficulty": "easy",
+      "text": "The company decided to _____ its prices after customers complained that the products were too expensive.",
+      "choices": [
+        "lower",
+        "delay",
+        "ignore",
+        "publish"
+      ],
+      "answer": 0,
+      "explanation": "Lowering prices responds directly to the complaint.",
+      "wrongReasons": [
+        "Delay, ignore, and publish do not address the pricing issue."
+      ]
+    },
+    {
+      "id": "sc10",
+      "difficulty": "medium",
+      "text": "The new bridge was designed to _____ heavy traffic and strong winds without damage.",
+      "choices": [
+        "withstand",
+        "postpone",
+        "replace",
+        "announce"
+      ],
+      "answer": 0,
+      "explanation": "Withstand means to remain strong under pressure.",
+      "wrongReasons": [
+        "The other verbs do not describe structural strength."
+      ]
+    },
+    {
+      "id": "sc11",
+      "difficulty": "hard",
+      "text": "Because the information was _____, the editor removed it from the final draft of the report.",
+      "choices": [
+        "irrelevant",
+        "important",
+        "accurate",
+        "beneficial"
+      ],
+      "answer": 0,
+      "explanation": "Irrelevant information is removed because it does not belong.",
+      "wrongReasons": [
+        "The other adjectives would be reasons to keep, not remove, the information."
+      ]
+    },
+    {
+      "id": "sc12",
+      "difficulty": "easy",
+      "text": "The students were asked to submit their essays by Friday, but several requested a _____.",
+      "choices": [
+        "extension",
+        "correction",
+        "replacement",
+        "reward"
+      ],
+      "answer": 0,
+      "explanation": "An extension gives more time to submit work.",
+      "wrongReasons": [
+        "The other words do not relate to submitting by a later date."
+      ]
+    },
+    {
+      "id": "sc13",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "fragile",
+        "random",
+        "consistent",
+        "casual"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc14",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "valid",
+        "temporary",
+        "fragile",
+        "ceremonial"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc15",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "casual",
+        "accurate",
+        "fragile",
+        "decorative"
+      ],
+      "answer": 1,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc16",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "irrelevant",
+        "accurate",
+        "casual",
+        "temporary"
+      ],
+      "answer": 1,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc17",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "random",
+        "ceremonial",
+        "consistent",
+        "fragile"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc18",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "annual",
+        "random",
+        "reliable",
+        "casual"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc19",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "consistent",
+        "irrelevant",
+        "temporary",
+        "casual"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc20",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "temporary",
+        "annual",
+        "ceremonial",
+        "convincing"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc21",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "convincing",
+        "temporary",
+        "random",
+        "casual"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc22",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "casual",
+        "random",
+        "reliable",
+        "annual"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc23",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "ceremonial",
+        "annual",
+        "consistent",
+        "random"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc24",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "decorative",
+        "annual",
+        "temporary",
+        "valid"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc25",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "consistent",
+        "annual",
+        "fragile",
+        "ceremonial"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc26",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "annual",
+        "valid",
+        "casual",
+        "decorative"
+      ],
+      "answer": 1,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc27",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "accurate",
+        "casual",
+        "ceremonial",
+        "irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc28",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "irrelevant",
+        "temporary",
+        "accurate",
+        "casual"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc29",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "casual",
+        "annual",
+        "reliable",
+        "random"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc30",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "temporary",
+        "fragile",
+        "accurate",
+        "annual"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc31",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "reliable",
+        "decorative",
+        "temporary",
+        "annual"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc32",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "temporary",
+        "irrelevant",
+        "ceremonial",
+        "reliable"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc33",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "fragile",
+        "irrelevant",
+        "temporary",
+        "valid"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc34",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "valid",
+        "casual",
+        "random",
+        "irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc35",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "random",
+        "fragile",
+        "irrelevant",
+        "consistent"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc36",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "temporary",
+        "annual",
+        "random",
+        "convincing"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc37",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "accurate",
+        "casual",
+        "random",
+        "irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc38",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "fragile",
+        "random",
+        "valid",
+        "irrelevant"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc39",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "ceremonial",
+        "irrelevant",
+        "casual",
+        "accurate"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc40",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "random",
+        "annual",
+        "accurate",
+        "decorative"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc41",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "annual",
+        "convincing",
+        "ceremonial",
+        "casual"
+      ],
+      "answer": 1,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc42",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "irrelevant",
+        "annual",
+        "convincing",
+        "fragile"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc43",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "convincing",
+        "random",
+        "annual",
+        "fragile"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc44",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "casual",
+        "fragile",
+        "reliable",
+        "irrelevant"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc45",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "temporary",
+        "ceremonial",
+        "annual",
+        "consistent"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc46",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "accurate",
+        "random",
+        "temporary",
+        "ceremonial"
+      ],
+      "answer": 0,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc47",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "random",
+        "annual",
+        "accurate",
+        "casual"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc48",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "annual",
+        "casual",
+        "random",
+        "accurate"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc49",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "ceremonial",
+        "fragile",
+        "accurate",
+        "random"
+      ],
+      "answer": 2,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    },
+    {
+      "id": "sc50",
+      "difficulty": "hard",
+      "text": "The researchers repeated the experiment several times to ensure the findings were _____.",
+      "choices": [
+        "decorative",
+        "random",
+        "annual",
+        "reliable"
+      ],
+      "answer": 3,
+      "explanation": "The sentence requires a word meaning trustworthy or dependable.",
+      "wrongReasons": [
+        "The other options do not describe dependable scientific results."
+      ]
+    }
+  ],
+  "paraphrasing": [
+    {
+      "id": "p1",
+      "difficulty": "easy",
+      "text": "The meeting was postponed because several participants were still traveling.",
+      "choices": [
+        "The meeting was delayed since some participants had not arrived yet.",
+        "The meeting was canceled after all participants traveled.",
+        "The meeting started early because people were traveling.",
+        "The meeting continued although nobody arrived."
+      ],
+      "answer": 0,
+      "explanation": "Postponed means delayed.",
+      "wrongReasons": [
+        "The other options change the meaning or contradict it."
+      ]
+    },
+    {
+      "id": "p2",
+      "difficulty": "easy",
+      "text": "Unlike his brother, Daniel prefers working alone.",
+      "choices": [
+        "Daniel likes teamwork more than his brother does.",
+        "Daniel prefers to work independently, unlike his brother.",
+        "Daniel and his brother both dislike working alone.",
+        "Daniel refuses to work under any conditions."
+      ],
+      "answer": 1,
+      "explanation": "Working alone means working independently.",
+      "wrongReasons": [
+        "A reverses the comparison.",
+        "C changes the meaning.",
+        "D is too strong."
+      ]
+    },
+    {
+      "id": "p3",
+      "difficulty": "medium",
+      "text": "The museum expanded its hours in order to attract more visitors.",
+      "choices": [
+        "The museum reduced its hours to save money.",
+        "The museum changed its opening times to encourage more people to come.",
+        "The museum closed earlier because too many visitors arrived.",
+        "The museum invited visitors to work there."
+      ],
+      "answer": 1,
+      "explanation": "Expanded its hours to attract visitors means changed opening times to encourage attendance.",
+      "wrongReasons": [
+        "The other options contradict or distort the sentence."
+      ]
+    },
+    {
+      "id": "p4",
+      "difficulty": "medium",
+      "text": "Although the instructions looked simple, many users still made mistakes.",
+      "choices": [
+        "The instructions were simple, so users made no mistakes.",
+        "Many users made mistakes because the instructions were missing.",
+        "Even though the instructions appeared easy, many users still got things wrong.",
+        "Users made mistakes only after the instructions changed."
+      ],
+      "answer": 2,
+      "explanation": "Although introduces contrast: looked simple yet mistakes happened.",
+      "wrongReasons": [
+        "A removes the contrast.",
+        "B adds information not given.",
+        "D changes the timeline."
+      ]
+    },
+    {
+      "id": "p5",
+      "difficulty": "hard",
+      "text": "The author argues that technological progress should be measured by social benefit, not by novelty alone.",
+      "choices": [
+        "The author claims that new technology matters only when it improves society.",
+        "The author says novelty is more important than social benefit.",
+        "The author believes society should avoid all new technology.",
+        "The author measures social benefit by the number of inventions."
+      ],
+      "answer": 0,
+      "explanation": "The sentence says novelty alone is not enough; social benefit matters.",
+      "wrongReasons": [
+        "The other options reverse or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p6",
+      "difficulty": "hard",
+      "text": "The results were inconclusive, so the team decided to conduct a follow-up study.",
+      "choices": [
+        "Because the results were clear, the team ended the project.",
+        "The team planned another study because the first findings did not lead to a firm conclusion.",
+        "The team ignored the results and changed topics.",
+        "The follow-up study produced conclusive results immediately."
+      ],
+      "answer": 1,
+      "explanation": "Inconclusive means not leading to a firm conclusion.",
+      "wrongReasons": [
+        "The others add or reverse information."
+      ]
+    },
+    {
+      "id": "p7",
+      "difficulty": "easy",
+      "text": "The store closed early because of the storm.",
+      "choices": [
+        "The store shut its doors sooner than usual due to the bad weather.",
+        "The store opened late on account of the storm.",
+        "The store remained open throughout the storm.",
+        "The storm caused the store to move to a different location."
+      ],
+      "answer": 0,
+      "explanation": "Closed early because of the storm = shut sooner than usual due to bad weather.",
+      "wrongReasons": [
+        "B says 'opened late' which is different.",
+        "C contradicts the sentence.",
+        "D changes the meaning completely."
+      ]
+    },
+    {
+      "id": "p8",
+      "difficulty": "medium",
+      "text": "Despite the heavy rain, the outdoor event was not canceled.",
+      "choices": [
+        "The event was canceled because of the heavy rain.",
+        "The outdoor event went ahead even though it rained heavily.",
+        "The rain caused the event to move indoors.",
+        "The event was postponed until the rain stopped."
+      ],
+      "answer": 1,
+      "explanation": "Despite introduces contrast; the event continued in spite of the rain.",
+      "wrongReasons": [
+        "A contradicts the sentence.",
+        "C and D add information not stated."
+      ]
+    },
+    {
+      "id": "p9",
+      "difficulty": "hard",
+      "text": "The professor recommended that students focus on primary sources rather than relying on summaries.",
+      "choices": [
+        "The professor told students that summaries are unreliable.",
+        "Students were advised to use original sources instead of secondary ones.",
+        "The professor argued that reading summaries is more efficient than reading originals.",
+        "Students should avoid primary sources when preparing for exams."
+      ],
+      "answer": 1,
+      "explanation": "Primary sources = original sources; rather than = instead of.",
+      "wrongReasons": [
+        "A overstates the claim about summaries.",
+        "C reverses the recommendation.",
+        "D contradicts it."
+      ]
+    },
+    {
+      "id": "p10",
+      "difficulty": "medium",
+      "text": "The company launched the product ahead of schedule to gain a competitive advantage.",
+      "choices": [
+        "The company released the product early to stay ahead of competitors.",
+        "The product was delayed so the company could improve its design.",
+        "The company gained a competitive advantage after its schedule changed.",
+        "The company launched the product because competitors forced them to."
+      ],
+      "answer": 0,
+      "explanation": "Launched ahead of schedule = released early; gain a competitive advantage = stay ahead of competitors.",
+      "wrongReasons": [
+        "B reverses the timing.",
+        "C distorts the cause-effect relationship.",
+        "D adds unsupported information."
+      ]
+    },
+    {
+      "id": "p11",
+      "difficulty": "easy",
+      "text": "Sara decided to take a gap year before starting her university degree.",
+      "choices": [
+        "Sara chose to wait a year before beginning her studies at university.",
+        "Sara dropped out of university to travel for a year.",
+        "Sara started university a year later than her classmates.",
+        "Sara took a break from her studies after her first year."
+      ],
+      "answer": 0,
+      "explanation": "A gap year before university = waiting a year before beginning studies.",
+      "wrongReasons": [
+        "B implies she enrolled first.",
+        "C adds a comparison not in the sentence.",
+        "D places the break after starting."
+      ]
+    },
+    {
+      "id": "p12",
+      "difficulty": "hard",
+      "text": "The legislation was amended after extensive lobbying by environmental groups.",
+      "choices": [
+        "Environmental groups successfully pushed for changes to the law.",
+        "The law was passed without any changes despite pressure from environmental groups.",
+        "Environmental groups created the original legislation.",
+        "The legislation was canceled after lobbying by environmental groups."
+      ],
+      "answer": 0,
+      "explanation": "Amended = changed; lobbying = pushing for changes.",
+      "wrongReasons": [
+        "B contradicts the sentence.",
+        "C adds unsupported information.",
+        "D says canceled, not amended."
+      ]
+    },
+    {
+      "id": "p13",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p14",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p15",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p16",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p17",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p18",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p19",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p20",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p21",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p22",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p23",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p24",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p25",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p26",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p27",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p28",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p29",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p30",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p31",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p32",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p33",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p34",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p35",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p36",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p37",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p38",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p39",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p40",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p41",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p42",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p43",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p44",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p45",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p46",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p47",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p48",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p49",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    },
+    {
+      "id": "p50",
+      "difficulty": "hard",
+      "text": "The report states that rapid technological change can create both opportunities and challenges.",
+      "choices": [
+        "Fast technological progress may produce advantages as well as difficulties.",
+        "Technology never causes problems when it develops quickly.",
+        "Reports about technology always focus on opportunities.",
+        "Challenges disappear when technology improves."
+      ],
+      "answer": 0,
+      "explanation": "The first option restates the idea accurately.",
+      "wrongReasons": [
+        "The other options distort or exaggerate the meaning."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "difficulty": "easy",
+      "text": "The teacher _____ the students to check their answers before submitting the test.",
+      "choices": [
+        "advised",
+        "advising",
+        "was advise",
+        "has advising"
+      ],
+      "answer": 0,
+      "explanation": "Advised correctly completes the past-tense sentence.",
+      "wrongReasons": [
+        "The other forms are grammatically incorrect here."
+      ]
+    },
+    {
+      "id": "g2",
+      "difficulty": "easy",
+      "text": "If the weather improves tomorrow, we _____ the experiment outside.",
+      "choices": [
+        "will conduct",
+        "conducted",
+        "conducting",
+        "have conduct"
+      ],
+      "answer": 0,
+      "explanation": "A first conditional takes will + base verb in the result clause.",
+      "wrongReasons": [
+        "The other forms do not fit the conditional structure."
+      ]
+    },
+    {
+      "id": "g3",
+      "difficulty": "medium",
+      "text": "The committee was pleased that the recommendations _____ by all departments.",
+      "choices": [
+        "accepted",
+        "were accepted",
+        "have accepting",
+        "to accept"
+      ],
+      "answer": 1,
+      "explanation": "The sentence needs the passive form were accepted.",
+      "wrongReasons": [
+        "A is incomplete.",
+        "C and D are ungrammatical here."
+      ]
+    },
+    {
+      "id": "g4",
+      "difficulty": "medium",
+      "text": "Students who arrive late must wait _____ the next break before entering the room.",
+      "choices": [
+        "until",
+        "among",
+        "duringly",
+        "beside of"
+      ],
+      "answer": 0,
+      "explanation": "Until correctly marks the time limit.",
+      "wrongReasons": [
+        "The other options are incorrect or unnatural."
+      ]
+    },
+    {
+      "id": "g5",
+      "difficulty": "hard",
+      "text": "Hardly _____ the lecture started when the fire alarm interrupted it.",
+      "choices": [
+        "had",
+        "has",
+        "did",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "Hardly had + subject + past participle is the correct inversion pattern.",
+      "wrongReasons": [
+        "The other auxiliaries break the fixed structure."
+      ]
+    },
+    {
+      "id": "g6",
+      "difficulty": "hard",
+      "text": "The article explains not only why the policy failed but also how it might _____ in the future.",
+      "choices": [
+        "be improved",
+        "improved",
+        "improving",
+        "to improve"
+      ],
+      "answer": 0,
+      "explanation": "After might, use be improved for passive meaning.",
+      "wrongReasons": [
+        "The other forms are grammatically incorrect in this structure."
+      ]
+    },
+    {
+      "id": "g7",
+      "difficulty": "easy",
+      "text": "She has been working on the project _____ three months.",
+      "choices": [
+        "for",
+        "since",
+        "during",
+        "while"
+      ],
+      "answer": 0,
+      "explanation": "For is used with a period of time when talking about duration.",
+      "wrongReasons": [
+        "Since is used with a point in time, not a period.",
+        "During and while are used differently."
+      ]
+    },
+    {
+      "id": "g8",
+      "difficulty": "medium",
+      "text": "The report, along with its appendices, _____ submitted by noon.",
+      "choices": [
+        "must be",
+        "must",
+        "must are",
+        "must being"
+      ],
+      "answer": 0,
+      "explanation": "Along with does not change the singular subject; must be is correct for passive obligation.",
+      "wrongReasons": [
+        "The other forms are ungrammatical."
+      ]
+    },
+    {
+      "id": "g9",
+      "difficulty": "hard",
+      "text": "Not until the manager reviewed the data _____ the mistake discovered.",
+      "choices": [
+        "was",
+        "were",
+        "did",
+        "is"
+      ],
+      "answer": 0,
+      "explanation": "Inverted structure after 'not until': was the mistake discovered.",
+      "wrongReasons": [
+        "Were is plural and does not match 'the mistake'.",
+        "Did requires a different structure.",
+        "Is is the wrong tense."
+      ]
+    },
+    {
+      "id": "g10",
+      "difficulty": "medium",
+      "text": "I wish I _____ more time to prepare before the presentation.",
+      "choices": [
+        "had",
+        "have",
+        "will have",
+        "am having"
+      ],
+      "answer": 0,
+      "explanation": "After wish, the past simple expresses an unreal present desire.",
+      "wrongReasons": [
+        "The other tenses do not fit the subjunctive wish structure."
+      ]
+    },
+    {
+      "id": "g11",
+      "difficulty": "easy",
+      "text": "The children _____ to stay inside during the thunderstorm.",
+      "choices": [
+        "were told",
+        "told",
+        "are tell",
+        "have tell"
+      ],
+      "answer": 0,
+      "explanation": "Were told is the correct passive past form.",
+      "wrongReasons": [
+        "The other forms are ungrammatical."
+      ]
+    },
+    {
+      "id": "g12",
+      "difficulty": "hard",
+      "text": "_____ more funding been available, the research could have continued for another year.",
+      "choices": [
+        "Had",
+        "If",
+        "Should",
+        "Were"
+      ],
+      "answer": 0,
+      "explanation": "Inverted third conditional: Had + subject = If there had been.",
+      "wrongReasons": [
+        "If would require 'If more funding had been available'.",
+        "Should and Were do not fit this conditional pattern."
+      ]
+    },
+    {
+      "id": "g13",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g14",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g15",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g16",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g17",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g18",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g19",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g20",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g21",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g22",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g23",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g24",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g25",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g26",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g27",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g28",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g29",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g30",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g31",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g32",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g33",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g34",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g35",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g36",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g37",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g38",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g39",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g40",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g41",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g42",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g43",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g44",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g45",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g46",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g47",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g48",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g49",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    },
+    {
+      "id": "g50",
+      "difficulty": "hard",
+      "text": "Only after the data had been carefully analyzed _____ the researchers publish their conclusions.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion after 'Only after' requires 'did'.",
+      "wrongReasons": [
+        "The other forms break the inversion structure."
+      ]
+    }
+  ],
+  "wordFormation": [
+    {
+      "id": "wf1",
+      "difficulty": "easy",
+      "text": "The instructions were so clear that the task was completed with great _____.",
+      "baseWord": "easy",
+      "answer": "ease",
+      "explanation": "With ease is the fixed expression.",
+      "wrongReasons": [
+        "Other forms do not fit the phrase."
+      ]
+    },
+    {
+      "id": "wf2",
+      "difficulty": "easy",
+      "text": "The scientist explained the process in a very _____ way.",
+      "baseWord": "simple",
+      "answer": "simple",
+      "explanation": "Simple directly modifies way.",
+      "wrongReasons": [
+        "More complex forms are unnecessary here."
+      ]
+    },
+    {
+      "id": "wf3",
+      "difficulty": "medium",
+      "text": "Her answer showed a deep _____ of the article.",
+      "baseWord": "understand",
+      "answer": "understanding",
+      "explanation": "A noun is needed after deep.",
+      "wrongReasons": [
+        "The base verb does not fit after the article."
+      ]
+    },
+    {
+      "id": "wf4",
+      "difficulty": "medium",
+      "text": "The company hopes the new system will improve _____ between departments.",
+      "baseWord": "communicate",
+      "answer": "communication",
+      "explanation": "A noun is required as the object of improve.",
+      "wrongReasons": [
+        "Verb or adjective forms would be incorrect."
+      ]
+    },
+    {
+      "id": "wf5",
+      "difficulty": "hard",
+      "text": "Because of the policy change, many employees felt a sense of _____.",
+      "baseWord": "uncertain",
+      "answer": "uncertainty",
+      "explanation": "A noun is needed after a sense of.",
+      "wrongReasons": [
+        "The adjective uncertain does not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf6",
+      "difficulty": "hard",
+      "text": "The proposal was rejected because it lacked financial _____.",
+      "baseWord": "stable",
+      "answer": "stability",
+      "explanation": "Stability is the noun form needed here.",
+      "wrongReasons": [
+        "The adjective stable cannot follow lacked directly."
+      ]
+    },
+    {
+      "id": "wf7",
+      "difficulty": "easy",
+      "text": "The manager praised the team for its _____ in completing the project on time.",
+      "baseWord": "efficient",
+      "answer": "efficiency",
+      "explanation": "Efficiency is the noun form needed after its.",
+      "wrongReasons": [
+        "The adjective efficient cannot follow the possessive its directly."
+      ]
+    },
+    {
+      "id": "wf8",
+      "difficulty": "medium",
+      "text": "The new software increased the _____ of the sorting process significantly.",
+      "baseWord": "accurate",
+      "answer": "accuracy",
+      "explanation": "Accuracy is the noun form required as the object of increased.",
+      "wrongReasons": [
+        "The adjective form cannot be the object of a verb here."
+      ]
+    },
+    {
+      "id": "wf9",
+      "difficulty": "hard",
+      "text": "The government introduced measures to reduce the _____ of air pollution in the capital.",
+      "baseWord": "severe",
+      "answer": "severity",
+      "explanation": "Severity is the noun form needed here.",
+      "wrongReasons": [
+        "Severe is an adjective and cannot function as the object of reduce."
+      ]
+    },
+    {
+      "id": "wf10",
+      "difficulty": "medium",
+      "text": "The students were impressed by the _____ of the professor's explanation.",
+      "baseWord": "clear",
+      "answer": "clarity",
+      "explanation": "Clarity is the noun form needed after the.",
+      "wrongReasons": [
+        "Clear is an adjective and cannot follow the article directly."
+      ]
+    },
+    {
+      "id": "wf11",
+      "difficulty": "easy",
+      "text": "The children showed great _____ in solving the puzzle.",
+      "baseWord": "creative",
+      "answer": "creativity",
+      "explanation": "Creativity is the noun needed after great.",
+      "wrongReasons": [
+        "The adjective creative cannot follow great in this noun position."
+      ]
+    },
+    {
+      "id": "wf12",
+      "difficulty": "hard",
+      "text": "The board voted against the merger, citing a lack of financial _____.",
+      "baseWord": "transparent",
+      "answer": "transparency",
+      "explanation": "Transparency is the noun needed after lack of.",
+      "wrongReasons": [
+        "The adjective form cannot follow lack of."
+      ]
+    },
+    {
+      "id": "wf13",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf14",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf15",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf16",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf17",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf18",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf19",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf20",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf21",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf22",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf23",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf24",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf25",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf26",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf27",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf28",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf29",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf30",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf31",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf32",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf33",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf34",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf35",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf36",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf37",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf38",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf39",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf40",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf41",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf42",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf43",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf44",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf45",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf46",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf47",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf48",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf49",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf50",
+      "difficulty": "hard",
+      "text": "Clear _____ is essential when presenting complex research findings.",
+      "baseWord": "inform",
+      "answer": "information",
+      "explanation": "Information is the correct noun form.",
+      "wrongReasons": [
+        "Other forms do not fit grammatically."
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "r1",
+      "difficulty": "easy",
+      "title": "Why Students Forget After Studying",
+      "passage": "Many students believe that spending several hours reading the same notes is the best way to remember information. However, memory researchers have found that passive rereading is often less effective than active recall. In active recall, the learner tries to retrieve information without looking at the notes. This process strengthens memory because it forces the brain to reconstruct the material. Short, repeated retrieval sessions are often more effective than one long study period.",
+      "questions": [
+        {
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Passive rereading is usually better than active recall.",
+            "Trying to retrieve information can improve memory more than simply rereading notes.",
+            "Long study sessions are always more effective than short ones.",
+            "Memory researchers do not agree on how students learn."
+          ],
+          "answer": 1,
+          "explanation": "The passage contrasts rereading with active recall and argues for active recall.",
+          "wrongReasons": [
+            "The other options contradict or miss the central idea."
+          ]
+        },
+        {
+          "question": "Why does active recall strengthen memory?",
+          "choices": [
+            "Because it requires the learner to reconstruct the material.",
+            "Because it removes the need for notes completely.",
+            "Because it makes study sessions longer.",
+            "Because it reduces the number of topics students study."
+          ],
+          "answer": 0,
+          "explanation": "The passage explicitly says it forces the brain to reconstruct the material.",
+          "wrongReasons": [
+            "The other answers are unsupported."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "difficulty": "medium",
+      "title": "The Purpose of Public Parks",
+      "passage": "Public parks were once valued mainly as open spaces that offered city residents a break from crowded streets. Today they serve additional roles. Urban planners increasingly view parks as part of a city's environmental infrastructure. Trees reduce heat, plants improve air quality, and open ground can absorb rainwater that might otherwise overwhelm drainage systems. As cities grow denser, parks are therefore being discussed not only as leisure spaces but also as practical tools for public health and climate resilience.",
+      "questions": [
+        {
+          "question": "How does the passage describe modern parks?",
+          "choices": [
+            "As spaces used only for exercise.",
+            "As places that are now seen as both recreational and practical.",
+            "As expensive projects that should be replaced by parking lots.",
+            "As areas designed mainly for tourists."
+          ],
+          "answer": 1,
+          "explanation": "The passage says parks are now discussed not only as leisure spaces but also as practical tools.",
+          "wrongReasons": [
+            "The others are too narrow or unsupported."
+          ]
+        },
+        {
+          "question": "Why does the author mention rainwater?",
+          "choices": [
+            "To show that parks can help city infrastructure.",
+            "To argue that parks are uncomfortable in winter.",
+            "To explain why few people visit parks.",
+            "To compare parks with private gardens."
+          ],
+          "answer": 0,
+          "explanation": "Rainwater absorption is one example of practical value.",
+          "wrongReasons": [
+            "The other answers do not match the purpose of the example."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "difficulty": "hard",
+      "title": "Why Some Innovations Spread Slowly",
+      "passage": "A useful invention does not always spread quickly. Economists note that adoption often depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. In addition, the value of some innovations increases only after many people adopt them. This means early users may see fewer benefits than later users. For that reason, governments and companies sometimes offer incentives during the first stage of adoption.",
+      "questions": [
+        {
+          "question": "What is the main point of the passage?",
+          "choices": [
+            "Technical quality always determines whether an innovation succeeds.",
+            "Useful innovations may spread slowly for social and practical reasons, not just technical ones.",
+            "Governments should always control new technologies.",
+            "Early users gain the greatest benefits from every innovation."
+          ],
+          "answer": 1,
+          "explanation": "The passage argues that adoption depends on more than technical quality.",
+          "wrongReasons": [
+            "The other options oversimplify or contradict the text."
+          ]
+        },
+        {
+          "question": "Why might early users receive fewer benefits?",
+          "choices": [
+            "Because early versions never work properly.",
+            "Because some innovations become more valuable only when many people use them.",
+            "Because early users are less skilled.",
+            "Because governments prevent them from using new products."
+          ],
+          "answer": 1,
+          "explanation": "The passage directly states this reason.",
+          "wrongReasons": [
+            "The other answers add unsupported claims."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "difficulty": "easy",
+      "title": "The Benefits of Reading Fiction",
+      "passage": "Reading fiction is sometimes seen as a leisure activity with little practical value. However, studies suggest it can improve social skills. When readers follow characters through complex situations, they practise understanding different perspectives. Researchers call this ability 'theory of mind' — the capacity to imagine what others think and feel. People with strong theory of mind tend to communicate more effectively and resolve conflicts more easily. These are skills that transfer directly into professional and academic settings.",
+      "questions": [
+        {
+          "question": "What is the main claim of the passage?",
+          "choices": [
+            "Reading fiction is a waste of time for professionals.",
+            "Fiction reading can improve skills that are useful in real-world settings.",
+            "Theory of mind is a skill that only scientists need.",
+            "Reading fiction is more valuable than studying non-fiction."
+          ],
+          "answer": 1,
+          "explanation": "The passage argues that fiction reading builds transferable social skills.",
+          "wrongReasons": [
+            "A contradicts the passage.",
+            "C is too narrow.",
+            "D is not stated."
+          ]
+        },
+        {
+          "question": "What does 'theory of mind' mean in this passage?",
+          "choices": [
+            "The ability to create fictional characters.",
+            "The capacity to understand what others think and feel.",
+            "A scientific theory about how the mind works.",
+            "The skill of reading quickly and efficiently."
+          ],
+          "answer": 1,
+          "explanation": "The passage defines it explicitly as 'the capacity to imagine what others think and feel'.",
+          "wrongReasons": [
+            "The other options are not how the passage defines the term."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "difficulty": "medium",
+      "title": "Ocean Acidification",
+      "passage": "The world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this reduces the amount of CO2 in the atmosphere, it has a side effect: when CO2 dissolves in seawater, it forms carbonic acid, making the ocean more acidic. Since the industrial era began, ocean acidity has increased by about 26 percent. Many marine organisms, particularly those that build shells or skeletons from calcium carbonate, are sensitive to these changes. As acidity increases, their shells dissolve faster than they can be rebuilt. Scientists warn that continued acidification could threaten entire food webs.",
+      "questions": [
+        {
+          "question": "What is the main concern described in the passage?",
+          "choices": [
+            "That oceans are warming faster than scientists predicted.",
+            "That absorbing CO2 is making oceans more acidic, threatening marine life.",
+            "That humans release too little CO2 each year.",
+            "That carbonic acid will eventually evaporate from the ocean."
+          ],
+          "answer": 1,
+          "explanation": "The passage describes ocean acidification and its effects on marine organisms.",
+          "wrongReasons": [
+            "A mentions warming, which is not the topic here.",
+            "C reverses the stated fact.",
+            "D is not supported."
+          ]
+        },
+        {
+          "question": "Which organisms are most at risk according to the passage?",
+          "choices": [
+            "Large marine predators such as sharks.",
+            "Organisms that build shells or skeletons from calcium carbonate.",
+            "Microscopic bacteria living on the ocean floor.",
+            "Fish that breathe through gills."
+          ],
+          "answer": 1,
+          "explanation": "The passage explicitly states that shell and skeleton builders are particularly sensitive.",
+          "wrongReasons": [
+            "The other groups are not mentioned as specifically at risk."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "difficulty": "hard",
+      "title": "The Paradox of Choice",
+      "passage": "It might seem that having more options is always better. More choices mean greater freedom to find exactly what you want. However, psychologist Barry Schwartz argues that beyond a certain point, additional options reduce satisfaction rather than increase it. When people choose from a very large set, they are more likely to regret their decision, wondering whether a different option might have been better. They may also feel responsible for a poor outcome in a way that would not arise if the options had been limited. Schwartz calls this 'the paradox of choice': the very abundance of options can leave us worse off.",
+      "questions": [
+        {
+          "question": "What is the central argument of the passage?",
+          "choices": [
+            "More choices always lead to greater personal satisfaction.",
+            "Having too many options can reduce satisfaction and increase regret.",
+            "Barry Schwartz believes freedom of choice should be restricted by law.",
+            "People are incapable of making good decisions."
+          ],
+          "answer": 1,
+          "explanation": "The passage describes how excessive choice leads to regret and reduced satisfaction.",
+          "wrongReasons": [
+            "A is the view the passage refutes.",
+            "C overstates Schwartz's argument.",
+            "D is not stated."
+          ]
+        },
+        {
+          "question": "Why might people feel regret after choosing from a large set?",
+          "choices": [
+            "Because large sets always contain bad options.",
+            "Because they wonder whether a different option might have been better.",
+            "Because they were not given enough time to decide.",
+            "Because the options were not clearly explained."
+          ],
+          "answer": 1,
+          "explanation": "The passage states this directly: they wonder whether another option would have been better.",
+          "wrongReasons": [
+            "The other reasons are not given in the passage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "difficulty": "easy",
+      "title": "How Sleep Affects Learning",
+      "passage": "Sleep plays a critical role in memory consolidation. During sleep, the brain replays experiences from the day and transfers them from short-term to long-term memory. Studies show that students who sleep for a full night after studying retain significantly more information than those who stay awake. Even a short nap of twenty to thirty minutes can improve performance on memory tasks. Experts recommend that students prioritise sleep during exam preparation rather than sacrificing rest for additional study time.",
+      "questions": [
+        {
+          "question": "What is the main recommendation in the passage?",
+          "choices": [
+            "Students should reduce the amount of time they spend studying.",
+            "Students should prioritise sleep rather than cutting it for extra study time.",
+            "Napping for three hours is the best strategy before an exam.",
+            "Memory consolidation only occurs during long periods of sleep."
+          ],
+          "answer": 1,
+          "explanation": "The passage ends with the explicit recommendation to prioritise sleep.",
+          "wrongReasons": [
+            "A says reduce study time, which is not stated.",
+            "C exaggerates the nap duration.",
+            "D is contradicted by the mention of short naps."
+          ]
+        },
+        {
+          "question": "What happens to memories during sleep?",
+          "choices": [
+            "The brain erases unimportant memories permanently.",
+            "The brain replays experiences and moves them to long-term memory.",
+            "The brain creates entirely new memories from random thoughts.",
+            "Memories are stored in the short-term memory permanently."
+          ],
+          "answer": 1,
+          "explanation": "The passage states the brain replays experiences and transfers them to long-term memory.",
+          "wrongReasons": [
+            "The other options are not supported by the passage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "difficulty": "medium",
+      "title": "Urban Heat Islands",
+      "passage": "Cities are typically warmer than the rural areas surrounding them. This phenomenon, known as the urban heat island effect, occurs because concrete, asphalt, and buildings absorb and retain heat more effectively than vegetation and soil. Reduced airflow between tall structures also prevents cooling. The effect can raise urban temperatures by two to five degrees Celsius compared with nearby countryside. This increases energy consumption for air conditioning, worsens air quality, and has been linked to higher rates of heat-related illness. Urban planners are now using green roofs, tree planting, and reflective surfaces to counteract the effect.",
+      "questions": [
+        {
+          "question": "What causes the urban heat island effect?",
+          "choices": [
+            "Higher levels of air pollution in cities.",
+            "Built materials absorbing more heat than natural surfaces, combined with reduced airflow.",
+            "Cities being built at lower elevations than rural areas.",
+            "More people living in cities producing body heat."
+          ],
+          "answer": 1,
+          "explanation": "The passage identifies built materials and reduced airflow as the two main causes.",
+          "wrongReasons": [
+            "A, C, and D are not given as causes in the passage."
+          ]
+        },
+        {
+          "question": "Which of the following is mentioned as a solution?",
+          "choices": [
+            "Reducing the number of buildings in city centres.",
+            "Moving populations to rural areas.",
+            "Using reflective surfaces and planting trees.",
+            "Lowering the speed limit on city roads."
+          ],
+          "answer": 2,
+          "explanation": "The passage lists green roofs, tree planting, and reflective surfaces as solutions.",
+          "wrongReasons": [
+            "The other options are not mentioned in the passage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "difficulty": "hard",
+      "title": "The Limits of Multitasking",
+      "passage": "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is actually rapid task-switching: the brain shifts attention quickly between tasks rather than processing them simultaneously. Each switch carries a cost. The brain takes time to disengage from one task and re-engage with another, a phenomenon researchers call 'switch cost'. Studies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The perceived productivity of multitasking is largely an illusion.",
+      "questions": [
+        {
+          "question": "What does the passage say about multitasking?",
+          "choices": [
+            "It is an effective strategy for managing a heavy workload.",
+            "It is actually rapid switching between tasks, which reduces efficiency.",
+            "It works well for simple tasks but not for complex ones.",
+            "Research shows it improves performance in most situations."
+          ],
+          "answer": 1,
+          "explanation": "The passage argues that multitasking is really task-switching, which has a cost.",
+          "wrongReasons": [
+            "A and D contradict the passage.",
+            "C introduces a distinction not made in the passage."
+          ]
+        },
+        {
+          "question": "What is 'switch cost' as described in the passage?",
+          "choices": [
+            "The financial cost of using multiple devices at once.",
+            "The time and effort required to shift attention between tasks.",
+            "A measurement of how many mistakes a person makes.",
+            "The difficulty of returning to a task after a long break."
+          ],
+          "answer": 1,
+          "explanation": "The passage defines switch cost as the time the brain takes to disengage and re-engage between tasks.",
+          "wrongReasons": [
+            "The other options do not match the passage's definition."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "difficulty": "medium",
+      "title": "The Role of Mistakes in Learning",
+      "passage": "Many educational systems treat mistakes as failures to be avoided. In contrast, researchers in learning science argue that errors are essential to growth. When students make a mistake and then receive corrective feedback, they engage in deeper processing than when they simply read correct information. The struggle to retrieve an answer — even an incorrect one — activates more neural pathways than passive study. This principle, known as 'desirable difficulty', suggests that some level of challenge is not just acceptable but necessary for lasting learning.",
+      "questions": [
+        {
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Students should avoid making mistakes in order to learn effectively.",
+            "Making mistakes, combined with feedback, can strengthen learning.",
+            "Desirable difficulty means that lessons should always be very hard.",
+            "Corrective feedback is only useful when students already know the material."
+          ],
+          "answer": 1,
+          "explanation": "The passage argues that errors with feedback lead to deeper processing and better learning.",
+          "wrongReasons": [
+            "A contradicts the passage.",
+            "C overstates the claim.",
+            "D is not supported."
+          ]
+        },
+        {
+          "question": "What does 'desirable difficulty' mean in this context?",
+          "choices": [
+            "A teaching style that deliberately confuses students.",
+            "The idea that an appropriate level of challenge supports lasting learning.",
+            "The tendency to prefer difficult tasks over easy ones.",
+            "A grading system that rewards effort rather than accuracy."
+          ],
+          "answer": 1,
+          "explanation": "The passage defines it as the principle that some challenge is necessary for lasting learning.",
+          "wrongReasons": [
+            "The other definitions distort the meaning given in the passage."
+          ]
+        }
+      ]
+    }
+  ],
+  "lectureQuestions": [
+    {
+      "id": "l1",
+      "difficulty": "medium",
+      "type": "lecture",
+      "title": "Mini Lecture: Why Cities Build Green Roofs",
+      "transcript": "Professor: Green roofs are layers of soil and plants placed on top of buildings. Cities often support them because they absorb rainwater, reduce heat, and improve insulation. Although they cost more to install than conventional roofs, planners often view them as long-term investments that help urban infrastructure.",
+      "questions": [
+        {
+          "question": "What is the main purpose of the lecture?",
+          "choices": [
+            "To explain several practical benefits of green roofs.",
+            "To argue that green roofs are cheaper than conventional roofs.",
+            "To describe how to grow vegetables indoors.",
+            "To criticise cities for supporting green roofs."
+          ],
+          "answer": 0,
+          "explanation": "The speaker focuses on benefits: rain absorption, heat reduction, and insulation.",
+          "wrongReasons": [
+            "The other options distort the lecture."
+          ]
+        },
+        {
+          "question": "Why does the professor mention cost?",
+          "choices": [
+            "To show that green roofs are not useful.",
+            "To note the main drawback that cities weigh against the benefits.",
+            "To explain why insulation is unnecessary.",
+            "To suggest that only universities build green roofs."
+          ],
+          "answer": 1,
+          "explanation": "Cost is presented as the main drawback.",
+          "wrongReasons": [
+            "The other answers are unsupported."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "difficulty": "hard",
+      "type": "conversation",
+      "title": "Campus Conversation: Narrowing a Research Topic",
+      "transcript": "Student: My topic still feels too broad. Advisor: Then narrow it. Choose one platform, one age group, and one measurable outcome. A precise question will make your data easier to collect and analyse.",
+      "questions": [
+        {
+          "question": "What advice does the advisor give?",
+          "choices": [
+            "Collect as much data as possible before deciding on a topic.",
+            "Choose a smaller, more precise research question.",
+            "Change to a topic unrelated to social media.",
+            "Avoid using measurable outcomes."
+          ],
+          "answer": 1,
+          "explanation": "The advisor recommends one platform, one group, and one outcome.",
+          "wrongReasons": [
+            "The other options contradict the advice."
+          ]
+        },
+        {
+          "question": "Why is a precise question helpful?",
+          "choices": [
+            "It makes the project longer.",
+            "It reduces the need to analyse data.",
+            "It makes data collection and analysis easier.",
+            "It guarantees perfect results."
+          ],
+          "answer": 2,
+          "explanation": "The advisor explicitly says this.",
+          "wrongReasons": [
+            "The other choices are unsupported or exaggerated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "difficulty": "easy",
+      "type": "lecture",
+      "title": "Short Lecture: The Value of Study Breaks",
+      "transcript": "Speaker: Many students think breaks waste time, but short breaks can improve attention. After twenty or thirty minutes of focused work, a brief pause may help you return to the task with more energy.",
+      "questions": [
+        {
+          "question": "What is the speaker's main point?",
+          "choices": [
+            "Short breaks can improve attention.",
+            "Students should avoid working for thirty minutes.",
+            "Energy is not important for learning.",
+            "Breaks always waste time."
+          ],
+          "answer": 0,
+          "explanation": "The speaker argues that brief pauses can help attention.",
+          "wrongReasons": [
+            "The other answers contradict the lecture."
+          ]
+        },
+        {
+          "question": "When does the speaker suggest taking a break?",
+          "choices": [
+            "Before studying begins.",
+            "After a period of focused work.",
+            "Only at the end of the day.",
+            "Whenever a task becomes impossible."
+          ],
+          "answer": 1,
+          "explanation": "The lecture mentions after twenty or thirty minutes of focused work.",
+          "wrongReasons": [
+            "The other choices are not stated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "difficulty": "medium",
+      "type": "lecture",
+      "title": "Lecture: The Water Cycle",
+      "transcript": "Professor: The water cycle describes how water moves continuously through the environment. Water evaporates from oceans and lakes, rises into the atmosphere, cools to form clouds, and then falls as precipitation. It then flows into rivers or soaks into the ground before eventually returning to the ocean. Human activity, particularly deforestation and urban development, can disrupt parts of this cycle by reducing the ground's ability to absorb water.",
+      "questions": [
+        {
+          "question": "What is the main topic of the lecture?",
+          "choices": [
+            "The negative effects of deforestation on rivers.",
+            "How water moves through the environment in a continuous cycle.",
+            "The chemical composition of clouds.",
+            "Why oceans are important for human survival."
+          ],
+          "answer": 1,
+          "explanation": "The lecture describes the continuous movement of water through the environment.",
+          "wrongReasons": [
+            "A and D are too narrow.",
+            "C is not the main topic."
+          ]
+        },
+        {
+          "question": "How does human activity affect the water cycle according to the professor?",
+          "choices": [
+            "It speeds up evaporation from oceans.",
+            "It increases the amount of precipitation.",
+            "It reduces the ground's ability to absorb water.",
+            "It creates new rivers in urban areas."
+          ],
+          "answer": 2,
+          "explanation": "The professor explicitly states that deforestation and urban development reduce ground absorption.",
+          "wrongReasons": [
+            "The other options are not supported by the lecture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "difficulty": "easy",
+      "type": "conversation",
+      "title": "Office Conversation: Requesting Feedback",
+      "transcript": "Employee: I finished the first draft of the report. Should I send it to you now? Manager: Yes, please send it by end of day. I'll review it tonight and give you notes tomorrow morning so you can revise before the client meeting on Thursday.",
+      "questions": [
+        {
+          "question": "What does the manager plan to do?",
+          "choices": [
+            "Send the report directly to the client.",
+            "Review the draft and provide feedback the next morning.",
+            "Revise the report himself before Thursday.",
+            "Ask the employee to present the report without changes."
+          ],
+          "answer": 1,
+          "explanation": "The manager says he will review it tonight and give notes tomorrow morning.",
+          "wrongReasons": [
+            "The other options are not consistent with the conversation."
+          ]
+        },
+        {
+          "question": "When is the client meeting?",
+          "choices": [
+            "Tonight.",
+            "Tomorrow morning.",
+            "Thursday.",
+            "End of day."
+          ],
+          "answer": 2,
+          "explanation": "The manager explicitly mentions the client meeting on Thursday.",
+          "wrongReasons": [
+            "The other times refer to other events in the conversation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l6",
+      "difficulty": "hard",
+      "type": "lecture",
+      "title": "Lecture: The Ethics of Artificial Intelligence",
+      "transcript": "Professor: As AI systems take on more decision-making roles, questions of ethics become central. Who is responsible when an algorithm causes harm — the developer, the company, or the user? Traditional legal frameworks were not designed with autonomous systems in mind. Some researchers argue for a new category of legal personhood for AI, while others insist that accountability must remain with humans. The debate is far from settled, and regulators in many countries are still developing frameworks to address it.",
+      "questions": [
+        {
+          "question": "What is the central issue raised in the lecture?",
+          "choices": [
+            "Whether AI systems are more intelligent than humans.",
+            "Who bears responsibility when an AI system causes harm.",
+            "How to program ethics into artificial intelligence.",
+            "Why traditional legal systems are more effective than new ones."
+          ],
+          "answer": 1,
+          "explanation": "The lecture centres on the question of accountability when AI causes harm.",
+          "wrongReasons": [
+            "A and C are not the central issue.",
+            "D is not a claim the lecture makes."
+          ]
+        },
+        {
+          "question": "What do some researchers propose regarding AI accountability?",
+          "choices": [
+            "That AI developers should be banned from creating autonomous systems.",
+            "That a new legal category of personhood should be created for AI.",
+            "That users should always be held responsible for AI decisions.",
+            "That existing laws are sufficient to handle AI accountability."
+          ],
+          "answer": 1,
+          "explanation": "The professor mentions researchers who argue for a new category of legal personhood for AI.",
+          "wrongReasons": [
+            "A is not proposed in the lecture.",
+            "C and D represent opposing positions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l7",
+      "difficulty": "medium",
+      "type": "conversation",
+      "title": "Campus Conversation: Choosing Between Two Job Offers",
+      "transcript": "Student: I have two job offers. The first pays more, but the second has better growth opportunities. Friend: Think about where you want to be in five years, not just next month. Higher pay now does not always mean a better career later. A role with mentoring and clear advancement paths can be worth more in the long run.",
+      "questions": [
+        {
+          "question": "What is the friend's main advice?",
+          "choices": [
+            "Always choose the job with the higher salary.",
+            "Consider long-term career development, not just immediate pay.",
+            "Reject both offers and look for better options.",
+            "Ask both companies to increase their salary offers."
+          ],
+          "answer": 1,
+          "explanation": "The friend advises thinking about where you want to be in five years, not just immediate pay.",
+          "wrongReasons": [
+            "A contradicts the advice.",
+            "C and D are not suggested."
+          ]
+        },
+        {
+          "question": "What does the friend suggest about roles with mentoring and advancement?",
+          "choices": [
+            "They are only suitable for students without experience.",
+            "They can be more valuable than a higher salary in the long term.",
+            "They are typically offered by smaller companies.",
+            "They require more years of experience to qualify."
+          ],
+          "answer": 1,
+          "explanation": "The friend says such roles 'can be worth more in the long run'.",
+          "wrongReasons": [
+            "The other options add information not given in the conversation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l8",
+      "difficulty": "easy",
+      "type": "lecture",
+      "title": "Lecture: Why We Yawn",
+      "transcript": "Speaker: You might think yawning is a sign of tiredness or boredom. While that is partly true, research suggests yawning also helps regulate brain temperature. When we yawn, we inhale a large amount of cool air, which may help cool the brain and keep it alert. This could explain why people yawn when transitioning between sleep and wakefulness, when the brain needs to shift into a higher state of alertness.",
+      "questions": [
+        {
+          "question": "What does recent research suggest about yawning?",
+          "choices": [
+            "It is only a sign of tiredness.",
+            "It may help regulate the temperature of the brain.",
+            "It is caused by a lack of oxygen in the blood.",
+            "It is a social behaviour that humans learned from animals."
+          ],
+          "answer": 1,
+          "explanation": "The speaker says research suggests yawning helps regulate brain temperature.",
+          "wrongReasons": [
+            "A is too narrow.",
+            "C and D are not mentioned."
+          ]
+        },
+        {
+          "question": "Why might people yawn when waking up, according to the lecture?",
+          "choices": [
+            "Because they did not sleep enough.",
+            "Because the brain needs to cool down before sleep.",
+            "Because the brain needs to shift into a higher state of alertness.",
+            "Because yawning is a reflex that occurs at regular intervals."
+          ],
+          "answer": 2,
+          "explanation": "The speaker says this could explain why yawning occurs during the transition to wakefulness.",
+          "wrongReasons": [
+            "A and D are not supported.",
+            "B reverses the direction of alertness."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l9",
+      "difficulty": "hard",
+      "type": "lecture",
+      "title": "Lecture: The Columbian Exchange",
+      "transcript": "Professor: The Columbian Exchange refers to the widespread transfer of plants, animals, diseases, and ideas between the Americas and the Old World following Columbus's 1492 voyage. It had profound effects on both sides. Europeans brought diseases to which indigenous Americans had no immunity, causing population collapse. In return, crops such as potatoes, tomatoes, and maize transformed European diets and contributed to population growth. Historians debate whether the exchange's overall impact was positive or negative, as its consequences were deeply uneven.",
+      "questions": [
+        {
+          "question": "What was the Columbian Exchange?",
+          "choices": [
+            "A trade agreement between Spain and Portugal in the 15th century.",
+            "The transfer of plants, animals, diseases, and ideas between the Americas and the Old World.",
+            "A programme to exchange students between European and American universities.",
+            "A series of military conflicts following Columbus's voyage."
+          ],
+          "answer": 1,
+          "explanation": "The professor defines it explicitly at the start of the lecture.",
+          "wrongReasons": [
+            "The other options distort or replace the definition given."
+          ]
+        },
+        {
+          "question": "Why do historians debate the exchange's overall impact?",
+          "choices": [
+            "Because the records from 1492 are unreliable.",
+            "Because the consequences were deeply uneven, with both devastating and beneficial effects.",
+            "Because there is no evidence that crops actually changed European diets.",
+            "Because Columbus himself argued that the exchange was harmful."
+          ],
+          "answer": 1,
+          "explanation": "The professor says historians debate because the consequences were deeply uneven.",
+          "wrongReasons": [
+            "The other options are not supported by the lecture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l10",
+      "difficulty": "medium",
+      "type": "conversation",
+      "title": "Library Conversation: Finding Academic Sources",
+      "transcript": "Student: I can not find enough academic sources for my paper. Librarian: Start with Google Scholar and filter by date — you only want sources from the last ten years. Use the 'cited by' feature to find related papers. If you cannot access a full article, check the library database; most journals are available there. Avoid websites that are not peer-reviewed.",
+      "questions": [
+        {
+          "question": "What is the librarian's first recommendation?",
+          "choices": [
+            "Check the library's physical shelves for printed journals.",
+            "Use Google Scholar and filter results by date.",
+            "Contact the journal directly to request an article.",
+            "Use a general search engine and select the most popular results."
+          ],
+          "answer": 1,
+          "explanation": "The librarian's first piece of advice is to use Google Scholar with a date filter.",
+          "wrongReasons": [
+            "The other options are not the librarian's first recommendation."
+          ]
+        },
+        {
+          "question": "What should the student do if a full article is not accessible?",
+          "choices": [
+            "Skip that source and find a different one.",
+            "Email the article's author directly.",
+            "Check the library database, where most journals are available.",
+            "Download the article from an unofficial website."
+          ],
+          "answer": 2,
+          "explanation": "The librarian says to check the library database if a full article is not available.",
+          "wrongReasons": [
+            "The other options are not suggested by the librarian."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l11",
+      "difficulty": "easy",
+      "type": "lecture",
+      "title": "Lecture: How Vaccines Work",
+      "transcript": "Speaker: A vaccine works by training the immune system to recognise and fight a specific pathogen without causing the disease itself. It introduces a harmless version of the pathogen — or just a fragment of it — into the body. The immune system responds by producing antibodies. If the person later encounters the real pathogen, the immune system can respond quickly and prevent serious illness. This is why widespread vaccination can reduce the spread of disease through a population.",
+      "questions": [
+        {
+          "question": "How does a vaccine train the immune system?",
+          "choices": [
+            "By introducing the full, active form of a disease-causing pathogen.",
+            "By introducing a harmless version or fragment of a pathogen so antibodies can form.",
+            "By providing antibodies directly from another person's immune system.",
+            "By removing dangerous cells from the bloodstream."
+          ],
+          "answer": 1,
+          "explanation": "The speaker describes a harmless version or fragment that prompts antibody production.",
+          "wrongReasons": [
+            "A describes how infection works, not vaccination.",
+            "C and D are not how vaccines work."
+          ]
+        },
+        {
+          "question": "What happens if a vaccinated person later encounters the real pathogen?",
+          "choices": [
+            "The vaccine destroys the pathogen before it enters the body.",
+            "The person will always be completely immune.",
+            "The immune system can respond quickly to prevent serious illness.",
+            "The body produces a new vaccine automatically."
+          ],
+          "answer": 2,
+          "explanation": "The speaker says the immune system can respond quickly and prevent serious illness.",
+          "wrongReasons": [
+            "A is not how the immune system works.",
+            "B says 'always', which is too absolute.",
+            "D is not stated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l12",
+      "difficulty": "hard",
+      "type": "conversation",
+      "title": "Tutorial Conversation: Understanding Confirmation Bias",
+      "transcript": "Tutor: Your essay mentions confirmation bias, but I do not think you have fully explained it. Student: I said it means people only look for information that supports their existing view. Tutor: That is partly right, but it also includes how we interpret ambiguous evidence. We tend to read neutral information as confirmation of what we already believe. It is not just about ignoring contradictory sources — it is also about distorting what we see.",
+      "questions": [
+        {
+          "question": "What does the tutor say is missing from the student's explanation?",
+          "choices": [
+            "That confirmation bias only affects scientists.",
+            "That confirmation bias also includes distorting the interpretation of ambiguous evidence.",
+            "That people with confirmation bias always reject new information.",
+            "That confirmation bias is a recent discovery in psychology."
+          ],
+          "answer": 1,
+          "explanation": "The tutor adds that people also distort neutral information to fit existing beliefs.",
+          "wrongReasons": [
+            "The other options are not what the tutor says is missing."
+          ]
+        },
+        {
+          "question": "According to the tutor, what happens with ambiguous evidence?",
+          "choices": [
+            "People tend to ignore it completely.",
+            "People tend to interpret it as supporting what they already believe.",
+            "People become more open-minded after seeing it.",
+            "People ask others to interpret it for them."
+          ],
+          "answer": 1,
+          "explanation": "The tutor says people read neutral information as confirmation of existing beliefs.",
+          "wrongReasons": [
+            "The other options are not supported by the conversation."
+          ]
+        }
+      ]
+    }
+  ],
+  "textCompletion": [
+    {
+      "id": "tc1",
+      "difficulty": "easy",
+      "title": "Study Habits",
+      "passage": "Students often assume that longer study sessions are always more productive. Research suggests otherwise. Short sessions with active recall and regular breaks are often more effective because they reduce mental ___.",
+      "choices": [
+        "fatigue",
+        "arrival",
+        "permission",
+        "landscape"
+      ],
+      "answer": 0,
+      "explanation": "Mental fatigue is the natural collocation.",
+      "wrongReasons": [
+        "The other words do not fit the context."
+      ]
+    },
+    {
+      "id": "tc2",
+      "difficulty": "medium",
+      "title": "Museum Audio Guides",
+      "passage": "Many museums now provide digital audio guides. Good guides add useful information without distracting visitors from the objects themselves. For that reason, the most effective guides are brief, clear, and ___ rather than overwhelming.",
+      "choices": [
+        "selective",
+        "fragile",
+        "permanent",
+        "identical"
+      ],
+      "answer": 0,
+      "explanation": "Selective matches the idea of brief, focused guidance.",
+      "wrongReasons": [
+        "The other options do not fit the logic."
+      ]
+    },
+    {
+      "id": "tc3",
+      "difficulty": "hard",
+      "title": "Urban Farming",
+      "passage": "Urban farming is not intended to ___ traditional agriculture but to complement it with educational and community benefits.",
+      "choices": [
+        "replace",
+        "delay",
+        "observe",
+        "import"
+      ],
+      "answer": 0,
+      "explanation": "The sentence contrasts replacement with complementing.",
+      "wrongReasons": [
+        "The other options do not fit the contrast."
+      ]
+    },
+    {
+      "id": "tc4",
+      "difficulty": "hard",
+      "title": "Workplace Training",
+      "passage": "The company introduced short weekly workshops because a single long seminar was not enough to ___ new employees with the practical skills they needed.",
+      "choices": [
+        "equip",
+        "hesitate",
+        "translate",
+        "postpone"
+      ],
+      "answer": 0,
+      "explanation": "Equip with skills is the correct collocation.",
+      "wrongReasons": [
+        "The other options do not match the meaning."
+      ]
+    },
+    {
+      "id": "tc5",
+      "difficulty": "easy",
+      "title": "Public Libraries",
+      "passage": "Public libraries have adapted to changing habits. In addition to books, many now offer digital resources, co-working spaces, and community events. Their goal remains the same: to provide ___ access to information and learning for everyone.",
+      "choices": [
+        "free",
+        "expensive",
+        "limited",
+        "private"
+      ],
+      "answer": 0,
+      "explanation": "Free access to information is the defining feature of public libraries.",
+      "wrongReasons": [
+        "Expensive and limited contradict the public-service model.",
+        "Private contradicts the word public."
+      ]
+    },
+    {
+      "id": "tc6",
+      "difficulty": "medium",
+      "title": "Social Media and Attention",
+      "passage": "Social media platforms are designed to keep users engaged for as long as possible. Notifications, infinite scrolling, and personalised content all serve to ___ the user's attention and discourage them from leaving the platform.",
+      "choices": [
+        "capture",
+        "restore",
+        "reduce",
+        "block"
+      ],
+      "answer": 0,
+      "explanation": "Capture attention fits the idea of keeping users engaged.",
+      "wrongReasons": [
+        "Restore and reduce do not match the meaning.",
+        "Block is the opposite of the intended effect."
+      ]
+    },
+    {
+      "id": "tc7",
+      "difficulty": "hard",
+      "title": "Scientific Peer Review",
+      "passage": "Before a scientific study is published in an academic journal, it must pass through a process known as peer review. Independent experts in the field ___ the methodology, results, and conclusions to ensure the research meets the standards of the discipline.",
+      "choices": [
+        "evaluate",
+        "ignore",
+        "copy",
+        "celebrate"
+      ],
+      "answer": 0,
+      "explanation": "Evaluate is the correct academic term for assessing research quality.",
+      "wrongReasons": [
+        "Ignore is the opposite of peer review.",
+        "Copy and celebrate do not fit the academic context."
+      ]
+    },
+    {
+      "id": "tc8",
+      "difficulty": "easy",
+      "title": "Language Learning",
+      "passage": "Learning a second language is most effective when the learner is regularly ___ to the language in meaningful contexts, such as through conversation, reading, or listening to native speakers.",
+      "choices": [
+        "exposed",
+        "opposed",
+        "closed",
+        "limited"
+      ],
+      "answer": 0,
+      "explanation": "Exposed to the language is the standard collocation in language learning research.",
+      "wrongReasons": [
+        "Opposed means resistant.",
+        "Closed and limited have different meanings that do not fit."
+      ]
+    },
+    {
+      "id": "tc9",
+      "difficulty": "medium",
+      "title": "Recycling Challenges",
+      "passage": "Although recycling is widely promoted, its effectiveness depends on how well people ___ the guidelines. When contaminated materials are placed in recycling bins, entire batches may need to be sent to landfill instead.",
+      "choices": [
+        "follow",
+        "create",
+        "ignore",
+        "design"
+      ],
+      "answer": 0,
+      "explanation": "Follow the guidelines is the natural collocation.",
+      "wrongReasons": [
+        "Create and design do not fit the context.",
+        "Ignore is the opposite of what is needed for effective recycling."
+      ]
+    },
+    {
+      "id": "tc10",
+      "difficulty": "hard",
+      "title": "Cognitive Load in Education",
+      "passage": "When students are asked to process too much new information at once, their working memory becomes overwhelmed. This ___ learning because the brain cannot effectively encode new material when its processing capacity is exceeded.",
+      "choices": [
+        "hinders",
+        "supports",
+        "accelerates",
+        "clarifies"
+      ],
+      "answer": 0,
+      "explanation": "Hinders learning is consistent with the idea that overload impairs memory encoding.",
+      "wrongReasons": [
+        "Supports and accelerates are the opposite of what is described.",
+        "Clarifies does not fit the causal relationship."
+      ]
+    }
+  ]
+}

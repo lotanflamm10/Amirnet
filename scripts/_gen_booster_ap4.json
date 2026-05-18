@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-ap-251",
+    "difficulty": "easy",
+    "text": "There were ___ five hundred participants in the original study, but only three hundred completed the follow-up survey.",
+    "choices": [
+      "at most",
+      "at least",
+      "at best",
+      "at worst"
+    ],
+    "answer": 1,
+    "explanation": "'At least' means 'no fewer than' and is used when stating a minimum number. The sentence says five hundred participated originally, establishing the lower bound before noting a smaller follow-up count.",
+    "wrongReasons": [
+      "'At most' means 'no more than'; it sets an upper limit, but the sentence refers to the original larger number, not an upper bound.",
+      "'At best' expresses the most optimistic possible outcome in a negative or uncertain situation, not a minimum quantity.",
+      "'At worst' expresses the most negative possible outcome, not a minimum quantity."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'At least' משמעותו 'לפחות' ומציין מינימום. הוא מנוגד ל-'at most' שמציין מקסימום.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-252",
+    "difficulty": "easy",
+    "text": "The procedure takes ___ two hours, so patients should plan accordingly.",
+    "choices": [
+      "at least",
+      "at best",
+      "at most",
+      "at worst"
+    ],
+    "answer": 2,
+    "explanation": "'At most' means 'no more than' and sets an upper limit on duration. Telling patients the procedure takes at most two hours gives them the maximum time to plan for.",
+    "wrongReasons": [
+      "'At least' means 'no fewer than'; it would mean the procedure takes a minimum of two hours, implying it could be much longer.",
+      "'At best' introduces the most favourable scenario in a negative context, not a simple upper time limit.",
+      "'At worst' introduces the most unfavourable scenario; it implies a different meaning from a neutral upper bound."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'At most' משמעותו 'לכל היותר' ומציין גבול עליון. מנוגד ל-'at least' שמציין גבול תחתון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-253",
+    "difficulty": "easy",
+    "text": "The policy is sound ___ , but its implementation has faced significant practical obstacles.",
+    "choices": [
+      "in practice",
+      "in principle",
+      "in reality",
+      "in theory"
+    ],
+    "answer": 1,
+    "explanation": "'In principle' means the policy is acceptable based on general values or ideas, even if it has not worked in practice. The contrast with 'implementation' confirms this is about abstract soundness, not real-world performance.",
+    "wrongReasons": [
+      "'In practice' refers to what actually happens when something is applied; it would contradict the idea that implementation has faced obstacles.",
+      "'In reality' describes actual conditions as opposed to ideals; it would not be used to say a policy is sound when practice has failed.",
+      "'In theory' is similar to 'in principle' but more often refers to theoretical models; 'in principle' better expresses foundational soundness in policy contexts."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'In principle' משמעותו 'עקרונית' — הדבר נכון מבחינת ערכים ורעיונות, גם אם יישומו קשה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-254",
+    "difficulty": "easy",
+    "text": "The model predicts perfect efficiency ___ , but real-world conditions always introduce friction and loss.",
+    "choices": [
+      "in principle",
+      "in practice",
+      "in theory",
+      "in reality"
+    ],
+    "answer": 2,
+    "explanation": "'In theory' refers to what a model or framework predicts under ideal conditions. The contrast with 'real-world conditions' confirms the sentence is describing a theoretical prediction versus actual experience.",
+    "wrongReasons": [
+      "'In principle' refers to general values or norms, not the predictions of a scientific model.",
+      "'In practice' describes what actually happens; it cannot be contrasted with 'real-world conditions' because it means the same thing.",
+      "'In reality' describes actual conditions; it is used for the second part of the contrast, not the first part about the model's prediction."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'In theory' משמעותו 'תיאורטית' — מה שמודל צופה בתנאים אידיאליים, לעומת מה שקורה בפועל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-255",
+    "difficulty": "easy",
+    "text": "The hospital uses the patient's medical history ___ a basis for selecting the most appropriate treatment.",
+    "choices": [
+      "to act as",
+      "to serve as",
+      "to operate as",
+      "to function as"
+    ],
+    "answer": 1,
+    "explanation": "'Serve as' means to fulfil the role or purpose of something. When one thing is used in place of another for a specific function, 'serve as' is the standard academic collocation.",
+    "wrongReasons": [
+      "'Act as' is close in meaning but more commonly describes a person temporarily performing a role (e.g., 'she acted as chair').",
+      "'Operate as' describes how a system or mechanism works, not how one item is used as another.",
+      "'Function as' is also close but more technical; 'serve as' is the default academic phrase for using one thing in the role of another."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Serve as' משמעותו 'לשמש כ' ומשמש כאשר דבר אחד ממלא תפקיד של אחר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-256",
+    "difficulty": "easy",
+    "text": "Participants completed a short questionnaire ___ wait times between sessions.",
+    "choices": [
+      "to serve as",
+      "to function as",
+      "to fill in",
+      "to reduce"
+    ],
+    "answer": 3,
+    "explanation": "'To reduce' correctly expresses the purpose of the questionnaire — it was completed in order to decrease the wait time. The sentence describes a goal or reason.",
+    "wrongReasons": [
+      "'To serve as' means to fulfil the role of something; a questionnaire does not serve as wait times.",
+      "'To function as' describes how something works mechanically; it does not describe the purpose of reducing time.",
+      "'To fill in' means to complete a form; it is a synonym for completing the questionnaire itself, not a statement of purpose."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'To reduce' משמש לביטוי מטרה — המשתתפים מילאו שאלון כדי לצמצם זמני המתנה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-257",
+    "difficulty": "easy",
+    "text": "The failure of the project was ___ poor planning rather than a lack of funding.",
+    "choices": [
+      "derived from",
+      "ascribed to",
+      "stemming from",
+      "attributed to"
+    ],
+    "answer": 3,
+    "explanation": "'Attributed to' means 'assigned as the cause of.' The standard academic phrase for explaining what caused a failure or outcome is 'attributed to.'",
+    "wrongReasons": [
+      "'Derived from' means to have its origin in; it describes where something comes from, not what caused a specific failure.",
+      "'Ascribed to' is close but typically used for assigning authorship, credit, or qualities to a person, not for explaining a project failure.",
+      "'Stemming from' is also close but is typically used as a participial phrase ('failures stemming from poor planning'), not in a 'was stemming from' construction."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Attributed to' משמעותו 'יוחס ל' ומשמש לציון גורם לכישלון או לתוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-258",
+    "difficulty": "easy",
+    "text": "___ , students who receive early intervention perform significantly better on standardised tests.",
+    "choices": [
+      "On the contrary",
+      "On average",
+      "On balance",
+      "On the whole"
+    ],
+    "answer": 1,
+    "explanation": "'On average' means 'as a general rule across a group of cases.' It is used when stating a typical or mean outcome across multiple instances.",
+    "wrongReasons": [
+      "'On the contrary' introduces a statement that opposes something just said; there is no previous claim to contradict here.",
+      "'On balance' means 'taking everything into account'; it weighs pros and cons rather than stating a statistical average.",
+      "'On the whole' means 'generally speaking' but refers to overall quality or character, not to a measurable average across a group."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'On average' משמעותו 'בממוצע' ומשמש לציון תוצאה טיפוסית בקרב מקרים רבים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-259",
+    "difficulty": "medium",
+    "text": "The increase in urban temperatures ___ the expansion of impermeable surfaces such as concrete and asphalt.",
+    "choices": [
+      "is attributed to",
+      "is derived from",
+      "results from",
+      "stems from"
+    ],
+    "answer": 2,
+    "explanation": "'Results from' describes a direct causal relationship where one phenomenon is the outcome of another. When a physical process causes a measurable change, 'results from' is the preferred academic phrasing.",
+    "wrongReasons": [
+      "'Is attributed to' assigns a cause based on interpretation or analysis; 'results from' is more direct for established causal chains.",
+      "'Is derived from' means to have its origin in; it is used for knowledge, concepts, or language, not physical temperature changes.",
+      "'Stems from' is correct in meaning but typically used for abstract causes (attitudes, problems) rather than concrete physical processes."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Results from' מתאר יחס סיבתי ישיר — תוצאה הנובעת ממנגנון ספציפי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-260",
+    "difficulty": "medium",
+    "text": "Many psychological disorders ___ early childhood trauma and adverse developmental environments.",
+    "choices": [
+      "result from",
+      "arise from",
+      "stem from",
+      "derive from"
+    ],
+    "answer": 2,
+    "explanation": "'Stem from' is the standard academic phrase when describing abstract problems, conditions, or attitudes whose origin lies in prior circumstances. Psychological disorders are abstract phenomena whose roots are described with 'stem from.'",
+    "wrongReasons": [
+      "'Result from' is more appropriate for concrete, measurable outcomes of direct physical causes.",
+      "'Arise from' is correct but more often used for specific events or problems emerging from a situation, not chronic conditions rooted in development.",
+      "'Derive from' typically describes the origin of concepts, words, or information, not clinical conditions."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Stem from' משמש לתיאור מקור של בעיות מופשטות כמו הפרעות פסיכולוגיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-261",
+    "difficulty": "medium",
+    "text": "Serious complications may ___ if the medication is discontinued without medical supervision.",
+    "choices": [
+      "stem from",
+      "derive from",
+      "result from",
+      "arise from"
+    ],
+    "answer": 3,
+    "explanation": "'Arise from' is used when events, problems, or situations emerge or occur as a consequence of a condition or action. Here, complications arise if a specific action (discontinuation) takes place.",
+    "wrongReasons": [
+      "'Stem from' describes the deep-rooted origin of abstract conditions; it does not naturally describe event-specific complications.",
+      "'Derive from' describes the source of concepts or information, not clinical complications.",
+      "'Result from' implies a more direct causal chain; 'arise from' better captures the idea of problems emerging conditionally."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Arise from' משמש לתיאור בעיות או אירועים שצצים כתוצאה מפעולה מסוימת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-262",
+    "difficulty": "medium",
+    "text": "Much of modern philosophical ethics ___ the Kantian tradition of universal moral duty.",
+    "choices": [
+      "arises from",
+      "stems from",
+      "derives from",
+      "results from"
+    ],
+    "answer": 2,
+    "explanation": "'Derives from' is the correct choice when describing that a concept, system of thought, or framework has its intellectual origin in a prior tradition. It is the standard academic phrase for intellectual lineage.",
+    "wrongReasons": [
+      "'Arises from' describes problems or events emerging from a situation, not intellectual inheritance.",
+      "'Stems from' describes the deep root of problems or attitudes, not the intellectual derivation of a philosophical tradition.",
+      "'Results from' implies a direct causal outcome; philosophical traditions are not 'outcomes' in this sense."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Derives from' משמש לתיאור מוצא אינטלקטואלי — מסגרת מחשבתית שמקורה במסורת קודמת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-263",
+    "difficulty": "medium",
+    "text": "Investments in renewable energy are expected to pay off ___ , even if short-term costs are high.",
+    "choices": [
+      "over time",
+      "eventually",
+      "in the long run",
+      "in the short term"
+    ],
+    "answer": 2,
+    "explanation": "'In the long run' is the standard academic phrase for describing outcomes that materialise after a sustained period, often used when contrasting with immediate costs. It implies strategic patience and is widely used in economics and policy discourse.",
+    "wrongReasons": [
+      "'Over time' is vaguer and does not carry the same implication of a deliberate long-term calculation.",
+      "'Eventually' simply means 'at some point in the future'; it lacks the evaluative or strategic connotation of 'in the long run.'",
+      "'In the short term' is the opposite of the intended meaning; it refers to outcomes in the near future."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'In the long run' משמעותו 'בטווח הארוך' ומשמש בדיסקורס כלכלי ומדיניות לתוצאות אחרי תקופה ממושכת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-264",
+    "difficulty": "medium",
+    "text": "The budget cuts may reduce expenditure ___ , but they risk undermining service quality for years to come.",
+    "choices": [
+      "eventually",
+      "in the long run",
+      "over time",
+      "in the short term"
+    ],
+    "answer": 3,
+    "explanation": "'In the short term' refers to the near-term or immediate period. The sentence contrasts a near-term benefit (reduced expenditure) with a long-term risk, making 'in the short term' the correct choice.",
+    "wrongReasons": [
+      "'Eventually' means 'at some later point' without specifying near or far; it does not create the intended contrast.",
+      "'In the long run' refers to far-future outcomes; using it would contradict the contrast with 'years to come.'",
+      "'Over time' is gradual and directional; it does not describe an immediate financial effect."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'In the short term' משמעותו 'בטווח הקצר' — מנוגד ל'in the long run' ומתאר תוצאות מיידיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-265",
+    "difficulty": "medium",
+    "text": "Carbon emissions, if left unchecked, will ___ lead to irreversible damage to global ecosystems.",
+    "choices": [
+      "in the short term",
+      "in the long run",
+      "over time",
+      "eventually"
+    ],
+    "answer": 3,
+    "explanation": "'Eventually' means 'at some point in the future, after a process has continued.' It is used here to describe a predicted future outcome without specifying a precise timeframe, which fits the uncertainty of climate projections.",
+    "wrongReasons": [
+      "'In the short term' contradicts the idea of unchecked emissions taking a long time to cause irreversible damage.",
+      "'In the long run' is close but implies a strategic framing; 'eventually' is simpler and more natural here.",
+      "'Over time' describes a gradual process; while close, 'eventually' better captures the endpoint of that gradual process."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Eventually' משמעותו 'בסופו של דבר' — נקודת הסיום העתידית של תהליך מתמשך.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-266",
+    "difficulty": "medium",
+    "text": "Trust between citizens and institutions erodes ___ when promises are repeatedly broken.",
+    "choices": [
+      "eventually",
+      "in the long run",
+      "in the short term",
+      "over time"
+    ],
+    "answer": 3,
+    "explanation": "'Over time' describes a gradual process of change that unfolds progressively. Trust eroding gradually as promises are broken is a process, making 'over time' the most precise phrase.",
+    "wrongReasons": [
+      "'Eventually' describes reaching a final state at some point, not the ongoing gradual process of erosion.",
+      "'In the long run' emphasises outcomes after a long strategic period; it does not naturally describe an ongoing erosion process.",
+      "'In the short term' implies immediacy, which contradicts the idea of gradual erosion."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Over time' מתאר תהליך הדרגתי המתרחש לאורך זמן, בניגוד ל-'eventually' שמתאר נקודת סיום.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-267",
+    "difficulty": "medium",
+    "text": "The new regulations ___ all businesses operating within the European Union, regardless of their country of origin.",
+    "choices": [
+      "relate to",
+      "pertain to",
+      "refer to",
+      "apply to"
+    ],
+    "answer": 3,
+    "explanation": "'Apply to' means to be relevant and binding for a specific group or category. When regulations have legal force over a defined set of entities, 'apply to' is the correct and standard academic-legal phrase.",
+    "wrongReasons": [
+      "'Relate to' means to be connected or relevant to; it is weaker and does not imply legal force or coverage.",
+      "'Pertain to' means to be relevant or appropriate to; it describes relevance rather than binding application.",
+      "'Refer to' means to mention or point to; it cannot describe a regulation being legally applicable to a group."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Apply to' משמעותו 'חל על' — ביטוי משפטי-אקדמי לתיאור כיסוי תקנות על קבוצה מסוימת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-268",
+    "difficulty": "medium",
+    "text": "The ethical guidelines discussed in this chapter ___ specifically to research involving human subjects.",
+    "choices": [
+      "apply to",
+      "refer to",
+      "relate to",
+      "pertain to"
+    ],
+    "answer": 3,
+    "explanation": "'Pertain to' means to be directly relevant or appropriate to a specific domain or context. In academic writing, it is used to specify the scope of guidelines, principles, or discussions.",
+    "wrongReasons": [
+      "'Apply to' is close but more commonly used for regulations or rules that are binding; 'pertain to' is preferred for guidelines and relevance of scope.",
+      "'Refer to' means to point to or mention; it cannot describe what the guidelines are relevant to.",
+      "'Relate to' is vaguer and describes a general connection; 'pertain to' is more precise for defining academic scope."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Pertain to' משמעותו 'נוגע ל' ומשמש בכתיבה אקדמית לציון תחום הרלוונטיות של עקרונות או הנחיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-269",
+    "difficulty": "medium",
+    "text": "When the author uses the term 'resilience,' she ___ the capacity to recover from adversity, not mere resistance to stress.",
+    "choices": [
+      "pertains to",
+      "applies to",
+      "refers to",
+      "relates to"
+    ],
+    "answer": 2,
+    "explanation": "'Refers to' means to indicate or point to a specific meaning. When defining what a term means in a particular usage, 'refers to' is the correct and standard academic phrase.",
+    "wrongReasons": [
+      "'Pertains to' means to be relevant to a domain; it cannot describe the specific meaning a term is assigned.",
+      "'Applies to' means to be applicable or binding; it cannot describe the meaning of a term.",
+      "'Relates to' means to be connected to; it is too vague to convey that the term designates a specific meaning."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Refers to' משמשלציון המשמעות של מונח בהקשר ספציפי — 'כאשר המחברת אומרת X, היא מתכוונת ל...'",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-270",
+    "difficulty": "medium",
+    "text": "The researcher ___ using mixed methods to capture both quantitative trends and qualitative nuances.",
+    "choices": [
+      "advocates",
+      "recommends",
+      "proposes",
+      "suggests"
+    ],
+    "answer": 0,
+    "explanation": "'Advocates' means to publicly support or argue strongly for something, typically a method, approach, or cause. It implies a normative commitment and is the most emphatic of the four options.",
+    "wrongReasons": [
+      "'Recommends' implies offering advice on a preferred option but is less ideologically committed than 'advocates.'",
+      "'Proposes' means to put forward a plan or idea for consideration; it does not convey the same strong endorsement.",
+      "'Suggests' means to gently put forward an idea; it is the least emphatic and implies less certainty than 'advocates.'"
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Advocates' משמעותו 'דוגל ב' — תמיכה חזקה ונורמטיבית בגישה, חזק יותר מ-'suggests' או 'recommends'.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-271",
+    "difficulty": "medium",
+    "text": "The committee ___ that further clinical trials be conducted before approving the new treatment.",
+    "choices": [
+      "advocates",
+      "proposes",
+      "recommends",
+      "suggests"
+    ],
+    "answer": 2,
+    "explanation": "'Recommends' followed by 'that + subjunctive' is the standard academic and formal English structure for official bodies advising on a course of action. Committees and bodies 'recommend that' specific actions be taken.",
+    "wrongReasons": [
+      "'Advocates' typically takes a gerund or noun ('advocates for X'), not 'that + subjunctive'; the grammatical construction is less standard here.",
+      "'Proposes' is used for putting forward a new plan or hypothesis, not for formal advisory conclusions.",
+      "'Suggests' is grammatically possible but too tentative for a formal committee conclusion."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Recommends' עם מבנה 'that + subjunctive' הוא הסטנדרט לגופים רשמיים המייעצים על פעולה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-272",
+    "difficulty": "medium",
+    "text": "This article ___ a new framework for analysing cross-cultural communication in digital environments.",
+    "choices": [
+      "recommends",
+      "advocates",
+      "suggests",
+      "proposes"
+    ],
+    "answer": 3,
+    "explanation": "'Proposes' is the standard academic verb for introducing a new theoretical model, framework, or argument. Academic articles 'propose' frameworks, models, and hypotheses.",
+    "wrongReasons": [
+      "'Recommends' is used for advising on a course of action, not for introducing a theoretical framework.",
+      "'Advocates' expresses strong normative support for an existing idea; it does not describe creating and putting forward a new framework.",
+      "'Suggests' implies tentative or indirect communication; an article that presents a full framework is more assertive — it 'proposes.'"
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Proposes' הוא הפועל האקדמי הסטנדרטי להצגת מסגרת תיאורטית, מודל, או טיעון חדש.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-273",
+    "difficulty": "medium",
+    "text": "___ , the benefits of the reform outweigh its costs, despite some short-term disruption.",
+    "choices": [
+      "On average",
+      "On the contrary",
+      "On the whole",
+      "On balance"
+    ],
+    "answer": 3,
+    "explanation": "'On balance' means 'taking all factors into account and weighing them against each other.' It is used to reach a conclusion after considering pros and cons, which is exactly the structure of this sentence.",
+    "wrongReasons": [
+      "'On average' refers to a mean or typical value across cases; it is not used to weigh pros and cons of a reform.",
+      "'On the contrary' introduces a statement that contradicts what was just said; no prior claim is being contradicted here.",
+      "'On the whole' means 'generally speaking' about overall quality or character; 'on balance' is more precise when explicitly weighing costs and benefits."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'On balance' משמעותו 'לאחר שקילת כל הגורמים' — משמש למסקנה שמשווה יתרונות וחסרונות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-274",
+    "difficulty": "medium",
+    "text": "The study found that, ___ , female students reported higher levels of academic engagement than their male peers.",
+    "choices": [
+      "on balance",
+      "on the contrary",
+      "on average",
+      "on the whole"
+    ],
+    "answer": 2,
+    "explanation": "'On average' means that across all cases studied, the typical or mean value showed this pattern. Reporting that female students showed higher engagement as a general statistical finding calls for 'on average.'",
+    "wrongReasons": [
+      "'On balance' is used to weigh competing factors; it does not describe a statistical pattern across a group.",
+      "'On the contrary' introduces a contradiction to a previous statement; no contradiction is present here.",
+      "'On the whole' describes a general overall character or tendency; 'on average' is more precise for describing a measurable statistical finding."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'On average' מדויק יותר עבור ממצא סטטיסטי הנמדד בקרב קבוצה, לעומת 'on the whole' שמתאר תכונה כללית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-275",
+    "difficulty": "medium",
+    "text": "This finding can ___ an early warning sign that economic inequality is worsening.",
+    "choices": [
+      "be seen as",
+      "be regarded as",
+      "be viewed as",
+      "be interpreted as"
+    ],
+    "answer": 3,
+    "explanation": "'Be interpreted as' is used when a finding requires active analytical reading or inference to arrive at its meaning. In academic writing, data does not speak for itself; it is 'interpreted as' having a particular meaning.",
+    "wrongReasons": [
+      "'Be seen as' implies a more passive, generally accepted perception rather than active analytical interpretation.",
+      "'Be regarded as' describes a widely held opinion or reputation; it suits established views, not fresh analytical conclusions.",
+      "'Be viewed as' is similar to 'be seen as' and is used for perspectives, not the analytical interpretation of new data."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Be interpreted as' מתאר פרשנות אנליטית של ממצא — הנתון מתפרש כסימן, לא רק נתפס ככזה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-276",
+    "difficulty": "medium",
+    "text": "Vaccination ___ one of the most cost-effective public health interventions ever developed.",
+    "choices": [
+      "is interpreted as",
+      "can be seen as",
+      "is viewed as",
+      "is regarded as"
+    ],
+    "answer": 3,
+    "explanation": "'Is regarded as' describes a widely held, established consensus or reputation. Vaccination's status as a cost-effective intervention is not a new interpretation but a broadly accepted view, making 'is regarded as' the most precise choice.",
+    "wrongReasons": [
+      "'Is interpreted as' implies active analytical reading of new data; vaccination's status is an established consensus, not a fresh interpretation.",
+      "'Can be seen as' implies a possible perspective that may be debated; vaccination's effectiveness is not a matter of perspective.",
+      "'Is viewed as' describes a particular group's perspective; 'is regarded as' is more universal and formal."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Is regarded as' מתאר קונסנזוס רחב ומבוסס — ההתחסנות אינה נדונה כפרספקטיבה, אלא מוכרת ככזו.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-277",
+    "difficulty": "medium",
+    "text": "___ that the methodology chosen may introduce selection bias; however, this limitation is addressed in Section 4.",
+    "choices": [
+      "It is worth noting",
+      "Remarkably",
+      "It is significant that",
+      "Notably"
+    ],
+    "answer": 0,
+    "explanation": "'It is worth noting' is the standard academic hedging phrase used to draw the reader's attention to a caveat or limitation in a measured, non-emphatic way. It is particularly appropriate when acknowledging a limitation.",
+    "wrongReasons": [
+      "'Remarkably' expresses surprise or admiration; it is not appropriate for acknowledging a methodological limitation.",
+      "'It is significant that' claims high importance; a limitation should be acknowledged modestly, not declared significant.",
+      "'Notably' draws attention to something noteworthy in a positive sense; it is less appropriate for flagging methodological concerns."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'It is worth noting' הוא ביטוי hedging אקדמי להפניית תשומת לב לסייג בצורה מאופקת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-278",
+    "difficulty": "medium",
+    "text": "___ , the treatment group showed a 40% reduction in symptoms, far exceeding the predicted 15%.",
+    "choices": [
+      "It is worth noting",
+      "It is significant that",
+      "Notably",
+      "Remarkably"
+    ],
+    "answer": 3,
+    "explanation": "'Remarkably' is an adverb used to highlight a result that is surprising or exceptional. A 40% reduction far exceeding predictions is genuinely surprising, making 'remarkably' the most precise choice.",
+    "wrongReasons": [
+      "'It is worth noting' draws attention to something noteworthy but in a measured, hedging way; it does not convey surprise.",
+      "'It is significant that' emphasises importance in a neutral academic register; it does not convey the element of surprise here.",
+      "'Notably' points to something deserving attention; it is less emphatic about surprise than 'remarkably.'"
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Remarkably' מדגיש תוצאה מפתיעה או יוצאת דופן, חזק יותר מ-'notably' שמסמן בולטות בלבד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-279",
+    "difficulty": "medium",
+    "text": "___ , the correlation between income and health outcomes is stronger in countries with limited welfare provision.",
+    "choices": [
+      "Remarkably",
+      "Notably",
+      "It is worth noting",
+      "It is significant that"
+    ],
+    "answer": 1,
+    "explanation": "'Notably' signals that a fact is particularly worth attention because it is striking or relevant. In academic writing it is used to draw the reader's focus to a key finding without overstating surprise.",
+    "wrongReasons": [
+      "'Remarkably' implies surprise or astonishment; this is a well-established finding, not a shocking one.",
+      "'It is worth noting' is a hedging phrase used more for caveats and limitations than for highlighting key findings.",
+      "'It is significant that' claims the finding is important but is too neutral to single out this particular correlation as especially striking."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Notably' מסמן שממצא ספציפי ראוי לתשומת לב מיוחדת מבלי לציין הפתעה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-280",
+    "difficulty": "medium",
+    "text": "___ , the level of compliance with safety protocols was found to be highest among employees with managerial responsibility.",
+    "choices": [
+      "Remarkably",
+      "Notably",
+      "It is worth noting",
+      "It is significant that"
+    ],
+    "answer": 3,
+    "explanation": "'It is significant that' signals that the finding has substantive importance for the study's argument or field. The fact that compliance is highest in a specific group is presented as a key analytical point, not just a curiosity.",
+    "wrongReasons": [
+      "'Remarkably' implies surprise; a pattern of higher compliance among managers is plausible, not astonishing.",
+      "'Notably' draws attention to something as striking, but 'it is significant that' more strongly claims analytical importance.",
+      "'It is worth noting' is used for caveats; here the sentence presents a core positive finding, not a limitation."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'It is significant that' מציין שממצא הוא בעל חשיבות אנליטית מהותית לטיעון המחקר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-281",
+    "difficulty": "medium",
+    "text": "___ , negative peer pressure can lead adolescents to engage in risky behaviours despite full awareness of the consequences.",
+    "choices": [
+      "In some cases",
+      "In specific contexts",
+      "Under certain conditions",
+      "In certain circumstances"
+    ],
+    "answer": 3,
+    "explanation": "'In certain circumstances' introduces the particular conditions or situations under which a phenomenon occurs, emphasising the situational nature. It is appropriate when describing social or psychological dynamics that depend on context.",
+    "wrongReasons": [
+      "'In some cases' is correct but more casual; 'in certain circumstances' is more precise when specifying the situational conditions.",
+      "'In specific contexts' is more academic but emphasises setting or environment rather than the social dynamics of a situation.",
+      "'Under certain conditions' is more appropriate for controlled or experimental settings, not social behaviour patterns."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'In certain circumstances' מציין את התנאים הסיטואציוניים בהם תופעה מתרחשת, מתאים לדינמיקות חברתיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-282",
+    "difficulty": "medium",
+    "text": "Drug-resistant bacteria may evolve ___ where antibiotics are overused or misused in agricultural settings.",
+    "choices": [
+      "in certain circumstances",
+      "in some cases",
+      "in specific contexts",
+      "under certain conditions"
+    ],
+    "answer": 3,
+    "explanation": "'Under certain conditions' is the standard academic phrase used in scientific contexts to describe the environmental, experimental, or measurable conditions required for a biological or physical process to occur.",
+    "wrongReasons": [
+      "'In certain circumstances' is more appropriate for social or situational dynamics, not precise biological conditions.",
+      "'In some cases' is too casual and vague for a scientific explanation of bacterial evolution.",
+      "'In specific contexts' describes cultural or disciplinary settings, not the technical conditions for bacterial resistance."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Under certain conditions' הוא הביטוי המדעי הסטנדרטי לתיאור התנאים שבהם תהליך ביולוגי או פיזיקלי מתרחש.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-283",
+    "difficulty": "medium",
+    "text": "The meaning of 'progress' varies ___ — what counts as development in Western liberal thought may not apply elsewhere.",
+    "choices": [
+      "under certain conditions",
+      "in certain circumstances",
+      "in some cases",
+      "in specific contexts"
+    ],
+    "answer": 3,
+    "explanation": "'In specific contexts' describes variation across cultural, disciplinary, or conceptual settings. The sentence is about how a concept's meaning changes depending on the intellectual or cultural framework, making 'in specific contexts' the most precise choice.",
+    "wrongReasons": [
+      "'Under certain conditions' refers to measurable, often scientific or experimental conditions; it does not describe cultural or intellectual frameworks.",
+      "'In certain circumstances' describes situational dynamics; the sentence is about conceptual variation, not a situation.",
+      "'In some cases' is too vague and informal for describing systematic cross-cultural conceptual variation."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'In specific contexts' מתאר שונות של משמעות מושג בהקשרים תרבותיים או אינטלקטואליים שונים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-284",
+    "difficulty": "medium",
+    "text": "The discovery ___ a paradigm shift in our understanding of how language is acquired in early childhood.",
+    "choices": [
+      "is regarded as",
+      "can be seen as",
+      "is viewed as",
+      "is interpreted as"
+    ],
+    "answer": 1,
+    "explanation": "'Can be seen as' introduces a plausible perspective on how something may be understood. In academic writing it is used to propose an interpretation that is reasonable but not universally accepted, which is appropriate for describing a contested theoretical shift.",
+    "wrongReasons": [
+      "'Is regarded as' describes an established consensus; whether a discovery constitutes a paradigm shift may still be debated.",
+      "'Is viewed as' is similar to 'can be seen as' but implies an existing perspective rather than introducing one as a possibility.",
+      "'Is interpreted as' implies active analytical reading of data; characterising the significance of a discovery is not interpreting data."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Can be seen as' מציע פרשנות סבירה שעשויה להיות שנויה במחלוקת, לא קונסנזוס מוכר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-285",
+    "difficulty": "hard",
+    "text": "The surplus revenue was ___ administrative costs rather than directed toward programme expansion.",
+    "choices": [
+      "attributed to",
+      "credited to",
+      "ascribed to",
+      "assigned to"
+    ],
+    "answer": 3,
+    "explanation": "'Assigned to' means to allocate or direct something to a specific purpose or category. When funds or resources are directed toward a particular use, 'assigned to' is the correct academic-administrative phrase.",
+    "wrongReasons": [
+      "'Attributed to' means to identify a cause or source; it describes why something occurred, not where resources were directed.",
+      "'Credited to' means to record an amount in someone's account or to give recognition; it is not used for the allocation of surplus funds to a purpose.",
+      "'Ascribed to' means to assign authorship or a quality to a person or group; it is not used for directing financial resources."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Assigned to' מתאר הקצאת משאבים למטרה מסוימת, שונה מ-'attributed to' שמסביר גורם.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-286",
+    "difficulty": "hard",
+    "text": "The breakthrough in renewable energy storage is widely ___ the persistent efforts of a small team of electrochemists at the university.",
+    "choices": [
+      "assigned to",
+      "ascribed to",
+      "attributed to",
+      "credited to"
+    ],
+    "answer": 3,
+    "explanation": "'Credited to' means to give recognition or acknowledgement to a person or group for an achievement. When a breakthrough is publicly recognised as resulting from someone's work, 'credited to' is the most precise phrase.",
+    "wrongReasons": [
+      "'Assigned to' means to allocate a resource or task; it cannot describe giving recognition for an achievement.",
+      "'Ascribed to' means to attribute a quality or authorship to a source; it is used more for abstract qualities or textual authorship.",
+      "'Attributed to' can also describe credit but is more used when identifying causes; 'credited to' specifically signals formal acknowledgement."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Credited to' מתאר הכרה רשמית בהישג — 'להדה ניתן קרדיט' לאנשים ספציפיים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-287",
+    "difficulty": "hard",
+    "text": "The philosophical concept of the sublime is traditionally ___ the works of Edmund Burke and Immanuel Kant.",
+    "choices": [
+      "credited to",
+      "attributed to",
+      "assigned to",
+      "ascribed to"
+    ],
+    "answer": 3,
+    "explanation": "'Ascribed to' is used when assigning intellectual authorship of a concept, theory, or text to a scholar or tradition. It is the most precise academic phrase for identifying the intellectual source of a philosophical concept.",
+    "wrongReasons": [
+      "'Credited to' implies formal public recognition, more appropriate for specific achievements in science or art.",
+      "'Attributed to' can also assign authorship but is used more broadly; 'ascribed to' is the preferred academic phrase for intellectual genealogy.",
+      "'Assigned to' means to allocate a task or resource; it cannot describe intellectual authorship."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Ascribed to' הוא הביטוי האקדמי לייחוס מחברות אינטלקטואלית של מושג פילוסופי לחוקר מסוים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-288",
+    "difficulty": "hard",
+    "text": "The anomaly ___ a flaw in the measurement instrument ___ the inherent variability of the phenomenon itself.",
+    "choices": [
+      "results from / rather than from",
+      "stems from / more than from",
+      "arises from / other than from",
+      "derives from / less than from"
+    ],
+    "answer": 0,
+    "explanation": "'Results from ... rather than from' establishes a causal contrast: the anomaly is caused by the measurement flaw, not by the natural variability. 'Rather than' is the standard academic phrase for presenting a preferred causal explanation over an alternative.",
+    "wrongReasons": [
+      "'Stems from / more than from' is grammatically awkward; 'more than' compares magnitude, not competing causal explanations.",
+      "'Arises from / other than from' — 'other than from' is not a standard academic construction for causal contrast.",
+      "'Derives from / less than from' — 'less than from' is not idiomatic for expressing causal prioritisation."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Results from ... rather than from' מציג ניגוד סיבתי — הסיבה האמיתית לעומת הסיבה הנדחית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-289",
+    "difficulty": "hard",
+    "text": "The model ___ educational success, but ___ it may oversimplify the complex social factors involved.",
+    "choices": [
+      "in theory / in practice",
+      "in principle / in reality",
+      "in theory / in reality",
+      "in practice / in principle"
+    ],
+    "answer": 2,
+    "explanation": "'In theory' refers to what the model predicts or claims under idealised assumptions. 'In reality' refers to the actual world where those assumptions do not hold. This pair creates the clearest contrast between a theoretical claim and a practical critique.",
+    "wrongReasons": [
+      "'In principle / in reality' — 'in principle' refers to values and norms, not to what a model predicts; a model predicts 'in theory.'",
+      "'In theory / in practice' — 'in practice' means what actually happens when applied; 'in reality' is more precise for critiquing an oversimplification of real complexity.",
+      "'In practice / in principle' — this pair inverts the meaning; the first clause describes a model's predictive claim, not actual practice."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'In theory ... in reality' יוצר ניגוד בין מה שמודל צופה לבין המציאות המורכבת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-290",
+    "difficulty": "hard",
+    "text": "The delegate ___ as spokesperson for the entire negotiating bloc, presenting the bloc's unified position to the panel.",
+    "choices": [
+      "served",
+      "acted",
+      "functioned",
+      "operated"
+    ],
+    "answer": 1,
+    "explanation": "'Acted as' is the standard phrase when a person temporarily performs a role that is not their permanent designation. The delegate is not permanently the spokesperson but is performing that function in this context.",
+    "wrongReasons": [
+      "'Served as' is close, but 'served as' typically implies an ongoing or formally appointed role over a period, not a temporary situational one.",
+      "'Functioned as' describes how a system or mechanism works, not how a person temporarily fills a role.",
+      "'Operated as' describes how an entity or system runs; it is not used for a person temporarily taking on a role."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Acted as' משמש כאשר אדם ממלא תפקיד זמני שאינו תואר הקבוע שלו.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-291",
+    "difficulty": "hard",
+    "text": "The prefrontal cortex ___ as the brain's executive control centre, regulating decision-making and impulse suppression.",
+    "choices": [
+      "acts",
+      "serves",
+      "operates",
+      "functions"
+    ],
+    "answer": 3,
+    "explanation": "'Functions as' is the most precise academic phrase when describing the role of a biological structure or organ. In neuroscience and biology, parts of the body or brain 'function as' something, highlighting their operational role.",
+    "wrongReasons": [
+      "'Acts as' implies a temporary or performed role; a brain region has a permanent biological function.",
+      "'Serves as' implies a supportive or instrumental role; it is less precise for describing the inherent biological role of a brain region.",
+      "'Operates as' describes how a system runs, not the specific role of a biological structure."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Functions as' הוא הביטוי המדויק לתיאור תפקיד ביולוגי קבוע של מבנה מוחי או גופני.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-292",
+    "difficulty": "hard",
+    "text": "The pilot study ___ as a proof of concept for the larger randomised controlled trial planned for the following year.",
+    "choices": [
+      "functioned",
+      "operated",
+      "acted",
+      "served"
+    ],
+    "answer": 3,
+    "explanation": "'Served as' describes a sustained, purposive role over time, which is appropriate when a pilot study plays an instrumental role — validating a concept — to enable future work. The relationship is formal and ongoing.",
+    "wrongReasons": [
+      "'Functioned as' describes a biological or mechanical operational role; a pilot study has a purposive, not mechanical, role.",
+      "'Operated as' is used for institutional or systemic entities; a study does not 'operate' in that sense.",
+      "'Acted as' implies a temporary or situational role; a pilot study has a formally designed role, not a temporary one."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Served as' מתאר תפקיד מתמשך ומכוון — מחקר פיילוט שמשמש הוכחת היתכנות לניסוי עתידי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-293",
+    "difficulty": "hard",
+    "text": "___ , the proposed intervention is ethically defensible; the primary challenge lies in the allocation of resources.",
+    "choices": [
+      "On the whole",
+      "On average",
+      "On the contrary",
+      "On balance"
+    ],
+    "answer": 0,
+    "explanation": "'On the whole' means 'generally speaking' or 'in overall terms' and is used to make a general assessment of something's overall quality or defensibility. It is more appropriate than 'on balance' here because the sentence makes a general character judgement, not a weighing of specific pros and cons.",
+    "wrongReasons": [
+      "'On average' is a statistical term for a mean value; it cannot be used to assess ethical defensibility.",
+      "'On the contrary' introduces a contradiction to a previous statement; no prior claim is being contradicted.",
+      "'On balance' weighs specific competing factors; the sentence makes an overall assessment without specifying what is being weighed."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'On the whole' מתאר הערכה כללית של אופי הדבר, בניגוד ל-'on balance' שמשווה גורמים ספציפיים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-294",
+    "difficulty": "hard",
+    "text": "The opposition argued that the policy would increase costs; ___ , supporters maintained it would generate long-term savings.",
+    "choices": [
+      "on average",
+      "on the whole",
+      "on balance",
+      "on the contrary"
+    ],
+    "answer": 3,
+    "explanation": "'On the contrary' introduces a statement that directly contradicts or strongly opposes what has just been said. The sentence contrasts the opposition's claim with the supporters' opposing view, making 'on the contrary' the only grammatically and semantically correct choice.",
+    "wrongReasons": [
+      "'On average' is a statistical term; it cannot introduce a rebuttal.",
+      "'On the whole' makes a general assessment; it cannot function as a connector between two opposing claims.",
+      "'On balance' weighs pros and cons to reach a conclusion; it does not introduce a direct rebuttal to a specific claim."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'On the contrary' מחבר בין טענה לבין הסתירה שלה — 'להיפך', בניגוד ל-'on balance' שמסכם שיקולים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-295",
+    "difficulty": "hard",
+    "text": "The concept ___ all contexts equally; its applicability ___ on the degree of institutional trust present in a given society.",
+    "choices": [
+      "does not apply to / is contingent",
+      "does not pertain to / relies",
+      "does not relate to / depends",
+      "does not refer to / rests"
+    ],
+    "answer": 0,
+    "explanation": "'Does not apply to ... is contingent on' is the most precise pair. 'Apply to' describes a concept's binding or valid scope, and 'is contingent on' expresses the condition that determines when or where it is valid. Together they form a standard academic argument about limited scope.",
+    "wrongReasons": [
+      "'Does not pertain to ... relies' — 'pertain to' describes relevance and 'relies on' implies dependence on resources; neither captures the idea of conditional validity as precisely.",
+      "'Does not relate to ... depends' — 'relate to' is too vague; 'depends' without 'on' is grammatically incomplete.",
+      "'Does not refer to ... rests' — 'refer to' means to point to a meaning; it cannot describe a concept's scope of applicability."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Apply to' מציין תחום תוקף ו-'is contingent on' מציין את התנאי שקובע אותו.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-296",
+    "difficulty": "hard",
+    "text": "The critique ___ at worst an overstatement and at best an oversimplification of the evidence.",
+    "choices": [
+      "can be seen as",
+      "is interpreted as",
+      "is regarded as",
+      "is viewed as"
+    ],
+    "answer": 0,
+    "explanation": "'Can be seen as' introduces a reasoned perspective that the writer is proposing without asserting it as established fact. In this critical context, the phrase hedges the judgement as one possible analytical reading, which is the appropriate academic register for criticising another scholar's work.",
+    "wrongReasons": [
+      "'Is interpreted as' implies the statement is the result of rigorous data analysis; a judgement about a critique's validity is a discursive argument, not a data interpretation.",
+      "'Is regarded as' implies a widely held, established view; calling a critique an overstatement is a contested scholarly judgement, not consensus.",
+      "'Is viewed as' implies an existing perspective rather than one the author is introducing; 'can be seen as' better signals a novel analytical proposition."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Can be seen as' מציג פרשנות מנומקת כאפשרות — hedging מתאים לביקורת על עמדת חוקר אחר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-297",
+    "difficulty": "hard",
+    "text": "The study ___ increasing its sample size ___ improving its instrument reliability; the latter would yield greater gains.",
+    "choices": [
+      "recommends / rather than",
+      "proposes / more than",
+      "advocates / other than",
+      "suggests / less than"
+    ],
+    "answer": 0,
+    "explanation": "'Recommends ... rather than' is the standard academic construction for advising one course of action over another. 'Rather than' introduces the alternative that is being rejected in favour of the recommended option.",
+    "wrongReasons": [
+      "'Proposes / more than' — 'more than' compares quantities; it cannot introduce a rejected alternative in a recommendation.",
+      "'Advocates / other than' — 'other than' means 'apart from' or 'except for'; it cannot introduce a rejected alternative in a normative recommendation.",
+      "'Suggests / less than' — 'less than' compares magnitudes; it is not idiomatic for presenting a rejected alternative course of action."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Recommends ... rather than' הוא המבנה הסטנדרטי לבחירה בין שתי פעולות ודחיית האלטרנטיבה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-298",
+    "difficulty": "hard",
+    "text": "___ that the two largest subgroups exhibit markedly different response patterns, calling into question the assumption of a homogeneous population.",
+    "choices": [
+      "Remarkably",
+      "Notably",
+      "It is significant that",
+      "It is worth noting"
+    ],
+    "answer": 2,
+    "explanation": "'It is significant that' asserts that the finding is analytically important for the study's core argument. Discovering that subgroups differ markedly is a key finding that directly challenges a core assumption, making it significant, not merely noteworthy.",
+    "wrongReasons": [
+      "'Remarkably' implies surprise or astonishment; heterogeneity across subgroups is a common and expected concern in social research.",
+      "'Notably' draws attention to something as worthy of notice but without asserting its analytical importance for the argument.",
+      "'It is worth noting' is a hedging phrase for caveats; this is not a caveat but a core finding that challenges the study's assumption."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'It is significant that' מציין שממצא חשוב אנליטית לטיעון המרכזי, לא רק ראוי לתשומת לב.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-299",
+    "difficulty": "hard",
+    "text": "The new vaccine ___ a major advance in immunology ___ a solution to the problem of antigen variability; significant challenges remain.",
+    "choices": [
+      "can be seen as / rather than as",
+      "is regarded as / more than as",
+      "is viewed as / other than as",
+      "is interpreted as / less than as"
+    ],
+    "answer": 0,
+    "explanation": "'Can be seen as ... rather than as' presents one analytical framing (major advance) as more appropriate than another (complete solution), using hedging appropriate for acknowledging remaining challenges. The 'rather than' construction introduces the rejected interpretation.",
+    "wrongReasons": [
+      "'Is regarded as / more than as' — 'more than as' is not a standard academic construction for contrasting two interpretive frames.",
+      "'Is viewed as / other than as' — 'other than as' means 'except as'; it implies the vaccine is not viewed as a solution at all, which is stronger than the sentence intends.",
+      "'Is interpreted as / less than as' — 'less than as' is not idiomatic in academic English for framing two competing interpretations."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Can be seen as ... rather than as' מציב פרשנות אחת כמתאימה יותר מהשנייה תוך שמירה על hedging.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-300",
+    "difficulty": "hard",
+    "text": "The qualitative findings ___ those of the quantitative strand; ___ , they suggest that lived experience is not fully captured by survey data alone.",
+    "choices": [
+      "do not contradict / on the contrary",
+      "are not at odds with / on the whole",
+      "do not differ from / on balance",
+      "are not inconsistent with / on average"
+    ],
+    "answer": 0,
+    "explanation": "'Do not contradict ... on the contrary' is the only combination that correctly connects two ideas: first, the qualitative findings are not in conflict with the quantitative ones; and second (introduced by 'on the contrary'), they actually reveal something additional — that surveys miss lived experience.",
+    "wrongReasons": [
+      "'Are not at odds with / on the whole' — 'on the whole' makes a general assessment; it cannot introduce the second part, which adds a new insight rather than summarising overall character.",
+      "'Do not differ from / on balance' — 'on balance' weighs pros and cons; it does not introduce a new insight that goes beyond the first claim.",
+      "'Are not inconsistent with / on average' — 'on average' is a statistical term; it cannot introduce a new analytical insight about qualitative data."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-english"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "'Do not contradict ... on the contrary' — הזוג המדויק: ממצאים לא סותרים, ואז 'on the contrary' מוסיף תובנה חדשה.",
+    "estimatedTimeSeconds": 40
+  }
+]

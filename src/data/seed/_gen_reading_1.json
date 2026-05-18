@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r13-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Procrastination is caused primarily by laziness and poor time management skills.",
+        "Procrastination is a complex psychological behavior driven by emotional avoidance rather than poor planning.",
+        "People who procrastinate tend to perform better under pressure than those who plan ahead.",
+        "Modern technology is the leading cause of procrastination among students and professionals."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that procrastination is rooted in emotional regulation — specifically the avoidance of negative feelings — rather than being a simple failure of time management or laziness.",
+      "wrongReasons": [
+        "The passage explicitly rejects the idea that procrastination is about laziness or poor time management.",
+        "The passage does not claim procrastinators perform better under pressure; it describes the emotional cycle they experience.",
+        "Technology is never mentioned as a cause of procrastination in the passage."
+      ],
+      "passage": {
+        "id": "r13-passage",
+        "title": "The Psychology of Procrastination",
+        "body": "Procrastination is widely misunderstood as a simple failure of time management or a symptom of laziness. Research in behavioral psychology, however, reveals a more nuanced picture. At its core, procrastination is an emotional regulation problem. When individuals anticipate a task as threatening — whether because it is boring, difficult, or tied to fears of failure — they experience negative emotions such as anxiety and self-doubt. Delaying the task provides immediate, though temporary, relief from these feelings.\n\nThis avoidance cycle is self-reinforcing. The short-term comfort of putting something off is rewarded in the brain's limbic system, making the behavior more likely to recur. Meanwhile, the unfinished task continues to generate stress, which can lead to further avoidance. Psychologists distinguish procrastination from rational task prioritization: a person who delays a low-priority errand is not procrastinating, but one who avoids a critical deadline because of emotional discomfort is. Effective interventions therefore target the emotional response itself — through self-compassion, cognitive restructuring, and breaking tasks into smaller, less threatening steps — rather than simply imposing stricter schedules."
+      }
+    },
+    {
+      "id": "r13-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what distinguishes procrastination from rational task prioritization?",
+      "choices": [
+        "Procrastination always involves missing a deadline, whereas rational prioritization does not.",
+        "Rational prioritization is driven by emotional avoidance, while procrastination is based on logic.",
+        "Procrastination involves avoiding a task due to emotional discomfort, while rational prioritization delays low-priority tasks for legitimate reasons.",
+        "Procrastination affects only students, while rational prioritization is practiced by professionals."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that delaying a low-priority errand is rational prioritization, but avoiding a critical deadline because of emotional discomfort constitutes procrastination. The key distinction is emotional avoidance versus logical scheduling.",
+      "wrongReasons": [
+        "The passage does not define procrastination by whether a deadline is missed; the emotional cause is the distinguishing factor.",
+        "The passage says the opposite — rational prioritization is based on logic, and procrastination is driven by emotional avoidance.",
+        "The passage makes no distinction between students and professionals regarding procrastination."
+      ],
+      "passage": {
+        "id": "r13-passage",
+        "title": "The Psychology of Procrastination",
+        "body": "Procrastination is widely misunderstood as a simple failure of time management or a symptom of laziness. Research in behavioral psychology, however, reveals a more nuanced picture. At its core, procrastination is an emotional regulation problem. When individuals anticipate a task as threatening — whether because it is boring, difficult, or tied to fears of failure — they experience negative emotions such as anxiety and self-doubt. Delaying the task provides immediate, though temporary, relief from these feelings.\n\nThis avoidance cycle is self-reinforcing. The short-term comfort of putting something off is rewarded in the brain's limbic system, making the behavior more likely to recur. Meanwhile, the unfinished task continues to generate stress, which can lead to further avoidance. Psychologists distinguish procrastination from rational task prioritization: a person who delays a low-priority errand is not procrastinating, but one who avoids a critical deadline because of emotional discomfort is. Effective interventions therefore target the emotional response itself — through self-compassion, cognitive restructuring, and breaking tasks into smaller, less threatening steps — rather than simply imposing stricter schedules."
+      }
+    },
+    {
+      "id": "r13-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Based on the passage, what can be inferred about why strict scheduling alone is an insufficient solution to procrastination?",
+      "choices": [
+        "Strict schedules are too complicated for most people to maintain consistently.",
+        "Because procrastination is rooted in emotional avoidance, addressing only the structure of time does not resolve the underlying emotional trigger.",
+        "Research has shown that people who use strict schedules procrastinate more than those who do not.",
+        "Scheduling is only effective for professionals, not for students dealing with academic tasks."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains that effective interventions must target the emotional response itself. Since procrastination is an emotional regulation problem, imposing stricter schedules — which address structure rather than emotion — cannot resolve the root cause.",
+      "wrongReasons": [
+        "The passage never discusses the complexity of maintaining schedules.",
+        "The passage does not present any research comparing procrastination rates between people who use schedules and those who do not.",
+        "The passage draws no distinction between students and professionals in the context of scheduling."
+      ],
+      "passage": {
+        "id": "r13-passage",
+        "title": "The Psychology of Procrastination",
+        "body": "Procrastination is widely misunderstood as a simple failure of time management or a symptom of laziness. Research in behavioral psychology, however, reveals a more nuanced picture. At its core, procrastination is an emotional regulation problem. When individuals anticipate a task as threatening — whether because it is boring, difficult, or tied to fears of failure — they experience negative emotions such as anxiety and self-doubt. Delaying the task provides immediate, though temporary, relief from these feelings.\n\nThis avoidance cycle is self-reinforcing. The short-term comfort of putting something off is rewarded in the brain's limbic system, making the behavior more likely to recur. Meanwhile, the unfinished task continues to generate stress, which can lead to further avoidance. Psychologists distinguish procrastination from rational task prioritization: a person who delays a low-priority errand is not procrastinating, but one who avoids a critical deadline because of emotional discomfort is. Effective interventions therefore target the emotional response itself — through self-compassion, cognitive restructuring, and breaking tasks into smaller, less threatening steps — rather than simply imposing stricter schedules."
+      }
+    },
+    {
+      "id": "r13-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the phrase \"self-reinforcing\" most nearly means that the avoidance cycle:",
+      "choices": [
+        "Requires external encouragement to continue.",
+        "Strengthens itself through the repeated rewards it produces.",
+        "Is easily broken once a person becomes aware of it.",
+        "Depends on the difficulty of the avoided task to sustain itself."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains that the short-term comfort of avoidance is rewarded in the brain's limbic system, making the behavior more likely to recur. \"Self-reinforcing\" means the cycle generates its own motivation to continue through the rewards it produces.",
+      "wrongReasons": [
+        "\"Self-reinforcing\" implies the cycle sustains itself internally, without needing external encouragement.",
+        "The passage does not suggest the cycle is easily broken by awareness; it describes it as deeply entrenched through brain reward mechanisms.",
+        "The passage does not link the persistence of the cycle to the difficulty of the task itself."
+      ],
+      "passage": {
+        "id": "r13-passage",
+        "title": "The Psychology of Procrastination",
+        "body": "Procrastination is widely misunderstood as a simple failure of time management or a symptom of laziness. Research in behavioral psychology, however, reveals a more nuanced picture. At its core, procrastination is an emotional regulation problem. When individuals anticipate a task as threatening — whether because it is boring, difficult, or tied to fears of failure — they experience negative emotions such as anxiety and self-doubt. Delaying the task provides immediate, though temporary, relief from these feelings.\n\nThis avoidance cycle is self-reinforcing. The short-term comfort of putting something off is rewarded in the brain's limbic system, making the behavior more likely to recur. Meanwhile, the unfinished task continues to generate stress, which can lead to further avoidance. Psychologists distinguish procrastination from rational task prioritization: a person who delays a low-priority errand is not procrastinating, but one who avoids a critical deadline because of emotional discomfort is. Effective interventions therefore target the emotional response itself — through self-compassion, cognitive restructuring, and breaking tasks into smaller, less threatening steps — rather than simply imposing stricter schedules."
+      }
+    },
+    {
+      "id": "r13-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To criticize psychologists for failing to develop effective treatments for procrastination.",
+        "To entertain readers with anecdotes about famous historical procrastinators.",
+        "To correct a common misconception about procrastination and redirect attention toward its emotional origins and appropriate remedies.",
+        "To persuade readers to adopt a specific daily schedule in order to overcome procrastination."
+      ],
+      "answer": 2,
+      "explanation": "The author begins by identifying a widespread misunderstanding (procrastination as laziness or poor time management), then systematically reframes it as an emotional regulation issue, and concludes by pointing toward emotionally-targeted interventions. The purpose is to correct the misconception and offer a more accurate framework.",
+      "wrongReasons": [
+        "The passage does not criticize psychologists; it presents their research approvingly as a corrective to popular misunderstanding.",
+        "The passage is academic in tone and contains no anecdotes or references to historical figures.",
+        "The author does not advocate for any specific daily schedule; in fact, the passage argues that scheduling alone is insufficient."
+      ],
+      "passage": {
+        "id": "r13-passage",
+        "title": "The Psychology of Procrastination",
+        "body": "Procrastination is widely misunderstood as a simple failure of time management or a symptom of laziness. Research in behavioral psychology, however, reveals a more nuanced picture. At its core, procrastination is an emotional regulation problem. When individuals anticipate a task as threatening — whether because it is boring, difficult, or tied to fears of failure — they experience negative emotions such as anxiety and self-doubt. Delaying the task provides immediate, though temporary, relief from these feelings.\n\nThis avoidance cycle is self-reinforcing. The short-term comfort of putting something off is rewarded in the brain's limbic system, making the behavior more likely to recur. Meanwhile, the unfinished task continues to generate stress, which can lead to further avoidance. Psychologists distinguish procrastination from rational task prioritization: a person who delays a low-priority errand is not procrastinating, but one who avoids a critical deadline because of emotional discomfort is. Effective interventions therefore target the emotional response itself — through self-compassion, cognitive restructuring, and breaking tasks into smaller, less threatening steps — rather than simply imposing stricter schedules."
+      }
+    },
+    {
+      "id": "r14-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Landfills are the most cost-effective method of waste disposal available to modern cities.",
+        "Cities use a combination of waste management strategies — including reduction, collection, recycling, and recovery — to handle growing volumes of urban waste.",
+        "Recycling programs have largely failed in major cities due to contamination and public indifference.",
+        "Incineration is rapidly replacing landfills as the preferred method of urban waste disposal worldwide."
+      ],
+      "answer": 1,
+      "explanation": "The passage surveys the full spectrum of urban waste management approaches, from source reduction and separate collection to recycling, composting, energy recovery, and landfill, presenting them as complementary layers of a comprehensive system.",
+      "wrongReasons": [
+        "The passage presents landfills as one element of a system, not the most cost-effective or preferred option.",
+        "The passage does not claim recycling programs have failed; it describes them as a functional component of the system, though it acknowledges challenges.",
+        "The passage mentions incineration with energy recovery as one option but does not claim it is replacing landfills worldwide."
+      ],
+      "passage": {
+        "id": "r14-passage",
+        "title": "How Cities Manage Waste",
+        "body": "Managing the enormous volumes of waste produced by urban populations is one of the defining logistical challenges of the twenty-first century. Modern cities approach this challenge through integrated waste management systems that operate on several complementary layers. At the top of the hierarchy is source reduction: designing products to use fewer materials and encouraging consumers to generate less waste in the first place. Below that, separate collection programs allow residents to sort recyclable materials, organic waste, and residual refuse into distinct streams.\n\nMaterials recovery facilities then sort and process recyclables for sale to manufacturers, while composting operations convert organic waste into soil amendments used in agriculture and landscaping. Where recycling is not economically viable, some cities employ waste-to-energy plants that incinerate residual waste and capture the resulting heat to generate electricity. Landfills, once the default destination for nearly all refuse, now serve primarily as a last resort for materials that cannot be recovered by any other means. The effectiveness of any urban waste system depends heavily on public participation, infrastructure investment, and the development of markets for recovered materials."
+      }
+    },
+    {
+      "id": "r14-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is the current primary role of landfills in modern urban waste management?",
+      "choices": [
+        "Landfills serve as the main destination for all urban waste.",
+        "Landfills are used to generate electricity from decomposing organic matter.",
+        "Landfills function as a last resort for materials that cannot be recovered by other means.",
+        "Landfills have been completely eliminated in cities that use waste-to-energy technology."
+      ],
+      "answer": 2,
+      "explanation": "The passage states explicitly that landfills \"now serve primarily as a last resort for materials that cannot be recovered by any other means,\" reflecting a shift from their earlier role as the default destination for all refuse.",
+      "wrongReasons": [
+        "The passage says landfills were once the default for nearly all waste, but that is no longer the case in modern integrated systems.",
+        "The passage attributes electricity generation to waste-to-energy (incineration) plants, not landfills.",
+        "The passage does not claim landfills have been eliminated anywhere; it says they serve as a last resort."
+      ],
+      "passage": {
+        "id": "r14-passage",
+        "title": "How Cities Manage Waste",
+        "body": "Managing the enormous volumes of waste produced by urban populations is one of the defining logistical challenges of the twenty-first century. Modern cities approach this challenge through integrated waste management systems that operate on several complementary layers. At the top of the hierarchy is source reduction: designing products to use fewer materials and encouraging consumers to generate less waste in the first place. Below that, separate collection programs allow residents to sort recyclable materials, organic waste, and residual refuse into distinct streams.\n\nMaterials recovery facilities then sort and process recyclables for sale to manufacturers, while composting operations convert organic waste into soil amendments used in agriculture and landscaping. Where recycling is not economically viable, some cities employ waste-to-energy plants that incinerate residual waste and capture the resulting heat to generate electricity. Landfills, once the default destination for nearly all refuse, now serve primarily as a last resort for materials that cannot be recovered by any other means. The effectiveness of any urban waste system depends heavily on public participation, infrastructure investment, and the development of markets for recovered materials."
+      }
+    },
+    {
+      "id": "r14-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred from the passage about a city that relies almost exclusively on landfills for waste disposal?",
+      "choices": [
+        "That city has likely achieved very high rates of source reduction.",
+        "That city probably lacks the infrastructure, public participation, or market conditions needed to support a more integrated system.",
+        "That city generates less waste per capita than cities with recycling programs.",
+        "That city is deliberately prioritizing economic efficiency over environmental concerns."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that the effectiveness of any waste system depends on public participation, infrastructure investment, and markets for recovered materials. A city relying only on landfills most likely lacks one or more of these conditions, preventing it from adopting more advanced methods.",
+      "wrongReasons": [
+        "High source reduction would reduce the total waste that reaches landfills, making heavy landfill reliance less likely, not more.",
+        "The passage gives no data suggesting cities with landfill-heavy systems generate less waste; the opposite might be more logical.",
+        "The passage does not suggest that landfill reliance is a deliberate policy choice favoring economics over environment."
+      ],
+      "passage": {
+        "id": "r14-passage",
+        "title": "How Cities Manage Waste",
+        "body": "Managing the enormous volumes of waste produced by urban populations is one of the defining logistical challenges of the twenty-first century. Modern cities approach this challenge through integrated waste management systems that operate on several complementary layers. At the top of the hierarchy is source reduction: designing products to use fewer materials and encouraging consumers to generate less waste in the first place. Below that, separate collection programs allow residents to sort recyclable materials, organic waste, and residual refuse into distinct streams.\n\nMaterials recovery facilities then sort and process recyclables for sale to manufacturers, while composting operations convert organic waste into soil amendments used in agriculture and landscaping. Where recycling is not economically viable, some cities employ waste-to-energy plants that incinerate residual waste and capture the resulting heat to generate electricity. Landfills, once the default destination for nearly all refuse, now serve primarily as a last resort for materials that cannot be recovered by any other means. The effectiveness of any urban waste system depends heavily on public participation, infrastructure investment, and the development of markets for recovered materials."
+      }
+    },
+    {
+      "id": "r14-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"hierarchy\" most nearly refers to:",
+      "choices": [
+        "A legal ranking of waste management regulations by government authority.",
+        "An ordered system in which waste treatment methods are prioritized from most to least preferable.",
+        "The chain of command within a city's waste management department.",
+        "A historical timeline showing how waste management practices evolved."
+      ],
+      "answer": 1,
+      "explanation": "The passage uses \"hierarchy\" to describe the ordering of waste management strategies, with source reduction at the top as the most preferred approach, followed by successive layers of treatment. It refers to preferability, not authority or chronology.",
+      "wrongReasons": [
+        "The passage is discussing operational strategies, not legal or regulatory rankings.",
+        "The passage is describing a system of methods, not an organizational structure with personnel.",
+        "The passage is not presenting a historical timeline; it describes how the system currently operates."
+      ],
+      "passage": {
+        "id": "r14-passage",
+        "title": "How Cities Manage Waste",
+        "body": "Managing the enormous volumes of waste produced by urban populations is one of the defining logistical challenges of the twenty-first century. Modern cities approach this challenge through integrated waste management systems that operate on several complementary layers. At the top of the hierarchy is source reduction: designing products to use fewer materials and encouraging consumers to generate less waste in the first place. Below that, separate collection programs allow residents to sort recyclable materials, organic waste, and residual refuse into distinct streams.\n\nMaterials recovery facilities then sort and process recyclables for sale to manufacturers, while composting operations convert organic waste into soil amendments used in agriculture and landscaping. Where recycling is not economically viable, some cities employ waste-to-energy plants that incinerate residual waste and capture the resulting heat to generate electricity. Landfills, once the default destination for nearly all refuse, now serve primarily as a last resort for materials that cannot be recovered by any other means. The effectiveness of any urban waste system depends heavily on public participation, infrastructure investment, and the development of markets for recovered materials."
+      }
+    },
+    {
+      "id": "r14-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in this passage?",
+      "choices": [
+        "To argue that governments should ban single-use plastics to reduce urban waste.",
+        "To criticize cities that continue to rely on landfills instead of adopting modern alternatives.",
+        "To explain the structure and logic of integrated urban waste management systems.",
+        "To compare the environmental impact of incineration versus composting in urban settings."
+      ],
+      "answer": 2,
+      "explanation": "The passage is descriptive and explanatory in nature. It lays out how modern integrated waste management systems are structured, the function of each layer, and what determines their effectiveness. The author does not advocate, compare, or criticize — the purpose is to inform.",
+      "wrongReasons": [
+        "The passage makes no argument about banning single-use plastics; they are not mentioned.",
+        "The passage does not criticize cities that use landfills; it neutrally notes that landfills now serve as a last resort.",
+        "The passage mentions both incineration and composting but does not compare their environmental impacts against each other."
+      ],
+      "passage": {
+        "id": "r14-passage",
+        "title": "How Cities Manage Waste",
+        "body": "Managing the enormous volumes of waste produced by urban populations is one of the defining logistical challenges of the twenty-first century. Modern cities approach this challenge through integrated waste management systems that operate on several complementary layers. At the top of the hierarchy is source reduction: designing products to use fewer materials and encouraging consumers to generate less waste in the first place. Below that, separate collection programs allow residents to sort recyclable materials, organic waste, and residual refuse into distinct streams.\n\nMaterials recovery facilities then sort and process recyclables for sale to manufacturers, while composting operations convert organic waste into soil amendments used in agriculture and landscaping. Where recycling is not economically viable, some cities employ waste-to-energy plants that incinerate residual waste and capture the resulting heat to generate electricity. Landfills, once the default destination for nearly all refuse, now serve primarily as a last resort for materials that cannot be recovered by any other means. The effectiveness of any urban waste system depends heavily on public participation, infrastructure investment, and the development of markets for recovered materials."
+      }
+    },
+    {
+      "id": "r15-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Habits are impossible to break once they have been established in the brain.",
+        "Habits form through a neurological loop of cue, routine, and reward, and can be deliberately modified by substituting the routine while keeping the cue and reward.",
+        "The basal ganglia prevents people from forming new habits after early adulthood.",
+        "Willpower is the most important factor in successfully changing an unwanted habit."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes the habit loop (cue, routine, reward), explains how it becomes encoded in the basal ganglia, and outlines the strategy of habit substitution — keeping the cue and reward while replacing the routine — as the basis for deliberate change.",
+      "wrongReasons": [
+        "The passage explicitly states that habits can be modified, contradicting the claim that they are impossible to break.",
+        "The passage says the basal ganglia encodes habits but does not claim it prevents new habit formation after adulthood.",
+        "The passage emphasizes the structural technique of substituting routines, not willpower, as the key to change."
+      ],
+      "passage": {
+        "id": "r15-passage",
+        "title": "The Science of Habit Formation",
+        "body": "Every habit, however complex, is governed by a three-part neurological loop: a cue that triggers the behavior, a routine that constitutes the behavior itself, and a reward that reinforces it. This loop, identified through decades of research in behavioral neuroscience, operates largely outside conscious awareness. Once a habit is established, the brain encodes it in the basal ganglia — a region associated with procedural learning — freeing the prefrontal cortex to focus on other tasks.\n\nThis efficiency comes at a cost: habitual behaviors become remarkably resistant to change. Simply deciding to stop a habit rarely works because the neural pathway remains intact. Research suggests that the most effective strategy is not elimination but substitution. By identifying the cue and the reward that anchor a habit, an individual can insert a new routine that delivers the same reward in response to the same cue. A person who habitually snacks on sugar when stressed, for example, might substitute a short walk that produces a similar mood-elevating effect. Over time, with consistent repetition, the new routine becomes encoded in place of the old one, gradually weakening the original pathway."
+      }
+    },
+    {
+      "id": "r15-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, why does the brain encode habits in the basal ganglia?",
+      "choices": [
+        "To allow the prefrontal cortex to focus on other cognitive tasks by automating routine behaviors.",
+        "To make it easier for individuals to consciously monitor and modify their behavior.",
+        "To increase the brain's overall energy consumption during repetitive activities.",
+        "To connect emotional memories with physical movement patterns."
+      ],
+      "answer": 0,
+      "explanation": "The passage states directly that encoding habits in the basal ganglia frees the prefrontal cortex to focus on other tasks, making routine behaviors more efficient and automatic.",
+      "wrongReasons": [
+        "The passage says habits operate largely outside conscious awareness, making conscious monitoring harder, not easier.",
+        "The passage does not discuss energy consumption in the context of habit encoding.",
+        "The passage does not mention emotional memories or movement patterns in the context of the basal ganglia's role."
+      ],
+      "passage": {
+        "id": "r15-passage",
+        "title": "The Science of Habit Formation",
+        "body": "Every habit, however complex, is governed by a three-part neurological loop: a cue that triggers the behavior, a routine that constitutes the behavior itself, and a reward that reinforces it. This loop, identified through decades of research in behavioral neuroscience, operates largely outside conscious awareness. Once a habit is established, the brain encodes it in the basal ganglia — a region associated with procedural learning — freeing the prefrontal cortex to focus on other tasks.\n\nThis efficiency comes at a cost: habitual behaviors become remarkably resistant to change. Simply deciding to stop a habit rarely works because the neural pathway remains intact. Research suggests that the most effective strategy is not elimination but substitution. By identifying the cue and the reward that anchor a habit, an individual can insert a new routine that delivers the same reward in response to the same cue. A person who habitually snacks on sugar when stressed, for example, might substitute a short walk that produces a similar mood-elevating effect. Over time, with consistent repetition, the new routine becomes encoded in place of the old one, gradually weakening the original pathway."
+      }
+    },
+    {
+      "id": "r15-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred from the passage about why simply deciding to stop a habit is rarely effective?",
+      "choices": [
+        "Most people lack the motivation required to follow through on decisions to change.",
+        "Because the cue and reward remain active and the neural pathway encoding the habit is still intact, the habit loop continues to exert influence.",
+        "The prefrontal cortex is not developed enough to override the basal ganglia in most adults.",
+        "Habits encoded in the basal ganglia can only be overwritten by professional therapeutic intervention."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains that the neural pathway remains intact even after a decision to stop, meaning the cue still triggers the craving for the reward and the old routine remains available. Without replacing the routine, the loop is structurally unchanged.",
+      "wrongReasons": [
+        "The passage does not attribute the failure of willpower to motivation; it attributes it to the persistence of the neural pathway.",
+        "The passage does not compare the developmental capacity of the prefrontal cortex and basal ganglia in adults.",
+        "The passage describes self-directed substitution as an effective strategy, contradicting the need for professional intervention."
+      ],
+      "passage": {
+        "id": "r15-passage",
+        "title": "The Science of Habit Formation",
+        "body": "Every habit, however complex, is governed by a three-part neurological loop: a cue that triggers the behavior, a routine that constitutes the behavior itself, and a reward that reinforces it. This loop, identified through decades of research in behavioral neuroscience, operates largely outside conscious awareness. Once a habit is established, the brain encodes it in the basal ganglia — a region associated with procedural learning — freeing the prefrontal cortex to focus on other tasks.\n\nThis efficiency comes at a cost: habitual behaviors become remarkably resistant to change. Simply deciding to stop a habit rarely works because the neural pathway remains intact. Research suggests that the most effective strategy is not elimination but substitution. By identifying the cue and the reward that anchor a habit, an individual can insert a new routine that delivers the same reward in response to the same cue. A person who habitually snacks on sugar when stressed, for example, might substitute a short walk that produces a similar mood-elevating effect. Over time, with consistent repetition, the new routine becomes encoded in place of the old one, gradually weakening the original pathway."
+      }
+    },
+    {
+      "id": "r15-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the phrase \"encoded in place of the old one\" most nearly means that the new routine:",
+      "choices": [
+        "Permanently erases all traces of the original habit from the brain.",
+        "Becomes stored in the basal ganglia as the dominant response to the same cue, diminishing the original pathway.",
+        "Requires the individual to consciously choose it every time the cue appears.",
+        "Replaces the original reward with a different feeling that the brain prefers."
+      ],
+      "answer": 1,
+      "explanation": "The passage says the new routine becomes encoded in place of the old one, gradually weakening the original pathway — meaning it takes over as the stored response in the basal ganglia without necessarily erasing the old pathway entirely.",
+      "wrongReasons": [
+        "The passage says the original pathway is weakened, not that all traces are permanently erased.",
+        "The passage emphasizes that habits operate outside conscious awareness; once encoded, the new routine would also become automatic.",
+        "The passage does not suggest the reward changes; the new routine produces the same reward as the original."
+      ],
+      "passage": {
+        "id": "r15-passage",
+        "title": "The Science of Habit Formation",
+        "body": "Every habit, however complex, is governed by a three-part neurological loop: a cue that triggers the behavior, a routine that constitutes the behavior itself, and a reward that reinforces it. This loop, identified through decades of research in behavioral neuroscience, operates largely outside conscious awareness. Once a habit is established, the brain encodes it in the basal ganglia — a region associated with procedural learning — freeing the prefrontal cortex to focus on other tasks.\n\nThis efficiency comes at a cost: habitual behaviors become remarkably resistant to change. Simply deciding to stop a habit rarely works because the neural pathway remains intact. Research suggests that the most effective strategy is not elimination but substitution. By identifying the cue and the reward that anchor a habit, an individual can insert a new routine that delivers the same reward in response to the same cue. A person who habitually snacks on sugar when stressed, for example, might substitute a short walk that produces a similar mood-elevating effect. Over time, with consistent repetition, the new routine becomes encoded in place of the old one, gradually weakening the original pathway."
+      }
+    },
+    {
+      "id": "r15-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "The author includes the example of substituting a walk for a sugar snack primarily to:",
+      "choices": [
+        "Demonstrate that physical exercise is the most effective replacement for any unwanted habit.",
+        "Illustrate the abstract principle of habit substitution with a concrete case showing how cue and reward can remain constant while only the routine changes.",
+        "Warn readers about the health consequences of stress-induced eating.",
+        "Provide scientific evidence from a published study on stress and snacking behavior."
+      ],
+      "answer": 1,
+      "explanation": "The example serves a rhetorical and pedagogical function: it makes the abstract mechanism of habit substitution tangible by showing how stress (the cue) and mood elevation (the reward) remain constant while the routine changes from snacking to walking.",
+      "wrongReasons": [
+        "The passage does not argue that physical exercise is the best replacement for all habits; it is one illustrative example.",
+        "The passage does not discuss health consequences of stress eating; that is not the purpose of the example.",
+        "The passage presents this as an illustrative scenario, not as a citation of a specific published study."
+      ],
+      "passage": {
+        "id": "r15-passage",
+        "title": "The Science of Habit Formation",
+        "body": "Every habit, however complex, is governed by a three-part neurological loop: a cue that triggers the behavior, a routine that constitutes the behavior itself, and a reward that reinforces it. This loop, identified through decades of research in behavioral neuroscience, operates largely outside conscious awareness. Once a habit is established, the brain encodes it in the basal ganglia — a region associated with procedural learning — freeing the prefrontal cortex to focus on other tasks.\n\nThis efficiency comes at a cost: habitual behaviors become remarkably resistant to change. Simply deciding to stop a habit rarely works because the neural pathway remains intact. Research suggests that the most effective strategy is not elimination but substitution. By identifying the cue and the reward that anchor a habit, an individual can insert a new routine that delivers the same reward in response to the same cue. A person who habitually snacks on sugar when stressed, for example, might substitute a short walk that produces a similar mood-elevating effect. Over time, with consistent repetition, the new routine becomes encoded in place of the old one, gradually weakening the original pathway."
+      }
+    },
+    {
+      "id": "r16-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Extinction events throughout history have had little long-term effect on ecosystem functioning.",
+        "Biodiversity loss threatens the ecosystem services that human societies depend on, because those services are sustained by complex networks of interacting species.",
+        "Governments should prioritize economic development over environmental conservation to reduce poverty.",
+        "Scientists have found that most ecosystems can recover quickly from the loss of keystone species."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that biodiversity underpins essential ecosystem services — such as pollination, water purification, and climate regulation — and that losing species, especially keystone ones, can cause cascading failures that undermine human well-being.",
+      "wrongReasons": [
+        "The passage argues the opposite: that biodiversity loss has serious and far-reaching consequences for ecosystems.",
+        "The passage does not address economic development policy or poverty; it focuses on the ecological and human welfare consequences of biodiversity loss.",
+        "The passage describes how losing a keystone species can trigger cascading failures, suggesting ecosystems do not recover easily."
+      ],
+      "passage": {
+        "id": "r16-passage",
+        "title": "Biodiversity Loss and Ecosystem Services",
+        "body": "Biological diversity — the variety of life at genetic, species, and ecosystem levels — is not merely an aesthetic or ethical concern. It is the foundation upon which critical ecosystem services rest. These services include pollination of crops, purification of freshwater, regulation of climate through carbon sequestration, and stabilization of soils that support agriculture. Each of these functions is performed not by any single organism but by networks of interacting species whose relationships have evolved over millions of years.\n\nWhen species are lost, these networks can unravel in ways that are difficult to predict and often impossible to reverse. The removal of a keystone species — one whose ecological role is disproportionately large relative to its abundance — can trigger cascading effects throughout a food web, altering the population dynamics of dozens of other species. Pollinators such as bees exemplify this: their decline directly threatens the reproductive success of approximately eighty percent of flowering plant species, including many that humans cultivate for food. Scientists warn that the current rate of species extinction, estimated to be one hundred to one thousand times the natural background rate, constitutes a biodiversity crisis with profound implications for long-term human welfare."
+      }
+    },
+    {
+      "id": "r16-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what makes a species a \"keystone species\"?",
+      "choices": [
+        "It is the most numerous species in its ecosystem.",
+        "Its ecological role is disproportionately large relative to how abundant it is.",
+        "It has survived multiple mass extinction events throughout geological history.",
+        "It is the primary source of food for the largest predators in a food web."
+      ],
+      "answer": 1,
+      "explanation": "The passage defines a keystone species as one \"whose ecological role is disproportionately large relative to its abundance\" — meaning it has an outsized effect on its ecosystem even if it is not particularly numerous.",
+      "wrongReasons": [
+        "The passage explicitly contrasts keystone species with abundant species — they are influential despite relatively low abundance.",
+        "The passage does not define keystone species by their geological survival history.",
+        "The passage does not define keystone species by their role as prey for large predators."
+      ],
+      "passage": {
+        "id": "r16-passage",
+        "title": "Biodiversity Loss and Ecosystem Services",
+        "body": "Biological diversity — the variety of life at genetic, species, and ecosystem levels — is not merely an aesthetic or ethical concern. It is the foundation upon which critical ecosystem services rest. These services include pollination of crops, purification of freshwater, regulation of climate through carbon sequestration, and stabilization of soils that support agriculture. Each of these functions is performed not by any single organism but by networks of interacting species whose relationships have evolved over millions of years.\n\nWhen species are lost, these networks can unravel in ways that are difficult to predict and often impossible to reverse. The removal of a keystone species — one whose ecological role is disproportionately large relative to its abundance — can trigger cascading effects throughout a food web, altering the population dynamics of dozens of other species. Pollinators such as bees exemplify this: their decline directly threatens the reproductive success of approximately eighty percent of flowering plant species, including many that humans cultivate for food. Scientists warn that the current rate of species extinction, estimated to be one hundred to one thousand times the natural background rate, constitutes a biodiversity crisis with profound implications for long-term human welfare."
+      }
+    },
+    {
+      "id": "r16-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred from the passage about the relationship between pollinator decline and food security?",
+      "choices": [
+        "Pollinator decline has no effect on food security because humans can pollinate crops artificially.",
+        "Because bees and other pollinators enable the reproduction of approximately eighty percent of flowering plant species including food crops, their decline would significantly reduce agricultural output.",
+        "Food security is only threatened by pollinator decline in developing countries that lack access to modern agricultural technology.",
+        "Pollinator populations are currently stable, so the risk to food security remains theoretical."
+      ],
+      "answer": 1,
+      "explanation": "The passage links bees directly to the reproductive success of roughly eighty percent of flowering plants, many of which are food crops. A decline in pollinators therefore directly threatens the plants humans cultivate for food, making food security an immediate implication.",
+      "wrongReasons": [
+        "The passage does not mention artificial pollination as a solution; it presents the decline as a direct threat.",
+        "The passage makes no distinction between developed and developing countries in this context.",
+        "The passage presents the current decline of pollinators as an ongoing concern, not a theoretical future scenario."
+      ],
+      "passage": {
+        "id": "r16-passage",
+        "title": "Biodiversity Loss and Ecosystem Services",
+        "body": "Biological diversity — the variety of life at genetic, species, and ecosystem levels — is not merely an aesthetic or ethical concern. It is the foundation upon which critical ecosystem services rest. These services include pollination of crops, purification of freshwater, regulation of climate through carbon sequestration, and stabilization of soils that support agriculture. Each of these functions is performed not by any single organism but by networks of interacting species whose relationships have evolved over millions of years.\n\nWhen species are lost, these networks can unravel in ways that are difficult to predict and often impossible to reverse. The removal of a keystone species — one whose ecological role is disproportionately large relative to its abundance — can trigger cascading effects throughout a food web, altering the population dynamics of dozens of other species. Pollinators such as bees exemplify this: their decline directly threatens the reproductive success of approximately eighty percent of flowering plant species, including many that humans cultivate for food. Scientists warn that the current rate of species extinction, estimated to be one hundred to one thousand times the natural background rate, constitutes a biodiversity crisis with profound implications for long-term human welfare."
+      }
+    },
+    {
+      "id": "r16-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"cascading\" most nearly means:",
+      "choices": [
+        "Gradual and barely noticeable.",
+        "Contained within a single species population.",
+        "Spreading progressively through a system, with each effect triggering further effects.",
+        "Reversible through careful scientific management."
+      ],
+      "answer": 2,
+      "explanation": "In the context of food webs, \"cascading effects\" refers to a chain reaction where the loss of one species triggers changes in others, which in turn affect still others — a spreading sequence of consequences through the system.",
+      "wrongReasons": [
+        "The passage describes these effects as difficult to predict and often impossible to reverse, suggesting they are significant, not gradual or barely noticeable.",
+        "The passage says cascading effects alter the population dynamics of dozens of other species, making the effects system-wide, not contained.",
+        "The passage explicitly states these changes are often impossible to reverse, contradicting the idea that they are reversible."
+      ],
+      "passage": {
+        "id": "r16-passage",
+        "title": "Biodiversity Loss and Ecosystem Services",
+        "body": "Biological diversity — the variety of life at genetic, species, and ecosystem levels — is not merely an aesthetic or ethical concern. It is the foundation upon which critical ecosystem services rest. These services include pollination of crops, purification of freshwater, regulation of climate through carbon sequestration, and stabilization of soils that support agriculture. Each of these functions is performed not by any single organism but by networks of interacting species whose relationships have evolved over millions of years.\n\nWhen species are lost, these networks can unravel in ways that are difficult to predict and often impossible to reverse. The removal of a keystone species — one whose ecological role is disproportionately large relative to its abundance — can trigger cascading effects throughout a food web, altering the population dynamics of dozens of other species. Pollinators such as bees exemplify this: their decline directly threatens the reproductive success of approximately eighty percent of flowering plant species, including many that humans cultivate for food. Scientists warn that the current rate of species extinction, estimated to be one hundred to one thousand times the natural background rate, constitutes a biodiversity crisis with profound implications for long-term human welfare."
+      }
+    },
+    {
+      "id": "r16-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "The author opens the passage by stating that biodiversity is \"not merely an aesthetic or ethical concern.\" What is the author's primary purpose in framing the argument this way?",
+      "choices": [
+        "To dismiss the importance of aesthetic and ethical arguments for conservation entirely.",
+        "To establish that biodiversity has practical, material value for human societies, making its protection relevant even to those unmoved by purely moral or aesthetic arguments.",
+        "To argue that scientists are more qualified to make conservation decisions than ethicists or artists.",
+        "To suggest that international law should replace ethical frameworks as the basis for environmental policy."
+      ],
+      "answer": 1,
+      "explanation": "By preemptively acknowledging aesthetic and ethical dimensions but pivoting to the practical (ecosystem services, food security, human welfare), the author broadens the appeal of the conservation argument. It becomes relevant even to audiences who might dismiss ethics or aesthetics as insufficient grounds for policy.",
+      "wrongReasons": [
+        "The author does not dismiss aesthetic or ethical arguments; they are acknowledged as valid before shifting the focus to practical consequences.",
+        "The passage never compares scientists to ethicists or artists in terms of qualification or authority.",
+        "The passage makes no reference to international law or legal frameworks of any kind."
+      ],
+      "passage": {
+        "id": "r16-passage",
+        "title": "Biodiversity Loss and Ecosystem Services",
+        "body": "Biological diversity — the variety of life at genetic, species, and ecosystem levels — is not merely an aesthetic or ethical concern. It is the foundation upon which critical ecosystem services rest. These services include pollination of crops, purification of freshwater, regulation of climate through carbon sequestration, and stabilization of soils that support agriculture. Each of these functions is performed not by any single organism but by networks of interacting species whose relationships have evolved over millions of years.\n\nWhen species are lost, these networks can unravel in ways that are difficult to predict and often impossible to reverse. The removal of a keystone species — one whose ecological role is disproportionately large relative to its abundance — can trigger cascading effects throughout a food web, altering the population dynamics of dozens of other species. Pollinators such as bees exemplify this: their decline directly threatens the reproductive success of approximately eighty percent of flowering plant species, including many that humans cultivate for food. Scientists warn that the current rate of species extinction, estimated to be one hundred to one thousand times the natural background rate, constitutes a biodiversity crisis with profound implications for long-term human welfare."
+      }
+    },
+    {
+      "id": "r17-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Public libraries were invented in the United States during the nineteenth century and have remained largely unchanged since.",
+        "Public libraries have evolved from ancient elite institutions into democratic public services, and continue to adapt to community needs in the digital age.",
+        "The rise of digital technology has made public libraries obsolete, and most cities are closing them.",
+        "Libraries were originally funded by taxes in ancient Rome and Greece to serve the general population."
+      ],
+      "answer": 1,
+      "explanation": "The passage traces the evolution of libraries from ancient collections reserved for elites to nineteenth-century tax-funded public institutions to contemporary community hubs, emphasizing their ongoing democratic mission and adaptation to new challenges.",
+      "wrongReasons": [
+        "The passage traces libraries to ancient times and multiple countries, and shows they have changed significantly, not remained unchanged.",
+        "The passage argues that libraries are adapting and expanding their community role rather than becoming obsolete.",
+        "The passage says ancient libraries served elites and scholars, not the general population, and does not attribute tax funding to ancient Rome or Greece."
+      ],
+      "passage": {
+        "id": "r17-passage",
+        "title": "The History of Public Libraries",
+        "body": "The concept of a library — a curated repository of recorded knowledge — is ancient, with notable examples including the Library of Alexandria and the imperial libraries of Rome. These early collections, however, served narrow audiences: scholars, clergy, and the powerful. The democratization of library access began in earnest in the nineteenth century, driven by Enlightenment ideals of education as a civic right and by the practical demands of an industrializing society that needed a more literate workforce.\n\nIn the United States and Britain, the mid-nineteenth century saw the passage of public library acts enabling local governments to levy taxes to fund collections open to all residents without charge. Andrew Carnegie's philanthropic campaign, which funded the construction of over 2,500 library buildings between 1883 and 1929, accelerated the spread of free public reading rooms across the English-speaking world. Today, public libraries have expanded well beyond their original mandate of book lending. They serve as community centers, digital access points, and providers of social services ranging from job placement assistance to early childhood literacy programs. Despite the rise of digital information, demand for library services has proven resilient, as institutions adapt their offerings to meet evolving community needs."
+      }
+    },
+    {
+      "id": "r17-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what was Andrew Carnegie's contribution to the public library movement?",
+      "choices": [
+        "He authored the public library acts that enabled local governments to levy taxes for libraries.",
+        "He donated books and manuscripts from his personal collection to major research universities.",
+        "He funded the construction of more than 2,500 library buildings across the English-speaking world.",
+        "He established the first free public library in the United States in 1883."
+      ],
+      "answer": 2,
+      "explanation": "The passage states clearly that Carnegie's philanthropic campaign funded the construction of over 2,500 library buildings between 1883 and 1929, accelerating the spread of free public reading rooms.",
+      "wrongReasons": [
+        "The passage attributes public library acts to local governments in the US and Britain, not to Carnegie.",
+        "The passage does not mention Carnegie donating books or manuscripts to universities.",
+        "The passage does not claim Carnegie established the first US public library; his campaign began in 1883 but the public library movement predates him."
+      ],
+      "passage": {
+        "id": "r17-passage",
+        "title": "The History of Public Libraries",
+        "body": "The concept of a library — a curated repository of recorded knowledge — is ancient, with notable examples including the Library of Alexandria and the imperial libraries of Rome. These early collections, however, served narrow audiences: scholars, clergy, and the powerful. The democratization of library access began in earnest in the nineteenth century, driven by Enlightenment ideals of education as a civic right and by the practical demands of an industrializing society that needed a more literate workforce.\n\nIn the United States and Britain, the mid-nineteenth century saw the passage of public library acts enabling local governments to levy taxes to fund collections open to all residents without charge. Andrew Carnegie's philanthropic campaign, which funded the construction of over 2,500 library buildings between 1883 and 1929, accelerated the spread of free public reading rooms across the English-speaking world. Today, public libraries have expanded well beyond their original mandate of book lending. They serve as community centers, digital access points, and providers of social services ranging from job placement assistance to early childhood literacy programs. Despite the rise of digital information, demand for library services has proven resilient, as institutions adapt their offerings to meet evolving community needs."
+      }
+    },
+    {
+      "id": "r17-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Based on the passage, what can be inferred about why industrialization contributed to the growth of public libraries in the nineteenth century?",
+      "choices": [
+        "Industrialization created wealthy factory owners who donated money to build libraries as status symbols.",
+        "Because industry required a more literate workforce, there was a practical social incentive to make reading materials and education broadly accessible.",
+        "Industrialization reduced working hours, giving laborers more leisure time to spend in libraries.",
+        "Industrial printing technologies made books cheap enough for libraries to acquire large collections."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that the democratization of library access was driven partly by \"the practical demands of an industrializing society that needed a more literate workforce.\" This implies a functional link between economic need for literacy and public investment in library access.",
+      "wrongReasons": [
+        "The passage does not mention wealthy industrialists donating for status; Carnegie's philanthropy is mentioned but not as a status gesture.",
+        "The passage does not discuss changes in working hours or leisure time in relation to library use.",
+        "The passage does not mention printing technology or book costs as factors in the library movement."
+      ],
+      "passage": {
+        "id": "r17-passage",
+        "title": "The History of Public Libraries",
+        "body": "The concept of a library — a curated repository of recorded knowledge — is ancient, with notable examples including the Library of Alexandria and the imperial libraries of Rome. These early collections, however, served narrow audiences: scholars, clergy, and the powerful. The democratization of library access began in earnest in the nineteenth century, driven by Enlightenment ideals of education as a civic right and by the practical demands of an industrializing society that needed a more literate workforce.\n\nIn the United States and Britain, the mid-nineteenth century saw the passage of public library acts enabling local governments to levy taxes to fund collections open to all residents without charge. Andrew Carnegie's philanthropic campaign, which funded the construction of over 2,500 library buildings between 1883 and 1929, accelerated the spread of free public reading rooms across the English-speaking world. Today, public libraries have expanded well beyond their original mandate of book lending. They serve as community centers, digital access points, and providers of social services ranging from job placement assistance to early childhood literacy programs. Despite the rise of digital information, demand for library services has proven resilient, as institutions adapt their offerings to meet evolving community needs."
+      }
+    },
+    {
+      "id": "r17-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word \"resilient\" most nearly means:",
+      "choices": [
+        "Financially profitable despite competition from digital platforms.",
+        "Able to recover or maintain strength in the face of challenges or change.",
+        "Legally protected from budget cuts by public library acts.",
+        "Growing rapidly in size and geographic reach."
+      ],
+      "answer": 1,
+      "explanation": "The passage uses \"resilient\" to describe library demand in the context of the rise of digital information — a challenge that might have been expected to reduce library use. The word conveys the idea that demand has held up against this pressure, meaning it has maintained strength in the face of change.",
+      "wrongReasons": [
+        "The passage does not discuss library finances or profitability; the word is about the durability of public demand.",
+        "The passage does not suggest that public library acts legally protect libraries from budget cuts in the modern context.",
+        "The passage does not describe libraries as growing rapidly in geographic reach; it focuses on their expanded range of services."
+      ],
+      "passage": {
+        "id": "r17-passage",
+        "title": "The History of Public Libraries",
+        "body": "The concept of a library — a curated repository of recorded knowledge — is ancient, with notable examples including the Library of Alexandria and the imperial libraries of Rome. These early collections, however, served narrow audiences: scholars, clergy, and the powerful. The democratization of library access began in earnest in the nineteenth century, driven by Enlightenment ideals of education as a civic right and by the practical demands of an industrializing society that needed a more literate workforce.\n\nIn the United States and Britain, the mid-nineteenth century saw the passage of public library acts enabling local governments to levy taxes to fund collections open to all residents without charge. Andrew Carnegie's philanthropic campaign, which funded the construction of over 2,500 library buildings between 1883 and 1929, accelerated the spread of free public reading rooms across the English-speaking world. Today, public libraries have expanded well beyond their original mandate of book lending. They serve as community centers, digital access points, and providers of social services ranging from job placement assistance to early childhood literacy programs. Despite the rise of digital information, demand for library services has proven resilient, as institutions adapt their offerings to meet evolving community needs."
+      }
+    },
+    {
+      "id": "r17-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in tracing the history of libraries from ancient collections to the present day?",
+      "choices": [
+        "To argue that modern libraries should return to their original focus on book lending rather than providing social services.",
+        "To show that public libraries have always been funded by government taxation and therefore deserve continued public support.",
+        "To demonstrate that the institution of the public library has consistently evolved in response to the social, economic, and technological conditions of its time, reinforcing its enduring democratic value.",
+        "To compare the Library of Alexandria favorably with modern public libraries in terms of the scope of their collections."
+      ],
+      "answer": 2,
+      "explanation": "The author traces a clear arc: from elite ancient collections to democratic nineteenth-century institutions to multi-service community hubs today. This historical sweep argues implicitly that libraries have always adapted to serve the needs of their time, underscoring their ongoing relevance and democratic mission.",
+      "wrongReasons": [
+        "The passage presents the expansion beyond book lending as a positive adaptation, not a problem to be reversed.",
+        "The passage notes that ancient libraries were not government-funded in the modern tax sense; the tax-funding model is presented as a nineteenth-century innovation, not an eternal feature.",
+        "The passage does not compare the collections of Alexandria and modern libraries; it uses Alexandria as a historical example of an elite institution, not a model to emulate."
+      ],
+      "passage": {
+        "id": "r17-passage",
+        "title": "The History of Public Libraries",
+        "body": "The concept of a library — a curated repository of recorded knowledge — is ancient, with notable examples including the Library of Alexandria and the imperial libraries of Rome. These early collections, however, served narrow audiences: scholars, clergy, and the powerful. The democratization of library access began in earnest in the nineteenth century, driven by Enlightenment ideals of education as a civic right and by the practical demands of an industrializing society that needed a more literate workforce.\n\nIn the United States and Britain, the mid-nineteenth century saw the passage of public library acts enabling local governments to levy taxes to fund collections open to all residents without charge. Andrew Carnegie's philanthropic campaign, which funded the construction of over 2,500 library buildings between 1883 and 1929, accelerated the spread of free public reading rooms across the English-speaking world. Today, public libraries have expanded well beyond their original mandate of book lending. They serve as community centers, digital access points, and providers of social services ranging from job placement assistance to early childhood literacy programs. Despite the rise of digital information, demand for library services has proven resilient, as institutions adapt their offerings to meet evolving community needs."
+      }
+    }
+  ]
+}

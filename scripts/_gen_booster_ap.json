@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-ap-101",
+    "difficulty": "easy",
+    "text": "Sleep deprivation ________ a range of serious health problems.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is associated with",
+      "in contrast to",
+      "regardless of",
+      "in order to"
+    ],
+    "answer": 0,
+    "explanation": "'Is associated with' links sleep deprivation to health problems — it indicates a known connection or correlation between two things.",
+    "wrongReasons": [
+      "'In contrast to' introduces a comparison showing difference — it cannot connect a cause to its effects.",
+      "'Regardless of' means 'without being affected by' — it introduces a condition that is ignored, not a consequence.",
+      "'In order to' expresses purpose — sleep deprivation is not a goal, so this phrase makes no sense here."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is associated with = קשור ל / מלווה ב. שימוש: מתאר קשר או מתאם בין שני דברים, נפוץ במחקר מדעי. טעות נפוצה: לבלבל עם 'leads to' — associated with מתאר קשר, לא בהכרח סיבתיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-102",
+    "difficulty": "easy",
+    "text": "The study was ________ previous research conducted in the 1990s.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "in contrast to",
+      "based on",
+      "as a result of",
+      "is likely to"
+    ],
+    "answer": 1,
+    "explanation": "'Based on' shows that the new study used earlier research as its foundation — it is grounded in or derived from that prior work.",
+    "wrongReasons": [
+      "'In contrast to' shows opposition or difference — this contradicts the idea of building on prior work.",
+      "'As a result of' expresses a consequence — the study itself is not a consequence of the earlier research; it builds upon it.",
+      "'Is likely to' expresses probability — it is a verb phrase that cannot function as a complement here."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "based on = מבוסס על. שימוש: מציין את הבסיס או המקור של משהו. טעות נפוצה: לבלבל עם 'as a result of' — based on מתאר בסיס, לא תוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-103",
+    "difficulty": "easy",
+    "text": "________ the professor, the exam will cover all chapters from the textbook.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "In addition to",
+      "In terms of",
+      "According to",
+      "Owing to"
+    ],
+    "answer": 2,
+    "explanation": "'According to' introduces a source or authority — here it attributes the information about the exam to the professor.",
+    "wrongReasons": [
+      "'In addition to' means 'besides' or 'also' — it adds information and cannot introduce a source.",
+      "'In terms of' frames a topic or perspective — it cannot attribute a statement to a person.",
+      "'Owing to' means 'because of' — it introduces a cause, not a source of information."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "according to = לפי / על פי. שימוש: מציין מקור מידע — אדם, מחקר, או טקסט. טעות נפוצה: להשתמש ב-'according to me' — בעברית אומרים 'לדעתי' אך באנגלית אקדמית יש להשתמש ב-'in my opinion'.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-104",
+    "difficulty": "easy",
+    "text": "The new policy was introduced ________ reduce traffic congestion in the city center.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "as a result of",
+      "in spite of",
+      "in order to",
+      "apart from"
+    ],
+    "answer": 2,
+    "explanation": "'In order to' expresses purpose — the policy was introduced with the goal or aim of reducing congestion.",
+    "wrongReasons": [
+      "'As a result of' expresses consequence — it would mean congestion caused the policy, not that the policy aims to fix it.",
+      "'In spite of' introduces concession — it suggests the policy was introduced despite reducing congestion, which is illogical.",
+      "'Apart from' means 'besides' or 'except for' — it cannot introduce a purpose or goal."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in order to = על מנת ל / כדי ל. שימוש: מביע מטרה — הפעולה נעשית למען השגת מטרה מסוימת. טעות נפוצה: לשכוח שאחרי in order to בא פועל בצורת הבסיס (infinitive).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-105",
+    "difficulty": "easy",
+    "text": "The Mediterranean diet ________ a healthy lifestyle and longevity.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "regardless of",
+      "in accordance with",
+      "contributes to",
+      "in contrast to"
+    ],
+    "answer": 2,
+    "explanation": "'Contributes to' means the diet plays a part in producing a healthy lifestyle — it adds to or supports something positive.",
+    "wrongReasons": [
+      "'Regardless of' means 'without being affected by' — it expresses indifference to a condition, not a connection.",
+      "'In accordance with' means 'in agreement with' or 'following rules' — a diet cannot be in accordance with longevity.",
+      "'In contrast to' shows opposition — the diet does not oppose a healthy lifestyle; it supports one."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "contributes to = תורם ל / מסייע ל. שימוש: מתאר תרומה חיובית לדבר מה. טעות נפוצה: לבלבל עם 'leads to' — contributes to מרמז על תרומה חלקית, leads to מרמז על תוצאה ישירה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-106",
+    "difficulty": "easy",
+    "text": "The ancient ruins ________ the most impressive archaeological site in the region.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "are regarded as",
+      "owing to",
+      "in terms of",
+      "have been shown to"
+    ],
+    "answer": 0,
+    "explanation": "'Are regarded as' expresses how something is perceived or classified by others — the ruins are considered to be the most impressive site.",
+    "wrongReasons": [
+      "'Owing to' means 'because of' — it introduces a cause, not a classification or perception.",
+      "'In terms of' frames a topic — 'The ruins in terms of the most impressive site' is grammatically incomplete and illogical.",
+      "'Have been shown to' is followed by a verb — 'the most impressive archaeological site' is a noun phrase, not an action."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is regarded as = נחשב ל / נתפס כ. שימוש: מביע כיצד משהו נתפס על ידי אחרים או בתחום מסוים. טעות נפוצה: לבלבל עם 'is defined as' — regarded as מתאר תפיסה, defined as מתאר הגדרה פורמלית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-107",
+    "difficulty": "easy",
+    "text": "Poverty ________ higher crime rates in urban areas, researchers have found.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "in order to",
+      "in addition to",
+      "is linked to",
+      "in accordance with"
+    ],
+    "answer": 2,
+    "explanation": "'Is linked to' indicates a connection or relationship between two phenomena — researchers have found a link between poverty and crime rates.",
+    "wrongReasons": [
+      "'In order to' expresses purpose — poverty is not a goal; it does not aim to increase crime rates.",
+      "'In addition to' means 'besides' — it adds one thing to another and cannot express a causal or correlational relationship.",
+      "'In accordance with' means 'following' or 'consistent with rules' — poverty cannot follow or comply with crime rates."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is linked to = קשור ל / מקושר ל. שימוש: מתאר קשר בין שני גורמים, נפוץ בדיווחי מחקר. טעות נפוצה: לחשוב שזה מרמז על סיבתיות — linked to רק מתאר קשר, לא הוכחת סיבה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-108",
+    "difficulty": "easy",
+    "text": "________ its high cost, the treatment has become the standard approach in most hospitals.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "In spite of",
+      "According to",
+      "As a result of",
+      "In order to"
+    ],
+    "answer": 0,
+    "explanation": "'In spite of' introduces a concession — the treatment became standard despite the obstacle of its high cost.",
+    "wrongReasons": [
+      "'According to' introduces a source of information — 'according to its high cost' is meaningless; cost is not a source.",
+      "'As a result of' introduces a cause — saying the treatment became standard because of its high cost is illogical.",
+      "'In order to' expresses purpose — 'in order to its high cost' is ungrammatical and illogical."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in spite of = למרות. שימוש: מביע ניגוד — משהו קורה למרות מכשול. טעות נפוצה: לבלבל עם 'because of' — in spite of מביע ניגוד, לא סיבה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-109",
+    "difficulty": "medium",
+    "text": "The results of the clinical trial ________ those of earlier studies conducted in Europe.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "are grounded in",
+      "give rise to",
+      "are consistent with",
+      "tend to"
+    ],
+    "answer": 2,
+    "explanation": "'Are consistent with' means the results agree with or match those of earlier studies — a standard academic expression for alignment between findings.",
+    "wrongReasons": [
+      "'Are grounded in' means 'are based on' — the results are not built upon the earlier studies; they simply agree with them.",
+      "'Give rise to' means 'cause' or 'produce' — the results do not produce earlier studies; this reverses the logic.",
+      "'Tend to' expresses a general habit or inclination followed by a verb — 'tend to those of earlier studies' is ungrammatical."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "are consistent with = עקביים עם / תואמים. שימוש: מתאר התאמה בין ממצאים שונים, נפוץ מאוד בכתיבה אקדמית מדעית. טעות נפוצה: לבלבל עם 'are based on' — consistent with מתאר הסכמה, לא מקור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-110",
+    "difficulty": "medium",
+    "text": "The program was designed ________ providing students with practical skills for the job market.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "regardless of",
+      "with the aim of",
+      "in contrast to",
+      "as opposed to"
+    ],
+    "answer": 1,
+    "explanation": "'With the aim of' expresses purpose — the program was designed with the goal of providing practical skills.",
+    "wrongReasons": [
+      "'Regardless of' means 'without being affected by' — the program was not designed while ignoring practical skills; that is the goal.",
+      "'In contrast to' shows opposition — the program does not oppose practical skills; it aims to provide them.",
+      "'As opposed to' introduces a contrast — it would mean the program was designed as a contrast to practical skills, which is the opposite of the meaning."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "with the aim of = במטרה ל / מתוך מטרה ל. שימוש: מביע מטרה, נפוץ בכתיבה אקדמית ופורמלית. טעות נפוצה: לבלבל עם 'in order to' — שניהם מבטאים מטרה, אך with the aim of עוקב אחריו שם עצם/פועל בגרונד, בעוד in order to עוקב אחריו פועל בצורת הבסיס.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-111",
+    "difficulty": "medium",
+    "text": "The coastal regions ________ frequent flooding, which threatens both infrastructure and residents.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "play a key role in",
+      "are characterized by",
+      "are derived from",
+      "have been shown to"
+    ],
+    "answer": 1,
+    "explanation": "'Are characterized by' describes a defining feature of the coastal regions — frequent flooding is a key characteristic of these areas.",
+    "wrongReasons": [
+      "'Play a key role in' means they contribute to something — 'coastal regions play a key role in frequent flooding' reverses the relationship illogically.",
+      "'Are derived from' means 'are obtained from' or 'originate from' — coastal regions do not originate from flooding.",
+      "'Have been shown to' is followed by a base verb — 'have been shown to frequent flooding' is ungrammatical."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is characterized by = מאופיין ב / מוגדר על ידי. שימוש: מתאר תכונה בולטת או מאפיין ייחודי של נושא. טעות נפוצה: לבלבל עם 'is defined by' — characterized by מתאר תכונות כלליות, defined by מתאר הגדרה מדויקת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-112",
+    "difficulty": "medium",
+    "text": "Children who grow up bilingual ________ perform better on tasks requiring attention and cognitive flexibility.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "tend to",
+      "in terms of",
+      "apart from",
+      "in accordance with"
+    ],
+    "answer": 0,
+    "explanation": "'Tend to' expresses a general inclination or pattern — bilingual children generally perform better, though not always.",
+    "wrongReasons": [
+      "'In terms of' frames a topic — 'children in terms of perform better' is ungrammatical; 'in terms of' must be followed by a noun phrase.",
+      "'Apart from' means 'besides' or 'except for' — it introduces an exception, not a habitual pattern.",
+      "'In accordance with' means 'in compliance with rules' — bilingual children do not perform better by following rules."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "tends to = נוטה ל / בדרך כלל. שימוש: מתאר נטייה כללית — לא תמיד, אך לרוב. טעות נפוצה: לבלבל עם 'is likely to' — tends to מדבר על הרגל/נטייה, is likely to מדבר על הסתברות במקרה ספציפי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-113",
+    "difficulty": "medium",
+    "text": "The findings suggest that regular physical activity ________ reducing the risk of cardiovascular disease.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is inclined to",
+      "plays a key role in",
+      "regardless of",
+      "is derived from"
+    ],
+    "answer": 1,
+    "explanation": "'Plays a key role in' indicates that physical activity is an important contributing factor in reducing cardiovascular risk — it has a significant function in this process.",
+    "wrongReasons": [
+      "'Is inclined to' describes a tendency of a living being and requires a verb infinitive — 'inclined to reducing' is ungrammatical.",
+      "'Regardless of' means 'without being affected by' — physical activity does not ignore cardiovascular risk; it reduces it.",
+      "'Is derived from' means 'comes from' or 'originates in' — physical activity is not derived from reducing risk; this reverses the logic."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "plays a key role in = ממלא תפקיד מפתח ב / חיוני ל. שימוש: מתאר תרומה חשובה, חזק יותר מ-'plays a role in'. טעות נפוצה: להשתמש ב-'plays a key role to' — המילה הנכונה אחריה היא 'in'.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-114",
+    "difficulty": "medium",
+    "text": "The country's economic development has lagged, ________ its abundant natural resources.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "as a result of",
+      "in accordance with",
+      "despite",
+      "contributes to"
+    ],
+    "answer": 2,
+    "explanation": "'Despite' (equivalent to 'in spite of') introduces a concession — the country lags economically even though it has abundant resources, which is unexpected.",
+    "wrongReasons": [
+      "'As a result of' expresses a cause — saying economic development has lagged because of abundant resources implies resources cause the lag, which distorts the meaning.",
+      "'In accordance with' means 'following rules or standards' — lagging cannot be in accordance with resources.",
+      "'Contributes to' must function as a verb phrase with a subject — 'the country's development contributes to its resources' is grammatically possible but changes the meaning entirely."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "despite / in spite of = למרות. שימוש: מביע ניגוד — תוצאה בלתי צפויה נוכח נסיבות מסוימות. טעות נפוצה: לכתוב 'despite of' — הצורה הנכונה היא 'despite' בלבד (ללא 'of'), בניגוד ל-'in spite of'.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-115",
+    "difficulty": "medium",
+    "text": "The new policy applies to all employees, ________ their years of experience or seniority.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "in addition to",
+      "regardless of",
+      "owing to",
+      "is based on"
+    ],
+    "answer": 1,
+    "explanation": "'Regardless of' means 'without being affected by' — the policy applies to everyone, no matter how much experience they have.",
+    "wrongReasons": [
+      "'In addition to' means 'besides' — 'the policy applies to all employees in addition to their years of experience' would mean it also applies to the experience itself, which is illogical.",
+      "'Owing to' means 'because of' — saying the policy applies because of experience implies only experienced employees are covered, contradicting 'all employees'.",
+      "'Is based on' is a verb phrase — it cannot function as a connector between 'all employees' and 'their years of experience' in this sentence structure."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "regardless of = ללא קשר ל / בלי התחשבות ב. שימוש: מדגיש שהכלל או העובדה חלים בכל מצב, ללא יוצא מן הכלל. טעות נפוצה: לבלבל עם 'irrespective of' — שניהם נכונים ומשמעותם זהה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-116",
+    "difficulty": "medium",
+    "text": "The rise in global temperatures ________ the melting of polar ice caps, which has alarmed scientists worldwide.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is regarded as",
+      "has given rise to",
+      "in terms of",
+      "is inclined to"
+    ],
+    "answer": 1,
+    "explanation": "'Has given rise to' means 'has caused' or 'has produced' — the rise in temperatures has led to or produced the melting of ice caps.",
+    "wrongReasons": [
+      "'Is regarded as' expresses perception — 'the rise in temperatures is regarded as the melting of ice caps' incorrectly equates the two things.",
+      "'In terms of' frames a topic — it must be followed by a noun phrase and cannot serve as a verb connecting cause and effect.",
+      "'Is inclined to' expresses a personal tendency and requires a verb — temperature rise cannot be 'inclined to' melt ice caps."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "give rise to = גרם ל / הוביל ל / הצמיח. שימוש: מתאר שמשהו גרם להופעתו של משהו אחר, נפוץ בהקשרים אקדמיים. טעות נפוצה: לבלבל עם 'leads to' — give rise to מרמז לרוב על תוצאה שהתפתחה בהדרגה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-117",
+    "difficulty": "medium",
+    "text": "Research ________ that meditation significantly reduces stress levels among university students.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "has been shown",
+      "has been found",
+      "is characterized by",
+      "plays a role in"
+    ],
+    "answer": 1,
+    "explanation": "'Has been found' is a standard academic expression meaning research has discovered or determined something through investigation.",
+    "wrongReasons": [
+      "'Has been shown' requires a subject that was demonstrated — 'research has been shown that' is grammatically awkward; 'research has shown that' or 'it has been shown that' would be correct.",
+      "'Is characterized by' describes a defining feature — 'research is characterized by that meditation reduces stress' is grammatically and logically incorrect.",
+      "'Plays a role in' describes a contribution — research does not play a role in the students' stress; research discovers things."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "has been found (that) = נמצא כי / התגלה כי. שימוש: מדווח על ממצא מחקרי בגוף סביל. טעות נפוצה: לבלבל עם 'has been shown to' — has been found that עוקב אחריו משפט שלם, has been shown to עוקב אחריו פועל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-118",
+    "difficulty": "medium",
+    "text": "________ the traditional approach, the new method focuses on student collaboration rather than individual memorization.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "As a result of",
+      "In addition to",
+      "As opposed to",
+      "In accordance with"
+    ],
+    "answer": 2,
+    "explanation": "'As opposed to' introduces a contrast between two approaches — the new method is different from and opposed to the traditional one.",
+    "wrongReasons": [
+      "'As a result of' expresses causation — saying the new method focuses on collaboration because of the traditional approach does not make logical sense here.",
+      "'In addition to' means 'besides' — this would imply both approaches are used together, but the sentence contrasts them.",
+      "'In accordance with' means 'following the rules of' — the new method does not follow the traditional approach; it opposes it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "as opposed to = בניגוד ל / לעומת. שימוש: מציג ניגוד בין שני דברים, נפוץ בהשוואות אקדמיות. טעות נפוצה: לבלבל עם 'as well as' — as opposed to מביע ניגוד, as well as מביע הוספה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-119",
+    "difficulty": "medium",
+    "text": "The educational system ________ standardized testing as its primary method of evaluation.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "gives rise to",
+      "is likely to",
+      "is reliant upon",
+      "has been shown to"
+    ],
+    "answer": 2,
+    "explanation": "'Is reliant upon' means 'depends on' — the educational system depends on standardized testing as its main evaluation tool.",
+    "wrongReasons": [
+      "'Gives rise to' means 'causes' — the system does not produce standardized testing in this context; it uses it.",
+      "'Is likely to' expresses probability and requires a following verb — 'is likely to standardized testing' is ungrammatical.",
+      "'Has been shown to' reports a finding and requires a following verb — 'has been shown to standardized testing' is ungrammatical."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is reliant upon / relies on = תלוי ב / מסתמך על. שימוש: מתאר תלות או הסתמכות על כלי, שיטה, או גורם. טעות נפוצה: לכתוב 'is reliant on' — שתי הצורות (on/upon) נכונות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-120",
+    "difficulty": "medium",
+    "text": "The theory ________ the assumption that human behavior is primarily driven by self-interest.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is grounded in",
+      "leads to",
+      "is characterized by",
+      "tends to"
+    ],
+    "answer": 0,
+    "explanation": "'Is grounded in' means 'is based on' or 'has its foundation in' — the theory rests on the assumption about self-interest.",
+    "wrongReasons": [
+      "'Leads to' expresses a consequence — the theory does not produce the assumption; the assumption is its starting point.",
+      "'Is characterized by' describes a defining feature — while possible, it would mean self-interest is a feature of the theory itself, not its foundation.",
+      "'Tends to' expresses a general inclination and requires a following verb — 'the theory tends to the assumption' is ungrammatical."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is grounded in = מבוסס על / שורשיו ב. שימוש: מתאר את הבסיס הרעיוני של תיאוריה, טיעון, או עמדה. טעות נפוצה: לבלבל עם 'is focused on' — grounded in מתאר בסיס, focused on מתאר נושא מרכזי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-121",
+    "difficulty": "medium",
+    "text": "Scientists predict that sea levels ________ rise by up to one meter by the end of the century.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "are likely to",
+      "in addition to",
+      "apart from",
+      "in accordance with"
+    ],
+    "answer": 0,
+    "explanation": "'Are likely to' expresses probability — scientists believe there is a significant chance that sea levels will rise by that amount.",
+    "wrongReasons": [
+      "'In addition to' means 'besides' — it adds information and cannot introduce a predicted outcome as a verb phrase does.",
+      "'Apart from' means 'besides' or 'except for' — it introduces an exception, not a probability.",
+      "'In accordance with' means 'following rules or standards' — sea levels rising cannot be in accordance with a standard."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is likely to = צפוי ל / עשוי ל. שימוש: מביע הסתברות גבוהה אך לא וודאות. טעות נפוצה: לבלבל עם 'is certain to' — likely to = אולי, certain to = בוודאות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-122",
+    "difficulty": "medium",
+    "text": "The concept of democracy, ________ voting and representation, remains central to modern governance.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "as a result of",
+      "so as to",
+      "in terms of",
+      "owing to"
+    ],
+    "answer": 2,
+    "explanation": "'In terms of' frames or defines the concept of democracy through the lens of specific features — voting and representation.",
+    "wrongReasons": [
+      "'As a result of' expresses causation — democracy is not a result of voting; voting is a component of democracy.",
+      "'So as to' expresses purpose — 'democracy so as to voting and representation' is ungrammatical and illogical.",
+      "'Owing to' means 'because of' — it introduces a cause; democracy does not exist because of voting and representation in the way this phrase suggests."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in terms of = מבחינת / מבחינה של. שימוש: מגדיר את הזווית או ההיבט שממנו מדובר על נושא. טעות נפוצה: לשכוח להמשיך עם שם עצם — 'in terms of' עוקב תמיד אחריו שם עצם, לא פועל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-123",
+    "difficulty": "medium",
+    "text": "The financial crisis of 2008 ________ widespread job losses and a significant drop in consumer confidence.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is defined by",
+      "led to",
+      "regardless of",
+      "with respect to"
+    ],
+    "answer": 1,
+    "explanation": "'Led to' expresses a direct causal link — the financial crisis caused or produced widespread job losses and reduced consumer confidence.",
+    "wrongReasons": [
+      "'Is defined by' describes a defining characteristic — while partly true, 'the crisis is defined by widespread job losses' changes the meaning to a description, not a causal chain.",
+      "'Regardless of' means 'without being affected by' — the crisis did not ignore job losses; it caused them.",
+      "'With respect to' frames a topic — 'the financial crisis with respect to widespread job losses' does not convey causation."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "led to = הוביל ל / גרם ל. שימוש: מביע קשר סיבתי ישיר — A גרם ל-B. טעות נפוצה: לכתוב 'led to cause' — אחרי led to בא שם עצם, לא פועל.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-124",
+    "difficulty": "medium",
+    "text": "________ social media use, researchers have identified a significant increase in reported anxiety among teenagers.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "Due to",
+      "In contrast to",
+      "Apart from",
+      "Is likely to"
+    ],
+    "answer": 0,
+    "explanation": "'Due to' expresses causation — social media use is identified as the cause of the increase in anxiety among teenagers.",
+    "wrongReasons": [
+      "'In contrast to' shows opposition — saying the increase in anxiety is in contrast to social media use contradicts a causal relationship.",
+      "'Apart from' means 'besides' or 'except for' — it introduces an exception, not a cause.",
+      "'Is likely to' is a verb phrase — it cannot begin a prepositional phrase introducing a cause."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "due to = עקב / בגלל / בשל. שימוש: מביע סיבה, נפוץ בכתיבה אקדמית ופורמלית. טעות נפוצה: לכתוב 'due to the fact that' כשניתן לכתוב פשוט 'because' — הצורה הקצרה עדיפה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-125",
+    "difficulty": "medium",
+    "text": "The study examined student performance ________ engagement, motivation, and academic achievement.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "regardless of",
+      "in order to",
+      "with regard to",
+      "gives rise to"
+    ],
+    "answer": 2,
+    "explanation": "'With regard to' introduces the specific aspects or dimensions being examined — engagement, motivation, and achievement are the dimensions of student performance under study.",
+    "wrongReasons": [
+      "'Regardless of' means 'without being affected by' — the study examined performance while ignoring these factors, which contradicts the sentence's meaning.",
+      "'In order to' expresses purpose — it must be followed by a base verb, not a noun phrase like 'engagement, motivation, and academic achievement'.",
+      "'Gives rise to' means 'causes' — the study does not produce engagement; it examines it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "with regard to = בנוגע ל / ביחס ל. שימוש: מציג את הנושא הספציפי שנדון, דומה ל-'regarding' ו-'with respect to'. טעות נפוצה: לכתוב 'with regards to' (ברבים) — הצורה הפורמלית הנכונה היא 'with regard to' (ביחיד).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-126",
+    "difficulty": "medium",
+    "text": "Coral reefs are ________ their extraordinary biodiversity and their sensitivity to water temperature changes.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "likely to",
+      "known for",
+      "derived from",
+      "leading to"
+    ],
+    "answer": 1,
+    "explanation": "'Known for' means recognized or famous for something — coral reefs are widely recognized for their biodiversity and sensitivity.",
+    "wrongReasons": [
+      "'Likely to' expresses probability and must be followed by a base verb — 'likely to their biodiversity' is ungrammatical.",
+      "'Derived from' means 'originating from' — coral reefs do not come from their biodiversity; they possess it.",
+      "'Leading to' expresses causation — coral reefs do not cause their own biodiversity in this sentence context."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "known for = ידועים בזכות / מפורסמים ב. שימוש: מתאר תכונה בולטת שדרכה מכירים את הנושא. טעות נפוצה: לבלבל עם 'known as' — known for עוקב אחריו תכונה, known as עוקב אחריו שם/כינוי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-127",
+    "difficulty": "medium",
+    "text": "Stress at work ________ physical symptoms such as headaches, fatigue, and difficulty concentrating.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "in contrast to",
+      "with the aim of",
+      "can give rise to",
+      "regardless of"
+    ],
+    "answer": 2,
+    "explanation": "'Can give rise to' means 'can cause' or 'can produce' — workplace stress can generate or bring about physical symptoms.",
+    "wrongReasons": [
+      "'In contrast to' introduces a comparison — 'stress in contrast to physical symptoms' implies they are opposites, which distorts the causal relationship.",
+      "'With the aim of' expresses purpose — stress does not have a goal of producing headaches and fatigue.",
+      "'Regardless of' means 'without being affected by' — workplace stress does not ignore physical symptoms; it causes them."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "give rise to = גורם ל / מוליד. שימוש: מתאר שמשהו מצמיח או גורם להופעתו של דבר אחר. טעות נפוצה: לכתוב 'gives rise for' — הצירוף הנכון הוא 'gives rise to'.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-128",
+    "difficulty": "medium",
+    "text": "The economic model proposed by the committee ________ assumptions drawn from behavioral economics.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is derived from",
+      "plays a role in",
+      "is likely to",
+      "in spite of"
+    ],
+    "answer": 0,
+    "explanation": "'Is derived from' means 'is obtained from' or 'originates in' — the economic model has its source in behavioral economics assumptions.",
+    "wrongReasons": [
+      "'Plays a role in' describes a contribution — 'the model plays a role in assumptions' reverses the relationship; the assumptions shape the model, not vice versa.",
+      "'Is likely to' expresses probability and requires a following verb — 'the model is likely to assumptions' is ungrammatical.",
+      "'In spite of' introduces concession — 'the model proposed in spite of assumptions' implies the committee ignored the assumptions, contradicting the meaning."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is derived from = נגזר מ / מקורו ב. שימוש: מתאר שמשהו מקורו או שורשיו בדבר אחר. טעות נפוצה: לבלבל עם 'is based on' — derived from מדגיש מקור, based on מדגיש בסיס או עיקרון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-129",
+    "difficulty": "medium",
+    "text": "The organization revised its guidelines ________ comply with international safety standards.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "regardless of",
+      "so as to",
+      "in terms of",
+      "apart from"
+    ],
+    "answer": 1,
+    "explanation": "'So as to' expresses purpose — the organization revised its guidelines with the aim of complying with international standards.",
+    "wrongReasons": [
+      "'Regardless of' means 'without being affected by' — this would mean the organization revised guidelines while ignoring safety standards, which contradicts the sentence.",
+      "'In terms of' frames a topic — 'revised its guidelines in terms of comply' is ungrammatical; 'comply' is a verb, not a noun phrase.",
+      "'Apart from' means 'besides' or 'except for' — it introduces an exception, not a purpose for revising guidelines."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "so as to = כדי ל / במטרה ל. שימוש: מביע מטרה, שקול ל-'in order to', אך נפוץ יותר בשלילה (so as not to). טעות נפוצה: לכתוב 'so as to complying' — אחרי so as to בא פועל בצורת הבסיס.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-130",
+    "difficulty": "medium",
+    "text": "The experiment's results ________ support the hypothesis that caffeine improves short-term memory.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "appear to",
+      "in accordance with",
+      "is associated with",
+      "with the aim of"
+    ],
+    "answer": 0,
+    "explanation": "'Appear to' expresses that something seems to be the case based on available evidence — the results seem to support the hypothesis, though not conclusively.",
+    "wrongReasons": [
+      "'In accordance with' means 'following rules or standards' — 'the results in accordance with support the hypothesis' is ungrammatical and illogical.",
+      "'Is associated with' is a verb phrase for a singular subject — 'results is associated with' is ungrammatical; moreover, it would link results to the hypothesis, not to supporting it.",
+      "'With the aim of' expresses purpose — results cannot have an aim; they are data, not intentional actions."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "appear to = נראה כי / מסתמן ש. שימוש: מביע ראיה לא מוחלטת, מרכך טענה מדעית. טעות נפוצה: לבלבל עם 'seem to' — שניהם כמעט זהים, אך appear to מעט רשמי יותר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-131",
+    "difficulty": "medium",
+    "text": "________ recent surveys, job satisfaction among remote workers is significantly higher than among office workers.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "In terms of",
+      "Owing to",
+      "In accordance with",
+      "In spite of"
+    ],
+    "answer": 2,
+    "explanation": "'In accordance with' can introduce findings that are consistent with or reported by surveys — the data from surveys show this pattern. Note: 'According to' is the more common choice, but 'in accordance with' is grammatically valid here as it indicates agreement with the survey data.",
+    "wrongReasons": [
+      "'In terms of' frames a topic — 'in terms of recent surveys, job satisfaction is higher' would mean we are discussing job satisfaction from the perspective of surveys, which is awkward.",
+      "'Owing to' means 'because of' — saying job satisfaction is higher because of surveys makes no sense; surveys measure, not cause, satisfaction.",
+      "'In spite of' introduces concession — 'in spite of recent surveys, satisfaction is higher' would suggest satisfaction is high against what surveys predicted, which distorts the meaning."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in accordance with = בהתאם ל / בהתאם לנתוני. שימוש: מציג התאמה עם נתונים, כללים, או מקורות. טעות נפוצה: לבלבל עם 'according to' — according to פשוט יותר ונפוץ יותר לציטוט מקורות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-132",
+    "difficulty": "medium",
+    "text": "Antibiotics should be used responsibly; ________, overuse can lead to the development of drug-resistant bacteria.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "as opposed to",
+      "in addition to",
+      "otherwise",
+      "regardless of"
+    ],
+    "answer": 2,
+    "explanation": "'Otherwise' connects the warning about responsible use to its consequence — if antibiotics are not used responsibly, the result will be drug resistance.",
+    "wrongReasons": [
+      "'As opposed to' introduces a contrast — the sentence is not contrasting two things but explaining a condition and its consequence.",
+      "'In addition to' means 'besides' — it adds information but does not introduce the conditional consequence of irresponsible antibiotic use.",
+      "'Regardless of' means 'without being affected by' — it implies overuse happens no matter what, removing the conditional logic of responsible use."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "otherwise = אחרת / אם לא כן. שימוש: מציג את התוצאה השלילית אם התנאי הקודם לא יתקיים. טעות נפוצה: לבלבל עם 'on the other hand' — otherwise מביע תוצאה מותנית, on the other hand מביע ניגוד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-133",
+    "difficulty": "medium",
+    "text": "The new bridge was constructed ________ reducing travel time between the two cities.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "in spite of",
+      "as opposed to",
+      "with the aim of",
+      "regardless of"
+    ],
+    "answer": 2,
+    "explanation": "'With the aim of' expresses the intended purpose of the construction — the bridge was built with the goal of reducing travel time.",
+    "wrongReasons": [
+      "'In spite of' introduces concession — 'the bridge was constructed in spite of reducing travel time' implies it was built despite the reduction, which makes no sense.",
+      "'As opposed to' introduces contrast — 'the bridge was constructed as opposed to reducing travel time' implies the bridge is the opposite of a time-reducing measure.",
+      "'Regardless of' means 'without being affected by' — saying the bridge was built regardless of reducing travel time implies the purpose was irrelevant, contradicting the sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "with the aim of = במטרה ל / כדי ל. שימוש: מביע כוונה או מטרה, נפוץ בתיאור פרויקטים ומדיניות. טעות נפוצה: לשכוח שאחרי 'with the aim of' בא גרונד (פועל+ing), לא פועל בצורת הבסיס.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ap-134",
+    "difficulty": "hard",
+    "text": "The decline in bee populations is ________ widespread use of pesticides, habitat loss, and climate change.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "regarded as",
+      "characterized by",
+      "attributable to",
+      "inclined toward"
+    ],
+    "answer": 2,
+    "explanation": "'Attributable to' means 'caused by' or 'can be assigned to as a cause' — the decline in bee populations can be attributed to multiple environmental factors.",
+    "wrongReasons": [
+      "'Regarded as' expresses perception — 'the decline is regarded as widespread pesticide use' incorrectly equates the decline with its causes.",
+      "'Characterized by' describes a defining feature — the decline is not characterized by pesticides; rather, pesticides are a cause of the decline.",
+      "'Inclined toward' describes a personal tendency — a population decline cannot be inclined toward anything; this phrase applies to people or living beings."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "attributable to = מיוחס ל / ניתן לייחס ל. שימוש: מציין שניתן לזהות גורם ספציפי כסיבה לתופעה — נפוץ בניתוח סיבות. טעות נפוצה: לבלבל עם 'attributed to' (פעיל) לעומת 'attributable to' (פוטנציאל ייחוס).",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-135",
+    "difficulty": "hard",
+    "text": "The success of the vaccination campaign was ________ the government's commitment to public health education.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "in part due to",
+      "in contrast to",
+      "irrespective of",
+      "in terms of"
+    ],
+    "answer": 0,
+    "explanation": "'In part due to' means the commitment was one of several contributing causes — the success was partly caused by the government's commitment to health education.",
+    "wrongReasons": [
+      "'In contrast to' introduces opposition — 'the success was in contrast to the government's commitment' implies the success occurred despite, not because of, that commitment.",
+      "'Irrespective of' means 'regardless of' — 'success irrespective of the government's commitment' implies the commitment was irrelevant, contradicting a causal relationship.",
+      "'In terms of' frames a perspective — 'the success was in terms of the government's commitment' is grammatically awkward and does not convey causation."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in part due to = בחלקו בשל / בין השאר עקב. שימוש: מציין סיבה חלקית מתוך כמה, מרכך את הקשר הסיבתי. טעות נפוצה: לכתוב 'in part because of to' — הצורה הנכונה היא 'in part due to' בלבד.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-136",
+    "difficulty": "hard",
+    "text": "The philosopher's argument ________ the premise that knowledge can only be acquired through direct experience.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is contingent upon",
+      "has given rise to",
+      "plays a role in",
+      "tends to"
+    ],
+    "answer": 0,
+    "explanation": "'Is contingent upon' means 'depends on' or 'is conditional on' — the argument only holds if the premise about direct experience is accepted.",
+    "wrongReasons": [
+      "'Has given rise to' means 'has caused' — the argument does not produce the premise; the premise is the argument's starting assumption.",
+      "'Plays a role in' describes a contribution — 'the argument plays a role in the premise' implies the argument influences the premise, but the premise is actually the foundation of the argument.",
+      "'Tends to' expresses habitual inclination and requires a following verb — 'the argument tends to the premise' is ungrammatical."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is contingent upon = מותנה ב / תלוי ב (כתנאי). שימוש: מביע שדבר אחד תלוי בתנאי ספציפי אחר. טעות נפוצה: לבלבל עם 'is dependent on' — שניהם דומים, אך contingent upon מדגיש תנאיות יותר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-137",
+    "difficulty": "hard",
+    "text": "Urban expansion has been found ________ negatively impact biodiversity in surrounding ecosystems.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "to",
+      "in order to",
+      "so as to",
+      "with the aim of"
+    ],
+    "answer": 0,
+    "explanation": "'Found to' (has been found to) is the correct passive construction — urban expansion was discovered to have a negative impact on biodiversity.",
+    "wrongReasons": [
+      "'In order to' expresses purpose — 'urban expansion has been found in order to impact biodiversity' implies expansion was discovered for the purpose of impacting ecosystems, which is nonsensical.",
+      "'So as to' also expresses purpose — the same error applies; urban expansion is not designed to impact ecosystems.",
+      "'With the aim of' also expresses purpose followed by a gerund — 'has been found with the aim of negatively impacting' is grammatically wrong and changes the meaning entirely."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "has been found to = נמצא כי / התגלה ש (בגוף סביל). שימוש: 'has been found to + verb' — צורת גוף סביל מדעית. טעות נפוצה: לכתוב 'has been found to negatively impacting' — אחרי 'found to' בא פועל בצורת הבסיס.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-138",
+    "difficulty": "hard",
+    "text": "The curriculum was restructured ________ a recommendation issued by the national education authority.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "as opposed to",
+      "in response to",
+      "regardless of",
+      "in addition to"
+    ],
+    "answer": 1,
+    "explanation": "'In response to' means 'as a reaction to' — the curriculum was restructured because of, and in reaction to, the authority's recommendation.",
+    "wrongReasons": [
+      "'As opposed to' introduces contrast — 'restructured as opposed to a recommendation' implies the restructuring is the alternative to following the recommendation, contradicting the sentence.",
+      "'Regardless of' means 'without being affected by' — this implies the recommendation was ignored, but the sentence suggests the restructuring was triggered by it.",
+      "'In addition to' means 'besides' — 'restructured in addition to a recommendation' would mean the restructuring happened alongside the recommendation, which loses the causal connection."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in response to = בתגובה ל / בעקבות. שימוש: מתאר פעולה שנעשתה בתגובה להמלצה, ביקורת, או אירוע. טעות נפוצה: לבלבל עם 'as a result of' — in response to מרמז על פעולה מכוונת, as a result of מרמז על תוצאה ישירה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-139",
+    "difficulty": "hard",
+    "text": "The research team has demonstrated that exercise ________ improve cognitive function in elderly patients.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "tends to",
+      "has been shown to",
+      "is characterized by",
+      "is grounded in"
+    ],
+    "answer": 1,
+    "explanation": "'Has been shown to' is used when reporting that research has demonstrated a finding — exercise has been proven through studies to improve cognitive function.",
+    "wrongReasons": [
+      "'Tends to' expresses a habitual pattern, not a demonstrated scientific finding — while grammatically possible, it is weaker and does not carry the sense of proven research.",
+      "'Is characterized by' describes a defining feature — exercise does not have cognitive function as a feature; rather, exercise causes improvements in cognitive function.",
+      "'Is grounded in' means 'is based on' — exercise is not based on improving cognitive function; it causes it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "has been shown to = הוכח כי / נמצא ש (בגוף סביל). שימוש: מציג ממצא מחקרי מוכח, חזק יותר מ-'tends to'. טעות נפוצה: לכתוב 'has been shown that exercise' — הצורה הנכונה היא 'exercise has been shown to improve'.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-140",
+    "difficulty": "hard",
+    "text": "The university's admissions policy is ________ academic merit, with particular emphasis on mathematics and science scores.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "primarily based on",
+      "associated with",
+      "likely to",
+      "in contrast to"
+    ],
+    "answer": 0,
+    "explanation": "'Primarily based on' means the policy's main foundation is academic merit — it is derived from and built upon this criterion above all others.",
+    "wrongReasons": [
+      "'Associated with' expresses a general connection or correlation — 'the admissions policy is associated with academic merit' is vague and implies only a link, not that merit is the foundation.",
+      "'Likely to' expresses probability and requires a following verb — 'the policy is likely to academic merit' is ungrammatical.",
+      "'In contrast to' introduces opposition — saying the policy is in contrast to academic merit implies it opposes merit-based admissions, which contradicts the sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "primarily based on = מבוסס בעיקרו על. שימוש: מדגיש שהבסיס העיקרי הוא קריטריון ספציפי מתוך כמה. טעות נפוצה: לכתוב 'mainly based in' — הצירוף הנכון הוא 'based on', לא 'based in'.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-141",
+    "difficulty": "hard",
+    "text": "The author's conclusions ________ a broad reading of historical evidence from multiple civilizations.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "give rise to",
+      "are inclined to",
+      "are informed by",
+      "play a key role in"
+    ],
+    "answer": 2,
+    "explanation": "'Are informed by' means 'are shaped by' or 'are based on' — the conclusions draw from and are influenced by the historical evidence.",
+    "wrongReasons": [
+      "'Give rise to' means 'produce' or 'cause' — if the conclusions give rise to historical evidence, that means they create it, which reverses the logical relationship.",
+      "'Are inclined to' describes a tendency of a person — conclusions cannot be inclined toward anything; this phrase is used for people or living things.",
+      "'Play a key role in' describes a contribution — the conclusions do not significantly contribute to the historical evidence; rather, the evidence informs the conclusions."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "are informed by = מושפעים מ / מעוצבים על ידי. שימוש: מתאר השפעה אינטלקטואלית על טיעון, מחקר, או עמדה. טעות נפוצה: לבלבל עם 'are based on' — informed by מדגיש השפעה, based on מדגיש תמיכה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-142",
+    "difficulty": "hard",
+    "text": "The report calls for a fundamental restructuring of the tax system, ________ eliminating loopholes that disproportionately benefit the wealthy.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "in spite of",
+      "most notably by",
+      "regardless of",
+      "as a result of"
+    ],
+    "answer": 1,
+    "explanation": "'Most notably by' specifies the most important method or example of the restructuring — eliminating loopholes is the primary means being called for.",
+    "wrongReasons": [
+      "'In spite of' introduces concession — 'calls for restructuring in spite of eliminating loopholes' would suggest restructuring is sought despite the loophole elimination, which contradicts the meaning.",
+      "'Regardless of' means 'without being affected by' — 'calls for restructuring regardless of eliminating loopholes' implies the call ignores loopholes, which is the opposite of the intended meaning.",
+      "'As a result of' expresses causation — 'calls for restructuring as a result of eliminating loopholes' implies that existing loophole elimination already caused this call, which distorts the sentence's future-oriented meaning."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "most notably = ובעיקר / ובולט מכולם. שימוש: מציין את הדוגמה הבולטת ביותר מתוך כמה. טעות נפוצה: לבלבל עם 'most importantly' — most notably מציין את הדוגמה הבולטת, most importantly מציין את הדבר החשוב ביותר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-143",
+    "difficulty": "hard",
+    "text": "Chronic stress has been implicated ________ the onset of a range of autoimmune disorders.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "as a result of",
+      "in",
+      "for",
+      "with regard to"
+    ],
+    "answer": 1,
+    "explanation": "'Implicated in' is the correct collocation — 'has been implicated in' means has been identified as a contributing factor to something negative, in this case the onset of autoimmune disorders.",
+    "wrongReasons": [
+      "'As a result of' expresses causation but cannot replace the preposition 'in' within the phrase 'implicated in' — 'implicated as a result of the onset' reverses the relationship entirely.",
+      "'For' changes the meaning entirely — 'implicated for the onset' is ungrammatical; the correct preposition in this collocation is always 'in'.",
+      "'With regard to' frames a topic — 'implicated with regard to the onset' does not convey the idea of being identified as a causal factor."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "has been implicated in = מעורב ב / נמצא כגורם ל. שימוש: מתאר שמשהו זוהה כגורם חשוד, נפוץ בספרות רפואית ואפידמיולוגית. טעות נפוצה: לכתוב 'implicated for' — הצירוף הנכון הוא 'implicated in'.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-144",
+    "difficulty": "hard",
+    "text": "The committee's decision to postpone the vote was widely ________ a strategic maneuver to avoid controversy.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "associated to",
+      "seen as",
+      "given rise to",
+      "linked with"
+    ],
+    "answer": 1,
+    "explanation": "'Seen as' means 'perceived as' or 'interpreted as' — the public and commentators perceived the postponement as a deliberate political strategy.",
+    "wrongReasons": [
+      "'Associated to' is grammatically incorrect — the correct collocation is 'associated with', not 'associated to'.",
+      "'Given rise to' means 'caused' or 'produced' — 'the decision was given rise to a maneuver' is grammatically and logically incorrect.",
+      "'Linked with' expresses a connection between two things — 'the decision was linked with a strategic maneuver' suggests a correlation, not a perception or interpretation."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "seen as = נתפס כ / נחשב ל. שימוש: מביע כיצד הציבור או אחרים תופסים דבר מה. טעות נפוצה: לבלבל עם 'regarded as' — שניהם דומים, אך 'seen as' נפוץ יותר בהקשרים פוליטיים וחברתיים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-145",
+    "difficulty": "hard",
+    "text": "The two countries reached an agreement that was ________ principles of mutual respect and non-interference.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "characterized by",
+      "grounded in",
+      "leading to",
+      "likely to"
+    ],
+    "answer": 1,
+    "explanation": "'Grounded in' means 'based on' or 'rooted in' — the agreement was built upon and rested on the foundational principles of mutual respect and non-interference.",
+    "wrongReasons": [
+      "'Characterized by' describes a defining feature — while the agreement could be characterized by these principles, 'grounded in' better expresses that the principles are the foundation, not just a feature.",
+      "'Leading to' expresses causation — 'an agreement leading to principles' implies the agreement produced the principles, which reverses the logical direction.",
+      "'Likely to' expresses probability and requires a following verb — 'agreement likely to principles of mutual respect' is ungrammatical."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "grounded in = מבוסס על / שורשיו ב. שימוש: מתאר בסיס רעיוני עמוק יותר מ-'based on' — מרמז על שורשים אידיאולוגיים או ערכיים. טעות נפוצה: לכתוב 'grounded on' — הצירוף הנכון הוא 'grounded in'.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-146",
+    "difficulty": "hard",
+    "text": "The sharp drop in consumer spending is ________ growing uncertainty in the housing market.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "likely to",
+      "in part attributable to",
+      "characterized by",
+      "in accordance with"
+    ],
+    "answer": 1,
+    "explanation": "'In part attributable to' means one contributing cause of the drop is housing market uncertainty — 'in part' signals there are multiple causes and this is one of them.",
+    "wrongReasons": [
+      "'Likely to' expresses probability and requires a following verb — 'the drop is likely to growing uncertainty' is ungrammatical and illogical.",
+      "'Characterized by' describes a defining feature — the spending drop is not characterized by uncertainty; uncertainty is a cause of the drop, not a feature of it.",
+      "'In accordance with' means 'consistent with rules or standards' — consumer spending does not follow rules of market uncertainty; it responds to it."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "in part attributable to = ניתן לייחס אותו בחלקו ל. שימוש: מציין אחת מכמה סיבות לתופעה — מרכך את הקשר הסיבתי. טעות נפוצה: לכתוב 'in part attributed to' — attributable to (תואר) נכון בהקשר זה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-147",
+    "difficulty": "hard",
+    "text": "The algorithm's performance ________ the quality and volume of data it is trained on.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "is largely contingent on",
+      "has been shown to",
+      "plays a role in",
+      "gives rise to"
+    ],
+    "answer": 0,
+    "explanation": "'Is largely contingent on' means the performance depends heavily on the quality and volume of training data — it is conditional on those factors.",
+    "wrongReasons": [
+      "'Has been shown to' reports a scientific finding and requires a following verb — 'performance has been shown to the quality of data' is ungrammatical.",
+      "'Plays a role in' describes a contribution — 'the algorithm's performance plays a role in the quality of data' reverses the relationship: data quality affects performance, not the other way around.",
+      "'Gives rise to' means 'causes' — 'the algorithm's performance gives rise to the quality of data' implies performance creates data quality, which is the opposite of what the sentence means."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "is contingent on = מותנה ב / תלוי ב. שימוש: מביע תלות תנאית — הביצועים תלויים ישירות בנתונים. טעות נפוצה: לבלבל עם 'is dependent on' — contingent on מדגיש תנאיות, dependent on מדגיש תלות כללית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-148",
+    "difficulty": "hard",
+    "text": "The research challenges prior assumptions ________ the relationship between income inequality and social mobility.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "due to",
+      "giving rise to",
+      "pertaining to",
+      "in spite of"
+    ],
+    "answer": 2,
+    "explanation": "'Pertaining to' means 'relating to' or 'concerning' — the prior assumptions are about the relationship between income inequality and social mobility.",
+    "wrongReasons": [
+      "'Due to' means 'because of' — 'assumptions due to the relationship' implies the relationship caused the assumptions; the sentence says the assumptions are about the relationship.",
+      "'Giving rise to' means 'causing' — 'assumptions giving rise to the relationship' implies assumptions produce the relationship between inequality and mobility, which distorts the meaning.",
+      "'In spite of' introduces concession — 'challenges assumptions in spite of the relationship' implies research ignores the relationship, which does not match the intended meaning."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "pertaining to = הנוגע ל / הקשור ל. שימוש: מתאר שמשהו שייך לנושא או קשור אליו, נפוץ בכתיבה משפטית ואקדמית. טעות נפוצה: לבלבל עם 'related to' — pertaining to רשמי יותר ומדויק יותר בהקשרים אקדמיים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-149",
+    "difficulty": "hard",
+    "text": "The study's methodology was ________ criticism due to its small sample size and lack of control group.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "subject to",
+      "in accordance with",
+      "grounded in",
+      "apart from"
+    ],
+    "answer": 0,
+    "explanation": "'Subject to' means 'open to' or 'exposed to' — the methodology was open to or vulnerable to criticism because of its limitations.",
+    "wrongReasons": [
+      "'In accordance with' means 'consistent with' or 'following rules' — 'the methodology was in accordance with criticism' implies it was designed to match criticism, which is logically absurd.",
+      "'Grounded in' means 'based on' — 'the methodology was grounded in criticism' would mean the methodology was built on criticism, not that it received criticism.",
+      "'Apart from' means 'besides' or 'except for' — 'the methodology was apart from criticism' implies it was separate from or not subject to criticism, which contradicts the sentence."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "subject to = חשוף ל / פתוח ל. שימוש: מתאר שמשהו עשוי לקבל ביקורת, שינוי, או השפעה — נפוץ בכתיבה אקדמית ומשפטית. טעות נפוצה: לבלבל עם 'subjected to' — subject to = חשוף ל (תואר), subjected to = נחשף ל (פועל עבר).",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-ap-150",
+    "difficulty": "hard",
+    "text": "The phenomenon of urbanization is ________ a complex interplay of economic, demographic, and environmental factors.\nChoose the academic phrase that best completes the sentence.",
+    "choices": [
+      "inclined to",
+      "likely to",
+      "underpinned by",
+      "derived to"
+    ],
+    "answer": 2,
+    "explanation": "'Underpinned by' means 'supported by' or 'driven by underlying factors' — urbanization is sustained and driven by the complex interaction of these factors.",
+    "wrongReasons": [
+      "'Inclined to' describes a personal tendency and must be followed by a base verb — 'urbanization is inclined to a complex interplay' is grammatically wrong and applies only to living beings.",
+      "'Likely to' expresses probability and requires a following verb — 'urbanization is likely to a complex interplay' is ungrammatical.",
+      "'Derived to' is not a valid English phrase — the correct collocation is 'derived from', and even then it would not fit this context since urbanization is not derived from these factors; it is driven by them."
+    ],
+    "subType": "academicPhrase",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["academic-phrases", "collocations", "academic-writing"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "underpinned by = מבוסס על / נתמך על ידי. שימוש: מתאר את הכוחות הבסיסיים שמניעים תופעה — נפוץ בניתוח מדיניות וכלכלה. טעות נפוצה: לבלבל עם 'supported by' — underpinned by מדגיש מבנה תמיכה עמוק יותר.",
+    "estimatedTimeSeconds": 40
+  }
+]

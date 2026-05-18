@@ -1,0 +1,1156 @@
+{
+  "lectureQuestions": [
+    {
+      "id": "l13-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main topic of this lecture?",
+      "choices": [
+        "The environmental impact of different food choices",
+        "How to adopt a vegetarian diet for health reasons",
+        "Government policies on agricultural emissions",
+        "The history of farming and food production"
+      ],
+      "answer": 0,
+      "explanation": "The professor's lecture focuses on comparing the carbon emissions of meat versus plant-based foods, making the environmental impact of food choices the central topic.",
+      "wrongReasons": [
+        "The professor does not discuss personal health benefits of vegetarianism.",
+        "Government policy is never mentioned in the lecture.",
+        "The history of farming is not addressed; the focus is on modern emissions data."
+      ],
+      "passage": {
+        "id": "l13-passage",
+        "title": "Lecture: The Carbon Footprint of Food",
+        "body": "Professor: Today I want to talk about something that affects every single one of us multiple times a day — what we eat, and what that means for the planet. When we measure the carbon footprint of food, we're looking at all the greenhouse gases produced across the entire supply chain: from land use and farming, to processing, transport, and even what happens to leftovers. And the differences between food types are striking. Beef, for instance, produces on average around 60 kilograms of CO2 equivalent per kilogram of food. Lamb is similarly high. Pork and chicken are considerably lower — around 7 and 6 kilograms respectively. But plant-based foods really stand out. Tofu comes in at roughly 3 kilograms, lentils at under 1. The reason meat is so carbon-intensive is largely down to methane from livestock digestion, land clearing for grazing, and the enormous quantities of feed crops required. Shifting even partially toward plant-based eating can meaningfully reduce an individual's total carbon footprint."
+      }
+    },
+    {
+      "id": "l13-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, approximately how many kilograms of CO2 equivalent does beef produce per kilogram of food?",
+      "choices": [
+        "Around 7 kilograms",
+        "Around 3 kilograms",
+        "Around 60 kilograms",
+        "Around 20 kilograms"
+      ],
+      "answer": 2,
+      "explanation": "The professor states explicitly that beef produces 'on average around 60 kilograms of CO2 equivalent per kilogram of food.'",
+      "wrongReasons": [
+        "7 kilograms is the figure given for pork, not beef.",
+        "3 kilograms is the figure given for tofu, not beef.",
+        "20 kilograms is not mentioned in the lecture at all."
+      ],
+      "passage": {
+        "id": "l13-passage",
+        "title": "Lecture: The Carbon Footprint of Food",
+        "body": "Professor: Today I want to talk about something that affects every single one of us multiple times a day — what we eat, and what that means for the planet. When we measure the carbon footprint of food, we're looking at all the greenhouse gases produced across the entire supply chain: from land use and farming, to processing, transport, and even what happens to leftovers. And the differences between food types are striking. Beef, for instance, produces on average around 60 kilograms of CO2 equivalent per kilogram of food. Lamb is similarly high. Pork and chicken are considerably lower — around 7 and 6 kilograms respectively. But plant-based foods really stand out. Tofu comes in at roughly 3 kilograms, lentils at under 1. The reason meat is so carbon-intensive is largely down to methane from livestock digestion, land clearing for grazing, and the enormous quantities of feed crops required. Shifting even partially toward plant-based eating can meaningfully reduce an individual's total carbon footprint."
+      }
+    },
+    {
+      "id": "l13-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the professor's attitude toward plant-based eating?",
+      "choices": [
+        "Dismissive — he thinks the dietary differences are too small to matter",
+        "Neutral — he presents data without expressing any position",
+        "Supportive — he suggests it can meaningfully help the environment",
+        "Critical — he argues it is impractical for most people"
+      ],
+      "answer": 2,
+      "explanation": "The professor concludes that 'shifting even partially toward plant-based eating can meaningfully reduce an individual's total carbon footprint,' indicating a supportive stance.",
+      "wrongReasons": [
+        "The professor emphasises that differences between foods are 'striking,' not trivial.",
+        "The professor does express a clear position in his concluding statement, so he is not purely neutral.",
+        "The professor never says plant-based eating is impractical; he frames it as an accessible positive step."
+      ],
+      "passage": {
+        "id": "l13-passage",
+        "title": "Lecture: The Carbon Footprint of Food",
+        "body": "Professor: Today I want to talk about something that affects every single one of us multiple times a day — what we eat, and what that means for the planet. When we measure the carbon footprint of food, we're looking at all the greenhouse gases produced across the entire supply chain: from land use and farming, to processing, transport, and even what happens to leftovers. And the differences between food types are striking. Beef, for instance, produces on average around 60 kilograms of CO2 equivalent per kilogram of food. Lamb is similarly high. Pork and chicken are considerably lower — around 7 and 6 kilograms respectively. But plant-based foods really stand out. Tofu comes in at roughly 3 kilograms, lentils at under 1. The reason meat is so carbon-intensive is largely down to methane from livestock digestion, land clearing for grazing, and the enormous quantities of feed crops required. Shifting even partially toward plant-based eating can meaningfully reduce an individual's total carbon footprint."
+      }
+    },
+    {
+      "id": "l13-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply by mentioning 'the enormous quantities of feed crops required' for livestock?",
+      "choices": [
+        "That growing feed crops directly produces most of the methane attributed to meat",
+        "That land used to grow animal feed could instead produce food for humans more efficiently",
+        "That meat production is carbon-intensive partly because of the resources consumed to raise animals",
+        "That feed crop farming is more polluting than livestock grazing"
+      ],
+      "answer": 2,
+      "explanation": "The professor lists feed crops as one of several reasons why meat is carbon-intensive, implying that the resources (land, energy, emissions) required at every stage of the supply chain compound the footprint of animal products.",
+      "wrongReasons": [
+        "The professor attributes methane primarily to 'livestock digestion,' not to feed crops themselves.",
+        "The professor does not discuss alternative land use or human food efficiency; that idea is not raised.",
+        "No comparison between feed-crop farming and grazing is made; both are simply cited as contributors."
+      ],
+      "passage": {
+        "id": "l13-passage",
+        "title": "Lecture: The Carbon Footprint of Food",
+        "body": "Professor: Today I want to talk about something that affects every single one of us multiple times a day — what we eat, and what that means for the planet. When we measure the carbon footprint of food, we're looking at all the greenhouse gases produced across the entire supply chain: from land use and farming, to processing, transport, and even what happens to leftovers. And the differences between food types are striking. Beef, for instance, produces on average around 60 kilograms of CO2 equivalent per kilogram of food. Lamb is similarly high. Pork and chicken are considerably lower — around 7 and 6 kilograms respectively. But plant-based foods really stand out. Tofu comes in at roughly 3 kilograms, lentils at under 1. The reason meat is so carbon-intensive is largely down to methane from livestock digestion, land clearing for grazing, and the enormous quantities of feed crops required. Shifting even partially toward plant-based eating can meaningfully reduce an individual's total carbon footprint."
+      }
+    },
+    {
+      "id": "l14-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "Why has the student come to speak with the advisor?",
+      "choices": [
+        "To request an extension on a late assignment",
+        "To get advice on dealing with academic stress",
+        "To complain about a difficult professor",
+        "To ask about changing her major"
+      ],
+      "answer": 1,
+      "explanation": "The student opens by saying she is 'really struggling with stress' and asks how other students cope, making stress management the clear reason for the visit.",
+      "wrongReasons": [
+        "The student never mentions a late assignment or an extension request.",
+        "No complaint about a professor is made at any point in the conversation.",
+        "Changing her major is never raised; the conversation stays on stress and coping strategies."
+      ],
+      "passage": {
+        "id": "l14-passage",
+        "title": "Campus Conversation: Managing Academic Stress",
+        "body": "Student: I've been meaning to come in for a while. I'm really struggling with stress this semester and I don't quite know how to handle it.\nAdvisor: You're definitely not alone — this is one of the most common things students come to talk to me about. Can you tell me a bit more about what's going on?\nStudent: It's mainly the workload. I feel like no matter how much I study, I'm always behind. I'm sleeping badly and I've stopped doing things I enjoy.\nAdvisor: That pattern — giving up hobbies and sacrificing sleep — actually makes stress worse in the long run. Research consistently shows that regular breaks and physical activity improve concentration and academic performance.\nStudent: So I shouldn't feel guilty about taking time off?\nAdvisor: Exactly. Building in recovery time isn't a luxury — it's a study strategy. I'd also suggest trying to break tasks into smaller chunks rather than looking at your whole to-do list at once.\nStudent: That makes sense. What about sleep — how important is it really?\nAdvisor: Critical. Sleep is when your brain consolidates what you've studied. Poor sleep doesn't just make you tired; it directly undermines learning."
+      }
+    },
+    {
+      "id": "l14-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What specific study strategy does the advisor recommend to reduce feelings of being overwhelmed?",
+      "choices": [
+        "Studying in the library instead of at home",
+        "Working with a study group for accountability",
+        "Breaking tasks into smaller chunks rather than viewing the whole list",
+        "Setting a strict daily schedule and sticking to it"
+      ],
+      "answer": 2,
+      "explanation": "The advisor explicitly advises the student to 'break tasks into smaller chunks rather than looking at your whole to-do list at once.'",
+      "wrongReasons": [
+        "The advisor never mentions study location as a strategy.",
+        "Study groups are not discussed in the conversation.",
+        "While structure might be implied, the advisor's specific recommendation is about task chunking, not a strict daily schedule."
+      ],
+      "passage": {
+        "id": "l14-passage",
+        "title": "Campus Conversation: Managing Academic Stress",
+        "body": "Student: I've been meaning to come in for a while. I'm really struggling with stress this semester and I don't quite know how to handle it.\nAdvisor: You're definitely not alone — this is one of the most common things students come to talk to me about. Can you tell me a bit more about what's going on?\nStudent: It's mainly the workload. I feel like no matter how much I study, I'm always behind. I'm sleeping badly and I've stopped doing things I enjoy.\nAdvisor: That pattern — giving up hobbies and sacrificing sleep — actually makes stress worse in the long run. Research consistently shows that regular breaks and physical activity improve concentration and academic performance.\nStudent: So I shouldn't feel guilty about taking time off?\nAdvisor: Exactly. Building in recovery time isn't a luxury — it's a study strategy. I'd also suggest trying to break tasks into smaller chunks rather than looking at your whole to-do list at once.\nStudent: What about sleep — how important is it really?\nAdvisor: Critical. Sleep is when your brain consolidates what you've studied. Poor sleep doesn't just make you tired; it directly undermines learning."
+      }
+    },
+    {
+      "id": "l14-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the advisor's intention when she says 'Building in recovery time isn't a luxury — it's a study strategy'?",
+      "choices": [
+        "To warn the student that she is overworking herself dangerously",
+        "To reframe rest as productive rather than wasteful",
+        "To suggest that studying is less important than well-being",
+        "To introduce a new concept the student has never heard of"
+      ],
+      "answer": 1,
+      "explanation": "The advisor reframes rest by contrasting 'luxury' (something optional or indulgent) with 'study strategy' (something purposeful and effective), directly addressing the student's guilt about taking time off.",
+      "wrongReasons": [
+        "The advisor is encouraging, not warning of danger — the tone is constructive, not alarming.",
+        "The advisor does not suggest studying is less important; she argues rest enhances studying.",
+        "The student has already raised the idea of taking time off — the advisor is affirming and reframing it, not introducing it."
+      ],
+      "passage": {
+        "id": "l14-passage",
+        "title": "Campus Conversation: Managing Academic Stress",
+        "body": "Student: I've been meaning to come in for a while. I'm really struggling with stress this semester and I don't quite know how to handle it.\nAdvisor: You're definitely not alone — this is one of the most common things students come to talk to me about. Can you tell me a bit more about what's going on?\nStudent: It's mainly the workload. I feel like no matter how much I study, I'm always behind. I'm sleeping badly and I've stopped doing things I enjoy.\nAdvisor: That pattern — giving up hobbies and sacrificing sleep — actually makes stress worse in the long run. Research consistently shows that regular breaks and physical activity improve concentration and academic performance.\nStudent: So I shouldn't feel guilty about taking time off?\nAdvisor: Exactly. Building in recovery time isn't a luxury — it's a study strategy. I'd also suggest trying to break tasks into smaller chunks rather than looking at your whole to-do list at once.\nStudent: What about sleep — how important is it really?\nAdvisor: Critical. Sleep is when your brain consolidates what you've studied. Poor sleep doesn't just make you tired; it directly undermines learning."
+      }
+    },
+    {
+      "id": "l14-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the advisor imply about the student's current approach to managing her workload?",
+      "choices": [
+        "It is reasonable given the difficulty of the semester",
+        "It is making her stress worse rather than better",
+        "It reflects a lack of motivation that needs addressing",
+        "It would work if she simply studied more efficiently"
+      ],
+      "answer": 1,
+      "explanation": "The advisor says 'that pattern — giving up hobbies and sacrificing sleep — actually makes stress worse in the long run,' directly implying the student's current strategy is counterproductive.",
+      "wrongReasons": [
+        "The advisor does not validate the student's current approach as reasonable; she identifies it as harmful.",
+        "The student is clearly motivated and working hard — the advisor never questions her motivation.",
+        "The advisor does not suggest studying more or more efficiently; she recommends rest and task-chunking instead."
+      ],
+      "passage": {
+        "id": "l14-passage",
+        "title": "Campus Conversation: Managing Academic Stress",
+        "body": "Student: I've been meaning to come in for a while. I'm really struggling with stress this semester and I don't quite know how to handle it.\nAdvisor: You're definitely not alone — this is one of the most common things students come to talk to me about. Can you tell me a bit more about what's going on?\nStudent: It's mainly the workload. I feel like no matter how much I study, I'm always behind. I'm sleeping badly and I've stopped doing things I enjoy.\nAdvisor: That pattern — giving up hobbies and sacrificing sleep — actually makes stress worse in the long run. Research consistently shows that regular breaks and physical activity improve concentration and academic performance.\nStudent: So I shouldn't feel guilty about taking time off?\nAdvisor: Exactly. Building in recovery time isn't a luxury — it's a study strategy. I'd also suggest trying to break tasks into smaller chunks rather than looking at your whole to-do list at once.\nStudent: What about sleep — how important is it really?\nAdvisor: Critical. Sleep is when your brain consolidates what you've studied. Poor sleep doesn't just make you tired; it directly undermines learning."
+      }
+    },
+    {
+      "id": "l15-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main purpose of this lecture?",
+      "choices": [
+        "To explain why teenagers need more sleep than adults",
+        "To describe how sleep contributes to the consolidation of memories",
+        "To argue that modern people do not get enough sleep",
+        "To compare different sleep disorders and their effects"
+      ],
+      "answer": 1,
+      "explanation": "The professor's entire lecture is dedicated to explaining the relationship between sleep stages and how the brain processes and consolidates memories during sleep.",
+      "wrongReasons": [
+        "Teenagers' sleep needs are not mentioned; the lecture is about memory consolidation, not age-specific sleep requirements.",
+        "While the professor mentions that people underestimate sleep, the lecture's purpose is to explain the science of memory consolidation, not to argue about sleep deprivation.",
+        "Sleep disorders are never discussed; the lecture focuses on normal sleep processes."
+      ],
+      "passage": {
+        "id": "l15-passage",
+        "title": "Lecture: How Memory Consolidation Works During Sleep",
+        "body": "Professor: Most people think of sleep as simply a period of rest — the brain switching off for the night. But modern neuroscience tells us something far more interesting. Sleep is, in fact, one of the most cognitively active periods of your day. Let me explain what happens. When you fall asleep, you cycle through different stages roughly every 90 minutes. Early in the night, you spend more time in slow-wave sleep — also called deep sleep — and this is when the hippocampus replays the day's experiences and transfers information to the cortex for long-term storage. Later in the night, REM sleep becomes more dominant. REM is associated with emotional memory processing and creative connections between ideas. Think of it as the brain filing away what matters and making unexpected links. This is why people often say they 'slept on a problem' and woke up with a solution. If you cut your sleep short, you lose disproportionately more REM sleep, because REM occurs mostly in the second half of the night. So the idea that you can function well on five hours is, from a memory standpoint, quite mistaken."
+      }
+    },
+    {
+      "id": "l15-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, what happens during slow-wave sleep?",
+      "choices": [
+        "The brain makes creative connections between unrelated ideas",
+        "The hippocampus replays experiences and transfers them to the cortex",
+        "Emotional memories are processed and regulated",
+        "The brain enters its least active state of the night"
+      ],
+      "answer": 1,
+      "explanation": "The professor states that during slow-wave sleep 'the hippocampus replays the day's experiences and transfers information to the cortex for long-term storage.'",
+      "wrongReasons": [
+        "Creative connections are associated with REM sleep, not slow-wave sleep.",
+        "Emotional memory processing is attributed to REM sleep, not slow-wave sleep.",
+        "The professor explicitly says sleep is 'one of the most cognitively active periods,' contradicting the idea of the brain being least active."
+      ],
+      "passage": {
+        "id": "l15-passage",
+        "title": "Lecture: How Memory Consolidation Works During Sleep",
+        "body": "Professor: Most people think of sleep as simply a period of rest — the brain switching off for the night. But modern neuroscience tells us something far more interesting. Sleep is, in fact, one of the most cognitively active periods of your day. Let me explain what happens. When you fall asleep, you cycle through different stages roughly every 90 minutes. Early in the night, you spend more time in slow-wave sleep — also called deep sleep — and this is when the hippocampus replays the day's experiences and transfers information to the cortex for long-term storage. Later in the night, REM sleep becomes more dominant. REM is associated with emotional memory processing and creative connections between ideas. Think of it as the brain filing away what matters and making unexpected links. This is why people often say they 'slept on a problem' and woke up with a solution. If you cut your sleep short, you lose disproportionately more REM sleep, because REM occurs mostly in the second half of the night. So the idea that you can function well on five hours is, from a memory standpoint, quite mistaken."
+      }
+    },
+    {
+      "id": "l15-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "Why does the professor mention the phrase 'sleeping on a problem'?",
+      "choices": [
+        "To dismiss it as a popular myth unsupported by science",
+        "To illustrate that dreams help us rehearse problem-solving skills",
+        "To support the claim that REM sleep facilitates creative thinking",
+        "To introduce the concept of slow-wave sleep to the audience"
+      ],
+      "answer": 2,
+      "explanation": "The professor uses the common phrase to illustrate what REM sleep does — making 'unexpected links' between ideas — thereby supporting the scientific point about REM's role in creative problem-solving.",
+      "wrongReasons": [
+        "The professor treats the phrase as valid evidence, not as a myth to be dismissed.",
+        "Dreams are not specifically mentioned; the phrase is used to illustrate REM sleep's cognitive function, not dream rehearsal.",
+        "Slow-wave sleep was introduced earlier in the lecture; the phrase specifically relates to REM sleep."
+      ],
+      "passage": {
+        "id": "l15-passage",
+        "title": "Lecture: How Memory Consolidation Works During Sleep",
+        "body": "Professor: Most people think of sleep as simply a period of rest — the brain switching off for the night. But modern neuroscience tells us something far more interesting. Sleep is, in fact, one of the most cognitively active periods of your day. Let me explain what happens. When you fall asleep, you cycle through different stages roughly every 90 minutes. Early in the night, you spend more time in slow-wave sleep — also called deep sleep — and this is when the hippocampus replays the day's experiences and transfers information to the cortex for long-term storage. Later in the night, REM sleep becomes more dominant. REM is associated with emotional memory processing and creative connections between ideas. Think of it as the brain filing away what matters and making unexpected links. This is why people often say they 'slept on a problem' and woke up with a solution. If you cut your sleep short, you lose disproportionately more REM sleep, because REM occurs mostly in the second half of the night. So the idea that you can function well on five hours is, from a memory standpoint, quite mistaken."
+      }
+    },
+    {
+      "id": "l15-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply when he says that cutting sleep short means you lose 'disproportionately more REM sleep'?",
+      "choices": [
+        "Short sleepers tend to have unusually long slow-wave sleep phases",
+        "The cognitive costs of short sleep are greater than they appear, since REM is lost first",
+        "REM sleep can be recovered by napping during the day",
+        "People who sleep five hours still get sufficient slow-wave sleep for memory"
+      ],
+      "answer": 3,
+      "explanation": "By specifying that REM is lost disproportionately (because it clusters at the end of the night), the professor implies slow-wave sleep is relatively preserved in short sleepers — but since REM is critical for memory and creativity, those functions suffer most. This also supports why five hours is 'mistaken': you get some slow-wave sleep but very little REM.",
+      "wrongReasons": [
+        "The professor does not say slow-wave sleep phases become longer; they simply occupy relatively more of a shorter night.",
+        "Napping is never mentioned as a recovery strategy; the professor argues against the adequacy of five hours.",
+        "While slow-wave sleep is relatively preserved, the professor's point is that this is insufficient — REM loss undermines memory."
+      ],
+      "passage": {
+        "id": "l15-passage",
+        "title": "Lecture: How Memory Consolidation Works During Sleep",
+        "body": "Professor: Most people think of sleep as simply a period of rest — the brain switching off for the night. But modern neuroscience tells us something far more interesting. Sleep is, in fact, one of the most cognitively active periods of your day. Let me explain what happens. When you fall asleep, you cycle through different stages roughly every 90 minutes. Early in the night, you spend more time in slow-wave sleep — also called deep sleep — and this is when the hippocampus replays the day's experiences and transfers information to the cortex for long-term storage. Later in the night, REM sleep becomes more dominant. REM is associated with emotional memory processing and creative connections between ideas. Think of it as the brain filing away what matters and making unexpected links. This is why people often say they 'slept on a problem' and woke up with a solution. If you cut your sleep short, you lose disproportionately more REM sleep, because REM occurs mostly in the second half of the night. So the idea that you can function well on five hours is, from a memory standpoint, quite mistaken."
+      }
+    },
+    {
+      "id": "l16-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the student trying to decide during this office hours meeting?",
+      "choices": [
+        "Whether to switch from one university program to another",
+        "Which research methodology to use for his project",
+        "How to find enough participants for his study",
+        "Whether qualitative research is more prestigious than quantitative"
+      ],
+      "answer": 1,
+      "explanation": "The student opens by saying he is 'trying to decide between qualitative and quantitative approaches' for his research project, making methodology choice the clear subject of the meeting.",
+      "wrongReasons": [
+        "Switching programs is never mentioned; the conversation is about research design, not academic enrollment.",
+        "Finding participants is not discussed; the focus is on the methodological approach, not recruitment logistics.",
+        "The student never raises the question of prestige; he is asking which approach fits his research question."
+      ],
+      "passage": {
+        "id": "l16-passage",
+        "title": "Office Hours: Choosing a Research Methodology",
+        "body": "Student: I wanted to ask for your advice on my research project. I'm trying to decide between qualitative and quantitative approaches and I'm not sure which fits my question better.\nProfessor: That's exactly the right question to start with. What is your research question?\nStudent: I want to understand why first-generation university students feel they don't belong on campus.\nProfessor: Right, so you're interested in lived experience — people's feelings, interpretations, and personal narratives. That points strongly toward qualitative methods. Interviews or focus groups would let you explore the nuances of how students construct their sense of belonging.\nStudent: But wouldn't a survey give me more representative data?\nProfessor: It might give you broader data — but breadth and depth are different things. A survey could tell you how many students feel this way, but not why, or what it actually feels like. Since your question asks 'why,' qualitative is the better fit.\nStudent: So the methodology should follow the research question, not the other way round?\nProfessor: Exactly. Never choose a method because it seems more rigorous or objective. Choose it because it answers your specific question. Quantitative methods are powerful, but they're not universally superior — it depends entirely on what you're trying to find out."
+      }
+    },
+    {
+      "id": "l16-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What does the professor say a survey could tell the student that interviews could not?",
+      "choices": [
+        "Why students feel they do not belong on campus",
+        "What belonging actually feels like for individual students",
+        "How many students experience feelings of not belonging",
+        "Which campus services are most helpful to first-generation students"
+      ],
+      "answer": 2,
+      "explanation": "The professor says 'A survey could tell you how many students feel this way, but not why, or what it actually feels like,' identifying the count of affected students as what surveys provide.",
+      "wrongReasons": [
+        "The professor explicitly says a survey cannot tell the student 'why' — that is the limitation he identifies.",
+        "The professor says a survey cannot tell what it 'actually feels like' — that too is listed as a limitation.",
+        "Campus services are never mentioned in the conversation."
+      ],
+      "passage": {
+        "id": "l16-passage",
+        "title": "Office Hours: Choosing a Research Methodology",
+        "body": "Student: I wanted to ask for your advice on my research project. I'm trying to decide between qualitative and quantitative approaches and I'm not sure which fits my question better.\nProfessor: That's exactly the right question to start with. What is your research question?\nStudent: I want to understand why first-generation university students feel they don't belong on campus.\nProfessor: Right, so you're interested in lived experience — people's feelings, interpretations, and personal narratives. That points strongly toward qualitative methods. Interviews or focus groups would let you explore the nuances of how students construct their sense of belonging.\nStudent: But wouldn't a survey give me more representative data?\nProfessor: It might give you broader data — but breadth and depth are different things. A survey could tell you how many students feel this way, but not why, or what it actually feels like. Since your question asks 'why,' qualitative is the better fit.\nStudent: So the methodology should follow the research question, not the other way round?\nProfessor: Exactly. Never choose a method because it seems more rigorous or objective. Choose it because it answers your specific question. Quantitative methods are powerful, but they're not universally superior — it depends entirely on what you're trying to find out."
+      }
+    },
+    {
+      "id": "l16-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the professor's attitude toward quantitative research methods?",
+      "choices": [
+        "He considers them inferior to qualitative methods in most situations",
+        "He views them as powerful but not universally the best choice",
+        "He recommends them for any study involving human feelings",
+        "He thinks students overuse them because they seem easier"
+      ],
+      "answer": 1,
+      "explanation": "The professor says 'Quantitative methods are powerful, but they're not universally superior — it depends entirely on what you're trying to find out,' showing a balanced and context-dependent view.",
+      "wrongReasons": [
+        "The professor never says qualitative is generally superior; he argues fit-to-question determines the choice.",
+        "The professor recommends qualitative methods for studying feelings in this case; he does not advocate quantitative for emotional topics.",
+        "The professor does not discuss ease or student habits; his concern is methodological fit."
+      ],
+      "passage": {
+        "id": "l16-passage",
+        "title": "Office Hours: Choosing a Research Methodology",
+        "body": "Student: I wanted to ask for your advice on my research project. I'm trying to decide between qualitative and quantitative approaches and I'm not sure which fits my question better.\nProfessor: That's exactly the right question to start with. What is your research question?\nStudent: I want to understand why first-generation university students feel they don't belong on campus.\nProfessor: Right, so you're interested in lived experience — people's feelings, interpretations, and personal narratives. That points strongly toward qualitative methods. Interviews or focus groups would let you explore the nuances of how students construct their sense of belonging.\nStudent: But wouldn't a survey give me more representative data?\nProfessor: It might give you broader data — but breadth and depth are different things. A survey could tell you how many students feel this way, but not why, or what it actually feels like. Since your question asks 'why,' qualitative is the better fit.\nStudent: So the methodology should follow the research question, not the other way round?\nProfessor: Exactly. Never choose a method because it seems more rigorous or objective. Choose it because it answers your specific question. Quantitative methods are powerful, but they're not universally superior — it depends entirely on what you're trying to find out."
+      }
+    },
+    {
+      "id": "l16-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply when he tells the student never to choose a method because it 'seems more rigorous or objective'?",
+      "choices": [
+        "Rigour and objectivity are not valued in academic research",
+        "Qualitative methods are just as rigorous as quantitative methods",
+        "Students often mistake quantitative methods for being inherently better, which can distort their research design",
+        "All research methods are equally valid regardless of the question being asked"
+      ],
+      "answer": 2,
+      "explanation": "The professor warns against choosing a method for reasons of perceived status or image ('seems more rigorous'), implying that students — including this one — may be tempted to choose quantitative methods for the wrong reasons, thereby producing research that does not answer their actual question.",
+      "wrongReasons": [
+        "The professor values rigour; his point is that rigour should be judged by fit-to-question, not by method type.",
+        "While qualitative research can be rigorous, the professor's point is about methodology choice, not a claim of equivalence.",
+        "The professor explicitly says not all methods are equally suitable — the choice 'depends entirely on what you're trying to find out.'"
+      ],
+      "passage": {
+        "id": "l16-passage",
+        "title": "Office Hours: Choosing a Research Methodology",
+        "body": "Student: I wanted to ask for your advice on my research project. I'm trying to decide between qualitative and quantitative approaches and I'm not sure which fits my question better.\nProfessor: That's exactly the right question to start with. What is your research question?\nStudent: I want to understand why first-generation university students feel they don't belong on campus.\nProfessor: Right, so you're interested in lived experience — people's feelings, interpretations, and personal narratives. That points strongly toward qualitative methods. Interviews or focus groups would let you explore the nuances of how students construct their sense of belonging.\nStudent: But wouldn't a survey give me more representative data?\nProfessor: It might give you broader data — but breadth and depth are different things. A survey could tell you how many students feel this way, but not why, or what it actually feels like. Since your question asks 'why,' qualitative is the better fit.\nStudent: So the methodology should follow the research question, not the other way round?\nProfessor: Exactly. Never choose a method because it seems more rigorous or objective. Choose it because it answers your specific question. Quantitative methods are powerful, but they're not universally superior — it depends entirely on what you're trying to find out."
+      }
+    },
+    {
+      "id": "l17-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the overall subject of this lecture?",
+      "choices": [
+        "The invention of the personal computer and its global spread",
+        "The development of the internet from its military origins to the World Wide Web",
+        "How social media transformed global communication in the twenty-first century",
+        "The role of universities in funding early computing research"
+      ],
+      "answer": 1,
+      "explanation": "The professor traces the internet's history from ARPANET through to Tim Berners-Lee's World Wide Web, making the development of the internet over time the subject of the lecture.",
+      "wrongReasons": [
+        "Personal computers are not the subject; the lecture is about networking and the internet.",
+        "Social media is not discussed; the lecture ends with the creation of the Web, not later platforms.",
+        "While universities are mentioned as ARPANET partners, the lecture's subject is the internet itself, not university funding policy."
+      ],
+      "passage": {
+        "id": "l17-passage",
+        "title": "Lecture: The History of the Internet",
+        "body": "Professor: The internet as we know it today did not appear overnight — it evolved over several decades through a combination of military investment, academic collaboration, and private innovation. Its origins lie in ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was designed to allow computers at different universities and research institutions to share data, and crucially, it was built to be resilient — capable of rerouting data if part of the network was destroyed. In the 1970s and 1980s, the network expanded and the foundational communication protocols we still use today, TCP/IP, were developed and standardised. These protocols allowed different types of computers to communicate with each other seamlessly. The real turning point for public access came in 1991, when Tim Berners-Lee, a British scientist working at CERN, introduced the World Wide Web — a system of interlinked documents accessible through a browser. This transformed the internet from a tool for specialists into something ordinary people could use. Within a decade, the Web had changed commerce, communication, and culture on a global scale."
+      }
+    },
+    {
+      "id": "l17-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, what was a key design feature of ARPANET?",
+      "choices": [
+        "It was built to encrypt all data passing through the network",
+        "It was designed to be resilient and reroute data if part of the network failed",
+        "It was created specifically to connect universities to government databases",
+        "It was the first network to use TCP/IP communication protocols"
+      ],
+      "answer": 1,
+      "explanation": "The professor states ARPANET 'was built to be resilient — capable of rerouting data if part of the network was destroyed,' identifying resilience as its key design feature.",
+      "wrongReasons": [
+        "Encryption is never mentioned as a feature of ARPANET in the lecture.",
+        "ARPANET connected universities and research institutions to each other, not to government databases.",
+        "TCP/IP was developed in the 1970s and 1980s, after ARPANET was already established — it was not ARPANET's original feature."
+      ],
+      "passage": {
+        "id": "l17-passage",
+        "title": "Lecture: The History of the Internet",
+        "body": "Professor: The internet as we know it today did not appear overnight — it evolved over several decades through a combination of military investment, academic collaboration, and private innovation. Its origins lie in ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was designed to allow computers at different universities and research institutions to share data, and crucially, it was built to be resilient — capable of rerouting data if part of the network was destroyed. In the 1970s and 1980s, the network expanded and the foundational communication protocols we still use today, TCP/IP, were developed and standardised. These protocols allowed different types of computers to communicate with each other seamlessly. The real turning point for public access came in 1991, when Tim Berners-Lee, a British scientist working at CERN, introduced the World Wide Web — a system of interlinked documents accessible through a browser. This transformed the internet from a tool for specialists into something ordinary people could use. Within a decade, the Web had changed commerce, communication, and culture on a global scale."
+      }
+    },
+    {
+      "id": "l17-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "How does the professor characterise Tim Berners-Lee's contribution?",
+      "choices": [
+        "As the invention of the internet itself",
+        "As a development that made the internet accessible to the general public",
+        "As the creation of the TCP/IP protocols used for data transfer",
+        "As a commercial project that brought private investment into the internet"
+      ],
+      "answer": 1,
+      "explanation": "The professor says the World Wide Web 'transformed the internet from a tool for specialists into something ordinary people could use,' characterising Berners-Lee's contribution as democratising internet access.",
+      "wrongReasons": [
+        "The professor clearly states the internet originated with ARPANET in the 1960s; Berners-Lee created the Web, not the internet.",
+        "TCP/IP protocols were developed in the 1970s and 1980s, well before Berners-Lee's 1991 contribution.",
+        "Berners-Lee was a scientist at CERN, not a commercial actor; private innovation is mentioned separately in the lecture's opening."
+      ],
+      "passage": {
+        "id": "l17-passage",
+        "title": "Lecture: The History of the Internet",
+        "body": "Professor: The internet as we know it today did not appear overnight — it evolved over several decades through a combination of military investment, academic collaboration, and private innovation. Its origins lie in ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was designed to allow computers at different universities and research institutions to share data, and crucially, it was built to be resilient — capable of rerouting data if part of the network was destroyed. In the 1970s and 1980s, the network expanded and the foundational communication protocols we still use today, TCP/IP, were developed and standardised. These protocols allowed different types of computers to communicate with each other seamlessly. The real turning point for public access came in 1991, when Tim Berners-Lee, a British scientist working at CERN, introduced the World Wide Web — a system of interlinked documents accessible through a browser. This transformed the internet from a tool for specialists into something ordinary people could use. Within a decade, the Web had changed commerce, communication, and culture on a global scale."
+      }
+    },
+    {
+      "id": "l17-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor suggest about the relationship between military investment and the public internet?",
+      "choices": [
+        "Military investment was the least important factor in the internet's development",
+        "A technology designed for defence purposes ultimately became a tool that transformed civilian life",
+        "The military deliberately designed ARPANET so that it could later become a public network",
+        "Military and academic interests have always been in conflict over internet governance"
+      ],
+      "answer": 1,
+      "explanation": "By tracing a line from the DoD-funded ARPANET to a global public network that 'changed commerce, communication, and culture,' the professor implies that military investment inadvertently produced a technology with enormous civilian impact — an unintended outcome of defence research.",
+      "wrongReasons": [
+        "The professor identifies military investment as the origin of the internet, making it a foundational factor, not the least important.",
+        "The professor gives no indication that the military planned public use; the transition occurred through separate academic and private efforts.",
+        "No conflict between military and academic interests is described; the lecture presents their collaboration as productive."
+      ],
+      "passage": {
+        "id": "l17-passage",
+        "title": "Lecture: The History of the Internet",
+        "body": "Professor: The internet as we know it today did not appear overnight — it evolved over several decades through a combination of military investment, academic collaboration, and private innovation. Its origins lie in ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was designed to allow computers at different universities and research institutions to share data, and crucially, it was built to be resilient — capable of rerouting data if part of the network was destroyed. In the 1970s and 1980s, the network expanded and the foundational communication protocols we still use today, TCP/IP, were developed and standardised. These protocols allowed different types of computers to communicate with each other seamlessly. The real turning point for public access came in 1991, when Tim Berners-Lee, a British scientist working at CERN, introduced the World Wide Web — a system of interlinked documents accessible through a browser. This transformed the internet from a tool for specialists into something ordinary people could use. Within a decade, the Web had changed commerce, communication, and culture on a global scale."
+      }
+    },
+    {
+      "id": "l18-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main problem the two students are trying to resolve?",
+      "choices": [
+        "They disagree about who should lead their group project",
+        "They have conflicting ideas about how to approach their group project",
+        "One student has not done her share of the group work",
+        "They cannot agree on which topic to choose for their project"
+      ],
+      "answer": 1,
+      "explanation": "Priya wants a structured outline with research before writing, while Marcus wants to draft first and structure later — they have conflicting approaches to the same project.",
+      "wrongReasons": [
+        "Leadership is not discussed; the conflict is about working method, not who is in charge.",
+        "Both students have been working — the disagreement is about method, not contribution level.",
+        "The topic is already chosen (social media and mental health); the dispute is about how to approach it."
+      ],
+      "passage": {
+        "id": "l18-passage",
+        "title": "Campus Conversation: Group Project Disagreement",
+        "body": "Priya: Marcus, I think we need to talk about how we're going to approach this project. I feel like we keep starting and stopping because we don't have a clear plan.\nMarcus: I get that, but I think the best way for me to think is to just start drafting and see where things go. Rigid outlines kill my creativity.\nPriya: I understand that works for you, but we're a team. If we all draft separately without agreeing on the structure first, we're going to end up with three completely different essays.\nMarcus: Fair point. But I don't want to spend two weeks planning and then have no time to actually write.\nPriya: I'm not suggesting two weeks of planning. Just an afternoon to agree on our key argument and how we'll divide the sections. We can still be flexible within that.\nMarcus: Okay, I think I can work with that. A rough framework rather than a rigid outline.\nPriya: Exactly. And if your section goes in a direction that changes the argument, we check in and adjust. Does that work?\nMarcus: Yeah, that's fair. Let's schedule that meeting for tomorrow."
+      }
+    },
+    {
+      "id": "l18-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What concern does Priya raise about working without a shared structure?",
+      "choices": [
+        "The project will take too long to complete without a timeline",
+        "Marcus will not contribute enough without clear responsibilities",
+        "The team will produce three disconnected essays instead of a unified project",
+        "The marker will penalise them for poor organisation"
+      ],
+      "answer": 2,
+      "explanation": "Priya says 'If we all draft separately without agreeing on the structure first, we're going to end up with three completely different essays,' identifying incoherence as the key risk.",
+      "wrongReasons": [
+        "Priya mentions time indirectly (not wanting two weeks of planning) but her stated concern is incoherence, not timeline length.",
+        "Priya does not question Marcus's contribution level; she is concerned about the approach, not his effort.",
+        "Marking criteria are never mentioned; Priya's concern is about the quality and coherence of the final product."
+      ],
+      "passage": {
+        "id": "l18-passage",
+        "title": "Campus Conversation: Group Project Disagreement",
+        "body": "Priya: Marcus, I think we need to talk about how we're going to approach this project. I feel like we keep starting and stopping because we don't have a clear plan.\nMarcus: I get that, but I think the best way for me to think is to just start drafting and see where things go. Rigid outlines kill my creativity.\nPriya: I understand that works for you, but we're a team. If we all draft separately without agreeing on the structure first, we're going to end up with three completely different essays.\nMarcus: Fair point. But I don't want to spend two weeks planning and then have no time to actually write.\nPriya: I'm not suggesting two weeks of planning. Just an afternoon to agree on our key argument and how we'll divide the sections. We can still be flexible within that.\nMarcus: Okay, I think I can work with that. A rough framework rather than a rigid outline.\nPriya: Exactly. And if your section goes in a direction that changes the argument, we check in and adjust. Does that work?\nMarcus: Yeah, that's fair. Let's schedule that meeting for tomorrow."
+      }
+    },
+    {
+      "id": "l18-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "How does Priya respond to Marcus's worry about spending too long planning?",
+      "choices": [
+        "She insists that thorough planning is essential and cannot be shortened",
+        "She dismisses his concern and says they must follow a full planning process",
+        "She clarifies that she only wants a brief focused session, not extended planning",
+        "She suggests they let the group vote on how much time to spend planning"
+      ],
+      "answer": 2,
+      "explanation": "Priya says 'I'm not suggesting two weeks of planning. Just an afternoon to agree on our key argument and how we'll divide the sections,' directly addressing and minimising Marcus's concern.",
+      "wrongReasons": [
+        "Priya explicitly says she is not suggesting extensive planning; she limits the proposal to an afternoon.",
+        "Priya does not dismiss Marcus's concern — she acknowledges it and adjusts her proposal accordingly.",
+        "A group vote is never mentioned; Priya negotiates directly with Marcus."
+      ],
+      "passage": {
+        "id": "l18-passage",
+        "title": "Campus Conversation: Group Project Disagreement",
+        "body": "Priya: Marcus, I think we need to talk about how we're going to approach this project. I feel like we keep starting and stopping because we don't have a clear plan.\nMarcus: I get that, but I think the best way for me to think is to just start drafting and see where things go. Rigid outlines kill my creativity.\nPriya: I understand that works for you, but we're a team. If we all draft separately without agreeing on the structure first, we're going to end up with three completely different essays.\nMarcus: Fair point. But I don't want to spend two weeks planning and then have no time to actually write.\nPriya: I'm not suggesting two weeks of planning. Just an afternoon to agree on our key argument and how we'll divide the sections. We can still be flexible within that.\nMarcus: Okay, I think I can work with that. A rough framework rather than a rigid outline.\nPriya: Exactly. And if your section goes in a direction that changes the argument, we check in and adjust. Does that work?\nMarcus: Yeah, that's fair. Let's schedule that meeting for tomorrow."
+      }
+    },
+    {
+      "id": "l18-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the outcome of the conversation suggest about how the two students resolved their disagreement?",
+      "choices": [
+        "Priya gave up her preference for structure to accommodate Marcus's creative process",
+        "Marcus agreed to use Priya's original planning method without modification",
+        "They reached a compromise that preserved both structure and flexibility",
+        "They agreed to ask their professor to decide on the best approach"
+      ],
+      "answer": 2,
+      "explanation": "Marcus accepts a 'rough framework rather than a rigid outline,' and Priya agrees to allow flexibility and check-ins if the direction changes — the final agreement blends Priya's need for structure with Marcus's need for creative freedom.",
+      "wrongReasons": [
+        "Priya does not abandon structure; she retains the shared framework as a foundation.",
+        "Marcus does not simply agree to Priya's original plan; the framework is explicitly described as 'rough' and flexible, a modification from her initial proposal.",
+        "No professor or external decision-maker is involved; they resolve the disagreement themselves."
+      ],
+      "passage": {
+        "id": "l18-passage",
+        "title": "Campus Conversation: Group Project Disagreement",
+        "body": "Priya: Marcus, I think we need to talk about how we're going to approach this project. I feel like we keep starting and stopping because we don't have a clear plan.\nMarcus: I get that, but I think the best way for me to think is to just start drafting and see where things go. Rigid outlines kill my creativity.\nPriya: I understand that works for you, but we're a team. If we all draft separately without agreeing on the structure first, we're going to end up with three completely different essays.\nMarcus: Fair point. But I don't want to spend two weeks planning and then have no time to actually write.\nPriya: I'm not suggesting two weeks of planning. Just an afternoon to agree on our key argument and how we'll divide the sections. We can still be flexible within that.\nMarcus: Okay, I think I can work with that. A rough framework rather than a rigid outline.\nPriya: Exactly. And if your section goes in a direction that changes the argument, we check in and adjust. Does that work?\nMarcus: Yeah, that's fair. Let's schedule that meeting for tomorrow."
+      }
+    },
+    {
+      "id": "l19-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the central concern of this lecture?",
+      "choices": [
+        "The economic consequences of declining fish populations",
+        "The causes and effects of coral reef degradation",
+        "How scientists are working to restore damaged reefs",
+        "The role of tourists in damaging coral reef ecosystems"
+      ],
+      "answer": 1,
+      "explanation": "The professor dedicates the lecture to explaining why coral reefs are disappearing, covering bleaching, ocean acidification, and warming — all causes — along with their consequences for reef ecosystems.",
+      "wrongReasons": [
+        "Economic consequences of fish population decline are not discussed; the lecture focuses on the reef ecosystem itself.",
+        "Restoration efforts are not mentioned; the professor describes causes and consequences, not solutions.",
+        "Tourism is not raised as a factor; the three threats discussed are bleaching, acidification, and warming."
+      ],
+      "passage": {
+        "id": "l19-passage",
+        "title": "Lecture: Why Coral Reefs Are Disappearing",
+        "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly twenty-five percent of all marine species. They are one of the most biodiverse ecosystems on Earth — and they are disappearing at an alarming rate. The primary threat is ocean warming. When sea temperatures rise even one or two degrees Celsius above the normal summer maximum, corals expel the symbiotic algae that live in their tissues. These algae, called zooxanthellae, provide corals with up to ninety percent of their energy through photosynthesis. Without them, the coral turns white — this is bleaching. If temperatures stay elevated, the coral starves and dies. A second major threat is ocean acidification. As the ocean absorbs carbon dioxide from the atmosphere, it becomes more acidic. This reduces the availability of carbonate ions, which corals need to build their calcium carbonate skeletons. Essentially, the ocean is slowly dissolving the building blocks of reef structure. Together, these two stressors — warming and acidification — are compounding in ways that give reefs very little time to recover between disturbances. Scientists estimate that without significant emissions reductions, up to ninety percent of coral reefs could be severely degraded by 2050."
+      }
+    },
+    {
+      "id": "l19-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What role do zooxanthellae play in the health of coral?",
+      "choices": [
+        "They protect coral from predators by producing toxic compounds",
+        "They provide structural support for the coral's calcium carbonate skeleton",
+        "They supply corals with most of their energy through photosynthesis",
+        "They regulate the temperature around coral reefs during warm periods"
+      ],
+      "answer": 2,
+      "explanation": "The professor states that zooxanthellae 'provide corals with up to ninety percent of their energy through photosynthesis,' making energy supply their primary function.",
+      "wrongReasons": [
+        "No mention of predator protection or toxic compounds appears in the lecture.",
+        "The professor distinguishes between zooxanthellae (energy suppliers) and calcium carbonate skeletons (structural elements) — they are different things.",
+        "Temperature regulation is not attributed to zooxanthellae; warming is identified as the threat that causes their expulsion."
+      ],
+      "passage": {
+        "id": "l19-passage",
+        "title": "Lecture: Why Coral Reefs Are Disappearing",
+        "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly twenty-five percent of all marine species. They are one of the most biodiverse ecosystems on Earth — and they are disappearing at an alarming rate. The primary threat is ocean warming. When sea temperatures rise even one or two degrees Celsius above the normal summer maximum, corals expel the symbiotic algae that live in their tissues. These algae, called zooxanthellae, provide corals with up to ninety percent of their energy through photosynthesis. Without them, the coral turns white — this is bleaching. If temperatures stay elevated, the coral starves and dies. A second major threat is ocean acidification. As the ocean absorbs carbon dioxide from the atmosphere, it becomes more acidic. This reduces the availability of carbonate ions, which corals need to build their calcium carbonate skeletons. Essentially, the ocean is slowly dissolving the building blocks of reef structure. Together, these two stressors — warming and acidification — are compounding in ways that give reefs very little time to recover between disturbances. Scientists estimate that without significant emissions reductions, up to ninety percent of coral reefs could be severely degraded by 2050."
+      }
+    },
+    {
+      "id": "l19-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What does the professor mean when he says the ocean is 'slowly dissolving the building blocks of reef structure'?",
+      "choices": [
+        "Ocean currents are physically eroding coral structures",
+        "Acidification reduces carbonate ions corals need for skeleton growth",
+        "Rising temperatures are melting the calcium carbonate in coral skeletons",
+        "Pollution is chemically breaking down the organic tissue of coral polyps"
+      ],
+      "answer": 1,
+      "explanation": "The professor explains that acidification reduces carbonate ions, which corals need to build calcium carbonate skeletons — the 'building blocks' of reef structure — making them unavailable and effectively dissolving the basis for reef construction.",
+      "wrongReasons": [
+        "Physical erosion by currents is not mentioned; the process described is chemical, caused by acidification.",
+        "Temperature is identified as the cause of bleaching, not skeleton dissolution; acidification is the separate process discussed here.",
+        "Pollution is not mentioned in the lecture; the chemical process described is CO2-driven acidification."
+      ],
+      "passage": {
+        "id": "l19-passage",
+        "title": "Lecture: Why Coral Reefs Are Disappearing",
+        "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly twenty-five percent of all marine species. They are one of the most biodiverse ecosystems on Earth — and they are disappearing at an alarming rate. The primary threat is ocean warming. When sea temperatures rise even one or two degrees Celsius above the normal summer maximum, corals expel the symbiotic algae that live in their tissues. These algae, called zooxanthellae, provide corals with up to ninety percent of their energy through photosynthesis. Without them, the coral turns white — this is bleaching. If temperatures stay elevated, the coral starves and dies. A second major threat is ocean acidification. As the ocean absorbs carbon dioxide from the atmosphere, it becomes more acidic. This reduces the availability of carbonate ions, which corals need to build their calcium carbonate skeletons. Essentially, the ocean is slowly dissolving the building blocks of reef structure. Together, these two stressors — warming and acidification — are compounding in ways that give reefs very little time to recover between disturbances. Scientists estimate that without significant emissions reductions, up to ninety percent of coral reefs could be severely degraded by 2050."
+      }
+    },
+    {
+      "id": "l19-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply by saying the two stressors are 'compounding in ways that give reefs very little time to recover between disturbances'?",
+      "choices": [
+        "Reefs recover quickly from individual bleaching events but not from acidification",
+        "The combined effect of warming and acidification is more damaging than either threat alone",
+        "Scientists are not yet certain which of the two stressors poses the greater threat",
+        "Coral reefs have always experienced periodic disturbances and have historically recovered"
+      ],
+      "answer": 1,
+      "explanation": "The word 'compounding' means the two stressors interact and amplify each other's effects, and 'very little time to recover' implies that reefs are being hit repeatedly before they can heal — together producing an outcome worse than either threat in isolation.",
+      "wrongReasons": [
+        "The professor does not suggest reefs recover well from bleaching alone; the point is that combined stressors prevent adequate recovery.",
+        "The professor does not express scientific uncertainty about which stressor is worse; both are presented as serious and interacting.",
+        "The professor's point is precisely that the current pace of disturbance is unprecedented, preventing the recovery that historically occurred."
+      ],
+      "passage": {
+        "id": "l19-passage",
+        "title": "Lecture: Why Coral Reefs Are Disappearing",
+        "body": "Professor: Coral reefs cover less than one percent of the ocean floor, yet they support roughly twenty-five percent of all marine species. They are one of the most biodiverse ecosystems on Earth — and they are disappearing at an alarming rate. The primary threat is ocean warming. When sea temperatures rise even one or two degrees Celsius above the normal summer maximum, corals expel the symbiotic algae that live in their tissues. These algae, called zooxanthellae, provide corals with up to ninety percent of their energy through photosynthesis. Without them, the coral turns white — this is bleaching. If temperatures stay elevated, the coral starves and dies. A second major threat is ocean acidification. As the ocean absorbs carbon dioxide from the atmosphere, it becomes more acidic. This reduces the availability of carbonate ions, which corals need to build their calcium carbonate skeletons. Essentially, the ocean is slowly dissolving the building blocks of reef structure. Together, these two stressors — warming and acidification — are compounding in ways that give reefs very little time to recover between disturbances. Scientists estimate that without significant emissions reductions, up to ninety percent of coral reefs could be severely degraded by 2050."
+      }
+    },
+    {
+      "id": "l20-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main goal of this tutorial session?",
+      "choices": [
+        "To teach the student how to collect research data more accurately",
+        "To help the student understand statistical significance and p-values",
+        "To explain the difference between mean and median in statistics",
+        "To review the student's completed research project before submission"
+      ],
+      "answer": 1,
+      "explanation": "The student asks what a p-value means and the tutor explains statistical significance, null hypotheses, and p-values throughout the conversation — making these concepts the clear focus.",
+      "wrongReasons": [
+        "Data collection is not discussed; the session focuses on interpreting statistical results already obtained.",
+        "Mean and median are not mentioned; the conversation centres on p-values and significance testing.",
+        "The project appears to be in progress, not completed; the student is seeking help understanding a result, not pre-submission review."
+      ],
+      "passage": {
+        "id": "l20-passage",
+        "title": "Tutorial: Understanding Statistical Significance",
+        "body": "Student: I ran my analysis and it says p equals 0.03, but I'm not sure what that actually means.\nTutor: Good question. The p-value tells you the probability of getting a result at least as extreme as yours, assuming the null hypothesis is true.\nStudent: What's the null hypothesis again?\nTutor: It's the default assumption that there's no real effect or relationship — that any pattern in your data is due to chance. So if p is 0.03, it means there's only a 3% chance of seeing your result if the null hypothesis were true.\nStudent: So a lower p-value means a stronger result?\nTutor: Not exactly. It means the result is less likely to be explained by chance alone. But it doesn't tell you the size or importance of the effect. A result can be statistically significant and still be trivially small in practical terms.\nStudent: What's the usual threshold for significance?\nTutor: Most fields use 0.05. Below that, the result is conventionally considered statistically significant. But that threshold is somewhat arbitrary — it's a guideline, not a law of nature.\nStudent: So my 0.03 result is significant?\nTutor: By the conventional threshold, yes. But always report the exact p-value and describe the effect size too. Significance alone doesn't tell the whole story."
+      }
+    },
+    {
+      "id": "l20-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the tutor, what does a p-value of 0.03 specifically indicate?",
+      "choices": [
+        "The research hypothesis has a 97% chance of being correct",
+        "There is a 3% probability of observing the result if the null hypothesis were true",
+        "The effect discovered is large and practically important",
+        "The study has a 3% margin of error in its measurements"
+      ],
+      "answer": 1,
+      "explanation": "The tutor says 'if p is 0.03, it means there's only a 3% chance of seeing your result if the null hypothesis were true,' which is the precise definition given.",
+      "wrongReasons": [
+        "The tutor does not say the p-value gives the probability that the hypothesis is correct; this is a common misconception the tutor implicitly avoids.",
+        "The tutor explicitly warns that statistical significance 'doesn't tell you the size or importance of the effect,' so practical importance cannot be inferred from the p-value alone.",
+        "Margin of error is a different statistical concept related to confidence intervals, not p-values — it is not mentioned."
+      ],
+      "passage": {
+        "id": "l20-passage",
+        "title": "Tutorial: Understanding Statistical Significance",
+        "body": "Student: I ran my analysis and it says p equals 0.03, but I'm not sure what that actually means.\nTutor: Good question. The p-value tells you the probability of getting a result at least as extreme as yours, assuming the null hypothesis is true.\nStudent: What's the null hypothesis again?\nTutor: It's the default assumption that there's no real effect or relationship — that any pattern in your data is due to chance. So if p is 0.03, it means there's only a 3% chance of seeing your result if the null hypothesis were true.\nStudent: So a lower p-value means a stronger result?\nTutor: Not exactly. It means the result is less likely to be explained by chance alone. But it doesn't tell you the size or importance of the effect. A result can be statistically significant and still be trivially small in practical terms.\nStudent: What's the usual threshold for significance?\nTutor: Most fields use 0.05. Below that, the result is conventionally considered statistically significant. But that threshold is somewhat arbitrary — it's a guideline, not a law of nature.\nStudent: So my 0.03 result is significant?\nTutor: By the conventional threshold, yes. But always report the exact p-value and describe the effect size too. Significance alone doesn't tell the whole story."
+      }
+    },
+    {
+      "id": "l20-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the tutor's purpose in saying the 0.05 threshold is 'a guideline, not a law of nature'?",
+      "choices": [
+        "To suggest the student should use a stricter threshold for her study",
+        "To caution against treating the significance threshold as absolute or infallible",
+        "To explain why different academic journals have different publication standards",
+        "To argue that p-values are not a reliable statistical tool"
+      ],
+      "answer": 1,
+      "explanation": "The tutor describes the 0.05 threshold as 'somewhat arbitrary,' correcting the common assumption that it has objective scientific authority — the purpose is to encourage critical thinking about statistical conventions.",
+      "wrongReasons": [
+        "The tutor does not recommend a stricter threshold for the student's particular study.",
+        "Journal publication standards are not discussed; the tutor is making a conceptual point about statistical conventions.",
+        "The tutor does not dismiss p-values; he advises using them alongside effect sizes, treating them as one tool among several."
+      ],
+      "passage": {
+        "id": "l20-passage",
+        "title": "Tutorial: Understanding Statistical Significance",
+        "body": "Student: I ran my analysis and it says p equals 0.03, but I'm not sure what that actually means.\nTutor: Good question. The p-value tells you the probability of getting a result at least as extreme as yours, assuming the null hypothesis is true.\nStudent: What's the null hypothesis again?\nTutor: It's the default assumption that there's no real effect or relationship — that any pattern in your data is due to chance. So if p is 0.03, it means there's only a 3% chance of seeing your result if the null hypothesis were true.\nStudent: So a lower p-value means a stronger result?\nTutor: Not exactly. It means the result is less likely to be explained by chance alone. But it doesn't tell you the size or importance of the effect. A result can be statistically significant and still be trivially small in practical terms.\nStudent: What's the usual threshold for significance?\nTutor: Most fields use 0.05. Below that, the result is conventionally considered statistically significant. But that threshold is somewhat arbitrary — it's a guideline, not a law of nature.\nStudent: So my 0.03 result is significant?\nTutor: By the conventional threshold, yes. But always report the exact p-value and describe the effect size too. Significance alone doesn't tell the whole story."
+      }
+    },
+    {
+      "id": "l20-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the tutor imply when he says 'a result can be statistically significant and still be trivially small in practical terms'?",
+      "choices": [
+        "Statistical significance and practical importance are two different things that must both be considered",
+        "Small studies are more likely to produce statistically significant results than large studies",
+        "Researchers should avoid reporting results that are statistically significant but practically small",
+        "The p-value is less important than the researcher's own judgement of the result's importance"
+      ],
+      "answer": 0,
+      "explanation": "The tutor draws a distinction between statistical significance (an unlikely result by chance) and practical significance (the real-world size and meaning of an effect), implying both must be evaluated together for a complete understanding.",
+      "wrongReasons": [
+        "The tutor does not discuss study size or its relationship to significance; that statistical phenomenon (power) is not raised.",
+        "The tutor does not say such results should be hidden; he advises reporting the exact p-value and effect size together.",
+        "The tutor does not prioritise researcher judgement over statistical measures; he advocates combining p-values with effect size reporting."
+      ],
+      "passage": {
+        "id": "l20-passage",
+        "title": "Tutorial: Understanding Statistical Significance",
+        "body": "Student: I ran my analysis and it says p equals 0.03, but I'm not sure what that actually means.\nTutor: Good question. The p-value tells you the probability of getting a result at least as extreme as yours, assuming the null hypothesis is true.\nStudent: What's the null hypothesis again?\nTutor: It's the default assumption that there's no real effect or relationship — that any pattern in your data is due to chance. So if p is 0.03, it means there's only a 3% chance of seeing your result if the null hypothesis were true.\nStudent: So a lower p-value means a stronger result?\nTutor: Not exactly. It means the result is less likely to be explained by chance alone. But it doesn't tell you the size or importance of the effect. A result can be statistically significant and still be trivially small in practical terms.\nStudent: What's the usual threshold for significance?\nTutor: Most fields use 0.05. Below that, the result is conventionally considered statistically significant. But that threshold is somewhat arbitrary — it's a guideline, not a law of nature.\nStudent: So my 0.03 result is significant?\nTutor: By the conventional threshold, yes. But always report the exact p-value and describe the effect size too. Significance alone doesn't tell the whole story."
+      }
+    },
+    {
+      "id": "l21-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is this lecture primarily about?",
+      "choices": [
+        "The political revolutions that occurred alongside industrialisation in Britain",
+        "The factors that caused the Industrial Revolution to begin",
+        "How the Industrial Revolution spread from Britain to other countries",
+        "The social consequences of factory work for the working class"
+      ],
+      "answer": 1,
+      "explanation": "The professor focuses on explaining the causes of the Industrial Revolution — coal, iron, labour supply, and the cotton industry — making causation the central concern of the lecture.",
+      "wrongReasons": [
+        "Political revolutions are not discussed; the lecture focuses on economic and material causes.",
+        "The spread of industrialisation to other countries is not addressed; the lecture stays on Britain's conditions.",
+        "Social consequences for workers are not the focus; the lecture examines why the Revolution began, not its human cost."
+      ],
+      "passage": {
+        "id": "l21-passage",
+        "title": "Lecture: The Causes of the Industrial Revolution",
+        "body": "Professor: The Industrial Revolution, which began in Britain around 1760, was not a sudden event but the outcome of several interlocking conditions that came together at a particular time and place. Let's consider the key factors. First, Britain had abundant reserves of coal and iron ore, often located close to each other and near navigable waterways. This made it relatively cheap and practical to mine, smelt, and transport raw materials. Second, a series of agricultural improvements in the eighteenth century had displaced large numbers of rural workers, creating a mobile labour force willing to work in the new factories. This is sometimes called the enclosure movement. Third, Britain had a developed banking system, legal protections for patents and investments, and a colonial empire that provided both raw materials and markets. The cotton textile industry was the first to mechanise on a large scale — factories powered by water and later steam replaced cottage industries almost overnight. And underpinning all of this was steam power itself, which, once Watt improved the engine in the 1760s and 1770s, made it possible to locate factories away from rivers and to power machines at a scale previously unimaginable."
+      }
+    },
+    {
+      "id": "l21-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What role did the enclosure movement play in the Industrial Revolution, according to the professor?",
+      "choices": [
+        "It provided landowners with capital to invest in new factories",
+        "It forced rural workers off the land, creating a labour force for the factories",
+        "It allowed the consolidation of coal and iron mining operations",
+        "It encouraged the development of the cotton textile industry in rural areas"
+      ],
+      "answer": 1,
+      "explanation": "The professor says agricultural improvements 'displaced large numbers of rural workers, creating a mobile labour force willing to work in the new factories,' identifying this population shift as the enclosure movement's industrial contribution.",
+      "wrongReasons": [
+        "Landowner capital from enclosure is not mentioned; the connection drawn is between displaced workers and the factory labour supply.",
+        "Coal and iron mining consolidation is not attributed to enclosure; resource proximity is discussed separately as a geographic advantage.",
+        "The cotton industry mechanised in factory settings, not rural areas — enclosure created the urban workforce, not a rural textile expansion."
+      ],
+      "passage": {
+        "id": "l21-passage",
+        "title": "Lecture: The Causes of the Industrial Revolution",
+        "body": "Professor: The Industrial Revolution, which began in Britain around 1760, was not a sudden event but the outcome of several interlocking conditions that came together at a particular time and place. Let's consider the key factors. First, Britain had abundant reserves of coal and iron ore, often located close to each other and near navigable waterways. This made it relatively cheap and practical to mine, smelt, and transport raw materials. Second, a series of agricultural improvements in the eighteenth century had displaced large numbers of rural workers, creating a mobile labour force willing to work in the new factories. This is sometimes called the enclosure movement. Third, Britain had a developed banking system, legal protections for patents and investments, and a colonial empire that provided both raw materials and markets. The cotton textile industry was the first to mechanise on a large scale — factories powered by water and later steam replaced cottage industries almost overnight. And underpinning all of this was steam power itself, which, once Watt improved the engine in the 1760s and 1770s, made it possible to locate factories away from rivers and to power machines at a scale previously unimaginable."
+      }
+    },
+    {
+      "id": "l21-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What does the professor suggest was significant about Watt's improvement of the steam engine?",
+      "choices": [
+        "It made coal mining cheaper and therefore more profitable",
+        "It allowed factories to be built anywhere, not just near rivers",
+        "It replaced the need for large numbers of factory workers",
+        "It made Britain the first country to export industrial machinery"
+      ],
+      "answer": 1,
+      "explanation": "The professor says Watt's improved engine 'made it possible to locate factories away from rivers,' meaning industrial production was no longer tied to water-powered locations — a transformative geographic freedom.",
+      "wrongReasons": [
+        "The steam engine's effect on coal mining costs is not discussed; the focus is on factory location flexibility.",
+        "The steam engine replaced cottage industries but the professor does not say it reduced factory worker numbers; it enabled larger-scale production.",
+        "Machinery exports are not mentioned; the lecture focuses on domestic British industrialisation."
+      ],
+      "passage": {
+        "id": "l21-passage",
+        "title": "Lecture: The Causes of the Industrial Revolution",
+        "body": "Professor: The Industrial Revolution, which began in Britain around 1760, was not a sudden event but the outcome of several interlocking conditions that came together at a particular time and place. Let's consider the key factors. First, Britain had abundant reserves of coal and iron ore, often located close to each other and near navigable waterways. This made it relatively cheap and practical to mine, smelt, and transport raw materials. Second, a series of agricultural improvements in the eighteenth century had displaced large numbers of rural workers, creating a mobile labour force willing to work in the new factories. This is sometimes called the enclosure movement. Third, Britain had a developed banking system, legal protections for patents and investments, and a colonial empire that provided both raw materials and markets. The cotton textile industry was the first to mechanise on a large scale — factories powered by water and later steam replaced cottage industries almost overnight. And underpinning all of this was steam power itself, which, once Watt improved the engine in the 1760s and 1770s, made it possible to locate factories away from rivers and to power machines at a scale previously unimaginable."
+      }
+    },
+    {
+      "id": "l21-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor mean when he describes the Industrial Revolution as the outcome of 'several interlocking conditions'?",
+      "choices": [
+        "The Revolution was caused by one primary factor that triggered all other changes",
+        "Each contributing factor depended on and reinforced the others, making it impossible to identify a single cause",
+        "The conditions in Britain were largely copied from industrial developments in other European nations",
+        "Industrial growth required the simultaneous discovery of new scientific principles"
+      ],
+      "answer": 1,
+      "explanation": "'Interlocking' implies mutual dependence — coal required labour to mine it, labour needed the enclosure movement to displace it, factories needed banking systems to finance them, and steam power needed coal to run. The professor's structure implies no single cause alone would have been sufficient.",
+      "wrongReasons": [
+        "The professor explicitly says it was not 'a sudden event' caused by one thing; he lists multiple interlocking factors.",
+        "Britain's conditions are presented as unique — the professor does not suggest they were copied from other nations.",
+        "Scientific discovery is not presented as a precondition; the practical improvements (like Watt's engine) were technological adaptations, not new scientific principles."
+      ],
+      "passage": {
+        "id": "l21-passage",
+        "title": "Lecture: The Causes of the Industrial Revolution",
+        "body": "Professor: The Industrial Revolution, which began in Britain around 1760, was not a sudden event but the outcome of several interlocking conditions that came together at a particular time and place. Let's consider the key factors. First, Britain had abundant reserves of coal and iron ore, often located close to each other and near navigable waterways. This made it relatively cheap and practical to mine, smelt, and transport raw materials. Second, a series of agricultural improvements in the eighteenth century had displaced large numbers of rural workers, creating a mobile labour force willing to work in the new factories. This is sometimes called the enclosure movement. Third, Britain had a developed banking system, legal protections for patents and investments, and a colonial empire that provided both raw materials and markets. The cotton textile industry was the first to mechanise on a large scale — factories powered by water and later steam replaced cottage industries almost overnight. And underpinning all of this was steam power itself, which, once Watt improved the engine in the 1760s and 1770s, made it possible to locate factories away from rivers and to power machines at a scale previously unimaginable."
+      }
+    },
+    {
+      "id": "l22-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What problem does the student bring to the academic advisor?",
+      "choices": [
+        "She is struggling to pass her exams despite working hard",
+        "She is finding it difficult to manage both part-time work and her studies",
+        "She wants to take on more work hours to pay for tuition fees",
+        "She is considering dropping out of university for financial reasons"
+      ],
+      "answer": 1,
+      "explanation": "The student says 'I've been working about twenty hours a week at a cafe and my grades are starting to slip,' clearly identifying the work-study balance as her core problem.",
+      "wrongReasons": [
+        "Poor exam performance is a consequence of her situation, but the underlying problem she brings is the work-study conflict, not study technique.",
+        "The student already works twenty hours and is not asking to increase them; she is seeking a way to manage the current load.",
+        "Dropping out is not raised; the student is looking for strategies to continue both work and study successfully."
+      ],
+      "passage": {
+        "id": "l22-passage",
+        "title": "Campus Conversation: Balancing Work and Studies",
+        "body": "Student: I've been working about twenty hours a week at a cafe and my grades are starting to slip. I don't know how to manage everything.\nAdvisor: That's a heavy load. Is the work financially necessary, or is there any flexibility there?\nStudent: It's necessary. I'm covering my rent and living costs.\nAdvisor: Okay, so reducing hours significantly isn't really an option. In that case, let's think about how to use your study time more efficiently. Have you tried time-blocking — scheduling specific hours for specific tasks?\nStudent: Not really. I just study when I can.\nAdvisor: That approach tends to leave too much to chance. If you map out your week, including your shifts, you can see exactly how many study hours you actually have and protect them.\nStudent: I suppose I never really thought of it that way.\nAdvisor: Also, talk to your lecturers. Most are very understanding if a student is transparent about working and just needs a bit of guidance on prioritising. You don't need to struggle in silence.\nStudent: I didn't realise it was okay to do that.\nAdvisor: Absolutely. And look into whether you qualify for a hardship fund or bursary — it might reduce the number of hours you need to work."
+      }
+    },
+    {
+      "id": "l22-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What specific time management strategy does the advisor recommend to the student?",
+      "choices": [
+        "Studying in short bursts of twenty minutes with frequent breaks",
+        "Mapping out the week and scheduling specific study hours around work shifts",
+        "Joining a study group to make revision more efficient",
+        "Focusing only on the most important assignments and ignoring smaller tasks"
+      ],
+      "answer": 1,
+      "explanation": "The advisor recommends 'time-blocking — scheduling specific hours for specific tasks' and mapping out the week to see and protect available study hours.",
+      "wrongReasons": [
+        "Short study bursts and breaks are not discussed; the advisor's recommendation is about weekly planning and protecting study time.",
+        "Study groups are not mentioned; the strategy is individual time-mapping.",
+        "Prioritising certain assignments over others is not suggested; the advisor's strategy is about using all available time more deliberately."
+      ],
+      "passage": {
+        "id": "l22-passage",
+        "title": "Campus Conversation: Balancing Work and Studies",
+        "body": "Student: I've been working about twenty hours a week at a cafe and my grades are starting to slip. I don't know how to manage everything.\nAdvisor: That's a heavy load. Is the work financially necessary, or is there any flexibility there?\nStudent: It's necessary. I'm covering my rent and living costs.\nAdvisor: Okay, so reducing hours significantly isn't really an option. In that case, let's think about how to use your study time more efficiently. Have you tried time-blocking — scheduling specific hours for specific tasks?\nStudent: Not really. I just study when I can.\nAdvisor: That approach tends to leave too much to chance. If you map out your week, including your shifts, you can see exactly how many study hours you actually have and protect them.\nStudent: I suppose I never really thought of it that way.\nAdvisor: Also, talk to your lecturers. Most are very understanding if a student is transparent about working and just needs a bit of guidance on prioritising. You don't need to struggle in silence.\nStudent: I didn't realise it was okay to do that.\nAdvisor: Absolutely. And look into whether you qualify for a hardship fund or bursary — it might reduce the number of hours you need to work."
+      }
+    },
+    {
+      "id": "l22-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "Why does the advisor suggest the student speak to her lecturers?",
+      "choices": [
+        "To request extensions on all upcoming deadlines",
+        "To get permission to reduce her attendance at lectures",
+        "To get guidance on priorities, because lecturers are generally understanding of working students",
+        "To formally register her working hours so the university has a record"
+      ],
+      "answer": 2,
+      "explanation": "The advisor says 'Most are very understanding if a student is transparent about working and just needs a bit of guidance on prioritising,' presenting lecturers as a source of support and academic guidance.",
+      "wrongReasons": [
+        "Requesting extensions is not mentioned; the advisor suggests seeking prioritisation guidance, not deadline changes.",
+        "Reduced attendance is not raised; the advisor's suggestion is about academic communication and support.",
+        "Formal registration of hours is not discussed; the advisor is encouraging the student to communicate openly for guidance."
+      ],
+      "passage": {
+        "id": "l22-passage",
+        "title": "Campus Conversation: Balancing Work and Studies",
+        "body": "Student: I've been working about twenty hours a week at a cafe and my grades are starting to slip. I don't know how to manage everything.\nAdvisor: That's a heavy load. Is the work financially necessary, or is there any flexibility there?\nStudent: It's necessary. I'm covering my rent and living costs.\nAdvisor: Okay, so reducing hours significantly isn't really an option. In that case, let's think about how to use your study time more efficiently. Have you tried time-blocking — scheduling specific hours for specific tasks?\nStudent: Not really. I just study when I can.\nAdvisor: That approach tends to leave too much to chance. If you map out your week, including your shifts, you can see exactly how many study hours you actually have and protect them.\nStudent: I suppose I never really thought of it that way.\nAdvisor: Also, talk to your lecturers. Most are very understanding if a student is transparent about working and just needs a bit of guidance on prioritising. You don't need to struggle in silence.\nStudent: I didn't realise it was okay to do that.\nAdvisor: Absolutely. And look into whether you qualify for a hardship fund or bursary — it might reduce the number of hours you need to work."
+      }
+    },
+    {
+      "id": "l22-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the advisor's mention of a hardship fund or bursary imply about his overall approach to the student's problem?",
+      "choices": [
+        "He believes financial support should be the student's primary solution",
+        "He is trying to address both the immediate time management issue and its underlying financial cause",
+        "He is suggesting the student is not entitled to financial support and should work more",
+        "He thinks financial assistance will completely resolve the student's academic difficulties"
+      ],
+      "answer": 1,
+      "explanation": "The advisor first addresses the immediate problem (time management with time-blocking) and then looks deeper to the financial root cause, suggesting bursaries might reduce the need to work — showing a multi-level approach that targets both symptom and cause.",
+      "wrongReasons": [
+        "The advisor does not prioritise financial support over time management; he addresses both, with time management raised first.",
+        "The advisor explicitly encourages the student to look into bursaries, implying she may well qualify — he is not discouraging financial help.",
+        "The advisor does not suggest bursaries will solve academic difficulties alone; he presents them as a way to reduce work hours, which is one part of a broader strategy."
+      ],
+      "passage": {
+        "id": "l22-passage",
+        "title": "Campus Conversation: Balancing Work and Studies",
+        "body": "Student: I've been working about twenty hours a week at a cafe and my grades are starting to slip. I don't know how to manage everything.\nAdvisor: That's a heavy load. Is the work financially necessary, or is there any flexibility there?\nStudent: It's necessary. I'm covering my rent and living costs.\nAdvisor: Okay, so reducing hours significantly isn't really an option. In that case, let's think about how to use your study time more efficiently. Have you tried time-blocking — scheduling specific hours for specific tasks?\nStudent: Not really. I just study when I can.\nAdvisor: That approach tends to leave too much to chance. If you map out your week, including your shifts, you can see exactly how many study hours you actually have and protect them.\nStudent: I suppose I never really thought of it that way.\nAdvisor: Also, talk to your lecturers. Most are very understanding if a student is transparent about working and just needs a bit of guidance on prioritising. You don't need to struggle in silence.\nStudent: I didn't realise it was okay to do that.\nAdvisor: Absolutely. And look into whether you qualify for a hardship fund or bursary — it might reduce the number of hours you need to work."
+      }
+    },
+    {
+      "id": "l23-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main distinction the professor draws in this lecture?",
+      "choices": [
+        "Between vaccines and natural immunity",
+        "Between the innate and adaptive immune systems",
+        "Between bacterial infections and viral infections",
+        "Between the roles of T cells and B cells exclusively"
+      ],
+      "answer": 1,
+      "explanation": "The professor structures the entire lecture around the difference between innate immunity (fast, non-specific) and adaptive immunity (slower, targeted, with memory), making this the central distinction.",
+      "wrongReasons": [
+        "Vaccines are mentioned briefly as an example of memory cells but are not the main distinction the lecture is built around.",
+        "Bacterial vs viral infections are not discussed; the lecture focuses on immune system components.",
+        "While T cells and B cells are mentioned as part of adaptive immunity, they are details within the broader innate-versus-adaptive framework."
+      ],
+      "passage": {
+        "id": "l23-passage",
+        "title": "Lecture: How the Human Immune System Works",
+        "body": "Professor: The human immune system is one of the most sophisticated defence networks in biology. To understand it, we need to distinguish between two broad components: the innate immune system and the adaptive immune system. The innate system is your first line of defence. It responds rapidly — within minutes to hours — to any foreign substance, using general mechanisms that don't distinguish between specific threats. Inflammation, fever, and the activity of natural killer cells are all part of this response. It's fast but non-specific. The adaptive immune system, by contrast, is slower to activate — it can take several days — but it is exquisitely targeted. When immune cells called lymphocytes encounter a specific pathogen, they produce antibodies tailored to that threat. Crucially, some of these lymphocytes become memory cells, which persist in the body long after the infection is cleared. If the same pathogen appears again, the response is dramatically faster and stronger. This is the biological basis of immunity — and of vaccination, which trains the adaptive system without requiring you to suffer the actual disease. Together, these two systems create a layered defence that is both rapid and precise."
+      }
+    },
+    {
+      "id": "l23-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, what is a key characteristic of the innate immune system?",
+      "choices": [
+        "It produces antibodies specific to each type of pathogen",
+        "It responds rapidly but without targeting specific threats",
+        "It creates memory cells that recognise previous infections",
+        "It takes several days to activate after initial exposure"
+      ],
+      "answer": 1,
+      "explanation": "The professor describes the innate system as 'fast but non-specific,' responding 'within minutes to hours' using 'general mechanisms that don't distinguish between specific threats.'",
+      "wrongReasons": [
+        "Specific antibody production is a feature of the adaptive immune system, not the innate system.",
+        "Memory cells are described as a feature of the adaptive immune system; the innate system does not create them.",
+        "The several-day activation period describes the adaptive immune system; the innate system responds in minutes to hours."
+      ],
+      "passage": {
+        "id": "l23-passage",
+        "title": "Lecture: How the Human Immune System Works",
+        "body": "Professor: The human immune system is one of the most sophisticated defence networks in biology. To understand it, we need to distinguish between two broad components: the innate immune system and the adaptive immune system. The innate system is your first line of defence. It responds rapidly — within minutes to hours — to any foreign substance, using general mechanisms that don't distinguish between specific threats. Inflammation, fever, and the activity of natural killer cells are all part of this response. It's fast but non-specific. The adaptive immune system, by contrast, is slower to activate — it can take several days — but it is exquisitely targeted. When immune cells called lymphocytes encounter a specific pathogen, they produce antibodies tailored to that threat. Crucially, some of these lymphocytes become memory cells, which persist in the body long after the infection is cleared. If the same pathogen appears again, the response is dramatically faster and stronger. This is the biological basis of immunity — and of vaccination, which trains the adaptive system without requiring you to suffer the actual disease. Together, these two systems create a layered defence that is both rapid and precise."
+      }
+    },
+    {
+      "id": "l23-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "How does the professor explain the way vaccination works?",
+      "choices": [
+        "It stimulates the innate immune system to produce antibodies before infection",
+        "It introduces the disease in a weakened form that permanently damages the pathogen",
+        "It trains the adaptive immune system to recognise a pathogen without causing the actual disease",
+        "It causes the body to produce natural killer cells that target specific viruses"
+      ],
+      "answer": 2,
+      "explanation": "The professor says vaccination 'trains the adaptive system without requiring you to suffer the actual disease,' describing it as a way to build adaptive memory without undergoing a real infection.",
+      "wrongReasons": [
+        "Antibodies are produced by the adaptive system, not the innate system — and vaccination works through adaptive immunity.",
+        "The professor does not describe vaccination as permanently damaging a pathogen; it trains the immune system through exposure to a safe form.",
+        "Natural killer cells are part of the innate immune system; vaccination works through the adaptive system and memory lymphocytes."
+      ],
+      "passage": {
+        "id": "l23-passage",
+        "title": "Lecture: How the Human Immune System Works",
+        "body": "Professor: The human immune system is one of the most sophisticated defence networks in biology. To understand it, we need to distinguish between two broad components: the innate immune system and the adaptive immune system. The innate system is your first line of defence. It responds rapidly — within minutes to hours — to any foreign substance, using general mechanisms that don't distinguish between specific threats. Inflammation, fever, and the activity of natural killer cells are all part of this response. It's fast but non-specific. The adaptive immune system, by contrast, is slower to activate — it can take several days — but it is exquisitely targeted. When immune cells called lymphocytes encounter a specific pathogen, they produce antibodies tailored to that threat. Crucially, some of these lymphocytes become memory cells, which persist in the body long after the infection is cleared. If the same pathogen appears again, the response is dramatically faster and stronger. This is the biological basis of immunity — and of vaccination, which trains the adaptive system without requiring you to suffer the actual disease. Together, these two systems create a layered defence that is both rapid and precise."
+      }
+    },
+    {
+      "id": "l23-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply when he describes the two immune systems as creating a 'layered defence that is both rapid and precise'?",
+      "choices": [
+        "One system compensates for the weaknesses of the other, producing a more complete response together",
+        "The two systems operate completely independently and never interact",
+        "Speed is always more important than precision in fighting infection",
+        "The adaptive system has made the innate system largely obsolete"
+      ],
+      "answer": 0,
+      "explanation": "The innate system is rapid but non-specific; the adaptive system is slow but precise. By describing them as 'layered,' the professor implies they complement each other — the innate system buys time while the adaptive system mounts a targeted response — producing a defence better than either alone.",
+      "wrongReasons": [
+        "The professor presents them as working together as a system, not independently — 'together' is the key word in his concluding sentence.",
+        "The professor does not rank speed above precision; the lecture's structure presents both as valuable, each for different reasons.",
+        "The innate system is described first and presented as essential ('first line of defence'); there is no suggestion it has been superseded."
+      ],
+      "passage": {
+        "id": "l23-passage",
+        "title": "Lecture: How the Human Immune System Works",
+        "body": "Professor: The human immune system is one of the most sophisticated defence networks in biology. To understand it, we need to distinguish between two broad components: the innate immune system and the adaptive immune system. The innate system is your first line of defence. It responds rapidly — within minutes to hours — to any foreign substance, using general mechanisms that don't distinguish between specific threats. Inflammation, fever, and the activity of natural killer cells are all part of this response. It's fast but non-specific. The adaptive immune system, by contrast, is slower to activate — it can take several days — but it is exquisitely targeted. When immune cells called lymphocytes encounter a specific pathogen, they produce antibodies tailored to that threat. Crucially, some of these lymphocytes become memory cells, which persist in the body long after the infection is cleared. If the same pathogen appears again, the response is dramatically faster and stronger. This is the biological basis of immunity — and of vaccination, which trains the adaptive system without requiring you to suffer the actual disease. Together, these two systems create a layered defence that is both rapid and precise."
+      }
+    },
+    {
+      "id": "l24-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the purpose of this office hours meeting?",
+      "choices": [
+        "The professor is returning a graded essay to the student",
+        "The student is receiving feedback on the introduction she has written",
+        "The student wants help choosing a thesis topic",
+        "The professor is explaining how to use secondary sources in research"
+      ],
+      "answer": 1,
+      "explanation": "The student brings her introduction for feedback and the professor provides detailed comments on how to improve it — making feedback on the written introduction the clear purpose of the meeting.",
+      "wrongReasons": [
+        "The essay is not graded; the professor is providing formative feedback on a draft introduction.",
+        "A topic is not being chosen; the student already has a thesis on social media and adolescent identity.",
+        "Secondary sources are briefly mentioned but the meeting's focus is on the introduction's structure, not source use in general."
+      ],
+      "passage": {
+        "id": "l24-passage",
+        "title": "Office Hours: Writing a Strong Introduction",
+        "body": "Student: I've brought my introduction for you to look at. I'm not sure it's quite right but I don't know what's missing.\nProfessor: Let me read through it. Okay — your opening is fine, you set the context well. But I'm not seeing a clear argument. You describe the topic — social media and adolescent identity — but you never tell me what you are actually claiming about it.\nStudent: I thought the argument came in the body of the essay.\nProfessor: Your evidence and analysis do, yes. But your introduction needs to signal the argument from the start. Think of it as a promise to your reader: here is what I will argue and why it matters.\nStudent: So I need a thesis statement?\nProfessor: Exactly. One or two sentences that state your specific claim — not just your topic. And ideally a sentence or two explaining what the reader will gain from your argument.\nStudent: What about the sources — I have a lot of background literature in there.\nProfessor: That's a balance to strike. Some context from the literature is useful, but an introduction shouldn't become a mini literature review. Save the detailed engagement with sources for the body.\nStudent: That makes sense. So: hook, context, thesis, significance — and keep it tight?\nProfessor: Exactly. You've just described the ideal introduction structure."
+      }
+    },
+    {
+      "id": "l24-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What does the professor identify as the main weakness in the student's introduction?",
+      "choices": [
+        "The opening sentences do not establish the topic clearly",
+        "There are too many quotations from secondary sources",
+        "The introduction does not contain a clear argument or thesis statement",
+        "The writing style is too informal for an academic essay"
+      ],
+      "answer": 2,
+      "explanation": "The professor says 'I'm not seeing a clear argument. You describe the topic...but you never tell me what you are actually claiming about it,' identifying the missing thesis as the central problem.",
+      "wrongReasons": [
+        "The professor says 'your opening is fine, you set the context well' — the opening sentences are praised, not criticised.",
+        "The professor notes there is a lot of background literature but frames this as a secondary issue to balance, not the main weakness.",
+        "Writing style is never mentioned; the feedback focuses entirely on structure and argumentative content."
+      ],
+      "passage": {
+        "id": "l24-passage",
+        "title": "Office Hours: Writing a Strong Introduction",
+        "body": "Student: I've brought my introduction for you to look at. I'm not sure it's quite right but I don't know what's missing.\nProfessor: Let me read through it. Okay — your opening is fine, you set the context well. But I'm not seeing a clear argument. You describe the topic — social media and adolescent identity — but you never tell me what you are actually claiming about it.\nStudent: I thought the argument came in the body of the essay.\nProfessor: Your evidence and analysis do, yes. But your introduction needs to signal the argument from the start. Think of it as a promise to your reader: here is what I will argue and why it matters.\nStudent: So I need a thesis statement?\nProfessor: Exactly. One or two sentences that state your specific claim — not just your topic. And ideally a sentence or two explaining what the reader will gain from your argument.\nStudent: What about the sources — I have a lot of background literature in there.\nProfessor: That's a balance to strike. Some context from the literature is useful, but an introduction shouldn't become a mini literature review. Save the detailed engagement with sources for the body.\nStudent: That makes sense. So: hook, context, thesis, significance — and keep it tight?\nProfessor: Exactly. You've just described the ideal introduction structure."
+      }
+    },
+    {
+      "id": "l24-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What does the professor mean when he says the introduction should be 'a promise to your reader'?",
+      "choices": [
+        "The writer should guarantee that all claims in the essay will be supported by evidence",
+        "The introduction should tell the reader what argument will be made and why it is important",
+        "The writer should promise not to use more sources than the reader can verify",
+        "The introduction should create suspense by hinting at the conclusion without revealing it"
+      ],
+      "answer": 1,
+      "explanation": "The professor completes the metaphor by saying 'here is what I will argue and why it matters,' making clear that the 'promise' is about signalling the argument and its significance to the reader upfront.",
+      "wrongReasons": [
+        "Evidence support is not what the professor means by 'promise'; he is talking about announcing the argument, not guaranteeing evidence.",
+        "Source limits are not part of the professor's point; the promise metaphor is about argument signalling.",
+        "Creating suspense is the opposite of what the professor is describing — he wants the argument stated clearly at the start, not concealed."
+      ],
+      "passage": {
+        "id": "l24-passage",
+        "title": "Office Hours: Writing a Strong Introduction",
+        "body": "Student: I've brought my introduction for you to look at. I'm not sure it's quite right but I don't know what's missing.\nProfessor: Let me read through it. Okay — your opening is fine, you set the context well. But I'm not seeing a clear argument. You describe the topic — social media and adolescent identity — but you never tell me what you are actually claiming about it.\nStudent: I thought the argument came in the body of the essay.\nProfessor: Your evidence and analysis do, yes. But your introduction needs to signal the argument from the start. Think of it as a promise to your reader: here is what I will argue and why it matters.\nStudent: So I need a thesis statement?\nProfessor: Exactly. One or two sentences that state your specific claim — not just your topic. And ideally a sentence or two explaining what the reader will gain from your argument.\nStudent: What about the sources — I have a lot of background literature in there.\nProfessor: That's a balance to strike. Some context from the literature is useful, but an introduction shouldn't become a mini literature review. Save the detailed engagement with sources for the body.\nStudent: That makes sense. So: hook, context, thesis, significance — and keep it tight?\nProfessor: Exactly. You've just described the ideal introduction structure."
+      }
+    },
+    {
+      "id": "l24-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the student's final summary — 'hook, context, thesis, significance — and keep it tight' — reveal about her understanding?",
+      "choices": [
+        "She has memorised the professor's exact words without fully grasping their meaning",
+        "She has synthesised the feedback into a clear, structured framework she can apply",
+        "She is repeating terminology she already knew before the meeting",
+        "She is asking for confirmation that there is nothing else to add to the introduction"
+      ],
+      "answer": 1,
+      "explanation": "The student has taken the professor's guidance — which was given discursively through feedback — and reformulated it into a concise actionable structure, demonstrating that she has understood and internalised the advice well enough to restate it in her own organised form.",
+      "wrongReasons": [
+        "The professor did not use the phrase 'hook, context, thesis, significance' — the student generated this framework herself from his feedback, showing genuine comprehension.",
+        "The terms 'hook' and 'significance' were not explicitly used by the professor; the student generated this structure from the feedback, not from prior knowledge she came in with.",
+        "The professor's enthusiastic confirmation ('Exactly. You've just described the ideal introduction structure') indicates she has captured it correctly — not that she is asking an open question."
+      ],
+      "passage": {
+        "id": "l24-passage",
+        "title": "Office Hours: Writing a Strong Introduction",
+        "body": "Student: I've brought my introduction for you to look at. I'm not sure it's quite right but I don't know what's missing.\nProfessor: Let me read through it. Okay — your opening is fine, you set the context well. But I'm not seeing a clear argument. You describe the topic — social media and adolescent identity — but you never tell me what you are actually claiming about it.\nStudent: I thought the argument came in the body of the essay.\nProfessor: Your evidence and analysis do, yes. But your introduction needs to signal the argument from the start. Think of it as a promise to your reader: here is what I will argue and why it matters.\nStudent: So I need a thesis statement?\nProfessor: Exactly. One or two sentences that state your specific claim — not just your topic. And ideally a sentence or two explaining what the reader will gain from your argument.\nStudent: What about the sources — I have a lot of background literature in there.\nProfessor: That's a balance to strike. Some context from the literature is useful, but an introduction shouldn't become a mini literature review. Save the detailed engagement with sources for the body.\nStudent: That makes sense. So: hook, context, thesis, significance — and keep it tight?\nProfessor: Exactly. You've just described the ideal introduction structure."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-vc-251",
+    "difficulty": "easy",
+    "text": "The librarian was [diligent] in organizing the shelves so that every student could find books quickly. The word 'diligent' most nearly means:",
+    "choices": [
+      "hardworking and careful",
+      "slow and careless",
+      "loud and energetic",
+      "strict and demanding"
+    ],
+    "answer": 0,
+    "explanation": "'Diligent' means showing steady effort and care. The context clue is that the librarian organized the shelves so that students could find books quickly, implying consistent and careful work.",
+    "wrongReasons": [
+      "'Slow and careless' is the opposite of diligent; a careless librarian would not organize shelves effectively for quick access.",
+      "'Loud and energetic' describes personality or volume, not the quality of sustained careful effort that diligent conveys.",
+      "'Strict and demanding' describes how someone treats others, not the steady personal effort implied by diligent."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["diligent"],
+    "hebrewExplanation": "diligent = חרוץ, מתמיד. הספרנית עמלה בקפידה על סידור המדפים כדי שהתלמידים יוכלו למצוא ספרים בקלות — כלומר, היא הייתה חרוצה ומסורה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-252",
+    "difficulty": "easy",
+    "text": "The coach told the players to [prohibit] any arguing on the field because it distracted everyone from the game. The word 'prohibit' most nearly means:",
+    "choices": [
+      "encourage and support",
+      "officially forbid",
+      "carefully monitor",
+      "openly discuss"
+    ],
+    "answer": 1,
+    "explanation": "'Prohibit' means to officially forbid something. The context shows the coach did not want arguing on the field, so he was banning it.",
+    "wrongReasons": [
+      "'Encourage and support' is the opposite of prohibit; the coach wanted to stop arguing, not promote it.",
+      "'Carefully monitor' means to watch closely, not to forbid; prohibit is a stronger action than mere observation.",
+      "'Openly discuss' suggests dialogue, whereas prohibit means to prevent an action entirely."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["prohibit"],
+    "hebrewExplanation": "prohibit = לאסור, להגביל. המאמן ביקש לאסור על כל ויכוח במגרש — כלומר, הוא אסר על כך באופן רשמי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-253",
+    "difficulty": "easy",
+    "text": "The supervisor was asked to [commend] the employee whose idea saved the company thousands of dollars. The word 'commend' most nearly means:",
+    "choices": [
+      "formally praise or recommend",
+      "sharply criticize",
+      "carefully examine",
+      "publicly ignore"
+    ],
+    "answer": 2,
+    "explanation": "'Commend' means to praise someone or recommend them for recognition. The context shows the employee did something beneficial, so the supervisor was expected to recognize them positively.",
+    "wrongReasons": [
+      "'Sharply criticize' is the opposite of commend; saving the company money would earn praise, not criticism.",
+      "'Carefully examine' means to inspect or review, not to acknowledge achievement; commend is about giving credit.",
+      "'Publicly ignore' contradicts the idea of recognizing the employee's valuable contribution."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["commend"],
+    "hebrewExplanation": "commend = לשבח, להמליץ. המנהל התבקש לשבח את העובד שחסך לחברה כסף — כלומר, לתת לו הכרה חיובית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-254",
+    "difficulty": "easy",
+    "text": "The schedule was [consistent] throughout the semester: classes started at eight every morning without exception. The word 'consistent' most nearly means:",
+    "choices": [
+      "unpredictable and varied",
+      "regularly the same",
+      "overly complicated",
+      "temporarily arranged"
+    ],
+    "answer": 3,
+    "explanation": "'Consistent' means staying the same over time. The phrase 'without exception' confirms the schedule never changed, which is the hallmark of consistency.",
+    "wrongReasons": [
+      "'Unpredictable and varied' is the opposite of consistent; the passage says classes started at the same time every day.",
+      "'Overly complicated' describes complexity, not regularity; consistent refers to sameness, not difficulty.",
+      "'Temporarily arranged' implies the schedule was short-term, but consistent describes something that stays stable over time."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["consistent"],
+    "hebrewExplanation": "consistent = עקבי, קבוע. לוח הזמנים לא השתנה לאורך כל הסמסטר — כלומר, הוא היה עקבי ואחיד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-255",
+    "difficulty": "easy",
+    "text": "The city council agreed to [allocate] more funding to public transportation to reduce traffic congestion. The word 'allocate' most nearly means:",
+    "choices": [
+      "set aside resources for a specific purpose",
+      "borrow money from a reserve",
+      "publicly announce a policy",
+      "reduce spending across departments"
+    ],
+    "answer": 0,
+    "explanation": "'Allocate' means to distribute or assign resources to a particular use. The council was directing more funding specifically toward public transportation.",
+    "wrongReasons": [
+      "'Borrow money from a reserve' describes obtaining funds, not distributing them; allocate is about assigning what already exists.",
+      "'Publicly announce a policy' describes communication, not the financial action of directing resources.",
+      "'Reduce spending across departments' is the opposite of allocating more funding; allocate implies an increase or assignment, not a cut."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["allocate"],
+    "hebrewExplanation": "allocate = להקצות, לייעד. המועצה הסכימה להקצות יותר תקציב לתחבורה הציבורית — כלומר, לייעד משאבים למטרה ספציפית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-256",
+    "difficulty": "easy",
+    "text": "Judges in a competition must remain [impartial] and evaluate all entries based solely on merit, not personal preference. The word 'impartial' most nearly means:",
+    "choices": [
+      "uncertain and undecided",
+      "fair and unbiased",
+      "strict and inflexible",
+      "enthusiastic and passionate"
+    ],
+    "answer": 1,
+    "explanation": "'Impartial' means treating all sides equally without favoritism. The phrase 'based solely on merit, not personal preference' directly defines what impartial means in this context.",
+    "wrongReasons": [
+      "'Uncertain and undecided' describes hesitation, not fairness; an impartial judge has clear standards, just no personal bias.",
+      "'Strict and inflexible' describes rigidity in applying rules, not the absence of favoritism that impartial conveys.",
+      "'Enthusiastic and passionate' describes emotional involvement, which is actually contrary to the detached fairness impartial requires."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["impartial"],
+    "hebrewExplanation": "impartial = אובייקטיבי, נטול פניות. השופטים צריכים להעריך לפי יכולת בלבד, ללא העדפות אישיות — כלומר, להיות הוגנים ונייטרליים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-257",
+    "difficulty": "easy",
+    "text": "The project was described as [feasible] after engineers confirmed the technology existed and the budget was sufficient. The word 'feasible' most nearly means:",
+    "choices": [
+      "possible and practical to do",
+      "risky and uncertain",
+      "expensive and time-consuming",
+      "widely supported by the public"
+    ],
+    "answer": 2,
+    "explanation": "'Feasible' means something that can realistically be done. The context confirms both the technology and the money exist, removing the obstacles that would make it impossible.",
+    "wrongReasons": [
+      "'Risky and uncertain' suggests doubt, but feasible means the opposite — that success is reasonably achievable.",
+      "'Expensive and time-consuming' might describe challenges, but feasible is about overall possibility, not cost or duration specifically.",
+      "'Widely supported by the public' describes popularity, not practicality; feasible is about whether something can be done, not whether people approve."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["feasible"],
+    "hebrewExplanation": "feasible = ישים, אפשרי לביצוע. לאחר שהמהנדסים אישרו שהטכנולוגיה קיימת והתקציב מספיק, הפרויקט נחשב לישים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-258",
+    "difficulty": "easy",
+    "text": "The journalist was praised for her [articulate] reporting, which explained a complex topic in clear and precise language. The word 'articulate' most nearly means:",
+    "choices": [
+      "confusing and hard to follow",
+      "expressed clearly and effectively",
+      "emotionally charged and persuasive",
+      "unusually long and detailed"
+    ],
+    "answer": 1,
+    "explanation": "'Articulate' means expressing ideas in a clear and well-structured way. The context clues 'clear and precise language' directly describe articulate communication.",
+    "wrongReasons": [
+      "'Confusing and hard to follow' is the opposite of articulate; the passage says the reporting made a complex topic easy to understand.",
+      "'Emotionally charged and persuasive' describes rhetoric or advocacy, not the clarity and precision that articulate emphasizes.",
+      "'Unusually long and detailed' describes quantity, not the quality of expression; articulate is about clarity, not length."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["articulate"],
+    "hebrewExplanation": "articulate = בהיר, מנוסח היטב. הכתבת הוקדשה בזכות הסבר ברור ומדויק של נושא מורכב — כלומר, כתיבתה הייתה ברורה ומנוסחת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-259",
+    "difficulty": "medium",
+    "text": "The documentary sought to [demystify] the scientific process by showing how researchers actually work, step by step. The word 'demystify' most nearly means:",
+    "choices": [
+      "make more confusing and complex",
+      "make something easier to understand by removing mystery",
+      "publicly celebrate an achievement",
+      "challenge accepted scientific theories"
+    ],
+    "answer": 1,
+    "explanation": "'Demystify' means to remove the sense of mystery from something, making it more understandable. The context clue 'showing how researchers actually work, step by step' confirms the goal was to clarify.",
+    "wrongReasons": [
+      "'Make more confusing and complex' is the opposite of demystify; the documentary aimed to simplify, not complicate.",
+      "'Publicly celebrate an achievement' describes recognition, not explanation; demystify is about clarity, not celebration.",
+      "'Challenge accepted scientific theories' implies controversy, whereas demystify means making existing knowledge accessible."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["demystify"],
+    "hebrewExplanation": "demystify = לבהיר, להסיר את המסתורין. הסרט התיעודי ניסה להסביר את תהליך המחקר צעד אחר צעד — כלומר, לגרום לו להיות מובן ופחות מסתורי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-260",
+    "difficulty": "medium",
+    "text": "The activist's speech was designed to [galvanize] the audience into taking immediate action on climate change. The word 'galvanize' most nearly means:",
+    "choices": [
+      "shock or stimulate into action",
+      "calm and reassure",
+      "confuse and mislead",
+      "inform without persuading"
+    ],
+    "answer": 0,
+    "explanation": "'Galvanize' means to stimulate or excite someone into action, often suddenly. The phrase 'taking immediate action' confirms the speech was meant to spur people to act.",
+    "wrongReasons": [
+      "'Calm and reassure' is the opposite of galvanize; a galvanizing speech creates urgency, not comfort.",
+      "'Confuse and mislead' implies deception, whereas galvanize means to motivate through inspiration or urgency.",
+      "'Inform without persuading' is too neutral; galvanize implies a strong motivational effect, not mere information transfer."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["galvanize"],
+    "hebrewExplanation": "galvanize = לעורר, לגרות לפעולה. הנאום של הפעיל נועד לגרות את הקהל לפעולה מיידית — כלומר, לחולל תגובה נמרצת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-261",
+    "difficulty": "medium",
+    "text": "Historians describe the treaty as [seminal] because it established the principles that shaped international law for the next century. The word 'seminal' most nearly means:",
+    "choices": [
+      "widely criticized at the time",
+      "foundational and highly influential",
+      "written in a confusing style",
+      "quickly forgotten after signing"
+    ],
+    "answer": 1,
+    "explanation": "'Seminal' means highly original and influential, forming the basis for future developments. The phrase 'established the principles that shaped international law' shows the treaty had lasting foundational impact.",
+    "wrongReasons": [
+      "'Widely criticized at the time' describes reception, not importance; seminal works can be praised or criticized but are always influential.",
+      "'Written in a confusing style' refers to presentation, not the significance and lasting influence that seminal conveys.",
+      "'Quickly forgotten after signing' is the opposite of seminal; a seminal document shapes subsequent thinking for generations."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["seminal"],
+    "hebrewExplanation": "seminal = יסודי, משפיע ביסודו. האמנה נחשבת יסודית כי היא קבעה את העקרונות שעיצבו את המשפט הבינלאומי — כלומר, הייתה בעלת השפעה מכוננת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-262",
+    "difficulty": "medium",
+    "text": "The professor noted that the student's argument was [cogent], presenting evidence in a logical sequence that was hard to refute. The word 'cogent' most nearly means:",
+    "choices": [
+      "powerfully convincing and logical",
+      "creative but unreliable",
+      "overly emotional and one-sided",
+      "interesting but difficult to follow"
+    ],
+    "answer": 2,
+    "explanation": "'Cogent' describes an argument that is clear, logical, and compelling. The phrase 'hard to refute' confirms the argument was persuasive and well-structured.",
+    "wrongReasons": [
+      "'Creative but unreliable' suggests originality without rigor; cogent specifically emphasizes logical strength and persuasiveness.",
+      "'Overly emotional and one-sided' describes bias or appeal to feeling, whereas cogent reasoning is based on evidence and logic.",
+      "'Interesting but difficult to follow' implies complexity without clarity; cogent arguments are specifically clear and easy to understand."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["cogent"],
+    "hebrewExplanation": "cogent = משכנע, הגיוני וחזק. הטיעון של הסטודנט היה קשה להפרכה כי הוצג בסדר הגיוני — כלומר, היה מבוסס ומשכנע.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-263",
+    "difficulty": "medium",
+    "text": "The board decided to [defer] the vote on the new policy until all members had reviewed the full report. The word 'defer' most nearly means:",
+    "choices": [
+      "cancel permanently",
+      "postpone to a later time",
+      "vote on immediately",
+      "announce publicly"
+    ],
+    "answer": 3,
+    "explanation": "'Defer' means to put off or delay something to a later time. The phrase 'until all members had reviewed the full report' shows the vote was delayed, not cancelled.",
+    "wrongReasons": [
+      "'Cancel permanently' is stronger than defer; to defer means to delay, with the intention of returning to the matter.",
+      "'Vote on immediately' is the opposite of defer; the board explicitly postponed the vote.",
+      "'Announce publicly' describes communication, not the action of delaying a decision that defer conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["defer"],
+    "hebrewExplanation": "defer = לדחות, לעכב. הדירקטוריון החליט לדחות את ההצבעה עד שכל החברים יקראו את הדוח — כלומר, לאחר אותה לזמן מאוחר יותר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-264",
+    "difficulty": "medium",
+    "text": "The company's response to the scandal was seen as [perfunctory]: a brief statement that addressed none of the specific allegations. The word 'perfunctory' most nearly means:",
+    "choices": [
+      "thorough and well-reasoned",
+      "carried out with minimal effort or care",
+      "deliberately evasive and dishonest",
+      "strongly worded and confrontational"
+    ],
+    "answer": 1,
+    "explanation": "'Perfunctory' describes something done as a routine duty with little thought or care. A 'brief statement that addressed none of the allegations' shows the company put in minimal real effort.",
+    "wrongReasons": [
+      "'Thorough and well-reasoned' is the opposite of perfunctory; the passage says the statement failed to address the actual issues.",
+      "'Deliberately evasive and dishonest' implies intent to deceive; perfunctory is about lack of effort, not necessarily dishonesty.",
+      "'Strongly worded and confrontational' describes tone, whereas perfunctory suggests indifference and superficiality."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["perfunctory"],
+    "hebrewExplanation": "perfunctory = שטחי, נעשה ללא מאמץ אמיתי. התגובה הייתה הצהרה קצרה שלא עסקה בטענות — כלומר, נעשתה מן השפה ולחוץ.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-265",
+    "difficulty": "medium",
+    "text": "The researcher was known for her [prolific] output: she published over thirty peer-reviewed articles in a single decade. The word 'prolific' most nearly means:",
+    "choices": [
+      "producing a large amount of work",
+      "writing in a highly technical style",
+      "working slowly but with great precision",
+      "focusing on a narrow range of topics"
+    ],
+    "answer": 0,
+    "explanation": "'Prolific' means producing a great quantity of work. The number 'over thirty peer-reviewed articles in a single decade' clearly illustrates high output.",
+    "wrongReasons": [
+      "'Writing in a highly technical style' describes how something is written, not how much; prolific is about quantity of output.",
+      "'Working slowly but with great precision' implies low volume and high care; prolific specifically emphasizes large volume.",
+      "'Focusing on a narrow range of topics' describes specialization, not productivity; prolific is about volume, regardless of topic range."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["prolific"],
+    "hebrewExplanation": "prolific = פורה, מפרסם הרבה. החוקרת פרסמה יותר מ-30 מאמרים בעשור — כלומר, הייתה פורה ומוצאת כמות גדולה של עבודות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-266",
+    "difficulty": "medium",
+    "text": "The author's latest novel is [lauded] by critics who describe it as a breakthrough in contemporary fiction. The word 'lauded' most nearly means:",
+    "choices": [
+      "ignored by the literary community",
+      "highly praised",
+      "sharply criticized for its themes",
+      "considered commercially disappointing"
+    ],
+    "answer": 1,
+    "explanation": "'Lauded' means praised or celebrated. The word 'breakthrough' and the positive framing of the critics' response confirm the novel received strong admiration.",
+    "wrongReasons": [
+      "'Ignored by the literary community' is the opposite of lauded; critics actively praised the novel, showing engagement, not indifference.",
+      "'Sharply criticized for its themes' is also the opposite; lauded implies approval, not criticism.",
+      "'Considered commercially disappointing' refers to sales, not critical reception; lauded specifically describes praise from critics."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["lauded"],
+    "hebrewExplanation": "lauded = מוחמא, מקבל שבחים. המבקרים מתארים את הרומן כפריצת דרך — כלומר, הוא זכה לשבחים רבים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-267",
+    "difficulty": "medium",
+    "text": "The government agency was criticized for being too [opaque] in its decision-making, leaving citizens unable to understand how policies were chosen. The word 'opaque' most nearly means:",
+    "choices": [
+      "transparent and easy to understand",
+      "not clear or open; difficult to understand",
+      "efficient and well-organized",
+      "biased toward certain groups"
+    ],
+    "answer": 2,
+    "explanation": "'Opaque' means not transparent; hard to understand or see through. 'Leaving citizens unable to understand how policies were chosen' confirms the process was hidden and unclear.",
+    "wrongReasons": [
+      "'Transparent and easy to understand' is the antonym of opaque; transparency is exactly what the agency lacked.",
+      "'Efficient and well-organized' describes process quality, not openness; opaque specifically relates to lack of clarity and visibility.",
+      "'Biased toward certain groups' describes fairness, not the degree of transparency that opaque addresses."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["opaque"],
+    "hebrewExplanation": "opaque = אטום, לא שקוף. הסוכנות הממשלתית לא אפשרה לאזרחים להבין כיצד מתקבלות ההחלטות — כלומר, הייתה חשאית ולא שקופה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-268",
+    "difficulty": "medium",
+    "text": "The chef's new menu was [eclectic], drawing inspiration from Japanese, Moroccan, and Peruvian cuisines simultaneously. The word 'eclectic' most nearly means:",
+    "choices": [
+      "drawing from a wide variety of different sources",
+      "focused on one cultural tradition",
+      "based on traditional local recipes only",
+      "designed to appeal to simple tastes"
+    ],
+    "answer": 3,
+    "explanation": "'Eclectic' means selecting from or combining a variety of different sources or styles. The list of three very different culinary traditions confirms the mix of influences.",
+    "wrongReasons": [
+      "'Focused on one cultural tradition' is the opposite of eclectic; the menu deliberately combined multiple traditions.",
+      "'Based on traditional local recipes only' implies exclusivity, whereas eclectic is defined by its wide, diverse range of influences.",
+      "'Designed to appeal to simple tastes' describes the audience, not the approach; eclectic refers to the diversity of sources, not simplicity."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["eclectic"],
+    "hebrewExplanation": "eclectic = אקלקטי, שואב ממקורות מגוונים. התפריט שאב השראה מיפן, מרוקו ופרו בו-זמנית — כלומר, היה שילוב של סגנונות שונים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-269",
+    "difficulty": "medium",
+    "text": "The charity's report showed that aid was [equitably] distributed among all communities, with no group receiving more than its fair share. The word 'equitably' most nearly means:",
+    "choices": [
+      "rapidly and efficiently",
+      "in a fair and just manner",
+      "according to population size only",
+      "based on political priority"
+    ],
+    "answer": 1,
+    "explanation": "'Equitably' means in a way that is fair and just to all parties. The phrase 'no group receiving more than its fair share' directly illustrates equitable distribution.",
+    "wrongReasons": [
+      "'Rapidly and efficiently' describes speed and quality of process, not fairness; equitably is specifically about justice in distribution.",
+      "'According to population size only' is one possible method but does not capture the full meaning of fairness that equitably conveys.",
+      "'Based on political priority' suggests favoritism, which is the opposite of equitable treatment."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["equitably"],
+    "hebrewExplanation": "equitably = בצורה הוגנת, בשוויון. הדוח הראה שהסיוע חולק בצורה שווה בין כל הקהילות — כלומר, ביושר וללא העדפה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-270",
+    "difficulty": "medium",
+    "text": "The administration's plan to cut arts funding was met with [vehement] opposition from teachers, parents, and community leaders alike. The word 'vehement' most nearly means:",
+    "choices": [
+      "quiet and polite",
+      "intense and passionate",
+      "organized and methodical",
+      "unexpected and surprising"
+    ],
+    "answer": 0,
+    "explanation": "'Vehement' means showing strong feeling; forceful and passionate. The wide coalition of opposition groups signals the strength and intensity of the reaction.",
+    "wrongReasons": [
+      "'Quiet and polite' is the opposite of vehement; the opposition was intense and broad, not restrained.",
+      "'Organized and methodical' describes how opposition is structured, not its emotional intensity; vehement emphasizes passion and force.",
+      "'Unexpected and surprising' describes the nature of the reaction, not its intensity; vehement focuses on strength of feeling."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["vehement"],
+    "hebrewExplanation": "vehement = נלהב, עז. ההתנגדות לתוכנית הייתה עזה ומגיעה ממורים, הורים ומנהיגי קהילה — כלומר, הייתה עוצמתית ומלאת תשוקה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-271",
+    "difficulty": "medium",
+    "text": "The scientist's hypothesis was considered [plausible] because it was consistent with existing data and could logically explain the observed phenomena. The word 'plausible' most nearly means:",
+    "choices": [
+      "impossible to test",
+      "seeming reasonable or probable",
+      "proven beyond any doubt",
+      "accepted by all researchers"
+    ],
+    "answer": 1,
+    "explanation": "'Plausible' means appearing to be reasonable or likely, even if not yet proven. 'Consistent with existing data' and 'could logically explain' confirm the hypothesis was believable.",
+    "wrongReasons": [
+      "'Impossible to test' describes a different problem; plausible is about believability, not testability.",
+      "'Proven beyond any doubt' overstates plausible; plausible means reasonable but not yet confirmed as fact.",
+      "'Accepted by all researchers' describes consensus, whereas plausible simply means appearing credible, not universally agreed upon."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["plausible"],
+    "hebrewExplanation": "plausible = סביר, אפשרי להאמין בו. ההיפותזה תאמה נתונים קיימים והסבירה את התופעות באופן הגיוני — כלומר, נראתה סבירה ומשכנעת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-272",
+    "difficulty": "medium",
+    "text": "The two negotiating parties agreed to [arbitrate] their contract dispute rather than go to court. The word 'arbitrate' most nearly means:",
+    "choices": [
+      "publicly protest a decision",
+      "resolve a dispute through a neutral third party",
+      "sign an agreement without conditions",
+      "delay a resolution indefinitely"
+    ],
+    "answer": 2,
+    "explanation": "'Arbitrate' means to settle a dispute by referring it to an impartial third party whose decision both sides accept. The alternative of going to court shows that arbitration is a different, less formal resolution path.",
+    "wrongReasons": [
+      "'Publicly protest a decision' describes an adversarial action, whereas arbitration is a cooperative process aimed at resolution.",
+      "'Sign an agreement without conditions' describes a final outcome, not the process of arbitration which involves neutral judgment.",
+      "'Delay a resolution indefinitely' is the opposite of what arbitration achieves; arbitration is specifically meant to reach a conclusion."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["arbitrate"],
+    "hebrewExplanation": "arbitrate = לבוא לבוררות, ליישב סכסוך בפני צד שלישי נייטרלי. הצדדים העדיפו בוררות על פני בית משפט — כלומר, ויתרו על הסכסוך לצד שלישי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-273",
+    "difficulty": "medium",
+    "text": "The community center was [renovated] to include wheelchair-accessible entrances and updated facilities for all residents. The word 'renovated' most nearly means:",
+    "choices": [
+      "demolished and rebuilt from scratch",
+      "repaired and improved",
+      "temporarily closed for safety reasons",
+      "sold to a private developer"
+    ],
+    "answer": 3,
+    "explanation": "'Renovated' means repaired, updated, and improved while preserving the original structure. Adding accessible entrances and updated facilities shows improvement, not demolition.",
+    "wrongReasons": [
+      "'Demolished and rebuilt from scratch' describes starting over; renovated means improving an existing structure, not replacing it.",
+      "'Temporarily closed for safety reasons' describes a precautionary measure, not the active improvement work that renovated implies.",
+      "'Sold to a private developer' describes a change of ownership, not the physical improvement that renovation involves."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["renovated"],
+    "hebrewExplanation": "renovated = שופץ, עודכן ושוקם. מרכז הקהילה עודכן עם כניסות נגישות ומתקנים מחודשים — כלומר, עבר שיפוץ ושיפור.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-274",
+    "difficulty": "medium",
+    "text": "The professor's lecture style was [engaging], keeping students curious and attentive throughout every session. The word 'engaging' most nearly means:",
+    "choices": [
+      "overly demanding and difficult",
+      "attracting and holding interest",
+      "very brief and to the point",
+      "focused only on practical skills"
+    ],
+    "answer": 1,
+    "explanation": "'Engaging' means interesting enough to hold someone's attention. 'Keeping students curious and attentive throughout' directly shows that the lectures captured and held interest.",
+    "wrongReasons": [
+      "'Overly demanding and difficult' describes rigor, not the ability to attract attention; engaging is about interest, not difficulty.",
+      "'Very brief and to the point' describes length or conciseness, not the ability to maintain attention that engaging implies.",
+      "'Focused only on practical skills' describes content scope, not the captivating quality that engaging refers to."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["engaging"],
+    "hebrewExplanation": "engaging = מרתק, שמושך ושומר על עניין. הסגנון של הפרופסור שמר על תשומת הלב של הסטודנטים — כלומר, היה מעניין ומרתק.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-275",
+    "difficulty": "medium",
+    "text": "The startup's early success was attributed to its [agile] approach: teams could change direction quickly when new market data emerged. The word 'agile' most nearly means:",
+    "choices": [
+      "able to move and adapt quickly",
+      "technologically advanced",
+      "financially conservative",
+      "highly secretive about its methods"
+    ],
+    "answer": 0,
+    "explanation": "'Agile' means able to move or respond quickly and easily. 'Change direction quickly when new market data emerged' is the definition of agility in a business context.",
+    "wrongReasons": [
+      "'Technologically advanced' describes innovation, not the speed and flexibility of response that agile specifically means.",
+      "'Financially conservative' describes risk management, not the quick adaptability that agile implies.",
+      "'Highly secretive about its methods' describes secrecy, whereas agile is about flexibility and responsiveness."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["agile"],
+    "hebrewExplanation": "agile = זריז, גמיש ומגיב מהר. הצוותות יכלו לשנות כיוון במהירות כשנתונים חדשים הגיעו — כלומר, הם פעלו בגמישות ובזריזות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-276",
+    "difficulty": "medium",
+    "text": "The hospital introduced [stringent] hygiene protocols after an outbreak of infections in the surgical ward. The word 'stringent' most nearly means:",
+    "choices": [
+      "simple and easy to follow",
+      "strictly enforced and demanding",
+      "experimentally designed",
+      "slowly implemented over time"
+    ],
+    "answer": 1,
+    "explanation": "'Stringent' means extremely strict or demanding. After an infection outbreak, rigorous hygiene rules that are firmly enforced would be the natural response.",
+    "wrongReasons": [
+      "'Simple and easy to follow' is the opposite of stringent; stringent protocols are demanding, not relaxed.",
+      "'Experimentally designed' suggests the protocols were untested; stringent is about the level of strictness, not the design method.",
+      "'Slowly implemented over time' describes pace, not the demanding nature that stringent conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["stringent"],
+    "hebrewExplanation": "stringent = קפדני, מחמיר. לאחר פרוץ זיהומים, הוחדרו פרוטוקולי היגיינה מחמירים — כלומר, כללים קפדניים שנאכפים בתקיפות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-277",
+    "difficulty": "medium",
+    "text": "The documentary [corroborated] the whistleblower's account by presenting internal emails that confirmed every key claim she had made. The word 'corroborated' most nearly means:",
+    "choices": [
+      "questioned or contradicted",
+      "provided support or confirmation for",
+      "simplified for a general audience",
+      "replaced with a more reliable source"
+    ],
+    "answer": 1,
+    "explanation": "'Corroborated' means confirmed or supported with additional evidence. The internal emails 'confirmed every key claim,' which is exactly what corroboration does.",
+    "wrongReasons": [
+      "'Questioned or contradicted' is the opposite of corroborated; the emails supported, not undermined, the whistleblower's account.",
+      "'Simplified for a general audience' describes communication style, not the function of confirming factual claims.",
+      "'Replaced with a more reliable source' implies dismissal of the original account; corroborated means the account was supported, not replaced."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["corroborated"],
+    "hebrewExplanation": "corroborated = אוששה, חיזקה. הסרט אישר את טענות המוסרת בעזרת מיילים פנימיים — כלומר, סיפק ראיות לתמיכה בגרסתה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-278",
+    "difficulty": "medium",
+    "text": "The new law was criticized as [punitive] because it imposed severe financial penalties on small business owners who made minor accounting errors. The word 'punitive' most nearly means:",
+    "choices": [
+      "intended as a reward for good behavior",
+      "focused on rehabilitation",
+      "inflicting harsh punishment",
+      "designed to educate offenders"
+    ],
+    "answer": 2,
+    "explanation": "'Punitive' means intended to punish, often harshly. 'Severe financial penalties' for 'minor errors' shows the response was disproportionate and punishing in nature.",
+    "wrongReasons": [
+      "'Intended as a reward for good behavior' is the opposite of punitive; the law imposed penalties, not benefits.",
+      "'Focused on rehabilitation' describes a corrective or restorative approach; punitive is specifically about punishment, not reform.",
+      "'Designed to educate offenders' implies a corrective purpose; punitive measures are about penalty, not instruction."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["punitive"],
+    "hebrewExplanation": "punitive = עונשי, מיועד להענשה. החוק הטיל עונשים כספיים חמורים על שגיאות קלות — כלומר, נועד להעניש ולא לתקן.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-279",
+    "difficulty": "medium",
+    "text": "The team leader tried to [mediate] between the two departments that had been disputing over shared resources. The word 'mediate' most nearly means:",
+    "choices": [
+      "take one side in a disagreement",
+      "help opposing parties reach an agreement",
+      "publicly expose the source of a conflict",
+      "ignore the conflict until it resolves itself"
+    ],
+    "answer": 3,
+    "explanation": "'Mediate' means to intervene between two conflicting parties to help them reach a resolution. The team leader was acting as a neutral intermediary between the departments.",
+    "wrongReasons": [
+      "'Take one side in a disagreement' describes advocacy or bias, not the neutral role of a mediator.",
+      "'Publicly expose the source of a conflict' describes disclosure, not the resolution-focused process of mediation.",
+      "'Ignore the conflict until it resolves itself' is the opposite of mediate; to mediate is to actively intervene."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["mediate"],
+    "hebrewExplanation": "mediate = לתווך, לסייע ליישוב הסכסוך. מנהיג הצוות ניסה לתווך בין שני המחלקות שנחלקו על משאבים — כלומר, לסייע להגיע להסכמה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-280",
+    "difficulty": "medium",
+    "text": "The committee sought to [standardize] the testing procedures so that results from different schools could be meaningfully compared. The word 'standardize' most nearly means:",
+    "choices": [
+      "make more complex and specialized",
+      "make uniform and consistent according to a set standard",
+      "reduce the number of tests given",
+      "allow each school to choose its own method"
+    ],
+    "answer": 1,
+    "explanation": "'Standardize' means to make things conform to a common standard so they are consistent and comparable. The goal of comparing results across schools requires the same procedures everywhere.",
+    "wrongReasons": [
+      "'Make more complex and specialized' is contrary to standardization, which simplifies by creating a single common approach.",
+      "'Reduce the number of tests given' describes frequency, not the uniformity that standardize conveys.",
+      "'Allow each school to choose its own method' is the opposite of standardizing; standardization eliminates variation, not encourages it."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["standardize"],
+    "hebrewExplanation": "standardize = לאחד, לקבוע תקן אחיד. הוועדה ביקשה לאחד את נוהלי הבחינה כדי שניתן יהיה להשוות תוצאות — כלומר, להחיל אמת מידה אחת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-281",
+    "difficulty": "medium",
+    "text": "The athlete's [tenacious] refusal to give up, even after two serious injuries, won the admiration of fans and coaches alike. The word 'tenacious' most nearly means:",
+    "choices": [
+      "physically gifted and naturally talented",
+      "reckless and overconfident",
+      "determined and not easily stopped",
+      "emotionally unstable under pressure"
+    ],
+    "answer": 2,
+    "explanation": "'Tenacious' means holding firm and refusing to give up despite difficulties. 'Refusal to give up after two serious injuries' perfectly captures tenacity.",
+    "wrongReasons": [
+      "'Physically gifted and naturally talented' describes innate ability, not the persistent effort that tenacious emphasizes.",
+      "'Reckless and overconfident' suggests poor judgment; tenacious is about determination, not risk-taking.",
+      "'Emotionally unstable under pressure' is the opposite of tenacious; tenacity involves staying strong and committed under challenge."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["tenacious"],
+    "hebrewExplanation": "tenacious = עיקש, נחוש ובעל התמדה. הספורטאי לא ויתר גם לאחר שתי פציעות — כלומר, הוא היה עיקש ובעל רצון ברזל.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-282",
+    "difficulty": "medium",
+    "text": "The policy's [implications] were far-reaching: economists predicted it would affect housing prices, employment rates, and consumer spending. The word 'implications' most nearly means:",
+    "choices": [
+      "possible consequences or effects",
+      "written explanations of a policy",
+      "legal requirements attached to a law",
+      "public opinions about a policy"
+    ],
+    "answer": 3,
+    "explanation": "'Implications' are the possible effects or consequences that follow indirectly from something. The wide range of economic effects predicted shows the policy's broad indirect consequences.",
+    "wrongReasons": [
+      "'Written explanations of a policy' describes documentation, not the downstream effects that implications refers to.",
+      "'Legal requirements attached to a law' describes mandates, not the indirect consequences that implications conveys.",
+      "'Public opinions about a policy' describes reception or attitudes, not the actual effects or consequences implied."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["implications"],
+    "hebrewExplanation": "implications = השלכות, תוצאות עקיפות. כלכלנים חזו שהמדיניות תשפיע על מחירי הדיור, התעסוקה וההוצאה — כלומר, היו לה השלכות נרחבות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-283",
+    "difficulty": "medium",
+    "text": "The architect's design was praised for its [innovative] use of recycled materials, which had never before been applied in large-scale public buildings. The word 'innovative' most nearly means:",
+    "choices": [
+      "introducing new ideas or methods",
+      "returning to older, proven methods",
+      "extremely expensive and exclusive",
+      "carefully following existing guidelines"
+    ],
+    "answer": 0,
+    "explanation": "'Innovative' means introducing new, original ideas or approaches. 'Never before been applied' confirms the design was a first, which is the hallmark of innovation.",
+    "wrongReasons": [
+      "'Returning to older, proven methods' is the opposite of innovative; innovation involves what is new, not what is traditional.",
+      "'Extremely expensive and exclusive' describes cost or access, not the originality and novelty that innovative conveys.",
+      "'Carefully following existing guidelines' implies conformity, whereas innovative means departing from established practices."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["innovative"],
+    "hebrewExplanation": "innovative = חדשני, מביא רעיונות חדשים. השימוש בחומרים ממוחזרים לא נוסה קודם לכן — כלומר, הגישה הייתה חדשנית ומקורית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-284",
+    "difficulty": "medium",
+    "text": "The committee's decision to close the park was [contentious], with residents, environmentalists, and business owners all expressing conflicting views. The word 'contentious' most nearly means:",
+    "choices": [
+      "causing disagreement and dispute",
+      "easily resolved through compromise",
+      "supported by an overwhelming majority",
+      "made without proper consultation"
+    ],
+    "answer": 0,
+    "explanation": "'Contentious' means causing or likely to cause disagreement or controversy. Multiple groups with 'conflicting views' is the clearest sign of a contentious decision.",
+    "wrongReasons": [
+      "'Easily resolved through compromise' is the opposite of contentious; contentious issues are difficult to resolve because of strong disagreements.",
+      "'Supported by an overwhelming majority' suggests consensus, whereas contentious implies divided opinion.",
+      "'Made without proper consultation' describes process, not the controversy that contentious specifically refers to."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["contentious"],
+    "hebrewExplanation": "contentious = שנוי במחלוקת. ההחלטה עוררה עימותים בין תושבים, סביבתנים ובעלי עסקים — כלומר, הייתה מחלוקת גדולה סביבה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-285",
+    "difficulty": "hard",
+    "text": "The philosopher argued that the apparent conflict between free will and determinism was merely [specious], since careful analysis reveals the two concepts are compatible. The word 'specious' most nearly means:",
+    "choices": [
+      "superficially plausible but actually misleading",
+      "deeply rooted in philosophical tradition",
+      "impossible to resolve through analysis",
+      "widely accepted without question"
+    ],
+    "answer": 0,
+    "explanation": "'Specious' means appearing correct or logical on the surface but actually being false or misleading. The argument is that the conflict looks real but dissolves under careful scrutiny.",
+    "wrongReasons": [
+      "'Deeply rooted in philosophical tradition' describes historical significance, not the deceptive surface appearance that specious conveys.",
+      "'Impossible to resolve through analysis' contradicts the passage, which says careful analysis reveals compatibility.",
+      "'Widely accepted without question' describes consensus, not the misleading appearance that specious specifically means."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["specious"],
+    "hebrewExplanation": "specious = מוטעה לכאורה, נראה נכון אך מטעה. הפילוסוף טען שהסתירה בין רצון חופשי לדטרמיניזם היא רק כביכולית — כלומר, מטעה אך לא אמיתית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-286",
+    "difficulty": "hard",
+    "text": "Critics accused the politician of [dissembling] when she claimed ignorance about the contract, despite internal documents showing she had signed off on every stage. The word 'dissembling' most nearly means:",
+    "choices": [
+      "acting confused to avoid blame",
+      "concealing true motives by false appearances",
+      "refusing to answer direct questions",
+      "openly contradicting her earlier statements"
+    ],
+    "answer": 1,
+    "explanation": "'Dissembling' means concealing one's true intentions, feelings, or motives by pretending otherwise. Claiming ignorance while having signed the documents is a classic example of dissembling.",
+    "wrongReasons": [
+      "'Acting confused to avoid blame' is a partial description but misses the deliberate deception that dissembling specifically requires.",
+      "'Refusing to answer direct questions' describes evasion, not the active false pretense that dissembling involves.",
+      "'Openly contradicting her earlier statements' describes inconsistency, not the deliberate concealment of true motives that dissembling means."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["dissembling"],
+    "hebrewExplanation": "dissembling = הסוואה, הצגת מראית עין שקרית. הפוליטיקאית טענה בורות למרות שחתמה על כל שלב — כלומר, הסתירה את כוונותיה האמיתיות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-287",
+    "difficulty": "hard",
+    "text": "The economist warned that relying on a single export commodity made the country's growth [precarious], vulnerable to any shift in global prices. The word 'precarious' most nearly means:",
+    "choices": [
+      "dependent on external investment",
+      "characterized by stability and predictability",
+      "dangerously uncertain and insecure",
+      "growing at an unsustainably fast rate"
+    ],
+    "answer": 2,
+    "explanation": "'Precarious' means dependent on uncertain conditions and therefore likely to become unstable. 'Vulnerable to any shift in global prices' shows the growth could collapse easily.",
+    "wrongReasons": [
+      "'Dependent on external investment' describes a financial structure but misses the instability and risk that precarious conveys.",
+      "'Characterized by stability and predictability' is the opposite of precarious; vulnerability to price shifts is inherently unstable.",
+      "'Growing at an unsustainably fast rate' describes speed, not the dangerous uncertainty and insecurity that precarious means."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["precarious"],
+    "hebrewExplanation": "precarious = רעוע, לא יציב ומסוכן. הכלכלן אזהיר שהסתמכות על סחורה אחת הופכת את הצמיחה לרעועה — כלומר, פגיעה ולא יציבה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-288",
+    "difficulty": "hard",
+    "text": "The sociologist described the persistent wage gap not as an accident but as [systemic], embedded in hiring practices, performance evaluation, and promotion criteria across industries. The word 'systemic' most nearly means:",
+    "choices": [
+      "affecting only a small number of companies",
+      "spread throughout an entire system or structure",
+      "caused by individual acts of discrimination only",
+      "recently introduced into the workplace"
+    ],
+    "answer": 3,
+    "explanation": "'Systemic' means relating to or affecting the whole system rather than individual parts. The list of multiple interconnected processes — hiring, evaluation, promotion — across industries confirms the gap is built into the entire structure.",
+    "wrongReasons": [
+      "'Affecting only a small number of companies' is the opposite of systemic; systemic problems are widespread, not isolated.",
+      "'Caused by individual acts of discrimination only' is too narrow; systemic issues are structural, not limited to individual behavior.",
+      "'Recently introduced into the workplace' describes timing, not the pervasive, embedded nature that systemic conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["systemic"],
+    "hebrewExplanation": "systemic = מערכתי, חודר לכל המבנה. פער השכר קיים בתהליכי גיוס, הערכה וקידום בכל הענפים — כלומר, הוא מובנה במערכת כולה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-289",
+    "difficulty": "hard",
+    "text": "The review board found the minister's explanation to be [disingenuous]: she publicly claimed to support transparency while simultaneously blocking requests for information. The word 'disingenuous' most nearly means:",
+    "choices": [
+      "not sincere; pretending to be honest while concealing true motives",
+      "openly hostile to criticism",
+      "naive and poorly informed about the facts",
+      "technically accurate but emotionally cold"
+    ],
+    "answer": 0,
+    "explanation": "'Disingenuous' means not candid or sincere, pretending to be honest while hiding real motives. Claiming to support transparency while blocking information requests is a direct example.",
+    "wrongReasons": [
+      "'Openly hostile to criticism' describes aggression, not the masked insincerity that disingenuous conveys.",
+      "'Naive and poorly informed about the facts' implies innocent ignorance; disingenuous is deliberate and calculated, not naive.",
+      "'Technically accurate but emotionally cold' describes factual precision without warmth; disingenuous specifically means deceptively insincere."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["disingenuous"],
+    "hebrewExplanation": "disingenuous = לא כן, מסתיר כוונות אמיתיות. השרה הצהירה שהיא בעד שקיפות תוך שהיא חוסמת מידע — כלומר, לא הייתה כנה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-290",
+    "difficulty": "hard",
+    "text": "The historian argued that the movement's collapse was [inexorable] once key leaders were imprisoned and funding dried up. The word 'inexorable' most nearly means:",
+    "choices": [
+      "possible to prevent with the right strategy",
+      "relentless and impossible to stop or alter",
+      "likely to occur but not certain",
+      "gradual and barely noticeable at first"
+    ],
+    "answer": 1,
+    "explanation": "'Inexorable' means impossible to stop or prevent; relentless. The framing 'once key leaders were imprisoned and funding dried up' presents the collapse as an unstoppable chain of events.",
+    "wrongReasons": [
+      "'Possible to prevent with the right strategy' is the opposite of inexorable; the historian implies prevention was not possible.",
+      "'Likely to occur but not certain' understates inexorable; inexorable means certain and unstoppable, not just probable.",
+      "'Gradual and barely noticeable at first' describes pace, not the certainty and unstoppability that inexorable conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["inexorable"],
+    "hebrewExplanation": "inexorable = בלתי נמנע, שלא ניתן לעצור. ההיסטוריון טען שהתמוטטות התנועה הייתה בלתי נמנעת לאחר מאסר המנהיגים — כלומר, תהליך שלא ניתן היה לעצור.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-291",
+    "difficulty": "hard",
+    "text": "The court found the contract clause [unconscionable] because it forced consumers to waive all legal rights in exchange for a service of minimal value. The word 'unconscionable' most nearly means:",
+    "choices": [
+      "difficult to interpret legally",
+      "shockingly unfair or unreasonable",
+      "technically valid but rarely enforced",
+      "designed to protect consumer rights"
+    ],
+    "answer": 2,
+    "explanation": "'Unconscionable' means so unfair or unreasonable that it shocks the conscience. Forcing the waiver of all legal rights for a service of minimal value is an extreme imbalance that courts regard as unconscionable.",
+    "wrongReasons": [
+      "'Difficult to interpret legally' describes ambiguity, not the moral outrageousness that unconscionable conveys.",
+      "'Technically valid but rarely enforced' suggests procedural status, whereas unconscionable means ethically and legally unacceptable.",
+      "'Designed to protect consumer rights' is the opposite of unconscionable; such a clause strips consumers of rights rather than protecting them."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["unconscionable"],
+    "hebrewExplanation": "unconscionable = בלתי קביל מוסרית, מחפיר ובלתי הוגן. סעיף החוזה חייב ויתור על כל הזכויות תמורת שירות מינימלי — כלומר, היה בלתי הוגן עד כדי זעזוע.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-292",
+    "difficulty": "hard",
+    "text": "The diplomat's remarks were carefully [calibrated] to express concern without implying any formal accusation against the foreign government. The word 'calibrated' most nearly means:",
+    "choices": [
+      "delivered in an improvised and spontaneous manner",
+      "precisely adjusted to achieve a specific effect",
+      "translated by professional interpreters",
+      "deliberately vague to confuse the audience"
+    ],
+    "answer": 3,
+    "explanation": "'Calibrated' means precisely measured or adjusted to produce a specific outcome. The diplomat balanced expressing concern against avoiding formal accusation, requiring precise adjustment of language.",
+    "wrongReasons": [
+      "'Delivered in an improvised and spontaneous manner' is the opposite of calibrated; calibrated implies careful, deliberate design.",
+      "'Translated by professional interpreters' describes logistics, not the precise crafting of the message that calibrated implies.",
+      "'Deliberately vague to confuse the audience' describes evasion; calibrated means precisely adjusted, not intentionally confusing."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["calibrated"],
+    "hebrewExplanation": "calibrated = מדוד, מכוון במדויק. הדיפלומט דאג לנסח את דבריו כך שיביעו דאגה מבלי להפנות האשמה — כלומר, התאים אותם בדיוק למטרה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-293",
+    "difficulty": "hard",
+    "text": "The novel's narrative structure is [labyrinthine], with interconnected timelines and dozens of characters whose stories only converge in the final chapter. The word 'labyrinthine' most nearly means:",
+    "choices": [
+      "straightforward and easy to follow",
+      "extremely complex and difficult to navigate",
+      "written in an old-fashioned literary style",
+      "focused on a single central character"
+    ],
+    "answer": 1,
+    "explanation": "'Labyrinthine' means resembling a labyrinth; extremely complex and full of twists. 'Interconnected timelines and dozens of characters' that only resolve at the end describes exactly such complexity.",
+    "wrongReasons": [
+      "'Straightforward and easy to follow' is the opposite of labyrinthine; a labyrinth is defined by confusion and complexity.",
+      "'Written in an old-fashioned literary style' describes period or register, not the structural complexity that labyrinthine conveys.",
+      "'Focused on a single central character' suggests simplicity of focus, whereas labyrinthine implies a sprawling, multi-strand structure."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["labyrinthine"],
+    "hebrewExplanation": "labyrinthine = מבוכי, מסועף ומורכב ביותר. מבנה הרומן כלל לוחות זמנים מקושרים ועשרות דמויות — כלומר, היה מורכב ומסועף כמו מבוך.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-294",
+    "difficulty": "hard",
+    "text": "The think tank's report was accused of being [tendentious] because it consistently framed economic migration as a threat while ignoring evidence of its benefits. The word 'tendentious' most nearly means:",
+    "choices": [
+      "based on confidential government data",
+      "promoting a particular point of view; biased",
+      "written in an overly academic style",
+      "focused on short-term economic effects only"
+    ],
+    "answer": 1,
+    "explanation": "'Tendentious' means promoting a particular cause or point of view, often unfairly. Consistently framing migration as a threat while ignoring contrary evidence shows clear bias.",
+    "wrongReasons": [
+      "'Based on confidential government data' describes sourcing, not the bias that tendentious conveys.",
+      "'Written in an overly academic style' describes presentation, not the one-sided framing that tendentious refers to.",
+      "'Focused on short-term economic effects only' describes scope, not the deliberate bias and advocacy that tendentious implies."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["tendentious"],
+    "hebrewExplanation": "tendentious = נוטה לצד, משוחד לטובת עמדה מסוימת. הדוח הציג הגירה כאיום תוך התעלמות מראיות לתועלת — כלומר, היה מוטה ולא מאוזן.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-295",
+    "difficulty": "hard",
+    "text": "The court ruling [circumscribed] the agency's power by limiting its authority to investigations within state borders only. The word 'circumscribed' most nearly means:",
+    "choices": [
+      "expanded to cover a wider jurisdiction",
+      "restricted within defined limits",
+      "transferred to a different authority",
+      "made subject to annual review"
+    ],
+    "answer": 2,
+    "explanation": "'Circumscribed' means confined within limits; restricted. The ruling drew a boundary — state borders — that the agency could not cross, confining its power.",
+    "wrongReasons": [
+      "'Expanded to cover a wider jurisdiction' is the opposite of circumscribed; the ruling narrowed, not broadened, the agency's authority.",
+      "'Transferred to a different authority' describes reassignment; circumscribed means restricted in place, not moved elsewhere.",
+      "'Made subject to annual review' describes oversight, not the confinement within defined limits that circumscribed conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["circumscribed"],
+    "hebrewExplanation": "circumscribed = מוגבל, כלוא בגבולות מוגדרים. פסיקת בית המשפט הגבילה את סמכות הסוכנות לתחומי המדינה בלבד — כלומר, צמצמה את כוחה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-296",
+    "difficulty": "hard",
+    "text": "The philosopher's concept of justice was [normative], prescribing how society ought to be organized rather than simply describing how it is. The word 'normative' most nearly means:",
+    "choices": [
+      "describing what exists without judgment",
+      "relating to rules or standards about what ought to be",
+      "based on statistical averages across populations",
+      "widely enforced through legal sanctions"
+    ],
+    "answer": 3,
+    "explanation": "'Normative' refers to establishing or relating to a standard or ideal of how things should be. 'Prescribing how society ought to be organized' is the defining feature of normative theory, as opposed to descriptive analysis.",
+    "wrongReasons": [
+      "'Describing what exists without judgment' describes empirical or descriptive analysis, which is the opposite of normative.",
+      "'Based on statistical averages across populations' describes quantitative description, not the prescriptive ideals of normative claims.",
+      "'Widely enforced through legal sanctions' describes the enforcement mechanism, not the prescriptive philosophical nature that normative conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["normative"],
+    "hebrewExplanation": "normative = נורמטיבי, קובע כיצד הדברים צריכים להיות. הפילוסוף עסק בכיצד החברה צריכה להיות מאורגנת, לא כיצד היא מאורגנת בפועל.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-297",
+    "difficulty": "hard",
+    "text": "The prime minister's decision to bypass parliament was widely condemned as [autocratic], concentrating power in a single executive office without checks or oversight. The word 'autocratic' most nearly means:",
+    "choices": [
+      "favoring broad public consultation",
+      "ruling with unlimited personal authority",
+      "based on long-standing legal precedent",
+      "supported by a coalition of political parties"
+    ],
+    "answer": 1,
+    "explanation": "'Autocratic' means relating to a ruler with absolute power who does not allow others to challenge their authority. Bypassing parliament and concentrating power without oversight is autocratic governance.",
+    "wrongReasons": [
+      "'Favoring broad public consultation' is the opposite of autocratic; autocracy excludes public or institutional input.",
+      "'Based on long-standing legal precedent' describes legal legitimacy, whereas autocratic decisions often bypass established legal structures.",
+      "'Supported by a coalition of political parties' describes democratic consensus; autocratic power relies on one person, not a coalition."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["autocratic"],
+    "hebrewExplanation": "autocratic = אוטוקרטי, שולט בכוח בלתי מוגבל. ראש הממשלה עקף את הפרלמנט וריכז את הכוח — כלומר, שלט באופן סמכותני ללא בקרה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-298",
+    "difficulty": "hard",
+    "text": "The scholar argued that many popular assumptions about ancient Rome are [anachronistic], projecting modern values onto a society with an entirely different worldview. The word 'anachronistic' most nearly means:",
+    "choices": [
+      "based on newly discovered archaeological evidence",
+      "out of place in time; applying ideas from one era to another",
+      "overly sympathetic to historical figures",
+      "disputed by the majority of classical scholars"
+    ],
+    "answer": 2,
+    "explanation": "'Anachronistic' means attributing something to a period to which it does not belong. Projecting modern values onto ancient Rome places contemporary ideas in a historical context where they do not belong.",
+    "wrongReasons": [
+      "'Based on newly discovered archaeological evidence' describes sourcing, not the temporal misplacement that anachronistic conveys.",
+      "'Overly sympathetic to historical figures' describes bias in judgment, not the misapplication of time-specific ideas that anachronistic means.",
+      "'Disputed by the majority of classical scholars' describes reception, not the nature of the error that anachronistic specifically refers to."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["anachronistic"],
+    "hebrewExplanation": "anachronistic = אנכרוניסטי, מייחס לתקופה רעיונות שאינם שייכים לה. הטלת ערכים מודרניים על רומא העתיקה — כלומר, שגיאה של עירוב תקופות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-299",
+    "difficulty": "hard",
+    "text": "The legislation was described as [draconian] by civil liberties groups, who argued that its penalties — including ten-year jail terms for minor infractions — were wildly disproportionate. The word 'draconian' most nearly means:",
+    "choices": [
+      "poorly written and full of loopholes",
+      "excessively harsh or severe",
+      "applied inconsistently across regions",
+      "designed without input from legal experts"
+    ],
+    "answer": 3,
+    "explanation": "'Draconian' means excessively harsh, especially in law. Ten-year jail terms for minor infractions illustrates a severity far beyond what is proportionate or reasonable.",
+    "wrongReasons": [
+      "'Poorly written and full of loopholes' describes drafting quality, not the severity of punishment that draconian conveys.",
+      "'Applied inconsistently across regions' describes enforcement problems, not the extreme harshness of the penalties themselves.",
+      "'Designed without input from legal experts' describes process, not the disproportionate severity that makes legislation draconian."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["draconian"],
+    "hebrewExplanation": "draconian = קיצוני, נוקשה ביתר שאת. עונשי מאסר של עשר שנים על עבירות קטנות — כלומר, עונשים חמורים ובלתי פרופורציונליים.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-300",
+    "difficulty": "hard",
+    "text": "The report warned that the regulatory framework had become [ossified], with rules written in the 1980s still governing technologies that did not exist until the 2010s. The word 'ossified' most nearly means:",
+    "choices": [
+      "repeatedly updated to reflect new developments",
+      "too rigid and unable to change or adapt",
+      "highly detailed and technically precise",
+      "supported by strong enforcement mechanisms"
+    ],
+    "answer": 1,
+    "explanation": "'Ossified' means turned rigid or inflexible, like bone; no longer able to develop or change. Rules from the 1980s governing modern technology shows a system frozen in the past.",
+    "wrongReasons": [
+      "'Repeatedly updated to reflect new developments' is the opposite of ossified; an ossified system is precisely one that has failed to update.",
+      "'Highly detailed and technically precise' describes thoroughness, not the rigid stagnation that ossified conveys.",
+      "'Supported by strong enforcement mechanisms' describes implementation, not the inability to adapt that ossified specifically means."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["ossified"],
+    "hebrewExplanation": "ossified = מאובן, קשיח ולא מסוגל להשתנות. כללים מהשנות ה-80 עדיין מסדירים טכנולוגיות מהעשור הקודם — כלומר, המסגרת קפאה ולא הצליחה להתפתח.",
+    "estimatedTimeSeconds": 50
+  }
+]

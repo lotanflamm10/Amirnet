@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-rm-251",
+    "difficulty": "easy",
+    "text": "\"Pharmacists are required to verify that a prescribed drug does not interact dangerously with other medications a patient is taking.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "It is the pharmacist's responsibility to check whether a new prescription could cause harmful reactions with the patient's existing medications.",
+      "Patients must inform pharmacists about all medications they take so that prescriptions can be approved.",
+      "Dangerous drug interactions are caused by pharmacists who fail to read prescriptions carefully.",
+      "Pharmacists are only required to verify drug interactions for elderly patients who take multiple medications."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the core obligation: pharmacists must ensure that a newly prescribed drug does not interact harmfully with the patient's other medications.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "subject-object swap", "explanation": "Option B shifts the responsibility from pharmacists to patients — the original places the duty on pharmacists, not on patients to self-report."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C reverses causation — it blames pharmacists for causing interactions, whereas the original says pharmacists must prevent them."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D limits the requirement to elderly patients only, which is not stated in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הנושא המקורי הוא הרוקח — הוא אחראי לבדיקת האינטראקציות. אפשרויות שגויות מעבירות את האחריות לחולה או מצמצמות את ההיקף לקשישים בלבד.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-252",
+    "difficulty": "easy",
+    "text": "\"Ancient Mesopotamian civilizations developed writing primarily to record commercial transactions and administrative data.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The earliest writing systems in Mesopotamia were invented mainly for religious ceremonies rather than trade.",
+      "Writing in ancient Mesopotamia was used predominantly to document trade and government records.",
+      "Commercial transactions in ancient Mesopotamia required citizens to learn writing independently.",
+      "Mesopotamian administrators discouraged writing because it revealed sensitive financial information."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the original meaning: writing in ancient Mesopotamia was developed mainly to track trade (commercial transactions) and government (administrative) records.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the original by claiming writing was primarily for religious purposes, whereas the original says it was for commercial and administrative use."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the idea of citizens learning writing independently, which is entirely absent from the original."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D claims administrators discouraged writing, the opposite of the original, which says they used it for record-keeping."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה היא שינוי המטרה העיקרית — 'פולחן דתי' לעומת 'מסחר ומינהל'. יש לשמר את מטרת ההמצאה כפי שמוצגת במשפט המקורי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-253",
+    "difficulty": "easy",
+    "text": "\"In game theory, a dominant strategy is one that yields the best outcome for a player regardless of what the other players choose to do.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "A dominant strategy in game theory is the best choice for a player no matter what decisions the other participants make.",
+      "Game theory requires all players to use dominant strategies in order to reach a fair outcome.",
+      "A dominant strategy is effective only when all players cooperate and choose the same option.",
+      "Players who use dominant strategies in game theory always receive higher rewards than any other player."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the definition: a dominant strategy is optimal for a player independent of other players' choices.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B adds the claim that all players must use dominant strategies — the original only defines what a dominant strategy is, not that everyone must use one."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by saying the strategy works only when everyone cooperates, whereas the original says it is best regardless of what others do."},
+      {"choice": 3, "trapType": "overgeneralization", "explanation": "Option D overgeneralizes by claiming users always receive higher rewards than any other player — the original only says the outcome is best for that specific player, not necessarily better than all others."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מגדיר 'אסטרטגיה דומיננטית' — מה שעדיף ללא תלות בבחירות האחרים. הטעות הנפוצה היא הוספת תנאי שיתוף פעולה שאינו קיים בהגדרה המקורית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-254",
+    "difficulty": "easy",
+    "text": "\"Semiotics is the study of signs and symbols and the ways in which they convey meaning within a given culture.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Semiotics examines how signs and symbols communicate meaning in particular cultural contexts.",
+      "Semiotics is a branch of linguistics that focuses exclusively on the written alphabet and its historical development.",
+      "Cultural symbols lose their meaning when studied through semiotics because analysis removes their emotional power.",
+      "Signs and symbols were invented by semioticians to facilitate cross-cultural communication."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately restates the field's focus: semiotics investigates how signs and symbols generate meaning within cultural settings.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows the field to the written alphabet only, whereas the original refers broadly to signs and symbols of all types."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C adds the unsupported claim that analysis removes emotional power — nothing like this appears in the original."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the relationship — semioticians study signs; they did not invent them."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמור על רוחב ההגדרה — 'סימנים וסמלים' הוא מושג רחב הרבה יותר מ'אלפבית כתוב'. צמצום ההיקף הוא מלכודת נפוצה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-255",
+    "difficulty": "easy",
+    "text": "\"Astrophysicists have determined that most of the universe's mass consists of dark matter, which does not emit, absorb, or reflect light.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "According to astrophysicists, dark matter makes up the bulk of the universe's mass and cannot be detected through light.",
+      "Dark matter was recently discovered by astrophysicists and found to emit a faint but measurable glow.",
+      "Astrophysicists believe the universe contains no visible matter, only dark energy and dark matter.",
+      "The majority of the universe's light is produced by dark matter interacting with ordinary matter."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves both key facts: dark matter constitutes most of the universe's mass and is invisible (does not interact with light).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original by claiming dark matter emits a faint glow, whereas the original explicitly states it does not emit light."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C overstates the claim by saying there is no visible matter at all, which goes beyond what the original asserts."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the relationship — dark matter does not produce light; the original says dark matter does not interact with light."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הנקודה המרכזית: החומר האפל מהווה את רוב מסת היקום ואינו ניתן לזיהוי דרך אור. אפשרות שאומרת שהוא פולט אור היא היפוך ישיר של הנאמר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-256",
+    "difficulty": "easy",
+    "text": "\"Behavioral economists argue that people often make irrational financial decisions due to cognitive biases rather than deliberate calculation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Behavioral economists claim that financial irrationality is caused by deliberate choices, not by mental shortcuts.",
+      "According to behavioral economics, cognitive biases frequently lead people to make poor financial choices instead of thinking logically.",
+      "Economists in the behavioral field believe that people are naturally good at financial decision-making when free from bias.",
+      "Cognitive biases were first identified by behavioral economists who studied how people calculate investment returns."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase maintains the original claim: cognitive biases, not rational deliberation, drive many poor financial decisions according to behavioral economists.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A inverts the original — it claims irrationality is caused by deliberate choices, whereas the original says it stems from cognitive biases, not deliberate calculation."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by saying people are naturally good at financial decisions, the opposite of the argument presented."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D adds a specific claim about investment returns that does not appear in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטענה המרכזית: הטיות קוגניטיביות (לא חישוב מכוון) גורמות להחלטות פיננסיות לא רציונליות. היפוך הגורם והתוצאה הוא מלכודת נפוצה כאן.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-257",
+    "difficulty": "easy",
+    "text": "\"In evolutionary biology, natural selection favors traits that enhance an organism's ability to survive and reproduce in its environment.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Natural selection in evolutionary biology promotes characteristics that help organisms live longer and produce offspring.",
+      "Organisms that reproduce more frequently develop new traits through a process called natural selection.",
+      "Natural selection eliminates all organisms that do not adapt to changes in their environment within one generation.",
+      "Evolutionary biologists believe survival is more important than reproduction in determining which traits are selected."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the mechanism: traits that improve survival and reproduction are favored by natural selection.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the direction — high reproduction rates do not create new traits; natural selection favors traits that aid reproduction."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C adds the unsupported claim that elimination happens within one generation, which is not part of the original statement."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D contradicts the original by claiming survival is prioritized over reproduction, whereas the original presents both as equally important."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר את שני המרכיבים: הישרדות ורבייה. ניסוח שמציג רק אחד מהם כחשוב יותר אינו מייצג נאמנה את המשפט המקורי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-258",
+    "difficulty": "easy",
+    "text": "\"Public health campaigns that target entire communities tend to be more cost-effective than individual-focused medical interventions.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Medical interventions aimed at individuals are less expensive per person than community-wide public health programs.",
+      "Community-level public health initiatives are generally a more economical approach than treating people one by one.",
+      "Individual medical care should be replaced entirely by public health campaigns in all healthcare systems.",
+      "Public health campaigns are cost-effective only when they are funded by private organizations rather than governments."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase maintains the comparison: targeting whole communities through public health programs is more cost-effective than individual medical treatment.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A reverses the comparison — it claims individual interventions are cheaper, which is the opposite of what the original states."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C overgeneralizes the original by suggesting individual care should be entirely replaced, which is far stronger than what the original claims."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces a funding condition (private vs. government) that is entirely absent from the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר את הכיוון הנכון של ההשוואה: גישות קהילתיות חסכוניות יותר מגישות פרטניות — לא להיפך.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-259",
+    "difficulty": "medium",
+    "text": "\"The placebo effect occurs when a patient experiences a genuine improvement in symptoms after receiving a treatment with no active medical ingredient, due to their belief in the treatment's efficacy.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "A placebo is a medical substance that contains a low dose of the active ingredient and is used to reduce side effects.",
+      "Patients who believe in a treatment's effectiveness can experience real symptom relief even when the treatment itself is inactive.",
+      "The placebo effect proves that psychological factors are more important than physical treatments in all medical conditions.",
+      "Medical researchers use placebos because they are cheaper to produce than active treatments and produce identical results."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the essence: genuine symptom improvement can result from a patient's belief in a treatment, even when the treatment has no active ingredient.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A defines a placebo as containing a low dose of an active ingredient, which directly contradicts the original, which specifies no active medical ingredient."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C extends the claim to all medical conditions, which is far beyond what the original states — the original describes a phenomenon without making universal claims."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces cost comparison and claims placebos produce identical results to active treatments — neither claim appears in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מגדיר את אפקט הפלצבו: שיפור אמיתי בתסמינים בשל אמונה בטיפול חסר מרכיב פעיל. הרחבה ל'כל המצבים הרפואיים' היא הכללת יתר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-260",
+    "difficulty": "medium",
+    "text": "\"The collapse of the Western Roman Empire in 476 CE is traditionally attributed to a combination of military pressure from Germanic tribes, economic instability, and internal political fragmentation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Historians conventionally explain the fall of the Western Roman Empire in 476 CE as the result of Germanic invasions alone.",
+      "The year 476 CE marked the fall of the Eastern Roman Empire, which historians trace to military and economic crises.",
+      "Multiple interconnected factors — including barbarian military incursions, financial decline, and political division — are the traditional explanation for the Western Roman Empire's end in 476 CE.",
+      "The Western Roman Empire collapsed because its citizens refused to pay taxes, weakening the military and inviting conquest."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase retains all three causal factors (military pressure, economic instability, political fragmentation) and identifies them as the traditional historical explanation.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A reduces the explanation to Germanic invasions alone, omitting the economic and political factors central to the original."},
+      {"choice": 1, "trapType": "subject-object swap", "explanation": "Option B replaces the Western Roman Empire with the Eastern Roman Empire, swapping the subject of the statement entirely."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces tax refusal as a specific cause, which does not appear in the original and is an invented detail."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר את שלושת הגורמים המוזכרים: לחץ צבאי, חוסר יציבות כלכלית ופיצול פוליטי. ניסוח שמצמצם לגורם אחד בלבד אינו מדויק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-261",
+    "difficulty": "medium",
+    "text": "\"Medieval guilds regulated the quality of goods, controlled entry into skilled trades, and set wages in order to protect both craftsmen and consumers.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Medieval guilds operated primarily to protect consumers from craftsmen who produced inferior goods.",
+      "By overseeing product standards, trade membership, and pay rates, medieval guilds served to safeguard artisans as well as the people who bought their products.",
+      "Guilds in the medieval period were government agencies that imposed taxes on craftsmen and regulated foreign trade.",
+      "Medieval craftsmen formed guilds specifically to prevent consumers from organizing and demanding lower prices."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves all three guild functions (quality regulation, trade entry control, wage-setting) and the dual beneficiaries (craftsmen and consumers).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A narrows the purpose to protecting consumers only, omitting the protection of craftsmen that is equally stated in the original."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the false claim that guilds were government agencies that taxed craftsmen and regulated foreign trade — none of this appears in the original."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the relationship by claiming guilds were formed to suppress consumer organizing, which inverts the protective purpose described in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מציין שלוש פונקציות ושני מוטבים. ניסוח שמוציא אחד מהמוטבים (בעלי מלאכה או צרכנים) אינו מדויק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-262",
+    "difficulty": "medium",
+    "text": "\"In semiotics, the relationship between a sign and what it represents is described as arbitrary — there is no inherent connection between the signifier and the signified.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Semiotics holds that signs always resemble the things they represent, which is why meaning is universally shared across cultures.",
+      "According to semiotic theory, the link between a symbol and its meaning is conventional rather than natural — no necessary bond exists between the two.",
+      "The arbitrary nature of signs in semiotics means that language cannot convey any stable meaning across generations.",
+      "Semioticians argue that signifiers determine the meaning of the signified, making cultural change in language impossible."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase restates the arbitrary nature of the sign: the connection between signifier and signified is a matter of convention, not natural necessity.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A directly contradicts the original by claiming signs resemble what they represent, which is the opposite of the arbitrary relationship described."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C overgeneralizes the concept of arbitrariness to mean language cannot convey stable meaning at all — a conclusion not drawn in the original."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces the claim that signifiers determine meaning and that cultural language change is impossible, neither of which is stated in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הרעיון המרכזי: הקשר בין הסימן לבין מה שהוא מייצג הוא שרירותי — לא טבעי. הכללת יתר לכך שאין משמעות יציבה בכלל חורגת הרבה מעבר לנאמר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-263",
+    "difficulty": "medium",
+    "text": "\"The philosophy of mind debate between functionalism and biological naturalism centers on whether mental states are defined by their causal roles or require a specific physical substrate.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Functionalism and biological naturalism both agree that mental states must be implemented in biological tissue to be genuine.",
+      "The central disagreement between functionalism and biological naturalism in philosophy of mind is whether what matters for mental states is their functional role or their physical makeup.",
+      "Philosophy of mind has concluded that mental states are neither functionally nor physically determined, making the debate unresolvable.",
+      "Biological naturalism was developed as a direct response to functionalism in order to disprove the existence of mental states."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the core philosophical dispute: whether mental states are constituted by causal/functional roles (functionalism) or require a specific physical basis (biological naturalism).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A claims both positions agree that mental states require biological tissue — but functionalism denies this, so the two views are not in agreement."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C adds the unsupported conclusion that the debate is unresolvable and that mental states are determined by neither factor — nothing like this appears in the original."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the historical relationship and adds the false goal of disproving mental states, which is not stated in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המחלוקת: האם מצבים מנטליים מוגדרים על פי תפקידם הסיבתי (פונקציונליזם) או שהם דורשים בסיס פיזי ספציפי (נטורליזם ביולוגי)? יש לשמר את מהות הויכוח.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-264",
+    "difficulty": "medium",
+    "text": "\"Comparative religion scholars examine similarities and differences across faith traditions to understand the universal and culturally specific dimensions of religious experience.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Scholars who compare religions aim to demonstrate that all world religions are essentially the same and spring from a single source.",
+      "Comparative religion focuses only on the differences between religious traditions, as similarities are considered irrelevant to academic study.",
+      "By analyzing both shared features and distinctive characteristics across religions, comparative religion scholars seek to understand what is universal and what is culture-specific in religious life.",
+      "Religious experience cannot be studied scientifically, so comparative religion relies on anecdotal evidence from believers."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase retains the dual focus (similarities and differences) and the dual goal (universal versus culturally specific dimensions of religion).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "overgeneralization", "explanation": "Option A overgeneralizes by claiming all religions are essentially the same and share one source — the original only says scholars look for similarities alongside differences."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows the field to differences only, ignoring the equally important similarities mentioned in the original."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D adds the unsupported claim that religious experience cannot be studied scientifically, which is not part of the original sentence."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר את שני הצדדים: גם דמיון וגם שוני. ניסוח שמתמקד רק בשוני (או רק בדמיון) אינו מדויק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-265",
+    "difficulty": "medium",
+    "text": "\"Demographic transition theory describes how societies move from high birth and death rates to low birth and death rates as they industrialize and develop economically.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "According to demographic transition theory, economic and industrial development in a society leads to a shift from high to low rates of both birth and mortality.",
+      "Demographic transition theory argues that low birth rates in industrialized countries cause those societies to experience high death rates.",
+      "Industrialization leads to higher birth and death rates, according to the demographic transition model.",
+      "Demographic transition theory was developed to explain why developing countries have lower birth and death rates than industrialized nations."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the direction of change (high to low for both rates) and the driving force (industrialization and economic development).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B claims low birth rates cause high death rates, which directly contradicts the model's claim that both rates decline together."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C reverses the direction — the theory says industrialization leads to lower rates, not higher ones."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D reverses the relationship by suggesting developing countries have lower rates than industrialized ones, which is the opposite of what the theory describes."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הכיוון חשוב: תיאוריית המעבר הדמוגרפי מסבירה מעבר מרמות גבוהות לרמות נמוכות. כל ניסוח שמציג את ההיפך — שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-266",
+    "difficulty": "medium",
+    "text": "\"Transit-oriented development is an urban planning strategy that concentrates residential and commercial development around public transportation hubs to reduce car dependency.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Transit-oriented development is an urban planning approach that builds homes and businesses near public transport nodes in order to lower reliance on private vehicles.",
+      "Transit-oriented development requires city residents to give up private car ownership as a condition of living near public transportation hubs.",
+      "Urban planners use transit-oriented development to relocate existing businesses away from congested areas toward new suburban centers.",
+      "Public transportation hubs are built near residential areas in transit-oriented development to increase car usage among commuters."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase maintains the strategy (concentrating development near transit hubs) and its goal (reducing car dependency).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B adds the false requirement that residents must give up car ownership — the original describes a planning strategy, not a personal mandate."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the idea of relocating existing businesses to suburban centers, which is not mentioned in the original."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D reverses the goal — the original says the strategy aims to reduce car use, but this option claims it increases car usage."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המטרה המרכזית היא הפחתת התלות ברכב הפרטי — לא הגדלתה. הטעות הנפוצה היא היפוך המטרה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-267",
+    "difficulty": "medium",
+    "text": "\"Climate policy instruments such as carbon taxes and cap-and-trade systems are designed to internalize the environmental costs of greenhouse gas emissions into market prices.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Carbon taxes and cap-and-trade systems were introduced to completely eliminate greenhouse gas emissions from all economic sectors within a decade.",
+      "Climate policy instruments like carbon taxes raise market prices across all goods equally, regardless of their environmental impact.",
+      "Cap-and-trade systems penalize consumers rather than producers for greenhouse gas emissions in order to change buying habits.",
+      "Carbon taxes and cap-and-trade mechanisms aim to make the environmental damage caused by emissions financially visible within market prices."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase captures the purpose of these instruments: incorporating the environmental cost of emissions into market prices (internalization).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "overgeneralization", "explanation": "Option A greatly overstates the goal — the original discusses incorporating costs into prices, not eliminating all emissions within a decade."},
+      {"choice": 1, "trapType": "added info", "explanation": "Option B adds the false claim that prices rise equally for all goods regardless of environmental impact, which is not stated in the original."},
+      {"choice": 2, "trapType": "subject-object swap", "explanation": "Option C swaps the target from producers to consumers, which is not what the original implies."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המושג המרכזי הוא 'הפנמת עלויות סביבתיות למחירי שוק'. הרחבה ל'ביטול פליטות' היא הכללת יתר שאינה נובעת מהמשפט המקורי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-268",
+    "difficulty": "medium",
+    "text": "\"Computational linguistics applies algorithmic and statistical methods to analyze language structure and enable machines to process natural human language.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Computational linguistics uses mathematical and algorithmic tools to study how language works and to allow computers to understand and handle human language.",
+      "Computational linguistics was developed by programmers to teach machines to speak all human languages without any errors.",
+      "Statistical methods in computational linguistics are used exclusively to translate languages, with no application to language analysis.",
+      "Machines trained in computational linguistics methods can fully replicate human language understanding, making human linguists unnecessary."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves both goals: analyzing language structure and enabling machine processing of natural language, using algorithmic and statistical approaches.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "overgeneralization", "explanation": "Option B overstates the goal — the original does not claim machines learn all languages without errors; that is an invented and exaggerated outcome."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C narrows the application to translation only, whereas the original covers both analysis and processing of natural language more broadly."},
+      {"choice": 3, "trapType": "overgeneralization", "explanation": "Option D makes the extreme claim that machines fully replicate human understanding and render human linguists unnecessary, which is not asserted in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר את שני המרכיבים: ניתוח מבנה שפה + עיבוד שפה טבעית על ידי מכונות. הגדרה צרה מדי (רק תרגום) אינה מדויקת.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-269",
+    "difficulty": "medium",
+    "text": "\"Antibiotic resistance develops when bacteria evolve mechanisms that render antibiotics ineffective, often accelerated by the overuse or misuse of these medications.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Antibiotic resistance occurs when patients are allergic to antibiotics, causing the drugs to lose their effect over time.",
+      "The overuse of antibiotics has no scientific link to resistance; resistance develops solely through random bacterial mutation.",
+      "When antibiotics are overused or misused, bacteria can adapt and become immune to them, making the drugs less effective.",
+      "Antibiotic resistance causes doctors to prescribe more antibiotics, which in turn reduces the effectiveness of medications."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase preserves the causal chain: overuse or misuse of antibiotics accelerates the bacterial evolution of resistance, making the drugs ineffective.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "added info", "explanation": "Option A introduces allergic reactions as the cause of resistance, which is not stated in the original and conflates a different medical phenomenon."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original by denying the link between overuse and resistance, whereas the original explicitly states overuse accelerates resistance."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the causal chain — it claims resistance leads to more prescriptions, whereas the original says overuse leads to resistance."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שרשרת הסיבתיות: שימוש יתר/שימוש לרעה → עמידות חיידקים → אנטיביוטיקה פחות יעילה. היפוך הכיוון הוא המלכודת העיקרית כאן.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-270",
+    "difficulty": "medium",
+    "text": "\"The Nash equilibrium, a central concept in game theory, describes a situation in which no player can improve their outcome by unilaterally changing their strategy, given the strategies of all other players.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "In a Nash equilibrium, all players cooperate to choose strategies that maximize the collective outcome for every participant.",
+      "The Nash equilibrium requires players to communicate openly about their strategies before making decisions.",
+      "Nash equilibrium theory predicts that rational players will always reach the most beneficial outcome possible in any game.",
+      "A Nash equilibrium is reached when each player has chosen a strategy such that changing it alone would not lead to a better result for that player."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase maintains the definition: a Nash equilibrium is a state where no individual player benefits from changing their strategy alone, given what others are doing.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "added info", "explanation": "Option A introduces cooperative strategy-building to maximize collective outcomes, which is not part of the Nash equilibrium definition — it is an independent concept."},
+      {"choice": 1, "trapType": "added info", "explanation": "Option B adds the requirement for open communication, which is absent from the original definition."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C overgeneralizes by claiming Nash equilibrium always produces the most beneficial outcome — this is not what the original states; Nash equilibria can be suboptimal."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שיווי המשקל של נאש מוגדר על פי היעדר תמריץ לסטות: אף שחקן לא יכול לשפר את תוצאתו על ידי שינוי אסטרטגיה באופן חד-צדדי. זה לא בהכרח האופטימלי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-271",
+    "difficulty": "medium",
+    "text": "\"Urban heat islands form when cities absorb and retain more solar energy than surrounding rural areas, primarily because built surfaces such as asphalt and concrete replace vegetation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Cities become hotter than rural surroundings because the man-made materials used in construction store more heat than natural vegetation does.",
+      "Urban heat islands are caused by higher levels of greenhouse gas emissions in cities compared to rural areas.",
+      "Rural areas experience more solar energy absorption than cities because vegetation reflects sunlight more efficiently than asphalt.",
+      "City governments create urban heat islands intentionally by removing parks to make room for commercial development."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase maintains the causal explanation: cities are warmer because built surfaces (asphalt, concrete) absorb and retain more solar heat than vegetation does.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B introduces greenhouse gas emissions as the cause, which does not appear in the original — the original focuses on surface material and heat retention."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C reverses the comparison — it claims rural areas absorb more solar energy, which is the opposite of what the original states."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D adds the false claim that city governments deliberately create heat islands, which is entirely invented and not implied in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסיבה המדויקת: חומרי בניה (אספלט, בטון) סופגים וצוברים יותר חום מאשר צמחייה. הכנסת פליטות גזי חממה כגורם אינה מופיעה במשפט המקורי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-272",
+    "difficulty": "medium",
+    "text": "\"Evolutionary biologists use the concept of fitness not to refer to physical strength or health, but to the ability of an organism to survive and reproduce successfully in its specific environment.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "In evolutionary biology, the term 'fitness' means how physically strong and healthy an individual organism is.",
+      "Fitness in evolutionary biology refers to how well an organism can pass on its genes by surviving and reproducing in its habitat.",
+      "Evolutionary biologists believe that physically fit organisms always survive longer than weaker ones in any environment.",
+      "The concept of fitness in evolutionary biology applies only to animals, not to plants or microorganisms."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves the specialized biological meaning: fitness = reproductive success and survival in a specific environment, not physical strength.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A directly contradicts the original by defining fitness as physical strength and health — the exact meaning the original explicitly rejects."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C overgeneralizes by claiming physically fit organisms always survive longer in any environment, which conflates the lay meaning of fitness with the biological definition."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D restricts the concept to animals only, whereas the original makes no such limitation."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מגדיר מחדש מושג מוכר — 'כושר' בביולוגיה לא אומר כוח פיזי, אלא יכולת שרידה ורבייה. ניסוח שמחזיר את המשמעות היומיומית שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-273",
+    "difficulty": "medium",
+    "text": "\"Loss aversion, a key principle of behavioral economics, holds that people feel the pain of losing something more acutely than they feel the pleasure of gaining the same amount.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Behavioral economists have shown that the discomfort of losing something is experienced more intensely than the satisfaction of gaining the equivalent amount.",
+      "Loss aversion in behavioral economics refers to the tendency to avoid making any decisions that might result in financial risk.",
+      "According to behavioral economics, people who experience losses tend to take greater financial risks to recover what they have lost.",
+      "Loss aversion means that people value gains and losses equally, which leads them to make rational financial decisions."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the asymmetry: losing is experienced more painfully than gaining the same amount is experienced as pleasurable.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "overgeneralization", "explanation": "Option B overgeneralizes loss aversion to mean avoiding all financial risk, which is not the definition — it specifically refers to the asymmetric emotional impact of gains and losses."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces risk-taking after loss (a related but separate concept called the 'break-even effect'), which is not part of the original definition."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D directly contradicts the original by claiming people value gains and losses equally, whereas the original says losses feel stronger than equivalent gains."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מניעת הפסד: הכאב שבהפסד חזק יותר מהשמחה שברווח שווה. כל ניסוח שאומר שהאפקט שווה — סותר ישירות את ההגדרה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-274",
+    "difficulty": "medium",
+    "text": "\"Vaccination programs have been particularly effective in reducing childhood mortality because they create both individual immunity and herd immunity within populations.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Vaccination programs reduce childhood deaths effectively because they protect both the vaccinated individual and, indirectly, the broader community.",
+      "Vaccination programs only protect individual children and have no measurable effect on the immunity of communities as a whole.",
+      "Herd immunity is achieved when the majority of children receive vaccinations, eliminating all childhood diseases permanently.",
+      "Childhood mortality decreased after vaccination programs were introduced primarily because of improved nutrition and sanitation, not immunity."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves both mechanisms (individual and herd immunity) and connects them to the reduction of childhood mortality.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows the effect to individual protection only, directly contradicting the original's mention of herd immunity."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C overstates the outcome — the original does not claim all childhood diseases are permanently eliminated."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D attributes the decline in mortality to nutrition and sanitation, replacing the immunological mechanism described in the original with unrelated causes."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר את שני המנגנונים: חסינות פרטנית + חסינות עדר. ניסוח שמוציא את החסינות הקולקטיבית אינו מדויק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-275",
+    "difficulty": "medium",
+    "text": "\"The Crusades, launched from the eleventh century onward, were primarily motivated by the desire to recapture Jerusalem and other sites considered holy by Christians.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Beginning in the eleventh century, Christian military campaigns known as the Crusades were driven mainly by the goal of retaking Jerusalem and other sacred sites.",
+      "The Crusades were economic ventures launched by European merchants in the eleventh century to open trade routes to the Holy Land.",
+      "Jerusalem was the only city targeted during the Crusades, and all other military campaigns of the period had different objectives.",
+      "The Crusades were initiated by Muslim rulers in the eleventh century in response to Christian expansion into the Middle East."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase retains the key elements: starting in the eleventh century, Christian motivation, and the goal of recapturing Jerusalem and other holy sites.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B replaces religious motivation with economic trade-route motivation and specifies merchants rather than crusaders — neither is stated in the original."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C narrows the target to Jerusalem alone, whereas the original includes other holy sites as well."},
+      {"choice": 3, "trapType": "subject-object swap", "explanation": "Option D swaps the initiator — the original says Christian forces launched the Crusades, not Muslim rulers."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר: מי יזם (כוחות נוצריים), מתי (מהמאה ה-11), ולמה (כיבוש מחדש של ירושלים ואתרים קדושים אחרים).",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-276",
+    "difficulty": "medium",
+    "text": "\"Demographers distinguish between population growth driven by natural increase — the excess of births over deaths — and that driven by net migration.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Demographers believe that migration is always a more powerful driver of population growth than natural birth and death rates.",
+      "Natural increase and net migration both reduce population size equally, according to demographic research.",
+      "Population researchers separate population growth into two sources: more births than deaths occurring within a population, and the net movement of people into or out of an area.",
+      "Demography studies only the movement of populations between countries and does not consider birth and death rates."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase accurately captures both drivers of population growth: natural increase (births minus deaths) and net migration.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "added info", "explanation": "Option A adds a comparative judgment that migration is always more powerful — no such ranking is made in the original."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B claims both factors reduce population, which contradicts the original — both are presented as sources of growth, not decline."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D narrows demography to migration only and excludes birth and death rates, directly contradicting the original's dual focus."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שני הגורמים חשובים: גידול טבעי (לידות פחות מוות) + הגירה נטו. ניסוח שמוציא אחד מהם — שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-277",
+    "difficulty": "medium",
+    "text": "\"Sunk cost fallacy occurs when decision-makers continue investing resources in a failing course of action because of the resources already committed, rather than evaluating future prospects objectively.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The sunk cost fallacy describes the error of letting past investments dictate ongoing commitment to a failing endeavor instead of focusing on future outcomes.",
+      "Sunk cost fallacy is a financial term that refers to the practice of hiding past financial losses from investors and stakeholders.",
+      "Decision-makers who commit sunk cost fallacies are those who abandon failing projects too quickly without giving them enough time.",
+      "The sunk cost fallacy only applies to large corporations and government bodies, not to individual decision-makers."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the definition: continuing to invest in a failing endeavor because of past sunk costs rather than objectively assessing future value.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B redefines the term as hiding losses from investors, which is entirely invented and not related to the original definition."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C reverses the behavior described — the original says the fallacy involves over-commitment, not premature abandonment."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D limits the fallacy to corporations and governments, whereas the original refers broadly to decision-makers of all kinds."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות המרכזית: המשך השקעה בגלל השקעות עבר במקום הערכת עתיד אובייקטיבית. הניסוח ההפוך (נטישה מוקדמת) הוא מלכודת ישירה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-278",
+    "difficulty": "medium",
+    "text": "\"Ancient Egyptian religion centered on a complex pantheon of deities, each associated with specific aspects of nature, human activity, or cosmic forces, and their worship was intricately linked to the authority of the pharaoh.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Ancient Egyptians worshipped a small number of gods, each of whom represented a single universal principle that applied equally across all aspects of life.",
+      "In ancient Egyptian religion, a large array of gods governed different domains of nature, human life, and cosmic order, and their veneration was closely tied to royal power.",
+      "The pharaoh of ancient Egypt was considered more powerful than all the gods of the pantheon and used religion as a tool to suppress public worship.",
+      "Ancient Egyptian religious practice was focused primarily on astronomy, with deities serving as symbolic representations of celestial bodies only."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves: a complex multi-deity religion, each deity linked to specific domains, and worship connected to the pharaoh's authority.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A reduces the pantheon to a small number of gods representing universal principles — the original specifies a complex pantheon of many deities with specific associations."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C adds the invented claim that the pharaoh was more powerful than the gods and suppressed worship, which is not in the original."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D limits the function of deities to celestial bodies only, whereas the original says they governed nature, human activity, and cosmic forces broadly."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שלושה מרכיבים: פנתיאון מורכב, כל אל קשור לתחום ספציפי, ופולחן קשור לסמכות הפרעה. ניסוח שמצמצם לגרמי שמים בלבד — לא מדויק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-279",
+    "difficulty": "medium",
+    "text": "\"Zoning laws in urban planning separate land uses into distinct categories — residential, commercial, and industrial — to manage city growth and minimize conflicts between incompatible land uses.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Zoning laws were created by city planners specifically to prevent the expansion of industrial activity into residential neighborhoods.",
+      "Urban planning authorities use zoning laws to encourage businesses and homes to be built in the same areas in order to reduce commuting distances.",
+      "Zoning laws are federal regulations that override local city planning decisions regarding land use classification.",
+      "Urban zoning regulations divide land into residential, commercial, and industrial zones to control how cities develop and to reduce clashes between land uses that do not mix well."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase maintains all elements: the tripartite categorization, the goal of managing growth, and the aim of minimizing conflicts between land uses.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A narrows the purpose to preventing industrial expansion into residential areas only, whereas the original describes a broader system managing all types of land use conflicts."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original — zoning separates uses to reduce conflicts, not mix them together to reduce commuting."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the false claim that zoning laws are federal regulations that override local decisions — the original does not mention any level of government authority."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "חוקי הייעוד מפרידים שימושי קרקע כדי למנוע קונפליקטים — לא כדי לערבב אותם. ניסוח שמציג ערבוב של שימושים הוא היפוך ישיר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-280",
+    "difficulty": "medium",
+    "text": "\"Epidemiological studies establish patterns of disease distribution across populations and identify risk factors, informing the development of targeted public health interventions.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Epidemiology maps how diseases spread through populations and pinpoints contributing risk factors, which guides the creation of focused public health measures.",
+      "Epidemiological studies are used exclusively to develop vaccines and have no role in identifying disease risk factors.",
+      "Public health interventions cause epidemiologists to begin studying disease patterns in the populations they serve.",
+      "Epidemiological research produces results that are too general to be used in designing specific public health programs."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures all three elements: mapping disease distribution, identifying risk factors, and guiding targeted public health interventions.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows epidemiology to vaccine development only and denies its role in risk factor identification, which contradicts the original."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C reverses the relationship — public health interventions are the outcome of epidemiological research, not the cause of it."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D contradicts the original by claiming epidemiological findings are too general to guide specific interventions, whereas the original says they inform targeted ones."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שלושה שלבים: מיפוי דפוסי מחלה → זיהוי גורמי סיכון → הנחיית התערבויות. המחקר הוא הגורם; ההתערבויות הן התוצאה — לא להיפך.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-281",
+    "difficulty": "medium",
+    "text": "\"The Black Death, which swept through Europe between 1347 and 1353, killed an estimated one-third of the continent's population and profoundly disrupted its feudal social structure.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The Black Death was a medieval epidemic that, according to estimates, wiped out roughly a third of Europe's population and fundamentally undermined the feudal order.",
+      "Feudal social structures in Europe collapsed before the Black Death arrived, which is why the epidemic spread so rapidly.",
+      "The Black Death affected all regions of the world equally between 1347 and 1353, killing one-third of the global population.",
+      "European feudal lords used the Black Death crisis to strengthen their social control over the remaining population."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the timeframe, the mortality estimate (one-third), and the social impact (disruption of feudal structure).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the temporal and causal relationship — the original says the plague disrupted feudal structures, not that existing collapse enabled the plague's spread."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C expands the scope from Europe to the entire world, whereas the original is specifically about Europe."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D adds the invented claim that feudal lords used the plague to strengthen control, which is not stated in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ההיקף הגאוגרפי חשוב: המשפט עוסק באירופה בלבד, לא בכל העולם. הרחבת ההיקף לכל כדור הארץ היא שינוי היקף מובהק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-282",
+    "difficulty": "medium",
+    "text": "\"Carbon capture and storage technology aims to prevent greenhouse gas emissions from reaching the atmosphere by capturing CO₂ at the source and injecting it into geological formations underground.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Carbon capture and storage works by intercepting CO₂ emissions at their point of origin and permanently storing them beneath the earth's surface.",
+      "Carbon capture technology removes existing CO₂ from the atmosphere by filtering it through geological formations and converting it into harmless compounds.",
+      "Carbon capture and storage requires governments to ban industrial emissions entirely as a precondition for the technology to be effective.",
+      "Geological formations naturally absorb CO₂ from the atmosphere, which is the principle behind carbon capture and storage."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the mechanism: CO₂ is captured at the emission source and stored in underground geological formations.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B describes atmospheric CO₂ removal rather than source capture — the original specifies capturing emissions at the source before they reach the atmosphere."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces a government ban on emissions as a precondition, which is entirely absent from the original."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the mechanism — it claims geological formations naturally absorb atmospheric CO₂, whereas the original describes an engineered process of capturing and injecting CO₂ at source."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המנגנון: לכידת CO₂ במקור הפליטה + הזרקתו לתצורות גיאולוגיות. שינוי המקור (מ'מקור' ל'אטמוספרה') הוא היפוך ישיר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-283",
+    "difficulty": "medium",
+    "text": "\"Confucianism, a philosophical and ethical tradition originating in ancient China, emphasizes social harmony through hierarchical relationships, ritual propriety, and personal moral cultivation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Confucianism was a political movement in ancient China that sought to overthrow hierarchical social structures and replace them with democratic governance.",
+      "The Confucian tradition holds that social harmony can only be achieved by eliminating all formal hierarchies between people.",
+      "Confucianism is an ancient Chinese tradition focused on achieving social order through structured relationships, ceremonial conduct, and the development of individual virtue.",
+      "Confucianism originated in ancient Japan and was later adopted by Chinese scholars as a framework for government reform."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase preserves all three pillars of Confucianism: hierarchical relationships, ritual propriety, and personal moral cultivation, as well as its origins in ancient China.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the original by claiming Confucianism sought to overthrow hierarchies, whereas the original says it emphasizes hierarchical relationships."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B states that harmony requires eliminating hierarchies, the direct opposite of the original's emphasis on hierarchical relationships as central to harmony."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D incorrectly states that Confucianism originated in ancient Japan, which contradicts the original's clear attribution to ancient China."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שלושת העמודים: יחסים היררכיים, נימוס טקסי, וטיפוח מוסרי אישי. ניסוח שאומר שיש לבטל היררכיות הוא היפוך ישיר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-284",
+    "difficulty": "medium",
+    "text": "\"Overprescription of opioids by physicians, combined with inadequate patient education about addiction risks, contributed significantly to the opioid crisis in North America.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The opioid crisis in North America was caused solely by patients illegally obtaining opioids without prescriptions from physicians.",
+      "The North American opioid crisis was substantially fueled by doctors prescribing opioids excessively and by patients not being sufficiently informed about the dangers of addiction.",
+      "Opioid addiction in North America stems from inadequate pharmaceutical regulation rather than from how opioids were prescribed or explained to patients.",
+      "Physicians overprescribed opioids in North America because patients demanded higher doses and refused to follow medical advice about addiction risks."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures both contributing factors: physician overprescription and insufficient patient education about addiction risks.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A attributes the crisis solely to illegal drug acquisition, ignoring the prescription-based causes described in the original."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C replaces the original's specific causes (overprescription and poor education) with pharmaceutical regulation failure, substituting a different causal explanation."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the causal direction — it blames patients for demanding higher doses, whereas the original attributes the problem to physician behavior and inadequate patient education."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שני גורמים: רשיפה יתרת של אופיואידים + חינוך לא מספיק על סיכוני התמכרות. ניסוח שמייחס את המשבר לגורם שלישי (כגון תנאי רוקחות) מחליף את הסיבות המוצהרות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-285",
+    "difficulty": "hard",
+    "text": "\"Quorum sensing is a process by which bacteria regulate gene expression in response to fluctuations in cell-population density; when a threshold concentration of signaling molecules is reached, coordinated behavioral changes occur across the bacterial colony.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Quorum sensing enables bacteria to alter their gene activity based on how densely packed their population is, triggering collective behavioral shifts once signaling molecules accumulate to a critical level.",
+      "Bacteria use quorum sensing to prevent overcrowding by signaling neighboring cells to stop reproducing once the colony reaches its maximum density.",
+      "Quorum sensing is the process by which bacteria receive instructions from their host organism to modify gene expression in response to immune system signals.",
+      "Once signaling molecules in a bacterial colony fall below a threshold, quorum sensing triggers a coordinated behavioral response across the entire population."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the two-step mechanism: bacteria monitor population density via signaling molecules, and when a threshold is reached, coordinated gene expression changes occur colony-wide.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B introduces the specific behavioral outcome of stopping reproduction, which is one possible example but is not stated in the original — the original describes a general mechanism of coordinated behavior change."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C replaces the internal bacterial signaling mechanism with external instructions from the host organism's immune system, fundamentally altering the source and direction of communication described."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D reverses the threshold condition — the original says behavior changes when molecules reach (not fall below) the threshold concentration."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסף חשוב: ההתנהגות משתנה כשמולקולות האיתות מגיעות לסף — לא כשהן יורדות מתחתיו. היפוך הכיוון הוא מלכודת ישירה.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-286",
+    "difficulty": "hard",
+    "text": "\"The Sapir-Whorf hypothesis, in its strong form, posits that the language a person speaks determines the structure of their thoughts and the categories through which they perceive reality, making cross-linguistic thought translation fundamentally impossible.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The strong version of the Sapir-Whorf hypothesis asserts that one's native language shapes not only vocabulary but also the very cognitive categories through which reality is perceived, so that true conceptual equivalence across languages cannot exist.",
+      "The Sapir-Whorf hypothesis proposes that thought is universal and that language merely provides different words for identical underlying cognitive categories, enabling accurate translation between languages.",
+      "In its strong form, the Sapir-Whorf hypothesis claims that bilingual speakers have more complex thoughts than monolinguals because they can access two different linguistic frameworks simultaneously.",
+      "The Sapir-Whorf hypothesis argues that perceptual reality is constructed entirely by culture rather than language, making language an inaccurate reflection of thought."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves all elements of the strong hypothesis: language determines cognitive categories, shapes perception of reality, and makes conceptual cross-linguistic equivalence impossible.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly contradicts the hypothesis by claiming thought is universal and translation is accurate — the opposite of what the strong Sapir-Whorf hypothesis holds."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the claim about bilingual cognitive complexity, which is not part of the original hypothesis and involves an entirely different concept."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D replaces language with culture as the determinant of perception and demotes language to a mere inaccurate reflection — reversing the causal primacy the hypothesis assigns to language."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ההיפותזה החזקה: שפה → מחשבה → תפיסת מציאות. שפה היא הגורם; מחשבה היא התוצאה. ניסוח שהופך את הכיוון ומעמיד תרבות במקום שפה — שגוי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-287",
+    "difficulty": "hard",
+    "text": "\"Herd immunity thresholds vary by pathogen based on the basic reproduction number (R₀); a pathogen with a higher R₀ requires a greater proportion of the population to be immune before transmission chains can be reliably broken.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Herd immunity can only be achieved through vaccination; natural infection cannot raise immunity levels high enough to break transmission chains for highly contagious pathogens.",
+      "Pathogens with a high R₀ develop resistance to herd immunity more quickly, requiring booster doses to maintain population-level protection.",
+      "All pathogens require the same proportion of immune individuals within a population to achieve herd immunity, regardless of their reproduction numbers.",
+      "The proportion of a population that must be immune to halt a disease's spread depends on how contagious the pathogen is — more transmissible diseases require immunity in a larger share of the population."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase captures the relationship: higher R₀ (more contagious pathogen) → higher herd immunity threshold required to interrupt transmission.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "added info", "explanation": "Option A introduces the vaccination-versus-natural-infection debate, which is not mentioned in the original — the original only discusses the relationship between R₀ and immunity threshold."},
+      {"choice": 1, "trapType": "added info", "explanation": "Option B introduces pathogen resistance to herd immunity and booster requirements, neither of which appears in the original statement."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C directly contradicts the original by claiming all pathogens require the same threshold, whereas the original explicitly states thresholds vary by R₀."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הקשר הליניארי: R₀ גבוה יותר → סף חסינות עדר גבוה יותר. כל ניסוח שאומר שהסף שווה לכל פתוגן — סותר ישירות את המשפט המקורי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-288",
+    "difficulty": "hard",
+    "text": "\"Gravitational lensing occurs when massive objects such as galaxy clusters warp spacetime so severely that light from more distant objects is bent around them, producing distorted, magnified, or multiple images observable from Earth.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Gravitational lensing is observed when a massive object's distortion of spacetime deflects light from objects behind it, causing Earth-based observers to see altered, enlarged, or duplicated images of those background sources.",
+      "Galaxy clusters generate gravitational lensing by emitting powerful beams of light that magnify the appearance of more distant celestial objects when viewed from Earth.",
+      "Gravitational lensing produces identical, undistorted images of distant objects because the curvature of spacetime around massive objects preserves light-path symmetry.",
+      "The gravitational lensing effect is caused by the expansion of the universe stretching light from distant objects, making them appear magnified when observed from Earth."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves all elements: massive objects warp spacetime, light from background sources is bent, and the resulting images appear distorted, magnified, or multiple.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B claims galaxy clusters emit light beams that magnify distant objects — it reverses the mechanism entirely. The clusters do not emit light; they bend existing light through spacetime curvature."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by claiming lensing produces undistorted, identical images, whereas the original says images are distorted, magnified, or multiple."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D attributes lensing to the expansion of the universe stretching light, replacing the correct mechanism (spacetime curvature by massive objects) with an unrelated cosmological process."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המנגנון: עיוות מרחב-זמן על ידי מסה גדולה → כיפוף אור → תמונות מעוותות/מוגדלות/מוכפלות. החלפת הגורם בהתפשטות היקום — שגוי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-289",
+    "difficulty": "hard",
+    "text": "\"The principle of double effect, a concept in moral philosophy, holds that an action causing harm as a foreseen but unintended side effect may be permissible if the harm is proportionate and the primary intention is to achieve a morally good outcome.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Double effect doctrine in ethics allows an action with a harmful side effect to be morally acceptable when the harm was anticipated but not intended, is proportional, and the primary aim is a good outcome.",
+      "The principle of double effect states that any action producing both good and harmful consequences is morally impermissible regardless of the agent's intention.",
+      "Double effect reasoning concludes that intentions are irrelevant to moral evaluation — only the actual outcomes of actions determine their ethical status.",
+      "In moral philosophy, double effect permits harmful actions only when their negative consequences are completely unforeseeable at the time of the decision."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves all four conditions: the harm is foreseen, it is unintended, it is proportionate, and the primary intention is good.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly contradicts the principle by claiming all such actions are impermissible — the original says they may be permissible under certain conditions."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by claiming intentions are irrelevant — the principle is precisely about the role of intention in determining permissibility."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D inverts a key condition — the original says the harm must be foreseen (but unintended), whereas this option says the harm must be unforeseeable, which is the opposite condition."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ארבעה תנאים: הנזק צפוי, לא מכוון, פרופורציונלי, והמטרה העיקרית טובה. ניסוח שאומר שהנזק צריך להיות בלתי צפוי — הופך את אחד התנאים.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-290",
+    "difficulty": "hard",
+    "text": "\"The prisoner's dilemma illustrates a situation in which individually rational decisions produce a collectively suboptimal outcome: both players defect to protect themselves, even though mutual cooperation would have benefited each player more.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "In the prisoner's dilemma, both players always choose to cooperate because they recognize that mutual cooperation produces the best individual outcome.",
+      "The prisoner's dilemma shows that rational decision-making always produces the best collective outcome, since each player optimizes their own results simultaneously.",
+      "The prisoner's dilemma demonstrates how self-interested rational choices by individuals can result in a worse outcome for everyone involved, since both players choose betrayal for self-protection even though cooperating would have been better for each of them.",
+      "Players in the prisoner's dilemma who choose to defect are punished more severely than those who cooperate, which is why defection is ultimately irrational."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase captures the paradox: rational self-interest leads to mutual defection, which is worse for both than the mutual cooperation outcome would have been.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the dilemma's core finding — it claims players cooperate because they recognize cooperation is optimal, whereas the original says they defect despite knowing cooperation would be better."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly inverts the dilemma's lesson — the original shows rational choice produces a suboptimal collective result, not the best one."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces the claim that defectors are punished more severely, which is not part of the original statement and mischaracterizes the payoff structure of the dilemma."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הפרדוקס: רציונליות אישית → בגידה הדדית → תוצאה גרועה מהשיתוף פעולה. ניסוח שאומר שרציונליות מביאה לתוצאה קולקטיבית מיטבית — הופך את הלקח.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-291",
+    "difficulty": "hard",
+    "text": "\"Epigenetic mechanisms allow environmental factors to alter gene expression without changing the underlying DNA sequence, and some of these modifications can be transmitted across generations.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Epigenetics involves processes through which the environment can modify how genes are expressed — not by altering the DNA code itself — and certain such changes may be inherited by future generations.",
+      "Epigenetic research has proven that DNA sequences are constantly being rewritten in response to environmental pressures, and these mutations accumulate across generations.",
+      "Environmental factors in epigenetics alter gene expression by permanently deleting sections of the genome, making the changes irreversible across all subsequent generations.",
+      "Epigenetic modifications can only occur in somatic cells and are never passed on to offspring, since they do not affect the germ line."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves all elements: environmental influence on gene expression, no change to DNA sequence, and potential transgenerational transmission.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original by claiming DNA sequences are rewritten — the original explicitly states the DNA sequence itself does not change."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C compounds two errors: it claims DNA sections are deleted (contradicts 'no sequence change') and that changes are irreversible and universal (overgeneralizes beyond 'some modifications')."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D directly contradicts the original by stating epigenetic modifications are never passed on to offspring, whereas the original says some can be transmitted across generations."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שלושה מרכיבים: (1) הסביבה משנה ביטוי גנים, (2) ללא שינוי רצף ה-DNA, (3) חלק מהשינויים עוברים לדורות הבאים. כל אחד מהם חשוב לשמר.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-292",
+    "difficulty": "hard",
+    "text": "\"The Indo-European language family is reconstructed through the comparative method, which identifies systematic phonological correspondences across languages to infer the features of an unattested common ancestor called Proto-Indo-European.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Linguists reconstruct the Indo-European language family by using systematic sound-pattern comparisons across member languages to deduce the properties of their unrecorded common ancestral language.",
+      "Proto-Indo-European is a language reconstructed from ancient written texts that predate all other Indo-European languages by thousands of years.",
+      "The comparative method in linguistics proves that all human languages descend from a single common ancestor and allows scholars to transcribe Proto-Indo-European in its original form.",
+      "The Indo-European language family was established by discovering a common writing system shared by all member languages before they diverged from one another."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the method (comparative, using systematic phonological correspondences) and the goal (inferring features of the unattested ancestor, Proto-Indo-European).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B claims Proto-Indo-European is reconstructed from ancient written texts, whereas the original states it is unattested — meaning no written records exist."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C overgeneralizes the comparative method to claim it proves all human languages share one ancestor, which goes far beyond the original's claim about the Indo-European family specifically."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D invents the claim of a shared writing system among Indo-European languages, which is not stated in the original and is historically inaccurate."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המפתח: שפת האב הפרוטו-הינדו-אירופאית אינה מתועדת בכתב — היא נבנית מחדש. ניסוח שאומר שהיא מבוססת על טקסטים עתיקים — סותר ישירות את 'unattested'.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-293",
+    "difficulty": "hard",
+    "text": "\"Nudge theory, developed by Thaler and Sunstein, proposes that decision environments can be designed to steer people toward beneficial choices without restricting their options or altering their economic incentives.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Nudge theory argues that the way choices are presented can guide individuals toward better outcomes while preserving their freedom to choose and without changing financial incentives.",
+      "According to Thaler and Sunstein, nudges are compulsory regulatory measures that restrict harmful choices while offering financial rewards for selecting beneficial alternatives.",
+      "Nudge theory holds that economic incentives are the only effective tools for steering human decision-making toward socially beneficial outcomes.",
+      "Thaler and Sunstein propose that people naturally make beneficial choices when their decision environments are unrestricted, making external design interventions unnecessary."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the core of nudge theory: designing choice environments to promote beneficial choices while preserving freedom (no restrictions) and without altering economic incentives.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the theory by describing nudges as compulsory restrictions with financial rewards — the original explicitly says nudges neither restrict options nor alter economic incentives."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C claims only economic incentives work, directly contradicting nudge theory's premise that beneficial choices can be encouraged without changing incentives."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D contradicts the original by claiming external design is unnecessary, whereas nudge theory is precisely about intentional environmental design to improve choices."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המאפיינים המרכזיים של nudge: (1) עיצוב סביבת בחירה, (2) ללא הגבלת אפשרויות, (3) ללא שינוי תמריצים כלכליים. ניסוח שכולל הגבלה כפויה או תגמול כספי — סותר את ההגדרה.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-294",
+    "difficulty": "hard",
+    "text": "\"The theory of multiple realizability in philosophy of mind holds that a mental state can be realized by different physical substrates across species or even within the same individual at different times, which poses a challenge to strict type-identity theories.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Multiple realizability argues that the same mental state can be implemented in diverse physical substrates — across different species or at different moments within one organism — creating a problem for theories that equate each mental state with a single physical type.",
+      "Multiple realizability proves that mental states are entirely independent of physical substrates and can exist without any material implementation.",
+      "Type-identity theory is supported by multiple realizability because both approaches conclude that mental states are identical across all species regardless of their neural structure.",
+      "Multiple realizability claims that different individuals always have different mental states because their brain structures are physically distinct from one another."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves: (1) the same mental state realized by different physical substrates, (2) across species or across time within an individual, (3) this poses a problem for type-identity theories.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "overgeneralization", "explanation": "Option B overgeneralizes by claiming mental states are completely independent of physical substrates — multiple realizability says they can be realized by different substrates, not that they have no physical basis at all."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C directly contradicts the original — multiple realizability challenges type-identity theory; it does not support it."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D inverts the logic — multiple realizability concerns the same mental state in different physical systems, not different mental states arising from different brain structures."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הרעיון: אותו מצב מנטלי יכול להתממש בצורות פיזיות שונות — זה מאתגר את תיאוריית הזהות. ניסוח שאומר שהתיאוריה תומכת בזהות סוגים — הפוך.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-295",
+    "difficulty": "hard",
+    "text": "\"In stellar evolution, low-mass stars like the Sun eventually exhaust their hydrogen fuel, expand into red giants, and then shed their outer layers to form a planetary nebula, leaving behind a dense white dwarf.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Low-mass stars such as the Sun follow an evolutionary path in which hydrogen depletion triggers expansion into a red giant phase, after which the star ejects its outer layers to become a planetary nebula, with a compact white dwarf remaining at the center.",
+      "Stars like the Sun eventually run out of hydrogen fuel and collapse directly into a dense neutron star or black hole without passing through a red giant or planetary nebula phase.",
+      "All stars, regardless of mass, evolve from red giants into planetary nebulae and then into white dwarfs once their hydrogen is exhausted.",
+      "The planetary nebula stage in stellar evolution causes low-mass stars to reignite hydrogen fusion in their outer layers, temporarily restoring them to their main-sequence state."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the full evolutionary sequence: hydrogen exhaustion → red giant → planetary nebula → white dwarf, specific to low-mass stars like the Sun.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B describes collapse into a neutron star or black hole without the red giant or planetary nebula phases — this is the fate of massive stars, contradicting the original's description of low-mass stellar evolution."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C removes the mass qualifier by claiming all stars follow this path, whereas the original specifies this sequence applies to low-mass stars."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the outcome of the planetary nebula phase — the original says it leads to a white dwarf, not to reignition of hydrogen fusion."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הרצף חשוב: כוכב מסה נמוכה → ענק אדום → ערפילית כוכבית → ננס לבן. שינוי הרצף או החלפת הגורל בנייטרון/חור שחור — שגוי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-296",
+    "difficulty": "hard",
+    "text": "\"The precautionary principle in climate policy holds that when an action raises threats of harm to human health or the environment, precautionary measures should be taken even if some cause-and-effect relationships are not fully established scientifically.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The precautionary principle mandates regulatory inaction on climate issues until all scientific causal links between human activity and environmental harm have been definitively proven.",
+      "The precautionary principle requires that only threats with a greater than fifty percent probability of occurring be addressed by climate policy, leaving low-probability risks unregulated.",
+      "According to the precautionary principle, all industrial activities must be completely halted until science can guarantee zero risk to human health or the environment.",
+      "Climate policy's precautionary principle argues that protective action against potential environmental or health threats is warranted even in the absence of complete scientific certainty about the causal chain."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase captures the principle: protective measures are justified even without complete scientific certainty about causal relationships, when potential harm exists.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A directly inverts the principle — it says action should be delayed until proof is complete, whereas the precautionary principle specifically argues for action despite incomplete proof."},
+      {"choice": 1, "trapType": "added info", "explanation": "Option B introduces the specific fifty percent probability threshold, which does not appear in the original and is an invented quantification."},
+      {"choice": 2, "trapType": "overgeneralization", "explanation": "Option C overstates the principle by demanding complete industrial halt until zero risk is guaranteed — the original does not require certainty of zero risk, only that precautionary measures be taken."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "העיקרון המרכזי: פעולה מניעתית מוצדקת גם ללא ודאות מדעית מלאה. ניסוח שאומר שיש לפעול רק לאחר הוכחה מלאה — הופך ישירות את הרעיון.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-297",
+    "difficulty": "hard",
+    "text": "\"Phenotypic plasticity refers to the ability of a single genotype to produce different phenotypes in response to varying environmental conditions, enabling organisms to adjust their observable traits without genetic mutation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Phenotypic plasticity is the capacity of an organism with a fixed genetic code to express different physical or behavioral traits depending on its environment, without requiring changes to its DNA.",
+      "Phenotypic plasticity is the process by which environmental pressures permanently alter an organism's genotype, causing heritable changes in the traits expressed by future generations.",
+      "Organisms that exhibit phenotypic plasticity can modify their DNA in response to environmental changes, allowing them to pass on environmentally adapted genes to offspring.",
+      "Phenotypic plasticity enables different genotypes to produce identical phenotypes across all environments, ensuring consistency of observable traits regardless of external conditions."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves: one genotype, different phenotypes in different environments, no genetic mutation required.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original by claiming the genotype is permanently altered — the original specifies that phenotypic plasticity occurs without changing the DNA."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C again contradicts the original by claiming organisms can modify their DNA in response to environment, which is precisely what phenotypic plasticity does not involve."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D inverts the concept entirely — it says different genotypes produce the same phenotype across all environments, whereas the original says one genotype produces different phenotypes in different environments."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הרעיון: גנוטיפ אחד → פנוטיפים שונים בסביבות שונות — ללא שינוי ה-DNA. כל ניסוח שטוען שה-DNA משתנה — סותר ישירות את ההגדרה.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-298",
+    "difficulty": "hard",
+    "text": "\"The iconoclasm controversies of the Byzantine Empire, spanning the eighth and ninth centuries, divided the church and society over whether religious images facilitated worship or constituted idolatry, ultimately resulting in the restoration of icon veneration.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "In the eighth and ninth centuries, the Byzantine Empire experienced deep religious and social conflict over whether icons aided devotion or amounted to idol worship, a dispute that ended with icons being reinstated as objects of veneration.",
+      "Byzantine iconoclasm was a brief artistic movement confined to the ninth century that ended when the emperor ordered the destruction of all religious images in churches.",
+      "The iconoclasm controversy divided Eastern and Western Christianity permanently, with the Eastern Church banning icons entirely as a resolution to the theological dispute.",
+      "Byzantine rulers championed the use of religious icons throughout the iconoclasm era, preventing any significant destruction of sacred images during this period."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves: eighth-ninth century timeframe, religious-social division, the core theological dispute (aid to worship vs. idolatry), and the outcome (restoration of icon veneration).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows the controversy to the ninth century only, whereas the original specifies it spanned both the eighth and ninth centuries, and reverses the outcome (destruction vs. restoration)."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original's outcome — the original states icons were restored, not banned, and the original does not mention a permanent Eastern-Western split as the resolution."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D contradicts the original by claiming rulers championed icons throughout — the original describes a controversy that included active opposition to icons, not uninterrupted imperial support."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שני מרכיבים קריטיים: (1) הפולמוס נמשך לאורך המאות ה-8 וה-9, (2) תוצאתו הייתה שיקום הוונרציה של האיקונות — לא ביטולה. ניסוח שמציג ביטול — שגוי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-299",
+    "difficulty": "hard",
+    "text": "\"Agency theory in economics addresses the conflict of interest that arises when a principal delegates decision-making authority to an agent whose personal incentives may not align with the principal's objectives, a problem known as moral hazard.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Agency theory examines the tension that emerges when one party grants another the power to make decisions on their behalf, creating the risk that the decision-maker will act in their own interest rather than that of the party they represent — a situation called moral hazard.",
+      "Agency theory argues that principals and agents always share the same incentives when decision-making authority is properly delegated, eliminating the need for formal oversight mechanisms.",
+      "Moral hazard in agency theory occurs when the agent penalizes the principal for poor decisions, reversing the traditional accountability relationship between the two parties.",
+      "Agency theory in economics was developed to prevent principals from abusing their authority over agents by imposing excessive risk on them without providing adequate compensation."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves: the delegation of decision-making, the potential misalignment of incentives, the resulting conflict of interest, and the label 'moral hazard'.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original by claiming principals and agents always share the same incentives — the original specifically identifies the misalignment of incentives as the central problem."},
+      {"choice": 2, "trapType": "subject-object swap", "explanation": "Option C reverses the direction of accountability — the original describes agents who may not serve principals' interests, but this option claims agents penalize principals, swapping the direction of harm."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the power relationship — the original describes principals as the party whose interests may be harmed, but this option reframes principals as potential abusers of agents."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "תיאוריית הסוכנות: מנהל (principal) מאצל סמכות לסוכן — אך ייתכן חוסר התאמה בתמריצים → סכנה מוסרית. ניסוח שמציג אותם כבעלי תמריצים זהים — סותר את הבעיה המרכזית.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-300",
+    "difficulty": "hard",
+    "text": "\"The Malthusian trap describes the historical tendency for increases in agricultural productivity to be absorbed by population growth, preventing sustained improvements in living standards for the general population.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Malthus's trap refers to the pattern in which gains in food production are offset by rising population numbers, so that average living standards do not improve in the long run.",
+      "The Malthusian trap explains how agricultural productivity increases cause populations to shrink, eventually leading to improved living standards as resources become more abundant per person.",
+      "Malthusian theory holds that technological advances in agriculture are impossible in pre-industrial economies and that food supply therefore always decreases over time.",
+      "The Malthusian trap demonstrates that population growth is the primary cause of agricultural innovation, as rising demand forces farmers to produce more food using new techniques."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the mechanism: agricultural productivity gains → population growth absorbs the surplus → no sustained improvement in living standards.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B reverses the outcome — it claims productivity increases cause population to shrink and living standards to improve, which is the opposite of the Malthusian trap's prediction."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by claiming agricultural advances are impossible and food supply decreases — the original describes productivity increases being neutralized, not prevented."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the causal direction — it claims population growth drives agricultural innovation, whereas the original describes agricultural gains being negated by population growth."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המנגנון: עלייה בפריון חקלאי → גידול אוכלוסין בולע את העודף → רמת חיים לא משתפרת. ניסוח שמציג ירידה באוכלוסייה כתוצאה — הפוך לחלוטין.",
+    "estimatedTimeSeconds": 60
+  }
+]

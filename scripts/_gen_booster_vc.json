@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-vc-101",
+    "difficulty": "easy",
+    "text": "The teacher gave a [concise] explanation of the topic so that even younger students could understand it. The word '[concise]' most nearly means:",
+    "choices": [
+      "brief and clear, without unnecessary words",
+      "highly detailed and comprehensive",
+      "entertaining and humorous",
+      "formal and strictly academic"
+    ],
+    "answer": 0,
+    "explanation": "'Concise' means short and to the point. The context clue 'even younger students could understand it' shows the explanation was simplified and direct, not lengthy.",
+    "wrongReasons": [
+      "'Highly detailed and comprehensive' is the opposite of concise — concise means leaving out unnecessary detail.",
+      "'Entertaining and humorous' describes tone, not length or clarity; concise is a neutral quality about brevity.",
+      "'Formal and strictly academic' describes register or style, not the brevity that concise conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["concise"],
+    "hebrewExplanation": "concise = תמציתי, קצר וברור. הרמז: ההסבר ניתן כדי שגם תלמידים צעירים יבינו — כלומר, הוא היה פשוט וקצר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-102",
+    "difficulty": "easy",
+    "text": "The scientist's findings were [significant] because they changed the way researchers understood the disease. The word '[significant]' most nearly means:",
+    "choices": [
+      "confusing and unclear",
+      "important and meaningful",
+      "temporary and short-lived",
+      "difficult to repeat"
+    ],
+    "answer": 1,
+    "explanation": "'Significant' means important or meaningful. The context clue 'changed the way researchers understood the disease' confirms that the findings had major impact.",
+    "wrongReasons": [
+      "'Confusing and unclear' contradicts a finding that changes understanding — that requires clarity, not confusion.",
+      "'Temporary and short-lived' is unrelated; significant describes importance, not duration.",
+      "'Difficult to repeat' refers to reproducibility, a different scientific concept unrelated to significance."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["significant"],
+    "hebrewExplanation": "significant = משמעותי, חשוב. הרמז: 'changed the way researchers understood' = שינה את האופן שבו מדענים הבינו את המחלה — כלומר, ממצאים בעלי חשיבות רבה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-103",
+    "difficulty": "easy",
+    "text": "The charity was founded to [alleviate] the suffering of refugees who had lost their homes. The word '[alleviate]' most nearly means:",
+    "choices": [
+      "worsen or intensify",
+      "study and document",
+      "lessen or reduce",
+      "celebrate and honor"
+    ],
+    "answer": 2,
+    "explanation": "'Alleviate' means to make suffering less severe. The context clue 'suffering of refugees who had lost their homes' shows a clear humanitarian goal of reducing hardship.",
+    "wrongReasons": [
+      "'Worsen or intensify' is the antonym of alleviate — a charity aims to reduce, not increase, suffering.",
+      "'Study and document' describes research purposes, not the relief-oriented goal implied in the sentence.",
+      "'Celebrate and honor' is completely inconsistent with the serious context of refugee suffering."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["alleviate"],
+    "hebrewExplanation": "alleviate = להקל, לצמצם (סבל). הרמז: הארגון הוקם לטובת פליטים שאיבדו את בתיהם — מטרתו להקל על סבלם.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-104",
+    "difficulty": "easy",
+    "text": "The new law was designed to [facilitate] the process of obtaining a driver's license by reducing the required paperwork. The word '[facilitate]' most nearly means:",
+    "choices": [
+      "complicate or hinder",
+      "make easier or smoother",
+      "strictly enforce or regulate",
+      "delay or postpone"
+    ],
+    "answer": 1,
+    "explanation": "'Facilitate' means to make a process easier. The context clue 'reducing the required paperwork' clearly shows the law was designed to simplify and speed up the process.",
+    "wrongReasons": [
+      "'Complicate or hinder' is the opposite of facilitate — the sentence describes removing obstacles, not adding them.",
+      "'Strictly enforce or regulate' implies adding rules or oversight, which contrasts with the simplification described.",
+      "'Delay or postpone' contradicts the goal of streamlining and speeding up the licensing process."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["facilitate"],
+    "hebrewExplanation": "facilitate = להקל על, לסייע לתהליך. הרמז: 'reducing the required paperwork' = צמצום הניירת — כלומר, החוק נועד להפוך את התהליך לקל יותר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-105",
+    "difficulty": "easy",
+    "text": "Doctors urged residents to adopt [preventive] measures such as regular exercise and a balanced diet. The word '[preventive]' most nearly means:",
+    "choices": [
+      "designed to stop problems before they occur",
+      "used to treat an existing illness",
+      "related to emergency medical procedures",
+      "intended to improve athletic performance"
+    ],
+    "answer": 0,
+    "explanation": "'Preventive' means aimed at stopping something harmful from happening. The context clue 'regular exercise and a balanced diet' describes habits taken before illness occurs, not after.",
+    "wrongReasons": [
+      "'Used to treat an existing illness' describes treatment, not prevention — these are opposite health strategies.",
+      "'Related to emergency medical procedures' involves responding to crises already occurring, not preventing them.",
+      "'Intended to improve athletic performance' is a possible benefit of exercise, but not the meaning of preventive in this medical context."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["preventive"],
+    "hebrewExplanation": "preventive = מונע, מניעתי. הרמז: 'regular exercise and a balanced diet' = פעולות שנועדו למנוע בעיות בריאות לפני שהן מופיעות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-106",
+    "difficulty": "easy",
+    "text": "The professor assigned [supplementary] reading materials for students who wanted to deepen their understanding of the topic. The word '[supplementary]' most nearly means:",
+    "choices": [
+      "required and mandatory",
+      "outdated and no longer relevant",
+      "additional and supporting",
+      "simplified for beginners"
+    ],
+    "answer": 2,
+    "explanation": "'Supplementary' means extra or additional, going beyond what is required. The context clue 'for students who wanted to deepen their understanding' shows the materials were optional additions.",
+    "wrongReasons": [
+      "'Required and mandatory' is the opposite — supplementary implies optional or beyond the core requirements.",
+      "'Outdated and no longer relevant' describes obsolescence, which has nothing to do with supplementary.",
+      "'Simplified for beginners' describes difficulty level, not the additive role that supplementary conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["supplementary"],
+    "hebrewExplanation": "supplementary = משלים, נוסף. הרמז: 'students who wanted to deepen their understanding' = הוסף לחומר הלימוד הרגיל לצורך העמקה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-107",
+    "difficulty": "easy",
+    "text": "The government launched an [extensive] campaign to educate the public about the dangers of smoking. The word '[extensive]' most nearly means:",
+    "choices": [
+      "brief and focused",
+      "secret and undisclosed",
+      "wide-ranging and thorough",
+      "costly and inefficient"
+    ],
+    "answer": 2,
+    "explanation": "'Extensive' means covering a large area or range. The context clue 'educate the public' — a large group — suggests the campaign was broad and comprehensive.",
+    "wrongReasons": [
+      "'Brief and focused' is nearly the opposite — extensive implies scale and breadth, not brevity.",
+      "'Secret and undisclosed' contradicts a public education campaign, which is by definition open and visible.",
+      "'Costly and inefficient' may sometimes describe large campaigns, but extensive refers to scope, not cost or effectiveness."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["extensive"],
+    "hebrewExplanation": "extensive = נרחב, מקיף. הרמז: 'educate the public' = כלל הציבור — מה שמצביע על היקף רחב של הקמפיין.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-108",
+    "difficulty": "easy",
+    "text": "The [inherent] risks of mountain climbing include extreme weather, altitude sickness, and unstable terrain. The word '[inherent]' most nearly means:",
+    "choices": [
+      "naturally built-in and inseparable",
+      "easily avoided with proper planning",
+      "recently discovered through research",
+      "exaggerated by the media"
+    ],
+    "answer": 0,
+    "explanation": "'Inherent' means naturally existing as a permanent and inseparable part of something. The context clue — listing unavoidable physical dangers — shows these risks are built into the activity itself.",
+    "wrongReasons": [
+      "'Easily avoided with proper planning' contradicts inherent — truly inherent risks cannot simply be planned away.",
+      "'Recently discovered through research' implies novelty, but inherent means something always present, not newly found.",
+      "'Exaggerated by the media' has a critical or skeptical tone, which is unrelated to what inherent means."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["inherent"],
+    "hebrewExplanation": "inherent = טבוע, מובנה, בלתי נפרד. הרמז: 'risks of mountain climbing' — הסכנות הן חלק בלתי נפרד מהפעילות עצמה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-109",
+    "difficulty": "medium",
+    "text": "Critics argued that the government's response to the crisis was [inadequate], as thousands of residents were still without clean water weeks later. The word '[inadequate]' most nearly means:",
+    "choices": [
+      "innovative and forward-thinking",
+      "insufficient and not meeting the required standard",
+      "swift and well-coordinated",
+      "politically motivated rather than practical"
+    ],
+    "answer": 1,
+    "explanation": "'Inadequate' means not enough or failing to meet what is needed. The context clue 'thousands of residents were still without clean water weeks later' shows the response clearly fell short of what was required.",
+    "wrongReasons": [
+      "'Innovative and forward-thinking' would praise the response — the sentence presents it critically through the word 'argued.'",
+      "'Swift and well-coordinated' contradicts the outcome — if it were swift and coordinated, residents would not still lack clean water.",
+      "'Politically motivated rather than practical' introduces a motive not stated in the sentence; inadequate refers to outcome, not intent."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["inadequate"],
+    "hebrewExplanation": "inadequate = לא מספיק, לא עומד בדרישות. הרמז: 'thousands of residents were still without clean water' = אלפי תושבים עדיין ללא מים — הוכחה לכך שהתגובה לא הספיקה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-110",
+    "difficulty": "medium",
+    "text": "The new policy was [pragmatic] in its approach, focusing on what could realistically be achieved rather than on ideal but unattainable goals. The word '[pragmatic]' most nearly means:",
+    "choices": [
+      "theoretical and idealistic",
+      "practical and focused on realistic outcomes",
+      "emotionally driven and compassionate",
+      "rigid and resistant to change"
+    ],
+    "answer": 1,
+    "explanation": "'Pragmatic' means dealing with things sensibly and practically rather than theoretically. The context clue 'what could realistically be achieved rather than ideal but unattainable goals' directly defines pragmatism.",
+    "wrongReasons": [
+      "'Theoretical and idealistic' is the opposite of pragmatic — pragmatic explicitly rejects pure idealism in favor of achievable results.",
+      "'Emotionally driven and compassionate' describes motivation based on feeling, not the realistic problem-solving that pragmatic implies.",
+      "'Rigid and resistant to change' contradicts the adaptability that pragmatism requires to find workable solutions."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["pragmatic"],
+    "hebrewExplanation": "pragmatic = פרגמטי, מעשי. הרמז: 'what could realistically be achieved rather than ideal but unattainable goals' — גישה מעשית המתמקדת בניתן להשגה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-111",
+    "difficulty": "medium",
+    "text": "The evidence presented by the prosecution was [circumstantial], relying on indirect clues rather than direct proof of the defendant's guilt. The word '[circumstantial]' most nearly means:",
+    "choices": [
+      "based on direct eyewitness accounts",
+      "conclusive and beyond reasonable doubt",
+      "indirect and inferential rather than concrete",
+      "gathered through illegal means"
+    ],
+    "answer": 2,
+    "explanation": "'Circumstantial' evidence relies on inference from surrounding facts rather than direct observation. The context clue 'indirect clues rather than direct proof' directly explains the word.",
+    "wrongReasons": [
+      "'Based on direct eyewitness accounts' is the opposite — circumstantial evidence is indirect, not based on firsthand observation.",
+      "'Conclusive and beyond reasonable doubt' contradicts the weakness implied — circumstantial evidence is typically considered less conclusive.",
+      "'Gathered through illegal means' describes how evidence was obtained, which is unrelated to whether it is direct or indirect."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "legal"],
+    "vocabularyWords": ["circumstantial"],
+    "hebrewExplanation": "circumstantial = נסיבתי, עקיף. הרמז: 'indirect clues rather than direct proof' = רמזים עקיפים ולא הוכחה ישירה — כלומר, ראיות נסיבתיות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-112",
+    "difficulty": "medium",
+    "text": "The committee called for [stringent] environmental regulations to prevent further damage to the ecosystem. The word '[stringent]' most nearly means:",
+    "choices": [
+      "voluntary and flexible",
+      "strict and demanding compliance",
+      "temporary and subject to frequent revision",
+      "internationally negotiated and balanced"
+    ],
+    "answer": 1,
+    "explanation": "'Stringent' means strict, precise, and requiring careful attention to rules. The context clue 'prevent further damage to the ecosystem' implies urgency and the need for strong enforcement.",
+    "wrongReasons": [
+      "'Voluntary and flexible' is the opposite — stringent regulations are mandatory and rigid, not optional.",
+      "'Temporary and subject to frequent revision' contradicts the firm, unchanging nature that stringent implies.",
+      "'Internationally negotiated and balanced' describes a diplomatic process, not the rigor or strictness that stringent conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "environment"],
+    "vocabularyWords": ["stringent"],
+    "hebrewExplanation": "stringent = מחמיר, קשוח. הרמז: 'prevent further damage to the ecosystem' = מניעת נזק נוסף — מה שמצדיק תקנות מחמירות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-113",
+    "difficulty": "medium",
+    "text": "The use of smartphones in classrooms remains [controversial], with educators divided over whether the benefits outweigh the distractions. The word '[controversial]' most nearly means:",
+    "choices": [
+      "widely accepted without debate",
+      "subject to strong opposing opinions",
+      "proven harmful by scientific studies",
+      "recently introduced and unfamiliar"
+    ],
+    "answer": 1,
+    "explanation": "'Controversial' means causing disagreement or debate. The context clue 'educators divided over whether the benefits outweigh the distractions' directly shows that there are conflicting views.",
+    "wrongReasons": [
+      "'Widely accepted without debate' is the antonym of controversial — something controversial is by definition not universally accepted.",
+      "'Proven harmful by scientific studies' would settle the debate; controversial implies the issue remains unresolved.",
+      "'Recently introduced and unfamiliar' describes novelty, not conflict — something can be new without being debated."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "education"],
+    "vocabularyWords": ["controversial"],
+    "hebrewExplanation": "controversial = שנוי במחלוקת. הרמז: 'educators divided' = מחנכים חלוקים בדעותיהם — מה שמגדיר בדיוק מהו דבר שנוי במחלוקת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-114",
+    "difficulty": "medium",
+    "text": "After reviewing the patient's symptoms, the doctor concluded that the condition was [benign] and would resolve on its own without treatment. The word '[benign]' most nearly means:",
+    "choices": [
+      "progressive and likely to worsen over time",
+      "requiring immediate surgical intervention",
+      "not harmful or threatening to health",
+      "rare and poorly understood by medical professionals"
+    ],
+    "answer": 2,
+    "explanation": "'Benign' in a medical context means not harmful. The context clue 'would resolve on its own without treatment' confirms the condition posed no serious threat.",
+    "wrongReasons": [
+      "'Progressive and likely to worsen over time' contradicts the prognosis — a condition resolving without treatment is not worsening.",
+      "'Requiring immediate surgical intervention' implies severity, which is the opposite of a benign condition.",
+      "'Rare and poorly understood' describes epidemiology and knowledge, not the harmless nature that benign conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "medicine"],
+    "vocabularyWords": ["benign"],
+    "hebrewExplanation": "benign = שפיר, לא מזיק. הרמז: 'would resolve on its own without treatment' = יחלוף מעצמו — כלומר, לא מסוכן.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-115",
+    "difficulty": "medium",
+    "text": "The report revealed that public trust in the institution had [eroded] significantly over the past decade. The word '[eroded]' most nearly means:",
+    "choices": [
+      "grown stronger through reform",
+      "gradually worn away or weakened",
+      "remained stable despite criticism",
+      "fluctuated unpredictably over time"
+    ],
+    "answer": 1,
+    "explanation": "'Eroded' means gradually worn down or diminished. The context clue 'over the past decade' shows a slow, cumulative process of decline — characteristic of erosion.",
+    "wrongReasons": [
+      "'Grown stronger through reform' is the opposite — eroded specifically describes decline and weakening.",
+      "'Remained stable despite criticism' contradicts 'significantly' — significant erosion implies notable change, not stability.",
+      "'Fluctuated unpredictably' implies variation in both directions; eroded describes a one-directional downward trend."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "society"],
+    "vocabularyWords": ["eroded"],
+    "hebrewExplanation": "eroded = שחק, נשחק, התדרדר בהדרגה. הרמז: 'over the past decade' = לאורך עשור — תהליך הדרגתי של שחיקה באמון הציבור.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-116",
+    "difficulty": "medium",
+    "text": "The scientist's theory remained [speculative] until controlled experiments confirmed its predictions. The word '[speculative]' most nearly means:",
+    "choices": [
+      "based on thorough experimental evidence",
+      "involving financial investment and risk",
+      "based on guesswork rather than confirmed fact",
+      "recognized internationally by experts"
+    ],
+    "answer": 2,
+    "explanation": "'Speculative' means based on conjecture or hypothesis, not yet proven. The context clue 'until controlled experiments confirmed its predictions' shows the theory lacked empirical support beforehand.",
+    "wrongReasons": [
+      "'Based on thorough experimental evidence' describes the stage after confirmation — the sentence says this came only later.",
+      "'Involving financial investment and risk' is a secondary meaning of speculative in economics, unrelated to the scientific context here.",
+      "'Recognized internationally by experts' would imply consensus — the opposite of a speculative, unconfirmed theory."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "science"],
+    "vocabularyWords": ["speculative"],
+    "hebrewExplanation": "speculative = ספקולטיבי, השערתי. הרמז: 'until controlled experiments confirmed' = עד שניסויים אישרו — כלומר לפני כן הייתה זו השערה בלבד.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-117",
+    "difficulty": "medium",
+    "text": "The company's efforts to [mitigate] the environmental impact of its factories included installing filters and switching to renewable energy. The word '[mitigate]' most nearly means:",
+    "choices": [
+      "completely eliminate all negative effects",
+      "reduce or lessen the severity of",
+      "publicize and draw attention to",
+      "transfer responsibility to a third party"
+    ],
+    "answer": 1,
+    "explanation": "'Mitigate' means to make something less severe or harmful. The context clue — installing filters and switching to renewables — describes practical steps to reduce (not eliminate) environmental harm.",
+    "wrongReasons": [
+      "'Completely eliminate all negative effects' is too absolute — mitigate implies reduction, not full elimination.",
+      "'Publicize and draw attention to' describes a communications strategy, not a technical or operational effort to reduce harm.",
+      "'Transfer responsibility to a third party' describes outsourcing, which is unrelated to the environmental actions described."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "environment"],
+    "vocabularyWords": ["mitigate"],
+    "hebrewExplanation": "mitigate = להפחית, למתן (השפעה שלילית). הרמז: 'installing filters and switching to renewable energy' = פעולות להפחתת הנזק הסביבתי.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-118",
+    "difficulty": "medium",
+    "text": "The organization's mission was to [foster] creativity among young students through after-school art and science programs. The word '[foster]' most nearly means:",
+    "choices": [
+      "restrict or limit",
+      "measure and evaluate",
+      "encourage and promote the growth of",
+      "document and archive"
+    ],
+    "answer": 2,
+    "explanation": "'Foster' means to encourage or nurture the development of something. The context clue 'through after-school art and science programs' shows active support aimed at growing creativity.",
+    "wrongReasons": [
+      "'Restrict or limit' is the antonym of foster — fostering provides opportunity for growth, not constraint.",
+      "'Measure and evaluate' describes assessment, which is a separate activity from nurturing or promoting growth.",
+      "'Document and archive' describes recording rather than actively developing or encouraging creativity."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "education"],
+    "vocabularyWords": ["foster"],
+    "hebrewExplanation": "foster = לטפח, לעודד, לקדם. הרמז: 'after-school art and science programs' = תוכניות ייעודיות לטיפוח יצירתיות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-119",
+    "difficulty": "medium",
+    "text": "Researchers noted a [divergence] in opinions between older and younger generations regarding the use of artificial intelligence in hiring decisions. The word '[divergence]' most nearly means:",
+    "choices": [
+      "growing similarity and alignment",
+      "a gradual and increasing difference",
+      "a formal written disagreement",
+      "an official policy requiring further review"
+    ],
+    "answer": 1,
+    "explanation": "'Divergence' means a growing apart or difference in direction. The context clue 'between older and younger generations' shows two groups moving in opposite directions of opinion.",
+    "wrongReasons": [
+      "'Growing similarity and alignment' is the opposite of divergence — convergence describes groups becoming more alike.",
+      "'A formal written disagreement' confuses divergence (a general state) with a specific document or legal act.",
+      "'An official policy requiring further review' is procedural and unrelated to the meaning of divergence."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "technology"],
+    "vocabularyWords": ["divergence"],
+    "hebrewExplanation": "divergence = פיצול, סטייה, הבדל הולך וגדל. הרמז: 'between older and younger generations' = בין דורות שונים — תופעה המדגישה פיצול בדעות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-120",
+    "difficulty": "medium",
+    "text": "The author's argument was weakened by the [ambiguous] evidence, which could be interpreted in more than one way. The word '[ambiguous]' most nearly means:",
+    "choices": [
+      "clearly stated and definitive",
+      "statistically significant and reliable",
+      "open to more than one interpretation",
+      "based on outdated or irrelevant data"
+    ],
+    "answer": 2,
+    "explanation": "'Ambiguous' means having more than one possible meaning or interpretation. The context clue 'which could be interpreted in more than one way' directly defines the word.",
+    "wrongReasons": [
+      "'Clearly stated and definitive' is the antonym of ambiguous — clear evidence would strengthen, not weaken, an argument.",
+      "'Statistically significant and reliable' would imply strong, unambiguous evidence — the opposite of what weakens an argument.",
+      "'Based on outdated or irrelevant data' describes the quality of sources, not the interpretive uncertainty that ambiguous conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["ambiguous"],
+    "hebrewExplanation": "ambiguous = דו-משמעי, לא ברור. הרמז: 'could be interpreted in more than one way' = ניתן לפרש ביותר מדרך אחת — הגדרה ישירה של ambiguous.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-121",
+    "difficulty": "medium",
+    "text": "The social media platform experienced a [proliferation] of fake accounts designed to spread misinformation. The word '[proliferation]' most nearly means:",
+    "choices": [
+      "sudden and complete disappearance",
+      "rapid increase in numbers",
+      "careful regulation and monitoring",
+      "temporary disruption of service"
+    ],
+    "answer": 1,
+    "explanation": "'Proliferation' means a rapid spread or increase in number. The context clue 'fake accounts designed to spread misinformation' implies a growing and multiplying problem.",
+    "wrongReasons": [
+      "'Sudden and complete disappearance' is the opposite of proliferation, which describes growth, not reduction.",
+      "'Careful regulation and monitoring' describes a solution, not the problem itself that proliferation names.",
+      "'Temporary disruption of service' is a technical issue unrelated to the spread of fake accounts."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "technology"],
+    "vocabularyWords": ["proliferation"],
+    "hebrewExplanation": "proliferation = התרבות, התפשטות מהירה. הרמז: 'fake accounts designed to spread misinformation' = חשבונות שקריים רבים שנועדו להפיץ מידע כוזב.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-122",
+    "difficulty": "medium",
+    "text": "The results of the two independent studies [corroborated] each other, strengthening the researchers' overall conclusions. The word '[corroborated]' most nearly means:",
+    "choices": [
+      "contradicted or disproved",
+      "confirmed or supported with additional evidence",
+      "partially overlapped without full agreement",
+      "replaced and made obsolete"
+    ],
+    "answer": 1,
+    "explanation": "'Corroborate' means to confirm or give additional support to a statement or finding. The context clue 'strengthening the researchers' overall conclusions' shows the studies reinforced each other.",
+    "wrongReasons": [
+      "'Contradicted or disproved' is the opposite — corroborated means agreeing and supporting, not challenging.",
+      "'Partially overlapped without full agreement' implies mixed results; corroborated implies consistent confirmation.",
+      "'Replaced and made obsolete' describes superseding previous work, which is unrelated to mutual confirmation."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "science"],
+    "vocabularyWords": ["corroborated"],
+    "hebrewExplanation": "corroborated = חיזק, אישר, תמך. הרמז: 'strengthening the researchers' overall conclusions' = הממצאים תמכו זה בזה וחיזקו את המסקנות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-123",
+    "difficulty": "medium",
+    "text": "It is [imperative] that all employees complete the cybersecurity training before accessing company data systems. The word '[imperative]' most nearly means:",
+    "choices": [
+      "recommended but ultimately optional",
+      "absolutely necessary and urgent",
+      "technically complex and demanding",
+      "scheduled for a specific future date"
+    ],
+    "answer": 1,
+    "explanation": "'Imperative' means critically important and requiring immediate action. The context clue 'before accessing company data systems' — a firm precondition — shows this is non-negotiable.",
+    "wrongReasons": [
+      "'Recommended but ultimately optional' is the opposite — imperative conveys that there is no choice; it must be done.",
+      "'Technically complex and demanding' describes difficulty, not urgency or necessity that imperative conveys.",
+      "'Scheduled for a specific future date' focuses on timing, not the mandatory nature that imperative implies."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "technology"],
+    "vocabularyWords": ["imperative"],
+    "hebrewExplanation": "imperative = הכרחי, חיוני, חובה. הרמז: 'before accessing company data systems' — תנאי מוקדם מחייב — כלומר, חובה מוחלטת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-124",
+    "difficulty": "medium",
+    "text": "The community's [resilient] response to the flood showed how quickly residents could rebuild and adapt to adversity. The word '[resilient]' most nearly means:",
+    "choices": [
+      "slow to accept change or new challenges",
+      "financially dependent on outside aid",
+      "able to recover quickly from difficulties",
+      "politically organized and influential"
+    ],
+    "answer": 2,
+    "explanation": "'Resilient' means able to withstand or recover quickly from difficult conditions. The context clue 'rebuild and adapt to adversity' directly describes the capacity to bounce back.",
+    "wrongReasons": [
+      "'Slow to accept change' is the opposite — resilient communities adapt quickly rather than resisting change.",
+      "'Financially dependent on outside aid' implies vulnerability, not the self-sufficient recovery that resilience implies.",
+      "'Politically organized and influential' describes civic structure, not the capacity for rapid recovery from hardship."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "society"],
+    "vocabularyWords": ["resilient"],
+    "hebrewExplanation": "resilient = חסין, בעל חוסן, מסוגל להתאושש. הרמז: 'rebuild and adapt to adversity' = לבנות מחדש ולהסתגל לנסיבות קשות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-125",
+    "difficulty": "medium",
+    "text": "The findings of the meta-analysis were [robust], holding up across dozens of different studies and populations. The word '[robust]' most nearly means:",
+    "choices": [
+      "strong and reliable across multiple conditions",
+      "limited in scope and applicability",
+      "mathematically complex and difficult to replicate",
+      "controversial among leading experts"
+    ],
+    "answer": 0,
+    "explanation": "'Robust' means strong, healthy, and unlikely to fail under varying conditions. The context clue 'holding up across dozens of different studies and populations' shows the findings were consistently reliable.",
+    "wrongReasons": [
+      "'Limited in scope and applicability' is the opposite — robust findings apply broadly across different studies and groups.",
+      "'Mathematically complex and difficult to replicate' describes a methodological weakness, not the strength that robust implies.",
+      "'Controversial among leading experts' implies ongoing debate, contradicting findings that 'hold up' consistently."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "science"],
+    "vocabularyWords": ["robust"],
+    "hebrewExplanation": "robust = חזק, עמיד, אמין. הרמז: 'holding up across dozens of different studies and populations' = עמד במבחן של עשרות מחקרים — ממצאים אמינים ועמידים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-126",
+    "difficulty": "medium",
+    "text": "The politician's speech was criticized for being [superficial], touching on major issues without providing any real analysis or solutions. The word '[superficial]' most nearly means:",
+    "choices": [
+      "deeply analytical and policy-driven",
+      "dealing only with the surface, lacking depth",
+      "emotionally powerful and persuasive",
+      "deliberately misleading and dishonest"
+    ],
+    "answer": 1,
+    "explanation": "'Superficial' means dealing with only the surface of something without real depth or substance. The context clue 'touching on major issues without providing any real analysis or solutions' directly illustrates this.",
+    "wrongReasons": [
+      "'Deeply analytical and policy-driven' is the antonym — a superficial speech avoids deep analysis, which this speech failed to provide.",
+      "'Emotionally powerful and persuasive' describes rhetorical strength, which is separate from the depth of content.",
+      "'Deliberately misleading and dishonest' implies intentional deception — superficial means shallow, not necessarily dishonest."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["superficial"],
+    "hebrewExplanation": "superficial = שטחי, חסר עומק. הרמז: 'without providing any real analysis or solutions' = ללא ניתוח אמיתי — כלומר, נגע בנושאים ברמה שטחית בלבד.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-127",
+    "difficulty": "medium",
+    "text": "The journalist's investigation put the company's financial practices under intense [scrutiny]. The word '[scrutiny]' most nearly means:",
+    "choices": [
+      "close and critical examination",
+      "public praise and recognition",
+      "legal protection from liability",
+      "voluntary disclosure of information"
+    ],
+    "answer": 0,
+    "explanation": "'Scrutiny' means close, critical observation or examination. The context clue 'investigation' and 'financial practices' shows the company's actions were being carefully and critically examined.",
+    "wrongReasons": [
+      "'Public praise and recognition' is opposite in tone — scrutiny implies a critical gaze, not approval.",
+      "'Legal protection from liability' describes a defensive legal position, unrelated to the investigative attention scrutiny implies.",
+      "'Voluntary disclosure of information' suggests the company acted proactively, while scrutiny is imposed from outside."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["scrutiny"],
+    "hebrewExplanation": "scrutiny = בדיקה מדוקדקת, ביקורת קפדנית. הרמז: 'journalist's investigation' = חקירה עיתונאית — גילוי תשומת לב ביקורתית מוגברת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-128",
+    "difficulty": "medium",
+    "text": "Many experts believe that economic growth alone is [insufficient] to address rising inequality in modern societies. The word '[insufficient]' most nearly means:",
+    "choices": [
+      "not enough to achieve the desired result",
+      "the most reliable indicator of social progress",
+      "unpredictable and difficult to measure accurately",
+      "strongly correlated with improvements in living standards"
+    ],
+    "answer": 0,
+    "explanation": "'Insufficient' means not adequate or enough. The context clue 'alone' signals that economic growth by itself cannot fully address inequality — it is incomplete as a solution.",
+    "wrongReasons": [
+      "'The most reliable indicator of social progress' would make growth a positive, complete solution — contradicting the limitation implied.",
+      "'Unpredictable and difficult to measure accurately' describes methodological challenges, not the inadequacy that insufficient conveys.",
+      "'Strongly correlated with improvements in living standards' would support growth as sufficient — the opposite of what the sentence argues."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "economics"],
+    "vocabularyWords": ["insufficient"],
+    "hebrewExplanation": "insufficient = לא מספיק, אין בו די. הרמז: 'alone' = לבדו — גדילה כלכלית בלבד אינה מספיקה לפתרון אי-השוויון.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-129",
+    "difficulty": "medium",
+    "text": "The new drug showed [viable] results in clinical trials, suggesting it could become a mainstream treatment within five years. The word '[viable]' most nearly means:",
+    "choices": [
+      "highly experimental and unproven",
+      "capable of working successfully",
+      "requiring further laboratory testing",
+      "effective only for a specific age group"
+    ],
+    "answer": 1,
+    "explanation": "'Viable' means capable of working or succeeding. The context clue 'could become a mainstream treatment' shows the drug has realistic potential for success.",
+    "wrongReasons": [
+      "'Highly experimental and unproven' contradicts viable — a viable treatment has shown promise in trials, not remained unproven.",
+      "'Requiring further laboratory testing' describes a pre-clinical stage; the sentence says clinical trials already showed results.",
+      "'Effective only for a specific age group' introduces a limitation not implied — viable means broadly workable, not narrowly applicable."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "medicine"],
+    "vocabularyWords": ["viable"],
+    "hebrewExplanation": "viable = בר-קיימא, ישים, בר-ביצוע. הרמז: 'could become a mainstream treatment' = עשוי להפוך לטיפול מקובל — כלומר, ישים ויעיל.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-130",
+    "difficulty": "medium",
+    "text": "The transition to renewable energy is now considered [paramount] for addressing climate change before irreversible damage occurs. The word '[paramount]' most nearly means:",
+    "choices": [
+      "of the greatest importance",
+      "highly recommended by industry leaders",
+      "technically challenging but achievable",
+      "controversial among policymakers"
+    ],
+    "answer": 0,
+    "explanation": "'Paramount' means more important than anything else. The context clue 'before irreversible damage occurs' conveys extreme urgency, reinforcing that this is the highest priority.",
+    "wrongReasons": [
+      "'Highly recommended by industry leaders' is much weaker — paramount means the highest possible priority, not merely a recommendation.",
+      "'Technically challenging but achievable' describes difficulty, not the supreme importance that paramount expresses.",
+      "'Controversial among policymakers' implies division, but paramount refers to priority level, not whether people agree."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "environment"],
+    "vocabularyWords": ["paramount"],
+    "hebrewExplanation": "paramount = בעל חשיבות עליונה, מעל לכל. הרמז: 'before irreversible damage occurs' = לפני שנגרם נזק בלתי הפיך — מה שמדגיש עדיפות גבוהה ביותר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-131",
+    "difficulty": "medium",
+    "text": "Scientists reached a [consensus] that human activity is the primary driver of current climate change. The word '[consensus]' most nearly means:",
+    "choices": [
+      "general agreement among a group",
+      "a written policy document produced by experts",
+      "a minority viewpoint gaining attention",
+      "an unresolved debate requiring further study"
+    ],
+    "answer": 0,
+    "explanation": "'Consensus' means general agreement, especially among a group of experts. The context clue 'primary driver of current climate change' reflects a settled scientific position, not ongoing debate.",
+    "wrongReasons": [
+      "'A written policy document' confuses the outcome (agreement) with a specific artifact — consensus is a state of agreement, not a text.",
+      "'A minority viewpoint gaining attention' is the opposite — consensus reflects the dominant, shared view, not a fringe position.",
+      "'An unresolved debate requiring further study' directly contradicts consensus, which implies the debate has been settled."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "science"],
+    "vocabularyWords": ["consensus"],
+    "hebrewExplanation": "consensus = קונצנזוס, הסכמה כללית. הרמז: 'Scientists reached' = מדענים הגיעו — כלומר, התאחדו סביב עמדה משותפת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-132",
+    "difficulty": "medium",
+    "text": "The city's new transportation plan sought to [integrate] cycling, public transit, and pedestrian infrastructure into a single connected network. The word '[integrate]' most nearly means:",
+    "choices": [
+      "separate and prioritize individually",
+      "combine into a unified whole",
+      "privatize and reduce public investment in",
+      "study and evaluate over several years"
+    ],
+    "answer": 1,
+    "explanation": "'Integrate' means to combine parts into a unified system. The context clue 'single connected network' directly shows the goal of bringing separate elements together.",
+    "wrongReasons": [
+      "'Separate and prioritize individually' is the antonym — integration brings things together, not apart.",
+      "'Privatize and reduce public investment' introduces an economic angle not mentioned in the sentence.",
+      "'Study and evaluate over several years' describes a research phase, not the act of combining systems."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["integrate"],
+    "hebrewExplanation": "integrate = לשלב, לאחד. הרמז: 'single connected network' = רשת מחוברת אחת — כלומר, איחוד מרכיבים שונים לכלל שלם.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-133",
+    "difficulty": "medium",
+    "text": "The documentary [exemplified] the struggles faced by first-generation college students through the story of one young woman from a rural community. The word '[exemplified]' most nearly means:",
+    "choices": [
+      "illustrated or showed clearly by example",
+      "criticized and challenged existing assumptions",
+      "exaggerated for dramatic effect",
+      "summarized without personal detail"
+    ],
+    "answer": 0,
+    "explanation": "'Exemplify' means to be a typical example of something. The context clue 'through the story of one young woman' shows how a single case was used to illustrate a broader struggle.",
+    "wrongReasons": [
+      "'Criticized and challenged existing assumptions' implies analysis or argument, while exemplified simply means to illustrate.",
+      "'Exaggerated for dramatic effect' suggests distortion, which contradicts the authentic narrative described.",
+      "'Summarized without personal detail' is opposite — exemplified uses a specific personal story as its central method."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "education"],
+    "vocabularyWords": ["exemplified"],
+    "hebrewExplanation": "exemplified = המחיש, שיקף, היה דוגמה לכך. הרמז: 'through the story of one young woman' = באמצעות סיפורה של אישה צעירה אחת — דוגמה ממחישה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-134",
+    "difficulty": "hard",
+    "text": "Despite years of public debate, progress on pension reform has remained [elusive], with lawmakers unable to reach a workable agreement. The word '[elusive]' most nearly means:",
+    "choices": [
+      "difficult to achieve or pin down",
+      "completely abandoned and no longer considered",
+      "achievable only through international cooperation",
+      "delayed due to lack of public interest"
+    ],
+    "answer": 0,
+    "explanation": "'Elusive' means hard to find, catch, or achieve. The context clue 'unable to reach a workable agreement' despite 'years of public debate' shows that success has consistently escaped them.",
+    "wrongReasons": [
+      "'Completely abandoned and no longer considered' goes too far — elusive means still being pursued but not yet achieved.",
+      "'Achievable only through international cooperation' introduces a condition not mentioned in the sentence.",
+      "'Delayed due to lack of public interest' contradicts 'years of public debate' — there is clearly public interest."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["elusive"],
+    "hebrewExplanation": "elusive = חמקמק, קשה להשגה. הרמז: 'unable to reach a workable agreement' = אי-יכולת להגיע להסכמה — ההצלחה חומקת שוב ושוב.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-135",
+    "difficulty": "medium",
+    "text": "The ancient manuscript was so [obscure] that only a handful of scholars worldwide had ever read it. The word '[obscure]' most nearly means:",
+    "choices": [
+      "well-known and frequently cited",
+      "recently rediscovered after centuries",
+      "little-known or difficult to understand",
+      "preserved in perfect condition"
+    ],
+    "answer": 2,
+    "explanation": "'Obscure' means not well known or difficult to find and understand. The context clue 'only a handful of scholars worldwide' confirms very limited exposure and accessibility.",
+    "wrongReasons": [
+      "'Well-known and frequently cited' is the antonym of obscure — the sentence emphasizes how few people have access to it.",
+      "'Recently rediscovered after centuries' describes a historical event, not the continuing state of being little-known.",
+      "'Preserved in perfect condition' describes physical state, which is unrelated to how known or accessible the text is."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["obscure"],
+    "hebrewExplanation": "obscure = סתום, לא ידוע, נידח. הרמז: 'only a handful of scholars worldwide had ever read it' = רק מעטים בעולם קראו אותו — כלומר, כתב יד נסתר ולא ידוע.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-136",
+    "difficulty": "hard",
+    "text": "The philosopher's argument was criticized as [sophistry], as it appeared logically sound on the surface but contained fundamental flaws in reasoning. The word '[sophistry]' most nearly means:",
+    "choices": [
+      "a highly respected branch of ancient philosophy",
+      "clever but ultimately flawed or deceptive reasoning",
+      "a form of argument based on emotional appeals",
+      "the systematic study of logical fallacies"
+    ],
+    "answer": 1,
+    "explanation": "'Sophistry' refers to the use of clever but misleading arguments. The context clue 'appeared logically sound on the surface but contained fundamental flaws in reasoning' directly describes sophisticated-seeming but actually invalid logic.",
+    "wrongReasons": [
+      "'A highly respected branch of ancient philosophy' misidentifies sophistry as honorable — it has a negative connotation of deception.",
+      "'A form of argument based on emotional appeals' describes pathos in rhetoric, not the superficially logical but flawed reasoning sophistry refers to.",
+      "'The systematic study of logical fallacies' would be a legitimate academic discipline — sophistry is the practice of using fallacies, not studying them."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["sophistry"],
+    "hebrewExplanation": "sophistry = סופיסטיות, טיעון מתחכם אך מטעה. הרמז: 'appeared logically sound on the surface but contained fundamental flaws' = נראה הגיוני אך פגום מיסודו.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-137",
+    "difficulty": "hard",
+    "text": "The treaty was [unprecedented] in scope, addressing not only military conflicts but also economic competition and environmental protection between the two nations. The word '[unprecedented]' most nearly means:",
+    "choices": [
+      "never done or experienced before",
+      "widely celebrated across the international community",
+      "criticized for being too broad in its coverage",
+      "modeled on earlier agreements from the previous century"
+    ],
+    "answer": 0,
+    "explanation": "'Unprecedented' means never having happened or existed before. The context clue — a treaty addressing military, economic, and environmental concerns together — suggests extraordinary and novel scope.",
+    "wrongReasons": [
+      "'Widely celebrated across the international community' describes public reception, not whether the treaty was novel or new.",
+      "'Criticized for being too broad in its coverage' is a possible reaction but does not define unprecedented.",
+      "'Modeled on earlier agreements' is the opposite — if it follows prior models, it is not unprecedented."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["unprecedented"],
+    "hebrewExplanation": "unprecedented = חסר תקדים. הרמז: אמנה המכסה תחומים כה רבים ביחד — דבר שלא נעשה מעולם לפני כן.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-138",
+    "difficulty": "hard",
+    "text": "The manuscript's authorship remained [tenuous], as historians could not find conclusive evidence linking it to any particular writer of the period. The word '[tenuous]' most nearly means:",
+    "choices": [
+      "well established and broadly accepted",
+      "weak and difficult to substantiate",
+      "disputed only among non-experts",
+      "irrelevant to the manuscript's scholarly value"
+    ],
+    "answer": 1,
+    "explanation": "'Tenuous' means very weak or insubstantial. The context clue 'could not find conclusive evidence' shows the claim of authorship rests on very little support.",
+    "wrongReasons": [
+      "'Well established and broadly accepted' is the antonym — tenuous specifically means lacking strong support, not being confirmed.",
+      "'Disputed only among non-experts' implies the academic community agrees, contradicting 'historians could not find conclusive evidence.'",
+      "'Irrelevant to the manuscript's scholarly value' shifts the topic to value judgment, which is not what tenuous describes."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["tenuous"],
+    "hebrewExplanation": "tenuous = רופף, חלש, חסר בסיס חזק. הרמז: 'could not find conclusive evidence' = לא מצאו ראיות חד-משמעיות — מה שהופך את הטענה לרופפת.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-139",
+    "difficulty": "hard",
+    "text": "The company chose a [covert] strategy to monitor employee communications, never disclosing the practice to the workforce. The word '[covert]' most nearly means:",
+    "choices": [
+      "innovative but publicly announced",
+      "hidden and carried out in secret",
+      "voluntary and based on employee consent",
+      "temporary and subject to future review"
+    ],
+    "answer": 1,
+    "explanation": "'Covert' means secret or hidden, not openly acknowledged. The context clue 'never disclosing the practice to the workforce' confirms the concealed and clandestine nature of the strategy.",
+    "wrongReasons": [
+      "'Innovative but publicly announced' contradicts the secrecy — covert means deliberately undisclosed, not openly announced.",
+      "'Voluntary and based on employee consent' is the opposite — the monitoring was secret precisely because employees did not know about it.",
+      "'Temporary and subject to future review' describes duration and policy process, not the concealed nature that covert conveys."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["covert"],
+    "hebrewExplanation": "covert = סמוי, חשאי, נסתר. הרמז: 'never disclosing the practice to the workforce' = מעולם לא גילו לעובדים — פעולה שנעשתה בסתר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-140",
+    "difficulty": "hard",
+    "text": "The beauty of the cherry blossoms is [ephemeral], lasting only a few days before the petals fall. The word '[ephemeral]' most nearly means:",
+    "choices": [
+      "extraordinarily vivid in color and detail",
+      "lasting only a very short time",
+      "dependent on specific weather conditions",
+      "symbolic of renewal and long life"
+    ],
+    "answer": 1,
+    "explanation": "'Ephemeral' means lasting for a very short time. The context clue 'lasting only a few days before the petals fall' directly defines the transient nature of the blossoms.",
+    "wrongReasons": [
+      "'Extraordinarily vivid in color and detail' describes appearance, not duration — ephemeral is about how long something lasts.",
+      "'Dependent on specific weather conditions' describes causation, not the brevity that ephemeral conveys.",
+      "'Symbolic of renewal and long life' is a cultural interpretation unrelated to the word's core meaning of brevity."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["ephemeral"],
+    "hebrewExplanation": "ephemeral = חולף, קצר-מועד. הרמז: 'lasting only a few days before the petals fall' — היופי נמשך רק ימים ספורים.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-141",
+    "difficulty": "hard",
+    "text": "The psychologist argued that the motivation to help others was [intrinsic] in human nature, not solely the product of social conditioning. The word '[intrinsic]' most nearly means:",
+    "choices": [
+      "culturally acquired and learned through experience",
+      "belonging naturally to a thing as a permanent characteristic",
+      "dependent on external rewards or recognition",
+      "observable only under controlled laboratory conditions"
+    ],
+    "answer": 1,
+    "explanation": "'Intrinsic' means belonging to the essential nature of something — part of what it is, from within. The context clue 'not solely the product of social conditioning' shows the motivation comes from inside human nature itself.",
+    "wrongReasons": [
+      "'Culturally acquired and learned through experience' describes extrinsic, socially shaped behavior — exactly what the sentence contrasts with intrinsic.",
+      "'Dependent on external rewards or recognition' is the definition of extrinsic motivation — the opposite of intrinsic.",
+      "'Observable only under controlled laboratory conditions' speaks to research methodology, not the internal, natural quality that intrinsic describes."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "psychology"],
+    "vocabularyWords": ["intrinsic"],
+    "hebrewExplanation": "intrinsic = פנימי, מהותי, מובנה בטבע הדבר. הרמז: 'not solely the product of social conditioning' = לא רק תוצר של תנאים חיצוניים — כלומר, נובע מהטבע הפנימי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-142",
+    "difficulty": "hard",
+    "text": "The critic described the novel as [didactic], suggesting it was more concerned with teaching moral lessons than with telling an engaging story. The word '[didactic]' most nearly means:",
+    "choices": [
+      "intended primarily to instruct or teach a moral",
+      "written in an experimental and unconventional style",
+      "praised for its realistic portrayal of daily life",
+      "focused on suspense and unexpected plot twists"
+    ],
+    "answer": 0,
+    "explanation": "'Didactic' means intended to teach, especially moral lessons. The context clue 'more concerned with teaching moral lessons than with telling an engaging story' directly conveys the instructive, sometimes heavy-handed purpose.",
+    "wrongReasons": [
+      "'Written in an experimental and unconventional style' describes form and structure, unrelated to the instructive purpose of a didactic text.",
+      "'Praised for its realistic portrayal of daily life' describes a positive critical assessment of realism, unrelated to teaching moral lessons.",
+      "'Focused on suspense and unexpected plot twists' describes a thriller-like narrative style, which is unrelated to didactic purpose."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["didactic"],
+    "hebrewExplanation": "didactic = דידקטי, מוסרני, מכוון להוראה. הרמז: 'more concerned with teaching moral lessons' = עסוק יותר בהוראת מוסר מאשר בסיפור מרתק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-143",
+    "difficulty": "hard",
+    "text": "The senator's position on immigration was [equivocal], leaving both supporters and opponents uncertain about what policies she would actually pursue. The word '[equivocal]' most nearly means:",
+    "choices": [
+      "extremely clear and firmly committed",
+      "deliberately vague or open to multiple interpretations",
+      "strongly influenced by public polling data",
+      "consistent with her party's official platform"
+    ],
+    "answer": 1,
+    "explanation": "'Equivocal' means ambiguous, allowing for more than one interpretation — often intentionally. The context clue 'leaving both supporters and opponents uncertain' shows her stance was unclear to people on all sides.",
+    "wrongReasons": [
+      "'Extremely clear and firmly committed' is the antonym — equivocal means deliberately unclear, not decisive.",
+      "'Strongly influenced by public polling data' describes a political strategy, not the quality of being unclear or ambiguous.",
+      "'Consistent with her party's official platform' implies alignment and clarity — which contradicts the uncertainty equivocal describes."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["equivocal"],
+    "hebrewExplanation": "equivocal = דו-משמעי, עמום, לא חד-ערכי. הרמז: 'leaving both supporters and opponents uncertain' = הותיר את כולם בחוסר ודאות — כלומר, עמדה לא ברורה ומתחמקת.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-144",
+    "difficulty": "hard",
+    "text": "The researcher's [seminal] paper on neuroplasticity, published in the 1980s, laid the foundation for decades of subsequent investigation. The word '[seminal]' most nearly means:",
+    "choices": [
+      "recently published and widely downloaded",
+      "strongly influencing future development and thought",
+      "controversial and rejected by mainstream scientists",
+      "co-authored by several leading researchers"
+    ],
+    "answer": 1,
+    "explanation": "'Seminal' means highly influential in an original way — providing the seeds for future development. The context clue 'laid the foundation for decades of subsequent investigation' confirms its foundational role.",
+    "wrongReasons": [
+      "'Recently published and widely downloaded' contradicts the 1980s timeframe — seminal refers to lasting influence, not recency.",
+      "'Controversial and rejected by mainstream scientists' would undermine its influence; seminal work, by definition, is recognized and builds on.",
+      "'Co-authored by several leading researchers' describes authorship structure, irrelevant to whether it was foundational."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "science"],
+    "vocabularyWords": ["seminal"],
+    "hebrewExplanation": "seminal = יסודי, שהוליד התפתחויות עתידיות. הרמז: 'laid the foundation for decades of subsequent investigation' = היווה בסיס לעשרות שנות מחקר — מאמר שזרע את הזרעים לתחום שלם.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-145",
+    "difficulty": "hard",
+    "text": "The auditor found that the financial records were [replete] with inconsistencies, suggesting that the accounts had not been properly maintained. The word '[replete]' most nearly means:",
+    "choices": [
+      "completely free of errors",
+      "partially and unevenly documented",
+      "completely filled with or abundantly supplied with",
+      "reviewed and verified by an independent party"
+    ],
+    "answer": 2,
+    "explanation": "'Replete' means filled with or abundantly supplied with something. The context clue 'suggesting the accounts had not been properly maintained' shows the records had many inconsistencies throughout.",
+    "wrongReasons": [
+      "'Completely free of errors' is the antonym — replete with inconsistencies means filled with problems, not clean.",
+      "'Partially and unevenly documented' implies incomplete records, while replete implies full saturation — the records were thoroughly problematic.",
+      "'Reviewed and verified by an independent party' describes audit procedure, unrelated to whether the records contained inconsistencies."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "economics"],
+    "vocabularyWords": ["replete"],
+    "hebrewExplanation": "replete = מלא עד אפס מקום, שופע. הרמז: 'inconsistencies' + 'not been properly maintained' — הרשומות היו מלאות בסתירות ובטעויות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-146",
+    "difficulty": "hard",
+    "text": "The minister's remarks were seen as [inflammatory], sparking protests in several cities the following day. The word '[inflammatory]' most nearly means:",
+    "choices": [
+      "calm and designed to reduce existing tensions",
+      "likely to provoke strong emotion or unrest",
+      "medically related to tissue swelling",
+      "carefully worded to appeal to all groups"
+    ],
+    "answer": 1,
+    "explanation": "'Inflammatory' in a social context means tending to provoke or incite strong reactions, anger, or unrest. The context clue 'sparking protests in several cities' confirms the remarks caused strong public reaction.",
+    "wrongReasons": [
+      "'Calm and designed to reduce existing tensions' is the antonym — inflammatory provokes rather than soothes.",
+      "'Medically related to tissue swelling' is the literal biological meaning — in this social/political context, the word is used figuratively.",
+      "'Carefully worded to appeal to all groups' describes diplomatic language, which would be the opposite of something that sparked protests."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "society"],
+    "vocabularyWords": ["inflammatory"],
+    "hebrewExplanation": "inflammatory = מסית, מלהיב, מעורר מהומה. הרמז: 'sparking protests in several cities' = גרם להפגנות — כלומר, הצית תגובות חריפות בציבור.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-147",
+    "difficulty": "hard",
+    "text": "The diplomat employed [obfuscation] to avoid giving a direct answer, using complex language that left journalists more confused than informed. The word '[obfuscation]' most nearly means:",
+    "choices": [
+      "deliberate clarity and transparent communication",
+      "the use of language to confuse or obscure the truth",
+      "an appeal to international legal standards",
+      "the practice of speaking on behalf of another party"
+    ],
+    "answer": 1,
+    "explanation": "'Obfuscation' means the action of making something unclear or difficult to understand, often deliberately. The context clue 'complex language that left journalists more confused than informed' directly describes the effect of obfuscation.",
+    "wrongReasons": [
+      "'Deliberate clarity and transparent communication' is the antonym — obfuscation is about deliberately creating confusion, not clarity.",
+      "'An appeal to international legal standards' introduces a specific legal strategy not implied in the sentence.",
+      "'The practice of speaking on behalf of another party' describes representation or proxy communication, not deliberate confusion."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["obfuscation"],
+    "hebrewExplanation": "obfuscation = ערפול, טשטוש, הסתרת האמת בשפה מסובכת. הרמז: 'left journalists more confused than informed' = עיתונאים יצאו מבולבלים יותר ממה שנאמר להם.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-148",
+    "difficulty": "hard",
+    "text": "The scholar argued that modern consumer culture has produced a [vacuous] form of entertainment, one that stimulates but never truly engages the intellect. The word '[vacuous]' most nearly means:",
+    "choices": [
+      "intellectually rich and thought-provoking",
+      "designed for a highly educated audience",
+      "lacking in substance or meaningful content",
+      "commercially successful but critically undervalued"
+    ],
+    "answer": 2,
+    "explanation": "'Vacuous' means lacking in ideas or intelligence — empty and without substance. The context clue 'stimulates but never truly engages the intellect' shows the entertainment has surface appeal but no real depth.",
+    "wrongReasons": [
+      "'Intellectually rich and thought-provoking' is the antonym — vacuous specifically means intellectually empty.",
+      "'Designed for a highly educated audience' implies depth and sophistication, contradicting the criticism of vacuous entertainment.",
+      "'Commercially successful but critically undervalued' describes a marketing and critical reception pattern, not the absence of substance."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "culture"],
+    "vocabularyWords": ["vacuous"],
+    "hebrewExplanation": "vacuous = ריק, חסר תוכן, שטחי. הרמז: 'stimulates but never truly engages the intellect' = מגרה אך לא עוסק באמת בשכל — כלומר, בידור ריק מתוכן.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-149",
+    "difficulty": "hard",
+    "text": "The government's [draconian] response to the protests included mass arrests, curfews, and a total suspension of internet access. The word '[draconian]' most nearly means:",
+    "choices": [
+      "cautious and measured in enforcing the law",
+      "excessively harsh and severe",
+      "internationally sanctioned and legally justified",
+      "temporary and lifted within forty-eight hours"
+    ],
+    "answer": 1,
+    "explanation": "'Draconian' means excessively harsh or severe — derived from the ancient Athenian lawmaker Draco, known for brutal punishments. The context clue — mass arrests, curfews, and internet suspension — lists extreme measures.",
+    "wrongReasons": [
+      "'Cautious and measured in enforcing the law' is the opposite of draconian, which implies going far beyond what is proportionate.",
+      "'Internationally sanctioned and legally justified' would legitimize the response, while draconian carries a negative connotation of excess.",
+      "'Temporary and lifted within forty-eight hours' focuses on duration; draconian describes severity of the measures, not how long they last."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["draconian"],
+    "hebrewExplanation": "draconian = דרקוני, מחמיר ביותר, אכזרי. הרמז: 'mass arrests, curfews, and a total suspension of internet access' = צעדים קיצוניים ומחמירים בצורה חריגה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-150",
+    "difficulty": "hard",
+    "text": "The scientist's [recalcitrant] refusal to share data with independent reviewers slowed the peer review process and raised concerns about transparency. The word '[recalcitrant]' most nearly means:",
+    "choices": [
+      "cooperative and eager to collaborate",
+      "stubbornly resistant to authority or accepted norms",
+      "temporarily unavailable due to technical issues",
+      "cautiously waiting for full legal clearance"
+    ],
+    "answer": 1,
+    "explanation": "'Recalcitrant' means stubbornly resistant to authority or control. The context clue 'refusal to share data with independent reviewers' shows deliberate, persistent non-compliance with standard scientific norms.",
+    "wrongReasons": [
+      "'Cooperative and eager to collaborate' is the direct opposite of recalcitrant — the scientist actively refused to cooperate.",
+      "'Temporarily unavailable due to technical issues' implies an unintentional obstacle; recalcitrant means a deliberate, willful refusal.",
+      "'Cautiously waiting for full legal clearance' implies a procedural reason for delay, not the stubborn resistance recalcitrant describes."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues", "science"],
+    "vocabularyWords": ["recalcitrant"],
+    "hebrewExplanation": "recalcitrant = עקשן, סרבן, מתנגד בעקשנות. הרמז: 'refusal to share data with independent reviewers' = סירוב לשתף נתונים — התנגדות עיקשת לנורמות המקובלות.",
+    "estimatedTimeSeconds": 50
+  }
+]

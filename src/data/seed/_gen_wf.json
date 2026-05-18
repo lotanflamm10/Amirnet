@@ -1,0 +1,984 @@
+{
+  "wordFormation": [
+    {
+      "id": "wf51",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The researchers noted a significant _____ in patient recovery rates.",
+      "choices": ["improve", "improvement", "improved", "improving"],
+      "answer": 1,
+      "explanation": "A noun is required after 'a significant _____', and 'improvement' is the correct noun form of 'improve'.",
+      "wrongReasons": [
+        "Improve is a verb, not a noun, and cannot follow 'a significant'.",
+        "Improved is an adjective or past participle, not a noun.",
+        "Improving is a gerund/present participle; it cannot follow 'a significant' as the head noun here."
+      ]
+    },
+    {
+      "id": "wf52",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The new policy was designed to _____ fairness across all departments.",
+      "choices": ["promotion", "promotional", "promote", "promoter"],
+      "answer": 2,
+      "explanation": "After 'to', the base form of a verb is needed; 'promote' is the correct infinitive.",
+      "wrongReasons": [
+        "Promotion is a noun and cannot serve as the main verb in 'to _____ fairness'.",
+        "Promotional is an adjective, not a verb.",
+        "Promoter is a noun referring to a person, not a verb."
+      ]
+    },
+    {
+      "id": "wf53",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The children showed great _____ during the outdoor science activities.",
+      "choices": ["enthusiasm", "enthusiastic", "enthusiastically", "enthusiast"],
+      "answer": 0,
+      "explanation": "'Great _____ ' requires a noun; 'enthusiasm' is the uncountable noun form.",
+      "wrongReasons": [
+        "Enthusiastic is an adjective and cannot follow 'great' as a noun object.",
+        "Enthusiastically is an adverb and cannot be the object of 'showed'.",
+        "Enthusiast is a countable noun meaning a person; it needs an article and does not collocate with 'showed great'."
+      ]
+    },
+    {
+      "id": "wf54",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The lecture was _____ presented and easy to follow.",
+      "choices": ["clear", "clarity", "clearness", "clearly"],
+      "answer": 3,
+      "explanation": "An adverb is needed to modify the verb 'presented'; 'clearly' is the adverb form of 'clear'.",
+      "wrongReasons": [
+        "Clear is an adjective and cannot modify a verb directly.",
+        "Clarity is a noun, not an adverb.",
+        "Clearness is a noun, not an adverb."
+      ]
+    },
+    {
+      "id": "wf55",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The committee made a _____ decision to extend the deadline by one week.",
+      "choices": ["collective", "collectivity", "collectively", "collect"],
+      "answer": 0,
+      "explanation": "An adjective is needed to modify the noun 'decision'; 'collective' means made by the group as a whole.",
+      "wrongReasons": [
+        "Collectivity is a noun, not an adjective.",
+        "Collectively is an adverb and cannot modify a noun.",
+        "Collect is a verb and cannot modify a noun."
+      ]
+    },
+    {
+      "id": "wf56",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The students were asked to _____ their essays before submitting them.",
+      "choices": ["revision", "revised", "revise", "revisable"],
+      "answer": 2,
+      "explanation": "After 'to', the base verb form is required; 'revise' means to review and correct.",
+      "wrongReasons": [
+        "Revision is a noun and cannot function as an infinitive verb.",
+        "Revised is a past tense/past participle form, not an infinitive.",
+        "Revisable is an adjective, not a verb."
+      ]
+    },
+    {
+      "id": "wf57",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The government announced a major _____ of the national curriculum.",
+      "choices": ["revise", "revision", "revised", "revising"],
+      "answer": 1,
+      "explanation": "After 'a major', a noun is needed; 'revision' is the correct noun form.",
+      "wrongReasons": [
+        "Revise is a verb and cannot follow the article 'a'.",
+        "Revised is an adjective/past participle, not a noun.",
+        "Revising is a gerund/participle; it cannot directly follow 'a major' as a headnoun here."
+      ]
+    },
+    {
+      "id": "wf58",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The trainer stressed the importance of _____ practice to build good habits.",
+      "choices": ["consistently", "consistent", "consistency", "consist"],
+      "answer": 1,
+      "explanation": "An adjective is needed before the noun 'practice'; 'consistent' means done the same way over time.",
+      "wrongReasons": [
+        "Consistently is an adverb and cannot directly precede a noun as a modifier.",
+        "Consistency is a noun and cannot modify another noun in this position.",
+        "Consist is a verb, not an adjective."
+      ]
+    },
+    {
+      "id": "wf59",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "She spoke _____ about the challenges facing the education system.",
+      "choices": ["passion", "passionately", "passionate", "passions"],
+      "answer": 1,
+      "explanation": "An adverb is needed to modify the verb 'spoke'; 'passionately' is the adverb form.",
+      "wrongReasons": [
+        "Passion is a noun and cannot modify a verb.",
+        "Passionate is an adjective and cannot modify a verb.",
+        "Passions is a plural noun, not an adverb."
+      ]
+    },
+    {
+      "id": "wf60",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The report highlighted the need to _____ resources more effectively.",
+      "choices": ["distribution", "distributing", "distributive", "distribute"],
+      "answer": 3,
+      "explanation": "'To _____ resources' requires an infinitive verb; 'distribute' is the base form.",
+      "wrongReasons": [
+        "Distribution is a noun and cannot follow 'to' as a verb.",
+        "Distributing is a present participle, not an infinitive base form.",
+        "Distributive is an adjective, not a verb."
+      ]
+    },
+    {
+      "id": "wf61",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The patient showed remarkable _____ after undergoing physical therapy.",
+      "choices": ["recovery", "recoverable", "recover", "recovered"],
+      "answer": 0,
+      "explanation": "'Remarkable _____' requires a noun; 'recovery' is the noun form of 'recover'.",
+      "wrongReasons": [
+        "Recoverable is an adjective, not a noun.",
+        "Recover is a verb, not a noun.",
+        "Recovered is an adjective/past participle, not a noun."
+      ]
+    },
+    {
+      "id": "wf62",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The findings were _____ consistent with the original hypothesis.",
+      "choices": ["broadly", "broaden", "broad", "broadness"],
+      "answer": 0,
+      "explanation": "An adverb is needed to modify the adjective 'consistent'; 'broadly' means generally or in a wide sense.",
+      "wrongReasons": [
+        "Broaden is a verb and cannot modify an adjective.",
+        "Broad is an adjective and cannot modify another adjective here.",
+        "Broadness is a noun and cannot modify an adjective."
+      ]
+    },
+    {
+      "id": "wf63",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The team's _____ of the problem led to an effective solution.",
+      "choices": ["identification", "identifiable", "identify", "identified"],
+      "answer": 0,
+      "explanation": "After the possessive 'team's', a noun is required; 'identification' is the noun form of 'identify'.",
+      "wrongReasons": [
+        "Identify is a verb and cannot follow a possessive determiner as a noun head.",
+        "Identifiable is an adjective, not a noun.",
+        "Identified is a past tense/past participle, not a noun."
+      ]
+    },
+    {
+      "id": "wf64",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The professor encouraged students to think _____ about complex social issues.",
+      "choices": ["critic", "criticise", "critically", "critical"],
+      "answer": 2,
+      "explanation": "An adverb is needed to modify the verb 'think'; 'critically' means in an analytical, evaluative way.",
+      "wrongReasons": [
+        "Critic is a noun referring to a person, not an adverb.",
+        "Criticise is a verb, not an adverb.",
+        "Critical is an adjective and cannot modify a verb."
+      ]
+    },
+    {
+      "id": "wf65",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The research team hopes to _____ a new model for predicting climate change.",
+      "choices": ["development", "developed", "developing", "develop"],
+      "answer": 3,
+      "explanation": "'To _____ a new model' requires the base verb form; 'develop' is the correct infinitive.",
+      "wrongReasons": [
+        "Development is a noun and cannot serve as an infinitive verb.",
+        "Developed is a past tense/participle, not an infinitive.",
+        "Developing is a present participle, not an infinitive base form."
+      ]
+    },
+    {
+      "id": "wf66",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "Her work on renewable energy was both _____ and widely cited.",
+      "choices": ["innovate", "innovatively", "innovation", "innovative"],
+      "answer": 3,
+      "explanation": "An adjective is needed in the structure 'was both _____ and widely cited'; 'innovative' means introducing new ideas.",
+      "wrongReasons": [
+        "Innovate is a verb, not an adjective.",
+        "Innovatively is an adverb and cannot be the subject complement after 'was'.",
+        "Innovation is a noun, not an adjective."
+      ]
+    },
+    {
+      "id": "wf67",
+      "category": "wordFormation",
+      "difficulty": "easy",
+      "text": "The _____ of the survey results confirmed the team's initial assumptions.",
+      "choices": ["analyse", "analysed", "analyst", "analysis"],
+      "answer": 3,
+      "explanation": "'The _____ of the survey results' requires a noun; 'analysis' is the noun form of 'analyse'.",
+      "wrongReasons": [
+        "Analyse is a verb and cannot follow the article 'the' as a noun head.",
+        "Analysed is a past tense/participle, not a noun.",
+        "Analyst is a noun meaning a person who analyses, not the act of analysing."
+      ]
+    },
+    {
+      "id": "wf68",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The board must _____ new safety regulations before the end of the quarter.",
+      "choices": ["implementation", "implemented", "implementing", "implement"],
+      "answer": 3,
+      "explanation": "'Must _____ ' requires the base verb form; 'implement' means to put a plan or policy into effect.",
+      "wrongReasons": [
+        "Implementation is a noun and cannot follow a modal verb like 'must'.",
+        "Implemented is a past tense/participle, not a base verb form.",
+        "Implementing is a present participle, not a base verb form after a modal."
+      ]
+    },
+    {
+      "id": "wf69",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The lecture covered the _____ of data across different sample populations.",
+      "choices": ["variable", "vary", "variably", "variation"],
+      "answer": 3,
+      "explanation": "'The _____ of data' requires a noun; 'variation' means the extent to which something differs.",
+      "wrongReasons": [
+        "Variable is an adjective or noun meaning a factor that can change, not the act of varying.",
+        "Vary is a verb and cannot follow the article 'the'.",
+        "Variably is an adverb, not a noun."
+      ]
+    },
+    {
+      "id": "wf70",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The organisation sought to _____ its procedures to improve overall efficiency.",
+      "choices": ["simplified", "simplification", "simplify", "simplistic"],
+      "answer": 2,
+      "explanation": "'To _____ its procedures' requires the base verb form; 'simplify' means to make less complex.",
+      "wrongReasons": [
+        "Simplified is a past tense/participle, not an infinitive base form.",
+        "Simplification is a noun and cannot follow 'to' as a verb.",
+        "Simplistic is an adjective meaning overly simple, not a verb."
+      ]
+    },
+    {
+      "id": "wf71",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The study was praised for the _____ of its methodology.",
+      "choices": ["rigorous", "rigorously", "rigorousness", "rigour"],
+      "answer": 3,
+      "explanation": "'The _____ of its methodology' requires a noun; 'rigour' is the standard academic noun form meaning thoroughness.",
+      "wrongReasons": [
+        "Rigorous is an adjective and cannot follow 'the' as a noun head in this structure.",
+        "Rigorously is an adverb, not a noun.",
+        "Rigorousness is a valid but non-standard noun; 'rigour' is the preferred academic form and fits the collocation 'praised for the rigour of'."
+      ]
+    },
+    {
+      "id": "wf72",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The authors _____ that further studies are needed to confirm these results.",
+      "choices": ["suggest", "suggestion", "suggestive", "suggested"],
+      "answer": 0,
+      "explanation": "The subject 'the authors' needs a present-tense verb; 'suggest' is the correct base form for third-person plural.",
+      "wrongReasons": [
+        "Suggestion is a noun and cannot serve as the main verb.",
+        "Suggestive is an adjective, not a verb.",
+        "Suggested is past tense; the sentence is a general present-tense claim."
+      ]
+    },
+    {
+      "id": "wf73",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The delegates reached a _____ agreement after hours of negotiation.",
+      "choices": ["mutuality", "mutually", "mutual", "mutualise"],
+      "answer": 2,
+      "explanation": "An adjective is needed before 'agreement'; 'mutual' means shared by both parties.",
+      "wrongReasons": [
+        "Mutuality is a noun and cannot directly modify a noun.",
+        "Mutually is an adverb; it can precede adjectives but not nouns directly.",
+        "Mutualise is a verb, not an adjective."
+      ]
+    },
+    {
+      "id": "wf74",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The community centre was built to _____ a wide range of social activities.",
+      "choices": ["accommodate", "accommodation", "accommodating", "accommodated"],
+      "answer": 0,
+      "explanation": "'To _____ a wide range' requires the base verb form; 'accommodate' means to provide space or support for.",
+      "wrongReasons": [
+        "Accommodation is a noun and cannot follow 'to' as a verb.",
+        "Accommodating is a present participle or adjective, not an infinitive base form.",
+        "Accommodated is a past participle, not an infinitive."
+      ]
+    },
+    {
+      "id": "wf75",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The results were _____ affected by the high level of background noise in the lab.",
+      "choices": ["significance", "significant", "signify", "significantly"],
+      "answer": 3,
+      "explanation": "An adverb is needed to modify the adjective 'affected'; 'significantly' means to a notable degree.",
+      "wrongReasons": [
+        "Significance is a noun and cannot modify an adjective.",
+        "Significant is an adjective and cannot modify another adjective or a past participle.",
+        "Signify is a verb, not an adverb."
+      ]
+    },
+    {
+      "id": "wf76",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The architect presented a _____ design that balanced aesthetics with function.",
+      "choices": ["sustainably", "sustainability", "sustain", "sustainable"],
+      "answer": 3,
+      "explanation": "An adjective is required to modify 'design'; 'sustainable' means able to be maintained without damaging the environment.",
+      "wrongReasons": [
+        "Sustainably is an adverb and cannot directly modify a noun.",
+        "Sustainability is a noun and cannot directly modify a noun in this position.",
+        "Sustain is a verb, not an adjective."
+      ]
+    },
+    {
+      "id": "wf77",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The school aims to _____ a culture of lifelong learning among its students.",
+      "choices": ["promotion", "promoting", "promotional", "promote"],
+      "answer": 3,
+      "explanation": "'Aims to _____' requires the base verb form; 'promote' means to encourage or support.",
+      "wrongReasons": [
+        "Promotion is a noun and cannot follow 'to' as a verb.",
+        "Promoting is a present participle; after 'to', the base form is required.",
+        "Promotional is an adjective, not a verb."
+      ]
+    },
+    {
+      "id": "wf78",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The survey demonstrated a _____ correlation between exercise frequency and mental health.",
+      "choices": ["positively", "positiveness", "positive", "positivity"],
+      "answer": 2,
+      "explanation": "An adjective is needed to modify 'correlation'; 'positive' describes a direct, favourable relationship.",
+      "wrongReasons": [
+        "Positively is an adverb and cannot directly modify a noun.",
+        "Positiveness is a noun and cannot directly modify a noun.",
+        "Positivity is a noun (meaning a positive attitude) and cannot directly modify a noun."
+      ]
+    },
+    {
+      "id": "wf79",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "It is essential for managers to _____ tasks according to urgency and importance.",
+      "choices": ["prioritisation", "priority", "prioritise", "prioritised"],
+      "answer": 2,
+      "explanation": "'To _____ tasks' requires the base verb form; 'prioritise' means to rank by order of importance.",
+      "wrongReasons": [
+        "Prioritisation is a noun and cannot follow 'to' as a verb.",
+        "Priority is a noun referring to something of high importance, not a verb.",
+        "Prioritised is past tense/participle, not an infinitive base form."
+      ]
+    },
+    {
+      "id": "wf80",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The _____ of the new software system took several months to complete.",
+      "choices": ["integrate", "integrating", "integral", "integration"],
+      "answer": 3,
+      "explanation": "'The _____ of the new software system' requires a noun; 'integration' means the process of combining components.",
+      "wrongReasons": [
+        "Integrate is a verb and cannot follow the article 'the' as a noun head.",
+        "Integrating is a gerund/participle; while gerunds can be nouns, 'integration' is the standard nominal form here.",
+        "Integral is an adjective meaning essential, not the noun describing the process."
+      ]
+    },
+    {
+      "id": "wf81",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The programme was specifically designed to _____ employees' technical skills.",
+      "choices": ["enhancement", "enhanced", "enhancing", "enhance"],
+      "answer": 3,
+      "explanation": "'To _____ employees' skills' requires the base verb form; 'enhance' means to improve or increase in quality.",
+      "wrongReasons": [
+        "Enhancement is a noun and cannot follow 'to' as a verb.",
+        "Enhanced is a past participle, not an infinitive.",
+        "Enhancing is a present participle, not an infinitive base form."
+      ]
+    },
+    {
+      "id": "wf82",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The article provided a thorough _____ of current trends in renewable energy.",
+      "choices": ["assess", "assessed", "assessment", "assessing"],
+      "answer": 2,
+      "explanation": "'A thorough _____' requires a noun; 'assessment' is the noun form meaning an evaluation.",
+      "wrongReasons": [
+        "Assess is a verb and cannot follow 'a thorough' as a noun head.",
+        "Assessed is a past participle, not a noun.",
+        "Assessing is a gerund/present participle; 'assessment' is the standard nominal form in academic writing."
+      ]
+    },
+    {
+      "id": "wf83",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The new regulations will _____ all manufacturers to disclose ingredient information.",
+      "choices": ["required", "requirement", "require", "requiring"],
+      "answer": 2,
+      "explanation": "'Will _____ all manufacturers' requires the base verb form after the modal 'will'; 'require' means to make something necessary.",
+      "wrongReasons": [
+        "Required is a past participle, not a base verb form after a modal.",
+        "Requirement is a noun and cannot follow a modal verb as the main verb.",
+        "Requiring is a present participle, not a base verb form after a modal."
+      ]
+    },
+    {
+      "id": "wf84",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The graph shows an _____ rise in global temperatures over the past decade.",
+      "choices": ["alarm", "alarmingly", "alarmed", "alarming"],
+      "answer": 3,
+      "explanation": "An adjective is needed before 'rise' to modify it; 'alarming' means causing worry or concern.",
+      "wrongReasons": [
+        "Alarm is a noun or verb, not an adjective modifying 'rise'.",
+        "Alarmingly is an adverb and cannot directly precede a noun.",
+        "Alarmed is a past participle meaning frightened, typically used of people, not statistics."
+      ]
+    },
+    {
+      "id": "wf85",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The funding was allocated _____ to ensure every department received equal support.",
+      "choices": ["equality", "equal", "equalise", "equally"],
+      "answer": 3,
+      "explanation": "An adverb is needed to modify the verb 'allocated'; 'equally' means in the same proportion to all.",
+      "wrongReasons": [
+        "Equality is a noun, not an adverb.",
+        "Equal is an adjective and cannot modify a verb.",
+        "Equalise is a verb, not an adverb."
+      ]
+    },
+    {
+      "id": "wf86",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The committee was unable to _____ the discrepancy in the financial records.",
+      "choices": ["explanatory", "explanation", "explained", "explain"],
+      "answer": 3,
+      "explanation": "'Unable to _____' requires the base verb form; 'explain' means to give reasons or make clear.",
+      "wrongReasons": [
+        "Explanatory is an adjective, not a verb.",
+        "Explanation is a noun and cannot follow 'to' as a verb.",
+        "Explained is a past participle, not an infinitive base form."
+      ]
+    },
+    {
+      "id": "wf87",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The evidence presented was _____ and difficult to challenge.",
+      "choices": ["compellingly", "compel", "compelling", "compelled"],
+      "answer": 2,
+      "explanation": "An adjective is needed after the linking verb 'was'; 'compelling' means convincing and difficult to resist.",
+      "wrongReasons": [
+        "Compel is a verb and cannot serve as an adjective complement after 'was'.",
+        "Compellingly is an adverb and cannot be a subject complement after a linking verb.",
+        "Compelled means forced to do something; it does not describe evidence."
+      ]
+    },
+    {
+      "id": "wf88",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The director urged staff to _____ new approaches to problem-solving.",
+      "choices": ["adoption", "adopted", "adopt", "adoptive"],
+      "answer": 2,
+      "explanation": "'To _____ new approaches' requires the base verb form; 'adopt' means to start using or accepting.",
+      "wrongReasons": [
+        "Adoption is a noun and cannot follow 'to' as a verb.",
+        "Adopted is a past participle, not an infinitive.",
+        "Adoptive is an adjective meaning related to adoption, not a verb."
+      ]
+    },
+    {
+      "id": "wf89",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The workshop was _____ designed to help participants develop leadership skills.",
+      "choices": ["specifics", "specify", "specifically", "specific"],
+      "answer": 2,
+      "explanation": "An adverb is needed to modify the past participle 'designed'; 'specifically' means for a particular purpose.",
+      "wrongReasons": [
+        "Specifics is a noun, not an adverb.",
+        "Specify is a verb, not an adverb.",
+        "Specific is an adjective and cannot modify a past participle."
+      ]
+    },
+    {
+      "id": "wf90",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "Students are expected to _____ their arguments with relevant evidence.",
+      "choices": ["justification", "justifiable", "justify", "justified"],
+      "answer": 2,
+      "explanation": "'To _____ their arguments' requires the base verb form; 'justify' means to prove or show to be right.",
+      "wrongReasons": [
+        "Justification is a noun and cannot follow 'to' as a verb.",
+        "Justifiable is an adjective, not a verb.",
+        "Justified is a past participle, not an infinitive."
+      ]
+    },
+    {
+      "id": "wf91",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The research data showed that the _____ between the two variables was statistically significant.",
+      "choices": ["relate", "relatable", "relation", "relational"],
+      "answer": 2,
+      "explanation": "'The _____ between the two variables' requires a noun; 'relation' (or 'relationship') is the correct noun form.",
+      "wrongReasons": [
+        "Relate is a verb and cannot follow the article 'the' as a noun head.",
+        "Relatable is an adjective meaning easy to understand or identify with, not a noun.",
+        "Relational is an adjective, not a noun."
+      ]
+    },
+    {
+      "id": "wf92",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The government pledged to _____ investment in public infrastructure over the next five years.",
+      "choices": ["maintenance", "maintain", "maintained", "maintaining"],
+      "answer": 1,
+      "explanation": "'Pledged to _____' requires the base verb form; 'maintain' means to keep at the same level.",
+      "wrongReasons": [
+        "Maintenance is a noun and cannot follow 'to' as a verb.",
+        "Maintained is a past participle, not an infinitive.",
+        "Maintaining is a present participle, not an infinitive base form."
+      ]
+    },
+    {
+      "id": "wf93",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The speaker argued that economic growth and environmental protection are not _____.",
+      "choices": ["incompatibility", "compatible", "compatibility", "incompatible"],
+      "answer": 3,
+      "explanation": "An adjective is needed as the subject complement after 'are not'; 'incompatible' means unable to exist together.",
+      "wrongReasons": [
+        "Incompatibility is a noun and cannot serve as a subject complement in this structure.",
+        "Compatible means able to exist together — the opposite of the intended meaning with 'not'.",
+        "Compatibility is a noun, not an adjective."
+      ]
+    },
+    {
+      "id": "wf94",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The manager's _____ approach to conflict helped maintain a positive team culture.",
+      "choices": ["construct", "constructively", "constructive", "construction"],
+      "answer": 2,
+      "explanation": "An adjective is needed before 'approach'; 'constructive' means helpful and aimed at positive outcomes.",
+      "wrongReasons": [
+        "Construct is a noun or verb, not an adjective.",
+        "Constructively is an adverb and cannot directly modify a noun.",
+        "Construction is a noun meaning a building or process, not an adjective."
+      ]
+    },
+    {
+      "id": "wf95",
+      "category": "wordFormation",
+      "difficulty": "medium",
+      "text": "The new regulations were introduced _____ to address growing public health concerns.",
+      "choices": ["response", "responsive", "respond", "responsively"],
+      "answer": 3,
+      "explanation": "An adverb is needed to modify the past participle 'introduced'; 'responsively' means in a way that responds to needs.",
+      "wrongReasons": [
+        "Response is a noun and cannot modify a past participle.",
+        "Responsive is an adjective and cannot modify a past participle used as a verb.",
+        "Respond is a verb, not an adverb."
+      ]
+    },
+    {
+      "id": "wf96",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The panel concluded that the findings were _____, as they could not be replicated under different conditions.",
+      "choices": ["inconclusive", "conclusive", "unresolved", "concluding"],
+      "answer": 0,
+      "explanation": "'Inconclusive' means not leading to a definite conclusion, which fits because the findings 'could not be replicated'. 'Conclusive' is the opposite. 'Unresolved' suggests a problem that was not dealt with, which is different. 'Concluding' is a participle meaning final or ending.",
+      "wrongReasons": [
+        "Conclusive means providing a definite answer — the opposite of what the sentence requires.",
+        "Unresolved describes an issue not yet settled, not data that failed to confirm a conclusion.",
+        "Concluding is a participle meaning 'final' or 'coming to an end', not a description of evidence quality."
+      ]
+    },
+    {
+      "id": "wf97",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The researcher's failure to declare a potential conflict of interest was considered a serious _____ of professional ethics.",
+      "choices": ["infringement", "violation", "contravention", "breach"],
+      "answer": 3,
+      "explanation": "'Breach of professional ethics' is the established academic and legal collocation. All choices are near-synonyms, but 'breach' is the standard term in formal and academic contexts for a failure to comply with an expected code.",
+      "wrongReasons": [
+        "Infringement typically collocates with rights or laws, not ethics.",
+        "Violation is possible but less idiomatic with 'ethics' than 'breach'; it more often pairs with 'rights' or 'rules'.",
+        "Contravention is correct in legal registers for violating rules but is not the standard collocation with 'professional ethics'."
+      ]
+    },
+    {
+      "id": "wf98",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The commission's recommendations were largely _____ because the government lacked the political will to act.",
+      "choices": ["unimplementable", "unimplemented", "non-implemented", "misimplemented"],
+      "answer": 1,
+      "explanation": "'Unimplemented' means not put into practice; it is the correct and standard adjective here. 'Unimplementable' would mean impossible to implement, which is not the stated reason (lack of will, not feasibility). The other two forms are either non-standard or change the meaning.",
+      "wrongReasons": [
+        "Unimplementable means impossible to implement by nature, but the sentence says they were not implemented due to lack of political will, not infeasibility.",
+        "Non-implemented is not a standard English adjective; 'unimplemented' is the accepted form.",
+        "Misimplemented means implemented incorrectly, which contradicts the context of not being acted on at all."
+      ]
+    },
+    {
+      "id": "wf99",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The author's decision to withhold key data was seen as _____ to the integrity of the study.",
+      "choices": ["detrimental", "instrumental", "fundamental", "elemental"],
+      "answer": 0,
+      "explanation": "'Detrimental to' means causing harm or damage, which fits the context of withholding data. The other adjectives all end in '-mental' but have different meanings and collocations.",
+      "wrongReasons": [
+        "Instrumental to means contributing to or being a means of — a positive meaning, opposite to the context.",
+        "Fundamental to means forming the essential base of, which is a neutral or positive collocation.",
+        "Elemental means relating to basic elements; it does not collocate with 'integrity' in this academic sense."
+      ]
+    },
+    {
+      "id": "wf100",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The theory has faced significant _____ from scholars who argue that the evidence is circumstantial.",
+      "choices": ["contradiction", "scrutiny", "opposition", "dissent"],
+      "answer": 2,
+      "explanation": "The sentence describes scholars who argue against the theory; 'opposition' is the correct noun for this collective academic resistance. 'Scrutiny' means examination, not disagreement. 'Contradiction' and 'dissent' have narrower meanings.",
+      "wrongReasons": [
+        "Contradiction means a statement that conflicts with another; it does not describe scholars' collective stance.",
+        "Scrutiny means careful examination, not disagreement or challenge to a theory.",
+        "Dissent means a difference of opinion, but collocates better with 'voice dissent' than 'faced significant dissent from scholars'."
+      ]
+    },
+    {
+      "id": "wf101",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The government's _____ of foreign investment in sensitive sectors drew international criticism.",
+      "choices": ["restriction", "restraint", "constraint", "constriction"],
+      "answer": 0,
+      "explanation": "'Restriction of foreign investment' is the standard academic and policy collocation. The other nouns are near-synonyms but differ in typical usage.",
+      "wrongReasons": [
+        "Restraint collocates with behaviour or impulses ('showed restraint'), not with investment policy.",
+        "Constraint suggests an external limiting factor, not a deliberate government policy action.",
+        "Constriction is primarily used in physical or medical contexts (e.g. blood vessels), not policy language."
+      ]
+    },
+    {
+      "id": "wf102",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The scientists were careful to _____ between correlation and causation in their conclusions.",
+      "choices": ["differentiate", "distinguish", "discriminate", "separate"],
+      "answer": 1,
+      "explanation": "'Distinguish between X and Y' is the standard academic collocation. While 'differentiate between' and 'discriminate between' are possible, 'distinguish' is the preferred verb in academic writing when discussing conceptual differences.",
+      "wrongReasons": [
+        "Differentiate between is grammatically correct but is more commonly used in contexts of technical measurement or biological variation.",
+        "Discriminate between can work but carries connotations of bias in non-technical contexts and is less idiomatic here.",
+        "Separate is a verb but does not collocate with 'between'; one separates things from each other, not between them."
+      ]
+    },
+    {
+      "id": "wf103",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The author acknowledged that some _____ in the data collection process may have affected the outcome.",
+      "choices": ["irregularities", "discrepancies", "anomalies", "inconsistencies"],
+      "answer": 2,
+      "explanation": "'Anomalies in the data collection process' is the most precise academic term: anomalies are unexpected deviations from expected patterns. The other nouns are related but shift the meaning.",
+      "wrongReasons": [
+        "Irregularities implies rule-breaking or procedural faults, which is stronger than the sentence suggests.",
+        "Discrepancies refers to differences between two sets of information rather than within a process.",
+        "Inconsistencies describes lack of uniformity across instances, less precisely tied to the data collection process itself."
+      ]
+    },
+    {
+      "id": "wf104",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The policy was criticised for being _____, as it addressed symptoms rather than underlying causes.",
+      "choices": ["superficial", "peripheral", "marginal", "incidental"],
+      "answer": 0,
+      "explanation": "'Superficial' means dealing only with surface appearances, not root causes — exactly what the sentence describes. The other adjectives have related but distinct meanings.",
+      "wrongReasons": [
+        "Peripheral means relating to the outer edges, not to the centre; it implies a lack of centrality, not a failure to address root causes.",
+        "Marginal means small in importance or effect; it does not capture the idea of addressing only symptoms.",
+        "Incidental means occurring as a minor accompaniment; it implies happening by chance, not a deliberate but shallow approach."
+      ]
+    },
+    {
+      "id": "wf105",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The university adopted an _____ approach, drawing on methods from sociology, psychology, and economics.",
+      "choices": ["interdisciplinary", "multidisciplinary", "crossdisciplinary", "transdisciplinary"],
+      "answer": 1,
+      "explanation": "'Multidisciplinary' means involving several disciplines working in parallel, which fits 'drawing on methods from' multiple fields. 'Interdisciplinary' implies deeper integration and synthesis between fields.",
+      "wrongReasons": [
+        "Interdisciplinary implies that boundaries between disciplines are actively dissolved and knowledge is integrated — a stronger claim than 'drawing on methods from'.",
+        "Crossdisciplinary is a less common variant and not the standard academic term for this concept.",
+        "Transdisciplinary implies going beyond all existing disciplines to create a new framework — too strong for this context."
+      ]
+    },
+    {
+      "id": "wf106",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The proposed merger was seen as _____, given the companies' vastly different corporate cultures.",
+      "choices": ["problematic", "contentious", "controversial", "dubious"],
+      "answer": 1,
+      "explanation": "'Contentious' means likely to cause disagreement or argument, which suits the context of a contested merger. 'Controversial' is close but typically describes public debate; 'contentious' emphasises the act of being disputed between specific parties.",
+      "wrongReasons": [
+        "Controversial is close but more typically describes something that provokes general public debate rather than a specific dispute between parties.",
+        "Problematic means causing or presenting a problem — more general and neutral than the specific sense of being disputed.",
+        "Dubious means suspect or of questionable quality, implying dishonesty rather than disagreement."
+      ]
+    },
+    {
+      "id": "wf107",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The committee's findings were _____ of the broader patterns observed in comparable studies.",
+      "choices": ["indicative", "representative", "suggestive", "reflective"],
+      "answer": 1,
+      "explanation": "'Representative of' means serving as a typical example of a larger group, which precisely fits 'broader patterns in comparable studies'. The other adjectives carry subtly different meanings.",
+      "wrongReasons": [
+        "Indicative of means pointing toward or suggesting — implies a weaker or indirect signal than the statistical sense of representation.",
+        "Suggestive of implies a hint or implication rather than direct typicality.",
+        "Reflective of means mirroring or showing something, which is close but less precise in an academic statistical context."
+      ]
+    },
+    {
+      "id": "wf108",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The court ruled that the defendant's actions were not _____ with the terms of the agreement.",
+      "choices": ["consistent", "compliant", "commensurate", "concordant"],
+      "answer": 0,
+      "explanation": "'Consistent with the terms' is the standard legal and academic collocation meaning in accordance with. The other adjectives can follow 'with' but have different specific meanings.",
+      "wrongReasons": [
+        "Compliant with typically means obeying a rule or law, not matching the details of an agreement's terms.",
+        "Commensurate with means proportionate in size or extent, not matching in type or nature.",
+        "Concordant with is used in scientific contexts (e.g., concordant data) and is not standard in legal-academic writing."
+      ]
+    },
+    {
+      "id": "wf109",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The professor's lecture was _____ in its scope, covering two centuries of economic history in under an hour.",
+      "choices": ["comprehensive", "exhaustive", "extensive", "expansive"],
+      "answer": 0,
+      "explanation": "'Comprehensive' means covering all or nearly all relevant topics, which suits a lecture that covers an entire period thoroughly. The other adjectives are related but less precise in academic usage.",
+      "wrongReasons": [
+        "Exhaustive means covering every single detail — usually implies a longer, more complete treatment than a one-hour lecture allows.",
+        "Extensive means large in area or range but does not imply thoroughness of coverage, only breadth.",
+        "Expansive means broad or wide-ranging, often used for physical space or personality; less common for academic scope."
+      ]
+    },
+    {
+      "id": "wf110",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "Despite initial resistance, the new protocol was gradually _____ by all departments.",
+      "choices": ["assimilated", "adopted", "integrated", "incorporated"],
+      "answer": 1,
+      "explanation": "'Adopted' means officially accepted and put into use, which is the standard academic and organisational term for taking on a new protocol. The other verbs are possible but less precise.",
+      "wrongReasons": [
+        "Assimilated means absorbed into an existing structure, typically used for people or cultures rather than protocols.",
+        "Integrated means combined into a larger whole, implying the protocol was merged with existing systems rather than simply accepted.",
+        "Incorporated has a similar meaning to integrated but emphasises being made part of a formal body; less idiomatic than 'adopted' for protocols."
+      ]
+    },
+    {
+      "id": "wf111",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The study's _____ lies in its use of a longitudinal design, which allows changes to be tracked over time.",
+      "choices": ["strength", "significance", "merit", "value"],
+      "answer": 2,
+      "explanation": "'The study's merit lies in' is the standard academic phrase for acknowledging a specific positive quality. 'Strength' and 'value' are common alternatives but 'merit' is preferred when listing a specific commendable feature.",
+      "wrongReasons": [
+        "Strength is a close synonym, but 'strength lies in' is less idiomatic than 'merit lies in' in formal academic assessment.",
+        "Significance refers to importance or meaning, not specifically to a positive methodological quality.",
+        "Value is more general and less formal; it does not specifically highlight a methodological quality of a study."
+      ]
+    },
+    {
+      "id": "wf112",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The two theories are not _____ exclusive; elements of both can be incorporated into a single framework.",
+      "choices": ["mutually", "entirely", "wholly", "fundamentally"],
+      "answer": 0,
+      "explanation": "'Mutually exclusive' is the fixed academic and logical phrase meaning that two things cannot both be true at the same time. The other adverbs are grammatically possible but break the established collocation.",
+      "wrongReasons": [
+        "Entirely exclusive is grammatically possible but not the established term — 'mutually exclusive' is the fixed expression in logic and academic writing.",
+        "Wholly exclusive is also non-standard; the fixed phrase is 'mutually exclusive'.",
+        "Fundamentally exclusive changes the meaning to 'exclusive at a basic level' rather than expressing that the two cannot coexist."
+      ]
+    },
+    {
+      "id": "wf113",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The government's ability to _____ such a large-scale reform depended heavily on public trust.",
+      "choices": ["execute", "implement", "undertake", "accomplish"],
+      "answer": 1,
+      "explanation": "'Implement a reform' is the standard academic and policy collocation. The other verbs are possible but carry different nuances.",
+      "wrongReasons": [
+        "Execute a reform is possible but more commonly used for plans or strategies rather than reforms specifically.",
+        "Undertake a reform suggests beginning the process, not carrying it through to completion.",
+        "Accomplish a reform focuses on the successful conclusion rather than the process; 'implement' better captures the ongoing act of putting reform into practice."
+      ]
+    },
+    {
+      "id": "wf114",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The researcher was careful to _____ the limitations of the study in the discussion section.",
+      "choices": ["acknowledge", "recognise", "identify", "note"],
+      "answer": 0,
+      "explanation": "'Acknowledge the limitations' is the standard academic collocation used when a researcher openly admits shortcomings. The other verbs are possible but convey different shades of meaning.",
+      "wrongReasons": [
+        "Recognise the limitations is grammatically correct but more commonly used for broader conceptual understanding; 'acknowledge' is more appropriate for formal disclosure.",
+        "Identify the limitations means to find and name them, which typically refers to the first step of noticing, not the formal admission.",
+        "Note the limitations is informal and underspecific for an academic discussion section."
+      ]
+    },
+    {
+      "id": "wf115",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The data collected were _____ to the research questions, making the findings highly relevant to the study's aims.",
+      "choices": ["pertinent", "applicable", "relevant", "conducive"],
+      "answer": 0,
+      "explanation": "'Pertinent to the research questions' is the most precise academic term, meaning directly related and to the point. 'Relevant' is the most common synonym but 'pertinent' is stronger in formal writing.",
+      "wrongReasons": [
+        "Applicable means able to be applied; it suggests use or implementation rather than topical relevance.",
+        "Relevant is correct but less formal and precise than 'pertinent' in academic writing.",
+        "Conducive means contributing to a favourable outcome; it does not mean related to a topic."
+      ]
+    },
+    {
+      "id": "wf116",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The editor asked the author to _____ several passages that were redundant and added little to the argument.",
+      "choices": ["omit", "exclude", "eliminate", "remove"],
+      "answer": 0,
+      "explanation": "'Omit passages' is the standard editorial and academic collocation meaning to leave something out. The other verbs are possible but less idiomatic in this context.",
+      "wrongReasons": [
+        "Exclude implies keeping something out of a defined set; in editing it is less natural than 'omit' for passages.",
+        "Eliminate means to completely remove, often with the connotation of destroying — stronger than needed for editorial revision.",
+        "Remove is physical and general; 'omit' is the established term for deliberately not including text."
+      ]
+    },
+    {
+      "id": "wf117",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The panel _____ that the candidate's qualifications were insufficient for the senior research position.",
+      "choices": ["determined", "concluded", "established", "confirmed"],
+      "answer": 1,
+      "explanation": "'Concluded that' is the standard academic reporting verb for a judgement reached after deliberation. The other verbs are possible but differ subtly.",
+      "wrongReasons": [
+        "Determined that is correct but is more commonly used in legal or mathematical contexts for a formal finding.",
+        "Established that means proven beyond doubt — too strong for a panel's opinion on qualifications.",
+        "Confirmed that means validated something already suspected; here a new judgement is being reached, not confirming an existing one."
+      ]
+    },
+    {
+      "id": "wf118",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The campaign was _____ effective, as evidenced by the sharp decline in reported cases.",
+      "choices": ["remarkably", "noticeably", "measurably", "demonstrably"],
+      "answer": 3,
+      "explanation": "'Demonstrably effective' means provably effective, backed by evidence — exactly what the clause 'as evidenced by' signals. The other adverbs are possible but less precise.",
+      "wrongReasons": [
+        "Remarkably effective means surprisingly or impressively effective; it does not carry the evidential meaning introduced by 'as evidenced by'.",
+        "Noticeably effective means obviously effective to observation; it is weaker than 'demonstrably', which implies proof.",
+        "Measurably effective is possible but less standard than 'demonstrably' in academic writing for evidence-backed claims."
+      ]
+    },
+    {
+      "id": "wf119",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The organisation struggled to _____ public confidence following the financial scandal.",
+      "choices": ["regain", "restore", "recover", "rebuild"],
+      "answer": 1,
+      "explanation": "'Restore public confidence' is the standard collocational phrase in institutional and academic writing. The other verbs are near-synonyms but carry different connotations.",
+      "wrongReasons": [
+        "Regain public confidence is natural but emphasises the organisation getting confidence back for itself, whereas 'restore' focuses on returning it to the public.",
+        "Recover public confidence is possible but 'recover' is more commonly used for abstract things like health or data, not institutional trust.",
+        "Rebuild public confidence is close but implies constructing something new from scratch rather than returning a previous state."
+      ]
+    },
+    {
+      "id": "wf120",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The author's _____ use of primary sources distinguishes this study from earlier, more derivative works.",
+      "choices": ["extensive", "exhaustive", "thorough", "rigorous"],
+      "answer": 3,
+      "explanation": "'Rigorous use of primary sources' is the standard academic phrase emphasising methodological care and precision. The other adjectives describe scope or completeness rather than methodological quality.",
+      "wrongReasons": [
+        "Extensive use emphasises quantity and breadth of sources, not the care with which they are used.",
+        "Exhaustive use means covering every possible source — a claim about completeness, not quality of engagement.",
+        "Thorough use is close but more general; 'rigorous' specifically implies adherence to strict methodological standards."
+      ]
+    }
+  ]
+}

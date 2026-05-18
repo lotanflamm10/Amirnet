@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-sl-201",
+    "difficulty": "easy",
+    "text": "Because the ancient tomb had been sealed for over three thousand years, archaeologists were careful not to ________ the fragile artifacts inside.",
+    "choices": [
+      "damage or disturb",
+      "document or photograph",
+      "catalog or label",
+      "transport or preserve"
+    ],
+    "answer": 0,
+    "explanation": "A sealed tomb with fragile artifacts creates a context in which the primary concern is not damaging or disturbing them; the other options describe standard archaeological practices that would be encouraged, not warned against.",
+    "wrongReasons": [
+      "B is incorrect because documenting and photographing are standard, encouraged procedures, not things archaeologists would avoid.",
+      "C is incorrect because cataloging and labeling are essential steps in preservation, not actions to be warned against.",
+      "D is incorrect because transporting and preserving are legitimate goals; the sentence needs a verb phrase representing risk, not standard practice."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: קבר עתיק שנאטם במשך אלפי שנים מכיל חפצים שבירים — לכן הדאגה הלוגית היא לא לפגוע בהם. שאר האפשרויות מתארות פעולות ארכאולוגיות מקובלות שמעודדים אותן.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-202",
+    "difficulty": "easy",
+    "text": "A melody is considered dissonant when its notes clash with one another, creating tension; ________, a consonant melody produces notes that blend harmoniously.",
+    "choices": [
+      "for instance",
+      "in contrast",
+      "as a result",
+      "in addition"
+    ],
+    "answer": 1,
+    "explanation": "'In contrast' correctly signals the opposition between dissonance (tension, clashing notes) and consonance (harmony, blending notes). The two clauses describe opposite musical qualities.",
+    "wrongReasons": [
+      "A 'for instance' suggests an example of the same idea, but consonance is the opposite of dissonance, not an example of it.",
+      "C 'as a result' implies causation, but consonance does not result from dissonance; they are independent, contrasting concepts.",
+      "D 'in addition' adds a related point, but these are opposing qualities, making contrast the required logical relationship."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט מציג שני מושגים מנוגדים — דיסוננס (מתח, ניגוד) מול קונסוננס (הרמוניה). הקישור הלוגי הנדרש הוא ניגוד, ולכן 'in contrast' הוא הנכון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-203",
+    "difficulty": "easy",
+    "text": "Stars that are located farther from Earth appear ________ in the night sky, simply because their light must travel a greater distance before reaching us.",
+    "choices": [
+      "dimmer",
+      "brighter",
+      "larger",
+      "closer"
+    ],
+    "answer": 0,
+    "explanation": "Greater distance means light disperses more before reaching Earth, so distant stars appear dimmer. This follows directly from the physical principle stated in the sentence.",
+    "wrongReasons": [
+      "B contradicts the physics — greater distance reduces apparent brightness, it does not increase it.",
+      "C is incorrect because angular size decreases with distance; distant stars appear smaller, not larger.",
+      "D is self-contradictory; a star farther away cannot appear closer as a result of that distance."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ככל שכוכב רחוק יותר, האור שלו מתפזר יותר לפני שמגיע אלינו — לכן הוא נראה עמום יותר. זהו עיקרון פיזיקלי ישיר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-204",
+    "difficulty": "easy",
+    "text": "Architects who design buildings in earthquake-prone regions must prioritize structural ________ over purely aesthetic considerations.",
+    "choices": [
+      "elegance",
+      "symmetry",
+      "resilience",
+      "ornamentation"
+    ],
+    "answer": 2,
+    "explanation": "In earthquake-prone regions, the ability of a structure to withstand seismic forces — resilience — is the critical engineering concern, logically taking priority over aesthetic features.",
+    "wrongReasons": [
+      "A 'elegance' is an aesthetic quality, which the sentence explicitly subordinates to safety concerns.",
+      "B 'symmetry' is primarily a design/visual consideration, not a structural safety requirement.",
+      "D 'ornamentation' refers to decorative elements, the opposite of the functional priority described."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: בבנייה באזורי רעידות אדמה, הדאגה העיקרית היא עמידות המבנה — resilience. שאר האפשרויות הן שיקולים אסתטיים שהמשפט מדרג כפחות חשובים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-205",
+    "difficulty": "easy",
+    "text": "Because coral reefs depend on warm, clear, shallow water to survive, rising ocean temperatures and increased sediment ________ pose a serious threat to these ecosystems.",
+    "choices": [
+      "runoff",
+      "clarity",
+      "salinity",
+      "biodiversity"
+    ],
+    "answer": 0,
+    "explanation": "The sentence identifies two threats: rising temperatures and increased sediment. 'Runoff' completes the sediment idea logically — sediment runoff from land clouds the water, harming reefs. The other options describe conditions reefs need, not threats.",
+    "wrongReasons": [
+      "B 'clarity' is a condition reefs require, not a threat — more clarity would benefit reefs.",
+      "C 'salinity' is not mentioned as a problem in the context of the sentence's stated threats.",
+      "D 'biodiversity' is a characteristic of healthy reefs, not a threat to them."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: שוניות אלמוגים זקוקות למים חמים, שקופים ורדודים. המשפט מזהה שתי איומים: עליית טמפרטורה ופסולת משקעים. 'Runoff' משלים את הרעיון של סחף משקעים המעכיר את המים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-206",
+    "difficulty": "easy",
+    "text": "In linguistics, a language is considered 'dead' when it has no remaining ________ speakers who use it in daily life.",
+    "choices": [
+      "foreign",
+      "academic",
+      "historical",
+      "native"
+    ],
+    "answer": 3,
+    "explanation": "A dead language is defined by the absence of native speakers — people who acquired it as a first language and use it naturally. Foreign, academic, or historical labels do not capture the definition of language vitality.",
+    "wrongReasons": [
+      "A 'foreign' speakers are non-native users; their presence or absence does not define whether a language is living or dead.",
+      "B 'academic' speakers study languages but are not the measure of a language being alive in the community sense.",
+      "C 'historical' is an adjective describing the language's age, not a category of speaker."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: שפה 'מתה' מוגדרת על פי היעדר דוברים ילידיים — אנשים שרכשו אותה כשפת אם. זו ההגדרה הבלשנית הסטנדרטית לשפה שאינה חיה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-207",
+    "difficulty": "easy",
+    "text": "A lawyer who fails to meet a court filing deadline may have their case ________, leaving their client without legal recourse.",
+    "choices": [
+      "dismissed",
+      "expedited",
+      "appealed",
+      "celebrated"
+    ],
+    "answer": 0,
+    "explanation": "Missing a court deadline is a procedural failure; courts typically dismiss cases in response, which logically results in the client losing their legal recourse — completing the cause-and-effect chain.",
+    "wrongReasons": [
+      "B 'expedited' means processed faster, which is the opposite of a penalty for missing deadlines.",
+      "C 'appealed' is a subsequent legal action, not the immediate consequence of missing a filing deadline.",
+      "D 'celebrated' is nonsensical in the legal context of missing a deadline."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: עורך דין שמחמיץ מועד הגשה לבית משפט עלול לגרום לתיק להידחות (dismissed). זהו הקשר סיבה-תוצאה לוגי — כישלון פרוצדורלי מוביל לדחיית התיק.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-208",
+    "difficulty": "easy",
+    "text": "Athletes who train at high altitudes often perform better at sea level because their bodies have adapted to ________ oxygen levels, making them more efficient when oxygen is abundant.",
+    "choices": [
+      "higher",
+      "lower",
+      "stable",
+      "excessive"
+    ],
+    "answer": 1,
+    "explanation": "High altitude means thinner air with less oxygen. Training there forces the body to adapt to lower oxygen levels. At sea level, where oxygen is more abundant, these adapted athletes perform better.",
+    "wrongReasons": [
+      "A 'higher' oxygen is found at sea level, not at altitude — this inverts the physiological logic.",
+      "C 'stable' does not describe altitude conditions; oxygen at altitude is persistently reduced, not merely fluctuating.",
+      "D 'excessive' oxygen does not occur at altitude and would not explain superior sea-level performance."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אימון בגובה רב פירושו הסתגלות לרמות חמצן נמוכות. כשהספורטאי חוזר לגובה פני הים — שם יש יותר חמצן — הגוף המסוגל עובד ביעילות גבוהה יותר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-209",
+    "difficulty": "medium",
+    "text": "Unlike Western tonal music, which organizes pitches into major and minor scales, many traditional Indian musical systems rely on ________, which divide octaves into more than twelve intervals and allow for microtonal expression.",
+    "choices": [
+      "ragas",
+      "chords",
+      "arpeggios",
+      "cadences"
+    ],
+    "answer": 0,
+    "explanation": "Ragas are melodic frameworks in Indian classical music that incorporate microtonal intervals not found in Western scales, directly completing the contrast the sentence establishes.",
+    "wrongReasons": [
+      "B 'chords' are a feature of Western harmonic music, precisely what the sentence is contrasting Indian music against.",
+      "C 'arpeggios' are broken chords, a Western concept unrelated to microtonal Indian systems.",
+      "D 'cadences' are harmonic resolutions specific to Western tonal music, again the opposite of what the sentence is describing."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט מנגיד בין מוזיקה מערבית טונלית לבין מוסיקה הודית מסורתית. 'Ragas' הם המסגרות המלודיות במוסיקה הקלאסית ההודית הכוללות מיקרוטונים — המונח הנכון להשלמת הניגוד.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-210",
+    "difficulty": "medium",
+    "text": "The transition from hunter-gatherer societies to agricultural communities — known as the Neolithic Revolution — is considered transformative in anthropology not only because it changed how people obtained food, but also because it ________ the development of permanent settlements, social hierarchies, and eventually urban civilization.",
+    "choices": [
+      "temporarily delayed",
+      "fatally undermined",
+      "incidentally resembled",
+      "directly enabled"
+    ],
+    "answer": 3,
+    "explanation": "The Neolithic Revolution's shift to agriculture produced food surpluses that enabled populations to settle permanently, which directly enabled the rise of social hierarchies and cities. The causal chain is well-established in anthropology.",
+    "wrongReasons": [
+      "A 'temporarily delayed' contradicts the historical record — agriculture accelerated rather than delayed the development of settlements and cities.",
+      "B 'fatally undermined' is the opposite of what happened; the agricultural revolution led to, not the destruction of, complex societies.",
+      "C 'incidentally resembled' is logically incoherent — a revolution cannot merely resemble developments it actually caused."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המהפכה הניאוליתית אפשרה עודפי מזון, ובכך אִפשרה ישירות (directly enabled) את הקמת הישובים הקבועים, ההיררכיות החברתיות והציוויליזציה העירונית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-211",
+    "difficulty": "medium",
+    "text": "In Renaissance art, the concept of perspective was revolutionary because it allowed painters to depict three-dimensional space on a flat surface; ________, earlier medieval paintings typically presented figures without regard to their relative size or spatial position.",
+    "choices": [
+      "by contrast",
+      "consequently",
+      "in addition",
+      "for this reason"
+    ],
+    "answer": 0,
+    "explanation": "'By contrast' correctly links the Renaissance innovation (perspective, spatial depth) with the opposite practice in medieval art (no spatial logic). The two clauses describe contrasting approaches to the same artistic problem.",
+    "wrongReasons": [
+      "B 'consequently' implies that medieval flat depiction resulted from Renaissance perspective, which is chronologically impossible.",
+      "C 'in addition' suggests the two clauses share the same direction, but they describe opposing artistic philosophies.",
+      "D 'for this reason' implies medieval art was a consequence of perspective's development, reversing the historical order."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט מנגיד בין אמנות הרנסנס (פרספקטיבה, עומק מרחבי) לבין ציור ימי-ביניימי (ללא לוגיקה מרחבית). 'By contrast' הוא הקישור הלוגי הנכון.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-212",
+    "difficulty": "medium",
+    "text": "In mathematics, a proof by contradiction assumes that the opposite of what you want to prove is true; if this assumption ________ a logical impossibility, the original statement must be correct.",
+    "choices": [
+      "avoids",
+      "precedes",
+      "leads to",
+      "resembles"
+    ],
+    "answer": 2,
+    "explanation": "Proof by contradiction works by deriving a logical impossibility from the negated assumption; when the assumption 'leads to' contradiction, the original claim is verified. This is the standard mathematical method described.",
+    "wrongReasons": [
+      "A 'avoids' a logical impossibility is the opposite of the method — a contradiction must be reached, not avoided.",
+      "B 'precedes' suggests a time relationship rather than a causal one; the assumption does not precede the impossibility temporally, it generates it.",
+      "D 'resembles' a logical impossibility is not meaningful in a mathematical proof context."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הוכחה בדרך הסתירה (proof by contradiction) מניחה את ההפך, ואז מראה שהנחה זו מובילה לסתירה לוגית. לכן 'leads to' הוא הפועל הנכון.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-213",
+    "difficulty": "medium",
+    "text": "Although genetic mutations are often portrayed in popular culture as harmful, the majority of mutations are ________, having neither a beneficial nor a detrimental effect on the organism's survival or reproduction.",
+    "choices": [
+      "neutral",
+      "lethal",
+      "dominant",
+      "infectious"
+    ],
+    "answer": 0,
+    "explanation": "The sentence explicitly sets up a contrast with 'harmful' and specifies that most mutations have no effect on survival or reproduction — this is the scientific definition of a neutral mutation.",
+    "wrongReasons": [
+      "B 'lethal' means fatal, which contradicts 'neither beneficial nor detrimental' — lethal mutations are clearly detrimental.",
+      "C 'dominant' describes an inheritance pattern, not the effect on fitness; it does not address the beneficial/harmful dimension.",
+      "D 'infectious' applies to pathogens, not to genetic mutations within an organism's own genome."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט קובע שרוב המוטציות אינן מועילות ואינן מזיקות לשרידות האורגניזם — זו ההגדרה של מוטציה ניטרלית (neutral). האפשרויות האחרות סותרות את ההגדרה הזו.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-214",
+    "difficulty": "medium",
+    "text": "Film directors who use non-linear narrative structures challenge audiences to ________ events in a chronological order that the film itself does not provide.",
+    "choices": [
+      "passively accept",
+      "mentally reconstruct",
+      "visually ignore",
+      "emotionally reject"
+    ],
+    "answer": 1,
+    "explanation": "A non-linear narrative deliberately scrambles chronology; the cognitive challenge for audiences is to mentally reconstruct the actual sequence of events. The other options describe passive or negative responses that do not match the active intellectual engagement described.",
+    "wrongReasons": [
+      "A 'passively accept' contradicts the idea of a 'challenge' — passive acceptance requires no cognitive effort.",
+      "C 'visually ignore' is both passive and sensory, not the cognitive reconstruction that non-linear storytelling demands.",
+      "D 'emotionally reject' describes a negative affective response, not the cognitive task of sequencing events."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: נרטיב לא-לינארי סורס את הכרונולוגיה בכוונה. הצופה מאותגר לבנות מחדש בראשו את סדר האירועים — mentally reconstruct. שאר האפשרויות מתארות תגובות פסיביות או שליליות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-215",
+    "difficulty": "medium",
+    "text": "Sports scientists have found that short, intense bursts of exercise — known as high-intensity interval training — can improve cardiovascular fitness more ________ than prolonged moderate exercise performed over the same total time.",
+    "choices": [
+      "efficiently",
+      "passively",
+      "inconsistently",
+      "dangerously"
+    ],
+    "answer": 0,
+    "explanation": "The sentence presents HIIT as achieving better cardiovascular results in the same time — this is a statement about efficiency. 'Efficiently' correctly captures the idea that fewer resources (time) produce greater results.",
+    "wrongReasons": [
+      "B 'passively' contradicts 'intense bursts' — high-intensity training is by definition not passive.",
+      "C 'inconsistently' would undermine the research finding being described; scientific findings establish reliability, not inconsistency.",
+      "D 'dangerously' is not supported by the sentence's framing, which presents HIIT as a beneficial comparison, not a risky one."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט טוען שאימון HIIT מביא תוצאות טובות יותר באותה כמות זמן — זה עניין של יעילות. 'Efficiently' הוא המונח הנכון לתאר תוצאה טובה יותר עם פחות משאבים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-216",
+    "difficulty": "medium",
+    "text": "Architectural historians distinguish between load-bearing walls, which ________ the weight of the structure above them, and curtain walls, which serve only as enclosures and carry no structural load.",
+    "choices": [
+      "decorate and enhance",
+      "absorb and reflect",
+      "conceal and separate",
+      "support and transfer"
+    ],
+    "answer": 3,
+    "explanation": "Load-bearing walls are defined by their structural function of supporting weight from above and transferring it to the foundation. The contrast with curtain walls (which carry no load) reinforces that the correct answer must describe a structural, weight-bearing role.",
+    "wrongReasons": [
+      "A 'decorate and enhance' describes aesthetic functions, which are explicitly attributed to non-load-bearing elements.",
+      "B 'absorb and reflect' describes acoustic or thermal properties, not structural load functions.",
+      "C 'conceal and separate' is a spatial function that describes partitions, not the structural definition of load-bearing walls."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הבחנה בין קירות נושאי עומס לקירות וילון. קירות נושאי עומס תומכים במשקל המבנה מעליהם ומעבירים אותו לקרקע — זהו 'support and transfer'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-217",
+    "difficulty": "medium",
+    "text": "Because nutritional science studies are often conducted with self-reported dietary data, their findings must be interpreted with ________, as participants may misremember or misreport their food intake.",
+    "choices": [
+      "caution",
+      "enthusiasm",
+      "precision",
+      "certainty"
+    ],
+    "answer": 0,
+    "explanation": "Self-reported data is inherently unreliable due to memory errors and misreporting; this methodological limitation requires interpreting findings with caution. The other options suggest confidence or accuracy that the premise explicitly undermines.",
+    "wrongReasons": [
+      "B 'enthusiasm' is an emotional attitude unrelated to epistemological limitations of self-reported data.",
+      "C 'precision' claims accuracy, which contradicts the stated problem of unreliable self-reporting.",
+      "D 'certainty' directly contradicts the acknowledged limitation of the methodology described."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: נתונים שמדווחים עצמאית על ידי משתתפים עלולים להיות שגויים. לכן הממצאים צריכים להתפרש בזהירות (caution). שאר האפשרויות רומזות לאמינות שהמגבלה המתוארת מכחישה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-218",
+    "difficulty": "medium",
+    "text": "Unlike criminal law, which requires guilt to be proven 'beyond a reasonable doubt,' civil law operates on the 'balance of probabilities' standard, meaning that a defendant can be held liable even if the evidence is only ________ in favor of the plaintiff.",
+    "choices": [
+      "entirely absent",
+      "unanimously rejected",
+      "slightly more convincing",
+      "constitutionally prohibited"
+    ],
+    "answer": 2,
+    "explanation": "The 'balance of probabilities' standard means that liability is established if the plaintiff's version of events is more likely than not (just over 50%). 'Slightly more convincing' accurately captures this lower evidentiary threshold.",
+    "wrongReasons": [
+      "A 'entirely absent' evidence would make it impossible to meet even the civil standard, not easier.",
+      "B 'unanimously rejected' means the evidence has no support, the opposite of the plaintiff-favorable standard being described.",
+      "D 'constitutionally prohibited' introduces an irrelevant legal concept not related to standards of proof."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: בדיני אזרחי, הסטנדרט הוא 'מאזן ההסתברויות' — מספיק שהראיות מטות במעט לצד התובע. 'Slightly more convincing' מתאים לסטנדרט נמוך זה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-219",
+    "difficulty": "medium",
+    "text": "Marine biologists have observed that deep-sea fish often possess ________ eyes, an adaptation that maximizes light collection in environments where sunlight cannot penetrate.",
+    "choices": [
+      "disproportionately large",
+      "completely absent",
+      "unusually small",
+      "permanently closed"
+    ],
+    "answer": 0,
+    "explanation": "In the near-total darkness of the deep sea, having larger eyes that collect more of the scarce available light is a logical evolutionary adaptation. This is a well-documented biological phenomenon.",
+    "wrongReasons": [
+      "B 'completely absent' eyes would eliminate any light-sensing ability — counterproductive even in low-light environments.",
+      "C 'unusually small' eyes collect less light, which is the opposite of what the adaptation logic requires.",
+      "D 'permanently closed' eyes are nonfunctional, which would be a disadvantage, not an adaptation for dim environments."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: בעומקי הים שאליהם לא חודר אור שמש, הסתגלות לוגית היא עיניים גדולות באופן לא-פרופורציונלי כדי לאסוף כמה שיותר אור. האפשרויות האחרות הן חסרות תועלת או הפוך מהנדרש.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-220",
+    "difficulty": "medium",
+    "text": "A fundamental principle of genetics is that traits are passed from parents to offspring through ________, which encode the instructions for building and maintaining an organism's biological functions.",
+    "choices": [
+      "neurons",
+      "enzymes",
+      "hormones",
+      "genes"
+    ],
+    "answer": 3,
+    "explanation": "Genes are the units of heredity that encode biological instructions and are transmitted from parents to offspring. This is the foundational definition in genetics.",
+    "wrongReasons": [
+      "A 'neurons' are nerve cells responsible for transmitting electrical signals; they are not units of heredity.",
+      "B 'enzymes' are proteins that catalyze biochemical reactions; they are not inherited units encoding biological instructions.",
+      "C 'hormones' are chemical messengers; they influence biological functions but are not the mechanisms by which traits are inherited."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: גנים הם יחידות התורשה המקודדות את ההנחיות הביולוגיות של אורגניזם ועוברות מהורים לצאצאים — זו ההגדרה הבסיסית בגנטיקה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-221",
+    "difficulty": "medium",
+    "text": "Archaeologists excavating an Iron Age settlement discovered pottery fragments at multiple levels of the dig site; the deeper the fragments were found, the ________ their age, following the principle of stratigraphy.",
+    "choices": [
+      "greater",
+      "lesser",
+      "less certain",
+      "more decorative"
+    ],
+    "answer": 0,
+    "explanation": "Stratigraphy holds that lower strata were deposited earlier and therefore contain older material. The deeper the fragment, the greater (older) its age. This is a core principle of archaeological dating.",
+    "wrongReasons": [
+      "B 'lesser' age means more recent, which contradicts the principle of stratigraphy — deeper means older, not younger.",
+      "C 'less certain' age is not a logical consequence of depth in stratigraphy; depth increases chronological certainty, not uncertainty.",
+      "D 'more decorative' is an aesthetic quality unrelated to the stratigraphic principle of dating by depth."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: עיקרון הסטרטיגרפיה קובע שרבדים עמוקים יותר הם ישנים יותר. לכן, ככל שהחרסים נמצאו עמוק יותר, כך גילם רב יותר (greater).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-222",
+    "difficulty": "medium",
+    "text": "The documentary filmmaker chose to present multiple conflicting testimonies without editorial comment, ________ the audience to draw their own conclusions about the disputed historical events.",
+    "choices": [
+      "thus preventing",
+      "thereby encouraging",
+      "consequently discouraging",
+      "therefore requiring"
+    ],
+    "answer": 1,
+    "explanation": "Presenting multiple viewpoints without editorial guidance is a documentary technique that invites, rather than directs, audience interpretation. 'Thereby encouraging' captures the enabling, open-ended effect of this approach.",
+    "wrongReasons": [
+      "A 'thus preventing' the audience from drawing conclusions is the opposite of what presenting multiple perspectives does.",
+      "C 'consequently discouraging' independent thought contradicts the filmmaker's choice to withhold editorial comment.",
+      "D 'therefore requiring' suggests obligation rather than invitation — the filmmaker's approach creates freedom, not compulsion."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הצגת עדויות מנוגדות ללא פרשנות עורכית היא טכניקה שמזמינה את הצופה להסיק מסקנות עצמאיות — 'thereby encouraging'. שאר האפשרויות הפוכות מהכוונה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-223",
+    "difficulty": "medium",
+    "text": "In sports science, the concept of 'overtraining syndrome' describes a state in which an athlete's performance ________, despite — or indeed because of — excessive training volume.",
+    "choices": [
+      "paradoxically declines",
+      "continuously improves",
+      "temporarily stabilizes",
+      "randomly fluctuates"
+    ],
+    "answer": 0,
+    "explanation": "Overtraining syndrome is characterized by the paradox that more training leads to worse performance due to inadequate recovery. 'Paradoxically declines' captures both the decline and the counterintuitive 'despite excessive training' framing.",
+    "wrongReasons": [
+      "B 'continuously improves' is the opposite of overtraining syndrome — the syndrome is defined by performance deterioration.",
+      "C 'temporarily stabilizes' does not capture the negative consequence that defines the syndrome.",
+      "D 'randomly fluctuates' misses the consistent downward trend characteristic of overtraining syndrome."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תסמונת האימון-יתר מתארת ירידה בביצועים דווקא בגלל אימון מופרז — פרדוקס. 'Paradoxically declines' לוכד הן את הירידה והן את האופי הסותר-אינטואיטיבי שלה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-224",
+    "difficulty": "medium",
+    "text": "Nutrition scientists distinguish between macronutrients — proteins, fats, and carbohydrates — which the body requires in ________ amounts, and micronutrients such as vitamins and minerals, needed only in trace quantities.",
+    "choices": [
+      "extremely small",
+      "precisely equal",
+      "nutritionally identical",
+      "relatively large"
+    ],
+    "answer": 3,
+    "explanation": "The prefix 'macro' means large; macronutrients are needed in relatively large quantities compared to micronutrients. The contrast with 'trace quantities' reinforces that the answer must indicate larger amounts.",
+    "wrongReasons": [
+      "A 'extremely small' amounts describe micronutrients, not macronutrients — this inverts the distinction the sentence is drawing.",
+      "B 'precisely equal' amounts make no scientific sense, as protein, fat, and carbohydrate needs differ substantially.",
+      "C 'nutritionally identical' is false — macronutrients differ from each other and from micronutrients in function and quantity needed."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המילית 'macro' פירושה גדול; מקרונוטריינטים נדרשים בכמויות גדולות יחסית. הניגוד עם 'trace quantities' (מיקרונוטריינטים) מחזק שהתשובה חייבת לציין כמויות גדולות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-225",
+    "difficulty": "medium",
+    "text": "The Baroque period in art history is characterized by dramatic use of light and shadow — a technique known as chiaroscuro — which artists employed to ________ a sense of depth and emotional intensity in their compositions.",
+    "choices": [
+      "create",
+      "eliminate",
+      "neutralize",
+      "document"
+    ],
+    "answer": 0,
+    "explanation": "Chiaroscuro is a deliberate artistic technique used to generate depth and emotional impact. 'Create' correctly identifies it as purposeful production of these effects.",
+    "wrongReasons": [
+      "B 'eliminate' depth and emotional intensity is the opposite of chiaroscuro's purpose.",
+      "C 'neutralize' suggests canceling these qualities, contradicting the dramatic intent of Baroque art.",
+      "D 'document' implies recording existing reality, whereas chiaroscuro is an expressive technique for constructing an effect."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הכיארוסקורו הוא טכניקה אמנותית מכוונת ליצור עומק ועוצמה רגשית. 'Create' הוא הפועל הנכון המתאר פעולה יצירתית מכוונת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-226",
+    "difficulty": "medium",
+    "text": "Astronomers use the concept of a 'light-year' not as a measure of time, but as a measure of ________ — specifically, the distance that light travels through a vacuum in one year.",
+    "choices": [
+      "duration",
+      "temperature",
+      "distance",
+      "luminosity"
+    ],
+    "answer": 2,
+    "explanation": "The sentence explicitly states 'not as a measure of time' and defines a light-year as the distance light travels in a year. The correct answer is 'distance,' as this is the precise definition provided in the sentence itself.",
+    "wrongReasons": [
+      "A 'duration' is a measure of time, which the sentence explicitly rules out.",
+      "B 'temperature' is a measure of heat energy, completely unrelated to the concept of a light-year.",
+      "D 'luminosity' measures brightness or energy output of stars, not spatial distance."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט עצמו מגדיר שנת אור כמרחק שאור עובר בשנה — לא כמדד זמן. התשובה מפורשת בטקסט: 'distance'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-227",
+    "difficulty": "medium",
+    "text": "In linguistics, the Sapir-Whorf hypothesis argues that the language a person speaks ________ the way they perceive and categorize reality, with stronger versions of the theory claiming that language entirely determines thought.",
+    "choices": [
+      "influences",
+      "contradicts",
+      "replaces",
+      "destroys"
+    ],
+    "answer": 0,
+    "explanation": "'Influences' correctly describes the weaker version of the hypothesis, which the sentence sets up before mentioning the stronger 'determines thought' claim. The logical progression moves from partial influence to full determination.",
+    "wrongReasons": [
+      "B 'contradicts' reality perception is not part of the Sapir-Whorf hypothesis; the theory is about shaping perception, not opposing it.",
+      "C 'replaces' reality would mean language substitutes for reality itself, an extreme claim not part of the standard hypothesis.",
+      "D 'destroys' perception is an extreme and nonsensical claim unrelated to linguistic relativity theory."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: השערת ספיר-וורף עוסקת בהשפעת השפה על תפיסת המציאות. הגרסה החלשה אומרת שהשפה משפיעה (influences) על המחשבה; הגרסה החזקה אומרת שהיא קובעת אותה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-228",
+    "difficulty": "medium",
+    "text": "Because the fossil record is inherently incomplete — many organisms decompose without leaving traces — paleontologists must often ________ the characteristics of ancient species from fragmentary evidence.",
+    "choices": [
+      "fabricate",
+      "infer",
+      "ignore",
+      "confirm"
+    ],
+    "answer": 1,
+    "explanation": "Fragmentary evidence requires scientists to infer — to reason from partial data toward probable conclusions. This is the standard scientific method when complete evidence is unavailable.",
+    "wrongReasons": [
+      "A 'fabricate' implies inventing false data, which is scientific misconduct, not a legitimate research method.",
+      "C 'ignore' fragmentary evidence would leave no basis for understanding ancient species at all.",
+      "D 'confirm' requires complete, conclusive evidence, which the sentence explicitly states is not available."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: כשהעדות מקוטעת, מדענים חייבים להסיק (infer) מסקנות מן הנתונים החלקיים. המילה infer מתארת הסקה לוגית מהחלקי אל השלם.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-229",
+    "difficulty": "medium",
+    "text": "The architectural style known as Brutalism, which emerged in the mid-twentieth century, was named not for its perceived harshness but for 'béton brut' — a French phrase meaning ________ concrete.",
+    "choices": [
+      "raw or unfinished",
+      "ancient and eroded",
+      "smooth and polished",
+      "colorful and ornate"
+    ],
+    "answer": 0,
+    "explanation": "'Béton brut' translates literally as 'raw concrete,' referring to concrete left exposed without surface finishing. The etymology explains the name without implying aesthetic brutality, as the sentence clarifies.",
+    "wrongReasons": [
+      "B 'ancient and eroded' is not a meaning of 'brut' — the term refers to the state of material treatment, not its age.",
+      "C 'smooth and polished' is the opposite of 'brut' — polished concrete is finished, while béton brut is deliberately unfinished.",
+      "D 'colorful and ornate' describes decorative elaboration, the antithesis of Brutalism's exposed, unadorned aesthetic."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'béton brut' בצרפתית פירושו בטון גולמי/לא מעובד. הברוטליזם נקרא על שם חומר הבנייה הגולמי, לא על שם קשיחות אסתטית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-230",
+    "difficulty": "medium",
+    "text": "In a legal argument, an attorney who relies on ________ reasoning argues from a specific case or example to a general principle, rather than applying a general rule to a specific situation.",
+    "choices": [
+      "deductive",
+      "circular",
+      "analogical",
+      "inductive"
+    ],
+    "answer": 3,
+    "explanation": "Inductive reasoning moves from specific observations to general conclusions. The sentence describes moving from a specific case to a general principle, which is precisely the definition of inductive reasoning.",
+    "wrongReasons": [
+      "A 'deductive' reasoning moves from the general to the specific — the opposite direction to what the sentence describes.",
+      "B 'circular' reasoning uses the conclusion as its own premise, which is a logical fallacy, not a valid argument form.",
+      "C 'analogical' reasoning draws comparisons between similar cases, not from specifics to general principles."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הסקה אינדוקטיבית (inductive) זזה מהפרטי אל הכלל. המשפט מתאר מעבר ממקרה ספציפי לעיקרון כללי — זו בדיוק ההגדרה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-231",
+    "difficulty": "medium",
+    "text": "Anthropologists studying kinship systems have noted that societies which practice exogamy — the custom of marrying outside one's own social group — tend to create ________ networks of alliance between different clans or communities.",
+    "choices": [
+      "broader",
+      "weaker",
+      "isolated",
+      "temporary"
+    ],
+    "answer": 0,
+    "explanation": "Marrying outside one's group by definition extends social ties beyond the immediate community, creating broader networks of alliance. This is the social function that anthropologists identify as a consequence of exogamy.",
+    "wrongReasons": [
+      "B 'weaker' networks contradicts the social logic of alliance formation through marriage — inter-group marriages typically strengthen ties.",
+      "C 'isolated' networks are the opposite result of exogamy, which is designed to connect, not isolate, communities.",
+      "D 'temporary' alliances do not follow logically from marriage-based kinship systems, which are typically durable."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אקסוגמיה — נישואין מחוץ לקבוצה — מרחיבה את הקשרים החברתיים מעבר לקהילה המיידית, ויוצרת רשתות ברית רחבות יותר (broader).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-232",
+    "difficulty": "medium",
+    "text": "The discovery of cave paintings at Chauvet, estimated to be over 30,000 years old, ________ earlier assumptions that symbolic and artistic thought developed relatively late in human prehistory.",
+    "choices": [
+      "confirmed",
+      "challenged",
+      "ignored",
+      "celebrated"
+    ],
+    "answer": 1,
+    "explanation": "If art was assumed to develop late but evidence of art is found 30,000+ years ago, this challenges (overturns or complicates) the earlier assumption. The discovery contradicts the timeline, making 'challenged' the logical word.",
+    "wrongReasons": [
+      "A 'confirmed' means the discovery supported the assumption, but finding very old art contradicts the 'developed late' assumption.",
+      "C 'ignored' is not a scientific response to empirical evidence; a major discovery cannot logically be ignored in the field.",
+      "D 'celebrated' is an emotional response, not a description of how discoveries affect scientific assumptions."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אם הניחו שהאמנות התפתחה מאוחר, אבל מצאו ציורי מערות בני 30,000 שנה — הממצא מאתגר (challenged) את ההנחה הקודמת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-233",
+    "difficulty": "medium",
+    "text": "In film studies, the term 'mise-en-scène' refers to everything visible within the camera frame, including ________, costumes, lighting, and the positioning of actors — all of which the director controls to convey meaning.",
+    "choices": [
+      "set design",
+      "background music",
+      "dialogue delivery",
+      "editing pace"
+    ],
+    "answer": 0,
+    "explanation": "Mise-en-scène encompasses all visual elements within the frame. Set design is a visual, in-frame element alongside costumes, lighting, and actor positioning. The other options are elements outside the frame or post-production concerns.",
+    "wrongReasons": [
+      "B 'background music' is a non-visual, auditory element not part of the mise-en-scène, which is specifically about what is visually in the frame.",
+      "C 'dialogue delivery' refers to performance and sound, not to the visual composition within the frame.",
+      "D 'editing pace' is a post-production decision about how shots are cut together, external to the mise-en-scène concept."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: מיז-אן-סן כולל את כל המרכיבים הויזואליים בתוך מסגרת הצילום. עיצוב הסט הוא מרכיב ויזואלי-בקאדר. המוזיקה, הדיאלוג והעריכה הם מחוץ לתחום זה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-234",
+    "difficulty": "medium",
+    "text": "A prime number is divisible only by one and itself; ________, a composite number has at least one additional factor besides one and itself.",
+    "choices": [
+      "as a result",
+      "in other words",
+      "by contrast",
+      "for example"
+    ],
+    "answer": 2,
+    "explanation": "Prime numbers (divisible only by 1 and themselves) are being contrasted with composite numbers (which have additional factors). 'By contrast' is the correct logical connector for this opposition.",
+    "wrongReasons": [
+      "A 'as a result' implies causation — composite numbers do not result from prime numbers; they are independent categories.",
+      "B 'in other words' suggests the second clause restates the first, but composite numbers are not a restatement of prime numbers.",
+      "D 'for example' suggests the second clause illustrates the first, but a composite number is not an example of a prime number."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט מנגיד בין מספר ראשוני (מתחלק רק ב-1 ובעצמו) לבין מספר מורכב (עם גורמים נוספים). הקישור הלוגי הנדרש הוא ניגוד — 'by contrast'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-235",
+    "difficulty": "hard",
+    "text": "In cultural anthropology, the concept of 'cultural relativism' holds that a society's practices and beliefs should be evaluated ________ that society's own cultural framework, rather than through the lens of an outside observer's values — a position that has been both praised for its intellectual humility and criticized for potentially excusing harmful practices.",
+    "choices": [
+      "within the context of",
+      "in opposition to",
+      "independently of",
+      "as a replacement for"
+    ],
+    "answer": 0,
+    "explanation": "Cultural relativism is precisely the position that behaviors must be understood within the context of the culture that produces them, not judged by external standards. The phrase 'within the context of' captures this interpretive frame.",
+    "wrongReasons": [
+      "B 'in opposition to' inverts the principle — cultural relativism says practices should be evaluated using the culture's own framework, not against it.",
+      "C 'independently of' implies evaluation without reference to the cultural context, which is the opposite of cultural relativism.",
+      "D 'as a replacement for' suggests substituting the cultural framework rather than using it as an evaluative lens."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: רלטיביזם תרבותי קובע שיש להעריך נורמות חברה בתוך ההקשר התרבותי שלה עצמה. 'Within the context of' הוא הביטוי הנכון לתפיסה זו.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-236",
+    "difficulty": "hard",
+    "text": "Although the archaeological record from the Bronze Age Levant provides evidence of long-distance trade in luxury goods, historians caution that the ________ of such artifacts in elite burial sites does not necessarily indicate that these goods circulated widely among the general population.",
+    "choices": [
+      "absence",
+      "concentration",
+      "diversity",
+      "deterioration"
+    ],
+    "answer": 1,
+    "explanation": "If luxury goods appear concentrated in elite burials, this means they were restricted to the ruling class, not widely distributed. The word 'concentration' (in elite contexts) is exactly what supports the caution about inferring broad circulation.",
+    "wrongReasons": [
+      "A 'absence' of artifacts in elite sites would not support conclusions about trade at all; the sentence implies the artifacts are present.",
+      "C 'diversity' of artifact types would not specifically warn against inferring broad circulation — it would suggest varied elite tastes.",
+      "D 'deterioration' of artifacts is a preservation issue unrelated to questions of social distribution."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ריכוז חפצי יוקרה בקברים עילאיים מצביע על כך שהם היו נחלת השכבה השלטת בלבד. 'Concentration' תומך בזהירות מפני הסקה שהסחורות היו נפוצות בקרב כלל האוכלוסייה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-237",
+    "difficulty": "hard",
+    "text": "The legal doctrine of 'stare decisis' requires courts to ________ prior judicial decisions when adjudicating similar cases, a principle that promotes consistency and predictability in the law but may also entrench outdated or erroneous precedents.",
+    "choices": [
+      "adhere to",
+      "overturn",
+      "disregard",
+      "reinterpret"
+    ],
+    "answer": 0,
+    "explanation": "Stare decisis literally means 'to stand by things decided.' It is the obligation to follow prior precedent. 'Adhere to' correctly expresses this binding obligation, which is then balanced against the risk of entrenching bad precedents.",
+    "wrongReasons": [
+      "B 'overturn' prior decisions is the exception to stare decisis, not its requirement — overturning precedent requires special justification.",
+      "C 'disregard' prior decisions directly contradicts the doctrine of stare decisis, which mandates respect for precedent.",
+      "D 'reinterpret' prior decisions is a more flexible approach not fully captured by stare decisis, which requires following, not reinterpreting, precedent."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'Stare decisis' פירושו לעמוד על ההחלטות שנתקבלו. בתי משפט מחויבים לדבוק (adhere to) בתקדימים קודמים. ביטול תקדים הוא החריג, לא הכלל.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-238",
+    "difficulty": "hard",
+    "text": "Marine biologists studying the phenomenon of bioluminescence in deep-sea organisms have hypothesized that light production may serve multiple ________ functions, including attracting prey, deterring predators, and facilitating communication between members of the same species.",
+    "choices": [
+      "vestigial",
+      "accidental",
+      "pathological",
+      "adaptive"
+    ],
+    "answer": 3,
+    "explanation": "The three functions listed — attracting prey, deterring predators, and intra-species communication — are all survival-related behaviors that improve fitness, which is the definition of adaptive functions in evolutionary biology.",
+    "wrongReasons": [
+      "A 'vestigial' functions are evolutionary remnants with reduced or no current function, contradicting the active survival roles described.",
+      "B 'accidental' functions imply no evolutionary purpose, contradicting the specific functional roles the sentence enumerates.",
+      "C 'pathological' functions indicate disease or disorder, which does not apply to a well-documented evolved trait."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הפונקציות המנויות — משיכת טרף, הרתעת טורפים ותקשורת בין-מינית — הן כולן פונקציות הישרדות המשפרות כושר הסתגלות. זו ההגדרה של פונקציות אדפטיביות (adaptive).",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-239",
+    "difficulty": "hard",
+    "text": "Art historians examining the transition from Impressionism to Post-Impressionism observe that while Impressionist painters sought to capture the ________ quality of light and atmosphere as perceived in a single moment, Post-Impressionists increasingly emphasized subjective interpretation and structural form.",
+    "choices": [
+      "transient and ephemeral",
+      "timeless and universal",
+      "symbolic and metaphorical",
+      "geometric and abstract"
+    ],
+    "answer": 0,
+    "explanation": "Impressionism is defined by its focus on momentary, fleeting perceptions of light — 'transient and ephemeral' — as opposed to the more durable, structural, or subjective concerns of Post-Impressionism. The phrase 'in a single moment' in the sentence reinforces this temporal quality.",
+    "wrongReasons": [
+      "B 'timeless and universal' qualities are associated with Classical art; Impressionism was specifically about capturing the momentary, not the eternal.",
+      "C 'symbolic and metaphorical' qualities are more characteristic of Symbolism, a contemporaneous but distinct movement.",
+      "D 'geometric and abstract' qualities belong to later movements like Cubism, not to Impressionism's representational light-and-atmosphere focus."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: האימפרסיוניזם מאופיין בלכידת הרגע החולף — אור ואווירה ברגע נתון. 'Transient and ephemeral' (חולף וזמני) הוא הביטוי הנכון, בניגוד לדגש הפוסט-אימפרסיוניסטי על צורה ופרשנות סובייקטיבית.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-240",
+    "difficulty": "hard",
+    "text": "In population genetics, the principle of genetic drift describes how allele frequencies in a small population can change ________ over successive generations, independently of natural selection, because random sampling effects are disproportionately influential when population size is limited.",
+    "choices": [
+      "consistently and directionally",
+      "randomly and unpredictably",
+      "slowly and imperceptibly",
+      "beneficially and adaptively"
+    ],
+    "answer": 1,
+    "explanation": "Genetic drift is a stochastic (random) process — allele frequencies fluctuate unpredictably due to chance sampling, not due to any directional pressure from selection. 'Randomly and unpredictably' captures the defining characteristic of drift.",
+    "wrongReasons": [
+      "A 'consistently and directionally' describes natural selection, not genetic drift — drift is random, not directional.",
+      "C 'slowly and imperceptibly' is not the defining feature; drift can produce rapid, dramatic frequency changes in small populations.",
+      "D 'beneficially and adaptively' describes selective sweeps driven by fitness advantage, which is natural selection, not genetic drift."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: סחף גנטי הוא תהליך סטוכסטי — שינויים בתדירויות אללים מתרחשים באופן אקראי ובלתי צפוי בגלל דגימה, לא בגלל לחץ סלקציה כלשהו.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-241",
+    "difficulty": "hard",
+    "text": "The principle of Occam's Razor, frequently invoked in both scientific methodology and legal argumentation, holds that when two competing explanations account equally well for the observed evidence, one should ________ the explanation that requires fewer assumptions.",
+    "choices": [
+      "prefer",
+      "dismiss",
+      "elaborate",
+      "question"
+    ],
+    "answer": 0,
+    "explanation": "Occam's Razor is the heuristic that simpler explanations — those requiring fewer assumptions — are to be preferred over more complex ones, all else being equal. 'Prefer' is the correct logical action prescribed by the principle.",
+    "wrongReasons": [
+      "B 'dismiss' the simpler explanation is the opposite of Occam's Razor, which favors the parsimonious explanation.",
+      "C 'elaborate' the simpler explanation would add complexity, contradicting the razor's principle of parsimony.",
+      "D 'question' the simpler explanation suggests skepticism toward the very explanation Occam's Razor recommends adopting."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תער אוקהם קובע שכאשר שתי הסברים מסבירים את הראיות באותה מידה, יש להעדיף (prefer) את זה הדורש פחות הנחות — כלל הפרסימוניה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-242",
+    "difficulty": "hard",
+    "text": "Linguistic typologists studying word-order universals have observed that languages in which the verb typically appears at the end of a sentence — such as Japanese and Turkish — tend to use postpositions rather than prepositions, suggesting that these structural features are not ________ but rather systematically co-occurring.",
+    "choices": [
+      "mutually exclusive",
+      "phonologically motivated",
+      "historically recent",
+      "independent of one another"
+    ],
+    "answer": 3,
+    "explanation": "The sentence describes two features (verb-final order, postpositions) that tend to appear together. Saying they are 'not independent of one another' means they co-vary systematically — which is precisely the implication of the observation. 'Systematically co-occurring' in the sentence is the positive restatement of this.",
+    "wrongReasons": [
+      "A 'mutually exclusive' means the two features cannot appear together, which contradicts the observation that they consistently co-occur.",
+      "B 'phonologically motivated' relates to sound patterns, an unrelated dimension not addressed by the word-order typology described.",
+      "C 'historically recent' is a temporal claim unrelated to the structural co-occurrence being discussed."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט מתאר שתי תכונות מבניות (סדר פועל-בסוף, יחסות מאוחרת) המופיעות יחד בעקביות. הטענה היא שהן אינן בלתי תלויות זו בזו — כלומר מופיעות יחד באופן שיטתי.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-243",
+    "difficulty": "hard",
+    "text": "Film theorist André Bazin argued that the long take — a continuous, unedited shot lasting several minutes — was aesthetically superior to montage editing because it ________ the ambiguity and complexity of reality rather than imposing an artificial interpretive structure on the viewer.",
+    "choices": [
+      "preserved",
+      "eliminated",
+      "simplified",
+      "distorted"
+    ],
+    "answer": 0,
+    "explanation": "Bazin's realist aesthetic held that the long take preserves the temporal and spatial continuity of reality, maintaining its inherent ambiguity. Montage, by contrast, imposes meaning through editing — the artificial structure Bazin opposed.",
+    "wrongReasons": [
+      "B 'eliminated' ambiguity is what Bazin criticized montage for doing — the long take was meant to keep ambiguity intact, not remove it.",
+      "C 'simplified' reality contradicts Bazin's argument that the long take maintains complexity, not reduces it.",
+      "D 'distorted' reality is what Bazin associated with expressionist editing techniques, not with his preferred long-take approach."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תיאוריית הריאליזם של בזן טענה שהלונג-טייק שומר על עמימות ומורכבות המציאות (preserved). המונטאז' הוא שמטיל פרשנות מלאכותית — הדבר שבזן מתנגד לו.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-244",
+    "difficulty": "hard",
+    "text": "In nutritional epidemiology, the challenge of establishing ________ relationships between dietary patterns and disease outcomes is compounded by the difficulty of isolating individual nutrients from the complex matrices of whole foods and overall eating habits.",
+    "choices": [
+      "analogical",
+      "causal",
+      "temporal",
+      "aesthetic"
+    ],
+    "answer": 1,
+    "explanation": "Epidemiology seeks to move from correlation to causation; the specific challenge described — isolating nutrients from complex food matrices — is precisely the methodological obstacle to establishing that diet causes (not merely correlates with) disease outcomes.",
+    "wrongReasons": [
+      "A 'analogical' relationships draw comparisons between similar cases, not the cause-and-effect link that nutrition research seeks to establish.",
+      "C 'temporal' relationships describe time sequences, but the challenge described is about isolation of variables, not about timing.",
+      "D 'aesthetic' relationships have no relevance to nutritional epidemiology or disease outcomes."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: האפידמיולוגיה התזונתית שואפת להוכיח קשרי סיבתיות (causal) בין תזונה למחלה. הקושי שמתואר — בידוד רכיבים בודדים מתוך מזון שלם — הוא בדיוק המכשול להוכחת סיבתיות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-245",
+    "difficulty": "hard",
+    "text": "The architectural principle of 'form follows function,' articulated by Louis Sullivan in the late nineteenth century, has been both a rallying cry for modernist designers and a source of ongoing debate, with critics arguing that reducing architecture to its utilitarian purpose ________ the expressive and cultural dimensions that buildings historically embody.",
+    "choices": [
+      "neglects",
+      "enhances",
+      "duplicates",
+      "preserves"
+    ],
+    "answer": 0,
+    "explanation": "Critics of pure functionalism argue that focusing solely on utility ignores, or neglects, the symbolic and cultural meanings that architecture carries. This is the standard critique of reductive functionalist doctrine.",
+    "wrongReasons": [
+      "B 'enhances' the expressive dimensions would make functionalism a positive approach to cultural meaning — the opposite of the critical position described.",
+      "C 'duplicates' the expressive dimensions is logically incoherent in this context; pure functionalism does not copy cultural meaning.",
+      "D 'preserves' the expressive dimensions would make the critics' position favorable to functionalism, which contradicts the premise of an 'ongoing debate'."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המבקרים של הפונקציונליזם הטהור טוענים שהצמצום לתפקוד שימושי מתעלם (neglects) מהממדים הסמליים והתרבותיים של אדריכלות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-246",
+    "difficulty": "hard",
+    "text": "Astronomers studying the cosmic microwave background radiation — the thermal remnant of the Big Bang — use its near-perfect uniformity across the observable universe as evidence that, in the earliest moments after the Big Bang, the universe was ________ and expanded at an extraordinary rate during a period called inflation.",
+    "choices": [
+      "infinitely large and dispersed",
+      "entirely dark and static",
+      "completely cold and inert",
+      "extraordinarily small and dense"
+    ],
+    "answer": 3,
+    "explanation": "The Big Bang model holds that the universe began in an extraordinarily small, dense state and then expanded rapidly during inflation. The uniformity of the CMB is explained by the universe being small enough for thermal equilibrium before inflation stretched it out.",
+    "wrongReasons": [
+      "A 'infinitely large and dispersed' contradicts the Big Bang model — the universe began compressed, not spread out.",
+      "B 'entirely dark and static' contradicts inflation (rapid expansion) and does not describe the early high-energy universe.",
+      "C 'completely cold and inert' contradicts the extremely high temperatures and energetic state of the early universe immediately after the Big Bang."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: מודל המפץ הגדול קובע שהיקום התחיל קטן ודחוס בצורה יוצאת דופן, ואז התפשט בקצב עצום במהלך האינפלציה. אחידות קרינת הרקע מוסברת על ידי מצב ראשוני דחוס זה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-247",
+    "difficulty": "hard",
+    "text": "Legal scholars who subscribe to the theory of 'living constitutionalism' argue that constitutional texts should be interpreted in light of contemporary social conditions and evolving values, ________ 'originalists,' who maintain that the document's meaning should be fixed by the intentions of its framers at the time of writing.",
+    "choices": [
+      "as opposed to",
+      "in agreement with",
+      "as a result of",
+      "in combination with"
+    ],
+    "answer": 0,
+    "explanation": "The sentence presents two diametrically opposed interpretive theories — living constitutionalism (evolving meaning) and originalism (fixed meaning). 'As opposed to' correctly signals this fundamental opposition.",
+    "wrongReasons": [
+      "B 'in agreement with' would mean the two theories share the same position, but they are fundamentally opposed interpretive philosophies.",
+      "C 'as a result of' implies originalism caused living constitutionalism, a causal claim not supported by the structure of the sentence.",
+      "D 'in combination with' suggests a synthesis of the two theories, whereas the sentence presents them as competing alternatives."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט מציג שתי תיאוריות פרשנות חוקתיות מנוגדות — קונסטיטוציונליזם חי לעומת אוריג'ינליזם. 'As opposed to' מביע נכון את הניגוד היסודי ביניהן.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-248",
+    "difficulty": "hard",
+    "text": "In the study of musical form, a fugue is a contrapuntal composition in which a principal melodic theme, known as the subject, is introduced by a single voice and then ________ by additional voices in succession, each entering at a different pitch level while the preceding voices continue with related material.",
+    "choices": [
+      "silenced",
+      "inverted",
+      "imitated",
+      "simplified"
+    ],
+    "answer": 2,
+    "explanation": "In a fugue, the subject is imitated by successive voices — each new voice enters with the same or closely related melody at a different pitch, while earlier voices continue. Imitation is the defining structural technique of fugal writing.",
+    "wrongReasons": [
+      "A 'silenced' by additional voices is the opposite of what happens — each voice continues after introducing the subject.",
+      "B 'inverted' is a specific developmental technique used later in a fugue, not the primary structural description of how voices enter.",
+      "D 'simplified' by additional voices contradicts the increasing complexity of a fugue as voices accumulate."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: בפוגה, הנושא המלודי מחוקה (imitated) על ידי קולות נוספים בזה אחר זה, כל אחד בגובה צליל שונה. החיקוי הוא הטכניקה המבנית המגדירה כתיבה פוגלית.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-249",
+    "difficulty": "hard",
+    "text": "A central methodological challenge in sports science research is the 'placebo effect' — the tendency for athletes who believe they have received a performance-enhancing intervention to show improvements ________ any physiological effect, simply because of their altered expectations.",
+    "choices": [
+      "in the absence of",
+      "as a consequence of",
+      "in proportion to",
+      "in anticipation of"
+    ],
+    "answer": 0,
+    "explanation": "The placebo effect means improvements occur even when no real physiological intervention has taken place — they happen 'in the absence of' any actual physical effect. The psychological belief alone drives the performance change.",
+    "wrongReasons": [
+      "B 'as a consequence of' a physiological effect is the opposite of placebo — the placebo effect occurs without physiological mechanism.",
+      "C 'in proportion to' physiological effect implies the improvement scales with real biological change, contradicting the placebo definition.",
+      "D 'in anticipation of' physiological effect suggests the improvement is a response to expected future changes, not the absence of them."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אפקט פלצבו פירושו שהשיפור מתרחש גם בהיעדר כל השפעה פיזיולוגית אמיתית — in the absence of. האמונה בהתערבות מספיקה לשיפור הביצועים.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-250",
+    "difficulty": "hard",
+    "text": "Gödel's incompleteness theorems, published in 1931, demonstrated that within any sufficiently complex formal mathematical system, there exist statements that are true but ________ within that system — a result that fundamentally challenged the formalist program of grounding all mathematics in a complete and consistent axiomatic foundation.",
+    "choices": [
+      "indistinguishable",
+      "redundant",
+      "verifiable",
+      "unprovable"
+    ],
+    "answer": 3,
+    "explanation": "Gödel showed that any consistent formal system powerful enough to describe arithmetic contains true statements that cannot be proved within the system itself — they are unprovable. This is the precise content of the incompleteness theorems.",
+    "wrongReasons": [
+      "A 'indistinguishable' statements have no connection to Gödel's results, which concern provability, not distinguishability.",
+      "B 'redundant' statements would be derivable from other axioms, which is the opposite of Gödel's unprovable truths.",
+      "C 'verifiable' statements are ones that can be confirmed within the system — again the opposite of Gödel's unprovable statements."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: משפטי אי-השלמות של גדל הוכיחו שבכל מערכת פורמלית מספיק מורכבת קיימות אמירות אמיתיות שאי-אפשר להוכיח (unprovable) בתוך המערכת עצמה — מה שפגע בפרויקט הפורמליסטי.",
+    "estimatedTimeSeconds": 55
+  }
+]

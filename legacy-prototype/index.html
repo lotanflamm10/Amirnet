@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amirnet Trainer – adaptive practice for Sentence Completion, Rephrasing, Reading Comprehension, Grammar, Word Formation, and pilot sections." />
+  <title>Amirnet Trainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#screen">Skip to content</a>
+
+  <div class="app-shell">
+    <header class="topbar" role="banner">
+      <div class="topbar-brand">
+        <p class="eyebrow">Amirnet English Placement Prep</p>
+        <h1>Amirnet Trainer</h1>
+        <p class="subtitle">Master Sentence Completion, Rephrasing, Reading Comprehension, Grammar, Word Formation, and pilot sections in one focused app.</p>
+      </div>
+      <nav class="topbar-actions" aria-label="Site controls">
+        <button id="themeToggle" class="btn btn-secondary btn-sm" type="button" aria-label="Toggle colour theme">Dark mode</button>
+        <button id="resetProgressBtn" class="btn btn-ghost btn-sm" type="button">Reset progress</button>
+      </nav>
+    </header>
+
+    <main id="screen" class="screen" tabindex="-1" aria-live="polite" aria-atomic="false"></main>
+  </div>
+
+  <!-- ─── HOME ─────────────────────────────────────────────────── -->
+  <template id="home-template">
+    <div class="home-layout">
+
+      <section class="hero card" aria-label="Welcome">
+        <div class="hero-copy">
+          <span class="badge badge-accent">Target score: 134+</span>
+          <h2>Train every skill Amirnet rewards</h2>
+          <p>Use adaptive drills, hard mode, smart review, pilot practice, and fully timed simulations to improve quickly over the next seven days.</p>
+          <div class="btn-group">
+            <button class="btn btn-primary" data-action="route" data-route="simulation" type="button">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Start core simulation
+            </button>
+            <button class="btn btn-secondary" data-action="route" data-route="simulation-pilot" type="button">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              Start updated simulation with pilot
+            </button>
+          </div>
+        </div>
+        <div class="hero-stats" role="group" aria-label="Your stats">
+          <article class="stat-card">
+            <span class="stat-label">Daily goal</span>
+            <strong id="dailyGoalValue" class="stat-value"></strong>
+            <button id="editGoalBtn" class="btn btn-link" type="button">Update goal</button>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Practice streak</span>
+            <strong id="streakValue" class="stat-value"></strong>
+            <span class="stat-unit">days</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Estimated score</span>
+            <strong id="scoreValue" class="stat-value"></strong>
+            <span class="stat-unit">updates after sessions</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="home-grid">
+        <!-- Practice modes -->
+        <article class="card" aria-labelledby="modes-heading">
+          <div class="card-head">
+            <div>
+              <h3 id="modes-heading">Practice modes</h3>
+              <p class="text-muted">Pick a skill, lock a difficulty, or use adaptive mode.</p>
+            </div>
+            <div class="difficulty-block">
+              <span class="field-label" id="global-diff-label">Difficulty</span>
+              <div id="globalDifficulty" class="segmented" role="radiogroup" aria-labelledby="global-diff-label"></div>
+            </div>
+          </div>
+          <div id="modeGrid" class="mode-grid" role="list"></div>
+        </article>
+
+        <!-- Exam structure -->
+        <article class="card" aria-labelledby="exam-heading">
+          <h3 id="exam-heading">Exam structure</h3>
+          <ul class="info-list">
+            <li><span class="info-dot"></span><strong>Sentence Completion</strong> — approx. 4 minutes</li>
+            <li><span class="info-dot"></span><strong>Sentence Rephrasing</strong> — approx. 6 minutes</li>
+            <li><span class="info-dot"></span><strong>Reading Comprehension</strong> — approx. 15 minutes</li>
+            <li><span class="info-dot"></span><strong>Grammar in Context</strong> &amp; <strong>Word Formation</strong> — timed practice and simulation</li>
+            <li><span class="info-dot"></span><strong>Pilot sections</strong> — lecture/conversation, text completion, word formation, grammar in context</li>
+          </ul>
+          <div class="info-banner" role="note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            The updated simulation adds two random pilot sections and prevents backtracking, matching the real exam flow.
+          </div>
+        </article>
+
+        <!-- Progress dashboard -->
+        <article class="card" aria-labelledby="dashboard-heading">
+          <h3 id="dashboard-heading">Progress dashboard</h3>
+          <div id="dashboardStats" class="stats-list" role="list"></div>
+        </article>
+
+        <!-- Difficulty heatmap -->
+        <article class="card" aria-labelledby="heatmap-heading">
+          <h3 id="heatmap-heading">Difficulty heatmap</h3>
+          <p class="text-muted text-sm">Questions answered per mode and difficulty level.</p>
+          <div id="heatmap" class="heatmap" role="list"></div>
+        </article>
+      </section>
+    </div>
+  </template>
+
+  <!-- ─── PRACTICE ──────────────────────────────────────────────── -->
+  <template id="practice-template">
+    <div class="practice-layout">
+      <aside class="side-panel card" aria-label="Session info">
+        <div class="side-header">
+          <h2 id="sideTitle" class="side-title"></h2>
+          <button class="btn btn-ghost btn-sm" data-action="route" data-route="home" type="button" aria-label="Return to home">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            Home
+          </button>
+        </div>
+
+        <div id="sessionProgress" class="session-progress hidden" aria-label="Session progress">
+          <div class="progress-header">
+            <span id="progressLabel" class="text-sm text-muted"></span>
+            <span id="progressPercent" class="text-sm text-muted"></span>
+          </div>
+          <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+        </div>
+
+        <div id="sideStats" class="stats-list compact" role="list"></div>
+
+        <div class="difficulty-block">
+          <span class="field-label" id="practice-diff-label">Practice difficulty</span>
+          <div id="practiceDifficulty" class="segmented" role="radiogroup" aria-labelledby="practice-diff-label"></div>
+        </div>
+
+        <div class="shortcut-box" aria-label="Keyboard shortcuts">
+          <p class="shortcut-title">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h.01M12 14h4"/></svg>
+            Keyboard shortcuts
+          </p>
+          <dl class="shortcut-list">
+            <dt>1 – 4</dt><dd>Select answer</dd>
+            <dt>Enter</dt><dd>Submit</dd>
+            <dt>N</dt><dd>Next question</dd>
+            <dt>H</dt><dd>Home</dd>
+          </dl>
+        </div>
+      </aside>
+
+      <section class="question-panel" aria-label="Question area">
+        <article class="card question-card" role="main">
+          <div class="question-top">
+            <span id="questionMeta" class="badge badge-outline"></span>
+            <div id="timer" class="timer hidden" aria-live="polite" aria-label="Time remaining"></div>
+          </div>
+          <h2 id="questionTitle" class="question-title"></h2>
+          <div id="questionBody" class="question-body"></div>
+          <div id="questionChoices" class="choice-list" role="list"></div>
+          <div class="action-row">
+            <button id="submitBtn" class="btn btn-primary" type="button">Submit answer</button>
+            <button id="nextBtn" class="btn btn-secondary hidden" type="button">
+              Next
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </article>
+        <article id="feedbackCard" class="card feedback-card hidden" aria-live="polite"></article>
+      </section>
+    </div>
+  </template>
+
+  <!-- ─── RESULTS ───────────────────────────────────────────────── -->
+  <template id="results-template">
+    <div class="results-layout">
+      <section class="card results-card" aria-labelledby="results-heading">
+        <span class="badge badge-accent">Session complete</span>
+        <h2 id="resultsTitle" class="results-title"></h2>
+
+        <div class="results-stats" role="group" aria-label="Session statistics">
+          <article class="stat-card">
+            <span class="stat-label">Estimated score</span>
+            <strong id="resultsScore" class="stat-value"></strong>
+            <span class="stat-unit">out of 150</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Accuracy</span>
+            <strong id="resultsAccuracy" class="stat-value"></strong>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label">Avg. response time</span>
+            <strong id="resultsTime" class="stat-value"></strong>
+          </article>
+        </div>
+
+        <div class="results-section">
+          <h3>Breakdown by section</h3>
+          <div id="resultsBreakdown" class="stats-list" role="list"></div>
+        </div>
+
+        <div class="results-section">
+          <h3>Recommended next steps</h3>
+          <div id="resultsRecommendations" class="recommendation-list" role="list"></div>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-primary" data-action="route" data-route="home" type="button">Back to home</button>
+          <button class="btn btn-secondary" data-action="route" data-route="mode/smartReview" type="button">Open smart review</button>
+        </div>
+      </section>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>

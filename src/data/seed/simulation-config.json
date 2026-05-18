@@ -1,0 +1,19 @@
+{
+  "standard": {
+    "sections": [
+      { "id": "s1", "type": "sentenceCompletion", "questionCount": 4, "timeLimitSeconds": 240, "isPilot": false, "label": "השלמת משפטים א׳" },
+      { "id": "s2", "type": "sentenceCompletion", "questionCount": 4, "timeLimitSeconds": 240, "isPilot": false, "label": "השלמת משפטים ב׳" },
+      { "id": "s3", "type": "reading",             "questionCount": 5, "timeLimitSeconds": 900, "isPilot": false, "label": "קטע קריאה עם שאלות נלוות" },
+      { "id": "s4", "type": "restatements",        "questionCount": 3, "timeLimitSeconds": 360, "isPilot": false, "label": "ניסוח מחדש א׳" },
+      { "id": "s5", "type": "restatements",        "questionCount": 3, "timeLimitSeconds": 360, "isPilot": false, "label": "ניסוח מחדש ב׳" },
+      { "id": "s6", "type": "sentenceCompletion",  "questionCount": 4, "timeLimitSeconds": 240, "isPilot": false, "label": "השלמת משפטים ג׳" }
+    ]
+  },
+  "pilotTypes": [
+    { "id": "pilotA", "type": "lectureQuestions", "questionCount": 5, "timeLimitSeconds": 420, "isPilot": true, "label": "שאלות על הרצאה או שיחה" },
+    { "id": "pilotB", "type": "textCompletion",   "questionCount": 4, "timeLimitSeconds": 240, "isPilot": true, "label": "השלמת קטע שמע" },
+    { "id": "pilotC", "type": "wordFormation",    "questionCount": 4, "timeLimitSeconds": 180, "isPilot": true, "label": "יצירת מילה" },
+    { "id": "pilotD", "type": "grammar",          "questionCount": 4, "timeLimitSeconds": 240, "isPilot": true, "label": "דקדוק בהקשר" },
+    { "id": "pilotE", "type": "writingTask",      "questionCount": 1, "timeLimitSeconds": 720, "isPilot": true, "label": "מטלת כתיבה" }
+  ]
+}

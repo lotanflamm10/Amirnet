@@ -1,0 +1,12 @@
+import { readFileSync } from "fs";
+const data = JSON.parse(readFileSync("./src/data/seed/vocab.normalized.json", "utf-8"));
+const noam = data.filter(x => x.source === "noam_machon_batch1");
+console.log("Total noam entries:", noam.length);
+console.log("\nFirst 5 basic entries:");
+noam.filter(x=>x.difficulty==="easy").slice(0,5).forEach(x => console.log(`  ${x.word} => ${x.hebrewTranslation} [${x.difficulty}]`));
+console.log("\nFirst 5 medium entries:");
+noam.filter(x=>x.difficulty==="medium").slice(0,5).forEach(x => console.log(`  ${x.word} => ${x.hebrewTranslation} [${x.difficulty}]`));
+console.log("\nFirst 5 advanced entries:");
+noam.filter(x=>x.difficulty==="hard").slice(0,5).forEach(x => console.log(`  ${x.word} => ${x.hebrewTranslation} [${x.difficulty}]`));
+const uniqueNW = new Set(data.map(x=>x.normalizedWord)).size;
+console.log(`\nTotal: ${data.length}, unique normalizedWords: ${uniqueNW}, duplicates: ${data.length - uniqueNW}`);

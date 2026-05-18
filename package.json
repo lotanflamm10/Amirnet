@@ -1,0 +1,38 @@
+{
+  "name": "amirnet-trainer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "qa:amirnet": "tsx qa-agent/runner.ts --fresh",
+    "qa:amirnet:headed": "tsx qa-agent/runner.ts --headed",
+    "qa:amirnet:debug": "tsx qa-agent/runner.ts --debug --headed",
+    "qa:amirnet:returning": "tsx qa-agent/runner.ts --returning",
+    "qa:amirnet:report": "node -e \"console.log(require('path').resolve('qa-report/amirnet-qa-report.md'))\"",
+    "validate:questions": "node scripts/validate-question-bank.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^2.6.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "playwright": "^1.60.0",
+    "tailwindcss": "^4",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  }
+}

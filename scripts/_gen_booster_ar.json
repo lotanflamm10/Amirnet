@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-ar-101",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"EXPAND\".",
+    "choices": [
+      "reduce",
+      "enlarge",
+      "broaden",
+      "extend"
+    ],
+    "answer": 0,
+    "explanation": "Expand means to make larger or increase in size. Its antonym is reduce, which means to make smaller or decrease.",
+    "wrongReasons": [
+      "Enlarge is a synonym of expand, meaning to make bigger.",
+      "Broaden is a synonym of expand, meaning to widen.",
+      "Extend is a synonym of expand, meaning to stretch or lengthen."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["expand"],
+    "hebrewExplanation": "expand = להרחיב. הפכים: reduce = לצמצם. expand מתאר גידול או הרחבה, בעוד reduce מתאר הקטנה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-102",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"CLARIFY\".",
+    "choices": [
+      "explain",
+      "illuminate",
+      "obscure",
+      "simplify"
+    ],
+    "answer": 2,
+    "explanation": "Clarify means to make something clear or easier to understand. Its antonym is obscure, which means to make something unclear or difficult to understand.",
+    "wrongReasons": [
+      "Explain is a synonym of clarify, meaning to make something understandable.",
+      "Illuminate is a synonym of clarify, meaning to shed light on something.",
+      "Simplify is related to clarify but means to make less complex, not the opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["clarify"],
+    "hebrewExplanation": "clarify = להבהיר. הפכים: obscure = לטשטש, להחשיך. clarify מתאר הבהרה, obscure מתאר הסתרה או טשטוש.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-103",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"LENIENT\".",
+    "choices": [
+      "tolerant",
+      "strict",
+      "permissive",
+      "forgiving"
+    ],
+    "answer": 1,
+    "explanation": "Lenient means tolerant, not harsh in punishing or judging. Its antonym is strict, which means demanding obedience and imposing firm discipline.",
+    "wrongReasons": [
+      "Tolerant is a synonym of lenient, meaning allowing behavior without objecting.",
+      "Permissive is a synonym of lenient, meaning allowing great freedom.",
+      "Forgiving is a synonym of lenient, meaning ready to forgive faults."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["lenient"],
+    "hebrewExplanation": "lenient = מקל, סלחני. הפכים: strict = מחמיר, קפדן. lenient מתאר גישה סלחנית, strict מתאר גישה נוקשה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-104",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"BENEFICIAL\".",
+    "choices": [
+      "harmful",
+      "helpful",
+      "useful",
+      "advantageous"
+    ],
+    "answer": 0,
+    "explanation": "Beneficial means producing good or helpful results. Its antonym is harmful, which means causing damage or injury.",
+    "wrongReasons": [
+      "Helpful is a synonym of beneficial, meaning giving assistance.",
+      "Useful is a synonym of beneficial, meaning able to be used effectively.",
+      "Advantageous is a synonym of beneficial, meaning favorable or profitable."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["beneficial"],
+    "hebrewExplanation": "beneficial = מועיל, מיטיב. הפכים: harmful = מזיק. beneficial מתאר משהו שמועיל, harmful מתאר משהו שפוגע.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-105",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"ABUNDANT\".",
+    "choices": [
+      "plentiful",
+      "scarce",
+      "ample",
+      "copious"
+    ],
+    "answer": 1,
+    "explanation": "Abundant means existing in large quantities. Its antonym is scarce, which means insufficient in supply or hard to find.",
+    "wrongReasons": [
+      "Plentiful is a synonym of abundant, meaning present in large amounts.",
+      "Ample is a synonym of abundant, meaning more than enough.",
+      "Copious is a synonym of abundant, meaning in large amounts."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["abundant"],
+    "hebrewExplanation": "abundant = שפיר, בשפע. הפכים: scarce = נדיר, מחוסר. abundant מתאר שפע, scarce מתאר מחסור.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-106",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"OPTIMISTIC\".",
+    "choices": [
+      "hopeful",
+      "positive",
+      "pessimistic",
+      "confident"
+    ],
+    "answer": 2,
+    "explanation": "Optimistic means having a hopeful and positive view of the future. Its antonym is pessimistic, which means tending to see the worst in situations.",
+    "wrongReasons": [
+      "Hopeful is a synonym of optimistic, meaning feeling expectation of a positive outcome.",
+      "Positive is a synonym of optimistic, meaning expressing a favorable attitude.",
+      "Confident is related to optimistic but focuses on self-assurance, not the opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["optimistic"],
+    "hebrewExplanation": "optimistic = אופטימי. הפכים: pessimistic = פסימי. optimistic מתאר השקפה חיובית, pessimistic מתאר השקפה שלילית.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-107",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"ACTIVE\".",
+    "choices": [
+      "dynamic",
+      "energetic",
+      "passive",
+      "engaged"
+    ],
+    "answer": 2,
+    "explanation": "Active means engaged in action or participating. Its antonym is passive, which means accepting or allowing without active response or participation.",
+    "wrongReasons": [
+      "Dynamic is a synonym of active, meaning energetic and forceful.",
+      "Energetic is a synonym of active, meaning showing or involving great activity.",
+      "Engaged is a synonym of active in the sense of being involved or participating."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["active"],
+    "hebrewExplanation": "active = פעיל. הפכים: passive = סביל. active מתאר מעורבות ויוזמה, passive מתאר קבלה ללא יוזמה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-108",
+    "difficulty": "easy",
+    "text": "Choose the word that is opposite in meaning to \"TEMPORARY\".",
+    "choices": [
+      "brief",
+      "permanent",
+      "fleeting",
+      "transient"
+    ],
+    "answer": 1,
+    "explanation": "Temporary means lasting for only a limited period. Its antonym is permanent, which means lasting or intended to last indefinitely.",
+    "wrongReasons": [
+      "Brief is a synonym of temporary, meaning short in duration.",
+      "Fleeting is a synonym of temporary, meaning lasting for a very short time.",
+      "Transient is a synonym of temporary, meaning passing or not permanent."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["temporary"],
+    "hebrewExplanation": "temporary = זמני. הפכים: permanent = קבוע. temporary מתאר משהו שקיים לזמן קצר, permanent מתאר משהו שנמשך לצמיתות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-109",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"OBJECTIVE\".",
+    "choices": [
+      "neutral",
+      "impartial",
+      "subjective",
+      "unbiased"
+    ],
+    "answer": 2,
+    "explanation": "Objective means not influenced by personal feelings or opinions. Its antonym is subjective, which means based on personal feelings, interpretations, or opinions rather than facts.",
+    "wrongReasons": [
+      "Neutral is a synonym of objective, meaning not taking sides.",
+      "Impartial is a synonym of objective, meaning treating all sides equally.",
+      "Unbiased is a synonym of objective, meaning free from prejudice."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["objective"],
+    "hebrewExplanation": "objective = אובייקטיבי, מבוסס עובדות. הפכים: subjective = סובייקטיבי, מבוסס רגשות. objective = ענייני, subjective = אישי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-110",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"EXPLICIT\".",
+    "choices": [
+      "clear",
+      "stated",
+      "implicit",
+      "direct"
+    ],
+    "answer": 2,
+    "explanation": "Explicit means stated clearly and in detail, leaving nothing implied. Its antonym is implicit, which means suggested or understood without being directly expressed.",
+    "wrongReasons": [
+      "Clear is a synonym of explicit, meaning easy to understand.",
+      "Stated is a synonym of explicit, meaning expressed in words.",
+      "Direct is a synonym of explicit, meaning straightforward without ambiguity."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["explicit"],
+    "hebrewExplanation": "explicit = מפורש, ברור. הפכים: implicit = משתמע, מובן מאליו. explicit = נאמר ישירות, implicit = מרומז.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-111",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"RIGID\".",
+    "choices": [
+      "inflexible",
+      "stiff",
+      "flexible",
+      "firm"
+    ],
+    "answer": 2,
+    "explanation": "Rigid means unwilling to change or adapt; inflexible. Its antonym is flexible, which means willing to adapt or change according to circumstances.",
+    "wrongReasons": [
+      "Inflexible is a synonym of rigid, meaning unable or unwilling to bend.",
+      "Stiff is a synonym of rigid, meaning not bending easily.",
+      "Firm can be a synonym of rigid in certain contexts, meaning strongly fixed."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["rigid"],
+    "hebrewExplanation": "rigid = נוקשה, קשיח. הפכים: flexible = גמיש. rigid מתאר חוסר גמישות, flexible מתאר יכולת הסתגלות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-112",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"VOLUNTARY\".",
+    "choices": [
+      "compulsory",
+      "willing",
+      "optional",
+      "chosen"
+    ],
+    "answer": 0,
+    "explanation": "Voluntary means done of one's own free will without external compulsion. Its antonym is compulsory, which means required by law or rule; mandatory.",
+    "wrongReasons": [
+      "Willing is a synonym of voluntary, meaning ready or inclined to do something.",
+      "Optional is a synonym of voluntary, meaning available as a choice, not required.",
+      "Chosen is a synonym of voluntary, meaning selected by one's own decision."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["voluntary"],
+    "hebrewExplanation": "voluntary = מרצון, וולונטרי. הפכים: compulsory = חובה, כפוי. voluntary = בחירה אישית, compulsory = חובה חוקית.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-113",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"ENHANCE\".",
+    "choices": [
+      "improve",
+      "boost",
+      "diminish",
+      "elevate"
+    ],
+    "answer": 2,
+    "explanation": "Enhance means to increase or improve the quality, value, or extent of something. Its antonym is diminish, which means to make smaller or less significant.",
+    "wrongReasons": [
+      "Improve is a synonym of enhance, meaning to make better.",
+      "Boost is a synonym of enhance, meaning to increase or raise.",
+      "Elevate is a synonym of enhance, meaning to raise to a higher level."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["enhance"],
+    "hebrewExplanation": "enhance = לשפר, לשדרג. הפכים: diminish = להמעיט, להקטין. enhance = הגדלה, diminish = הקטנה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-114",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"ADVOCATE\".",
+    "choices": [
+      "oppose",
+      "support",
+      "promote",
+      "champion"
+    ],
+    "answer": 0,
+    "explanation": "Advocate means to publicly support or recommend a cause or policy. Its antonym is oppose, which means to be against or in disagreement with something.",
+    "wrongReasons": [
+      "Support is a synonym of advocate, meaning to give assistance to a cause.",
+      "Promote is a synonym of advocate, meaning to actively encourage.",
+      "Champion is a synonym of advocate, meaning to vigorously support."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["advocate"],
+    "hebrewExplanation": "advocate = לתמוך, לדגול. הפכים: oppose = להתנגד. advocate = תמיכה פעילה, oppose = התנגדות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-115",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"CONFIRM\".",
+    "choices": [
+      "verify",
+      "validate",
+      "refute",
+      "affirm"
+    ],
+    "answer": 2,
+    "explanation": "Confirm means to establish the truth or correctness of something. Its antonym is refute, which means to prove a statement wrong or deny its truth.",
+    "wrongReasons": [
+      "Verify is a synonym of confirm, meaning to check the accuracy of something.",
+      "Validate is a synonym of confirm, meaning to prove something to be true.",
+      "Affirm is a synonym of confirm, meaning to declare something to be true."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["confirm"],
+    "hebrewExplanation": "confirm = לאשר, לאמת. הפכים: refute = להפריך. confirm = הוכחת נכונות, refute = הוכחת שגיאה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-116",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"STIMULATE\".",
+    "choices": [
+      "inhibit",
+      "encourage",
+      "activate",
+      "prompt"
+    ],
+    "answer": 0,
+    "explanation": "Stimulate means to encourage or arouse activity or growth. Its antonym is inhibit, which means to hinder, restrain, or prevent activity.",
+    "wrongReasons": [
+      "Encourage is a synonym of stimulate, meaning to give support and confidence.",
+      "Activate is a synonym of stimulate, meaning to cause something to start functioning.",
+      "Prompt is a synonym of stimulate, meaning to cause or inspire."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["stimulate"],
+    "hebrewExplanation": "stimulate = לגרות, לעודד. הפכים: inhibit = לעכב, לדכא. stimulate = עידוד פעילות, inhibit = עיכוב פעילות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-117",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"ACCELERATE\".",
+    "choices": [
+      "hasten",
+      "decelerate",
+      "quicken",
+      "speed"
+    ],
+    "answer": 1,
+    "explanation": "Accelerate means to increase in rate, speed, or amount. Its antonym is decelerate, which means to reduce in speed or slow down.",
+    "wrongReasons": [
+      "Hasten is a synonym of accelerate, meaning to speed up.",
+      "Quicken is a synonym of accelerate, meaning to make faster.",
+      "Speed is a synonym of accelerate when used as a verb meaning to go fast."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["accelerate"],
+    "hebrewExplanation": "accelerate = להאיץ. הפכים: decelerate = להאט. accelerate = האצה, decelerate = האטה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-118",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"TRANSPARENT\".",
+    "choices": [
+      "clear",
+      "opaque",
+      "evident",
+      "visible"
+    ],
+    "answer": 1,
+    "explanation": "Transparent means allowing light to pass through so that objects are clearly seen; also figuratively open and honest. Its antonym is opaque, which means not transparent; impossible to see through, or difficult to understand.",
+    "wrongReasons": [
+      "Clear is a synonym of transparent, meaning easy to see or understand.",
+      "Evident is a synonym of transparent in a figurative sense, meaning obvious.",
+      "Visible means able to be seen, which is related to transparency but not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["transparent"],
+    "hebrewExplanation": "transparent = שקוף, גלוי. הפכים: opaque = אטום, עכור. transparent = מאפשר ראיה, opaque = חוסם ראיה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-119",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"TRIVIAL\".",
+    "choices": [
+      "minor",
+      "insignificant",
+      "significant",
+      "petty"
+    ],
+    "answer": 2,
+    "explanation": "Trivial means of little value or importance. Its antonym is significant, which means sufficiently great or important to be worthy of attention.",
+    "wrongReasons": [
+      "Minor is a synonym of trivial, meaning lesser in importance.",
+      "Insignificant is a synonym of trivial, meaning too small to be important.",
+      "Petty is a synonym of trivial, meaning of little importance."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["trivial"],
+    "hebrewExplanation": "trivial = טריוויאלי, שולי. הפכים: significant = משמעותי. trivial = חסר חשיבות, significant = בעל חשיבות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-120",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"CONVERGE\".",
+    "choices": [
+      "merge",
+      "meet",
+      "diverge",
+      "unite"
+    ],
+    "answer": 2,
+    "explanation": "Converge means to come together from different directions and meet at a point. Its antonym is diverge, which means to separate and go in different directions.",
+    "wrongReasons": [
+      "Merge is a synonym of converge, meaning to combine or join together.",
+      "Meet is a synonym of converge, meaning to come together at a point.",
+      "Unite is a synonym of converge, meaning to join or bring together."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["converge"],
+    "hebrewExplanation": "converge = להתכנס. הפכים: diverge = להתפצל. converge = התכנסות לנקודה אחת, diverge = פיצול לכיוונים שונים.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-121",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"STABLE\".",
+    "choices": [
+      "steady",
+      "volatile",
+      "secure",
+      "consistent"
+    ],
+    "answer": 1,
+    "explanation": "Stable means not likely to change or fail; firmly established. Its antonym is volatile, which means likely to change rapidly and unpredictably, especially for the worse.",
+    "wrongReasons": [
+      "Steady is a synonym of stable, meaning regular and even; not changing.",
+      "Secure is a synonym of stable, meaning protected from risk or uncertainty.",
+      "Consistent is related to stable, meaning acting or done the same way over time."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["stable"],
+    "hebrewExplanation": "stable = יציב. הפכים: volatile = תנודתי, נפיץ. stable = יציבות, volatile = אי-יציבות ושינויים תכופים.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-122",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"ABSTRACT\".",
+    "choices": [
+      "theoretical",
+      "conceptual",
+      "concrete",
+      "intangible"
+    ],
+    "answer": 2,
+    "explanation": "Abstract refers to ideas or concepts that are not physical or tangible. Its antonym is concrete, which refers to something specific, tangible, and based on real facts.",
+    "wrongReasons": [
+      "Theoretical is a synonym of abstract, meaning based on theory rather than practice.",
+      "Conceptual is a synonym of abstract, meaning relating to concepts or ideas.",
+      "Intangible is a synonym of abstract, meaning unable to be touched or grasped physically."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["abstract"],
+    "hebrewExplanation": "abstract = מופשט. הפכים: concrete = קונקרטי, מוחשי. abstract = רעיוני, concrete = מבוסס על עובדות ממשיות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-123",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"CONSISTENT\".",
+    "choices": [
+      "reliable",
+      "uniform",
+      "inconsistent",
+      "regular"
+    ],
+    "answer": 2,
+    "explanation": "Consistent means acting or done the same way over time; dependable. Its antonym is inconsistent, which means not staying the same throughout; irregular or contradictory.",
+    "wrongReasons": [
+      "Reliable is a synonym of consistent, meaning able to be trusted to do something well.",
+      "Uniform is a synonym of consistent, meaning not varying; the same in all cases.",
+      "Regular is a synonym of consistent, meaning done at fixed intervals; even."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["consistent"],
+    "hebrewExplanation": "consistent = עקבי. הפכים: inconsistent = לא עקבי, סותר. consistent = התנהגות אחידה, inconsistent = שינויים תכופים.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-124",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"UNIFORM\".",
+    "choices": [
+      "identical",
+      "standard",
+      "diverse",
+      "homogeneous"
+    ],
+    "answer": 2,
+    "explanation": "Uniform means remaining the same in all cases; consistent. Its antonym is diverse, which means showing a great deal of variety; very different.",
+    "wrongReasons": [
+      "Identical is a synonym of uniform, meaning exactly alike in every way.",
+      "Standard is a synonym of uniform, meaning conforming to a fixed norm.",
+      "Homogeneous is a synonym of uniform, meaning of the same kind; similar throughout."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["uniform"],
+    "hebrewExplanation": "uniform = אחיד, אחיד. הפכים: diverse = מגוון, שונה. uniform = אחידות, diverse = מגוון.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-125",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"UNIFY\".",
+    "choices": [
+      "fragment",
+      "combine",
+      "integrate",
+      "consolidate"
+    ],
+    "answer": 0,
+    "explanation": "Unify means to make or become united. Its antonym is fragment, which means to break or cause to break into small or irregular pieces.",
+    "wrongReasons": [
+      "Combine is a synonym of unify, meaning to join or merge.",
+      "Integrate is a synonym of unify, meaning to combine parts into a whole.",
+      "Consolidate is a synonym of unify, meaning to strengthen by bringing together."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["unify"],
+    "hebrewExplanation": "unify = לאחד. הפכים: fragment = לפצל, לרסק. unify = איחוד, fragment = פיצול.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-126",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"COMPEL\".",
+    "choices": [
+      "force",
+      "coerce",
+      "deter",
+      "drive"
+    ],
+    "answer": 2,
+    "explanation": "Compel means to force or drive someone to do something. Its antonym is deter, which means to discourage someone from doing something by making them doubt or fear.",
+    "wrongReasons": [
+      "Force is a synonym of compel, meaning to make someone do something against their will.",
+      "Coerce is a synonym of compel, meaning to persuade using threats.",
+      "Drive is a synonym of compel, meaning to urge or impel to action."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["compel"],
+    "hebrewExplanation": "compel = לכפות, לאלץ. הפכים: deter = להרתיע. compel = כפייה, deter = הרתעה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-127",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"PREDOMINANT\".",
+    "choices": [
+      "primary",
+      "dominant",
+      "minor",
+      "leading"
+    ],
+    "answer": 2,
+    "explanation": "Predominant means present as the strongest or main element. Its antonym is minor, which means lesser in importance, size, or degree.",
+    "wrongReasons": [
+      "Primary is a synonym of predominant, meaning of chief importance.",
+      "Dominant is a synonym of predominant, meaning most influential or having control.",
+      "Leading is a synonym of predominant, meaning most important or in first place."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["predominant"],
+    "hebrewExplanation": "predominant = דומיננטי, מוביל. הפכים: minor = משני, זניח. predominant = הגורם החזק ביותר, minor = פחות חשוב.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-128",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"CONCEAL\".",
+    "choices": [
+      "reveal",
+      "hide",
+      "suppress",
+      "mask"
+    ],
+    "answer": 0,
+    "explanation": "Conceal means to keep something from being seen or known. Its antonym is reveal, which means to make something previously unknown or secret publicly known.",
+    "wrongReasons": [
+      "Hide is a synonym of conceal, meaning to put out of sight.",
+      "Suppress is a synonym of conceal, meaning to prevent from being known or shown.",
+      "Mask is a synonym of conceal, meaning to cover or disguise."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["conceal"],
+    "hebrewExplanation": "conceal = להסתיר, להעלים. הפכים: reveal = לחשוף. conceal = הסתרה, reveal = חשיפה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-129",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"PROSPER\".",
+    "choices": [
+      "thrive",
+      "flourish",
+      "decline",
+      "succeed"
+    ],
+    "answer": 2,
+    "explanation": "Prosper means to succeed or be financially successful. Its antonym is decline, which means to decrease in strength, quality, or value; to deteriorate.",
+    "wrongReasons": [
+      "Thrive is a synonym of prosper, meaning to grow or develop well.",
+      "Flourish is a synonym of prosper, meaning to grow vigorously.",
+      "Succeed is a synonym of prosper, meaning to achieve a desired aim."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["prosper"],
+    "hebrewExplanation": "prosper = לשגשג, להצליח. הפכים: decline = לרדת, להידרדר. prosper = שגשוג, decline = ירידה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-130",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"RATIONAL\".",
+    "choices": [
+      "logical",
+      "irrational",
+      "sensible",
+      "reasonable"
+    ],
+    "answer": 1,
+    "explanation": "Rational means based on reason or logic. Its antonym is irrational, which means not based on reason or logic; illogical.",
+    "wrongReasons": [
+      "Logical is a synonym of rational, meaning based on clear reasoning.",
+      "Sensible is a synonym of rational, meaning done with good judgment.",
+      "Reasonable is a synonym of rational, meaning having sound judgment."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["rational"],
+    "hebrewExplanation": "rational = רציונלי, הגיוני. הפכים: irrational = אי-רציונלי, לא הגיוני. rational = מבוסס שכל, irrational = מנוגד להגיון.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-131",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"COMPLY\".",
+    "choices": [
+      "obey",
+      "conform",
+      "defy",
+      "adhere"
+    ],
+    "answer": 2,
+    "explanation": "Comply means to act in accordance with a request or rule. Its antonym is defy, which means to openly resist or refuse to obey.",
+    "wrongReasons": [
+      "Obey is a synonym of comply, meaning to carry out a command.",
+      "Conform is a synonym of comply, meaning to act in accordance with standards.",
+      "Adhere is a synonym of comply, meaning to follow or stick to a rule or belief."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["comply"],
+    "hebrewExplanation": "comply = לציית, לעמוד בדרישות. הפכים: defy = להתמרד, להתנגד. comply = ציות, defy = מרי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-132",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"SUPERFICIAL\".",
+    "choices": [
+      "shallow",
+      "cursory",
+      "thorough",
+      "surface"
+    ],
+    "answer": 2,
+    "explanation": "Superficial means existing or occurring at or on the surface; not thorough or deep. Its antonym is thorough, which means complete with attention to every detail.",
+    "wrongReasons": [
+      "Shallow is a synonym of superficial, meaning not deep; lacking depth.",
+      "Cursory is a synonym of superficial, meaning hasty and not thorough.",
+      "Surface as an adjective relates to superficial, describing something on the surface only."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["superficial"],
+    "hebrewExplanation": "superficial = שטחי. הפכים: thorough = יסודי, מעמיק. superficial = התייחסות שטחית, thorough = עיסוק מעמיק.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-133",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"AMBIGUOUS\".",
+    "choices": [
+      "vague",
+      "unclear",
+      "unambiguous",
+      "puzzling"
+    ],
+    "answer": 2,
+    "explanation": "Ambiguous means open to more than one interpretation; not having a clear meaning. Its antonym is unambiguous, which means clearly expressed and leaving no doubt.",
+    "wrongReasons": [
+      "Vague is a synonym of ambiguous, meaning unclear; not clearly expressed.",
+      "Unclear is a synonym of ambiguous, meaning easy to misunderstand.",
+      "Puzzling is related to ambiguous, meaning confusing or hard to understand."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["ambiguous"],
+    "hebrewExplanation": "ambiguous = דו-משמעי. הפכים: unambiguous = חד-משמעי. ambiguous = ניתן לפרש בכמה דרכים, unambiguous = פירוש אחד ברור.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-134",
+    "difficulty": "medium",
+    "text": "Choose the word that is opposite in meaning to \"SCARCE\".",
+    "choices": [
+      "rare",
+      "limited",
+      "plentiful",
+      "insufficient"
+    ],
+    "answer": 2,
+    "explanation": "Scarce means insufficient in supply; not enough for the demand. Its antonym is plentiful, which means existing in large quantities; more than enough.",
+    "wrongReasons": [
+      "Rare is a synonym of scarce, meaning not found in large numbers.",
+      "Limited is a synonym of scarce, meaning restricted in size or amount.",
+      "Insufficient is a synonym of scarce, meaning not enough."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["scarce"],
+    "hebrewExplanation": "scarce = נדיר, מחוסר. הפכים: plentiful = בשפע. scarce = מחסור, plentiful = שפע.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-135",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"MITIGATE\".",
+    "choices": [
+      "alleviate",
+      "lessen",
+      "exacerbate",
+      "moderate"
+    ],
+    "answer": 2,
+    "explanation": "Mitigate means to lessen the severity or seriousness of something. Its antonym is exacerbate, which means to make a problem or bad situation worse.",
+    "wrongReasons": [
+      "Alleviate is a synonym of mitigate, meaning to make something less severe.",
+      "Lessen is a synonym of mitigate, meaning to make smaller or fewer.",
+      "Moderate is a synonym of mitigate, meaning to make less extreme."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["mitigate"],
+    "hebrewExplanation": "mitigate = להפחית, להקל. הפכים: exacerbate = להחריף, להרע. mitigate = הפחתת חומרה, exacerbate = החרפה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-136",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"PRAGMATIC\".",
+    "choices": [
+      "practical",
+      "realistic",
+      "idealistic",
+      "sensible"
+    ],
+    "answer": 2,
+    "explanation": "Pragmatic means dealing with things sensibly and practically, based on realistic considerations. Its antonym is idealistic, which means having or pursuing high or noble principles without always considering whether they are achievable in reality.",
+    "wrongReasons": [
+      "Practical is a synonym of pragmatic, meaning concerned with practice rather than theory.",
+      "Realistic is a synonym of pragmatic, meaning having a sensible view of things.",
+      "Sensible is a synonym of pragmatic, meaning done with good judgment."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["pragmatic"],
+    "hebrewExplanation": "pragmatic = פרגמטי, מעשי. הפכים: idealistic = אידיאליסטי. pragmatic = מבוסס מציאות, idealistic = מבוסס אידיאלים.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-137",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"PROLIFERATE\".",
+    "choices": [
+      "multiply",
+      "spread",
+      "dwindle",
+      "expand"
+    ],
+    "answer": 2,
+    "explanation": "Proliferate means to increase rapidly in number; to multiply. Its antonym is dwindle, which means to diminish gradually in size, amount, or strength.",
+    "wrongReasons": [
+      "Multiply is a synonym of proliferate, meaning to increase in number.",
+      "Spread is a synonym of proliferate, meaning to extend over a larger area.",
+      "Expand is a synonym of proliferate, meaning to grow in size or number."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["proliferate"],
+    "hebrewExplanation": "proliferate = להתרבות במהירות. הפכים: dwindle = לדעוך, להתמעט. proliferate = ריבוי מהיר, dwindle = ירידה הדרגתית.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-138",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"AUTONOMOUS\".",
+    "choices": [
+      "self-governing",
+      "independent",
+      "dependent",
+      "sovereign"
+    ],
+    "answer": 2,
+    "explanation": "Autonomous means having self-governance; independent. Its antonym is dependent, which means relying on others for support or unable to act independently.",
+    "wrongReasons": [
+      "Self-governing is a synonym of autonomous, meaning governing itself without outside control.",
+      "Independent is a synonym of autonomous, meaning free from outside control.",
+      "Sovereign is a synonym of autonomous, meaning having supreme power or authority."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["autonomous"],
+    "hebrewExplanation": "autonomous = אוטונומי, עצמאי. הפכים: dependent = תלותי, תלוי. autonomous = שלטון עצמי, dependent = תלות בגורם חיצוני.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-139",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"VINDICATE\".",
+    "choices": [
+      "exonerate",
+      "justify",
+      "condemn",
+      "acquit"
+    ],
+    "answer": 2,
+    "explanation": "Vindicate means to clear someone of blame or suspicion; to prove them right. Its antonym is condemn, which means to express strong disapproval of or to declare guilty.",
+    "wrongReasons": [
+      "Exonerate is a synonym of vindicate, meaning to officially absolve from blame.",
+      "Justify is a synonym of vindicate, meaning to show or prove to be right.",
+      "Acquit is a synonym of vindicate, meaning to formally declare not guilty."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["vindicate"],
+    "hebrewExplanation": "vindicate = לזכות, לצדיק. הפכים: condemn = לגנות, להרשיע. vindicate = הסרת אשמה, condemn = הטלת אשמה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-140",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"EPHEMERAL\".",
+    "choices": [
+      "fleeting",
+      "transient",
+      "enduring",
+      "momentary"
+    ],
+    "answer": 2,
+    "explanation": "Ephemeral means lasting for a very short time. Its antonym is enduring, which means lasting over a long period; durable.",
+    "wrongReasons": [
+      "Fleeting is a synonym of ephemeral, meaning passing swiftly.",
+      "Transient is a synonym of ephemeral, meaning lasting only for a short time.",
+      "Momentary is a synonym of ephemeral, meaning lasting for a very short time."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["ephemeral"],
+    "hebrewExplanation": "ephemeral = חולף, ארעי. הפכים: enduring = מתמיד, נצחי. ephemeral = דבר הנמשך זמן קצר מאוד, enduring = דבר הנמשך לאורך זמן.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-141",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"INCESSANT\".",
+    "choices": [
+      "continuous",
+      "unrelenting",
+      "intermittent",
+      "perpetual"
+    ],
+    "answer": 2,
+    "explanation": "Incessant means never stopping; continuing without pause. Its antonym is intermittent, which means occurring at irregular intervals; not continuous.",
+    "wrongReasons": [
+      "Continuous is a synonym of incessant, meaning forming an unbroken sequence.",
+      "Unrelenting is a synonym of incessant, meaning not stopping or relaxing.",
+      "Perpetual is a synonym of incessant, meaning never ending or changing."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["incessant"],
+    "hebrewExplanation": "incessant = ללא הפסקה, מתמיד. הפכים: intermittent = לסירוגין. incessant = פעולה רצופה, intermittent = פעולה לסירוגין.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-142",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"FACILITATE\".",
+    "choices": [
+      "enable",
+      "assist",
+      "impede",
+      "promote"
+    ],
+    "answer": 2,
+    "explanation": "Facilitate means to make an action or process easier. Its antonym is impede, which means to delay or prevent by obstructing.",
+    "wrongReasons": [
+      "Enable is a synonym of facilitate, meaning to make possible.",
+      "Assist is a synonym of facilitate, meaning to help or give support.",
+      "Promote is a synonym of facilitate, meaning to further the progress of."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["facilitate"],
+    "hebrewExplanation": "facilitate = להקל, לאפשר. הפכים: impede = לעכב, להפריע. facilitate = הקלה על תהליך, impede = חסימה של תהליך.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-143",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"IMMUTABLE\".",
+    "choices": [
+      "fixed",
+      "permanent",
+      "variable",
+      "constant"
+    ],
+    "answer": 2,
+    "explanation": "Immutable means unchanging over time or unable to be changed. Its antonym is variable, which means not consistent or having a fixed pattern; liable to change.",
+    "wrongReasons": [
+      "Fixed is a synonym of immutable, meaning fastened securely; not changing.",
+      "Permanent is a synonym of immutable, meaning lasting or remaining without essential change.",
+      "Constant is a synonym of immutable, meaning occurring continuously; not varying."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["immutable"],
+    "hebrewExplanation": "immutable = בלתי-משתנה, קבוע. הפכים: variable = משתנה. immutable = אי-שינוי מוחלט, variable = נתון לשינויים.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-144",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"ALLEVIATE\".",
+    "choices": [
+      "intensify",
+      "ease",
+      "relieve",
+      "soothe"
+    ],
+    "answer": 0,
+    "explanation": "Alleviate means to make suffering or a problem less severe. Its antonym is intensify, which means to make something stronger or more extreme.",
+    "wrongReasons": [
+      "Ease is a synonym of alleviate, meaning to make less painful or difficult.",
+      "Relieve is a synonym of alleviate, meaning to lessen pain or distress.",
+      "Soothe is a synonym of alleviate, meaning to gently calm or relieve."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["alleviate"],
+    "hebrewExplanation": "alleviate = להקל, לשכך. הפכים: intensify = להחריף, להגביר. alleviate = הפחתת עוצמה, intensify = הגברת עוצמה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-145",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"PREVALENT\".",
+    "choices": [
+      "widespread",
+      "common",
+      "uncommon",
+      "dominant"
+    ],
+    "answer": 2,
+    "explanation": "Prevalent means widespread in a particular area or at a particular time. Its antonym is uncommon, which means not happening or encountered frequently; rare.",
+    "wrongReasons": [
+      "Widespread is a synonym of prevalent, meaning distributed over or affecting a large area.",
+      "Common is a synonym of prevalent, meaning occurring or found frequently.",
+      "Dominant is a synonym of prevalent, meaning most important or powerful."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["prevalent"],
+    "hebrewExplanation": "prevalent = נפוץ, רווח. הפכים: uncommon = נדיר, לא שכיח. prevalent = שכיח מאוד, uncommon = נדיר.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-146",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"CONCISE\".",
+    "choices": [
+      "brief",
+      "succinct",
+      "verbose",
+      "terse"
+    ],
+    "answer": 2,
+    "explanation": "Concise means giving much information clearly and in few words. Its antonym is verbose, which means using more words than needed; wordy.",
+    "wrongReasons": [
+      "Brief is a synonym of concise, meaning short in duration or extent.",
+      "Succinct is a synonym of concise, meaning expressed briefly and clearly.",
+      "Terse is a synonym of concise, meaning sparing with words; brief."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["concise"],
+    "hebrewExplanation": "concise = תמציתי, קצר ועניני. הפכים: verbose = רב-מילים, מדבר יתר על המידה. concise = קצר וממצה, verbose = ארוך ומיותר.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-147",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"INDIFFERENT\".",
+    "choices": [
+      "apathetic",
+      "unconcerned",
+      "passionate",
+      "detached"
+    ],
+    "answer": 2,
+    "explanation": "Indifferent means having no particular interest in or sympathy for something. Its antonym is passionate, which means having, showing, or caused by strong feelings of enthusiasm.",
+    "wrongReasons": [
+      "Apathetic is a synonym of indifferent, meaning showing or feeling no interest, enthusiasm, or concern.",
+      "Unconcerned is a synonym of indifferent, meaning showing lack of worry or interest.",
+      "Detached is a synonym of indifferent, meaning aloof and objective; not influenced by emotions."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["indifferent"],
+    "hebrewExplanation": "indifferent = אדיש, חסר עניין. הפכים: passionate = נלהב, נלהב. indifferent = חוסר עניין, passionate = עוצמת רגש.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-148",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"CONVOLUTED\".",
+    "choices": [
+      "complex",
+      "intricate",
+      "straightforward",
+      "tangled"
+    ],
+    "answer": 2,
+    "explanation": "Convoluted means extremely complex and difficult to follow. Its antonym is straightforward, which means uncomplicated and easy to understand.",
+    "wrongReasons": [
+      "Complex is a synonym of convoluted, meaning consisting of many different parts.",
+      "Intricate is a synonym of convoluted, meaning very complicated or detailed.",
+      "Tangled is a synonym of convoluted, meaning twisted into a confused mass."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["convoluted"],
+    "hebrewExplanation": "convoluted = מסובך, מסועף. הפכים: straightforward = פשוט, ישיר. convoluted = מורכבות יתרה, straightforward = פשטות ובהירות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-149",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"METICULOUS\".",
+    "choices": [
+      "careful",
+      "thorough",
+      "careless",
+      "precise"
+    ],
+    "answer": 2,
+    "explanation": "Meticulous means showing great attention to detail; very careful and precise. Its antonym is careless, which means not giving sufficient attention to avoiding mistakes.",
+    "wrongReasons": [
+      "Careful is a synonym of meticulous, meaning making sure of avoiding potential problems.",
+      "Thorough is a synonym of meticulous, meaning complete with attention to every detail.",
+      "Precise is a synonym of meticulous, meaning marked by exactness and accuracy."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["meticulous"],
+    "hebrewExplanation": "meticulous = קפדני, מדוקדק. הפכים: careless = רשלני. meticulous = תשומת לב לפרטים, careless = חוסר תשומת לב.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-150",
+    "difficulty": "hard",
+    "text": "Choose the word that is opposite in meaning to \"OBSCURE\".",
+    "choices": [
+      "vague",
+      "enigmatic",
+      "prominent",
+      "cryptic"
+    ],
+    "answer": 2,
+    "explanation": "Obscure means not discovered or known; not clearly expressed. Its antonym is prominent, which means important; famous; noticeable; standing out clearly.",
+    "wrongReasons": [
+      "Vague is a synonym of obscure, meaning not clear in meaning or expression.",
+      "Enigmatic is a synonym of obscure, meaning difficult to understand or mysterious.",
+      "Cryptic is a synonym of obscure, meaning having a hidden or ambiguous meaning."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["antonyms", "vocabulary"],
+    "vocabularyWords": ["obscure"],
+    "hebrewExplanation": "obscure = אפל, מעורפל, בלתי-ידוע. הפכים: prominent = בולט, ידוע, מפורסם. obscure = נסתר, prominent = גלוי ומוכר.",
+    "estimatedTimeSeconds": 30
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "sb-sr-201",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to SIMPLE?",
+    "choices": ["complex", "straightforward", "ambitious", "vibrant"],
+    "answer": 1,
+    "explanation": "'Simple' means easy to understand or not complicated. 'Straightforward' shares this meaning of being uncomplicated and clear.",
+    "wrongReasons": [
+      "'Complex' is actually the opposite of simple, meaning complicated.",
+      "'Ambitious' means having strong desire for achievement, unrelated to simplicity.",
+      "'Vibrant' means full of energy or brightness, not related to being simple."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["simple"],
+    "hebrewExplanation": "'Simple' (פשוט) קרוב ביותר ל-'straightforward' (ישיר, לא מסובך). שניהם מתארים משהו שקל להבנה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-202",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to HAPPY?",
+    "choices": ["joyful", "anxious", "distant", "rigid"],
+    "answer": 0,
+    "explanation": "'Happy' means feeling pleasure or contentment. 'Joyful' is a direct synonym, meaning full of happiness and delight.",
+    "wrongReasons": [
+      "'Anxious' means worried or nervous, which is the opposite emotional state.",
+      "'Distant' refers to being far away or emotionally detached, not happy.",
+      "'Rigid' means stiff or inflexible, describing a physical or behavioral quality, not emotion."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["happy"],
+    "hebrewExplanation": "'Happy' (שמח) קרוב ביותר ל-'joyful' (מלא שמחה). שניהם מבטאים תחושת אושר.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-203",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to FAST?",
+    "choices": ["sluggish", "rapid", "weary", "hollow"],
+    "answer": 1,
+    "explanation": "'Fast' means moving or happening quickly. 'Rapid' is a direct synonym meaning happening in a short time at high speed.",
+    "wrongReasons": [
+      "'Sluggish' is the opposite of fast, meaning slow-moving.",
+      "'Weary' means tired or exhausted, which is unrelated to speed.",
+      "'Hollow' means empty inside, not related to speed at all."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["fast"],
+    "hebrewExplanation": "'Fast' (מהיר) קרוב ביותר ל-'rapid' (מהיר, זריז). שניהם מתארים תנועה או פעולה במהירות.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-204",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to LARGE?",
+    "choices": ["minute", "feeble", "vast", "stern"],
+    "answer": 2,
+    "explanation": "'Large' means of great size. 'Vast' is a strong synonym meaning very great in extent or quantity.",
+    "wrongReasons": [
+      "'Minute' actually means extremely small, the opposite of large.",
+      "'Feeble' means lacking strength or weak, not related to size.",
+      "'Stern' means strict or severe in manner, unrelated to size."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["large"],
+    "hebrewExplanation": "'Large' (גדול) קרוב ביותר ל-'vast' (עצום, נרחב). שניהם מתארים גודל רב.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-205",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to SMART?",
+    "choices": ["ignorant", "clumsy", "intelligent", "timid"],
+    "answer": 2,
+    "explanation": "'Smart' means having quick intelligence. 'Intelligent' is a direct synonym meaning having the ability to learn and understand things easily.",
+    "wrongReasons": [
+      "'Ignorant' means lacking knowledge or awareness, the opposite of smart.",
+      "'Clumsy' means awkward in movement, not related to intelligence.",
+      "'Timid' means lacking confidence or courage, unrelated to intelligence."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["smart"],
+    "hebrewExplanation": "'Smart' (חכם) קרוב ביותר ל-'intelligent' (אינטליגנטי). שניהם מתארים יכולת קוגניטיבית גבוהה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-206",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to TIRED?",
+    "choices": ["alert", "cheerful", "exhausted", "sturdy"],
+    "answer": 2,
+    "explanation": "'Tired' means feeling a need for rest or sleep. 'Exhausted' is a stronger synonym meaning completely drained of energy.",
+    "wrongReasons": [
+      "'Alert' means fully awake and attentive, the opposite of tired.",
+      "'Cheerful' means noticeably happy, which contrasts with being tired.",
+      "'Sturdy' means strongly built or robust, unrelated to fatigue."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["tired"],
+    "hebrewExplanation": "'Tired' (עייף) קרוב ביותר ל-'exhausted' (מותש לחלוטין). שניהם מתארים חוסר אנרגיה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-207",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to STRANGE?",
+    "choices": ["familiar", "peculiar", "gentle", "moderate"],
+    "answer": 1,
+    "explanation": "'Strange' means unusual or surprising. 'Peculiar' is a direct synonym meaning odd or unusual in a way that attracts attention.",
+    "wrongReasons": [
+      "'Familiar' means well known or recognized, the opposite of strange.",
+      "'Gentle' means mild or kind in manner, unrelated to strangeness.",
+      "'Moderate' means not extreme in behavior or opinion, unrelated to oddness."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["strange"],
+    "hebrewExplanation": "'Strange' (מוזר) קרוב ביותר ל-'peculiar' (מוזר, חריג). שניהם מתארים משהו יוצא דופן.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-208",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to AFRAID?",
+    "choices": ["fearful", "bold", "serene", "eager"],
+    "answer": 0,
+    "explanation": "'Afraid' means feeling fear or anxiety. 'Fearful' is a direct synonym meaning full of fear or frightened.",
+    "wrongReasons": [
+      "'Bold' means showing confidence and courage, the opposite of afraid.",
+      "'Serene' means calm and peaceful, which is a contrasting emotional state.",
+      "'Eager' means keen and enthusiastic, unrelated to fear."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["afraid"],
+    "hebrewExplanation": "'Afraid' (מפוחד) קרוב ביותר ל-'fearful' (מלא פחד). שניהם מתארים תחושת פחד.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-209",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DEMONSTRATE?",
+    "choices": ["conceal", "illustrate", "ignore", "retract"],
+    "answer": 1,
+    "explanation": "'Demonstrate' means to show or prove something clearly. 'Illustrate' shares this meaning of making something clear by showing examples or evidence.",
+    "wrongReasons": [
+      "'Conceal' means to hide something, which is the opposite of demonstrating.",
+      "'Ignore' means to pay no attention to, unrelated to showing or proving.",
+      "'Retract' means to take back a statement, not related to demonstrating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["demonstrate"],
+    "hebrewExplanation": "'Demonstrate' (להדגים) קרוב ביותר ל-'illustrate' (להמחיש). שניהם מתארים הצגה ברורה של משהו.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-210",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to IMPARTIAL?",
+    "choices": ["biased", "neutral", "hostile", "lenient"],
+    "answer": 1,
+    "explanation": "'Impartial' means treating all parties equally without favoritism. 'Neutral' similarly means not taking sides or showing preference.",
+    "wrongReasons": [
+      "'Biased' means showing unfair preference, the direct opposite of impartial.",
+      "'Hostile' means showing aggression or opposition, unrelated to fairness.",
+      "'Lenient' means being less strict or more tolerant, which implies taking a side."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["impartial"],
+    "hebrewExplanation": "'Impartial' (חסר משוא פנים) קרוב ביותר ל-'neutral' (ניטרלי). שניהם מתארים גישה שוויונית וללא העדפה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-211",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to AUTHENTIC?",
+    "choices": ["counterfeit", "genuine", "peculiar", "volatile"],
+    "answer": 1,
+    "explanation": "'Authentic' means real, genuine, or not a copy. 'Genuine' is a direct synonym meaning truly what something is said to be.",
+    "wrongReasons": [
+      "'Counterfeit' means fake or forged, the opposite of authentic.",
+      "'Peculiar' means strange or unusual, not related to genuineness.",
+      "'Volatile' means liable to change rapidly or unpredictably, unrelated to authenticity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["authentic"],
+    "hebrewExplanation": "'Authentic' (אותנטי, אמיתי) קרוב ביותר ל-'genuine' (אמיתי, מקורי). שניהם מתארים משהו שהוא מה שהוא טוען להיות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-212",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to RESOLVE?",
+    "choices": ["abandon", "determine", "confuse", "delay"],
+    "answer": 1,
+    "explanation": "'Resolve' means to firmly decide or to settle a problem. 'Determine' similarly means to firmly decide or find a solution to something.",
+    "wrongReasons": [
+      "'Abandon' means to give up on something, which is often the opposite of resolving.",
+      "'Confuse' means to make unclear, which is contrary to resolving.",
+      "'Delay' means to postpone, not related to deciding or settling."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["resolve"],
+    "hebrewExplanation": "'Resolve' (לפתור, להחליט) קרוב ביותר ל-'determine' (לקבוע, להחליט). שניהם מבטאים הכרעה נחושה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-213",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to CONCUR?",
+    "choices": ["dispute", "hesitate", "agree", "withdraw"],
+    "answer": 2,
+    "explanation": "'Concur' means to have the same opinion or to agree. 'Agree' is a direct synonym meaning to have the same view as someone else.",
+    "wrongReasons": [
+      "'Dispute' means to argue or disagree, the opposite of concurring.",
+      "'Hesitate' means to pause due to uncertainty, not related to agreement.",
+      "'Withdraw' means to pull back or remove oneself, unrelated to agreement."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["concur"],
+    "hebrewExplanation": "'Concur' (להסכים) קרוב ביותר ל-'agree' (להסכים). שניהם מתארים שיתוף באותה דעה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-214",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to ABUNDANT?",
+    "choices": ["scarce", "plentiful", "trivial", "vague"],
+    "answer": 1,
+    "explanation": "'Abundant' means existing in large quantities. 'Plentiful' is a direct synonym meaning present in large amounts or more than enough.",
+    "wrongReasons": [
+      "'Scarce' means not enough of something available, the opposite of abundant.",
+      "'Trivial' means of little importance or value, unrelated to quantity.",
+      "'Vague' means unclear or imprecise, not related to quantity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["abundant"],
+    "hebrewExplanation": "'Abundant' (שופע) קרוב ביותר ל-'plentiful' (בשפע). שניהם מתארים כמות גדולה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-215",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to OBSCURE?",
+    "choices": ["prominent", "unclear", "vibrant", "precise"],
+    "answer": 1,
+    "explanation": "'Obscure' means not clearly expressed or not well known. 'Unclear' shares this meaning of being difficult to understand or perceive.",
+    "wrongReasons": [
+      "'Prominent' means well known or easily noticed, the opposite of obscure.",
+      "'Vibrant' means full of energy and life, unrelated to clarity.",
+      "'Precise' means exact and accurate, the opposite in terms of clarity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["obscure"],
+    "hebrewExplanation": "'Obscure' (עמום, לא ברור) קרוב ביותר ל-'unclear' (לא ברור). שניהם מתארים משהו שקשה להבינו.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-216",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to ACCELERATE?",
+    "choices": ["hasten", "linger", "diminish", "stabilize"],
+    "answer": 0,
+    "explanation": "'Accelerate' means to increase speed or cause something to happen sooner. 'Hasten' is a synonym meaning to move or cause to move quickly.",
+    "wrongReasons": [
+      "'Linger' means to stay longer than expected, implying slowness, not acceleration.",
+      "'Diminish' means to become less or smaller, unrelated to speed.",
+      "'Stabilize' means to make steady or balanced, the opposite of speeding up."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["accelerate"],
+    "hebrewExplanation": "'Accelerate' (להאיץ) קרוב ביותר ל-'hasten' (למהר, להחיש). שניהם מתארים הגברת מהירות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-217",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DILIGENT?",
+    "choices": ["careless", "industrious", "passive", "impulsive"],
+    "answer": 1,
+    "explanation": "'Diligent' means careful and hard-working. 'Industrious' is a synonym meaning habitually hard-working and energetic.",
+    "wrongReasons": [
+      "'Careless' means not giving sufficient attention, the opposite of diligent.",
+      "'Passive' means accepting things without active response, unrelated to hard work.",
+      "'Impulsive' means acting without careful thought, which contrasts with diligence."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["diligent"],
+    "hebrewExplanation": "'Diligent' (חרוץ) קרוב ביותר ל-'industrious' (עמל, שקדן). שניהם מתארים עבודה קשה ומסורה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-218",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to CAUTIOUS?",
+    "choices": ["reckless", "wary", "gregarious", "adamant"],
+    "answer": 1,
+    "explanation": "'Cautious' means being careful to avoid danger or mistakes. 'Wary' is a synonym meaning watchful and careful, especially in uncertain situations.",
+    "wrongReasons": [
+      "'Reckless' means acting without care about consequences, the opposite of cautious.",
+      "'Gregarious' means fond of being in company, unrelated to carefulness.",
+      "'Adamant' means refusing to change one's mind, not related to caution."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["cautious"],
+    "hebrewExplanation": "'Cautious' (זהיר) קרוב ביותר ל-'wary' (ערני, זהיר). שניהם מתארים זהירות מפני סכנות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-219",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to PROMINENT?",
+    "choices": ["notable", "obscure", "modest", "fleeting"],
+    "answer": 0,
+    "explanation": "'Prominent' means important or well known. 'Notable' is a synonym meaning worthy of attention or remarkable.",
+    "wrongReasons": [
+      "'Obscure' means not well known, the opposite of prominent.",
+      "'Modest' means having a low estimate of oneself, which contrasts with being prominent.",
+      "'Fleeting' means lasting only briefly, unrelated to prominence."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["prominent"],
+    "hebrewExplanation": "'Prominent' (בולט, ידוע) קרוב ביותר ל-'notable' (ראוי לציון). שניהם מתארים דבר מה שמושך תשומת לב.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-220",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to CONFRONT?",
+    "choices": ["retreat", "face", "ignore", "conceal"],
+    "answer": 1,
+    "explanation": "'Confront' means to face a difficult situation or a person directly. 'Face' is a synonym meaning to deal with something directly without avoiding it.",
+    "wrongReasons": [
+      "'Retreat' means to withdraw from something, the opposite of confronting.",
+      "'Ignore' means to pay no attention to, which avoids confrontation.",
+      "'Conceal' means to hide, which is contrary to confronting openly."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["confront"],
+    "hebrewExplanation": "'Confront' (להתמודד, לעמת) קרוב ביותר ל-'face' (להתמודד עם). שניהם מתארים התמודדות ישירה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-221",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to FRAGILE?",
+    "choices": ["sturdy", "delicate", "resilient", "massive"],
+    "answer": 1,
+    "explanation": "'Fragile' means easily broken or damaged. 'Delicate' is a synonym meaning very fine or intricate in structure, easily damaged.",
+    "wrongReasons": [
+      "'Sturdy' means strongly built and durable, the opposite of fragile.",
+      "'Resilient' means able to recover quickly, contrasting with fragility.",
+      "'Massive' means large and heavy, which usually implies sturdiness rather than fragility."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["fragile"],
+    "hebrewExplanation": "'Fragile' (שביר) קרוב ביותר ל-'delicate' (עדין, שביר). שניהם מתארים משהו שנשבר בקלות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-222",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to VAGUE?",
+    "choices": ["definite", "indistinct", "precise", "elaborate"],
+    "answer": 1,
+    "explanation": "'Vague' means not clearly defined or stated. 'Indistinct' is a synonym meaning not clear or sharply defined.",
+    "wrongReasons": [
+      "'Definite' means clearly defined or decided, the opposite of vague.",
+      "'Precise' means exact and accurate, contrasting with vagueness.",
+      "'Elaborate' means detailed and complicated, which is unlike being vague."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["vague"],
+    "hebrewExplanation": "'Vague' (עמום, מעורפל) קרוב ביותר ל-'indistinct' (לא ברור). שניהם מתארים חוסר בהירות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-223",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to RELUCTANT?",
+    "choices": ["hesitant", "eager", "determined", "confident"],
+    "answer": 0,
+    "explanation": "'Reluctant' means unwilling to do something. 'Hesitant' is a synonym meaning slow to act due to uncertainty or unwillingness.",
+    "wrongReasons": [
+      "'Eager' means very keen and enthusiastic, the opposite of reluctant.",
+      "'Determined' means having a firm decision to do something, contrasting with reluctance.",
+      "'Confident' means feeling certain about one's abilities, unrelated to reluctance."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["reluctant"],
+    "hebrewExplanation": "'Reluctant' (לא רוצה, מהסס) קרוב ביותר ל-'hesitant' (מהסס). שניהם מתארים חוסר נכונות לפעול.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-224",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DEPLETE?",
+    "choices": ["replenish", "exhaust", "accumulate", "generate"],
+    "answer": 1,
+    "explanation": "'Deplete' means to use up a resource. 'Exhaust' is a synonym meaning to use up completely.",
+    "wrongReasons": [
+      "'Replenish' means to fill up again, the opposite of depleting.",
+      "'Accumulate' means to gather or collect over time, the opposite of depleting.",
+      "'Generate' means to produce or create, contrasting with using something up."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["deplete"],
+    "hebrewExplanation": "'Deplete' (לרוקן, לדלות) קרוב ביותר ל-'exhaust' (להכלות). שניהם מתארים שימוש מלא במשאב.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-225",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to BENIGN?",
+    "choices": ["harmful", "harmless", "aggressive", "toxic"],
+    "answer": 1,
+    "explanation": "'Benign' means gentle and kindly, or not harmful. 'Harmless' is a synonym meaning not able or likely to cause harm.",
+    "wrongReasons": [
+      "'Harmful' means causing harm or damage, the opposite of benign.",
+      "'Aggressive' means showing a readiness to attack, which contrasts with benign.",
+      "'Toxic' means poisonous, a strong opposite of benign in a medical context."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["benign"],
+    "hebrewExplanation": "'Benign' (שפיר, לא מזיק) קרוב ביותר ל-'harmless' (בלתי מזיק). שניהם מתארים משהו שאינו גורם נזק.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-226",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to TRANSPARENT?",
+    "choices": ["murky", "opaque", "clear", "dense"],
+    "answer": 2,
+    "explanation": "'Transparent' means easy to see through, or open and honest. 'Clear' is a synonym meaning easy to see through or understand.",
+    "wrongReasons": [
+      "'Murky' means dark and dirty, or not clear, the opposite of transparent.",
+      "'Opaque' means not transparent or not allowing light through, a direct antonym.",
+      "'Dense' means closely compacted, which is unlike something transparent."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["transparent"],
+    "hebrewExplanation": "'Transparent' (שקוף) קרוב ביותר ל-'clear' (בהיר, שקוף). שניהם מתארים דבר שניתן לראות דרכו.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-227",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to CONDEMN?",
+    "choices": ["praise", "denounce", "endorse", "pardon"],
+    "answer": 1,
+    "explanation": "'Condemn' means to express strong disapproval of something. 'Denounce' is a synonym meaning to publicly declare something to be wrong or evil.",
+    "wrongReasons": [
+      "'Praise' means to express strong approval, the direct opposite of condemning.",
+      "'Endorse' means to declare support for something, the opposite of condemning.",
+      "'Pardon' means to forgive or excuse, which contrasts with condemning."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["condemn"],
+    "hebrewExplanation": "'Condemn' (לגנות) קרוב ביותר ל-'denounce' (לגנות פומבית). שניהם מתארים ביטוי של אי-אישור חזק.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-228",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to FLEXIBLE?",
+    "choices": ["rigid", "adaptable", "stubborn", "predictable"],
+    "answer": 1,
+    "explanation": "'Flexible' means willing to change or adapt. 'Adaptable' is a synonym meaning able to adjust to new conditions.",
+    "wrongReasons": [
+      "'Rigid' means not flexible or unwilling to change, a direct antonym.",
+      "'Stubborn' means refusing to change one's opinion, the opposite of flexible.",
+      "'Predictable' means behaving as expected, unrelated to flexibility."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["flexible"],
+    "hebrewExplanation": "'Flexible' (גמיש) קרוב ביותר ל-'adaptable' (מסתגל). שניהם מתארים יכולת להתאים לשינויים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-229",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to RELUCTANCE?",
+    "choices": ["enthusiasm", "unwillingness", "determination", "boldness"],
+    "answer": 1,
+    "explanation": "'Reluctance' means unwillingness or hesitation to do something. 'Unwillingness' is a direct synonym meaning a lack of desire to do something.",
+    "wrongReasons": [
+      "'Enthusiasm' means intense eagerness, the opposite of reluctance.",
+      "'Determination' means firmness of purpose, contrasting with reluctance.",
+      "'Boldness' means willingness to take risks, the opposite of reluctance."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["reluctance"],
+    "hebrewExplanation": "'Reluctance' (היסוס, אי-רצון) קרוב ביותר ל-'unwillingness' (חוסר נכונות). שניהם מתארים אי-רצון לפעול.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-230",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DISPUTE?",
+    "choices": ["agree", "contest", "approve", "support"],
+    "answer": 1,
+    "explanation": "'Dispute' means to argue about or challenge something. 'Contest' is a synonym meaning to argue against or challenge a claim.",
+    "wrongReasons": [
+      "'Agree' means to have the same view, the opposite of disputing.",
+      "'Approve' means to accept or agree with, contrasting with disputing.",
+      "'Support' means to give assistance to, the opposite of contesting."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["dispute"],
+    "hebrewExplanation": "'Dispute' (לערער, להתווכח) קרוב ביותר ל-'contest' (לערער). שניהם מתארים אתגור טענה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-231",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to PERSIST?",
+    "choices": ["persevere", "abandon", "surrender", "withdraw"],
+    "answer": 0,
+    "explanation": "'Persist' means to continue firmly in spite of difficulty. 'Persevere' is a direct synonym meaning to continue despite obstacles.",
+    "wrongReasons": [
+      "'Abandon' means to give up entirely, the opposite of persisting.",
+      "'Surrender' means to give in or yield, contrasting with persisting.",
+      "'Withdraw' means to take back or remove oneself, the opposite of persisting."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["persist"],
+    "hebrewExplanation": "'Persist' (להתמיד) קרוב ביותר ל-'persevere' (להתמיד, להתעקש). שניהם מתארים המשכיות למרות קשיים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-232",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to TRIVIAL?",
+    "choices": ["crucial", "minor", "significant", "complex"],
+    "answer": 1,
+    "explanation": "'Trivial' means of little value or importance. 'Minor' is a synonym meaning lesser in importance or seriousness.",
+    "wrongReasons": [
+      "'Crucial' means extremely important, the opposite of trivial.",
+      "'Significant' means important and meaningful, contrasting with trivial.",
+      "'Complex' means consisting of many parts, unrelated to importance."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["trivial"],
+    "hebrewExplanation": "'Trivial' (שולי, חסר חשיבות) קרוב ביותר ל-'minor' (קטין, זניח). שניהם מתארים משהו בעל חשיבות נמוכה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-233",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to ANTICIPATE?",
+    "choices": ["recall", "expect", "regret", "overlook"],
+    "answer": 1,
+    "explanation": "'Anticipate' means to expect or look forward to something. 'Expect' is a synonym meaning to regard as likely to happen.",
+    "wrongReasons": [
+      "'Recall' means to remember something from the past, not about future expectation.",
+      "'Regret' means to feel sorry about something, unrelated to anticipation.",
+      "'Overlook' means to fail to notice, contrasting with anticipating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["anticipate"],
+    "hebrewExplanation": "'Anticipate' (לצפות מראש) קרוב ביותר ל-'expect' (לצפות). שניהם מתארים ציפייה לדבר מה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-234",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to RELUCTANT?",
+    "choices": ["averse", "willing", "enthusiastic", "eager"],
+    "answer": 0,
+    "explanation": "'Reluctant' means not willing to do something. 'Averse' is a synonym meaning having a strong dislike or opposition to something.",
+    "wrongReasons": [
+      "'Willing' means ready and eager to do something, the opposite of reluctant.",
+      "'Enthusiastic' means having intense enjoyment or interest, contrasting with reluctance.",
+      "'Eager' means keenly expectant or interested, the opposite of reluctant."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["reluctant"],
+    "hebrewExplanation": "'Reluctant' (לא מוכן) קרוב ביותר ל-'averse' (שונא, מתנגד). שניהם מתארים התנגדות לדבר מה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-235",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to EPHEMERAL?",
+    "choices": ["permanent", "transient", "enduring", "immutable"],
+    "answer": 1,
+    "explanation": "'Ephemeral' means lasting for a very short time. 'Transient' is a synonym meaning passing quickly or not permanent.",
+    "wrongReasons": [
+      "'Permanent' means lasting forever, the direct opposite of ephemeral.",
+      "'Enduring' means lasting over a long time, contrasting with ephemeral.",
+      "'Immutable' means unchanging over time, which contrasts with something ephemeral."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["ephemeral"],
+    "hebrewExplanation": "'Ephemeral' (חולף, קצר מועד) קרוב ביותר ל-'transient' (חולף). שניהם מתארים משהו שנמשך זמן קצר מאוד.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-236",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to MENDACIOUS?",
+    "choices": ["sincere", "deceptive", "candid", "straightforward"],
+    "answer": 1,
+    "explanation": "'Mendacious' means not telling the truth; lying. 'Deceptive' is a synonym meaning giving a false impression or misleading.",
+    "wrongReasons": [
+      "'Sincere' means genuine and honest, the direct opposite of mendacious.",
+      "'Candid' means truthful and straightforward, contrasting with mendacious.",
+      "'Straightforward' means easy to understand and honest, the opposite of mendacious."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["mendacious"],
+    "hebrewExplanation": "'Mendacious' (שקרן) קרוב ביותר ל-'deceptive' (מטעה). שניהם מתארים אי-אמת או הטעיה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-237",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to TACITURN?",
+    "choices": ["verbose", "reserved", "garrulous", "expressive"],
+    "answer": 1,
+    "explanation": "'Taciturn' means reserved or uncommunicative in speech. 'Reserved' is a synonym meaning slow to reveal emotions or opinions.",
+    "wrongReasons": [
+      "'Verbose' means using more words than needed, the opposite of taciturn.",
+      "'Garrulous' means excessively talkative, a direct antonym of taciturn.",
+      "'Expressive' means effectively conveying thought or feeling, contrasting with taciturn."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["taciturn"],
+    "hebrewExplanation": "'Taciturn' (שתקן) קרוב ביותר ל-'reserved' (סגור, שמור). שניהם מתארים אדם שאינו נוטה לדבר הרבה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-238",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to SANGUINE?",
+    "choices": ["pessimistic", "optimistic", "melancholic", "apprehensive"],
+    "answer": 1,
+    "explanation": "'Sanguine' means optimistic, especially in difficult situations. 'Optimistic' is a direct synonym meaning hoping for the best.",
+    "wrongReasons": [
+      "'Pessimistic' means expecting the worst, the direct opposite of sanguine.",
+      "'Melancholic' means feeling deep sadness, contrasting with the hopeful tone of sanguine.",
+      "'Apprehensive' means anxious or fearful about the future, the opposite of sanguine."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["sanguine"],
+    "hebrewExplanation": "'Sanguine' (אופטימי) קרוב ביותר ל-'optimistic' (אופטימי). שניהם מתארים ציפייה חיובית לעתיד.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-239",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to RECALCITRANT?",
+    "choices": ["obedient", "defiant", "compliant", "submissive"],
+    "answer": 1,
+    "explanation": "'Recalcitrant' means stubbornly resistant to authority or control. 'Defiant' is a synonym meaning openly resistant or disobedient.",
+    "wrongReasons": [
+      "'Obedient' means complying with authority, the direct opposite of recalcitrant.",
+      "'Compliant' means acting in accordance with rules, contrasting with recalcitrant.",
+      "'Submissive' means ready to conform, the opposite of recalcitrant."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["recalcitrant"],
+    "hebrewExplanation": "'Recalcitrant' (סרבן, עקשן) קרוב ביותר ל-'defiant' (מתנגד, סרבן). שניהם מתארים התנגדות עקשנית לסמכות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-240",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to PERFIDIOUS?",
+    "choices": ["loyal", "treacherous", "steadfast", "dependable"],
+    "answer": 1,
+    "explanation": "'Perfidious' means guilty of betrayal or deceit. 'Treacherous' is a synonym meaning guilty of betraying trust.",
+    "wrongReasons": [
+      "'Loyal' means giving constant support, the direct opposite of perfidious.",
+      "'Steadfast' means resolutely firm and loyal, the opposite of perfidious.",
+      "'Dependable' means trustworthy and reliable, contrasting with perfidious."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["perfidious"],
+    "hebrewExplanation": "'Perfidious' (בוגדני) קרוב ביותר ל-'treacherous' (בוגדני). שניהם מתארים אדם המפר אמון.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-241",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to INVETERATE?",
+    "choices": ["occasional", "habitual", "temporary", "reluctant"],
+    "answer": 1,
+    "explanation": "'Inveterate' means having a particular habit or activity firmly established. 'Habitual' is a synonym meaning done regularly or as a habit.",
+    "wrongReasons": [
+      "'Occasional' means happening sometimes but not regularly, the opposite of inveterate.",
+      "'Temporary' means lasting for a limited time, contrasting with an ingrained habit.",
+      "'Reluctant' means unwilling, unrelated to the idea of ingrained behavior."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["inveterate"],
+    "hebrewExplanation": "'Inveterate' (מושרש, כרוני) קרוב ביותר ל-'habitual' (הרגלי). שניהם מתארים התנהגות מושרשת עמוק.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-242",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to OBFUSCATE?",
+    "choices": ["clarify", "bewilder", "illuminate", "simplify"],
+    "answer": 1,
+    "explanation": "'Obfuscate' means to make unclear or confusing. 'Bewilder' is a synonym meaning to cause confusion or perplexity.",
+    "wrongReasons": [
+      "'Clarify' means to make something less confusing, the direct opposite of obfuscate.",
+      "'Illuminate' means to make clear or shed light on, contrasting with obfuscate.",
+      "'Simplify' means to make easier to understand, the opposite of obfuscate."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["obfuscate"],
+    "hebrewExplanation": "'Obfuscate' (לטשטש, לבלבל) קרוב ביותר ל-'bewilder' (לבלבל). שניהם מתארים גרימת בלבול או אי-בהירות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-243",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to CAPITULATE?",
+    "choices": ["resist", "yield", "persist", "prevail"],
+    "answer": 1,
+    "explanation": "'Capitulate' means to cease resisting and give in. 'Yield' is a synonym meaning to give way to someone or something stronger.",
+    "wrongReasons": [
+      "'Resist' means to refuse to accept or comply, the direct opposite of capitulate.",
+      "'Persist' means to continue despite obstacles, contrasting with giving in.",
+      "'Prevail' means to prove more powerful, the opposite of capitulating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["capitulate"],
+    "hebrewExplanation": "'Capitulate' (להיכנע) קרוב ביותר ל-'yield' (להיכנע, לסגת). שניהם מתארים הפסקת ההתנגדות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-244",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to OSTENTATIOUS?",
+    "choices": ["modest", "showy", "subtle", "understated"],
+    "answer": 1,
+    "explanation": "'Ostentatious' means characterized by a conspicuous display intended to impress. 'Showy' is a synonym meaning making an impressive display.",
+    "wrongReasons": [
+      "'Modest' means unassuming or not drawing attention, the opposite of ostentatious.",
+      "'Subtle' means so delicate as to be difficult to detect, contrasting with ostentatious.",
+      "'Understated' means presented in a restrained way, the opposite of ostentatious."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["ostentatious"],
+    "hebrewExplanation": "'Ostentatious' (מתנשא, ראוותני) קרוב ביותר ל-'showy' (ראוותני). שניהם מתארים הפגנה מוגזמת של עושר או יכולת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-245",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to EQUANIMITY?",
+    "choices": ["agitation", "composure", "anxiety", "turmoil"],
+    "answer": 1,
+    "explanation": "'Equanimity' means mental calmness and composure, especially in difficult situations. 'Composure' is a synonym meaning a state of being calm and self-controlled.",
+    "wrongReasons": [
+      "'Agitation' means a state of anxiety or nervous excitement, the opposite of equanimity.",
+      "'Anxiety' means a feeling of worry and nervousness, contrasting with equanimity.",
+      "'Turmoil' means a state of great confusion or disorder, the opposite of equanimity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["equanimity"],
+    "hebrewExplanation": "'Equanimity' (שוויון נפש) קרוב ביותר ל-'composure' (קור רוח, שלוות נפש). שניהם מתארים רוגע נפשי גם במצבי לחץ.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-246",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to VENERATE?",
+    "choices": ["despise", "revere", "criticize", "dismiss"],
+    "answer": 1,
+    "explanation": "'Venerate' means to regard with great respect and reverence. 'Revere' is a direct synonym meaning to feel deep respect for.",
+    "wrongReasons": [
+      "'Despise' means to feel contempt for, the direct opposite of venerate.",
+      "'Criticize' means to judge disapprovingly, contrasting with venerating.",
+      "'Dismiss' means to treat as unworthy of consideration, the opposite of venerating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["venerate"],
+    "hebrewExplanation": "'Venerate' (להוקיר, לכבד מאוד) קרוב ביותר ל-'revere' (לכבד מאוד). שניהם מתארים יחס של כבוד עמוק.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-247",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to INTRANSIGENT?",
+    "choices": ["flexible", "unyielding", "accommodating", "receptive"],
+    "answer": 1,
+    "explanation": "'Intransigent' means refusing to change one's views or to agree. 'Unyielding' is a synonym meaning not giving way to pressure or demands.",
+    "wrongReasons": [
+      "'Flexible' means willing to change or adapt, the direct opposite of intransigent.",
+      "'Accommodating' means fitting in with wishes or demands, contrasting with intransigent.",
+      "'Receptive' means willing to consider new ideas, the opposite of intransigent."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["intransigent"],
+    "hebrewExplanation": "'Intransigent' (נוקשה, לא מתפשר) קרוב ביותר ל-'unyielding' (נוקשה, בלתי מתגמש). שניהם מתארים סירוב לשנות עמדה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-248",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to PERNICIOUS?",
+    "choices": ["beneficial", "harmful", "innocuous", "restorative"],
+    "answer": 1,
+    "explanation": "'Pernicious' means having a harmful effect, especially in a gradual way. 'Harmful' is a synonym meaning causing or likely to cause harm.",
+    "wrongReasons": [
+      "'Beneficial' means resulting in good, the direct opposite of pernicious.",
+      "'Innocuous' means not harmful or offensive, contrasting with pernicious.",
+      "'Restorative' means having the ability to restore health, the opposite of pernicious."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["pernicious"],
+    "hebrewExplanation": "'Pernicious' (מזיק מאוד, רעיל) קרוב ביותר ל-'harmful' (מזיק). שניהם מתארים דבר הגורם נזק.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-249",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to LACONIC?",
+    "choices": ["garrulous", "terse", "verbose", "elaborate"],
+    "answer": 1,
+    "explanation": "'Laconic' means using very few words; brief and concise. 'Terse' is a synonym meaning sparing in the use of words.",
+    "wrongReasons": [
+      "'Garrulous' means excessively talkative, the direct opposite of laconic.",
+      "'Verbose' means using more words than necessary, contrasting with laconic.",
+      "'Elaborate' means detailed and complicated, the opposite of laconic."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["laconic"],
+    "hebrewExplanation": "'Laconic' (קצר וממצה) קרוב ביותר ל-'terse' (תמציתי, קצר). שניהם מתארים שימוש מינימלי במילים.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-250",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to VACILLATE?",
+    "choices": ["commit", "waver", "persist", "resolve"],
+    "answer": 1,
+    "explanation": "'Vacillate' means to waver between different opinions or actions. 'Waver' is a synonym meaning to be indecisive or show uncertainty.",
+    "wrongReasons": [
+      "'Commit' means to dedicate oneself firmly, the opposite of vacillating.",
+      "'Persist' means to continue firmly despite obstacles, contrasting with vacillation.",
+      "'Resolve' means to decide firmly on a course of action, the opposite of vacillating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["vacillate"],
+    "hebrewExplanation": "'Vacillate' (להתלבט, לנוע בין עמדות) קרוב ביותר ל-'waver' (להסס, להתנדנד). שניהם מתארים חוסר החלטיות.",
+    "estimatedTimeSeconds": 45
+  }
+]

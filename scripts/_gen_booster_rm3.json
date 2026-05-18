@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-rm-201",
+    "difficulty": "easy",
+    "text": "\"Copyright law protects creators by granting them exclusive rights over their original works.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Creators are given sole control over their original works through copyright law.",
+      "Copyright law was created by authors in order to prevent governments from owning their works.",
+      "All creative works automatically enter the public domain once they are published.",
+      "Copyright law grants rights to consumers, not to the original creators."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the core meaning: copyright law gives creators exclusive control (sole control) over their original output.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the origin — it claims authors created copyright law to prevent government ownership, which inverts the actual relationship described."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by saying works enter the public domain upon publication, the opposite of what exclusive rights means."},
+      {"choice": 3, "trapType": "subject-object swap", "explanation": "Option D swaps the beneficiary — the original says rights go to creators, but this option says rights go to consumers."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה כאן היא החלפת הנהנה — המשפט המקורי אומר שהיוצרים מקבלים זכויות, לא הצרכנים. יש לשים לב מי הנושא ומי המושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-202",
+    "difficulty": "easy",
+    "text": "\"Baroque architecture is characterized by elaborate ornamentation and dramatic use of light and shadow.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Baroque architects avoided decoration and preferred simple, minimalist structures.",
+      "Buildings in the Baroque style tend to feature rich decorative detail and striking contrasts between light and dark.",
+      "Dramatic lighting effects in Baroque buildings were used primarily to save construction costs.",
+      "Only religious buildings from the Baroque period used ornamentation and light effects."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase accurately captures both key features of Baroque architecture: elaborate ornamentation (rich decorative detail) and dramatic light/shadow (striking contrasts).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A directly negates the original by claiming Baroque architects avoided decoration — the exact opposite of what the sentence states."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C adds the false claim that lighting was used to reduce costs, which is entirely absent from the original."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D narrows the scope to religious buildings only, but the original makes a general statement about Baroque architecture without any such restriction."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשים לב לניסוחים מצמצמים — 'רק בבניינים דתיים' צמצם את הטענה הכללית של המשפט המקורי ללא הצדקה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-203",
+    "difficulty": "easy",
+    "text": "\"Jazz music emerged in the early twentieth century from a fusion of African American musical traditions.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "African American musicians adopted jazz from European classical traditions in the early twentieth century.",
+      "Jazz became popular in the twentieth century because European audiences embraced African American music.",
+      "Jazz originated in the early 1900s as a blend of musical styles rooted in African American culture.",
+      "Jazz music was composed by a single African American musician in the early twentieth century."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase maintains the original meaning: jazz developed in the early twentieth century from a combination of African American musical traditions.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the origin — it says African Americans adopted jazz from European traditions, whereas the original states jazz came from African American traditions."},
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B attributes jazz's development to European audience reception, reversing the actual cultural origin described in the sentence."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D adds the false idea that a single musician composed jazz, which is not stated anywhere in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה היא היפוך כיוון התרבותי — מי השפיע על מי? המשפט המקורי אומר שג'אז צמח ממסורות מוזיקליות אפרו-אמריקניות, לא מהמסורת האירופאית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-204",
+    "difficulty": "easy",
+    "text": "\"Archaeological excavations at the site revealed artifacts dating back more than three thousand years.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Archaeologists buried artifacts at the site three thousand years ago.",
+      "The site was excavated because artifacts had already been discovered on its surface.",
+      "No significant artifacts were found during the archaeological excavation at the site.",
+      "Objects discovered during the dig at the site are over three millennia old."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase maintains the meaning: excavations uncovered objects (artifacts) from more than three thousand years ago.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the action — it claims archaeologists buried artifacts, whereas the original says they discovered them through excavation."},
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the sequence — it implies surface discoveries preceded the excavation, which is not stated in the original."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C directly contradicts the original by claiming no significant artifacts were found, when the original clearly states artifacts were revealed."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה היא שינוי כיוון הפעולה — מי עשה מה למה? הארכיאולוגים גילו חפצים, לא קברו אותם.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-205",
+    "difficulty": "easy",
+    "text": "\"Marine biologists warn that rising ocean temperatures threaten coral reef ecosystems worldwide.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "According to marine scientists, increasing sea temperatures pose a danger to coral reef systems around the globe.",
+      "Coral reefs cause ocean temperatures to rise, according to marine biologists.",
+      "Marine biologists report that coral reefs are thriving due to warmer ocean conditions.",
+      "Rising ocean temperatures only affect coral reefs in tropical regions, say experts."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves all elements: marine biologists as the source, rising temperatures as the threat, and coral reefs worldwide as the affected subject.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the causal direction — coral reefs do not cause ocean warming; ocean warming threatens coral reefs."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by claiming coral reefs are thriving under warmer conditions, which is the opposite of the warning issued."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D narrows the scope to tropical regions only, but the original says the threat is worldwide."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שינוי היקף — 'רק באזורים טרופיים' לעומת 'ברחבי העולם' — הוא מלכודת נפוצה בשאלות אלה. המשפט המקורי לא הגביל את האזור.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-206",
+    "difficulty": "easy",
+    "text": "\"Sports training programs that incorporate mental coaching alongside physical conditioning produce more consistent athletic performance.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Physical conditioning alone is the most important factor in athletic consistency.",
+      "Athletes who train both their minds and bodies tend to perform more reliably.",
+      "Mental coaching is only necessary for athletes who lack physical conditioning.",
+      "Consistent athletic performance causes coaches to introduce mental training programs."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the combined effect: training that addresses both mental and physical aspects leads to more consistent performance.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A reduces the claim to physical conditioning alone, removing the mental coaching component that is central to the original."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C adds the condition that mental coaching is only for those lacking physical conditioning — a qualification not found in the original."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the causal direction — the original says the combined program produces consistency, not that consistency causes the program to be introduced."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "חשוב לשמר את שני המרכיבים המקוריים — אימון מנטלי ואימון פיזי. ניסוח שמשמיט אחד מהם אינו מדויק.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-207",
+    "difficulty": "easy",
+    "text": "\"Dietary fiber promotes digestive health by supporting the growth of beneficial gut bacteria.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Beneficial gut bacteria produce dietary fiber as part of the digestive process.",
+      "Dietary fiber has no effect on gut bacteria but improves digestion through other means.",
+      "Gut bacteria must be consumed as supplements because dietary fiber cannot provide them.",
+      "Eating fiber-rich foods helps maintain a healthy digestive system by encouraging good bacteria in the gut."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase accurately restates the mechanism: fiber intake supports healthy digestion by fostering the growth of beneficial gut bacteria.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the direction — bacteria do not produce fiber; fiber supports bacterial growth."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B negates the fiber-bacteria link described in the original while still crediting fiber with digestive benefits through unspecified other means."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the idea of bacterial supplements, which is entirely absent from the original sentence."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש להבחין בין 'סיבים תומכים בחיידקים' לבין 'חיידקים מייצרים סיבים' — שינוי קטן בכיוון הסיבתי שמשנה את המשמעות לחלוטין.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-208",
+    "difficulty": "easy",
+    "text": "\"Anthropologists study human cultures and societies to understand the diversity of human experience.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Anthropologists create human cultures in order to document diversity for scientific purposes.",
+      "Human cultures all share the same essential characteristics, which anthropologists have confirmed.",
+      "The goal of studying different human cultures and societies is to grasp the range of ways people live, which is what anthropologists do.",
+      "The diversity of human experience causes people to become anthropologists."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase preserves the purpose: anthropologists examine human cultures and societies with the aim of understanding human diversity.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A claims anthropologists create cultures, reversing the actual relationship — they study existing cultures, they do not create them."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the premise of diversity by claiming all cultures share the same characteristics, which negates the reason for studying them."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses cause and effect — it says diversity causes people to become anthropologists, not that anthropologists study diversity."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש להיזהר מהיפוך כיוון: האם גיוון מוביל לאנתרופולוגים, או שאנתרופולוגים חוקרים גיוון? המשפט המקורי ברור בכיוונו.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-209",
+    "difficulty": "medium",
+    "text": "\"Under natural law theory, legal systems derive their authority from universal moral principles rather than from the will of the state alone.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Natural law theory holds that the legitimacy of law comes from timeless moral standards, not solely from governmental power.",
+      "Natural law theory argues that governments must create moral principles before enacting any legislation.",
+      "Legal systems that rely on natural law are more powerful than those that depend on state authority.",
+      "Natural law theorists believe that the state has exclusive authority to define universal moral principles."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the core claim: legal authority, according to natural law theory, is grounded in universal moral principles rather than deriving exclusively from state will.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the relationship — governments do not create moral principles under natural law theory; universal moral principles pre-exist and constrain governments."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces a power comparison between legal systems that is not present in the original sentence."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D contradicts the original by claiming the state exclusively defines moral principles, whereas the original says authority comes from principles independent of the state."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט עוסק במקור הסמכות המשפטית. הטעות הנפוצה היא היפוך הכיוון: מי קובע מה — עקרונות מוסריים אוניברסליים קובעים את הסמכות, לא המדינה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-210",
+    "difficulty": "medium",
+    "text": "\"Philosophical skepticism questions whether humans can ever attain certain knowledge, challenging even the most basic assumptions about reality.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Philosophical skepticism proves that humans are incapable of knowing anything about the world around them.",
+      "Philosophical skepticism casts doubt on the possibility of genuine knowledge, including fundamental beliefs about what is real.",
+      "Skeptical philosophy was developed to encourage people to abandon all beliefs and live without assumptions.",
+      "Certain knowledge about reality is attainable only by philosophers who reject skeptical thinking."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the questioning stance of skepticism toward all knowledge, including basic assumptions about reality, without overstating it as a definitive proof of ignorance.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "overgeneralization", "explanation": "Option A overstates the original — skepticism questions whether certainty is possible; it does not prove humans 'cannot know anything at all.'"},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C adds the practical prescription that people should abandon all beliefs, which is not stated in the original."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D inverts the relationship by suggesting certainty is available to those who reject skepticism — the original makes no such claim."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שאלה זו בוחנת אם זיהית הכללה יתרה — 'לא ניתן לדעת כלום' לעומת 'מפקפק בשאלה אם ניתן להשיג ידע ודאי'. הניסוח המקורי מתון יותר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-211",
+    "difficulty": "medium",
+    "text": "\"The Impressionist movement in art prioritized capturing fleeting sensory impressions over depicting objects with photographic accuracy.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Impressionism was a reaction against sensory experiences, seeking instead to achieve photographic precision in painting.",
+      "Photographic accuracy was unattainable for Impressionist painters, so they settled for sensory impressions instead.",
+      "The Impressionist movement valued depicting objects accurately above all other artistic goals.",
+      "Impressionist painters were more concerned with conveying momentary perceptions than with producing realistic representations."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase maintains the hierarchy of priorities: Impressionism valued fleeting sensory impressions (momentary perceptions) over photographic accuracy (realistic representations).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A inverts the values — it says Impressionism reacted against sensory experience in favor of photographic precision, which is the opposite of the original."},
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B implies that inability to achieve accuracy forced Impressionists toward sensory impressions, suggesting failure rather than deliberate artistic choice."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C states that photographic accuracy was valued above all, directly contradicting the original which places sensory impressions above accuracy."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המלכודת העיקרית כאן היא היפוך סדר העדיפויות: מה היה חשוב יותר לאימפרסיוניסטים — תחושות חולפות או דיוק צילומי? יש לשמר את הסדר הנכון.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-212",
+    "difficulty": "medium",
+    "text": "\"The acoustic properties of a concert hall significantly influence how audiences perceive the quality of a live musical performance.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The way a concert hall is built acoustically can greatly affect how listeners experience music performed live.",
+      "Concert hall architects design spaces based on audience feedback about perceived sound quality.",
+      "The quality of a live musical performance determines the acoustic properties that a concert hall requires.",
+      "Audiences in concert halls are unable to accurately judge musical quality due to acoustic interference."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the causal flow: the acoustic design of a hall shapes the listening experience of the audience.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the direction — it says audience feedback shapes hall design, whereas the original says hall acoustics shape audience perception."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C also reverses cause and effect — performance quality does not determine the acoustics required; rather, acoustics influence perception of performance quality."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces the claim that audiences cannot judge quality accurately, which contradicts the original and adds information not present."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסיבתיות כאן חשובה: האקוסטיקה של האולם משפיעה על תפיסת הקהל — לא להיפך. שמור על כיוון ההשפעה הנכון.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-213",
+    "difficulty": "medium",
+    "text": "\"Gothic cathedrals were designed to direct the gaze upward, conveying a sense of divine transcendence through soaring vertical lines and expansive stained-glass windows.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Gothic cathedral builders used tall vertical lines to block natural light and create an atmosphere of mystery.",
+      "The vertical architecture and large stained-glass windows of Gothic cathedrals were intended to evoke a feeling of spiritual elevation.",
+      "Stained-glass windows in Gothic cathedrals were purely decorative and had no spiritual significance.",
+      "Gothic architecture was designed to make worshippers look downward, inspiring humility before the divine."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures both architectural features (vertical lines, stained glass) and their intended spiritual effect (evoking divine transcendence).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A misrepresents the purpose of vertical lines — the original says they direct the gaze upward to suggest transcendence, not to block light and create mystery."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C denies the spiritual significance of stained-glass windows, directly contradicting the original which links them to conveying divine transcendence."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D inverts the direction of gaze — the original says upward, while this option says downward, changing the spiritual message entirely."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שמור על שני הרכיבים: מה הכלים האדריכליים (קווים אנכיים, חלונות ויטראז') ומה מטרתם (תחושת טרנסצנדנציה אלוהית). היפוך כיוון המבט — למעלה לעומת למטה — שינוי מהותי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-214",
+    "difficulty": "medium",
+    "text": "\"Omega-3 fatty acids, found primarily in oily fish, have been shown to reduce inflammation and support cardiovascular health.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Cardiovascular disease causes the body to produce omega-3 fatty acids as a defensive response.",
+      "Omega-3 supplements are only effective when taken alongside a diet that excludes oily fish.",
+      "Inflammation in the cardiovascular system is caused primarily by consuming oily fish.",
+      "Research indicates that omega-3s, which come mainly from fatty fish, help lower inflammation and benefit heart health."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase preserves the source (oily fish), the benefits (reduced inflammation, cardiovascular support), and the evidential basis (research findings).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the causal relationship — cardiovascular disease does not produce omega-3s; omega-3s reduce inflammation linked to cardiovascular risk."},
+      {"choice": 1, "trapType": "added info", "explanation": "Option B introduces a condition about excluding oily fish from the diet that is entirely absent from the original sentence."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C inverts the health claim — it attributes inflammation to eating oily fish, whereas the original says oily fish omega-3s reduce inflammation."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "כאן המלכודת היא היפוך הכיוון הבריאותי: אם אומגה-3 מפחיתה דלקת, ניסוח שאומר שדגים גורמים לדלקת הופך את הטענה לחלוטין.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-215",
+    "difficulty": "medium",
+    "text": "\"In astronomy, a light-year measures not time but the distance that light travels in one year through a vacuum.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Despite its name, a light-year is a unit of distance, specifically how far light covers in one year in empty space.",
+      "A light-year is a unit of time used by astronomers to measure the age of distant stars.",
+      "Light travels faster in a vacuum than in space, which is why a light-year is used to measure both time and distance.",
+      "The concept of a light-year was developed to measure how long it takes light to reach Earth from the Sun."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the key clarification: a light-year is a distance unit (how far light travels in one year in a vacuum), not a time unit.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly contradicts the original by classifying a light-year as a unit of time, which the original explicitly says it is not."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces an inaccurate comparison between vacuum and space speeds and claims a light-year measures both time and distance, contradicting the original."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D narrows the application to Sun-Earth measurements specifically, while the original defines the term generally without such limitation."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט עוסק בהגדרה מדויקת: שנת אור היא מדד מרחק, לא זמן. ניסוח שמסווג אותה כמדד זמן הוא הניגוד הישיר של הטענה המקורית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-216",
+    "difficulty": "medium",
+    "text": "\"The transition from hunter-gatherer societies to agricultural settlements fundamentally altered human social organization.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Agricultural societies reverted to hunter-gatherer practices whenever food became scarce.",
+      "When humans shifted from foraging to farming and living in fixed communities, their social structures underwent a profound transformation.",
+      "Human social organization remained unchanged throughout the transition from hunter-gatherer life to farming.",
+      "Hunter-gatherer societies were socially superior to agricultural settlements due to their flexibility."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves the core claim: the move from hunting/gathering to agricultural settlement brought about deep changes in how humans organized their societies.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the direction of change — it claims agricultural societies went back to hunter-gatherer practices, which is the opposite of the developmental sequence described."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C directly contradicts the original by claiming social organization was unchanged, when the original says it was 'fundamentally altered.'"},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces a value judgment about social superiority that is completely absent from the original descriptive statement."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה כאן היא שלילת השינוי — המשפט המקורי טוען שינוי עמוק, ואילו ניסוח שגוי יכול לטעון 'לא השתנה' או אפילו להפוך את כיוון ההתפתחות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-217",
+    "difficulty": "medium",
+    "text": "\"Silent films relied on exaggerated physical gestures and expressive intertitles to communicate narrative and emotion in the absence of synchronized sound.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Silent films were considered superior to sound films because physical gestures communicate emotion more effectively than dialogue.",
+      "Actors in silent films refused to use exaggerated gestures, preferring subtle performances to maintain realism.",
+      "Intertitles in silent films were used only to provide background information and had no role in expressing emotion.",
+      "Because they had no synchronized audio, silent films used amplified body language and written text on screen to tell stories and convey feeling."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase captures the compensatory strategy: in the absence of sound, silent films used exaggerated gestures and intertitles (written text) to convey both story and emotion.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "added info", "explanation": "Option A introduces a value judgment about silent versus sound films being superior, which is not made in the original sentence."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly contradicts the original — the original says silent film actors did use exaggerated gestures; this option claims they refused to."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C limits intertitles to providing background information only, whereas the original says they communicated both narrative and emotion."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "כאן יש לשמר שני תפקידים של האמצעים הקולנועיים — סיפור עלילה ובידוי רגשות. ניסוח שמצמצם את התפקיד של כרזות הכתב אינו מדויק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-218",
+    "difficulty": "medium",
+    "text": "\"Genetically modified crops have increased agricultural yields in many developing nations, though concerns persist about long-term ecological consequences.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "GM crops have boosted food production in numerous poorer countries, but questions about their lasting environmental impact remain unresolved.",
+      "GM crops have been banned in developing nations because of confirmed ecological damage they have caused.",
+      "Agricultural yields in developing nations have declined as a result of introducing GM crops.",
+      "The ecological consequences of GM crops are fully understood, allowing developing nations to use them without concern."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves both elements: the benefit (increased yields in developing nations) and the ongoing concern (unresolved long-term ecological effects).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B introduces confirmed ecological damage and banning, neither of which is stated in the original — the original mentions concerns that persist, not confirmed damage."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by saying yields declined, when the original says they increased."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D contradicts the original by claiming ecological consequences are fully understood and concerns no longer exist, which directly opposes 'concerns persist.'"}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מכיל שתי טענות — יתרון ברור וחשש מתמשך. ניסוח נכון חייב לשמר את שתיהן: גם את ההצלחה וגם את חוסר הוודאות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-219",
+    "difficulty": "medium",
+    "text": "\"Deep-sea exploration has revealed ecosystems that thrive without sunlight, relying instead on chemical energy released by hydrothermal vents.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Hydrothermal vents were discovered because scientists were searching for ecosystems that could live without sunlight.",
+      "Exploration of the deep ocean has uncovered communities of organisms that survive using chemical energy from hydrothermal vents rather than sunlight.",
+      "Deep-sea ecosystems depend on photosynthesis, even though very little sunlight penetrates the ocean depths.",
+      "The discovery of hydrothermal vents has enabled scientists to create artificial ecosystems in the deep sea."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves all key elements: deep-sea exploration, the existence of light-independent ecosystems, and the role of hydrothermal vents as a chemical energy source.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the discovery narrative — scientists did not search for such ecosystems specifically; the vents were discovered and the ecosystems were found as a result."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by claiming deep-sea ecosystems depend on photosynthesis, which is the opposite of what the original states."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces the concept of artificial ecosystems created by scientists, which is not mentioned anywhere in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות המרכזית כאן היא היפוך הסיבתי — מה גרם לגילוי? וגם הניגוד הישיר: פוטוסינתזה לעומת אנרגיה כימית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-220",
+    "difficulty": "medium",
+    "text": "\"In documentary filmmaking, the ethical responsibility of the filmmaker includes accurately representing subjects without distorting their words or context.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Documentary filmmakers are legally required to obtain permission before including any person in their films.",
+      "Ethical responsibilities in documentary filmmaking apply only to films made for public broadcast, not for private audiences.",
+      "Accurately representing subjects is the exclusive responsibility of editors, not of filmmakers.",
+      "Documentary filmmakers have an ethical obligation to portray their subjects truthfully, ensuring that their statements and situations are not misrepresented."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase captures the filmmaker's ethical duty to present subjects accurately without distorting their words or context.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "added info", "explanation": "Option A introduces legal requirements for obtaining permission, which is a different concept not mentioned in the original sentence."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows the ethical obligation to public broadcast only, while the original makes no such distinction."},
+      {"choice": 2, "trapType": "subject-object swap", "explanation": "Option C shifts responsibility from filmmakers to editors, when the original explicitly attributes the responsibility to filmmakers."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "כאן יש לשמר את הנושא: מי אחראי? הבמאי. ניסוח שמעביר את האחריות לעורך הוא החלפת נושא קלאסית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-221",
+    "difficulty": "medium",
+    "text": "\"Roman law established the principle of presumption of innocence, which holds that an accused person is considered innocent until proven guilty.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The idea that someone is not considered guilty before being proven so was introduced by Roman legal tradition.",
+      "Roman law held that all accused persons should be treated as guilty until they could prove their innocence.",
+      "The presumption of innocence in Roman law applied only to citizens of Rome, not to foreigners.",
+      "Roman courts required accusers, not defendants, to prove that a crime had occurred before any trial could begin."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately restates that Roman law introduced the presumption of innocence: a person is regarded as not guilty until guilt is established.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly inverts the principle — Roman law did not presume guilt; it presumed innocence until proof of guilt."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C limits the principle to Roman citizens only, adding a restriction not present in the original."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces procedural details about accusers proving crimes before trial, which is not stated in the original sentence."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה ביותר — היפוך חזקת החפות: 'חף מפשע עד שיוכח אשם' לעומת 'אשם עד שיוכח חף מפשע'. שינוי קטן שהופך את המשמעות לחלוטין.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-222",
+    "difficulty": "medium",
+    "text": "\"Existentialist philosophy argues that individuals must create their own meaning in a universe that offers no inherent purpose.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Existentialism holds that the universe provides a clear and inherent purpose that individuals must discover and follow.",
+      "According to existentialism, meaning is not built into the universe and must therefore be personally constructed by each individual.",
+      "Existentialist philosophers believe that meaning is created collectively by society rather than by individuals.",
+      "Creating personal meaning is unnecessary, according to existentialism, because the universe itself provides sufficient purpose."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures both elements: the absence of inherent universal meaning and the individual's responsibility to create meaning.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A directly contradicts the original by claiming the universe does offer inherent purpose — the opposite of the existentialist claim."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C changes the agent from individual to society — the original emphasizes personal creation of meaning, not collective creation."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D inverts the core claim by saying meaning creation is unnecessary because the universe provides purpose, directly contradicting the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט שומר על שני עמודי האקזיסטנציאליזם: הביקום חסר משמעות אינהרנטית, והפרט חייב ליצור אותה בעצמו. כל ניסוח שמבטל אחד מהם הוא שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-223",
+    "difficulty": "medium",
+    "text": "\"The discovery of the double-helix structure of DNA by Watson and Crick in 1953 transformed scientists' understanding of genetic inheritance.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Genetic inheritance was fully understood before 1953, and Watson and Crick's discovery merely confirmed existing theories.",
+      "Watson and Crick discovered the double helix by studying patterns of genetic inheritance over many generations.",
+      "The double-helix structure of DNA was discovered by multiple scientific teams simultaneously in 1953.",
+      "When Watson and Crick identified the double-helix form of DNA in 1953, it revolutionized how scientists understood heredity."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase preserves the discovery event, its agents, its date, and its transformative effect on the scientific understanding of heredity.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the original — the original says the discovery transformed understanding, implying it was not fully understood before; this option claims it was."},
+      {"choice": 1, "trapType": "cause/effect reversal", "explanation": "Option B reverses the basis of discovery — it claims Watson and Crick used multigenerational inheritance studies, inverting the relationship between the discovery and its subject."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces multiple simultaneous teams, which is not stated in the original — the original credits Watson and Crick specifically."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח א' מכיל מלכודת נפוצה: הוא אומר שהגילוי רק אישש ידע קיים, בעוד המשפט המקורי אומר שהוא שינה (transformed) את ההבנה. הבדל מהותי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-224",
+    "difficulty": "medium",
+    "text": "\"Anthropological research suggests that gift-giving rituals in many cultures serve to establish and reinforce social bonds rather than simply transfer material value.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "According to anthropology, the primary function of gift-giving in many cultures is to build and strengthen social relationships, not merely to exchange goods.",
+      "Anthropological studies show that gift-giving rituals are economically motivated in all cultures studied.",
+      "Gift-giving rituals reinforce material inequality in societies by transferring wealth from donors to recipients.",
+      "Social bonds in many cultures are weakened rather than strengthened by the practice of gift-giving."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately captures the social (not material) function of gift-giving across cultures: building and reinforcing social relationships.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "overgeneralization", "explanation": "Option B claims economic motivation in 'all cultures studied,' whereas the original carefully says 'many cultures' and emphasizes social rather than economic function."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the concept of material inequality reinforcement through gift-giving, which is not stated in the original."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D directly contradicts the original by saying gift-giving weakens social bonds, when the original says it reinforces them."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שמור על ניגוד המרכזי במשפט: מטרה חברתית לעומת מטרה חומרית. ניסוח שמחליף 'מגבש קשרים חברתיים' ב'מחזק אי-שוויון חומרי' סוטה לחלוטין.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-225",
+    "difficulty": "medium",
+    "text": "\"The phenomenon of plate tectonics explains not only the movement of continents but also the occurrence of earthquakes and volcanic eruptions.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Earthquakes cause tectonic plate movement, which in turn drives volcanic eruptions.",
+      "Plate tectonics only explains why continents move and has no connection to earthquakes or volcanoes.",
+      "Plate tectonics accounts for continental drift as well as for seismic and volcanic activity.",
+      "Earthquakes and volcanic eruptions are caused by continental movement, which plate tectonics describes separately."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase captures all three phenomena explained by plate tectonics: continental movement (drift), earthquakes (seismic activity), and volcanic eruptions.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the causal chain — it says earthquakes cause plate movement rather than plate tectonics being the framework that explains all three phenomena."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B restricts the explanatory scope of plate tectonics to continental movement only, contradicting the original's explicit claim that it also explains earthquakes and volcanic eruptions."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D implies plate tectonics describes these phenomena separately rather than as a unified explanation, adding a distinction not present in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מכיל שלושה רכיבים שתורת הטקטוניקה מסבירה. ניסוח שמשמיט שניים מהם (רעידות אדמה והתפרצויות) אינו מייצג נכון.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-226",
+    "difficulty": "medium",
+    "text": "\"The Silk Road facilitated not only the exchange of goods between Asia and Europe but also the transmission of ideas, religions, and technologies across civilizations.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The Silk Road was primarily a religious route along which missionaries spread new faiths from Europe to Asia.",
+      "Goods traded along the Silk Road were exclusively luxury items such as silk and spices, with no cultural exchange involved.",
+      "The transmission of ideas along the Silk Road occurred only after the trade in goods had ceased.",
+      "Through the Silk Road, Asia and Europe traded commodities and also shared knowledge, belief systems, and technological innovations."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase preserves the dual role of the Silk Road: commercial exchange (goods) and cultural transmission (ideas, religions, technologies).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A narrows the Silk Road's purpose to religious transmission by missionaries, reducing it to one specific element and misrepresenting the direction as one-way."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B denies any cultural exchange occurred along the Silk Road, directly contradicting the original sentence."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C implies a sequential relationship where cultural transmission began only after trade ended, whereas the original presents both as simultaneous functions."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר שני תפקידים: מסחר וחילופי תרבות. ניסוח שמצמצם לרכיב אחד בלבד (כמו דת בלבד) מחמיץ את הרוחב של הטענה המקורית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-227",
+    "difficulty": "medium",
+    "text": "\"High-protein diets have been associated with greater satiety and muscle preservation during weight loss, though excessive protein intake may strain kidney function.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Eating more protein can help people feel fuller and maintain muscle when losing weight, but consuming too much of it could put stress on the kidneys.",
+      "High-protein diets are universally safe and have been proven to improve kidney function in people who are losing weight.",
+      "Protein only benefits muscle preservation when consumed in very large quantities that far exceed dietary guidelines.",
+      "Kidney damage caused by high-protein diets outweighs any benefits they may offer for weight loss or muscle retention."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures both the benefits (satiety, muscle preservation) and the caveat (risk to kidney function from excessive intake).",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original — it claims high-protein diets are universally safe and improve kidney function, whereas the original warns of potential kidney strain."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the false claim that protein only benefits muscle when consumed in very large quantities, which is not stated in the original."},
+      {"choice": 3, "trapType": "overgeneralization", "explanation": "Option D overstates the original — it says kidney damage outweighs the benefits, whereas the original only mentions the risk as a possibility, not a certainty."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט כולל הסתייגות חשובה ('though'). ניסוח נכון חייב לשמר גם את היתרונות וגם את הסיכון, מבלי לגדיל אחד על חשבון השני.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-228",
+    "difficulty": "medium",
+    "text": "\"Oral histories, while valuable for preserving cultural memory, are susceptible to distortion through repeated retelling and subjective interpretation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Oral histories are unreliable and should not be used by historians as sources of cultural knowledge.",
+      "Oral histories are a useful tool for cultural preservation, but they can become inaccurate over time because of how they are retold and interpreted.",
+      "The repeated retelling of oral histories always improves their accuracy because each narrator adds new information.",
+      "Oral histories are only distorted when they are intentionally altered by individuals with political motivations."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves both elements: the value of oral histories for cultural memory and their vulnerability to distortion through retelling and interpretation.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "overgeneralization", "explanation": "Option A overstates the limitation — it concludes oral histories should not be used at all, whereas the original acknowledges both their value and their limitations."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C inverts the distortion claim — it says repeated retelling improves accuracy, which contradicts the original's claim that retelling causes distortion."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D narrows distortion to politically motivated alterations only, whereas the original attributes distortion to retelling and subjective interpretation generally."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הכרת המגבלה ('susceptible to distortion') בלי לבטל את הערך ('valuable') היא המפתח לניסוח הנכון. ניסוח שמוחק את הערך הוא הכללה יתרה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-229",
+    "difficulty": "medium",
+    "text": "\"Contemporary architecture increasingly incorporates sustainable design principles, such as passive solar heating and green roofing systems.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Sustainable design principles such as passive solar heating were invented by contemporary architects.",
+      "Green roofing systems and solar heating are exclusively used in residential buildings in contemporary architecture.",
+      "Modern architectural design is placing growing emphasis on environmentally responsible techniques like solar heating and vegetated roof surfaces.",
+      "The integration of sustainable design in contemporary architecture has been driven by government regulation alone."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase captures the trend: contemporary architecture is increasingly adopting sustainable methods including passive solar and green roofs.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A claims contemporary architects invented sustainable principles, whereas the original says they are incorporating them — a reversal of origin and adoption."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B limits these techniques to residential buildings only, but the original makes a general claim about contemporary architecture without such restriction."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D attributes the integration of sustainable design solely to government regulation, adding a causal explanation entirely absent from the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשים לב לניסוח 'incorporates increasingly' — מדובר במגמה גוברת. ניסוח שמייחס זאת לרגולציה בלבד מוסיף מידע שאינו קיים.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-230",
+    "difficulty": "medium",
+    "text": "\"CRISPR gene-editing technology allows scientists to make precise modifications to DNA sequences, opening new possibilities for treating inherited diseases.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "CRISPR technology was developed to eliminate all forms of disease by replacing the entire human genome.",
+      "CRISPR modifications are limited to cells outside the human body and cannot be used to treat inherited conditions.",
+      "Scientists use CRISPR to study DNA sequences, though the technology cannot make modifications to them.",
+      "CRISPR enables researchers to alter specific segments of DNA with precision, creating new potential for curing genetic disorders."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase accurately restates CRISPR's capabilities: precise DNA modification and the resulting potential for treating inherited diseases.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "overgeneralization", "explanation": "Option A overstates CRISPR's scope — it claims the technology is designed to eliminate all diseases and replace the entire genome, far beyond what the original states."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B restricts CRISPR to cells outside the body and explicitly denies its therapeutic potential for inherited conditions, contradicting the original."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the core claim of the sentence by saying CRISPR cannot make modifications to DNA, when the original explicitly states that it can."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר שני רכיבים: (1) יכולת CRISPR לבצע שינויים מדויקים ב-DNA, ו-(2) הפוטנציאל לטיפול במחלות תורשתיות. שלילת אחד מהם היא שגיאה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-231",
+    "difficulty": "medium",
+    "text": "\"The invention of the printing press democratized access to knowledge by making books affordable to a broader segment of the population.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The printing press spread access to knowledge more widely by reducing the cost of books, making them available to more people.",
+      "The printing press made books more expensive, which led to the establishment of public libraries as a democratic resource.",
+      "Before the printing press, all people had equal access to books and the knowledge they contained.",
+      "The printing press was invented to serve the needs of governments that wanted to control access to information."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the democratizing effect of the printing press: lower book prices made knowledge accessible to a wider population.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original by claiming the printing press made books more expensive — the original says it made them affordable."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the premise of democratization by claiming equal access already existed before the press — the original implies prior restricted access."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D inverts the purpose — it claims the press served government information control, whereas the original says it democratized access."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מושג הדמוקרטיזציה של הידע הוא מרכז המשפט. ניסוח שהופך את ההשפעה (מזול ליקר) הופך את המשמעות לחלוטין.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-232",
+    "difficulty": "medium",
+    "text": "\"The Renaissance saw a revival of classical Greek and Roman learning, which fundamentally reshaped European art, science, and philosophy.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "European art, science, and philosophy during the Renaissance developed independently of classical Greek and Roman influences.",
+      "During the Renaissance, renewed interest in ancient Greek and Roman intellectual traditions profoundly transformed European thought and creative production.",
+      "Classical learning was preserved exclusively in European universities throughout the Renaissance period.",
+      "The Renaissance began in ancient Greece and Rome before spreading to Europe as a cultural movement."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase accurately captures the revival of classical learning during the Renaissance and its transformative impact across European art, science, and philosophy.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A directly contradicts the original by claiming European Renaissance thought developed independently of classical influences."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C narrows the preservation of classical learning to universities only and removes the transformative impact described in the original."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the geographic origin — the Renaissance occurred in Europe and drew on Greek/Roman traditions; it did not originate in Greece and Rome before moving to Europe."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "חשוב לשמר: (1) הרנסאנס אחז בלמידה הקלאסית ולא התפתח ממנה באופן עצמאי, ו-(2) השפעתה הייתה טרנספורמטיבית על אמנות, מדע ופילוסופיה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-233",
+    "difficulty": "medium",
+    "text": "\"Black holes are regions of space where gravity is so intense that not even light can escape, making them invisible to conventional telescopes.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Black holes emit powerful light beams that can be detected only by specialized telescopes, not conventional ones.",
+      "Conventional telescopes cannot observe black holes because black holes are located too far from Earth.",
+      "Light accelerates when it enters a black hole, which makes black holes appear brighter than other space objects.",
+      "The gravitational pull inside a black hole is powerful enough to prevent even light from leaving, which is why ordinary telescopes cannot observe them directly."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase preserves the physical mechanism (extreme gravity prevents light escape) and its consequence (invisibility to conventional telescopes).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the original by claiming black holes emit detectable light beams — the original explicitly states that light cannot escape from them."},
+      {"choice": 1, "trapType": "added info", "explanation": "Option B attributes telescope limitations to distance rather than to the physics of light capture, adding an explanation not in the original."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C directly inverts the physics — light does not accelerate and black holes do not appear bright; the original says the opposite."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש לשמר שני גורמים: עוצמת הכבידה (אשר מונעת בריחת אור) והמסקנה (בלתי נראים לטלסקופים רגילים). כל ניסוח שמייחס את חוסר הנראות לסיבה אחרת הוא שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-234",
+    "difficulty": "medium",
+    "text": "\"In film theory, the concept of the 'male gaze' describes the tendency to present women in visual media from the perspective of a heterosexual male viewer.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Film theory uses the term 'male gaze' to refer to the way visual media frequently portrays women through the lens of a straight male viewpoint.",
+      "The 'male gaze' in film theory describes how heterosexual women perceive male characters in cinema.",
+      "Film theorists argue that the male gaze is a phenomenon unique to film and does not appear in other visual media.",
+      "The concept of the male gaze was introduced to encourage filmmakers to exclude women from visual storytelling."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately restates the definition: the male gaze refers to the visual media tendency to depict women from a heterosexual male perspective.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "subject-object swap", "explanation": "Option B swaps the subject and object — it describes how women perceive male characters, reversing the original (male perspective on female portrayal)."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C narrows the concept to film only, whereas the original says 'visual media' broadly."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D distorts the purpose of the concept — it was introduced as a critical analytical framework, not as a prescription to exclude women from media."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "כאן יש מלכודת של החלפת נושא ומושא: מי מסתכל על מי? המבט הגברי מתאר את האופן שבו גברים מביטים על נשים, לא להיפך.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-235",
+    "difficulty": "hard",
+    "text": "\"In constitutional democracies, judicial review serves as a counterbalance to legislative power by enabling courts to invalidate laws that conflict with constitutional principles, thereby safeguarding individual rights against majoritarian overreach.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Judicial review in constitutional democracies strengthens legislative power by providing courts with the authority to revise laws before they are enacted.",
+      "Constitutional principles in democratic systems are determined exclusively by the legislature, and courts may only apply them, not interpret them.",
+      "Majoritarian overreach is prevented in constitutional democracies by requiring legislative approval for all court decisions.",
+      "Courts in constitutional democracies can strike down legislation that violates the constitution, acting as a check on the legislature to protect individual rights from the will of the majority."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase captures the three-part mechanism: courts can invalidate unconstitutional laws (strike down legislation), this counterbalances the legislature (check on the legislature), and the purpose is to protect individual rights from majority overreach.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the relationship — judicial review does not strengthen legislative power; it counterbalances it, and courts review laws after enactment, not before."},
+      {"choice": 1, "trapType": "subject-object swap", "explanation": "Option B assigns interpretive authority solely to the legislature and reduces courts to appliers only, which inverts the function of judicial review described in the original."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C inverts the institutional relationship — it claims legislative approval is required for court decisions, when the original describes the opposite (courts checking the legislature)."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "משפט זה מורכב ממנגנון תלת-שלבי: ביקורת שיפוטית → איזון מול המחוקק → הגנה על זכויות מפני רוב. ניסוח נכון חייב לשמר את כל שלושת הרכיבים ואת כיוון הבלמים.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-236",
+    "difficulty": "hard",
+    "text": "\"Kant's categorical imperative holds that a moral action is one that could be universalized — that is, one whose underlying principle could rationally be applied by all people in all circumstances without contradiction.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "According to Kant, an action is morally right if the rule governing it could logically be followed by everyone in every situation without generating a logical inconsistency.",
+      "Kant argued that moral actions are those that produce the greatest happiness for the greatest number of people in any given circumstance.",
+      "The categorical imperative states that moral rules are universally valid only in cultures where rational thinking is the dominant philosophical tradition.",
+      "Kant believed that individuals must act according to their own personal moral codes, regardless of whether others could follow the same rules."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the universalizability test: an action is moral if its governing principle can be applied by everyone everywhere without contradiction.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B describes utilitarianism (greatest happiness for greatest number), which is a different ethical theory entirely — not Kant's categorical imperative."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C restricts the categorical imperative to cultures with rational philosophical traditions, whereas Kant's principle claims universal application across all rational beings."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D directly contradicts the categorical imperative — Kant's principle requires that the rule could be followed by all, not that individuals act on personal codes regardless of universalizability."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח ב' מתאר את האוטיליטריזם של בנת'ם/מיל, לא את האימפרטיב הקטגורי של קאנט. הם שתי תיאוריות נפרדות לחלוטין — הגדרת 'פעולה מוסרית' שונה לחלוטין.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-237",
+    "difficulty": "hard",
+    "text": "\"While certain legal theorists contend that international law constitutes a genuine legal order because it generates binding obligations, critics argue that without a centralized enforcement mechanism, it lacks the coercive authority essential to law's definition.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Legal theorists agree that international law is not binding because enforcement mechanisms have been repeatedly dismantled by powerful nations.",
+      "Some scholars maintain that international law is a true legal system because it creates binding rules, but others counter that the absence of a central enforcement body means it does not fully qualify as law.",
+      "International law has both binding obligations and a centralized enforcement mechanism, which most legal scholars consider sufficient to define it as genuine law.",
+      "Critics of international law argue that its binding obligations are its main weakness, whereas supporters claim enforcement is its strongest feature."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves both sides of the debate: the argument for international law as genuine law (binding obligations) and the counter-argument (absence of central enforcement undermines its legal status).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "overgeneralization", "explanation": "Option A claims all theorists agree international law is not binding and that enforcement has been dismantled — both elements distort and overstate the critics' specific argument."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by claiming international law has both binding obligations and centralized enforcement — the original specifically says a central enforcement mechanism is absent."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D inverts the positions — it claims binding obligations are seen as weaknesses and enforcement as strengths, which is the reverse of each side's actual argument."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מציג דיון אקדמי דו-צדדי. ניסוח נכון חייב לשמר את שני הצדדים בדיוק: בעד (התחייבויות מחייבות) ונגד (אין מנגנון אכיפה מרכזי).",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-238",
+    "difficulty": "hard",
+    "text": "\"Postmodern architecture deliberately subverts the functionalist maxim that form follows function, embracing instead aesthetic plurality, historical allusion, and ironic ornamentation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Postmodern architects extended modernist functionalism by developing more sophisticated ways to make building forms follow their intended purposes.",
+      "Postmodern architecture eliminated all decoration and historical reference in favor of pure functional efficiency.",
+      "Rather than adhering to the principle that a building's appearance should serve its utility, postmodern architecture intentionally combines multiple styles, references to history, and decorative irony.",
+      "The functionalist maxim was originally developed by postmodern architects as a critique of earlier decorative traditions in building design."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase accurately captures the postmodern rejection of form-follows-function and its embrace of aesthetic plurality, historical allusion, and ironic ornamentation.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A presents postmodernism as an extension of modernist functionalism, which inverts its actual relationship — postmodernism deliberately subverts functionalism, not extends it."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly contradicts the original by saying postmodern architecture eliminated decoration and history, when the original says it embraced them."},
+      {"choice": 3, "trapType": "cause/effect reversal", "explanation": "Option D reverses the historical development — the functionalist maxim predates and is subverted by postmodernism; postmodern architects did not create functionalism."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הפועל 'subverts' (מחתר, מפר) הוא מפתח. ניסוח שמציג את הפוסטמודרניזם כהמשך הפונקציונליזם מחמיץ את ה'מרד' המכוון שבלב הסגנון.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-239",
+    "difficulty": "hard",
+    "text": "\"Epigenetics demonstrates that environmental factors can alter gene expression without changing the underlying DNA sequence, suggesting that the nature-versus-nurture dichotomy is an oversimplification.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Epigenetics proves that the environment is more important than genetics in determining human traits, resolving the nature-versus-nurture debate in favor of nurture.",
+      "Changes to the DNA sequence caused by environmental factors are the central mechanism studied in epigenetics.",
+      "Epigenetics confirms that nature and nurture operate independently of each other, each influencing different aspects of human development.",
+      "Epigenetic research shows that the environment can influence how genes are expressed without modifying the DNA itself, which implies that framing genetics and environment as opposing forces is too simplistic."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase preserves the two claims: (1) environment alters gene expression without changing DNA, and (2) this finding challenges the binary nature-nurture framework.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "overgeneralization", "explanation": "Option A overstates the conclusion — the original says the dichotomy is an oversimplification, not that nurture wins; it does not resolve the debate in favor of either side."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B contradicts the original — epigenetics specifically shows that environmental effects occur without changing the DNA sequence; this option says DNA changes are the central mechanism."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C claims nature and nurture operate independently, whereas the original argues they are intertwined — epigenetics shows environment affects gene expression, undermining their independence."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח א' הוא מלכודת עדינה: הוא אומר שהויכוח נפתר לטובת 'nurture', בעוד המשפט המקורי אומר שהדיכוטומיה עצמה פשטנית מדי — לא שצד אחד ניצח.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-240",
+    "difficulty": "hard",
+    "text": "\"The sociological concept of 'social capital' refers to the networks of relationships among individuals that facilitate collective action and resource sharing, with higher social capital correlating with improved community outcomes.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Social capital describes the interpersonal connections that enable cooperative behavior and the pooling of resources, and communities with stronger such networks tend to achieve better results.",
+      "Social capital is an economic concept that measures financial resources available to individuals through their professional networks.",
+      "Higher social capital is associated with greater individual wealth, as connections provide direct access to monetary resources.",
+      "Social capital theory holds that relationships among individuals are the primary cause of community failure when they are poorly managed."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the definition of social capital (interpersonal networks enabling collective action and resource sharing) and the positive correlation with community outcomes.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B redefines social capital as an economic measure of financial resources through professional networks — a narrower, financial framing not in the original."},
+      {"choice": 2, "trapType": "scope change", "explanation": "Option C shifts the outcome from community-level improvements to individual financial wealth, changing the unit of analysis from collective to individual."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D inverts the correlation — the original links higher social capital to improved outcomes; this option focuses on failure caused by poorly managed relationships."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוחים ב' ו-ג' מצמצמים את ה'הון החברתי' לממד הכלכלי-פיננסי, בעוד המושג המקורי סוציולוגי ועוסק בקשרים בין-אישיים ותוצאות קהילתיות.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-241",
+    "difficulty": "hard",
+    "text": "\"The Anthropocene epoch, proposed by geologists to describe the current age of human-dominated environmental change, remains informally defined but reflects broad scientific consensus that human activity has become a primary geological force.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The Anthropocene has been officially ratified as a geological epoch by all major scientific bodies, confirming that human activity is the dominant geological force on Earth.",
+      "Geologists have proposed the Anthropocene as a term for the current era characterized by human impact on the environment; although it has not been formally adopted, it reflects wide agreement that humans now drive geological processes.",
+      "Scientists disagree about whether the Anthropocene exists because there is no evidence that human activity has had geological consequences.",
+      "The Anthropocene epoch was proposed to replace the Holocene entirely and mark the beginning of a period of improved environmental stewardship."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase preserves the informal status of the Anthropocene (proposed but not formally defined) and the broad scientific agreement that human activity is now a primary geological force.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the original by saying the Anthropocene has been officially ratified — the original explicitly states it remains informally defined."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts both elements — the original reports broad consensus and evidence of human geological impact; this option denies both."},
+      {"choice": 3, "trapType": "added info", "explanation": "Option D introduces the notion of improved environmental stewardship as a purpose of the Anthropocene concept, which is not mentioned in the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניואנס כאן הוא 'informally defined' — המושג אנתרופוקן קיים כהצעה עם קונסנסוס מדעי רחב, אך לא אושר רשמית. ניסוח שאומר 'אושר רשמית' הופך עובדה מהותית.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-242",
+    "difficulty": "hard",
+    "text": "\"In music theory, counterpoint refers to the simultaneous combination of two or more independent melodic lines, governed by rules that regulate consonance and dissonance between them.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Counterpoint is a performance technique in which musicians play the same melody in alternation rather than simultaneously.",
+      "In counterpoint, a single melodic line is harmonized by adding chords below it, following strict rules of consonance.",
+      "The rules of counterpoint were developed to prevent musicians from playing dissonant notes, ensuring that all music remains fully consonant.",
+      "Counterpoint is the compositional technique of weaving together multiple independent melodies according to principles that control their harmonic interaction."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase accurately restates the definition: counterpoint involves combining multiple independent melodies simultaneously, with rules governing harmonic relationships (consonance and dissonance).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the original on two points: it says melodies alternate (not simultaneously) and are the same melody (not independent lines)."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B reduces counterpoint to harmonizing a single melody with chords, which describes homophony rather than counterpoint — changing the number of independent melodic lines to one."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C misrepresents the role of the rules — the original says rules regulate both consonance and dissonance; this option says rules prevent all dissonance, which contradicts the original."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המושג 'counterpoint' כולל שלושה רכיבים: (1) מספר קולות עצמאיים, (2) בו-זמנית, (3) חוקים המסדירים קונסוננס ודיסוננס. ניסוח שמצמצם לשתי קולות חוזרות אינו מדויק.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-243",
+    "difficulty": "hard",
+    "text": "\"Feminist film criticism challenges the passive objectification of women in mainstream cinema by arguing that conventional narrative structures are organized around a masculine subject position and a feminized object of the gaze.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Feminist film critics contend that traditional storytelling in movies is structured to place male characters as active viewers and female characters as passive subjects of observation.",
+      "Feminist film criticism argues that women in mainstream cinema have always been portrayed as active protagonists driving narrative progress.",
+      "Mainstream cinema challenges gender objectification by deliberately subverting conventional narrative structures.",
+      "Feminist criticism focuses exclusively on female-directed films, arguing that they alone can overcome the problem of gendered objectification."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately captures the argument: conventional cinematic narrative positions men as active viewing subjects and women as passive objects of the gaze.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B directly contradicts the original — feminist criticism identifies women as passive objects, not active protagonists; this option reverses that characterization."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C inverts the critique — the original argues conventional cinema embeds objectification; this option says cinema challenges it, which is the opposite."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D narrows feminist film criticism to female-directed films only, whereas the original addresses mainstream cinematic structure broadly without making that restriction."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח ב' הוא היפוך מלא של הביקורת הפמיניסטית: הביקורת אומרת שנשים מוצגות כסבילות, לא כגיבורות פעילות. הניגוד בין 'subject' ל-'object' הוא לב הטיעון.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-244",
+    "difficulty": "hard",
+    "text": "\"The discovery of the cosmic microwave background radiation provided strong empirical support for the Big Bang theory, as it represented the thermal remnant of the universe's early hot, dense state.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The Big Bang theory predicted the cosmic microwave background, and its eventual non-discovery confirmed that the universe began in a cold, sparse state.",
+      "Cosmic microwave background radiation was used to challenge the Big Bang theory by demonstrating that the early universe was not hot or dense.",
+      "The thermal remnant of the early universe was deliberately created by astronomers in order to test the Big Bang theory experimentally.",
+      "Finding evidence of residual heat from the universe's earliest phase gave significant observational backing to the Big Bang model of cosmic origins."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase accurately restates both the discovery (residual heat from the early universe) and its significance (empirical support for the Big Bang).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A claims the background radiation was not discovered and that the early universe was cold and sparse — directly contradicting both the discovery and the physical description in the original."},
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B inverts the relationship — the original says the discovery supported the Big Bang; this option claims it challenged it by showing the opposite physical conditions."},
+      {"choice": 2, "trapType": "cause/effect reversal", "explanation": "Option C reverses the order of events — the background radiation was a natural discovery that confirmed theory; it was not created by astronomers to test the theory."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "כאן חשוב לשמר: (1) מה נמצא (שיירי חום מהשלב המוקדם של היקום), ו-(2) מה התוצאה (תמיכה אמפירית בתיאוריית הביג בנג). היפוך אחד מהם מחריב את הניסוח.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-245",
+    "difficulty": "hard",
+    "text": "\"Restorative justice prioritizes repairing the harm caused by criminal behavior through cooperative processes that include the offender, the victim, and the broader community, as an alternative to purely punitive approaches.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Rather than focusing solely on punishment, restorative justice seeks to mend the damage caused by crime by engaging all affected parties — the perpetrator, the harmed individual, and the wider community — in a collaborative process.",
+      "Restorative justice is a punitive system that punishes offenders more severely by requiring them to participate in community service in addition to serving prison sentences.",
+      "Restorative justice excludes victims from the criminal process, focusing instead on rehabilitating offenders through community-based programs.",
+      "The broader community plays no role in restorative justice; the process involves only the offender and the victim in a bilateral agreement."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves all three elements: the three-party cooperative process, the focus on repairing harm, and the contrast with purely punitive approaches.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "negation reversal", "explanation": "Option B misrepresents restorative justice as a punitive system with additional punishment — the original explicitly positions it as an alternative to punitive approaches."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original by excluding victims — the original explicitly includes the victim as a participant in the cooperative process."},
+      {"choice": 3, "trapType": "scope change", "explanation": "Option D removes the community from the process, whereas the original specifically identifies the broader community as a third participant alongside offender and victim."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שלושת הצדדים (עבריין, קורבן, קהילה) הם ליבת ההגדרה. ניסוח שמסיר אחד מהם — למשל 'רק עבריין וקורבן' — הוא שינוי היקף שמוחק חלק מהותי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-246",
+    "difficulty": "hard",
+    "text": "\"Biomimicry is the practice of designing technological solutions by emulating strategies and structures observed in nature, based on the premise that biological systems have been refined through millions of years of evolutionary selection.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Biomimicry is the process by which natural organisms adopt technological features designed by human engineers as a form of evolutionary adaptation.",
+      "Biomimetic design focuses exclusively on replicating the visual appearance of natural organisms rather than their functional principles.",
+      "The premise of biomimicry is that technology is superior to nature, and that biological systems should be modified to reflect human engineering standards.",
+      "Biomimicry involves creating human technologies that draw on natural design principles, grounded in the idea that evolution has optimized biological systems over vast timescales."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase accurately captures both elements: the practice (designing technology by emulating nature) and the rationale (evolution has refined biological systems over millions of years).",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "cause/effect reversal", "explanation": "Option A reverses the relationship — in biomimicry, humans learn from nature; this option says organisms adopt features designed by humans."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows biomimicry to visual replication only, whereas the original emphasizes strategies and structures (functional principles)."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C inverts the foundational premise — the original says biological systems are refined by evolution; this option claims technology is superior and nature should adopt human standards."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הכיוון הוא קריטי: בביומימיקרי אנשים לומדים מהטבע, לא להיפך. ניסוח שאומר שאורגניזמים אימצו עיצוב אנושי הפך את כיוון ה'חיקוי'.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-247",
+    "difficulty": "hard",
+    "text": "\"The doctrine of precedent, or stare decisis, binds lower courts to follow the rulings of higher courts in cases with materially similar facts, thereby ensuring predictability and consistency in legal decision-making.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Under the principle of stare decisis, courts at lower levels must adhere to decisions made by superior courts when the relevant facts are substantially the same, which promotes uniformity and foreseeability in the law.",
+      "Stare decisis allows lower courts to deviate from precedent whenever judges determine that a higher court's original ruling was politically motivated.",
+      "The doctrine of precedent requires that all courts — regardless of their position in the hierarchy — apply the same rulings to all cases regardless of factual differences.",
+      "Stare decisis binds higher courts to follow the rulings of lower courts in order to maintain judicial humility and prevent overreach by appellate judges."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the three key elements of stare decisis: the binding obligation on lower courts to follow higher court rulings, the material similarity requirement, and the resulting predictability/consistency.",
+    "wrongReasons": [
+      {"choice": 1, "trapType": "added info", "explanation": "Option B introduces the concept of politically motivated rulings as grounds for deviation, which is not present in the original and misrepresents the doctrine."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C removes the material similarity requirement ('same facts') and the court hierarchy, applying precedent universally without distinction — contradicting the specific conditions in the original."},
+      {"choice": 3, "trapType": "subject-object swap", "explanation": "Option D inverts the hierarchical obligation — the original says lower courts follow higher courts; this option says higher courts follow lower courts."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח ד' הוא מלכודת היפוך נושא-מושא: מי מחויב לפסיקות של מי? הכלל הוא שבתי משפט נמוכים יותר מחויבים לפסיקות בתי משפט גבוהים — לא ההיפך.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-248",
+    "difficulty": "hard",
+    "text": "\"Narrative cinema employs techniques such as shot-reverse-shot editing and eyeline matching to construct a coherent spatial and temporal reality for the viewer, a practice known as the continuity system.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The continuity system in cinema was invented to disorient viewers by deliberately breaking spatial and temporal coherence through editing.",
+      "Through specific editing and camera methods — including shot-reverse-shot and matching the direction of a character's gaze — narrative films create a unified sense of space and time for the audience, a framework called the continuity system.",
+      "Shot-reverse-shot editing and eyeline matching are techniques unique to documentary filmmaking and cannot be applied in narrative cinema.",
+      "The continuity system eliminates editing entirely, relying instead on unbroken long takes to create temporal coherence for the viewer."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase accurately describes the continuity system: specific editing and camera techniques (shot-reverse-shot, eyeline match) build a coherent spatial-temporal experience for the viewer.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A inverts the purpose of the continuity system — it was designed to create coherence, not to disorient viewers by breaking it."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original, which explicitly says these techniques are used in narrative cinema; this option claims they cannot be."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D contradicts the original — the continuity system uses editing techniques; claiming it eliminates editing entirely is the opposite of what the original states."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מסביר מה מטרת מערכת ה-continuity — יצירת רצף מרחבי-זמני קוהרנטי. ניסוח שמציג אותה כמכשיר לבלבל את הצופה הופך את מטרתה לחלוטין.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-249",
+    "difficulty": "hard",
+    "text": "\"Marine protected areas (MPAs) have been shown to increase fish biomass and biodiversity within their boundaries, though their effectiveness depends critically on adequate enforcement and sufficient size to encompass whole ecosystems.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "MPAs are universally effective regardless of their size or the level of enforcement applied, as long as they are legally designated.",
+      "The primary purpose of marine protected areas is to restrict commercial fishing without regard for biodiversity or ecosystem size.",
+      "Enforcement of marine protected areas reduces fish biomass because human activity is entirely excluded from managed ocean zones.",
+      "MPAs can boost fish populations and ecological diversity inside their limits, but their success hinges on proper policing and being large enough to cover complete ecosystems."
+    ],
+    "answer": 3,
+    "explanation": "The correct paraphrase preserves the two-part structure: MPAs have demonstrated benefits (fish biomass, biodiversity) that are conditional on enforcement and size covering full ecosystems.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "negation reversal", "explanation": "Option A contradicts the original's conditional statement — the original says effectiveness depends critically on enforcement and size; this option says MPAs work regardless of these factors."},
+      {"choice": 1, "trapType": "scope change", "explanation": "Option B narrows the purpose of MPAs to restricting fishing and excludes biodiversity and ecosystem coverage, both of which are central to the original."},
+      {"choice": 2, "trapType": "negation reversal", "explanation": "Option C contradicts the original — enforcement is presented as necessary for increasing biomass; this option claims enforcement reduces fish biomass."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מכיל תוצאה חיובית עם שתי תנאים קריטיים (אכיפה + גודל). ניסוח שמציג את ה-MPA כיעיל ללא תנאים מוחק את ההסתייגות החשובה.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-250",
+    "difficulty": "hard",
+    "text": "\"The philosophical concept of the 'hermeneutic circle' holds that understanding a text requires moving between the meaning of individual parts and the meaning of the whole, as each informs and is informed by the other in an iterative interpretive process.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The hermeneutic circle argues that only the whole text has meaning and that individual parts should be disregarded in interpretation.",
+      "According to hermeneutic theory, interpreting a text is a back-and-forth process in which understanding the parts contributes to grasping the whole, and vice versa, in a mutually reinforcing cycle.",
+      "Hermeneutics holds that texts can only be understood by readers who already possess complete knowledge of the subject matter before beginning to read.",
+      "The hermeneutic circle describes a logical fallacy in which interpreters use the meaning of the whole text to define individual words, producing circular and therefore invalid conclusions."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase accurately captures the iterative, bidirectional nature of hermeneutic interpretation: parts inform the whole and the whole informs the parts in a mutually reinforcing cycle.",
+    "wrongReasons": [
+      {"choice": 0, "trapType": "scope change", "explanation": "Option A reduces interpretation to the whole text only, discarding individual parts — the original explicitly requires moving between parts and whole as mutually informing."},
+      {"choice": 2, "trapType": "added info", "explanation": "Option C introduces the prerequisite of complete prior knowledge before reading, which is not part of the original definition and contradicts the iterative learning process it describes."},
+      {"choice": 3, "trapType": "negation reversal", "explanation": "Option D reframes the hermeneutic circle as a logical fallacy that produces invalid conclusions — the original presents it as a valid and necessary interpretive process, not a flaw."}
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח ד' מציג את 'המעגל ההרמנויטי' כטעות לוגית (מעגל שגוי), בעוד שבפילוסופיה הרמנויטית הוא מתאר תהליך פרשנות לגיטימי ונחוץ. ההבדל בין 'תהליך תקף' ל'טעות לוגית' הוא מהותי.",
+    "estimatedTimeSeconds": 60
+  }
+]

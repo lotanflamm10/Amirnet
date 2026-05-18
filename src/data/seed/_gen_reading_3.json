@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r23-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Social media companies are legally required to remove false content.",
+        "Misinformation spreads rapidly online partly because it triggers strong emotions.",
+        "Most people can identify fake news if they read carefully.",
+        "Traditional news outlets are the primary source of misinformation."
+      ],
+      "answer": 1,
+      "explanation": "The passage's central argument is that misinformation thrives online because emotionally charged false content is shared more widely than accurate but neutral information.",
+      "wrongReasons": [
+        "A introduces a legal requirement not discussed in the passage.",
+        "C is contradicted by the passage, which implies most people share without verifying.",
+        "D misidentifies the source; the passage focuses on social media, not traditional outlets."
+      ],
+      "passage": {
+        "id": "r23-passage",
+        "title": "The Rise of Misinformation",
+        "body": "The digital age has made it easier than ever to access information, but it has also created fertile ground for misinformation to flourish. False stories and misleading headlines circulate across social media platforms at remarkable speed, often outpacing corrections and fact-checks. Researchers have found that false news spreads significantly faster than true news online, a pattern driven largely by human psychology rather than automated bots.\n\nThe explanation lies in the emotional power of falsehoods. Misinformation tends to be novel, surprising, and emotionally provocative—qualities that make people more likely to share it without pausing to verify. Outrage, fear, and astonishment are particularly powerful triggers. When a story confirms existing beliefs or stirs strong feelings, critical evaluation is often bypassed entirely. This creates a feedback loop: platforms reward engagement, emotional content drives engagement, and misinformation is frequently more emotionally compelling than accurate reporting.\n\nAddressing this crisis requires media literacy education, platform accountability, and individual habits of skepticism. Without deliberate effort, the instinct to share emotionally resonant content will continue to amplify falsehoods at scale."
+      }
+    },
+    {
+      "id": "r23-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what role do bots play in the spread of misinformation?",
+      "choices": [
+        "They are the leading cause of misinformation spreading online.",
+        "They create most of the false stories that circulate on social media.",
+        "They play a smaller role than human behavior in spreading false news.",
+        "They are used by platforms to remove misleading content."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that the rapid spread of false news is 'driven largely by human psychology rather than automated bots,' making bots a secondary factor.",
+      "wrongReasons": [
+        "A overstates the role of bots; the passage explicitly downplays their importance.",
+        "B is not supported; the passage does not say bots create false stories.",
+        "D contradicts the passage; bots are not described as content moderators."
+      ],
+      "passage": {
+        "id": "r23-passage",
+        "title": "The Rise of Misinformation",
+        "body": "The digital age has made it easier than ever to access information, but it has also created fertile ground for misinformation to flourish. False stories and misleading headlines circulate across social media platforms at remarkable speed, often outpacing corrections and fact-checks. Researchers have found that false news spreads significantly faster than true news online, a pattern driven largely by human psychology rather than automated bots.\n\nThe explanation lies in the emotional power of falsehoods. Misinformation tends to be novel, surprising, and emotionally provocative—qualities that make people more likely to share it without pausing to verify. Outrage, fear, and astonishment are particularly powerful triggers. When a story confirms existing beliefs or stirs strong feelings, critical evaluation is often bypassed entirely. This creates a feedback loop: platforms reward engagement, emotional content drives engagement, and misinformation is frequently more emotionally compelling than accurate reporting.\n\nAddressing this crisis requires media literacy education, platform accountability, and individual habits of skepticism. Without deliberate effort, the instinct to share emotionally resonant content will continue to amplify falsehoods at scale."
+      }
+    },
+    {
+      "id": "r23-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about social media platforms based on the passage?",
+      "choices": [
+        "They deliberately create misinformation to increase user activity.",
+        "Their design priorities may unintentionally favor the spread of false content.",
+        "They are more effective at spreading true news than false news.",
+        "They have successfully implemented fact-checking systems that limit misinformation."
+      ],
+      "answer": 1,
+      "explanation": "The passage says platforms 'reward engagement' and that misinformation is more emotionally compelling, implying that engagement-based design inadvertently amplifies false content even without deliberate intent.",
+      "wrongReasons": [
+        "A attributes deliberate malice that the passage does not claim.",
+        "C directly contradicts the passage, which states false news spreads faster than true news.",
+        "D is not supported; the passage describes fact-checks being outpaced, not succeeded."
+      ],
+      "passage": {
+        "id": "r23-passage",
+        "title": "The Rise of Misinformation",
+        "body": "The digital age has made it easier than ever to access information, but it has also created fertile ground for misinformation to flourish. False stories and misleading headlines circulate across social media platforms at remarkable speed, often outpacing corrections and fact-checks. Researchers have found that false news spreads significantly faster than true news online, a pattern driven largely by human psychology rather than automated bots.\n\nThe explanation lies in the emotional power of falsehoods. Misinformation tends to be novel, surprising, and emotionally provocative—qualities that make people more likely to share it without pausing to verify. Outrage, fear, and astonishment are particularly powerful triggers. When a story confirms existing beliefs or stirs strong feelings, critical evaluation is often bypassed entirely. This creates a feedback loop: platforms reward engagement, emotional content drives engagement, and misinformation is frequently more emotionally compelling than accurate reporting.\n\nAddressing this crisis requires media literacy education, platform accountability, and individual habits of skepticism. Without deliberate effort, the instinct to share emotionally resonant content will continue to amplify falsehoods at scale."
+      }
+    },
+    {
+      "id": "r23-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'provocative' most nearly means:",
+      "choices": [
+        "Factually inaccurate",
+        "Intended to deceive readers",
+        "Designed to stir strong reactions",
+        "Widely shared across platforms"
+      ],
+      "answer": 2,
+      "explanation": "In context, 'emotionally provocative' describes content that triggers strong emotional responses such as outrage and fear, meaning designed or likely to stir strong reactions.",
+      "wrongReasons": [
+        "A describes accuracy, which is separate from the emotional quality the word refers to.",
+        "B implies intent to deceive, but 'provocative' describes emotional impact, not deceptive purpose.",
+        "D refers to a consequence of being provocative, not the meaning of the word itself."
+      ],
+      "passage": {
+        "id": "r23-passage",
+        "title": "The Rise of Misinformation",
+        "body": "The digital age has made it easier than ever to access information, but it has also created fertile ground for misinformation to flourish. False stories and misleading headlines circulate across social media platforms at remarkable speed, often outpacing corrections and fact-checks. Researchers have found that false news spreads significantly faster than true news online, a pattern driven largely by human psychology rather than automated bots.\n\nThe explanation lies in the emotional power of falsehoods. Misinformation tends to be novel, surprising, and emotionally provocative—qualities that make people more likely to share it without pausing to verify. Outrage, fear, and astonishment are particularly powerful triggers. When a story confirms existing beliefs or stirs strong feelings, critical evaluation is often bypassed entirely. This creates a feedback loop: platforms reward engagement, emotional content drives engagement, and misinformation is frequently more emotionally compelling than accurate reporting.\n\nAddressing this crisis requires media literacy education, platform accountability, and individual habits of skepticism. Without deliberate effort, the instinct to share emotionally resonant content will continue to amplify falsehoods at scale."
+      }
+    },
+    {
+      "id": "r23-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To entertain readers with examples of viral misinformation stories",
+        "To argue that social media should be banned due to its dangers",
+        "To explain the psychological mechanisms behind misinformation and advocate for solutions",
+        "To compare the credibility of traditional media with social media platforms"
+      ],
+      "answer": 2,
+      "explanation": "The author explains why misinformation spreads (psychological triggers, platform design) and concludes by calling for education, accountability, and skepticism—demonstrating both an explanatory and persuasive purpose.",
+      "wrongReasons": [
+        "A is incorrect; the passage is analytical and argumentative, not entertainment-focused.",
+        "B overstates the author's position; no ban is proposed or implied.",
+        "D is not the passage's focus; traditional media is not compared to social media."
+      ],
+      "passage": {
+        "id": "r23-passage",
+        "title": "The Rise of Misinformation",
+        "body": "The digital age has made it easier than ever to access information, but it has also created fertile ground for misinformation to flourish. False stories and misleading headlines circulate across social media platforms at remarkable speed, often outpacing corrections and fact-checks. Researchers have found that false news spreads significantly faster than true news online, a pattern driven largely by human psychology rather than automated bots.\n\nThe explanation lies in the emotional power of falsehoods. Misinformation tends to be novel, surprising, and emotionally provocative—qualities that make people more likely to share it without pausing to verify. Outrage, fear, and astonishment are particularly powerful triggers. When a story confirms existing beliefs or stirs strong feelings, critical evaluation is often bypassed entirely. This creates a feedback loop: platforms reward engagement, emotional content drives engagement, and misinformation is frequently more emotionally compelling than accurate reporting.\n\nAddressing this crisis requires media literacy education, platform accountability, and individual habits of skepticism. Without deliberate effort, the instinct to share emotionally resonant content will continue to amplify falsehoods at scale."
+      }
+    },
+    {
+      "id": "r24-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Honeybees use a complex dance to communicate precise information about food sources.",
+        "Bees rely primarily on scent rather than movement to find flowers.",
+        "Scientists have only recently begun studying bee communication.",
+        "The waggle dance is used by bees to warn the hive of approaching predators."
+      ],
+      "answer": 0,
+      "explanation": "The passage centers on the waggle dance as a sophisticated communication system through which bees convey direction, distance, and quality of food sources to other members of the hive.",
+      "wrongReasons": [
+        "B contradicts the passage, which emphasizes movement (dance) as the primary communication method.",
+        "C is unsupported; the passage mentions Karl von Frisch's mid-20th century research, not recent study.",
+        "D is incorrect; the waggle dance is about food sources, not predator warnings."
+      ],
+      "passage": {
+        "id": "r24-passage",
+        "title": "How Bees Communicate",
+        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+      }
+    },
+    {
+      "id": "r24-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, how does a bee communicate the distance to a food source?",
+      "choices": [
+        "By flying in circles of different sizes",
+        "By the angle of its dance relative to the sun",
+        "By the duration of its waggle run",
+        "By the number of times it exits and re-enters the hive"
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that 'distance is communicated through the duration of the waggle run: the longer the run, the farther the food.'",
+      "wrongReasons": [
+        "A describes a different pattern not mentioned in the passage.",
+        "B describes how direction is communicated, not distance.",
+        "D is not mentioned anywhere in the passage."
+      ],
+      "passage": {
+        "id": "r24-passage",
+        "title": "How Bees Communicate",
+        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+      }
+    },
+    {
+      "id": "r24-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred from the passage about the significance of Karl von Frisch's discovery?",
+      "choices": [
+        "It proved that bees are the most intelligent insects on Earth.",
+        "It challenged the assumption that symbolic communication is unique to humans.",
+        "It led to the development of new agricultural technologies based on bee behavior.",
+        "It showed that bees communicate only about food, not about threats."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that the waggle dance represents a symbolic communication system 'once thought exclusive to humans,' implying von Frisch's work challenged that assumption.",
+      "wrongReasons": [
+        "A makes a comparative claim about insect intelligence that the passage does not support.",
+        "C introduces agricultural applications not mentioned anywhere in the passage.",
+        "D narrows the claim inappropriately; the passage does not say bees communicate only about food."
+      ],
+      "passage": {
+        "id": "r24-passage",
+        "title": "How Bees Communicate",
+        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+      }
+    },
+    {
+      "id": "r24-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'encodes' most nearly means:",
+      "choices": [
+        "Hides from other species",
+        "Translates into a form that carries information",
+        "Repeats in a predictable pattern",
+        "Simplifies for easier understanding"
+      ],
+      "answer": 1,
+      "explanation": "In context, 'encodes' describes how the waggle dance translates complex information (direction, distance, quality) into a physical form—movement—that other bees can interpret.",
+      "wrongReasons": [
+        "A implies secrecy or concealment, which is not the meaning intended here.",
+        "C suggests repetition but does not capture the meaning of converting information into a communicable form.",
+        "D suggests simplification, but encoding is about representation, not necessarily simplification."
+      ],
+      "passage": {
+        "id": "r24-passage",
+        "title": "How Bees Communicate",
+        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+      }
+    },
+    {
+      "id": "r24-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To argue that bees should receive greater protection under environmental law",
+        "To inform readers about a sophisticated animal communication system and its broader implications",
+        "To persuade readers that insect intelligence has been underestimated by scientists",
+        "To describe the daily life of forager bees in a typical hive"
+      ],
+      "answer": 1,
+      "explanation": "The passage explains the mechanics of the waggle dance in detail and concludes by placing it in a broader scientific context (symbolic communication once thought exclusive to humans), serving both an informative and intellectually expansive purpose.",
+      "wrongReasons": [
+        "A introduces a legal or conservation argument that the passage never makes.",
+        "C overstates the argument; the passage does not claim scientists broadly underestimated insects.",
+        "D describes only daily life, missing the broader scientific significance the passage emphasizes."
+      ],
+      "passage": {
+        "id": "r24-passage",
+        "title": "How Bees Communicate",
+        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+      }
+    },
+    {
+      "id": "r25-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Adults need exactly eight hours of sleep to maintain good health.",
+        "Poor sleep has wide-ranging negative effects on physical and mental health.",
+        "Sleeping pills are the most effective solution for chronic sleep deprivation.",
+        "Most modern sleep problems are caused by excessive caffeine consumption."
+      ],
+      "answer": 1,
+      "explanation": "The passage outlines multiple serious consequences of poor sleep—including cognitive impairment, immune dysfunction, and mental health disorders—making the breadth of negative health effects its central argument.",
+      "wrongReasons": [
+        "A specifies eight hours as a fixed requirement, which the passage does not claim.",
+        "C mentions sleeping pills, which are not discussed in the passage.",
+        "D focuses on caffeine as a cause, which the passage does not identify as the main factor."
+      ],
+      "passage": {
+        "id": "r25-passage",
+        "title": "The Cost of Poor Sleep",
+        "body": "Sleep is often treated as a luxury rather than a necessity, sacrificed in favor of work, entertainment, or social obligations. Yet decades of research make clear that chronic sleep deprivation carries serious consequences for both body and mind. Adults who consistently sleep fewer than seven hours per night are at significantly higher risk for obesity, cardiovascular disease, and type 2 diabetes.\n\nThe effects on cognition are equally striking. Sleep-deprived individuals show impaired attention, reduced working memory, and slower reaction times—deficits comparable to those caused by alcohol intoxication. The brain uses sleep to consolidate memories and clear metabolic waste products, including proteins linked to Alzheimer's disease. Cutting sleep short disrupts these essential processes.\n\nMental health is also deeply affected. Insomnia and depression share a bidirectional relationship: poor sleep worsens mood disorders, and mood disorders further disrupt sleep. Anxiety, irritability, and emotional dysregulation are common companions of insufficient rest. Public health experts increasingly argue that improving sleep habits at the population level could reduce the burden of several major chronic diseases, making sleep hygiene a priority alongside diet and exercise."
+      }
+    },
+    {
+      "id": "r25-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what does the brain do during sleep?",
+      "choices": [
+        "It generates new memories by processing the day's experiences randomly.",
+        "It consolidates memories and removes harmful metabolic waste products.",
+        "It temporarily shuts down all cognitive functions to conserve energy.",
+        "It repairs damaged muscle tissue and replenishes energy reserves."
+      ],
+      "answer": 1,
+      "explanation": "The passage states directly that 'the brain uses sleep to consolidate memories and clear metabolic waste products, including proteins linked to Alzheimer's disease.'",
+      "wrongReasons": [
+        "A misrepresents the process; memory consolidation is not random according to the passage.",
+        "C contradicts the passage, which describes active brain processes occurring during sleep.",
+        "D describes physical recovery associated with sleep but is not what the passage identifies as the brain's specific functions."
+      ],
+      "passage": {
+        "id": "r25-passage",
+        "title": "The Cost of Poor Sleep",
+        "body": "Sleep is often treated as a luxury rather than a necessity, sacrificed in favor of work, entertainment, or social obligations. Yet decades of research make clear that chronic sleep deprivation carries serious consequences for both body and mind. Adults who consistently sleep fewer than seven hours per night are at significantly higher risk for obesity, cardiovascular disease, and type 2 diabetes.\n\nThe effects on cognition are equally striking. Sleep-deprived individuals show impaired attention, reduced working memory, and slower reaction times—deficits comparable to those caused by alcohol intoxication. The brain uses sleep to consolidate memories and clear metabolic waste products, including proteins linked to Alzheimer's disease. Cutting sleep short disrupts these essential processes.\n\nMental health is also deeply affected. Insomnia and depression share a bidirectional relationship: poor sleep worsens mood disorders, and mood disorders further disrupt sleep. Anxiety, irritability, and emotional dysregulation are common companions of insufficient rest. Public health experts increasingly argue that improving sleep habits at the population level could reduce the burden of several major chronic diseases, making sleep hygiene a priority alongside diet and exercise."
+      }
+    },
+    {
+      "id": "r25-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the relationship between insomnia and depression based on the passage?",
+      "choices": [
+        "Depression is always the root cause that triggers insomnia.",
+        "Treating insomnia will automatically cure depression.",
+        "Each condition can worsen the other, making the relationship cyclical.",
+        "Insomnia and depression are unrelated conditions that happen to co-occur."
+      ],
+      "answer": 2,
+      "explanation": "The passage describes their relationship as 'bidirectional,' meaning each can cause and worsen the other, which implies a self-reinforcing cycle rather than a one-way causal relationship.",
+      "wrongReasons": [
+        "A presents a one-directional cause-effect that the passage explicitly contradicts with the word 'bidirectional.'",
+        "B is not supported; the passage describes a mutual relationship but does not say treating one cures the other.",
+        "D contradicts the passage, which explicitly links the two conditions through a bidirectional relationship."
+      ],
+      "passage": {
+        "id": "r25-passage",
+        "title": "The Cost of Poor Sleep",
+        "body": "Sleep is often treated as a luxury rather than a necessity, sacrificed in favor of work, entertainment, or social obligations. Yet decades of research make clear that chronic sleep deprivation carries serious consequences for both body and mind. Adults who consistently sleep fewer than seven hours per night are at significantly higher risk for obesity, cardiovascular disease, and type 2 diabetes.\n\nThe effects on cognition are equally striking. Sleep-deprived individuals show impaired attention, reduced working memory, and slower reaction times—deficits comparable to those caused by alcohol intoxication. The brain uses sleep to consolidate memories and clear metabolic waste products, including proteins linked to Alzheimer's disease. Cutting sleep short disrupts these essential processes.\n\nMental health is also deeply affected. Insomnia and depression share a bidirectional relationship: poor sleep worsens mood disorders, and mood disorders further disrupt sleep. Anxiety, irritability, and emotional dysregulation are common companions of insufficient rest. Public health experts increasingly argue that improving sleep habits at the population level could reduce the burden of several major chronic diseases, making sleep hygiene a priority alongside diet and exercise."
+      }
+    },
+    {
+      "id": "r25-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'dysregulation' most nearly means:",
+      "choices": [
+        "Complete absence of emotional response",
+        "Impaired ability to manage or control emotions effectively",
+        "A deliberate decision to suppress emotions",
+        "Unusually intense positive emotions"
+      ],
+      "answer": 1,
+      "explanation": "In context, 'emotional dysregulation' refers to difficulty managing emotions normally—a consequence of sleep deprivation that appears alongside anxiety and irritability.",
+      "wrongReasons": [
+        "A implies no emotion at all, which is too extreme and not what dysregulation means.",
+        "C implies a conscious choice, but dysregulation is an impaired capacity, not a deliberate act.",
+        "D describes positive emotions, which contradicts the negative context of the passage."
+      ],
+      "passage": {
+        "id": "r25-passage",
+        "title": "The Cost of Poor Sleep",
+        "body": "Sleep is often treated as a luxury rather than a necessity, sacrificed in favor of work, entertainment, or social obligations. Yet decades of research make clear that chronic sleep deprivation carries serious consequences for both body and mind. Adults who consistently sleep fewer than seven hours per night are at significantly higher risk for obesity, cardiovascular disease, and type 2 diabetes.\n\nThe effects on cognition are equally striking. Sleep-deprived individuals show impaired attention, reduced working memory, and slower reaction times—deficits comparable to those caused by alcohol intoxication. The brain uses sleep to consolidate memories and clear metabolic waste products, including proteins linked to Alzheimer's disease. Cutting sleep short disrupts these essential processes.\n\nMental health is also deeply affected. Insomnia and depression share a bidirectional relationship: poor sleep worsens mood disorders, and mood disorders further disrupt sleep. Anxiety, irritability, and emotional dysregulation are common companions of insufficient rest. Public health experts increasingly argue that improving sleep habits at the population level could reduce the burden of several major chronic diseases, making sleep hygiene a priority alongside diet and exercise."
+      }
+    },
+    {
+      "id": "r25-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To review existing pharmaceutical treatments for sleep disorders",
+        "To persuade readers to prioritize sleep as a serious public health matter",
+        "To describe how the sleep cycle functions at a neurological level",
+        "To compare the sleep habits of different cultural groups around the world"
+      ],
+      "answer": 1,
+      "explanation": "The author presents evidence of sleep deprivation's harms across physical, cognitive, and mental health domains, then explicitly calls for public health action—revealing a persuasive purpose aimed at elevating sleep as a health priority.",
+      "wrongReasons": [
+        "A focuses on pharmaceutical treatments not discussed in the passage.",
+        "C describes neurological detail; while some neuroscience is mentioned, it serves the broader persuasive argument.",
+        "D introduces cross-cultural comparison that the passage never makes."
+      ],
+      "passage": {
+        "id": "r25-passage",
+        "title": "The Cost of Poor Sleep",
+        "body": "Sleep is often treated as a luxury rather than a necessity, sacrificed in favor of work, entertainment, or social obligations. Yet decades of research make clear that chronic sleep deprivation carries serious consequences for both body and mind. Adults who consistently sleep fewer than seven hours per night are at significantly higher risk for obesity, cardiovascular disease, and type 2 diabetes.\n\nThe effects on cognition are equally striking. Sleep-deprived individuals show impaired attention, reduced working memory, and slower reaction times—deficits comparable to those caused by alcohol intoxication. The brain uses sleep to consolidate memories and clear metabolic waste products, including proteins linked to Alzheimer's disease. Cutting sleep short disrupts these essential processes.\n\nMental health is also deeply affected. Insomnia and depression share a bidirectional relationship: poor sleep worsens mood disorders, and mood disorders further disrupt sleep. Anxiety, irritability, and emotional dysregulation are common companions of insufficient rest. Public health experts increasingly argue that improving sleep habits at the population level could reduce the burden of several major chronic diseases, making sleep hygiene a priority alongside diet and exercise."
+      }
+    },
+    {
+      "id": "r26-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Desalination is the only effective technology for solving global water scarcity.",
+        "Water scarcity is a growing global crisis that requires multiple coordinated solutions.",
+        "Developing nations are entirely responsible for the world's water shortage problems.",
+        "Climate change has made water conservation strategies obsolete."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes water scarcity as a serious and expanding global problem, then outlines a range of solutions—technology, policy, and conservation—showing that no single fix is sufficient.",
+      "wrongReasons": [
+        "A singles out desalination as the only solution, which the passage contradicts by presenting multiple approaches.",
+        "C misattributes responsibility to developing nations alone; the passage presents water scarcity as a global challenge.",
+        "D contradicts the passage, which explicitly recommends conservation as part of the solution."
+      ],
+      "passage": {
+        "id": "r26-passage",
+        "title": "Water Scarcity and Global Solutions",
+        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+      }
+    },
+    {
+      "id": "r26-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what percentage of global freshwater consumption does agriculture account for?",
+      "choices": [
+        "About 30 percent",
+        "About 50 percent",
+        "About 70 percent",
+        "About 90 percent"
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly states that agriculture 'accounts for roughly 70 percent of global freshwater consumption.'",
+      "wrongReasons": [
+        "A is too low and not supported by the passage.",
+        "B is not the figure given in the passage.",
+        "D overstates the figure; the passage says roughly 70 percent, not 90 percent."
+      ],
+      "passage": {
+        "id": "r26-passage",
+        "title": "Water Scarcity and Global Solutions",
+        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+      }
+    },
+    {
+      "id": "r26-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about regions that suffer from poor infrastructure related to water?",
+      "choices": [
+        "They necessarily have less total rainfall than other regions.",
+        "Their water problems could potentially be reduced without increasing total water supply.",
+        "They are located exclusively in developing nations.",
+        "Technology alone is sufficient to solve their water challenges."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that many regions 'suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and lack of regulation,' implying that better management—not more water—could alleviate their problems.",
+      "wrongReasons": [
+        "A attributes their problems to rainfall levels, which the passage does not claim.",
+        "C limits these regions to developing nations, a generalization the passage does not make.",
+        "D contradicts the passage's emphasis on policy and governance alongside technology."
+      ],
+      "passage": {
+        "id": "r26-passage",
+        "title": "Water Scarcity and Global Solutions",
+        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+      }
+    },
+    {
+      "id": "r26-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'inequitable' most nearly means:",
+      "choices": [
+        "Insufficient in total quantity",
+        "Unfair or unequal in how something is distributed",
+        "Difficult to measure or assess accurately",
+        "Rapidly changing over time"
+      ],
+      "answer": 1,
+      "explanation": "In context, 'inequitable distribution' refers to water being distributed unfairly—some areas receiving too little while others have enough—meaning the issue is fairness of distribution, not total quantity.",
+      "wrongReasons": [
+        "A refers to total quantity, which is a separate issue from how water is distributed.",
+        "C implies a measurement problem, which is unrelated to the meaning of inequitable.",
+        "D suggests change over time, which is not what inequitable means in this context."
+      ],
+      "passage": {
+        "id": "r26-passage",
+        "title": "Water Scarcity and Global Solutions",
+        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+      }
+    },
+    {
+      "id": "r26-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To demonstrate that desalination is the most promising technology for water security",
+        "To argue that climate change is the sole cause of the global water crisis",
+        "To present the scope of water scarcity and make the case for comprehensive, multi-level action",
+        "To entertain readers with case studies of countries that have solved water scarcity"
+      ],
+      "answer": 2,
+      "explanation": "The author systematically describes the scale of the problem, surveys technological and governance solutions, and concludes with a call for 'coordinated action combining technology, conservation, and policy reform'—a comprehensive, persuasive purpose.",
+      "wrongReasons": [
+        "A prioritizes one technology over others, but the passage explicitly presents multiple solutions as necessary.",
+        "B attributes the crisis to climate change alone, whereas the passage lists multiple causes.",
+        "D describes case studies that are not present in the passage, which is analytical rather than narrative."
+      ],
+      "passage": {
+        "id": "r26-passage",
+        "title": "Water Scarcity and Global Solutions",
+        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+      }
+    },
+    {
+      "id": "r27-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Automation will eliminate all jobs within the next decade.",
+        "Automation creates more jobs than it eliminates and benefits all workers equally.",
+        "Automation is reshaping the labor market with significant social consequences that require careful policy responses.",
+        "Governments should ban automation in industries with high employment rates."
+      ],
+      "answer": 2,
+      "explanation": "The passage acknowledges both benefits and harms of automation, describes uneven effects across workers, and calls for policy responses—reflecting a balanced but concerned central argument about social consequences.",
+      "wrongReasons": [
+        "A overstates the timeline and completeness of job elimination, which the passage does not claim.",
+        "B contradicts the passage, which emphasizes unequal distribution of benefits and significant job losses.",
+        "D proposes a ban that the passage never suggests."
+      ],
+      "passage": {
+        "id": "r27-passage",
+        "title": "The Social Impact of Automation",
+        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+      }
+    },
+    {
+      "id": "r27-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, how does modern automation differ from earlier waves of mechanization?",
+      "choices": [
+        "Modern automation is slower and affects fewer workers.",
+        "Modern automation also threatens cognitive and service-sector jobs, not just manual labor.",
+        "Earlier mechanization was more disruptive to society than modern automation.",
+        "Modern automation is limited to industrial manufacturing sectors."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that 'unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well.'",
+      "wrongReasons": [
+        "A contradicts the passage, which says the pace of change has accelerated.",
+        "C contradicts the passage's implication that modern automation is broader and more challenging.",
+        "D contradicts the passage, which specifically mentions legal research, medical imaging, and financial reports."
+      ],
+      "passage": {
+        "id": "r27-passage",
+        "title": "The Social Impact of Automation",
+        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+      }
+    },
+    {
+      "id": "r27-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about single-industry communities mentioned in the passage?",
+      "choices": [
+        "They are more likely to adapt successfully to automation than diversified economies.",
+        "They are better funded by governments and therefore more resilient to economic shocks.",
+        "Their vulnerability to automation extends beyond direct job losses to broader community services.",
+        "They consist mainly of high-skill workers who benefit from automation."
+      ],
+      "answer": 2,
+      "explanation": "The passage notes that when facilities in single-industry communities close, effects 'ripple through local businesses, schools, and healthcare systems,' implying harm well beyond direct job displacement.",
+      "wrongReasons": [
+        "A contradicts the passage, which identifies these communities as 'particularly vulnerable.'",
+        "B introduces government funding as a factor, which the passage does not discuss.",
+        "D contradicts the passage, which describes displacement of low- and middle-skill workers, not high-skill ones."
+      ],
+      "passage": {
+        "id": "r27-passage",
+        "title": "The Social Impact of Automation",
+        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+      }
+    },
+    {
+      "id": "r27-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the phrase 'hollow out' most nearly means:",
+      "choices": [
+        "To physically destroy buildings and infrastructure",
+        "To gradually eliminate the central or most stable segment of a group",
+        "To reduce a country's total population significantly",
+        "To lower wages for all workers across all skill levels"
+      ],
+      "answer": 1,
+      "explanation": "In context, 'hollow out the middle class' means gradually eroding its size and stability—leaving a gap between high earners and low earners—mirroring the literal meaning of making something empty at its core.",
+      "wrongReasons": [
+        "A interprets the phrase too literally in a physical sense unrelated to economic context.",
+        "C conflates hollowing out an economic class with reducing total population.",
+        "D implies uniform wage cuts, but the passage describes divergence between high-skill and low-skill workers."
+      ],
+      "passage": {
+        "id": "r27-passage",
+        "title": "The Social Impact of Automation",
+        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+      }
+    },
+    {
+      "id": "r27-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To celebrate the economic productivity gains made possible by automation",
+        "To warn that automation will inevitably destroy society and cannot be controlled",
+        "To analyze the unequal social consequences of automation and urge proactive policy responses",
+        "To argue that retraining programs have already proven effective in managing automation's impact"
+      ],
+      "answer": 3,
+      "explanation": "The author methodically examines who benefits and who suffers from automation, highlights risks to communities and social cohesion, and concludes by emphasizing that policy choices will determine long-term outcomes—a call to action grounded in analysis.",
+      "wrongReasons": [
+        "A focuses only on productivity gains; the passage explicitly addresses harms and inequality.",
+        "B overstates the author's position; the passage suggests problems can be managed with the right policies.",
+        "C is close but the passage does not claim retraining programs have already succeeded—it presents them as a necessary response, not a proven one."
+      ],
+      "passage": {
+        "id": "r27-passage",
+        "title": "The Social Impact of Automation",
+        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+      }
+    }
+  ]
+}

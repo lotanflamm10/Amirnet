@@ -1,0 +1,262 @@
+[
+  {
+    "id": "diag_01",
+    "category": "sentenceCompletion",
+    "difficulty": "easy",
+    "text": "The artist was ___ for her ability to create beautiful paintings quickly.",
+    "choices": ["criticized", "celebrated", "ignored", "punished"],
+    "answer": 1,
+    "explanation": "Celebrated means widely praised or admired, which matches someone known for a positive ability.",
+    "wrongReasons": [
+      "Criticized means to find fault with, which contradicts being known for a positive ability",
+      "Ignored means to pay no attention, which does not fit someone recognized for her skill",
+      "Punished means to impose a penalty, which has no connection to artistic ability"
+    ],
+    "tags": ["vocabulary", "context_clues"]
+  },
+  {
+    "id": "diag_02",
+    "category": "sentenceCompletion",
+    "difficulty": "medium",
+    "text": "Despite his ___ schedule, the professor managed to publish three papers that year.",
+    "choices": ["relaxed", "flexible", "demanding", "predictable"],
+    "answer": 2,
+    "explanation": "Demanding means requiring a lot of effort or time, which contrasts with 'despite' to show the professor's achievement.",
+    "wrongReasons": [
+      "Relaxed means not strict or tense, which would make publishing papers unremarkable rather than impressive",
+      "Flexible means adaptable, which does not create the contrast implied by 'despite'",
+      "Predictable means behaving in an expected way, which does not suggest difficulty in publishing papers"
+    ],
+    "tags": ["vocabulary", "contrast_clue"]
+  },
+  {
+    "id": "diag_03",
+    "category": "sentenceCompletion",
+    "difficulty": "hard",
+    "text": "The committee's decision was met with ___ from both sides of the debate.",
+    "choices": ["applause", "indifference", "controversy", "unanimity"],
+    "answer": 2,
+    "explanation": "Controversy means strong disagreement or debate, which fits a decision that generates reactions from both sides.",
+    "wrongReasons": [
+      "Applause means enthusiastic approval, which would not come from both opposing sides simultaneously",
+      "Indifference means lack of interest, which contradicts the implication that both sides had a strong reaction",
+      "Unanimity means complete agreement, which is the opposite of a heated debate between two sides"
+    ],
+    "tags": ["vocabulary", "context_clues", "academic"]
+  },
+  {
+    "id": "diag_04",
+    "category": "restatements",
+    "difficulty": "easy",
+    "text": "Which sentence is closest in meaning to: 'She rarely misses a class.'?",
+    "choices": [
+      "She almost never attends class.",
+      "She usually attends class.",
+      "She sometimes skips class.",
+      "She has never missed a class."
+    ],
+    "answer": 1,
+    "explanation": "Rarely misses means she almost always attends, so 'she usually attends class' is the closest restatement.",
+    "wrongReasons": [
+      "She almost never attends class is the opposite meaning of rarely misses",
+      "She sometimes skips class suggests more frequent absences than rarely implies",
+      "She has never missed a class is too absolute and stronger than rarely"
+    ],
+    "tags": ["restatement", "frequency_adverbs"]
+  },
+  {
+    "id": "diag_05",
+    "category": "restatements",
+    "difficulty": "medium",
+    "text": "Which sentence is closest in meaning to: 'It is not unusual for him to stay late at work.'?",
+    "choices": [
+      "He rarely stays late at work.",
+      "He never stays late at work.",
+      "He often stays late at work.",
+      "He is expected to leave work early."
+    ],
+    "answer": 2,
+    "explanation": "Not unusual means common or typical, so saying he often stays late captures the same meaning.",
+    "wrongReasons": [
+      "He rarely stays late at work contradicts not unusual, which implies it happens frequently",
+      "He never stays late at work is the opposite of the original statement",
+      "He is expected to leave work early contradicts staying late entirely"
+    ],
+    "tags": ["restatement", "double_negation"]
+  },
+  {
+    "id": "diag_06",
+    "category": "restatements",
+    "difficulty": "hard",
+    "text": "Which sentence is closest in meaning to: 'The more you practice, the easier it becomes.'?",
+    "choices": [
+      "Practice makes no difference to difficulty.",
+      "Difficulty decreases as practice increases.",
+      "The easier something is, the more you practice it.",
+      "You should practice only easy things."
+    ],
+    "answer": 1,
+    "explanation": "The original sentence says increasing practice leads to decreasing difficulty, which is exactly what 'difficulty decreases as practice increases' means.",
+    "wrongReasons": [
+      "Practice makes no difference to difficulty directly contradicts the original sentence",
+      "The easier something is, the more you practice it reverses the cause and effect relationship",
+      "You should practice only easy things is an unrelated recommendation not found in the original"
+    ],
+    "tags": ["restatement", "comparative_structure", "causality"]
+  },
+  {
+    "id": "diag_07",
+    "category": "grammar",
+    "difficulty": "easy",
+    "text": "Choose the correct form: 'She ___ to the gym every morning.'",
+    "choices": ["go", "goes", "going", "gone"],
+    "answer": 1,
+    "explanation": "With a third-person singular subject (she) in the simple present tense, the verb requires the -s ending: goes.",
+    "wrongReasons": [
+      "Go is the base form used with I, you, we, they — not with she",
+      "Going requires an auxiliary verb such as is going and cannot stand alone",
+      "Gone is the past participle used in perfect tenses, not in simple present statements"
+    ],
+    "tags": ["grammar", "subject_verb_agreement", "simple_present"]
+  },
+  {
+    "id": "diag_08",
+    "category": "grammar",
+    "difficulty": "medium",
+    "text": "Choose the correct form: 'By the time we arrived, they ___ already ___ the presentation.'",
+    "choices": [
+      "have / finished",
+      "had / finished",
+      "were / finishing",
+      "did / finish"
+    ],
+    "answer": 1,
+    "explanation": "The past perfect (had + past participle) is used to show an action completed before another past event. By the time we arrived signals the earlier action.",
+    "wrongReasons": [
+      "Have finished is present perfect and cannot be used for actions before a past reference point",
+      "Were finishing is past continuous and describes an ongoing action, not a completed one",
+      "Did finish is simple past and does not show that the action was completed before arrival"
+    ],
+    "tags": ["grammar", "past_perfect", "time_clauses"]
+  },
+  {
+    "id": "diag_09",
+    "category": "grammar",
+    "difficulty": "hard",
+    "text": "Choose the correct form: 'Neither the students nor the teacher ___ aware of the schedule change.'",
+    "choices": ["were", "was", "are", "have been"],
+    "answer": 1,
+    "explanation": "With neither...nor, the verb agrees with the subject closest to it (the teacher), which is singular, so was is correct.",
+    "wrongReasons": [
+      "Were is plural and would agree with students, but the rule requires agreement with the nearer subject (teacher)",
+      "Are is present tense but the context requires past tense and also does not apply the proximity rule",
+      "Have been is present perfect and is grammatically inconsistent with the simple past context"
+    ],
+    "tags": ["grammar", "subject_verb_agreement", "correlative_conjunctions"]
+  },
+  {
+    "id": "diag_10",
+    "category": "wordFormation",
+    "difficulty": "easy",
+    "text": "Choose the correct word form: 'The ___ was made by the committee.' (decide)",
+    "choices": ["decision", "decisive", "decided", "deciding"],
+    "answer": 0,
+    "explanation": "Decision is the noun form of decide and correctly fills the subject position in the sentence.",
+    "wrongReasons": [
+      "Decisive is an adjective meaning showing quick judgment and cannot function as the subject of was made",
+      "Decided is a past tense verb or adjective and cannot serve as a noun subject here",
+      "Deciding is a present participle or gerund that would require a different sentence structure"
+    ],
+    "tags": ["word_formation", "noun_suffix", "decision"]
+  },
+  {
+    "id": "diag_11",
+    "category": "wordFormation",
+    "difficulty": "medium",
+    "text": "Choose the correct word form: 'Her ___ in mathematics were remarkable.' (achieve)",
+    "choices": ["achieve", "achiever", "achievements", "achieving"],
+    "answer": 2,
+    "explanation": "Achievements is the plural noun form of achieve and correctly acts as the subject of the sentence.",
+    "wrongReasons": [
+      "Achieve is a verb and cannot serve as a noun subject without modification",
+      "Achiever is a noun meaning a person who achieves, not the results of achievement",
+      "Achieving is a present participle that would need an auxiliary verb to function as a predicate"
+    ],
+    "tags": ["word_formation", "noun_suffix", "plurals"]
+  },
+  {
+    "id": "diag_12",
+    "category": "wordFormation",
+    "difficulty": "hard",
+    "text": "Choose the correct word form: 'The new policy led to a significant ___ in student performance.' (improve)",
+    "choices": ["improve", "improved", "improvement", "improving"],
+    "answer": 2,
+    "explanation": "Improvement is the noun form required after the article a and adjective significant in this noun phrase.",
+    "wrongReasons": [
+      "Improve is a verb and cannot follow a and significant in a noun phrase",
+      "Improved is an adjective or past tense verb and does not complete the noun phrase correctly",
+      "Improving is a present participle and requires a different grammatical structure to be used here"
+    ],
+    "tags": ["word_formation", "noun_suffix", "noun_phrase"]
+  },
+  {
+    "id": "diag_13",
+    "category": "vocabulary",
+    "difficulty": "easy",
+    "text": "What does the word 'ambiguous' mean?",
+    "choices": [
+      "Having a clear and obvious meaning",
+      "Having more than one possible interpretation",
+      "Being completely wrong or false",
+      "Relating to strong emotions"
+    ],
+    "answer": 1,
+    "explanation": "Ambiguous means open to more than one interpretation or having an unclear meaning.",
+    "wrongReasons": [
+      "Having a clear and obvious meaning is the opposite of ambiguous",
+      "Being completely wrong or false describes something erroneous, not ambiguous",
+      "Relating to strong emotions describes emotive language, which is unrelated to ambiguity"
+    ],
+    "tags": ["vocabulary", "academic_words", "meaning"]
+  },
+  {
+    "id": "diag_14",
+    "category": "vocabulary",
+    "difficulty": "medium",
+    "text": "What does the word 'meticulous' mean?",
+    "choices": [
+      "Acting quickly without thinking",
+      "Showing very great attention to detail and care",
+      "Being overly emotional in difficult situations",
+      "Relating to ancient history or tradition"
+    ],
+    "answer": 1,
+    "explanation": "Meticulous means showing very careful attention to every detail, often used to describe thorough and precise work.",
+    "wrongReasons": [
+      "Acting quickly without thinking describes impulsive behavior, the opposite of meticulous care",
+      "Being overly emotional in difficult situations describes a different quality unrelated to attention to detail",
+      "Relating to ancient history or tradition describes something historic, not a character trait of carefulness"
+    ],
+    "tags": ["vocabulary", "academic_words", "adjectives"]
+  },
+  {
+    "id": "diag_15",
+    "category": "vocabulary",
+    "difficulty": "hard",
+    "text": "What does the word 'corroborate' mean?",
+    "choices": [
+      "To strongly disagree with a statement",
+      "To confirm or support with evidence",
+      "To completely rewrite or revise",
+      "To delay or postpone an action"
+    ],
+    "answer": 1,
+    "explanation": "Corroborate means to confirm or give support to a statement, theory, or finding with evidence or authority.",
+    "wrongReasons": [
+      "To strongly disagree with a statement is the opposite of corroborating, which supports rather than refutes",
+      "To completely rewrite or revise describes revision, not confirmation of existing information",
+      "To delay or postpone an action describes procrastination, which is unrelated to confirming evidence"
+    ],
+    "tags": ["vocabulary", "academic_words", "verbs", "evidence"]
+  }
+]

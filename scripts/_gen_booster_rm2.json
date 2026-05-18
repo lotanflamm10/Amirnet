@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-rm-151",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Urban green spaces improve residents' mental well-being.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "People who live near parks and other green areas tend to experience better mental health.",
+      "Mental health problems cause city residents to seek out green spaces.",
+      "Green spaces are only beneficial in rural areas, not in cities.",
+      "Urban planners design green spaces primarily to attract tourists."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the causal direction: proximity to urban green spaces leads to better mental health outcomes for residents.",
+    "wrongReasons": [
+      "Option B reverses the cause-and-effect relationship — the original says green spaces improve well-being, not that poor well-being drives people to green spaces.",
+      "Option C contradicts the original by limiting the benefit to rural areas and excluding cities, which is the opposite of what the sentence states.",
+      "Option D introduces tourist attraction as a motivation, which is entirely absent from the original sentence."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המלכודת הנפוצה כאן היא היפוך הסיבה והתוצאה — האם שטחים ירוקים משפיעים על הבריאות הנפשית, או שבריאות נפשית גורמת לאנשים לחפש שטחים ירוקים?",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-152",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Higher levels of education are associated with increased lifetime earnings.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "People with more education tend to be wealthier and are therefore able to study longer.",
+      "More education generally leads to higher wages over a person's working life.",
+      "All highly educated people earn significantly more than those without degrees.",
+      "Lifetime earnings depend exclusively on the prestige of the university attended."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the association between more education and higher earnings across a lifetime without overstating it as absolute or universal.",
+    "wrongReasons": [
+      "Option A reverses the relationship — it suggests wealth causes more education, not that education leads to higher earnings.",
+      "Option C overgeneralizes by saying 'all' highly educated people earn more, whereas the original states an association, not a universal rule.",
+      "Option D narrows the claim to university prestige, adding information not present in the original sentence."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "קל לטעות כאן בגלל הכללה יתרה — המשפט המקורי מדבר על קשר (association), לא על חוק מוחלט החל על כולם.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-153",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Chronic stress can weaken the immune system over time.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "A weakened immune system is one of the possible long-term effects of ongoing stress.",
+      "People with weak immune systems are more likely to experience chronic stress.",
+      "Stress only affects mental health and has no impact on physical health.",
+      "A single stressful event is enough to permanently damage the immune system."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately reflects that sustained stress can reduce immune function over time, without reversing cause and effect or overstating certainty.",
+    "wrongReasons": [
+      "Option B reverses the direction: the original says stress weakens the immune system, not that a weak immune system causes stress.",
+      "Option C negates the original's claim by saying stress has no physical effects, contradicting the stated impact on the immune system.",
+      "Option D changes 'chronic stress over time' to 'a single stressful event,' which is a scope distortion — too narrow and too extreme."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה היא היפוך הסיבה והתוצאה — המשפט אומר שלחץ כרוני מחליש את מערכת החיסון, לא להיפך.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-154",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Social media platforms have made it easier for misinformation to spread rapidly.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Misinformation spreads more quickly because of how social media platforms function.",
+      "Social media platforms were created specifically to spread misinformation.",
+      "Misinformation existed before social media and spreads equally fast without it.",
+      "Only governments can control how quickly misinformation spreads on social media."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the enabling role of social media in accelerating misinformation spread without asserting intent or exclusivity.",
+    "wrongReasons": [
+      "Option B attributes deliberate intent to platform designers, which is not stated in the original sentence.",
+      "Option C contradicts the original by suggesting social media has no differential effect on speed of spread.",
+      "Option D adds information about government control that is entirely absent from the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המלכודת כאן היא הוספת כוונה ('נוצרו במיוחד') שאינה מופיעה במשפט המקורי — המשפט רק אומר שפלטפורמות הקלו על הפצת מידע שגוי, לא שנועדו לכך.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-155",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Economic inequality tends to widen when tax policies favor the wealthy.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Tax systems that benefit the rich often lead to greater gaps between rich and poor.",
+      "Wealthy people pay fewer taxes because economic inequality exists.",
+      "Tax policy has no significant effect on the distribution of wealth in society.",
+      "Economic inequality can only be reduced through education, not through taxation."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase maintains the causal link: tax policies that favor the wealthy contribute to widening economic inequality.",
+    "wrongReasons": [
+      "Option B reverses cause and effect — it suggests inequality causes favorable tax treatment, not the other way around.",
+      "Option C negates the original by claiming tax policy has no effect on wealth distribution.",
+      "Option D adds information about education as the only solution, which is not mentioned in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש להיזהר מהיפוך סיבה-תוצאה: האם מדיניות מס גורמת לאי-שוויון, או שאי-שוויון גורם למדיניות המס?",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-156",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Bilingual children often show greater cognitive flexibility than monolingual children.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Children who grow up speaking only one language are equally flexible in their thinking as those who speak two.",
+      "Speaking two languages from childhood may give children an advantage in mental adaptability.",
+      "Cognitive flexibility is only found in children who speak more than two languages.",
+      "Monolingual children become bilingual as a result of developing cognitive flexibility."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase conveys that bilingualism in children is linked to enhanced cognitive flexibility, consistent with 'often show greater.'",
+    "wrongReasons": [
+      "Option A negates the original by claiming there is no difference in cognitive flexibility between bilingual and monolingual children.",
+      "Option C changes the scope — the original says bilingual (two languages), not 'more than two languages.'",
+      "Option D reverses the relationship — it claims cognitive flexibility causes bilingualism, whereas the original states the opposite direction."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "קל לטעות בשינוי היקף: המשפט המקורי מדבר על דו-לשוניים, לא על דוברי שלוש שפות ומעלה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-157",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Public transportation reduces traffic congestion in large cities.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Traffic congestion in major urban areas is made worse when public transit is available.",
+      "In big cities, having access to public transit helps ease road traffic.",
+      "Public transportation is only useful in cities with populations over one million.",
+      "Traffic congestion causes city governments to invest in public transportation."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the relationship: public transit availability eases road congestion in large cities.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by stating public transit worsens congestion.",
+      "Option C adds a population threshold ('over one million') not found in the original sentence.",
+      "Option D reverses cause and effect — the original says transit reduces congestion, not that congestion causes investment in transit."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המלכודת בשאלה זו היא היפוך ניסוח: 'מחמיר פקקים' במקום 'מפחית פקקים' — שינוי קטן שמשנה לחלוטין את המשמעות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-158",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Vaccination programs have significantly reduced the incidence of many infectious diseases.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Infectious diseases have become less common largely because of widespread vaccination efforts.",
+      "Infectious diseases cause governments to launch vaccination programs.",
+      "Vaccination is effective only against a limited number of very rare diseases.",
+      "The incidence of infectious diseases has remained unchanged despite vaccination programs."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately states that vaccination programs have led to lower rates of infectious disease, which matches 'significantly reduced the incidence.'",
+    "wrongReasons": [
+      "Option B reverses the causal direction — in the original, vaccination reduces disease; here, disease is said to cause vaccination programs.",
+      "Option C distorts the scope — the original says 'many infectious diseases,' not 'a limited number of very rare diseases.'",
+      "Option D contradicts the original by claiming disease rates have not changed, when the sentence states they have been significantly reduced."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הטעות הנפוצה כאן היא שינוי היקף: 'מחלות רבות' לעומת 'מספר מוגבל של מחלות נדירות מאוד' — שינוי משמעותי שמעוות את הטענה המקורית.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-159",
+    "difficulty": "medium",
+    "text": "Original sentence: \"While democratic institutions tend to protect individual freedoms, they can be slow to respond to urgent crises.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Democratic institutions fail to protect individual freedoms during crises.",
+      "Democratic systems generally safeguard personal liberties but may lack agility when rapid responses are needed.",
+      "Urgent crises are the primary reason democratic institutions were established.",
+      "Only non-democratic governments can respond quickly to national emergencies."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures both elements of the original: the general strength of democratic institutions (protecting freedoms) and their acknowledged weakness (slow crisis response).",
+    "wrongReasons": [
+      "Option A distorts the first clause — the original says democratic institutions tend to protect freedoms; this option says they fail to do so during crises, which is a negation reversal.",
+      "Option C inverts the relationship — it claims crises caused the creation of democratic institutions, which is not stated.",
+      "Option D introduces a comparison to non-democratic governments that is entirely absent from the original sentence."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מכיל שתי טענות — חוזק וחולשה של מוסדות דמוקרטיים. ניסוח נכון חייב לשמר את שתיהן. טעות נפוצה: התמקדות רק באחת מהן.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-160",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Neuroplasticity — the brain's ability to reorganize itself — diminishes but does not disappear in adulthood.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Adults completely lose the capacity for neuroplasticity once they reach maturity.",
+      "Neuroplasticity is a phenomenon unique to children and is entirely absent in adult brains.",
+      "Although the brain's capacity for self-reorganization decreases as people age, it persists into adulthood.",
+      "Adults develop neuroplasticity later in life as a result of learning new skills."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase reflects the nuance of the original: neuroplasticity decreases ('diminishes') but is not eliminated ('does not disappear') in adults.",
+    "wrongReasons": [
+      "Option A uses 'completely lose' and 'entirely absent,' which contradicts 'does not disappear' — this is a negation reversal.",
+      "Option B likewise claims neuroplasticity is absent in adults, directly contradicting the original.",
+      "Option D reverses the direction by claiming adults develop neuroplasticity later, rather than retaining a diminished form of it."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המלכודת כאן היא ניסוח קיצוני — 'נעלמת לחלוטין' לעומת 'פוחתת אך לא נעלמת'. יש לשים לב לניואנסים כמו 'diminishes but does not disappear'.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-161",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Food insecurity disproportionately affects low-income households, particularly in urban areas with limited access to affordable fresh produce.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Urban low-income families face the greatest burden of food insecurity, especially where cheap healthy food is hard to find.",
+      "Food insecurity affects all income groups equally in cities with poor access to fresh produce.",
+      "Low-income households in rural areas are the primary victims of food insecurity.",
+      "Fresh produce is unavailable in all urban areas because of widespread food insecurity."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures all key elements: disproportionate impact on low-income groups, urban setting, and limited access to affordable fresh produce.",
+    "wrongReasons": [
+      "Option B contradicts 'disproportionately' by claiming equal impact across income groups — this is a negation reversal of the key qualifier.",
+      "Option C shifts the geographic focus from urban to rural areas, which is the opposite of what the original states.",
+      "Option D overgeneralizes — the original says 'limited access' in some urban areas, not that fresh produce is 'unavailable in all urban areas.'"
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "כאן חשוב לשים לב למילת המפתח 'disproportionately' — 'באופן לא פרופורציונלי'. ניסוח שמשמיט מילה זו או אומר 'באופן שווה' הופך את המשמעות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-162",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Cognitive behavioral therapy has proven effective for treating anxiety disorders, though its benefits may be less pronounced in patients with severe depression.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "CBT works well for anxiety but may show weaker results in those who also suffer from severe depression.",
+      "CBT is equally effective for all mental health conditions, including anxiety and severe depression.",
+      "Patients with severe depression should use CBT instead of other therapies for anxiety disorders.",
+      "Anxiety disorders cause depression, which is why CBT addresses both conditions simultaneously."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures both the effectiveness of CBT for anxiety and the qualification that it may be less effective for severe depression.",
+    "wrongReasons": [
+      "Option B contradicts the original by claiming equal effectiveness for all conditions, removing the important qualification about severe depression.",
+      "Option C adds a recommendation ('should use instead') not present in the original and also misrepresents the comparison.",
+      "Option D introduces a causal claim (anxiety causes depression) that is not in the original sentence at all."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מכיל סייג חשוב ('though its benefits may be less pronounced') — ניסוח נכון חייב לשמר את הסייג הזה ולא להפוך את הטענה לאבסולוטית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-163",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Urban sprawl contributes to increased car dependency and the erosion of community cohesion in suburban neighborhoods.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The expansion of cities outward tends to make residents more reliant on cars and weakens social bonds in suburbs.",
+      "Community cohesion in suburban areas causes residents to reject urban sprawl and car dependency.",
+      "Car dependency is the sole cause of urban sprawl and suburban social fragmentation.",
+      "Urban sprawl only occurs in areas where communities lack social cohesion."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves both effects of urban sprawl stated in the original: increased car reliance and weaker community bonds in suburbs.",
+    "wrongReasons": [
+      "Option B reverses the causal direction — the original says sprawl causes these effects, but this option suggests community cohesion causes rejection of sprawl.",
+      "Option C performs a subject-object swap, presenting car dependency as the cause of urban sprawl rather than an effect of it.",
+      "Option D reverses the relationship — it says lack of cohesion causes sprawl, whereas the original states sprawl erodes cohesion."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "משפט זה מתאר שני תוצאות של urban sprawl. ניסוח נכון חייב להציג את sprawl כגורם ואת שתי ההשלכות כתוצאות, לא להיפך.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-164",
+    "difficulty": "medium",
+    "text": "Original sentence: \"While globalization has accelerated economic growth in many developing nations, it has also intensified income inequality within those same countries.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Globalization has had no significant economic impact on developing nations.",
+      "Economic growth in developing countries is entirely unrelated to globalization.",
+      "Globalization benefits developing nations economically but simultaneously widens the gap between rich and poor within them.",
+      "Income inequality in developing nations is caused exclusively by domestic policies, not by globalization."
+    ],
+    "answer": 2,
+    "explanation": "The correct paraphrase captures the dual effect described: globalization drives economic growth but also deepens internal income inequality in developing nations.",
+    "wrongReasons": [
+      "Option A negates the original entirely by claiming globalization has had no significant economic impact.",
+      "Option B similarly denies any relationship between globalization and economic outcomes in developing countries.",
+      "Option D attributes income inequality solely to domestic policies, contradicting the original which links inequality to globalization."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "כאן יש שתי טענות הפוכות לכאורה — גלובליזציה מגדילה צמיחה כלכלית, אך גם מעמיקה אי-שוויון. ניסוח נכון חייב לשמר את שתי הטענות וגם את המתח ביניהן.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-165",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Epigenetic changes — modifications to gene expression without altering DNA sequences — can be inherited across generations.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Changes in how genes are expressed, even without changes to the DNA itself, may be passed on from parents to offspring.",
+      "Epigenetic changes permanently alter the DNA sequence and are therefore heritable across generations.",
+      "Only mutations that change the DNA sequence can be inherited by future generations.",
+      "Gene expression is fixed at birth and cannot be modified by environmental factors."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately captures the definition of epigenetic changes (modification of gene expression, not DNA) and the claim that such changes can be inherited.",
+    "wrongReasons": [
+      "Option B contradicts the definition by claiming epigenetic changes do alter the DNA sequence, which is precisely what the original says they do not.",
+      "Option C negates the original's core claim by asserting that only DNA sequence changes are heritable.",
+      "Option D adds an unsupported absolute claim about gene expression being fixed, which contradicts the premise of epigenetics entirely."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המפתח כאן הוא ההגדרה המדויקת: שינויים בביטוי גנים *ללא* שינוי ברצף ה-DNA. ניסוח שטוען שה-DNA משתנה הופך את המשמעות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-166",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Mandatory voting laws increase voter turnout but do not necessarily lead to more informed electoral choices.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Compulsory voting raises participation rates at elections but does not guarantee that voters will cast more knowledgeable ballots.",
+      "Mandatory voting laws both increase turnout and produce a more educated electorate.",
+      "Voter turnout and informed voting always improve together when voting is made compulsory.",
+      "Mandatory voting laws are ineffective because they fail to increase voter turnout."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves both parts of the original: more turnout (positive effect) but not necessarily more informed choices (the limitation).",
+    "wrongReasons": [
+      "Option B adds an unsupported positive claim — the original explicitly says mandatory voting does not necessarily improve the quality of electoral choices.",
+      "Option C overstates by saying turnout and informed voting 'always improve together,' which contradicts 'not necessarily.'",
+      "Option D negates the original's first claim — mandatory voting does increase turnout according to the sentence."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ביטויים כמו 'not necessarily' הם ניואנס חשוב שיש לשמרו בניסוח — הם אומרים שמשהו *עשוי* לא לקרות, לא שהוא לעולם לא קורה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-167",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Attachment styles formed in early childhood often predict the quality of adult romantic relationships.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The way adults form romantic relationships is frequently shaped by attachment patterns established in infancy and early childhood.",
+      "Adult romantic relationships cause people to develop secure or insecure attachment styles.",
+      "Only adults who had traumatic childhoods struggle to form healthy romantic relationships.",
+      "Early childhood experiences have no lasting effect on how people relate to romantic partners in adulthood."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase maintains the causal direction (early attachment styles predict adult relationship quality) without overstating certainty or limiting the claim.",
+    "wrongReasons": [
+      "Option B reverses cause and effect — adult romantic relationships causing attachment styles, rather than the reverse.",
+      "Option C narrows the claim to 'traumatic childhoods' only, whereas the original refers broadly to all attachment styles formed in childhood.",
+      "Option D directly negates the original by claiming early childhood has no lasting effect on adult relationships."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח ב' הוא היפוך סיבה-תוצאה קלאסי — מי גורם למי? המשפט המקורי ברור: סגנון ההתקשרות מהילדות משפיע על מערכות יחסים בגיל מבוגר.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-168",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The privatization of public services can improve efficiency but often reduces access for lower-income populations.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Transferring public services to private control may boost efficiency while making those services harder to access for poorer groups.",
+      "Privatization always improves both efficiency and accessibility of public services for all income groups.",
+      "Lower-income populations benefit most from privatized public services because of improved efficiency.",
+      "Privatization of public services uniformly reduces efficiency and worsens access for everyone."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures both effects: potential efficiency gain and the trade-off of reduced access for lower-income groups.",
+    "wrongReasons": [
+      "Option B overgeneralizes and contradicts the original — it claims privatization always improves accessibility, whereas the original says it 'often reduces' access for low-income groups.",
+      "Option C inverts the relationship — the original says lower-income populations lose access, not that they benefit most.",
+      "Option D negates both claims — the original acknowledges efficiency gains, which this option denies."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מציג פשרה (trade-off): יעילות מול נגישות. ניסוח שמציג רק תועלת או רק נזק מחמיץ את התמונה המלאה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-169",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Prolonged screen time in adolescents is linked to disrupted sleep patterns and reduced academic performance.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Teenagers who spend excessive time on screens are more likely to sleep poorly and perform worse academically.",
+      "Poor academic performance in teenagers leads them to spend more time on screens instead of sleeping.",
+      "Screen time has no measurable effect on sleep or school performance in adolescents.",
+      "Only teenagers who use screens past midnight experience sleep disruption and lower grades."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately reflects the association between prolonged screen time and two negative outcomes: disrupted sleep and weaker academic performance.",
+    "wrongReasons": [
+      "Option B reverses the causal chain — the original says screen time causes the negative outcomes; this option claims the negative outcomes drive screen time.",
+      "Option C directly contradicts the original by claiming no measurable effect exists.",
+      "Option D narrows the scope to a specific time ('past midnight'), adding a condition not present in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שימו לב לכיוון הקשר: זמן מסך גורם לבעיות שינה וביצועים לימודיים — לא להיפך. ניסוח שמהפך את הסדר הזה שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-170",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Microplastic contamination has been detected in both marine ecosystems and the human bloodstream, raising concerns about long-term health effects.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Scientists have found microplastics in ocean environments and in human blood, prompting worries about potential health consequences over time.",
+      "Microplastics are harmful only to marine life and pose no risk to human health.",
+      "Long-term health effects of microplastics have already been conclusively proven by researchers worldwide.",
+      "Human consumption of seafood is the only known pathway through which microplastics enter the bloodstream."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the two detected locations (marine ecosystems and human bloodstream) and the concern about long-term health effects without overstating certainty.",
+    "wrongReasons": [
+      "Option B contradicts the original by limiting the concern to marine life and denying any risk to humans.",
+      "Option C overstates certainty — the original says 'raising concerns,' not that effects have been conclusively proven.",
+      "Option D adds specific information about the pathway (seafood consumption) that is not present in the original sentence."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ביטוי כמו 'raising concerns' פירושו 'מעלה חשש' — לא 'הוכח'. ניסוח שמשנה 'חשש' ל'הוכחה' מחמיץ ניואנס קריטי של רמת הוודאות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-171",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Gentrification can revitalize deteriorating urban neighborhoods, but often displaces the low-income residents who originally inhabited them.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Urban renewal through gentrification brings improvements to run-down areas but frequently pushes out the poorer communities that lived there first.",
+      "Gentrification benefits all residents of urban neighborhoods equally, including low-income communities.",
+      "Low-income residents are the primary drivers of gentrification in deteriorating urban areas.",
+      "Gentrification only occurs in neighborhoods that already have high property values."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the dual nature of gentrification: revitalization of declining neighborhoods paired with displacement of original low-income residents.",
+    "wrongReasons": [
+      "Option B removes the displacement harm by claiming gentrification benefits all residents equally — directly contradicting the original.",
+      "Option C performs a subject-object swap — the original says low-income residents are displaced by gentrification, not that they cause it.",
+      "Option D contradicts the premise of the original, which describes gentrification occurring in 'deteriorating' (low-value) neighborhoods."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מציג מנגנון עם שתי פנים — שיפור שכונה ועקירת תושבים. ניסוח שמדגיש רק את הצד החיובי או מחמיץ את מי שנפגע — אינו מלא.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-172",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The nocebo effect occurs when negative expectations about a treatment cause patients to experience adverse symptoms, even when the treatment is inert.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "When patients anticipate harmful effects from a treatment, they may actually develop those negative symptoms even if the treatment has no active ingredient.",
+      "The nocebo effect describes how ineffective treatments always produce harmful side effects in all patients.",
+      "Patients who experience adverse effects from a treatment tend to develop negative expectations about future treatments.",
+      "The nocebo effect is the same as the placebo effect, with both producing positive outcomes through belief."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately describes the nocebo effect: negative expectations cause real adverse symptoms even when the treatment itself is inactive.",
+    "wrongReasons": [
+      "Option B overgeneralizes by saying treatments 'always' produce harmful effects and that this applies to 'all patients,' which the original does not claim.",
+      "Option C reverses the causal direction — the original says expectations cause symptoms; this option claims symptoms cause future expectations.",
+      "Option D conflates nocebo with placebo and claims both produce positive outcomes, contradicting the original which associates nocebo with negative/adverse outcomes."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש להבחין בין nocebo לפלסבו: פלסבו = ציפייה חיובית → תוצאה חיובית; nocebo = ציפייה שלילית → תוצאה שלילית. ניסוח שמבלבל ביניהם הוא מלכודת.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-173",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Immigration has historically enriched receiving nations culturally and economically, though it also generates social tensions that policymakers must manage.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Throughout history, immigration has brought cultural and economic benefits to host countries, while also creating social challenges that require careful policy management.",
+      "Immigration causes more harm than benefit, primarily due to the social tensions it creates.",
+      "Host countries experience only economic benefits from immigration, with no cultural impact whatsoever.",
+      "Social tensions from immigration are inevitable and impossible for governments to address."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase reflects all three elements: historical enrichment (cultural and economic), and the social tensions requiring policy management.",
+    "wrongReasons": [
+      "Option B distorts the balance — the original acknowledges both benefits and challenges, not that harm outweighs benefits.",
+      "Option C narrows the benefit to economics only and eliminates the cultural dimension, which is a scope change.",
+      "Option D overstates by claiming social tensions are 'impossible' to address, whereas the original says they require management (implying they can be managed)."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט המקורי מאוזן — הגירה מועילה אך גם יוצרת אתגרים. ניסוח שטוען שרק הנזקים חשובים, או שרק ההיבט הכלכלי רלוונטי, מאבד את האיזון הזה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-174",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The gig economy offers workers flexibility but often denies them benefits such as health insurance and retirement plans.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Gig work provides schedule freedom for workers while frequently leaving them without access to important employment benefits like healthcare and pensions.",
+      "Workers in the gig economy receive comprehensive benefits as compensation for their reduced job flexibility.",
+      "Health insurance and retirement plans are the main reasons workers choose to enter the gig economy.",
+      "The gig economy provides equal flexibility and benefits compared to traditional employment."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the trade-off: flexibility as a benefit, and lack of health insurance and retirement plans as the cost.",
+    "wrongReasons": [
+      "Option B reverses the original — it claims gig workers do receive comprehensive benefits, which directly contradicts 'often denies them benefits.'",
+      "Option C inverts cause and effect — it claims benefits (not flexibility) attract workers to gig work, which is not stated.",
+      "Option D removes the trade-off entirely by claiming equal flexibility and benefits compared to traditional employment."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מבנה של 'מציע X אך שולל Y' הוא מבנה של פשרה — ניסוח נכון חייב לשמר את שני הצדדים. ניסוח שמציג רק את הגמישות (ללא החיסרון) אינו מדויק.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-175",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Confirmation bias leads individuals to seek out and favor information that confirms their pre-existing beliefs while ignoring contradictory evidence.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "People affected by confirmation bias actively look for evidence that supports what they already believe and tend to disregard information that challenges those beliefs.",
+      "Confirmation bias causes people to change their beliefs when they encounter contradictory evidence.",
+      "Individuals who seek information objectively are most susceptible to confirmation bias.",
+      "Confirmation bias only affects people who lack formal education or critical thinking skills."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately describes both mechanisms: seeking confirming information and ignoring contradictory evidence.",
+    "wrongReasons": [
+      "Option B directly contradicts the original — confirmation bias causes people to ignore contradictory evidence, not to change their beliefs based on it.",
+      "Option C reverses the profile — the original implies those with strong pre-existing beliefs are affected, not those who seek information objectively.",
+      "Option D narrows the scope by limiting the effect to uneducated individuals, which is not stated in the original and is an overgeneralization about who is affected."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המשפט מתאר שני תהליכים: חיפוש מידע מאשר + התעלמות ממידע סותר. ניסוח שמדבר על שינוי אמונות בתגובה לעדות סותרת הוא ניגוד מוחלט לאפקט ה-confirmation bias.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-176",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Universal basic income (UBI) proposals aim to eliminate poverty by providing all citizens with a regular, unconditional cash payment.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The goal of UBI is to eradicate poverty by giving every citizen a consistent, no-strings-attached income payment.",
+      "UBI provides cash payments only to citizens who are currently unemployed and living below the poverty line.",
+      "Poverty causes governments to implement UBI, which then distributes money conditionally to citizens.",
+      "Universal basic income guarantees that all recipients will rise above the poverty line immediately upon receiving payments."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures all three defining features of UBI as described: universality (all citizens), regularity, and the unconditional nature of the payment.",
+    "wrongReasons": [
+      "Option B changes 'all citizens' to 'only unemployed citizens below poverty line,' contradicting the universal and unconditional nature of UBI.",
+      "Option C reverses causation (poverty causes UBI) and also incorrectly claims payments are conditional.",
+      "Option D overstates the certainty — the original says UBI aims to eliminate poverty; it does not guarantee immediate results."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שלוש מילות מפתח: 'universal' (לכולם), 'regular' (קבוע), 'unconditional' (ללא תנאי). ניסוח שמשנה אחת מהן — למשל, הופך אותו ל'מותנה' — מחמיץ את המהות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-177",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Deforestation accelerates climate change by reducing the number of trees that absorb carbon dioxide from the atmosphere.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Cutting down forests speeds up climate change because fewer trees remain to remove CO₂ from the air.",
+      "Climate change causes widespread deforestation by making conditions unfavorable for forest growth.",
+      "Carbon dioxide in the atmosphere increases because climate change kills trees.",
+      "Planting more trees is the only effective solution to both deforestation and climate change."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase maintains the causal chain: deforestation → fewer trees → less CO₂ absorption → accelerated climate change.",
+    "wrongReasons": [
+      "Option B reverses the causal direction — it claims climate change causes deforestation, whereas the original states the opposite.",
+      "Option C further confuses the chain by attributing increased CO₂ to climate change killing trees, a different mechanism from that described.",
+      "Option D introduces a prescription (planting trees as the only solution) not present in the original, which is purely descriptive."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "שרשרת הסיבתיות: כריתת יערות → עצים פחות → פחות ספיגת CO₂ → האצת שינוי אקלים. ניסוח שהופך כיוון אחד בשרשרת — שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-178",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Access to clean water is a fundamental determinant of public health outcomes in developing regions.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Public health in developing regions is determined largely by other factors unrelated to water access.",
+      "Clean water availability plays a crucial role in shaping health outcomes for populations in less developed areas.",
+      "Clean water access is only relevant to public health in wealthy developed nations.",
+      "Developing regions have successfully solved water access problems, leading to improved public health."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase accurately reflects that clean water access is a key driver of public health outcomes in developing regions.",
+    "wrongReasons": [
+      "Option A contradicts the original by claiming public health is determined by factors other than water access.",
+      "Option C inverts the geographic scope — the original focuses on developing regions, not wealthy nations.",
+      "Option D adds false information — the original does not claim the problem has been solved, only that access is a fundamental determinant."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המלכודת כאן היא היפוך ההיקף הגיאוגרפי — המשפט מדבר על אזורים מתפתחים, לא על מדינות עשירות. גם הוספת מידע שגוי ('הבעיה נפתרה') היא מלכודת נפוצה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-179",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Peer pressure during adolescence can influence risk-taking behavior, regardless of a young person's family background or prior upbringing.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The influence of peers on risky behavior in teenagers operates independently of their family history or how they were raised.",
+      "Only teenagers from troubled family backgrounds are susceptible to peer pressure and risk-taking.",
+      "Risk-taking behavior in adolescents is caused solely by poor parenting and family dysfunction.",
+      "Peer pressure has no measurable effect on adolescent behavior when family upbringing has been strong."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the key qualifier 'regardless of' — peer influence on risk-taking is independent of family background.",
+    "wrongReasons": [
+      "Option B narrows the claim to 'troubled families only,' directly contradicting 'regardless of family background.'",
+      "Option C attributes risk-taking solely to parenting, eliminating the role of peer pressure described in the original.",
+      "Option D conditions peer pressure's effect on upbringing quality, which contradicts the original's claim of independence."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הביטוי 'regardless of' הוא מפתח: הוא אומר שהשפעת עמיתים לא תלויה ברקע המשפחתי. ניסוח שהופך את הקשר הזה לתנאי — שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-180",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Antibiotic resistance is accelerating primarily because these drugs are overprescribed by medical professionals and overused in agriculture.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The main drivers of the worsening antibiotic resistance crisis are their excessive prescription by doctors and their overuse in farming.",
+      "Antibiotic resistance is a natural process that is not influenced by human prescribing practices.",
+      "Agricultural overuse of antibiotics is the only factor responsible for accelerating resistance, not medical prescription.",
+      "Antibiotic resistance slows down when these drugs are prescribed more frequently by medical professionals."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase identifies both causes stated: overprescription in medicine and overuse in agriculture, both driving antibiotic resistance.",
+    "wrongReasons": [
+      "Option B contradicts the original by claiming human practices do not influence resistance.",
+      "Option C narrows to one cause (agriculture only) and excludes medical overprescription, which the original identifies as equally important.",
+      "Option D directly reverses the relationship — the original says overprescription accelerates resistance, not that it slows it."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "יש כאן שני גורמים — שימוש יתר ברפואה וחקלאות. ניסוח שמציין רק גורם אחד הוא צמצום היקף. בנוסף, ניסוח ד' הופך את הכיוון לחלוטין.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-181",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Mixed-income housing developments can foster social integration but require sustained governmental investment to remain viable.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Housing projects that mix residents of different income levels may promote social integration, but ongoing government funding is needed to keep them sustainable.",
+      "Social integration in housing can be achieved without any government involvement or investment.",
+      "Government investment in housing is only effective when directed at single-income communities.",
+      "Mixed-income housing always achieves social integration and requires no special support to be maintained."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures both elements: the potential for social integration and the requirement for ongoing government investment.",
+    "wrongReasons": [
+      "Option B contradicts the required government investment by claiming social integration can occur without any government involvement.",
+      "Option C distorts the target — the original says mixed-income housing requires investment, not that investment works only for single-income communities.",
+      "Option D removes the conditionality by saying 'always achieves' and 'requires no special support,' contradicting both qualifications in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מבנה 'יכול אך דורש' — ניסוח נכון שומר על שניהם: הפוטנציאל לאינטגרציה חברתית, ותנאי ההשקעה הממשלתית המתמשכת.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-182",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Cultural competence in healthcare providers is associated with better patient outcomes among minority populations.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Healthcare providers who understand cultural differences tend to achieve better health results with patients from minority groups.",
+      "Minority patients who are culturally competent receive better treatment from their doctors.",
+      "Cultural competence is only relevant for healthcare providers who work exclusively in minority communities.",
+      "Better health outcomes among minority populations cause healthcare providers to develop cultural competence."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase preserves the subject (culturally competent providers) and the beneficiary (minority patients) with the direction of the relationship intact.",
+    "wrongReasons": [
+      "Option B performs a subject-object swap — the original attributes cultural competence to providers, not to patients.",
+      "Option C adds the restriction 'exclusively in minority communities,' narrowing the claim in a way not supported by the original.",
+      "Option D reverses cause and effect — the original says provider competence leads to better outcomes, not that outcomes cause providers to develop competence."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח ב' הוא מלכודת של חילוף נושא-מושא — במקום שהרופא יהיה בעל כשירות תרבותית, הניסוח השגוי הופך את המטופל לבעל הכשירות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-183",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Renewable energy technologies have become increasingly cost-competitive with fossil fuels over the past decade.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "In the last ten years, the cost of renewable energy has dropped to levels that can now compete with the price of fossil fuels.",
+      "Fossil fuels have always been more expensive than renewable energy technologies.",
+      "Renewable energy technologies are still far too expensive to compete with fossil fuels in today's market.",
+      "The cost of renewable energy and fossil fuels has remained unchanged over the past decade."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately captures the trend: renewables have become cost-competitive with fossil fuels over the past decade, implying they were not always so.",
+    "wrongReasons": [
+      "Option B overstates history by claiming fossil fuels have 'always' been more expensive, which is not what the original says.",
+      "Option C contradicts the original by claiming renewables are still too expensive to compete.",
+      "Option D negates the change described by claiming costs have remained unchanged."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המילה 'increasingly' מרמזת על תהליך — לא שזה תמיד היה כך, ולא שזה לא השתנה. ניסוח שמוחק את המגמה ואת ממד הזמן ('העשור האחרון') הוא שגוי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-184",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Solitary confinement in prisons has been shown to cause lasting psychological harm, particularly when imposed for extended periods.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Research indicates that keeping prisoners in isolation, especially for long durations, leads to enduring mental health damage.",
+      "The psychological benefits of solitary confinement are most apparent after extended periods of isolation.",
+      "Solitary confinement has no significant mental health effects regardless of how long it is imposed.",
+      "Psychological harm caused by prison conditions leads authorities to impose solitary confinement as a protective measure."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately reflects that solitary confinement causes lasting psychological harm, especially over longer periods.",
+    "wrongReasons": [
+      "Option B inverts the effect — it claims psychological benefits where the original describes harm.",
+      "Option C directly contradicts the original by claiming no significant mental health effects.",
+      "Option D reverses cause and effect — it claims psychological harm causes the imposition of solitary confinement, rather than solitary confinement causing harm."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "ניסוח ב' הוא מלכודת של היפוך ערכי — 'נזק' הופך ל'תועלת'. חשוב לשים לב למילות ערך חיוביות/שליליות בניסוחים.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-rm-185",
+    "difficulty": "hard",
+    "text": "Original sentence: \"While the precautionary principle advises restraint in the face of scientific uncertainty, an overly rigid application of it may stifle innovation and delay the adoption of beneficial technologies.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The precautionary principle is an outdated concept that should be abandoned in favor of unrestricted technological development.",
+      "Although the precautionary principle recommends caution when outcomes are uncertain, applying it too strictly risks hindering progress and postponing access to useful technologies.",
+      "Because scientific uncertainty is now fully resolved, the precautionary principle is no longer necessary.",
+      "The precautionary principle was designed specifically to promote innovation by encouraging risk-taking in scientific research."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the nuanced tension: the precautionary principle is valid as a general guideline, but excessive rigidity in its application can impede beneficial innovation.",
+    "wrongReasons": [
+      "Option A dismisses the precautionary principle entirely as 'outdated,' which is an overgeneralization not supported by the original — the original acknowledges its validity while noting a risk of overuse.",
+      "Option C introduces a false premise (scientific uncertainty has been resolved) that is entirely absent from the original.",
+      "Option D misrepresents the principle's purpose — the original says it counsels restraint, not risk-taking; claiming it promotes innovation is a negation reversal of its intent."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "משפט זה מכיל ניואנס מורכב: הפרינציפ נכון, אך יישום נוקשה מדי מזיק. ניסוח שמסיק מכך שהפרינציפ שגוי לחלוטין, או שנועד דווקא לעודד סיכון, מחמיץ את האיזון הדק.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-186",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Institutional inertia — the tendency of established organizations to resist change — often perpetuates systemic inequalities, even when individual members of those institutions hold egalitarian values.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "When individuals within an institution genuinely support equality, systemic inequalities in that institution are quickly eliminated.",
+      "Organizations tend to maintain existing inequalities through their resistance to change, even if the people within them personally believe in fairness.",
+      "Systemic inequality is caused exclusively by the discriminatory attitudes of individual members of institutions.",
+      "Institutional inertia is beneficial because it prevents organizations from making hasty changes that could worsen inequality."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase captures the paradox: institutions resist change and perpetuate inequality even when individual members value equality, separating institutional behavior from individual values.",
+    "wrongReasons": [
+      "Option A directly contradicts the original — it claims egalitarian individual values lead to quick elimination of inequality, whereas the original says they do not prevent institutional perpetuation of inequality.",
+      "Option C attributes systemic inequality solely to individual discriminatory attitudes, ignoring the institutional-level inertia that the original identifies as the key mechanism.",
+      "Option D reframes institutional inertia as a benefit, inverting the negative framing of the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הפרדוקס המרכזי: אנשים בעלי ערכים שוויוניים יכולים להיות חלק ממוסד שמנציח אי-שוויון. הניסוח הנכון חייב לשמר את הפרדה הזו בין הרמה האישית לרמה המוסדית.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-187",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Longitudinal studies suggest that socioeconomic deprivation in early childhood has compounding negative effects on cognitive development that are difficult — though not impossible — to remediate through later intervention.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Research conducted over time indicates that early poverty creates accumulating cognitive deficits that are challenging but potentially addressable through programs introduced later in life.",
+      "Early childhood poverty has no lasting cognitive effects because later educational interventions always fully reverse any developmental damage.",
+      "Cognitive development is entirely determined by genetics and is unaffected by socioeconomic conditions during childhood.",
+      "Longitudinal studies prove that once cognitive damage from childhood deprivation occurs, it is completely irreversible regardless of intervention."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase reflects all key elements: compounding cognitive effects from early deprivation, difficulty of remediation, and the important qualifier that remediation is still possible.",
+    "wrongReasons": [
+      "Option B contradicts the 'difficult to remediate' element by claiming interventions 'always fully reverse' the damage — this is an overgeneralization that removes the difficulty.",
+      "Option C negates the entire premise by attributing cognitive development to genetics alone, ignoring the role of socioeconomic deprivation.",
+      "Option D contradicts 'not impossible to remediate' by stating effects are 'completely irreversible' — this removes the crucial qualification."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הביטוי 'difficult — though not impossible' הוא מורכב בכוונה: קשה לטפל, אך לא בלתי אפשרי. ניסוח שמוריד סייג זה ל'אפשרי לחלוטין' או ל'בלתי אפשרי לחלוטין' — שגוי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-188",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The commodification of academic credentials has eroded their signaling value, as the proliferation of degree programs means that a diploma no longer reliably differentiates skilled from unskilled candidates.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Because degrees have become commercially widespread, they are less useful as indicators of whether job applicants are genuinely skilled.",
+      "The value of academic credentials has increased as more degree programs have become available to a wider population.",
+      "Unskilled candidates are excluded from degree programs because academic credentials have become commodified.",
+      "Academic degrees maintain their full signaling power because employers carefully evaluate the quality of each candidate's institution."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately reflects the causal chain: commodification leads to proliferation, which erodes the signal value of degrees as differentiators of skill.",
+    "wrongReasons": [
+      "Option B inverts the effect — the original says value has eroded; this option claims it has increased.",
+      "Option C performs a subject-object swap and contradicts the original — unskilled candidates are not excluded; rather, degrees no longer reliably identify skilled candidates.",
+      "Option D directly contradicts the original by claiming degrees maintain full signaling power, when the original says the opposite."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מונח מפתח: 'signaling value' — ערך האות שהתואר שולח למעסיקים. כאשר כולם בעלי תואר, האות מאבד משמעות. ניסוח שטוען שהערך גדל הופך את הטענה.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-189",
+    "difficulty": "hard",
+    "text": "Original sentence: \"While free-market mechanisms can efficiently allocate resources under competitive conditions, market failures — including externalities, information asymmetries, and public goods problems — justify selective state intervention.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Free markets work well in ideal conditions, but specific failures such as externalities, unequal information, and public goods issues provide valid grounds for limited government involvement in the economy.",
+      "State intervention is never justified in a free market because competitive conditions always ensure efficient resource allocation.",
+      "Market failures are so pervasive that governments should replace free markets entirely with centrally planned economies.",
+      "Free markets fail because competitive conditions cannot be achieved in modern economies, making any market-based system inefficient."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the qualified endorsement of free markets and the three specific justifications for selective (not total) state intervention.",
+    "wrongReasons": [
+      "Option B contradicts the original by claiming state intervention is never justified — the original explicitly says market failures justify it.",
+      "Option C overstates the conclusion — the original calls for 'selective' intervention, not the complete replacement of markets with central planning.",
+      "Option D contradicts the first clause — the original says free markets are efficient 'under competitive conditions'; it does not claim those conditions are unachievable."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המילה 'selective' (סלקטיבי/בררני) היא קריטית — ההצדקה היא להתערבות מדינתית מסוימת, לא למחיקת השוק החופשי. כל ניסוח שקורא להחלפה מלאה מגזים.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-190",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Intersectionality posits that an individual's social identity — shaped by the overlapping influences of race, gender, class, and other factors — cannot be understood by examining any single dimension in isolation.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The theory of intersectionality holds that a person's social position is the product of multiple interacting identities, and that analyzing only one of these dimensions provides an incomplete picture.",
+      "Intersectionality argues that race is the primary determinant of social identity, making other factors such as gender and class secondary.",
+      "According to intersectionality, examining social identity requires focusing on each dimension — race, gender, and class — separately and independently.",
+      "Intersectionality claims that social identity is fixed from birth and cannot be changed by social, economic, or political forces."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately describes intersectionality: identity is shaped by overlapping factors and cannot be understood by examining them separately.",
+    "wrongReasons": [
+      "Option B elevates race as the primary factor, which contradicts the intersectional framework that treats all dimensions as interacting and none as singularly dominant.",
+      "Option C directly contradicts the original — it says examine each dimension separately, whereas intersectionality explicitly requires examining them together.",
+      "Option D introduces a claim about social identity being fixed from birth, which is not part of intersectionality theory as described."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "תיאוריית האינטרסקציונליות מדגישה שילוב של זהויות — לא ניתוח כל ממד בנפרד. ניסוח שמדרג גורמים ('גזע הוא ראשי') או מציע ניתוח נפרד — הופך את הרעיון.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-191",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The diffusion of responsibility in large groups — sometimes called the bystander effect — means that individuals are less likely to intervene in emergencies when others are present, each assuming someone else will act.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Larger groups of people are more likely to respond collectively to emergencies because shared responsibility motivates collective action.",
+      "When in a crowd, people are individually less inclined to help in an emergency because each person expects others in the group to take responsibility.",
+      "The bystander effect proves that individuals are naturally indifferent to the suffering of others, regardless of group size.",
+      "People are only reluctant to intervene in emergencies when they do not know the victim, regardless of how many others are present."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase accurately describes the bystander effect: presence of others reduces individual intervention because each person assumes someone else will act.",
+    "wrongReasons": [
+      "Option A directly inverts the effect — the original says groups reduce intervention; this option claims groups motivate collective action.",
+      "Option C overgeneralizes the mechanism — the original attributes reduced intervention to diffusion of responsibility, not to innate indifference; it also ignores the group size factor.",
+      "Option D adds a condition not in the original (knowing the victim) and misframes the cause — the original identifies group size and diffusion of responsibility, not victim familiarity."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מנגנון האפקט: נוכחות אחרים → פיזור אחריות → פחות נטייה לפעול. ניסוח שהופך לוגיקה זו לפעולה קולקטיבית גדולה יותר — הוא היפוך מלא.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-192",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Austerity policies implemented during economic downturns have been shown to exacerbate recessions by reducing aggregate demand at precisely the moment when it needs to be sustained.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Evidence suggests that spending cuts introduced during economic crises worsen recessions because they reduce total spending in the economy at the worst possible time.",
+      "Austerity policies are the most effective tools for ending recessions because they reduce government waste and stimulate private sector growth.",
+      "Economic downturns cause governments to implement austerity policies, which then restore aggregate demand to pre-recession levels.",
+      "Austerity policies improve economic conditions during recessions by encouraging consumers and businesses to increase their spending."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the mechanism: austerity cuts aggregate demand during recessions (when it needs support), thereby worsening the downturn.",
+    "wrongReasons": [
+      "Option B directly contradicts the original by claiming austerity is the most effective recession remedy — the original says it exacerbates recessions.",
+      "Option C reverses cause and effect — downturns cause austerity (partially accurate), but then falsely claims austerity restores aggregate demand (which contradicts the original).",
+      "Option D inverts the effect on spending — the original says austerity reduces aggregate demand; this option claims it encourages increased spending."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "המנגנון: מדיניות צנע → הפחתת ביקוש מצרפי → החרפת מיתון. כל ניסוח שמציג את הצנע כמרפא למיתון הופך לחלוטין את הטענה המחקרית.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-193",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The principle of subsidiarity holds that decisions should be made at the lowest possible level of governance capable of effectively addressing the issue at hand.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Subsidiarity means that the most local competent authority should handle decisions, rather than deferring to higher levels of government.",
+      "Subsidiarity requires that all governmental decisions be made at the national or federal level to ensure consistency.",
+      "The principle of subsidiarity argues that higher levels of government are always more capable of making effective decisions than local authorities.",
+      "Subsidiarity holds that issues should be decided by whichever level of government has the largest budget to address them."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately captures subsidiarity: decision-making at the lowest competent level, avoiding unnecessary centralization.",
+    "wrongReasons": [
+      "Option B inverts the principle entirely — subsidiarity favors local governance, not national or federal centralization.",
+      "Option C directly contradicts subsidiarity by claiming higher governance levels are 'always more capable,' which is the opposite of the principle's presumption in favor of lower levels.",
+      "Option D introduces a budget criterion not mentioned in the original — subsidiarity is about competence and level of governance, not financial resources."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "עקרון הסובסידיאריות: קבל החלטות ברמה הנמוכה ביותר שמסוגלת לטפל ביעילות. ניסוח שמציג ריכוזיות כתוצאה הרצויה הוא הפוך לחלוטין.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-194",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Structural racism manifests not only through overt discriminatory acts, but also through neutral-seeming policies and institutional practices whose cumulative effects disadvantage racial minorities.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Structural racism is expressed through explicit acts of discrimination and also through apparently neutral institutional policies that collectively harm racial minority groups.",
+      "Racism only counts as structural when it results from intentional and explicitly discriminatory laws or policies.",
+      "Neutral policies are by definition non-discriminatory and cannot contribute to racial inequality, regardless of their cumulative effects.",
+      "Institutional practices disadvantage racial minorities primarily because those minorities choose to engage less with existing institutions."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures both manifestations: overt discrimination and the cumulative effects of neutral-appearing policies and institutional practices.",
+    "wrongReasons": [
+      "Option B limits structural racism to intentional and explicit discrimination only — directly contradicting the original's point that neutral-seeming policies are also a form of structural racism.",
+      "Option C asserts that neutral policies cannot be discriminatory, which contradicts the core argument of the original sentence.",
+      "Option D introduces a choice-based explanation (minorities choose less engagement) that is not present in the original and shifts blame to the affected group."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הנקודה המרכזית: גזענות מבנית קיימת גם כאשר אין כוונה גלויה — מדיניות 'ניטרלית' לכאורה יכולה ליצור נזק מצטבר. ניסוח שדורש כוונה מפורשת כתנאי — מחמיץ את עיקר הטיעון.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-195",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The Overton window — the range of ideas considered politically acceptable at a given time — shifts as public discourse evolves, meaning that policies once deemed radical may eventually become mainstream.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The set of politically viable ideas changes over time with shifts in public debate, allowing formerly extreme policy positions to become widely accepted.",
+      "The Overton window is fixed and determines permanently which political ideas are acceptable, preventing radical ideas from ever becoming mainstream.",
+      "Public discourse is shaped entirely by the Overton window, which prevents any change in what is considered politically acceptable.",
+      "Once a political idea is labeled radical, it is permanently excluded from serious policy consideration regardless of future changes in public opinion."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase reflects the dynamic nature of the Overton window: it moves as public discourse shifts, enabling formerly radical ideas to become mainstream over time.",
+    "wrongReasons": [
+      "Option B directly contradicts the original by claiming the Overton window is fixed and permanent, while the original explicitly says it shifts.",
+      "Option C inverts the causal direction — it claims the window shapes discourse (rather than discourse shifting the window) and removes the possibility of change.",
+      "Option D contradicts the original's core claim that once-radical ideas can become mainstream, by stating they are permanently excluded."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "חלון אוברטון הוא דינמי — הוא זז עם הדיסקורס הציבורי. כל ניסוח שמציג אותו כקבוע ובלתי משתנה הופך את עיקר הרעיון.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-196",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Moral hazard arises when individuals or institutions, insulated from the full consequences of their actions by insurance or guarantees, take on excessive risk they would otherwise avoid.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "When people or organizations are protected from bearing the full costs of their choices — through insurance or similar safeguards — they tend to engage in riskier behavior than they would without that protection.",
+      "Moral hazard occurs when insurance companies take on excessive risk because individuals behave too cautiously.",
+      "Insurance and financial guarantees eliminate moral hazard by ensuring that individuals are fully accountable for their actions.",
+      "Moral hazard describes the tendency of individuals to avoid all risk-taking when they know they are not insured."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the mechanism: protection from consequences (insurance/guarantees) leads to excessive risk-taking that would not occur without that protection.",
+    "wrongReasons": [
+      "Option B performs a subject-object swap — the original says individuals/institutions take on risk, not insurance companies; and it reverses the risk-taking direction.",
+      "Option C directly contradicts the original by claiming insurance eliminates moral hazard, when the original says insurance causes moral hazard.",
+      "Option D inverts the behavioral response — the original says protection leads to more risk-taking, while this option says lack of insurance leads to risk avoidance."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מסוכן מוסרי (moral hazard) = כאשר ביטוח מגן עליך → אתה לוקח יותר סיכונים. ניסוח שטוען שהביטוח מבטל את הבעיה הוא היפוך מוחלט של המנגנון.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-197",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Narrative framing — the selection and emphasis of particular aspects of a story — significantly influences how audiences interpret events, often independently of the factual content presented.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "The facts presented in a story are always more influential than how the story is framed, making narrative choices largely irrelevant to audience interpretation.",
+      "The way in which information is selected and highlighted in storytelling strongly shapes how viewers or readers understand events, often separate from the actual facts involved.",
+      "Audiences are immune to narrative framing when they have access to complete factual information about an event.",
+      "Narrative framing affects interpretation only when the factual content of the story is inaccurate or misleading."
+    ],
+    "answer": 1,
+    "explanation": "The correct paraphrase accurately reflects that narrative framing (selection and emphasis) powerfully shapes interpretation independent of the underlying facts.",
+    "wrongReasons": [
+      "Option A contradicts the original by claiming facts are always more influential than framing — the original says framing influences interpretation 'often independently of factual content.'",
+      "Option C also contradicts the original by suggesting access to complete facts immunizes audiences from framing effects.",
+      "Option D adds a condition (inaccurate content) not present in the original — the original says framing affects interpretation even when factual content is accurately presented."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הביטוי 'often independently of factual content' הוא לב המשפט: פריימינג משפיע גם כאשר העובדות מדויקות. ניסוח שטוען שעובדות תמיד 'מנצחות' את הפריימינג — שגוי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-198",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Ecological tipping points are thresholds beyond which environmental systems undergo rapid, self-reinforcing changes that are exceedingly difficult to reverse, even if the original stressor is removed.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Once ecological systems cross certain critical thresholds, they enter accelerating change processes that remain extremely hard to undo, even after the cause of the stress is eliminated.",
+      "Removing the original environmental stressor always reverses the changes caused by crossing an ecological tipping point.",
+      "Ecological tipping points describe gradual, manageable changes in environmental systems that can be easily corrected through policy intervention.",
+      "Self-reinforcing environmental changes only occur in marine ecosystems, not in terrestrial or atmospheric systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures all key elements: threshold nature, rapid self-reinforcing change, and the difficulty of reversal even after the stressor is removed.",
+    "wrongReasons": [
+      "Option B directly contradicts 'exceedingly difficult to reverse' by claiming removal of the stressor 'always reverses' the changes.",
+      "Option C contradicts 'rapid' with 'gradual' and 'exceedingly difficult' with 'easily corrected,' negating the key descriptors.",
+      "Option D unjustifiably narrows the scope to marine ecosystems only, whereas the original discusses ecological systems broadly."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מנגנון: חצייה של סף → שינויים מהירים, מחזקים-עצמם → קשה מאוד להפוך — גם אם הגורם הוסר. כל ניסוח שמציג את ההפיכה כאפשרית בקלות שגוי.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-199",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The tragedy of the commons occurs when individuals, acting rationally in their own self-interest, collectively deplete a shared resource, leading to outcomes that are worse for everyone than if they had cooperated.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Individual rational self-interest, when pursued simultaneously by many actors sharing a common resource, leads to the collective destruction of that resource and worse outcomes for all involved.",
+      "The tragedy of the commons proves that individuals are inherently irrational when managing shared resources.",
+      "Shared resources are always better managed by individuals than by collective bodies or governments.",
+      "When individuals cooperate to manage common resources, they inevitably deplete them more quickly than if each person acts independently."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase captures the paradox: individually rational actions collectively produce irrational outcomes — depletion of shared resources that harms everyone.",
+    "wrongReasons": [
+      "Option B mischaracterizes the mechanism — the tragedy of the commons is caused by rational self-interest, not irrationality; calling individuals 'inherently irrational' contradicts the premise.",
+      "Option C adds an unsupported prescriptive conclusion about individual management being superior to collective management, which is not the claim of the original.",
+      "Option D inverts the condition — the original says cooperation prevents depletion; this option claims cooperation accelerates depletion, which is the opposite."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הפרדוקס: אנשים *רציונליים* (לא אי-רציונליים) גורמים להרס קולקטיבי. ניסוח שקורא לרציונליות 'אי-רציונליות' הופך את הרעיון. שיתוף פעולה — לפי המקור — הוא הפתרון, לא הגורם להרס.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "sb-rm-200",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Postcolonial theory interrogates how colonial power structures continue to shape contemporary cultural, political, and economic relations long after formal decolonization has occurred.\"\nWhich of the following best restates the meaning of the sentence above?",
+    "choices": [
+      "Postcolonial theory examines the persistent influence of colonial hierarchies on present-day cultural, political, and economic dynamics, even in nations that have formally achieved independence.",
+      "Postcolonial theory argues that formal decolonization has fully dismantled all colonial power structures and their effects on contemporary societies.",
+      "Colonial power structures affect only the economic relations of formerly colonized nations, having no lasting impact on cultural or political life.",
+      "Postcolonial theory focuses exclusively on historical events that occurred during the colonial period rather than on their contemporary consequences."
+    ],
+    "answer": 0,
+    "explanation": "The correct paraphrase accurately captures the field's focus: analyzing the ongoing influence of colonial structures across cultural, political, and economic domains, despite formal decolonization.",
+    "wrongReasons": [
+      "Option B directly contradicts the original — it claims formal decolonization has dismantled all colonial structures, whereas the original argues those structures persist long after.",
+      "Option C narrows the scope to economic relations only, excluding the cultural and political dimensions that the original explicitly includes.",
+      "Option D misrepresents postcolonial theory's focus — the original specifically says it examines contemporary relations shaped by colonialism, not historical events during the colonial period itself."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["paraphrase", "restatement", "reading-comprehension"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "תיאוריה פוסטקולוניאלית עוסקת בהשפעות *ממשיכות* של הקולוניאליזם — לא רק בהיסטוריה. ניסוח שטוען שהדאקולוניזציה ביטלה הכל, או שמגביל ל'תקופת הקולוניאליזם', מחמיץ את הנקודה המרכזית.",
+    "estimatedTimeSeconds": 60
+  }
+]

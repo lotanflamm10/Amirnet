@@ -1,0 +1,1923 @@
+{
+  "paraphrasing": [
+    {
+      "id": "p120",
+      "difficulty": "easy",
+      "text": "The brain consolidates memories during sleep.",
+      "choices": [
+        "Sleep helps the brain strengthen and organize memories.",
+        "The brain only forms new memories while asleep.",
+        "Sleep has no effect on memory formation.",
+        "Memories are erased during sleep."
+      ],
+      "answer": 0,
+      "explanation": "Choice A correctly restates that sleep is the period when the brain consolidates (strengthens and organizes) memories.",
+      "wrongReasons": [
+        "Choice B is incorrect; it says new memories are only formed during sleep, which is not the original claim.",
+        "Choice C reverses the meaning by saying sleep has no effect on memory.",
+        "Choice D distorts the meaning by claiming memories are erased during sleep."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p121",
+      "difficulty": "easy",
+      "text": "International aid organizations often struggle to coordinate their efforts in crisis zones.",
+      "choices": [
+        "International aid groups are generally absent from crisis zones.",
+        "Coordinating responses among international aid organizations in crisis zones is frequently difficult.",
+        "Aid organizations always work together seamlessly during crises.",
+        "Crisis zones rarely receive international aid."
+      ],
+      "answer": 1,
+      "explanation": "Choice B captures the idea that coordination among multiple aid organizations in crisis zones is frequently challenging, which matches the original sentence.",
+      "wrongReasons": [
+        "Choice A falsely claims aid organizations are absent from crisis zones.",
+        "Choice C contradicts the original by saying coordination is seamless.",
+        "Choice D changes the subject by claiming crises rarely receive aid, which was not stated."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p122",
+      "difficulty": "easy",
+      "text": "The architect designed the building to maximize natural light.",
+      "choices": [
+        "The building was designed by the architect with the goal of allowing as much natural light as possible.",
+        "The architect built the structure to block sunlight.",
+        "Natural light was incidental to the architect's design choices.",
+        "The architect prioritized artificial lighting over natural sources."
+      ],
+      "answer": 0,
+      "explanation": "Choice A preserves the meaning that the architect's deliberate goal was to maximize natural light in the building.",
+      "wrongReasons": [
+        "Choice B reverses the intent, stating the building was designed to block sunlight.",
+        "Choice C weakens the claim by suggesting natural light was merely incidental.",
+        "Choice D changes the priority, claiming artificial lighting was favored."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p123",
+      "difficulty": "easy",
+      "text": "Many immigrants maintain strong ties to their countries of origin.",
+      "choices": [
+        "Most immigrants sever all connections with their home countries.",
+        "Immigrants rarely feel attached to their homeland.",
+        "A significant number of immigrants keep close connections with their home countries.",
+        "Immigrants are required by law to maintain ties with their origin countries."
+      ],
+      "answer": 2,
+      "explanation": "Choice C restates that a large portion of immigrants continue to have strong connections with their home countries.",
+      "wrongReasons": [
+        "Choice A reverses the claim by saying immigrants sever all connections.",
+        "Choice B contradicts the original by implying immigrants rarely feel attached.",
+        "Choice D introduces a legal requirement that was never mentioned."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p124",
+      "difficulty": "easy",
+      "text": "The new dietary guidelines emphasize reducing added sugar intake.",
+      "choices": [
+        "Added sugar has been removed from all dietary guidelines.",
+        "The updated nutritional recommendations highlight the importance of limiting added sugar.",
+        "The dietary guidelines suggest increasing sugar consumption for energy.",
+        "Dietary guidelines no longer address sugar intake."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that the guidelines draw attention to the need to limit added sugar.",
+      "wrongReasons": [
+        "Choice A inaccurately says added sugar was removed from guidelines entirely.",
+        "Choice C reverses the message by suggesting sugar intake should increase.",
+        "Choice D falsely claims sugar is no longer addressed in guidelines."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p125",
+      "difficulty": "easy",
+      "text": "Climate negotiations often stall because developed and developing nations disagree on responsibility.",
+      "choices": [
+        "Climate talks frequently reach deadlock due to disputes between wealthier and poorer countries over who bears responsibility.",
+        "Developing nations are solely responsible for the failure of climate negotiations.",
+        "Climate negotiations always succeed when developing nations participate.",
+        "Developed nations consistently accept full responsibility in climate discussions."
+      ],
+      "answer": 0,
+      "explanation": "Choice A preserves the idea that disagreements between developed and developing countries over responsibility frequently cause climate negotiations to stall.",
+      "wrongReasons": [
+        "Choice B unfairly assigns sole responsibility to developing nations, which the original does not do.",
+        "Choice C contradicts the original by claiming negotiations always succeed.",
+        "Choice D distorts the original by saying developed nations accept full responsibility."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p126",
+      "difficulty": "easy",
+      "text": "The editorial board decided to publish the investigative report despite pressure from advertisers.",
+      "choices": [
+        "Advertiser pressure convinced the editorial board to suppress the investigative report.",
+        "The investigative report was never submitted to the editorial board.",
+        "Even though advertisers tried to prevent it, the editorial board chose to release the report.",
+        "The editorial board published the report because advertisers requested it."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly captures that the board published the report in spite of opposition from advertisers.",
+      "wrongReasons": [
+        "Choice A reverses the outcome, saying advertisers succeeded in suppressing the report.",
+        "Choice B introduces a false detail about the report's submission.",
+        "Choice D inverts the relationship, suggesting advertisers requested publication."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p127",
+      "difficulty": "easy",
+      "text": "Urban planners are increasingly incorporating green spaces into city designs.",
+      "choices": [
+        "City designers are removing green spaces to make room for buildings.",
+        "Green spaces are rarely considered in modern urban planning.",
+        "More and more urban planners are including parks and natural areas in their city plans.",
+        "Urban planners oppose the inclusion of natural spaces in cities."
+      ],
+      "answer": 2,
+      "explanation": "Choice C restates the original: urban planners are progressively including green spaces as part of city design.",
+      "wrongReasons": [
+        "Choice A reverses the trend by claiming green spaces are being removed.",
+        "Choice B contradicts the original by saying green spaces are rarely considered.",
+        "Choice D misrepresents planners as opposing green space inclusion."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p128",
+      "difficulty": "easy",
+      "text": "The ethical review committee rejected the research proposal on the grounds that it posed undue risks to participants.",
+      "choices": [
+        "The research proposal was approved after minor revisions to address participant safety.",
+        "The committee rejected the proposal because it judged the risks to participants to be excessive.",
+        "Participants objected to the research proposal, prompting the committee to cancel it.",
+        "The committee accepted the proposal despite concerns about participant safety."
+      ],
+      "answer": 1,
+      "explanation": "Choice B accurately restates that the committee's reason for rejection was that participant risks were considered excessive.",
+      "wrongReasons": [
+        "Choice A contradicts the outcome by saying the proposal was approved.",
+        "Choice C changes the agent of rejection from the committee to the participants.",
+        "Choice D inverts the decision, claiming the proposal was accepted despite safety concerns."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p129",
+      "difficulty": "easy",
+      "text": "Population ageing is placing increasing pressure on pension systems worldwide.",
+      "choices": [
+        "Pension systems are becoming more sustainable as populations age.",
+        "An older global population is putting growing strain on retirement funding systems.",
+        "Young populations are the primary source of stress on pension programs.",
+        "Pension systems are unaffected by demographic change."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that the trend of aging populations is causing growing strain on pension systems globally.",
+      "wrongReasons": [
+        "Choice A contradicts the original by claiming systems are becoming more sustainable.",
+        "Choice C changes the demographic factor from elderly to young populations.",
+        "Choice D claims pension systems are unaffected, which is the opposite of the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p130",
+      "difficulty": "easy",
+      "text": "The novel's narrator is unreliable, which forces readers to question the events described.",
+      "choices": [
+        "Because the narrator cannot be fully trusted, readers must doubt the accuracy of the story's events.",
+        "The novel has no narrator, so readers interpret events freely.",
+        "The narrator's reliability makes the story easy to follow.",
+        "Readers are encouraged to accept the narrator's account without question."
+      ],
+      "answer": 0,
+      "explanation": "Choice A preserves the causal link: the narrator's unreliability compels readers to question the depicted events.",
+      "wrongReasons": [
+        "Choice B changes the structure by saying the novel has no narrator.",
+        "Choice C inverts the quality from unreliable to reliable.",
+        "Choice D contradicts the original by urging uncritical acceptance of the narrator."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p131",
+      "difficulty": "easy",
+      "text": "Workplace stress is frequently linked to reduced productivity.",
+      "choices": [
+        "Stress at work is often associated with lower levels of output.",
+        "Workplace stress has no measurable effect on employee performance.",
+        "High productivity at work is a common cause of stress.",
+        "Workers rarely experience stress, so productivity remains unaffected."
+      ],
+      "answer": 0,
+      "explanation": "Choice A correctly restates the original association between workplace stress and diminished productivity.",
+      "wrongReasons": [
+        "Choice B negates the relationship, claiming stress has no effect on performance.",
+        "Choice C reverses causality, suggesting productivity causes stress.",
+        "Choice D downplays the prevalence of stress and its effect."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p132",
+      "difficulty": "easy",
+      "text": "Heritage conservation requires balancing preservation goals with community needs.",
+      "choices": [
+        "Preserving cultural heritage demands that communities sacrifice their needs entirely.",
+        "Community needs and preservation objectives must both be considered in heritage conservation.",
+        "Heritage conservation focuses exclusively on physical preservation of structures.",
+        "Community needs are secondary to preservation in heritage management."
+      ],
+      "answer": 1,
+      "explanation": "Choice B captures the balancing act required between preservation goals and community needs in heritage conservation.",
+      "wrongReasons": [
+        "Choice A exaggerates the sacrifice required from communities.",
+        "Choice C narrows the scope to only physical preservation, ignoring the community dimension.",
+        "Choice D implies hierarchy rather than balance between the two concerns."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p133",
+      "difficulty": "easy",
+      "text": "Economists argue that free trade increases overall welfare even when some sectors are harmed.",
+      "choices": [
+        "Economists believe free trade uniformly benefits every sector of the economy.",
+        "According to economists, free trade raises total welfare even if certain industries suffer.",
+        "Economists oppose free trade because it harms specific economic sectors.",
+        "Free trade is considered harmful to overall welfare by most economists."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves the nuance that overall welfare rises despite harm to specific sectors, which matches the original.",
+      "wrongReasons": [
+        "Choice A drops the qualification by claiming benefits are uniform across sectors.",
+        "Choice C inverts the economists' position from support to opposition.",
+        "Choice D completely reverses the conclusion about the effect on overall welfare."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p134",
+      "difficulty": "easy",
+      "text": "Neuroscientists have found that the prefrontal cortex plays a key role in decision-making.",
+      "choices": [
+        "Decision-making has been found by neuroscientists to rely heavily on the prefrontal cortex.",
+        "Neuroscientists believe the prefrontal cortex is irrelevant to decision-making.",
+        "The prefrontal cortex was recently discovered by neuroscientists for the first time.",
+        "Decision-making occurs independently of any particular brain region, according to neuroscientists."
+      ],
+      "answer": 0,
+      "explanation": "Choice A correctly restates that neuroscientific research shows the prefrontal cortex is centrally involved in decision-making.",
+      "wrongReasons": [
+        "Choice B contradicts the finding by claiming the region is irrelevant.",
+        "Choice C misrepresents the research as discovering the region itself, not its role.",
+        "Choice D contradicts the original by dismissing the role of specific brain regions."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p135",
+      "difficulty": "easy",
+      "text": "Media coverage of elections can shape voter perceptions even before polls open.",
+      "choices": [
+        "Voters form their opinions independently of media coverage during elections.",
+        "Media coverage during elections becomes relevant only after voting has occurred.",
+        "Election reporting in the media is capable of influencing how voters perceive candidates before voting begins.",
+        "Media coverage has no effect on public opinion in electoral campaigns."
+      ],
+      "answer": 2,
+      "explanation": "Choice C accurately restates that pre-election media coverage has the potential to shape voter perceptions.",
+      "wrongReasons": [
+        "Choice A contradicts the original by claiming voter opinions are formed independently of media.",
+        "Choice B misplaces the timing, claiming media relevance is only post-election.",
+        "Choice D denies any media influence on public opinion."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p136",
+      "difficulty": "easy",
+      "text": "Public sector employees often report lower job satisfaction than their private sector counterparts.",
+      "choices": [
+        "Private sector employees are frequently dissatisfied with their jobs compared to public sector workers.",
+        "Government workers tend to report less job satisfaction than employees in the private sector.",
+        "Job satisfaction is the same across public and private sector workers.",
+        "Public sector employees never experience job satisfaction."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that public sector workers tend to report lower job satisfaction relative to private sector employees.",
+      "wrongReasons": [
+        "Choice A reverses the comparison, claiming private sector employees are more dissatisfied.",
+        "Choice C eliminates the difference between the two groups.",
+        "Choice D exaggerates the claim by saying public workers never experience satisfaction."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p137",
+      "difficulty": "easy",
+      "text": "The discovery of new antibiotics has slowed dramatically over recent decades.",
+      "choices": [
+        "New antibiotics are being discovered at a faster rate than ever before.",
+        "The pace of antibiotic discovery has decreased significantly in recent decades.",
+        "Antibiotics are no longer considered necessary by the medical community.",
+        "Researchers have completely abandoned efforts to discover new antibiotics."
+      ],
+      "answer": 1,
+      "explanation": "Choice B accurately restates that the rate at which new antibiotics are discovered has slowed notably in recent decades.",
+      "wrongReasons": [
+        "Choice A contradicts the original by claiming discovery is accelerating.",
+        "Choice C introduces the unrelated claim that antibiotics are no longer necessary.",
+        "Choice D exaggerates by saying research has been completely abandoned."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p138",
+      "difficulty": "easy",
+      "text": "The government allocated additional funds to rural infrastructure development.",
+      "choices": [
+        "Extra funding was provided by the government for developing infrastructure in rural areas.",
+        "The government redirected funds away from rural infrastructure to urban projects.",
+        "Rural infrastructure funding was cut by the government.",
+        "The government studied rural infrastructure without providing any funds."
+      ],
+      "answer": 0,
+      "explanation": "Choice A preserves the meaning that the government provided more money specifically for rural infrastructure development.",
+      "wrongReasons": [
+        "Choice B reverses the flow of funds, suggesting money was moved away from rural areas.",
+        "Choice C contradicts the original by stating funds were cut.",
+        "Choice D changes the action from funding to study without any allocation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p139",
+      "difficulty": "easy",
+      "text": "Literary critics have long debated whether authorial intention should determine textual meaning.",
+      "choices": [
+        "There is longstanding disagreement among literary critics about whether what an author intended should define a text's meaning.",
+        "Literary critics universally agree that authorial intention determines the meaning of a text.",
+        "Authors are generally unaware of the meaning of their own works.",
+        "Textual meaning is widely considered irrelevant by contemporary literary critics."
+      ],
+      "answer": 0,
+      "explanation": "Choice A correctly restates the long-running debate in literary criticism over the role of authorial intention in determining meaning.",
+      "wrongReasons": [
+        "Choice B replaces debate with universal agreement, inverting the premise.",
+        "Choice C introduces the unsupported claim that authors are unaware of their work's meaning.",
+        "Choice D misrepresents critics as viewing textual meaning as irrelevant."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p140",
+      "difficulty": "easy",
+      "text": "Deforestation accelerates soil erosion and reduces local biodiversity.",
+      "choices": [
+        "Clearing forests speeds up the loss of topsoil and diminishes the variety of species in an area.",
+        "Deforestation improves soil quality and increases biodiversity.",
+        "Soil erosion is unrelated to deforestation in most regions.",
+        "Deforestation primarily affects ocean ecosystems, not local biodiversity."
+      ],
+      "answer": 0,
+      "explanation": "Choice A correctly restates that deforestation causes faster soil erosion and decreases local species diversity.",
+      "wrongReasons": [
+        "Choice B reverses both effects, claiming improvements in soil and biodiversity.",
+        "Choice C denies the connection between deforestation and soil erosion.",
+        "Choice D changes the ecosystem affected from local to oceanic."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p141",
+      "difficulty": "easy",
+      "text": "Migration patterns are influenced by both economic opportunity and political instability.",
+      "choices": [
+        "People migrate solely due to political instability in their home countries.",
+        "Economic opportunity is the only driver of migration patterns globally.",
+        "Migration is shaped by a combination of economic prospects and political conditions.",
+        "Political stability and economic decline together discourage migration."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates that migration is driven by both economic opportunity and political instability together.",
+      "wrongReasons": [
+        "Choice A reduces the cause to political instability alone, omitting the economic factor.",
+        "Choice B reduces the cause to economic opportunity alone, omitting the political factor.",
+        "Choice D changes the relationship to one of discouragement by stability and decline."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p142",
+      "difficulty": "easy",
+      "text": "Cognitive biases can lead individuals to make systematically flawed decisions.",
+      "choices": [
+        "Decision-making errors caused by cognitive biases are random and unpredictable.",
+        "Individuals who are aware of cognitive biases never make poor decisions.",
+        "Cognitive biases can cause people to make consistently poor judgments.",
+        "Decision-making is unaffected by mental biases in most individuals."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the idea that cognitive biases cause people to make decisions that are flawed in a consistent, systematic way.",
+      "wrongReasons": [
+        "Choice A misrepresents the errors as random rather than systematic.",
+        "Choice B introduces an unsupported exception for aware individuals.",
+        "Choice D denies the effect of cognitive biases on decision-making."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p143",
+      "difficulty": "easy",
+      "text": "Philosophers have long questioned whether moral truths are universal or culturally relative.",
+      "choices": [
+        "It is widely agreed among philosophers that moral truths are universal.",
+        "The question of whether moral standards apply to all cultures equally or vary by culture has been a persistent subject of philosophical inquiry.",
+        "Philosophers have recently discovered that moral truths are entirely subjective.",
+        "Cultural relativism has been rejected by most modern philosophers."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates the longstanding philosophical debate between universal and culturally relative moral truths.",
+      "wrongReasons": [
+        "Choice A replaces debate with consensus, claiming universalism is agreed upon.",
+        "Choice C presents subjective morality as a recent discovery rather than a longstanding debate.",
+        "Choice D makes an unsupported factual claim about philosophical consensus."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p144",
+      "difficulty": "easy",
+      "text": "High-rise buildings in dense urban areas often rely on passive ventilation strategies to reduce energy consumption.",
+      "choices": [
+        "Tall buildings in crowded cities frequently use natural airflow systems to lower energy use.",
+        "Passive ventilation is only effective in low-rise buildings, not high-rises.",
+        "High-rise buildings avoid passive ventilation in favor of mechanical systems.",
+        "Energy consumption in high-rise buildings is unrelated to ventilation strategies."
+      ],
+      "answer": 0,
+      "explanation": "Choice A correctly restates that tall urban buildings frequently employ passive (natural) ventilation as a strategy to cut energy use.",
+      "wrongReasons": [
+        "Choice B reverses the applicability, claiming passive ventilation works only in low-rises.",
+        "Choice C contradicts the original by claiming high-rises avoid passive ventilation.",
+        "Choice D denies any connection between ventilation and energy consumption."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p145",
+      "difficulty": "medium",
+      "text": "Although neuroplasticity declines with age, the adult brain retains a meaningful capacity for adaptation.",
+      "choices": [
+        "The adult brain loses all capacity for adaptation as neuroplasticity diminishes with age.",
+        "Neuroplasticity is greatest in adults, enabling significant adaptation throughout life.",
+        "Despite reduced neuroplasticity in older individuals, the adult brain can still adapt to a considerable degree.",
+        "The adult brain adapts only under extreme conditions, regardless of neuroplasticity."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the concessive structure: neuroplasticity decreases with age, but adult brains still retain a significant adaptive capacity.",
+      "wrongReasons": [
+        "Choice A removes the concession, claiming all adaptive capacity is lost.",
+        "Choice B inverts the claim, saying neuroplasticity is greatest in adults.",
+        "Choice D introduces an unsupported condition (extreme circumstances) not present in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p146",
+      "difficulty": "medium",
+      "text": "International development organizations have shifted from top-down aid delivery toward community-led approaches.",
+      "choices": [
+        "Development organizations are increasingly abandoning community involvement in favor of centralized aid models.",
+        "Global development bodies now favor locally driven methods over approaches directed from above.",
+        "Community-led development approaches have been universally rejected by international organizations.",
+        "International organizations have always prioritized community-led development over top-down aid."
+      ],
+      "answer": 1,
+      "explanation": "Choice B captures the directional shift from externally directed (top-down) aid toward locally driven (community-led) approaches.",
+      "wrongReasons": [
+        "Choice A reverses the direction of the shift, claiming a move back toward centralized models.",
+        "Choice C contradicts the shift by claiming community-led approaches have been rejected.",
+        "Choice D misrepresents the change as a longstanding constant rather than a shift."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p147",
+      "difficulty": "medium",
+      "text": "Carbon pricing mechanisms, while economically efficient, are politically difficult to implement.",
+      "choices": [
+        "Carbon pricing is politically easy to implement because of its economic efficiency.",
+        "Carbon pricing is neither economically sound nor politically feasible.",
+        "Although carbon pricing offers economic efficiency advantages, it faces significant political obstacles.",
+        "Carbon pricing mechanisms are economically inefficient but are often adopted for political reasons."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves both aspects: carbon pricing is economically efficient, but implementation is politically challenging.",
+      "wrongReasons": [
+        "Choice A inverts the political difficulty, claiming efficiency makes it easy to implement.",
+        "Choice B negates both attributes, calling it neither economically sound nor politically feasible.",
+        "Choice D reverses the attributes, claiming inefficiency and political motivation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p148",
+      "difficulty": "medium",
+      "text": "Investigative journalism serves a democratic function by holding powerful institutions accountable.",
+      "choices": [
+        "Investigative journalism undermines democracy by exposing powerful institutions unnecessarily.",
+        "Powerful institutions rely on investigative journalism to improve their accountability.",
+        "Journalism's role in democracy is limited to reporting facts without commentary.",
+        "By exposing the conduct of powerful institutions, investigative journalism fulfills a role essential to democracy."
+      ],
+      "answer": 3,
+      "explanation": "Choice D preserves the democratic function of investigative journalism through accountability of powerful institutions.",
+      "wrongReasons": [
+        "Choice A reverses the relationship, framing investigative journalism as undermining democracy.",
+        "Choice B changes the agent, suggesting institutions rely on journalism rather than being held accountable by it.",
+        "Choice C narrows journalism's role to factual reporting, excluding its accountability function."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p149",
+      "difficulty": "medium",
+      "text": "The Baroque architectural style is characterized by elaborate ornamentation and dramatic use of light.",
+      "choices": [
+        "Baroque architecture is defined by its simplicity and understated use of natural light.",
+        "Elaborate decorative detail and striking contrasts of light are hallmarks of the Baroque style.",
+        "Light and ornamentation were deliberately avoided in Baroque architectural design.",
+        "Baroque architecture emerged as a reaction against the dramatic use of light in earlier styles."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly identifies elaborate ornamentation and dramatic lighting as the defining features of Baroque architecture.",
+      "wrongReasons": [
+        "Choice A inverts both characteristics, claiming simplicity and understatement.",
+        "Choice C contradicts the original by saying light and ornamentation were avoided.",
+        "Choice D misframes Baroque as a reaction against dramatic lighting."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p150",
+      "difficulty": "medium",
+      "text": "Administrative reforms that lack frontline staff buy-in are unlikely to succeed in practice.",
+      "choices": [
+        "Reforms requiring staff support are impossible to implement in large organizations.",
+        "Frontline staff are indifferent to administrative reforms regardless of the outcomes.",
+        "In practice, administrative reforms that do not have the support of those implementing them tend to fail.",
+        "Administrative reforms succeed most often when they are imposed from above without staff consultation."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates that reforms without support from frontline implementers tend to fail in practice.",
+      "wrongReasons": [
+        "Choice A overstates by claiming such reforms are impossible, not just unlikely.",
+        "Choice B claims staff are indifferent, which is a different claim from lacking buy-in.",
+        "Choice D reverses the original by suggesting top-down imposition leads to success."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p151",
+      "difficulty": "medium",
+      "text": "Epidemiological studies indicate that diet quality is a stronger predictor of chronic disease than caloric intake alone.",
+      "choices": [
+        "Research on population health suggests that the overall quality of one's diet predicts chronic disease risk better than the number of calories consumed.",
+        "Epidemiological studies show that caloric intake is a better predictor of chronic disease than diet quality.",
+        "Diet and caloric intake are equally strong predictors of chronic disease in epidemiological research.",
+        "Chronic diseases cannot be predicted by diet-related factors, according to epidemiologists."
+      ],
+      "answer": 0,
+      "explanation": "Choice A preserves the comparative claim that diet quality is a stronger predictor of chronic disease than caloric intake alone.",
+      "wrongReasons": [
+        "Choice B reverses the comparison, claiming caloric intake is the stronger predictor.",
+        "Choice C removes the difference, claiming both factors are equally predictive.",
+        "Choice D denies any predictive relationship between diet and chronic disease."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p152",
+      "difficulty": "medium",
+      "text": "Cultural heritage sites are vulnerable to both deliberate destruction and unintended damage from tourism.",
+      "choices": [
+        "Cultural heritage sites face risks from intentional destruction as well as unintentional harm caused by tourists.",
+        "Tourism is the primary cause of deliberate destruction at cultural heritage sites.",
+        "Heritage sites are protected from tourist damage but remain at risk of deliberate attack.",
+        "Deliberate destruction of heritage sites is more common than damage caused by tourism."
+      ],
+      "answer": 0,
+      "explanation": "Choice A correctly identifies both sources of vulnerability: intentional destruction and unintentional tourist-related damage.",
+      "wrongReasons": [
+        "Choice B conflates tourism with deliberate destruction, misrepresenting both causes.",
+        "Choice C falsely claims tourists do not damage heritage sites.",
+        "Choice D makes an unsupported comparative claim about frequency."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p153",
+      "difficulty": "medium",
+      "text": "The concept of diminishing marginal returns suggests that adding more of one input eventually yields smaller additional gains.",
+      "choices": [
+        "Diminishing marginal returns implies that adding inputs steadily increases overall output without limit.",
+        "Beyond a certain point, each additional unit of input contributes less to output than the previous one, according to the principle of diminishing marginal returns.",
+        "Diminishing marginal returns applies only when multiple inputs are increased simultaneously.",
+        "The principle of diminishing marginal returns holds that output declines immediately upon adding any new input."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates the principle: successive additions of one input produce progressively smaller incremental output gains.",
+      "wrongReasons": [
+        "Choice A contradicts the principle by implying unlimited growth with added inputs.",
+        "Choice C incorrectly restricts the principle to simultaneous input increases.",
+        "Choice D overstates by claiming output declines immediately upon any addition."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p154",
+      "difficulty": "medium",
+      "text": "The working memory model proposes that short-term memory involves multiple specialized components rather than a single unified store.",
+      "choices": [
+        "According to the working memory model, short-term memory is a single unified system.",
+        "Working memory research shows that short-term memory functions have no separable components.",
+        "The working memory model suggests that short-term memory is composed of several distinct subsystems rather than one integrated unit.",
+        "Short-term memory was found to be identical to long-term memory by working memory researchers."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly captures the working memory model's claim that short-term memory involves multiple specialized subsystems rather than one store.",
+      "wrongReasons": [
+        "Choice A contradicts the model by claiming short-term memory is a single unified system.",
+        "Choice B agrees with the unified-store view that the model refutes.",
+        "Choice D conflates short-term and long-term memory, which are distinct in the model."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p155",
+      "difficulty": "medium",
+      "text": "Refugee resettlement programs are most effective when they include language support, vocational training, and community integration services.",
+      "choices": [
+        "Refugee resettlement works best when it focuses solely on providing language instruction.",
+        "The success of refugee resettlement depends on a comprehensive package that includes linguistic, occupational, and social integration support.",
+        "Language and vocational training are less important than housing in refugee resettlement programs.",
+        "Refugee resettlement programs are effective regardless of the services they provide."
+      ],
+      "answer": 1,
+      "explanation": "Choice B restates the multifaceted requirement: language, vocational, and community integration support together determine effectiveness.",
+      "wrongReasons": [
+        "Choice A reduces the requirement to language instruction alone, omitting the other components.",
+        "Choice C introduces housing as a primary factor, which the original does not mention.",
+        "Choice D removes the conditionality, claiming effectiveness is guaranteed regardless of services."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p156",
+      "difficulty": "medium",
+      "text": "Phenomenology, as developed by Husserl, focuses on describing the structures of conscious experience as they appear to the subject.",
+      "choices": [
+        "Husserl's phenomenology seeks to analyze consciousness from an external, objective standpoint.",
+        "As Husserl conceived it, phenomenology is concerned with mapping the structures of experience from the perspective of the experiencing subject.",
+        "Husserl argued that conscious experience is inaccessible to philosophical analysis.",
+        "Phenomenology as developed by Husserl focuses on the physical causes of conscious experience."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates Husserlian phenomenology as an investigation into the structure of experience from the subject's first-person perspective.",
+      "wrongReasons": [
+        "Choice A contradicts the subjective orientation of phenomenology by claiming it is external and objective.",
+        "Choice C inverts Husserl's project by claiming experience is inaccessible to analysis.",
+        "Choice D misrepresents phenomenology as studying physical causes rather than experiential structures."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p157",
+      "difficulty": "medium",
+      "text": "Post-colonial literary theory challenges the idea that Western literary canons represent universal aesthetic standards.",
+      "choices": [
+        "Post-colonial theory confirms that Western literary canons establish valid universal aesthetic norms.",
+        "Literary canons across all cultures are challenged equally by post-colonial theory.",
+        "Post-colonial literary scholarship contests the claim that standards derived from Western literary traditions are universally applicable.",
+        "Post-colonial theory focuses exclusively on economic dimensions of colonialism, not on aesthetics."
+      ],
+      "answer": 2,
+      "explanation": "Choice C accurately restates the post-colonial challenge to the universality of Western aesthetic standards in literary canons.",
+      "wrongReasons": [
+        "Choice A affirms the universality that post-colonial theory contests.",
+        "Choice B broadens the critique to all cultural canons equally, which is not the specific post-colonial claim.",
+        "Choice D shifts the focus from aesthetics to economics, misrepresenting the theory's scope."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p158",
+      "difficulty": "medium",
+      "text": "Transparency in public administration is considered essential for maintaining citizen trust.",
+      "choices": [
+        "Public administrators believe transparency undermines citizen confidence in government.",
+        "Openness in government operations is widely regarded as necessary to sustain public trust.",
+        "Citizen trust in government is unrelated to administrative transparency.",
+        "Transparency in public administration is regarded as a desirable but ultimately optional quality."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves the claim that transparency in public administration is seen as essential to maintaining trust among citizens.",
+      "wrongReasons": [
+        "Choice A inverts the relationship, claiming transparency undermines confidence.",
+        "Choice C denies the connection between transparency and trust.",
+        "Choice D weakens the necessity by calling transparency optional rather than essential."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p159",
+      "difficulty": "medium",
+      "text": "The rise of social media has fragmented the audience for traditional news outlets.",
+      "choices": [
+        "Social media has unified audiences around traditional news sources.",
+        "Traditional news outlets have been strengthened by the growth of social media platforms.",
+        "The expansion of social media has divided up the readership and viewership that traditional news organizations once commanded.",
+        "Traditional news audiences have grown as a result of competition from social media."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates that the growth of social media has divided or dispersed the audience previously concentrated in traditional news outlets.",
+      "wrongReasons": [
+        "Choice A contradicts the fragmentation by claiming social media has unified audiences.",
+        "Choice B reverses the effect, claiming traditional outlets have been strengthened.",
+        "Choice D also contradicts the original by suggesting audiences have grown."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p160",
+      "difficulty": "medium",
+      "text": "Intergenerational wealth transfer contributes to the persistence of economic inequality across generations.",
+      "choices": [
+        "Economic inequality is eliminated when wealth is transferred between generations.",
+        "The passing of wealth from one generation to the next helps sustain economic disparities over time.",
+        "Intergenerational wealth transfer primarily benefits lower-income households.",
+        "Economic inequality is caused entirely by intergenerational wealth transfer."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly identifies intergenerational wealth transfer as a contributing factor to the continuation of economic inequality across generations.",
+      "wrongReasons": [
+        "Choice A reverses the effect, claiming inequality is eliminated by wealth transfer.",
+        "Choice C misidentifies the primary beneficiary as lower-income households.",
+        "Choice D exaggerates by claiming wealth transfer is the sole cause of inequality."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p161",
+      "difficulty": "medium",
+      "text": "The principle of subsidiarity holds that decisions should be made at the lowest level of governance capable of addressing the issue.",
+      "choices": [
+        "Subsidiarity requires that all governance decisions be made at the national level.",
+        "According to subsidiarity, governance decisions should be delegated to the highest authority available.",
+        "The subsidiarity principle states that governance should operate at the most local level that can effectively handle the matter.",
+        "Subsidiarity eliminates the need for higher levels of government in a federal system."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the core of subsidiarity: decisions belong at the lowest governance level that is capable of handling them effectively.",
+      "wrongReasons": [
+        "Choice A restricts decision-making to the national level, contradicting the principle's preference for lower levels.",
+        "Choice B reverses the direction, favoring the highest authority rather than the lowest capable one.",
+        "Choice D exaggerates by eliminating higher governance levels entirely."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p162",
+      "difficulty": "medium",
+      "text": "Urban heat islands develop when built surfaces absorb and retain more heat than surrounding rural areas.",
+      "choices": [
+        "Urban heat islands form because rural areas generate more heat than cities.",
+        "Built surfaces in cities trap more heat than rural environments, giving rise to urban heat islands.",
+        "Urban heat islands are caused by higher levels of air pollution rather than surface absorption.",
+        "Rural areas experience higher temperatures than cities because of urban heat island effects."
+      ],
+      "answer": 1,
+      "explanation": "Choice B accurately restates the causal mechanism: built urban surfaces absorb and retain more heat, producing urban heat islands.",
+      "wrongReasons": [
+        "Choice A reverses the direction, claiming rural areas generate more heat.",
+        "Choice C substitutes air pollution as the cause rather than surface heat absorption.",
+        "Choice D inverts the temperature comparison, claiming rural areas are hotter."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p163",
+      "difficulty": "medium",
+      "text": "Critics of globalization argue that it erodes national sovereignty by transferring regulatory power to supranational bodies.",
+      "choices": [
+        "Supporters of globalization maintain that national sovereignty is strengthened by supranational regulatory bodies.",
+        "According to critics of globalization, the shift of regulatory authority to international institutions weakens the power of nation-states.",
+        "Globalization critics focus only on cultural erosion, not on political sovereignty.",
+        "Supranational regulatory bodies have strengthened national governance, according to globalization critics."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves the critics' argument that moving regulatory power to supranational bodies reduces national sovereignty.",
+      "wrongReasons": [
+        "Choice A switches from critics to supporters and reverses the claimed effect.",
+        "Choice C narrows the critique to culture only, ignoring the political sovereignty dimension.",
+        "Choice D reverses the critics' position, attributing a strengthening effect to supranational bodies."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p164",
+      "difficulty": "medium",
+      "text": "The gut microbiome influences not only digestive health but also immune function and mental well-being.",
+      "choices": [
+        "The gut microbiome affects digestion only and has no impact on immunity or mental health.",
+        "Mental well-being is the primary area affected by the gut microbiome, followed by digestion.",
+        "The gut microbiome has effects that extend beyond digestion to encompass immune responses and psychological states.",
+        "Immune function and mental well-being are shaped by the gut microbiome, but digestive health is not."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly captures that the gut microbiome's influence extends beyond digestive health to include immunity and mental well-being.",
+      "wrongReasons": [
+        "Choice A limits the microbiome's effect to digestion, contradicting the broader claim.",
+        "Choice B misrepresents the relative emphasis, prioritizing mental well-being above digestion.",
+        "Choice D excludes digestive health from the microbiome's influence, contradicting the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p165",
+      "difficulty": "medium",
+      "text": "Behavioral economics challenges the assumption that individuals always act as rational, self-interested agents.",
+      "choices": [
+        "Behavioral economics confirms that people consistently behave as rational and self-interested actors.",
+        "Behavioral economics questions whether people reliably act in a rational, self-interested manner.",
+        "Traditional economics, unlike behavioral economics, assumes that individuals are irrational.",
+        "Behavioral economics focuses solely on group behavior rather than individual decision-making."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly captures the behavioral economics challenge to the rationality and self-interest assumptions of standard economics.",
+      "wrongReasons": [
+        "Choice A confirms the very assumption that behavioral economics challenges.",
+        "Choice C misattributes the irrationality assumption to traditional economics.",
+        "Choice D shifts focus from individual to group behavior, misrepresenting the field."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p166",
+      "difficulty": "medium",
+      "text": "Access to clean water remains unequally distributed across the global south, with rural populations disproportionately affected.",
+      "choices": [
+        "Clean water access is now uniformly distributed in the global south due to recent development efforts.",
+        "Rural populations in the global south face a heavier burden than urban ones when it comes to unequal access to clean water.",
+        "Urban populations in the global south have less access to clean water than rural communities.",
+        "The unequal distribution of clean water in the global south affects all populations equally."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that rural populations are disproportionately affected by the unequal distribution of clean water in the global south.",
+      "wrongReasons": [
+        "Choice A contradicts the original by claiming distribution is now uniform.",
+        "Choice C reverses which population is more affected, claiming urban populations suffer more.",
+        "Choice D removes the disproportionate impact by claiming all groups are equally affected."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p167",
+      "difficulty": "medium",
+      "text": "Deliberate practice, rather than mere repetition, is what drives expert-level skill acquisition.",
+      "choices": [
+        "Any form of repetition is sufficient to develop expert-level skills over time.",
+        "Expert skill is primarily the product of innate talent rather than practice.",
+        "Reaching expert levels of skill depends on intentional, goal-directed practice, not simply repeating a task.",
+        "Deliberate practice and repetition are equivalent in their effects on skill development."
+      ],
+      "answer": 2,
+      "explanation": "Choice C captures the key distinction: deliberate, intentional practice—not mere repetition—is what produces expert skill.",
+      "wrongReasons": [
+        "Choice A equates repetition with deliberate practice, erasing the distinction the original draws.",
+        "Choice B shifts the cause from practice to innate talent, which is not in the original.",
+        "Choice D claims the two forms of practice are equivalent, which contradicts the original's contrast."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p168",
+      "difficulty": "medium",
+      "text": "Language policy in multilingual states often reflects underlying tensions between national unity and minority rights.",
+      "choices": [
+        "In multilingual countries, language policy is usually designed to protect minority rights at the expense of national unity.",
+        "Multilingual states typically resolve language tensions through neutral policy frameworks.",
+        "Language policy in countries with multiple linguistic communities often embodies the conflict between preserving a unified national identity and protecting minority linguistic rights.",
+        "Language tensions in multilingual states are unrelated to official language policy."
+      ],
+      "answer": 2,
+      "explanation": "Choice C accurately restates that language policy in multilingual states often embodies the tension between national unity and minority rights.",
+      "wrongReasons": [
+        "Choice A presents policy as favoring minority rights at the expense of unity, which is one-sided.",
+        "Choice B claims tensions are typically resolved, contradicting the idea of ongoing tension.",
+        "Choice D severs the connection between language policy and the underlying tensions."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p169",
+      "difficulty": "medium",
+      "text": "Architectural conservation involves not only restoring physical fabric but also preserving the historical associations of a place.",
+      "choices": [
+        "Architectural conservation is primarily concerned with the physical restoration of buildings and does not extend to historical associations.",
+        "Preserving historical memories associated with a place is more important than its physical restoration in architectural conservation.",
+        "Architectural conservation encompasses both the physical restoration of structures and the maintenance of their historical significance.",
+        "Historical associations of a place are automatically preserved whenever physical restoration is carried out."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly captures both dimensions of architectural conservation: physical restoration and preservation of historical associations.",
+      "wrongReasons": [
+        "Choice A limits conservation to physical restoration only, omitting the historical dimension.",
+        "Choice B creates a hierarchy that prioritizes historical associations over physical restoration, which the original does not do.",
+        "Choice D implies a causal guarantee that historical associations are preserved through physical restoration, which overstates the relationship."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p170",
+      "difficulty": "medium",
+      "text": "Climate adaptation strategies must account for the heightened vulnerability of low-income communities.",
+      "choices": [
+        "Low-income communities should develop their own climate adaptation strategies independently.",
+        "Effective climate adaptation planning must incorporate the greater exposure to climate risks faced by poorer communities.",
+        "Climate adaptation is most necessary in wealthy communities, where infrastructure is most complex.",
+        "Low-income communities are no more vulnerable to climate impacts than wealthier ones."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that climate adaptation plans need to take into account the heightened vulnerability of low-income communities.",
+      "wrongReasons": [
+        "Choice A changes the subject from planners to low-income communities acting independently.",
+        "Choice C reverses the vulnerability claim, focusing on wealthy communities.",
+        "Choice D contradicts the original by claiming equal vulnerability across income levels."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p171",
+      "difficulty": "medium",
+      "text": "The narrative structure of a novel can itself serve as a form of argument, shaping the reader's interpretation of events.",
+      "choices": [
+        "A novel's narrative structure is purely aesthetic and has no bearing on how readers interpret its events.",
+        "In novels, arguments are always made explicitly by characters rather than through narrative structure.",
+        "The way a novel is structured narratively can function as an implicit argument that guides the reader's reading of events.",
+        "Narrative structure affects all genres of writing equally in terms of shaping reader interpretation."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the idea that narrative structure can function as an implicit argument that shapes how readers interpret the events of a novel.",
+      "wrongReasons": [
+        "Choice A denies that structure has any interpretive effect on the reader.",
+        "Choice B limits argument to explicit character dialogue, ignoring structural argument.",
+        "Choice D broadens the claim to all genres equally, which is beyond the scope of the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p172",
+      "difficulty": "medium",
+      "text": "Many economists argue that a universal basic income would reduce poverty without necessarily discouraging work.",
+      "choices": [
+        "Economists broadly agree that a universal basic income would eliminate poverty entirely.",
+        "A universal basic income is argued by a number of economists to alleviate poverty while not inevitably reducing workforce participation.",
+        "Universal basic income proposals are opposed by most economists on the grounds that they discourage work.",
+        "Reducing poverty and maintaining work incentives are considered incompatible goals by many economists."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves the dual claim that a UBI could reduce poverty and that work disincentives are not necessarily a consequence.",
+      "wrongReasons": [
+        "Choice A exaggerates from 'reduce poverty' to 'eliminate poverty entirely' and removes the qualification.",
+        "Choice C reverses the economists' position from support to opposition based on work disincentives.",
+        "Choice D presents these goals as incompatible, contrary to the argument made in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p173",
+      "difficulty": "medium",
+      "text": "The spread of disinformation online is partly attributable to the algorithmic amplification of emotionally engaging content.",
+      "choices": [
+        "Online disinformation is spread exclusively by malicious actors rather than through algorithmic processes.",
+        "Emotionally engaging content is always accurate and therefore not a source of disinformation.",
+        "Algorithms that promote emotionally resonant material contribute to the propagation of false information online.",
+        "Algorithmic amplification helps combat disinformation by directing users to verified content."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates that algorithms favoring emotionally engaging content play a role in spreading disinformation online.",
+      "wrongReasons": [
+        "Choice A attributes disinformation spread solely to malicious actors, ignoring the algorithmic dimension.",
+        "Choice B falsely claims emotional content is always accurate.",
+        "Choice D reverses the algorithmic effect, claiming it combats rather than contributes to disinformation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p174",
+      "difficulty": "medium",
+      "text": "Comparative advantage theory suggests that countries benefit from specializing in goods they produce at relatively lower cost, even if another country could produce everything more efficiently.",
+      "choices": [
+        "Comparative advantage holds that only the most efficient countries should produce goods and trade with others.",
+        "Countries gain from specializing in and trading goods where their relative production cost is lower, according to comparative advantage theory, even when one country has an absolute efficiency edge in all goods.",
+        "Comparative advantage theory implies that trade benefits only countries with the highest absolute productivity.",
+        "Countries should avoid specialization and instead produce all goods domestically, according to comparative advantage theory."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly preserves the comparative advantage argument, including the crucial caveat about absolute versus comparative efficiency.",
+      "wrongReasons": [
+        "Choice A confuses absolute advantage with comparative advantage, restricting trade benefits to the most efficient.",
+        "Choice C incorrectly limits trade gains to countries with highest absolute productivity.",
+        "Choice D contradicts the theory entirely by advocating for self-sufficiency."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p175",
+      "difficulty": "medium",
+      "text": "Bioethics requires weighing patient autonomy against the duty of care that medical professionals owe their patients.",
+      "choices": [
+        "In bioethics, patient autonomy always overrides the physician's duty of care.",
+        "Bioethical reasoning involves balancing a patient's right to make their own decisions against the medical professional's obligation to act in the patient's best interest.",
+        "Medical professionals are not ethically obligated to consider patient autonomy.",
+        "The duty of care always supersedes patient autonomy in bioethical frameworks."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly captures the balancing act in bioethics between patient autonomy and the physician's duty of care.",
+      "wrongReasons": [
+        "Choice A grants absolute priority to patient autonomy, removing the balance the original describes.",
+        "Choice C denies any ethical obligation to consider patient autonomy.",
+        "Choice D reverses the balance, giving absolute priority to duty of care."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p176",
+      "difficulty": "medium",
+      "text": "Declining birth rates in high-income countries are prompting governments to reassess immigration and labour force policies.",
+      "choices": [
+        "High-income countries are experiencing population booms that require new labour force policies.",
+        "Falling fertility rates in wealthy nations are leading governments to reconsider their approaches to immigration and workforce planning.",
+        "Governments in high-income countries are reducing immigration in response to declining birth rates.",
+        "Labour force policies are unaffected by demographic trends in high-income countries."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that declining birth rates in wealthy countries are prompting policy reconsideration around immigration and labour.",
+      "wrongReasons": [
+        "Choice A contradicts the original by describing population booms instead of declining birth rates.",
+        "Choice C specifies a reduction in immigration, which is a particular policy direction not stated in the original.",
+        "Choice D denies any link between demographic trends and labour force policy."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p177",
+      "difficulty": "medium",
+      "text": "The concept of food sovereignty argues that communities have the right to define their own agricultural and food systems.",
+      "choices": [
+        "Food sovereignty requires all communities to adopt uniform global food standards.",
+        "Agricultural policy should be set exclusively at the international level, according to the food sovereignty concept.",
+        "Food sovereignty holds that communities are entitled to shape their own food and farming systems as they see fit.",
+        "Food sovereignty limits community rights over agricultural systems in favour of market efficiency."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the core claim of food sovereignty: communities have the right to determine their own food and agricultural frameworks.",
+      "wrongReasons": [
+        "Choice A contradicts the principle by imposing uniform global standards.",
+        "Choice B places policy authority at the international level, opposing the community-centred premise.",
+        "Choice D reverses the principle by limiting community rights in favour of market forces."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p178",
+      "difficulty": "medium",
+      "text": "Psychological safety in the workplace enables employees to speak up without fear of punishment or humiliation.",
+      "choices": [
+        "Psychological safety ensures that employees are never disciplined for poor performance.",
+        "In a psychologically safe workplace, employees feel free to express ideas or concerns without risk of retaliation or embarrassment.",
+        "Employees in psychologically safe environments are more likely to conform to managerial expectations.",
+        "Psychological safety reduces the need for employee feedback in organizational settings."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that psychological safety allows employees to voice thoughts without fearing punishment or humiliation.",
+      "wrongReasons": [
+        "Choice A conflates psychological safety with immunity from performance-based discipline.",
+        "Choice C misrepresents psychological safety as encouraging conformity rather than open expression.",
+        "Choice D contradicts the concept by suggesting it reduces the need for feedback."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p179",
+      "difficulty": "medium",
+      "text": "The Kantian categorical imperative requires that moral actions be based on principles one could will to be universal laws.",
+      "choices": [
+        "Kant's categorical imperative holds that any action is morally acceptable if it produces good consequences.",
+        "For Kant, a moral act must be grounded in a maxim that the agent would be willing to see applied universally.",
+        "The categorical imperative allows exceptions to universal principles when personal benefit is at stake.",
+        "Kantian ethics judges the morality of actions based on their emotional outcomes."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates the categorical imperative: a moral action must be based on a maxim that one could will to be a universal law.",
+      "wrongReasons": [
+        "Choice A conflates Kantian ethics with consequentialism by focusing on good consequences.",
+        "Choice C introduces exceptions for personal benefit, which the categorical imperative explicitly excludes.",
+        "Choice D attributes emotional outcomes as the basis for moral judgment, misrepresenting Kant."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p180",
+      "difficulty": "medium",
+      "text": "Diaspora communities often play a significant role in the cultural and economic development of their countries of origin.",
+      "choices": [
+        "Diaspora populations are largely disconnected from cultural and economic life in their home countries.",
+        "Countries of origin rarely benefit from the contributions of their diaspora communities.",
+        "The cultural and economic development of home countries is frequently shaped by the involvement of diaspora populations.",
+        "Diaspora communities contribute exclusively to the economies of their host countries, not their countries of origin."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly preserves the claim that diaspora communities significantly influence both the cultural and economic development of their home countries.",
+      "wrongReasons": [
+        "Choice A claims disconnection rather than significant involvement.",
+        "Choice B contradicts the original by saying home countries rarely benefit.",
+        "Choice D shifts the contribution entirely to host countries, contradicting the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p181",
+      "difficulty": "medium",
+      "text": "Micronutrient deficiencies, despite being largely preventable, remain a major public health concern in many regions.",
+      "choices": [
+        "Micronutrient deficiencies are a public health concern because they are difficult to prevent.",
+        "Public health authorities have successfully eliminated micronutrient deficiencies in most regions.",
+        "Though micronutrient deficiencies could in large part be prevented, they continue to pose a serious public health problem in numerous parts of the world.",
+        "The public health impact of micronutrient deficiencies is confined to a small number of isolated regions."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the concessive structure: deficiencies are largely preventable, yet they persist as a major health concern in many regions.",
+      "wrongReasons": [
+        "Choice A attributes the concern to difficulty of prevention, inverting the concessive element.",
+        "Choice B contradicts the original by claiming deficiencies have been eliminated.",
+        "Choice D narrows the problem to a small number of regions, contradicting 'many regions.'"
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p182",
+      "difficulty": "medium",
+      "text": "Economic models that ignore power asymmetries between actors are likely to produce inaccurate predictions.",
+      "choices": [
+        "Incorporating power asymmetries into economic models makes their predictions less reliable.",
+        "Economic models are most accurate when all actors are assumed to have equal bargaining power.",
+        "When economic models fail to account for unequal power relations between participants, their forecasts tend to be unreliable.",
+        "Power asymmetries between economic actors are too complex to be modelled accurately."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates that ignoring power asymmetries in economic models leads to inaccurate predictions.",
+      "wrongReasons": [
+        "Choice A reverses the logic, claiming that including power asymmetries reduces accuracy.",
+        "Choice B implies equal power assumptions improve accuracy, contradicting the original.",
+        "Choice D substitutes a claim about modelling complexity for the claim about accuracy."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p183",
+      "difficulty": "medium",
+      "text": "Narrative journalism blurs the boundary between factual reporting and literary storytelling.",
+      "choices": [
+        "Narrative journalism maintains a strict separation between factual and fictional elements.",
+        "The distinction between reporting facts and employing literary techniques is made less clear by narrative journalism.",
+        "Literary journalism prioritizes storytelling over factual accuracy.",
+        "Factual reporting and literary storytelling are considered incompatible by narrative journalists."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that narrative journalism blurs or makes less distinct the line between factual reporting and literary storytelling.",
+      "wrongReasons": [
+        "Choice A contradicts the original by claiming a strict separation is maintained.",
+        "Choice C creates a priority hierarchy where storytelling supersedes accuracy, which is not stated.",
+        "Choice D contradicts the concept of narrative journalism by claiming incompatibility."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p184",
+      "difficulty": "medium",
+      "text": "Public health interventions targeting social determinants of health tend to yield more sustainable outcomes than clinical approaches alone.",
+      "choices": [
+        "Clinical approaches to public health consistently outperform interventions that address social determinants.",
+        "Addressing clinical factors is equivalent in effectiveness to addressing social determinants in public health.",
+        "Public health interventions that focus on broader social factors typically produce more lasting results than relying solely on clinical treatment.",
+        "Social determinants of health are best addressed through pharmaceutical rather than structural interventions."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the comparative claim that addressing social determinants produces more sustainable outcomes than clinical-only approaches.",
+      "wrongReasons": [
+        "Choice A reverses the comparison, claiming clinical approaches outperform social-determinant interventions.",
+        "Choice B removes the comparative difference, claiming equivalence.",
+        "Choice D narrows social determinant interventions to pharmaceutical means, contradicting the structural emphasis."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p185",
+      "difficulty": "hard",
+      "text": "The finding that cognitive load impairs moral reasoning suggests that moral judgment is not exclusively a product of deliberative thought.",
+      "choices": [
+        "Because cognitive load reduces deliberative capacity, moral reasoning has been shown to be entirely intuitive rather than deliberative.",
+        "Research showing that increased cognitive demands undermine moral reasoning implies that moral judgment does not rely solely on conscious, deliberate reflection.",
+        "Moral judgment is unaffected by cognitive load, indicating that it is purely deliberative.",
+        "The evidence that cognitive load impairs reasoning generally suggests that all higher-order cognition is non-deliberative."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly preserves the nuanced implication: because cognitive load impairs moral reasoning, moral judgment cannot be exclusively deliberative—it must involve non-deliberative processes too.",
+      "wrongReasons": [
+        "Choice A overstates the implication, concluding that moral reasoning is entirely intuitive rather than not exclusively deliberative.",
+        "Choice C contradicts the finding by claiming moral judgment is unaffected by cognitive load.",
+        "Choice D overgeneralizes from moral reasoning to all higher-order cognition."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p186",
+      "difficulty": "hard",
+      "text": "While adaptation finance has increased in absolute terms, it remains insufficient relative to the scale of projected climate impacts.",
+      "choices": [
+        "Adaptation finance has grown sufficiently to meet the scale of anticipated climate impacts despite remaining low in absolute terms.",
+        "Although total adaptation funding has risen, it falls short of what is needed given the magnitude of expected climate consequences.",
+        "Adaptation finance has declined in both absolute and relative terms, falling further behind projected climate impacts.",
+        "The scale of projected climate impacts has decreased, making current adaptation finance levels relatively more adequate."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves both the concession (absolute increase) and the limiting qualification (insufficiency relative to projected impacts).",
+      "wrongReasons": [
+        "Choice A reverses the sufficiency assessment while inverting the absolute/relative distinction.",
+        "Choice C incorrectly claims a decline in absolute terms, contradicting the concession.",
+        "Choice D changes the baseline by claiming projected impacts have decreased, which alters the relative comparison."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p187",
+      "difficulty": "hard",
+      "text": "The claim that press freedom guarantees democratic accountability overstates the relationship, as structural media ownership can constrain editorial independence.",
+      "choices": [
+        "Press freedom is a sufficient condition for democratic accountability, provided structural ownership constraints are absent.",
+        "Democratic accountability is fully guaranteed by press freedom when editorial independence is maintained.",
+        "To argue that press freedom alone ensures democratic accountability is an exaggeration, given that concentrated media ownership may limit editorial autonomy.",
+        "Structural media ownership enhances editorial independence, thereby strengthening the relationship between press freedom and accountability."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates the critique: claiming press freedom guarantees accountability overstates things because ownership structures can limit editorial independence.",
+      "wrongReasons": [
+        "Choice A introduces a conditionality that converts the critique into a qualified endorsement.",
+        "Choice B removes the critique entirely, asserting a full guarantee of accountability.",
+        "Choice D reverses the effect of media ownership, claiming it enhances rather than constrains editorial independence."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p188",
+      "difficulty": "hard",
+      "text": "Synaptic pruning during adolescence enhances neural efficiency but may also confer vulnerability to certain psychiatric conditions.",
+      "choices": [
+        "Synaptic pruning in adolescence is a purely beneficial process that reduces the risk of psychiatric disorders.",
+        "Although adolescent synaptic pruning increases the efficiency of neural networks, it may simultaneously heighten susceptibility to some mental health conditions.",
+        "Neural efficiency gains from synaptic pruning in adolescence are outweighed by the psychiatric risks it introduces.",
+        "Certain psychiatric conditions cause accelerated synaptic pruning during adolescence, thereby reducing neural efficiency."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly preserves both aspects: efficiency gains and a simultaneous potential vulnerability to psychiatric conditions.",
+      "wrongReasons": [
+        "Choice A presents pruning as purely beneficial and removes the psychiatric vulnerability.",
+        "Choice C creates a comparative judgment that the risks outweigh the benefits, which the original does not assert.",
+        "Choice D reverses causality, claiming psychiatric conditions cause pruning rather than pruning contributing to vulnerability."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p189",
+      "difficulty": "hard",
+      "text": "Development indices that aggregate multiple dimensions of well-being can obscure distributional inequalities within the populations they measure.",
+      "choices": [
+        "Multidimensional development indices improve the visibility of distributional inequalities compared to single-dimension measures.",
+        "When multiple aspects of well-being are combined into a single index, the resulting measure may hide how unevenly those dimensions are distributed across the measured population.",
+        "Development indices that aggregate well-being dimensions are only reliable when distributional inequalities are absent.",
+        "Distributional inequalities within populations are best captured by single-dimension indices rather than composite measures."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that aggregating multiple dimensions can mask how unevenly distributed well-being is within the measured population.",
+      "wrongReasons": [
+        "Choice A reverses the effect, claiming multidimensional indices improve visibility of inequalities.",
+        "Choice C introduces a reliability condition not present in the original.",
+        "Choice D makes an unrelated comparative claim favoring single-dimension indices."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p190",
+      "difficulty": "hard",
+      "text": "The framing of migration as a security threat rather than a humanitarian issue shapes both policy responses and public attitudes in ways that may foreclose more protective approaches.",
+      "choices": [
+        "Treating migration as a humanitarian issue rather than a security concern fosters protective policy approaches and positive public attitudes.",
+        "Securitizing migration discourse shapes policy and public opinion in directions that tend to narrow the space for protective responses, in contrast to framing it as a humanitarian concern.",
+        "The framing of migration as a security threat is necessary to generate the political will needed for protective humanitarian responses.",
+        "Policy responses to migration are determined solely by public attitudes rather than by how migration is framed."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves the argument that security framing shapes policy and public attitudes in ways that close off more protective (humanitarian) approaches.",
+      "wrongReasons": [
+        "Choice A presents the opposite framing (humanitarian) and attributes positive outcomes to it, not addressing the original claim about security framing.",
+        "Choice C reverses the argument, claiming security framing enables rather than forecloses protective responses.",
+        "Choice D removes the causal role of framing and attributes policy to public attitudes alone."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p191",
+      "difficulty": "hard",
+      "text": "Architectural determinism, the view that built environments directly cause specific behaviours, has been largely discredited without entirely abandoning the notion that spatial design influences human action.",
+      "choices": [
+        "Architectural determinism remains the dominant framework for understanding how built environments shape behaviour.",
+        "The idea that spatial design shapes human behaviour has been fully rejected along with strong architectural determinism.",
+        "Although the strong claim that built environments directly cause behaviours has been widely rejected, the weaker claim that spatial design influences action retains credibility.",
+        "Built environments are now understood to have no meaningful influence on human behaviour following the discrediting of architectural determinism."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly preserves the nuanced position: strong determinism is discredited, but the softer claim that design influences behaviour is retained.",
+      "wrongReasons": [
+        "Choice A claims architectural determinism remains dominant, contradicting its discrediting.",
+        "Choice B conflates the rejection of strong determinism with the rejection of any design influence.",
+        "Choice D overclaims the rejection, saying built environments have no meaningful influence at all."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p192",
+      "difficulty": "hard",
+      "text": "The normative claim that economic growth is a necessary condition for poverty reduction does not entail that it is a sufficient one.",
+      "choices": [
+        "Economic growth is both necessary and sufficient for reducing poverty, according to mainstream normative claims.",
+        "Claiming that poverty reduction requires economic growth does not imply that growth alone is enough to eliminate poverty.",
+        "Economic growth is neither necessary nor sufficient for poverty reduction, according to this normative position.",
+        "The normative view that growth reduces poverty entails that no other conditions need to be met."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly preserves the logical distinction: necessary condition does not imply sufficient condition, so growth being required does not mean growth alone is enough.",
+      "wrongReasons": [
+        "Choice A collapses the necessary/sufficient distinction by claiming growth is both.",
+        "Choice C denies the necessary condition claim along with the sufficiency claim, which goes beyond the original.",
+        "Choice D conflates necessary with sufficient by claiming no other conditions are needed."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p193",
+      "difficulty": "hard",
+      "text": "Embodied cognition research suggests that mental representations are not purely abstract but are grounded in sensorimotor experience.",
+      "choices": [
+        "Embodied cognition research confirms that mental representations are abstract and independent of bodily experience.",
+        "According to embodied cognition research, sensorimotor experience shapes but does not fully constitute mental representations.",
+        "Mental representations, rather than being purely abstract constructs, are anchored in bodily, sensorimotor experience, as embodied cognition research indicates.",
+        "Embodied cognition holds that sensorimotor experience replaces abstract representation entirely."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly captures the embodied cognition claim: mental representations are not purely abstract but are grounded in sensorimotor experience.",
+      "wrongReasons": [
+        "Choice A contradicts the research findings by claiming representations are abstract and body-independent.",
+        "Choice B introduces a hedging distinction (shapes but does not fully constitute) that goes beyond what the original states.",
+        "Choice D overclaims by asserting sensorimotor experience completely replaces abstract representation."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p194",
+      "difficulty": "hard",
+      "text": "The precautionary principle holds that where an action risks harm to the public or the environment, precautionary measures should be taken even in the absence of full scientific certainty.",
+      "choices": [
+        "Under the precautionary principle, action to prevent harm should be postponed until complete scientific certainty is established.",
+        "The precautionary principle requires precautionary action only when the scientific evidence of harm is conclusive.",
+        "Precautionary measures to protect the public or environment are warranted under the precautionary principle even when scientific evidence is incomplete, provided harm is a credible risk.",
+        "The precautionary principle limits the scope of regulatory action to cases where harm has already occurred."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates the precautionary principle: action is warranted to prevent credible risks even without full scientific certainty.",
+      "wrongReasons": [
+        "Choice A directly inverts the principle by requiring certainty before action.",
+        "Choice B requires conclusive evidence, which the principle explicitly says is not needed.",
+        "Choice D restricts action to cases where harm has already occurred, contradicting the precautionary logic."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p195",
+      "difficulty": "hard",
+      "text": "Intertextuality in literary theory refers to the way any given text is constituted by references, echoes, and transformations of prior texts, making meaning a product of textual relationships rather than authorial intent alone.",
+      "choices": [
+        "Intertextuality holds that meaning in a text is produced entirely by its relationship to other texts, with authorial intent playing no role whatsoever.",
+        "The concept of intertextuality in literary theory locates textual meaning in the author's intentional references to earlier works.",
+        "Intertextuality describes how a text's meaning emerges from its network of relationships with other texts—through quotation, allusion, and transformation—rather than being solely the product of what its author intended.",
+        "Intertextuality in literary theory holds that each text is autonomous and that meaning is generated independently of other texts."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates intertextuality: meaning arises from the text's relationships with other texts (references, echoes, transformations) rather than from authorial intent alone.",
+      "wrongReasons": [
+        "Choice A overstates by removing any role for authorial intent entirely, whereas the original says 'not alone.'",
+        "Choice B misrepresents intertextuality as requiring intentional authorial reference, ignoring the broader network conception.",
+        "Choice D contradicts intertextuality by asserting textual autonomy."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p196",
+      "difficulty": "hard",
+      "text": "Carbon border adjustment mechanisms are designed not to protect domestic industries per se but to prevent carbon leakage by ensuring that imports are subject to equivalent carbon costs.",
+      "choices": [
+        "Carbon border adjustments are primarily protectionist trade measures that incidentally reduce carbon leakage.",
+        "The purpose of carbon border adjustment mechanisms is to level the carbon cost playing field for imported goods, thereby preventing carbon leakage rather than shielding domestic industries as such.",
+        "Carbon border adjustments prevent carbon leakage by exempting domestic industries from carbon pricing.",
+        "Carbon border adjustment mechanisms are designed to eliminate trade competition by imposing costs on all imported goods equally."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves the stated purpose (preventing carbon leakage through equivalent carbon costs on imports) and the explicit disavowal of domestic protection as the primary goal.",
+      "wrongReasons": [
+        "Choice A inverts the primary purpose, calling the mechanism primarily protectionist.",
+        "Choice C distorts the mechanism by suggesting it works through exempting domestic industries rather than leveling import costs.",
+        "Choice D overstates the mechanism's reach by claiming it imposes costs on all imported goods equally, misrepresenting the carbon equivalence aim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p197",
+      "difficulty": "hard",
+      "text": "The demographic transition model posits that as societies industrialize, fertility and mortality rates both decline, ultimately producing a population with slower growth.",
+      "choices": [
+        "Industrialization produces population growth acceleration by lowering mortality rates while leaving fertility unchanged.",
+        "The demographic transition model holds that industrialization raises fertility while reducing mortality, stabilizing population size.",
+        "According to the demographic transition model, both birth and death rates fall as societies undergo industrialization, leading to a population growing at a reduced pace.",
+        "The demographic transition model predicts that fertility declines precede mortality declines in industrializing societies, causing population contraction."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates all elements: both fertility and mortality decline with industrialization, and the result is slower population growth.",
+      "wrongReasons": [
+        "Choice A keeps only mortality decline and omits fertility decline, producing a different growth outcome.",
+        "Choice B misrepresents the model by claiming fertility rises while mortality falls.",
+        "Choice D introduces a sequencing claim (fertility before mortality) and an outcome (contraction) not in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p198",
+      "difficulty": "hard",
+      "text": "Restorative justice approaches prioritize repairing harm and restoring relationships over the imposition of punitive sanctions.",
+      "choices": [
+        "Restorative justice holds that punitive sanctions should be administered before any attempt to repair harm or relationships.",
+        "In restorative justice frameworks, the rehabilitation of offenders is prioritized over victim-centred harm repair.",
+        "Rather than foregrounding punitive measures, restorative justice places repairing the harm done and rebuilding affected relationships at the centre of the response to wrongdoing.",
+        "Restorative justice aims to replace all punitive sanctions with mediation processes, regardless of the severity of the offence."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the central priority of restorative justice: harm repair and relationship restoration take precedence over punitive measures.",
+      "wrongReasons": [
+        "Choice A reverses the priority, placing punitive measures before repair.",
+        "Choice B introduces offender rehabilitation as the priority, which changes the subject from victims and relationships.",
+        "Choice D overstates by claiming all punitive sanctions are replaced, and introduces a scope qualifier about severity."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p199",
+      "difficulty": "hard",
+      "text": "The concept of tacit knowledge, as articulated by Polanyi, refers to knowledge that guides practice but cannot be fully articulated in explicit propositions.",
+      "choices": [
+        "Tacit knowledge, according to Polanyi, consists of all knowledge that has not yet been formally documented.",
+        "Polanyi's concept of tacit knowledge identifies knowledge that is used in practice but resists complete expression in explicit, propositional form.",
+        "Tacit knowledge is knowledge that can be made explicit through sufficient effort, according to Polanyi.",
+        "Polanyi defines tacit knowledge as practical skill that exists independently of any theoretical knowledge base."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates Polanyi's conception: tacit knowledge guides practice and cannot be fully expressed in explicit propositions.",
+      "wrongReasons": [
+        "Choice A defines tacit knowledge as simply undocumented, which misses the constitutive claim about its resistance to articulation.",
+        "Choice C contradicts Polanyi by implying tacit knowledge can be made explicit through effort.",
+        "Choice D misrepresents the concept by claiming tacit knowledge is independent of all theoretical knowledge."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p200",
+      "difficulty": "hard",
+      "text": "The moral hazard problem in development aid arises when recipient governments reduce reform efforts because they anticipate continued external support regardless of performance.",
+      "choices": [
+        "Moral hazard in development aid occurs when donor governments reduce aid in response to poor reform performance by recipients.",
+        "Development aid creates a moral hazard when it incentivizes recipient governments to accelerate reforms in order to secure continued support.",
+        "The moral hazard issue in development aid emerges when recipient governments relax their reform efforts on the expectation that aid will continue independently of how well they perform.",
+        "Moral hazard in aid contexts refers to the tendency of donors to over-commit funds regardless of the developmental outcomes achieved."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly identifies the moral hazard: recipients reduce reform efforts because they expect aid to continue regardless of their performance.",
+      "wrongReasons": [
+        "Choice A shifts the moral hazard to donor behaviour (reducing aid) rather than recipient behaviour.",
+        "Choice B reverses the incentive, claiming aid encourages accelerated reform.",
+        "Choice D transfers the moral hazard from recipients to donors and focuses on over-commitment rather than reduced reform effort."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p201",
+      "difficulty": "hard",
+      "text": "Nutritional epidemiology faces methodological challenges because dietary patterns are difficult to measure accurately and confounders are hard to isolate.",
+      "choices": [
+        "Nutritional epidemiology is methodologically robust because dietary patterns and confounders can both be measured with precision.",
+        "The methodological difficulties in nutritional epidemiology stem primarily from the inability to isolate dietary patterns from other lifestyle factors, rather than from measurement challenges.",
+        "Nutritional epidemiology's methodological limitations arise from the dual challenges of accurately capturing dietary intake and separating out confounding variables.",
+        "Confounders in nutritional epidemiology can be isolated once dietary measurement accuracy is achieved."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly identifies both sources of methodological difficulty: accurate measurement of diet and isolation of confounders.",
+      "wrongReasons": [
+        "Choice A contradicts the original by claiming methodological robustness and measurement precision.",
+        "Choice B reduces the challenge to one factor (lifestyle confounding) and minimizes measurement difficulties.",
+        "Choice D implies a sequential solution where one problem can be solved after the other, overly simplifying the original claim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p202",
+      "difficulty": "hard",
+      "text": "By depicting colonized subjects as passive and voiceless, Orientalist discourse not only misrepresented those subjects but also legitimized colonial rule.",
+      "choices": [
+        "Orientalist discourse accurately represented colonized peoples as passive, thereby providing a legitimate justification for colonial governance.",
+        "Orientalist discourse challenged the legitimacy of colonial rule by drawing attention to the silencing of colonized voices.",
+        "The Orientalist representation of colonized people as passive and without voice served both to distort those people's reality and to provide ideological support for colonial authority.",
+        "Colonial rule was legitimized by Orientalist discourse primarily through the depiction of colonized subjects as active agents of resistance."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves both functions of Orientalist discourse: misrepresentation (depicting subjects as passive and voiceless) and ideological legitimization of colonial rule.",
+      "wrongReasons": [
+        "Choice A accepts the depiction as accurate, which contradicts the original's claim of misrepresentation.",
+        "Choice B reverses the function, claiming Orientalism challenged colonial legitimacy.",
+        "Choice D contradicts the passive depiction by attributing the legitimization to representations of active resistance."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p203",
+      "difficulty": "hard",
+      "text": "In federal systems, the allocation of fiscal authority between levels of government reflects both efficiency considerations and historical bargaining outcomes.",
+      "choices": [
+        "Fiscal authority in federal systems is allocated purely on the basis of economic efficiency, with no role for historical or political factors.",
+        "Historical negotiations alone, rather than economic efficiency considerations, determine how fiscal authority is distributed across levels of government in federal systems.",
+        "The distribution of taxing and spending powers among governmental levels in federal systems is shaped by both economic efficiency rationales and the outcomes of historical political negotiations.",
+        "Fiscal authority in federal systems is allocated by supranational bodies according to international efficiency standards."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly preserves both determinants: economic efficiency considerations and historical bargaining outcomes shape fiscal authority allocation.",
+      "wrongReasons": [
+        "Choice A reduces the explanation to efficiency alone, dropping the historical bargaining factor.",
+        "Choice B reduces the explanation to historical negotiations alone, dropping the efficiency factor.",
+        "Choice D introduces a supranational body and international standards not present in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p204",
+      "difficulty": "hard",
+      "text": "The concept of intangible cultural heritage encompasses living expressions of culture—practices, representations, and knowledge—that communities continually recreate and adapt.",
+      "choices": [
+        "Intangible cultural heritage refers exclusively to artifacts and monuments that embody a community's historical identity.",
+        "Intangible cultural heritage includes the dynamic, living cultural practices, expressions, and knowledge systems that communities actively reproduce and modify over time.",
+        "Communities are recognized as intangible cultural heritage when they maintain their practices in an unchanged form across generations.",
+        "Intangible cultural heritage is defined by its fixed, codified form as a contrast to the dynamic nature of tangible heritage."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly captures the concept: intangible cultural heritage consists of living, dynamic cultural expressions that communities continually recreate and adapt.",
+      "wrongReasons": [
+        "Choice A limits heritage to artifacts and monuments, which are tangible not intangible forms.",
+        "Choice C introduces a requirement of unchanged transmission, which contradicts the adaptive nature of intangible heritage.",
+        "Choice D falsely attributes fixedness to intangible heritage and dynamism to tangible heritage, inverting the standard distinction."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p205",
+      "difficulty": "hard",
+      "text": "Adversarial machine learning demonstrates that models highly accurate on standard benchmarks can be systematically deceived by imperceptibly small input perturbations.",
+      "choices": [
+        "Adversarial machine learning shows that models with low benchmark accuracy are more susceptible to input perturbations than high-performing models.",
+        "Models achieving high accuracy on standard tests are immune to adversarial attacks because of their robustness.",
+        "The finding that even small, nearly undetectable changes to inputs can reliably fool high-performing models is a central insight of adversarial machine learning.",
+        "Adversarial machine learning focuses on making input perturbations perceptible so that humans can identify potentially deceptive inputs."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates the adversarial ML insight: high-accuracy models can be systematically deceived by imperceptibly small input perturbations.",
+      "wrongReasons": [
+        "Choice A reverses the relationship, claiming low-accuracy models are more susceptible.",
+        "Choice B inverts the finding, claiming high accuracy confers immunity.",
+        "Choice D changes the goal of adversarial ML from imperceptible to perceptible perturbations."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p206",
+      "difficulty": "hard",
+      "text": "Loss aversion theory predicts that individuals weight potential losses more heavily than equivalent gains, producing systematic departures from expected utility maximization.",
+      "choices": [
+        "Loss aversion theory holds that individuals are indifferent between equivalent losses and gains, consistent with expected utility maximization.",
+        "According to loss aversion theory, people feel potential gains more intensely than equal potential losses, leading to predictable deviations from rational utility maximization.",
+        "The theory of loss aversion predicts that the psychological impact of losing a given amount is greater than the impact of gaining the same amount, causing behaviour to diverge systematically from pure utility maximization.",
+        "Loss aversion predicts that potential gains and losses are both discounted equally, producing no systematic departure from expected utility."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates that losses are weighted more heavily than equivalent gains, producing systematic departures from expected utility maximization.",
+      "wrongReasons": [
+        "Choice A claims indifference between losses and gains, contradicting loss aversion.",
+        "Choice B reverses the asymmetry, claiming gains are felt more intensely than losses.",
+        "Choice D removes the asymmetry by claiming equal discounting of gains and losses."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p207",
+      "difficulty": "hard",
+      "text": "Postmodern historiography questions the possibility of objective historical accounts, arguing that all historical narratives are mediated by the perspectives and interests of their authors.",
+      "choices": [
+        "Postmodern historiography affirms that objective historical accounts are possible once the author's perspective is fully disclosed.",
+        "Postmodern historiography contends that historical narratives cannot achieve objectivity because they are always shaped by the viewpoints and agendas of those who construct them.",
+        "Postmodern historiography holds that historical accounts are objective to the extent that they are mediated by multiple authorial perspectives.",
+        "The postmodern critique of historiography accepts objective accounts as the standard while acknowledging that authorial perspectives introduce minor distortions."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly captures the postmodern position: objective historical accounts are not possible because all narratives are filtered through the author's perspective and interests.",
+      "wrongReasons": [
+        "Choice A contradicts postmodern skepticism by conditioning objectivity on disclosure of perspective.",
+        "Choice C misrepresents the position by suggesting multiple perspectives produce objectivity.",
+        "Choice D contradicts the postmodern challenge by accepting objectivity as the standard."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p208",
+      "difficulty": "hard",
+      "text": "Circular economy principles seek to decouple economic growth from resource consumption by designing products for reuse, repair, and recycling.",
+      "choices": [
+        "Circular economy principles accept that resource consumption must increase proportionally with economic growth.",
+        "The circular economy aims to maintain the link between growth and resource use through more efficient extraction technologies.",
+        "By emphasizing product design that enables reuse, repair, and recycling, circular economy principles aim to allow economies to grow without a corresponding rise in resource consumption.",
+        "Circular economy models prioritize degrowth over economic expansion as the means of reducing resource consumption."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates the circular economy goal: through design for reuse/repair/recycling, economic growth can be decoupled from increasing resource consumption.",
+      "wrongReasons": [
+        "Choice A accepts proportional resource growth, directly contradicting the decoupling goal.",
+        "Choice B maintains the link through efficiency improvements, which is not the same as decoupling.",
+        "Choice D introduces degrowth as the strategy, which is a different approach from the circular economy's design-based decoupling."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p209",
+      "difficulty": "hard",
+      "text": "Though both aim at reducing poverty, conditional cash transfer programmes differ from unconditional ones in requiring recipients to fulfil specified behavioural obligations.",
+      "choices": [
+        "Conditional and unconditional cash transfer programmes are identical in structure except that the former provide higher monetary amounts.",
+        "The distinguishing feature of conditional cash transfer programmes, as opposed to unconditional ones, is that they impose behavioural requirements on recipients as a condition of receiving funds.",
+        "Unconditional cash transfer programmes require behavioural obligations from recipients, while conditional programmes do not.",
+        "Cash transfer programmes, whether conditional or unconditional, all require some form of behavioural compliance as a condition of eligibility."
+      ],
+      "answer": 1,
+      "explanation": "Choice B preserves the key distinction: conditional programmes require specified behavioural obligations while unconditional ones do not, though both aim at poverty reduction.",
+      "wrongReasons": [
+        "Choice A attributes the difference to payment amount rather than behavioural conditions.",
+        "Choice C reverses the definitional attributes of conditional and unconditional programmes.",
+        "Choice D removes the distinction by attributing behavioural requirements to both types."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p210",
+      "difficulty": "hard",
+      "text": "Decolonial theory distinguishes between the formal end of colonial rule and the persistence of coloniality, which refers to enduring power structures shaped by the colonial legacy.",
+      "choices": [
+        "Decolonial theory holds that the formal end of colonial rule brings about the complete dissolution of all colonial power structures.",
+        "According to decolonial theory, coloniality and colonialism are interchangeable terms denoting the same historical phenomenon.",
+        "Decolonial theory draws a distinction between colonialism as a historical institution that has ended and coloniality as the continuing influence of colonial power hierarchies.",
+        "Decolonial theory argues that coloniality refers only to the economic dimensions of ongoing colonial influence rather than broader social structures."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly preserves the decolonial distinction: colonialism has formally ended, but coloniality persists as enduring colonial power structures.",
+      "wrongReasons": [
+        "Choice A contradicts the theory by claiming formal decolonization eliminates all colonial power structures.",
+        "Choice B conflates colonialism and coloniality as identical terms, which decolonial theory explicitly contrasts.",
+        "Choice D narrows coloniality to economic dimensions, whereas the original refers to enduring power structures broadly."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p211",
+      "difficulty": "hard",
+      "text": "Regulatory capture occurs when a regulatory agency, originally created to act in the public interest, comes to serve the interests of the industry it is meant to oversee.",
+      "choices": [
+        "Regulatory capture refers to the process by which industries are effectively regulated by agencies acting in the public interest.",
+        "A regulatory agency undergoes capture when it extends its mandate beyond the industry it was created to oversee.",
+        "When a regulatory body advances the agenda of the sector it was established to regulate rather than the broader public interest, the phenomenon is known as regulatory capture.",
+        "Regulatory capture occurs when public interest groups take over an agency that was originally designed to serve the industry."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates regulatory capture: an agency created for public interest ends up serving the industry it regulates.",
+      "wrongReasons": [
+        "Choice A describes the absence of capture by saying the agency acts in the public interest.",
+        "Choice B misdefines capture as an expansion of mandate rather than a shift in who is served.",
+        "Choice D inverts the capture by saying public interest groups take over an industry-serving agency."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p212",
+      "difficulty": "hard",
+      "text": "The social model of disability locates the cause of disablement in societal barriers and exclusionary structures rather than in the individual's impairment.",
+      "choices": [
+        "The social model of disability holds that individual impairments are the primary cause of the challenges faced by disabled people.",
+        "Exclusionary social structures and barriers, rather than physical or cognitive impairments in themselves, are identified as the source of disablement under the social model.",
+        "Under the social model, disability is understood as the inevitable consequence of individual impairment, independent of social context.",
+        "The social model of disability focuses on medical interventions to reduce impairment as the primary means of addressing disability."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly captures the social model: disablement arises from societal barriers and exclusionary structures, not from the individual's impairment per se.",
+      "wrongReasons": [
+        "Choice A attributes disablement to individual impairments, which is the medical model, not the social one.",
+        "Choice C makes impairment the inevitable cause regardless of social context, contradicting the social model.",
+        "Choice D focuses on medical interventions to reduce impairment, which aligns with the medical rather than social model."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p213",
+      "difficulty": "hard",
+      "text": "Unlike models that treat preferences as exogenous, endogenous preference theories hold that preferences are themselves shaped by economic and social institutions.",
+      "choices": [
+        "Endogenous preference theories agree with exogenous models that preferences are formed prior to and independently of economic institutions.",
+        "Endogenous preference theories hold that economic and social institutions are determined by pre-existing preferences rather than shaping them.",
+        "In contrast to approaches that treat preferences as given from outside the system, endogenous preference theories maintain that preferences are formed through interaction with economic and social structures.",
+        "Endogenous preference theories hold that preferences are fixed at birth and cannot be altered by social institutions."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the key contrast: unlike exogenous models (preferences given from outside), endogenous theories see preferences as shaped by institutional context.",
+      "wrongReasons": [
+        "Choice A claims agreement between the two approaches, erasing the contrast the original draws.",
+        "Choice B reverses the causal direction, claiming preferences determine institutions.",
+        "Choice D misrepresents endogenous preferences as fixed, contradicting the institutional shaping claim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p214",
+      "difficulty": "hard",
+      "text": "Memory reconsolidation research indicates that recalled memories are not merely retrieved but are also rendered temporarily labile and susceptible to modification before being restabilized.",
+      "choices": [
+        "Memory reconsolidation research shows that recalled memories are stable and cannot be modified once retrieved.",
+        "Research on reconsolidation reveals that the act of recalling a memory renders it temporarily unstable and open to change, after which it must be stabilized again.",
+        "Reconsolidation research suggests that memories are permanently altered every time they are recalled, never returning to their original form.",
+        "Memory reconsolidation shows that only newly formed memories are susceptible to modification upon retrieval; older memories are immune."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly captures the reconsolidation finding: retrieval renders memories temporarily labile (unstable and modifiable), after which they must be restabilized.",
+      "wrongReasons": [
+        "Choice A contradicts the finding by claiming retrieved memories are stable and unchangeable.",
+        "Choice C overstates by claiming permanent alteration at every recall with no restabilization.",
+        "Choice D introduces an age-dependent immunity to modification not present in the original."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p215",
+      "difficulty": "hard",
+      "text": "The principle of non-refoulement prohibits states from returning individuals to territories where they face a serious risk of persecution or other severe harm.",
+      "choices": [
+        "Non-refoulement permits states to return individuals to their countries of origin provided they have undergone a formal assessment process.",
+        "Under non-refoulement, states are obligated to assess persecution risk but are not prohibited from returning individuals if the risk is deemed acceptable.",
+        "The non-refoulement principle bars states from transferring people to places where those individuals face a credible risk of persecution or grave harm.",
+        "Non-refoulement prohibits states from accepting refugees who arrive from territories where persecution is common."
+      ],
+      "answer": 2,
+      "explanation": "Choice C correctly restates non-refoulement: states are prohibited from returning individuals to places where they face serious risk of persecution or severe harm.",
+      "wrongReasons": [
+        "Choice A introduces an exception for formal assessment that weakens the prohibition.",
+        "Choice B reduces the principle to a risk assessment obligation without maintaining the prohibition.",
+        "Choice D misapplies the principle to entry rather than return, and reverses its subject."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p216",
+      "difficulty": "hard",
+      "text": "Path dependency in institutional economics suggests that the range of viable future choices is constrained by prior decisions, even when those earlier choices were contingent and suboptimal.",
+      "choices": [
+        "Path dependency holds that institutions always converge toward optimal arrangements over time, regardless of their historical origins.",
+        "In institutional economics, path dependency refers to the tendency for historical choices to limit the set of feasible future options, even when the original choices were not necessarily the best ones available.",
+        "Prior institutional decisions constrain future choices only when they were deliberate and optimal, according to path dependency theory.",
+        "Path dependency suggests that suboptimal institutional choices can always be corrected by future policy interventions without significant constraint."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly preserves path dependency: prior choices limit future options even when those choices were contingent and suboptimal.",
+      "wrongReasons": [
+        "Choice A contradicts path dependency by claiming convergence toward optimal outcomes.",
+        "Choice C restricts the constraining effect to deliberate and optimal prior choices, contradicting the 'even suboptimal' qualifier.",
+        "Choice D contradicts path dependency by claiming suboptimal choices can always be corrected without constraint."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p217",
+      "difficulty": "hard",
+      "text": "Performativity theory, as applied in gender studies, holds that gender is not a fixed identity expressed through behaviour but is constituted through the iterative performance of gendered acts.",
+      "choices": [
+        "Performativity theory in gender studies holds that gender is a stable, pre-existing identity that finds expression in behaviour.",
+        "Gender performativity holds that gender is constituted through the repetition of gendered acts rather than being a fixed, pre-existing identity that is simply expressed.",
+        "According to performativity theory, gendered behaviour is performed intentionally and consciously by agents who are aware of constructing their gender identity.",
+        "Performativity theory claims that gender is constituted by a single defining act rather than by the repeated performance of gendered behaviour."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly captures the performativity theory: gender is constituted (not merely expressed) through the iterative (repeated) performance of gendered acts, and is not a fixed pre-existing identity.",
+      "wrongReasons": [
+        "Choice A inverts the theory, treating gender as a stable pre-existing identity expressed through behaviour.",
+        "Choice C introduces intentionality and conscious awareness, which performativity theory specifically questions.",
+        "Choice D misrepresents the iterative character of performativity by reducing it to a single constitutive act."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p218",
+      "difficulty": "hard",
+      "text": "Donor-driven development priorities risk undermining the ownership of aid-receiving countries over their own development agendas.",
+      "choices": [
+        "When development priorities are set by donors, recipient countries are empowered to pursue their own development strategies more effectively.",
+        "The influence of donors on development planning can erode the agency and self-determination of recipient countries in shaping their development paths.",
+        "Donor-driven development is appropriate when recipient countries lack the institutional capacity to set their own agendas.",
+        "Recipient country ownership of development agendas is unaffected by the degree of donor influence over priorities."
+      ],
+      "answer": 1,
+      "explanation": "Choice B correctly restates that donor-driven priorities risk eroding recipient countries' ownership of their development agendas.",
+      "wrongReasons": [
+        "Choice A reverses the effect, claiming donor-driven priorities empower recipients.",
+        "Choice C introduces a conditionality (lack of capacity) that normalizes donor control under certain circumstances.",
+        "Choice D denies any relationship between donor influence and recipient ownership."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p219",
+      "difficulty": "hard",
+      "text": "Public space design that prioritizes surveillance and security over social interaction produces environments that discourage civic life.",
+      "choices": [
+        "When public spaces are designed primarily to foster social interaction, they tend to generate more effective surveillance and greater civic engagement.",
+        "Designing public spaces with social interaction as the primary goal rather than security leads to less safe environments.",
+        "Public spaces that foreground security and surveillance at the expense of opportunities for social interaction tend to create settings hostile to civic participation.",
+        "Civic life is enhanced by public space designs that balance surveillance requirements with social interaction needs equally."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves the causal claim: prioritizing surveillance and security over social interaction results in environments hostile to civic life.",
+      "wrongReasons": [
+        "Choice A reverses the causal chain, claiming social-interaction-focused design improves surveillance.",
+        "Choice B inverts the claim by saying that prioritizing social interaction over security reduces safety.",
+        "Choice D softens the claim to a balanced design producing enhancement, which is different from the original's warning about prioritizing surveillance."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p220",
+      "difficulty": "hard",
+      "text": "The epidemiological concept of herd immunity does not require universal vaccination but does depend on a sufficient proportion of a population being immune to interrupt transmission chains.",
+      "choices": [
+        "Herd immunity requires every member of a population to be vaccinated in order to interrupt disease transmission effectively.",
+        "Herd immunity can be achieved even with very low vaccination rates, since transmission chains can be broken by any degree of immunity in a population.",
+        "While herd immunity does not necessitate that every individual be vaccinated, it does require enough of the population to be immune so that transmission is disrupted.",
+        "The concept of herd immunity holds that immunity in one part of a population has no effect on transmission chains affecting other, unimmunized parts."
+      ],
+      "answer": 2,
+      "explanation": "Choice C preserves both aspects: universal vaccination is not required, but a sufficient proportion must be immune to break transmission chains.",
+      "wrongReasons": [
+        "Choice A replaces 'sufficient proportion' with 'every member,' requiring universal vaccination.",
+        "Choice B removes the threshold requirement, claiming any degree of immunity suffices.",
+        "Choice D denies the indirect protective effect of population-level immunity on unimmunized individuals, contradicting the concept."
+      ],
+      "category": "restatements"
+    }
+  ]
+}

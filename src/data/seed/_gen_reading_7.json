@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r43-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Green spaces are expensive to maintain in urban environments.",
+        "Parks and natural areas provide important social and psychological benefits to city residents.",
+        "City planners should prioritize roads over parks.",
+        "Trees in cities help reduce pollution only."
+      ],
+      "answer": 1,
+      "explanation": "The passage focuses on the broad social and psychological benefits that green spaces provide to urban communities, including reducing stress, fostering interaction, and improving well-being.",
+      "wrongReasons": [
+        "The passage does not discuss maintenance costs of green spaces.",
+        "The passage does not argue for prioritizing roads over parks; it argues the opposite.",
+        "While pollution reduction may be mentioned, the passage covers a much wider range of social benefits."
+      ],
+      "passage": {
+        "id": "r43-passage",
+        "title": "The Social Benefits of Green Spaces",
+        "body": "Urban green spaces — parks, gardens, and tree-lined streets — are far more than aesthetic features of a city. Research consistently demonstrates that access to nature within urban environments delivers significant social and psychological benefits to residents. Studies show that people who live near parks report lower levels of stress and anxiety, and are more likely to engage in physical activity, which further improves mental health outcomes. Beyond individual well-being, green spaces serve as communal gathering points where neighbors meet, children play, and community bonds are strengthened. In diverse cities, shared parks can become neutral ground where people from different backgrounds interact, fostering social cohesion. Furthermore, exposure to greenery has been linked to reduced aggression and improved attention spans, particularly in children. City planners who integrate green infrastructure into urban design are therefore not merely beautifying their cities — they are investing in the physical and mental health of entire populations. The evidence suggests that equitable access to green spaces should be considered a public health priority."
+      }
+    },
+    {
+      "id": "r43-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what effect do green spaces have on children specifically?",
+      "choices": [
+        "They make children more likely to move to suburban areas.",
+        "They reduce aggression and improve attention spans in children.",
+        "They teach children about environmental conservation.",
+        "They encourage children to avoid physical activity."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly states that exposure to greenery has been linked to reduced aggression and improved attention spans, particularly in children.",
+      "wrongReasons": [
+        "The passage makes no claim about children moving to suburban areas.",
+        "Environmental conservation education is not mentioned in the passage.",
+        "The passage states the opposite — green spaces make people more likely to engage in physical activity."
+      ],
+      "passage": {
+        "id": "r43-passage",
+        "title": "The Social Benefits of Green Spaces",
+        "body": "Urban green spaces — parks, gardens, and tree-lined streets — are far more than aesthetic features of a city. Research consistently demonstrates that access to nature within urban environments delivers significant social and psychological benefits to residents. Studies show that people who live near parks report lower levels of stress and anxiety, and are more likely to engage in physical activity, which further improves mental health outcomes. Beyond individual well-being, green spaces serve as communal gathering points where neighbors meet, children play, and community bonds are strengthened. In diverse cities, shared parks can become neutral ground where people from different backgrounds interact, fostering social cohesion. Furthermore, exposure to greenery has been linked to reduced aggression and improved attention spans, particularly in children. City planners who integrate green infrastructure into urban design are therefore not merely beautifying their cities — they are investing in the physical and mental health of entire populations. The evidence suggests that equitable access to green spaces should be considered a public health priority."
+      }
+    },
+    {
+      "id": "r43-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about cities that lack green spaces?",
+      "choices": [
+        "They are likely to have stronger economies.",
+        "Their residents may experience higher stress levels and weaker social cohesion.",
+        "They tend to attract more tourists than green cities.",
+        "Their residents are more likely to engage in physical activity indoors."
+      ],
+      "answer": 1,
+      "explanation": "Since the passage argues that green spaces reduce stress and foster social cohesion, one can infer that cities lacking these spaces would likely see higher stress and weaker community bonds.",
+      "wrongReasons": [
+        "The passage does not connect the absence of green spaces to stronger economies.",
+        "No comparison of tourist attraction between green and non-green cities is made.",
+        "The passage links green spaces to increased physical activity, implying that without them, outdoor physical activity would decrease, not shift indoors."
+      ],
+      "passage": {
+        "id": "r43-passage",
+        "title": "The Social Benefits of Green Spaces",
+        "body": "Urban green spaces — parks, gardens, and tree-lined streets — are far more than aesthetic features of a city. Research consistently demonstrates that access to nature within urban environments delivers significant social and psychological benefits to residents. Studies show that people who live near parks report lower levels of stress and anxiety, and are more likely to engage in physical activity, which further improves mental health outcomes. Beyond individual well-being, green spaces serve as communal gathering points where neighbors meet, children play, and community bonds are strengthened. In diverse cities, shared parks can become neutral ground where people from different backgrounds interact, fostering social cohesion. Furthermore, exposure to greenery has been linked to reduced aggression and improved attention spans, particularly in children. City planners who integrate green infrastructure into urban design are therefore not merely beautifying their cities — they are investing in the physical and mental health of entire populations. The evidence suggests that equitable access to green spaces should be considered a public health priority."
+      }
+    },
+    {
+      "id": "r43-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'equitable' most nearly means:",
+      "choices": [
+        "Expensive",
+        "Fair and available to everyone",
+        "Decorative",
+        "Temporary"
+      ],
+      "answer": 1,
+      "explanation": "In context, 'equitable access' refers to access that is fair and distributed to all residents regardless of their background, consistent with the passage's argument that all populations should benefit from green spaces.",
+      "wrongReasons": [
+        "'Equitable' does not mean expensive; the passage does not discuss cost.",
+        "'Equitable' relates to fairness, not decoration.",
+        "There is no indication in the passage that 'equitable' implies temporary access."
+      ],
+      "passage": {
+        "id": "r43-passage",
+        "title": "The Social Benefits of Green Spaces",
+        "body": "Urban green spaces — parks, gardens, and tree-lined streets — are far more than aesthetic features of a city. Research consistently demonstrates that access to nature within urban environments delivers significant social and psychological benefits to residents. Studies show that people who live near parks report lower levels of stress and anxiety, and are more likely to engage in physical activity, which further improves mental health outcomes. Beyond individual well-being, green spaces serve as communal gathering points where neighbors meet, children play, and community bonds are strengthened. In diverse cities, shared parks can become neutral ground where people from different backgrounds interact, fostering social cohesion. Furthermore, exposure to greenery has been linked to reduced aggression and improved attention spans, particularly in children. City planners who integrate green infrastructure into urban design are therefore not merely beautifying their cities — they are investing in the physical and mental health of entire populations. The evidence suggests that equitable access to green spaces should be considered a public health priority."
+      }
+    },
+    {
+      "id": "r43-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To compare different types of urban parks and their design features.",
+        "To argue that green spaces are a public health necessity that city planners must prioritize equitably.",
+        "To warn that overcrowded parks can harm social cohesion.",
+        "To describe the history of urban park development in major cities."
+      ],
+      "answer": 1,
+      "explanation": "The author builds a case throughout the passage that green spaces deliver measurable health and social benefits, concluding with a call to treat equitable access as a public health priority — indicating a persuasive, policy-oriented purpose.",
+      "wrongReasons": [
+        "The passage does not compare different types of parks or discuss design features.",
+        "The passage does not warn about overcrowding; it discusses benefits of access.",
+        "No historical account of park development is provided."
+      ],
+      "passage": {
+        "id": "r43-passage",
+        "title": "The Social Benefits of Green Spaces",
+        "body": "Urban green spaces — parks, gardens, and tree-lined streets — are far more than aesthetic features of a city. Research consistently demonstrates that access to nature within urban environments delivers significant social and psychological benefits to residents. Studies show that people who live near parks report lower levels of stress and anxiety, and are more likely to engage in physical activity, which further improves mental health outcomes. Beyond individual well-being, green spaces serve as communal gathering points where neighbors meet, children play, and community bonds are strengthened. In diverse cities, shared parks can become neutral ground where people from different backgrounds interact, fostering social cohesion. Furthermore, exposure to greenery has been linked to reduced aggression and improved attention spans, particularly in children. City planners who integrate green infrastructure into urban design are therefore not merely beautifying their cities — they are investing in the physical and mental health of entire populations. The evidence suggests that equitable access to green spaces should be considered a public health priority."
+      }
+    },
+    {
+      "id": "r44-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Pandemics are caused entirely by poor government decisions.",
+        "Throughout history, pandemics have driven lasting and fundamental changes in how societies are organized.",
+        "Modern medicine has eliminated the threat of future pandemics.",
+        "Pandemics only affect the poorest nations."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that pandemics have repeatedly acted as catalysts for deep social, political, and economic transformation throughout human history.",
+      "wrongReasons": [
+        "The passage does not attribute pandemics solely to government decisions.",
+        "The passage does not claim modern medicine has eliminated pandemics; it focuses on historical impact.",
+        "The passage discusses pandemics as events that reshape societies broadly, not only poor nations."
+      ],
+      "passage": {
+        "id": "r44-passage",
+        "title": "How Pandemics Shape Societies",
+        "body": "Throughout human history, pandemics have done more than kill — they have fundamentally reshaped societies. The Black Death, which swept through Europe in the fourteenth century, killed roughly a third of the continent's population and shattered the feudal system. With so many workers dead, surviving laborers could demand higher wages, accelerating the decline of serfdom and laying early groundwork for a market economy. The influenza pandemic of 1918 killed more people than World War One and accelerated social change by putting women into the workforce in large numbers. More recently, the COVID-19 pandemic exposed deep inequalities in healthcare access, accelerated the adoption of remote work, and prompted governments worldwide to rethink their public health infrastructure. Pandemics also tend to erode trust in established institutions while simultaneously generating public pressure for reform. Historians note that disease and human society exist in a dynamic relationship: as societies change, new diseases emerge, and those diseases in turn drive further societal transformation. Understanding this cycle is essential for preparing for the pandemics that will inevitably follow."
+      }
+    },
+    {
+      "id": "r44-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what was one economic consequence of the Black Death in Europe?",
+      "choices": [
+        "It caused the immediate rise of industrial manufacturing.",
+        "Surviving laborers were able to demand higher wages.",
+        "It led to the creation of a unified European currency.",
+        "It caused all feudal lords to abandon their estates."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly states that with so many workers dead, surviving laborers could demand higher wages, which accelerated the decline of serfdom.",
+      "wrongReasons": [
+        "Industrial manufacturing arose centuries later; the passage does not mention it.",
+        "A unified European currency is not mentioned anywhere in the passage.",
+        "The passage says the feudal system was shattered, not that lords abandoned estates individually."
+      ],
+      "passage": {
+        "id": "r44-passage",
+        "title": "How Pandemics Shape Societies",
+        "body": "Throughout human history, pandemics have done more than kill — they have fundamentally reshaped societies. The Black Death, which swept through Europe in the fourteenth century, killed roughly a third of the continent's population and shattered the feudal system. With so many workers dead, surviving laborers could demand higher wages, accelerating the decline of serfdom and laying early groundwork for a market economy. The influenza pandemic of 1918 killed more people than World War One and accelerated social change by putting women into the workforce in large numbers. More recently, the COVID-19 pandemic exposed deep inequalities in healthcare access, accelerated the adoption of remote work, and prompted governments worldwide to rethink their public health infrastructure. Pandemics also tend to erode trust in established institutions while simultaneously generating public pressure for reform. Historians note that disease and human society exist in a dynamic relationship: as societies change, new diseases emerge, and those diseases in turn drive further societal transformation. Understanding this cycle is essential for preparing for the pandemics that will inevitably follow."
+      }
+    },
+    {
+      "id": "r44-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the relationship between pandemics and institutional trust?",
+      "choices": [
+        "Pandemics always strengthen public confidence in government.",
+        "Pandemics tend to weaken trust in institutions while also creating pressure for those institutions to reform.",
+        "Institutions generally become more secretive during pandemics.",
+        "Public trust in institutions is unaffected by pandemic events."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that pandemics erode trust in established institutions while simultaneously generating public pressure for reform, implying a dual effect of damaged trust alongside demands for change.",
+      "wrongReasons": [
+        "The passage says pandemics erode trust, not strengthen it.",
+        "The passage does not mention institutions becoming more secretive.",
+        "The passage directly states that trust is eroded, contradicting this option."
+      ],
+      "passage": {
+        "id": "r44-passage",
+        "title": "How Pandemics Shape Societies",
+        "body": "Throughout human history, pandemics have done more than kill — they have fundamentally reshaped societies. The Black Death, which swept through Europe in the fourteenth century, killed roughly a third of the continent's population and shattered the feudal system. With so many workers dead, surviving laborers could demand higher wages, accelerating the decline of serfdom and laying early groundwork for a market economy. The influenza pandemic of 1918 killed more people than World War One and accelerated social change by putting women into the workforce in large numbers. More recently, the COVID-19 pandemic exposed deep inequalities in healthcare access, accelerated the adoption of remote work, and prompted governments worldwide to rethink their public health infrastructure. Pandemics also tend to erode trust in established institutions while simultaneously generating public pressure for reform. Historians note that disease and human society exist in a dynamic relationship: as societies change, new diseases emerge, and those diseases in turn drive further societal transformation. Understanding this cycle is essential for preparing for the pandemics that will inevitably follow."
+      }
+    },
+    {
+      "id": "r44-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'dynamic' most nearly means:",
+      "choices": [
+        "Static and unchanging",
+        "Continuously changing and interactive",
+        "Violent and destructive",
+        "One-directional"
+      ],
+      "answer": 1,
+      "explanation": "The passage uses 'dynamic relationship' to describe how disease and society continuously influence each other in an ongoing, two-way cycle of change, making 'continuously changing and interactive' the best fit.",
+      "wrongReasons": [
+        "'Dynamic' means the opposite of static; the relationship described involves constant change.",
+        "While pandemics are destructive, 'dynamic' in this context refers to the nature of the relationship, not violence.",
+        "The passage describes a two-directional relationship, not a one-directional one."
+      ],
+      "passage": {
+        "id": "r44-passage",
+        "title": "How Pandemics Shape Societies",
+        "body": "Throughout human history, pandemics have done more than kill — they have fundamentally reshaped societies. The Black Death, which swept through Europe in the fourteenth century, killed roughly a third of the continent's population and shattered the feudal system. With so many workers dead, surviving laborers could demand higher wages, accelerating the decline of serfdom and laying early groundwork for a market economy. The influenza pandemic of 1918 killed more people than World War One and accelerated social change by putting women into the workforce in large numbers. More recently, the COVID-19 pandemic exposed deep inequalities in healthcare access, accelerated the adoption of remote work, and prompted governments worldwide to rethink their public health infrastructure. Pandemics also tend to erode trust in established institutions while simultaneously generating public pressure for reform. Historians note that disease and human society exist in a dynamic relationship: as societies change, new diseases emerge, and those diseases in turn drive further societal transformation. Understanding this cycle is essential for preparing for the pandemics that will inevitably follow."
+      }
+    },
+    {
+      "id": "r44-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To discourage readers from trusting public health authorities.",
+        "To demonstrate that pandemics are inevitable drivers of societal change and that understanding this pattern is vital for future preparedness.",
+        "To argue that the COVID-19 pandemic was worse than all previous pandemics combined.",
+        "To provide a chronological list of every major pandemic in human history."
+      ],
+      "answer": 1,
+      "explanation": "The author traces pandemic-driven social change across history and concludes by stating that understanding this cycle is essential for preparedness, revealing a purpose that is both analytical and forward-looking.",
+      "wrongReasons": [
+        "The passage does not discourage trust in public health; it discusses institutional reform.",
+        "The passage does not claim COVID-19 was worse than all prior pandemics; it compares the 1918 flu to WWI casualties.",
+        "The passage is not a comprehensive chronological list; it selects examples to build an argument."
+      ],
+      "passage": {
+        "id": "r44-passage",
+        "title": "How Pandemics Shape Societies",
+        "body": "Throughout human history, pandemics have done more than kill — they have fundamentally reshaped societies. The Black Death, which swept through Europe in the fourteenth century, killed roughly a third of the continent's population and shattered the feudal system. With so many workers dead, surviving laborers could demand higher wages, accelerating the decline of serfdom and laying early groundwork for a market economy. The influenza pandemic of 1918 killed more people than World War One and accelerated social change by putting women into the workforce in large numbers. More recently, the COVID-19 pandemic exposed deep inequalities in healthcare access, accelerated the adoption of remote work, and prompted governments worldwide to rethink their public health infrastructure. Pandemics also tend to erode trust in established institutions while simultaneously generating public pressure for reform. Historians note that disease and human society exist in a dynamic relationship: as societies change, new diseases emerge, and those diseases in turn drive further societal transformation. Understanding this cycle is essential for preparing for the pandemics that will inevitably follow."
+      }
+    },
+    {
+      "id": "r45-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Genetic engineering is too expensive to be practical.",
+        "Genetic engineering offers significant benefits but raises serious ethical concerns that society must carefully address.",
+        "All forms of genetic engineering should be banned immediately.",
+        "Genetic engineering is only useful for treating rare diseases."
+      ],
+      "answer": 1,
+      "explanation": "The passage presents both the promise of genetic engineering and the ethical dilemmas it creates, concluding that these questions require broad societal engagement, which reflects a balanced but cautionary main idea.",
+      "wrongReasons": [
+        "The passage does not discuss the cost of genetic engineering.",
+        "The passage does not call for an outright ban; it calls for careful ethical reflection.",
+        "The passage mentions multiple applications beyond rare diseases, including disease prevention and agriculture."
+      ],
+      "passage": {
+        "id": "r45-passage",
+        "title": "The Ethics of Genetic Engineering",
+        "body": "Genetic engineering — the deliberate modification of an organism's DNA — holds extraordinary promise but also raises profound ethical questions that societies are only beginning to grapple with. On the medical frontier, technologies such as CRISPR allow scientists to correct genetic mutations responsible for devastating hereditary diseases, offering hope to millions of patients worldwide. In agriculture, engineered crops can resist pests and drought, potentially reducing hunger in vulnerable regions. Yet these advances come with significant risks and moral dilemmas. Germline editing — changes made to embryos that will be inherited by future generations — raises concerns about consent: future individuals cannot agree to modifications made before their birth. Critics also warn of a slippery slope toward 'designer babies,' where genetic selection could amplify existing social inequalities if only the wealthy can afford enhancements. The specter of unintended ecological consequences from releasing genetically modified organisms into nature adds another layer of concern. These are not merely scientific questions — they are fundamentally questions about what it means to be human, about justice, and about our responsibilities to future generations. Broad societal engagement, not just expert consensus, is essential before irreversible steps are taken."
+      }
+    },
+    {
+      "id": "r45-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is one concern about germline editing?",
+      "choices": [
+        "It is too slow to be used in modern medicine.",
+        "Future individuals cannot consent to genetic modifications made before their birth.",
+        "It has already been proven to cause more diseases than it cures.",
+        "Governments have banned it in all countries."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly states that germline editing raises concerns about consent because future individuals cannot agree to modifications made before their birth.",
+      "wrongReasons": [
+        "The passage does not discuss the speed of germline editing as a concern.",
+        "The passage does not claim germline editing causes more diseases than it cures.",
+        "The passage does not state that all governments have banned it."
+      ],
+      "passage": {
+        "id": "r45-passage",
+        "title": "The Ethics of Genetic Engineering",
+        "body": "Genetic engineering — the deliberate modification of an organism's DNA — holds extraordinary promise but also raises profound ethical questions that societies are only beginning to grapple with. On the medical frontier, technologies such as CRISPR allow scientists to correct genetic mutations responsible for devastating hereditary diseases, offering hope to millions of patients worldwide. In agriculture, engineered crops can resist pests and drought, potentially reducing hunger in vulnerable regions. Yet these advances come with significant risks and moral dilemmas. Germline editing — changes made to embryos that will be inherited by future generations — raises concerns about consent: future individuals cannot agree to modifications made before their birth. Critics also warn of a slippery slope toward 'designer babies,' where genetic selection could amplify existing social inequalities if only the wealthy can afford enhancements. The specter of unintended ecological consequences from releasing genetically modified organisms into nature adds another layer of concern. These are not merely scientific questions — they are fundamentally questions about what it means to be human, about justice, and about our responsibilities to future generations. Broad societal engagement, not just expert consensus, is essential before irreversible steps are taken."
+      }
+    },
+    {
+      "id": "r45-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the author's view on who should make decisions about genetic engineering?",
+      "choices": [
+        "Only genetic scientists should determine the limits of genetic research.",
+        "Decisions should involve broad public participation, not be left solely to scientific experts.",
+        "Religious institutions should have final authority over genetic research.",
+        "Governments should ban all public debate on the topic to avoid misinformation."
+      ],
+      "answer": 1,
+      "explanation": "The passage concludes by stating that 'broad societal engagement, not just expert consensus, is essential,' implying the author believes decision-making should extend well beyond the scientific community.",
+      "wrongReasons": [
+        "The passage explicitly says decisions should not rest on expert consensus alone, contradicting exclusive scientific authority.",
+        "Religious institutions are not mentioned in the passage.",
+        "The passage calls for broad engagement, which is the opposite of suppressing public debate."
+      ],
+      "passage": {
+        "id": "r45-passage",
+        "title": "The Ethics of Genetic Engineering",
+        "body": "Genetic engineering — the deliberate modification of an organism's DNA — holds extraordinary promise but also raises profound ethical questions that societies are only beginning to grapple with. On the medical frontier, technologies such as CRISPR allow scientists to correct genetic mutations responsible for devastating hereditary diseases, offering hope to millions of patients worldwide. In agriculture, engineered crops can resist pests and drought, potentially reducing hunger in vulnerable regions. Yet these advances come with significant risks and moral dilemmas. Germline editing — changes made to embryos that will be inherited by future generations — raises concerns about consent: future individuals cannot agree to modifications made before their birth. Critics also warn of a slippery slope toward 'designer babies,' where genetic selection could amplify existing social inequalities if only the wealthy can afford enhancements. The specter of unintended ecological consequences from releasing genetically modified organisms into nature adds another layer of concern. These are not merely scientific questions — they are fundamentally questions about what it means to be human, about justice, and about our responsibilities to future generations. Broad societal engagement, not just expert consensus, is essential before irreversible steps are taken."
+      }
+    },
+    {
+      "id": "r45-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, 'specter' most nearly means:",
+      "choices": [
+        "A ghost that haunts laboratories",
+        "A frightening possibility or looming threat",
+        "A scientific measurement tool",
+        "A type of genetically modified organism"
+      ],
+      "answer": 1,
+      "explanation": "In context, 'the specter of unintended ecological consequences' uses 'specter' figuratively to mean a threatening or haunting possibility — something feared but not yet certain.",
+      "wrongReasons": [
+        "'Specter' here is used figuratively, not to mean a literal ghost.",
+        "A scientific measurement tool is not the meaning of 'specter' in any context used here.",
+        "'Specter' does not refer to a category of organism; it describes a feared outcome."
+      ],
+      "passage": {
+        "id": "r45-passage",
+        "title": "The Ethics of Genetic Engineering",
+        "body": "Genetic engineering — the deliberate modification of an organism's DNA — holds extraordinary promise but also raises profound ethical questions that societies are only beginning to grapple with. On the medical frontier, technologies such as CRISPR allow scientists to correct genetic mutations responsible for devastating hereditary diseases, offering hope to millions of patients worldwide. In agriculture, engineered crops can resist pests and drought, potentially reducing hunger in vulnerable regions. Yet these advances come with significant risks and moral dilemmas. Germline editing — changes made to embryos that will be inherited by future generations — raises concerns about consent: future individuals cannot agree to modifications made before their birth. Critics also warn of a slippery slope toward 'designer babies,' where genetic selection could amplify existing social inequalities if only the wealthy can afford enhancements. The specter of unintended ecological consequences from releasing genetically modified organisms into nature adds another layer of concern. These are not merely scientific questions — they are fundamentally questions about what it means to be human, about justice, and about our responsibilities to future generations. Broad societal engagement, not just expert consensus, is essential before irreversible steps are taken."
+      }
+    },
+    {
+      "id": "r45-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To celebrate the achievements of CRISPR technology without reservation.",
+        "To urge society to engage in ethical reflection before allowing irreversible genetic interventions to proceed.",
+        "To argue that genetic engineering in agriculture is more important than medical applications.",
+        "To prove that genetic engineering will inevitably lead to greater social inequality."
+      ],
+      "answer": 1,
+      "explanation": "The author acknowledges benefits but devotes substantial space to ethical risks and concludes with a call for broad societal engagement before irreversible steps are taken — indicating a cautionary, civic-minded purpose.",
+      "wrongReasons": [
+        "The author does not celebrate CRISPR without reservation; the passage raises significant concerns.",
+        "The passage does not prioritize agriculture over medicine; both are presented as examples of promise and risk.",
+        "While the passage raises the possibility of increased inequality, it does not claim this outcome is inevitable."
+      ],
+      "passage": {
+        "id": "r45-passage",
+        "title": "The Ethics of Genetic Engineering",
+        "body": "Genetic engineering — the deliberate modification of an organism's DNA — holds extraordinary promise but also raises profound ethical questions that societies are only beginning to grapple with. On the medical frontier, technologies such as CRISPR allow scientists to correct genetic mutations responsible for devastating hereditary diseases, offering hope to millions of patients worldwide. In agriculture, engineered crops can resist pests and drought, potentially reducing hunger in vulnerable regions. Yet these advances come with significant risks and moral dilemmas. Germline editing — changes made to embryos that will be inherited by future generations — raises concerns about consent: future individuals cannot agree to modifications made before their birth. Critics also warn of a slippery slope toward 'designer babies,' where genetic selection could amplify existing social inequalities if only the wealthy can afford enhancements. The specter of unintended ecological consequences from releasing genetically modified organisms into nature adds another layer of concern. These are not merely scientific questions — they are fundamentally questions about what it means to be human, about justice, and about our responsibilities to future generations. Broad societal engagement, not just expert consensus, is essential before irreversible steps are taken."
+      }
+    },
+    {
+      "id": "r46-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Migration is primarily a modern phenomenon caused by globalization.",
+        "Throughout history, migration has driven the exchange of cultures, ideas, and technologies, enriching human civilization.",
+        "Migration causes more social conflict than it resolves.",
+        "Cultural exchange only happens when nations share a common language."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that migration has historically been a key engine of cultural exchange, spreading ideas, goods, and practices that have enriched human civilization across many eras.",
+      "wrongReasons": [
+        "The passage presents migration as an ancient and ongoing phenomenon, not primarily a modern one.",
+        "The passage acknowledges tensions but frames migration's overall effect on civilization as enriching.",
+        "The passage provides examples of cultural exchange across linguistic boundaries, contradicting this claim."
+      ],
+      "passage": {
+        "id": "r46-passage",
+        "title": "Migration and Cultural Exchange",
+        "body": "Human beings have always moved. From the earliest migrations out of Africa to the great diasporas of the modern era, the movement of peoples has been one of the most powerful forces shaping human civilization. When people migrate, they carry with them not only their possessions but also their languages, religions, culinary traditions, artistic practices, and technological knowledge. The Silk Road was not merely a trade route for goods — it was a conduit for the exchange of ideas, religions, and innovations between East Asia, Central Asia, the Middle East, and Europe. Medieval Islamic scholars preserved and transmitted Greek philosophical texts to European thinkers, a transfer of knowledge that helped spark the Renaissance. In more recent centuries, immigrant communities in cities like New York, London, and São Paulo have created vibrant hybrid cultures that have enriched the arts, cuisine, and intellectual life of their host societies. While migration can generate social tensions, particularly when economic resources are scarce or cultural differences are perceived as threatening, the historical record overwhelmingly demonstrates that diverse societies tend to be more innovative and resilient than homogeneous ones. Migration, in short, is not a problem to be solved — it is a fundamental condition of human progress."
+      }
+    },
+    {
+      "id": "r46-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what role did medieval Islamic scholars play in cultural exchange?",
+      "choices": [
+        "They invented the printing press and distributed it to Europe.",
+        "They preserved and transmitted Greek philosophical texts to European thinkers.",
+        "They established the first universities in Western Europe.",
+        "They translated Chinese scientific texts into Latin."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly states that medieval Islamic scholars preserved and transmitted Greek philosophical texts to European thinkers, helping to spark the Renaissance.",
+      "wrongReasons": [
+        "The printing press is not mentioned in the passage.",
+        "Founding Western European universities is not attributed to Islamic scholars in the passage.",
+        "The passage does not mention translation of Chinese texts into Latin."
+      ],
+      "passage": {
+        "id": "r46-passage",
+        "title": "Migration and Cultural Exchange",
+        "body": "Human beings have always moved. From the earliest migrations out of Africa to the great diasporas of the modern era, the movement of peoples has been one of the most powerful forces shaping human civilization. When people migrate, they carry with them not only their possessions but also their languages, religions, culinary traditions, artistic practices, and technological knowledge. The Silk Road was not merely a trade route for goods — it was a conduit for the exchange of ideas, religions, and innovations between East Asia, Central Asia, the Middle East, and Europe. Medieval Islamic scholars preserved and transmitted Greek philosophical texts to European thinkers, a transfer of knowledge that helped spark the Renaissance. In more recent centuries, immigrant communities in cities like New York, London, and São Paulo have created vibrant hybrid cultures that have enriched the arts, cuisine, and intellectual life of their host societies. While migration can generate social tensions, particularly when economic resources are scarce or cultural differences are perceived as threatening, the historical record overwhelmingly demonstrates that diverse societies tend to be more innovative and resilient than homogeneous ones. Migration, in short, is not a problem to be solved — it is a fundamental condition of human progress."
+      }
+    },
+    {
+      "id": "r46-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the author's attitude toward the social tensions that migration sometimes causes?",
+      "choices": [
+        "The author believes social tensions from migration are severe enough to outweigh its benefits.",
+        "The author acknowledges tensions exist but regards migration's overall contribution to human progress as far greater.",
+        "The author thinks social tensions from migration are always the result of government mismanagement.",
+        "The author avoids taking any position on whether migration is beneficial or harmful."
+      ],
+      "answer": 1,
+      "explanation": "The author concedes that migration can generate tensions but immediately follows with evidence that diverse societies are more innovative and resilient, concluding that migration is 'a fundamental condition of human progress' — showing a clearly positive overall assessment.",
+      "wrongReasons": [
+        "The author explicitly states the historical record 'overwhelmingly demonstrates' the benefits, signaling they outweigh the tensions.",
+        "The passage attributes tensions to scarce resources and perceived cultural differences, not government mismanagement.",
+        "The author's concluding statement is a strong endorsement of migration's value, not a neutral position."
+      ],
+      "passage": {
+        "id": "r46-passage",
+        "title": "Migration and Cultural Exchange",
+        "body": "Human beings have always moved. From the earliest migrations out of Africa to the great diasporas of the modern era, the movement of peoples has been one of the most powerful forces shaping human civilization. When people migrate, they carry with them not only their possessions but also their languages, religions, culinary traditions, artistic practices, and technological knowledge. The Silk Road was not merely a trade route for goods — it was a conduit for the exchange of ideas, religions, and innovations between East Asia, Central Asia, the Middle East, and Europe. Medieval Islamic scholars preserved and transmitted Greek philosophical texts to European thinkers, a transfer of knowledge that helped spark the Renaissance. In more recent centuries, immigrant communities in cities like New York, London, and São Paulo have created vibrant hybrid cultures that have enriched the arts, cuisine, and intellectual life of their host societies. While migration can generate social tensions, particularly when economic resources are scarce or cultural differences are perceived as threatening, the historical record overwhelmingly demonstrates that diverse societies tend to be more innovative and resilient than homogeneous ones. Migration, in short, is not a problem to be solved — it is a fundamental condition of human progress."
+      }
+    },
+    {
+      "id": "r46-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, 'conduit' most nearly means:",
+      "choices": [
+        "A barrier that prevents the flow of goods",
+        "A channel through which something is transmitted or carried",
+        "A type of ancient marketplace",
+        "A military strategy"
+      ],
+      "answer": 1,
+      "explanation": "The passage describes the Silk Road as a 'conduit for the exchange of ideas, religions, and innovations,' using 'conduit' to mean a channel or medium through which things pass from one place to another.",
+      "wrongReasons": [
+        "A conduit facilitates flow, not blocks it; this choice is the opposite of the correct meaning.",
+        "A conduit is not described as a marketplace in this or any other standard usage.",
+        "'Conduit' has no military connotation in this passage."
+      ],
+      "passage": {
+        "id": "r46-passage",
+        "title": "Migration and Cultural Exchange",
+        "body": "Human beings have always moved. From the earliest migrations out of Africa to the great diasporas of the modern era, the movement of peoples has been one of the most powerful forces shaping human civilization. When people migrate, they carry with them not only their possessions but also their languages, religions, culinary traditions, artistic practices, and technological knowledge. The Silk Road was not merely a trade route for goods — it was a conduit for the exchange of ideas, religions, and innovations between East Asia, Central Asia, the Middle East, and Europe. Medieval Islamic scholars preserved and transmitted Greek philosophical texts to European thinkers, a transfer of knowledge that helped spark the Renaissance. In more recent centuries, immigrant communities in cities like New York, London, and São Paulo have created vibrant hybrid cultures that have enriched the arts, cuisine, and intellectual life of their host societies. While migration can generate social tensions, particularly when economic resources are scarce or cultural differences are perceived as threatening, the historical record overwhelmingly demonstrates that diverse societies tend to be more innovative and resilient than homogeneous ones. Migration, in short, is not a problem to be solved — it is a fundamental condition of human progress."
+      }
+    },
+    {
+      "id": "r46-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To provide a neutral overview of the causes and patterns of migration throughout history.",
+        "To counter the perception of migration as a problem by demonstrating its role as an engine of cultural and intellectual progress.",
+        "To argue that only ancient migrations were beneficial, while modern migration is more problematic.",
+        "To advocate for open borders as a specific immigration policy."
+      ],
+      "answer": 1,
+      "explanation": "The author's framing — 'migration is not a problem to be solved' — and the supporting historical evidence are designed to reframe migration positively, countering views that treat it primarily as a social challenge.",
+      "wrongReasons": [
+        "The passage is not neutral; the author takes a clear pro-migration stance throughout.",
+        "The passage treats modern migration (immigrant communities in New York, London, São Paulo) as equally enriching, not more problematic.",
+        "The passage makes no specific policy recommendation such as open borders."
+      ],
+      "passage": {
+        "id": "r46-passage",
+        "title": "Migration and Cultural Exchange",
+        "body": "Human beings have always moved. From the earliest migrations out of Africa to the great diasporas of the modern era, the movement of peoples has been one of the most powerful forces shaping human civilization. When people migrate, they carry with them not only their possessions but also their languages, religions, culinary traditions, artistic practices, and technological knowledge. The Silk Road was not merely a trade route for goods — it was a conduit for the exchange of ideas, religions, and innovations between East Asia, Central Asia, the Middle East, and Europe. Medieval Islamic scholars preserved and transmitted Greek philosophical texts to European thinkers, a transfer of knowledge that helped spark the Renaissance. In more recent centuries, immigrant communities in cities like New York, London, and São Paulo have created vibrant hybrid cultures that have enriched the arts, cuisine, and intellectual life of their host societies. While migration can generate social tensions, particularly when economic resources are scarce or cultural differences are perceived as threatening, the historical record overwhelmingly demonstrates that diverse societies tend to be more innovative and resilient than homogeneous ones. Migration, in short, is not a problem to be solved — it is a fundamental condition of human progress."
+      }
+    },
+    {
+      "id": "r47-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Poverty is caused solely by individual laziness and poor financial decisions.",
+        "Poverty is a complex, self-reinforcing condition sustained by structural barriers rather than individual failings alone.",
+        "Foreign aid is the only effective solution to global poverty.",
+        "Poverty rates are declining steadily in every country around the world."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that poverty persists due to a web of self-reinforcing structural factors — including poor nutrition, inadequate education, and political exclusion — that make it extremely difficult to escape, regardless of individual effort.",
+      "wrongReasons": [
+        "The passage explicitly rejects the idea that poverty is simply the result of poor individual choices.",
+        "Foreign aid is not mentioned as the only or primary solution in the passage.",
+        "The passage discusses why poverty persists, not a universal trend of decline."
+      ],
+      "passage": {
+        "id": "r47-passage",
+        "title": "Why Poverty Persists",
+        "body": "Poverty is not simply the result of poor individual choices or lack of ambition — it is a deeply structural condition that reproduces itself across generations through interlocking mechanisms that are difficult to escape. Children born into poverty are more likely to suffer from malnutrition, which impairs cognitive development and limits educational attainment. Poor educational outcomes in turn reduce access to stable employment, trapping adults in low-wage work that offers little opportunity for savings or investment. Those without savings have no buffer against emergencies such as illness or job loss, pushing them deeper into debt. At the community level, impoverished neighborhoods often lack adequate schools, healthcare facilities, and public infrastructure, compounding individual disadvantages. Political exclusion further entrenches poverty: low-income communities frequently lack the political representation needed to advocate for better services or more equitable economic policies. Economists have identified the concept of a 'poverty trap' — a set of self-reinforcing conditions that prevent households from accumulating the resources needed to improve their circumstances. Breaking this trap typically requires simultaneous interventions across multiple domains: nutrition, education, healthcare, housing, and political empowerment. Addressing poverty as though it were merely a personal failing guarantees its persistence."
+      }
+    },
+    {
+      "id": "r47-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, how does malnutrition contribute to the persistence of poverty?",
+      "choices": [
+        "It causes adults to leave the workforce prematurely.",
+        "It impairs cognitive development in children, limiting their educational attainment.",
+        "It drives families to migrate to urban areas where food is cheaper.",
+        "It increases government spending on healthcare, reducing funds for education."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that children born into poverty are more likely to suffer from malnutrition, which impairs cognitive development and limits educational attainment — establishing a direct link between malnutrition and poor educational outcomes.",
+      "wrongReasons": [
+        "The passage does not discuss adults leaving the workforce due to malnutrition.",
+        "Migration to urban areas in search of cheaper food is not mentioned in the passage.",
+        "Government spending trade-offs between healthcare and education are not discussed in the passage."
+      ],
+      "passage": {
+        "id": "r47-passage",
+        "title": "Why Poverty Persists",
+        "body": "Poverty is not simply the result of poor individual choices or lack of ambition — it is a deeply structural condition that reproduces itself across generations through interlocking mechanisms that are difficult to escape. Children born into poverty are more likely to suffer from malnutrition, which impairs cognitive development and limits educational attainment. Poor educational outcomes in turn reduce access to stable employment, trapping adults in low-wage work that offers little opportunity for savings or investment. Those without savings have no buffer against emergencies such as illness or job loss, pushing them deeper into debt. At the community level, impoverished neighborhoods often lack adequate schools, healthcare facilities, and public infrastructure, compounding individual disadvantages. Political exclusion further entrenches poverty: low-income communities frequently lack the political representation needed to advocate for better services or more equitable economic policies. Economists have identified the concept of a 'poverty trap' — a set of self-reinforcing conditions that prevent households from accumulating the resources needed to improve their circumstances. Breaking this trap typically requires simultaneous interventions across multiple domains: nutrition, education, healthcare, housing, and political empowerment. Addressing poverty as though it were merely a personal failing guarantees its persistence."
+      }
+    },
+    {
+      "id": "r47-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about why single-domain interventions (e.g., improving education alone) are insufficient to end poverty?",
+      "choices": [
+        "Education is too expensive to scale in poor communities.",
+        "Because poverty is maintained by multiple interlocking factors, fixing only one leaves the others in place to perpetuate the trap.",
+        "Governments are unwilling to fund education in impoverished areas.",
+        "Improved education increases inequality by benefiting only the most talented individuals."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes poverty as a 'poverty trap' sustained by interlocking mechanisms and states that breaking it requires simultaneous interventions across multiple domains, implying that addressing only one domain leaves others intact to sustain the cycle.",
+      "wrongReasons": [
+        "The passage does not discuss the cost of scaling education as a barrier.",
+        "Government unwillingness to fund education is not cited as a reason single interventions fail.",
+        "The passage does not suggest that education increases inequality or benefits only the talented."
+      ],
+      "passage": {
+        "id": "r47-passage",
+        "title": "Why Poverty Persists",
+        "body": "Poverty is not simply the result of poor individual choices or lack of ambition — it is a deeply structural condition that reproduces itself across generations through interlocking mechanisms that are difficult to escape. Children born into poverty are more likely to suffer from malnutrition, which impairs cognitive development and limits educational attainment. Poor educational outcomes in turn reduce access to stable employment, trapping adults in low-wage work that offers little opportunity for savings or investment. Those without savings have no buffer against emergencies such as illness or job loss, pushing them deeper into debt. At the community level, impoverished neighborhoods often lack adequate schools, healthcare facilities, and public infrastructure, compounding individual disadvantages. Political exclusion further entrenches poverty: low-income communities frequently lack the political representation needed to advocate for better services or more equitable economic policies. Economists have identified the concept of a 'poverty trap' — a set of self-reinforcing conditions that prevent households from accumulating the resources needed to improve their circumstances. Breaking this trap typically requires simultaneous interventions across multiple domains: nutrition, education, healthcare, housing, and political empowerment. Addressing poverty as though it were merely a personal failing guarantees its persistence."
+      }
+    },
+    {
+      "id": "r47-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, 'entrenches' most nearly means:",
+      "choices": [
+        "Weakens and reduces over time",
+        "Firmly establishes and makes harder to remove",
+        "Creates new opportunities for",
+        "Measures statistically"
+      ],
+      "answer": 1,
+      "explanation": "In the sentence 'Political exclusion further entrenches poverty,' 'entrenches' means to make poverty more deeply embedded and harder to overcome — consistent with the passage's overall argument about self-reinforcing barriers.",
+      "wrongReasons": [
+        "'Entrenches' means the opposite of weakens; the passage argues poverty becomes more fixed, not less.",
+        "Entrenchment does not create opportunities; it describes the reinforcement of obstacles.",
+        "'Entrenches' carries no statistical measurement meaning in this context."
+      ],
+      "passage": {
+        "id": "r47-passage",
+        "title": "Why Poverty Persists",
+        "body": "Poverty is not simply the result of poor individual choices or lack of ambition — it is a deeply structural condition that reproduces itself across generations through interlocking mechanisms that are difficult to escape. Children born into poverty are more likely to suffer from malnutrition, which impairs cognitive development and limits educational attainment. Poor educational outcomes in turn reduce access to stable employment, trapping adults in low-wage work that offers little opportunity for savings or investment. Those without savings have no buffer against emergencies such as illness or job loss, pushing them deeper into debt. At the community level, impoverished neighborhoods often lack adequate schools, healthcare facilities, and public infrastructure, compounding individual disadvantages. Political exclusion further entrenches poverty: low-income communities frequently lack the political representation needed to advocate for better services or more equitable economic policies. Economists have identified the concept of a 'poverty trap' — a set of self-reinforcing conditions that prevent households from accumulating the resources needed to improve their circumstances. Breaking this trap typically requires simultaneous interventions across multiple domains: nutrition, education, healthcare, housing, and political empowerment. Addressing poverty as though it were merely a personal failing guarantees its persistence."
+      }
+    },
+    {
+      "id": "r47-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in writing this passage?",
+      "choices": [
+        "To compare poverty rates across different countries and regions.",
+        "To challenge the individualistic view of poverty and make the case for comprehensive, structural interventions.",
+        "To argue that political reform is the single most important solution to poverty.",
+        "To explain the history of economic development theory."
+      ],
+      "answer": 1,
+      "explanation": "The author opens by rejecting the individualistic explanation of poverty and closes by warning that treating it as a personal failing 'guarantees its persistence,' framing the entire passage as an argument for structural, multi-domain solutions.",
+      "wrongReasons": [
+        "The passage does not compare poverty rates across countries; it discusses mechanisms of poverty generally.",
+        "While political empowerment is listed as one necessary domain, the passage argues for simultaneous interventions across multiple areas, not political reform alone.",
+        "The passage does not trace the history of economic development theory."
+      ],
+      "passage": {
+        "id": "r47-passage",
+        "title": "Why Poverty Persists",
+        "body": "Poverty is not simply the result of poor individual choices or lack of ambition — it is a deeply structural condition that reproduces itself across generations through interlocking mechanisms that are difficult to escape. Children born into poverty are more likely to suffer from malnutrition, which impairs cognitive development and limits educational attainment. Poor educational outcomes in turn reduce access to stable employment, trapping adults in low-wage work that offers little opportunity for savings or investment. Those without savings have no buffer against emergencies such as illness or job loss, pushing them deeper into debt. At the community level, impoverished neighborhoods often lack adequate schools, healthcare facilities, and public infrastructure, compounding individual disadvantages. Political exclusion further entrenches poverty: low-income communities frequently lack the political representation needed to advocate for better services or more equitable economic policies. Economists have identified the concept of a 'poverty trap' — a set of self-reinforcing conditions that prevent households from accumulating the resources needed to improve their circumstances. Breaking this trap typically requires simultaneous interventions across multiple domains: nutrition, education, healthcare, housing, and political empowerment. Addressing poverty as though it were merely a personal failing guarantees its persistence."
+      }
+    }
+  ]
+}

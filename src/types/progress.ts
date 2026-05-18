@@ -1,0 +1,66 @@
+import type { QuestionCategory, QuestionDifficulty } from "./questions";
+
+export interface CategoryProgress {
+  category: QuestionCategory;
+  totalAnswered: number;
+  totalCorrect: number;
+  accuracyPercent: number;
+  averageTimeSeconds: number;
+  lastPracticedAt: string | null;
+}
+
+export interface VocabProgress {
+  totalSeen: number;
+  totalMastered: number;
+  totalStarred: number;
+  totalWeak: number;
+  lastStudiedAt: string | null;
+}
+
+export interface SimulationHistory {
+  id: string;
+  completedAt: string;
+  estimatedScore: number;
+  accuracyPercent: number;
+  durationSeconds: number;
+  sectionBreakdown: Record<string, { correct: number; total: number }>;
+  isPilot: boolean;
+}
+
+export interface DailyGoal {
+  targetQuestions: number;
+  questionsAnsweredToday: number;
+  date: string;
+}
+
+export interface WeaknessProfile {
+  weakCategories: QuestionCategory[];
+  weakDifficulties: QuestionDifficulty[];
+  slowCategories: QuestionCategory[];
+  recommendedMode: string;
+  generatedAt: string;
+}
+
+export interface UserProgress {
+  userId: string;
+  streak: number;
+  lastActiveDate: string | null;
+  dailyGoal: DailyGoal;
+  estimatedScore: number | null;
+  totalQuestionsAnswered: number;
+  totalCorrect: number;
+  categoryProgress: CategoryProgress[];
+  vocabProgress: VocabProgress;
+  simulationHistory: SimulationHistory[];
+  weaknessProfile: WeaknessProfile | null;
+  createdAt: string;
+  updatedAt: string;
+  xp: number;
+  level: number;
+  targetScore: number;
+  achievements: string[];
+  diagnosticCompleted: boolean;
+  diagnosticScore: number | null;
+  diagnosticCompletedAt: string | null;
+  diagnosticCategoryResults: Record<string, number> | null;
+}

@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r18-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Languages change because speakers make deliberate decisions to alter them.",
+        "Language change is a natural, continuous process driven by social and historical forces.",
+        "Written language changes faster than spoken language.",
+        "Languages only change when cultures come into contact through trade."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that language change is an inevitable, ongoing phenomenon shaped by migration, contact, and generational shifts — not a result of deliberate planning.",
+      "wrongReasons": [
+        "The passage states change is largely unconscious, not deliberate.",
+        "The passage says written language is generally more conservative and resists change.",
+        "Trade is mentioned as one factor, but the passage presents many other causes."
+      ],
+      "passage": {
+        "id": "r18-passage",
+        "title": "Why Languages Change Over Time",
+        "body": "Language is never static. From the moment a child acquires speech, the linguistic system they inherit is already subtly different from that of their grandparents, and it will continue to shift throughout their lifetime. Linguists identify several forces that drive this perpetual transformation. Contact between different language communities is among the most powerful: when speakers of distinct tongues trade, migrate, or conquer, vocabulary and grammatical patterns blend and cross-pollinate. Generational transmission also plays a role, as children do not copy parental speech perfectly but introduce small, consistent innovations. Social pressures, such as the desire to signal membership in a particular group or to mark education and status, further steer pronunciation and word choice. Technology and cultural change introduce entirely new concepts that demand new words, while older terms fall out of use as the realities they described disappear. Written language tends to be more conservative, preserving older forms that spoken language long ago abandoned. Ultimately, language change is not a sign of decay but a testament to the living, adaptive nature of human communication."
+      }
+    },
+    {
+      "id": "r18-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, why does written language tend to resist change more than spoken language?",
+      "choices": [
+        "Written language is used more frequently by the general population.",
+        "Written language is regulated by government agencies.",
+        "Written language preserves older forms that spoken language has already abandoned.",
+        "Written language evolves faster because it is exposed to more speakers."
+      ],
+      "answer": 2,
+      "explanation": "The passage directly states that written language 'tends to be more conservative, preserving older forms that spoken language long ago abandoned.'",
+      "wrongReasons": [
+        "The passage makes no claim about the frequency of written versus spoken language use.",
+        "Government regulation of language is not mentioned anywhere in the passage.",
+        "The passage says the opposite — written language is slower to change, not faster."
+      ],
+      "passage": {
+        "id": "r18-passage",
+        "title": "Why Languages Change Over Time",
+        "body": "Language is never static. From the moment a child acquires speech, the linguistic system they inherit is already subtly different from that of their grandparents, and it will continue to shift throughout their lifetime. Linguists identify several forces that drive this perpetual transformation. Contact between different language communities is among the most powerful: when speakers of distinct tongues trade, migrate, or conquer, vocabulary and grammatical patterns blend and cross-pollinate. Generational transmission also plays a role, as children do not copy parental speech perfectly but introduce small, consistent innovations. Social pressures, such as the desire to signal membership in a particular group or to mark education and status, further steer pronunciation and word choice. Technology and cultural change introduce entirely new concepts that demand new words, while older terms fall out of use as the realities they described disappear. Written language tends to be more conservative, preserving older forms that spoken language long ago abandoned. Ultimately, language change is not a sign of decay but a testament to the living, adaptive nature of human communication."
+      }
+    },
+    {
+      "id": "r18-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which inference is best supported by the passage's claim that children 'do not copy parental speech perfectly but introduce small, consistent innovations'?",
+      "choices": [
+        "Children are careless learners who fail to pay attention to adults.",
+        "Language change is partly an inherent result of how humans acquire and reproduce language.",
+        "Parents should correct children's speech to slow the rate of language change.",
+        "Innovations introduced by children are always random and have no lasting effect."
+      ],
+      "answer": 1,
+      "explanation": "If each generation introduces small but consistent innovations during acquisition, then language change is built into the very mechanism by which language is passed on — making it an inherent feature of human language transmission.",
+      "wrongReasons": [
+        "The passage frames childhood innovation positively and systematically, not as carelessness.",
+        "The passage never suggests that change should be slowed or that correction is desirable.",
+        "The passage describes the innovations as 'consistent,' implying they are systematic and may well persist."
+      ],
+      "passage": {
+        "id": "r18-passage",
+        "title": "Why Languages Change Over Time",
+        "body": "Language is never static. From the moment a child acquires speech, the linguistic system they inherit is already subtly different from that of their grandparents, and it will continue to shift throughout their lifetime. Linguists identify several forces that drive this perpetual transformation. Contact between different language communities is among the most powerful: when speakers of distinct tongues trade, migrate, or conquer, vocabulary and grammatical patterns blend and cross-pollinate. Generational transmission also plays a role, as children do not copy parental speech perfectly but introduce small, consistent innovations. Social pressures, such as the desire to signal membership in a particular group or to mark education and status, further steer pronunciation and word choice. Technology and cultural change introduce entirely new concepts that demand new words, while older terms fall out of use as the realities they described disappear. Written language tends to be more conservative, preserving older forms that spoken language long ago abandoned. Ultimately, language change is not a sign of decay but a testament to the living, adaptive nature of human communication."
+      }
+    },
+    {
+      "id": "r18-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'conservative' most nearly means:",
+      "choices": [
+        "politically right-wing in orientation",
+        "economical and frugal in resource use",
+        "resistant to change and tending to preserve existing forms",
+        "careful and methodical in approach"
+      ],
+      "answer": 2,
+      "explanation": "In the context of language, 'conservative' means tending to retain older forms and resist innovation — the opposite of progressive or innovative. The passage uses it to contrast written language's slower rate of change with spoken language.",
+      "wrongReasons": [
+        "The passage uses 'conservative' in a linguistic, not a political, sense.",
+        "Frugality relates to economics, not to linguistic behavior.",
+        "Being methodical describes a process or approach, not the retention of linguistic forms."
+      ],
+      "passage": {
+        "id": "r18-passage",
+        "title": "Why Languages Change Over Time",
+        "body": "Language is never static. From the moment a child acquires speech, the linguistic system they inherit is already subtly different from that of their grandparents, and it will continue to shift throughout their lifetime. Linguists identify several forces that drive this perpetual transformation. Contact between different language communities is among the most powerful: when speakers of distinct tongues trade, migrate, or conquer, vocabulary and grammatical patterns blend and cross-pollinate. Generational transmission also plays a role, as children do not copy parental speech perfectly but introduce small, consistent innovations. Social pressures, such as the desire to signal membership in a particular group or to mark education and status, further steer pronunciation and word choice. Technology and cultural change introduce entirely new concepts that demand new words, while older terms fall out of use as the realities they described disappear. Written language tends to be more conservative, preserving older forms that spoken language long ago abandoned. Ultimately, language change is not a sign of decay but a testament to the living, adaptive nature of human communication."
+      }
+    },
+    {
+      "id": "r18-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in concluding that language change 'is not a sign of decay but a testament to the living, adaptive nature of human communication'?",
+      "choices": [
+        "To acknowledge a counterargument and then refute the view that language change is harmful.",
+        "To summarize the historical evidence presented earlier in the passage.",
+        "To argue that linguists should stop studying language change.",
+        "To warn readers that their language will soon become unrecognizable."
+      ],
+      "answer": 0,
+      "explanation": "The concluding sentence directly counters the common prescriptivist view that language change represents decline or corruption. By reframing change as evidence of vitality, the author refutes the 'decay' perspective implicit in popular attitudes toward linguistic change.",
+      "wrongReasons": [
+        "The conclusion introduces a reframing, not a historical summary — historical evidence was presented in the body.",
+        "The passage promotes linguistic study as worthwhile; it never suggests linguists should stop.",
+        "The tone is reassuring and celebratory, not alarmist about future unintelligibility."
+      ],
+      "passage": {
+        "id": "r18-passage",
+        "title": "Why Languages Change Over Time",
+        "body": "Language is never static. From the moment a child acquires speech, the linguistic system they inherit is already subtly different from that of their grandparents, and it will continue to shift throughout their lifetime. Linguists identify several forces that drive this perpetual transformation. Contact between different language communities is among the most powerful: when speakers of distinct tongues trade, migrate, or conquer, vocabulary and grammatical patterns blend and cross-pollinate. Generational transmission also plays a role, as children do not copy parental speech perfectly but introduce small, consistent innovations. Social pressures, such as the desire to signal membership in a particular group or to mark education and status, further steer pronunciation and word choice. Technology and cultural change introduce entirely new concepts that demand new words, while older terms fall out of use as the realities they described disappear. Written language tends to be more conservative, preserving older forms that spoken language long ago abandoned. Ultimately, language change is not a sign of decay but a testament to the living, adaptive nature of human communication."
+      }
+    },
+    {
+      "id": "r19-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Remote work is a temporary trend that will disappear once office space becomes cheaper.",
+        "Remote work creates complex economic trade-offs that affect workers, employers, and cities differently.",
+        "Remote workers always earn higher salaries than their in-office counterparts.",
+        "The only significant economic benefit of remote work is reduced commuting costs for employees."
+      ],
+      "answer": 1,
+      "explanation": "The passage examines multiple economic dimensions of remote work — worker savings, employer cost reductions, and the negative impact on urban commercial districts — showing that the effects are varied and depend on one's perspective.",
+      "wrongReasons": [
+        "The passage treats remote work as a lasting structural shift, not a temporary trend.",
+        "The passage notes wage adjustments can reduce salaries for remote workers, contradicting this claim.",
+        "The passage describes multiple economic effects beyond commuting costs, including employer savings and urban economic disruption."
+      ],
+      "passage": {
+        "id": "r19-passage",
+        "title": "The Economics of Remote Work",
+        "body": "The widespread adoption of remote work following the disruptions of the early 2020s has generated intense debate among economists about its long-term financial consequences. For individual workers, the calculus is mixed. Eliminating commutes saves money and time, and housing costs can fall dramatically for those who relocate from expensive metropolitan areas. Yet employers have begun adjusting compensation to reflect local cost-of-living figures, meaning that a software engineer who moves from San Francisco to rural Tennessee may see their salary trimmed accordingly. From the employer's perspective, remote arrangements can reduce expenditure on office space, utilities, and associated overhead, potentially improving profit margins. However, managing distributed teams requires investment in new tools, cybersecurity infrastructure, and asynchronous communication training. At the urban level, reduced office occupancy has hollowed out commercial districts, depressing tax revenues and harming the restaurants, retailers, and service providers that once depended on daily foot traffic. The economic impact of remote work is therefore not uniformly positive or negative but varies considerably depending on which stakeholder one examines and over what time horizon."
+      }
+    },
+    {
+      "id": "r19-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is one way that employers may offset the costs of managing remote teams?",
+      "choices": [
+        "By increasing employee salaries to reward productivity at home.",
+        "By reducing expenditure on office space and related overhead.",
+        "By outsourcing cybersecurity to government agencies.",
+        "By requiring all remote employees to relocate to lower-cost cities."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly states that 'remote arrangements can reduce expenditure on office space, utilities, and associated overhead, potentially improving profit margins.'",
+      "wrongReasons": [
+        "The passage describes salary reductions for remote workers, not increases.",
+        "The passage says employers must invest in cybersecurity infrastructure themselves; no government role is mentioned.",
+        "Employers adjust salaries based on location but do not require relocation according to the passage."
+      ],
+      "passage": {
+        "id": "r19-passage",
+        "title": "The Economics of Remote Work",
+        "body": "The widespread adoption of remote work following the disruptions of the early 2020s has generated intense debate among economists about its long-term financial consequences. For individual workers, the calculus is mixed. Eliminating commutes saves money and time, and housing costs can fall dramatically for those who relocate from expensive metropolitan areas. Yet employers have begun adjusting compensation to reflect local cost-of-living figures, meaning that a software engineer who moves from San Francisco to rural Tennessee may see their salary trimmed accordingly. From the employer's perspective, remote arrangements can reduce expenditure on office space, utilities, and associated overhead, potentially improving profit margins. However, managing distributed teams requires investment in new tools, cybersecurity infrastructure, and asynchronous communication training. At the urban level, reduced office occupancy has hollowed out commercial districts, depressing tax revenues and harming the restaurants, retailers, and service providers that once depended on daily foot traffic. The economic impact of remote work is therefore not uniformly positive or negative but varies considerably depending on which stakeholder one examines and over what time horizon."
+      }
+    },
+    {
+      "id": "r19-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about cities that were heavily dependent on office workers before the rise of remote work?",
+      "choices": [
+        "Those cities have benefited economically because remote workers spend more locally.",
+        "Those cities are likely experiencing significant revenue and commercial activity losses.",
+        "Those cities have successfully diversified their economies to replace lost office revenue.",
+        "Those cities have encouraged employers to mandate a return to offices by offering tax incentives."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that reduced office occupancy has 'hollowed out commercial districts, depressing tax revenues and harming' local businesses. Cities heavily reliant on office workers would logically suffer these effects most severely.",
+      "wrongReasons": [
+        "The passage describes harm to local businesses from reduced foot traffic, not increased local spending by remote workers.",
+        "The passage does not mention diversification strategies; it describes ongoing harm.",
+        "Tax incentives for return-to-office mandates are not mentioned anywhere in the passage."
+      ],
+      "passage": {
+        "id": "r19-passage",
+        "title": "The Economics of Remote Work",
+        "body": "The widespread adoption of remote work following the disruptions of the early 2020s has generated intense debate among economists about its long-term financial consequences. For individual workers, the calculus is mixed. Eliminating commutes saves money and time, and housing costs can fall dramatically for those who relocate from expensive metropolitan areas. Yet employers have begun adjusting compensation to reflect local cost-of-living figures, meaning that a software engineer who moves from San Francisco to rural Tennessee may see their salary trimmed accordingly. From the employer's perspective, remote arrangements can reduce expenditure on office space, utilities, and associated overhead, potentially improving profit margins. However, managing distributed teams requires investment in new tools, cybersecurity infrastructure, and asynchronous communication training. At the urban level, reduced office occupancy has hollowed out commercial districts, depressing tax revenues and harming the restaurants, retailers, and service providers that once depended on daily foot traffic. The economic impact of remote work is therefore not uniformly positive or negative but varies considerably depending on which stakeholder one examines and over what time horizon."
+      }
+    },
+    {
+      "id": "r19-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the phrase 'the calculus is mixed' most nearly means:",
+      "choices": [
+        "mathematical calculations are required to understand the data",
+        "the financial advantages and disadvantages are difficult to separate and evaluate",
+        "the outcomes are entirely negative for most workers",
+        "the analysis is straightforward once all variables are considered"
+      ],
+      "answer": 1,
+      "explanation": "'The calculus is mixed' is an idiomatic expression meaning that the financial assessment involves both gains and losses that are not easily resolved into a single positive or negative verdict — as the passage then demonstrates by listing both benefits and drawbacks.",
+      "wrongReasons": [
+        "The phrase is used idiomatically, not as a reference to literal mathematical computation.",
+        "The passage proceeds to list both benefits and drawbacks, showing outcomes are not entirely negative.",
+        "The passage treats the situation as genuinely complex and ambiguous, not straightforward."
+      ],
+      "passage": {
+        "id": "r19-passage",
+        "title": "The Economics of Remote Work",
+        "body": "The widespread adoption of remote work following the disruptions of the early 2020s has generated intense debate among economists about its long-term financial consequences. For individual workers, the calculus is mixed. Eliminating commutes saves money and time, and housing costs can fall dramatically for those who relocate from expensive metropolitan areas. Yet employers have begun adjusting compensation to reflect local cost-of-living figures, meaning that a software engineer who moves from San Francisco to rural Tennessee may see their salary trimmed accordingly. From the employer's perspective, remote arrangements can reduce expenditure on office space, utilities, and associated overhead, potentially improving profit margins. However, managing distributed teams requires investment in new tools, cybersecurity infrastructure, and asynchronous communication training. At the urban level, reduced office occupancy has hollowed out commercial districts, depressing tax revenues and harming the restaurants, retailers, and service providers that once depended on daily foot traffic. The economic impact of remote work is therefore not uniformly positive or negative but varies considerably depending on which stakeholder one examines and over what time horizon."
+      }
+    },
+    {
+      "id": "r19-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "The passage is structured primarily by examining remote work's economic impact from which organizational principle?",
+      "choices": [
+        "Chronological order, moving from earliest to most recent economic effects.",
+        "Cause and effect, tracing each policy decision to its economic outcome.",
+        "Stakeholder perspective, analyzing effects on workers, employers, and cities in sequence.",
+        "Problem and solution, identifying economic harms and proposing remedies for each."
+      ],
+      "answer": 2,
+      "explanation": "The passage explicitly shifts its focus from individual workers, to employers, to urban economies — organizing its analysis by the perspective of each stakeholder group rather than by time, causality, or problem-solution logic.",
+      "wrongReasons": [
+        "The passage does not follow a timeline; it moves between stakeholder groups, not dates.",
+        "The passage describes outcomes but does not trace specific policy decisions as causes.",
+        "The passage identifies no solutions or remedies; it concludes only that impacts vary by stakeholder."
+      ],
+      "passage": {
+        "id": "r19-passage",
+        "title": "The Economics of Remote Work",
+        "body": "The widespread adoption of remote work following the disruptions of the early 2020s has generated intense debate among economists about its long-term financial consequences. For individual workers, the calculus is mixed. Eliminating commutes saves money and time, and housing costs can fall dramatically for those who relocate from expensive metropolitan areas. Yet employers have begun adjusting compensation to reflect local cost-of-living figures, meaning that a software engineer who moves from San Francisco to rural Tennessee may see their salary trimmed accordingly. From the employer's perspective, remote arrangements can reduce expenditure on office space, utilities, and associated overhead, potentially improving profit margins. However, managing distributed teams requires investment in new tools, cybersecurity infrastructure, and asynchronous communication training. At the urban level, reduced office occupancy has hollowed out commercial districts, depressing tax revenues and harming the restaurants, retailers, and service providers that once depended on daily foot traffic. The economic impact of remote work is therefore not uniformly positive or negative but varies considerably depending on which stakeholder one examines and over what time horizon."
+      }
+    },
+    {
+      "id": "r20-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Listening to classical music permanently raises a person's IQ.",
+        "Music affects the brain in measurable neurological and emotional ways, with practical implications for health.",
+        "Only trained musicians experience significant cognitive benefits from music.",
+        "Music therapy has replaced traditional medicine in treating neurological disorders."
+      ],
+      "answer": 1,
+      "explanation": "The passage surveys how music influences brain activity, emotion regulation, memory, and physical health outcomes, establishing that these effects are real, measurable, and have practical therapeutic potential.",
+      "wrongReasons": [
+        "The passage explicitly dismisses the notion that music permanently raises IQ as an oversimplification.",
+        "The passage states that benefits are not limited to trained musicians; passive listeners also show effects.",
+        "The passage describes music therapy as a complement to, not a replacement for, conventional medicine."
+      ],
+      "passage": {
+        "id": "r20-passage",
+        "title": "How Music Affects the Brain",
+        "body": "Few human experiences engage the brain as comprehensively as music. Neuroimaging studies reveal that listening to a favorite piece activates not only the auditory cortex but also regions associated with movement, emotion, and memory simultaneously. This broad neural engagement may explain why music is so effective at regulating mood: upbeat rhythms elevate dopamine levels, while slower, minor-key compositions can facilitate emotional release in listeners who are processing grief or stress. The relationship between music and memory is especially striking in clinical contexts. Patients with severe amnesia who cannot recall their own name are sometimes able to sing songs from their youth in full, suggesting that musical memory is encoded differently from other forms of autobiographical recall. Researchers have also documented a reduction in cortisol, the primary stress hormone, following listening sessions — a finding that has driven interest in music therapy as a complement to conventional treatment for anxiety, chronic pain, and even post-operative recovery. The popular claim that listening to classical music permanently raises IQ, often called the Mozart Effect, has been largely debunked, but the genuine neurological richness of musical experience continues to attract serious scientific inquiry."
+      }
+    },
+    {
+      "id": "r20-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is notable about how amnesia patients relate to music?",
+      "choices": [
+        "They lose the ability to enjoy music entirely after the onset of amnesia.",
+        "They can sometimes sing complete songs from their youth despite being unable to recall their own name.",
+        "They recover their autobiographical memory after regular music therapy sessions.",
+        "They prefer instrumental music to songs with lyrics after developing amnesia."
+      ],
+      "answer": 1,
+      "explanation": "The passage states directly: 'Patients with severe amnesia who cannot recall their own name are sometimes able to sing songs from their youth in full,' indicating musical memory is encoded differently.",
+      "wrongReasons": [
+        "The passage says the opposite — amnesia patients retain musical memory, suggesting they can still enjoy familiar music.",
+        "The passage notes that musical memory is preserved, but does not claim autobiographical memory is recovered through therapy.",
+        "The passage makes no comparison between instrumental and lyrical preferences in amnesia patients."
+      ],
+      "passage": {
+        "id": "r20-passage",
+        "title": "How Music Affects the Brain",
+        "body": "Few human experiences engage the brain as comprehensively as music. Neuroimaging studies reveal that listening to a favorite piece activates not only the auditory cortex but also regions associated with movement, emotion, and memory simultaneously. This broad neural engagement may explain why music is so effective at regulating mood: upbeat rhythms elevate dopamine levels, while slower, minor-key compositions can facilitate emotional release in listeners who are processing grief or stress. The relationship between music and memory is especially striking in clinical contexts. Patients with severe amnesia who cannot recall their own name are sometimes able to sing songs from their youth in full, suggesting that musical memory is encoded differently from other forms of autobiographical recall. Researchers have also documented a reduction in cortisol, the primary stress hormone, following listening sessions — a finding that has driven interest in music therapy as a complement to conventional treatment for anxiety, chronic pain, and even post-operative recovery. The popular claim that listening to classical music permanently raises IQ, often called the Mozart Effect, has been largely debunked, but the genuine neurological richness of musical experience continues to attract serious scientific inquiry."
+      }
+    },
+    {
+      "id": "r20-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What does the passage imply about why music therapy has attracted interest as a medical complement?",
+      "choices": [
+        "Music therapy is cheaper than all other forms of medical treatment.",
+        "Measurable physiological effects, such as cortisol reduction, give music therapy a biological rationale.",
+        "Patients prefer music therapy to medication because it has no side effects.",
+        "Music therapy was endorsed by government health authorities after clinical trials."
+      ],
+      "answer": 1,
+      "explanation": "The passage links interest in music therapy directly to documented physiological findings — specifically the reduction in cortisol levels after listening sessions — providing an evidence-based biological rationale for its clinical use.",
+      "wrongReasons": [
+        "The passage does not compare music therapy's cost to other treatments.",
+        "Patient preferences and side effects are not discussed in the passage.",
+        "Government endorsement or clinical trials are not mentioned in the passage."
+      ],
+      "passage": {
+        "id": "r20-passage",
+        "title": "How Music Affects the Brain",
+        "body": "Few human experiences engage the brain as comprehensively as music. Neuroimaging studies reveal that listening to a favorite piece activates not only the auditory cortex but also regions associated with movement, emotion, and memory simultaneously. This broad neural engagement may explain why music is so effective at regulating mood: upbeat rhythms elevate dopamine levels, while slower, minor-key compositions can facilitate emotional release in listeners who are processing grief or stress. The relationship between music and memory is especially striking in clinical contexts. Patients with severe amnesia who cannot recall their own name are sometimes able to sing songs from their youth in full, suggesting that musical memory is encoded differently from other forms of autobiographical recall. Researchers have also documented a reduction in cortisol, the primary stress hormone, following listening sessions — a finding that has driven interest in music therapy as a complement to conventional treatment for anxiety, chronic pain, and even post-operative recovery. The popular claim that listening to classical music permanently raises IQ, often called the Mozart Effect, has been largely debunked, but the genuine neurological richness of musical experience continues to attract serious scientific inquiry."
+      }
+    },
+    {
+      "id": "r20-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'debunked' most nearly means:",
+      "choices": [
+        "verified and confirmed through repeated experiments",
+        "misunderstood by the general public",
+        "exposed as false or exaggerated",
+        "temporarily set aside for further study"
+      ],
+      "answer": 2,
+      "explanation": "The passage uses 'debunked' to describe the Mozart Effect claim that classical music permanently raises IQ — stating it has been 'largely debunked,' meaning shown to be false or greatly overstated by subsequent research.",
+      "wrongReasons": [
+        "Debunked means the opposite of verified — it means disproved, not confirmed.",
+        "Debunking goes beyond public misunderstanding; it refers to demonstrating a claim is false through evidence.",
+        "Debunked implies a conclusion has been reached, not that study is ongoing."
+      ],
+      "passage": {
+        "id": "r20-passage",
+        "title": "How Music Affects the Brain",
+        "body": "Few human experiences engage the brain as comprehensively as music. Neuroimaging studies reveal that listening to a favorite piece activates not only the auditory cortex but also regions associated with movement, emotion, and memory simultaneously. This broad neural engagement may explain why music is so effective at regulating mood: upbeat rhythms elevate dopamine levels, while slower, minor-key compositions can facilitate emotional release in listeners who are processing grief or stress. The relationship between music and memory is especially striking in clinical contexts. Patients with severe amnesia who cannot recall their own name are sometimes able to sing songs from their youth in full, suggesting that musical memory is encoded differently from other forms of autobiographical recall. Researchers have also documented a reduction in cortisol, the primary stress hormone, following listening sessions — a finding that has driven interest in music therapy as a complement to conventional treatment for anxiety, chronic pain, and even post-operative recovery. The popular claim that listening to classical music permanently raises IQ, often called the Mozart Effect, has been largely debunked, but the genuine neurological richness of musical experience continues to attract serious scientific inquiry."
+      }
+    },
+    {
+      "id": "r20-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author mention the Mozart Effect at the end of the passage rather than at the beginning?",
+      "choices": [
+        "To introduce music's effects on the brain as a controversial topic before providing evidence.",
+        "To concede a limitation after establishing the legitimate scientific case for music's neurological richness.",
+        "To argue that popular beliefs about music are more reliable than academic research.",
+        "To suggest that future research may eventually confirm the Mozart Effect's claims."
+      ],
+      "answer": 1,
+      "explanation": "By placing the Mozart Effect debunking at the end, the author first builds a substantial, evidence-based case for music's genuine neurological effects, then concedes that one popular exaggeration has been disproved — a rhetorical move that strengthens the overall argument by demonstrating scientific rigor without undermining the valid findings presented earlier.",
+      "wrongReasons": [
+        "The passage does not frame the topic as controversial at the outset; it presents established neuroimaging findings positively.",
+        "The passage clearly favors academic research over popular belief, as it cites neuroimaging studies to debunk the popular Mozart Effect claim.",
+        "The passage says the Mozart Effect has been 'largely debunked,' not that future research might vindicate it."
+      ],
+      "passage": {
+        "id": "r20-passage",
+        "title": "How Music Affects the Brain",
+        "body": "Few human experiences engage the brain as comprehensively as music. Neuroimaging studies reveal that listening to a favorite piece activates not only the auditory cortex but also regions associated with movement, emotion, and memory simultaneously. This broad neural engagement may explain why music is so effective at regulating mood: upbeat rhythms elevate dopamine levels, while slower, minor-key compositions can facilitate emotional release in listeners who are processing grief or stress. The relationship between music and memory is especially striking in clinical contexts. Patients with severe amnesia who cannot recall their own name are sometimes able to sing songs from their youth in full, suggesting that musical memory is encoded differently from other forms of autobiographical recall. Researchers have also documented a reduction in cortisol, the primary stress hormone, following listening sessions — a finding that has driven interest in music therapy as a complement to conventional treatment for anxiety, chronic pain, and even post-operative recovery. The popular claim that listening to classical music permanently raises IQ, often called the Mozart Effect, has been largely debunked, but the genuine neurological richness of musical experience continues to attract serious scientific inquiry."
+      }
+    },
+    {
+      "id": "r21-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Animal testing is always morally unjustifiable and should be banned immediately.",
+        "Animal testing is ethically complex, involving genuine scientific benefits alongside serious moral concerns.",
+        "Modern alternatives have made animal testing entirely unnecessary in pharmaceutical research.",
+        "The primary argument against animal testing is that it produces inaccurate scientific results."
+      ],
+      "answer": 1,
+      "explanation": "The passage presents both the scientific case for animal testing and the ethical objections to it, concluding that the debate remains unresolved and that researchers are working toward alternatives — conveying genuine moral complexity.",
+      "wrongReasons": [
+        "The passage acknowledges the scientific value of animal testing and does not call for an immediate ban.",
+        "The passage notes that alternatives exist but have not yet fully replaced animal models in all contexts.",
+        "Scientific accuracy concerns are mentioned but are secondary to the moral arguments the passage emphasizes."
+      ],
+      "passage": {
+        "id": "r21-passage",
+        "title": "The Ethics of Animal Testing",
+        "body": "The use of animals in scientific research remains one of the most persistently contested ethical issues in modern medicine and biology. Proponents argue that animal models have been indispensable in developing vaccines, surgical techniques, and treatments for conditions ranging from diabetes to HIV. Because animals share significant genetic and physiological overlap with humans, they provide a testing environment that cannot yet be fully replicated by cell cultures or computer simulations. Critics, however, contend that this instrumental view of animals ignores the morally relevant capacity for suffering that many species demonstrably possess. Utilitarian thinkers like Peter Singer have argued that causing pain to sentient beings requires extraordinary justification, and that the benefits of a given experiment must substantially outweigh the harm inflicted. The regulatory frameworks in most developed nations attempt to navigate this tension through the principle of the Three Rs: Replacement of animal models wherever possible, Reduction of the number of animals used, and Refinement of procedures to minimize distress. While these guidelines represent meaningful progress, debate continues over whether any amount of regulatory oversight is sufficient to resolve the fundamental moral conflict at the heart of the practice."
+      }
+    },
+    {
+      "id": "r21-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what do the 'Three Rs' in animal research regulation stand for?",
+      "choices": [
+        "Research, Results, and Reporting",
+        "Replacement, Reduction, and Refinement",
+        "Rights, Responsibility, and Regulation",
+        "Review, Restriction, and Reform"
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly defines the Three Rs as 'Replacement of animal models wherever possible, Reduction of the number of animals used, and Refinement of procedures to minimize distress.'",
+      "wrongReasons": [
+        "Research, Results, and Reporting are not mentioned in the passage's description of the Three Rs framework.",
+        "Rights, Responsibility, and Regulation describe broader ethical concepts, not the specific regulatory principle named in the passage.",
+        "Review, Restriction, and Reform are not the terms used in the passage."
+      ],
+      "passage": {
+        "id": "r21-passage",
+        "title": "The Ethics of Animal Testing",
+        "body": "The use of animals in scientific research remains one of the most persistently contested ethical issues in modern medicine and biology. Proponents argue that animal models have been indispensable in developing vaccines, surgical techniques, and treatments for conditions ranging from diabetes to HIV. Because animals share significant genetic and physiological overlap with humans, they provide a testing environment that cannot yet be fully replicated by cell cultures or computer simulations. Critics, however, contend that this instrumental view of animals ignores the morally relevant capacity for suffering that many species demonstrably possess. Utilitarian thinkers like Peter Singer have argued that causing pain to sentient beings requires extraordinary justification, and that the benefits of a given experiment must substantially outweigh the harm inflicted. The regulatory frameworks in most developed nations attempt to navigate this tension through the principle of the Three Rs: Replacement of animal models wherever possible, Reduction of the number of animals used, and Refinement of procedures to minimize distress. While these guidelines represent meaningful progress, debate continues over whether any amount of regulatory oversight is sufficient to resolve the fundamental moral conflict at the heart of the practice."
+      }
+    },
+    {
+      "id": "r21-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred from the passage about the current state of alternative testing methods?",
+      "choices": [
+        "Alternatives such as cell cultures and computer simulations have made animal testing obsolete.",
+        "Alternatives exist but remain insufficient to fully replace animal models in all research contexts.",
+        "Alternatives are more expensive than animal testing and therefore rarely used.",
+        "Alternatives are only useful for testing cosmetics, not pharmaceutical compounds."
+      ],
+      "answer": 1,
+      "explanation": "The passage states that animals 'provide a testing environment that cannot yet be fully replicated by cell cultures or computer simulations' — the word 'yet' implies alternatives are in development but are currently insufficient as complete replacements.",
+      "wrongReasons": [
+        "The passage explicitly says alternatives cannot 'yet' fully replicate animal models, meaning they have not made animal testing obsolete.",
+        "Cost comparisons between alternatives and animal testing are not mentioned in the passage.",
+        "The passage makes no distinction between cosmetic and pharmaceutical testing contexts."
+      ],
+      "passage": {
+        "id": "r21-passage",
+        "title": "The Ethics of Animal Testing",
+        "body": "The use of animals in scientific research remains one of the most persistently contested ethical issues in modern medicine and biology. Proponents argue that animal models have been indispensable in developing vaccines, surgical techniques, and treatments for conditions ranging from diabetes to HIV. Because animals share significant genetic and physiological overlap with humans, they provide a testing environment that cannot yet be fully replicated by cell cultures or computer simulations. Critics, however, contend that this instrumental view of animals ignores the morally relevant capacity for suffering that many species demonstrably possess. Utilitarian thinkers like Peter Singer have argued that causing pain to sentient beings requires extraordinary justification, and that the benefits of a given experiment must substantially outweigh the harm inflicted. The regulatory frameworks in most developed nations attempt to navigate this tension through the principle of the Three Rs: Replacement of animal models wherever possible, Reduction of the number of animals used, and Refinement of procedures to minimize distress. While these guidelines represent meaningful progress, debate continues over whether any amount of regulatory oversight is sufficient to resolve the fundamental moral conflict at the heart of the practice."
+      }
+    },
+    {
+      "id": "r21-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'instrumental' in 'this instrumental view of animals' most nearly means:",
+      "choices": [
+        "related to the use of musical instruments",
+        "treating animals as tools or means to an end rather than as beings with inherent value",
+        "essential and indispensable to the functioning of an organization",
+        "based on measurable data gathered through scientific instruments"
+      ],
+      "answer": 1,
+      "explanation": "In philosophical and ethical contexts, 'instrumental' describes treating something as a mere instrument or means to achieve a goal, rather than as having value in itself. Critics argue this view ignores animals' morally relevant capacity for suffering.",
+      "wrongReasons": [
+        "The musical meaning of 'instrumental' is entirely irrelevant to this ethical and scientific context.",
+        "While 'instrumental' can mean essential, in this sentence it modifies 'view' in a philosophical sense, describing an ethical stance toward animals.",
+        "The passage uses 'instrumental' in a philosophical, not a technical or measurement-related, sense."
+      ],
+      "passage": {
+        "id": "r21-passage",
+        "title": "The Ethics of Animal Testing",
+        "body": "The use of animals in scientific research remains one of the most persistently contested ethical issues in modern medicine and biology. Proponents argue that animal models have been indispensable in developing vaccines, surgical techniques, and treatments for conditions ranging from diabetes to HIV. Because animals share significant genetic and physiological overlap with humans, they provide a testing environment that cannot yet be fully replicated by cell cultures or computer simulations. Critics, however, contend that this instrumental view of animals ignores the morally relevant capacity for suffering that many species demonstrably possess. Utilitarian thinkers like Peter Singer have argued that causing pain to sentient beings requires extraordinary justification, and that the benefits of a given experiment must substantially outweigh the harm inflicted. The regulatory frameworks in most developed nations attempt to navigate this tension through the principle of the Three Rs: Replacement of animal models wherever possible, Reduction of the number of animals used, and Refinement of procedures to minimize distress. While these guidelines represent meaningful progress, debate continues over whether any amount of regulatory oversight is sufficient to resolve the fundamental moral conflict at the heart of the practice."
+      }
+    },
+    {
+      "id": "r21-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "The author's closing statement — that debate continues 'over whether any amount of regulatory oversight is sufficient to resolve the fundamental moral conflict' — serves primarily to:",
+      "choices": [
+        "endorse the Three Rs framework as the definitive solution to the ethical debate.",
+        "suggest that the ethical problem may be irresolvable through regulation alone, leaving a deeper moral question open.",
+        "argue that governments should increase funding for alternative testing methods immediately.",
+        "conclude that critics of animal testing are more persuasive than its proponents."
+      ],
+      "answer": 1,
+      "explanation": "The closing sentence acknowledges regulatory progress but questions whether regulation can ever fully resolve the 'fundamental moral conflict' — implying the ethical disagreement runs deeper than any procedural fix can address.",
+      "wrongReasons": [
+        "The author presents the Three Rs as progress, not as a definitive or final solution.",
+        "Increased government funding for alternatives is not mentioned or advocated in the passage.",
+        "The passage presents both sides without declaring one more persuasive; it ends on an open, unresolved note."
+      ],
+      "passage": {
+        "id": "r21-passage",
+        "title": "The Ethics of Animal Testing",
+        "body": "The use of animals in scientific research remains one of the most persistently contested ethical issues in modern medicine and biology. Proponents argue that animal models have been indispensable in developing vaccines, surgical techniques, and treatments for conditions ranging from diabetes to HIV. Because animals share significant genetic and physiological overlap with humans, they provide a testing environment that cannot yet be fully replicated by cell cultures or computer simulations. Critics, however, contend that this instrumental view of animals ignores the morally relevant capacity for suffering that many species demonstrably possess. Utilitarian thinkers like Peter Singer have argued that causing pain to sentient beings requires extraordinary justification, and that the benefits of a given experiment must substantially outweigh the harm inflicted. The regulatory frameworks in most developed nations attempt to navigate this tension through the principle of the Three Rs: Replacement of animal models wherever possible, Reduction of the number of animals used, and Refinement of procedures to minimize distress. While these guidelines represent meaningful progress, debate continues over whether any amount of regulatory oversight is sufficient to resolve the fundamental moral conflict at the heart of the practice."
+      }
+    },
+    {
+      "id": "r22-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Urban farming will completely replace traditional agriculture within the next decade.",
+        "Urban farming offers significant benefits for food security but also faces real practical limitations.",
+        "The primary advantage of urban farming is its contribution to urban biodiversity.",
+        "Urban farming is only viable in wealthy cities with advanced technological infrastructure."
+      ],
+      "answer": 1,
+      "explanation": "The passage presents urban farming as a promising strategy for improving food security — reducing supply chain vulnerabilities and providing fresh produce in underserved areas — while also acknowledging constraints such as high startup costs and limited yield capacity.",
+      "wrongReasons": [
+        "The passage never claims urban farming will fully replace traditional agriculture; it treats it as a complement.",
+        "While environmental benefits are mentioned, the passage frames food security and fresh produce access as the primary advantages.",
+        "The passage discusses both high-tech vertical farms and low-tech community gardens, indicating urban farming takes varied forms accessible in different contexts."
+      ],
+      "passage": {
+        "id": "r22-passage",
+        "title": "Urban Farming and Food Security",
+        "body": "As the world's population concentrates increasingly in cities, the question of how to feed urban residents reliably and equitably has become a pressing concern for policymakers and urban planners alike. Urban farming — the cultivation of food within city boundaries — has emerged as one proposed answer. Proponents point to several advantages: locally grown produce reduces dependence on long and fragile supply chains, shortens the distance food travels from field to table, and can make fresh vegetables and fruits accessible in neighborhoods classified as food deserts, where supermarkets and affordable fresh produce are scarce. Rooftop gardens, vertical farms, and community plots have all demonstrated the practical feasibility of growing significant quantities of food in otherwise unused urban spaces. Environmental benefits are also cited, including reduced transportation emissions and the potential for urban green spaces to mitigate heat island effects. Critics, however, note that urban farming faces substantial constraints. High startup costs for infrastructure such as hydroponic systems can be prohibitive, and the total caloric output of existing urban farms remains a small fraction of what a city's population requires. The challenge ahead is to scale these initiatives meaningfully without losing the community engagement and local ownership that make them socially valuable."
+      }
+    },
+    {
+      "id": "r22-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is a 'food desert'?",
+      "choices": [
+        "An arid region where crops cannot grow due to lack of rainfall.",
+        "A neighborhood where supermarkets and affordable fresh produce are scarce.",
+        "A city district that relies entirely on imported food from other countries.",
+        "An area where urban farms have been established to replace closed grocery stores."
+      ],
+      "answer": 1,
+      "explanation": "The passage defines food deserts directly: 'neighborhoods classified as food deserts, where supermarkets and affordable fresh produce are scarce.'",
+      "wrongReasons": [
+        "The passage uses 'food desert' in a socioeconomic, not a geographical or climatic, sense.",
+        "Food deserts are defined by lack of local access to fresh food, not by reliance on international imports.",
+        "The passage presents urban farms as a potential solution to food deserts, not as a defining characteristic of them."
+      ],
+      "passage": {
+        "id": "r22-passage",
+        "title": "Urban Farming and Food Security",
+        "body": "As the world's population concentrates increasingly in cities, the question of how to feed urban residents reliably and equitably has become a pressing concern for policymakers and urban planners alike. Urban farming — the cultivation of food within city boundaries — has emerged as one proposed answer. Proponents point to several advantages: locally grown produce reduces dependence on long and fragile supply chains, shortens the distance food travels from field to table, and can make fresh vegetables and fruits accessible in neighborhoods classified as food deserts, where supermarkets and affordable fresh produce are scarce. Rooftop gardens, vertical farms, and community plots have all demonstrated the practical feasibility of growing significant quantities of food in otherwise unused urban spaces. Environmental benefits are also cited, including reduced transportation emissions and the potential for urban green spaces to mitigate heat island effects. Critics, however, note that urban farming faces substantial constraints. High startup costs for infrastructure such as hydroponic systems can be prohibitive, and the total caloric output of existing urban farms remains a small fraction of what a city's population requires. The challenge ahead is to scale these initiatives meaningfully without losing the community engagement and local ownership that make them socially valuable."
+      }
+    },
+    {
+      "id": "r22-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What does the passage imply about the relationship between urban farming's scale and its social value?",
+      "choices": [
+        "Larger urban farms are always more socially valuable because they feed more people.",
+        "Scaling up urban farming may risk undermining the community engagement that gives it social worth.",
+        "Social value in urban farming is measured exclusively by caloric output.",
+        "Urban farms lose their environmental benefits once they grow beyond a certain size."
+      ],
+      "answer": 1,
+      "explanation": "The passage ends by stating that the challenge is to 'scale these initiatives meaningfully without losing the community engagement and local ownership that make them socially valuable' — implying that growth could threaten these social dimensions.",
+      "wrongReasons": [
+        "The passage suggests that larger scale could threaten social value, not that bigger is always better.",
+        "The passage frames community engagement and local ownership — not calories — as the sources of social value.",
+        "The passage mentions environmental benefits separately and does not link them to farm size."
+      ],
+      "passage": {
+        "id": "r22-passage",
+        "title": "Urban Farming and Food Security",
+        "body": "As the world's population concentrates increasingly in cities, the question of how to feed urban residents reliably and equitably has become a pressing concern for policymakers and urban planners alike. Urban farming — the cultivation of food within city boundaries — has emerged as one proposed answer. Proponents point to several advantages: locally grown produce reduces dependence on long and fragile supply chains, shortens the distance food travels from field to table, and can make fresh vegetables and fruits accessible in neighborhoods classified as food deserts, where supermarkets and affordable fresh produce are scarce. Rooftop gardens, vertical farms, and community plots have all demonstrated the practical feasibility of growing significant quantities of food in otherwise unused urban spaces. Environmental benefits are also cited, including reduced transportation emissions and the potential for urban green spaces to mitigate heat island effects. Critics, however, note that urban farming faces substantial constraints. High startup costs for infrastructure such as hydroponic systems can be prohibitive, and the total caloric output of existing urban farms remains a small fraction of what a city's population requires. The challenge ahead is to scale these initiatives meaningfully without losing the community engagement and local ownership that make them socially valuable."
+      }
+    },
+    {
+      "id": "r22-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'prohibitive' most nearly means:",
+      "choices": [
+        "legally forbidden by municipal regulations",
+        "so expensive as to prevent most people or organizations from proceeding",
+        "requiring special government permits before construction",
+        "unnecessarily complex in terms of technical design"
+      ],
+      "answer": 1,
+      "explanation": "'Prohibitive' in the passage describes the high startup costs of hydroponic infrastructure — costs so high that they prevent most would-be urban farmers from proceeding. This is the standard economic sense of the word.",
+      "wrongReasons": [
+        "The passage uses 'prohibitive' in an economic context about costs, not in a legal sense.",
+        "Government permits are not mentioned in connection with hydroponic startup costs.",
+        "Technical complexity is distinct from cost; 'prohibitive' specifically refers to the cost barrier in this context."
+      ],
+      "passage": {
+        "id": "r22-passage",
+        "title": "Urban Farming and Food Security",
+        "body": "As the world's population concentrates increasingly in cities, the question of how to feed urban residents reliably and equitably has become a pressing concern for policymakers and urban planners alike. Urban farming — the cultivation of food within city boundaries — has emerged as one proposed answer. Proponents point to several advantages: locally grown produce reduces dependence on long and fragile supply chains, shortens the distance food travels from field to table, and can make fresh vegetables and fruits accessible in neighborhoods classified as food deserts, where supermarkets and affordable fresh produce are scarce. Rooftop gardens, vertical farms, and community plots have all demonstrated the practical feasibility of growing significant quantities of food in otherwise unused urban spaces. Environmental benefits are also cited, including reduced transportation emissions and the potential for urban green spaces to mitigate heat island effects. Critics, however, note that urban farming faces substantial constraints. High startup costs for infrastructure such as hydroponic systems can be prohibitive, and the total caloric output of existing urban farms remains a small fraction of what a city's population requires. The challenge ahead is to scale these initiatives meaningfully without losing the community engagement and local ownership that make them socially valuable."
+      }
+    },
+    {
+      "id": "r22-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "The author's purpose in the final sentence — 'The challenge ahead is to scale these initiatives meaningfully without losing the community engagement and local ownership that make them socially valuable' — is best described as:",
+      "choices": [
+        "Introducing a new argument that contradicts the evidence presented earlier in the passage.",
+        "Identifying a forward-looking tension that must be resolved for urban farming to succeed on both practical and social dimensions.",
+        "Conceding that urban farming is ultimately too limited to contribute meaningfully to food security.",
+        "Summarizing the environmental benefits of urban farming as its most important long-term contribution."
+      ],
+      "answer": 1,
+      "explanation": "The final sentence synthesizes the passage's two main threads — the practical need for scale and the social value of community-based farming — and identifies preserving both simultaneously as the key challenge going forward. This is a forward-looking, tension-identifying conclusion.",
+      "wrongReasons": [
+        "The final sentence builds on the passage's evidence rather than contradicting it; it extends the argument into a future challenge.",
+        "The passage does not concede that urban farming is too limited; it frames scaling as a solvable challenge.",
+        "The final sentence focuses on social value and scaling, not on environmental benefits, which were mentioned earlier as a secondary point."
+      ],
+      "passage": {
+        "id": "r22-passage",
+        "title": "Urban Farming and Food Security",
+        "body": "As the world's population concentrates increasingly in cities, the question of how to feed urban residents reliably and equitably has become a pressing concern for policymakers and urban planners alike. Urban farming — the cultivation of food within city boundaries — has emerged as one proposed answer. Proponents point to several advantages: locally grown produce reduces dependence on long and fragile supply chains, shortens the distance food travels from field to table, and can make fresh vegetables and fruits accessible in neighborhoods classified as food deserts, where supermarkets and affordable fresh produce are scarce. Rooftop gardens, vertical farms, and community plots have all demonstrated the practical feasibility of growing significant quantities of food in otherwise unused urban spaces. Environmental benefits are also cited, including reduced transportation emissions and the potential for urban green spaces to mitigate heat island effects. Critics, however, note that urban farming faces substantial constraints. High startup costs for infrastructure such as hydroponic systems can be prohibitive, and the total caloric output of existing urban farms remains a small fraction of what a city's population requires. The challenge ahead is to scale these initiatives meaningfully without losing the community engagement and local ownership that make them socially valuable."
+      }
+    }
+  ]
+}

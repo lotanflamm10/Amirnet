@@ -1,0 +1,604 @@
+{
+  "textCompletion": [
+    {
+      "id": "tc11",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["abundant", "scarce", "invisible", "ancient"],
+      "answer": 1,
+      "explanation": "Scarce fits because the passage describes resource shortages driving conflict, requiring a word meaning insufficient in supply.",
+      "wrongReasons": ["Abundant means plentiful, the opposite of shortage.", "Invisible refers to something unseen, not to supply levels.", "Ancient refers to age, not availability."],
+      "passage": {
+        "id": "tc11-passage",
+        "title": "Resource Conflicts",
+        "body": "Throughout human history, competition over natural resources has driven some of the most destructive conflicts. When populations grow faster than the land can support, or when droughts reduce agricultural yields for consecutive seasons, tensions between neighboring communities escalate rapidly. Historians and political scientists note that wars fought over territory are often, at their root, struggles over water, fertile soil, or minerals. Modern conflicts in arid regions confirm this pattern. As climate change intensifies, analysts warn that freshwater will become increasingly ___ in many parts of the world, heightening the risk of future disputes."
+      }
+    },
+    {
+      "id": "tc12",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["inherited", "purchased", "invented", "borrowed"],
+      "answer": 0,
+      "explanation": "Inherited fits because the passage discusses traits passed genetically from parents to offspring.",
+      "wrongReasons": ["Purchased implies buying, which does not apply to biological traits.", "Invented means created anew, not transmitted biologically.", "Borrowed implies temporary acquisition, inappropriate for genetic transmission."],
+      "passage": {
+        "id": "tc12-passage",
+        "title": "Genetic Traits",
+        "body": "Genetics has transformed our understanding of why individuals differ so greatly in physical appearance, susceptibility to disease, and even aspects of personality. Deoxyribonucleic acid, the molecule that encodes biological instructions, is passed from parent to child at conception. Traits such as eye color, blood type, and height are determined largely by the combination of genetic material each parent contributes. While environment and nutrition also play significant roles in development, the foundational blueprint is ___ from one generation to the next through the sequence of nucleotides in each person's genome."
+      }
+    },
+    {
+      "id": "tc13",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["doubled", "declined", "stabilized", "scattered"],
+      "answer": 1,
+      "explanation": "Declined fits because the passage describes falling biodiversity and species loss over time.",
+      "wrongReasons": ["Doubled means increased, contradicting the loss described.", "Stabilized implies no change, inconsistent with ongoing decline.", "Scattered refers to distribution, not to population or count changes."],
+      "passage": {
+        "id": "tc13-passage",
+        "title": "Biodiversity Loss",
+        "body": "The variety of life on Earth represents billions of years of evolutionary history, yet scientists warn that we are living through one of the planet's most severe extinction events. Human activities including deforestation, pollution, and the introduction of invasive species have placed unprecedented pressure on ecosystems. Many species that were common a century ago are now critically endangered, and some have disappeared entirely. Conservation organizations monitor population counts of vulnerable animals to track changes over time. According to recent assessments, the populations of wild vertebrates have ___ by more than two-thirds since the 1970s, signaling a biodiversity crisis."
+      }
+    },
+    {
+      "id": "tc14",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["enforce", "ignore", "propose", "discuss"],
+      "answer": 0,
+      "explanation": "Enforce fits because the passage describes governments ensuring compliance with laws through legal mechanisms.",
+      "wrongReasons": ["Ignore means disregard, the opposite of the governmental role described.", "Propose means to suggest, not to implement or compel.", "Discuss means to talk about, not to apply rules authoritatively."],
+      "passage": {
+        "id": "tc14-passage",
+        "title": "Rule of Law",
+        "body": "Democratic societies depend on the principle that no individual or institution stands above the law. This concept, often called the rule of law, requires that legal rules apply equally to all citizens regardless of wealth, social status, or political connections. Courts serve as the primary institutions responsible for interpreting legislation and resolving disputes. Police and regulatory agencies act on behalf of the state to ensure that individuals comply with established rules. Without credible institutions empowered to ___ legal standards, laws risk becoming symbolic documents rather than binding obligations that shape actual behavior."
+      }
+    },
+    {
+      "id": "tc15",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["volatile", "stable", "distant", "colorful"],
+      "answer": 0,
+      "explanation": "Volatile fits because the passage discusses rapidly changing, unpredictable market conditions.",
+      "wrongReasons": ["Stable means steady and unchanging, the opposite of the market behavior described.", "Distant refers to physical or temporal separation, not market character.", "Colorful is informal and refers to variety of hue, unrelated to financial markets."],
+      "passage": {
+        "id": "tc15-passage",
+        "title": "Financial Markets",
+        "body": "Investing in financial markets carries inherent risks that even experienced analysts struggle to quantify. Stock prices respond to an enormous range of signals: corporate earnings reports, central bank interest rate decisions, geopolitical events, and shifts in consumer sentiment. Because so many factors interact simultaneously, prices can swing dramatically in very short periods. Investors who expect steady, predictable returns are often surprised by sudden downturns that erase months of gains in a single trading day. Economists describe such environments as ___, cautioning that past performance during calm periods provides little guarantee of future outcomes when conditions change rapidly."
+      }
+    },
+    {
+      "id": "tc16",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["migration", "irrigation", "celebration", "legislation"],
+      "answer": 0,
+      "explanation": "Migration fits because the passage describes populations moving from one region to another in search of better conditions.",
+      "wrongReasons": ["Irrigation refers to supplying water to crops, unrelated to population movement.", "Celebration refers to festive events, not demographic shifts.", "Legislation refers to law-making, not the movement of people."],
+      "passage": {
+        "id": "tc16-passage",
+        "title": "Urban Growth",
+        "body": "Cities around the world have expanded rapidly over the past two centuries, driven by industrialization and the promise of economic opportunity. Rural populations have relocated to urban centers in search of employment, education, and access to healthcare. This shift has transformed landscapes, created megacities of tens of millions of residents, and placed enormous pressure on housing and infrastructure. Demographers track these patterns carefully, noting that the movement is not always voluntary. Climate change, armed conflict, and collapsing agricultural systems have turned internal ___ into a defining feature of twenty-first century societies, reshaping the political and cultural makeup of receiving regions."
+      }
+    },
+    {
+      "id": "tc17",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["observe", "destroy", "avoid", "rename"],
+      "answer": 0,
+      "explanation": "Observe fits because the passage describes astronomers watching and studying celestial phenomena.",
+      "wrongReasons": ["Destroy is physically impossible and contradicts the scientific purpose described.", "Avoid means to keep away from, inconsistent with the act of scientific study.", "Rename refers to changing labels, not to studying phenomena."],
+      "passage": {
+        "id": "tc17-passage",
+        "title": "Telescope Technology",
+        "body": "Advances in telescope design have repeatedly expanded the boundaries of human knowledge about the universe. From Galileo's first crude lens to the giant radio dishes and space-based observatories of today, each technological generation has revealed phenomena invisible to previous instruments. Infrared telescopes pierce dust clouds that block visible light, exposing star-forming regions deep within galaxies. Gravitational wave detectors sense ripples in spacetime produced by colliding black holes billions of light-years away. With every new instrument, astronomers gain the ability to ___ phenomena that were previously beyond detection, continually revising our models of how the cosmos formed and evolves."
+      }
+    },
+    {
+      "id": "tc18",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["compress", "expand", "freeze", "dissolve"],
+      "answer": 1,
+      "explanation": "Expand fits because the passage describes economies and cities growing larger through trade and investment.",
+      "wrongReasons": ["Compress means to reduce in size, the opposite of growth.", "Freeze implies no change, contradicting the dynamic growth described.", "Dissolve means to break apart, not to grow or develop."],
+      "passage": {
+        "id": "tc18-passage",
+        "title": "Trade and Prosperity",
+        "body": "International trade has been a driver of economic development for millennia, allowing societies to specialize in goods they produce most efficiently and exchange them for products they cannot easily make themselves. Ancient trade routes connected civilizations across deserts and oceans, spreading not only commodities but also ideas, languages, and technologies. In the modern era, containerized shipping and digital communication have reduced transaction costs dramatically, enabling small businesses to reach global customers. When barriers to trade are lowered, markets tend to ___, giving consumers access to a greater variety of goods at lower prices and stimulating innovation through increased competition."
+      }
+    },
+    {
+      "id": "tc19",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["chronic", "brief", "optional", "external"],
+      "answer": 0,
+      "explanation": "Chronic fits because the passage describes long-lasting, persistent health conditions that require ongoing management.",
+      "wrongReasons": ["Brief means short in duration, the opposite of long-term illness.", "Optional implies choice, inappropriate for describing disease conditions.", "External refers to something outside the body, not to duration or persistence."],
+      "passage": {
+        "id": "tc19-passage",
+        "title": "Managing Long-Term Illness",
+        "body": "Healthcare systems around the world are grappling with the rising burden of non-communicable diseases that persist over many years and require continuous medical attention. Conditions such as diabetes, hypertension, and asthma affect hundreds of millions of people globally, reducing quality of life and placing enormous financial pressure on health services. Unlike infectious diseases that resolve once the pathogen is eliminated, these illnesses do not simply disappear after a course of treatment. Patients must monitor symptoms, adjust medications, and make lasting lifestyle changes. Physicians refer to such conditions as ___ because they endure for months or years and cannot be cured by a single intervention."
+      }
+    },
+    {
+      "id": "tc20",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["dialect", "accent", "grammar", "vocabulary"],
+      "answer": 3,
+      "explanation": "Vocabulary fits because the passage discusses the set of words a language learner must acquire to communicate effectively.",
+      "wrongReasons": ["Dialect refers to a regional variety of a language, not to word acquisition.", "Accent refers to pronunciation patterns, not the set of words known.", "Grammar refers to structural rules, not the store of words."],
+      "passage": {
+        "id": "tc20-passage",
+        "title": "Language Acquisition",
+        "body": "Children acquire their first language with remarkable speed and without formal instruction, typically mastering the basic sound system by age three and constructing grammatically complex sentences by age five. Researchers in developmental linguistics attribute this capacity partly to innate cognitive structures that are primed to detect patterns in speech. Adults learning a second language follow a different trajectory, often struggling most not with pronunciation or syntax but with the sheer quantity of words they must internalize. Studies consistently show that knowing the two thousand most common words in a target language allows a learner to understand roughly eighty percent of spoken conversation, underscoring the central role of ___ in achieving communicative fluency."
+      }
+    },
+    {
+      "id": "tc21",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["dormant", "active", "shallow", "narrow"],
+      "answer": 0,
+      "explanation": "Dormant fits because the passage describes a volcano that is temporarily inactive but not extinct.",
+      "wrongReasons": ["Active means currently erupting or showing activity, contradicting the temporary quiet described.", "Shallow refers to depth, not to volcanic activity status.", "Narrow refers to width, not to a volcano's eruptive state."],
+      "passage": {
+        "id": "tc21-passage",
+        "title": "Volcanic Hazards",
+        "body": "Volcanoes represent one of the most dramatic expressions of the Earth's internal energy. When tectonic plates collide or pull apart, magma can force its way to the surface, releasing gases, ash, and lava across vast areas. Geologists classify volcanoes according to their recent eruptive history. An active volcano has shown signs of unrest within the past ten thousand years, while an extinct volcano has not erupted in recorded history and is unlikely to do so again. Between these categories lies a third type: a volcano that is currently quiet but retains the potential to erupt in the future. Such a volcano is described as ___, and its apparent calm should not be mistaken for permanent inactivity."
+      }
+    },
+    {
+      "id": "tc22",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["ratify", "draft", "oppose", "publicize"],
+      "answer": 0,
+      "explanation": "Ratify fits because the passage describes the formal process by which governments approve and make treaties legally binding.",
+      "wrongReasons": ["Draft means to prepare an initial version, which precedes the approval stage described.", "Oppose means to resist, contradicting the act of official approval.", "Publicize means to make widely known, not to formally adopt into law."],
+      "passage": {
+        "id": "tc22-passage",
+        "title": "International Treaties",
+        "body": "International agreements between sovereign states follow a complex process before they acquire legal force. Diplomats first negotiate the terms, often over months or years, producing a draft text that must satisfy multiple parties with competing interests. Once negotiators reach consensus, their governments must decide whether to accept the final document. In many countries, this requires parliamentary approval, because treaties create binding obligations that affect domestic law and national resources. The United States Constitution, for example, requires a two-thirds majority in the Senate before the government can ___ any international agreement, ensuring that major foreign policy commitments reflect broad legislative support rather than executive action alone."
+      }
+    },
+    {
+      "id": "tc23",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["symmetry", "disorder", "color", "weight"],
+      "answer": 0,
+      "explanation": "Symmetry fits because the passage discusses how balanced, mirror-image features signal biological fitness in mate selection.",
+      "wrongReasons": ["Disorder refers to lack of organization, the opposite of the balanced trait described.", "Color is a separate trait discussed in evolutionary biology, not the one tied to bilateral balance.", "Weight refers to mass, not to the balanced proportions discussed."],
+      "passage": {
+        "id": "tc23-passage",
+        "title": "Evolutionary Aesthetics",
+        "body": "The standards of physical attractiveness that humans apply when choosing partners are not arbitrary cultural inventions. Evolutionary psychologists argue that preferences for certain features reflect signals of underlying genetic health and developmental stability. Across cultures, people consistently rate certain facial and bodily proportions as attractive, suggesting a biological basis for these judgments. One widely studied signal is bilateral balance: the degree to which the left and right sides of the face and body mirror each other precisely. Developmental disruptions caused by disease, parasites, or nutritional deficiencies tend to disturb this balance. As a result, greater ___ is interpreted by potential mates as evidence of strong genetic quality and resistance to environmental stressors."
+      }
+    },
+    {
+      "id": "tc24",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["nutrients", "toxins", "gases", "signals"],
+      "answer": 0,
+      "explanation": "Nutrients fits because the passage describes the essential substances plants absorb from soil to support growth.",
+      "wrongReasons": ["Toxins are harmful substances, the opposite of what plants require for healthy growth.", "Gases refers to airborne substances, while the passage focuses on soil absorption.", "Signals refers to information, not to chemical substances used in plant metabolism."],
+      "passage": {
+        "id": "tc24-passage",
+        "title": "Soil Health",
+        "body": "Healthy soil is far more than a passive medium in which plant roots anchor themselves. It is a living ecosystem teeming with bacteria, fungi, earthworms, and countless other organisms that interact in ways scientists are still working to fully understand. These organisms decompose organic matter, releasing chemical compounds that plants can absorb through their root systems. The health of a crop depends heavily on the biological and chemical richness of the surrounding soil. Intensive farming practices that rely on synthetic chemical inputs can degrade this ecosystem over time, reducing the soil's capacity to supply essential ___ that plants need to grow, flower, and produce food."
+      }
+    },
+    {
+      "id": "tc25",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["censorship", "transparency", "rivalry", "inflation"],
+      "answer": 1,
+      "explanation": "Transparency fits because the passage describes open government practices that allow citizens to see how decisions are made.",
+      "wrongReasons": ["Censorship means restricting information, the opposite of openness.", "Rivalry refers to competition, not to open government practices.", "Inflation refers to rising prices, unrelated to governmental accountability."],
+      "passage": {
+        "id": "tc25-passage",
+        "title": "Open Government",
+        "body": "Democratic accountability rests on citizens' ability to scrutinize the actions of their elected representatives. When governments conduct their affairs behind closed doors, corruption becomes easier to conceal, and public resources can be misused without consequence. Many countries have therefore enacted freedom of information laws that require agencies to release records of their deliberations, expenditures, and decision-making processes upon request. Advocates argue that this access is not merely a bureaucratic formality but a fundamental precondition for genuine democracy. When governments operate with ___, citizens, journalists, and civil society organizations can identify abuses, hold officials accountable, and participate meaningfully in public life."
+      }
+    },
+    {
+      "id": "tc26",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["erode", "strengthen", "preserve", "measure"],
+      "answer": 0,
+      "explanation": "Erode fits because the passage describes how repeated waves gradually wear away coastal rock and land.",
+      "wrongReasons": ["Strengthen means to make more solid, the opposite of coastal wearing away.", "Preserve means to keep intact, contradicting the process of gradual loss described.", "Measure means to determine size, not to cause physical change."],
+      "passage": {
+        "id": "tc26-passage",
+        "title": "Coastal Erosion",
+        "body": "Coastlines are among the most dynamic environments on Earth, shaped by the constant interaction between land and sea. Waves deliver enormous kinetic energy each time they break against a shoreline, slowly wearing away rock faces, redistributing sand, and carving distinctive landforms such as sea arches and sea stacks. The rate at which this process occurs depends on the hardness of the underlying rock, the frequency of storm events, and the height of the tidal range. Human activities including seawall construction and sand dredging can disrupt natural sediment transport, accelerating the tendency of waves to ___ unprotected sections of coastline at rates far exceeding historical averages."
+      }
+    },
+    {
+      "id": "tc27",
+      "category": "textCompletion",
+      "difficulty": "easy",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["anxiety", "confidence", "patience", "creativity"],
+      "answer": 1,
+      "explanation": "Confidence fits because the passage describes how successful performance experience builds a student's belief in their own abilities.",
+      "wrongReasons": ["Anxiety refers to worry and stress, the opposite of the positive psychological outcome described.", "Patience refers to tolerance of delay, not to self-belief built through success.", "Creativity refers to imaginative thinking, not to the self-assurance gained from achievement."],
+      "passage": {
+        "id": "tc27-passage",
+        "title": "Academic Self-Efficacy",
+        "body": "Educational psychologists have long recognized that a student's belief in their own ability to succeed is one of the most powerful predictors of academic performance. This belief, which researchers call self-efficacy, is not fixed at birth but develops through experience. When students attempt challenging tasks and succeed, they receive powerful evidence that their efforts produce results. Teachers who design tasks at the right level of difficulty allow students to experience these small victories regularly. Over time, a history of successful performances accumulates into a deep sense of academic ___, enabling students to approach new challenges with persistence rather than avoidance, even when initial attempts fail."
+      }
+    },
+    {
+      "id": "tc28",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["proliferate", "diminish", "consolidate", "alternate"],
+      "answer": 0,
+      "explanation": "Proliferate fits because the passage describes misinformation spreading and multiplying rapidly across digital platforms.",
+      "wrongReasons": ["Diminish means to decrease, the opposite of the spreading described.", "Consolidate means to combine into one, not to spread widely.", "Alternate means to switch between options, not to multiply or spread."],
+      "passage": {
+        "id": "tc28-passage",
+        "title": "Digital Misinformation",
+        "body": "The architecture of social media platforms creates conditions that favor the rapid spread of false and misleading content. Algorithms designed to maximize engagement tend to surface emotionally provocative material, regardless of its accuracy, because outrage and surprise drive higher click and share rates than measured factual reporting. Once a false claim enters a network, it can reach millions of users before fact-checkers have time to evaluate it. Corrective information, when it does appear, tends to reach far fewer people and generates less emotional response. Researchers studying information ecosystems note that falsehoods consistently tend to ___ faster than verified facts, posing a significant challenge for democratic discourse."
+      }
+    },
+    {
+      "id": "tc29",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["attributed", "devoted", "converted", "restricted"],
+      "answer": 0,
+      "explanation": "Attributed fits because the passage describes assigning the cause of a historical event to specific factors.",
+      "wrongReasons": ["Devoted means dedicated, which does not convey causal assignment.", "Converted means changed in form, not used to describe causal explanation.", "Restricted means limited in scope, not related to identifying causes."],
+      "passage": {
+        "id": "tc29-passage",
+        "title": "Historical Causation",
+        "body": "Explaining why major historical events occur is one of the central challenges of the discipline. Historians resist single-cause explanations because complex events almost always result from the intersection of multiple forces operating across different timescales. The collapse of a civilization, for example, might involve climatic changes that reduce agricultural output, elite mismanagement that exhausts fiscal reserves, and external military pressure applied at a moment of internal weakness. Scholars debate how much weight each factor deserves. The fall of the Western Roman Empire has been ___ to dozens of causes ranging from lead poisoning and pandemic disease to military overstretch and the gradual erosion of civic participation."
+      }
+    },
+    {
+      "id": "tc30",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["suppress", "accelerate", "redirect", "detect"],
+      "answer": 1,
+      "explanation": "Accelerate fits because the passage describes how feedback loops cause warming to happen faster than initial projections suggest.",
+      "wrongReasons": ["Suppress means to slow down or stop, the opposite of what feedback loops do.", "Redirect means to change direction, not to increase the rate of a process.", "Detect means to identify or discover, not to influence the rate of change."],
+      "passage": {
+        "id": "tc30-passage",
+        "title": "Climate Feedback Loops",
+        "body": "Climate scientists warn that global warming is not a simple linear process in which adding more greenhouse gases produces proportionally more heat. Instead, warming triggers secondary effects that themselves generate additional warming, creating self-reinforcing cycles known as feedback loops. As Arctic sea ice melts, it exposes darker ocean water that absorbs more solar radiation than the reflective ice surface it replaced. As permafrost thaws, it releases stored carbon dioxide and methane, adding to the atmospheric burden. These processes do not merely add to warming—they can ___ it well beyond what initial emissions alone would produce, making the climate system more sensitive and less predictable than early models suggested."
+      }
+    },
+    {
+      "id": "tc31",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["consent", "knowledge", "funding", "resistance"],
+      "answer": 0,
+      "explanation": "Consent fits because the passage discusses the ethical requirement for patients to agree to treatment after receiving information.",
+      "wrongReasons": ["Knowledge refers to understanding, but the key ethical concept is the voluntary agreement, not awareness alone.", "Funding refers to financial resources, unrelated to patient rights in medical ethics.", "Resistance refers to opposition, not to the voluntary agreement described."],
+      "passage": {
+        "id": "tc31-passage",
+        "title": "Medical Ethics",
+        "body": "Modern medical ethics rests on several foundational principles, among which respect for patient autonomy holds a central place. Physicians are no longer expected to make decisions for patients without their involvement; instead, the relationship is conceived as a partnership in which the patient's values and preferences must guide treatment choices. Before any significant procedure, clinicians are required to explain the nature of the intervention, its potential benefits, its risks, and the available alternatives. Only after receiving this information and demonstrating genuine understanding does the patient possess the capacity to exercise meaningful autonomy by granting or withholding ___, the cornerstone of ethical practice."
+      }
+    },
+    {
+      "id": "tc32",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["assimilate", "resist", "catalog", "transmit"],
+      "answer": 0,
+      "explanation": "Assimilate fits because the passage describes immigrant communities gradually adopting the cultural norms of the host society.",
+      "wrongReasons": ["Resist means to refuse adaptation, the opposite of integration into host culture.", "Catalog means to systematically list, not to adopt cultural practices.", "Transmit means to send or pass on, not to absorb and adopt."],
+      "passage": {
+        "id": "tc32-passage",
+        "title": "Immigration and Identity",
+        "body": "The experience of immigration involves navigating complex questions of cultural identity. First-generation immigrants often maintain strong ties to the language, food, religious practices, and social customs of their country of origin, finding comfort in familiar patterns during a difficult transition. Their children, however, grow up immersed in two cultural systems simultaneously, attending schools conducted in the host-country language while participating in a different cultural world at home. Sociologists observe that across many societies and historical periods, immigrant communities tend to ___ into the dominant culture within two to three generations, though the pace varies considerably depending on social reception and economic opportunity."
+      }
+    },
+    {
+      "id": "tc33",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["placebo", "vaccine", "antibiotic", "hormone"],
+      "answer": 0,
+      "explanation": "Placebo fits because the passage describes a pharmacologically inert substance used as a control in clinical trials.",
+      "wrongReasons": ["Vaccine refers to an immunological preparation, not an inert control substance.", "Antibiotic is an antimicrobial drug with active pharmacological effects.", "Hormone is a biologically active signaling molecule, not an inert control."],
+      "passage": {
+        "id": "tc33-passage",
+        "title": "Clinical Trial Design",
+        "body": "Establishing whether a new medical treatment genuinely produces its claimed benefits requires rigorous experimental design. Simply observing that patients improve after receiving a treatment is insufficient evidence, because improvement may reflect the natural course of the illness, changes in behavior that accompany treatment, or psychological effects arising from the attention and expectation associated with receiving care. To isolate the true pharmacological effect of a drug, researchers randomly assign participants to receive either the active compound or an identical-looking inert substance. This control substance, called a ___, allows researchers to separate genuine drug effects from the improvements that occur even when patients receive no active treatment."
+      }
+    },
+    {
+      "id": "tc34",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["delegate", "accumulate", "fragment", "isolate"],
+      "answer": 1,
+      "explanation": "Accumulate fits because the passage describes how small debts and deficits build up into larger obligations over time.",
+      "wrongReasons": ["Delegate means to assign tasks, unrelated to financial buildup.", "Fragment means to break into pieces, the opposite of building up.", "Isolate means to separate from others, not to build up over time."],
+      "passage": {
+        "id": "tc34-passage",
+        "title": "National Debt",
+        "body": "Government borrowing is a common feature of modern fiscal policy, used to finance public investment, smooth economic cycles, and respond to crises. When a government spends more than it collects in revenue in a given year, it runs a deficit, which it covers by issuing bonds purchased by domestic and foreign investors. Each year's deficit adds to the total stock of outstanding obligations. Over decades of persistent deficits, these obligations ___ into a national debt that can reach levels representing multiple years of the entire country's economic output. Economists debate at what point debt levels begin to constrain growth and whether historical comparisons provide reliable guidance for contemporary policy."
+      }
+    },
+    {
+      "id": "tc35",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["stereotype", "prototype", "archetype", "phenotype"],
+      "answer": 0,
+      "explanation": "Stereotype fits because the passage describes oversimplified generalizations applied to groups that distort individual judgment.",
+      "wrongReasons": ["Prototype refers to an original model or first version, not a biased generalization.", "Archetype refers to a universal pattern or symbol, not a social bias.", "Phenotype refers to observable biological traits, not a social cognitive bias."],
+      "passage": {
+        "id": "tc35-passage",
+        "title": "Social Cognition",
+        "body": "Human beings are pattern-recognition machines, continuously categorizing experience to reduce the cognitive burden of processing an endlessly complex world. Social categories are among the most frequently used: we classify people by age, gender, ethnicity, profession, and dozens of other dimensions almost automatically. While categorization itself is a neutral cognitive tool, the content of these categories is often distorted by shared cultural beliefs that exaggerate within-group similarity and between-group differences. When such beliefs become rigid and overgeneralized, treating all members of a group as interchangeable, they function as ___, shaping expectations and judgments in ways that can disadvantage individuals who do not conform to the assumed pattern."
+      }
+    },
+    {
+      "id": "tc36",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["subsidize", "privatize", "regulate", "nationalize"],
+      "answer": 2,
+      "explanation": "Regulate fits because the passage describes governments setting rules and standards to correct market failures.",
+      "wrongReasons": ["Subsidize means to provide financial support, not to set behavioral rules.", "Privatize means to transfer ownership to private entities, not to set conduct standards.", "Nationalize means to bring under state ownership, a more extreme intervention than rule-setting."],
+      "passage": {
+        "id": "tc36-passage",
+        "title": "Market Failures",
+        "body": "Economic theory holds that free markets, under certain conditions, allocate resources efficiently without central direction. However, several conditions can cause markets to produce outcomes that are socially suboptimal. When firms impose costs on third parties who have no voice in the transaction—such as a factory that pollutes a river shared by downstream communities—the market price fails to reflect the true social cost of production. Similarly, when consumers lack adequate information to evaluate product safety, they cannot make fully rational choices. In such cases, economists generally agree that governments have a legitimate role to ___ private behavior, setting minimum standards that the market itself would not reliably generate."
+      }
+    },
+    {
+      "id": "tc37",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["durable", "fragile", "flexible", "portable"],
+      "answer": 1,
+      "explanation": "Fragile fits because the passage describes ecosystems that are easily disrupted and damaged by external stressors.",
+      "wrongReasons": ["Durable means resistant to damage over time, the opposite of the sensitivity described.", "Flexible implies adaptability, which contradicts the vulnerability emphasized.", "Portable means easy to move, irrelevant to ecosystem characteristics."],
+      "passage": {
+        "id": "tc37-passage",
+        "title": "Coral Reef Ecology",
+        "body": "Coral reefs cover less than one percent of the ocean floor yet support approximately twenty-five percent of all marine species, making them among the most biologically productive ecosystems on Earth. The relationship between corals and the microscopic algae living within their tissues is the foundation of this productivity, enabling the construction of massive calcium carbonate structures that provide shelter and feeding grounds for fish, crustaceans, mollusks, and countless invertebrates. Despite their extraordinary diversity, coral reef ecosystems are remarkably ___, responding to relatively small increases in water temperature or acidity with rapid and often irreversible collapse. Climate change therefore poses an existential threat to reefs on a global scale."
+      }
+    },
+    {
+      "id": "tc38",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["marginalized", "celebrated", "categorized", "recruited"],
+      "answer": 0,
+      "explanation": "Marginalized fits because the passage describes groups that have been pushed to the periphery of social and political life.",
+      "wrongReasons": ["Celebrated means publicly honored, the opposite of exclusion from power.", "Categorized means classified into groups, not excluded from participation.", "Recruited means actively sought out, contradicting the exclusion described."],
+      "passage": {
+        "id": "tc38-passage",
+        "title": "Political Representation",
+        "body": "Democratic legitimacy depends not only on the existence of elections but on whether the resulting institutions genuinely represent the full diversity of the population they serve. Critics of existing democratic systems point out that women, ethnic minorities, people with disabilities, and members of lower economic classes have historically been underrepresented in legislatures, courts, and executive offices across virtually every country. This gap matters because policymakers tend to prioritize issues that affect groups similar to themselves. Communities that have been systematically ___ from political power are less likely to see their interests reflected in legislation, reinforcing cycles of exclusion that are difficult to break without deliberate structural reforms."
+      }
+    },
+    {
+      "id": "tc39",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["mitigate", "amplify", "transfer", "record"],
+      "answer": 0,
+      "explanation": "Mitigate fits because the passage describes strategies for reducing the severity of flood damage, not eliminating it entirely.",
+      "wrongReasons": ["Amplify means to increase, the opposite of the risk-reduction described.", "Transfer means to move from one place to another, not to reduce severity.", "Record means to document, not to reduce impact."],
+      "passage": {
+        "id": "tc39-passage",
+        "title": "Flood Risk Management",
+        "body": "As extreme rainfall events become more frequent and intense under changing climate conditions, urban planners are rethinking the design of cities to reduce the harm that flooding causes to residents and infrastructure. Traditional engineering approaches centered on building hard barriers such as levees and floodwalls to keep water out entirely. This approach has proven expensive to maintain and sometimes counterproductive, as it reduces the incentive for residents to take protective precautions. More recent strategies combine physical infrastructure with land use planning, wetland restoration, and early warning systems. The goal is not to eliminate flood risk entirely—which is rarely feasible—but to ___ its worst consequences for the most vulnerable communities."
+      }
+    },
+    {
+      "id": "tc40",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["pragmatic", "idealistic", "empirical", "rhetorical"],
+      "answer": 2,
+      "explanation": "Empirical fits because the passage describes a scientific approach based on observation and experimental evidence rather than theory alone.",
+      "wrongReasons": ["Pragmatic refers to practical problem-solving, not to the evidence-based scientific method described.", "Idealistic refers to pursuing ideals, not to observation-based reasoning.", "Rhetorical refers to persuasive language, not to data-driven inquiry."],
+      "passage": {
+        "id": "tc40-passage",
+        "title": "Scientific Method",
+        "body": "The development of modern science involved a fundamental shift in how human beings sought to understand the natural world. Medieval scholars often derived conclusions about nature from authoritative ancient texts, treating the pronouncements of Aristotle or Galen as more reliable than direct observation. The scientific revolution of the sixteenth and seventeenth centuries challenged this approach, insisting that claims about the world must be tested against experience. Researchers like Galileo and later Bacon and Newton argued that theories must ultimately be judged by how well they fit the data, not by how elegantly they follow from first principles. This commitment to ___ investigation—grounding knowledge in observation and experiment—became the defining characteristic of modern science."
+      }
+    },
+    {
+      "id": "tc41",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["refute", "confirm", "obscure", "replicate"],
+      "answer": 3,
+      "explanation": "Replicate fits because the passage discusses reproducing experimental results as the standard for validating scientific findings.",
+      "wrongReasons": ["Refute means to disprove, which is not the primary purpose of reproduction studies.", "Confirm is partially correct but lacks the specific technical meaning of independent reproduction.", "Obscure means to make less clear, the opposite of what verification achieves."],
+      "passage": {
+        "id": "tc41-passage",
+        "title": "Reproducibility in Science",
+        "body": "One of the cornerstones of scientific knowledge is the expectation that findings produced in one laboratory should be obtainable by independent researchers working elsewhere under equivalent conditions. This principle distinguishes genuine scientific knowledge from observations that may reflect local artifacts, equipment idiosyncrasies, or researcher bias. In recent years, the scientific community has grown increasingly concerned about what some describe as a reproducibility crisis: when researchers attempt to repeat influential published experiments, a troubling proportion fail to produce the same results. Journals, funding agencies, and professional bodies have responded by developing new standards that make it easier for other scientists to ___ original experiments, thereby testing whether published conclusions are robust."
+      }
+    },
+    {
+      "id": "tc42",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["subsidized", "inflated", "diversified", "constrained"],
+      "answer": 2,
+      "explanation": "Diversified fits because the passage describes spreading investments across different asset classes to reduce risk.",
+      "wrongReasons": ["Subsidized means financially supported by government, not related to portfolio spreading.", "Inflated means artificially increased in price, not related to asset allocation strategy.", "Constrained means restricted or limited, the opposite of the spreading strategy described."],
+      "passage": {
+        "id": "tc42-passage",
+        "title": "Investment Strategy",
+        "body": "Managing financial risk requires understanding that different categories of investment tend to respond differently to the same economic events. When equity markets fall sharply in response to a recession, government bonds often rise in value as investors seek safety. Real estate may hold steady while technology shares collapse. Commodities like gold frequently appreciate during periods of currency instability. These varying responses mean that a portfolio concentrated in a single asset class is highly vulnerable to sector-specific shocks. Financial advisers typically recommend that investors hold a mixture of assets whose performance is not closely correlated, ensuring that losses in one area are offset by gains elsewhere. Such a portfolio is described as ___, and it represents the most widely accepted approach to managing long-term investment risk."
+      }
+    },
+    {
+      "id": "tc43",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["arbitrate", "legislate", "mediate", "adjudicate"],
+      "answer": 2,
+      "explanation": "Mediate fits because the passage describes a neutral third party helping disputing parties reach a voluntary agreement.",
+      "wrongReasons": ["Arbitrate involves a third party imposing a binding decision, not facilitating voluntary agreement.", "Legislate means to create laws, not to resolve individual disputes.", "Adjudicate means to make a formal legal judgment, involving authority rather than facilitation."],
+      "passage": {
+        "id": "tc43-passage",
+        "title": "Alternative Dispute Resolution",
+        "body": "Litigation through formal court systems is costly, slow, and adversarial by design, creating winners and losers in ways that can permanently damage relationships between disputing parties. For many civil matters, including commercial disagreements, family conflicts, and employment disputes, alternative processes exist that are faster, cheaper, and more likely to preserve ongoing relationships. One such process relies on a neutral professional who meets separately and jointly with both parties, helping them clarify their interests, identify shared ground, and work toward a mutually acceptable solution. Unlike a judge, this professional has no authority to impose an outcome. The goal is to ___ between the parties, guiding a conversation that the parties themselves could not conduct productively on their own."
+      }
+    },
+    {
+      "id": "tc44",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["deforestation", "reforestation", "urbanization", "desertification"],
+      "answer": 3,
+      "explanation": "Desertification fits because the passage describes the process by which fertile land becomes desert through degradation.",
+      "wrongReasons": ["Deforestation refers to tree removal, not to land turning to desert specifically.", "Reforestation refers to planting trees, the opposite of land degradation.", "Urbanization refers to the growth of cities, not to land becoming desert."],
+      "passage": {
+        "id": "tc44-passage",
+        "title": "Land Degradation",
+        "body": "In many of the world's driest regions, productive agricultural land is being transformed into barren, infertile terrain through a combination of human activity and climatic pressure. Overgrazing by livestock removes protective vegetation cover, exposing soil to wind and rain erosion. Unsustainable irrigation practices draw down underground water reserves and leave behind salt deposits that make the soil inhospitable to crops. Meanwhile, rising temperatures and shifting precipitation patterns reduce the moisture available to support plant life. The resulting process, in which previously viable land loses its capacity to sustain crops, pasture, or natural vegetation, is called ___, and it currently threatens the livelihoods of hundreds of millions of people living in arid and semi-arid zones."
+      }
+    },
+    {
+      "id": "tc45",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["sovereign", "federal", "secular", "unitary"],
+      "answer": 2,
+      "explanation": "Secular fits because the passage describes a state that separates religious authority from governmental power.",
+      "wrongReasons": ["Sovereign refers to independent political authority, not to the separation of religion and state.", "Federal refers to the distribution of power between central and regional governments.", "Unitary refers to centralized governance structure, not to the religion-state relationship."],
+      "passage": {
+        "id": "tc45-passage",
+        "title": "Church and State",
+        "body": "The relationship between religious institutions and political authority has shaped the character of governments throughout history. In many premodern societies, rulers derived their legitimacy from religious sanction, and religious courts administered law alongside or instead of civil authorities. The Enlightenment produced influential arguments for separating these two domains, holding that governments should derive their authority from the consent of the governed rather than from divine mandate. Countries that have constitutionally separated religious authority from governmental power—establishing that the state will neither promote nor inhibit religious practice—are described as ___, a term that covers diverse arrangements from French-style strict separation to more accommodating models that acknowledge religion's cultural significance while maintaining legal neutrality."
+      }
+    },
+    {
+      "id": "tc46",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["cohesion", "friction", "disparity", "mobility"],
+      "answer": 0,
+      "explanation": "Cohesion fits because the passage describes the social bonds and shared identity that hold communities together.",
+      "wrongReasons": ["Friction refers to conflict and resistance, the opposite of what binds a community.", "Disparity refers to inequality, not to the binding force described.", "Mobility refers to movement between social positions, not to communal bonding."],
+      "passage": {
+        "id": "tc46-passage",
+        "title": "Social Capital",
+        "body": "Sociologists have long been interested in the informal resources that communities possess beyond their material wealth: the networks of trust, shared norms, and mutual obligations that enable collective action and smooth daily life. When neighbors know and help one another, when community organizations maintain civic participation, and when residents share a sense of common identity and purpose, communities are better equipped to address shared problems and resist disruption. The French sociologist Émile Durkheim recognized that this binding force is as essential to a functioning society as economic exchange. Researchers who study neighborhood resilience consistently find that social ___ predicts recovery from natural disasters, economic downturns, and other stressors better than material wealth alone."
+      }
+    },
+    {
+      "id": "tc47",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["oxidize", "ferment", "synthesize", "metabolize"],
+      "answer": 1,
+      "explanation": "Ferment fits because the passage describes microorganisms converting sugars into alcohol and other products through anaerobic processes.",
+      "wrongReasons": ["Oxidize refers to combining with oxygen, not to the microbial conversion of sugars to alcohol.", "Synthesize means to construct complex molecules, not specifically this microbial process.", "Metabolize is broader, referring to all chemical processes in a living organism, not this specific conversion."],
+      "passage": {
+        "id": "tc47-passage",
+        "title": "Food Preservation",
+        "body": "Before refrigeration was available, human societies developed diverse techniques for preserving food well beyond its natural spoilage timeline. Drying, salting, smoking, and pickling each exploited different physical or chemical principles to inhibit the growth of harmful bacteria. Among the oldest and most widely used techniques is the controlled use of microorganisms to transform raw ingredients into products that are more stable and often more nutritious than the original material. The bacteria and yeasts used in these processes consume the sugars present in food and produce acids, alcohols, or carbon dioxide as byproducts. When yeasts are allowed to ___ grain-based liquids under controlled conditions, they convert the sugars into ethanol, producing products that human cultures have consumed for at least ten thousand years."
+      }
+    },
+    {
+      "id": "tc48",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["abstract", "concrete", "symbolic", "literal"],
+      "answer": 0,
+      "explanation": "Abstract fits because the passage describes art that does not represent recognizable objects but conveys ideas through form and color.",
+      "wrongReasons": ["Concrete refers to physical material or literal specificity, opposite of non-representational.", "Symbolic means using symbols to represent ideas, but symbolic art often contains recognizable imagery.", "Literal means representing things exactly as they appear, the opposite of non-representational art."],
+      "passage": {
+        "id": "tc48-passage",
+        "title": "Modern Art Movements",
+        "body": "The history of Western painting in the twentieth century is largely a story of progressive departure from the requirement that art must represent the visible world. Impressionists had already loosened the grip of photographic realism by prioritizing the quality of light over precise detail. Expressionists went further, distorting form to convey emotional states. The Cubists fragmented perspective itself, showing multiple viewpoints simultaneously. Eventually, artists such as Kandinsky and Mondrian abandoned representational imagery entirely, creating compositions of shape, color, and line that referred to nothing in the external world. This movement produced what critics called ___ art: work whose meaning emerges from formal relationships rather than from depicting recognizable objects or scenes."
+      }
+    },
+    {
+      "id": "tc49",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["deter", "encourage", "conceal", "justify"],
+      "answer": 0,
+      "explanation": "Deter fits because the passage describes punishment as a mechanism for discouraging future criminal behavior.",
+      "wrongReasons": ["Encourage means to promote, the opposite of the discouragement intended.", "Conceal means to hide, unrelated to the purpose of punishment.", "Justify means to provide reasons for, not to prevent future acts."],
+      "passage": {
+        "id": "tc49-passage",
+        "title": "Criminal Justice Philosophy",
+        "body": "Philosophers and legal scholars have proposed several frameworks for understanding why societies impose punishment on those who violate the law. Retributive theories hold that punishment is intrinsically deserved when someone commits a wrong, regardless of its consequences. Rehabilitative theories focus on reforming offenders so they can reintegrate productively into society. A third perspective, grounded in consequentialist ethics, evaluates punishment solely by its effects on future behavior. Proponents argue that penalties calibrated to exceed the gains from criminal activity will ___ rational potential offenders who weigh the costs and benefits before acting. Critics counter that many crimes are not committed by rational calculators, undermining the consequentialist case."
+      }
+    },
+    {
+      "id": "tc50",
+      "category": "textCompletion",
+      "difficulty": "medium",
+      "text": "Choose the word that best completes the passage:",
+      "choices": ["permeate", "accumulate", "circulate", "concentrate"],
+      "answer": 0,
+      "explanation": "Permeate fits because the passage describes cultural influences spreading through and saturating society at all levels.",
+      "wrongReasons": ["Accumulate means to build up in one place, not to spread throughout.", "Circulate means to move in a cycle, less precise than spreading through and saturating.", "Concentrate means to gather in one place, the opposite of widespread diffusion."],
+      "passage": {
+        "id": "tc50-passage",
+        "title": "Cultural Globalization",
+        "body": "The term cultural globalization refers to the accelerating exchange of ideas, values, artistic forms, and consumer practices across national boundaries. Critics argue that this process is not genuinely mutual: economically powerful countries, particularly the United States, export films, music, food brands, and lifestyle imagery at a scale that smaller national cultures struggle to match. When the same streaming platforms, fast food chains, and social media applications operate in hundreds of countries simultaneously, they tend to dissolve local distinctions. Anthropologists who study these dynamics observe that globally dominant cultural forms can ___ local life so thoroughly that traditional practices survive only as nostalgic performances rather than living expressions of community identity."
+      }
+    }
+  ]
+}

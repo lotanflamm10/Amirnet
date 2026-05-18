@@ -1,0 +1,621 @@
+{
+  "sentenceCompletion": [
+    {
+      "id": "sc13",
+      "difficulty": "hard",
+      "text": "The committee remained _____ about the proposal because several financial details were still unclear.",
+      "choices": [
+        "sceptical",
+        "generous",
+        "enthusiastic",
+        "predictable"
+      ],
+      "answer": 0,
+      "explanation": "Sceptical means doubtful, which fits the context of unclear details.",
+      "wrongReasons": [
+        "Generous is unrelated to evaluation.",
+        "Enthusiastic contradicts the cautious tone.",
+        "Predictable does not describe an attitude toward a proposal."
+      ],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc14",
+      "difficulty": "hard",
+      "text": "Although the theory initially seemed convincing, further experiments began to _____ its validity.",
+      "choices": [
+        "undermine",
+        "translate",
+        "combine",
+        "announce"
+      ],
+      "answer": 0,
+      "explanation": "Undermine means weaken or challenge the validity of something.",
+      "wrongReasons": [
+        "Translate refers to language.",
+        "Combine means join together.",
+        "Announce does not relate to scientific evaluation."
+      ],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc15",
+      "difficulty": "hard",
+      "text": "The policy was intended to _____ cooperation between the departments rather than competition.",
+      "choices": [
+        "foster",
+        "withdraw",
+        "ignore",
+        "postpone"
+      ],
+      "answer": 0,
+      "explanation": "Foster means encourage or promote development.",
+      "wrongReasons": [
+        "Withdraw means remove.",
+        "Ignore means pay no attention.",
+        "Postpone means delay."
+      ],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc16",
+      "difficulty": "hard",
+      "text": "Because the data came from only a few observations, the conclusion remained highly _____.",
+      "choices": [
+        "tentative",
+        "permanent",
+        "generous",
+        "identical"
+      ],
+      "answer": 0,
+      "explanation": "Tentative means uncertain or provisional.",
+      "wrongReasons": [
+        "Permanent suggests certainty.",
+        "Generous is unrelated.",
+        "Identical does not fit the context."
+      ],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc17",
+      "difficulty": "hard",
+      "text": "The editor removed several paragraphs that were considered _____ to the main argument.",
+      "choices": [
+        "extraneous",
+        "beneficial",
+        "essential",
+        "innovative"
+      ],
+      "answer": 0,
+      "explanation": "Extraneous means irrelevant or unnecessary to the central argument.",
+      "wrongReasons": [
+        "Beneficial and essential would support keeping the paragraphs.",
+        "Innovative does not address relevance."
+      ],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc18",
+      "difficulty": "hard",
+      "text": "The ambassador's remarks were deliberately _____ so that they could not be interpreted as a direct threat.",
+      "choices": [
+        "ambiguous",
+        "transparent",
+        "mechanical",
+        "intimate"
+      ],
+      "answer": 0,
+      "explanation": "Ambiguous means open to more than one interpretation.",
+      "wrongReasons": [
+        "Transparent means clear, which is the opposite.",
+        "Mechanical and intimate do not fit diplomatic language."
+      ],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc19",
+      "difficulty": "hard",
+      "text": "Researchers were reluctant to publish the findings before the data had been thoroughly _____.",
+      "choices": [
+        "verified",
+        "predicted",
+        "transported",
+        "shortened"
+      ],
+      "answer": 0,
+      "explanation": "Verified means checked and confirmed for accuracy.",
+      "wrongReasons": [
+        "Predicted is unrelated to validation.",
+        "Transported and shortened do not fit the research context."
+      ],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc20",
+      "difficulty": "hard",
+      "text": "Her explanation was so _____ that even the most complicated steps seemed manageable.",
+      "choices": [
+        "lucid",
+        "fragile",
+        "casual",
+        "scarce"
+      ],
+      "answer": 0,
+      "explanation": "Lucid means very clear and easy to understand.",
+      "wrongReasons": [
+        "Fragile describes weakness.",
+        "Casual does not imply clarity.",
+        "Scarce relates to quantity."
+      ],
+      "category": "sentenceCompletion"
+    }
+  ],
+  "paraphrasing": [
+    {
+      "id": "p13",
+      "difficulty": "hard",
+      "text": "The study suggests that economic growth alone does not guarantee improvements in living standards.",
+      "choices": [
+        "Economic growth may occur without raising people's quality of life.",
+        "Economic growth always leads to better living conditions.",
+        "Living standards determine the level of economic growth.",
+        "Economic growth depends entirely on living standards."
+      ],
+      "answer": 0,
+      "explanation": "The sentence says growth alone does not guarantee improvement.",
+      "wrongReasons": [
+        "B reverses the claim.",
+        "C changes the relationship.",
+        "D introduces a new claim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p14",
+      "difficulty": "hard",
+      "text": "The author warns that relying exclusively on technological solutions may overlook deeper social issues.",
+      "choices": [
+        "Technological solutions might ignore underlying social problems.",
+        "Technology has solved all social problems.",
+        "Social issues are caused only by technology.",
+        "Technology should be avoided in social policy."
+      ],
+      "answer": 0,
+      "explanation": "The key idea is that technology alone may overlook deeper issues.",
+      "wrongReasons": [
+        "B contradicts the warning.",
+        "C introduces a different cause.",
+        "D exaggerates the claim."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p15",
+      "difficulty": "hard",
+      "text": "The report concludes that short-term savings may result in greater long-term costs.",
+      "choices": [
+        "Reducing expenses now can sometimes lead to higher costs later.",
+        "Long-term costs are always lower than short-term savings.",
+        "The report recommends ignoring future costs.",
+        "Saving money in the short term guarantees future efficiency."
+      ],
+      "answer": 0,
+      "explanation": "The statement warns that immediate savings can create bigger later expenses.",
+      "wrongReasons": [
+        "B reverses the relationship.",
+        "C adds advice not given.",
+        "D overstates the conclusion."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p16",
+      "difficulty": "hard",
+      "text": "The professor emphasized that correlation should not be mistaken for causation.",
+      "choices": [
+        "The professor warned that two connected trends do not necessarily mean one caused the other.",
+        "The professor argued that all correlations are caused by direct relationships.",
+        "The professor said causation is easier to prove than correlation.",
+        "The professor believed correlation and causation are identical."
+      ],
+      "answer": 0,
+      "explanation": "The sentence distinguishes association from proof of cause.",
+      "wrongReasons": [
+        "B and D contradict the meaning.",
+        "C adds a claim not stated."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p17",
+      "difficulty": "hard",
+      "text": "The minister denied that the reforms were intended to weaken public oversight.",
+      "choices": [
+        "The minister rejected the claim that the reforms aimed to reduce public supervision.",
+        "The minister admitted that the reforms would limit public control.",
+        "The reforms were designed only to strengthen public oversight.",
+        "Public oversight was abolished after the reforms."
+      ],
+      "answer": 0,
+      "explanation": "Denied means rejected the accusation.",
+      "wrongReasons": [
+        "B says the opposite.",
+        "C adds certainty not stated.",
+        "D introduces a result not mentioned."
+      ],
+      "category": "restatements"
+    },
+    {
+      "id": "p18",
+      "difficulty": "hard",
+      "text": "The company attributed the decline in sales to changes in consumer behaviour rather than product quality.",
+      "choices": [
+        "The company said that changing customer habits, not poor quality, caused sales to fall.",
+        "The company admitted that poor quality was responsible for lower sales.",
+        "Sales declined because customers stopped buying all products permanently.",
+        "The company improved product quality after sales rose."
+      ],
+      "answer": 0,
+      "explanation": "Attributed to means identified as the cause.",
+      "wrongReasons": [
+        "B reverses the cause.",
+        "C overstates the situation.",
+        "D changes the timeline and meaning."
+      ],
+      "category": "restatements"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g13",
+      "difficulty": "hard",
+      "text": "Only after the experiment had been repeated several times _____ the researchers accept the results.",
+      "choices": [
+        "did",
+        "have",
+        "were",
+        "will"
+      ],
+      "answer": 0,
+      "explanation": "Inversion occurs after 'only after', requiring 'did'.",
+      "wrongReasons": [
+        "Have and were do not form the correct inverted structure.",
+        "Will changes the tense incorrectly."
+      ],
+      "category": "grammar"
+    },
+    {
+      "id": "g14",
+      "difficulty": "hard",
+      "text": "The report recommended that the policy _____ revised before implementation.",
+      "choices": [
+        "be",
+        "is",
+        "was",
+        "being"
+      ],
+      "answer": 0,
+      "explanation": "Subjunctive form after 'recommended that' uses 'be'.",
+      "wrongReasons": [
+        "Is and was are incorrect forms here.",
+        "Being does not fit the grammatical structure."
+      ],
+      "category": "grammar"
+    },
+    {
+      "id": "g15",
+      "difficulty": "hard",
+      "text": "Rarely _____ such a rapid change in public opinion been observed.",
+      "choices": [
+        "has",
+        "had",
+        "was",
+        "did"
+      ],
+      "answer": 0,
+      "explanation": "After 'rarely' at the beginning, inversion requires 'has' here.",
+      "wrongReasons": [
+        "Had suggests a different time frame.",
+        "Was and did do not match the passive perfect structure."
+      ],
+      "category": "grammar"
+    },
+    {
+      "id": "g16",
+      "difficulty": "hard",
+      "text": "No sooner _____ the announcement been made than complaints began to arrive.",
+      "choices": [
+        "had",
+        "has",
+        "did",
+        "was"
+      ],
+      "answer": 0,
+      "explanation": "The fixed inversion pattern is 'No sooner had ... than ...'.",
+      "wrongReasons": [
+        "Has is the wrong tense.",
+        "Did and was do not fit the pattern."
+      ],
+      "category": "grammar"
+    },
+    {
+      "id": "g17",
+      "difficulty": "hard",
+      "text": "Had the warning been issued earlier, many of the losses _____ avoided.",
+      "choices": [
+        "could have been",
+        "were",
+        "had",
+        "will be"
+      ],
+      "answer": 0,
+      "explanation": "This is an inverted third conditional requiring 'could have been avoided'.",
+      "wrongReasons": [
+        "Were is incomplete.",
+        "Had does not form a full predicate.",
+        "Will be uses the wrong time frame."
+      ],
+      "category": "grammar"
+    },
+    {
+      "id": "g18",
+      "difficulty": "hard",
+      "text": "The results were less conclusive than the researchers had initially _____.",
+      "choices": [
+        "expected",
+        "expecting",
+        "expects",
+        "to expect"
+      ],
+      "answer": 0,
+      "explanation": "Past perfect requires the past participle 'expected'.",
+      "wrongReasons": [
+        "The other forms are grammatically incorrect after 'had'."
+      ],
+      "category": "grammar"
+    }
+  ],
+  "wordFormation": [
+    {
+      "id": "wf13",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The new regulations were introduced to increase financial _____.",
+      "choices": [
+        "transparent",
+        "transparency",
+        "transparenting",
+        "transparenttion"
+      ],
+      "answer": 1,
+      "explanation": "Transparency is the correct noun form.",
+      "wrongReasons": [
+        "The adjective transparent does not fit grammatically."
+      ]
+    },
+    {
+      "id": "wf14",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The success of the project depended on effective _____ between the research teams.",
+      "choices": [
+        "collaborate",
+        "collaborative",
+        "collaboration",
+        "collaborational"
+      ],
+      "answer": 2,
+      "explanation": "A noun is required after effective.",
+      "wrongReasons": [
+        "Collaborate is a verb and does not fit here."
+      ]
+    },
+    {
+      "id": "wf15",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The proposal was criticised for its lack of practical _____.",
+      "choices": [
+        "feasible",
+        "feasibilious",
+        "feasibiliously",
+        "feasibility"
+      ],
+      "answer": 3,
+      "explanation": "Feasibility is the noun form meaning practical possibility.",
+      "wrongReasons": [
+        "The adjective feasible cannot follow 'lack of' directly."
+      ]
+    },
+    {
+      "id": "wf16",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "Frequent policy changes created a sense of _____ among investors.",
+      "choices": [
+        "instability",
+        "stable",
+        "instabilious",
+        "instabiliously"
+      ],
+      "answer": 0,
+      "explanation": "Instability is the noun required and fits the negative meaning of uncertainty.",
+      "wrongReasons": [
+        "Stability would reverse the meaning.",
+        "Stable is an adjective, not the needed noun."
+      ]
+    },
+    {
+      "id": "wf17",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The speaker responded with impressive _____ to a difficult question from the audience.",
+      "choices": [
+        "confident",
+        "confidence",
+        "confidant",
+        "confidenting"
+      ],
+      "answer": 1,
+      "explanation": "Confidence is the noun form needed after impressive.",
+      "wrongReasons": [
+        "The adjective confident cannot fit in this noun position."
+      ]
+    },
+    {
+      "id": "wf18",
+      "category": "wordFormation",
+      "difficulty": "hard",
+      "text": "The long-term _____ of the programme remains uncertain.",
+      "choices": [
+        "sustain",
+        "sustainabilious",
+        "sustainability",
+        "sustainabiliously"
+      ],
+      "answer": 2,
+      "explanation": "Sustainability is the noun form that matches long-term viability.",
+      "wrongReasons": [
+        "Sustain is a verb and does not fit after 'the long-term'."
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "r10-q1",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Experts usually disagree because they are biased.",
+        "Disagreement among experts can result from responsible interpretation of incomplete evidence.",
+        "Researchers should avoid public debates when evidence is uncertain.",
+        "Expert disagreement proves that a field lacks valid methods."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that disagreement can be legitimate and responsible.",
+      "wrongReasons": [
+        "The other options either contradict or overstate the passage."
+      ],
+      "passage": {
+        "id": "r10-passage",
+        "title": "Why Experts Disagree",
+        "body": "Public debate often assumes that disagreement among experts is evidence of incompetence or bias. In reality, expert disagreement can emerge for several legitimate reasons. Researchers may have access to different data sets, use different methods, or assign different weight to uncertain evidence. In fast-moving fields, conclusions are often provisional because the available information is incomplete. For that reason, disagreement is not necessarily a sign of failure but can instead reflect a disciplined effort to interpret limited evidence responsibly."
+      }
+    },
+    {
+      "id": "r10-q2",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author mention fast-moving fields?",
+      "choices": [
+        "To show that experts in those fields are less reliable.",
+        "To explain why conclusions may remain provisional.",
+        "To argue that research methods should not be used there.",
+        "To suggest that disagreement disappears over time."
+      ],
+      "answer": 1,
+      "explanation": "The passage says incomplete information in fast-moving fields keeps conclusions provisional.",
+      "wrongReasons": [
+        "The other answers do not match the author's purpose."
+      ],
+      "passage": {
+        "id": "r10-passage",
+        "title": "Why Experts Disagree",
+        "body": "Public debate often assumes that disagreement among experts is evidence of incompetence or bias. In reality, expert disagreement can emerge for several legitimate reasons. Researchers may have access to different data sets, use different methods, or assign different weight to uncertain evidence. In fast-moving fields, conclusions are often provisional because the available information is incomplete. For that reason, disagreement is not necessarily a sign of failure but can instead reflect a disciplined effort to interpret limited evidence responsibly."
+      }
+    },
+    {
+      "id": "r11-q1",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the central claim of the passage?",
+      "choices": [
+        "All digital friction should be removed from online services.",
+        "Some friction is useful because it can prevent serious mistakes.",
+        "Users prefer slower services when making financial decisions.",
+        "Privacy settings are the main source of frustration in digital design."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that certain kinds of friction serve as safeguards.",
+      "wrongReasons": [
+        "The other options oversimplify or misrepresent the main point."
+      ],
+      "passage": {
+        "id": "r11-passage",
+        "title": "The Value of Friction",
+        "body": "Many designers aim to make digital services as fast and seamless as possible. Yet reducing every form of friction is not always desirable. Some forms of resistance force users to pause, reflect, or confirm an action before proceeding. In contexts such as financial transfers, privacy settings, or the sharing of sensitive information, this deliberate friction can prevent costly errors. The challenge for designers is therefore not to eliminate friction entirely but to distinguish harmful obstacles from useful safeguards."
+      }
+    },
+    {
+      "id": "r11-q2",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the designer's challenge according to the author?",
+      "choices": [
+        "To make all services slower and more reflective.",
+        "To replace digital systems with human supervision.",
+        "To tell the difference between unnecessary obstacles and protective safeguards.",
+        "To remove privacy settings from complicated applications."
+      ],
+      "answer": 2,
+      "explanation": "The passage ends by stating this distinction is the key design challenge.",
+      "wrongReasons": [
+        "The other answers add claims not made in the passage."
+      ],
+      "passage": {
+        "id": "r11-passage",
+        "title": "The Value of Friction",
+        "body": "Many designers aim to make digital services as fast and seamless as possible. Yet reducing every form of friction is not always desirable. Some forms of resistance force users to pause, reflect, or confirm an action before proceeding. In contexts such as financial transfers, privacy settings, or the sharing of sensitive information, this deliberate friction can prevent costly errors. The challenge for designers is therefore not to eliminate friction entirely but to distinguish harmful obstacles from useful safeguards."
+      }
+    },
+    {
+      "id": "r12-q1",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the main argument of the passage?",
+      "choices": [
+        "Efficiency is always more important than flexibility.",
+        "Standardisation should be avoided in all organisations.",
+        "Systems focused only on efficiency may become weak in unusual situations.",
+        "Local judgment is less reliable than standard procedures."
+      ],
+      "answer": 2,
+      "explanation": "The author argues that efficiency without flexibility can create fragility.",
+      "wrongReasons": [
+        "A contradicts the balance in the passage.",
+        "B is too extreme.",
+        "D reverses the passage's concern."
+      ],
+      "passage": {
+        "id": "r12-passage",
+        "title": "When Efficiency Backfires",
+        "body": "Organisations often pursue efficiency by standardising procedures and reducing variation. While this approach can improve consistency, it may also produce hidden weaknesses. Systems designed for average conditions sometimes respond poorly to unusual events because they leave little room for local judgment or improvisation. As a result, a process that performs extremely well in normal circumstances can become fragile when conditions change. For this reason, some researchers argue that resilience depends not only on efficiency but also on preserving a degree of flexibility."
+      }
+    },
+    {
+      "id": "r12-q2",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why might a highly efficient system fail?",
+      "choices": [
+        "Because unusual situations may require flexibility it does not preserve.",
+        "Because efficient systems are always poorly designed.",
+        "Because local judgment always produces better results.",
+        "Because consistency prevents learning under normal conditions."
+      ],
+      "answer": 0,
+      "explanation": "The passage says efficient systems may respond poorly to unusual events when flexibility is lacking.",
+      "wrongReasons": [
+        "The other options overstate or misread the argument."
+      ],
+      "passage": {
+        "id": "r12-passage",
+        "title": "When Efficiency Backfires",
+        "body": "Organisations often pursue efficiency by standardising procedures and reducing variation. While this approach can improve consistency, it may also produce hidden weaknesses. Systems designed for average conditions sometimes respond poorly to unusual events because they leave little room for local judgment or improvisation. As a result, a process that performs extremely well in normal circumstances can become fragile when conditions change. For this reason, some researchers argue that resilience depends not only on efficiency but also on preserving a degree of flexibility."
+      }
+    }
+  ],
+  "lectureQuestions": [],
+  "textCompletion": []
+}

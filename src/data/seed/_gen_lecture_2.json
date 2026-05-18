@@ -1,0 +1,1156 @@
+{
+  "lectureQuestions": [
+    {
+      "id": "l25-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main topic of this lecture?",
+      "choices": [
+        "The history of behaviorist psychology",
+        "The differences between intrinsic and extrinsic motivation",
+        "How to improve academic grades through reward systems",
+        "The relationship between emotions and memory"
+      ],
+      "answer": 1,
+      "explanation": "The professor explicitly states that the lecture will explore intrinsic versus extrinsic motivation and why the distinction matters for long-term behavior.",
+      "wrongReasons": [
+        "Behaviorism is mentioned briefly as background, not the main focus.",
+        "Grade improvement is never discussed; the lecture is about motivation types.",
+        "Memory and emotions are unrelated to the passage content."
+      ],
+      "passage": {
+        "id": "l25-passage",
+        "title": "Lecture: The Psychology of Motivation",
+        "body": "Professor: Today I want to talk about something that underlies nearly every decision you make — motivation. Psychologists broadly divide motivation into two categories: intrinsic and extrinsic. Intrinsic motivation comes from within. When you read a book purely because you enjoy it, or solve a puzzle just for the satisfaction of figuring it out, that is intrinsic motivation at work. Extrinsic motivation, on the other hand, is driven by external rewards or pressures — a salary, a grade, or avoiding punishment. Now, early behaviorists believed that external rewards were the primary engine of human behavior. But decades of research have complicated that picture considerably. Studies show that when you introduce an external reward for an activity someone already finds intrinsically enjoyable, their interest in that activity often drops afterward. This is called the overjustification effect. The practical implication is significant: if you want people — students, employees, anyone — to sustain effort over the long term, fostering genuine internal interest is far more powerful than offering prizes."
+      }
+    },
+    {
+      "id": "l25-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, what is the overjustification effect?",
+      "choices": [
+        "The tendency to overestimate how much a reward will motivate someone",
+        "The decline in intrinsic interest that occurs after an external reward is introduced",
+        "A feeling of guilt that follows receiving an unearned prize",
+        "The process by which external goals become internalized over time"
+      ],
+      "answer": 1,
+      "explanation": "The professor defines the overjustification effect as the drop in intrinsic interest that occurs when an external reward is added to an already enjoyable activity.",
+      "wrongReasons": [
+        "Overestimating reward impact is not what the professor describes.",
+        "Guilt is never mentioned in the passage.",
+        "Internalization is the opposite of what the overjustification effect describes."
+      ],
+      "passage": {
+        "id": "l25-passage",
+        "title": "Lecture: The Psychology of Motivation",
+        "body": "Professor: Today I want to talk about something that underlies nearly every decision you make — motivation. Psychologists broadly divide motivation into two categories: intrinsic and extrinsic. Intrinsic motivation comes from within. When you read a book purely because you enjoy it, or solve a puzzle just for the satisfaction of figuring it out, that is intrinsic motivation at work. Extrinsic motivation, on the other hand, is driven by external rewards or pressures — a salary, a grade, or avoiding punishment. Now, early behaviorists believed that external rewards were the primary engine of human behavior. But decades of research have complicated that picture considerably. Studies show that when you introduce an external reward for an activity someone already finds intrinsically enjoyable, their interest in that activity often drops afterward. This is called the overjustification effect. The practical implication is significant: if you want people — students, employees, anyone — to sustain effort over the long term, fostering genuine internal interest is far more powerful than offering prizes."
+      }
+    },
+    {
+      "id": "l25-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the professor's attitude toward behaviorist theories of motivation?",
+      "choices": [
+        "Fully supportive, as behaviorism explains all human motivation",
+        "Critical, arguing that behaviorism has been entirely disproven",
+        "Nuanced, acknowledging behaviorism as a starting point that later research has qualified",
+        "Dismissive, refusing to discuss behaviorism in the lecture"
+      ],
+      "answer": 2,
+      "explanation": "The professor mentions behaviorists as an early perspective, then says 'decades of research have complicated that picture,' indicating a nuanced view rather than full acceptance or total rejection.",
+      "wrongReasons": [
+        "The professor explicitly says research has complicated behaviorist claims, not confirmed them.",
+        "The professor does not say behaviorism was entirely disproven, only complicated.",
+        "Behaviorism is discussed, not dismissed."
+      ],
+      "passage": {
+        "id": "l25-passage",
+        "title": "Lecture: The Psychology of Motivation",
+        "body": "Professor: Today I want to talk about something that underlies nearly every decision you make — motivation. Psychologists broadly divide motivation into two categories: intrinsic and extrinsic. Intrinsic motivation comes from within. When you read a book purely because you enjoy it, or solve a puzzle just for the satisfaction of figuring it out, that is intrinsic motivation at work. Extrinsic motivation, on the other hand, is driven by external rewards or pressures — a salary, a grade, or avoiding punishment. Now, early behaviorists believed that external rewards were the primary engine of human behavior. But decades of research have complicated that picture considerably. Studies show that when you introduce an external reward for an activity someone already finds intrinsically enjoyable, their interest in that activity often drops afterward. This is called the overjustification effect. The practical implication is significant: if you want people — students, employees, anyone — to sustain effort over the long term, fostering genuine internal interest is far more powerful than offering prizes."
+      }
+    },
+    {
+      "id": "l25-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What can be inferred from the professor's closing advice about reward-based incentive systems in schools?",
+      "choices": [
+        "Schools should eliminate all grading systems immediately",
+        "Financial bonuses are the best way to improve student performance",
+        "Relying heavily on grades and prizes may undermine students' long-term love of learning",
+        "Intrinsic motivation is impossible to develop after childhood"
+      ],
+      "answer": 2,
+      "explanation": "The professor's point that external rewards reduce intrinsic interest implies that school systems built around grades and prizes may harm sustained intellectual curiosity, even though this is not stated directly.",
+      "wrongReasons": [
+        "The professor never calls for eliminating grading; the implication is more subtle.",
+        "Financial bonuses are not discussed and contradict the lecture's thesis.",
+        "The professor says nothing about motivation being impossible to develop after a certain age."
+      ],
+      "passage": {
+        "id": "l25-passage",
+        "title": "Lecture: The Psychology of Motivation",
+        "body": "Professor: Today I want to talk about something that underlies nearly every decision you make — motivation. Psychologists broadly divide motivation into two categories: intrinsic and extrinsic. Intrinsic motivation comes from within. When you read a book purely because you enjoy it, or solve a puzzle just for the satisfaction of figuring it out, that is intrinsic motivation at work. Extrinsic motivation, on the other hand, is driven by external rewards or pressures — a salary, a grade, or avoiding punishment. Now, early behaviorists believed that external rewards were the primary engine of human behavior. But decades of research have complicated that picture considerably. Studies show that when you introduce an external reward for an activity someone already finds intrinsically enjoyable, their interest in that activity often drops afterward. This is called the overjustification effect. The practical implication is significant: if you want people — students, employees, anyone — to sustain effort over the long term, fostering genuine internal interest is far more powerful than offering prizes."
+      }
+    },
+    {
+      "id": "l26-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main reason the student came to speak with the advisor?",
+      "choices": [
+        "To complain about a difficult professor",
+        "To discuss feeling overwhelmed adjusting to life in a new country",
+        "To request a transfer to a different university",
+        "To ask about scholarship opportunities for international students"
+      ],
+      "answer": 1,
+      "explanation": "The student explains that moving to a new country has been more difficult than expected and that they are experiencing culture shock, which is the main reason for the meeting.",
+      "wrongReasons": [
+        "No professor complaint is mentioned in the conversation.",
+        "Transferring universities is never brought up.",
+        "Scholarships are not discussed at any point."
+      ],
+      "passage": {
+        "id": "l26-passage",
+        "title": "Campus Conversation: Adapting to a New Country",
+        "body": "Advisor: Come in! What can I help you with today?\nStudent: Thanks for seeing me. Honestly, I'm struggling more than I expected. I moved here from Brazil three months ago and I thought I'd adapt quickly, but everything feels harder than I imagined.\nAdvisor: That's very common. What you're describing sounds like culture shock — a normal response to being immersed in an unfamiliar environment.\nStudent: I feel exhausted all the time and I miss home. Even small things, like how people talk to each other here, feel strange.\nAdvisor: Culture shock usually goes through stages: a honeymoon phase, then frustration, then gradual adjustment. You're probably in the frustration stage right now.\nStudent: That actually makes sense. So it does get better?\nAdvisor: For most people, yes — especially if you stay connected to your home culture while also making an effort to engage locally. Joining a student club or finding a community group can really help.\nStudent: I hadn't thought about clubs. Maybe that's worth trying.\nAdvisor: Definitely. And please don't hesitate to use the counseling center if things feel overwhelming."
+      }
+    },
+    {
+      "id": "l26-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the advisor, which stage of culture shock is the student most likely experiencing?",
+      "choices": [
+        "The honeymoon phase",
+        "The adjustment phase",
+        "The frustration phase",
+        "The integration phase"
+      ],
+      "answer": 2,
+      "explanation": "The advisor explains the stages of culture shock and says the student is 'probably in the frustration stage right now,' based on the exhaustion and sense of strangeness the student describes.",
+      "wrongReasons": [
+        "The honeymoon phase is characterized by excitement, not exhaustion and frustration.",
+        "The adjustment phase comes after frustration, which the student has not yet reached.",
+        "Integration is the final stage and is not mentioned as the student's current state."
+      ],
+      "passage": {
+        "id": "l26-passage",
+        "title": "Campus Conversation: Adapting to a New Country",
+        "body": "Advisor: Come in! What can I help you with today?\nStudent: Thanks for seeing me. Honestly, I'm struggling more than I expected. I moved here from Brazil three months ago and I thought I'd adapt quickly, but everything feels harder than I imagined.\nAdvisor: That's very common. What you're describing sounds like culture shock — a normal response to being immersed in an unfamiliar environment.\nStudent: I feel exhausted all the time and I miss home. Even small things, like how people talk to each other here, feel strange.\nAdvisor: Culture shock usually goes through stages: a honeymoon phase, then frustration, then gradual adjustment. You're probably in the frustration stage right now.\nStudent: That actually makes sense. So it does get better?\nAdvisor: For most people, yes — especially if you stay connected to your home culture while also making an effort to engage locally. Joining a student club or finding a community group can really help.\nStudent: I hadn't thought about clubs. Maybe that's worth trying.\nAdvisor: Definitely. And please don't hesitate to use the counseling center if things feel overwhelming."
+      }
+    },
+    {
+      "id": "l26-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the advisor's overall tone throughout the conversation?",
+      "choices": [
+        "Dismissive, minimizing the student's concerns",
+        "Anxious, worried that the student may need to withdraw",
+        "Reassuring and practical, offering both explanation and concrete suggestions",
+        "Formal and detached, sticking only to university policy"
+      ],
+      "answer": 2,
+      "explanation": "The advisor normalizes the student's experience, explains the stages of culture shock, and suggests practical steps like joining clubs and using the counseling center — a tone that is both reassuring and practical.",
+      "wrongReasons": [
+        "The advisor takes the student's concerns seriously and validates them.",
+        "No anxiety or fear of withdrawal is expressed by the advisor.",
+        "The advisor is warm and engaged, not formal or detached."
+      ],
+      "passage": {
+        "id": "l26-passage",
+        "title": "Campus Conversation: Adapting to a New Country",
+        "body": "Advisor: Come in! What can I help you with today?\nStudent: Thanks for seeing me. Honestly, I'm struggling more than I expected. I moved here from Brazil three months ago and I thought I'd adapt quickly, but everything feels harder than I imagined.\nAdvisor: That's very common. What you're describing sounds like culture shock — a normal response to being immersed in an unfamiliar environment.\nStudent: I feel exhausted all the time and I miss home. Even small things, like how people talk to each other here, feel strange.\nAdvisor: Culture shock usually goes through stages: a honeymoon phase, then frustration, then gradual adjustment. You're probably in the frustration stage right now.\nStudent: That actually makes sense. So it does get better?\nAdvisor: For most people, yes — especially if you stay connected to your home culture while also making an effort to engage locally. Joining a student club or finding a community group can really help.\nStudent: I hadn't thought about clubs. Maybe that's worth trying.\nAdvisor: Definitely. And please don't hesitate to use the counseling center if things feel overwhelming."
+      }
+    },
+    {
+      "id": "l26-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the advisor imply by recommending that the student both stay connected to their home culture AND engage locally?",
+      "choices": [
+        "That assimilation requires completely abandoning one's original culture",
+        "That successful adaptation does not require giving up one's identity",
+        "That Brazilian culture is incompatible with the local culture",
+        "That the student should avoid the counseling center unless absolutely necessary"
+      ],
+      "answer": 1,
+      "explanation": "By advising the student to maintain home cultural connections while also engaging locally, the advisor implies that integration is not about erasing one's identity but about building a bridge between two worlds.",
+      "wrongReasons": [
+        "The advisor explicitly recommends staying connected to home culture, contradicting the idea of abandoning it.",
+        "Brazilian culture is never characterized as incompatible with anything.",
+        "The advisor actively encourages use of the counseling center."
+      ],
+      "passage": {
+        "id": "l26-passage",
+        "title": "Campus Conversation: Adapting to a New Country",
+        "body": "Advisor: Come in! What can I help you with today?\nStudent: Thanks for seeing me. Honestly, I'm struggling more than I expected. I moved here from Brazil three months ago and I thought I'd adapt quickly, but everything feels harder than I imagined.\nAdvisor: That's very common. What you're describing sounds like culture shock — a normal response to being immersed in an unfamiliar environment.\nStudent: I feel exhausted all the time and I miss home. Even small things, like how people talk to each other here, feel strange.\nAdvisor: Culture shock usually goes through stages: a honeymoon phase, then frustration, then gradual adjustment. You're probably in the frustration stage right now.\nStudent: That actually makes sense. So it does get better?\nAdvisor: For most people, yes — especially if you stay connected to your home culture while also making an effort to engage locally. Joining a student club or finding a community group can really help.\nStudent: I hadn't thought about clubs. Maybe that's worth trying.\nAdvisor: Definitely. And please don't hesitate to use the counseling center if things feel overwhelming."
+      }
+    },
+    {
+      "id": "l27-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the central concept the professor introduces at the start of the lecture?",
+      "choices": [
+        "How governments set maximum prices for essential goods",
+        "The point at which supply and demand curves intersect to set price",
+        "Why inflation makes goods more expensive over time",
+        "How monopolies avoid competition in the market"
+      ],
+      "answer": 1,
+      "explanation": "The professor opens by defining equilibrium — the point where supply and demand curves meet — as the central concept of the lecture.",
+      "wrongReasons": [
+        "Government price controls are not introduced as the central concept.",
+        "Inflation is mentioned only as a side example, not the main focus.",
+        "Monopolies are not discussed in this lecture."
+      ],
+      "passage": {
+        "id": "l27-passage",
+        "title": "Lecture: The Economics of Supply and Demand",
+        "body": "Professor: At the heart of market economics lies a deceptively simple idea: price is determined by the interaction of supply and demand. When the amount of a good that producers want to sell exactly matches the amount consumers want to buy, the market reaches what economists call equilibrium. At that point, neither buyers nor sellers have reason to change their behavior, so the price stabilizes. But markets are rarely static. A drought might shrink the supply of wheat, pushing prices up. A new technology might suddenly increase supply and push prices down. Consumer tastes shift. Government policies intervene. Each of these forces moves the equilibrium point. Now, the concept of elasticity tells us how sensitive supply or demand is to a change in price. If a small price increase causes a large drop in demand, we say demand is elastic — think luxury goods. If demand barely changes despite a big price shift, it's inelastic — think insulin for diabetics. Understanding elasticity is essential for businesses setting prices, governments designing taxes, and anyone trying to predict how markets will behave."
+      }
+    },
+    {
+      "id": "l27-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "Which example does the professor use to illustrate inelastic demand?",
+      "choices": [
+        "Luxury handbags",
+        "Wheat after a drought",
+        "Insulin for diabetics",
+        "Consumer electronics after a new technology release"
+      ],
+      "answer": 2,
+      "explanation": "The professor explicitly uses insulin for diabetics as an example of inelastic demand, because people need it regardless of price changes.",
+      "wrongReasons": [
+        "Luxury goods are used to illustrate elastic demand, not inelastic.",
+        "Wheat is used as an example of a supply shock, not elasticity.",
+        "Consumer electronics are mentioned in the context of technology increasing supply, not inelasticity."
+      ],
+      "passage": {
+        "id": "l27-passage",
+        "title": "Lecture: The Economics of Supply and Demand",
+        "body": "Professor: At the heart of market economics lies a deceptively simple idea: price is determined by the interaction of supply and demand. When the amount of a good that producers want to sell exactly matches the amount consumers want to buy, the market reaches what economists call equilibrium. At that point, neither buyers nor sellers have reason to change their behavior, so the price stabilizes. But markets are rarely static. A drought might shrink the supply of wheat, pushing prices up. A new technology might suddenly increase supply and push prices down. Consumer tastes shift. Government policies intervene. Each of these forces moves the equilibrium point. Now, the concept of elasticity tells us how sensitive supply or demand is to a change in price. If a small price increase causes a large drop in demand, we say demand is elastic — think luxury goods. If demand barely changes despite a big price shift, it's inelastic — think insulin for diabetics. Understanding elasticity is essential for businesses setting prices, governments designing taxes, and anyone trying to predict how markets will behave."
+      }
+    },
+    {
+      "id": "l27-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "How does the professor characterize the nature of real-world markets?",
+      "choices": [
+        "Perfectly stable once equilibrium is achieved",
+        "Constantly shifting due to multiple competing forces",
+        "Primarily controlled by government policy",
+        "Predictable as long as supply remains constant"
+      ],
+      "answer": 1,
+      "explanation": "The professor states that 'markets are rarely static' and lists droughts, technology, consumer tastes, and government policy as forces that continuously move the equilibrium point.",
+      "wrongReasons": [
+        "The professor explicitly says markets are rarely static, not stable.",
+        "Government policy is one factor among several, not the primary driver.",
+        "Supply changes are given as an example of disruption, not stability."
+      ],
+      "passage": {
+        "id": "l27-passage",
+        "title": "Lecture: The Economics of Supply and Demand",
+        "body": "Professor: At the heart of market economics lies a deceptively simple idea: price is determined by the interaction of supply and demand. When the amount of a good that producers want to sell exactly matches the amount consumers want to buy, the market reaches what economists call equilibrium. At that point, neither buyers nor sellers have reason to change their behavior, so the price stabilizes. But markets are rarely static. A drought might shrink the supply of wheat, pushing prices up. A new technology might suddenly increase supply and push prices down. Consumer tastes shift. Government policies intervene. Each of these forces moves the equilibrium point. Now, the concept of elasticity tells us how sensitive supply or demand is to a change in price. If a small price increase causes a large drop in demand, we say demand is elastic — think luxury goods. If demand barely changes despite a big price shift, it's inelastic — think insulin for diabetics. Understanding elasticity is essential for businesses setting prices, governments designing taxes, and anyone trying to predict how markets will behave."
+      }
+    },
+    {
+      "id": "l27-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What can be inferred about why governments must understand elasticity when designing taxes?",
+      "choices": [
+        "Taxes on inelastic goods raise more revenue without significantly reducing consumption",
+        "Elastic goods should always be taxed at higher rates than inelastic goods",
+        "Tax revenue is unrelated to how consumers respond to price changes",
+        "Governments should only tax luxury goods to avoid harming low-income citizens"
+      ],
+      "answer": 0,
+      "explanation": "Since inelastic demand means consumers keep buying even when prices rise, taxing inelastic goods (like cigarettes or fuel) generates reliable revenue without large drops in consumption — a logical inference from the professor's definition of inelasticity.",
+      "wrongReasons": [
+        "The professor does not say elastic goods should always carry higher tax rates.",
+        "The professor says elasticity is essential for predicting market behavior, implying consumer response is directly relevant to tax design.",
+        "Distributional concerns about low-income citizens are not discussed in the passage."
+      ],
+      "passage": {
+        "id": "l27-passage",
+        "title": "Lecture: The Economics of Supply and Demand",
+        "body": "Professor: At the heart of market economics lies a deceptively simple idea: price is determined by the interaction of supply and demand. When the amount of a good that producers want to sell exactly matches the amount consumers want to buy, the market reaches what economists call equilibrium. At that point, neither buyers nor sellers have reason to change their behavior, so the price stabilizes. But markets are rarely static. A drought might shrink the supply of wheat, pushing prices up. A new technology might suddenly increase supply and push prices down. Consumer tastes shift. Government policies intervene. Each of these forces moves the equilibrium point. Now, the concept of elasticity tells us how sensitive supply or demand is to a change in price. If a small price increase causes a large drop in demand, we say demand is elastic — think luxury goods. If demand barely changes despite a big price shift, it's inelastic — think insulin for diabetics. Understanding elasticity is essential for businesses setting prices, governments designing taxes, and anyone trying to predict how markets will behave."
+      }
+    },
+    {
+      "id": "l28-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "Why does the student come to office hours?",
+      "choices": [
+        "To request an extension on an assignment",
+        "To get help with overcoming writer's block",
+        "To discuss a grade they received on an essay",
+        "To ask whether they can change their essay topic"
+      ],
+      "answer": 1,
+      "explanation": "The student tells the professor directly that they have been staring at a blank page for three days and cannot seem to start their paper, clearly describing writer's block.",
+      "wrongReasons": [
+        "No extension request is made during the conversation.",
+        "The student has not yet written enough to have received a grade.",
+        "The student does not mention wanting to change their topic."
+      ],
+      "passage": {
+        "id": "l28-passage",
+        "title": "Office Hours: Dealing With Writer's Block",
+        "body": "Student: I've been staring at a blank page for three days. I have no idea how to start my paper and the deadline is next week.\nProfessor: Writer's block is frustrating, but it's almost universal among writers at every level. What's your topic?\nStudent: It's about urban green spaces and mental health. I have all the research, but when I sit down to write, nothing comes out.\nProfessor: That's actually very common — you've done the reading and your brain is overwhelmed with information. Try this: forget about the introduction for now. Write the body first. Start with whichever argument you feel most confident about.\nStudent: I always thought you had to write in order.\nProfessor: That's a myth. Writing is iterative — you draft, revise, rearrange. Another trick is timed freewriting: set a timer for ten minutes and write without stopping, even if what comes out is messy. It helps break the psychological barrier.\nStudent: That sounds more manageable. What about the introduction?\nProfessor: Write it last. Once you know what you've argued, a strong introduction writes itself."
+      }
+    },
+    {
+      "id": "l28-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What specific strategy does the professor first suggest to the student?",
+      "choices": [
+        "Read all the research materials again from the beginning",
+        "Write the introduction using a strong hook sentence",
+        "Skip the introduction and begin with the most confident argument",
+        "Use a mind map to organize ideas before writing anything"
+      ],
+      "answer": 2,
+      "explanation": "The professor's first suggestion is to skip the introduction and write the body first, starting with the argument the student feels most confident about.",
+      "wrongReasons": [
+        "Re-reading research is not suggested; the professor implies the student has already done enough reading.",
+        "Writing the introduction first is explicitly discouraged.",
+        "Mind mapping is never mentioned in the conversation."
+      ],
+      "passage": {
+        "id": "l28-passage",
+        "title": "Office Hours: Dealing With Writer's Block",
+        "body": "Student: I've been staring at a blank page for three days. I have no idea how to start my paper and the deadline is next week.\nProfessor: Writer's block is frustrating, but it's almost universal among writers at every level. What's your topic?\nStudent: It's about urban green spaces and mental health. I have all the research, but when I sit down to write, nothing comes out.\nProfessor: That's actually very common — you've done the reading and your brain is overwhelmed with information. Try this: forget about the introduction for now. Write the body first. Start with whichever argument you feel most confident about.\nStudent: I always thought you had to write in order.\nProfessor: That's a myth. Writing is iterative — you draft, revise, rearrange. Another trick is timed freewriting: set a timer for ten minutes and write without stopping, even if what comes out is messy. It helps break the psychological barrier.\nStudent: That sounds more manageable. What about the introduction?\nProfessor: Write it last. Once you know what you've argued, a strong introduction writes itself."
+      }
+    },
+    {
+      "id": "l28-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the professor's attitude toward the student's belief that writing must be done in order?",
+      "choices": [
+        "Supportive, agreeing that sequential writing is the most effective approach",
+        "Dismissive, telling the student their approach is wrong without explanation",
+        "Corrective but encouraging, calling the belief a myth and offering alternatives",
+        "Uncertain, unsure whether sequential writing is effective or not"
+      ],
+      "answer": 2,
+      "explanation": "The professor directly calls sequential writing 'a myth,' but then immediately provides alternative strategies and explains that writing is iterative, combining correction with encouragement.",
+      "wrongReasons": [
+        "The professor contradicts the sequential approach rather than supporting it.",
+        "The professor does not dismiss the student; they explain the reasoning behind the correction.",
+        "The professor is confident, not uncertain, in their view of writing as an iterative process."
+      ],
+      "passage": {
+        "id": "l28-passage",
+        "title": "Office Hours: Dealing With Writer's Block",
+        "body": "Student: I've been staring at a blank page for three days. I have no idea how to start my paper and the deadline is next week.\nProfessor: Writer's block is frustrating, but it's almost universal among writers at every level. What's your topic?\nStudent: It's about urban green spaces and mental health. I have all the research, but when I sit down to write, nothing comes out.\nProfessor: That's actually very common — you've done the reading and your brain is overwhelmed with information. Try this: forget about the introduction for now. Write the body first. Start with whichever argument you feel most confident about.\nStudent: I always thought you had to write in order.\nProfessor: That's a myth. Writing is iterative — you draft, revise, rearrange. Another trick is timed freewriting: set a timer for ten minutes and write without stopping, even if what comes out is messy. It helps break the psychological barrier.\nStudent: That sounds more manageable. What about the introduction?\nProfessor: Write it last. Once you know what you've argued, a strong introduction writes itself."
+      }
+    },
+    {
+      "id": "l28-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply when saying 'once you know what you've argued, a strong introduction writes itself'?",
+      "choices": [
+        "Introductions should be copied from academic papers the student has already read",
+        "The purpose of an introduction is discovered through the writing process, not planned beforehand",
+        "Good introductions require less effort than body paragraphs",
+        "Students who write introductions last tend to receive higher grades"
+      ],
+      "answer": 1,
+      "explanation": "The professor implies that writers often cannot know their full argument until they have written it out, meaning the introduction — which frames the argument — is best crafted once the writing reveals what was actually argued.",
+      "wrongReasons": [
+        "Copying from other papers is never suggested and would constitute plagiarism.",
+        "The professor does not claim introductions are easier to write, only that they become easier once the body is complete.",
+        "Grade outcomes are never mentioned in the conversation."
+      ],
+      "passage": {
+        "id": "l28-passage",
+        "title": "Office Hours: Dealing With Writer's Block",
+        "body": "Student: I've been staring at a blank page for three days. I have no idea how to start my paper and the deadline is next week.\nProfessor: Writer's block is frustrating, but it's almost universal among writers at every level. What's your topic?\nStudent: It's about urban green spaces and mental health. I have all the research, but when I sit down to write, nothing comes out.\nProfessor: That's actually very common — you've done the reading and your brain is overwhelmed with information. Try this: forget about the introduction for now. Write the body first. Start with whichever argument you feel most confident about.\nStudent: I always thought you had to write in order.\nProfessor: That's a myth. Writing is iterative — you draft, revise, rearrange. Another trick is timed freewriting: set a timer for ten minutes and write without stopping, even if what comes out is messy. It helps break the psychological barrier.\nStudent: That sounds more manageable. What about the introduction?\nProfessor: Write it last. Once you know what you've argued, a strong introduction writes itself."
+      }
+    },
+    {
+      "id": "l29-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main subject of this lecture?",
+      "choices": [
+        "The economic costs of building sea walls against rising oceans",
+        "How climate change forces people to leave their homes and the challenges this creates",
+        "Diplomatic agreements between countries to reduce carbon emissions",
+        "The history of natural disasters before the industrial era"
+      ],
+      "answer": 1,
+      "explanation": "The professor opens the lecture by stating that climate change is displacing people and that the lecture will examine climate migration and its associated challenges.",
+      "wrongReasons": [
+        "Sea walls are mentioned briefly as an adaptation measure, not the main topic.",
+        "International carbon agreements are not discussed.",
+        "Pre-industrial disasters are not part of the lecture."
+      ],
+      "passage": {
+        "id": "l29-passage",
+        "title": "Lecture: Climate Migration and Its Challenges",
+        "body": "Professor: Climate change is no longer only an environmental story — it is increasingly a human one. Across the globe, people are being forced to leave their homes not because of war or economic hardship in the traditional sense, but because the land itself is becoming uninhabitable. Rising sea levels are swallowing low-lying islands and coastal communities in countries like Bangladesh and Kiribati. Prolonged droughts are making it impossible to farm in parts of sub-Saharan Africa and Central America. Extreme heat is rendering some urban areas dangerous during summer months. These displaced individuals are often called climate refugees, though that term has no legal recognition under current international law. This is one of the central challenges: existing refugee frameworks were designed for those fleeing persecution, not environmental collapse. Without legal protection, climate migrants fall through the cracks of the international system. Some countries are beginning to experiment with managed retreat — planned relocation of vulnerable communities — but this solution raises its own difficult questions about identity, culture, and consent."
+      }
+    },
+    {
+      "id": "l29-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "Why does the professor point out that 'climate refugee' has no legal recognition?",
+      "choices": [
+        "To argue that climate change is exaggerated by the media",
+        "To highlight that current international law leaves climate migrants without protection",
+        "To suggest that climate migrants do not deserve legal protection",
+        "To explain why some countries refuse to accept any type of refugee"
+      ],
+      "answer": 1,
+      "explanation": "The professor explains that existing refugee frameworks cover persecution, not environmental collapse, meaning climate migrants have no legal protection — illustrating a critical gap in international law.",
+      "wrongReasons": [
+        "The professor treats climate migration as a serious reality, not an exaggeration.",
+        "The professor expresses concern for climate migrants' lack of protection, not indifference to it.",
+        "The lecture does not address countries refusing all refugees."
+      ],
+      "passage": {
+        "id": "l29-passage",
+        "title": "Lecture: Climate Migration and Its Challenges",
+        "body": "Professor: Climate change is no longer only an environmental story — it is increasingly a human one. Across the globe, people are being forced to leave their homes not because of war or economic hardship in the traditional sense, but because the land itself is becoming uninhabitable. Rising sea levels are swallowing low-lying islands and coastal communities in countries like Bangladesh and Kiribati. Prolonged droughts are making it impossible to farm in parts of sub-Saharan Africa and Central America. Extreme heat is rendering some urban areas dangerous during summer months. These displaced individuals are often called climate refugees, though that term has no legal recognition under current international law. This is one of the central challenges: existing refugee frameworks were designed for those fleeing persecution, not environmental collapse. Without legal protection, climate migrants fall through the cracks of the international system. Some countries are beginning to experiment with managed retreat — planned relocation of vulnerable communities — but this solution raises its own difficult questions about identity, culture, and consent."
+      }
+    },
+    {
+      "id": "l29-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the professor's view of managed retreat as a solution to climate migration?",
+      "choices": [
+        "It is the ideal and complete solution to climate displacement",
+        "It is promising but comes with unresolved ethical and cultural complications",
+        "It is too expensive to be considered by most governments",
+        "It is only relevant to island nations, not mainland communities"
+      ],
+      "answer": 1,
+      "explanation": "The professor presents managed retreat as an emerging experiment but immediately notes it 'raises its own difficult questions about identity, culture, and consent,' indicating a cautiously balanced view.",
+      "wrongReasons": [
+        "The professor does not call managed retreat ideal or complete; the word 'experiment' suggests uncertainty.",
+        "Cost is never mentioned as a barrier to managed retreat.",
+        "The professor mentions both island nations and mainland communities like those in sub-Saharan Africa."
+      ],
+      "passage": {
+        "id": "l29-passage",
+        "title": "Lecture: Climate Migration and Its Challenges",
+        "body": "Professor: Climate change is no longer only an environmental story — it is increasingly a human one. Across the globe, people are being forced to leave their homes not because of war or economic hardship in the traditional sense, but because the land itself is becoming uninhabitable. Rising sea levels are swallowing low-lying islands and coastal communities in countries like Bangladesh and Kiribati. Prolonged droughts are making it impossible to farm in parts of sub-Saharan Africa and Central America. Extreme heat is rendering some urban areas dangerous during summer months. These displaced individuals are often called climate refugees, though that term has no legal recognition under current international law. This is one of the central challenges: existing refugee frameworks were designed for those fleeing persecution, not environmental collapse. Without legal protection, climate migrants fall through the cracks of the international system. Some countries are beginning to experiment with managed retreat — planned relocation of vulnerable communities — but this solution raises its own difficult questions about identity, culture, and consent."
+      }
+    },
+    {
+      "id": "l29-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply by saying climate change is 'no longer only an environmental story'?",
+      "choices": [
+        "Environmental concerns are less important than they used to be",
+        "Climate change has moved beyond science and now demands political, legal, and humanitarian responses",
+        "Journalists have replaced scientists as the main voices on climate change",
+        "Climate change affects wealthy countries more severely than developing ones"
+      ],
+      "answer": 1,
+      "explanation": "By framing climate change as 'increasingly a human one,' the professor implies it now requires responses from systems beyond environmental science — including law, migration policy, and humanitarian frameworks.",
+      "wrongReasons": [
+        "The professor does not downgrade the importance of environmental concerns.",
+        "Journalists are not mentioned; the shift described is about human impact, not media coverage.",
+        "The professor describes impacts concentrated in low-lying and developing regions, not wealthy ones."
+      ],
+      "passage": {
+        "id": "l29-passage",
+        "title": "Lecture: Climate Migration and Its Challenges",
+        "body": "Professor: Climate change is no longer only an environmental story — it is increasingly a human one. Across the globe, people are being forced to leave their homes not because of war or economic hardship in the traditional sense, but because the land itself is becoming uninhabitable. Rising sea levels are swallowing low-lying islands and coastal communities in countries like Bangladesh and Kiribati. Prolonged droughts are making it impossible to farm in parts of sub-Saharan Africa and Central America. Extreme heat is rendering some urban areas dangerous during summer months. These displaced individuals are often called climate refugees, though that term has no legal recognition under current international law. This is one of the central challenges: existing refugee frameworks were designed for those fleeing persecution, not environmental collapse. Without legal protection, climate migrants fall through the cracks of the international system. Some countries are beginning to experiment with managed retreat — planned relocation of vulnerable communities — but this solution raises its own difficult questions about identity, culture, and consent."
+      }
+    },
+    {
+      "id": "l30-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What problem is the student facing?",
+      "choices": [
+        "They are failing their courses and need to switch to easier ones",
+        "They cannot decide between two possible majors",
+        "They want to add a second degree but cannot afford the tuition",
+        "They are considering dropping out of university entirely"
+      ],
+      "answer": 1,
+      "explanation": "The student tells the advisor they are torn between Environmental Science and Computer Science and cannot decide which major to pursue.",
+      "wrongReasons": [
+        "The student is not described as failing; the issue is choosing between interests, not academic difficulty.",
+        "Adding a second degree and affordability are not mentioned.",
+        "Dropping out is never raised as an option."
+      ],
+      "passage": {
+        "id": "l30-passage",
+        "title": "Campus Conversation: Choosing Between Two Majors",
+        "body": "Student: I really need your advice. I'm supposed to declare my major next month and I'm completely torn between Environmental Science and Computer Science.\nAdvisor: That's a meaningful choice. What draws you to each one?\nStudent: I care about climate issues, so Environmental Science feels important. But I'm also really good at coding and there are so many more job opportunities in tech.\nAdvisor: Those are two different types of pull — passion on one side, practicality on the other. Neither is wrong. Have you considered that these fields can overlap?\nStudent: What do you mean?\nAdvisor: There's a growing field called computational sustainability — using data science and algorithms to tackle environmental problems. Some universities even offer dual degrees. But even without that, many environmental organizations now need people with strong technical skills.\nStudent: I hadn't thought about combining them. I assumed I had to choose one completely.\nAdvisor: You don't necessarily. Even if you major in one, you can take electives in the other to keep options open. What feels more central to your identity right now?\nStudent: Honestly, the environmental side. I just worry about job security.\nAdvisor: That's a valid concern, but the market for environmentally-focused technologists is growing. You might not have to sacrifice as much as you think."
+      }
+    },
+    {
+      "id": "l30-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What field does the advisor mention that combines both of the student's interests?",
+      "choices": [
+        "Environmental law",
+        "Computational sustainability",
+        "Climate economics",
+        "Data journalism"
+      ],
+      "answer": 1,
+      "explanation": "The advisor specifically names 'computational sustainability' as a growing field that uses data science and algorithms to address environmental problems.",
+      "wrongReasons": [
+        "Environmental law is not mentioned in the conversation.",
+        "Climate economics is not discussed.",
+        "Data journalism is never referenced."
+      ],
+      "passage": {
+        "id": "l30-passage",
+        "title": "Campus Conversation: Choosing Between Two Majors",
+        "body": "Student: I really need your advice. I'm supposed to declare my major next month and I'm completely torn between Environmental Science and Computer Science.\nAdvisor: That's a meaningful choice. What draws you to each one?\nStudent: I care about climate issues, so Environmental Science feels important. But I'm also really good at coding and there are so many more job opportunities in tech.\nAdvisor: Those are two different types of pull — passion on one side, practicality on the other. Neither is wrong. Have you considered that these fields can overlap?\nStudent: What do you mean?\nAdvisor: There's a growing field called computational sustainability — using data science and algorithms to tackle environmental problems. Some universities even offer dual degrees. But even without that, many environmental organizations now need people with strong technical skills.\nStudent: I hadn't thought about combining them. I assumed I had to choose one completely.\nAdvisor: You don't necessarily. Even if you major in one, you can take electives in the other to keep options open. What feels more central to your identity right now?\nStudent: Honestly, the environmental side. I just worry about job security.\nAdvisor: That's a valid concern, but the market for environmentally-focused technologists is growing. You might not have to sacrifice as much as you think."
+      }
+    },
+    {
+      "id": "l30-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "How does the advisor characterize the student's two motivations for each major?",
+      "choices": [
+        "One is rational and the other is irrational",
+        "One is driven by passion and the other by practicality",
+        "Both are equally practical career choices",
+        "One reflects peer pressure and the other reflects personal interest"
+      ],
+      "answer": 1,
+      "explanation": "The advisor explicitly describes the student's situation as 'passion on one side, practicality on the other,' referring to environmental concern versus job market opportunity.",
+      "wrongReasons": [
+        "The advisor calls neither motivation irrational; both are validated.",
+        "The advisor distinguishes between passion and practicality, not two equally practical options.",
+        "Peer pressure is never mentioned as a factor."
+      ],
+      "passage": {
+        "id": "l30-passage",
+        "title": "Campus Conversation: Choosing Between Two Majors",
+        "body": "Student: I really need your advice. I'm supposed to declare my major next month and I'm completely torn between Environmental Science and Computer Science.\nAdvisor: That's a meaningful choice. What draws you to each one?\nStudent: I care about climate issues, so Environmental Science feels important. But I'm also really good at coding and there are so many more job opportunities in tech.\nAdvisor: Those are two different types of pull — passion on one side, practicality on the other. Neither is wrong. Have you considered that these fields can overlap?\nStudent: What do you mean?\nAdvisor: There's a growing field called computational sustainability — using data science and algorithms to tackle environmental problems. Some universities even offer dual degrees. But even without that, many environmental organizations now need people with strong technical skills.\nStudent: I hadn't thought about combining them. I assumed I had to choose one completely. \nAdvisor: You don't necessarily. Even if you major in one, you can take electives in the other to keep options open. What feels more central to your identity right now?\nStudent: Honestly, the environmental side. I just worry about job security.\nAdvisor: That's a valid concern, but the market for environmentally-focused technologists is growing. You might not have to sacrifice as much as you think."
+      }
+    },
+    {
+      "id": "l30-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the advisor imply with the final statement: 'You might not have to sacrifice as much as you think'?",
+      "choices": [
+        "The student should choose Computer Science because it pays more",
+        "Following environmental passion and achieving job security may not be mutually exclusive",
+        "The student is overestimating the difficulty of the Environmental Science program",
+        "Job security in tech is declining and the student should reconsider it"
+      ],
+      "answer": 1,
+      "explanation": "The advisor references a growing market for environmentally-focused technologists, implying the student can pursue their environmental passion while still securing good career prospects — the two goals are not necessarily in conflict.",
+      "wrongReasons": [
+        "The advisor does not recommend Computer Science; they acknowledge the student's environmental identity.",
+        "Program difficulty is never mentioned.",
+        "The advisor does not suggest tech job security is declining."
+      ],
+      "passage": {
+        "id": "l30-passage",
+        "title": "Campus Conversation: Choosing Between Two Majors",
+        "body": "Student: I really need your advice. I'm supposed to declare my major next month and I'm completely torn between Environmental Science and Computer Science.\nAdvisor: That's a meaningful choice. What draws you to each one?\nStudent: I care about climate issues, so Environmental Science feels important. But I'm also really good at coding and there are so many more job opportunities in tech.\nAdvisor: Those are two different types of pull — passion on one side, practicality on the other. Neither is wrong. Have you considered that these fields can overlap?\nStudent: What do you mean?\nAdvisor: There's a growing field called computational sustainability — using data science and algorithms to tackle environmental problems. Some universities even offer dual degrees. But even without that, many environmental organizations now need people with strong technical skills.\nStudent: I hadn't thought about combining them. I assumed I had to choose one completely.\nAdvisor: You don't necessarily. Even if you major in one, you can take electives in the other to keep options open. What feels more central to your identity right now?\nStudent: Honestly, the environmental side. I just worry about job security.\nAdvisor: That's a valid concern, but the market for environmentally-focused technologists is growing. You might not have to sacrifice as much as you think."
+      }
+    },
+    {
+      "id": "l31-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the primary goal of this lecture?",
+      "choices": [
+        "To explain how to build a computer from scratch",
+        "To describe how neural networks learn through backpropagation",
+        "To compare neural networks with the human brain in detail",
+        "To argue that artificial intelligence will replace human workers"
+      ],
+      "answer": 1,
+      "explanation": "The professor states at the outset that the goal is to explain how neural networks learn, focusing specifically on the process of backpropagation in accessible terms.",
+      "wrongReasons": [
+        "Building computers is unrelated to the lecture's topic.",
+        "While a brain analogy is used, a detailed biological comparison is not the lecture's goal.",
+        "Replacing workers is never discussed."
+      ],
+      "passage": {
+        "id": "l31-passage",
+        "title": "Lecture: How Neural Networks Learn",
+        "body": "Professor: Today I want to demystify one of the most important ideas in modern artificial intelligence: how neural networks actually learn. Imagine a network of interconnected nodes, loosely modeled on the neurons in your brain. Each connection between nodes has a weight — a number that represents how strongly one node influences another. When you feed the network an input, say an image of a cat, the signal travels through those weighted connections and produces an output, like the label 'cat' or 'not cat.' Initially, those weights are random, so the network guesses badly. Here is where learning begins. We compare the network's guess to the correct answer and measure the error. Then we use an algorithm called backpropagation — short for backward propagation of errors — to trace that error back through the network, layer by layer. At each layer, we adjust the weights slightly so the network would have done better on that example. Repeat this process thousands or millions of times across many examples, and the weights gradually tune themselves until the network becomes quite accurate. This is, in essence, how machines learn to recognize faces, translate languages, and predict your next word."
+      }
+    },
+    {
+      "id": "l31-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, what happens to the weights of a neural network at the start of training?",
+      "choices": [
+        "They are carefully set by engineers before training begins",
+        "They are copied from a previously trained network",
+        "They start as random values and produce poor initial guesses",
+        "They are fixed and do not change during the learning process"
+      ],
+      "answer": 2,
+      "explanation": "The professor explicitly states that weights are initially random, which is why the network guesses badly at first, and that learning adjusts them over time.",
+      "wrongReasons": [
+        "Engineers do not carefully pre-set the weights; they are random at the start.",
+        "Copying weights from another network is not mentioned.",
+        "The entire point of backpropagation is that weights change during training."
+      ],
+      "passage": {
+        "id": "l31-passage",
+        "title": "Lecture: How Neural Networks Learn",
+        "body": "Professor: Today I want to demystify one of the most important ideas in modern artificial intelligence: how neural networks actually learn. Imagine a network of interconnected nodes, loosely modeled on the neurons in your brain. Each connection between nodes has a weight — a number that represents how strongly one node influences another. When you feed the network an input, say an image of a cat, the signal travels through those weighted connections and produces an output, like the label 'cat' or 'not cat.' Initially, those weights are random, so the network guesses badly. Here is where learning begins. We compare the network's guess to the correct answer and measure the error. Then we use an algorithm called backpropagation — short for backward propagation of errors — to trace that error back through the network, layer by layer. At each layer, we adjust the weights slightly so the network would have done better on that example. Repeat this process thousands or millions of times across many examples, and the weights gradually tune themselves until the network becomes quite accurate. This is, in essence, how machines learn to recognize faces, translate languages, and predict your next word."
+      }
+    },
+    {
+      "id": "l31-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What does the term 'backpropagation' refer to, according to the professor?",
+      "choices": [
+        "The process of feeding new data forward through a trained network",
+        "An algorithm that traces errors backward through the network to adjust weights",
+        "A method for designing the physical structure of a neural network",
+        "The technique of compressing a neural network for use on mobile devices"
+      ],
+      "answer": 1,
+      "explanation": "The professor defines backpropagation as the backward propagation of errors — an algorithm that traces the error back through the network layer by layer to adjust weights.",
+      "wrongReasons": [
+        "Feeding data forward is the forward pass, not backpropagation.",
+        "Backpropagation concerns weight adjustment, not the physical network design.",
+        "Model compression is unrelated to backpropagation as described."
+      ],
+      "passage": {
+        "id": "l31-passage",
+        "title": "Lecture: How Neural Networks Learn",
+        "body": "Professor: Today I want to demystify one of the most important ideas in modern artificial intelligence: how neural networks actually learn. Imagine a network of interconnected nodes, loosely modeled on the neurons in your brain. Each connection between nodes has a weight — a number that represents how strongly one node influences another. When you feed the network an input, say an image of a cat, the signal travels through those weighted connections and produces an output, like the label 'cat' or 'not cat.' Initially, those weights are random, so the network guesses badly. Here is where learning begins. We compare the network's guess to the correct answer and measure the error. Then we use an algorithm called backpropagation — short for backward propagation of errors — to trace that error back through the network, layer by layer. At each layer, we adjust the weights slightly so the network would have done better on that example. Repeat this process thousands or millions of times across many examples, and the weights gradually tune themselves until the network becomes quite accurate. This is, in essence, how machines learn to recognize faces, translate languages, and predict your next word."
+      }
+    },
+    {
+      "id": "l31-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What can be inferred about the relationship between the number of training examples and network accuracy?",
+      "choices": [
+        "More training examples always guarantee perfect accuracy",
+        "Fewer examples are preferred because they make the network simpler to train",
+        "Repeated exposure to many examples is what allows weights to gradually tune toward accuracy",
+        "The number of examples does not matter as long as backpropagation is applied correctly"
+      ],
+      "answer": 2,
+      "explanation": "The professor says to 'repeat this process thousands or millions of times across many examples,' implying that scale of training data is essential for the weights to converge toward accuracy.",
+      "wrongReasons": [
+        "The professor says the network 'becomes quite accurate,' not perfect — and does not guarantee perfection.",
+        "Fewer examples are never advocated; the professor emphasizes large-scale repetition.",
+        "The number of examples is implicitly central — the professor emphasizes repeating over many examples."
+      ],
+      "passage": {
+        "id": "l31-passage",
+        "title": "Lecture: How Neural Networks Learn",
+        "body": "Professor: Today I want to demystify one of the most important ideas in modern artificial intelligence: how neural networks actually learn. Imagine a network of interconnected nodes, loosely modeled on the neurons in your brain. Each connection between nodes has a weight — a number that represents how strongly one node influences another. When you feed the network an input, say an image of a cat, the signal travels through those weighted connections and produces an output, like the label 'cat' or 'not cat.' Initially, those weights are random, so the network guesses badly. Here is where learning begins. We compare the network's guess to the correct answer and measure the error. Then we use an algorithm called backpropagation — short for backward propagation of errors — to trace that error back through the network, layer by layer. At each layer, we adjust the weights slightly so the network would have done better on that example. Repeat this process thousands or millions of times across many examples, and the weights gradually tune themselves until the network becomes quite accurate. This is, in essence, how machines learn to recognize faces, translate languages, and predict your next word."
+      }
+    },
+    {
+      "id": "l32-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main purpose of this tutorial session?",
+      "choices": [
+        "To help the student write a persuasive essay about politics",
+        "To teach the student how to identify common logical fallacies in arguments",
+        "To review grammar mistakes in the student's previous assignment",
+        "To explain the history of formal logic and philosophy"
+      ],
+      "answer": 1,
+      "explanation": "The tutor explicitly states at the start that they will practice identifying logical fallacies, and the conversation proceeds through examples of ad hominem and straw man fallacies.",
+      "wrongReasons": [
+        "Writing a persuasive essay is not the session's goal; fallacy identification is.",
+        "Grammar is not discussed at any point.",
+        "The history of logic is not covered; the focus is practical identification."
+      ],
+      "passage": {
+        "id": "l32-passage",
+        "title": "Tutorial: Logical Fallacies in Arguments",
+        "body": "Tutor: Today we're going to practice spotting logical fallacies — errors in reasoning that make an argument invalid even if it sounds convincing. Let's start with one you've probably encountered: the ad hominem fallacy. Can you tell me what you think it means?\nStudent: Is it when you attack the person instead of their argument?\nTutor: Exactly right. So if someone says, 'We shouldn't listen to her views on climate policy because she drives an SUV,' that's an ad hominem. Her car habits don't actually address the argument's logic. Now what about the straw man fallacy?\nStudent: I think that's when you misrepresent what someone said to make it easier to argue against?\nTutor: Perfect. For example: someone says we should reduce sugar in school lunches, and the response is 'So you want to ban all food choices for children.' That's a gross exaggeration of the original claim. The opponent is arguing against a position that was never made. These two fallacies are especially common in political debates. The key question to ask is always: does this response actually address the original claim, or does it deflect from it?"
+      }
+    },
+    {
+      "id": "l32-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What example does the tutor give to illustrate the straw man fallacy?",
+      "choices": [
+        "Saying someone should not speak on climate policy because they drive an SUV",
+        "Claiming a proposal to reduce school lunch sugar means banning all food choices",
+        "Arguing that a politician is dishonest based on their past mistakes",
+        "Suggesting that anyone who disagrees with a policy hates children"
+      ],
+      "answer": 1,
+      "explanation": "The tutor gives the example of someone proposing reduced sugar in school lunches, and an opponent responding by claiming the person wants to 'ban all food choices for children' — a gross exaggeration of the original position.",
+      "wrongReasons": [
+        "The SUV example is used to illustrate ad hominem, not straw man.",
+        "Calling a politician dishonest based on past mistakes is not discussed in the passage.",
+        "Claiming someone 'hates children' is not the example given for any fallacy in the passage."
+      ],
+      "passage": {
+        "id": "l32-passage",
+        "title": "Tutorial: Logical Fallacies in Arguments",
+        "body": "Tutor: Today we're going to practice spotting logical fallacies — errors in reasoning that make an argument invalid even if it sounds convincing. Let's start with one you've probably encountered: the ad hominem fallacy. Can you tell me what you think it means?\nStudent: Is it when you attack the person instead of their argument?\nTutor: Exactly right. So if someone says, 'We shouldn't listen to her views on climate policy because she drives an SUV,' that's an ad hominem. Her car habits don't actually address the argument's logic. Now what about the straw man fallacy?\nStudent: I think that's when you misrepresent what someone said to make it easier to argue against?\nTutor: Perfect. For example: someone says we should reduce sugar in school lunches, and the response is 'So you want to ban all food choices for children.' That's a gross exaggeration of the original claim. The opponent is arguing against a position that was never made. These two fallacies are especially common in political debates. The key question to ask is always: does this response actually address the original claim, or does it deflect from it?"
+      }
+    },
+    {
+      "id": "l32-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "How does the tutor respond to the student's definitions of the fallacies?",
+      "choices": [
+        "With corrections, pointing out that the student misunderstood both fallacies",
+        "With praise, confirming that both definitions are correct",
+        "With skepticism, asking the student to provide more evidence",
+        "With indifference, moving on without acknowledging the student's answers"
+      ],
+      "answer": 1,
+      "explanation": "The tutor responds to both definitions with positive affirmations — 'Exactly right' after the ad hominem definition and 'Perfect' after the straw man definition.",
+      "wrongReasons": [
+        "The tutor does not correct the student; both answers are confirmed as accurate.",
+        "The tutor does not ask for more evidence; the answers are immediately affirmed.",
+        "The tutor clearly acknowledges and validates both of the student's responses."
+      ],
+      "passage": {
+        "id": "l32-passage",
+        "title": "Tutorial: Logical Fallacies in Arguments",
+        "body": "Tutor: Today we're going to practice spotting logical fallacies — errors in reasoning that make an argument invalid even if it sounds convincing. Let's start with one you've probably encountered: the ad hominem fallacy. Can you tell me what you think it means?\nStudent: Is it when you attack the person instead of their argument?\nTutor: Exactly right. So if someone says, 'We shouldn't listen to her views on climate policy because she drives an SUV,' that's an ad hominem. Her car habits don't actually address the argument's logic. Now what about the straw man fallacy?\nStudent: I think that's when you misrepresent what someone said to make it easier to argue against?\nTutor: Perfect. For example: someone says we should reduce sugar in school lunches, and the response is 'So you want to ban all food choices for children.' That's a gross exaggeration of the original claim. The opponent is arguing against a position that was never made. These two fallacies are especially common in political debates. The key question to ask is always: does this response actually address the original claim, or does it deflect from it?"
+      }
+    },
+    {
+      "id": "l32-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the tutor's closing question — 'does this response actually address the original claim, or does it deflect from it?' — imply about fallacious arguments?",
+      "choices": [
+        "All fallacious arguments are based on false facts",
+        "The essential flaw in both fallacies is evasion of the actual argument rather than engagement with it",
+        "Ad hominem and straw man fallacies are only found in political speeches",
+        "A response can be fallacious even if it contains accurate information"
+      ],
+      "answer": 1,
+      "explanation": "The tutor's diagnostic question cuts to the core of both fallacies: they involve redirecting attention away from the real argument, either by attacking the person or by misrepresenting the claim.",
+      "wrongReasons": [
+        "Fallacies are about flawed reasoning, not necessarily false facts — the tutor's examples don't hinge on factual inaccuracy.",
+        "The tutor says these fallacies are 'especially common' in political debates but does not restrict them to politics alone.",
+        "While plausible, the passage focuses on evasion as the core problem rather than the accuracy of individual facts within a fallacious response."
+      ],
+      "passage": {
+        "id": "l32-passage",
+        "title": "Tutorial: Logical Fallacies in Arguments",
+        "body": "Tutor: Today we're going to practice spotting logical fallacies — errors in reasoning that make an argument invalid even if it sounds convincing. Let's start with one you've probably encountered: the ad hominem fallacy. Can you tell me what you think it means?\nStudent: Is it when you attack the person instead of their argument?\nTutor: Exactly right. So if someone says, 'We shouldn't listen to her views on climate policy because she drives an SUV,' that's an ad hominem. Her car habits don't actually address the argument's logic. Now what about the straw man fallacy?\nStudent: I think that's when you misrepresent what someone said to make it easier to argue against?\nTutor: Perfect. For example: someone says we should reduce sugar in school lunches, and the response is 'So you want to ban all food choices for children.' That's a gross exaggeration of the original claim. The opponent is arguing against a position that was never made. These two fallacies are especially common in political debates. The key question to ask is always: does this response actually address the original claim, or does it deflect from it?"
+      }
+    },
+    {
+      "id": "l33-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the main subject of this lecture?",
+      "choices": [
+        "The grammatical rules that make English easy to learn",
+        "Why English became a dominant global language and the forces behind its spread",
+        "How to teach English as a second language in developing countries",
+        "The superiority of English over other world languages"
+      ],
+      "answer": 1,
+      "explanation": "The professor opens by stating the lecture will explore how and why English became so globally dominant, citing colonialism and globalization as key forces.",
+      "wrongReasons": [
+        "English grammar is not the subject; the lecture concerns historical and sociological forces.",
+        "Language teaching methods are not discussed.",
+        "The professor analyzes why English spread without claiming it is superior to other languages."
+      ],
+      "passage": {
+        "id": "l33-passage",
+        "title": "Lecture: The Spread of English as a Global Language",
+        "body": "Professor: English is spoken today by roughly two billion people, making it the most widely used language in human history. But this didn't happen by accident, and it certainly didn't happen because English is inherently easier or better than other languages. It happened because of power. The first great engine of English's spread was British colonialism. By the nineteenth century, Britain controlled territories across every inhabited continent. In each colony, English was imposed as the language of administration, law, and education. Local languages were often discouraged or outright suppressed. When those colonies gained independence, many chose to retain English — not out of affection for their former rulers, but because it served as a neutral lingua franca among populations speaking dozens of different local languages. The second major driver has been twentieth-century American cultural and economic dominance. Hollywood, the internet, international finance, and the sciences all operate largely in English, creating enormous pressure on individuals worldwide to acquire it. Critics argue this creates linguistic inequality — those born into English-speaking households have a head start unavailable to others. But others point out that a shared global language, however it arose, does facilitate international cooperation."
+      }
+    },
+    {
+      "id": "l33-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "Why did many former British colonies retain English after independence, according to the professor?",
+      "choices": [
+        "Because their populations genuinely preferred English to local languages",
+        "Because Britain required it as a condition of granting independence",
+        "Because English served as a neutral common language among populations with many different local languages",
+        "Because English was easier to learn than the native alternatives"
+      ],
+      "answer": 2,
+      "explanation": "The professor states that many post-colonial nations kept English as a lingua franca — a neutral common tongue — not out of loyalty to Britain, but because their own populations spoke dozens of different local languages.",
+      "wrongReasons": [
+        "The professor explicitly says it was not 'out of affection for their former rulers.'",
+        "No such British requirement for independence is mentioned.",
+        "The professor directly rejects the idea that English is inherently easier than other languages."
+      ],
+      "passage": {
+        "id": "l33-passage",
+        "title": "Lecture: The Spread of English as a Global Language",
+        "body": "Professor: English is spoken today by roughly two billion people, making it the most widely used language in human history. But this didn't happen by accident, and it certainly didn't happen because English is inherently easier or better than other languages. It happened because of power. The first great engine of English's spread was British colonialism. By the nineteenth century, Britain controlled territories across every inhabited continent. In each colony, English was imposed as the language of administration, law, and education. Local languages were often discouraged or outright suppressed. When those colonies gained independence, many chose to retain English — not out of affection for their former rulers, but because it served as a neutral lingua franca among populations speaking dozens of different local languages. The second major driver has been twentieth-century American cultural and economic dominance. Hollywood, the internet, international finance, and the sciences all operate largely in English, creating enormous pressure on individuals worldwide to acquire it. Critics argue this creates linguistic inequality — those born into English-speaking households have a head start unavailable to others. But others point out that a shared global language, however it arose, does facilitate international cooperation."
+      }
+    },
+    {
+      "id": "l33-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the professor's stance on the global dominance of English?",
+      "choices": [
+        "Enthusiastically supportive, arguing English should be made the world's official language",
+        "Strongly critical, arguing English imperialism has destroyed world cultures",
+        "Balanced, acknowledging both the problems of linguistic inequality and the benefits of a shared language",
+        "Indifferent, presenting facts without any evaluative commentary"
+      ],
+      "answer": 2,
+      "explanation": "The professor presents critics who warn of linguistic inequality alongside those who note that a shared language facilitates cooperation — a deliberately balanced stance presenting multiple perspectives.",
+      "wrongReasons": [
+        "The professor is analytical, not an advocate for making English an official world language.",
+        "The professor notes suppression of local languages as a historical fact but does not characterize it in purely condemnatory terms.",
+        "The professor clearly includes evaluative perspectives by citing critics and defenders of English's spread."
+      ],
+      "passage": {
+        "id": "l33-passage",
+        "title": "Lecture: The Spread of English as a Global Language",
+        "body": "Professor: English is spoken today by roughly two billion people, making it the most widely used language in human history. But this didn't happen by accident, and it certainly didn't happen because English is inherently easier or better than other languages. It happened because of power. The first great engine of English's spread was British colonialism. By the nineteenth century, Britain controlled territories across every inhabited continent. In each colony, English was imposed as the language of administration, law, and education. Local languages were often discouraged or outright suppressed. When those colonies gained independence, many chose to retain English — not out of affection for their former rulers, but because it served as a neutral lingua franca among populations speaking dozens of different local languages. The second major driver has been twentieth-century American cultural and economic dominance. Hollywood, the internet, international finance, and the sciences all operate largely in English, creating enormous pressure on individuals worldwide to acquire it. Critics argue this creates linguistic inequality — those born into English-speaking households have a head start unavailable to others. But others point out that a shared global language, however it arose, does facilitate international cooperation."
+      }
+    },
+    {
+      "id": "l33-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply by saying English spread because of 'power' rather than because it is 'better' than other languages?",
+      "choices": [
+        "That English is actually inferior to many other languages in terms of grammar",
+        "That the global status of English reflects historical dominance rather than any linguistic merit",
+        "That language learning should focus on cultural exchange rather than economic opportunity",
+        "That English will eventually be replaced by a more logical constructed language"
+      ],
+      "answer": 1,
+      "explanation": "By attributing English's spread to colonial and economic power rather than linguistic quality, the professor implies that its dominance is a historical accident shaped by who held power, not an indication that English is objectively superior.",
+      "wrongReasons": [
+        "The professor does not claim English is inferior — only that its dominance is not based on linguistic merit.",
+        "Cultural exchange versus economic opportunity is not the implied point.",
+        "The replacement of English is not discussed or implied."
+      ],
+      "passage": {
+        "id": "l33-passage",
+        "title": "Lecture: The Spread of English as a Global Language",
+        "body": "Professor: English is spoken today by roughly two billion people, making it the most widely used language in human history. But this didn't happen by accident, and it certainly didn't happen because English is inherently easier or better than other languages. It happened because of power. The first great engine of English's spread was British colonialism. By the nineteenth century, Britain controlled territories across every inhabited continent. In each colony, English was imposed as the language of administration, law, and education. Local languages were often discouraged or outright suppressed. When those colonies gained independence, many chose to retain English — not out of affection for their former rulers, but because it served as a neutral lingua franca among populations speaking dozens of different local languages. The second major driver has been twentieth-century American cultural and economic dominance. Hollywood, the internet, international finance, and the sciences all operate largely in English, creating enormous pressure on individuals worldwide to acquire it. Critics argue this creates linguistic inequality — those born into English-speaking households have a head start unavailable to others. But others point out that a shared global language, however it arose, does facilitate international cooperation."
+      }
+    },
+    {
+      "id": "l34-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What are the two students primarily trying to accomplish in this conversation?",
+      "choices": [
+        "Writing the research paper they will present",
+        "Deciding how to organize and present their research findings",
+        "Practicing their verbal delivery in front of each other",
+        "Arguing about which research topic to choose"
+      ],
+      "answer": 1,
+      "explanation": "The students spend the conversation discussing the structure, order, and visual design of their presentation slides, not writing the paper itself or rehearsing delivery.",
+      "wrongReasons": [
+        "The research paper has already been written; they are planning the presentation.",
+        "Verbal delivery practice is not described; they focus on slide structure.",
+        "Their topic is already decided; they are planning how to present it."
+      ],
+      "passage": {
+        "id": "l34-passage",
+        "title": "Campus Conversation: Planning a Research Presentation",
+        "body": "Student A: Okay, we have about twenty minutes of presentation time. How do we want to structure the slides?\nStudent B: I think we should open with our research question — make it really clear what we were trying to find out before we get into method or results.\nStudent A: Agreed. And then methodology next? Or go straight to results?\nStudent B: Methodology first — the audience needs to understand how we collected data before the results will mean anything to them.\nStudent A: Good point. What about the results section — should we use graphs or tables?\nStudent B: Graphs, definitely. Visual data is easier to read quickly during a presentation. We can put the full tables in the appendix if people want the details.\nStudent A: That makes sense. And the conclusion — how long?\nStudent B: Two or three slides max. We want to end clearly: restate the main finding, discuss implications, and suggest future research directions.\nStudent A: Should we add a Q and A slide at the end?\nStudent B: Yes, always. It signals to the audience that we welcome questions and it gives us a moment to breathe before they start asking."
+      }
+    },
+    {
+      "id": "l34-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "Why does Student B prefer using graphs over tables in the results section?",
+      "choices": [
+        "Graphs contain more data than tables and are therefore more accurate",
+        "Tables are not permitted in academic presentations",
+        "Graphs are easier for an audience to interpret quickly during a presentation",
+        "Their professor specifically requested graphs instead of tables"
+      ],
+      "answer": 2,
+      "explanation": "Student B explicitly says 'Visual data is easier to read quickly during a presentation,' making speed and clarity the reason for preferring graphs over tables.",
+      "wrongReasons": [
+        "The preference is about clarity and speed, not data quantity or accuracy.",
+        "No rule against tables in presentations is mentioned; tables are offered as an appendix option.",
+        "No professor requirement is cited; the decision is the students' own."
+      ],
+      "passage": {
+        "id": "l34-passage",
+        "title": "Campus Conversation: Planning a Research Presentation",
+        "body": "Student A: Okay, we have about twenty minutes of presentation time. How do we want to structure the slides?\nStudent B: I think we should open with our research question — make it really clear what we were trying to find out before we get into method or results.\nStudent A: Agreed. And then methodology next? Or go straight to results?\nStudent B: Methodology first — the audience needs to understand how we collected data before the results will mean anything to them.\nStudent A: Good point. What about the results section — should we use graphs or tables?\nStudent B: Graphs, definitely. Visual data is easier to read quickly during a presentation. We can put the full tables in the appendix if people want the details.\nStudent A: That makes sense. And the conclusion — how long?\nStudent B: Two or three slides max. We want to end clearly: restate the main finding, discuss implications, and suggest future research directions.\nStudent A: Should we add a Q and A slide at the end?\nStudent B: Yes, always. It signals to the audience that we welcome questions and it gives us a moment to breathe before they start asking."
+      }
+    },
+    {
+      "id": "l34-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is Student B's attitude toward the Q&A slide at the end of the presentation?",
+      "choices": [
+        "Opposed, believing it disrupts the flow of the conclusion",
+        "Neutral, saying it is optional depending on the audience",
+        "Strongly in favor, viewing it as both a signal to the audience and a personal benefit",
+        "Uncertain, wanting to check with the professor before deciding"
+      ],
+      "answer": 2,
+      "explanation": "Student B says 'Yes, always,' indicating strong support, and gives two reasons: it signals openness to questions and gives the presenters a moment to collect themselves.",
+      "wrongReasons": [
+        "Student B is clearly in favor of the Q&A slide, not opposed to it.",
+        "Student B says 'always,' not 'optional.' The stance is definitive.",
+        "No mention of consulting the professor is made."
+      ],
+      "passage": {
+        "id": "l34-passage",
+        "title": "Campus Conversation: Planning a Research Presentation",
+        "body": "Student A: Okay, we have about twenty minutes of presentation time. How do we want to structure the slides?\nStudent B: I think we should open with our research question — make it really clear what we were trying to find out before we get into method or results.\nStudent A: Agreed. And then methodology next? Or go straight to results?\nStudent B: Methodology first — the audience needs to understand how we collected data before the results will mean anything to them.\nStudent A: Good point. What about the results section — should we use graphs or tables?\nStudent B: Graphs, definitely. Visual data is easier to read quickly during a presentation. We can put the full tables in the appendix if people want the results.\nStudent A: That makes sense. And the conclusion — how long?\nStudent B: Two or three slides max. We want to end clearly: restate the main finding, discuss implications, and suggest future research directions.\nStudent A: Should we add a Q and A slide at the end?\nStudent B: Yes, always. It signals to the audience that we welcome questions and it gives us a moment to breathe before they start asking."
+      }
+    },
+    {
+      "id": "l34-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does Student B's insistence on presenting methodology before results imply about academic communication?",
+      "choices": [
+        "Methodology sections are always longer than results sections in presentations",
+        "Audiences cannot evaluate findings without first understanding how those findings were produced",
+        "Results should be hidden from audiences until the very end of a presentation",
+        "Presenters should avoid explaining methodology to keep the presentation concise"
+      ],
+      "answer": 1,
+      "explanation": "Student B says 'the audience needs to understand how we collected data before the results will mean anything to them,' implying that context about methods is necessary for results to be meaningful or credible.",
+      "wrongReasons": [
+        "The relative length of methodology versus results slides is not discussed.",
+        "Results are not hidden; they come after methodology, not at the very end.",
+        "Student B advocates for including methodology, not omitting it for brevity."
+      ],
+      "passage": {
+        "id": "l34-passage",
+        "title": "Campus Conversation: Planning a Research Presentation",
+        "body": "Student A: Okay, we have about twenty minutes of presentation time. How do we want to structure the slides?\nStudent B: I think we should open with our research question — make it really clear what we were trying to find out before we get into method or results.\nStudent A: Agreed. And then methodology next? Or go straight to results?\nStudent B: Methodology first — the audience needs to understand how we collected data before the results will mean anything to them.\nStudent A: Good point. What about the results section — should we use graphs or tables?\nStudent B: Graphs, definitely. Visual data is easier to read quickly during a presentation. We can put the full tables in the appendix if people want the details.\nStudent A: That makes sense. And the conclusion — how long?\nStudent B: Two or three slides max. We want to end clearly: restate the main finding, discuss implications, and suggest future research directions.\nStudent A: Should we add a Q and A slide at the end?\nStudent B: Yes, always. It signals to the audience that we welcome questions and it gives us a moment to breathe before they start asking."
+      }
+    },
+    {
+      "id": "l35-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "What is the central argument of this lecture?",
+      "choices": [
+        "Getting more than eight hours of sleep leads to emotional numbness",
+        "Sleep deprivation impairs the brain's ability to regulate emotional responses",
+        "Dreaming is the most important function of sleep for emotional health",
+        "Emotional problems are the primary cause of sleep disorders"
+      ],
+      "answer": 1,
+      "explanation": "The professor's central argument is that inadequate sleep disrupts emotional regulation, specifically through its effects on the amygdala and prefrontal cortex.",
+      "wrongReasons": [
+        "The professor discusses insufficient sleep, not excessive sleep.",
+        "Dreaming is not mentioned; the focus is on sleep quantity and brain function.",
+        "The lecture describes sleep deprivation causing emotional problems, not the reverse."
+      ],
+      "passage": {
+        "id": "l35-passage",
+        "title": "Lecture: The Role of Sleep in Emotional Regulation",
+        "body": "Professor: We tend to think of sleep as passive — a period of inactivity when the body simply rests. But neuroscience has revealed that the sleeping brain is extraordinarily active, and one of its most critical jobs is processing and regulating emotion. At the center of this is a small almond-shaped structure called the amygdala, which is responsible for detecting threats and triggering fear and anger responses. When we are well-rested, the prefrontal cortex — the rational, decision-making part of the brain — keeps the amygdala in check. But after even one night of poor sleep, studies show the amygdala becomes up to sixty percent more reactive to negative stimuli. The prefrontal cortex essentially goes offline, losing its ability to moderate the emotional alarm system. This is why sleep-deprived people are more irritable, more anxious, and more prone to emotional outbursts. The implications extend beyond bad moods. Chronic sleep deprivation has been linked to anxiety disorders, depression, and impaired empathy. If you're struggling emotionally and also sleeping poorly, the relationship between those two facts is probably not coincidental."
+      }
+    },
+    {
+      "id": "l35-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, what happens to the amygdala after one night of poor sleep?",
+      "choices": [
+        "It shrinks in size, reducing emotional responses",
+        "It becomes up to sixty percent more reactive to negative stimuli",
+        "It temporarily shuts down, causing emotional numbness",
+        "It begins producing excess cortisol, leading to chronic stress"
+      ],
+      "answer": 1,
+      "explanation": "The professor states that studies show the amygdala becomes 'up to sixty percent more reactive to negative stimuli' after even one night of poor sleep.",
+      "wrongReasons": [
+        "The amygdala becomes more reactive, not smaller or less reactive.",
+        "The amygdala does not shut down; rather it becomes hyperreactive when the prefrontal cortex goes offline.",
+        "Cortisol production is not mentioned in the lecture."
+      ],
+      "passage": {
+        "id": "l35-passage",
+        "title": "Lecture: The Role of Sleep in Emotional Regulation",
+        "body": "Professor: We tend to think of sleep as passive — a period of inactivity when the body simply rests. But neuroscience has revealed that the sleeping brain is extraordinarily active, and one of its most critical jobs is processing and regulating emotion. At the center of this is a small almond-shaped structure called the amygdala, which is responsible for detecting threats and triggering fear and anger responses. When we are well-rested, the prefrontal cortex — the rational, decision-making part of the brain — keeps the amygdala in check. But after even one night of poor sleep, studies show the amygdala becomes up to sixty percent more reactive to negative stimuli. The prefrontal cortex essentially goes offline, losing its ability to moderate the emotional alarm system. This is why sleep-deprived people are more irritable, more anxious, and more prone to emotional outbursts. The implications extend beyond bad moods. Chronic sleep deprivation has been linked to anxiety disorders, depression, and impaired empathy. If you're struggling emotionally and also sleeping poorly, the relationship between those two facts is probably not coincidental."
+      }
+    },
+    {
+      "id": "l35-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "How does the professor characterize the brain's activity during sleep?",
+      "choices": [
+        "Minimal, with only basic life-support functions active",
+        "Focused exclusively on physical repair of the body",
+        "Extraordinarily active, particularly in processing and regulating emotions",
+        "Unpredictable and chaotic, with no consistent function"
+      ],
+      "answer": 2,
+      "explanation": "The professor directly challenges the idea of sleep as passive, stating that 'the sleeping brain is extraordinarily active' and that one of its critical jobs is emotional regulation.",
+      "wrongReasons": [
+        "The professor explicitly says brain activity during sleep is not minimal.",
+        "Physical repair is not mentioned; the lecture focuses on emotional and neurological functions.",
+        "The professor describes a specific, consistent function — not chaos."
+      ],
+      "passage": {
+        "id": "l35-passage",
+        "title": "Lecture: The Role of Sleep in Emotional Regulation",
+        "body": "Professor: We tend to think of sleep as passive — a period of inactivity when the body simply rests. But neuroscience has revealed that the sleeping brain is extraordinarily active, and one of its most critical jobs is processing and regulating emotion. At the center of this is a small almond-shaped structure called the amygdala, which is responsible for detecting threats and triggering fear and anger responses. When we are well-rested, the prefrontal cortex — the rational, decision-making part of the brain — keeps the amygdala in check. But after even one night of poor sleep, studies show the amygdala becomes up to sixty percent more reactive to negative stimuli. The prefrontal cortex essentially goes offline, losing its ability to moderate the emotional alarm system. This is why sleep-deprived people are more irritable, more anxious, and more prone to emotional outbursts. The implications extend beyond bad moods. Chronic sleep deprivation has been linked to anxiety disorders, depression, and impaired empathy. If you're struggling emotionally and also sleeping poorly, the relationship between those two facts is probably not coincidental."
+      }
+    },
+    {
+      "id": "l35-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply by saying that emotional struggles and poor sleep are 'probably not coincidental'?",
+      "choices": [
+        "Emotional disorders are always caused by sleep problems",
+        "There is likely a bidirectional relationship where poor sleep worsens emotional health and vice versa",
+        "Emotional struggles are merely a symptom of poor sleep hygiene",
+        "Sleep medication should be prescribed to anyone experiencing emotional difficulties"
+      ],
+      "answer": 1,
+      "explanation": "The word 'probably' and the phrasing 'not coincidental' suggest a causal or bidirectional relationship without overstating it. The professor implies poor sleep and emotional struggles influence each other, without claiming one is solely the cause of the other.",
+      "wrongReasons": [
+        "The professor says deprivation has been 'linked to' disorders — a correlation claim, not a definitive causation claim.",
+        "Calling emotional struggles 'merely' a symptom overstates the directional claim the professor carefully avoids.",
+        "Medical prescriptions are never discussed in the lecture."
+      ],
+      "passage": {
+        "id": "l35-passage",
+        "title": "Lecture: The Role of Sleep in Emotional Regulation",
+        "body": "Professor: We tend to think of sleep as passive — a period of inactivity when the body simply rests. But neuroscience has revealed that the sleeping brain is extraordinarily active, and one of its most critical jobs is processing and regulating emotion. At the center of this is a small almond-shaped structure called the amygdala, which is responsible for detecting threats and triggering fear and anger responses. When we are well-rested, the prefrontal cortex — the rational, decision-making part of the brain — keeps the amygdala in check. But after even one night of poor sleep, studies show the amygdala becomes up to sixty percent more reactive to negative stimuli. The prefrontal cortex essentially goes offline, losing its ability to moderate the emotional alarm system. This is why sleep-deprived people are more irritable, more anxious, and more prone to emotional outbursts. The implications extend beyond bad moods. Chronic sleep deprivation has been linked to anxiety disorders, depression, and impaired empathy. If you're struggling emotionally and also sleeping poorly, the relationship between those two facts is probably not coincidental."
+      }
+    },
+    {
+      "id": "l36-q1",
+      "category": "lectureQuestions",
+      "difficulty": "easy",
+      "text": "Why does the student come to office hours?",
+      "choices": [
+        "To request a makeup exam after missing a test",
+        "To discuss a failing grade and find out how to improve",
+        "To appeal a grade they believe was marked incorrectly",
+        "To drop the course before the deadline"
+      ],
+      "answer": 1,
+      "explanation": "The student tells the professor they received a failing grade and want to understand what went wrong and how to do better going forward.",
+      "wrongReasons": [
+        "A makeup exam is not requested; the student is asking about improving future performance.",
+        "The student does not dispute the grade as an error; they want to understand it and improve.",
+        "Dropping the course is never mentioned."
+      ],
+      "passage": {
+        "id": "l36-passage",
+        "title": "Office Hours: Discussing a Failing Grade",
+        "body": "Student: I got a fifty-two on the midterm and I'm really worried. I studied for hours but I don't know what went wrong.\nProfessor: I'm glad you came in. A lot of students don't, and that's a missed opportunity. Let me pull up your exam. Looking here, I can see the main problem isn't your knowledge of the content — your short answers are actually pretty solid. The issue is with the essay question. You listed a lot of relevant facts, but you didn't construct an argument.\nStudent: What do you mean by that?\nProfessor: In an academic essay, facts alone aren't enough. You need a clear thesis — a central claim — and then your evidence has to build toward proving that claim. Your essay read more like a list than an argument.\nStudent: I think I see. How do I fix that?\nProfessor: Before you write a single sentence, write your thesis down. Then ask yourself: does each paragraph support this specific claim? If a paragraph doesn't connect to your thesis, cut it or rework it. Come see me with a draft outline before the final exam and I'll give you feedback.\nStudent: That would really help. Thank you.\nProfessor: Of course. One bad exam doesn't define the course. There's still plenty of opportunity."
+      }
+    },
+    {
+      "id": "l36-q2",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "According to the professor, what was the specific weakness in the student's exam essay?",
+      "choices": [
+        "It contained factual errors about the course content",
+        "It was too short to adequately address the question",
+        "It listed facts without constructing a central argument or thesis",
+        "It was written in an informal style inappropriate for academic work"
+      ],
+      "answer": 2,
+      "explanation": "The professor identifies the problem as structural: the student listed relevant facts but did not construct an argument built around a clear thesis — the essay 'read more like a list than an argument.'",
+      "wrongReasons": [
+        "The professor says the short answers showed solid content knowledge; the facts in the essay were described as relevant, not wrong.",
+        "Essay length is not discussed as a problem.",
+        "Writing style or formality is not mentioned as an issue."
+      ],
+      "passage": {
+        "id": "l36-passage",
+        "title": "Office Hours: Discussing a Failing Grade",
+        "body": "Student: I got a fifty-two on the midterm and I'm really worried. I studied for hours but I don't know what went wrong.\nProfessor: I'm glad you came in. A lot of students don't, and that's a missed opportunity. Let me pull up your exam. Looking here, I can see the main problem isn't your knowledge of the content — your short answers are actually pretty solid. The issue is with the essay question. You listed a lot of relevant facts, but you didn't construct an argument.\nStudent: What do you mean by that?\nProfessor: In an academic essay, facts alone aren't enough. You need a clear thesis — a central claim — and then your evidence has to build toward proving that claim. Your essay read more like a list than an argument.\nStudent: I think I see. How do I fix that?\nProfessor: Before you write a single sentence, write your thesis down. Then ask yourself: does each paragraph support this specific claim? If a paragraph doesn't connect to your thesis, cut it or rework it. Come see me with a draft outline before the final exam and I'll give you feedback.\nStudent: That would really help. Thank you.\nProfessor: Of course. One bad exam doesn't define the course. There's still plenty of opportunity."
+      }
+    },
+    {
+      "id": "l36-q3",
+      "category": "lectureQuestions",
+      "difficulty": "medium",
+      "text": "What is the professor's overall attitude toward the student's situation?",
+      "choices": [
+        "Frustrated that the student studied so much yet still failed",
+        "Discouraging, warning the student that improvement may not be possible",
+        "Encouraging and constructive, offering specific strategies and continued support",
+        "Indifferent, providing minimal feedback without personal investment"
+      ],
+      "answer": 2,
+      "explanation": "The professor validates the student's decision to come in, gives specific and actionable feedback, offers to review a draft outline, and ends with 'One bad exam doesn't define the course' — clearly encouraging and constructive.",
+      "wrongReasons": [
+        "The professor expresses no frustration; they seem pleased the student came in.",
+        "The professor explicitly says there is 'still plenty of opportunity,' the opposite of discouragement.",
+        "The professor is deeply engaged, offering personal feedback and a follow-up meeting."
+      ],
+      "passage": {
+        "id": "l36-passage",
+        "title": "Office Hours: Discussing a Failing Grade",
+        "body": "Student: I got a fifty-two on the midterm and I'm really worried. I studied for hours but I don't know what went wrong.\nProfessor: I'm glad you came in. A lot of students don't, and that's a missed opportunity. Let me pull up your exam. Looking here, I can see the main problem isn't your knowledge of the content — your short answers are actually pretty solid. The issue is with the essay question. You listed a lot of relevant facts, but you didn't construct an argument.\nStudent: What do you mean by that?\nProfessor: In an academic essay, facts alone aren't enough. You need a clear thesis — a central claim — and then your evidence has to build toward proving that claim. Your essay read more like a list than an argument.\nStudent: I think I see. How do I fix that?\nProfessor: Before you write a single sentence, write your thesis down. Then ask yourself: does each paragraph support this specific claim? If a paragraph doesn't connect to your thesis, cut it or rework it. Come see me with a draft outline before the final exam and I'll give you feedback.\nStudent: That would really help. Thank you.\nProfessor: Of course. One bad exam doesn't define the course. There's still plenty of opportunity."
+      }
+    },
+    {
+      "id": "l36-q4",
+      "category": "lectureQuestions",
+      "difficulty": "hard",
+      "text": "What does the professor imply when saying students who do not come to office hours are missing an opportunity?",
+      "choices": [
+        "Attendance at office hours is mandatory and affects the final grade",
+        "Failing students who do not seek help are unlikely to improve because they cannot diagnose their own errors",
+        "The professor prefers students who ask questions to those who study independently",
+        "Office hours are more useful than lectures for understanding course material"
+      ],
+      "answer": 1,
+      "explanation": "The professor's feedback reveals a specific, diagnosable problem the student could not see alone. By calling non-attendance 'a missed opportunity,' the professor implies that self-study without feedback leaves students unable to identify the structural flaws in their work.",
+      "wrongReasons": [
+        "No grade requirement for office hours attendance is stated or implied.",
+        "The professor does not disparage independent study; the point is about targeted feedback, not a general preference.",
+        "Lectures versus office hours as learning tools are not compared."
+      ],
+      "passage": {
+        "id": "l36-passage",
+        "title": "Office Hours: Discussing a Failing Grade",
+        "body": "Student: I got a fifty-two on the midterm and I'm really worried. I studied for hours but I don't know what went wrong.\nProfessor: I'm glad you came in. A lot of students don't, and that's a missed opportunity. Let me pull up your exam. Looking here, I can see the main problem isn't your knowledge of the content — your short answers are actually pretty solid. The issue is with the essay question. You listed a lot of relevant facts, but you didn't construct an argument.\nStudent: What do you mean by that?\nProfessor: In an academic essay, facts alone aren't enough. You need a clear thesis — a central claim — and then your evidence has to build toward proving that claim. Your essay read more like a list than an argument.\nStudent: I think I see. How do I fix that?\nProfessor: Before you write a single sentence, write your thesis down. Then ask yourself: does each paragraph support this specific claim? If a paragraph doesn't connect to your thesis, cut it or rework it. Come see me with a draft outline before the final exam and I'll give you feedback.\nStudent: That would really help. Thank you.\nProfessor: Of course. One bad exam doesn't define the course. There's still plenty of opportunity."
+      }
+    }
+  ]
+}

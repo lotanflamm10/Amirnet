@@ -1,0 +1,604 @@
+{
+  "reading": [
+    {
+      "id": "r28-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Children learn language only through formal instruction in school.",
+        "Language acquisition in children is a natural process shaped by both biology and environment.",
+        "Adults and children learn new languages using identical methods.",
+        "Grammar is the most important factor in language development."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes how children acquire language through a combination of innate biological capacity and environmental exposure, making option B the central idea.",
+      "wrongReasons": [
+        "The passage states children begin acquiring language long before formal schooling.",
+        "The passage specifically contrasts how children acquire their first language differently from adult learners.",
+        "While grammar is mentioned, the passage presents it as just one element among many in language development."
+      ],
+      "passage": {
+        "id": "r28-passage",
+        "title": "How Children Acquire Language",
+        "body": "Language acquisition is one of the most remarkable achievements of early childhood. Within just a few years, children progress from producing simple cries to constructing complex sentences, all without formal instruction. Linguists believe this ability is partly innate: the human brain appears to be pre-wired for language, a concept famously proposed by Noam Chomsky as the 'language acquisition device.' However, environment plays an equally crucial role. Children exposed to rich verbal interaction develop larger vocabularies and stronger grammatical understanding than those raised in language-poor settings. Research shows that by age three, children from more talkative households have heard roughly thirty million more words than peers from quieter homes, a gap with lasting academic consequences. Interestingly, children acquiring language make predictable errors—saying 'goed' instead of 'went'—suggesting they actively construct rules rather than merely imitate adults. This combination of biological readiness and environmental input makes first-language acquisition a uniquely human and deeply social phenomenon."
+      }
+    },
+    {
+      "id": "r28-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what did Noam Chomsky propose?",
+      "choices": [
+        "Children learn language best through reading books.",
+        "Environment is the only factor that determines language development.",
+        "The human brain contains an innate mechanism for language acquisition.",
+        "Children should receive formal grammar lessons before age three."
+      ],
+      "answer": 2,
+      "explanation": "The passage directly states that Chomsky famously proposed the concept of the 'language acquisition device,' describing the brain as pre-wired for language.",
+      "wrongReasons": [
+        "The passage does not mention reading books in relation to Chomsky's theory.",
+        "Chomsky's theory specifically highlights innate biological factors, not environment alone.",
+        "The passage does not suggest Chomsky advocated for formal instruction; his theory is about innate capacity."
+      ],
+      "passage": {
+        "id": "r28-passage",
+        "title": "How Children Acquire Language",
+        "body": "Language acquisition is one of the most remarkable achievements of early childhood. Within just a few years, children progress from producing simple cries to constructing complex sentences, all without formal instruction. Linguists believe this ability is partly innate: the human brain appears to be pre-wired for language, a concept famously proposed by Noam Chomsky as the 'language acquisition device.' However, environment plays an equally crucial role. Children exposed to rich verbal interaction develop larger vocabularies and stronger grammatical understanding than those raised in language-poor settings. Research shows that by age three, children from more talkative households have heard roughly thirty million more words than peers from quieter homes, a gap with lasting academic consequences. Interestingly, children acquiring language make predictable errors—saying 'goed' instead of 'went'—suggesting they actively construct rules rather than merely imitate adults. This combination of biological readiness and environmental input makes first-language acquisition a uniquely human and deeply social phenomenon."
+      }
+    },
+    {
+      "id": "r28-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred from the fact that children say 'goed' instead of 'went'?",
+      "choices": [
+        "Children are too young to remember irregular verb forms.",
+        "Children are applying a grammatical rule they have internalized, not simply repeating what they hear.",
+        "Parents fail to correct their children's speech errors promptly.",
+        "Irregular verbs are rarely used in everyday conversation."
+      ],
+      "answer": 1,
+      "explanation": "The passage uses this example to show children actively construct grammatical rules. 'Goed' applies the regular past-tense rule to an irregular verb, proving rule-construction rather than imitation.",
+      "wrongReasons": [
+        "The passage frames the error as evidence of rule-making, not memory failure.",
+        "The passage draws no conclusions about parental correction habits.",
+        "The frequency of irregular verbs in conversation is not addressed in the passage."
+      ],
+      "passage": {
+        "id": "r28-passage",
+        "title": "How Children Acquire Language",
+        "body": "Language acquisition is one of the most remarkable achievements of early childhood. Within just a few years, children progress from producing simple cries to constructing complex sentences, all without formal instruction. Linguists believe this ability is partly innate: the human brain appears to be pre-wired for language, a concept famously proposed by Noam Chomsky as the 'language acquisition device.' However, environment plays an equally crucial role. Children exposed to rich verbal interaction develop larger vocabularies and stronger grammatical understanding than those raised in language-poor settings. Research shows that by age three, children from more talkative households have heard roughly thirty million more words than peers from quieter homes, a gap with lasting academic consequences. Interestingly, children acquiring language make predictable errors—saying 'goed' instead of 'went'—suggesting they actively construct rules rather than merely imitate adults. This combination of biological readiness and environmental input makes first-language acquisition a uniquely human and deeply social phenomenon."
+      }
+    },
+    {
+      "id": "r28-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, the word 'innate' most nearly means:",
+      "choices": [
+        "Learned through careful practice over time.",
+        "Dependent on cultural traditions passed down through generations.",
+        "Present from birth as part of one's natural makeup.",
+        "Acquired through observation of other people's behavior."
+      ],
+      "answer": 2,
+      "explanation": "The passage uses 'innate' to describe a biological pre-wiring present before any learning takes place, meaning inborn or natural from birth.",
+      "wrongReasons": [
+        "'Learned through practice' is the opposite of innate, which means not requiring learning.",
+        "Cultural transmission describes an environmental process, contradicting the biological meaning of innate.",
+        "Observation-based acquisition describes imitation learning, which the passage contrasts with innate capacity."
+      ],
+      "passage": {
+        "id": "r28-passage",
+        "title": "How Children Acquire Language",
+        "body": "Language acquisition is one of the most remarkable achievements of early childhood. Within just a few years, children progress from producing simple cries to constructing complex sentences, all without formal instruction. Linguists believe this ability is partly innate: the human brain appears to be pre-wired for language, a concept famously proposed by Noam Chomsky as the 'language acquisition device.' However, environment plays an equally crucial role. Children exposed to rich verbal interaction develop larger vocabularies and stronger grammatical understanding than those raised in language-poor settings. Research shows that by age three, children from more talkative households have heard roughly thirty million more words than peers from quieter homes, a gap with lasting academic consequences. Interestingly, children acquiring language make predictable errors—saying 'goed' instead of 'went'—suggesting they actively construct rules rather than merely imitate adults. This combination of biological readiness and environmental input makes first-language acquisition a uniquely human and deeply social phenomenon."
+      }
+    },
+    {
+      "id": "r28-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in including the 'thirty million word gap' statistic?",
+      "choices": [
+        "To argue that talkative parents are better parents overall.",
+        "To demonstrate that biological factors alone cannot explain language differences between children.",
+        "To criticize researchers who underestimate children's intelligence.",
+        "To suggest that quantity of speech is less important than quality of speech."
+      ],
+      "answer": 1,
+      "explanation": "The statistic directly supports the author's argument that environment matters alongside biology. It shows that children in different verbal environments diverge significantly, underscoring the passage's dual-factor thesis.",
+      "wrongReasons": [
+        "The author makes no moral judgment about parenting styles; the statistic is used to illustrate developmental impact.",
+        "No researchers are criticized in the passage; the statistic is presented as supporting evidence, not a rebuttal.",
+        "The passage does not distinguish between quantity and quality of speech; it uses word count to measure exposure."
+      ],
+      "passage": {
+        "id": "r28-passage",
+        "title": "How Children Acquire Language",
+        "body": "Language acquisition is one of the most remarkable achievements of early childhood. Within just a few years, children progress from producing simple cries to constructing complex sentences, all without formal instruction. Linguists believe this ability is partly innate: the human brain appears to be pre-wired for language, a concept famously proposed by Noam Chomsky as the 'language acquisition device.' However, environment plays an equally crucial role. Children exposed to rich verbal interaction develop larger vocabularies and stronger grammatical understanding than those raised in language-poor settings. Research shows that by age three, children from more talkative households have heard roughly thirty million more words than peers from quieter homes, a gap with lasting academic consequences. Interestingly, children acquiring language make predictable errors—saying 'goed' instead of 'went'—suggesting they actively construct rules rather than merely imitate adults. This combination of biological readiness and environmental input makes first-language acquisition a uniquely human and deeply social phenomenon."
+      }
+    },
+    {
+      "id": "r29-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Consumers should stop buying clothes altogether to protect the environment.",
+        "Fast fashion's rapid production cycle causes severe and wide-ranging environmental damage.",
+        "Developing countries benefit economically from the fast fashion industry.",
+        "Synthetic fabrics are the primary cause of global water shortages."
+      ],
+      "answer": 1,
+      "explanation": "The passage systematically details multiple environmental harms caused by fast fashion's business model, establishing this as the central argument throughout.",
+      "wrongReasons": [
+        "The passage does not advocate for a complete end to clothing purchases; it critiques the fast fashion model specifically.",
+        "While the passage mentions developing countries, it focuses on environmental harm rather than economic benefit.",
+        "Synthetic fabrics are one factor mentioned, but the passage presents a broad range of environmental costs, not a single cause."
+      ],
+      "passage": {
+        "id": "r29-passage",
+        "title": "The Environmental Cost of Fast Fashion",
+        "body": "Fast fashion—the practice of producing cheap, trend-driven clothing at rapid speed—has transformed the global apparel industry over the past two decades. Brands release dozens of collections per year, encouraging consumers to treat clothing as disposable. This model carries an enormous environmental price. The fashion industry is responsible for approximately ten percent of global carbon emissions, more than all international flights and maritime shipping combined. Textile dyeing is the second-largest polluter of clean water worldwide, releasing toxic chemicals into rivers across developing nations. Synthetic fabrics such as polyester shed millions of microplastic fibers with every wash, contaminating oceans and entering the food chain. Furthermore, an estimated ninety-two million tons of textile waste is generated annually, with most garments ending up in landfills within three years of purchase. As consumer awareness grows, pressure is mounting on brands to adopt sustainable practices, including circular production models, natural dyes, and take-back programs. However, systemic change remains slow while fast fashion continues to dominate the market."
+      }
+    },
+    {
+      "id": "r29-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, how does the fashion industry's carbon footprint compare to other sectors?",
+      "choices": [
+        "It produces fewer emissions than international aviation alone.",
+        "It accounts for about ten percent of global carbon emissions, exceeding international flights and shipping combined.",
+        "It is the single largest source of greenhouse gas emissions globally.",
+        "Its carbon output is roughly equal to that of the automobile industry."
+      ],
+      "answer": 1,
+      "explanation": "The passage states explicitly that fashion accounts for approximately ten percent of global carbon emissions, surpassing international flights and maritime shipping combined.",
+      "wrongReasons": [
+        "The passage states fashion emissions exceed all international flights, not fewer than aviation alone.",
+        "The passage does not claim fashion is the single largest emitter; it compares it to specific other sectors.",
+        "The automobile industry is not mentioned in the passage at all."
+      ],
+      "passage": {
+        "id": "r29-passage",
+        "title": "The Environmental Cost of Fast Fashion",
+        "body": "Fast fashion—the practice of producing cheap, trend-driven clothing at rapid speed—has transformed the global apparel industry over the past two decades. Brands release dozens of collections per year, encouraging consumers to treat clothing as disposable. This model carries an enormous environmental price. The fashion industry is responsible for approximately ten percent of global carbon emissions, more than all international flights and maritime shipping combined. Textile dyeing is the second-largest polluter of clean water worldwide, releasing toxic chemicals into rivers across developing nations. Synthetic fabrics such as polyester shed millions of microplastic fibers with every wash, contaminating oceans and entering the food chain. Furthermore, an estimated ninety-two million tons of textile waste is generated annually, with most garments ending up in landfills within three years of purchase. As consumer awareness grows, pressure is mounting on brands to adopt sustainable practices, including circular production models, natural dyes, and take-back programs. However, systemic change remains slow while fast fashion continues to dominate the market."
+      }
+    },
+    {
+      "id": "r29-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about the effectiveness of consumer pressure on the fast fashion industry?",
+      "choices": [
+        "Consumer awareness has already forced major brands to adopt fully sustainable practices.",
+        "Consumer pressure has had no measurable impact on the industry whatsoever.",
+        "Consumer pressure is building but has not yet produced large-scale systemic change.",
+        "Consumers are largely unaware of fast fashion's environmental impact."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that 'pressure is mounting' but also that 'systemic change remains slow,' implying partial but insufficient progress driven by consumer awareness.",
+      "wrongReasons": [
+        "The passage says change 'remains slow,' contradicting the idea that brands have already fully adapted.",
+        "The passage acknowledges that awareness is growing and pressure is mounting, meaning some impact exists.",
+        "The passage states consumer awareness is growing, directly contradicting the idea consumers are unaware."
+      ],
+      "passage": {
+        "id": "r29-passage",
+        "title": "The Environmental Cost of Fast Fashion",
+        "body": "Fast fashion—the practice of producing cheap, trend-driven clothing at rapid speed—has transformed the global apparel industry over the past two decades. Brands release dozens of collections per year, encouraging consumers to treat clothing as disposable. This model carries an enormous environmental price. The fashion industry is responsible for approximately ten percent of global carbon emissions, more than all international flights and maritime shipping combined. Textile dyeing is the second-largest polluter of clean water worldwide, releasing toxic chemicals into rivers across developing nations. Synthetic fabrics such as polyester shed millions of microplastic fibers with every wash, contaminating oceans and entering the food chain. Furthermore, an estimated ninety-two million tons of textile waste is generated annually, with most garments ending up in landfills within three years of purchase. As consumer awareness grows, pressure is mounting on brands to adopt sustainable practices, including circular production models, natural dyes, and take-back programs. However, systemic change remains slow while fast fashion continues to dominate the market."
+      }
+    },
+    {
+      "id": "r29-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, 'circular production models' most likely refers to:",
+      "choices": [
+        "Manufacturing plants built in a circular architectural layout.",
+        "A system where garments are designed to be reused, repaired, or recycled rather than discarded.",
+        "The practice of rotating seasonal collections on a circular calendar.",
+        "A financial model where clothing profits are reinvested into new production cycles."
+      ],
+      "answer": 1,
+      "explanation": "In the context of sustainability, 'circular' refers to closing the loop on waste by designing products for reuse or recycling instead of linear disposal, which aligns with the passage's discussion of alternatives to textile waste.",
+      "wrongReasons": [
+        "The passage uses 'circular' as a metaphor for a closed-loop system, not a physical building shape.",
+        "A seasonal collection calendar describes the fast fashion model the passage critiques, not a sustainable alternative.",
+        "Financial reinvestment describes a business strategy unrelated to the environmental sustainability context of the passage."
+      ],
+      "passage": {
+        "id": "r29-passage",
+        "title": "The Environmental Cost of Fast Fashion",
+        "body": "Fast fashion—the practice of producing cheap, trend-driven clothing at rapid speed—has transformed the global apparel industry over the past two decades. Brands release dozens of collections per year, encouraging consumers to treat clothing as disposable. This model carries an enormous environmental price. The fashion industry is responsible for approximately ten percent of global carbon emissions, more than all international flights and maritime shipping combined. Textile dyeing is the second-largest polluter of clean water worldwide, releasing toxic chemicals into rivers across developing nations. Synthetic fabrics such as polyester shed millions of microplastic fibers with every wash, contaminating oceans and entering the food chain. Furthermore, an estimated ninety-two million tons of textile waste is generated annually, with most garments ending up in landfills within three years of purchase. As consumer awareness grows, pressure is mounting on brands to adopt sustainable practices, including circular production models, natural dyes, and take-back programs. However, systemic change remains slow while fast fashion continues to dominate the market."
+      }
+    },
+    {
+      "id": "r29-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in ending the passage with 'systemic change remains slow while fast fashion continues to dominate the market'?",
+      "choices": [
+        "To suggest that environmental activism is ultimately futile.",
+        "To acknowledge progress while emphasizing that the problem remains urgent and unresolved.",
+        "To imply that consumers, not companies, are solely responsible for change.",
+        "To conclude that the fashion industry will never adopt sustainable practices."
+      ],
+      "answer": 1,
+      "explanation": "The closing sentence balances the optimism of growing consumer pressure against the reality of insufficient progress, leaving the reader with a sense of ongoing urgency rather than resolution or despair.",
+      "wrongReasons": [
+        "The author does not claim activism is futile; growing pressure is presented as a positive development.",
+        "The passage focuses on pressure placed on brands, not solely on individual consumer responsibility.",
+        "The word 'never' is too absolute; the passage leaves open the possibility of future change, just notes current slowness."
+      ],
+      "passage": {
+        "id": "r29-passage",
+        "title": "The Environmental Cost of Fast Fashion",
+        "body": "Fast fashion—the practice of producing cheap, trend-driven clothing at rapid speed—has transformed the global apparel industry over the past two decades. Brands release dozens of collections per year, encouraging consumers to treat clothing as disposable. This model carries an enormous environmental price. The fashion industry is responsible for approximately ten percent of global carbon emissions, more than all international flights and maritime shipping combined. Textile dyeing is the second-largest polluter of clean water worldwide, releasing toxic chemicals into rivers across developing nations. Synthetic fabrics such as polyester shed millions of microplastic fibers with every wash, contaminating oceans and entering the food chain. Furthermore, an estimated ninety-two million tons of textile waste is generated annually, with most garments ending up in landfills within three years of purchase. As consumer awareness grows, pressure is mounting on brands to adopt sustainable practices, including circular production models, natural dyes, and take-back programs. However, systemic change remains slow while fast fashion continues to dominate the market."
+      }
+    },
+    {
+      "id": "r30-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Placebos are only effective for treating psychological disorders.",
+        "The placebo effect demonstrates that a patient's belief in treatment can produce measurable physical changes.",
+        "Modern medicine relies primarily on placebo treatments because real drugs are too expensive.",
+        "Double-blind trials were invented to prevent doctors from prescribing placebos."
+      ],
+      "answer": 1,
+      "explanation": "The passage centers on explaining how and why placebos work, emphasizing that belief and expectation alone can trigger real physiological responses.",
+      "wrongReasons": [
+        "The passage presents examples from physical conditions like pain and Parkinson's disease, not only psychological disorders.",
+        "The passage describes placebos as a research tool and phenomenon, not as a primary treatment approach in modern medicine.",
+        "The passage explains that double-blind trials control for placebo effects; preventing prescriptions is not their stated purpose."
+      ],
+      "passage": {
+        "id": "r30-passage",
+        "title": "The Placebo Effect in Medicine",
+        "body": "The placebo effect occurs when a patient experiences genuine improvement after receiving a treatment with no active medical ingredient, such as a sugar pill or saline injection. Far from being mere imagination, the effect produces measurable physiological changes. Research has shown that placebos can trigger the release of endorphins—the body's natural pain-relieving chemicals—reducing discomfort in ways that mirror actual analgesics. In studies of Parkinson's disease, placebos have even stimulated dopamine release in patients' brains. The mechanism appears to hinge on expectation: when a patient believes they are receiving effective treatment, the brain activates pathways associated with healing. Context amplifies the effect—patients respond more strongly to placebos administered by confident, empathetic doctors in well-equipped clinical settings. Because of its power, the placebo effect must be rigorously controlled in drug trials through double-blind designs, where neither patients nor researchers know who receives the active drug. Understanding placebo responses is not only scientifically fascinating but may one day guide more ethical and effective therapeutic strategies."
+      }
+    },
+    {
+      "id": "r30-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what role do endorphins play in the placebo effect?",
+      "choices": [
+        "They carry signals from the brain to the placebo medication.",
+        "They are released by placebos and help reduce pain similarly to real analgesics.",
+        "They prevent patients from realizing they have received a placebo.",
+        "They are produced only when patients receive real pharmaceutical drugs."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly states that placebos can trigger endorphin release, reducing discomfort in ways that mirror actual pain-relieving medications.",
+      "wrongReasons": [
+        "Endorphins are chemicals released by the body, not carriers between the brain and a pill.",
+        "The passage does not suggest endorphins conceal the nature of the treatment from patients.",
+        "The passage directly contradicts this by noting placebos—not real drugs—can trigger endorphin release."
+      ],
+      "passage": {
+        "id": "r30-passage",
+        "title": "The Placebo Effect in Medicine",
+        "body": "The placebo effect occurs when a patient experiences genuine improvement after receiving a treatment with no active medical ingredient, such as a sugar pill or saline injection. Far from being mere imagination, the effect produces measurable physiological changes. Research has shown that placebos can trigger the release of endorphins—the body's natural pain-relieving chemicals—reducing discomfort in ways that mirror actual analgesics. In studies of Parkinson's disease, placebos have even stimulated dopamine release in patients' brains. The mechanism appears to hinge on expectation: when a patient believes they are receiving effective treatment, the brain activates pathways associated with healing. Context amplifies the effect—patients respond more strongly to placebos administered by confident, empathetic doctors in well-equipped clinical settings. Because of its power, the placebo effect must be rigorously controlled in drug trials through double-blind designs, where neither patients nor researchers know who receives the active drug. Understanding placebo responses is not only scientifically fascinating but may one day guide more ethical and effective therapeutic strategies."
+      }
+    },
+    {
+      "id": "r30-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about why doctor behavior affects placebo outcomes?",
+      "choices": [
+        "Doctors who appear confident are more likely to prescribe the correct dosage.",
+        "A patient's expectation of recovery is strengthened by cues of competence and care, amplifying the placebo response.",
+        "Empathetic doctors are more likely to enroll patients in double-blind trials.",
+        "Well-equipped clinical settings contain equipment that enhances the chemical properties of placebos."
+      ],
+      "answer": 1,
+      "explanation": "Since the passage states the placebo effect hinges on expectation, a doctor's confident and empathetic manner naturally raises patient expectations, thereby amplifying the body's healing response.",
+      "wrongReasons": [
+        "Dosage accuracy is a clinical detail unrelated to the expectation-driven mechanism described in the passage.",
+        "The passage does not connect doctor empathy to trial enrollment; it connects it to patient response strength.",
+        "Placebos by definition have no active ingredients; clinical equipment cannot enhance non-existent chemical properties."
+      ],
+      "passage": {
+        "id": "r30-passage",
+        "title": "The Placebo Effect in Medicine",
+        "body": "The placebo effect occurs when a patient experiences genuine improvement after receiving a treatment with no active medical ingredient, such as a sugar pill or saline injection. Far from being mere imagination, the effect produces measurable physiological changes. Research has shown that placebos can trigger the release of endorphins—the body's natural pain-relieving chemicals—reducing discomfort in ways that mirror actual analgesics. In studies of Parkinson's disease, placebos have even stimulated dopamine release in patients' brains. The mechanism appears to hinge on expectation: when a patient believes they are receiving effective treatment, the brain activates pathways associated with healing. Context amplifies the effect—patients respond more strongly to placebos administered by confident, empathetic doctors in well-equipped clinical settings. Because of its power, the placebo effect must be rigorously controlled in drug trials through double-blind designs, where neither patients nor researchers know who receives the active drug. Understanding placebo responses is not only scientifically fascinating but may one day guide more ethical and effective therapeutic strategies."
+      }
+    },
+    {
+      "id": "r30-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, 'hinge on' most nearly means:",
+      "choices": [
+        "Be attached physically to a moving joint.",
+        "Depend critically upon.",
+        "Rotate around in a circular direction.",
+        "Be unrelated to and separate from."
+      ],
+      "answer": 1,
+      "explanation": "In context, 'the mechanism appears to hinge on expectation' means the mechanism depends critically on expectation as its essential condition, using 'hinge' as a metaphor for dependence.",
+      "wrongReasons": [
+        "This is the literal meaning of a door hinge, not the figurative usage in the passage.",
+        "Rotation is also a physical characteristic of a hinge and does not fit the abstract context here.",
+        "This is the opposite of the word's meaning; 'hinge on' implies a strong dependency, not separation."
+      ],
+      "passage": {
+        "id": "r30-passage",
+        "title": "The Placebo Effect in Medicine",
+        "body": "The placebo effect occurs when a patient experiences genuine improvement after receiving a treatment with no active medical ingredient, such as a sugar pill or saline injection. Far from being mere imagination, the effect produces measurable physiological changes. Research has shown that placebos can trigger the release of endorphins—the body's natural pain-relieving chemicals—reducing discomfort in ways that mirror actual analgesics. In studies of Parkinson's disease, placebos have even stimulated dopamine release in patients' brains. The mechanism appears to hinge on expectation: when a patient believes they are receiving effective treatment, the brain activates pathways associated with healing. Context amplifies the effect—patients respond more strongly to placebos administered by confident, empathetic doctors in well-equipped clinical settings. Because of its power, the placebo effect must be rigorously controlled in drug trials through double-blind designs, where neither patients nor researchers know who receives the active drug. Understanding placebo responses is not only scientifically fascinating but may one day guide more ethical and effective therapeutic strategies."
+      }
+    },
+    {
+      "id": "r30-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author mention the potential for 'more ethical and effective therapeutic strategies' in the final sentence?",
+      "choices": [
+        "To argue that doctors should replace real drugs with placebos to cut costs.",
+        "To suggest that current medical treatments are unethical.",
+        "To imply that understanding the placebo effect could lead to legitimate improvements in patient care.",
+        "To warn that placebos will make double-blind trials unnecessary in the future."
+      ],
+      "answer": 2,
+      "explanation": "The closing sentence looks forward constructively, suggesting that scientific insight into the placebo effect could be applied to improve therapeutic approaches, not to replace real medicine or criticize current practice.",
+      "wrongReasons": [
+        "The passage never suggests placebos should replace real drugs; it presents them as a phenomenon to understand and apply ethically.",
+        "The passage does not characterize current treatments as unethical; it says understanding placebos 'may' guide more ethical strategies.",
+        "The passage describes double-blind trials as essential precisely because of placebo power; it does not suggest they become obsolete."
+      ],
+      "passage": {
+        "id": "r30-passage",
+        "title": "The Placebo Effect in Medicine",
+        "body": "The placebo effect occurs when a patient experiences genuine improvement after receiving a treatment with no active medical ingredient, such as a sugar pill or saline injection. Far from being mere imagination, the effect produces measurable physiological changes. Research has shown that placebos can trigger the release of endorphins—the body's natural pain-relieving chemicals—reducing discomfort in ways that mirror actual analgesics. In studies of Parkinson's disease, placebos have even stimulated dopamine release in patients' brains. The mechanism appears to hinge on expectation: when a patient believes they are receiving effective treatment, the brain activates pathways associated with healing. Context amplifies the effect—patients respond more strongly to placebos administered by confident, empathetic doctors in well-equipped clinical settings. Because of its power, the placebo effect must be rigorously controlled in drug trials through double-blind designs, where neither patients nor researchers know who receives the active drug. Understanding placebo responses is not only scientifically fascinating but may one day guide more ethical and effective therapeutic strategies."
+      }
+    },
+    {
+      "id": "r31-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Skyscrapers are primarily built to serve as architectural landmarks and tourist attractions.",
+        "Cities build taller structures in response to multiple converging pressures including land scarcity, economics, and technology.",
+        "Steel and glass are the most important materials in modern urban construction.",
+        "High-rise buildings are only economically viable in cities with populations over ten million."
+      ],
+      "answer": 1,
+      "explanation": "The passage explores several interconnected reasons why cities grow vertically—land constraints, economic incentives, and technological advances—presenting this convergence as the central explanation.",
+      "wrongReasons": [
+        "Tourism and landmark status are not mentioned as primary drivers; the passage focuses on economic and practical pressures.",
+        "While materials are mentioned, they are presented as enabling factors, not the main focus of the passage.",
+        "The passage does not specify any population threshold for high-rise viability."
+      ],
+      "passage": {
+        "id": "r31-passage",
+        "title": "Why Cities Grow Taller",
+        "body": "Urban skylines around the world have been reaching ever greater heights, and the reasons cities build upward are both economic and practical. In densely populated metropolitan areas, land is scarce and expensive. Building vertically allows developers to maximize usable space on a limited footprint, making skyscrapers highly profitable in cities where ground-level real estate commands premium prices. Advances in structural engineering have also made taller buildings safer and more feasible. High-strength steel frames, reinforced concrete cores, and sophisticated wind-damping systems allow architects to design towers that withstand seismic activity and powerful storms. Additionally, zoning laws in many cities now incentivize vertical development to concentrate density near transit hubs, reducing urban sprawl and commuting distances. Social factors play a role too: height signals prestige, and corporate headquarters or luxury residences in towers carry aspirational value that drives demand. The interplay of limited land, technological capability, economic incentive, and cultural aspiration explains why, as long as cities continue to grow, their skylines will continue to rise."
+      }
+    },
+    {
+      "id": "r31-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, how do zoning laws contribute to vertical urban growth?",
+      "choices": [
+        "They prohibit construction of any buildings shorter than ten stories in city centers.",
+        "They require architects to use specific materials like steel and reinforced concrete.",
+        "They incentivize building near transit hubs to reduce sprawl and shorten commutes.",
+        "They limit the number of skyscrapers allowed per city block to control overcrowding."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that zoning laws in many cities incentivize vertical development near transit hubs specifically to concentrate density, reduce urban sprawl, and cut commuting distances.",
+      "wrongReasons": [
+        "The passage does not mention any minimum height requirements in zoning laws.",
+        "Material requirements are discussed in relation to engineering advances, not zoning regulations.",
+        "The passage does not describe zoning laws limiting skyscraper numbers per block."
+      ],
+      "passage": {
+        "id": "r31-passage",
+        "title": "Why Cities Grow Taller",
+        "body": "Urban skylines around the world have been reaching ever greater heights, and the reasons cities build upward are both economic and practical. In densely populated metropolitan areas, land is scarce and expensive. Building vertically allows developers to maximize usable space on a limited footprint, making skyscrapers highly profitable in cities where ground-level real estate commands premium prices. Advances in structural engineering have also made taller buildings safer and more feasible. High-strength steel frames, reinforced concrete cores, and sophisticated wind-damping systems allow architects to design towers that withstand seismic activity and powerful storms. Additionally, zoning laws in many cities now incentivize vertical development to concentrate density near transit hubs, reducing urban sprawl and commuting distances. Social factors play a role too: height signals prestige, and corporate headquarters or luxury residences in towers carry aspirational value that drives demand. The interplay of limited land, technological capability, economic incentive, and cultural aspiration explains why, as long as cities continue to grow, their skylines will continue to rise."
+      }
+    },
+    {
+      "id": "r31-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about cities that do NOT build many skyscrapers?",
+      "choices": [
+        "They lack competent structural engineers.",
+        "They likely have more available land, lower real estate prices, or different zoning approaches.",
+        "Their residents prefer living in rural areas rather than urban centers.",
+        "Their governments have banned steel-frame construction for safety reasons."
+      ],
+      "answer": 1,
+      "explanation": "Since the passage explains that skyscrapers emerge from land scarcity, high land costs, and favorable zoning, cities without these conditions—abundant land, lower prices, or restrictive zoning—would logically have fewer tall buildings.",
+      "wrongReasons": [
+        "The passage does not link the absence of skyscrapers to engineering deficiency; it links height to economic and land-use conditions.",
+        "Urban versus rural preference is not discussed as a determinant of skyscraper construction.",
+        "No government ban on steel-frame construction is mentioned or implied in the passage."
+      ],
+      "passage": {
+        "id": "r31-passage",
+        "title": "Why Cities Grow Taller",
+        "body": "Urban skylines around the world have been reaching ever greater heights, and the reasons cities build upward are both economic and practical. In densely populated metropolitan areas, land is scarce and expensive. Building vertically allows developers to maximize usable space on a limited footprint, making skyscrapers highly profitable in cities where ground-level real estate commands premium prices. Advances in structural engineering have also made taller buildings safer and more feasible. High-strength steel frames, reinforced concrete cores, and sophisticated wind-damping systems allow architects to design towers that withstand seismic activity and powerful storms. Additionally, zoning laws in many cities now incentivize vertical development to concentrate density near transit hubs, reducing urban sprawl and commuting distances. Social factors play a role too: height signals prestige, and corporate headquarters or luxury residences in towers carry aspirational value that drives demand. The interplay of limited land, technological capability, economic incentive, and cultural aspiration explains why, as long as cities continue to grow, their skylines will continue to rise."
+      }
+    },
+    {
+      "id": "r31-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, 'footprint' most nearly means:",
+      "choices": [
+        "The environmental impact measured in carbon emissions.",
+        "The physical ground area occupied by a building.",
+        "The architectural style visible from street level.",
+        "The total number of floors in a completed structure."
+      ],
+      "answer": 1,
+      "explanation": "In construction contexts, 'footprint' refers to the area of ground that a building's base covers. The passage uses it to explain that tall buildings maximize space while occupying a small ground area.",
+      "wrongReasons": [
+        "While 'carbon footprint' is a common environmental term, the passage uses 'footprint' in an architectural context referring to ground area.",
+        "Architectural style describes aesthetic features, not the spatial measurement the passage intends.",
+        "Floor count describes vertical dimension, which is the opposite of what 'footprint' measures on the ground."
+      ],
+      "passage": {
+        "id": "r31-passage",
+        "title": "Why Cities Grow Taller",
+        "body": "Urban skylines around the world have been reaching ever greater heights, and the reasons cities build upward are both economic and practical. In densely populated metropolitan areas, land is scarce and expensive. Building vertically allows developers to maximize usable space on a limited footprint, making skyscrapers highly profitable in cities where ground-level real estate commands premium prices. Advances in structural engineering have also made taller buildings safer and more feasible. High-strength steel frames, reinforced concrete cores, and sophisticated wind-damping systems allow architects to design towers that withstand seismic activity and powerful storms. Additionally, zoning laws in many cities now incentivize vertical development to concentrate density near transit hubs, reducing urban sprawl and commuting distances. Social factors play a role too: height signals prestige, and corporate headquarters or luxury residences in towers carry aspirational value that drives demand. The interplay of limited land, technological capability, economic incentive, and cultural aspiration explains why, as long as cities continue to grow, their skylines will continue to rise."
+      }
+    },
+    {
+      "id": "r31-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author include the discussion of prestige and aspirational value alongside economic and engineering factors?",
+      "choices": [
+        "To suggest that social vanity is the most important driver of skyscraper construction.",
+        "To show that skyscrapers are built purely for luxury consumers and have no practical value.",
+        "To present a complete picture of the forces driving vertical growth, including cultural and psychological motivations.",
+        "To argue that cities should resist building towers because they cater only to the wealthy."
+      ],
+      "answer": 2,
+      "explanation": "By including social factors after discussing economics and engineering, the author broadens the explanation to show that human behavior and aspiration are also genuine forces shaping urban form, completing a multifaceted analysis.",
+      "wrongReasons": [
+        "The author presents social factors as one element among several equals, not as the dominant driver.",
+        "The passage earlier establishes practical benefits like density and land efficiency, contradicting the idea that skyscrapers serve no practical purpose.",
+        "The passage is analytical and descriptive, not prescriptive; it does not argue against skyscraper construction."
+      ],
+      "passage": {
+        "id": "r31-passage",
+        "title": "Why Cities Grow Taller",
+        "body": "Urban skylines around the world have been reaching ever greater heights, and the reasons cities build upward are both economic and practical. In densely populated metropolitan areas, land is scarce and expensive. Building vertically allows developers to maximize usable space on a limited footprint, making skyscrapers highly profitable in cities where ground-level real estate commands premium prices. Advances in structural engineering have also made taller buildings safer and more feasible. High-strength steel frames, reinforced concrete cores, and sophisticated wind-damping systems allow architects to design towers that withstand seismic activity and powerful storms. Additionally, zoning laws in many cities now incentivize vertical development to concentrate density near transit hubs, reducing urban sprawl and commuting distances. Social factors play a role too: height signals prestige, and corporate headquarters or luxury residences in towers carry aspirational value that drives demand. The interplay of limited land, technological capability, economic incentive, and cultural aspiration explains why, as long as cities continue to grow, their skylines will continue to rise."
+      }
+    },
+    {
+      "id": "r32-q1",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "People make better decisions in the morning because they have slept well.",
+        "Decision fatigue causes the quality of human choices to deteriorate as mental resources are depleted over time.",
+        "Judges are the professional group most severely affected by decision fatigue.",
+        "Eating sugary snacks is the most effective way to restore decision-making ability."
+      ],
+      "answer": 1,
+      "explanation": "The passage defines and explains decision fatigue as a general psychological phenomenon where repeated decision-making exhausts mental resources and degrades choice quality, which is the central theme.",
+      "wrongReasons": [
+        "Morning timing is one implication but not the main idea; the passage focuses on the mechanism of depletion, not time of day.",
+        "Judges are used as an example to illustrate the concept, but they are not the main subject of the passage.",
+        "Food is mentioned as one potential remedy but is a supporting detail, not the central argument."
+      ],
+      "passage": {
+        "id": "r32-passage",
+        "title": "The Psychology of Decision Fatigue",
+        "body": "Every decision we make draws on a finite pool of mental energy. As we exhaust this resource throughout the day, the quality of our choices declines—a phenomenon psychologists call decision fatigue. Research by Roy Baumeister and colleagues demonstrated that self-control and deliberate thinking share the same cognitive reserves, meaning that making many choices gradually impairs our ability to think carefully about subsequent ones. A striking illustration comes from a study of Israeli parole judges: prisoners who appeared before the board early in the day were granted parole approximately sixty-five percent of the time, while those appearing later received favorable rulings far less often, regardless of case merits. As judges fatigued, they defaulted to the safer, easier choice—denial. Decision fatigue also affects consumers, who make poorer purchasing decisions after prolonged shopping, and executives, who approve riskier projects late in the day. Strategies to combat it include scheduling important decisions in the morning, taking regular breaks, and consuming food to replenish glucose levels in the brain. Recognizing this limitation is essential for designing better institutions and making more reliable personal choices."
+      }
+    },
+    {
+      "id": "r32-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what happened to parole rates as judges became fatigued?",
+      "choices": [
+        "Judges began granting parole more generously to clear their caseload quickly.",
+        "Parole decisions became more consistent and predictable throughout the day.",
+        "The rate of favorable parole rulings dropped significantly for prisoners appearing later in the day.",
+        "Judges requested more evidence before making any decisions late in the day."
+      ],
+      "answer": 2,
+      "explanation": "The passage states that prisoners appearing later received favorable rulings far less often, as fatigued judges defaulted to denial—the easier default choice.",
+      "wrongReasons": [
+        "The passage shows the opposite pattern: fatigued judges granted parole less, not more frequently.",
+        "The passage shows inconsistency tied to timing, which is the opposite of consistency across the day.",
+        "The passage does not mention judges requesting additional evidence; they simply defaulted to denial."
+      ],
+      "passage": {
+        "id": "r32-passage",
+        "title": "The Psychology of Decision Fatigue",
+        "body": "Every decision we make draws on a finite pool of mental energy. As we exhaust this resource throughout the day, the quality of our choices declines—a phenomenon psychologists call decision fatigue. Research by Roy Baumeister and colleagues demonstrated that self-control and deliberate thinking share the same cognitive reserves, meaning that making many choices gradually impairs our ability to think carefully about subsequent ones. A striking illustration comes from a study of Israeli parole judges: prisoners who appeared before the board early in the day were granted parole approximately sixty-five percent of the time, while those appearing later received favorable rulings far less often, regardless of case merits. As judges fatigued, they defaulted to the safer, easier choice—denial. Decision fatigue also affects consumers, who make poorer purchasing decisions after prolonged shopping, and executives, who approve riskier projects late in the day. Strategies to combat it include scheduling important decisions in the morning, taking regular breaks, and consuming food to replenish glucose levels in the brain. Recognizing this limitation is essential for designing better institutions and making more reliable personal choices."
+      }
+    },
+    {
+      "id": "r32-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What can be inferred about why fatigued judges defaulted to denial rather than approval?",
+      "choices": [
+        "Fatigued judges became more compassionate and worried about releasing dangerous individuals.",
+        "Denial required less mental effort because it maintained the existing situation without requiring justification of change.",
+        "Judges received external pressure from prison authorities to reduce parole approvals.",
+        "Late-day prisoners tended to have committed more serious crimes than those seen earlier."
+      ],
+      "answer": 1,
+      "explanation": "The passage notes that fatigued judges chose the 'safer, easier' option. Denying parole preserves the status quo and requires no active justification, making it cognitively cheaper when mental resources are low.",
+      "wrongReasons": [
+        "The passage attributes denial to cognitive fatigue and default behavior, not increased empathy or concern about danger.",
+        "No external institutional pressure from prisons is mentioned; the explanation is entirely psychological.",
+        "The passage explicitly states the pattern occurred 'regardless of case merits,' ruling out crime severity as an explanation."
+      ],
+      "passage": {
+        "id": "r32-passage",
+        "title": "The Psychology of Decision Fatigue",
+        "body": "Every decision we make draws on a finite pool of mental energy. As we exhaust this resource throughout the day, the quality of our choices declines—a phenomenon psychologists call decision fatigue. Research by Roy Baumeister and colleagues demonstrated that self-control and deliberate thinking share the same cognitive reserves, meaning that making many choices gradually impairs our ability to think carefully about subsequent ones. A striking illustration comes from a study of Israeli parole judges: prisoners who appeared before the board early in the day were granted parole approximately sixty-five percent of the time, while those appearing later received favorable rulings far less often, regardless of case merits. As judges fatigued, they defaulted to the safer, easier choice—denial. Decision fatigue also affects consumers, who make poorer purchasing decisions after prolonged shopping, and executives, who approve riskier projects late in the day. Strategies to combat it include scheduling important decisions in the morning, taking regular breaks, and consuming food to replenish glucose levels in the brain. Recognizing this limitation is essential for designing better institutions and making more reliable personal choices."
+      }
+    },
+    {
+      "id": "r32-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the passage, 'cognitive reserves' most nearly means:",
+      "choices": [
+        "Emergency funds set aside for unexpected financial decisions.",
+        "The mental capacity and energy available for thinking and self-control.",
+        "Memory storage space in the brain for retaining factual information.",
+        "A psychological defense mechanism that protects people from stress."
+      ],
+      "answer": 1,
+      "explanation": "In context, 'cognitive reserves' refers to the shared mental resources that power both deliberate thinking and self-control, which become depleted through repeated decision-making.",
+      "wrongReasons": [
+        "'Reserves' here is a metaphor for mental capacity, not a financial term; the passage is about psychology, not economics.",
+        "Memory storage refers to recall ability, whereas the passage uses 'reserves' to describe available energy for active thinking and control.",
+        "Psychological defense mechanisms are a distinct concept in psychology unrelated to the resource-depletion model described in the passage."
+      ],
+      "passage": {
+        "id": "r32-passage",
+        "title": "The Psychology of Decision Fatigue",
+        "body": "Every decision we make draws on a finite pool of mental energy. As we exhaust this resource throughout the day, the quality of our choices declines—a phenomenon psychologists call decision fatigue. Research by Roy Baumeister and colleagues demonstrated that self-control and deliberate thinking share the same cognitive reserves, meaning that making many choices gradually impairs our ability to think carefully about subsequent ones. A striking illustration comes from a study of Israeli parole judges: prisoners who appeared before the board early in the day were granted parole approximately sixty-five percent of the time, while those appearing later received favorable rulings far less often, regardless of case merits. As judges fatigued, they defaulted to the safer, easier choice—denial. Decision fatigue also affects consumers, who make poorer purchasing decisions after prolonged shopping, and executives, who approve riskier projects late in the day. Strategies to combat it include scheduling important decisions in the morning, taking regular breaks, and consuming food to replenish glucose levels in the brain. Recognizing this limitation is essential for designing better institutions and making more reliable personal choices."
+      }
+    },
+    {
+      "id": "r32-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's primary purpose in moving from the judges' example to examples involving consumers and executives?",
+      "choices": [
+        "To suggest that judges are less intelligent than business professionals and consumers.",
+        "To demonstrate that decision fatigue is a universal human phenomenon, not limited to one profession or context.",
+        "To argue that shopping malls and corporate boardrooms should be redesigned for better lighting.",
+        "To show that consumers and executives make worse decisions than trained legal professionals."
+      ],
+      "answer": 1,
+      "explanation": "By extending the analysis beyond judges to consumers and executives, the author shows decision fatigue affects people across very different domains, establishing it as a general human psychological limitation rather than an occupational quirk.",
+      "wrongReasons": [
+        "The passage draws no comparison of intelligence between judges and other groups; all are presented as equally susceptible to fatigue.",
+        "Environmental redesign of physical spaces is not mentioned in the passage as a solution or topic.",
+        "The passage presents all groups as equally vulnerable to decision fatigue; no hierarchy of decision-making quality is established."
+      ],
+      "passage": {
+        "id": "r32-passage",
+        "title": "The Psychology of Decision Fatigue",
+        "body": "Every decision we make draws on a finite pool of mental energy. As we exhaust this resource throughout the day, the quality of our choices declines—a phenomenon psychologists call decision fatigue. Research by Roy Baumeister and colleagues demonstrated that self-control and deliberate thinking share the same cognitive reserves, meaning that making many choices gradually impairs our ability to think carefully about subsequent ones. A striking illustration comes from a study of Israeli parole judges: prisoners who appeared before the board early in the day were granted parole approximately sixty-five percent of the time, while those appearing later received favorable rulings far less often, regardless of case merits. As judges fatigued, they defaulted to the safer, easier choice—denial. Decision fatigue also affects consumers, who make poorer purchasing decisions after prolonged shopping, and executives, who approve riskier projects late in the day. Strategies to combat it include scheduling important decisions in the morning, taking regular breaks, and consuming food to replenish glucose levels in the brain. Recognizing this limitation is essential for designing better institutions and making more reliable personal choices."
+      }
+    }
+  ]
+}

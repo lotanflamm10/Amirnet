@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-rm-101",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Students who sleep at least eight hours perform better on exams.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Getting enough sleep helps students do well on tests.",
+      "Students who study more tend to sleep less before exams.",
+      "Exams are easier for students who do not sleep enough.",
+      "Sleeping eight hours causes students to skip their exams."
+    ],
+    "answer": 0,
+    "explanation": "This option preserves the original meaning: sufficient sleep (eight hours) leads to better exam performance.",
+    "wrongReasons": [
+      "Option B introduces studying as a variable and reverses the sleep relationship — not in the original.",
+      "Option C negates the original — it says less sleep makes exams easier, which is the opposite.",
+      "Option D adds false information (skipping exams) not present in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-102",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Regular physical exercise reduces the risk of heart disease.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Heart disease becomes more likely when people do not exercise regularly.",
+      "People who exercise often are less likely to develop heart disease.",
+      "Heart disease causes people to exercise regularly.",
+      "Exercise is only beneficial for people who already have heart disease."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly paraphrases: regular exercise → lower risk of heart disease.",
+    "wrongReasons": [
+      "Option A changes the subject — it focuses on lack of exercise, which is an inference not stated in the original.",
+      "Option C reverses the cause and effect — the original says exercise affects disease risk, not the other way around.",
+      "Option D limits the benefit to those already ill, which contradicts the general statement in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-103",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Air pollution is largely caused by the burning of fossil fuels.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Fossil fuels are burned in order to reduce air pollution.",
+      "The burning of fossil fuels is not a significant cause of pollution.",
+      "The main source of air pollution is the combustion of fossil fuels.",
+      "Air pollution causes fossil fuels to burn more quickly."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates the original: fossil fuel combustion is the primary cause of air pollution.",
+    "wrongReasons": [
+      "Option A reverses the relationship — burning fossil fuels does not reduce pollution; it causes it.",
+      "Option B negates the original by claiming fossil fuels are not a significant cause of pollution.",
+      "Option D reverses cause and effect — air pollution does not cause fossil fuels to burn."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-104",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Children learn language more easily than adults do.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Adults find language acquisition more difficult than children do.",
+      "Language learning is equally easy for both children and adults.",
+      "Adults are better language learners than children.",
+      "Children only learn language when adults teach them directly."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly paraphrases by switching the perspective: adults find it harder (= children find it easier).",
+    "wrongReasons": [
+      "Option B contradicts the original by claiming equal ease for both age groups.",
+      "Option C directly contradicts the original — it says adults are better, not children.",
+      "Option D adds an unwarranted condition (direct adult instruction) not present in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-105",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Access to clean water is essential for maintaining public health.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Public health cannot be maintained without access to clean water.",
+      "Public health is unrelated to the availability of clean water.",
+      "Clean water is useful but not necessary for public health.",
+      "Clean water is only important in regions with poor public health."
+    ],
+    "answer": 0,
+    "explanation": "This option restates the original correctly: clean water is essential (= cannot maintain health without it).",
+    "wrongReasons": [
+      "Option B contradicts the original by claiming there is no relationship between water and health.",
+      "Option C weakens the original claim — the original says 'essential,' not merely 'useful.'",
+      "Option D adds a geographic limitation not present in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-106",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Social media platforms have changed the way people communicate.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Communication methods have remained unchanged despite social media.",
+      "Social media has had no impact on how people interact.",
+      "The way people interact has been transformed by social media platforms.",
+      "Social media was created in response to changes in communication."
+    ],
+    "answer": 2,
+    "explanation": "This option paraphrases correctly using passive voice and synonyms: 'transformed' = 'changed,' 'interact' = 'communicate.'",
+    "wrongReasons": [
+      "Option A directly contradicts the original by claiming communication has not changed.",
+      "Option B negates the original's claim that social media has had an impact.",
+      "Option D reverses cause and effect — the original says social media caused change, not that it was created because of change."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-107",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Economic inequality tends to increase when unemployment rates rise.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Higher unemployment rates are typically associated with greater economic inequality.",
+      "Economic inequality causes unemployment rates to rise significantly.",
+      "Unemployment decreases when economic inequality increases.",
+      "Economic inequality and unemployment have no consistent relationship."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly restates: rising unemployment is linked to growing economic inequality.",
+    "wrongReasons": [
+      "Option B reverses cause and effect — the original says unemployment causes inequality, not the other way around.",
+      "Option C contradicts the original by reversing the direction of the relationship.",
+      "Option D denies any consistent relationship, which directly contradicts the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-108",
+    "difficulty": "easy",
+    "text": "Original sentence: \"Researchers found that vitamin D deficiency is linked to depression.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "According to research, depression is unrelated to vitamin D levels.",
+      "Research has shown a connection between low vitamin D levels and depression.",
+      "Vitamin D deficiency causes researchers to become depressed.",
+      "Depression leads to vitamin D deficiency, according to researchers."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates the finding: a link exists between vitamin D deficiency and depression.",
+    "wrongReasons": [
+      "Option A contradicts the original by claiming there is no relationship.",
+      "Option C changes the subject — it is not researchers who become depressed; patients with deficiency may be linked to depression.",
+      "Option D reverses the relationship — the original does not claim depression causes deficiency."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-109",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Deforestation contributes significantly to the loss of biodiversity.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Biodiversity loss is a major factor driving deforestation.",
+      "Deforestation has little impact on the variety of species in an ecosystem.",
+      "The clearing of forests plays a major role in reducing species diversity.",
+      "Forests are preserved in order to support deforestation efforts."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly paraphrases: 'clearing of forests' = deforestation; 'reducing species diversity' = loss of biodiversity.",
+    "wrongReasons": [
+      "Option A reverses cause and effect — the original says deforestation causes biodiversity loss, not the other way around.",
+      "Option B contradicts the original by minimizing the impact of deforestation.",
+      "Option D is nonsensical and contradictory — forests cannot be preserved to support deforestation."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-110",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The introduction of technology in classrooms has made personalized learning more accessible.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Personalized learning has become more available due to technology being used in schools.",
+      "Technology in classrooms has reduced students' access to personalized instruction.",
+      "Personalized learning was developed to help introduce technology into classrooms.",
+      "Classrooms without technology offer the most personalized learning experiences."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly restates: classroom technology → greater accessibility of personalized learning.",
+    "wrongReasons": [
+      "Option B reverses the effect — the original says technology increases access, not reduces it.",
+      "Option C reverses cause and effect — personalized learning did not create technology; technology enabled personalized learning.",
+      "Option D directly contradicts the original by claiming non-technology classrooms are superior."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-111",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Despite initial resistance, the new healthcare policy was eventually accepted by most citizens.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Most citizens accepted the new healthcare policy, although they were opposed to it at first.",
+      "Citizens rejected the new healthcare policy after initially supporting it.",
+      "The new healthcare policy failed because of widespread resistance from citizens.",
+      "Most citizens immediately welcomed the new healthcare policy without resistance."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly captures: initial opposition followed by eventual acceptance by most citizens.",
+    "wrongReasons": [
+      "Option B reverses the sequence — it says citizens first supported and then rejected, which is the opposite.",
+      "Option C misrepresents the outcome — the policy was accepted, not rejected.",
+      "Option D removes the initial resistance, which is a key part of the original meaning."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-112",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The study revealed that stress impairs cognitive function in both students and professionals.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Cognitive function is unaffected by stress, as the study demonstrated.",
+      "According to the study, stress enhances cognitive function among working adults.",
+      "Research indicates that both students and professionals experience reduced cognitive ability under stress.",
+      "The study showed that stress primarily affects students rather than professionals."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly paraphrases: stress → reduced cognitive ability, affecting both groups.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by claiming no effect.",
+      "Option B reverses the effect — stress enhances rather than impairs, which is the opposite of the original.",
+      "Option D changes the scope — the original says both groups are affected equally, not just students."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-113",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Governments that invest in renewable energy tend to have lower carbon emissions over time.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Countries with lower carbon emissions are more likely to invest in renewable energy.",
+      "Carbon emissions are generally reduced in countries where governments prioritize renewable energy investment.",
+      "Renewable energy investment always guarantees the elimination of carbon emissions.",
+      "Governments invest in renewable energy only after carbon emissions have declined."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: government investment in renewables → lower carbon emissions over time.",
+    "wrongReasons": [
+      "Option A reverses the relationship — the original says investment leads to lower emissions, not that lower emissions lead to investment.",
+      "Option C overstates the original by using 'always' and 'elimination' — the original says 'tend to have lower,' not 'eliminate entirely.'",
+      "Option D reverses temporal order — the original does not say emissions must fall first before investment happens."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-114",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Peer pressure can lead adolescents to engage in risky behavior they would otherwise avoid.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Adolescents avoid risky behavior because of pressure from their peers.",
+      "Peer pressure prevents adolescents from making independent decisions about risk.",
+      "Teenagers may take risks they would not normally take due to influence from peers.",
+      "Risky behavior among adolescents causes them to seek peer pressure."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly paraphrases: peer influence → adolescents engaging in risks they would normally avoid.",
+    "wrongReasons": [
+      "Option A reverses the effect — the original says peer pressure leads to risky behavior, not avoidance of it.",
+      "Option B changes the focus to decision-making independence, which is not stated in the original.",
+      "Option D reverses cause and effect — risky behavior does not cause peer pressure."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-115",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The widespread adoption of smartphones has fundamentally altered social interaction patterns.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Social interaction patterns have driven people to adopt smartphones more widely.",
+      "Smartphones have had little effect on how people interact socially.",
+      "The way people interact socially has been profoundly changed by the broad use of smartphones.",
+      "Social interaction has improved significantly since smartphones became widely available."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates: broad smartphone use → fundamental change in social interaction patterns.",
+    "wrongReasons": [
+      "Option A reverses cause and effect — the original says smartphones changed interaction, not that interaction led to smartphone adoption.",
+      "Option B contradicts the original by claiming little effect.",
+      "Option D adds a value judgment ('improved') not present in the original, which only says patterns were altered."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-116",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Although the drug showed promising results in trials, it was not approved due to safety concerns.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "The drug was approved despite the safety concerns raised during trials.",
+      "Safety concerns prevented the drug's approval even though trial results were encouraging.",
+      "The drug failed to show any promising results, leading to its rejection.",
+      "Because the drug was safe, it was ultimately approved after trials."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly captures the contrast: promising results but not approved due to safety concerns.",
+    "wrongReasons": [
+      "Option A contradicts the outcome — the drug was not approved, not approved despite concerns.",
+      "Option C misrepresents the trial results — the original says results were promising, not that they failed.",
+      "Option D reverses the safety and approval status — the original says safety concerns prevented approval."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-117",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Rising sea levels pose a serious threat to coastal communities worldwide.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Coastal communities are a significant cause of rising sea levels globally.",
+      "Sea levels are rising because coastal communities have expanded worldwide.",
+      "Coastal communities around the world are seriously endangered by increasing sea levels.",
+      "The threat from coastal communities is causing sea levels to rise."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly paraphrases: rising sea levels endanger coastal communities worldwide.",
+    "wrongReasons": [
+      "Option A reverses the relationship — coastal communities do not cause sea level rise in the original.",
+      "Option B reverses cause and effect — expansion of communities does not cause sea levels to rise in the original.",
+      "Option D reverses subject and object — it is sea levels that threaten communities, not the other way around."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-118",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The prevalence of misinformation online has made it harder for people to distinguish fact from fiction.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Online misinformation has increased because people cannot tell fact from fiction.",
+      "Because false information is so widespread online, people find it increasingly difficult to identify what is true.",
+      "People's difficulty distinguishing fact from fiction has no connection to online misinformation.",
+      "Online platforms have successfully reduced misinformation, making it easy to find accurate information."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: widespread online misinformation → harder to distinguish fact from fiction.",
+    "wrongReasons": [
+      "Option A reverses cause and effect — the original says misinformation makes it harder, not that difficulty causes misinformation.",
+      "Option C denies the connection stated in the original.",
+      "Option D contradicts the original by claiming platforms have reduced misinformation and made truth easier to find."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-119",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Countries with higher levels of education tend to have more stable economies.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Economic stability in a country typically reflects higher educational attainment among its population.",
+      "A stable economy causes the population to pursue higher levels of education.",
+      "Education levels and economic stability are unrelated in most countries.",
+      "Countries with unstable economies tend to have more educated populations."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly paraphrases: higher education levels are associated with more stable economies.",
+    "wrongReasons": [
+      "Option B reverses cause and effect — the original says education leads to stability, not that stability causes education.",
+      "Option C denies the relationship stated in the original.",
+      "Option D directly contradicts the original by reversing both the educational and economic conditions."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-120",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Excessive sugar consumption has been linked to an increased risk of developing type 2 diabetes.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Type 2 diabetes causes people to consume excessive amounts of sugar.",
+      "Research shows no connection between sugar intake and the risk of type 2 diabetes.",
+      "Eating too much sugar may raise the likelihood of getting type 2 diabetes.",
+      "Sugar consumption decreases when the risk of type 2 diabetes increases."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates: excessive sugar → greater risk of type 2 diabetes.",
+    "wrongReasons": [
+      "Option A reverses cause and effect — the original says sugar intake increases diabetes risk, not that diabetes causes sugar consumption.",
+      "Option B directly contradicts the original by denying any connection.",
+      "Option D reverses the directional relationship — sugar does not decrease when diabetes risk rises."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-121",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Urban green spaces have been shown to improve residents' mental well-being.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Residents' mental well-being has driven the creation of urban green spaces.",
+      "Green areas in cities are not associated with any psychological benefits for residents.",
+      "Research has demonstrated that parks and natural areas in cities benefit the psychological health of their residents.",
+      "Urban residents develop mental health problems because of green spaces in cities."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly paraphrases: urban green spaces → improved mental well-being for residents.",
+    "wrongReasons": [
+      "Option A reverses the relationship — residents' well-being does not create green spaces; green spaces improve well-being.",
+      "Option B contradicts the original by denying any psychological benefit.",
+      "Option D reverses the effect — green spaces improve, not harm, mental health according to the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-122",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The gender pay gap persists in many industries despite decades of equal pay legislation.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Equal pay laws enacted over many decades have successfully closed the gender pay gap in most industries.",
+      "The gender pay gap exists in many fields even though laws promoting equal pay have been in place for a long time.",
+      "The gender pay gap has caused governments to introduce equal pay legislation in many industries.",
+      "Equal pay legislation is only effective in industries where the gender pay gap does not exist."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly captures the contrast: pay gap remains despite long-standing legislation.",
+    "wrongReasons": [
+      "Option A contradicts the original — it claims laws have succeeded in closing the gap, but the original says the gap persists.",
+      "Option C reverses cause and effect — the original does not say the gap caused legislation; it says legislation hasn't eliminated the gap.",
+      "Option D adds a condition not in the original and is internally contradictory."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-123",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Students exposed to bilingual education from an early age tend to demonstrate superior problem-solving skills.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Children who begin bilingual education early often show stronger problem-solving abilities.",
+      "Problem-solving skills are generally unrelated to bilingual education at any age.",
+      "Bilingual education is most effective when it begins after students have already developed problem-solving skills.",
+      "Students with strong problem-solving skills are more likely to receive bilingual education."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly paraphrases: early bilingual education → stronger problem-solving skills.",
+    "wrongReasons": [
+      "Option B denies the connection stated in the original.",
+      "Option C reverses the temporal and causal relationship — the original says early exposure leads to skills, not that skills precede education.",
+      "Option D reverses cause and effect — the original says education leads to skills, not that skills lead to bilingual education."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-124",
+    "difficulty": "medium",
+    "text": "Original sentence: \"A diet high in processed foods is associated with a greater risk of obesity.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Obesity leads people to consume more processed foods in their daily diet.",
+      "Eating a lot of processed food is linked to an elevated chance of becoming obese.",
+      "Processed foods reduce the risk of obesity when consumed as part of a balanced diet.",
+      "People who are obese rarely consume processed foods, according to dietary research."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: high processed food diet → greater obesity risk.",
+    "wrongReasons": [
+      "Option A reverses the relationship — the original says diet increases obesity risk, not that obesity affects diet choices.",
+      "Option C directly contradicts the original by claiming processed foods reduce obesity risk.",
+      "Option D contradicts the original by claiming obese people rarely consume processed foods."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-125",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Remote work has allowed many employees to achieve a better work-life balance.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Many workers have been able to balance their professional and personal lives more effectively because of remote work.",
+      "Remote work has made it harder for employees to separate their work life from their personal life.",
+      "A better work-life balance has encouraged many employees to work remotely.",
+      "Employees who work remotely spend more time at work than those in traditional offices."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly paraphrases: remote work enables employees to better balance work and personal life.",
+    "wrongReasons": [
+      "Option B reverses the effect — it says remote work makes balance harder, while the original says it improves balance.",
+      "Option C reverses cause and effect — the original says remote work enables balance, not that balance drives remote work.",
+      "Option D adds information not in the original and contradicts the idea of better balance."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-126",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The rapid advancement of artificial intelligence raises important ethical questions.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Ethical questions about artificial intelligence have slowed its rate of advancement.",
+      "Artificial intelligence is advancing rapidly despite the absence of any ethical concerns.",
+      "The fast development of AI technology poses significant moral and ethical challenges.",
+      "Artificial intelligence is considered ethical because it is advancing so rapidly."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly paraphrases: fast AI development → significant ethical questions/challenges.",
+    "wrongReasons": [
+      "Option A reverses the relationship — ethical questions arise from AI advancement; they do not slow it down according to the original.",
+      "Option B contradicts the original by denying any ethical concerns.",
+      "Option D creates a false logical connection — rapid advancement does not make AI ethical."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-127",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Long-term unemployment can erode an individual's sense of identity and self-worth.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "People with a strong sense of identity are less likely to experience long-term unemployment.",
+      "Long-term unemployment may diminish how a person perceives their own value and identity.",
+      "A person's sense of identity and self-worth can lead to long-term unemployment.",
+      "Long-term unemployment has no documented effect on personal identity or self-esteem."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: prolonged unemployment → negative impact on identity and self-worth.",
+    "wrongReasons": [
+      "Option A reverses the direction — the original does not claim that strong identity prevents unemployment.",
+      "Option C reverses cause and effect — the original says unemployment affects identity, not the other way around.",
+      "Option D contradicts the original by denying any documented effect."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-128",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Children raised in multilingual households often develop stronger cognitive flexibility.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Cognitive flexibility is often stronger in children who grow up in households where multiple languages are spoken.",
+      "Multilingual households are created by children who have strong cognitive flexibility.",
+      "Children in multilingual households rarely show advantages in cognitive development.",
+      "Cognitive flexibility causes children to grow up in multilingual environments."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly paraphrases: multilingual upbringing → stronger cognitive flexibility in children.",
+    "wrongReasons": [
+      "Option B reverses cause and effect — children's cognitive flexibility does not create multilingual households.",
+      "Option C contradicts the original by claiming multilingual children rarely show cognitive advantages.",
+      "Option D reverses cause and effect — cognitive flexibility does not place children in multilingual homes."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-129",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Access to higher education remains unequal across socioeconomic groups in many countries.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Higher education has become equally accessible to people of all socioeconomic backgrounds worldwide.",
+      "In many nations, the opportunity to pursue university education is not distributed equally among different income groups.",
+      "Socioeconomic inequality is caused by unequal access to higher education in every country.",
+      "People from low socioeconomic backgrounds do not benefit from higher education."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: unequal access to higher education across socioeconomic groups in many countries.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by claiming equal access exists.",
+      "Option C overstates the claim and reverses the relationship — the original does not say unequal access causes inequality in every country.",
+      "Option D adds an unwarranted and extreme claim not supported by the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-130",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Chronic exposure to noise pollution can lead to both physical and psychological health problems.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Noise pollution causes no health problems when exposure is limited in duration.",
+      "Both bodily and mental health can be harmed by ongoing exposure to excessive noise.",
+      "Health problems lead people to experience chronic exposure to noise pollution.",
+      "Only psychological health, not physical health, is affected by long-term noise exposure."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly paraphrases: chronic noise exposure → physical and psychological health problems.",
+    "wrongReasons": [
+      "Option A shifts the scope — the original says chronic exposure causes harm; option A implies short exposure is safe, which changes the claim.",
+      "Option C reverses cause and effect — health problems do not cause noise exposure.",
+      "Option D narrows the original claim, which includes both physical and psychological effects."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-131",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The research demonstrated that early childhood intervention programs significantly improve long-term academic outcomes.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Academic outcomes in childhood lead researchers to develop early intervention programs.",
+      "Studies show that programs targeting young children have a major positive effect on their future academic success.",
+      "Early childhood intervention has no proven impact on academic achievement, according to the research.",
+      "Academic outcomes are most improved by intervention programs designed for teenagers, not young children."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly paraphrases: early childhood programs → significantly better long-term academic outcomes.",
+    "wrongReasons": [
+      "Option A reverses cause and effect — academic outcomes do not create intervention programs in the original.",
+      "Option C directly contradicts the research finding stated in the original.",
+      "Option D contradicts the original by shifting the age group to teenagers."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-132",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The overuse of antibiotics has contributed to the emergence of drug-resistant bacteria.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Drug-resistant bacteria have led to the overuse of antibiotics in medical treatment.",
+      "Antibiotic use is unrelated to the development of drug-resistant strains of bacteria.",
+      "Bacteria that resist antibiotics have emerged in part because of excessive antibiotic use.",
+      "Antibiotics are most effective when used excessively, as this prevents drug resistance."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates: overuse of antibiotics → emergence of drug-resistant bacteria.",
+    "wrongReasons": [
+      "Option A reverses cause and effect — drug-resistant bacteria are the result, not the cause, of antibiotic overuse.",
+      "Option B denies the relationship stated in the original.",
+      "Option D directly contradicts the original — it claims overuse prevents resistance, whereas the original says overuse causes it."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-133",
+    "difficulty": "medium",
+    "text": "Original sentence: \"Volunteering is associated with higher levels of life satisfaction among elderly populations.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Older adults who volunteer tend to report greater satisfaction with their lives.",
+      "Life satisfaction in elderly populations causes them to volunteer more frequently.",
+      "Volunteering has no measurable effect on the well-being of older adults.",
+      "Younger people, not the elderly, experience higher life satisfaction through volunteering."
+    ],
+    "answer": 0,
+    "explanation": "This option correctly paraphrases: volunteering → higher life satisfaction in elderly adults.",
+    "wrongReasons": [
+      "Option B reverses cause and effect — the original says volunteering leads to life satisfaction, not the other way around.",
+      "Option C contradicts the original by denying any effect on well-being.",
+      "Option D contradicts the original by changing the population from elderly to younger people."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-134",
+    "difficulty": "medium",
+    "text": "Original sentence: \"The implementation of carbon taxes has proven effective in reducing greenhouse gas emissions in several countries.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Carbon taxes were introduced because greenhouse gas emissions had already been reduced in several countries.",
+      "In a number of nations, carbon tax policies have successfully lowered levels of greenhouse gas emissions.",
+      "Greenhouse gas emissions have increased despite carbon taxes being implemented in several countries.",
+      "Carbon taxes are effective only in countries where greenhouse gas emissions are already low."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly paraphrases: carbon taxes → effective reduction of greenhouse gas emissions in several countries.",
+    "wrongReasons": [
+      "Option A reverses the temporal order — emissions were not already reduced before taxes were introduced.",
+      "Option C contradicts the original by saying emissions increased despite the taxes.",
+      "Option D adds a limiting condition not present in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-135",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Although automation displaces certain jobs, it simultaneously creates demand for new categories of skilled labor.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Automation only eliminates jobs without generating any new employment opportunities.",
+      "Skilled workers are displaced by automation, while unskilled jobs are created in their place.",
+      "While some jobs are eliminated by automation, the technology also generates the need for new types of skilled work.",
+      "New categories of skilled labor drive the development of automation technology."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly captures both aspects: job displacement and simultaneous creation of new skilled labor demand.",
+    "wrongReasons": [
+      "Option A only captures the negative effect and ignores the simultaneous creation of new jobs stated in the original.",
+      "Option B reverses which type of workers are displaced and which jobs are created — the original says automation displaces (general) jobs and creates skilled ones, not the other way.",
+      "Option D reverses cause and effect — new skilled labor does not drive automation; automation creates demand for skilled labor."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-136",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The extent to which cultural norms shape individual behavior is often underestimated by researchers who focus primarily on biological determinants.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Researchers who prioritize biology tend to overstate the degree to which culture influences individual conduct.",
+      "Biologically focused researchers frequently fail to adequately account for how strongly cultural norms influence the way individuals behave.",
+      "Cultural norms are considered the primary determinant of behavior by researchers who study biological factors.",
+      "Researchers who focus on culture tend to underestimate the role of biological determinants in shaping behavior."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: biology-focused researchers underestimate the influence of cultural norms on behavior.",
+    "wrongReasons": [
+      "Option A says researchers overstate cultural influence, which is the opposite of the original — the original says they underestimate it.",
+      "Option C reverses the researchers' focus — those who study biology do not consider culture primary; the original says they underestimate it.",
+      "Option D switches the subject — it is culture-focused researchers who underestimate biology, not the biologically focused ones as stated in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-137",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The correlation between parental involvement and academic achievement is mediated by the student's own motivational disposition.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Parental involvement directly improves academic achievement without any influence from the student's motivation.",
+      "A student's motivation plays a role in the relationship between how involved parents are and how well the student performs academically.",
+      "Academic achievement determines the level of parental involvement through the student's motivational disposition.",
+      "Parental involvement and motivational disposition are unrelated to academic achievement."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly captures the mediation structure: student motivation mediates the parental involvement–achievement relationship.",
+    "wrongReasons": [
+      "Option A removes the mediating role of student motivation, claiming a direct relationship, which contradicts the original.",
+      "Option C reverses the causal direction — academic achievement does not determine parental involvement in the original.",
+      "Option D denies all three relationships stated in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-138",
+    "difficulty": "hard",
+    "text": "Original sentence: \"While free trade agreements can stimulate economic growth, they may simultaneously exacerbate regional inequalities within participating nations.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Free trade agreements resolve regional inequalities while slowing economic growth in participating countries.",
+      "Economic growth from free trade agreements always eliminates regional disparities within nations.",
+      "Free trade agreements may benefit national economies overall while worsening inequality between different regions of those countries.",
+      "Regional inequalities within nations cause free trade agreements to stimulate economic growth."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly captures both effects: possible economic growth and possible worsening of regional inequalities simultaneously.",
+    "wrongReasons": [
+      "Option A reverses both effects — it says agreements resolve inequalities and slow growth, which is the opposite of the original.",
+      "Option B overstates and contradicts the original — 'always eliminates' is too absolute, and the original says agreements may exacerbate inequality, not eliminate it.",
+      "Option D reverses cause and effect — regional inequalities do not cause agreements to stimulate growth."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-139",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The assumption that cognitive decline is an inevitable consequence of aging has been largely challenged by recent neurological research.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Recent neurological research has confirmed that cognitive decline inevitably accompanies the aging process.",
+      "Recent research in neurology has called into question the idea that mental deterioration is an unavoidable part of growing older.",
+      "Cognitive decline in aging adults has led neurologists to challenge assumptions about modern research.",
+      "Neurological research suggests that aging is not caused by cognitive decline, challenging earlier assumptions."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly paraphrases: recent neurological research challenges the assumption that cognitive decline inevitably follows aging.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by claiming research confirmed the inevitability, while the original says research challenged it.",
+      "Option C reverses the logical structure — cognitive decline does not drive neurologists to challenge research; research challenges the assumption about decline.",
+      "Option D misrepresents the original — the original challenges the link between aging and decline, not the claim that aging is caused by decline."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-140",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Longitudinal studies suggest that early socioeconomic disadvantage has lasting effects on health outcomes that persist into adulthood, independent of later life circumstances.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Health outcomes in adulthood are entirely determined by circumstances in later life, not by early socioeconomic conditions.",
+      "Research conducted over long periods indicates that the negative health effects of early economic hardship continue into adulthood regardless of subsequent life conditions.",
+      "Socioeconomic disadvantage in adulthood causes health problems that can be traced back to early life circumstances.",
+      "Early socioeconomic disadvantage has only minor and temporary effects on health, which are reversed by improved adult circumstances."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: longitudinal research shows that early socioeconomic disadvantage has persistent health effects in adulthood, regardless of later circumstances.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by saying adult circumstances, not early ones, determine health — and denying the role of early disadvantage.",
+      "Option C reverses the temporal direction — adult disadvantage is not what causes the health problems that trace back to early life; the original says early disadvantage causes lasting effects.",
+      "Option D contradicts the original by minimizing and reversing the duration and severity of effects — the original says effects 'persist,' not that they are 'temporary.'"
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-141",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The paradox of choice suggests that having too many options can lead to decision paralysis and reduced satisfaction with the chosen outcome.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Offering more choices always increases satisfaction and makes decision-making easier for consumers.",
+      "When people are given fewer choices, they tend to experience greater dissatisfaction with their decisions.",
+      "An abundance of options may overwhelm individuals, making it harder to decide and leaving them less satisfied with their choice.",
+      "Decision paralysis is caused by low satisfaction with outcomes, which in turn reduces available choices."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates the paradox: too many options → decision paralysis and reduced satisfaction.",
+    "wrongReasons": [
+      "Option A directly contradicts the paradox of choice by claiming more options always increase satisfaction and ease decision-making.",
+      "Option B reverses the relationship — the original says too many choices cause problems, not too few.",
+      "Option D creates a false causal chain — low satisfaction does not reduce choices; too many choices cause low satisfaction."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-142",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Institutional trust is not merely a product of rational evaluation; it is also shaped by cultural and historical narratives that communities inherit across generations.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Trust in institutions is determined solely by rational analysis, with cultural and historical factors playing no role.",
+      "Cultural and historical narratives are passed down through generations and, along with rational evaluation, shape how much communities trust their institutions.",
+      "Institutions create cultural and historical narratives specifically in order to build rational trust among communities.",
+      "Communities that inherit historical narratives tend to mistrust institutions due to irrational evaluations."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly captures both factors: institutional trust is shaped by both rational evaluation and inherited cultural/historical narratives.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by claiming only rational evaluation matters and excluding cultural and historical factors.",
+      "Option C reverses the relationship — institutions do not create the narratives; communities inherit narratives that shape trust.",
+      "Option D distorts the original by adding a negative outcome (mistrust, irrationality) not stated in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-143",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The efficacy of public health campaigns is contingent not only on message clarity but also on the degree to which the target population trusts the communicating authority.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Public health campaigns succeed primarily because of the authority of the communicator, with message clarity playing a secondary role.",
+      "A public health campaign will always be effective as long as its message is clearly communicated to the target population.",
+      "Whether a public health campaign works depends on both how clearly the message is delivered and how much the intended audience trusts the source.",
+      "Trust in authorities is the only factor that determines the success of public health messaging, regardless of how clear the message is."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates: campaign efficacy depends on both message clarity and the population's trust in the authority.",
+    "wrongReasons": [
+      "Option A misrepresents the balance — it claims authority is primary and clarity is secondary, whereas the original treats both as equally necessary.",
+      "Option B overstates the original by claiming clarity alone guarantees success, ignoring the trust factor.",
+      "Option D oversimplifies to only trust, excluding message clarity, which is one of two conditions stated in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-144",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Critics argue that standardized testing measures the ability to perform under structured conditions rather than genuine intellectual capacity.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Proponents of standardized testing claim it accurately measures genuine intellectual capacity across all students.",
+      "According to critics, what standardized tests actually assess is how well students can perform in controlled settings, not how intellectually capable they truly are.",
+      "Standardized tests are designed to measure genuine intellectual capacity by eliminating the influence of structured conditions.",
+      "Critics argue that intellectual capacity is best measured by performance under highly structured conditions."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates the critics' argument: standardized tests measure performance in structured conditions, not genuine intellectual capacity.",
+    "wrongReasons": [
+      "Option A attributes the opposite view to proponents, not critics, and contradicts the critical perspective expressed in the original.",
+      "Option C directly contradicts the critics' view — it says tests are designed to measure genuine capacity, which is what critics dispute.",
+      "Option D misrepresents the critics' position — it says critics support structured conditions as the best measure, which is precisely what they are criticizing."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-145",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Urban sprawl tends to increase car dependency while simultaneously diminishing social cohesion within communities.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Social cohesion in communities tends to increase car dependency, which in turn leads to urban sprawl.",
+      "Urban sprawl reduces car dependency and strengthens social bonds within communities.",
+      "The expansion of cities into surrounding areas typically makes residents more reliant on cars while weakening community ties.",
+      "Car dependency causes urban sprawl, which then reduces social cohesion in affected communities."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates both effects of urban sprawl: increased car dependency and diminished social cohesion.",
+    "wrongReasons": [
+      "Option A reverses the causal chain — social cohesion does not cause car dependency, which does not cause sprawl.",
+      "Option B directly contradicts the original on both effects — it says sprawl reduces car dependency and strengthens social bonds.",
+      "Option D reverses the order of causation — car dependency does not cause sprawl in the original; sprawl causes both car dependency and reduced cohesion."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-146",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Epigenetic research indicates that environmental stressors can alter gene expression in ways that are potentially heritable across multiple generations.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Epigenetic studies show that genes alter the environment, with such changes being passed down across generations.",
+      "According to epigenetics, changes in how genes function caused by environmental stress may be transmitted to future generations.",
+      "Environmental stressors are caused by heritable gene expression changes, according to epigenetic research.",
+      "Epigenetic research suggests that gene expression changes occur independently of environmental factors and are not heritable."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly restates: environmental stressors → altered gene expression → potentially heritable across generations.",
+    "wrongReasons": [
+      "Option A reverses the direction — genes do not alter the environment; the environment alters gene expression.",
+      "Option C reverses cause and effect — environmental stressors are not caused by gene expression changes; they cause those changes.",
+      "Option D directly contradicts the original on both points — it claims changes are independent of environment and not heritable."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-147",
+    "difficulty": "hard",
+    "text": "Original sentence: \"While philanthropic initiatives can supplement government efforts in addressing poverty, they are inadequate as substitutes for comprehensive social policy.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Philanthropic efforts are sufficient replacements for government social policy when addressing issues of poverty.",
+      "Government efforts to address poverty are undermined by philanthropic initiatives that act as substitutes.",
+      "Charity-based approaches can complement but cannot replace thorough government policies aimed at reducing poverty.",
+      "Comprehensive social policy is most effective when it operates independently of philanthropic initiatives."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly captures both points: philanthropy can supplement (complement) but cannot substitute for comprehensive social policy.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by claiming philanthropic efforts are sufficient replacements — the original says they are inadequate as substitutes.",
+      "Option B distorts the original — it claims philanthropy undermines government efforts, which is not stated; the original says philanthropy can supplement government efforts.",
+      "Option D misrepresents the relationship — the original does not say social policy works best independently of philanthropy; it says philanthropy can supplement but not replace policy."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-148",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The relationship between media exposure and political polarization is bidirectional: while polarized audiences seek out confirming media, such media in turn reinforces their existing beliefs.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Media exposure causes political polarization in a one-directional process, with no feedback from polarized audiences.",
+      "Polarized audiences avoid media that confirms their views, which reduces the reinforcing effect on their beliefs.",
+      "Media polarization and audience polarization each influence the other: divided audiences choose media that matches their views, and that media strengthens those views further.",
+      "Political polarization is caused solely by the beliefs audiences hold, with media exposure having no independent effect."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly restates the bidirectional relationship: polarized audiences seek confirming media, which then reinforces their views.",
+    "wrongReasons": [
+      "Option A misrepresents the relationship as one-directional and denies audience feedback, contradicting the bidirectional structure stated in the original.",
+      "Option B reverses audience behavior — the original says polarized audiences seek confirming media, not avoid it.",
+      "Option D denies media's independent role, which contradicts the original's claim that media reinforces beliefs."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-149",
+    "difficulty": "hard",
+    "text": "Original sentence: \"The medicalization of behavioral differences has led to an increase in psychiatric diagnoses, a trend that some scholars view as reflecting social norms rather than objective clinical criteria.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "Scholars widely agree that psychiatric diagnoses are based entirely on objective clinical criteria, with no influence from social norms.",
+      "Social norms have been medicalized to reduce the number of psychiatric diagnoses, according to some scholars.",
+      "Treating behavioral differences as medical conditions has contributed to more psychiatric diagnoses, a pattern that some researchers attribute to social norms rather than purely clinical standards.",
+      "The increase in psychiatric diagnoses has caused behavioral differences to become medicalized, according to clinical researchers."
+    ],
+    "answer": 2,
+    "explanation": "This option correctly captures: medicalization of behavioral differences → more psychiatric diagnoses → some scholars see this as socially rather than clinically driven.",
+    "wrongReasons": [
+      "Option A directly contradicts the scholars' view — the original says some see diagnoses as reflecting social norms, not objective criteria alone.",
+      "Option B reverses the direction and the outcome — social norms are not medicalized to reduce diagnoses; medicalization increases diagnoses potentially due to social norms.",
+      "Option D reverses the causal order — the increase in diagnoses does not cause medicalization; medicalization causes more diagnoses."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-rm-150",
+    "difficulty": "hard",
+    "text": "Original sentence: \"Despite its potential to democratize access to information, the internet has in practice widened the knowledge gap between those with digital literacy and those without.\"\nWhich of the following has the same meaning as the sentence above?",
+    "choices": [
+      "The internet has successfully equalized access to information, closing the gap between digitally literate and less literate populations.",
+      "The potential of the internet to spread knowledge equally has been undermined by the fact that those who lack digital skills benefit from it far less than those who have them.",
+      "Digital literacy has widened the gap between those who use the internet and those who prefer traditional information sources.",
+      "The knowledge gap between populations existed before the internet and has no connection to digital literacy levels."
+    ],
+    "answer": 1,
+    "explanation": "This option correctly captures the contrast: internet's democratic potential vs. the reality of a widened knowledge gap based on digital literacy.",
+    "wrongReasons": [
+      "Option A directly contradicts the original by claiming the internet has equalized access and closed the gap.",
+      "Option C misrepresents the original — it changes the comparison from digital literacy vs. no literacy to internet users vs. traditional-source users, shifting the subject.",
+      "Option D denies any connection between the internet and the knowledge gap, and ignores the role of digital literacy stated in the original."
+    ],
+    "subType": "restatementMini",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["restatements", "paraphrase", "meaning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הניסוח הנכון שומר על: [subject + relationship + object]. טעויות נפוצות: היפוך כיוון הקשר, שינוי נושא.",
+    "estimatedTimeSeconds": 40
+  }
+]

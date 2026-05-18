@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-sl-251",
+    "difficulty": "easy",
+    "text": "Because a drug's therapeutic effect depends on reaching an adequate concentration in the bloodstream, patients who skip doses may find that the medication ________.",
+    "choices": [
+      "becomes less effective over time",
+      "produces stronger side effects",
+      "absorbs more rapidly",
+      "exceeds the recommended dosage"
+    ],
+    "answer": 0,
+    "explanation": "Skipping doses lowers blood concentration below the therapeutic threshold, so the drug becomes less effective. This follows directly from the pharmacokinetic principle stated in the sentence.",
+    "wrongReasons": [
+      "B is incorrect because lower drug concentrations reduce, not increase, side effects.",
+      "C contradicts the premise — skipping doses means less drug enters the body, slowing, not hastening, absorption.",
+      "D is self-contradictory: skipping doses reduces, not exceeds, the amount of drug taken."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: דילוג על מנות תרופה מוריד את ריכוז התרופה בדם מתחת לסף הטיפולי, ולכן התרופה הופכת פחות יעילה. זהו קשר ישיר בין גורם לתוצאה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-252",
+    "difficulty": "easy",
+    "text": "In game theory, a dominant strategy is one that produces the best outcome for a player ________ what choices the other players make.",
+    "choices": [
+      "regardless of",
+      "only after",
+      "in response to",
+      "assuming"
+    ],
+    "answer": 0,
+    "explanation": "By definition, a dominant strategy is optimal no matter what the other players do — 'regardless of' is the only phrase that captures this unconditional superiority.",
+    "wrongReasons": [
+      "B 'only after' implies the strategy depends on observing opponents' moves first, which contradicts the unconditional nature of dominance.",
+      "C 'in response to' suggests the strategy is reactive, which is the opposite of a dominant strategy that is fixed regardless of others' behavior.",
+      "D 'assuming' implies a conditional dependency, which undermines the defining property of a dominant strategy."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אסטרטגיה דומיננטית (dominant strategy) בתורת המשחקים היא אסטרטגיה שמניבה את התוצאה הטובה ביותר ללא תלות בבחירות שאר השחקנים. לכן 'regardless of' הוא הצירוף הנכון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-253",
+    "difficulty": "easy",
+    "text": "Semioticians study signs and their meanings within cultural systems; ________, the same gesture may carry entirely different meanings in different societies.",
+    "choices": [
+      "therefore",
+      "however",
+      "by definition",
+      "in contrast"
+    ],
+    "answer": 0,
+    "explanation": "The sentence establishes that signs are culturally embedded, and the second clause illustrates the direct consequence: the same gesture means different things in different cultures. 'Therefore' correctly signals this causal/logical consequence.",
+    "wrongReasons": [
+      "B 'however' signals contrast or contradiction, but both clauses point in the same direction — cultural relativity of signs.",
+      "C 'by definition' is too narrow; it implies the second clause is a tautology, not an observed consequence.",
+      "D 'in contrast' would require the clauses to oppose each other, but they reinforce the same point."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: סמיוטיקאים חוקרים משמעות תרבותית של סימנים — לכן (therefore) אותה מחווה יכולה לשאת משמעויות שונות בתרבויות שונות. זהו קשר הסקה לוגית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-254",
+    "difficulty": "easy",
+    "text": "Medieval European peasants who lived on manorial estates were generally ________ to leave the land without their lord's permission, a legal condition known as serfdom.",
+    "choices": [
+      "permitted",
+      "encouraged",
+      "forbidden",
+      "required"
+    ],
+    "answer": 2,
+    "explanation": "Serfdom is defined by the legal binding of peasants to the land — they were forbidden from leaving without permission. The sentence explains serfdom, so the blank must capture its defining restriction.",
+    "wrongReasons": [
+      "A 'permitted' is the opposite of serfdom's core restriction; serfs could not freely leave.",
+      "B 'encouraged' is factually and contextually wrong; lords had every economic incentive to keep serfs bound to the land.",
+      "D 'required' would mean they were compelled to leave, which is the reverse of serfdom's binding nature."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: צמיתות (serfdom) פירושה שאיכרים אסור להם לעזוב את האדמה ללא רשות האדון. לכן 'forbidden' הוא המונח הנכון המגדיר את המעמד המשפטי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-255",
+    "difficulty": "easy",
+    "text": "Demographers who study aging populations note that as the proportion of elderly citizens rises, governments face ________ pressure to fund pension and healthcare systems.",
+    "choices": [
+      "increasing",
+      "diminishing",
+      "irrelevant",
+      "temporary"
+    ],
+    "answer": 0,
+    "explanation": "A growing elderly population requires more pension and healthcare spending, creating increasing fiscal pressure on governments. This is the direct demographic consequence stated in the sentence.",
+    "wrongReasons": [
+      "B 'diminishing' contradicts the logic — more elderly people require more, not less, funding.",
+      "C 'irrelevant' is factually absurd; aging populations are a central concern in public finance.",
+      "D 'temporary' mischaracterizes a long-term structural demographic trend."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ככל שאוכלוסיית הקשישים גדלה, הלחץ על מימון פנסיות ובריאות גובר — לכן 'increasing' הוא התוצאה הלוגית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-256",
+    "difficulty": "easy",
+    "text": "Philosophers of mind who support physicalism argue that mental states are ________ to physical processes in the brain, rather than belonging to a separate non-material realm.",
+    "choices": [
+      "identical",
+      "opposed",
+      "superior",
+      "unrelated"
+    ],
+    "answer": 0,
+    "explanation": "Physicalism holds that mental states are identical to physical brain states — there is no separate non-material substance. 'Identical' precisely captures this position and contrasts correctly with dualism.",
+    "wrongReasons": [
+      "B 'opposed' would mean mental states conflict with brain processes, which inverts the physicalist claim.",
+      "C 'superior' implies a hierarchy between mental and physical, which is a dualist rather than physicalist position.",
+      "D 'unrelated' is the opposite of physicalism — that position would be eliminativism or substance dualism."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: פיזיקליזם (physicalism) מניח שמצבים מנטליים זהים (identical) לתהליכים פיזיים במוח — בניגוד לדואליזם שמניח תחום נפרד.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-257",
+    "difficulty": "easy",
+    "text": "In astrophysics, a black hole's event horizon marks the boundary beyond which ________ — not even light — can escape the gravitational pull.",
+    "choices": [
+      "nothing",
+      "everything",
+      "matter only",
+      "energy only"
+    ],
+    "answer": 0,
+    "explanation": "The event horizon is precisely defined as the point of no return beyond which nothing can escape — the phrase 'not even light' confirms that the answer must be the absolute 'nothing.'",
+    "wrongReasons": [
+      "B 'everything' is the opposite of the event horizon's defining property; beyond it, nothing escapes.",
+      "C 'matter only' is contradicted by the parenthetical 'not even light,' which is electromagnetic radiation, not matter.",
+      "D 'energy only' is equally contradicted — light (energy) cannot escape either, so this cannot be the correct limiting case."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אופק האירועים (event horizon) של חור שחור הוא הגבול שממנו לא ניתן לברוח — אפילו לא אור. לכן 'nothing' הוא המונח הנכון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-258",
+    "difficulty": "easy",
+    "text": "Urban planners who design pedestrian-friendly cities typically prioritize ________ over wide roads built primarily for motor vehicles.",
+    "choices": [
+      "parking facilities",
+      "wide highways",
+      "walkways and public transit",
+      "industrial zones"
+    ],
+    "answer": 2,
+    "explanation": "Pedestrian-friendly design by definition favors walkways and public transit over car-centric infrastructure. The blank must name what is prioritized in a pedestrian-first planning approach.",
+    "wrongReasons": [
+      "A 'parking facilities' serve motor vehicles, which is precisely what pedestrian-friendly design de-emphasizes.",
+      "B 'wide highways' are explicitly what the sentence contrasts against pedestrian-friendly design.",
+      "D 'industrial zones' are unrelated to the pedestrian vs. vehicle distinction the sentence draws."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תכנון ידידותי להולכי רגל מעדיף מדרכות ותחבורה ציבורית על פני תשתיות לרכב. זהו הגיון ישיר מהגדרת המושג.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sl-259",
+    "difficulty": "medium",
+    "text": "In clinical pharmacology, the concept of a 'therapeutic window' refers to the range of drug doses that produce the desired effect without causing toxicity; a drug with a narrow therapeutic window is ________ to administer safely, as even small deviations from the prescribed dose can lead to serious harm.",
+    "choices": [
+      "straightforward",
+      "challenging",
+      "unnecessary",
+      "inexpensive"
+    ],
+    "answer": 1,
+    "explanation": "A narrow therapeutic window means the margin between effective and toxic doses is small, making precise dosing difficult — 'challenging' correctly captures this clinical complexity.",
+    "wrongReasons": [
+      "A 'straightforward' contradicts the premise; a narrow window creates difficulty, not simplicity, in administration.",
+      "C 'unnecessary' makes no sense in context — the drug's difficulty of administration does not make it dispensable.",
+      "D 'inexpensive' introduces cost, which is irrelevant to the pharmacological safety concept described."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: חלון טיפולי צר (narrow therapeutic window) מציין שהפרש הדוזות בין השפעה טיפולית לרעילות קטן — לכן מתן התרופה הוא מאתגר (challenging) ולא פשוט.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-260",
+    "difficulty": "medium",
+    "text": "Nash equilibrium, a central concept in game theory, describes a situation in which no player can improve their outcome by ________ their strategy, given that all other players' strategies remain fixed.",
+    "choices": [
+      "unilaterally changing",
+      "cooperatively revising",
+      "randomly selecting",
+      "indefinitely repeating"
+    ],
+    "answer": 0,
+    "explanation": "Nash equilibrium is defined as a state where no single player — acting alone (unilaterally) — has an incentive to deviate. The definition requires the word 'unilaterally' to exclude cooperative changes.",
+    "wrongReasons": [
+      "B 'cooperatively revising' involves multiple players acting together, which is excluded by 'given that all other players' strategies remain fixed.'",
+      "C 'randomly selecting' introduces chance, which is not part of the Nash equilibrium definition and would not constitute a rational deviation.",
+      "D 'indefinitely repeating' describes a temporal pattern, not a strategic change, and is irrelevant to the static concept of Nash equilibrium."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: שיווי משקל נאש מוגדר כמצב שבו אף שחקן לא יכול לשפר את תוצאתו על ידי שינוי חד-צדדי (unilaterally) באסטרטגיה שלו. זהו המאפיין המהותי של המושג.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-261",
+    "difficulty": "medium",
+    "text": "Behavioral economists argue that people frequently make financial decisions that contradict classical rational-choice theory; ________, individuals often prefer a certain smaller gain over a probable larger one, a tendency known as risk aversion.",
+    "choices": [
+      "nonetheless",
+      "to illustrate",
+      "in contrast",
+      "as a prerequisite"
+    ],
+    "answer": 1,
+    "explanation": "'To illustrate' correctly introduces risk aversion as a concrete example of the irrational decision-making described in the first clause, linking the general claim to a specific instance.",
+    "wrongReasons": [
+      "A 'nonetheless' signals concession or persistence despite obstacles, but the second clause is a supporting example, not a counterpoint.",
+      "C 'in contrast' would require the second clause to oppose the first, but risk aversion is evidence of, not a contrast to, irrational behavior.",
+      "D 'as a prerequisite' implies the example is a necessary condition for the first claim, which misrepresents the relationship."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המשפט הראשון טוען שאנשים מקבלים החלטות לא רציונליות. המשפט השני נותן דוגמה ('to illustrate') — שנאת סיכון (risk aversion). הקשר הוא דוגמה-להמחשה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-262",
+    "difficulty": "medium",
+    "text": "Scholars of semiotics distinguish between the 'signifier' — the form a sign takes — and the 'signified' — the concept it represents; this distinction implies that the relationship between a word and its meaning is ________, not determined by any natural or inherent connection.",
+    "choices": [
+      "universal",
+      "arbitrary",
+      "transparent",
+      "biological"
+    ],
+    "answer": 1,
+    "explanation": "Ferdinand de Saussure's foundational semiotic principle holds that the link between signifier and signified is arbitrary — conventional rather than natural. The sentence explicitly states there is no 'inherent connection,' which is the definition of arbitrariness.",
+    "wrongReasons": [
+      "A 'universal' would mean all humans share the same word-meaning connections, which directly contradicts cross-linguistic diversity.",
+      "C 'transparent' implies meaning is self-evident from the form of the word, which is precisely what the sentence denies.",
+      "D 'biological' would suggest a genetic basis for word meanings, contradicting the cultural-conventional nature of language."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: עיקרון יסודי בסמיוטיקה של סוסיר הוא שהקשר בין המסמן (signifier) למסומן (signified) הוא שרירותי (arbitrary) — קונבנציונלי, לא טבעי. המשפט מציין במפורש 'no inherent connection.'",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-263",
+    "difficulty": "medium",
+    "text": "The Black Death of the fourteenth century killed an estimated one-third of Europe's population within a few years; ________, the resulting labor shortage gave surviving peasants greater bargaining power over feudal lords, ultimately accelerating the decline of serfdom.",
+    "choices": [
+      "despite this",
+      "paradoxically",
+      "as predicted",
+      "in the same way"
+    ],
+    "answer": 1,
+    "explanation": "'Paradoxically' is correct because the catastrophic plague produced an unexpected positive consequence — greater peasant power. The word captures the counterintuitive outcome that follows mass death.",
+    "wrongReasons": [
+      "A 'despite this' would suggest that the labor shortage occurred in spite of the plague, contradicting the direct causal relationship.",
+      "C 'as predicted' implies the social transformation was an anticipated outcome, but the empowerment of peasants following a plague was not a standard prediction.",
+      "D 'in the same way' signals similarity, but the second clause describes an unexpected reversal of power, not a parallel process."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המגפה השחורה גרמה לאסון, אך בצורה פרדוקסלית (paradoxically) הותירה לאיכרים ששרדו כוח מיקוח גדול יותר. זוהי תוצאה בלתי צפויה מהרס שמביאה לשינוי חברתי חיובי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-264",
+    "difficulty": "medium",
+    "text": "Population pyramids that are wide at the base and narrow at the top indicate societies with ________ birth rates and high child mortality, characteristic of early-stage demographic transitions.",
+    "choices": [
+      "declining",
+      "stable",
+      "high",
+      "negative"
+    ],
+    "answer": 2,
+    "explanation": "A wide base in a population pyramid represents many people in younger age groups, which is the product of high birth rates. Combined with high child mortality, this shape is characteristic of pre-transition societies.",
+    "wrongReasons": [
+      "A 'declining' birth rates would narrow the base over time, producing a different pyramid shape.",
+      "B 'stable' birth rates would produce a relatively uniform pyramid width, not a dramatically wide base.",
+      "D 'negative' birth rates would mean deaths exceed births, which would produce a shrinking or inverted pyramid."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: פירמידת גיל רחבה בבסיסה מצביעה על ריבוי ילדים — כלומר שיעור לידות גבוה (high). זהו מאפיין של חברות בשלב מוקדם של מעבר דמוגרפי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-265",
+    "difficulty": "medium",
+    "text": "In philosophy of mind, the 'hard problem of consciousness' refers to the difficulty of explaining why physical brain processes give rise to ________ experience — the felt quality of seeing red or tasting coffee.",
+    "choices": [
+      "cognitive",
+      "behavioral",
+      "subjective",
+      "linguistic"
+    ],
+    "answer": 2,
+    "explanation": "David Chalmers' 'hard problem' concerns why brain processes produce subjective, first-person experience — what it feels like to perceive something, known as qualia. 'Subjective' is the philosophically precise term for this.",
+    "wrongReasons": [
+      "A 'cognitive' refers to mental information processing, which is the 'easy problem' of consciousness, not the hard one.",
+      "B 'behavioral' concerns outward actions and responses, which can be explained without invoking felt experience.",
+      "D 'linguistic' refers to language use, which is a separate cognitive capacity and not what qualia or the hard problem address."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'הבעיה הקשה של התודעה' עוסקת בסיבה שתהליכים פיזיים מובילים לחוויה סובייקטיבית (subjective) — מה שנקרא qualia — כמו החוויה של לראות אדום.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-266",
+    "difficulty": "medium",
+    "text": "Type II supernovae occur when massive stars ________ under their own gravity after exhausting their nuclear fuel, releasing an enormous burst of energy visible across vast cosmic distances.",
+    "choices": [
+      "expand gradually",
+      "collapse catastrophically",
+      "stabilize permanently",
+      "fragment into planets"
+    ],
+    "answer": 1,
+    "explanation": "When a massive star runs out of nuclear fuel, the outward radiation pressure ceases and the core collapses catastrophically under gravity, triggering a supernova explosion. This is the standard astrophysical sequence.",
+    "wrongReasons": [
+      "A 'expand gradually' describes the red giant phase that precedes collapse; it does not cause a supernova.",
+      "C 'stabilize permanently' is the opposite of what happens — stars do not become stable when fuel runs out; they collapse.",
+      "D 'fragment into planets' describes planetary formation from nebulae, an entirely separate process."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: כוכב מסיבי שמגמר את הדלק הגרעיני שלו מתמוטט בפתאומיות (collapse catastrophically) תחת כוח המשיכה שלו, מה שמוביל לסופרנובה. זהו הרצף האסטרופיזיקלי הסטנדרטי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-267",
+    "difficulty": "medium",
+    "text": "Computational linguists who build language models must grapple with the challenge of ambiguity, since a single sentence can often be parsed in ________ ways, each producing a different meaning.",
+    "choices": [
+      "multiple",
+      "identical",
+      "predetermined",
+      "simplified"
+    ],
+    "answer": 0,
+    "explanation": "Linguistic ambiguity — a core challenge in natural language processing — arises precisely because sentences can be parsed in multiple ways. 'Multiple' is the only choice that restates this property.",
+    "wrongReasons": [
+      "B 'identical' directly contradicts ambiguity; if all parses were identical, there would be no ambiguity problem.",
+      "C 'predetermined' implies a fixed, unique interpretation, eliminating the ambiguity that the sentence identifies as a challenge.",
+      "D 'simplified' does not capture the problem of multiple interpretations and mischaracterizes the complexity of parsing."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: עמימות לשונית (ambiguity) מתרחשת כאשר משפט יכול להיות מנותח בדרכים מרובות (multiple) — כל אחת מייצרת משמעות שונה. זהו האתגר המרכזי בבלשנות חישובית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-268",
+    "difficulty": "medium",
+    "text": "Climate scientists warn that positive feedback loops in the Earth's climate system can ________ the effects of initial warming; for example, melting Arctic ice reduces surface reflectivity, causing more heat absorption and further melting.",
+    "choices": [
+      "reverse",
+      "amplify",
+      "delay",
+      "eliminate"
+    ],
+    "answer": 1,
+    "explanation": "A positive feedback loop amplifies the initial change rather than countering it. The Arctic ice-albedo example directly illustrates amplification: less ice → more heat → less ice → more heat.",
+    "wrongReasons": [
+      "A 'reverse' describes negative feedback, which counteracts warming — the opposite of what positive feedback does.",
+      "C 'delay' does not capture the self-reinforcing nature of positive feedback, which accelerates rather than postpones effects.",
+      "D 'eliminate' would mean the warming is canceled out, which again describes negative, not positive, feedback."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: לולאת משוב חיובית (positive feedback loop) מגבירה (amplify) את ההשפעה הראשונית. דוגמת קרח הארקטי ממחישה את ההתחזקות העצמית: פחות קרח → יותר חום → פחות קרח.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-269",
+    "difficulty": "medium",
+    "text": "Comparative religion scholars note that many ancient civilizations developed flood narratives independently of one another; this convergence suggests that such stories may reflect ________ human anxieties about natural disasters rather than shared historical events.",
+    "choices": [
+      "universal",
+      "regional",
+      "fabricated",
+      "forgotten"
+    ],
+    "answer": 0,
+    "explanation": "Independent convergence across unconnected cultures is best explained by universal human fears and experiences, not borrowed traditions. 'Universal' captures the cross-cultural psychological commonality implied by independent development.",
+    "wrongReasons": [
+      "B 'regional' contradicts the fact of independent development across distant civilizations — if they were regional, there would be geographic clustering.",
+      "C 'fabricated' implies deliberate deception, which is not a scholarly claim about religious narratives.",
+      "D 'forgotten' is incoherent — one cannot narrate forgotten anxieties; if the stories exist, the underlying fears were expressed, not forgotten."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: כאשר תרבויות שונות פיתחו עצמאית סיפורי מבול, ההסבר הסביר הוא שהסיפורים משקפים חרדות אנושיות אוניברסליות (universal) — לא אירוע היסטורי משותף.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-270",
+    "difficulty": "medium",
+    "text": "Transit-oriented development (TOD) is an urban planning strategy that concentrates housing, commerce, and services within walking distance of public transport hubs; proponents argue that this reduces car dependency and ________ social cohesion by creating vibrant, mixed-use neighborhoods.",
+    "choices": [
+      "undermines",
+      "measures",
+      "fosters",
+      "conceals"
+    ],
+    "answer": 2,
+    "explanation": "'Fosters' correctly continues the positive argument for TOD — vibrant, mixed-use neighborhoods that are walkable promote social interaction and community bonds, strengthening social cohesion.",
+    "wrongReasons": [
+      "A 'undermines' contradicts the sentence's framing of TOD as a benefit; proponents would not argue it harms social cohesion.",
+      "B 'measures' treats social cohesion as a metric rather than an outcome, misreading the logical structure.",
+      "D 'conceals' implies social cohesion is hidden, which has no logical connection to urban design principles."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תכנון ממוקד-תחבורה (TOD) הוא גישה חיובית שמקדמת (fosters) לכידות חברתית באמצעות שכונות מעורבות ועשירות. שאר האפשרויות סותרות את הטיעון החיובי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-271",
+    "difficulty": "medium",
+    "text": "The sunk cost fallacy occurs when decision-makers continue to invest resources in a failing project because of prior investments, ________ future costs and benefits rather than evaluating each decision on its own merits.",
+    "choices": [
+      "accurately weighing",
+      "ignoring",
+      "carefully projecting",
+      "publicly disclosing"
+    ],
+    "answer": 1,
+    "explanation": "The sunk cost fallacy is defined by irrationally focusing on past losses and thereby ignoring future costs and benefits, which should be the rational basis for decisions. 'Ignoring' precisely describes this cognitive error.",
+    "wrongReasons": [
+      "A 'accurately weighing' describes rational decision-making, which is the opposite of the fallacy being defined.",
+      "C 'carefully projecting' is also a feature of sound financial analysis, contradicting the irrational behavior described.",
+      "D 'publicly disclosing' relates to transparency, not the cognitive process of weighing sunk costs versus future outcomes."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: כשל 'עלויות טבועות' (sunk cost fallacy) מאופיין בהתעלמות (ignoring) מעלויות ותועלות עתידיות לטובת התמקדות בהשקעות עבר. זהו ההגדרה של הטעות הקוגניטיבית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-272",
+    "difficulty": "medium",
+    "text": "Evolutionary biologists studying convergent evolution note that unrelated species often develop ________ traits when they inhabit similar environments and face comparable selective pressures, such as the streamlined bodies of dolphins and sharks.",
+    "choices": [
+      "identical genetic",
+      "analogous structural",
+      "homologous ancestral",
+      "vestigial non-functional"
+    ],
+    "answer": 1,
+    "explanation": "Convergent evolution produces analogous structures — similar in form and function but evolved independently, not inherited from a common ancestor. Dolphins and sharks are the classic example of analogous, not homologous, traits.",
+    "wrongReasons": [
+      "A 'identical genetic' traits would imply shared ancestry or horizontal gene transfer, contradicting the premise of unrelated species.",
+      "C 'homologous ancestral' traits derive from a shared ancestor, which is the opposite of convergent evolution's defining feature.",
+      "D 'vestigial non-functional' traits are evolutionary remnants, not adaptive features like streamlined bodies."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אבולוציה מתכנסת (convergent evolution) מייצרת מבנים אנלוגיים (analogous structural) — דומים בצורה ובתפקוד אך התפתחו באופן עצמאי. דולפינים וכרישים הם הדוגמה הקלאסית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-273",
+    "difficulty": "medium",
+    "text": "Public policy analysts distinguish between 'upstream' interventions that address the root causes of social problems and 'downstream' interventions that treat their symptoms; ________, providing stable housing to homeless individuals is upstream, while emergency shelter is downstream.",
+    "choices": [
+      "nonetheless",
+      "by way of illustration",
+      "in spite of this",
+      "conversely"
+    ],
+    "answer": 1,
+    "explanation": "'By way of illustration' correctly introduces a specific example that makes the abstract upstream/downstream distinction concrete. The housing/shelter comparison exemplifies, not contrasts or contradicts, the policy framework.",
+    "wrongReasons": [
+      "A 'nonetheless' implies persistence despite an obstacle, but no obstacle exists — the example simply clarifies the distinction.",
+      "C 'in spite of this' signals contrast or resistance, which is inappropriate when the second clause illustrates the first.",
+      "D 'conversely' would require the example to reverse or oppose the framework, but it confirms and exemplifies it."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'By way of illustration' מציג דוגמה להמחשת ההבחנה הפוליטית המופשטת. הדוגמה (דיור יציב מול מקלט חירום) מבהירה את ההבחנה, לא מנגידה אליה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-274",
+    "difficulty": "medium",
+    "text": "Bioavailability — the fraction of a drug that reaches systemic circulation unchanged — is lower for orally administered drugs than for intravenous ones because oral drugs must pass through the gastrointestinal tract and undergo ________ metabolism before entering the bloodstream.",
+    "choices": [
+      "first-pass",
+      "secondary",
+      "terminal",
+      "oxidative only"
+    ],
+    "answer": 0,
+    "explanation": "The hepatic first-pass effect is the process by which drugs absorbed from the gut are metabolized in the liver before reaching systemic circulation, reducing bioavailability. This is the standard pharmacokinetic term the sentence describes.",
+    "wrongReasons": [
+      "B 'secondary' is not a recognized pharmacokinetic term for this specific metabolic process.",
+      "C 'terminal' refers to the final phase of drug elimination, not the pre-systemic metabolic step described.",
+      "D 'oxidative only' is too narrow — first-pass metabolism includes multiple enzymatic reactions, not solely oxidation."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תרופות הניתנות דרך הפה עוברות מטבוליזם 'מעבר ראשוני' (first-pass) בכבד לפני כניסה לזרם הדם — הסיבה לזמינות ביולוגית נמוכה יותר בהשוואה לתרופות תוך-ורידיות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-275",
+    "difficulty": "medium",
+    "text": "The Prisoner's Dilemma illustrates a fundamental tension in game theory: individually rational choices can lead to ________ outcomes for all parties, demonstrating that self-interest does not always produce socially optimal results.",
+    "choices": [
+      "collectively superior",
+      "mutually beneficial",
+      "collectively inferior",
+      "individually unique"
+    ],
+    "answer": 2,
+    "explanation": "The Prisoner's Dilemma shows that when each player pursues self-interest (defection), both end up worse off than if they had cooperated. 'Collectively inferior' precisely captures this sub-optimal group outcome from individually rational choices.",
+    "wrongReasons": [
+      "A 'collectively superior' reverses the dilemma's conclusion — the whole point is that rational self-interest produces a worse collective outcome.",
+      "B 'mutually beneficial' describes cooperation, not defection — if the outcome were mutually beneficial, there would be no dilemma.",
+      "D 'individually unique' describes outcomes being distinct per person, missing the shared inefficiency at the heart of the dilemma."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: דילמת האסיר ממחישה שבחירות רציונליות אישיות מובילות לתוצאות נחותות קולקטיבית (collectively inferior) — הגרעון בין אינטרס עצמי לאינטרס חברתי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-276",
+    "difficulty": "medium",
+    "text": "Demographers use the concept of 'demographic dividend' to describe the economic growth potential that arises when a large proportion of a population is of working age; ________, this dividend is a one-time opportunity that diminishes as the population eventually ages.",
+    "choices": [
+      "consequently",
+      "similarly",
+      "however",
+      "therefore"
+    ],
+    "answer": 2,
+    "explanation": "'However' introduces a qualifying contrast: despite the economic potential of the demographic dividend, it is temporary. The second clause limits and qualifies the first with an important caveat.",
+    "wrongReasons": [
+      "A 'consequently' implies the limitation is a result of the dividend, but the aging of the population is an independent demographic process, not a consequence of economic growth.",
+      "B 'similarly' would require the second clause to parallel the first in direction, but it introduces a contradictory limitation.",
+      "D 'therefore' implies the dividend's temporariness follows logically from its economic value, which misrepresents the demographic relationship."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'However' מציג ניגוד — למרות הפוטנציאל הכלכלי של ה'דיבידנד הדמוגרפי', הוא הזדמנות חד-פעמית שנעלמת עם התזדקנות האוכלוסייה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-277",
+    "difficulty": "medium",
+    "text": "Urban heat islands form when cities absorb and retain more solar radiation than surrounding rural areas, primarily because artificial surfaces like asphalt and concrete ________ heat more efficiently than natural vegetation.",
+    "choices": [
+      "deflect",
+      "store",
+      "generate",
+      "convert"
+    ],
+    "answer": 1,
+    "explanation": "Impervious surfaces like asphalt and concrete have high thermal mass — they store heat from solar radiation and release it slowly, creating elevated urban temperatures. 'Store' is the thermally accurate completion.",
+    "wrongReasons": [
+      "A 'deflect' is the opposite — high-albedo surfaces deflect heat, but asphalt and concrete have low albedo and absorb it.",
+      "C 'generate' implies these surfaces create heat internally, but they absorb and retain solar energy rather than generating it.",
+      "D 'convert' is vague and does not specifically describe the thermal retention mechanism that causes urban heat islands."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: אספלט ובטון מאגרים (store) חום סולארי ביעילות בשל מסת חום גבוהה, ומשחררים אותו לאט — זהו המנגנון שיוצר 'אי חום עירוני.'",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-278",
+    "difficulty": "medium",
+    "text": "The ancient Sumerian city-states of Mesopotamia, unlike nomadic peoples, developed ________ administrative systems to manage surplus grain, regulate trade, and coordinate large-scale irrigation projects.",
+    "choices": [
+      "informal oral",
+      "decentralized tribal",
+      "centralized bureaucratic",
+      "militaristic expansionist"
+    ],
+    "answer": 2,
+    "explanation": "The tasks described — managing surpluses, regulating trade, and coordinating irrigation — require organized, central oversight by specialized administrators. 'Centralized bureaucratic' is the historically accurate and logically necessary completion.",
+    "wrongReasons": [
+      "A 'informal oral' systems lack the record-keeping capacity needed to manage grain surpluses and trade across a city-state.",
+      "B 'decentralized tribal' governance contradicts the complexity and scale of Sumerian administrative needs.",
+      "D 'militaristic expansionist' describes a foreign policy orientation, not an internal administrative structure for managing resources."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ניהול עודפי תבואה, ויסות סחר ותיאום השקיה בקנה מידה נרחב מצריכים מערכת בירוקרטית מרכזית (centralized bureaucratic). זהו מאפיין היסטורי ייחודי לערי-המדינה הסומריות.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-279",
+    "difficulty": "medium",
+    "text": "Prospect theory, developed by Kahneman and Tversky, posits that people evaluate outcomes relative to a ________ point rather than in absolute terms, which is why a loss of the same magnitude as a gain feels significantly more painful.",
+    "choices": [
+      "historical",
+      "reference",
+      "projected",
+      "maximum"
+    ],
+    "answer": 1,
+    "explanation": "Prospect theory's core feature is that people judge gains and losses relative to a reference point (typically the status quo), not to absolute wealth levels. 'Reference point' is the established technical term in behavioral economics.",
+    "wrongReasons": [
+      "A 'historical' point is too vague and does not capture the specific psychological benchmark described by Kahneman and Tversky.",
+      "C 'projected' point implies future expectations, but prospect theory's reference point is typically the current status quo, not a forecast.",
+      "D 'maximum' point would suggest people always compare to the best possible outcome, which is not what prospect theory describes."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תיאורית הפרוספקט של קנמן וטברסקי מציינת שאנשים מעריכים תוצאות ביחס ל'נקודת ייחוס' (reference point) ולא לפי ערכים מוחלטים. זהו המונח הטכני המדויק.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-280",
+    "difficulty": "medium",
+    "text": "Morphemes are the smallest meaningful units of language; the word 'unbreakable,' for instance, contains three morphemes — 'un-,' 'break,' and '-able' — each of which ________ the overall meaning of the word.",
+    "choices": [
+      "independently replaces",
+      "contributes to",
+      "entirely determines",
+      "consistently contradicts"
+    ],
+    "answer": 1,
+    "explanation": "Morphemes work together combinatorially — each contributes to the composite meaning, but no single one independently replaces or entirely determines the whole word's meaning. 'Contributes to' is the accurate description of how morphemes function.",
+    "wrongReasons": [
+      "A 'independently replaces' misrepresents morpheme function — morphemes combine, they do not substitute for the whole word.",
+      "C 'entirely determines' overstates any single morpheme's role; it takes all three together to produce 'unbreakable.'",
+      "D 'consistently contradicts' is logically absurd — morphemes within a single word cooperate to form meaning, they do not oppose it."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: מורפמות הן יחידות בעלות משמעות שמשתלבות יחד — כל מורפמה תורמת (contributes to) למשמעות הכוללת של המילה, אך אינה מחליפה אותה לבדה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-281",
+    "difficulty": "medium",
+    "text": "Epidemiologists studying the spread of infectious disease use the basic reproduction number (R₀) to estimate how many secondary cases one infected individual generates in a fully susceptible population; an R₀ greater than one indicates that the disease will ________, while a value below one suggests it will eventually die out.",
+    "choices": [
+      "mutate rapidly",
+      "spread and persist",
+      "remain contained",
+      "affect only the elderly"
+    ],
+    "answer": 1,
+    "explanation": "When R₀ > 1, each case produces more than one new case on average, so the disease spreads and persists in the population. This is the standard epidemiological interpretation of the reproduction number.",
+    "wrongReasons": [
+      "A 'mutate rapidly' is a separate virological property unrelated to the reproduction number's mathematical meaning.",
+      "C 'remain contained' describes what happens when R₀ < 1, contradicting the condition specified in the sentence.",
+      "D 'affect only the elderly' is a demographic claim unrelated to the mathematical threshold interpretation of R₀."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: R₀ גדול מ-1 אומר שכל נדבק יוצר יותר ממקרה אחד חדש — לכן המחלה תתפשט ותימשך (spread and persist). R₀ מתחת ל-1 מרמז על דעיכה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-282",
+    "difficulty": "medium",
+    "text": "The Silk Road was not merely a commercial network but also a conduit for cultural exchange; Buddhism, Islam, and Christianity all spread along its routes, demonstrating that trade networks ________ facilitate the movement of ideas and beliefs as well as goods.",
+    "choices": [
+      "rarely",
+      "exclusively fail to",
+      "inevitably",
+      "inadvertently but never intentionally"
+    ],
+    "answer": 2,
+    "explanation": "The sentence provides evidence (multiple religions spreading along trade routes) to argue that trade networks inevitably facilitate cultural exchange. 'Inevitably' is supported by the historical pattern demonstrated.",
+    "wrongReasons": [
+      "A 'rarely' contradicts the historical evidence provided — the Silk Road example shows frequent, not rare, cultural transmission.",
+      "B 'exclusively fail to' is directly contradicted by the evidence that religions did spread along these routes.",
+      "D 'inadvertently but never intentionally' imposes a distinction about intent that the sentence does not make and that the evidence cannot support."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: דרך המשי היא ראיה לכך שרשתות סחר בהכרח (inevitably) מקלות גם על תנועת רעיונות ואמונות — הראיה (התפשטות דתות) תומכת בטענה הכללית.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-283",
+    "difficulty": "medium",
+    "text": "Zoning laws that separate residential, commercial, and industrial land uses were originally designed to protect residents from industrial pollution; critics now argue, however, that rigid single-use zoning ________ economic vitality by preventing the mixed-use development that sustains walkable communities.",
+    "choices": [
+      "enhances",
+      "stifles",
+      "accelerates",
+      "monitors"
+    ],
+    "answer": 1,
+    "explanation": "The critics' argument is that rigid single-use zoning has a negative effect on economic vitality by preventing mixed-use development. 'Stifles' correctly conveys this suppressive effect in the context of a critique.",
+    "wrongReasons": [
+      "A 'enhances' is the opposite of a critical stance — proponents, not critics, would claim zoning enhances economic vitality.",
+      "C 'accelerates' implies zoning speeds up economic vitality, which again contradicts the critical argument the sentence presents.",
+      "D 'monitors' relates to oversight and measurement, not to the impact on economic vitality that the critics' argument concerns."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המבקרים טוענים שייעוד שימוש יחיד נוקשה חונק (stifles) את הפעילות הכלכלית על ידי מניעת פיתוח מעורב. המילה המבטאת השפעה שלילית היא 'stifles.'",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-284",
+    "difficulty": "medium",
+    "text": "In evolutionary biology, sexual selection theory predicts that traits which reduce survival chances may nonetheless spread through a population if they ________ mating success; the peacock's elaborate tail is the classic example.",
+    "choices": [
+      "correspondingly reduce",
+      "independently guarantee",
+      "sufficiently increase",
+      "temporarily disguise"
+    ],
+    "answer": 2,
+    "explanation": "Sexual selection works because a trait that reduces survival can still become common if it increases mating opportunities enough to outweigh the survival cost. 'Sufficiently increase' captures this trade-off logic.",
+    "wrongReasons": [
+      "A 'correspondingly reduce' implies mating success also falls, which would prevent the trait from spreading — contradicting the theory.",
+      "B 'independently guarantee' overstates certainty — mating success is probabilistic and competitive, never guaranteed.",
+      "D 'temporarily disguise' introduces a stealth mechanism unrelated to sexual selection, which operates through preference, not concealment."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ברירה מינית (sexual selection) מסבירה כיצד תכונה שמפחיתה הישרדות מתפשטת אם היא מגדילה מספיק (sufficiently increase) את הצלחת ההזדווגות — דוגמת זנב הטווס.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sl-285",
+    "difficulty": "hard",
+    "text": "Phase III clinical trials are designed to compare a new drug against a standard treatment or placebo across large, randomized populations; a trial is said to demonstrate 'clinical significance' only when the observed difference in outcomes is large enough to be ________, not merely statistically distinguishable from chance.",
+    "choices": [
+      "theoretically predicted",
+      "practically meaningful",
+      "statistically probable",
+      "economically justified"
+    ],
+    "answer": 1,
+    "explanation": "Clinical significance requires that the effect size be large enough to matter in practice — to benefit patients in a real-world sense — as opposed to statistical significance, which only means the result is unlikely to be due to chance. 'Practically meaningful' is the precise counterpart to 'statistically distinguishable.'",
+    "wrongReasons": [
+      "A 'theoretically predicted' refers to prior hypotheses, not the patient-benefit threshold that clinical significance concerns.",
+      "C 'statistically probable' conflates clinical and statistical significance — the sentence explicitly distinguishes these two concepts.",
+      "D 'economically justified' addresses cost-effectiveness, a separate regulatory consideration not captured by the clinical significance definition."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: משמעות קלינית (clinical significance) מתייחסת לכך שההבדל בתוצאות גדול מספיק כדי להיות בעל משמעות מעשית (practically meaningful) לחיי המטופל — בניגוד למשמעות סטטיסטית שרק אומרת שהתוצאה אינה מקרית.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-286",
+    "difficulty": "hard",
+    "text": "The concept of 'mechanism design' in game theory — sometimes called 'reverse game theory' — involves constructing the rules of a game such that self-interested players, pursuing their own goals, will ________ produce outcomes aligned with the designer's objectives.",
+    "choices": [
+      "reluctantly abandon",
+      "inadvertently undermine",
+      "automatically and collectively",
+      "spontaneously but inconsistently"
+    ],
+    "answer": 2,
+    "explanation": "Mechanism design works precisely by aligning individual incentives with socially desired outcomes so that rational self-interest automatically and collectively generates the designer's preferred result. This is the goal that distinguishes mechanism design from descriptive game theory.",
+    "wrongReasons": [
+      "A 'reluctantly abandon' implies players reject their goals, contradicting mechanism design's key feature that players pursue self-interest throughout.",
+      "B 'inadvertently undermine' would mean the mechanism fails, which is the opposite of successful mechanism design.",
+      "D 'spontaneously but inconsistently' introduces unpredictability, undermining the predictable outcome alignment that mechanism design is built to achieve."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: עיצוב מנגנון (mechanism design) בונה כללי משחק כך שאנשים שרודפים אינטרסים עצמיים יניבו אוטומטית וקולקטיבית (automatically and collectively) את התוצאה הרצויה למעצב — זוהי מטרת הפרדיגמה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-287",
+    "difficulty": "hard",
+    "text": "In Roland Barthes' semiotic analysis, myth operates not by lying but by ________ history — presenting contingent cultural constructs as though they were natural, universal, and inevitable facts rather than products of specific social conditions.",
+    "choices": [
+      "accurately recording",
+      "violently erasing",
+      "depoliticizing and naturalizing",
+      "systematically contradicting"
+    ],
+    "answer": 2,
+    "explanation": "Barthes argues that myth works by stripping social constructs of their historical contingency — 'depoliticizing and naturalizing' them so they appear self-evident. This is the precise mechanism Barthes describes in Mythologies.",
+    "wrongReasons": [
+      "A 'accurately recording' is the opposite of Barthes' critique; he argues myth distorts, not faithfully documents, historical reality.",
+      "B 'violently erasing' overstates the mechanism — Barthes describes myth as subtle distortion, not active destruction of history.",
+      "D 'systematically contradicting' would make myth easily detectable, whereas Barthes emphasizes its invisibility through apparent naturalization."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: בתיאוריה של בארת, מיתוס פועל על ידי ביטול הפוליטיקה וטבעון (depoliticizing and naturalizing) של ההיסטוריה — הפיכת בנייה תרבותית נקודתית לעובדה נראית טבעית ואוניברסלית.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-288",
+    "difficulty": "hard",
+    "text": "The Antonine Plague of the second century CE, which killed millions across the Roman Empire, is considered by historians to have ________ Rome's military capacity not because soldiers died in unusually high numbers, but because the fiscal strain of replacing troops and maintaining frontier defenses undermined the empire's long-term financial stability.",
+    "choices": [
+      "permanently restored",
+      "temporarily stimulated",
+      "structurally eroded",
+      "marginally altered"
+    ],
+    "answer": 2,
+    "explanation": "The sentence argues that the plague's impact was structural and long-term — fiscal strain gradually wore away Rome's military capacity. 'Structurally eroded' captures both the systemic nature and the gradual, foundational deterioration described.",
+    "wrongReasons": [
+      "A 'permanently restored' is contradicted entirely by the sentence, which describes damage, not restoration, to military capacity.",
+      "B 'temporarily stimulated' inverts the argument — increased military spending is presented as a fiscal burden, not a stimulus.",
+      "D 'marginally altered' understates the severity; the sentence emphasizes long-term financial undermining, not a minor adjustment."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המגפה האנטונינית פגעה בכוח הצבאי של רומא לא ישירות (מוות של חיילים) אלא מבנית — הכבדה פיסקלית ארוכת טווח שחקה (structurally eroded) את היציבות הכלכלית.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-289",
+    "difficulty": "hard",
+    "text": "Dual inheritance theory — also known as gene-culture coevolution — proposes that human behavior is shaped by two distinct evolutionary systems: genetic evolution, which operates over generations, and cultural evolution, which can transmit acquired information within a single lifetime; ________, cultural evolution can outpace biological evolution when environmental conditions change rapidly.",
+    "choices": [
+      "contrary to this view",
+      "as a consequence",
+      "for this very reason",
+      "despite these differences"
+    ],
+    "answer": 2,
+    "explanation": "'For this very reason' links the preceding explanation of cultural evolution's speed (within a single lifetime) to the logical conclusion that it outpaces biological evolution under rapid environmental change. The speed advantage of cultural transmission is the direct reason stated.",
+    "wrongReasons": [
+      "A 'contrary to this view' would introduce an opposing argument, but the second clause follows logically from the distinction, not against it.",
+      "B 'as a consequence' would imply the outpacing is a result of cultural evolution being described, but the causal arrow points to its speed, not merely its existence.",
+      "D 'despite these differences' signals that the second clause is unexpected given the first, but outpacing biological evolution is the expected and logical implication of faster transmission speed."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'For this very reason' קושר את ההסבר (אבולוציה תרבותית מהירה יותר) לתוצאה הלוגית: היא עולה על האבולוציה הגנטית כשהסביבה משתנה מהר. הסיבה הספציפית היא המהירות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-290",
+    "difficulty": "hard",
+    "text": "Critics of evidence-based medicine's reliance on randomized controlled trials argue that while RCTs produce rigorous population-level data, they may ________ the complexity of individual patient variation by averaging outcomes across heterogeneous groups.",
+    "choices": [
+      "adequately capture",
+      "systematically obscure",
+      "deliberately misrepresent",
+      "incidentally validate"
+    ],
+    "answer": 1,
+    "explanation": "By averaging outcomes across diverse patient populations, RCTs can obscure how different subgroups respond — masking the individual variation that critics argue is clinically important. 'Systematically obscure' captures this structural limitation.",
+    "wrongReasons": [
+      "A 'adequately capture' is the opposite of the critics' argument; they contend RCTs fail to reflect individual complexity.",
+      "C 'deliberately misrepresent' implies intentional deception, which overstates the critics' methodological concern — the limitation is structural, not fraudulent.",
+      "D 'incidentally validate' would mean RCTs inadvertently confirm individual variation, which contradicts the critique that they mask it."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: המבקרים טוענים שניסויים אקראיים מבוקרים (RCTs) מסתירים באופן שיטתי (systematically obscure) את המורכבות האינדיבידואלית על ידי ממוצע תוצאות על פני אוכלוסיות הטרוגניות.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-291",
+    "difficulty": "hard",
+    "text": "The Sapir-Whorf hypothesis — in its strong form — claims that the language one speaks ________ the categories of thought available to that speaker, implying that speakers of different languages inhabit fundamentally different cognitive worlds.",
+    "choices": [
+      "supplements",
+      "determines",
+      "accompanies",
+      "translates"
+    ],
+    "answer": 1,
+    "explanation": "The strong Sapir-Whorf hypothesis (linguistic determinism) holds that language determines — not merely influences or accompanies — thought, constraining what can be conceived. This is the defining and most controversial claim of the theory.",
+    "wrongReasons": [
+      "A 'supplements' implies language adds to thought without shaping its fundamental structure, which represents the weak version of the hypothesis, not the strong one specified.",
+      "C 'accompanies' would suggest language and thought coexist without causal influence, contradicting the deterministic claim the sentence describes.",
+      "D 'translates' suggests language renders existing thoughts into words, reversing the causal direction the hypothesis asserts."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: ההיפותזה החזקה של ספיר-וורף (דטרמיניזם לשוני) טוענת שהשפה קובעת (determines) את קטגוריות המחשבה הזמינות — לא רק משפיעה עליהן. זהו הטיעון הדטרמיניסטי המאפיין את הגרסה החזקה.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-292",
+    "difficulty": "hard",
+    "text": "Actuarial models of population aging project that pay-as-you-go pension systems will face increasing fiscal stress as dependency ratios rise; ________, some economists contend that productivity growth driven by technology could ________ the burden, provided that gains are broadly shared rather than concentrated among capital owners.",
+    "choices": [
+      "nonetheless / offset",
+      "therefore / worsen",
+      "in addition / replicate",
+      "by contrast / disguise"
+    ],
+    "answer": 0,
+    "explanation": "'Nonetheless' introduces a counterargument to the fiscal stress prediction, and 'offset' correctly states that productivity growth could compensate for rising dependency ratios — but only under the distributional condition specified.",
+    "wrongReasons": [
+      "B 'therefore / worsen' would mean economists agree the situation gets worse, which contradicts the counterargument structure signaled by a concessive connector.",
+      "C 'in addition / replicate' implies economists add a similar problem rather than offering a partial solution.",
+      "D 'by contrast / disguise' suggests disguising the burden rather than genuinely relieving it, and 'disguise' has a deceptive connotation inconsistent with a good-faith economic argument."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'Nonetheless' מציג טיעון נגד לתחזית הדאגה הפיסקלית — כלכלנים טוענים שצמיחת פריון עשויה לקזז (offset) את הנטל, בתנאי שהרווחים מחולקים באופן רחב.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-293",
+    "difficulty": "hard",
+    "text": "Epigenetic research has demonstrated that environmental exposures such as nutrition, stress, and toxins can modify gene expression without altering the DNA sequence itself; these modifications, moreover, can in some cases be ________ to offspring, challenging the classical Mendelian view that only DNA sequence is heritable.",
+    "choices": [
+      "invisible",
+      "transmitted",
+      "simulated",
+      "reversed"
+    ],
+    "answer": 1,
+    "explanation": "Transgenerational epigenetic inheritance — where epigenetic modifications are transmitted to subsequent generations — is the finding that challenges classical Mendelian genetics. 'Transmitted' is the precise and accurate completion.",
+    "wrongReasons": [
+      "A 'invisible' refers to detectability, not heritability — invisibility would not in itself challenge Mendelian genetics.",
+      "C 'simulated' implies the modifications are artificial replications, which misrepresents the biological phenomenon of actual inheritance.",
+      "D 'reversed' describes a corrective process, not the heritable transmission that the sentence identifies as the challenge to classical genetics."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: מחקר אפיגנטי מגלה שמודיפיקציות ביטוי גנים יכולות להיות מועברות (transmitted) לצאצאים — זהו האתגר לגנטיקה המנדלית הקלאסית שהניחה שרק רצף ה-DNA מורש.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-294",
+    "difficulty": "hard",
+    "text": "In microeconomic theory, a public good is defined by two properties: non-excludability — meaning no one can be prevented from consuming it — and non-rivalry — meaning one person's consumption does not ________ the amount available to others.",
+    "choices": [
+      "increase",
+      "reduce",
+      "regulate",
+      "distribute"
+    ],
+    "answer": 1,
+    "explanation": "Non-rivalry means that consumption by one person does not reduce the quantity or quality available to others — 'reduce' is the precise term for the subtractability that public goods lack.",
+    "wrongReasons": [
+      "A 'increase' would mean public goods become more available with use, which is a separate and unusual property not captured by non-rivalry.",
+      "C 'regulate' concerns governance and access control, not the non-subtractive consumption property that defines non-rivalry.",
+      "D 'distribute' implies allocation or division, whereas non-rivalry is specifically about the absence of reduction upon individual consumption."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'אי-יריבות' (non-rivalry) אומר שצריכת אדם אחד לא מפחיתה (reduce) את הכמות הזמינה לאחרים. זוהי ההגדרה המדויקת של המאפיין הכלכלי.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-295",
+    "difficulty": "hard",
+    "text": "Cognitive load theory holds that working memory has a limited capacity; instructional designers who ignore this constraint risk inducing ________ overload, a state in which learners process so much extraneous information that they cannot form coherent long-term memory traces.",
+    "choices": [
+      "intrinsic motivational",
+      "extraneous cognitive",
+      "affective emotional",
+      "semantic linguistic"
+    ],
+    "answer": 1,
+    "explanation": "Cognitive load theory distinguishes intrinsic load (task complexity), germane load (schema formation), and extraneous cognitive load (unnecessary processing from poor design). The sentence specifies that extraneous information causes the overload, matching 'extraneous cognitive.'",
+    "wrongReasons": [
+      "A 'intrinsic motivational' overload is not a category in cognitive load theory; intrinsic load relates to task complexity, not motivation.",
+      "C 'affective emotional' overload refers to emotional responses, a different psychological construct unrelated to information-processing capacity.",
+      "D 'semantic linguistic' overload is not a technical term in cognitive load theory and misidentifies the source of the processing burden."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: תיאורית עומס קוגניטיבי מבחינה בין עומס פנימי, עומס גרמני ועומס קוגניטיבי חיצוני (extraneous cognitive). המשפט מזכיר 'מידע חיצוני מיותר' — זה מתאים לעומס הקוגניטיבי החיצוני.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-296",
+    "difficulty": "hard",
+    "text": "The tragedy of the commons, as articulated by Garrett Hardin, describes the tendency of shared resources to be ________ when individuals, acting in rational self-interest, each incrementally exploit the resource without accounting for the collective cost of their aggregate consumption.",
+    "choices": [
+      "equitably distributed",
+      "overexploited and depleted",
+      "efficiently managed",
+      "voluntarily preserved"
+    ],
+    "answer": 1,
+    "explanation": "Hardin's tragedy of the commons demonstrates that individually rational exploitation of a shared resource, when aggregated, leads to its overexploitation and depletion — the defining outcome the theory identifies.",
+    "wrongReasons": [
+      "A 'equitably distributed' is the opposite of the commons tragedy; the theory predicts uncoordinated exploitation, not fair distribution.",
+      "C 'efficiently managed' contradicts the theory's core finding — without coordination, shared resources are managed poorly, not efficiently.",
+      "D 'voluntarily preserved' is the outcome Hardin specifically argues does not emerge from rational self-interest without institutional constraints."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: 'טרגדיית הנחלה' מתארת כיצד ניצול אישי רציונלי של משאב משותף מוביל לניצול יתר ודלדול (overexploited and depleted) — זהו הטיעון המרכזי של הרדין.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-297",
+    "difficulty": "hard",
+    "text": "In ancient Egyptian theology, the concept of Ma'at — encompassing truth, justice, and cosmic order — functioned not merely as an abstract moral ideal but as a ________ principle: pharaohs were ritually obligated to uphold it, and the proper functioning of the universe was believed to depend upon its maintenance.",
+    "choices": [
+      "decorative ceremonial",
+      "constitutive cosmic",
+      "optional philosophical",
+      "historically recent"
+    ],
+    "answer": 1,
+    "explanation": "The sentence explains that Ma'at was not abstract but foundational — the universe's functioning depended on it. 'Constitutive cosmic' captures both the formative, necessary role (constitutive) and the cosmological scale (cosmic) of Ma'at in Egyptian theology.",
+    "wrongReasons": [
+      "A 'decorative ceremonial' implies Ma'at was superficial ornamentation, directly contradicted by the sentence's emphasis on its foundational necessity.",
+      "C 'optional philosophical' contradicts 'ritually obligated' — pharaohs were bound to uphold Ma'at, making it compulsory, not optional.",
+      "D 'historically recent' contradicts the ancient and foundational nature of Ma'at in Egyptian civilization."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: מאעת לא הייתה ערך מופשט בלבד — הפרעה היה חייב לקיים אותה, ותפקוד היקום תלוי בה. 'Constitutive cosmic' לוכד את תפקידה היסודי-קוסמי.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-298",
+    "difficulty": "hard",
+    "text": "Theories of gentrification differ as to whether displacement of lower-income residents is an ________ consequence of neighborhood investment or whether policy interventions — such as inclusionary zoning and community land trusts — can attract capital while protecting long-standing communities.",
+    "choices": [
+      "optional and avoidable",
+      "inevitable and irreversible",
+      "immeasurable and irrelevant",
+      "occasional and beneficial"
+    ],
+    "answer": 1,
+    "explanation": "The sentence presents a genuine scholarly debate: one side sees displacement as inevitable and irreversible (structurally determined by market forces), while the other believes policy can mitigate it. 'Inevitable and irreversible' is the position that the second clause seeks to contest.",
+    "wrongReasons": [
+      "A 'optional and avoidable' is too close to the policy-optimist position — the debate is specifically about whether displacement can be avoided, so this cannot be the claim being contested.",
+      "C 'immeasurable and irrelevant' makes no sense as a serious scholarly position; displacement research is a major empirical field.",
+      "D 'occasional and beneficial' would describe displacement as positive and uncommon, which contradicts the serious, contested framing of the debate."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הדיון האקדמי בג'נטריפיקציה נוגע בשאלה האם עקירת תושבים היא בלתי נמנעת ובלתי הפיכה (inevitable and irreversible) — זהו הטיעון שהמדיניות החלופית מנסה לסתור.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-299",
+    "difficulty": "hard",
+    "text": "In comparative religion, scholars debate whether the concept of 'mystical experience' refers to a ________ category — a universal human encounter with the sacred that transcends cultural context — or whether such experiences are always interpreted through, and thus constituted by, the specific doctrinal frameworks of their cultural setting.",
+    "choices": [
+      "purely sociological",
+      "culturally relative",
+      "cross-culturally invariant",
+      "historically documented"
+    ],
+    "answer": 2,
+    "explanation": "The sentence presents a binary: either mystical experience is the same across all cultures (cross-culturally invariant) or it is always shaped by cultural context. 'Cross-culturally invariant' is precisely the term for the universalist position the sentence contrasts against constructivism.",
+    "wrongReasons": [
+      "A 'purely sociological' misidentifies the category — a sociological category would be culturally embedded by definition, which is the opposite position in the debate.",
+      "B 'culturally relative' is the constructivist position being contrasted against, not the universalist position the blank is supposed to fill.",
+      "D 'historically documented' describes empirical record-keeping, irrelevant to the philosophical debate about whether experience is universal or culturally constructed."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הוויכוח בדת השוואתית הוא בין גישה אוניברסליסטית (חוויה מיסטית היא קטגוריה בלתי משתנה על-תרבותית — cross-culturally invariant) לבין גישה קונסטרוקטיביסטית (מעוצבת על ידי תרבות).",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-sl-300",
+    "difficulty": "hard",
+    "text": "Economists studying the political economy of reform note a paradox: the groups most likely to benefit from structural policy changes are often ________ to mobilize in their support, while those who stand to lose concentrated privileges consistently form well-organized opposition, explaining why beneficial reforms frequently stall.",
+    "choices": [
+      "powerfully positioned",
+      "too diffuse and poorly incentivized",
+      "legally prohibited",
+      "strategically motivated"
+    ],
+    "answer": 1,
+    "explanation": "The logic of collective action (Olson's insight) explains why dispersed beneficiaries of reform fail to organize: their individual gains are small and diffuse, creating poor incentives for costly mobilization, while concentrated losers face higher stakes and organize effectively. 'Too diffuse and poorly incentivized' captures this asymmetry precisely.",
+    "wrongReasons": [
+      "A 'powerfully positioned' contradicts the paradox — if beneficiaries were powerful, they would not fail to mobilize and reforms would not stall.",
+      "C 'legally prohibited' introduces a legal barrier not present in the economic argument about collective action logic.",
+      "D 'strategically motivated' implies beneficiaries are organized and purposeful, which is the opposite of the diffuse, under-incentivized group the sentence describes."
+    ],
+    "subType": "sentenceLogic",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["logic", "sentence-completion", "academic-reasoning"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "הסבר: הפרדוקס מבוסס על לוגיקת פעולה קולקטיבית (אולסון): הנהנים מרפורמה הם קבוצה מפוזרת ומוטיבציה נמוכה (too diffuse and poorly incentivized), בעוד המפסידים הם קבוצה ריכוזית ומאורגנת — לכן רפורמות נתקעות.",
+    "estimatedTimeSeconds": 55
+  }
+]

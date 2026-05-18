@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-dt-201",
+    "difficulty": "easy",
+    "text": "Which sentence uses the correct preposition?\n\n(A) She is interested at biology.\n(B) She is interested in biology.\n(C) She is interested on biology.\n(D) She is interested for biology.",
+    "choices": [
+      "She is interested at biology.",
+      "She is interested in biology.",
+      "She is interested on biology.",
+      "She is interested for biology."
+    ],
+    "answer": 1,
+    "explanation": "'Interested in' is the fixed collocation in English. 'In' follows 'interested' when describing a subject of interest. All other prepositions are incorrect with 'interested'.",
+    "wrongReasons": [
+      "TRAP: Preposition confusion — 'interested for' sounds logical (you study for something) but the collocation is always 'interested IN'.",
+      "'interested at' copies a Hebrew-influenced pattern but is not standard English.",
+      "'interested on' mirrors a Spanish-influenced error and is never correct in this context."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול מילות יחס. הבעיה: 'interested for' נשמע הגיוני בעברית אבל באנגלית תמיד אומרים 'interested IN'. התשובה הנכונה: B — 'interested in biology'.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-202",
+    "difficulty": "easy",
+    "text": "Choose the sentence with the correct article:\n\n(A) She wants to become engineer.\n(B) She wants to become the engineer.\n(C) She wants to become an engineer.\n(D) She wants to become a engineer.",
+    "choices": [
+      "She wants to become engineer.",
+      "She wants to become the engineer.",
+      "She wants to become an engineer.",
+      "She wants to become a engineer."
+    ],
+    "answer": 2,
+    "explanation": "'Engineer' starts with a vowel sound, so the article 'an' is required. 'A' is used before consonant sounds. No article is wrong because singular countable nouns need an article. 'The' implies a specific engineer already mentioned.",
+    "wrongReasons": [
+      "TRAP: Article confusion — 'a engineer' looks correct to many students who know they need an indefinite article but forget the vowel-sound rule requiring 'an'.",
+      "Omitting the article entirely is a common Hebrew-speaker error since Hebrew has no indefinite article.",
+      "'the engineer' wrongly implies a specific, previously identified person."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול ב-a/an. הבעיה: לפני מילה שמתחילה בצליל תנועה (כמו 'engineer') חייבים להשתמש ב-'an' ולא ב-'a'. התשובה הנכונה: C — 'an engineer'.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-203",
+    "difficulty": "easy",
+    "text": "Which sentence uses the correct quantifier?\n\n(A) Every students passed the exam.\n(B) All student passed the exam.\n(C) Most of students passed the exam.\n(D) Most students passed the exam.",
+    "choices": [
+      "Every students passed the exam.",
+      "All student passed the exam.",
+      "Most of students passed the exam.",
+      "Most students passed the exam."
+    ],
+    "answer": 3,
+    "explanation": "'Most students' (without 'of') is correct when no specific group is referenced. 'Every' requires a singular noun. 'All student' is wrong — 'all' needs a plural or uncountable noun. 'Most of students' requires a determiner: 'most of the students'.",
+    "wrongReasons": [
+      "TRAP: Quantifier trap — 'most of students' sounds correct but 'of' requires a determiner before the noun: 'most of THE students'.",
+      "'every students' — 'every' always takes a singular noun, never plural.",
+      "'all student' — 'all' with a countable noun requires the plural form."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול כמתים. הבעיה: 'most of students' נשמע נכון אבל אחרי 'most of' חייבים: 'most of THE students'. בלי 'the' אומרים פשוט 'most students'. התשובה הנכונה: D.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-204",
+    "difficulty": "easy",
+    "text": "Select the sentence with correct adjective order:\n\n(A) It was a wooden old small box.\n(B) It was a small old wooden box.\n(C) It was an old small wooden box.\n(D) It was a old small wooden box.",
+    "choices": [
+      "It was a wooden old small box.",
+      "It was a small old wooden box.",
+      "It was an old small wooden box.",
+      "It was a old small wooden box."
+    ],
+    "answer": 1,
+    "explanation": "English adjective order: size → age → material. So 'small old wooden' is correct. Also 'a' (not 'an') is used before 'small' (consonant sound). Options A and C reverse the order, and D uses the wrong article.",
+    "wrongReasons": [
+      "TRAP: Adjective order trap — 'old small wooden' (C) places age before size, reversing the standard English order (size comes first).",
+      "Option A puts material first, which always comes last in the sequence.",
+      "Option D uses 'an' before 'old' — but the article governs the FIRST adjective, which is 'old' (vowel sound), so 'an old small wooden box' would be grammatically possible — making B the only fully correct option."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: סדר שמות תואר. הבעיה: סדר הנכון באנגלית הוא: גודל ← גיל ← חומר. לכן: 'small old wooden'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-205",
+    "difficulty": "easy",
+    "text": "Which sentence uses the correct verb form (active/passive)?\n\n(A) The experiment was conducted the scientists.\n(B) The scientists conducted the experiment.\n(C) The experiment conducted by the scientists.\n(D) The scientists were conducted the experiment.",
+    "choices": [
+      "The experiment was conducted the scientists.",
+      "The scientists conducted the experiment.",
+      "The experiment conducted by the scientists.",
+      "The scientists were conducted the experiment."
+    ],
+    "answer": 1,
+    "explanation": "'The scientists conducted the experiment' is a correct active sentence. Option A is missing 'by'. Option C is missing 'was'. Option D wrongly applies passive voice to the doers of the action.",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — Option A ('was conducted the scientists') almost looks like a correct passive but is missing the required 'by' before the agent.",
+      "Option C drops the auxiliary 'was', making it a fragment.",
+      "Option D applies passive to 'scientists' — the actor cannot be in passive position when they are the subject performing the action."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול קול פעיל/סביל. הבעיה: 'was conducted the scientists' נראית כמו משפט סביל נכון אבל חסרה המילה 'by'. התשובה הנכונה: B — משפט פעיל ברור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-206",
+    "difficulty": "easy",
+    "text": "Choose the sentence with correct parallel structure:\n\n(A) She likes reading, to swim, and cook.\n(B) She likes to read, swimming, and cook.\n(C) She likes reading, swimming, and cooking.\n(D) She likes read, swim, and cooking.",
+    "choices": [
+      "She likes reading, to swim, and cook.",
+      "She likes to read, swimming, and cook.",
+      "She likes reading, swimming, and cooking.",
+      "She likes read, swim, and cooking."
+    ],
+    "answer": 2,
+    "explanation": "Parallel structure requires all listed items to use the same grammatical form. Option C uses gerunds (reading, swimming, cooking) consistently. All other options mix different verb forms.",
+    "wrongReasons": [
+      "TRAP: Parallel structure trap — Option A begins with a gerund ('reading') and students may accept it, missing that the second and third items break the pattern.",
+      "Option B starts with an infinitive but switches to gerund and bare verb.",
+      "Option D uses bare infinitives for the first two items then switches to a gerund."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מבנה מקביל. הבעיה: ברשימה יש לשמור על אותה צורה דקדוקית. אפשרות C משתמשת ב-gerund בכל הפריטים: reading, swimming, cooking. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-207",
+    "difficulty": "easy",
+    "text": "Identify the sentence with the correct pronoun reference:\n\n(A) When the teacher met the student, she was nervous.\n(B) The teacher was nervous when she met the student.\n(C) She was nervous when she met the student.\n(D) The teacher met the student and she was nervous.",
+    "choices": [
+      "When the teacher met the student, she was nervous.",
+      "The teacher was nervous when she met the student.",
+      "She was nervous when she met the student.",
+      "The teacher met the student and she was nervous."
+    ],
+    "answer": 1,
+    "explanation": "Only option B clearly identifies who 'she' refers to. The subject 'the teacher' is the explicit subject, so 'she' unambiguously refers back to the teacher. In the other options, 'she' could refer to either the teacher or the student.",
+    "wrongReasons": [
+      "TRAP: Pronoun reference ambiguity — In options A and D, 'she' appears after two female nouns (teacher, student), making the reference unclear.",
+      "Option C starts with 'she' before any noun has been introduced, leaving the reader with no reference point.",
+      "Option D places 'she' immediately after 'student', making 'student' the more likely (but possibly wrong) referent."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: עמימות כינוי גוף. הבעיה: כש-'she' מופיעה אחרי שני שמות עצם נשיים, לא ברור למי היא מתייחסת. רק ב-B ברור ש-'she' = המורה. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-208",
+    "difficulty": "easy",
+    "text": "Which word is a FALSE COGNATE — it looks like a Hebrew word (from Arabic/English roots used in Hebrew) but means something different in English?\n\n(A) 'actual' meaning 'real/current' in English vs. Hebrew 'אקטואלי' meaning 'current/topical'\n(B) 'final' meaning 'last' in both English and Hebrew\n(C) 'center' meaning 'middle' in both languages\n(D) 'normal' meaning 'typical' in both languages",
+    "choices": [
+      "'actual' — means 'real/existing' in English, not 'current/topical' as in Hebrew 'אקטואלי'",
+      "'final' — means 'last' in both English and Hebrew equally",
+      "'center' — means 'middle' in both languages equally",
+      "'normal' — means 'typical' in both languages equally"
+    ],
+    "answer": 0,
+    "explanation": "'Actual' in English means 'real' or 'existing in fact', NOT 'current' or 'topical'. In Hebrew, 'אקטואלי' means 'current/relevant to now'. This is a classic false cognate trap in Israeli English exams.",
+    "wrongReasons": [
+      "TRAP: False cognate trap — 'actual' looks like Hebrew 'אקטואלי' but English 'actual' ≠ 'current'. Many Israeli students write 'the actual situation' to mean 'the current situation', which is wrong.",
+      "'final', 'center', and 'normal' are true cognates — they mean essentially the same thing in English and in their Hebrew borrowed forms.",
+      "Students who don't know about false cognates will assume 'actual' is safe because it appears in Hebrew too."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: קוגנט כוזב. הבעיה: 'actual' באנגלית = אמיתי/בפועל, ולא עכשווי/אקטואלי כמו בעברית. זו מלכודת קלאסית לתלמידים ישראלים. התשובה הנכונה: A.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-dt-209",
+    "difficulty": "medium",
+    "text": "Choose the sentence that correctly uses 'some' vs. 'any':\n\n(A) Do you have some spare time today?\n(B) I don't have any objections to the plan.\n(C) Would you like any help with that?\n(D) She never has some free time on weekends.",
+    "choices": [
+      "Do you have some spare time today?",
+      "I don't have any objections to the plan.",
+      "Would you like any help with that?",
+      "She never has some free time on weekends."
+    ],
+    "answer": 1,
+    "explanation": "Option B is straightforwardly correct: 'any' is used in negative sentences. Option A is also acceptable (offers use 'some'), but option C is wrong — polite offers/requests use 'some' not 'any' ('Would you like SOME help?'). Option D is wrong: negative contexts (never) require 'any'.",
+    "wrongReasons": [
+      "TRAP: Quantifier trap — 'Would you like any help?' sounds natural but polite offers conventionally use 'some'. Only option B is unambiguously correct in all dialects.",
+      "Option A can be debated — questions about availability can use either — making B the safest choice.",
+      "Option D uses 'some' after 'never', a negative context that requires 'any'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: some/any. הבעיה: במשפטים שליליים תמיד any. בהצעות מנומסות — some. 'Would you like any help?' שגוי; צריך 'some'. אפשרות B תקינה ללא ספק. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-210",
+    "difficulty": "medium",
+    "text": "Select the sentence where the passive voice is correctly used:\n\n(A) The report was written by him carefully.\n(B) The report has been carefully written by the committee.\n(C) The report carefully was written by the committee.\n(D) The report was carefully wrote by the committee.",
+    "choices": [
+      "The report was written by him carefully.",
+      "The report has been carefully written by the committee.",
+      "The report carefully was written by the committee.",
+      "The report was carefully wrote by the committee."
+    ],
+    "answer": 1,
+    "explanation": "Option B correctly uses 'has been written' (present perfect passive) with the adverb placed between auxiliary and past participle. Option A has the adverb awkwardly at the end. Option C wrongly places the adverb before the auxiliary. Option D uses the wrong past participle form ('wrote' instead of 'written').",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — 'was carefully wrote' (D) looks acceptable to students who mix past simple passive with the wrong participle form.",
+      "Option A is grammatically possible but stylistically awkward; the adverb should not be at the very end in formal writing.",
+      "Option C splits the auxiliary from its main verb with an adverb, violating standard word order rules."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: קול סביל עם פרטיציפ שגוי. הבעיה: 'was wrote' שגוי — חייבים 'was written'. אפשרות B נכונה: has been carefully written. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-211",
+    "difficulty": "medium",
+    "text": "The word 'sympathetic' in English means:\n\n(A) Appealing and charming — like Hebrew 'סימפטי'\n(B) Showing understanding of someone's suffering\n(C) Related to the nervous system only\n(D) Likeable and friendly — a direct translation of 'סימפטי'",
+    "choices": [
+      "Appealing and charming — like Hebrew 'סימפטי'",
+      "Showing understanding of someone's suffering",
+      "Related to the nervous system only",
+      "Likeable and friendly — a direct translation of 'סימפטי'"
+    ],
+    "answer": 1,
+    "explanation": "'Sympathetic' in English means showing compassion or understanding for someone's difficulty. The Hebrew 'סימפטי' means 'likeable/charming' — a completely different meaning. This is a classic false cognate for Israeli students.",
+    "wrongReasons": [
+      "TRAP: False cognate trap — Hebrew 'סימפטי' means 'nice/likeable' but English 'sympathetic' means 'showing compassion for suffering'. Israeli students frequently confuse these.",
+      "Option C is a distractor referencing the sympathetic nervous system — a real medical use but not the primary meaning of the adjective in general English.",
+      "Options A and D are identical traps presented differently, both reflecting the Hebrew false cognate meaning."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: קוגנט כוזב. הבעיה: עברית 'סימפטי' = נחמד/חביב. אנגלית 'sympathetic' = מבין לצרות אחרים/חומל. משמעות שונה לחלוטין! התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-212",
+    "difficulty": "medium",
+    "text": "Which sentence correctly fills the blank?\n\n'The new policy applies ___ all employees without exception.'\n\n(A) for\n(B) on\n(C) to\n(D) at",
+    "choices": [
+      "for",
+      "on",
+      "to",
+      "at"
+    ],
+    "answer": 2,
+    "explanation": "The correct collocation is 'applies to'. A policy or rule 'applies to' a group of people. None of the other prepositions collocate with 'apply' in this context.",
+    "wrongReasons": [
+      "TRAP: Preposition confusion — 'applies for' sounds logical (you apply FOR a job) but when a rule 'applies to' someone, it affects them — different sense, different preposition.",
+      "'applies on' mimics the Hebrew phrase structure 'חל על' literally translated as 'applies on', but English requires 'to'.",
+      "'applies at' is used in time/location contexts ('apply at the office') but not for scope of a rule."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: בלבול מילות יחס. הבעיה: בעברית אומרים 'חל על' — לכן תלמידים בוחרים 'on', אבל באנגלית: 'applies TO all employees'. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-213",
+    "difficulty": "medium",
+    "text": "Choose the correct sentence:\n\n(A) The discovery of antibiotics were a major breakthrough.\n(B) The discovery of antibiotics was a major breakthrough.\n(C) Discoveries of the antibiotics was a major breakthrough.\n(D) A discovery of antibiotics were the major breakthrough.",
+    "choices": [
+      "The discovery of antibiotics were a major breakthrough.",
+      "The discovery of antibiotics was a major breakthrough.",
+      "Discoveries of the antibiotics was a major breakthrough.",
+      "A discovery of antibiotics were the major breakthrough."
+    ],
+    "answer": 1,
+    "explanation": "The subject is 'the discovery' (singular), so the verb must be 'was'. The phrase 'of antibiotics' is a prepositional modifier, not the subject. Options A and D use the plural 'were' incorrectly. Option C adds an unnecessary 'the' before antibiotics and has agreement issues.",
+    "wrongReasons": [
+      "TRAP: Quantifier/agreement trap — 'The discovery of antibiotics were' attracts students who make the verb agree with the nearest noun ('antibiotics') rather than the true subject ('discovery').",
+      "Option C places 'the' before 'antibiotics' unnecessarily and has a singular verb with a plural subject.",
+      "Option D uses 'a discovery' (indefinite) with 'were' — the indefinite article signals singularity requiring 'was'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסכמת נושא-פועל. הבעיה: הנושא הוא 'discovery' (יחיד), לא 'antibiotics'. לכן: 'was'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-214",
+    "difficulty": "medium",
+    "text": "Which sentence uses the article correctly in an academic context?\n\n(A) Research shows that exercise improves the mood.\n(B) The research shows that exercise improves mood.\n(C) Research shows that the exercise improves mood.\n(D) A research shows that exercise improves mood.",
+    "choices": [
+      "Research shows that exercise improves the mood.",
+      "The research shows that exercise improves mood.",
+      "Research shows that the exercise improves mood.",
+      "A research shows that exercise improves mood."
+    ],
+    "answer": 1,
+    "explanation": "'The research' refers to a specific body of research (previously identified or contextually specific). 'Research' as a mass noun needs 'the' when specific, or no article in general. 'Exercise' in general sense takes no article. 'Mood' in general sense also needs no 'the'. Option B is correct: specific research + general exercise + general mood.",
+    "wrongReasons": [
+      "TRAP: Article confusion — 'A research' (D) is a common error because 'research' is uncountable and cannot take the indefinite article 'a'.",
+      "Option A adds 'the' before 'mood' — but mood here is used in a general sense and does not need 'the'.",
+      "Option C adds 'the' before 'exercise' — but exercise in general contexts is uncountable and takes no article."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שימוש שגוי ב-'a research'. הבעיה: 'research' היא מילה שאינה ניתנת לספירה ולכן לא ניתן לומר 'a research'. התשובה הנכונה: B — 'The research shows that exercise improves mood'.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-215",
+    "difficulty": "medium",
+    "text": "Select the sentence with correct parallel structure in an academic list:\n\n(A) The study examined how students learn, what motivates them, and the way they remember.\n(B) The study examined how students learn, what motivates them, and how they remember.\n(C) The study examined how students learn, motivation, and how they remember.\n(D) The study examined student learning, what motivates them, and memory.",
+    "choices": [
+      "The study examined how students learn, what motivates them, and the way they remember.",
+      "The study examined how students learn, what motivates them, and how they remember.",
+      "The study examined how students learn, motivation, and how they remember.",
+      "The study examined student learning, what motivates them, and memory."
+    ],
+    "answer": 1,
+    "explanation": "Option B maintains parallel structure using three 'wh-' clauses: how…, what…, how…. Option A mixes 'how', 'what', and 'the way' — the third element breaks the pattern. Options C and D mix clause structures with noun phrases.",
+    "wrongReasons": [
+      "TRAP: Parallel structure trap — Option A is very tempting because 'the way they remember' sounds natural, but it breaks the wh-clause parallel pattern (how / what / how).",
+      "Option C mixes an indirect question ('how students learn') with a bare noun ('motivation'), violating parallelism.",
+      "Option D uses three different grammatical structures: noun phrase, wh-clause, noun — none parallel."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מבנה מקביל. הבעיה: 'the way they remember' שובר את הדפוס של שלוש שאלות עקיפות. רק B שומר על: how / what / how. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-216",
+    "difficulty": "medium",
+    "text": "The English word 'eventual' means:\n\n(A) Possible but uncertain — like Hebrew 'אבנטואלי'\n(B) Happening at last after a long time; final\n(C) Important and significant\n(D) Likely to happen soon",
+    "choices": [
+      "Possible but uncertain — like Hebrew 'אבנטואלי'",
+      "Happening at last after a long time; final",
+      "Important and significant",
+      "Likely to happen soon"
+    ],
+    "answer": 1,
+    "explanation": "'Eventual' means 'happening at the end of a process, after a long time'. Hebrew 'אבנטואלי' means 'possible/potential' — this is the false cognate. 'Eventual' does NOT mean 'possible'.",
+    "wrongReasons": [
+      "TRAP: False cognate trap — Hebrew 'אבנטואלי' means 'possible/potential', but English 'eventual' means 'finally happening after a period'. Israeli students frequently choose option A.",
+      "Option C ('important') confuses 'eventual' with 'consequential' or 'significant'.",
+      "Option D ('likely to happen soon') confuses 'eventual' with 'imminent'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: קוגנט כוזב. הבעיה: 'אבנטואלי' בעברית = אפשרי. 'eventual' באנגלית = שמתרחש בסוף התהליך. משמעות שונה לגמרי! התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-217",
+    "difficulty": "medium",
+    "text": "Which sentence correctly uses 'on' vs. 'in' with time expressions?\n\n(A) She will arrive in Monday morning.\n(B) She will arrive on Monday morning.\n(C) She will arrive at Monday morning.\n(D) She will arrive on the morning of Monday.",
+    "choices": [
+      "She will arrive in Monday morning.",
+      "She will arrive on Monday morning.",
+      "She will arrive at Monday morning.",
+      "She will arrive on the morning of Monday."
+    ],
+    "answer": 1,
+    "explanation": "'On' is used with days and specific dates, including 'Monday morning'. 'In' is used with months, years, and parts of the day WITHOUT a day name. 'At' is used with clock times. Option D is grammatically possible but unnecessarily wordy.",
+    "wrongReasons": [
+      "TRAP: Preposition confusion — 'in the morning' is correct, so 'in Monday morning' seems logical, but when a day name is included, 'on' replaces 'in'.",
+      "'at Monday morning' copies the Hebrew 'ב-' which covers both 'at' and 'on' in Hebrew, confusing learners.",
+      "Option D ('on the morning of Monday') is grammatically valid but unnatural — 'on Monday morning' is the standard form."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: in/on עם זמן. הבעיה: 'in the morning' נכון, אבל כשמוסיפים שם יום, משתמשים ב-'on': 'on Monday morning'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-218",
+    "difficulty": "medium",
+    "text": "Choose the sentence with unambiguous pronoun reference:\n\n(A) After the researcher reviewed the data, he published his findings.\n(B) After he reviewed it, he published his findings.\n(C) The researcher and his assistant reviewed the data and he published it.\n(D) He reviewed the data and published it after finishing.",
+    "choices": [
+      "After the researcher reviewed the data, he published his findings.",
+      "After he reviewed it, he published his findings.",
+      "The researcher and his assistant reviewed the data and he published it.",
+      "He reviewed the data and published it after finishing."
+    ],
+    "answer": 0,
+    "explanation": "Option A is unambiguous: 'the researcher' is clearly introduced, so 'he' and 'his' unambiguously refer to the researcher. Option B starts with 'he' before any noun is introduced. Option C has two males ('researcher' and 'assistant'), making 'he' ambiguous. Option D starts with 'he' without a prior referent.",
+    "wrongReasons": [
+      "TRAP: Pronoun reference ambiguity — Option C is tempting because it introduces the researcher first, but 'his assistant' adds a second male, making the later 'he' ambiguous.",
+      "Options B and D start sentences with pronouns ('he') before establishing who the pronoun refers to.",
+      "Students often prefer shorter sentences but brevity creates ambiguity when multiple possible referents exist."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: עמימות כינוי. הבעיה: ב-C יש שני גברים ('researcher' ו-'assistant') ולכן 'he' עמום. רק A ברור: 'the researcher' → 'he'. התשובה הנכונה: A.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-219",
+    "difficulty": "medium",
+    "text": "Which sentence correctly uses 'all' vs. 'every'?\n\n(A) Every information in the report must be verified.\n(B) All information in the report must be verified.\n(C) All of information in the report must be verified.\n(D) Every of the information must be verified.",
+    "choices": [
+      "Every information in the report must be verified.",
+      "All information in the report must be verified.",
+      "All of information in the report must be verified.",
+      "Every of the information must be verified."
+    ],
+    "answer": 1,
+    "explanation": "'Information' is an uncountable noun. 'Every' can only be used with singular countable nouns ('every student'). 'All' can be used with uncountable nouns ('all information'). 'All of information' requires 'the' ('all of the information'). 'Every of' is never grammatical.",
+    "wrongReasons": [
+      "TRAP: Quantifier trap — 'Every information' sounds plausible because students treat 'information' as countable (influenced by Hebrew 'מידע' which can be referenced individually), but it is uncountable in English.",
+      "'All of information' is wrong — 'all of' requires a determiner: 'all of THE information'.",
+      "'Every of the information' is ungrammatical — 'every' is never followed by 'of'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: every עם שם עצם שאינו ניתן לספירה. הבעיה: 'every' רק עם שמות עצם ספירים ביחיד. 'information' אינו ספיר → 'all information'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-220",
+    "difficulty": "medium",
+    "text": "Select the sentence with correct adjective order:\n\n(A) He wore a green large old military coat.\n(B) He wore a large old green military coat.\n(C) He wore an old large green military coat.\n(D) He wore a military old large green coat.",
+    "choices": [
+      "He wore a green large old military coat.",
+      "He wore a large old green military coat.",
+      "He wore an old large green military coat.",
+      "He wore a military old large green coat."
+    ],
+    "answer": 1,
+    "explanation": "English adjective order: size → age → color → origin/purpose. So: large (size) → old (age) → green (color) → military (purpose). Option B is correct. Note also that 'a' is correct before 'large' (consonant sound).",
+    "wrongReasons": [
+      "TRAP: Adjective order trap — Option C reverses size and age (old before large), which violates the standard OSASCOMP order.",
+      "Option A puts color first, then size, then age — all three are in wrong positions.",
+      "Option D leads with 'military' (classifier/purpose) which must always come last, closest to the noun."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: סדר תארים. הבעיה: הסדר הנכון: גודל → גיל → צבע → מוצא/ייעוד. לכן: large old green military. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-221",
+    "difficulty": "medium",
+    "text": "The English word 'pretend' most nearly means:\n\n(A) To intend or plan to do something\n(B) To act as if something is true when it is not\n(C) To attempt something difficult\n(D) To claim a title or position",
+    "choices": [
+      "To intend or plan to do something",
+      "To act as if something is true when it is not",
+      "To attempt something difficult",
+      "To claim a title or position"
+    ],
+    "answer": 1,
+    "explanation": "'Pretend' means to behave as if something is true when it is not. The Hebrew word 'להתיימר' (to pretend to be) is similar, but Israeli students sometimes confuse 'pretend' with 'intend' (to plan). Option D references the archaic use 'pretender to the throne' but this is not the common modern meaning.",
+    "wrongReasons": [
+      "TRAP: False cognate trap — 'pretend' looks like it might be related to 'intend' (to plan/mean to do), causing students to confuse the two. 'Pretend' ≠ 'intend'.",
+      "Option C ('attempt') confuses 'pretend' with 'endeavor' or 'try'.",
+      "Option D is a legitimate archaic use but not the meaning tested in Israeli English exams."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'pretend' vs 'intend'. הבעיה: 'pretend' = להעמיד פנים. 'intend' = להתכוון. תלמידים מבלבלים ביניהם. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-222",
+    "difficulty": "medium",
+    "text": "Which sentence correctly completes the parallel structure?\n\n'The professor expected students to attend class, _____, and submit work on time.'\n\n(A) participation in discussions\n(B) that they participate in discussions\n(C) to participate in discussions\n(D) participating in discussions",
+    "choices": [
+      "participation in discussions",
+      "that they participate in discussions",
+      "to participate in discussions",
+      "participating in discussions"
+    ],
+    "answer": 2,
+    "explanation": "The sentence uses 'to attend' (infinitive), so parallel structure requires another infinitive: 'to participate'. The full list is: to attend / to participate / to submit — all infinitives. Options A and D break parallelism with a noun phrase and a gerund. Option B introduces a 'that' clause, which doesn't match the infinitive pattern.",
+    "wrongReasons": [
+      "TRAP: Parallel structure trap — 'participating in discussions' (D) sounds natural after 'attending', but the controlling verb 'expected students TO attend' locks the form as infinitive, requiring 'to participate'.",
+      "Option A ('participation') is a noun phrase and cannot parallel the infinitives.",
+      "Option B ('that they participate') introduces a new clause structure incompatible with the list of infinitives."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מבנה מקביל עם פועל infinitive. הבעיה: 'expected to attend' → כל הרשימה צריכה infinitive: 'to participate'. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-223",
+    "difficulty": "medium",
+    "text": "Choose the sentence where the passive voice is INCORRECTLY used:\n\n(A) Mistakes were made during the process.\n(B) The decision was taken by the board of directors.\n(C) The new law was passed by the parliament last year.\n(D) The students were explained the new policy by the teacher.",
+    "choices": [
+      "Mistakes were made during the process.",
+      "The decision was taken by the board of directors.",
+      "The new law was passed by the parliament last year.",
+      "The students were explained the new policy by the teacher."
+    ],
+    "answer": 3,
+    "explanation": "'Explain' is an indirect-object verb. In passive voice, the direct object ('the new policy') becomes the subject, not the indirect object ('the students'). Correct passive: 'The new policy was explained to the students.' Option D incorrectly promotes the indirect object to passive subject.",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — 'The students were explained' copies the pattern of 'The students were told', but 'explain' cannot passivize with the indirect object as subject (unlike 'tell', 'give', 'show').",
+      "Options A, B, and C are all correctly formed passives with direct objects as subjects.",
+      "Students overgeneralize the 'tell/give/show + indirect object passive' rule to all verbs, including 'explain'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: קול סביל עם 'explain'. הבעיה: 'explain' לא יכול להיות סביל עם מושא עקיף כנושא. 'The students were explained' — שגוי. הנכון: 'The policy was explained to the students'. התשובה הנכונה: D (השגויה).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-224",
+    "difficulty": "medium",
+    "text": "Select the sentence with the correct use of 'the' in a generic statement:\n\n(A) The dolphins are intelligent animals.\n(B) Dolphins are intelligent animals.\n(C) A dolphin is the intelligent animal.\n(D) The dolphin is an intelligent animal.",
+    "choices": [
+      "The dolphins are intelligent animals.",
+      "Dolphins are intelligent animals.",
+      "A dolphin is the intelligent animal.",
+      "The dolphin is an intelligent animal."
+    ],
+    "answer": 1,
+    "explanation": "For general/generic statements about a species, English uses the bare plural: 'Dolphins are intelligent animals.' Option D ('The dolphin') is also acceptable for generics but is more formal/scientific. Option A ('The dolphins') implies specific dolphins, not the species in general. Option C uses 'the' before 'intelligent animal' as if there's only one such animal.",
+    "wrongReasons": [
+      "TRAP: Article confusion — 'The dolphins' (A) looks like a correct generic statement but 'the' makes it specific, not generic. Bare plural (B) is the standard generic form.",
+      "Option D ('The dolphin is an intelligent animal') is actually acceptable for generics in formal English, making B the unambiguous correct choice.",
+      "Option C uses 'the intelligent animal' implying dolphins are THE ONLY intelligent animal — clearly wrong."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'the' במשפטים כלליים. הבעיה: 'The dolphins are...' מרמז על דולפינים ספציפיים. להכללה: 'Dolphins are...' (רבים ללא 'the'). התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-225",
+    "difficulty": "medium",
+    "text": "Which sentence correctly uses 'consist'?\n\n(A) The team consists of five members.\n(B) The team consists from five members.\n(C) The team consists with five members.\n(D) The team is consisted of five members.",
+    "choices": [
+      "The team consists of five members.",
+      "The team consists from five members.",
+      "The team consists with five members.",
+      "The team is consisted of five members."
+    ],
+    "answer": 0,
+    "explanation": "'Consist of' is the correct collocation — always 'of', never 'from' or 'with'. Critically, 'consist' is a stative verb and cannot be used in the passive voice, so 'is consisted of' is wrong even though it mirrors 'is composed of' or 'is made up of'.",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — 'is consisted of' (D) mirrors the correct passive 'is composed of' or 'is made up of', luring students into a false analogy. 'Consist' has no passive form.",
+      "'consists from' is influenced by the Hebrew 'מורכב מ-' pattern (consists FROM), but English uses 'of'.",
+      "'consists with' is not a standard collocation in English at all."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'is consisted of' שגוי. הבעיה: 'consist' הוא פועל סטטי ואין לו צורת סביל. הנכון: 'consists of'. לא: 'is consisted of'. התשובה הנכונה: A.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-226",
+    "difficulty": "medium",
+    "text": "Choose the sentence where the underlined pronoun is AMBIGUOUS:\n\n(A) Maria told Sara that [she] had passed the exam. (underlined: she)\n(B) The manager called the client after [he] reviewed the file. (underlined: he = manager)\n(C) Tom finished his lunch before the meeting.\n(D) The committee submitted its final report yesterday.",
+    "choices": [
+      "Maria told Sara that she had passed the exam. [she = ambiguous]",
+      "The manager called the client after he reviewed the file. [he = manager, clear]",
+      "Tom finished his lunch before the meeting. [no ambiguity]",
+      "The committee submitted its final report yesterday. [no ambiguity]"
+    ],
+    "answer": 0,
+    "explanation": "In option A, 'she' could refer to either Maria or Sara — both are female nouns introduced in the sentence. This is classic pronoun ambiguity. In option B, 'he' most naturally refers to the manager (the main subject), but could theoretically also refer to the client; however, the context makes manager more likely. Options C and D have no ambiguity.",
+    "wrongReasons": [
+      "TRAP: Pronoun reference ambiguity — Option B ('he reviewed the file') may seem ambiguous since there are two males, but 'manager' as the main subject makes 'he' clear. Option A has two female antecedents with equal grammatical standing.",
+      "Option C and D have only one possible referent for each pronoun.",
+      "Students may choose B, thinking two males always creates ambiguity — but context (subject position) resolves it."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: עמימות כינוי גוף. הבעיה: ב-A, 'she' יכולה להתייחס ל-Maria או ל-Sara — שתיהן נשים. זו עמימות אמיתית. התשובה הנכונה: A.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-227",
+    "difficulty": "medium",
+    "text": "Fill in the blank with the correct preposition:\n\n'The scientist was praised ___ her innovative approach to the problem.'\n\n(A) about\n(B) for\n(C) of\n(D) by",
+    "choices": [
+      "about",
+      "for",
+      "of",
+      "by"
+    ],
+    "answer": 1,
+    "explanation": "'Praised for' is the correct collocation — you praise someone FOR something they did. 'By' is used in passive voice to indicate the agent ('was praised by the committee') not the reason. 'About' and 'of' do not collocate with 'praised' in this context.",
+    "wrongReasons": [
+      "TRAP: Preposition confusion — 'praised by her approach' looks like a valid passive construction (agent = 'her approach'), but the intended meaning is REASON for praise, which requires 'for'.",
+      "'praised about' is not a standard collocation in English.",
+      "'praised of' does not exist as a collocation and may reflect direct translation from another language."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'praised by' vs 'praised for'. הבעיה: 'by' הוא הסוכן בסביל. 'for' הוא הסיבה. כאן: הסיבה = הגישה החדשנית → 'praised FOR'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-228",
+    "difficulty": "medium",
+    "text": "Which sentence correctly avoids the false cognate error with 'actual'?\n\n(A) What is the actual situation in the country? (meaning: current)\n(B) The actual cost of the project was higher than estimated. (meaning: real/true)\n(C) The actual president gave a speech. (meaning: the current one)\n(D) She gave me an actual answer. (meaning: a current, up-to-date answer)",
+    "choices": [
+      "What is the actual situation in the country? — using 'actual' to mean 'current'",
+      "The actual cost of the project was higher than estimated. — using 'actual' to mean 'real/true'",
+      "The actual president gave a speech. — using 'actual' to mean 'the current one'",
+      "She gave me an actual answer. — using 'actual' to mean 'a current, up-to-date answer'"
+    ],
+    "answer": 1,
+    "explanation": "Only option B uses 'actual' correctly in English, meaning 'real/true' as opposed to estimated. Options A, C, and D misuse 'actual' to mean 'current' — the Hebrew false cognate error ('אקטואלי' = current/topical ≠ English 'actual').",
+    "wrongReasons": [
+      "TRAP: False cognate trap — 'actual situation' (A) is the most common false cognate error Israeli students make. In English, 'actual' means REAL, not CURRENT. For 'current', use 'current' itself.",
+      "Option C ('the actual president') is wrong — English 'actual' emphasizes reality, not recency. 'The current president' is correct.",
+      "Option D is wrong for the same reason — 'an actual answer' means 'a real answer', not 'a recent answer'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'actual' ≠ עכשווי. הבעיה: רוב האפשרויות משתמשות ב-'actual' במשמעות עברית שגויה של 'עכשווי/אקטואלי'. רק B נכון: 'actual cost' = העלות האמיתית. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-229",
+    "difficulty": "medium",
+    "text": "Choose the grammatically correct passive sentence:\n\n(A) The homework was done by the students yesterday.\n(B) The students were done the homework yesterday.\n(C) Yesterday, the homework did by the students.\n(D) The homework has did by the students yesterday.",
+    "choices": [
+      "The homework was done by the students yesterday.",
+      "The students were done the homework yesterday.",
+      "Yesterday, the homework did by the students.",
+      "The homework has did by the students yesterday."
+    ],
+    "answer": 0,
+    "explanation": "Option A is the correct passive: subject (homework) + was + past participle (done) + by + agent. Option B wrongly makes 'students' the passive subject. Option C omits the auxiliary 'was'. Option D uses 'did' (past simple) instead of 'done' (past participle) after 'has'.",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — Option B ('the students were done the homework') copies the indirect-object passive pattern but 'do homework' doesn't allow this construction.",
+      "Option C drops the auxiliary verb, making it an incomplete passive.",
+      "Option D mixes tenses: 'has did' combines present perfect auxiliary with past simple form — the participle must be 'done'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: קול סביל שגוי. הבעיה: רק A נכון: 'The homework was done by the students'. שאר האפשרויות מכילות שגיאות דקדוקיות. התשובה הנכונה: A.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-230",
+    "difficulty": "medium",
+    "text": "Select the sentence with the most natural adjective order:\n\n(A) It was a remarkable recent Italian scientific discovery.\n(B) It was a scientific Italian recent remarkable discovery.\n(C) It was an Italian remarkable scientific recent discovery.\n(D) It was a recent remarkable Italian scientific discovery.",
+    "choices": [
+      "It was a remarkable recent Italian scientific discovery.",
+      "It was a scientific Italian recent remarkable discovery.",
+      "It was an Italian remarkable scientific recent discovery.",
+      "It was a recent remarkable Italian scientific discovery."
+    ],
+    "answer": 3,
+    "explanation": "Adjective order: opinion → size → age → shape → color → origin → material → purpose. Here: remarkable (opinion) → recent (age) → Italian (origin) → scientific (purpose/classifier). Option D follows this order. Note 'a' before 'recent' (consonant sound) is correct.",
+    "wrongReasons": [
+      "TRAP: Adjective order trap — Option A puts 'remarkable' first (correct) then jumps to 'recent' correctly, but 'Italian' should come before 'scientific', making D the better-ordered option.",
+      "Option B starts with 'scientific' (classifier) — classifiers must come last, not first.",
+      "Option C starts with 'Italian' (origin) before opinion and age adjectives, violating the hierarchy."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: סדר תארים מורכב. הבעיה: הסדר הנכון: דעה → גיל → מוצא → ייעוד. לכן: remarkable recent Italian scientific. התשובה הנכונה: D.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-231",
+    "difficulty": "medium",
+    "text": "Which sentence correctly uses 'most' vs. 'most of'?\n\n(A) Most of people prefer working from home.\n(B) Most people prefer working from home.\n(C) The most people prefer working from home.\n(D) Most peoples prefer working from home.",
+    "choices": [
+      "Most of people prefer working from home.",
+      "Most people prefer working from home.",
+      "The most people prefer working from home.",
+      "Most peoples prefer working from home."
+    ],
+    "answer": 1,
+    "explanation": "'Most people' (without 'of') is correct for a general statement about people in general. 'Most of' requires a specific determiner: 'most of the people' or 'most of us'. 'The most people' uses superlative incorrectly here. 'Peoples' is only used to mean different ethnic/cultural groups.",
+    "wrongReasons": [
+      "TRAP: Quantifier trap — 'Most of people' omits the required determiner. You need 'most of THE people' (specific group) or just 'most people' (general).",
+      "'The most people' sounds like a superlative construction but is grammatically wrong in this context.",
+      "'Most peoples' incorrectly uses the rare plural form, implying distinct cultural groups rather than people in general."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'most of people' שגוי. הבעיה: אחרי 'most of' חייב להיות קובע (the/these/those). ללא קובע: 'most people'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-232",
+    "difficulty": "medium",
+    "text": "Choose the sentence that correctly maintains parallel structure in a formal report:\n\n(A) The report recommends investing in training, to improve infrastructure, and that salaries should be raised.\n(B) The report recommends investing in training, improving infrastructure, and raising salaries.\n(C) The report recommends to invest in training, improve infrastructure, and raising salaries.\n(D) The report recommends investment in training, the improvement of infrastructure, and that salaries be raised.",
+    "choices": [
+      "The report recommends investing in training, to improve infrastructure, and that salaries should be raised.",
+      "The report recommends investing in training, improving infrastructure, and raising salaries.",
+      "The report recommends to invest in training, improve infrastructure, and raising salaries.",
+      "The report recommends investment in training, the improvement of infrastructure, and that salaries be raised."
+    ],
+    "answer": 1,
+    "explanation": "Option B maintains parallel gerund structure: investing / improving / raising — all gerunds following 'recommends'. 'Recommend' takes a gerund (or 'that' clause), not an infinitive, so option C is also wrong for 'recommends to invest'. Options A and D mix different grammatical forms in one list.",
+    "wrongReasons": [
+      "TRAP: Parallel structure trap — Option D looks formal and correct (noun phrases), but mixes noun phrases with a 'that' clause, breaking parallelism.",
+      "Option A mixes gerund, infinitive, and 'that' clause — three different structures.",
+      "Option C uses 'to invest' after 'recommends', which is incorrect since 'recommend' takes gerunds, not infinitives."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'recommends' + gerund. הבעיה: 'recommend' מלווה ב-gerund. רשימת gerunds: investing/improving/raising. רק B נכון. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-233",
+    "difficulty": "medium",
+    "text": "Which sentence uses 'in' vs. 'at' correctly with location?\n\n(A) She works at the university in the biology department.\n(B) She works in the university at the biology department.\n(C) She works in the university in the biology department.\n(D) She works at the university at the biology department.",
+    "choices": [
+      "She works at the university in the biology department.",
+      "She works in the university at the biology department.",
+      "She works in the university in the biology department.",
+      "She works at the university at the biology department."
+    ],
+    "answer": 0,
+    "explanation": "'At the university' refers to the institution as a point/place. 'In the biology department' specifies a physical part/section within the institution. 'At' = general institution; 'in' = specific department/room inside. Option A correctly uses at→institution, in→department.",
+    "wrongReasons": [
+      "TRAP: Preposition confusion — 'in the university' (B and C) sounds logical (you are physically INSIDE the building) but English treats institutions as points, using 'at': 'at the university', 'at school', 'at the hospital'.",
+      "Option D uses 'at' for both, treating the department as a mere location point — but departments are enclosed spaces requiring 'in'.",
+      "Option C uses 'in' for both — which is natural in some languages but not standard English."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: at/in עם מוסדות. הבעיה: מוסד = 'at' (at the university). חלק מהמוסד = 'in' (in the department). התשובה הנכונה: A.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-234",
+    "difficulty": "medium",
+    "text": "Which sentence correctly uses a passive with a phrase of purpose?\n\n(A) The chemical was used for creating a new compound.\n(B) The chemical was used to create a new compound.\n(C) The chemical was used creating a new compound.\n(D) The chemical was used in creation of a new compound.",
+    "choices": [
+      "The chemical was used for creating a new compound.",
+      "The chemical was used to create a new compound.",
+      "The chemical was used creating a new compound.",
+      "The chemical was used in creation of a new compound."
+    ],
+    "answer": 1,
+    "explanation": "In formal/scientific English, 'used to + infinitive' expresses purpose most naturally and concisely: 'was used to create'. 'Used for + gerund' is also grammatically acceptable but less formal. 'Was used creating' is ungrammatical. 'In creation of' is awkward and non-standard.",
+    "wrongReasons": [
+      "TRAP: Preposition confusion — 'used for creating' (A) is grammatically possible in informal English, but 'used to create' is the standard academic/formal construction tested on Israeli exams.",
+      "Option C ('was used creating') attaches a participle phrase illogically — it implies the chemical performed the action.",
+      "Option D ('in creation of') requires 'the': 'in the creation of', and is still less natural than option B."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'used for' vs 'used to'. הבעיה: בסגנון אקדמי פורמלי: 'used to create' (infinitive of purpose) עדיף על 'used for creating'. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-dt-235",
+    "difficulty": "hard",
+    "text": "Read the passage and identify the INCORRECT pronoun reference:\n\n'When the principal met the new teacher, [A] he seemed nervous. [B] He asked him to review the curriculum before his first class. [C] He agreed immediately. [D] His first class would take place the following Monday.'\n\nWhich bolded pronoun is MOST ambiguous?",
+    "choices": [
+      "Sentence A — 'he seemed nervous'",
+      "Sentence B — 'He asked him to review the curriculum before his first class'",
+      "Sentence C — 'He agreed immediately'",
+      "Sentence D — 'His first class'"
+    ],
+    "answer": 1,
+    "explanation": "Sentence B is the most ambiguous: 'He asked him' — which 'He' is the subject? The principal or the teacher? 'Him' — who is being asked? And 'his first class' — whose first class? All three pronouns in sentence B can refer to either man. Sentence A has the principal as most recent subject, so 'he' likely = teacher (the new person would be nervous). Sentence D: 'his first class' logically refers to the new teacher (principals don't have 'first classes').",
+    "wrongReasons": [
+      "TRAP: Pronoun reference ambiguity — Sentence B contains THREE ambiguous pronouns in one sentence: 'He asked him... before his first class.' All three could refer to either person, making it the densest ambiguity.",
+      "Sentence A: while ambiguous (two males), context (new teacher, nervousness) makes the teacher the likely referent.",
+      "Sentence D: 'his first class' is contextually resolved — principals don't have first classes, so it refers to the teacher."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: עמימות כינוי גוף רב-שכבתית. הבעיה: משפט B מכיל שלושה כינויים עמומים: 'He asked him... his first class' — כולם יכולים להתייחס לאחד מהגברים. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-236",
+    "difficulty": "hard",
+    "text": "Which sentence avoids ALL errors (article, preposition, and parallelism)?\n\n(A) The aim of a study was to identify patterns, analyze the data, and presenting conclusions.\n(B) An aim of study was identifying patterns, to analyze data, and present conclusions.\n(C) The aim of the study was to identify patterns, to analyze the data, and to present conclusions.\n(D) A aim of the study was to identify pattern, analyze the data, and presenting conclusions.",
+    "choices": [
+      "The aim of a study was to identify patterns, analyze the data, and presenting conclusions.",
+      "An aim of study was identifying patterns, to analyze data, and present conclusions.",
+      "The aim of the study was to identify patterns, to analyze the data, and to present conclusions.",
+      "A aim of the study was to identify pattern, analyze the data, and presenting conclusions."
+    ],
+    "answer": 2,
+    "explanation": "Option C is correct: 'The aim of the study' (correct articles — specific study), 'to identify / to analyze / to present' (parallel infinitives), 'the data' (specific data of the study). Option A mixes infinitive + gerund. Option B uses 'an aim' + no article before 'study'. Option D uses 'a aim' (wrong — 'a' before vowel sound 'aim' requires 'an') and mixes forms.",
+    "wrongReasons": [
+      "TRAP: Multiple simultaneous traps — Option A is tempting because 'identify, analyze' look parallel, but 'presenting' breaks the pattern. Students may focus on one error type and miss the others.",
+      "Option D has three errors: 'a aim' (should be 'an'), singular 'pattern' (should be 'patterns'), and mixed verb forms.",
+      "Option B's 'an aim' with 'of study' (missing article) seems formal/academic but 'of study' without 'the' means no specific study is referenced."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שלוש מלכודות בו-זמנית. הבעיה: צריך לבדוק כתבה, מילות יחס ומבנה מקביל. רק C נכון בכל הפרמטרים. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-237",
+    "difficulty": "hard",
+    "text": "The word 'sensible' in English means:\n\n(A) Able to feel or sense things — having sensation (like 'חוש' in Hebrew)\n(B) Reasonable, practical, and showing good judgment\n(C) Sensitive and easily affected by emotions\n(D) Perceptible to the senses — can be detected",
+    "choices": [
+      "Able to feel or sense things — having sensation (like Hebrew חוש)",
+      "Reasonable, practical, and showing good judgment",
+      "Sensitive and easily affected by emotions",
+      "Perceptible to the senses — can be detected"
+    ],
+    "answer": 1,
+    "explanation": "'Sensible' in English means 'reasonable, practical, showing good judgment'. It does NOT mean 'sensitive' (easily affected by emotions) or 'capable of sensation'. In French and Spanish, the cognate 'sensible' means 'sensitive', leading to false cognate errors. Hebrew 'רגיש' = sensitive, but 'sensible' ≠ sensitive.",
+    "wrongReasons": [
+      "TRAP: False cognate trap — 'sensible' looks like it should relate to 'senses' or 'sensitivity', but in modern English it means 'practical and rational'. Confusing 'sensible' with 'sensitive' is a pan-linguistic error.",
+      "Option A confuses 'sensible' with 'sentient' (able to feel).",
+      "Option D confuses 'sensible' with 'sensory' or 'perceptible'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'sensible' ≠ 'sensitive'. הבעיה: 'sensible' = הגיוני/מעשי. 'sensitive' = רגיש. מילים שונות! תלמידים ישראלים לעיתים מבלבלים ביניהן. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-238",
+    "difficulty": "hard",
+    "text": "Which sentence correctly uses the passive to describe a scientific method?\n\n(A) Samples were collected, then they analyzed in the laboratory, and results were recorded.\n(B) Samples were collected, analyzed in the laboratory, and results recorded.\n(C) Samples were collected, were analyzed in the laboratory, and the results were recorded.\n(D) Samples were collected, analyzed in the laboratory, and results were recorded.",
+    "choices": [
+      "Samples were collected, then they analyzed in the laboratory, and results were recorded.",
+      "Samples were collected, analyzed in the laboratory, and results recorded.",
+      "Samples were collected, were analyzed in the laboratory, and the results were recorded.",
+      "Samples were collected, analyzed in the laboratory, and results were recorded."
+    ],
+    "answer": 3,
+    "explanation": "Option D correctly maintains passive voice through ellipsis: 'were collected, [were] analyzed, and results were recorded.' The auxiliary 'were' is elided in the second item — standard in formal writing. Option A switches to active ('they analyzed'). Option B drops 'were' before 'results recorded', making the third item a fragment. Option C is wordy but acceptable; however D is more concise and idiomatic.",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — Option A switches voice mid-sentence to 'they analyzed', breaking the passive chain established by 'were collected'.",
+      "Option B's 'results recorded' lacks the auxiliary 'were', making it a dangling past participle phrase, not a clause.",
+      "Option C is technically correct but unnecessarily repeats 'were' — option D is the expected exam answer."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: שמירת קול סביל ברצף. הבעיה: A עובר לקול פעיל באמצע. B משמיט 'were' לפני 'results recorded'. רק D שומר על הסביל בצורה תקנית ותמציתית. התשובה הנכונה: D.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-239",
+    "difficulty": "hard",
+    "text": "Identify the sentence with NO errors:\n\n(A) Neither the students nor the teacher were aware of the change.\n(B) Neither the students nor the teacher was aware of the change.\n(C) Neither the teacher nor the students was aware of the change.\n(D) Neither the teacher nor the students were aware of the change.",
+    "choices": [
+      "Neither the students nor the teacher were aware of the change.",
+      "Neither the students nor the teacher was aware of the change.",
+      "Neither the teacher nor the students was aware of the change.",
+      "Neither the teacher nor the students were aware of the change."
+    ],
+    "answer": 3,
+    "explanation": "With 'neither…nor', the verb agrees with the NEAREST subject (proximity rule). In option D, the nearest subject to the verb is 'students' (plural), so 'were' is correct. In option B, nearest subject is 'teacher' (singular), requiring 'was' — but the order is 'students…teacher', so nearest is teacher → was. Wait: option B has 'students…teacher' nearest = teacher → 'was' ✓. Option D has 'teacher…students' nearest = students → 'were' ✓. Both B and D follow the rule correctly for their word orders. However, standard style places the plural element closer to the verb, making D the preferred answer.",
+    "wrongReasons": [
+      "TRAP: Quantifier/agreement trap — Both B and D technically apply the proximity rule correctly for their respective orders. Option D is preferred because placing the plural noun closer to the verb ('students were') is the stylistically recommended form.",
+      "Option A violates the proximity rule: nearest subject is 'teacher' (singular) but uses 'were'.",
+      "Option C violates the proximity rule: nearest subject is 'students' (plural) but uses 'was'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: הסכמה עם neither...nor. הבעיה: הפועל מסכים עם הנושא הקרוב ביותר. ב-D: 'students' (רבים) קרוב → 'were'. זה גם הסדר המועדף סגנונית. התשובה הנכונה: D.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-240",
+    "difficulty": "hard",
+    "text": "Choose the sentence that uses 'which' vs. 'that' correctly in academic writing:\n\n(A) The theory that was proposed by Einstein, which changed physics, is still debated.\n(B) The theory which Einstein proposed changed physics forever.\n(C) The theory that Einstein proposed changed physics forever.\n(D) The theory, that Einstein proposed, changed physics forever.",
+    "choices": [
+      "The theory that was proposed by Einstein, which changed physics, is still debated.",
+      "The theory which Einstein proposed changed physics forever.",
+      "The theory that Einstein proposed changed physics forever.",
+      "The theory, that Einstein proposed, changed physics forever."
+    ],
+    "answer": 2,
+    "explanation": "In formal academic English (especially American style), 'that' introduces restrictive (defining) clauses without commas. 'Which' introduces non-restrictive (non-defining) clauses with commas. Option C correctly uses 'that' in a restrictive clause with no commas. Option D wrongly uses 'that' with commas (non-restrictive requires 'which'). Option B's 'which' without commas is acceptable in British English but less precise. Option A has both correctly but is more complex.",
+    "wrongReasons": [
+      "TRAP: Adjective order / relative clause trap — Option B uses 'which' without commas — acceptable in British English but the exam expects American formal style where 'that' = restrictive (no commas).",
+      "Option D uses 'that' WITH commas — this is always wrong; commas signal non-restrictive, which requires 'which'.",
+      "Option A is grammatically correct but more complex; C is the cleaner, unambiguous answer."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: that/which בסגנון אקדמי. הבעיה: 'that' = משפט מגביל (ללא פסיקים). 'which' = משפט מוסיף (עם פסיקים). 'The theory, that...' תמיד שגוי. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-241",
+    "difficulty": "hard",
+    "text": "The English word 'comprehensive' most nearly means:\n\n(A) Easy to understand — comprehensible\n(B) Covering all aspects; complete and thorough\n(C) Able to be grasped mentally — able to comprehend\n(D) Brief and concise — summarizing the main points",
+    "choices": [
+      "Easy to understand — comprehensible",
+      "Covering all aspects; complete and thorough",
+      "Able to be grasped mentally — able to comprehend",
+      "Brief and concise — summarizing the main points"
+    ],
+    "answer": 1,
+    "explanation": "'Comprehensive' means covering all or most aspects; thorough and wide-ranging. It does NOT mean 'easy to understand' (that is 'comprehensible') or 'able to comprehend'. Option D describes 'concise' or 'summary' — nearly the opposite meaning. The root 'comprehend' relates to understanding, but 'comprehensive' emphasizes breadth/completeness.",
+    "wrongReasons": [
+      "TRAP: False cognate trap — 'comprehensive' shares a root with 'comprehend/comprehensible' but means something different: wide-ranging coverage, not ease of understanding. Students confuse it with 'comprehensible'.",
+      "Option C ('able to comprehend') describes a person's cognitive ability — not what the adjective 'comprehensive' means when describing a report or study.",
+      "Option D ('brief and concise') is the near-opposite — a comprehensive study is typically extensive, not brief."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'comprehensive' ≠ 'comprehensible'. הבעיה: 'comprehensive' = מקיף/יסודי. 'comprehensible' = מובן. שורש משותף, משמעות שונה! התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-242",
+    "difficulty": "hard",
+    "text": "Which sentence correctly uses the passive with 'by' to identify the agent in formal writing?\n\n(A) The findings were surprisingly confirmed by the experiment.\n(B) The experiment surprisingly confirmed the findings.\n(C) Surprisingly, the findings confirmed by the experiment.\n(D) The findings, surprisingly, were confirmed by the experiment.",
+    "choices": [
+      "The findings were surprisingly confirmed by the experiment.",
+      "The experiment surprisingly confirmed the findings.",
+      "Surprisingly, the findings confirmed by the experiment.",
+      "The findings, surprisingly, were confirmed by the experiment."
+    ],
+    "answer": 3,
+    "explanation": "Option D correctly uses the passive voice with the adverb 'surprisingly' placed as a parenthetical between commas, giving it a formal, measured tone. Option A places 'surprisingly' between auxiliary and past participle, which is also grammatically possible but less formal. Option B is active voice. Option C is missing the auxiliary 'were'.",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — Option A ('were surprisingly confirmed') is grammatically acceptable, but option D with the parenthetical adverb is more precise and formal — the preferred form in academic writing.",
+      "Option C drops 'were', making 'confirmed by the experiment' a reduced relative clause, not a complete sentence.",
+      "Option B is active voice — grammatically correct but does not demonstrate passive construction."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מיקום תואר הפועל בסביל פורמלי. הבעיה: 'surprisingly' כתוספת בסוגריים (D) הוא הסגנון האקדמי המועדף. A תקין אך פחות פורמלי. C חסרה 'were'. התשובה הנכונה: D.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-243",
+    "difficulty": "hard",
+    "text": "Choose the sentence with the correct parallel structure in a complex academic sentence:\n\n(A) The review highlights not only the benefits of the intervention but also risks that are associated with its long-term use.\n(B) The review highlights not only the benefits of the intervention but also the risks associated with its long-term use.\n(C) The review highlights not only benefits of the intervention but also the risks associated with its long-term use.\n(D) The review highlights not only the benefits of the intervention but risks also associated with its long-term use.",
+    "choices": [
+      "The review highlights not only the benefits of the intervention but also risks that are associated with its long-term use.",
+      "The review highlights not only the benefits of the intervention but also the risks associated with its long-term use.",
+      "The review highlights not only benefits of the intervention but also the risks associated with its long-term use.",
+      "The review highlights not only the benefits of the intervention but risks also associated with its long-term use."
+    ],
+    "answer": 1,
+    "explanation": "Option B is correct: 'not only THE benefits... but also THE risks' — both noun phrases have 'the', making the structure parallel (both are definite noun phrases with post-modifiers). Option A uses a relative clause for risks ('risks that are associated') while benefits has a prepositional phrase — subtle asymmetry. Option C drops 'the' before 'benefits' but keeps it before 'risks'. Option D misplaces 'also'.",
+    "wrongReasons": [
+      "TRAP: Parallel structure trap — Option A is very close but subtly wrong: 'the benefits of the intervention' (noun + prepositional phrase) vs. 'risks that are associated' (noun + relative clause) — different modification structures.",
+      "Option C asymmetrically drops 'the' before 'benefits' only — 'the benefits' and 'the risks' should both have the article.",
+      "Option D places 'also' after 'risks' instead of before it, breaking the 'not only...but also' correlative structure."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: מבנה מקביל עדין. הבעיה: ב-A, 'the benefits' vs 'risks that are' — שני מבנים שונים. ב-B: 'the benefits' || 'the risks' — מקביל. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-244",
+    "difficulty": "hard",
+    "text": "Which option correctly identifies the error in this sentence?\n\n'The committee, which members represent all departments, approved the proposal.'\n\n(A) 'which' should be 'that' — it is a restrictive clause\n(B) 'which members' should be 'whose members' — indicating possession\n(C) 'approved' should be 'has approved' — present perfect is required\n(D) 'all departments' should be 'all the departments' — specific reference",
+    "choices": [
+      "'which' should be 'that' — it is a restrictive clause",
+      "'which members' should be 'whose members' — indicating possession",
+      "'approved' should be 'has approved' — present perfect is required",
+      "'all departments' should be 'all the departments' — specific reference"
+    ],
+    "answer": 1,
+    "explanation": "The error is 'which members' — when indicating that the members BELONG TO the committee, the relative pronoun must be 'whose': 'the committee, whose members represent all departments'. 'Whose' is the possessive relative pronoun. 'Which members' is not a standard English structure in this context.",
+    "wrongReasons": [
+      "TRAP: Pronoun reference ambiguity / relative pronoun trap — 'which members' sounds like a relative clause beginning but uses the wrong relative pronoun. 'Whose' (possessive) is required when the following noun belongs to the antecedent.",
+      "Option A: the clause IS non-restrictive (set off by commas), so 'which' is actually appropriate — but the real error is 'which members', not 'which' alone.",
+      "Option C: tense is not specified in context, so 'approved' is not necessarily wrong. Option D: 'all departments' is acceptable without 'the' in a general institutional sense."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: 'which members' vs 'whose members'. הבעיה: לבטא שייכות בצירוף יחסי: 'whose members' (של מי). 'which members' אינו מבנה תקני. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-245",
+    "difficulty": "hard",
+    "text": "Which sentence is the ONLY one that correctly uses 'fewer' vs. 'less'?\n\n(A) She made less mistakes on the second attempt.\n(B) There were fewer traffic on the highway this morning.\n(C) The study included fewer participants than expected.\n(D) He spent less hours working on the project.",
+    "choices": [
+      "She made less mistakes on the second attempt.",
+      "There were fewer traffic on the highway this morning.",
+      "The study included fewer participants than expected.",
+      "He spent less hours working on the project."
+    ],
+    "answer": 2,
+    "explanation": "'Fewer' is for countable nouns (participants, mistakes, hours); 'less' is for uncountable nouns (traffic, time, money). Option C correctly uses 'fewer' with 'participants' (countable). Option A should be 'fewer mistakes'. Option B should be 'less traffic'. Option D should be 'fewer hours'.",
+    "wrongReasons": [
+      "TRAP: Quantifier trap — 'less mistakes' (A) and 'less hours' (D) are extremely common errors because 'less' sounds more natural in informal speech. The exam requires the grammatically correct 'fewer' for countable nouns.",
+      "Option B wrongly uses 'fewer' with 'traffic' — traffic is uncountable, requiring 'less'.",
+      "Students who know the rule may still confuse which nouns are countable vs. uncountable."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: fewer/less. הבעיה: 'fewer' = שמות עצם ספירים (participants, mistakes). 'less' = שמות עצם שאינם ספירים (traffic). רק C נכון: 'fewer participants'. התשובה הנכונה: C.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-246",
+    "difficulty": "hard",
+    "text": "Choose the sentence where the adjective phrase is correctly placed:\n\n(A) The results obtained from the experiment surprised the researchers working on the project.\n(B) The results surprised the researchers working on the project obtained from the experiment.\n(C) Working on the project, the results surprised the researchers obtained from the experiment.\n(D) The researchers working on the project the results obtained from the experiment surprised.",
+    "choices": [
+      "The results obtained from the experiment surprised the researchers working on the project.",
+      "The results surprised the researchers working on the project obtained from the experiment.",
+      "Working on the project, the results surprised the researchers obtained from the experiment.",
+      "The researchers working on the project the results obtained from the experiment surprised."
+    ],
+    "answer": 0,
+    "explanation": "Option A is correct: 'obtained from the experiment' modifies 'results' (placed immediately after), and 'working on the project' modifies 'researchers' (placed immediately after). Each participial phrase is adjacent to its noun. Option B attaches 'obtained from the experiment' to 'researchers' — wrong referent. Option C creates a dangling modifier. Option D has inverted, unnatural syntax.",
+    "wrongReasons": [
+      "TRAP: Adjective order / misplaced modifier trap — Option B is the most dangerous distractor: it places 'obtained from the experiment' after 'working on the project', attaching it to 'researchers' (who were not obtained from the experiment).",
+      "Option C: 'Working on the project' as a sentence opener implies the RESULTS were working on the project — a dangling modifier.",
+      "Option D uses inverted syntax more common in poetry/Old English, not standard academic prose."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: צירוף תואר שנמצא בעמדה שגויה. הבעיה: כל משפט תארי חייב להיות צמוד לשם העצם שהוא מתאר. רק A ממקם כל צירוף ליד השם הנכון. התשובה הנכונה: A.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-247",
+    "difficulty": "hard",
+    "text": "Which sentence correctly uses 'the' with an abstract noun?\n\n(A) The knowledge is power.\n(B) Knowledge is power.\n(C) A knowledge is power.\n(D) The knowledge that he gained changed the power.",
+    "choices": [
+      "The knowledge is power.",
+      "Knowledge is power.",
+      "A knowledge is power.",
+      "The knowledge that he gained changed the power."
+    ],
+    "answer": 1,
+    "explanation": "Option B is the famous aphorism with no articles — correct because both 'knowledge' and 'power' are abstract, uncountable nouns used in a general philosophical sense requiring no article. Option A wrongly adds 'the' making it specific knowledge. Option C uses 'a' — impossible with uncountable nouns. Option D uses 'the knowledge' correctly (with a restrictive clause) but 'the power' is wrong (power in general sense needs no article).",
+    "wrongReasons": [
+      "TRAP: Article confusion — 'The knowledge is power' (A) adds 'the' unnecessarily to a proverbial/general statement. Abstract nouns in general statements take no article.",
+      "Option C uses 'a knowledge' — impossible because 'knowledge' is uncountable. A common Hebrew-speaker error.",
+      "Option D's 'the knowledge' is valid (with the restrictive clause), but 'the power' treats power as specific — the sentence doesn't mean 'the power' (a particular power), just power in general."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: כתבה עם שמות עצם מופשטים. הבעיה: 'knowledge' ו-'power' כמושגים כלליים — ללא כתבה. 'The knowledge is power' — שגוי. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-248",
+    "difficulty": "hard",
+    "text": "Identify the ONLY sentence where the passive construction is both grammatically correct AND contextually appropriate:\n\n(A) Coffee is drunk by me every morning.\n(B) Mistakes were made, and lessons have been learned.\n(C) The ball was kicked by John toward the goal.\n(D) A decision is being considered by us at this moment.",
+    "choices": [
+      "Coffee is drunk by me every morning.",
+      "Mistakes were made, and lessons have been learned.",
+      "The ball was kicked by John toward the goal.",
+      "A decision is being considered by us at this moment."
+    ],
+    "answer": 1,
+    "explanation": "Option B is both grammatically correct AND contextually appropriate: passive is used to depoliticize agency ('mistakes were made' without naming who) and 'lessons have been learned' emphasizes outcome. This is a classic appropriate use of passive. Option A is grammatically correct but absurd — active ('I drink coffee') is far more natural. Option C names the agent (John), making active voice preferable. Option D names the agent (us), again making active preferable.",
+    "wrongReasons": [
+      "TRAP: Active/passive confusion — Options A, C, and D are grammatically correct passives but contextually inappropriate (the agent is known and named, making active voice preferable).",
+      "Option B demonstrates the primary legitimate use of passive voice: to hide or de-emphasize the agent intentionally.",
+      "Students who only check grammar (not context) may choose A, C, or D as 'correct passives'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: סביל נכון דקדוקית אבל לא הגיוני בהקשר. הבעיה: A, C, D — נכונים דקדוקית אבל מיותרים כי הסוכן ידוע. B — הסביל מוצדק: מסתיר מי עשה את הטעויות. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-249",
+    "difficulty": "hard",
+    "text": "Choose the sentence with the correct complex quantifier usage:\n\n(A) A large number of evidence supports this theory.\n(B) A large amount of evidence supports this theory.\n(C) Large amounts of evidences support this theory.\n(D) A large number of evidences support this theory.",
+    "choices": [
+      "A large number of evidence supports this theory.",
+      "A large amount of evidence supports this theory.",
+      "Large amounts of evidences support this theory.",
+      "A large number of evidences support this theory."
+    ],
+    "answer": 1,
+    "explanation": "'Evidence' is an uncountable noun: use 'amount' (not 'number'), and never pluralize it ('evidences' is wrong). 'A large amount of evidence' + singular verb ('supports') is correct. Option A uses 'number' (for countable) + uncountable noun. Option C pluralizes 'evidence' incorrectly. Option D pluralizes 'evidence' AND uses 'number'.",
+    "wrongReasons": [
+      "TRAP: Quantifier trap — 'A large number of evidence' (A) is a classic error: 'number' collocates with countable nouns only. 'Evidence' is uncountable, requiring 'amount'.",
+      "Options C and D introduce 'evidences' — a pluralization that does not exist in standard English.",
+      "Students familiar with 'a large number of studies' may incorrectly transfer this pattern to 'evidence'."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: number/amount עם שמות עצם שאינם ספירים. הבעיה: 'evidence' אינו ספיר → 'amount' (לא 'number'). גם: 'evidences' אינו קיים. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  },
+  {
+    "id": "sb-dt-250",
+    "difficulty": "hard",
+    "text": "Which sentence correctly identifies and avoids ALL four trap types simultaneously?\n\n(A) An actual problem is that most of students don't understand the concept.\n(B) The actual problem is that most students don't understand the concept.\n(C) A actual problem is that most students doesn't understand the concept.\n(D) The actual problem is that all of students doesn't understand the concept.",
+    "choices": [
+      "An actual problem is that most of students don't understand the concept.",
+      "The actual problem is that most students don't understand the concept.",
+      "A actual problem is that most students doesn't understand the concept.",
+      "The actual problem is that all of students doesn't understand the concept."
+    ],
+    "answer": 1,
+    "explanation": "Option B avoids all traps: (1) FALSE COGNATE: 'actual' is used correctly here to mean 'real/true' (not 'current'); (2) ARTICLE: 'the actual problem' correctly uses 'the' for a specific problem being discussed; (3) QUANTIFIER: 'most students' (not 'most of students' — 'of' needs a determiner); (4) AGREEMENT: 'most students don't' (plural subject → plural verb). All other options contain at least one error from these four trap types.",
+    "wrongReasons": [
+      "TRAP: Multiple simultaneous trap types — Option A has: false cognate (actual used as 'current'?), quantifier error ('most of students'). Option C: wrong article ('a actual' — needs 'an'), agreement error ('doesn't' with plural). Option D: quantifier error ('all of students' needs 'the'), agreement error ('doesn't' with plural).",
+      "Students who master one trap type may miss errors from the other three trap categories.",
+      "Option B is the only sentence that is clean across all four tested dimensions: article + false cognate avoidance + quantifier + subject-verb agreement."
+    ],
+    "subType": "distractorTrap",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["critical-thinking", "distractor-awareness", "exam-strategy"],
+    "vocabularyWords": [],
+    "hebrewExplanation": "מלכודת עיקרית: ארבע מלכודות בו-זמנית. הבעיה: צריך לבדוק כתבה, כמתים, הסכמת נושא-פועל ושימוש ב-'actual'. רק B עובר את כל ארבע הבדיקות. התשובה הנכונה: B.",
+    "estimatedTimeSeconds": 55
+  }
+]

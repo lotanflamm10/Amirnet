@@ -1,0 +1,423 @@
+{
+  "source": "amirnet_platform",
+  "lastUpdated": "2026-05-11",
+  "connectors": {
+    "titleHebrew": "מילות קישור",
+    "titleEnglish": "Connectors / Linking Words",
+    "source": "amirnet_platform",
+    "examRelevance": "מילות קישור הן הרמז החשוב ביותר בשאלות השלמת משפטים ובשאלות הבנת הנקרא. הן מסגירות את כוונת הכותב ואת הקשר הלוגי בין חלקי המשפט.",
+    "groups": [
+      {
+        "id": "contrast",
+        "titleHebrew": "ניגוד",
+        "titleEnglish": "Contrast",
+        "hebrewMeaning": "מביעים ניגוד או סתירה בין שני רעיונות",
+        "words": [
+          { "word": "though / although / even though", "hebrew": "למרות ש-" },
+          { "word": "despite / in spite of", "hebrew": "למרות ה-" },
+          { "word": "while / whereas", "hebrew": "בעוד ש-" },
+          { "word": "but", "hebrew": "אבל, אך, אולם" },
+          { "word": "yet", "hebrew": "אולם, עדיין (לא)" },
+          { "word": "however", "hebrew": "בכל זאת, אולם" },
+          { "word": "nevertheless", "hebrew": "אף על פי כן" },
+          { "word": "nonetheless", "hebrew": "למרות זאת" },
+          { "word": "on the one hand... on the other hand", "hebrew": "מצד אחד... מצד שני" },
+          { "word": "otherwise", "hebrew": "אחרת" }
+        ]
+      },
+      {
+        "id": "addition",
+        "titleHebrew": "הוספה",
+        "titleEnglish": "Addition",
+        "hebrewMeaning": "מביעים הוספת רעיון לרעיון קיים",
+        "words": [
+          { "word": "and", "hebrew": "ו-" },
+          { "word": "also", "hebrew": "גם, כמו כן" },
+          { "word": "as well as", "hebrew": "וגם, כמו גם" },
+          { "word": "in addition / additionally", "hebrew": "בנוסף" },
+          { "word": "in addition to", "hebrew": "בנוסף ל-" },
+          { "word": "furthermore / moreover", "hebrew": "זאת ועוד, יתר על כן" },
+          { "word": "not only... but also", "hebrew": "לא רק... אלא גם" },
+          { "word": "first of all / to begin with", "hebrew": "ראשית כל" },
+          { "word": "firstly / secondly / thirdly", "hebrew": "ראשית, שנית, שלישית" },
+          { "word": "finally", "hebrew": "לבסוף" }
+        ]
+      },
+      {
+        "id": "cause",
+        "titleHebrew": "סיבה",
+        "titleEnglish": "Cause",
+        "hebrewMeaning": "מסבירים את הסיבה לאירוע או מצב",
+        "words": [
+          { "word": "because", "hebrew": "כי, מפני ש-" },
+          { "word": "because of", "hebrew": "בגלל ה-" },
+          { "word": "since", "hebrew": "מאחר ש-" },
+          { "word": "due to / owing to", "hebrew": "עקב, בגלל" },
+          { "word": "as", "hebrew": "מכיוון ש-, היות ש-" },
+          { "word": "thanks to", "hebrew": "הודות ל-" },
+          { "word": "leads to", "hebrew": "מוביל ל-" },
+          { "word": "is caused by", "hebrew": "נגרם על ידי" },
+          { "word": "for this reason", "hebrew": "מסיבה זו" },
+          { "word": "hence", "hebrew": "לפיכך, לכן" }
+        ]
+      },
+      {
+        "id": "result",
+        "titleHebrew": "תוצאה / מסקנה",
+        "titleEnglish": "Result / Conclusion",
+        "hebrewMeaning": "מסמנים תוצאה, השלכה או מסקנה של אירוע או רעיון",
+        "words": [
+          { "word": "so", "hebrew": "אז" },
+          { "word": "therefore", "hebrew": "לכן" },
+          { "word": "thus", "hebrew": "לפיכך" },
+          { "word": "as a result", "hebrew": "כתוצאה מכך" },
+          { "word": "as a result of", "hebrew": "כתוצאה מ-" },
+          { "word": "consequently / subsequently", "hebrew": "כתוצאה מכך, בעקבות זאת" }
+        ]
+      },
+      {
+        "id": "time",
+        "titleHebrew": "זמן",
+        "titleEnglish": "Time",
+        "hebrewMeaning": "מציינים סדר זמנים, משך, תדירות או נקודת זמן",
+        "words": [
+          { "word": "before / after", "hebrew": "לפני / אחרי" },
+          { "word": "when / while", "hebrew": "כש- / בזמן ש-" },
+          { "word": "until / till / by the time", "hebrew": "עד ש-" },
+          { "word": "meanwhile / in the meantime", "hebrew": "בינתיים" },
+          { "word": "during", "hebrew": "במהלך, לאורך" },
+          { "word": "still", "hebrew": "עדיין" },
+          { "word": "at the same time / simultaneously", "hebrew": "בו זמנית" },
+          { "word": "whenever", "hebrew": "בכל פעם ש-" },
+          { "word": "as soon as", "hebrew": "ברגע ש-" },
+          { "word": "as long as", "hebrew": "כל עוד" },
+          { "word": "finally / eventually", "hebrew": "לבסוף" },
+          { "word": "subsequently", "hebrew": "לאחר מכן" },
+          { "word": "since", "hebrew": "מאז" }
+        ]
+      },
+      {
+        "id": "example",
+        "titleHebrew": "דוגמא",
+        "titleEnglish": "Example",
+        "hebrewMeaning": "מציגים דוגמאות ממחישות",
+        "words": [
+          { "word": "such as", "hebrew": "כגון, כמו" },
+          { "word": "like", "hebrew": "כמו" },
+          { "word": "for example", "hebrew": "למשל, לדוגמא" },
+          { "word": "for instance", "hebrew": "למשל" }
+        ]
+      }
+    ]
+  },
+  "idiomsAndExpressions": {
+    "titleHebrew": "ניבים וביטויים",
+    "titleEnglish": "Idioms and Expressions",
+    "source": "amirnet_platform",
+    "examRelevance": "ביטויים אלה מופיעים לעיתים קרובות בשאלות השלמת משפטים, הבנת הנקרא וניסוח מחדש. היכרות עם הביטויים מאפשרת הבנה מהירה של הקשר.",
+    "expressions": [
+      { "expression": "a great deal of", "hebrew": "הרבה, המון", "example": "This sports car costs a great deal of money." },
+      { "expression": "according to", "hebrew": "לפי, על פי", "example": "I know how to drive a car, according to my driving instructor." },
+      { "expression": "as a matter of fact", "hebrew": "למעשה", "example": "Alon thinks that Shir loves him. As a matter of fact, she just likes him." },
+      { "expression": "as far as", "hebrew": "ככל ש-, עד כמה ש-, עד", "example": "As far as I know, she is in her office." },
+      { "expression": "as much as", "hebrew": "עד כמה ש-", "example": "As much as I love eating chocolate, it is very fattening." },
+      { "expression": "as opposed to", "hebrew": "בניגוד ל-, לעומת", "example": "She is a very kind and generous person, as opposed to her sister." },
+      { "expression": "at least", "hebrew": "לפחות, לכל הפחות", "example": "The car repair would cost me a thousand Shekels at least!" },
+      { "expression": "at most", "hebrew": "לכל היותר", "example": "Cleaning the room should take Alon an hour at most." },
+      { "expression": "find something difficult / have trouble", "hebrew": "להתקשות ב-", "example": "Shir began learning Japanese, but found it too difficult." },
+      { "expression": "firsthand", "hebrew": "ממקור ראשון", "example": "If you experience something yourself, you experience it firsthand." },
+      { "expression": "for a living / make a living", "hebrew": "למחייתו/ה / להתפרנס", "example": "He sells paintings for a living." },
+      { "expression": "for instance", "hebrew": "למשל, לדוגמה", "example": "Some people are very nice. For instance, yesterday someone helped me." },
+      { "expression": "for that matter", "hebrew": "באשר לכך, לצורך העניין", "example": "I don't understand your question or even what you're talking about, for that matter." },
+      { "expression": "in accordance with", "hebrew": "בהתאם ל-, לפי", "example": "In accordance with city laws, I must give you a parking ticket." },
+      { "expression": "in detail / in great detail", "hebrew": "בפירוט / בפירוט רב", "example": "The professor talked about his study in great detail." },
+      { "expression": "in fact", "hebrew": "למעשה, לאמיתו של דבר", "example": "Tomatoes are in fact a fruit, not a vegetable." },
+      { "expression": "in my/someone's opinion", "hebrew": "לדעתי / לדעת מישהו", "example": "In my opinion, we should take the train instead of the bus." },
+      { "expression": "in order to", "hebrew": "על מנת ל-, כדי", "example": "In order to pass the test, you need to work hard." },
+      { "expression": "in terms of", "hebrew": "מבחינת, מהבחינה של", "example": "A car is better than a motorcycle in terms of safety." },
+      { "expression": "let alone", "hebrew": "על אחת כמה וכמה, לא כל שכן, קל וחומר", "example": "You shouldn't drive when you're tired, let alone when you're drunk." },
+      { "expression": "no matter", "hebrew": "לא חשוב, לא משנה", "example": "No matter the cost, my parents wanted the best education for me." },
+      { "expression": "not to mention", "hebrew": "שלא לדבר על, שלא להזכיר", "example": "He can't afford to buy her a new dress, not to mention a diamond ring." },
+      { "expression": "old fashioned", "hebrew": "מיושן, ישן-נושן", "example": "My grandfather has an old fashioned radio." },
+      { "expression": "on occasion", "hebrew": "לעיתים, מדי פעם", "example": "My uncle likes to smoke cigars on occasion." },
+      { "expression": "on the one hand... on the other hand", "hebrew": "מצד אחד... מצד שני", "example": "On the one hand, going to the gym is expensive. On the other hand, it's good for your health." },
+      { "expression": "so far", "hebrew": "עד עתה, עד כה, לפי שעה", "example": "The gardener has planted ten new flowers so far." },
+      { "expression": "such as", "hebrew": "כגון, כמו", "example": "My children love board games, such as Monopoly and Risk." },
+      { "expression": "take into account / take into consideration", "hebrew": "לקחת בחשבון, להתחשב ב-", "example": "When buying a sofa, you need to take into account the size of your living room." },
+      { "expression": "to date", "hebrew": "נכון להיום, עד כה", "example": "My car has been stolen three times to date." },
+      { "expression": "up to date", "hebrew": "עדכני, מעודכן", "example": "The information in this website is up to date." },
+      { "expression": "under no circumstances", "hebrew": "בשום פנים ואופן", "example": "Under no circumstances should you mix medicine and alcohol." },
+      { "expression": "would rather... than", "hebrew": "מעדיף X על פני Y", "example": "I would rather swim than run." },
+      { "expression": "rather than", "hebrew": "X ולא Y, X במקום Y", "example": "I prefer to be happy rather than rich." }
+    ]
+  },
+
+  "sentenceCompletion": {
+    "titleHebrew": "שיטות פתרון – השלמת משפטים",
+    "titleEnglish": "Sentence Completion",
+    "overview": "חלק זה מורכב ממשפטים שבכל אחד מהם חסרה מילה או קבוצת מילים. בכל משפט יש לבחור מבין ארבע התשובות האפשריות, את זו שתשלים את המשפט בצורה ההגיונית והטובה ביותר. שאלות אלו בודקות גם ידע – אוצר מילים, וגם חשיבה – היכולת להבין את ההגיון הפנימי של המשפט.",
+    "exampleQuestion": {
+      "text": "Statistics ______ that it is safer to fly than it is to drive.",
+      "choices": ["show", "cry", "burn", "stress"],
+      "correctIndex": 0,
+      "explanation": "The subject 'Statistics' requires a verb that collocates with data — 'show' is correct. The other options are semantically incompatible."
+    },
+    "solvingSteps": [
+      {
+        "step": 1,
+        "titleHebrew": "קריאת המשפט עם התמקדות במילות קישור",
+        "detail": "נקרא את המשפט הנתון תוך התמקדות במילות קישור אם ישנן."
+      },
+      {
+        "step": 2,
+        "titleHebrew": "ניסוי להשלמה עצמית לפני הסתכלות על תשובות",
+        "detail": "מאחר שבכל שאלה יש רמז תוכני (סמנטי) לגבי המילה החסרה, נשאל את עצמנו לאיזו תשובה אנו מצפים וננסה להבין כיצד היינו משלימים את המשפט בעצמנו, עוד לפני שניגש לתשובות."
+      },
+      {
+        "step": 3,
+        "titleHebrew": "מעבר על התשובות",
+        "parts": [
+          "אם מצאנו תשובה מתאימה – נסמן אותה ונמשיך לשאלה הבאה.",
+          "אם לא מצאנו תשובה מתאימה – נפסול תשובות שבוודאות אינן מתאימות ונבחר מבין התשובות הנותרות את זו שנראית לנו המתאימה ביותר."
+        ]
+      }
+    ],
+    "keyPrinciples": [
+      {
+        "id": "main-vs-secondary",
+        "titleHebrew": "הבחנה בין עיקר לטפל",
+        "main": [
+          "מילות קישור – בין אם הן מופיעות בשאלה או בתשובות, מילות קישור עוזרות לנו להבין את הקשר בין חלקי המשפט ומכוונות אותנו לתשובה הנכונה.",
+          "מילים מוכרות – עיקר המשפט מנוסח לרוב במילים מוכרות. נתמקד במילים המוכרות כדי להבין את ההגיון הפנימי של המשפט."
+        ],
+        "secondary": [
+          "מילים לא מוכרות – חלק גדול מהמילים שלא נכיר הן מילים נדירות המשמשות להרחבה ותיאור ואינן משפיעות על ליבת המשפט.",
+          "מילים המתחילות באות גדולה באמצע המשפט, או כתובות באותיות נטויות, הן שמות (אנשים, מקומות, יצירות) ומהוות חלק טפל."
+        ],
+        "exampleHebrew": "The author Lewis Carroll ______ the novel Alice's Adventures in Wonderland when he was 33 years old. – 'לואיס קרול' ו'הרפתקאות עליסה' הם שמות (טפל); העיקר הוא המילה author ושהפועל החסר הוא פעולת הסופר (כתב, פרסם, הוציא לאור)."
+      },
+      {
+        "id": "context-understanding",
+        "titleHebrew": "הבנה מתוך הקשר",
+        "detail": "לעיתים ניתן להבין משמעות של מילה לא מוכרת רק מההקשר בו היא מופיעה. למשל: 'I am so fatigued, I could sleep a million years' – גם מבלי לדעת את המילה fatigued, ההקשר מלמד שהיא אומרת 'עייף מאוד'. לעיתים יספיק לדעת שהמילה החסרה היא חיובית, שלילית או ניטראלית.",
+        "keyInsight": "In spite of their reputation as friendly to humans, dolphins can be ______. מילת הקישור 'in spite of' מרמזת על ניגוד, ולכן נחפש תשובה שלילית המנוגדת ל-friendly."
+      },
+      {
+        "id": "immediate-context",
+        "titleHebrew": "הקשר מיידי – התמקדות במילים הקרובות למילה החסרה",
+        "detail": "לעיתים ניתן לפתור את השאלה רק לפי המילה שלפני או אחרי המילה החסרה.",
+        "example": "Wine is usually kept in glass ________. – המילה שלפני החסר היא 'glass', ולכן התשובה חייבת להיות קשורה לזכוכית. מתוך [corners, families, gardens, bottles] רק 'bottles' (בקבוקים) קשורה לזכוכית."
+      }
+    ],
+    "unknownWordStrategies": [
+      {
+        "id": "hebrew-similarity",
+        "titleHebrew": "דמיון לעברית",
+        "detail": "פעמים רבות ניתן להבחין שיש למילה לא מוכרת דמיון לעברית. למשל: synthetic (סינתטי, מלאכותי), battery (בטרייה, מצבר), clumsy (קלאמזי – מגושם בסלנג)."
+      },
+      {
+        "id": "suffixes-prefixes",
+        "titleHebrew": "תשובות עם מוספיות",
+        "detail": "כאשר כל ארבע התשובות מתחילות או מסתיימות באותן אותיות, ניתן לפרק כל מילה למילת גרעין ולמוספית. למשל: carefully, slowly, emptily, nicely – כולן מסתיימות ב-ly; נפרק את emptily ל-empty + ly ונזהה את empty כמוכרת."
+      },
+      {
+        "id": "word-decomposition",
+        "titleHebrew": "פירוק מילים ארוכות",
+        "detail": "ברוב המקרים מילים ארוכות ניתנות לפירוק לתחילית, גרעין וסיומת. למשל: irreversible = ir (לא) + reverse (אחורה) + ible (ניתן) = לא ניתן להחזירו אחורה = בלתי הפיך."
+      }
+    ],
+    "additionalNotes": [
+      "התשובות לעולם לא יהיו לקוחות מאותה קטגוריה סמנטית (למשל לא ייתכן ש'חורף' ו'קיץ' יהיו שתי תשובות).",
+      "תמיד תהיה תשובה אחת בלבד שיכולה להתאים למשפט.",
+      "כל התשובות תמיד יהיינה אחידות מבחינה תחבירית (למשל כולן פעלים, או כולן שמות עצם).",
+      "היכרות עם שלוש מהתשובות תמיד תספיק לפתרון השאלה.",
+      "אל תנסו לכפות על השאלה תשובות שמוכרות לכם – התשובה חייבת להתאים בדיוק, לא בערך.",
+      "אם מתלבטים בין שתי תשובות, נסו לשבץ אותן במשפט ולבחור את זו ש'מצטלצלת' טוב יותר."
+    ],
+    "tips": [
+      "היכרות עם שלוש מהתשובות תמיד תספיק לפתור את השאלה.",
+      "אם שלוש תשובות מוכרות אינן מתאימות – בחרו בתשובה הלא מוכרת.",
+      "אל תנסו לעוות את המשפט כדי שתשובה מוכרת תתאים."
+    ],
+    "detailedExample": {
+      "question": "Although elephants are very heavy, they can walk _________ due to the soft padding covering their feet.",
+      "choices": ["poorly", "rarely", "silently", "sincerely"],
+      "correctAnswer": "silently",
+      "correctIndex": 2,
+      "explanation": "מילת הקישור 'although' מצביעה על ניגוד – הם כבדים אך הולכים בצורה מנוגדת למשקלם. 'silently' (בשקט) מתאימה. 'poorly' (גרוע) ו-'rarely' (לעיתים נדירות) אינן מתארות הליכה בניגוד למשקל כבד. 'sincerely' (בכנות) אינה הגיונית לתיאור הליכה."
+    }
+  },
+
+  "readingComprehension": {
+    "titleHebrew": "שיטות פתרון – הבנת הנקרא",
+    "titleEnglish": "Reading Comprehension",
+    "overview": "חלק זה מורכב מקטע קריאה ושאלות שונות העוסקות בקטע. השאלות מתחלקות ל-2 קטגוריות: שאלות ספציפיות (עוסקות בפרט ספציפי בטקסט) ושאלות כלליות (עוסקות ברעיון המרכזי של הקטע או פסקה). כל שאלות הבנת הנקרא מופיעות בסדר כרונולוגי להופעתן בטקסט, מלבד שאלות רעיון מרכזי.",
+    "solvingPhases": [
+      {
+        "phase": "א",
+        "titleHebrew": "קריאה",
+        "steps": [
+          "קראו את כל הטקסט בעיון (7 דקות הוא זמן סביר).",
+          "בסיום הקריאה הראשונית, אם נשאר זמן, חזרו למשפט הראשון בכל פסקה כדי להיזכר במה עסקה הפסקה ולהבין את הרעיון המרכזי שלה.",
+          "השתמשו ברעיונות המרכזיים של כל פסקה להבנת הרעיון המרכזי של הטקסט."
+        ]
+      },
+      {
+        "phase": "ב",
+        "titleHebrew": "פתרון שאלות לפי סוג",
+        "steps": [
+          "לשאלה ספציפית: אתרו את המשפט בו מופיעה התשובה הנכונה, בעזרת הפניה למס' שורה, שם/מספר בטקסט, או מילות מפתח בשאלה.",
+          "לשאלה כללית: ענו על סמך הקריאה משלב א' מבלי לחזור למשפטים ספציפיים בטקסט."
+        ]
+      }
+    ],
+    "generalTips": [
+      "חובה לענות על כל השאלות – במידה ואינכם בטוחים, נחשו! תמיד עדיף לנחש מאשר להשאיר את השאלה ללא מענה.",
+      "שימו לב למילים המסומנות בקו ולמילים המשנות את המשמעות (כמו not)."
+    ],
+    "questionTypes": [
+      {
+        "id": "vocabulary",
+        "number": 1,
+        "category": "specific",
+        "titleHebrew": "שאלות אוצר מילים",
+        "titleEnglish": "Vocabulary",
+        "description": "בשאלות אלו מתבקש הקורא לפרש את משמעותה של מילה (לעיתים מספר מילים) המופיעה בקטע. שאלות אלו בודקות אוצר מילים והבנה מתוך הקשר.",
+        "commonPhrasings": [
+          "The word \"danger\" (line 9) can be best replaced by-",
+          "\"earned a living\" (line 10) could best be restated as-",
+          "In line 11, \"prohibitive\" is closest in meaning to-",
+          "Another word that means the same as \"hazard\" (line 12) is-"
+        ],
+        "solvingMethod": "היעזרו בהפניה למס' שורה ומצאו את המילה בקטע. קראו את המשפט בו משובצת המילה מתחילתו עד סופו. לאחר שהבנתם את משמעות המילה בהקשר, עברו על התשובות והציבו כל אחת במקום המילה שבשאלה.",
+        "commonDistractors": ["תשובות נכונות דקדוקית אך לא מתאימות להקשר הספציפי של המשפט בקטע."],
+        "keyNotes": "למילים מסוימות יש יותר מפירוש אחד, ולרוב המילה עליה נשאל תופיע במשמעות הפחות נפוצה שלה. כל התשובות אחידות מבחינה תחבירית."
+      },
+      {
+        "id": "refer-to",
+        "number": 2,
+        "category": "specific",
+        "titleHebrew": "שאלות refer to",
+        "titleEnglish": "Reference",
+        "description": "בשאלות אלו עלינו לזהות למה מתייחסת מילה המופיעה בקטע – בדרך כלל כינוי גוף כמו it או they – או לעיתים נדירות ביטוי המופיע בקטע. התשובה תופיע בקטע לפני כינוי הגוף.",
+        "commonPhrasings": [
+          "In line 1, \"it\" refers to-",
+          "In line 15, \"this belief\" refers to the belief that-"
+        ],
+        "solvingMethod": "אתרו בקטע את המילה/ביטוי המופיעים בשאלה ועברו אחורה לתחילת המשפט. קראו את המשפט עד סופו. אם לא מצאתם, חזרו משפט אחד אחורה. חשוב תמיד לבדוק אחורה מהביטוי המבוקש, ולא קדימה.",
+        "commonDistractors": ["מילים שמופיעות באותה פסקה או באותו המשפט כמו התשובה הנכונה."]
+      },
+      {
+        "id": "detail",
+        "number": 3,
+        "category": "specific",
+        "titleHebrew": "שאלות פרט",
+        "titleEnglish": "Detail",
+        "description": "שאלות על פרט כלשהו המופיע בקטע. התשובה עליהן מופיעה בקטע במפורש.",
+        "commonPhrasings": [
+          "According to the text, before 1838-",
+          "According to the first paragraph, tourists and travelers-",
+          "The scientists mentioned in the second paragraph believe that-",
+          "Which of the following is not...",
+          "All of the following are mentioned in the third paragraph except-"
+        ],
+        "solvingMethod": "לרוב ניתן להסתפק בקריאת משפט בודד. אתרו את המשפט הרלוונטי בעזרת מילות מפתח בשאלה וסרקו את הפסקה. אין צורך לקרוא ולהבין את כל הפסקה לעומק.",
+        "commonDistractors": [
+          "תשובות הלקוחות ממקום אחר בקטע – מיועדות להטעות נבחנים שמסתמכים על זיכרון.",
+          "תשובות שמסלפות את המידע – דומות למשפט בקטע אך מוסיפות או מחסירות מידע קטן אך קריטי (כמו שלילה 'not')."
+        ],
+        "keyNotes": "בשאלות פרט קלות התשובה הנכונה תצטט את הקטע פחות או יותר במדויק. בשאלות פרט קשות, התשובה הנכונה תשתמש בניסוח מחדש עם מילים נרדפות וסדר מילים שונה."
+      },
+      {
+        "id": "function-of-detail",
+        "number": 4,
+        "category": "specific-implicit",
+        "titleHebrew": "שאלות תפקיד פרט",
+        "titleEnglish": "Function of Detail",
+        "description": "שאלות אלו מופיעות לעיתים נדירות. הן עוסקות בתפקיד שממלא פרט כלשהו בקטע, במטרתו, או בסיבה שהכותב מציין אותו. התשובה לשאלות אלו אינה מופיעה בקטע במפורש.",
+        "commonPhrasings": [
+          "The author mentions the Louvre and the Museum of Modern Art because-",
+          "In line 5, the word \"allegedly\" is used to-",
+          "The word \"husband\" (line 10) is in quotation marks (\" \") because-",
+          "The author uses the word \"However\" in order to-"
+        ],
+        "solvingMethod": "אתרו את המשפט בו מופיע הפרט. קראו את המשפט מתחילתו עד סופו. חשבו בהיגיון מה מטרת הפרט ורק אז עברו על ארבע התשובות. לדוגמה: מדוע הכותב שם מילה במירכאות? ייתכן שמדובר בשימוש מטאפורי. מדוע השתמש ב-however? כדי להראות ניגוד.",
+        "commonDistractors": ["תשובות המצטטות מידע שמופיע בקטע על הפרט, מתמקדות בתוכן שלו ולא בתפקיד שהוא ממלא."]
+      },
+      {
+        "id": "inference",
+        "number": 5,
+        "category": "specific-implicit",
+        "titleHebrew": "שאלות הסקה",
+        "titleEnglish": "Inference",
+        "description": "שאלות אלו שואלות מה ניתן להסיק על סמך מידע המופיע במשפט כלשהו בקטע. התשובה לא תופיע במפורש – עלינו לקחת את הכתוב צעד אחד קדימה ולבצע את תהליך ההסקה בעצמנו.",
+        "commonPhrasings": [
+          "It can be inferred from the second paragraph that scientists-",
+          "It can be understood from the last paragraph that in 2001-"
+        ],
+        "solvingMethod": "אתרו את המשפט בו מופיע הפרט ומצאו אותו בקטע בעזרת הפנייה לפסקה ספציפית או מילות מפתח. קראו בעיון, ביצעו תהליך הסקה, ורק אז עברו על ארבע התשובות.",
+        "commonDistractors": [
+          "תשובות שמצטטות מידע שהופיע בקטע כלשונו.",
+          "תשובות בהן המסקנה רחוקה מדי מהכתוב בקטע או לא קשורה לקטע כלל."
+        ]
+      },
+      {
+        "id": "paragraph",
+        "number": 6,
+        "category": "general",
+        "titleHebrew": "שאלות פסקה",
+        "titleEnglish": "Paragraph Topic",
+        "description": "שאלות אלה עוסקות ברעיון המרכזי של פסקה או במטרתה. תמיד יכילו את המילה paragraph ואת המילים main/mainly.",
+        "commonPhrasings": [
+          "The main purpose of the second paragraph is-",
+          "The third paragraph mainly discusses/describes-",
+          "The paragraph is mainly about-"
+        ],
+        "solvingMethod": "לרוב נסתפק בקריאת המשפט הראשון בפסקה. אם הוא קצר מדי או קשה, קראו גם את השני. נעזר גם בידע שצברנו בקריאה הראשונית.",
+        "commonDistractors": ["תשובה שמכילה מידע שמופיע בפסקה אך אינו הרעיון המרכזי שלה (תשובה ספציפית מדי)."],
+        "keyPrinciples": [
+          "הבחנה בין עיקר וטפל – לא כל המשפטים בפסקה חשובים באותה מידה.",
+          "התמקדות במבנה ובלוגיקה של הטקסט – פסקה שנפתחת במילת קישור מרמזת על מטרתה ויחסה לפסקה הקודמת."
+        ]
+      },
+      {
+        "id": "main-idea",
+        "number": 7,
+        "category": "general",
+        "titleHebrew": "שאלות רעיון מרכזי",
+        "titleEnglish": "Main Idea",
+        "description": "שאלות אלו עוסקות ברעיון המרכזי של הקטע כולו. הן מתייחסות לכל הקטע אך רק לרעיון המרכזי שלו.",
+        "commonPhrasings": [
+          "The main purpose of the text is to-",
+          "A good title for this text would be-",
+          "The text is mainly about-"
+        ],
+        "solvingMethod": "קראו לעומק את המשפט הראשון בכל פסקה ודלגו/עברו ברפרוף על השאר. נעזרו בידע שצברתם בקריאה הראשונית ודרך השאלות שכבר ענתם.",
+        "commonDistractors": [
+          "תשובה כללית מדי: כוללת יותר מידע מהנתון בקטע (למשל אם הקטע עוסק בגידול יונים בסין – 'סין' כלה מדי).",
+          "תשובה ספציפית מדי: מתייחסת רק לאחת הפסקאות ולא לכל הקטע."
+        ],
+        "keyPrinciples": [
+          "הבחנה בין עיקר וטפל – לא נתעכב על מילים ספציפיות או קשות.",
+          "התמקדות במבנה ובלוגיקה – הרעיון המרכזי נפרש לכל אורך הקטע.",
+          "שימוש בחשיבה והיגיון לפצות על פערי ידע – הבנה מתוך הקשר למילים לא מוכרות."
+        ]
+      }
+    ],
+    "questionTypesSummary": {
+      "specific": [
+        { "id": "vocabulary", "findIn": "אתרו את המילה ונציב את התשובות במקומה – נבדוק שהמשמעות זהה או דומה" },
+        { "id": "refer-to", "findIn": "בד\"כ התשובה תופיע לפני כן. נציב את התשובות ונבדוק אם המשמעות נשמרת" },
+        { "id": "detail", "findIn": "נחפש בקטע מילות מפתח שהופיעו בשאלה" }
+      ],
+      "specificImplicit": [
+        { "id": "function-of-detail", "findIn": "נאתר את הציטוט בקטע וננסה להבין באיזה הקשר הוא מובא ולאיזו מטרה" },
+        { "id": "inference", "findIn": "נאתר את המידע בקטע וננסה להבין מה משתמע/ניתן להסיק ממנו" }
+      ],
+      "general": [
+        { "id": "paragraph", "findIn": "הרעיון המרכזי של פסקה יופיע במשפט הראשון (לעיתים גם השני) שלה" },
+        { "id": "main-idea", "findIn": "נקרא משפט ראשון בכל פסקה ונאתר את הרעיון המרכזי" }
+      ]
+    }
+  }
+}

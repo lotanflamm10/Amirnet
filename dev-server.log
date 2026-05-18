@@ -1,0 +1,11 @@
+
+> amirnet-trainer@0.1.0 dev
+> next dev -H 0.0.0.0
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+✓ Ready in 476ms
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+[?25h

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "v21",
+    "word": "substantial",
+    "definition": "significant in amount or importance",
+    "example": "The research required a substantial amount of funding.",
+    "difficulty": "hard",
+    "choices": [
+      "significant",
+      "temporary",
+      "hidden",
+      "minor"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v22",
+    "word": "inevitable",
+    "definition": "certain to happen and unavoidable",
+    "example": "Given the circumstances, a delay was inevitable.",
+    "difficulty": "hard",
+    "choices": [
+      "unavoidable",
+      "unusual",
+      "dangerous",
+      "optional"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v23",
+    "word": "coherent",
+    "definition": "logical and well organised",
+    "example": "Her explanation was coherent and easy to follow.",
+    "difficulty": "hard",
+    "choices": [
+      "logical",
+      "uncertain",
+      "brief",
+      "hostile"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v24",
+    "word": "plausible",
+    "definition": "seeming reasonable or likely to be true",
+    "example": "The scientist offered a plausible explanation for the unusual results.",
+    "difficulty": "hard",
+    "choices": [
+      "convincing",
+      "careless",
+      "irrelevant",
+      "fragile"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v25",
+    "word": "constraint",
+    "definition": "a limitation or restriction",
+    "example": "Budget constraints forced the team to delay the project.",
+    "difficulty": "hard",
+    "choices": [
+      "restriction",
+      "advantage",
+      "reward",
+      "prediction"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v26",
+    "word": "derive",
+    "definition": "to obtain or develop from a source",
+    "example": "Many medicines derive from compounds found in plants.",
+    "difficulty": "hard",
+    "choices": [
+      "obtain",
+      "refuse",
+      "delay",
+      "forget"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v27",
+    "word": "mitigate",
+    "definition": "to make something less severe",
+    "example": "New safety measures were introduced to mitigate the risks.",
+    "difficulty": "hard",
+    "choices": [
+      "reduce",
+      "predict",
+      "announce",
+      "observe"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "v28",
+    "word": "rigorous",
+    "definition": "very thorough and careful",
+    "example": "The results were accepted only after a rigorous review process.",
+    "difficulty": "hard",
+    "choices": [
+      "thorough",
+      "casual",
+      "silent",
+      "brief"
+    ],
+    "answer": 0
+  }
+]

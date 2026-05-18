@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "sb-sr-251",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to POSTULATE?",
+    "choices": ["propose", "disprove", "ignore", "confirm"],
+    "answer": 0,
+    "explanation": "Postulate means to suggest or assume something as a basis for reasoning; propose is the closest synonym.",
+    "wrongReasons": [
+      "'Disprove' means to prove something false — the opposite of postulating.",
+      "'Ignore' means to pay no attention to, unrelated to suggesting a theory.",
+      "'Confirm' means to establish as certain, whereas postulate means to put forward an idea for consideration."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["postulate"],
+    "hebrewExplanation": "postulate = להציע/להניח כהנחת יסוד. propose = להציע. טעויות נפוצות: disprove = להפריך (ההפך), confirm = לאשר (חזק יותר מהנחה).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-252",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to CORROBORATE?",
+    "choices": ["undermine", "confirm", "question", "ignore"],
+    "answer": 1,
+    "explanation": "Corroborate means to confirm or give support to a statement or theory; confirm is the closest synonym.",
+    "wrongReasons": [
+      "'Undermine' means to weaken — the opposite of corroborating.",
+      "'Question' means to express doubt, which is contrary to providing support.",
+      "'Ignore' means to disregard, unrelated to verifying or supporting a claim."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["corroborate"],
+    "hebrewExplanation": "corroborate = לאשש/לתמוך בראיה. confirm = לאשר. טעויות נפוצות: undermine = לחתור תחת (ההפך), question = לפקפק (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-253",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to CONTEND?",
+    "choices": ["withdraw", "deny", "argue", "accept"],
+    "answer": 2,
+    "explanation": "Contend means to assert or argue a position; argue is the closest synonym.",
+    "wrongReasons": [
+      "'Withdraw' means to pull back a claim, not to put one forward.",
+      "'Deny' means to declare something untrue, which is a specific kind of response rather than stating a position.",
+      "'Accept' means to agree with something — the opposite of contending."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["contend"],
+    "hebrewExplanation": "contend = לטעון/לתקוח. argue = לטעון. טעויות נפוצות: withdraw = לחזור בו (ההפך), accept = לקבל (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-254",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to REBUKE?",
+    "choices": ["praise", "avoid", "reprimand", "reward"],
+    "answer": 2,
+    "explanation": "Rebuke means to express sharp disapproval; reprimand is the closest synonym.",
+    "wrongReasons": [
+      "'Praise' means to express approval — the direct opposite of rebuke.",
+      "'Avoid' means to stay away from, unrelated to criticizing someone.",
+      "'Reward' means to give recognition for good behavior, the opposite of rebuke."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["rebuke"],
+    "hebrewExplanation": "rebuke = לנזוף/לגנות. reprimand = לנזוף. טעויות נפוצות: praise = לשבח (ההפך), reward = לתגמל (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-255",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to ELICIT?",
+    "choices": ["suppress", "draw out", "conceal", "destroy"],
+    "answer": 1,
+    "explanation": "Elicit means to draw out a response or reaction; draw out is the closest synonym.",
+    "wrongReasons": [
+      "'Suppress' means to prevent from being expressed — the opposite of eliciting.",
+      "'Conceal' means to hide, which is contrary to drawing something out.",
+      "'Destroy' means to ruin completely, unrelated to provoking a response."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["elicit"],
+    "hebrewExplanation": "elicit = לעורר/לחלץ תגובה. draw out = להוציא/לעורר. טעויות נפוצות: suppress = לדכא (ההפך), conceal = להסתיר (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-256",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to SALIENT?",
+    "choices": ["trivial", "hidden", "prominent", "confusing"],
+    "answer": 2,
+    "explanation": "Salient means most noticeable or important; prominent is the closest synonym.",
+    "wrongReasons": [
+      "'Trivial' means of little importance — the opposite of salient.",
+      "'Hidden' means not visible, whereas salient things stand out clearly.",
+      "'Confusing' means unclear, which is unrelated to being noticeable."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["salient"],
+    "hebrewExplanation": "salient = בולט/חשוב במיוחד. prominent = בולט. טעויות נפוצות: trivial = שולי (ההפך), hidden = נסתר (ההפך).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-257",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to PARADIGM?",
+    "choices": ["model", "exception", "error", "obstacle"],
+    "answer": 0,
+    "explanation": "Paradigm means a typical example or model of something; model is the closest synonym.",
+    "wrongReasons": [
+      "'Exception' means something that deviates from the rule, the opposite of a paradigm.",
+      "'Error' means a mistake, unrelated to a representative example or framework.",
+      "'Obstacle' means something that blocks progress, unrelated to the concept of a standard model."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["paradigm"],
+    "hebrewExplanation": "paradigm = פרדיגמה/מודל. model = מודל/דגם. טעויות נפוצות: exception = יוצא דופן (ההפך), error = שגיאה (לא קשור).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-258",
+    "difficulty": "easy",
+    "text": "Which of the following is closest in meaning to HYPOTHESIS?",
+    "choices": ["proof", "assumption", "conclusion", "fact"],
+    "answer": 1,
+    "explanation": "Hypothesis means a proposed explanation made on the basis of limited evidence; assumption is the closest synonym.",
+    "wrongReasons": [
+      "'Proof' means established evidence — a hypothesis is not yet proven.",
+      "'Conclusion' means a judgment reached after consideration; hypotheses come before conclusions.",
+      "'Fact' means something known to be true; a hypothesis is still tentative."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["hypothesis"],
+    "hebrewExplanation": "hypothesis = השערה/הנחה. assumption = הנחה. טעויות נפוצות: proof = הוכחה (חזק מדי), fact = עובדה (חזק מדי).",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-sr-259",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to POSIT?",
+    "choices": ["disprove", "assume", "retract", "overlook"],
+    "answer": 1,
+    "explanation": "Posit means to put forward as fact or as a basis for argument; assume is the closest synonym.",
+    "wrongReasons": [
+      "'Disprove' means to demonstrate that something is false — the opposite of positing.",
+      "'Retract' means to withdraw a statement, which is the opposite of putting one forward.",
+      "'Overlook' means to fail to notice, unrelated to proposing a position."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["posit"],
+    "hebrewExplanation": "posit = להציב/להניח כהנחה. assume = להניח. טעויות נפוצות: disprove = להפריך (ההפך), retract = לחזור בו (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-260",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to REPUDIATE?",
+    "choices": ["endorse", "reject", "accept", "negotiate"],
+    "answer": 1,
+    "explanation": "Repudiate means to refuse to accept or be associated with something; reject is the closest synonym.",
+    "wrongReasons": [
+      "'Endorse' means to approve or support — the direct opposite of repudiating.",
+      "'Accept' means to agree to receive or undertake — the opposite of repudiating.",
+      "'Negotiate' means to reach an agreement, which is distinct from outright rejection."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["repudiate"],
+    "hebrewExplanation": "repudiate = לדחות/להתנער מ-. reject = לדחות. טעויות נפוצות: endorse = לתמוך (ההפך), accept = לקבל (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-261",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to ESPOUSE?",
+    "choices": ["abandon", "criticize", "adopt", "question"],
+    "answer": 2,
+    "explanation": "Espouse means to adopt or support a cause, belief, or way of life; adopt is the closest synonym.",
+    "wrongReasons": [
+      "'Abandon' means to give up — the opposite of espousing a cause.",
+      "'Criticize' means to express disapproval, the opposite of supporting a belief.",
+      "'Question' means to express doubt, which contrasts with actively championing something."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["espouse"],
+    "hebrewExplanation": "espouse = לאמץ/לתמוך ב-. adopt = לאמץ. טעויות נפוצות: abandon = לנטוש (ההפך), criticize = לבקר (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-262",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to REFUTE?",
+    "choices": ["confirm", "endorse", "disprove", "accept"],
+    "answer": 2,
+    "explanation": "Refute means to prove a statement or theory to be wrong or false; disprove is the closest synonym.",
+    "wrongReasons": [
+      "'Confirm' means to establish as true — the direct opposite of refuting.",
+      "'Endorse' means to approve or support, contradicting the idea of refutation.",
+      "'Accept' means to agree to something — the opposite of challenging and disproving it."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["refute"],
+    "hebrewExplanation": "refute = להפריך/לסתור. disprove = להפריך. טעויות נפוצות: confirm = לאשר (ההפך), endorse = לתמוך (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-263",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to SUBSTANTIATE?",
+    "choices": ["undermine", "question", "support", "contradict"],
+    "answer": 2,
+    "explanation": "Substantiate means to provide evidence to support or prove the truth of something; support is the closest synonym.",
+    "wrongReasons": [
+      "'Undermine' means to weaken — the opposite of substantiating a claim.",
+      "'Question' means to cast doubt on, the opposite of providing proof.",
+      "'Contradict' means to deny or go against — the opposite of substantiating."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["substantiate"],
+    "hebrewExplanation": "substantiate = לבסס/לתמוך בראיות. support = לתמוך. טעויות נפוצות: undermine = לחתור תחת (ההפך), contradict = לסתור (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-264",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to CONNOTE?",
+    "choices": ["define precisely", "imply", "contradict", "eliminate"],
+    "answer": 1,
+    "explanation": "Connote means to imply or suggest an idea in addition to the literal meaning; imply is the closest synonym.",
+    "wrongReasons": [
+      "'Define precisely' is the opposite of connoting, which deals with secondary implied meanings.",
+      "'Contradict' means to deny, which is contrary to suggesting an additional meaning.",
+      "'Eliminate' means to remove, unrelated to suggesting associated ideas."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["connote"],
+    "hebrewExplanation": "connote = להשתמע/לרמוז על. imply = לרמוז. טעויות נפוצות: define precisely = להגדיר במדויק (ההפך), contradict = לסתור (לא קשור).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-265",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DENOTE?",
+    "choices": ["conceal", "suggest indirectly", "signify", "contradict"],
+    "answer": 2,
+    "explanation": "Denote means to be a sign of or to represent the literal meaning of something; signify is the closest synonym.",
+    "wrongReasons": [
+      "'Conceal' means to hide — the opposite of indicating a clear meaning.",
+      "'Suggest indirectly' describes connotation, not denotation, which is literal and direct.",
+      "'Contradict' means to deny — the opposite of signifying something."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["denote"],
+    "hebrewExplanation": "denote = לציין/לסמן. signify = לסמן/לייצג. טעויות נפוצות: conceal = להסתיר (ההפך), suggest indirectly = לרמוז בעקיפין (זו קונוטציה, לא דנוטציה).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-266",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to INFER?",
+    "choices": ["state directly", "deduce", "contradict", "ignore"],
+    "answer": 1,
+    "explanation": "Infer means to draw a conclusion from evidence or reasoning; deduce is the closest synonym.",
+    "wrongReasons": [
+      "'State directly' is the opposite of inferring, which involves reaching an unstated conclusion.",
+      "'Contradict' means to deny, not to reason toward a conclusion.",
+      "'Ignore' means to pay no attention to, the opposite of processing evidence."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["infer"],
+    "hebrewExplanation": "infer = להסיק. deduce = להסיק/לגזור. טעויות נפוצות: state directly = לומר במפורש (ההפך), ignore = להתעלם (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-267",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to EXTRAPOLATE?",
+    "choices": ["observe directly", "project", "contradict", "limit"],
+    "answer": 1,
+    "explanation": "Extrapolate means to extend known information to estimate unknown values or situations; project is the closest synonym.",
+    "wrongReasons": [
+      "'Observe directly' means to see something firsthand, which is the opposite of extending existing data.",
+      "'Contradict' means to deny, unrelated to making projections from data.",
+      "'Limit' means to restrict, the opposite of extending beyond known information."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["extrapolate"],
+    "hebrewExplanation": "extrapolate = לחלץ/לחזות מנתונים קיימים. project = להקרין/לנבא. טעויות נפוצות: observe directly = לצפות ישירות (ההפך), limit = להגביל (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-268",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to CONSTRUE?",
+    "choices": ["ignore", "contradict", "interpret", "conceal"],
+    "answer": 2,
+    "explanation": "Construe means to interpret or understand something in a particular way; interpret is the closest synonym.",
+    "wrongReasons": [
+      "'Ignore' means to pay no attention to — the opposite of actively making sense of something.",
+      "'Contradict' means to go against, not to assign meaning to.",
+      "'Conceal' means to hide, which is contrary to the act of interpreting."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["construe"],
+    "hebrewExplanation": "construe = לפרש/להבין. interpret = לפרש. טעויות נפוצות: ignore = להתעלם (ההפך), conceal = להסתיר (לא קשור).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-269",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to GERMANE?",
+    "choices": ["irrelevant", "unclear", "pertinent", "contradictory"],
+    "answer": 2,
+    "explanation": "Germane means relevant and appropriate to the subject; pertinent is the closest synonym.",
+    "wrongReasons": [
+      "'Irrelevant' means not connected to the subject — the direct opposite of germane.",
+      "'Unclear' means not easy to understand, unrelated to relevance.",
+      "'Contradictory' means inconsistent, which is different from being relevant."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["germane"],
+    "hebrewExplanation": "germane = רלוונטי/נוגע לעניין. pertinent = רלוונטי. טעויות נפוצות: irrelevant = לא רלוונטי (ההפך), unclear = לא ברור (לא קשור).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-270",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to SEMINAL?",
+    "choices": ["derivative", "insignificant", "influential", "outdated"],
+    "answer": 2,
+    "explanation": "Seminal means strongly influencing later developments; influential is the closest synonym.",
+    "wrongReasons": [
+      "'Derivative' means based on something else rather than original — the opposite of seminal.",
+      "'Insignificant' means of little importance — the opposite of a seminal work.",
+      "'Outdated' means no longer current, which misses the forward impact of a seminal contribution."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["seminal"],
+    "hebrewExplanation": "seminal = ראשוני ומשפיע. influential = משפיע. טעויות נפוצות: derivative = נגזר (ההפך), insignificant = לא חשוב (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-271",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to RUDIMENTARY?",
+    "choices": ["advanced", "basic", "complex", "refined"],
+    "answer": 1,
+    "explanation": "Rudimentary means involving or limited to basic principles; basic is the closest synonym.",
+    "wrongReasons": [
+      "'Advanced' means highly developed — the direct opposite of rudimentary.",
+      "'Complex' means made of many parts, unlike something rudimentary and simple.",
+      "'Refined' means developed or improved — the opposite of being in a basic state."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["rudimentary"],
+    "hebrewExplanation": "rudimentary = יסודי/בסיסי. basic = בסיסי. טעויות נפוצות: advanced = מתקדם (ההפך), refined = מעודן (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-272",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to NASCENT?",
+    "choices": ["mature", "declining", "emerging", "established"],
+    "answer": 2,
+    "explanation": "Nascent means just beginning to exist or develop; emerging is the closest synonym.",
+    "wrongReasons": [
+      "'Mature' means fully developed — the opposite of nascent.",
+      "'Declining' means decreasing, whereas nascent implies growth at an early stage.",
+      "'Established' means settled and widely accepted — the opposite of nascent."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["nascent"],
+    "hebrewExplanation": "nascent = מתהווה/בראשית. emerging = מתפתח/עולה. טעויות נפוצות: mature = בשל (ההפך), established = מבוסס (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-273",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to INCIPIENT?",
+    "choices": ["advanced", "completed", "beginning", "deteriorating"],
+    "answer": 2,
+    "explanation": "Incipient means in an early stage of development; beginning is the closest synonym.",
+    "wrongReasons": [
+      "'Advanced' means well along in development — the opposite of incipient.",
+      "'Completed' means finished — the opposite of something just starting.",
+      "'Deteriorating' means becoming worse, not starting to develop."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["incipient"],
+    "hebrewExplanation": "incipient = בראשית/בשלב ההתחלתי. beginning = מתחיל. טעויות נפוצות: advanced = מתקדם (ההפך), completed = מושלם (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-274",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to PIVOTAL?",
+    "choices": ["trivial", "peripheral", "crucial", "repetitive"],
+    "answer": 2,
+    "explanation": "Pivotal means of critical importance; crucial is the closest synonym.",
+    "wrongReasons": [
+      "'Trivial' means of little importance — the direct opposite of pivotal.",
+      "'Peripheral' means relating to the edges or minor aspects — the opposite of a central pivotal role.",
+      "'Repetitive' means happening over and over, unrelated to critical importance."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["pivotal"],
+    "hebrewExplanation": "pivotal = מרכזי/מכריע. crucial = קריטי/חיוני. טעויות נפוצות: trivial = שולי (ההפך), peripheral = שולי (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-275",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DISCRETE?",
+    "choices": ["continuous", "blended", "separate", "overlapping"],
+    "answer": 2,
+    "explanation": "Discrete means individually separate and distinct; separate is the closest synonym.",
+    "wrongReasons": [
+      "'Continuous' means unbroken — the opposite of discrete, which implies distinct units.",
+      "'Blended' means mixed together — the opposite of being separately distinct.",
+      "'Overlapping' means having parts in common — the opposite of discrete categories."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["discrete"],
+    "hebrewExplanation": "discrete = נפרד/נבדל. separate = נפרד. טעויות נפוצות: continuous = רציף (ההפך), blended = מעורב (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-276",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DISPARATE?",
+    "choices": ["identical", "similar", "different", "parallel"],
+    "answer": 2,
+    "explanation": "Disparate means essentially different in kind; different is the closest synonym, though disparate implies even greater contrast.",
+    "wrongReasons": [
+      "'Identical' means exactly the same — the direct opposite of disparate.",
+      "'Similar' means having resemblance — the opposite of being essentially different.",
+      "'Parallel' means running side by side and comparable, not essentially different."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["disparate"],
+    "hebrewExplanation": "disparate = שונה מהותית. different = שונה. טעויות נפוצות: identical = זהה (ההפך), similar = דומה (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-277",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to ANALOGOUS?",
+    "choices": ["contradictory", "comparable", "opposite", "unrelated"],
+    "answer": 1,
+    "explanation": "Analogous means similar in function or position, though not identical; comparable is the closest synonym.",
+    "wrongReasons": [
+      "'Contradictory' means directly opposed — the opposite of analogous.",
+      "'Opposite' means completely different — the direct antonym.",
+      "'Unrelated' means having no connection, whereas analogous means having a structural similarity."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["analogous"],
+    "hebrewExplanation": "analogous = אנלוגי/דומה בתפקוד. comparable = ניתן להשוואה. טעויות נפוצות: contradictory = סותר (ההפך), unrelated = לא קשור (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-278",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to RECIPROCAL?",
+    "choices": ["one-sided", "mutual", "competitive", "sequential"],
+    "answer": 1,
+    "explanation": "Reciprocal means given, felt, or done in return; mutual is the closest synonym.",
+    "wrongReasons": [
+      "'One-sided' means directed in only one direction — the opposite of reciprocal.",
+      "'Competitive' means involving rivalry, not mutual exchange.",
+      "'Sequential' means following in a sequence, unrelated to mutual exchange."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["reciprocal"],
+    "hebrewExplanation": "reciprocal = הדדי. mutual = הדדי/משותף. טעויות נפוצות: one-sided = חד-צדדי (ההפך), competitive = תחרותי (לא קשור).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-279",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to EMPIRICAL?",
+    "choices": ["theoretical", "speculative", "evidence-based", "philosophical"],
+    "answer": 2,
+    "explanation": "Empirical means based on observation or experience rather than theory; evidence-based is the closest synonym.",
+    "wrongReasons": [
+      "'Theoretical' means concerned with theory rather than practice — the opposite of empirical.",
+      "'Speculative' means based on conjecture rather than evidence — the opposite of empirical.",
+      "'Philosophical' means relating to abstract ideas, which is different from the observational grounding of empirical research."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["empirical"],
+    "hebrewExplanation": "empirical = אמפירי/מבוסס ניסיון. evidence-based = מבוסס ראיות. טעויות נפוצות: theoretical = תיאורטי (ההפך), speculative = ספקולטיבי (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-280",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to METHODOLOGY?",
+    "choices": ["result", "hypothesis", "approach", "conclusion"],
+    "answer": 2,
+    "explanation": "Methodology means a system of methods used in a field of study; approach is the closest synonym.",
+    "wrongReasons": [
+      "'Result' means the outcome of a process, not the process itself.",
+      "'Hypothesis' means a proposed explanation, not the method used to investigate it.",
+      "'Conclusion' means the final judgment reached at the end, not the method of reaching it."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["methodology"],
+    "hebrewExplanation": "methodology = מתודולוגיה/גישה שיטתית. approach = גישה/שיטה. טעויות נפוצות: result = תוצאה (לא קשור), conclusion = מסקנה (לא קשור).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-281",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to TRAJECTORY?",
+    "choices": ["origin", "path", "conclusion", "barrier"],
+    "answer": 1,
+    "explanation": "Trajectory means the course or path something takes over time; path is the closest synonym.",
+    "wrongReasons": [
+      "'Origin' means the starting point, not the entire course of development.",
+      "'Conclusion' means the end point, not the path taken to reach it.",
+      "'Barrier' means an obstacle, unrelated to the course of development."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["trajectory"],
+    "hebrewExplanation": "trajectory = מסלול/נתיב. path = מסלול. טעויות נפוצות: origin = מקור (רק ההתחלה), conclusion = מסקנה (רק הסוף).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-282",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to NEXUS?",
+    "choices": ["separation", "connection", "contradiction", "origin"],
+    "answer": 1,
+    "explanation": "Nexus means a connection or series of connections linking two or more things; connection is the closest synonym.",
+    "wrongReasons": [
+      "'Separation' means a gap or division — the opposite of a nexus.",
+      "'Contradiction' means a conflict between things, not a link between them.",
+      "'Origin' means the starting point, not the linking relationship between things."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["nexus"],
+    "hebrewExplanation": "nexus = קשר/חיבור. connection = חיבור/קשר. טעויות נפוצות: separation = הפרדה (ההפך), contradiction = סתירה (לא קשור).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-283",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to DICHOTOMY?",
+    "choices": ["unity", "division", "similarity", "gradation"],
+    "answer": 1,
+    "explanation": "Dichotomy means a division into two contrasting parts; division is the closest synonym.",
+    "wrongReasons": [
+      "'Unity' means a state of being joined — the opposite of a dichotomy.",
+      "'Similarity' means being alike, whereas dichotomy emphasizes contrast and division.",
+      "'Gradation' means a series of gradual steps, not a binary split."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["dichotomy"],
+    "hebrewExplanation": "dichotomy = דיכוטומיה/חלוקה לשניים. division = חלוקה. טעויות נפוצות: unity = אחדות (ההפך), similarity = דמיון (ההפך).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-284",
+    "difficulty": "medium",
+    "text": "Which of the following is closest in meaning to AMALGAM?",
+    "choices": ["separation", "component", "mixture", "contrast"],
+    "answer": 2,
+    "explanation": "Amalgam means a mixture or blend of different things; mixture is the closest synonym.",
+    "wrongReasons": [
+      "'Separation' means keeping things apart — the opposite of combining them into an amalgam.",
+      "'Component' means a single part, whereas amalgam refers to the combined whole.",
+      "'Contrast' means showing differences between things, unrelated to blending."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["amalgam"],
+    "hebrewExplanation": "amalgam = תערובת/שילוב. mixture = תערובת. טעויות נפוצות: separation = הפרדה (ההפך), component = רכיב (חלק, לא השילוב).",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-sr-285",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to SYNTHESIS?",
+    "choices": ["analysis", "fragmentation", "integration", "contradiction"],
+    "answer": 2,
+    "explanation": "Synthesis means the combination of components to form a connected whole; integration is the closest synonym.",
+    "wrongReasons": [
+      "'Analysis' means breaking something into components — the opposite of synthesis.",
+      "'Fragmentation' means breaking into parts — the opposite of combining into a whole.",
+      "'Contradiction' means a conflict between things, not a combination of them."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["synthesis"],
+    "hebrewExplanation": "synthesis = סינתזה/אינטגרציה. integration = שילוב/אינטגרציה. טעויות נפוצות: analysis = ניתוח (ההפך), fragmentation = פיצול (ההפך).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-286",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to CRITIQUE?",
+    "choices": ["endorsement", "analysis", "dismissal", "summary"],
+    "answer": 1,
+    "explanation": "Critique means a detailed analysis and assessment of something; analysis is the closest synonym in this academic context.",
+    "wrongReasons": [
+      "'Endorsement' means approval or support — the opposite of critical examination.",
+      "'Dismissal' means treating something as unworthy, whereas critique involves detailed engagement.",
+      "'Summary' means a brief statement of main points, lacking the evaluative depth of a critique."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["critique"],
+    "hebrewExplanation": "critique = ביקורת/ניתוח מעמיק. analysis = ניתוח/בחינה. טעויות נפוצות: endorsement = המלצה (ההפך), dismissal = דחייה (שטחי מדי).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-287",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to QUALITATIVE?",
+    "choices": ["numerical", "statistical", "descriptive", "measurable"],
+    "answer": 2,
+    "explanation": "Qualitative means relating to the quality or character of something rather than its quantity; descriptive is the closest synonym.",
+    "wrongReasons": [
+      "'Numerical' means expressed in numbers — characteristic of quantitative, not qualitative, research.",
+      "'Statistical' relates to numerical data analysis, the opposite type of research from qualitative.",
+      "'Measurable' implies numeric measurement, again characteristic of quantitative rather than qualitative approaches."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["qualitative"],
+    "hebrewExplanation": "qualitative = איכותני/תיאורי. descriptive = תיאורי. טעויות נפוצות: numerical = מספרי (שייך לכמותי), statistical = סטטיסטי (שייך לכמותי).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-288",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to QUANTITATIVE?",
+    "choices": ["descriptive", "subjective", "measurable", "interpretive"],
+    "answer": 2,
+    "explanation": "Quantitative means relating to or measured by quantity; measurable is the closest synonym.",
+    "wrongReasons": [
+      "'Descriptive' means explaining through words and observation — characteristic of qualitative research.",
+      "'Subjective' means based on personal feelings, the opposite of the objective numeric basis of quantitative data.",
+      "'Interpretive' means focused on meaning and interpretation, characteristic of qualitative approaches."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["quantitative"],
+    "hebrewExplanation": "quantitative = כמותי/מדיד. measurable = ניתן למדידה. טעויות נפוצות: descriptive = תיאורי (שייך לאיכותני), subjective = סובייקטיבי (ההפך).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-289",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to FRAMEWORK?",
+    "choices": ["obstacle", "structure", "outcome", "contradiction"],
+    "answer": 1,
+    "explanation": "Framework means a system of rules, ideas, or beliefs used to plan or organize something; structure is the closest synonym.",
+    "wrongReasons": [
+      "'Obstacle' means something that blocks progress, the opposite of a helpful framework.",
+      "'Outcome' means a result, not the organizing structure used to achieve it.",
+      "'Contradiction' means an inconsistency, unrelated to organizing principles."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["framework"],
+    "hebrewExplanation": "framework = מסגרת/מבנה. structure = מבנה. טעויות נפוצות: obstacle = מכשול (ההפך), outcome = תוצאה (לא קשור).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-290",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to POSTULATE (as a noun)?",
+    "choices": ["proof", "assumption", "conclusion", "refutation"],
+    "answer": 1,
+    "explanation": "As a noun, postulate means a thing suggested as a basis for reasoning; assumption is the closest synonym.",
+    "wrongReasons": [
+      "'Proof' means established evidence — a postulate is an unproven starting assumption.",
+      "'Conclusion' means a judgment reached at the end, whereas a postulate is a starting premise.",
+      "'Refutation' means the proving of something to be wrong — the opposite of what a postulate does."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["postulate"],
+    "hebrewExplanation": "postulate (שם עצם) = הנחת יסוד/הנחה. assumption = הנחה. טעויות נפוצות: proof = הוכחה (חזק מדי), conclusion = מסקנה (בסוף, לא בהתחלה).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-291",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to ESPOUSE (in an academic context)?",
+    "choices": ["refute", "champion", "question", "ignore"],
+    "answer": 1,
+    "explanation": "Espouse in an academic context means to actively advocate or champion a theory or view; champion is the closest synonym.",
+    "wrongReasons": [
+      "'Refute' means to disprove — the direct opposite of espousing a view.",
+      "'Question' means to express doubt, the opposite of actively supporting a position.",
+      "'Ignore' means to pay no attention to, the opposite of championing something."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["espouse"],
+    "hebrewExplanation": "espouse (בהקשר אקדמי) = לדגול ב-/לתמוך. champion = לדגול ב-/להוביל. טעויות נפוצות: refute = להפריך (ההפך), question = לפקפק (ההפך).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-292",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to CORROBORATE (in a research context)?",
+    "choices": ["undermine", "speculate", "validate", "contradict"],
+    "answer": 2,
+    "explanation": "Corroborate in a research context means to confirm or validate with evidence; validate is the closest synonym.",
+    "wrongReasons": [
+      "'Undermine' means to weaken — the opposite of corroborating findings.",
+      "'Speculate' means to form a theory without firm evidence, the opposite of corroborating with proof.",
+      "'Contradict' means to deny — the direct opposite of supporting."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["corroborate"],
+    "hebrewExplanation": "corroborate (בהקשר מחקרי) = לאמת/לאשש. validate = לאמת. טעויות נפוצות: undermine = לחתור תחת (ההפך), speculate = לשער (ההפך).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-293",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to SALIENT (in an academic context)?",
+    "choices": ["peripheral", "contentious", "conspicuous", "ambiguous"],
+    "answer": 2,
+    "explanation": "Salient in academic usage means most noticeable or important; conspicuous is the closest synonym.",
+    "wrongReasons": [
+      "'Peripheral' means marginal or of minor importance — the opposite of salient.",
+      "'Contentious' means causing disagreement, which is unrelated to being the most notable feature.",
+      "'Ambiguous' means unclear, the opposite of something salient which stands out clearly."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["salient"],
+    "hebrewExplanation": "salient (בהקשר אקדמי) = בולט/ראוי לציון. conspicuous = בולט לעין. טעויות נפוצות: peripheral = שולי (ההפך), ambiguous = מעורפל (ההפך).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-294",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to NASCENT (in an academic context)?",
+    "choices": ["entrenched", "incipient", "declining", "obsolete"],
+    "answer": 1,
+    "explanation": "Nascent means just coming into existence; incipient is the closest synonym, both referring to the earliest stage of development.",
+    "wrongReasons": [
+      "'Entrenched' means firmly established — the direct opposite of nascent.",
+      "'Declining' means decreasing or deteriorating — the opposite of growing from a nascent stage.",
+      "'Obsolete' means no longer in use — the opposite of something just emerging."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["nascent"],
+    "hebrewExplanation": "nascent (בהקשר אקדמי) = מתהווה. incipient = בשלב ראשוני. טעויות נפוצות: entrenched = מושרש (ההפך), obsolete = מיושן (ההפך).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-295",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to EXTRAPOLATE (in a data context)?",
+    "choices": ["observe", "verify", "project", "contradict"],
+    "answer": 2,
+    "explanation": "Extrapolate in a data context means to extend a trend or dataset beyond the observed range to make predictions; project is the closest synonym.",
+    "wrongReasons": [
+      "'Observe' means to watch or record directly, the opposite of projecting beyond existing data.",
+      "'Verify' means to confirm the truth of something already known, not to extend it beyond known data.",
+      "'Contradict' means to deny, unrelated to the predictive extension that extrapolation involves."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["extrapolate"],
+    "hebrewExplanation": "extrapolate (בהקשר נתונים) = לחזות מעבר לנתונים. project = לנבא/להקרין. טעויות נפוצות: observe = לצפות (ישיר, לא הרחבה), verify = לאמת (נתונים קיימים).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-296",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to DICHOTOMY (in philosophical discourse)?",
+    "choices": ["synthesis", "paradox", "binary opposition", "gradation"],
+    "answer": 2,
+    "explanation": "Dichotomy in philosophical discourse means a division into two mutually exclusive categories; binary opposition is the closest synonym.",
+    "wrongReasons": [
+      "'Synthesis' means combining two things — the opposite of a dichotomy which separates them.",
+      "'Paradox' means a self-contradictory statement, not a division between two categories.",
+      "'Gradation' means a gradual transition between two extremes, the opposite of a sharp dichotomy."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["dichotomy"],
+    "hebrewExplanation": "dichotomy (בשיח פילוסופי) = ניגוד בינארי/חלוקה לשניים. binary opposition = ניגוד בינארי. טעויות נפוצות: synthesis = סינתזה (ההפך, שילוב), gradation = הדרגתיות (ההפך).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-297",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to RECIPROCAL (in academic relationships)?",
+    "choices": ["unilateral", "competitive", "symmetrical", "hierarchical"],
+    "answer": 2,
+    "explanation": "Reciprocal in academic relationships means given and received equally by both parties; symmetrical is the closest synonym.",
+    "wrongReasons": [
+      "'Unilateral' means one-sided — the direct opposite of reciprocal.",
+      "'Competitive' means involving rivalry, not mutual exchange.",
+      "'Hierarchical' means arranged in order of rank, which implies an asymmetry opposite to the balanced nature of reciprocal relationships."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["reciprocal"],
+    "hebrewExplanation": "reciprocal (ביחסים אקדמיים) = הדדי/סימטרי. symmetrical = סימטרי/מאוזן. טעויות נפוצות: unilateral = חד-צדדי (ההפך), hierarchical = היררכי (א-סימטרי).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-298",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to PARADIGM SHIFT?",
+    "choices": ["minor adjustment", "radical transformation", "gradual refinement", "confirmed trend"],
+    "answer": 1,
+    "explanation": "A paradigm shift means a fundamental change in the underlying assumptions of a field; radical transformation is the closest synonym.",
+    "wrongReasons": [
+      "'Minor adjustment' means a small change — the opposite of the fundamental upheaval implied by a paradigm shift.",
+      "'Gradual refinement' means incremental improvement within the existing framework, not a wholesale replacement of it.",
+      "'Confirmed trend' means a pattern that is already established, not a disruptive break with prior thinking."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["paradigm"],
+    "hebrewExplanation": "paradigm shift = מהפכה פרדיגמטית. radical transformation = שינוי יסודי. טעויות נפוצות: minor adjustment = התאמה קלה (ההפך), gradual refinement = שיפור הדרגתי (לא מהפכה).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-299",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to EMPIRICAL (in research methodology)?",
+    "choices": ["speculative", "deductive", "observational", "normative"],
+    "answer": 2,
+    "explanation": "Empirical in research methodology means based on observation and experiment; observational is the closest synonym.",
+    "wrongReasons": [
+      "'Speculative' means based on guesswork rather than evidence — the opposite of empirical.",
+      "'Deductive' means derived from logical principles rather than direct observation; empirical research is inductive.",
+      "'Normative' means relating to standards or norms rather than observed facts — the opposite of empirical."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["empirical"],
+    "hebrewExplanation": "empirical (במחקר) = מבוסס תצפית/ניסוי. observational = תצפיתי. טעויות נפוצות: speculative = ספקולטיבי (ההפך), normative = נורמטיבי (הנחות, לא תצפית).",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-sr-300",
+    "difficulty": "hard",
+    "text": "Which of the following is closest in meaning to NEXUS (in academic discourse)?",
+    "choices": ["divergence", "contradiction", "hub", "periphery"],
+    "answer": 2,
+    "explanation": "Nexus in academic discourse means the central connection or focal point linking multiple elements; hub is the closest synonym.",
+    "wrongReasons": [
+      "'Divergence' means moving apart — the opposite of a nexus which brings things together.",
+      "'Contradiction' means an inconsistency, not a connecting point.",
+      "'Periphery' means the outer edge — the opposite of a central hub or nexus."
+    ],
+    "subType": "synonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "synonyms"],
+    "vocabularyWords": ["nexus"],
+    "hebrewExplanation": "nexus (בשיח אקדמי) = ציר/מוקד חיבור. hub = ציר/מרכז. טעויות נפוצות: divergence = פיצול (ההפך), periphery = שוליים (ההפך).",
+    "estimatedTimeSeconds": 45
+  }
+]

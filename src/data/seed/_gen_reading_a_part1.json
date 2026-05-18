@@ -1,0 +1,842 @@
+[
+  {
+    "id": "r13-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Procrastination is primarily caused by poor time-management skills.",
+      "Procrastination is an emotional regulation problem, not a laziness problem.",
+      "People procrastinate because tasks are too difficult to complete.",
+      "Procrastination can be cured by setting stricter deadlines."
+    ],
+    "answer": 1,
+    "explanation": "The passage's central argument is that procrastination stems from avoiding negative emotions associated with a task, making it an emotional regulation issue rather than a character flaw like laziness.",
+    "wrongReasons": [
+      "A conflates procrastination with time management; the passage explicitly says it is not about managing time.",
+      "C is not supported; the passage focuses on emotional discomfort, not task difficulty per se.",
+      "D is contradicted by the passage, which notes that external pressure rarely fixes the underlying emotional avoidance."
+    ],
+    "passage": {
+      "id": "r13-passage",
+      "title": "The Psychology of Procrastination",
+      "body": "For decades, procrastination was treated as a simple failure of time management, a habit that could be corrected with better planners and stricter schedules. Recent psychological research has overturned this view. Procrastination, researchers now argue, is fundamentally a problem of emotional regulation. When people delay a task, they are not avoiding the work itself but the negative feelings associated with it—anxiety, self-doubt, boredom, or frustration. The task becomes linked to an unpleasant emotional state, and the mind seeks immediate relief by turning to something more rewarding.\n\nThis reframing has important consequences. Telling a procrastinator to \"just do it\" is about as useful as telling an anxious person to \"calm down.\" The instruction ignores the emotional mechanism driving the behavior. Studies show that people who score high on self-compassion procrastinate less, because they do not spiral into shame after a delay. Addressing the emotion directly—through mindfulness, self-forgiveness, or breaking tasks into less threatening steps—proves more effective than imposing external pressure. Procrastination, in this light, is not a moral failing but a coping strategy that ultimately undermines the goals it was meant to protect."
+    }
+  },
+  {
+    "id": "r13-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what do people avoid when they procrastinate?",
+    "choices": [
+      "The time required to complete the task",
+      "Feedback from colleagues or supervisors",
+      "The negative feelings associated with the task",
+      "Tasks that require creative thinking"
+    ],
+    "answer": 2,
+    "explanation": "The passage states directly that procrastinators are 'not avoiding the work itself but the negative feelings associated with it—anxiety, self-doubt, boredom, or frustration.'",
+    "wrongReasons": [
+      "A is not stated; time is not identified as the thing being avoided.",
+      "B is never mentioned in the passage.",
+      "D introduces a detail about task type that the passage does not support."
+    ],
+    "passage": {
+      "id": "r13-passage",
+      "title": "The Psychology of Procrastination",
+      "body": "For decades, procrastination was treated as a simple failure of time management, a habit that could be corrected with better planners and stricter schedules. Recent psychological research has overturned this view. Procrastination, researchers now argue, is fundamentally a problem of emotional regulation. When people delay a task, they are not avoiding the work itself but the negative feelings associated with it—anxiety, self-doubt, boredom, or frustration. The task becomes linked to an unpleasant emotional state, and the mind seeks immediate relief by turning to something more rewarding.\n\nThis reframing has important consequences. Telling a procrastinator to \"just do it\" is about as useful as telling an anxious person to \"calm down.\" The instruction ignores the emotional mechanism driving the behavior. Studies show that people who score high on self-compassion procrastinate less, because they do not spiral into shame after a delay. Addressing the emotion directly—through mindfulness, self-forgiveness, or breaking tasks into less threatening steps—proves more effective than imposing external pressure. Procrastination, in this light, is not a moral failing but a coping strategy that ultimately undermines the goals it was meant to protect."
+    }
+  },
+  {
+    "id": "r13-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about people who procrastinate and then feel intense shame?",
+    "choices": [
+      "They are more likely to complete future tasks on time.",
+      "They tend to have strong time-management skills.",
+      "Their shame may actually worsen the cycle of procrastination.",
+      "They procrastinate less than people without shame responses."
+    ],
+    "answer": 2,
+    "explanation": "The passage notes that people high in self-compassion procrastinate less because they do not 'spiral into shame after a delay.' This implies that spiraling into shame perpetuates or worsens procrastination.",
+    "wrongReasons": [
+      "A is the opposite of what the passage implies.",
+      "B is unrelated; time-management skill is not connected to shame in the passage.",
+      "D directly contradicts the passage's logic about self-compassion reducing procrastination."
+    ],
+    "passage": {
+      "id": "r13-passage",
+      "title": "The Psychology of Procrastination",
+      "body": "For decades, procrastination was treated as a simple failure of time management, a habit that could be corrected with better planners and stricter schedules. Recent psychological research has overturned this view. Procrastination, researchers now argue, is fundamentally a problem of emotional regulation. When people delay a task, they are not avoiding the work itself but the negative feelings associated with it—anxiety, self-doubt, boredom, or frustration. The task becomes linked to an unpleasant emotional state, and the mind seeks immediate relief by turning to something more rewarding.\n\nThis reframing has important consequences. Telling a procrastinator to \"just do it\" is about as useful as telling an anxious person to \"calm down.\" The instruction ignores the emotional mechanism driving the behavior. Studies show that people who score high on self-compassion procrastinate less, because they do not spiral into shame after a delay. Addressing the emotion directly—through mindfulness, self-forgiveness, or breaking tasks into less threatening steps—proves more effective than imposing external pressure. Procrastination, in this light, is not a moral failing but a coping strategy that ultimately undermines the goals it was meant to protect."
+    }
+  },
+  {
+    "id": "r13-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "In the passage, the word \"reframing\" most closely means:",
+    "choices": [
+      "Repairing a damaged structure",
+      "Presenting the same idea with new evidence",
+      "Changing the conceptual lens through which something is understood",
+      "Designing a new experimental method"
+    ],
+    "answer": 2,
+    "explanation": "'Reframing' refers to shifting the interpretive framework—here, changing procrastination from a time-management failure to an emotional regulation problem.",
+    "wrongReasons": [
+      "A is a literal physical meaning, not applicable in this context.",
+      "B is close but incomplete; reframing changes the framework, not merely adds evidence.",
+      "D is unrelated to the passage's discussion."
+    ],
+    "passage": {
+      "id": "r13-passage",
+      "title": "The Psychology of Procrastination",
+      "body": "For decades, procrastination was treated as a simple failure of time management, a habit that could be corrected with better planners and stricter schedules. Recent psychological research has overturned this view. Procrastination, researchers now argue, is fundamentally a problem of emotional regulation. When people delay a task, they are not avoiding the work itself but the negative feelings associated with it—anxiety, self-doubt, boredom, or frustration. The task becomes linked to an unpleasant emotional state, and the mind seeks immediate relief by turning to something more rewarding.\n\nThis reframing has important consequences. Telling a procrastinator to \"just do it\" is about as useful as telling an anxious person to \"calm down.\" The instruction ignores the emotional mechanism driving the behavior. Studies show that people who score high on self-compassion procrastinate less, because they do not spiral into shame after a delay. Addressing the emotion directly—through mindfulness, self-forgiveness, or breaking tasks into less threatening steps—proves more effective than imposing external pressure. Procrastination, in this light, is not a moral failing but a coping strategy that ultimately undermines the goals it was meant to protect."
+    }
+  },
+  {
+    "id": "r13-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author compare telling a procrastinator to \"just do it\" with telling an anxious person to \"calm down\"?",
+    "choices": [
+      "To suggest that both procrastination and anxiety are untreatable conditions",
+      "To illustrate that simplistic commands fail when they ignore underlying emotional mechanisms",
+      "To argue that procrastination and anxiety are the same psychological disorder",
+      "To recommend that therapists use identical treatments for both conditions"
+    ],
+    "answer": 1,
+    "explanation": "The analogy's purpose is to show that surface-level commands are useless when the root cause is emotional; both instructions ignore the real mechanism driving the behavior.",
+    "wrongReasons": [
+      "A distorts the analogy into a claim of untreatability, which the passage contradicts by offering effective strategies.",
+      "C overstates the comparison; the author draws a structural parallel, not an identity claim.",
+      "D is never suggested; the passage does not discuss therapy protocols."
+    ],
+    "passage": {
+      "id": "r13-passage",
+      "title": "The Psychology of Procrastination",
+      "body": "For decades, procrastination was treated as a simple failure of time management, a habit that could be corrected with better planners and stricter schedules. Recent psychological research has overturned this view. Procrastination, researchers now argue, is fundamentally a problem of emotional regulation. When people delay a task, they are not avoiding the work itself but the negative feelings associated with it—anxiety, self-doubt, boredom, or frustration. The task becomes linked to an unpleasant emotional state, and the mind seeks immediate relief by turning to something more rewarding.\n\nThis reframing has important consequences. Telling a procrastinator to \"just do it\" is about as useful as telling an anxious person to \"calm down.\" The instruction ignores the emotional mechanism driving the behavior. Studies show that people who score high on self-compassion procrastinate less, because they do not spiral into shame after a delay. Addressing the emotion directly—through mindfulness, self-forgiveness, or breaking tasks into less threatening steps—proves more effective than imposing external pressure. Procrastination, in this light, is not a moral failing but a coping strategy that ultimately undermines the goals it was meant to protect."
+    }
+  },
+  {
+    "id": "r14-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the central focus of the passage?",
+    "choices": [
+      "The environmental dangers of landfills worldwide",
+      "How modern cities use integrated systems to manage growing volumes of waste",
+      "Why recycling programs consistently fail in urban areas",
+      "The history of garbage collection from ancient times to today"
+    ],
+    "answer": 1,
+    "explanation": "The passage surveys the multiple strategies cities employ—collection, sorting, recycling, waste-to-energy—as part of an integrated waste management approach.",
+    "wrongReasons": [
+      "A is too narrow; landfills are only one element discussed.",
+      "C contradicts the passage, which describes both successes and challenges of recycling.",
+      "D is not the passage's concern; historical background is not provided."
+    ],
+    "passage": {
+      "id": "r14-passage",
+      "title": "How Cities Manage Waste",
+      "body": "Managing the waste produced by millions of urban residents is one of the most logistically complex tasks a city government faces. Modern municipalities rely on integrated systems that combine collection, sorting, recycling, composting, and disposal to handle the enormous volumes of material generated daily. In high-income cities, waste is typically sorted at the household level into categories such as organic matter, paper, glass, plastics, and residual waste, allowing recycling facilities to process materials more efficiently.\n\nYet the system faces persistent challenges. Contamination—when non-recyclable items enter recycling streams—reduces the quality of recovered materials and raises processing costs. Many cities have turned to waste-to-energy plants, which burn non-recyclable waste to generate electricity, though critics argue that incineration discourages waste reduction at the source. Landfills remain common in lower-income regions, where the infrastructure for more sophisticated processing is absent.\n\nCities at the forefront of waste management, such as Seoul and Copenhagen, demonstrate that with the right combination of regulation, infrastructure, and public education, it is possible to divert the vast majority of waste from landfills and recover substantial value from discarded materials."
+    }
+  },
+  {
+    "id": "r14-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what is contamination in the context of recycling?",
+    "choices": [
+      "Toxic chemicals leaching from landfills into groundwater",
+      "Air pollution produced by waste-to-energy incineration plants",
+      "Non-recyclable items entering recycling streams",
+      "Organic matter mixed with paper and glass during sorting"
+    ],
+    "answer": 2,
+    "explanation": "The passage defines contamination explicitly as 'when non-recyclable items enter recycling streams,' reducing material quality and raising costs.",
+    "wrongReasons": [
+      "A describes a different environmental issue not discussed in the passage.",
+      "B refers to incineration pollution, a separate topic in the passage.",
+      "D describes a sorting problem but is not the definition given in the passage."
+    ],
+    "passage": {
+      "id": "r14-passage",
+      "title": "How Cities Manage Waste",
+      "body": "Managing the waste produced by millions of urban residents is one of the most logistically complex tasks a city government faces. Modern municipalities rely on integrated systems that combine collection, sorting, recycling, composting, and disposal to handle the enormous volumes of material generated daily. In high-income cities, waste is typically sorted at the household level into categories such as organic matter, paper, glass, plastics, and residual waste, allowing recycling facilities to process materials more efficiently.\n\nYet the system faces persistent challenges. Contamination—when non-recyclable items enter recycling streams—reduces the quality of recovered materials and raises processing costs. Many cities have turned to waste-to-energy plants, which burn non-recyclable waste to generate electricity, though critics argue that incineration discourages waste reduction at the source. Landfills remain common in lower-income regions, where the infrastructure for more sophisticated processing is absent.\n\nCities at the forefront of waste management, such as Seoul and Copenhagen, demonstrate that with the right combination of regulation, infrastructure, and public education, it is possible to divert the vast majority of waste from landfills and recover substantial value from discarded materials."
+    }
+  },
+  {
+    "id": "r14-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about lower-income cities based on the passage?",
+    "choices": [
+      "They produce less waste per person than high-income cities.",
+      "They rely more heavily on landfills due to infrastructure limitations.",
+      "Their residents are less willing to sort waste at the household level.",
+      "They have stricter environmental regulations than wealthier cities."
+    ],
+    "answer": 1,
+    "explanation": "The passage states that landfills 'remain common in lower-income regions, where the infrastructure for more sophisticated processing is absent,' implying greater landfill reliance due to lack of infrastructure.",
+    "wrongReasons": [
+      "A may be true globally but is not stated or implied by the passage.",
+      "C introduces a behavioral claim about residents that the passage does not make.",
+      "D contradicts the general pattern implied: less infrastructure typically correlates with less regulation enforcement."
+    ],
+    "passage": {
+      "id": "r14-passage",
+      "title": "How Cities Manage Waste",
+      "body": "Managing the waste produced by millions of urban residents is one of the most logistically complex tasks a city government faces. Modern municipalities rely on integrated systems that combine collection, sorting, recycling, composting, and disposal to handle the enormous volumes of material generated daily. In high-income cities, waste is typically sorted at the household level into categories such as organic matter, paper, glass, plastics, and residual waste, allowing recycling facilities to process materials more efficiently.\n\nYet the system faces persistent challenges. Contamination—when non-recyclable items enter recycling streams—reduces the quality of recovered materials and raises processing costs. Many cities have turned to waste-to-energy plants, which burn non-recyclable waste to generate electricity, though critics argue that incineration discourages waste reduction at the source. Landfills remain common in lower-income regions, where the infrastructure for more sophisticated processing is absent.\n\nCities at the forefront of waste management, such as Seoul and Copenhagen, demonstrate that with the right combination of regulation, infrastructure, and public education, it is possible to divert the vast majority of waste from landfills and recover substantial value from discarded materials."
+    }
+  },
+  {
+    "id": "r14-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "In the passage, the word \"divert\" most closely means:",
+    "choices": [
+      "Entertain or distract",
+      "Redirect away from a destination",
+      "Destroy through incineration",
+      "Measure the volume of"
+    ],
+    "answer": 1,
+    "explanation": "In waste management context, 'divert' means to redirect waste away from landfills and toward recycling or other processing—i.e., to redirect away from a destination.",
+    "wrongReasons": [
+      "A is a common meaning of 'divert' but does not fit the waste management context.",
+      "C is inaccurate; incineration is mentioned separately and is not what 'divert' means here.",
+      "D introduces a measurement meaning not supported by the passage."
+    ],
+    "passage": {
+      "id": "r14-passage",
+      "title": "How Cities Manage Waste",
+      "body": "Managing the waste produced by millions of urban residents is one of the most logistically complex tasks a city government faces. Modern municipalities rely on integrated systems that combine collection, sorting, recycling, composting, and disposal to handle the enormous volumes of material generated daily. In high-income cities, waste is typically sorted at the household level into categories such as organic matter, paper, glass, plastics, and residual waste, allowing recycling facilities to process materials more efficiently.\n\nYet the system faces persistent challenges. Contamination—when non-recyclable items enter recycling streams—reduces the quality of recovered materials and raises processing costs. Many cities have turned to waste-to-energy plants, which burn non-recyclable waste to generate electricity, though critics argue that incineration discourages waste reduction at the source. Landfills remain common in lower-income regions, where the infrastructure for more sophisticated processing is absent.\n\nCities at the forefront of waste management, such as Seoul and Copenhagen, demonstrate that with the right combination of regulation, infrastructure, and public education, it is possible to divert the vast majority of waste from landfills and recover substantial value from discarded materials."
+    }
+  },
+  {
+    "id": "r14-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author mention Seoul and Copenhagen at the end of the passage?",
+    "choices": [
+      "To argue that only wealthy European and Asian cities can afford proper waste management",
+      "To provide concrete evidence that advanced waste management is achievable with the right conditions",
+      "To contrast these cities' failures with the successes of North American cities",
+      "To introduce a new argument about the role of tourism in waste generation"
+    ],
+    "answer": 1,
+    "explanation": "The cities are cited as positive examples demonstrating that the combination of regulation, infrastructure, and public education can succeed—supporting the passage's implicit optimism about urban waste management.",
+    "wrongReasons": [
+      "A misreads the tone; the author uses the examples to inspire, not to gatekeep by wealth.",
+      "C inverts the passage; Seoul and Copenhagen are successes, and North America is not mentioned.",
+      "D is entirely off-topic; tourism is never discussed."
+    ],
+    "passage": {
+      "id": "r14-passage",
+      "title": "How Cities Manage Waste",
+      "body": "Managing the waste produced by millions of urban residents is one of the most logistically complex tasks a city government faces. Modern municipalities rely on integrated systems that combine collection, sorting, recycling, composting, and disposal to handle the enormous volumes of material generated daily. In high-income cities, waste is typically sorted at the household level into categories such as organic matter, paper, glass, plastics, and residual waste, allowing recycling facilities to process materials more efficiently.\n\nYet the system faces persistent challenges. Contamination—when non-recyclable items enter recycling streams—reduces the quality of recovered materials and raises processing costs. Many cities have turned to waste-to-energy plants, which burn non-recyclable waste to generate electricity, though critics argue that incineration discourages waste reduction at the source. Landfills remain common in lower-income regions, where the infrastructure for more sophisticated processing is absent.\n\nCities at the forefront of waste management, such as Seoul and Copenhagen, demonstrate that with the right combination of regulation, infrastructure, and public education, it is possible to divert the vast majority of waste from landfills and recover substantial value from discarded materials."
+    }
+  },
+  {
+    "id": "r15-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main claim of the passage?",
+    "choices": [
+      "Habits are impossible to break once they are fully formed.",
+      "Habits form through a neurological loop of cue, routine, and reward.",
+      "Willpower is the most important factor in building new habits.",
+      "The brain forms habits primarily during childhood."
+    ],
+    "answer": 1,
+    "explanation": "The passage's central argument is that habits are encoded in the brain as a three-part loop: a cue triggers a routine, which is followed by a reward.",
+    "wrongReasons": [
+      "A contradicts the passage, which explains how habits can be changed by substituting the routine.",
+      "C is not the passage's claim; willpower is not mentioned as the key factor.",
+      "D is not supported; the passage discusses habit formation in general, not specifically in childhood."
+    ],
+    "passage": {
+      "id": "r15-passage",
+      "title": "The Science of Habit Formation",
+      "body": "Habits are the brain's way of conserving energy. When a behavior is repeated in a consistent context, the brain gradually automates it, shifting control from the prefrontal cortex—responsible for conscious decision-making—to the basal ganglia, a region associated with procedural memory. This process produces what neuroscientists call the habit loop: a cue that triggers the behavior, the routine itself, and a reward that reinforces the association.\n\nUnderstanding this loop has practical implications. To build a new habit, one must attach the desired routine to an existing cue and ensure a reliable reward follows. To break an unwanted habit, the most effective strategy is not elimination but substitution: keeping the same cue and reward while replacing the routine with a less harmful behavior. Research by Charles Duhigg and others has shown that this approach is more durable than sheer willpower because it works with the brain's existing architecture rather than against it.\n\nThe strength of a habit also depends on how emotionally charged the reward is. Habits linked to strong positive feelings are encoded more deeply and are more resistant to change—a fact that helps explain why some habits persist for decades even when people are highly motivated to abandon them."
+    }
+  },
+  {
+    "id": "r15-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, which brain region is associated with habitual behavior?",
+    "choices": [
+      "The prefrontal cortex",
+      "The hippocampus",
+      "The basal ganglia",
+      "The amygdala"
+    ],
+    "answer": 2,
+    "explanation": "The passage explicitly states that the brain shifts control of habitual behaviors to 'the basal ganglia, a region associated with procedural memory.'",
+    "wrongReasons": [
+      "A is the region associated with conscious decision-making, which the passage says is bypassed during habit execution.",
+      "B (hippocampus) is associated with episodic memory and is not mentioned in the passage.",
+      "D (amygdala) is associated with emotional processing and is not named in the passage."
+    ],
+    "passage": {
+      "id": "r15-passage",
+      "title": "The Science of Habit Formation",
+      "body": "Habits are the brain's way of conserving energy. When a behavior is repeated in a consistent context, the brain gradually automates it, shifting control from the prefrontal cortex—responsible for conscious decision-making—to the basal ganglia, a region associated with procedural memory. This process produces what neuroscientists call the habit loop: a cue that triggers the behavior, the routine itself, and a reward that reinforces the association.\n\nUnderstanding this loop has practical implications. To build a new habit, one must attach the desired routine to an existing cue and ensure a reliable reward follows. To break an unwanted habit, the most effective strategy is not elimination but substitution: keeping the same cue and reward while replacing the routine with a less harmful behavior. Research by Charles Duhigg and others has shown that this approach is more durable than sheer willpower because it works with the brain's existing architecture rather than against it.\n\nThe strength of a habit also depends on how emotionally charged the reward is. Habits linked to strong positive feelings are encoded more deeply and are more resistant to change—a fact that helps explain why some habits persist for decades even when people are highly motivated to abandon them."
+    }
+  },
+  {
+    "id": "r15-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about a person who tries to quit a habit through willpower alone?",
+    "choices": [
+      "They are more likely to succeed than someone who uses substitution.",
+      "They may struggle because they are working against the brain's existing architecture.",
+      "They have a weaker basal ganglia than average.",
+      "They typically succeed if the habit was formed in adulthood."
+    ],
+    "answer": 1,
+    "explanation": "The passage states that substitution 'is more durable than sheer willpower because it works with the brain's existing architecture rather than against it,' implying willpower alone fights the brain's structure and is therefore less effective.",
+    "wrongReasons": [
+      "A contradicts the passage's explicit comparison favoring substitution over willpower.",
+      "C is a neuroscientific speculation not supported by the passage.",
+      "D introduces a childhood/adulthood distinction the passage does not make."
+    ],
+    "passage": {
+      "id": "r15-passage",
+      "title": "The Science of Habit Formation",
+      "body": "Habits are the brain's way of conserving energy. When a behavior is repeated in a consistent context, the brain gradually automates it, shifting control from the prefrontal cortex—responsible for conscious decision-making—to the basal ganglia, a region associated with procedural memory. This process produces what neuroscientists call the habit loop: a cue that triggers the behavior, the routine itself, and a reward that reinforces the association.\n\nUnderstanding this loop has practical implications. To build a new habit, one must attach the desired routine to an existing cue and ensure a reliable reward follows. To break an unwanted habit, the most effective strategy is not elimination but substitution: keeping the same cue and reward while replacing the routine with a less harmful behavior. Research by Charles Duhigg and others has shown that this approach is more durable than sheer willpower because it works with the brain's existing architecture rather than against it.\n\nThe strength of a habit also depends on how emotionally charged the reward is. Habits linked to strong positive feelings are encoded more deeply and are more resistant to change—a fact that helps explain why some habits persist for decades even when people are highly motivated to abandon them."
+    }
+  },
+  {
+    "id": "r15-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "In the passage, the word \"durable\" most closely means:",
+    "choices": [
+      "Physically strong and resistant to wear",
+      "Expensive to maintain over time",
+      "Long-lasting and resistant to failure",
+      "Flexible and easy to adjust"
+    ],
+    "answer": 2,
+    "explanation": "'Durable' in this context means more lasting and reliable—the substitution approach holds up better over time than willpower.",
+    "wrongReasons": [
+      "A uses the physical meaning of durable, which does not fit a behavioral strategy.",
+      "B introduces a cost concept not present in the passage.",
+      "D (flexible) is nearly the opposite; durable implies resistance to change, not ease of adjustment."
+    ],
+    "passage": {
+      "id": "r15-passage",
+      "title": "The Science of Habit Formation",
+      "body": "Habits are the brain's way of conserving energy. When a behavior is repeated in a consistent context, the brain gradually automates it, shifting control from the prefrontal cortex—responsible for conscious decision-making—to the basal ganglia, a region associated with procedural memory. This process produces what neuroscientists call the habit loop: a cue that triggers the behavior, the routine itself, and a reward that reinforces the association.\n\nUnderstanding this loop has practical implications. To build a new habit, one must attach the desired routine to an existing cue and ensure a reliable reward follows. To break an unwanted habit, the most effective strategy is not elimination but substitution: keeping the same cue and reward while replacing the routine with a less harmful behavior. Research by Charles Duhigg and others has shown that this approach is more durable than sheer willpower because it works with the brain's existing architecture rather than against it.\n\nThe strength of a habit also depends on how emotionally charged the reward is. Habits linked to strong positive feelings are encoded more deeply and are more resistant to change—a fact that helps explain why some habits persist for decades even when people are highly motivated to abandon them."
+    }
+  },
+  {
+    "id": "r15-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "What is the author's purpose in discussing emotionally charged rewards in the final paragraph?",
+    "choices": [
+      "To introduce a contradictory theory that undermines the habit loop model",
+      "To explain why motivation alone is sometimes insufficient to break deeply encoded habits",
+      "To argue that positive emotions should be avoided when forming new habits",
+      "To provide a historical overview of reward-based psychology research"
+    ],
+    "answer": 1,
+    "explanation": "The final paragraph explains that strong emotional rewards make habits more resistant to change—even for motivated people—thereby accounting for cases where the habit loop model might seem to predict easy change but change is still difficult.",
+    "wrongReasons": [
+      "A misreads the passage; the emotional reward discussion extends rather than contradicts the habit loop model.",
+      "C is not suggested; positive emotions strengthen habits but the author does not advise avoiding them.",
+      "D is incorrect; no historical overview is provided."
+    ],
+    "passage": {
+      "id": "r15-passage",
+      "title": "The Science of Habit Formation",
+      "body": "Habits are the brain's way of conserving energy. When a behavior is repeated in a consistent context, the brain gradually automates it, shifting control from the prefrontal cortex—responsible for conscious decision-making—to the basal ganglia, a region associated with procedural memory. This process produces what neuroscientists call the habit loop: a cue that triggers the behavior, the routine itself, and a reward that reinforces the association.\n\nUnderstanding this loop has practical implications. To build a new habit, one must attach the desired routine to an existing cue and ensure a reliable reward follows. To break an unwanted habit, the most effective strategy is not elimination but substitution: keeping the same cue and reward while replacing the routine with a less harmful behavior. Research by Charles Duhigg and others has shown that this approach is more durable than sheer willpower because it works with the brain's existing architecture rather than against it.\n\nThe strength of a habit also depends on how emotionally charged the reward is. Habits linked to strong positive feelings are encoded more deeply and are more resistant to change—a fact that helps explain why some habits persist for decades even when people are highly motivated to abandon them."
+    }
+  },
+  {
+    "id": "r16-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main argument of the passage?",
+    "choices": [
+      "Biodiversity loss is primarily driven by climate change rather than habitat destruction.",
+      "Protecting biodiversity is important because ecosystems provide services that human economies depend on.",
+      "Species extinction is a natural process that does not require human intervention.",
+      "Biodiversity loss only affects developing nations with large agricultural sectors."
+    ],
+    "answer": 1,
+    "explanation": "The passage argues that biodiversity underpins ecosystem services—pollination, water purification, carbon storage—that human economies depend on, making its loss an economic and existential concern.",
+    "wrongReasons": [
+      "A is not the passage's main point; habitat destruction is mentioned alongside other drivers.",
+      "C contradicts the passage's urgent tone and call for attention to biodiversity loss.",
+      "D is not stated; the passage treats biodiversity loss as a global concern."
+    ],
+    "passage": {
+      "id": "r16-passage",
+      "title": "Biodiversity Loss and Ecosystem Services",
+      "body": "The variety of life on Earth—encompassing millions of species of plants, animals, fungi, and microorganisms—does far more than satisfy human curiosity. Biodiversity underpins the functioning of ecosystems, which in turn provide services that human economies depend on entirely. Pollination by insects supports approximately one-third of global food production. Forests regulate water cycles, prevent erosion, and store enormous quantities of carbon. Wetlands filter pollutants from freshwater. Coral reefs shelter the fish populations that feed hundreds of millions of people.\n\nYet biodiversity is declining at rates unprecedented in human history. Habitat destruction, invasive species, overexploitation, pollution, and climate change are driving species to extinction faster than natural processes can replace them. Scientists warn that the loss of species can trigger cascading effects: when a keystone species disappears, it may destabilize the entire food web that depends on it.\n\nThe economic case for conservation is now as compelling as the moral one. Studies estimate that ecosystem services contribute tens of trillions of dollars of value annually to the global economy—value that is invisible in most accounting systems. Making this value visible, through policies such as payments for ecosystem services, may be essential to reversing the current trajectory."
+    }
+  },
+  {
+    "id": "r16-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, approximately what share of global food production depends on insect pollination?",
+    "choices": [
+      "One half",
+      "One quarter",
+      "One third",
+      "Three quarters"
+    ],
+    "answer": 2,
+    "explanation": "The passage states that 'Pollination by insects supports approximately one-third of global food production.'",
+    "wrongReasons": [
+      "A (one half) overstates the figure given in the passage.",
+      "B (one quarter) understates the figure given in the passage.",
+      "D (three quarters) greatly overstates the figure."
+    ],
+    "passage": {
+      "id": "r16-passage",
+      "title": "Biodiversity Loss and Ecosystem Services",
+      "body": "The variety of life on Earth—encompassing millions of species of plants, animals, fungi, and microorganisms—does far more than satisfy human curiosity. Biodiversity underpins the functioning of ecosystems, which in turn provide services that human economies depend on entirely. Pollination by insects supports approximately one-third of global food production. Forests regulate water cycles, prevent erosion, and store enormous quantities of carbon. Wetlands filter pollutants from freshwater. Coral reefs shelter the fish populations that feed hundreds of millions of people.\n\nYet biodiversity is declining at rates unprecedented in human history. Habitat destruction, invasive species, overexploitation, pollution, and climate change are driving species to extinction faster than natural processes can replace them. Scientists warn that the loss of species can trigger cascading effects: when a keystone species disappears, it may destabilize the entire food web that depends on it.\n\nThe economic case for conservation is now as compelling as the moral one. Studies estimate that ecosystem services contribute tens of trillions of dollars of value annually to the global economy—value that is invisible in most accounting systems. Making this value visible, through policies such as payments for ecosystem services, may be essential to reversing the current trajectory."
+    }
+  },
+  {
+    "id": "r16-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about ecosystem service values and current economic policy?",
+    "choices": [
+      "Most governments have already incorporated ecosystem values into national accounts.",
+      "Ecosystem services are too difficult to measure for any economic analysis.",
+      "Current accounting systems tend to overlook the economic value of natural ecosystems.",
+      "The economic value of biodiversity is less important than its moral value."
+    ],
+    "answer": 2,
+    "explanation": "The passage says ecosystem service value is 'invisible in most accounting systems,' implying that current economic policy does not adequately account for these values.",
+    "wrongReasons": [
+      "A directly contradicts the passage's statement that the value is invisible in most accounting systems.",
+      "B is contradicted by the passage, which cites specific estimates of ecosystem value.",
+      "D misreads the passage's logic; the author presents economic and moral cases as equally compelling."
+    ],
+    "passage": {
+      "id": "r16-passage",
+      "title": "Biodiversity Loss and Ecosystem Services",
+      "body": "The variety of life on Earth—encompassing millions of species of plants, animals, fungi, and microorganisms—does far more than satisfy human curiosity. Biodiversity underpins the functioning of ecosystems, which in turn provide services that human economies depend on entirely. Pollination by insects supports approximately one-third of global food production. Forests regulate water cycles, prevent erosion, and store enormous quantities of carbon. Wetlands filter pollutants from freshwater. Coral reefs shelter the fish populations that feed hundreds of millions of people.\n\nYet biodiversity is declining at rates unprecedented in human history. Habitat destruction, invasive species, overexploitation, pollution, and climate change are driving species to extinction faster than natural processes can replace them. Scientists warn that the loss of species can trigger cascading effects: when a keystone species disappears, it may destabilize the entire food web that depends on it.\n\nThe economic case for conservation is now as compelling as the moral one. Studies estimate that ecosystem services contribute tens of trillions of dollars of value annually to the global economy—value that is invisible in most accounting systems. Making this value visible, through policies such as payments for ecosystem services, may be essential to reversing the current trajectory."
+    }
+  },
+  {
+    "id": "r16-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "In the passage, the phrase \"cascading effects\" most closely means:",
+    "choices": [
+      "Gradual, predictable improvements in ecosystem health",
+      "A series of consequences in which one event triggers further events",
+      "The rapid recovery of species after a disturbance",
+      "Financial losses caused by environmental regulation"
+    ],
+    "answer": 1,
+    "explanation": "'Cascading effects' describes a chain reaction—one extinction destabilizes a food web, which causes further disruptions—meaning one event triggers a series of subsequent events.",
+    "wrongReasons": [
+      "A describes improvement, which contradicts the negative context of cascading effects here.",
+      "C describes recovery, the opposite of the collapse the passage warns about.",
+      "D introduces financial regulation losses, which is unrelated to the ecological meaning."
+    ],
+    "passage": {
+      "id": "r16-passage",
+      "title": "Biodiversity Loss and Ecosystem Services",
+      "body": "The variety of life on Earth—encompassing millions of species of plants, animals, fungi, and microorganisms—does far more than satisfy human curiosity. Biodiversity underpins the functioning of ecosystems, which in turn provide services that human economies depend on entirely. Pollination by insects supports approximately one-third of global food production. Forests regulate water cycles, prevent erosion, and store enormous quantities of carbon. Wetlands filter pollutants from freshwater. Coral reefs shelter the fish populations that feed hundreds of millions of people.\n\nYet biodiversity is declining at rates unprecedented in human history. Habitat destruction, invasive species, overexploitation, pollution, and climate change are driving species to extinction faster than natural processes can replace them. Scientists warn that the loss of species can trigger cascading effects: when a keystone species disappears, it may destabilize the entire food web that depends on it.\n\nThe economic case for conservation is now as compelling as the moral one. Studies estimate that ecosystem services contribute tens of trillions of dollars of value annually to the global economy—value that is invisible in most accounting systems. Making this value visible, through policies such as payments for ecosystem services, may be essential to reversing the current trajectory."
+    }
+  },
+  {
+    "id": "r16-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "What is the author's primary purpose in presenting both a moral and an economic case for conservation?",
+    "choices": [
+      "To show that moral arguments have failed and only economic arguments can motivate action",
+      "To broaden the appeal of conservation by addressing audiences motivated by different concerns",
+      "To argue that economic growth and biodiversity protection are fundamentally incompatible",
+      "To criticize economists for ignoring the moral dimensions of environmental policy"
+    ],
+    "answer": 1,
+    "explanation": "By presenting both cases as equally compelling, the author maximizes persuasive reach—reaching those who respond to ethical arguments and those who respond to economic incentives.",
+    "wrongReasons": [
+      "A implies moral arguments have failed, which the passage does not claim.",
+      "C contradicts the passage's implicit message that valuing ecosystem services economically can help protect them.",
+      "D is not the passage's tone; the author does not criticize economists but rather calls for better accounting."
+    ],
+    "passage": {
+      "id": "r16-passage",
+      "title": "Biodiversity Loss and Ecosystem Services",
+      "body": "The variety of life on Earth—encompassing millions of species of plants, animals, fungi, and microorganisms—does far more than satisfy human curiosity. Biodiversity underpins the functioning of ecosystems, which in turn provide services that human economies depend on entirely. Pollination by insects supports approximately one-third of global food production. Forests regulate water cycles, prevent erosion, and store enormous quantities of carbon. Wetlands filter pollutants from freshwater. Coral reefs shelter the fish populations that feed hundreds of millions of people.\n\nYet biodiversity is declining at rates unprecedented in human history. Habitat destruction, invasive species, overexploitation, pollution, and climate change are driving species to extinction faster than natural processes can replace them. Scientists warn that the loss of species can trigger cascading effects: when a keystone species disappears, it may destabilize the entire food web that depends on it.\n\nThe economic case for conservation is now as compelling as the moral one. Studies estimate that ecosystem services contribute tens of trillions of dollars of value annually to the global economy—value that is invisible in most accounting systems. Making this value visible, through policies such as payments for ecosystem services, may be essential to reversing the current trajectory."
+    }
+  },
+  {
+    "id": "r17-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Public libraries are becoming obsolete in the digital age.",
+      "Public libraries have evolved from elite institutions to democratic centers of community life.",
+      "The first public libraries were founded in ancient Greece and Rome.",
+      "Digital technology has replaced the core functions of public libraries."
+    ],
+    "answer": 1,
+    "explanation": "The passage traces the evolution of libraries from exclusive collections for scholars and elites to democratic, community-centered institutions open to all.",
+    "wrongReasons": [
+      "A contradicts the passage's tone, which highlights libraries' adaptation and enduring relevance.",
+      "C is not stated; the passage discusses modern public libraries emerging in the 19th century.",
+      "D is contradicted by the passage, which argues libraries have expanded their role in response to digital technology."
+    ],
+    "passage": {
+      "id": "r17-passage",
+      "title": "The History of Public Libraries",
+      "body": "The idea that books should be freely available to everyone, regardless of wealth or social status, is historically recent. For most of human history, libraries were private collections belonging to rulers, religious institutions, or wealthy scholars. The transformation of libraries into genuinely public institutions began in earnest during the nineteenth century, driven by the belief that an informed citizenry was essential to democratic governance.\n\nIn Britain, the Public Libraries Act of 1850 allowed local governments to fund libraries from tax revenue—a radical step that established the principle of free access to knowledge as a civic right. Similar movements spread across North America and Europe. Andrew Carnegie's philanthropic campaign to build libraries in industrial cities gave the movement architectural form, funding over 2,500 libraries worldwide.\n\nToday, public libraries have adapted far beyond their original book-lending function. They serve as community hubs offering internet access, job-search assistance, literacy programs, and safe spaces for those who have nowhere else to go. Far from being rendered obsolete by digital technology, many libraries have expanded their relevance by becoming the access point to digital resources for populations who cannot afford them privately. In this sense, the democratic mission of the public library remains unchanged, even as its methods have evolved."
+    }
+  },
+  {
+    "id": "r17-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what did the British Public Libraries Act of 1850 establish?",
+    "choices": [
+      "A national network of libraries funded by the monarchy",
+      "The right of local governments to fund libraries from tax revenue",
+      "Mandatory library attendance for all schoolchildren",
+      "Andrew Carnegie's philanthropic library-building campaign"
+    ],
+    "answer": 1,
+    "explanation": "The passage states that the Act 'allowed local governments to fund libraries from tax revenue—a radical step that established the principle of free access to knowledge as a civic right.'",
+    "wrongReasons": [
+      "A incorrectly attributes funding to the monarchy rather than local governments.",
+      "C is not mentioned in the passage; mandatory attendance is not discussed.",
+      "D is wrong; Carnegie's campaign is a separate development mentioned later in the passage."
+    ],
+    "passage": {
+      "id": "r17-passage",
+      "title": "The History of Public Libraries",
+      "body": "The idea that books should be freely available to everyone, regardless of wealth or social status, is historically recent. For most of human history, libraries were private collections belonging to rulers, religious institutions, or wealthy scholars. The transformation of libraries into genuinely public institutions began in earnest during the nineteenth century, driven by the belief that an informed citizenry was essential to democratic governance.\n\nIn Britain, the Public Libraries Act of 1850 allowed local governments to fund libraries from tax revenue—a radical step that established the principle of free access to knowledge as a civic right. Similar movements spread across North America and Europe. Andrew Carnegie's philanthropic campaign to build libraries in industrial cities gave the movement architectural form, funding over 2,500 libraries worldwide.\n\nToday, public libraries have adapted far beyond their original book-lending function. They serve as community hubs offering internet access, job-search assistance, literacy programs, and safe spaces for those who have nowhere else to go. Far from being rendered obsolete by digital technology, many libraries have expanded their relevance by becoming the access point to digital resources for populations who cannot afford them privately. In this sense, the democratic mission of the public library remains unchanged, even as its methods have evolved."
+    }
+  },
+  {
+    "id": "r17-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about populations who rely on public libraries for internet access?",
+    "choices": [
+      "They prefer reading physical books to browsing the internet.",
+      "They are primarily students in higher education.",
+      "They likely cannot afford private internet connections.",
+      "They live exclusively in rural areas far from urban centers."
+    ],
+    "answer": 2,
+    "explanation": "The passage says libraries provide digital access 'for populations who cannot afford them privately,' directly implying financial barriers to private internet access.",
+    "wrongReasons": [
+      "A introduces a preference claim not supported by the passage.",
+      "B narrows the population to students, which the passage does not specify.",
+      "D limits the group to rural residents, which the passage does not state."
+    ],
+    "passage": {
+      "id": "r17-passage",
+      "title": "The History of Public Libraries",
+      "body": "The idea that books should be freely available to everyone, regardless of wealth or social status, is historically recent. For most of human history, libraries were private collections belonging to rulers, religious institutions, or wealthy scholars. The transformation of libraries into genuinely public institutions began in earnest during the nineteenth century, driven by the belief that an informed citizenry was essential to democratic governance.\n\nIn Britain, the Public Libraries Act of 1850 allowed local governments to fund libraries from tax revenue—a radical step that established the principle of free access to knowledge as a civic right. Similar movements spread across North America and Europe. Andrew Carnegie's philanthropic campaign to build libraries in industrial cities gave the movement architectural form, funding over 2,500 libraries worldwide.\n\nToday, public libraries have adapted far beyond their original book-lending function. They serve as community hubs offering internet access, job-search assistance, literacy programs, and safe spaces for those who have nowhere else to go. Far from being rendered obsolete by digital technology, many libraries have expanded their relevance by becoming the access point to digital resources for populations who cannot afford them privately. In this sense, the democratic mission of the public library remains unchanged, even as its methods have evolved."
+    }
+  },
+  {
+    "id": "r17-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "In the passage, the word \"philanthropic\" most closely means:",
+    "choices": [
+      "Government-funded and regulated",
+      "Motivated by profit and commercial interest",
+      "Driven by a desire to benefit society through charitable giving",
+      "Based on scientific research and evidence"
+    ],
+    "answer": 2,
+    "explanation": "'Philanthropic' describes Carnegie's campaign as charitable and motivated by a desire to benefit the public—funding libraries out of benevolence rather than profit.",
+    "wrongReasons": [
+      "A describes government funding, which is the opposite of private philanthropy.",
+      "B is the opposite of philanthropic; commercial interest implies profit motivation.",
+      "D introduces a scientific basis that has nothing to do with the meaning of philanthropic."
+    ],
+    "passage": {
+      "id": "r17-passage",
+      "title": "The History of Public Libraries",
+      "body": "The idea that books should be freely available to everyone, regardless of wealth or social status, is historically recent. For most of human history, libraries were private collections belonging to rulers, religious institutions, or wealthy scholars. The transformation of libraries into genuinely public institutions began in earnest during the nineteenth century, driven by the belief that an informed citizenry was essential to democratic governance.\n\nIn Britain, the Public Libraries Act of 1850 allowed local governments to fund libraries from tax revenue—a radical step that established the principle of free access to knowledge as a civic right. Similar movements spread across North America and Europe. Andrew Carnegie's philanthropic campaign to build libraries in industrial cities gave the movement architectural form, funding over 2,500 libraries worldwide.\n\nToday, public libraries have adapted far beyond their original book-lending function. They serve as community hubs offering internet access, job-search assistance, literacy programs, and safe spaces for those who have nowhere else to go. Far from being rendered obsolete by digital technology, many libraries have expanded their relevance by becoming the access point to digital resources for populations who cannot afford them privately. In this sense, the democratic mission of the public library remains unchanged, even as its methods have evolved."
+    }
+  },
+  {
+    "id": "r17-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "How does the passage's final sentence function in relation to the rest of the passage?",
+    "choices": [
+      "It introduces a new argument that contradicts the historical narrative presented earlier.",
+      "It resolves the apparent tension between tradition and change by arguing that the core mission persists despite evolving methods.",
+      "It suggests that public libraries have abandoned their original democratic mission.",
+      "It provides statistical evidence to support the passage's main claim."
+    ],
+    "answer": 1,
+    "explanation": "The final sentence ties together the historical evolution by asserting continuity of mission—what has changed is the method (books → digital access), but the democratic purpose remains constant.",
+    "wrongReasons": [
+      "A misreads the sentence as contradictory when it is actually synthesizing.",
+      "C directly contradicts what the sentence says—the mission is described as unchanged.",
+      "D is wrong; no statistics are provided in the final sentence."
+    ],
+    "passage": {
+      "id": "r17-passage",
+      "title": "The History of Public Libraries",
+      "body": "The idea that books should be freely available to everyone, regardless of wealth or social status, is historically recent. For most of human history, libraries were private collections belonging to rulers, religious institutions, or wealthy scholars. The transformation of libraries into genuinely public institutions began in earnest during the nineteenth century, driven by the belief that an informed citizenry was essential to democratic governance.\n\nIn Britain, the Public Libraries Act of 1850 allowed local governments to fund libraries from tax revenue—a radical step that established the principle of free access to knowledge as a civic right. Similar movements spread across North America and Europe. Andrew Carnegie's philanthropic campaign to build libraries in industrial cities gave the movement architectural form, funding over 2,500 libraries worldwide.\n\nToday, public libraries have adapted far beyond their original book-lending function. They serve as community hubs offering internet access, job-search assistance, literacy programs, and safe spaces for those who have nowhere else to go. Far from being rendered obsolete by digital technology, many libraries have expanded their relevance by becoming the access point to digital resources for populations who cannot afford them privately. In this sense, the democratic mission of the public library remains unchanged, even as its methods have evolved."
+    }
+  },
+  {
+    "id": "r18-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the central claim of the passage?",
+    "choices": [
+      "Language change is a sign of cultural decline that should be resisted.",
+      "Languages change continuously through natural social and cognitive processes.",
+      "All languages are converging toward a single global tongue.",
+      "Written language changes faster than spoken language."
+    ],
+    "answer": 1,
+    "explanation": "The passage argues that language change is natural, inevitable, and driven by identifiable social and cognitive forces—not a sign of decline.",
+    "wrongReasons": [
+      "A represents the prescriptivist view the passage implicitly argues against.",
+      "C is a claim about linguistic convergence that the passage does not make.",
+      "D is the opposite of what linguists generally find, and the passage does not state this."
+    ],
+    "passage": {
+      "id": "r18-passage",
+      "title": "Why Languages Change Over Time",
+      "body": "No living language stands still. From pronunciation and vocabulary to grammar and syntax, every aspect of a language shifts gradually across generations—a process so slow that speakers within a single lifetime rarely notice it, yet dramatic enough that texts from five centuries ago can be nearly unintelligible to modern readers.\n\nLinguists have identified several forces that drive language change. Contact between speakers of different languages introduces loanwords and grammatical patterns. Children, who learn language imperfectly and creatively, introduce small innovations that may spread through a speech community. Social identity also plays a powerful role: groups deliberately adopt distinctive pronunciations or slang to mark membership and signal solidarity. Prestige, too, shapes language—speakers often consciously or unconsciously adopt forms associated with high-status groups.\n\nContrary to the anxiety expressed by language purists, change does not represent corruption or decline. Every feature of modern English that is considered correct today was once an innovation that alarmed traditionalists. The split infinitive, decried for centuries, is a natural consequence of English grammar's evolution. Languages that stop changing are, by definition, dead ones. Embracing change as inherent to living language does not mean abandoning standards; it means understanding them as historically contingent rather than eternally fixed."
+    }
+  },
+  {
+    "id": "r18-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what role do children play in language change?",
+    "choices": [
+      "They preserve archaic forms of language better than adults do.",
+      "They introduce small innovations through imperfect and creative learning.",
+      "They are the primary source of loanwords from other languages.",
+      "They resist language change more strongly than adolescents."
+    ],
+    "answer": 1,
+    "explanation": "The passage states that 'Children, who learn language imperfectly and creatively, introduce small innovations that may spread through a speech community.'",
+    "wrongReasons": [
+      "A is the opposite of what the passage says; children introduce change, not preserve old forms.",
+      "C attributes loanwords to language contact, not children.",
+      "D is not stated in the passage; the comparison to adolescents is not made."
+    ],
+    "passage": {
+      "id": "r18-passage",
+      "title": "Why Languages Change Over Time",
+      "body": "No living language stands still. From pronunciation and vocabulary to grammar and syntax, every aspect of a language shifts gradually across generations—a process so slow that speakers within a single lifetime rarely notice it, yet dramatic enough that texts from five centuries ago can be nearly unintelligible to modern readers.\n\nLinguists have identified several forces that drive language change. Contact between speakers of different languages introduces loanwords and grammatical patterns. Children, who learn language imperfectly and creatively, introduce small innovations that may spread through a speech community. Social identity also plays a powerful role: groups deliberately adopt distinctive pronunciations or slang to mark membership and signal solidarity. Prestige, too, shapes language—speakers often consciously or unconsciously adopt forms associated with high-status groups.\n\nContrary to the anxiety expressed by language purists, change does not represent corruption or decline. Every feature of modern English that is considered correct today was once an innovation that alarmed traditionalists. The split infinitive, decried for centuries, is a natural consequence of English grammar's evolution. Languages that stop changing are, by definition, dead ones. Embracing change as inherent to living language does not mean abandoning standards; it means understanding them as historically contingent rather than eternally fixed."
+    }
+  },
+  {
+    "id": "r18-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about Latin based on the passage's logic?",
+    "choices": [
+      "Latin is still widely spoken and continues to evolve.",
+      "Latin ceased to change because it became a dead language.",
+      "Latin changed more rapidly than modern languages because of Roman conquests.",
+      "Latin purists successfully prevented Latin from changing over time."
+    ],
+    "answer": 1,
+    "explanation": "The passage states that 'Languages that stop changing are, by definition, dead ones.' Since Latin is a dead language, it follows from the passage's logic that it stopped changing.",
+    "wrongReasons": [
+      "A contradicts the definition provided—a living, changing language cannot also be dead.",
+      "C introduces a claim about rate of change related to conquests that the passage does not support.",
+      "D contradicts the passage's point that purism cannot ultimately stop language change."
+    ],
+    "passage": {
+      "id": "r18-passage",
+      "title": "Why Languages Change Over Time",
+      "body": "No living language stands still. From pronunciation and vocabulary to grammar and syntax, every aspect of a language shifts gradually across generations—a process so slow that speakers within a single lifetime rarely notice it, yet dramatic enough that texts from five centuries ago can be nearly unintelligible to modern readers.\n\nLinguists have identified several forces that drive language change. Contact between speakers of different languages introduces loanwords and grammatical patterns. Children, who learn language imperfectly and creatively, introduce small innovations that may spread through a speech community. Social identity also plays a powerful role: groups deliberately adopt distinctive pronunciations or slang to mark membership and signal solidarity. Prestige, too, shapes language—speakers often consciously or unconsciously adopt forms associated with high-status groups.\n\nContrary to the anxiety expressed by language purists, change does not represent corruption or decline. Every feature of modern English that is considered correct today was once an innovation that alarmed traditionalists. The split infinitive, decried for centuries, is a natural consequence of English grammar's evolution. Languages that stop changing are, by definition, dead ones. Embracing change as inherent to living language does not mean abandoning standards; it means understanding them as historically contingent rather than eternally fixed."
+    }
+  },
+  {
+    "id": "r18-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "In the passage, \"historically contingent\" most closely means:",
+    "choices": [
+      "Based on ancient traditions that cannot be changed",
+      "Dependent on historical circumstances rather than being timeless or universal",
+      "Recorded accurately in historical documents",
+      "Relevant only to historians and linguists"
+    ],
+    "answer": 1,
+    "explanation": "'Historically contingent' means shaped by the particular circumstances of history—standards of correct language emerged at a specific time, not as eternal truths.",
+    "wrongReasons": [
+      "A is the opposite of contingent; contingent means dependent on circumstances, not fixed by tradition.",
+      "C is a archival meaning of historical unrelated to the philosophical sense used here.",
+      "D narrows the meaning to an audience, which is not what the phrase means."
+    ],
+    "passage": {
+      "id": "r18-passage",
+      "title": "Why Languages Change Over Time",
+      "body": "No living language stands still. From pronunciation and vocabulary to grammar and syntax, every aspect of a language shifts gradually across generations—a process so slow that speakers within a single lifetime rarely notice it, yet dramatic enough that texts from five centuries ago can be nearly unintelligible to modern readers.\n\nLinguists have identified several forces that drive language change. Contact between speakers of different languages introduces loanwords and grammatical patterns. Children, who learn language imperfectly and creatively, introduce small innovations that may spread through a speech community. Social identity also plays a powerful role: groups deliberately adopt distinctive pronunciations or slang to mark membership and signal solidarity. Prestige, too, shapes language—speakers often consciously or unconsciously adopt forms associated with high-status groups.\n\nContrary to the anxiety expressed by language purists, change does not represent corruption or decline. Every feature of modern English that is considered correct today was once an innovation that alarmed traditionalists. The split infinitive, decried for centuries, is a natural consequence of English grammar's evolution. Languages that stop changing are, by definition, dead ones. Embracing change as inherent to living language does not mean abandoning standards; it means understanding them as historically contingent rather than eternally fixed."
+    }
+  },
+  {
+    "id": "r18-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author mention the split infinitive in the final paragraph?",
+    "choices": [
+      "To argue that the split infinitive is grammatically incorrect and should be avoided",
+      "To provide a concrete example of how a once-condemned innovation is now accepted, supporting the argument that standards are not eternal",
+      "To show that grammar rules have become stricter over time",
+      "To introduce a debate between British and American English usage"
+    ],
+    "answer": 1,
+    "explanation": "The split infinitive is cited as evidence that today's accepted forms were yesterday's condemned innovations—directly supporting the claim that linguistic standards are historically contingent.",
+    "wrongReasons": [
+      "A is the prescriptivist view the author argues against; the passage says the split infinitive is a natural evolution.",
+      "C contradicts the passage's argument that standards are loosening as change is accepted.",
+      "D introduces a British/American comparison not present in the passage."
+    ],
+    "passage": {
+      "id": "r18-passage",
+      "title": "Why Languages Change Over Time",
+      "body": "No living language stands still. From pronunciation and vocabulary to grammar and syntax, every aspect of a language shifts gradually across generations—a process so slow that speakers within a single lifetime rarely notice it, yet dramatic enough that texts from five centuries ago can be nearly unintelligible to modern readers.\n\nLinguists have identified several forces that drive language change. Contact between speakers of different languages introduces loanwords and grammatical patterns. Children, who learn language imperfectly and creatively, introduce small innovations that may spread through a speech community. Social identity also plays a powerful role: groups deliberately adopt distinctive pronunciations or slang to mark membership and signal solidarity. Prestige, too, shapes language—speakers often consciously or unconsciously adopt forms associated with high-status groups.\n\nContrary to the anxiety expressed by language purists, change does not represent corruption or decline. Every feature of modern English that is considered correct today was once an innovation that alarmed traditionalists. The split infinitive, decried for centuries, is a natural consequence of English grammar's evolution. Languages that stop changing are, by definition, dead ones. Embracing change as inherent to living language does not mean abandoning standards; it means understanding them as historically contingent rather than eternally fixed."
+    }
+  },
+  {
+    "id": "r19-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Remote work is universally better than office work for all employees.",
+      "Remote work offers both significant benefits and real challenges that vary by worker and employer.",
+      "Companies should eliminate office spaces entirely to reduce costs.",
+      "Remote work has no effect on urban economies or commercial real estate."
+    ],
+    "answer": 1,
+    "explanation": "The passage presents a balanced analysis, noting productivity gains and cost savings alongside challenges of isolation, inequality of access, and urban economic disruption.",
+    "wrongReasons": [
+      "A overstates the case; the passage notes benefits are uneven and depend on job type.",
+      "C is not the passage's recommendation; office spaces are discussed as part of urban economic concerns.",
+      "D directly contradicts the passage, which explicitly discusses effects on commercial real estate and cities."
+    ],
+    "passage": {
+      "id": "r19-passage",
+      "title": "The Economics of Remote Work",
+      "body": "The widespread adoption of remote work during and after the COVID-19 pandemic created a natural experiment in labor economics. Studies measuring productivity across industries showed mixed results: knowledge workers in roles requiring focused, independent tasks often performed as well or better from home, while those in collaborative, creative roles reported diminished output and connection. The savings were clear—workers reduced commuting costs and gained time, while employers cut spending on office space.\n\nYet the economic picture is more complex than a simple cost-benefit analysis suggests. Remote work amplifies existing inequalities. Workers in cramped housing, with caregiving responsibilities, or lacking reliable broadband access experienced remote work as a burden rather than a benefit. Meanwhile, the hollowing out of downtown office districts has had cascading effects on urban economies: restaurants, transit systems, and small retailers that depended on commuter traffic have suffered significant revenue losses.\n\nEmployers now face pressure to define hybrid models that capture the flexibility workers value without sacrificing the collaboration that offices enable. The long-term equilibrium remains uncertain, but it is clear that remote work is not simply a technology upgrade—it is a restructuring of the spatial and social organization of labor, with consequences that extend well beyond individual workers and firms."
+    }
+  },
+  {
+    "id": "r19-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, which type of worker benefited most from remote work in terms of productivity?",
+    "choices": [
+      "Workers in highly collaborative and creative roles",
+      "Workers in manufacturing and manual labor roles",
+      "Knowledge workers in focused, independent tasks",
+      "Workers with long commutes in rural areas"
+    ],
+    "answer": 2,
+    "explanation": "The passage states that 'knowledge workers in roles requiring focused, independent tasks often performed as well or better from home.'",
+    "wrongReasons": [
+      "A is directly contradicted: collaborative, creative workers 'reported diminished output.'",
+      "B is not discussed; manufacturing and manual labor cannot be performed remotely.",
+      "D is not specified in the passage; commute length is noted as a cost saving, not a productivity factor."
+    ],
+    "passage": {
+      "id": "r19-passage",
+      "title": "The Economics of Remote Work",
+      "body": "The widespread adoption of remote work during and after the COVID-19 pandemic created a natural experiment in labor economics. Studies measuring productivity across industries showed mixed results: knowledge workers in roles requiring focused, independent tasks often performed as well or better from home, while those in collaborative, creative roles reported diminished output and connection. The savings were clear—workers reduced commuting costs and gained time, while employers cut spending on office space.\n\nYet the economic picture is more complex than a simple cost-benefit analysis suggests. Remote work amplifies existing inequalities. Workers in cramped housing, with caregiving responsibilities, or lacking reliable broadband access experienced remote work as a burden rather than a benefit. Meanwhile, the hollowing out of downtown office districts has had cascading effects on urban economies: restaurants, transit systems, and small retailers that depended on commuter traffic have suffered significant revenue losses.\n\nEmployers now face pressure to define hybrid models that capture the flexibility workers value without sacrificing the collaboration that offices enable. The long-term equilibrium remains uncertain, but it is clear that remote work is not simply a technology upgrade—it is a restructuring of the spatial and social organization of labor, with consequences that extend well beyond individual workers and firms."
+    }
+  },
+  {
+    "id": "r19-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about a worker without reliable home broadband who is required to work remotely?",
+    "choices": [
+      "They likely experience remote work as an advantage over office-based colleagues.",
+      "They probably find remote work more burdensome than colleagues with better connectivity.",
+      "They are more productive than workers in cramped housing.",
+      "They benefit equally from remote work regardless of their connectivity."
+    ],
+    "answer": 1,
+    "explanation": "The passage identifies 'lacking reliable broadband access' as one of the factors that makes remote work 'a burden rather than a benefit,' directly supporting this inference.",
+    "wrongReasons": [
+      "A is the opposite of what the passage implies for this worker.",
+      "C introduces a comparison between broadband and housing issues not supported by the passage.",
+      "D contradicts the passage's point that inequality of access creates unequal experiences."
+    ],
+    "passage": {
+      "id": "r19-passage",
+      "title": "The Economics of Remote Work",
+      "body": "The widespread adoption of remote work during and after the COVID-19 pandemic created a natural experiment in labor economics. Studies measuring productivity across industries showed mixed results: knowledge workers in roles requiring focused, independent tasks often performed as well or better from home, while those in collaborative, creative roles reported diminished output and connection. The savings were clear—workers reduced commuting costs and gained time, while employers cut spending on office space.\n\nYet the economic picture is more complex than a simple cost-benefit analysis suggests. Remote work amplifies existing inequalities. Workers in cramped housing, with caregiving responsibilities, or lacking reliable broadband access experienced remote work as a burden rather than a benefit. Meanwhile, the hollowing out of downtown office districts has had cascading effects on urban economies: restaurants, transit systems, and small retailers that depended on commuter traffic have suffered significant revenue losses.\n\nEmployers now face pressure to define hybrid models that capture the flexibility workers value without sacrificing the collaboration that offices enable. The long-term equilibrium remains uncertain, but it is clear that remote work is not simply a technology upgrade—it is a restructuring of the spatial and social organization of labor, with consequences that extend well beyond individual workers and firms."
+    }
+  },
+  {
+    "id": "r19-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "In the passage, \"hollowing out\" most closely means:",
+    "choices": [
+      "Physically demolishing buildings in a city center",
+      "Gradually emptying of activity and economic vitality",
+      "Rapidly filling with new types of businesses",
+      "Increasing the density of residential buildings"
+    ],
+    "answer": 1,
+    "explanation": "'Hollowing out of downtown office districts' describes the loss of workers—and therefore economic activity—from city centers as people work from home.",
+    "wrongReasons": [
+      "A is a literal physical meaning; the passage uses the phrase metaphorically.",
+      "C is the opposite; hollowing out implies emptying, not filling.",
+      "D refers to residential density, which is not what the phrase means in this context."
+    ],
+    "passage": {
+      "id": "r19-passage",
+      "title": "The Economics of Remote Work",
+      "body": "The widespread adoption of remote work during and after the COVID-19 pandemic created a natural experiment in labor economics. Studies measuring productivity across industries showed mixed results: knowledge workers in roles requiring focused, independent tasks often performed as well or better from home, while those in collaborative, creative roles reported diminished output and connection. The savings were clear—workers reduced commuting costs and gained time, while employers cut spending on office space.\n\nYet the economic picture is more complex than a simple cost-benefit analysis suggests. Remote work amplifies existing inequalities. Workers in cramped housing, with caregiving responsibilities, or lacking reliable broadband access experienced remote work as a burden rather than a benefit. Meanwhile, the hollowing out of downtown office districts has had cascading effects on urban economies: restaurants, transit systems, and small retailers that depended on commuter traffic have suffered significant revenue losses.\n\nEmployers now face pressure to define hybrid models that capture the flexibility workers value without sacrificing the collaboration that offices enable. The long-term equilibrium remains uncertain, but it is clear that remote work is not simply a technology upgrade—it is a restructuring of the spatial and social organization of labor, with consequences that extend well beyond individual workers and firms."
+    }
+  },
+  {
+    "id": "r19-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "What is the author's purpose in calling the pandemic's remote work adoption a \"natural experiment\"?",
+    "choices": [
+      "To suggest that the results were scientifically controlled and therefore definitive",
+      "To frame a large-scale, unplanned real-world change as a source of economic data that would have been impossible to gather deliberately",
+      "To argue that the pandemic was a positive event for economic research",
+      "To introduce the idea that remote work should be tested in laboratory conditions"
+    ],
+    "answer": 1,
+    "explanation": "A 'natural experiment' is a term economists use for real-world events that create conditions resembling a controlled study without deliberate design—here, the pandemic forced remote work at scale, generating data researchers could analyze.",
+    "wrongReasons": [
+      "A overstates: natural experiments are not controlled and results are not considered definitive.",
+      "C misreads the author's intent; calling it a natural experiment is methodological framing, not an endorsement of the pandemic.",
+      "D misunderstands the term; 'natural experiment' means the opposite of a laboratory setting."
+    ],
+    "passage": {
+      "id": "r19-passage",
+      "title": "The Economics of Remote Work",
+      "body": "The widespread adoption of remote work during and after the COVID-19 pandemic created a natural experiment in labor economics. Studies measuring productivity across industries showed mixed results: knowledge workers in roles requiring focused, independent tasks often performed as well or better from home, while those in collaborative, creative roles reported diminished output and connection. The savings were clear—workers reduced commuting costs and gained time, while employers cut spending on office space.\n\nYet the economic picture is more complex than a simple cost-benefit analysis suggests. Remote work amplifies existing inequalities. Workers in cramped housing, with caregiving responsibilities, or lacking reliable broadband access experienced remote work as a burden rather than a benefit. Meanwhile, the hollowing out of downtown office districts has had cascading effects on urban economies: restaurants, transit systems, and small retailers that depended on commuter traffic have suffered significant revenue losses.\n\nEmployers now face pressure to define hybrid models that capture the flexibility workers value without sacrificing the collaboration that offices enable. The long-term equilibrium remains uncertain, but it is clear that remote work is not simply a technology upgrade—it is a restructuring of the spatial and social organization of labor, with consequences that extend well beyond individual workers and firms."
+    }
+  }
+]

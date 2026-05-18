@@ -1,0 +1,3232 @@
+{
+  "visitedRoutes": [
+    "/",
+    "/app",
+    "/practice",
+    "/practice/sentenceCompletion",
+    "/practice/restatements",
+    "/practice/grammar",
+    "/practice/wordFormation",
+    "/practice/mixed",
+    "/practice/smartReview",
+    "/practice/reading",
+    "/practice/textCompletion",
+    "/practice/lectureQuestions",
+    "/practice/writingTask",
+    "/vocab",
+    "/vocab/swipe",
+    "/vocab/list",
+    "/vocab/starred",
+    "/vocab/missed",
+    "/vocab/weak",
+    "/simulation",
+    "/challenge",
+    "/diagnostic",
+    "/learning-engine",
+    "/review",
+    "/account",
+    "/pricing",
+    "/admin",
+    "/legal/privacy",
+    "/legal/terms",
+    "/practice/vocabularyInContext"
+  ],
+  "clickedActions": [],
+  "questionsSeen": {
+    "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים": 23,
+    "the world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. while this reduces the amount of co2 in the atmosphere, it has a side effect: when co2 dissolves in seawater": 1,
+    "many educational systems treat mistakes as failures to be avoided. in contrast, researchers in learning science argue that errors are essential to growth. when students make a mistake and then receive": 1,
+    "the new policy was introduced gradually so that employees would have time to _____ to the revised procedures.aadaptbpredictchesitatedforbidשלח תשובה": 1,
+    "the students were impressed by the _____ of the professor's explanation.aclearbclariouscclaritydclariouslyשלח תשובה": 1,
+    "here 'novel' is used as an adjective meaning new and original. the phrase 'challenged decades of established research' confirms the approach was unprecedented.": 1,
+    "the research confirmed that sleep deprivation reduces concentration. ______, it also found links to increased anxiety.ahoweverbin contrastcmoreoverdneverthelessשלח תשובה": 1
+  },
+  "questionsSeenByRoute": {
+    "/practice/sentenceCompletion": [
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים"
+    ],
+    "/practice/restatements": [
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים"
+    ],
+    "/practice/grammar": [
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים"
+    ],
+    "/practice/wordFormation": [
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים"
+    ],
+    "/practice/mixed": [
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים"
+    ],
+    "/practice/smartReview": [
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "the world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. while this reduces the amount of co2 in the atmosphere, it has a side effect: when co2 dissolves in seawater",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "many educational systems treat mistakes as failures to be avoided. in contrast, researchers in learning science argue that errors are essential to growth. when students make a mistake and then receive",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים"
+    ],
+    "/simulation": [
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים"
+    ],
+    "/challenge": [
+      "the new policy was introduced gradually so that employees would have time to _____ to the revised procedures.aadaptbpredictchesitatedforbidשלח תשובה",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "the students were impressed by the _____ of the professor's explanation.aclearbclariouscclaritydclariouslyשלח תשובה",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "here 'novel' is used as an adjective meaning new and original. the phrase 'challenged decades of established research' confirms the approach was unprecedented.",
+      "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "the research confirmed that sleep deprivation reduces concentration. ______, it also found links to increased anxiety.ahoweverbin contrastcmoreoverdneverthelessשלח תשובה"
+    ]
+  },
+  "answersSubmitted": [
+    "sentenceCompletion:0:choice0",
+    "sentenceCompletion:1:choice3",
+    "restatements:0:choice0",
+    "restatements:1:choice3",
+    "grammar:0:choice0",
+    "grammar:1:choice3",
+    "wordFormation:0:choice0",
+    "wordFormation:1:choice3",
+    "mixed:0:choice0",
+    "smartReview:0:choice0",
+    "smartReview:1:choice3",
+    "smartReview:2:choice0",
+    "smartReview:3:choice1",
+    "smartReview:4:choice0",
+    "smartReview:5:choice3",
+    "smartReview:6:choice0"
+  ],
+  "vocabWordsSeen": {},
+  "practiceFlowsCompleted": [
+    "practice:sentenceCompletion",
+    "practice:restatements",
+    "practice:grammar",
+    "practice:wordFormation",
+    "practice:mixed",
+    "practice:smartReview",
+    "vocab:swipe",
+    "simulation:standard",
+    "challenge"
+  ],
+  "practiceFlowsStuck": [],
+  "localStorageSnapshots": [
+    {
+      "capturedAt": "2026-05-13T19:27:19.082Z",
+      "route": "/practice/sentenceCompletion",
+      "flowName": "practice:sentenceCompletion",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": null,
+        "amirnet-session-current": {
+          "id": "sess-1778700432699-zin9hu",
+          "mode": "vocabularyInContext",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:12.699Z",
+          "results": [],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": null,
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:27.962Z",
+      "route": "/practice/sentenceCompletion",
+      "flowName": "practice:sentenceCompletion",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700440646-po5cug",
+          "mode": "sentenceCompletion",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:20.646Z",
+          "results": [
+            {
+              "questionId": "sc33",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 3,
+              "answeredAt": "2026-05-13T19:27:23.976Z"
+            },
+            {
+              "questionId": "sc8",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:25.972Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 2,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 2,
+          "totalCorrect": 0,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:25.973Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:27.993Z",
+      "route": "/practice/restatements",
+      "flowName": "practice:restatements",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700440646-po5cug",
+          "mode": "sentenceCompletion",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:20.646Z",
+          "results": [
+            {
+              "questionId": "sc33",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 3,
+              "answeredAt": "2026-05-13T19:27:23.976Z"
+            },
+            {
+              "questionId": "sc8",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:25.972Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 2,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 2,
+          "totalCorrect": 0,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:25.973Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:36.693Z",
+      "route": "/practice/restatements",
+      "flowName": "practice:restatements",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700449241-cqyev5",
+          "mode": "restatements",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:29.241Z",
+          "results": [
+            {
+              "questionId": "p8",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:27:32.850Z"
+            },
+            {
+              "questionId": "p10",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:34.868Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 4,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 4,
+          "totalCorrect": 0,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:34.868Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:34.868Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:36.732Z",
+      "route": "/practice/grammar",
+      "flowName": "practice:grammar",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700449241-cqyev5",
+          "mode": "restatements",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:29.241Z",
+          "results": [
+            {
+              "questionId": "p8",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:27:32.850Z"
+            },
+            {
+              "questionId": "p10",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:34.868Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 4,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 4,
+          "totalCorrect": 0,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:34.868Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:34.868Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:45.575Z",
+      "route": "/practice/grammar",
+      "flowName": "practice:grammar",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700457960-o6ngnl",
+          "mode": "grammar",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:37.960Z",
+          "results": [
+            {
+              "questionId": "g44",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:27:41.626Z"
+            },
+            {
+              "questionId": "g49",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:43.600Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 6,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 6,
+          "totalCorrect": 1,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:34.868Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 2,
+              "totalCorrect": 1,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:43.601Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:43.601Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:45.617Z",
+      "route": "/practice/wordFormation",
+      "flowName": "practice:wordFormation",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700457960-o6ngnl",
+          "mode": "grammar",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:37.960Z",
+          "results": [
+            {
+              "questionId": "g44",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:27:41.626Z"
+            },
+            {
+              "questionId": "g49",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:43.600Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 6,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 6,
+          "totalCorrect": 1,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:34.868Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 2,
+              "totalCorrect": 1,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:43.601Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:43.601Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:54.259Z",
+      "route": "/practice/wordFormation",
+      "flowName": "practice:wordFormation",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700466838-x0dsuz",
+          "mode": "wordFormation",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:46.838Z",
+          "results": [
+            {
+              "questionId": "wf50",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:27:50.400Z"
+            },
+            {
+              "questionId": "wf3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:52.329Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 8,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 8,
+          "totalCorrect": 1,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:34.868Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 2,
+              "totalCorrect": 1,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:43.601Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:52.329Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:27:54.291Z",
+      "route": "/practice/mixed",
+      "flowName": "practice:mixed",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700466838-x0dsuz",
+          "mode": "wordFormation",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:46.838Z",
+          "results": [
+            {
+              "questionId": "wf50",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:27:50.400Z"
+            },
+            {
+              "questionId": "wf3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:27:52.329Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 8,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 8,
+          "totalCorrect": 1,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:34.868Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 2,
+              "totalCorrect": 1,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:43.601Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:52.329Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:00.817Z",
+      "route": "/practice/mixed",
+      "flowName": "practice:mixed",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700475844-4kznsx",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:55.844Z",
+          "results": [
+            {
+              "questionId": "p2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 3,
+              "answeredAt": "2026-05-13T19:27:59.074Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 9,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 9,
+          "totalCorrect": 1,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 2,
+              "totalCorrect": 1,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:43.601Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:59.074Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:00.856Z",
+      "route": "/practice/smartReview",
+      "flowName": "practice:smartReview",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": []
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700475844-4kznsx",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:27:55.844Z",
+          "results": [
+            {
+              "questionId": "p2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 3,
+              "answeredAt": "2026-05-13T19:27:59.074Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 9,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 9,
+          "totalCorrect": 1,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:27:25.973Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 2,
+              "totalCorrect": 1,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:43.601Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:27:59.074Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:19.264Z",
+      "route": "/practice/smartReview",
+      "flowName": "practice:smartReview",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "students who arrive late must wait the next break before",
+            "what is the main idea of the passage",
+            "the word prevalent is closest in meaning to",
+            "the professors feedback was hardly encouraging to the students the",
+            "which organisms are most at risk according to the passage",
+            "the committee was pleased that the recommendations by all departments",
+            "the manager asked for a concise summary because she did",
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": [
+            "prevalent",
+            "hardly"
+          ]
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700482133-oabzhd",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:28:02.133Z",
+          "results": [
+            {
+              "questionId": "sc7",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "questionId": "g3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:07.718Z"
+            },
+            {
+              "questionId": "r5-q2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:09.609Z"
+            },
+            {
+              "questionId": "sb-dt-003",
+              "correct": false,
+              "chosenIndex": 1,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:11.584Z"
+            },
+            {
+              "questionId": "sb-syn-004",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:13.453Z"
+            },
+            {
+              "questionId": "r10-q1",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:15.400Z"
+            },
+            {
+              "questionId": "g4",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:17.419Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 16,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 16,
+          "totalCorrect": 3,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 3,
+              "totalCorrect": 1,
+              "accuracyPercent": 33,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 4,
+              "totalCorrect": 2,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:28:17.419Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            },
+            {
+              "category": "reading",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:15.401Z"
+            },
+            {
+              "category": "smartReview",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:13.453Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:28:17.419Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:19.314Z",
+      "route": "/vocab/swipe",
+      "flowName": "vocab:swipe",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "students who arrive late must wait the next break before",
+            "what is the main idea of the passage",
+            "the word prevalent is closest in meaning to",
+            "the professors feedback was hardly encouraging to the students the",
+            "which organisms are most at risk according to the passage",
+            "the committee was pleased that the recommendations by all departments",
+            "the manager asked for a concise summary because she did",
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": [
+            "prevalent",
+            "hardly"
+          ]
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700482133-oabzhd",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:28:02.133Z",
+          "results": [
+            {
+              "questionId": "sc7",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "questionId": "g3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:07.718Z"
+            },
+            {
+              "questionId": "r5-q2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:09.609Z"
+            },
+            {
+              "questionId": "sb-dt-003",
+              "correct": false,
+              "chosenIndex": 1,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:11.584Z"
+            },
+            {
+              "questionId": "sb-syn-004",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:13.453Z"
+            },
+            {
+              "questionId": "r10-q1",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:15.400Z"
+            },
+            {
+              "questionId": "g4",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:17.419Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 16,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 16,
+          "totalCorrect": 3,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 3,
+              "totalCorrect": 1,
+              "accuracyPercent": 33,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 4,
+              "totalCorrect": 2,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:28:17.419Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            },
+            {
+              "category": "reading",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:15.401Z"
+            },
+            {
+              "category": "smartReview",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:13.453Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:28:17.419Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:22.809Z",
+      "route": "/vocab/swipe",
+      "flowName": "vocab:swipe",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "students who arrive late must wait the next break before",
+            "what is the main idea of the passage",
+            "the word prevalent is closest in meaning to",
+            "the professors feedback was hardly encouraging to the students the",
+            "which organisms are most at risk according to the passage",
+            "the committee was pleased that the recommendations by all departments",
+            "the manager asked for a concise summary because she did",
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": [
+            "prevalent",
+            "hardly"
+          ]
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700482133-oabzhd",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:28:02.133Z",
+          "results": [
+            {
+              "questionId": "sc7",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "questionId": "g3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:07.718Z"
+            },
+            {
+              "questionId": "r5-q2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:09.609Z"
+            },
+            {
+              "questionId": "sb-dt-003",
+              "correct": false,
+              "chosenIndex": 1,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:11.584Z"
+            },
+            {
+              "questionId": "sb-syn-004",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:13.453Z"
+            },
+            {
+              "questionId": "r10-q1",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:15.400Z"
+            },
+            {
+              "questionId": "g4",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:17.419Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 16,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 16,
+          "totalCorrect": 3,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 3,
+              "totalCorrect": 1,
+              "accuracyPercent": 33,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 4,
+              "totalCorrect": 2,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:28:17.419Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            },
+            {
+              "category": "reading",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:15.401Z"
+            },
+            {
+              "category": "smartReview",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:13.453Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:28:17.419Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:22.848Z",
+      "route": "/simulation",
+      "flowName": "simulation:standard",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "simSeen": [],
+          "practiceSeen": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "students who arrive late must wait the next break before",
+            "what is the main idea of the passage",
+            "the word prevalent is closest in meaning to",
+            "the professors feedback was hardly encouraging to the students the",
+            "which organisms are most at risk according to the passage",
+            "the committee was pleased that the recommendations by all departments",
+            "the manager asked for a concise summary because she did",
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": [
+            "prevalent",
+            "hardly"
+          ]
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700482133-oabzhd",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:28:02.133Z",
+          "results": [
+            {
+              "questionId": "sc7",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "questionId": "g3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:07.718Z"
+            },
+            {
+              "questionId": "r5-q2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:09.609Z"
+            },
+            {
+              "questionId": "sb-dt-003",
+              "correct": false,
+              "chosenIndex": 1,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:11.584Z"
+            },
+            {
+              "questionId": "sb-syn-004",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:13.453Z"
+            },
+            {
+              "questionId": "r10-q1",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:15.400Z"
+            },
+            {
+              "questionId": "g4",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:17.419Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 16,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 16,
+          "totalCorrect": 3,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 3,
+              "totalCorrect": 1,
+              "accuracyPercent": 33,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 4,
+              "totalCorrect": 2,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:28:17.419Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            },
+            {
+              "category": "reading",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:15.401Z"
+            },
+            {
+              "category": "smartReview",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:13.453Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:28:17.419Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": null
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:31.138Z",
+      "route": "/simulation",
+      "flowName": "simulation:standard",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "sc11",
+            "sc8",
+            "sc18",
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc33"
+          ],
+          "simSeen": [
+            "sc18",
+            "sc8",
+            "sc11"
+          ],
+          "practiceSeen": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "because the information was the editor removed it from the",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the",
+            "students who arrive late must wait the next break before",
+            "what is the main idea of the passage",
+            "the word prevalent is closest in meaning to",
+            "the professors feedback was hardly encouraging to the students the",
+            "which organisms are most at risk according to the passage",
+            "the committee was pleased that the recommendations by all departments",
+            "the manager asked for a concise summary because she did",
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": [
+            "prevalent",
+            "hardly"
+          ]
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700482133-oabzhd",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:28:02.133Z",
+          "results": [
+            {
+              "questionId": "sc7",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "questionId": "g3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:07.718Z"
+            },
+            {
+              "questionId": "r5-q2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:09.609Z"
+            },
+            {
+              "questionId": "sb-dt-003",
+              "correct": false,
+              "chosenIndex": 1,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:11.584Z"
+            },
+            {
+              "questionId": "sb-syn-004",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:13.453Z"
+            },
+            {
+              "questionId": "r10-q1",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:15.400Z"
+            },
+            {
+              "questionId": "g4",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:17.419Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 16,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 16,
+          "totalCorrect": 3,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 3,
+              "totalCorrect": 1,
+              "accuracyPercent": 33,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 4,
+              "totalCorrect": 2,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:28:17.419Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            },
+            {
+              "category": "reading",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:15.401Z"
+            },
+            {
+              "category": "smartReview",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:13.453Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:28:17.419Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": {
+          "id": "sim-1778700504643-cwzj",
+          "mode": "standard",
+          "sections": [
+            {
+              "id": "s1",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים א׳"
+            },
+            {
+              "id": "s2",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים ב׳"
+            },
+            {
+              "id": "s3",
+              "type": "reading",
+              "questionCount": 5,
+              "timeLimitSeconds": 900,
+              "isPilot": false,
+              "label": "קטע קריאה עם שאלות נלוות"
+            },
+            {
+              "id": "s4",
+              "type": "restatements",
+              "questionCount": 3,
+              "timeLimitSeconds": 360,
+              "isPilot": false,
+              "label": "ניסוח מחדש א׳"
+            },
+            {
+              "id": "s5",
+              "type": "restatements",
+              "questionCount": 3,
+              "timeLimitSeconds": 360,
+              "isPilot": false,
+              "label": "ניסוח מחדש ב׳"
+            },
+            {
+              "id": "s6",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים ג׳"
+            }
+          ],
+          "currentSectionIndex": 0,
+          "currentQuestionIndex": 3,
+          "answers": {
+            "sc18": 0,
+            "sc8": 3,
+            "sc11": 0
+          },
+          "sectionAnswers": {
+            "s1": {
+              "sc18": 0,
+              "sc8": 3,
+              "sc11": 0
+            }
+          },
+          "startedAt": "2026-05-13T19:28:24.643Z",
+          "status": "active"
+        }
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:28:31.175Z",
+      "route": "/challenge",
+      "flowName": "challenge",
+      "timing": "before",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "sc11",
+            "sc8",
+            "sc18",
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc33"
+          ],
+          "simSeen": [
+            "sc18",
+            "sc8",
+            "sc11"
+          ],
+          "practiceSeen": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "because the information was the editor removed it from the",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the",
+            "students who arrive late must wait the next break before",
+            "what is the main idea of the passage",
+            "the word prevalent is closest in meaning to",
+            "the professors feedback was hardly encouraging to the students the",
+            "which organisms are most at risk according to the passage",
+            "the committee was pleased that the recommendations by all departments",
+            "the manager asked for a concise summary because she did",
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": [
+            "prevalent",
+            "hardly"
+          ]
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700482133-oabzhd",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:28:02.133Z",
+          "results": [
+            {
+              "questionId": "sc7",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "questionId": "g3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:07.718Z"
+            },
+            {
+              "questionId": "r5-q2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:09.609Z"
+            },
+            {
+              "questionId": "sb-dt-003",
+              "correct": false,
+              "chosenIndex": 1,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:11.584Z"
+            },
+            {
+              "questionId": "sb-syn-004",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:13.453Z"
+            },
+            {
+              "questionId": "r10-q1",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:15.400Z"
+            },
+            {
+              "questionId": "g4",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:17.419Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 16,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 16,
+          "totalCorrect": 3,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 3,
+              "totalCorrect": 1,
+              "accuracyPercent": 33,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 4,
+              "totalCorrect": 2,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:28:17.419Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            },
+            {
+              "category": "reading",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:15.401Z"
+            },
+            {
+              "category": "smartReview",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:13.453Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:28:17.419Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": {
+          "id": "sim-1778700504643-cwzj",
+          "mode": "standard",
+          "sections": [
+            {
+              "id": "s1",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים א׳"
+            },
+            {
+              "id": "s2",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים ב׳"
+            },
+            {
+              "id": "s3",
+              "type": "reading",
+              "questionCount": 5,
+              "timeLimitSeconds": 900,
+              "isPilot": false,
+              "label": "קטע קריאה עם שאלות נלוות"
+            },
+            {
+              "id": "s4",
+              "type": "restatements",
+              "questionCount": 3,
+              "timeLimitSeconds": 360,
+              "isPilot": false,
+              "label": "ניסוח מחדש א׳"
+            },
+            {
+              "id": "s5",
+              "type": "restatements",
+              "questionCount": 3,
+              "timeLimitSeconds": 360,
+              "isPilot": false,
+              "label": "ניסוח מחדש ב׳"
+            },
+            {
+              "id": "s6",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים ג׳"
+            }
+          ],
+          "currentSectionIndex": 0,
+          "currentQuestionIndex": 3,
+          "answers": {
+            "sc18": 0,
+            "sc8": 3,
+            "sc11": 0
+          },
+          "sectionAnswers": {
+            "s1": {
+              "sc18": 0,
+              "sc8": 3,
+              "sc11": 0
+            }
+          },
+          "startedAt": "2026-05-13T19:28:24.643Z",
+          "status": "active"
+        }
+      }
+    },
+    {
+      "capturedAt": "2026-05-13T19:29:00.563Z",
+      "route": "/challenge",
+      "flowName": "challenge",
+      "timing": "after",
+      "keys": {
+        "amirnet-qhistory-v1": {
+          "recent": [
+            "sc11",
+            "sc8",
+            "sc18",
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc33"
+          ],
+          "simSeen": [
+            "sc18",
+            "sc8",
+            "sc11"
+          ],
+          "practiceSeen": [
+            "g4",
+            "r10-q1",
+            "sb-syn-004",
+            "sb-dt-003",
+            "r5-q2",
+            "g3",
+            "sc7",
+            "p2",
+            "wf3",
+            "wf50",
+            "g49",
+            "g44",
+            "p10",
+            "p8",
+            "sc8",
+            "sc33"
+          ],
+          "sentenceHashes": [
+            "because the information was the editor removed it from the",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the",
+            "students who arrive late must wait the next break before",
+            "what is the main idea of the passage",
+            "the word prevalent is closest in meaning to",
+            "the professors feedback was hardly encouraging to the students the",
+            "which organisms are most at risk according to the passage",
+            "the committee was pleased that the recommendations by all departments",
+            "the manager asked for a concise summary because she did",
+            "unlike his brother daniel prefers working alone",
+            "her answer showed a deep of the article",
+            "clear is essential when presenting complex research findings",
+            "only after the data had been carefully analyzed the researchers",
+            "only after the data had been carefully analyzed the researchers",
+            "the company launched the product ahead of schedule to gain",
+            "despite the heavy rain the outdoor event was not canceled",
+            "many researchers are cautious about drawing conclusions from a small",
+            "the researchers repeated the experiment several times to ensure the"
+          ],
+          "answerPattern": [
+            0,
+            3,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0,
+            1,
+            0,
+            3,
+            0,
+            0,
+            3,
+            0
+          ],
+          "recentVocabWords": [
+            "prevalent",
+            "hardly"
+          ]
+        },
+        "amirnet-session-current": {
+          "id": "sess-1778700482133-oabzhd",
+          "mode": "mixed",
+          "difficulty": "adaptive",
+          "startedAt": "2026-05-13T19:28:02.133Z",
+          "results": [
+            {
+              "questionId": "sc7",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 4,
+              "answeredAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "questionId": "g3",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:07.718Z"
+            },
+            {
+              "questionId": "r5-q2",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:09.609Z"
+            },
+            {
+              "questionId": "sb-dt-003",
+              "correct": false,
+              "chosenIndex": 1,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:11.584Z"
+            },
+            {
+              "questionId": "sb-syn-004",
+              "correct": false,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:13.453Z"
+            },
+            {
+              "questionId": "r10-q1",
+              "correct": false,
+              "chosenIndex": 3,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:15.400Z"
+            },
+            {
+              "questionId": "g4",
+              "correct": true,
+              "chosenIndex": 0,
+              "timeSpentSeconds": 1,
+              "answeredAt": "2026-05-13T19:28:17.419Z"
+            }
+          ],
+          "totalQuestions": 20,
+          "isSimulation": false
+        },
+        "amirnet-vocab-v1": null,
+        "amirnet-progress-v1": {
+          "userId": "local",
+          "streak": 1,
+          "lastActiveDate": "2026-05-13",
+          "dailyGoal": {
+            "targetQuestions": 20,
+            "questionsAnsweredToday": 16,
+            "date": "2026-05-13"
+          },
+          "estimatedScore": null,
+          "totalQuestionsAnswered": 16,
+          "totalCorrect": 3,
+          "categoryProgress": [
+            {
+              "category": "sentenceCompletion",
+              "totalAnswered": 3,
+              "totalCorrect": 1,
+              "accuracyPercent": 33,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:28:05.758Z"
+            },
+            {
+              "category": "restatements",
+              "totalAnswered": 3,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:59.074Z"
+            },
+            {
+              "category": "grammar",
+              "totalAnswered": 4,
+              "totalCorrect": 2,
+              "accuracyPercent": 50,
+              "averageTimeSeconds": 2,
+              "lastPracticedAt": "2026-05-13T19:28:17.419Z"
+            },
+            {
+              "category": "wordFormation",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 3,
+              "lastPracticedAt": "2026-05-13T19:27:52.329Z"
+            },
+            {
+              "category": "reading",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:15.401Z"
+            },
+            {
+              "category": "smartReview",
+              "totalAnswered": 2,
+              "totalCorrect": 0,
+              "accuracyPercent": 0,
+              "averageTimeSeconds": 1,
+              "lastPracticedAt": "2026-05-13T19:28:13.453Z"
+            }
+          ],
+          "vocabProgress": {
+            "totalSeen": 0,
+            "totalMastered": 0,
+            "totalStarred": 0,
+            "totalWeak": 0,
+            "lastStudiedAt": null
+          },
+          "simulationHistory": [],
+          "weaknessProfile": null,
+          "createdAt": "2026-05-13T19:27:23.976Z",
+          "updatedAt": "2026-05-13T19:28:17.419Z",
+          "xp": 0,
+          "level": 1,
+          "targetScore": 134,
+          "achievements": [],
+          "diagnosticCompleted": false,
+          "diagnosticScore": null,
+          "diagnosticCompletedAt": null,
+          "diagnosticCategoryResults": null
+        },
+        "amirnet-sim-current": {
+          "id": "sim-1778700504643-cwzj",
+          "mode": "standard",
+          "sections": [
+            {
+              "id": "s1",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים א׳"
+            },
+            {
+              "id": "s2",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים ב׳"
+            },
+            {
+              "id": "s3",
+              "type": "reading",
+              "questionCount": 5,
+              "timeLimitSeconds": 900,
+              "isPilot": false,
+              "label": "קטע קריאה עם שאלות נלוות"
+            },
+            {
+              "id": "s4",
+              "type": "restatements",
+              "questionCount": 3,
+              "timeLimitSeconds": 360,
+              "isPilot": false,
+              "label": "ניסוח מחדש א׳"
+            },
+            {
+              "id": "s5",
+              "type": "restatements",
+              "questionCount": 3,
+              "timeLimitSeconds": 360,
+              "isPilot": false,
+              "label": "ניסוח מחדש ב׳"
+            },
+            {
+              "id": "s6",
+              "type": "sentenceCompletion",
+              "questionCount": 4,
+              "timeLimitSeconds": 240,
+              "isPilot": false,
+              "label": "השלמת משפטים ג׳"
+            }
+          ],
+          "currentSectionIndex": 0,
+          "currentQuestionIndex": 3,
+          "answers": {
+            "sc18": 0,
+            "sc8": 3,
+            "sc11": 0
+          },
+          "sectionAnswers": {
+            "s1": {
+              "sc18": 0,
+              "sc8": 3,
+              "sc11": 0
+            }
+          },
+          "startedAt": "2026-05-13T19:28:24.643Z",
+          "status": "active"
+        }
+      }
+    }
+  ],
+  "duplicateQuestionsDetected": [
+    {
+      "text": "כלי הכנה עצמאי לאמירנט · לא קשור לנית · ציונים אינם רשמיים",
+      "count": 23,
+      "route": "/practice/sentenceCompletion"
+    }
+  ],
+  "duplicateWordsDetected": []
+}

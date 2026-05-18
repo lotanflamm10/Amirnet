@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-ar-251",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to PRECISE?",
+    "choices": [
+      "inaccurate",
+      "exact",
+      "accurate",
+      "specific"
+    ],
+    "answer": 0,
+    "explanation": "PRECISE means marked by exactness and accuracy. Its antonym is INACCURATE, meaning not correct or exact. Exact, accurate, and specific are all synonyms of precise.",
+    "wrongReasons": [
+      "Exact means perfectly accurate — a synonym of precise, not its opposite.",
+      "Accurate means free from error — a synonym of precise, not its opposite.",
+      "Specific means clearly defined — similar in meaning to precise, not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["precise"],
+    "hebrewExplanation": "PRECISE פירושו מדויק. ההפך הוא INACCURATE — לא מדויק, שגוי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-252",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to GRADUAL?",
+    "choices": [
+      "slow",
+      "sudden",
+      "progressive",
+      "incremental"
+    ],
+    "answer": 1,
+    "explanation": "GRADUAL means happening slowly over a period of time. Its antonym is SUDDEN, meaning happening quickly and unexpectedly. Slow, progressive, and incremental are all synonyms of gradual.",
+    "wrongReasons": [
+      "Slow is a synonym of gradual, meaning not moving quickly — not its opposite.",
+      "Progressive is a synonym of gradual, meaning happening step by step — not its opposite.",
+      "Incremental is a synonym of gradual, meaning increasing by small amounts — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["gradual"],
+    "hebrewExplanation": "GRADUAL פירושו הדרגתי. ההפך הוא SUDDEN — פתאומי, בלתי צפוי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-253",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to FLEXIBLE?",
+    "choices": [
+      "adaptable",
+      "pliable",
+      "versatile",
+      "rigid"
+    ],
+    "answer": 3,
+    "explanation": "FLEXIBLE means capable of bending or adapting easily. Its antonym is RIGID, meaning unable to bend or change; inflexible. Adaptable, pliable, and versatile are all synonyms of flexible.",
+    "wrongReasons": [
+      "Adaptable is a synonym of flexible, meaning able to adjust to new conditions — not its opposite.",
+      "Pliable is a synonym of flexible, meaning easily bent or influenced — not its opposite.",
+      "Versatile is a synonym of flexible, meaning able to adapt to many tasks — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["flexible"],
+    "hebrewExplanation": "FLEXIBLE פירושו גמיש. ההפך הוא RIGID — נוקשה, קשיח, לא גמיש.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-254",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to MINIMAL?",
+    "choices": [
+      "negligible",
+      "maximal",
+      "slight",
+      "limited"
+    ],
+    "answer": 1,
+    "explanation": "MINIMAL means of a minimum amount; very small. Its antonym is MAXIMAL, meaning of or relating to a maximum; greatest possible. Negligible, slight, and limited all describe small amounts.",
+    "wrongReasons": [
+      "Negligible is a synonym of minimal, meaning so small as to be unimportant — not its opposite.",
+      "Slight is a synonym of minimal, meaning small in degree — not its opposite.",
+      "Limited is a synonym of minimal, meaning restricted in quantity — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["minimal"],
+    "hebrewExplanation": "MINIMAL פירושו מינימלי, קטן ביותר. ההפך הוא MAXIMAL — מקסימלי, הגדול ביותר האפשרי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-255",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to STATIC?",
+    "choices": [
+      "stationary",
+      "fixed",
+      "dynamic",
+      "unchanged"
+    ],
+    "answer": 2,
+    "explanation": "STATIC means lacking movement, action, or change. Its antonym is DYNAMIC, meaning characterized by constant change and activity. Stationary, fixed, and unchanged all describe lack of movement.",
+    "wrongReasons": [
+      "Stationary is a synonym of static, meaning not moving or not intended to be moved — not its opposite.",
+      "Fixed is a synonym of static, meaning fastened in place; not changing — not its opposite.",
+      "Unchanged is a synonym of static, meaning remaining the same — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["static"],
+    "hebrewExplanation": "STATIC פירושו סטטי, לא משתנה. ההפך הוא DYNAMIC — דינמי, מלא תנועה ושינוי.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-256",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to FRAGILE?",
+    "choices": [
+      "delicate",
+      "brittle",
+      "frail",
+      "sturdy"
+    ],
+    "answer": 3,
+    "explanation": "FRAGILE means easily broken or damaged. Its antonym is STURDY, meaning strongly and solidly built; robust. Delicate, brittle, and frail are all synonyms of fragile.",
+    "wrongReasons": [
+      "Delicate is a synonym of fragile, meaning easily broken or harmed — not its opposite.",
+      "Brittle is a synonym of fragile, meaning hard but liable to break easily — not its opposite.",
+      "Frail is a synonym of fragile, meaning weak and delicate — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["fragile"],
+    "hebrewExplanation": "FRAGILE פירושו שביר, עדין. ההפך הוא STURDY — חזק, עמיד, בנוי בצורה מוצקה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-257",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to FORMAL?",
+    "choices": [
+      "casual",
+      "official",
+      "ceremonial",
+      "conventional"
+    ],
+    "answer": 0,
+    "explanation": "FORMAL means done in accordance with rules or conventions; serious and official. Its antonym is CASUAL, meaning relaxed and informal; not showing formality. Official, ceremonial, and conventional are synonyms of formal.",
+    "wrongReasons": [
+      "Official is a synonym of formal, meaning relating to an authority or position — not its opposite.",
+      "Ceremonial is a synonym of formal, meaning relating to or used for ceremonies — not its opposite.",
+      "Conventional is a synonym of formal, meaning based on accepted norms — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["formal"],
+    "hebrewExplanation": "FORMAL פירושו פורמלי, רשמי. ההפך הוא CASUAL — לא רשמי, רגוע ומזדמן.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-258",
+    "difficulty": "easy",
+    "text": "Which of the following is OPPOSITE in meaning to AGGRESSIVE?",
+    "choices": [
+      "forceful",
+      "combative",
+      "assertive",
+      "passive"
+    ],
+    "answer": 3,
+    "explanation": "AGGRESSIVE means ready or likely to attack; forceful. Its antonym is PASSIVE, meaning accepting or allowing without active response. Forceful, combative, and assertive are all synonyms or near-synonyms of aggressive.",
+    "wrongReasons": [
+      "Forceful is a synonym of aggressive, meaning powerful and direct — not its opposite.",
+      "Combative is a synonym of aggressive, meaning eager to fight — not its opposite.",
+      "Assertive describes confident self-expression, which leans toward the aggressive side — not the opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["aggressive"],
+    "hebrewExplanation": "AGGRESSIVE פירושו אגרסיבי, תוקפני. ההפך הוא PASSIVE — פאסיבי, סביל, מקבל ללא תגובה.",
+    "estimatedTimeSeconds": 30
+  },
+  {
+    "id": "sb-ar-259",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to COLLECTIVE?",
+    "choices": [
+      "individual",
+      "shared",
+      "communal",
+      "joint"
+    ],
+    "answer": 0,
+    "explanation": "COLLECTIVE means done by or affecting all members of a group. Its antonym is INDIVIDUAL, meaning relating to or suited to a single person; separate. Shared, communal, and joint are all synonyms of collective.",
+    "wrongReasons": [
+      "Shared is a synonym of collective, meaning used or experienced by more than one — not its opposite.",
+      "Communal is a synonym of collective, meaning shared by all members of a community — not its opposite.",
+      "Joint is a synonym of collective, meaning done by or belonging to two or more — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["collective"],
+    "hebrewExplanation": "COLLECTIVE פירושו קולקטיבי, של הקבוצה כולה. ההפך הוא INDIVIDUAL — אינדיווידואלי, של הפרט.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-260",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to DOMESTIC?",
+    "choices": [
+      "internal",
+      "local",
+      "native",
+      "foreign"
+    ],
+    "answer": 3,
+    "explanation": "DOMESTIC means relating to the home or one's own country. Its antonym is FOREIGN, meaning from or relating to another country; alien. Internal, local, and native are all synonyms of domestic.",
+    "wrongReasons": [
+      "Internal is a synonym of domestic, meaning existing inside a country or organization — not its opposite.",
+      "Local is a synonym of domestic, meaning belonging to a particular area — not its opposite.",
+      "Native is a synonym of domestic, meaning originating in a particular place — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["domestic"],
+    "hebrewExplanation": "DOMESTIC פירושו מקומי, פנים-ארצי. ההפך הוא FOREIGN — זר, של מדינה אחרת.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-261",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to LINEAR?",
+    "choices": [
+      "sequential",
+      "nonlinear",
+      "straight",
+      "direct"
+    ],
+    "answer": 1,
+    "explanation": "LINEAR means arranged in or extending along a straight line; progressing step by step. Its antonym is NONLINEAR, meaning not arranged in a straight line; not following a predictable sequence. Sequential, straight, and direct are synonyms of linear.",
+    "wrongReasons": [
+      "Sequential is a synonym of linear, meaning following a particular order — not its opposite.",
+      "Straight is a synonym of linear, meaning extending in one direction without curves — not its opposite.",
+      "Direct is a synonym of linear, meaning going straight to the point — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["linear"],
+    "hebrewExplanation": "LINEAR פירושו לינארי, ישיר. ההפך הוא NONLINEAR — לא לינארי, לא עוקב בסדר פשוט.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-262",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to PERIPHERAL?",
+    "choices": [
+      "marginal",
+      "secondary",
+      "outer",
+      "central"
+    ],
+    "answer": 3,
+    "explanation": "PERIPHERAL means relating to or situated on the edge or margin; not of central importance. Its antonym is CENTRAL, meaning at the point of greatest importance. Marginal, secondary, and outer are synonyms of peripheral.",
+    "wrongReasons": [
+      "Marginal is a synonym of peripheral, meaning at the edge; minor — not its opposite.",
+      "Secondary is a synonym of peripheral, meaning less important — not its opposite.",
+      "Outer is a synonym of peripheral, meaning on the outside — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["peripheral"],
+    "hebrewExplanation": "PERIPHERAL פירושו שולי, היקפי. ההפך הוא CENTRAL — מרכזי, החשוב ביותר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-263",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to POSITIVE?",
+    "choices": [
+      "constructive",
+      "negative",
+      "affirmative",
+      "optimistic"
+    ],
+    "answer": 1,
+    "explanation": "POSITIVE means expressing approval or good opinion; optimistic. Its antonym is NEGATIVE, meaning expressing refusal or denial; not constructive or optimistic. Constructive, affirmative, and optimistic are synonyms of positive.",
+    "wrongReasons": [
+      "Constructive is a synonym of positive, meaning serving a useful purpose — not its opposite.",
+      "Affirmative is a synonym of positive, meaning expressing agreement — not its opposite.",
+      "Optimistic is a synonym of positive, meaning having a hopeful outlook — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["positive"],
+    "hebrewExplanation": "POSITIVE פירושו חיובי. ההפך הוא NEGATIVE — שלילי, מסרב, לא בונה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-264",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to PRIMARY?",
+    "choices": [
+      "main",
+      "chief",
+      "secondary",
+      "principal"
+    ],
+    "answer": 2,
+    "explanation": "PRIMARY means of chief importance; first in order. Its antonym is SECONDARY, meaning coming after or less important than the primary. Main, chief, and principal are all synonyms of primary.",
+    "wrongReasons": [
+      "Main is a synonym of primary, meaning of greatest importance — not its opposite.",
+      "Chief is a synonym of primary, meaning most important — not its opposite.",
+      "Principal is a synonym of primary, meaning first in order of importance — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["primary"],
+    "hebrewExplanation": "PRIMARY פירושו ראשי, עיקרי. ההפך הוא SECONDARY — משני, פחות חשוב.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-265",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to NATURAL?",
+    "choices": [
+      "organic",
+      "innate",
+      "instinctive",
+      "artificial"
+    ],
+    "answer": 3,
+    "explanation": "NATURAL means existing in or derived from nature; not made by people. Its antonym is ARTIFICIAL, meaning made or produced by humans rather than occurring naturally. Organic, innate, and instinctive are synonyms of natural.",
+    "wrongReasons": [
+      "Organic is a synonym of natural, meaning derived from living matter — not its opposite.",
+      "Innate is a synonym of natural, meaning inborn; not learned — not its opposite.",
+      "Instinctive is a synonym of natural, meaning based on instinct rather than thought — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["natural"],
+    "hebrewExplanation": "NATURAL פירושו טבעי. ההפך הוא ARTIFICIAL — מלאכותי, עשוי בידי אדם.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-266",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to PUBLIC?",
+    "choices": [
+      "communal",
+      "open",
+      "private",
+      "accessible"
+    ],
+    "answer": 2,
+    "explanation": "PUBLIC means of or concerning the people as a whole; open to all. Its antonym is PRIVATE, meaning belonging to or for the use of one particular person or group; not open to the public. Communal, open, and accessible are synonyms of public.",
+    "wrongReasons": [
+      "Communal is a synonym of public, meaning shared by all members of a community — not its opposite.",
+      "Open is a synonym of public, meaning accessible to everyone — not its opposite.",
+      "Accessible is a synonym of public, meaning able to be reached by anyone — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["public"],
+    "hebrewExplanation": "PUBLIC פירושו ציבורי, פתוח לכולם. ההפך הוא PRIVATE — פרטי, לא פתוח לציבור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-267",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to IDENTICAL?",
+    "choices": [
+      "alike",
+      "similar",
+      "matching",
+      "distinct"
+    ],
+    "answer": 3,
+    "explanation": "IDENTICAL means exactly the same; similar in every detail. Its antonym is DISTINCT, meaning recognizably different in nature; separate. Alike, similar, and matching are synonyms of identical.",
+    "wrongReasons": [
+      "Alike is a synonym of identical, meaning similar; nearly the same — not its opposite.",
+      "Similar is a synonym of identical, meaning resembling but not exactly the same — not its opposite.",
+      "Matching is a synonym of identical, meaning corresponding in pattern or color — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["identical"],
+    "hebrewExplanation": "IDENTICAL פירושו זהה לחלוטין. ההפך הוא DISTINCT — שונה, ניתן להבחין בינו לאחרים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-268",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to SILENT?",
+    "choices": [
+      "vocal",
+      "quiet",
+      "mute",
+      "hushed"
+    ],
+    "answer": 0,
+    "explanation": "SILENT means making no sound; completely quiet. Its antonym is VOCAL, meaning relating to or given to speech; expressing opinions openly. Quiet, mute, and hushed are synonyms of silent.",
+    "wrongReasons": [
+      "Quiet is a synonym of silent, meaning making little or no sound — not its opposite.",
+      "Mute is a synonym of silent, meaning refraining from speech — not its opposite.",
+      "Hushed is a synonym of silent, meaning made quiet — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["silent"],
+    "hebrewExplanation": "SILENT פירושו שקט, אילם. ההפך הוא VOCAL — קולני, ביטויי, מדבר בקול.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-269",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to VULNERABLE?",
+    "choices": [
+      "susceptible",
+      "resilient",
+      "exposed",
+      "defenseless"
+    ],
+    "answer": 1,
+    "explanation": "VULNERABLE means susceptible to physical or emotional attack or harm. Its antonym is RESILIENT, meaning able to withstand or recover quickly from difficult conditions. Susceptible, exposed, and defenseless are synonyms of vulnerable.",
+    "wrongReasons": [
+      "Susceptible is a synonym of vulnerable, meaning likely to be influenced or harmed — not its opposite.",
+      "Exposed is a synonym of vulnerable, meaning not protected or sheltered — not its opposite.",
+      "Defenseless is a synonym of vulnerable, meaning without means of protection — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["vulnerable"],
+    "hebrewExplanation": "VULNERABLE פירושו פגיע, חשוף. ההפך הוא RESILIENT — עמיד, מסוגל להתאושש.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-270",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to BROAD?",
+    "choices": [
+      "wide",
+      "expansive",
+      "narrow",
+      "extensive"
+    ],
+    "answer": 2,
+    "explanation": "BROAD means large in area or extent; wide. Its antonym is NARROW, meaning of small width; limited in range. Wide, expansive, and extensive are synonyms of broad.",
+    "wrongReasons": [
+      "Wide is a synonym of broad, meaning of great extent from side to side — not its opposite.",
+      "Expansive is a synonym of broad, meaning covering a wide area — not its opposite.",
+      "Extensive is a synonym of broad, meaning large in scope — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["broad"],
+    "hebrewExplanation": "BROAD פירושו רחב. ההפך הוא NARROW — צר, מוגבל בהיקפו.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-271",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to ACUTE?",
+    "choices": [
+      "mild",
+      "severe",
+      "intense",
+      "sharp"
+    ],
+    "answer": 0,
+    "explanation": "ACUTE means having or showing a perceptive understanding; intense or severe. Its antonym is MILD, meaning not severe, serious, or harsh. Severe, intense, and sharp are synonyms of acute.",
+    "wrongReasons": [
+      "Severe is a synonym of acute, meaning very great or intense — not its opposite.",
+      "Intense is a synonym of acute, meaning of extreme force or strength — not its opposite.",
+      "Sharp is a synonym of acute, meaning having a strong or intense effect — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["acute"],
+    "hebrewExplanation": "ACUTE פירושו חריף, עז. ההפך הוא MILD — קל, לא חמור.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-272",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to FIXED?",
+    "choices": [
+      "set",
+      "established",
+      "settled",
+      "variable"
+    ],
+    "answer": 3,
+    "explanation": "FIXED means fastened securely; not subject to change. Its antonym is VARIABLE, meaning not consistent or having a fixed pattern; subject to change. Set, established, and settled are synonyms of fixed.",
+    "wrongReasons": [
+      "Set is a synonym of fixed, meaning having been determined in advance — not its opposite.",
+      "Established is a synonym of fixed, meaning having been in existence for a long time — not its opposite.",
+      "Settled is a synonym of fixed, meaning resolved or decided — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["fixed"],
+    "hebrewExplanation": "FIXED פירושו קבוע, לא משתנה. ההפך הוא VARIABLE — משתנה, לא קבוע.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-273",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to PROSPEROUS?",
+    "choices": [
+      "thriving",
+      "impoverished",
+      "successful",
+      "flourishing"
+    ],
+    "answer": 1,
+    "explanation": "PROSPEROUS means successful in material terms; wealthy. Its antonym is IMPOVERISHED, meaning made poor; lacking material possessions. Thriving, successful, and flourishing are synonyms of prosperous.",
+    "wrongReasons": [
+      "Thriving is a synonym of prosperous, meaning growing vigorously — not its opposite.",
+      "Successful is a synonym of prosperous, meaning achieving one's aims — not its opposite.",
+      "Flourishing is a synonym of prosperous, meaning developing rapidly — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["prosperous"],
+    "hebrewExplanation": "PROSPEROUS פירושו משגשג, עשיר. ההפך הוא IMPOVERISHED — מדולדל, עני.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-274",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to CERTAIN?",
+    "choices": [
+      "definite",
+      "assured",
+      "doubtful",
+      "confident"
+    ],
+    "answer": 2,
+    "explanation": "CERTAIN means known for sure; established beyond doubt. Its antonym is DOUBTFUL, meaning feeling uncertain or unsure. Definite, assured, and confident are synonyms of certain.",
+    "wrongReasons": [
+      "Definite is a synonym of certain, meaning clearly stated or decided — not its opposite.",
+      "Assured is a synonym of certain, meaning confident and protected from doubt — not its opposite.",
+      "Confident is a synonym of certain, meaning feeling or showing certainty — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["certain"],
+    "hebrewExplanation": "CERTAIN פירושו בטוח, ודאי. ההפך הוא DOUBTFUL — ספקני, לא ודאי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-275",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to LOYAL?",
+    "choices": [
+      "treacherous",
+      "faithful",
+      "devoted",
+      "steadfast"
+    ],
+    "answer": 0,
+    "explanation": "LOYAL means giving faithful support to a person or institution. Its antonym is TREACHEROUS, meaning guilty of or involving betrayal; not to be trusted. Faithful, devoted, and steadfast are synonyms of loyal.",
+    "wrongReasons": [
+      "Faithful is a synonym of loyal, meaning steadfastly supportive — not its opposite.",
+      "Devoted is a synonym of loyal, meaning dedicated to a purpose or person — not its opposite.",
+      "Steadfast is a synonym of loyal, meaning resolutely firm and unwavering — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["loyal"],
+    "hebrewExplanation": "LOYAL פירושו נאמן. ההפך הוא TREACHEROUS — בוגדני, לא ראוי לאמון.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-276",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to VALID?",
+    "choices": [
+      "legitimate",
+      "sound",
+      "justified",
+      "invalid"
+    ],
+    "answer": 3,
+    "explanation": "VALID means having a sound basis; legally acceptable. Its antonym is INVALID, meaning not valid or legally recognized; without foundation in fact. Legitimate, sound, and justified are synonyms of valid.",
+    "wrongReasons": [
+      "Legitimate is a synonym of valid, meaning conforming to the law or rules — not its opposite.",
+      "Sound is a synonym of valid, meaning based on reason or solid judgment — not its opposite.",
+      "Justified is a synonym of valid, meaning having a good reason — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["valid"],
+    "hebrewExplanation": "VALID פירושו תקף, מוצדק. ההפך הוא INVALID — לא תקף, חסר בסיס.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-277",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to JUSTIFIED?",
+    "choices": [
+      "warranted",
+      "unjustified",
+      "defensible",
+      "reasonable"
+    ],
+    "answer": 1,
+    "explanation": "JUSTIFIED means having or shown to have a good reason; rightfully done. Its antonym is UNJUSTIFIED, meaning not having a good or sufficient reason; unwarranted. Warranted, defensible, and reasonable are synonyms of justified.",
+    "wrongReasons": [
+      "Warranted is a synonym of justified, meaning authorized or deserved — not its opposite.",
+      "Defensible is a synonym of justified, meaning able to be justified or defended — not its opposite.",
+      "Reasonable is a synonym of justified, meaning based on good judgment — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["justified"],
+    "hebrewExplanation": "JUSTIFIED פירושו מוצדק, בעל סיבה טובה. ההפך הוא UNJUSTIFIED — לא מוצדק, חסר הצדקה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-278",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to VISIBLE?",
+    "choices": [
+      "apparent",
+      "observable",
+      "invisible",
+      "noticeable"
+    ],
+    "answer": 2,
+    "explanation": "VISIBLE means able to be seen. Its antonym is INVISIBLE, meaning unable to be seen. Apparent, observable, and noticeable are all synonyms of visible.",
+    "wrongReasons": [
+      "Apparent is a synonym of visible, meaning clearly seen or understood — not its opposite.",
+      "Observable is a synonym of visible, meaning able to be noticed or perceived — not its opposite.",
+      "Noticeable is a synonym of visible, meaning easily seen or noticed — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["visible"],
+    "hebrewExplanation": "VISIBLE פירושו גלוי, ניתן לראייה. ההפך הוא INVISIBLE — בלתי נראה.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-279",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to UNIFIED?",
+    "choices": [
+      "divided",
+      "consolidated",
+      "integrated",
+      "combined"
+    ],
+    "answer": 0,
+    "explanation": "UNIFIED means made into or caused to act as a single unit. Its antonym is DIVIDED, meaning separated into parts; disagreeing. Consolidated, integrated, and combined are synonyms of unified.",
+    "wrongReasons": [
+      "Consolidated is a synonym of unified, meaning made stronger by bringing together — not its opposite.",
+      "Integrated is a synonym of unified, meaning combined into a whole — not its opposite.",
+      "Combined is a synonym of unified, meaning joined or merged — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["unified"],
+    "hebrewExplanation": "UNIFIED פירושו מאוחד. ההפך הוא DIVIDED — מפוצל, מחולק.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-280",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to CONCRETE?",
+    "choices": [
+      "specific",
+      "abstract",
+      "tangible",
+      "definite"
+    ],
+    "answer": 1,
+    "explanation": "CONCRETE means specific and based on real things or actual instances; tangible. Its antonym is ABSTRACT, meaning existing in thought or as an idea rather than as a material object. Specific, tangible, and definite are synonyms of concrete.",
+    "wrongReasons": [
+      "Specific is a synonym of concrete, meaning clearly identified — not its opposite.",
+      "Tangible is a synonym of concrete, meaning perceptible by touch; real — not its opposite.",
+      "Definite is a synonym of concrete, meaning clearly stated and decided — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["concrete"],
+    "hebrewExplanation": "CONCRETE פירושו קונקרטי, מוחשי. ההפך הוא ABSTRACT — מופשט, רעיוני.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-281",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to INTERNAL?",
+    "choices": [
+      "inner",
+      "domestic",
+      "external",
+      "interior"
+    ],
+    "answer": 2,
+    "explanation": "INTERNAL means existing or situated within; relating to the inside. Its antonym is EXTERNAL, meaning belonging to or forming the outer surface; coming from outside. Inner, domestic, and interior are synonyms of internal.",
+    "wrongReasons": [
+      "Inner is a synonym of internal, meaning situated inside — not its opposite.",
+      "Domestic is a synonym of internal, meaning relating to activities inside a country — not its opposite.",
+      "Interior is a synonym of internal, meaning situated within or inside — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["internal"],
+    "hebrewExplanation": "INTERNAL פירושו פנימי. ההפך הוא EXTERNAL — חיצוני, מחוץ.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-282",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to SPECIFIC?",
+    "choices": [
+      "particular",
+      "precise",
+      "detailed",
+      "general"
+    ],
+    "answer": 3,
+    "explanation": "SPECIFIC means clearly defined or identified; relating to a particular subject. Its antonym is GENERAL, meaning affecting or concerning all or most people or things; not specific. Particular, precise, and detailed are synonyms of specific.",
+    "wrongReasons": [
+      "Particular is a synonym of specific, meaning relating to a specific thing — not its opposite.",
+      "Precise is a synonym of specific, meaning marked by exactness and accuracy — not its opposite.",
+      "Detailed is a synonym of specific, meaning having many particular items — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["specific"],
+    "hebrewExplanation": "SPECIFIC פירושו ספציפי, מוגדר. ההפך הוא GENERAL — כללי, לא ספציפי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-283",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to OBJECTIVE?",
+    "choices": [
+      "impartial",
+      "subjective",
+      "unbiased",
+      "neutral"
+    ],
+    "answer": 1,
+    "explanation": "OBJECTIVE means not influenced by personal feelings; based on facts. Its antonym is SUBJECTIVE, meaning based on personal feelings, tastes, or opinions rather than facts. Impartial, unbiased, and neutral are synonyms of objective.",
+    "wrongReasons": [
+      "Impartial is a synonym of objective, meaning treating all sides equally — not its opposite.",
+      "Unbiased is a synonym of objective, meaning free from prejudice — not its opposite.",
+      "Neutral is a synonym of objective, meaning not taking sides — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["objective"],
+    "hebrewExplanation": "OBJECTIVE פירושו אובייקטיבי, מבוסס עובדות. ההפך הוא SUBJECTIVE — סובייקטיבי, מבוסס רגשות אישיים.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-284",
+    "difficulty": "medium",
+    "text": "Which of the following is OPPOSITE in meaning to CALM?",
+    "choices": [
+      "agitated",
+      "serene",
+      "tranquil",
+      "composed"
+    ],
+    "answer": 0,
+    "explanation": "CALM means not showing or feeling nervousness or excitement. Its antonym is AGITATED, meaning feeling or appearing troubled or nervous. Serene, tranquil, and composed are synonyms of calm.",
+    "wrongReasons": [
+      "Serene is a synonym of calm, meaning peaceful and untroubled — not its opposite.",
+      "Tranquil is a synonym of calm, meaning free from disturbance — not its opposite.",
+      "Composed is a synonym of calm, meaning having one's feelings under control — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["calm"],
+    "hebrewExplanation": "CALM פירושו רגוע, שקט. ההפך הוא AGITATED — מוסת, מטורד, חסר שקט.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-ar-285",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to EMINENT?",
+    "choices": [
+      "distinguished",
+      "renowned",
+      "obscure",
+      "illustrious"
+    ],
+    "answer": 2,
+    "explanation": "EMINENT means famous and respected within a particular sphere. Its antonym is OBSCURE, meaning not discovered or known; not clearly expressed or seen. Distinguished, renowned, and illustrious are synonyms of eminent.",
+    "wrongReasons": [
+      "Distinguished is a synonym of eminent, meaning successful and commanding great respect — not its opposite.",
+      "Renowned is a synonym of eminent, meaning known or talked about by many people — not its opposite.",
+      "Illustrious is a synonym of eminent, meaning well known and highly respected — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["eminent"],
+    "hebrewExplanation": "EMINENT פירושו מפורסם, מכובד. ההפך הוא OBSCURE — לא ידוע, נסתר.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-286",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to SCRUPULOUS?",
+    "choices": [
+      "unprincipled",
+      "principled",
+      "meticulous",
+      "conscientious"
+    ],
+    "answer": 0,
+    "explanation": "SCRUPULOUS means diligent, thorough, and attentive to detail; acting according to strict ethical principles. Its antonym is UNPRINCIPLED, meaning not acting in accordance with moral principles. Principled, meticulous, and conscientious are synonyms of scrupulous.",
+    "wrongReasons": [
+      "Principled is a synonym of scrupulous, meaning acting according to clear standards — not its opposite.",
+      "Meticulous is a synonym of scrupulous, meaning showing great attention to detail — not its opposite.",
+      "Conscientious is a synonym of scrupulous, meaning wishing to do what is right — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["scrupulous"],
+    "hebrewExplanation": "SCRUPULOUS פירושו קפדן, ישר. ההפך הוא UNPRINCIPLED — חסר עקרונות, לא מוסרי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-287",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to TRANSIENT?",
+    "choices": [
+      "fleeting",
+      "momentary",
+      "temporary",
+      "permanent"
+    ],
+    "answer": 3,
+    "explanation": "TRANSIENT means lasting only for a short time; impermanent. Its antonym is PERMANENT, meaning lasting or intended to last indefinitely. Fleeting, momentary, and temporary are synonyms of transient.",
+    "wrongReasons": [
+      "Fleeting is a synonym of transient, meaning lasting a very short time — not its opposite.",
+      "Momentary is a synonym of transient, meaning lasting for only a brief time — not its opposite.",
+      "Temporary is a synonym of transient, meaning not permanent — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["transient"],
+    "hebrewExplanation": "TRANSIENT פירושו ארעי, חולף. ההפך הוא PERMANENT — קבוע, נצחי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-288",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to BENEVOLENT?",
+    "choices": [
+      "charitable",
+      "kind",
+      "malicious",
+      "compassionate"
+    ],
+    "answer": 2,
+    "explanation": "BENEVOLENT means well-meaning and kindly; wishing good to others. Its antonym is MALICIOUS, meaning characterized by malice; intending harm to others. Charitable, kind, and compassionate are synonyms of benevolent.",
+    "wrongReasons": [
+      "Charitable is a synonym of benevolent, meaning generous to those in need — not its opposite.",
+      "Kind is a synonym of benevolent, meaning having a good, friendly nature — not its opposite.",
+      "Compassionate is a synonym of benevolent, meaning feeling concern for others' suffering — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["benevolent"],
+    "hebrewExplanation": "BENEVOLENT פירושו טוב לב, נדיב. ההפך הוא MALICIOUS — זדוני, המבקש להזיק.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-289",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to ELATED?",
+    "choices": [
+      "jubilant",
+      "despondent",
+      "ecstatic",
+      "exhilarated"
+    ],
+    "answer": 1,
+    "explanation": "ELATED means extremely happy and excited. Its antonym is DESPONDENT, meaning in low spirits from loss of hope or courage. Jubilant, ecstatic, and exhilarated are synonyms of elated.",
+    "wrongReasons": [
+      "Jubilant is a synonym of elated, meaning feeling or expressing great happiness — not its opposite.",
+      "Ecstatic is a synonym of elated, meaning feeling overwhelming happiness — not its opposite.",
+      "Exhilarated is a synonym of elated, meaning feeling very happy and energetic — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["elated"],
+    "hebrewExplanation": "ELATED פירושו מאושר, עולץ. ההפך הוא DESPONDENT — מיואש, מדוכדך.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-290",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to FRUITFUL?",
+    "choices": [
+      "productive",
+      "rewarding",
+      "prolific",
+      "futile"
+    ],
+    "answer": 3,
+    "explanation": "FRUITFUL means producing good or helpful results; productive. Its antonym is FUTILE, meaning incapable of producing any useful result; pointless. Productive, rewarding, and prolific are synonyms of fruitful.",
+    "wrongReasons": [
+      "Productive is a synonym of fruitful, meaning achieving a significant amount — not its opposite.",
+      "Rewarding is a synonym of fruitful, meaning providing satisfaction — not its opposite.",
+      "Prolific is a synonym of fruitful, meaning producing much output — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["fruitful"],
+    "hebrewExplanation": "FRUITFUL פירושו פורה, מועיל. ההפך הוא FUTILE — חסר תוצאה, חסר תועלת.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-291",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to PARTISAN?",
+    "choices": [
+      "biased",
+      "one-sided",
+      "impartial",
+      "factional"
+    ],
+    "answer": 2,
+    "explanation": "PARTISAN means prejudiced in favor of a particular cause or person; biased. Its antonym is IMPARTIAL, meaning treating all rivals or disputants equally; not biased. Biased, one-sided, and factional are synonyms of partisan.",
+    "wrongReasons": [
+      "Biased is a synonym of partisan, meaning unfairly favoring one side — not its opposite.",
+      "One-sided is a synonym of partisan, meaning considering only one perspective — not its opposite.",
+      "Factional is a synonym of partisan, meaning relating to a faction or group — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["partisan"],
+    "hebrewExplanation": "PARTISAN פירושו מפלגתי, נגוע בהטיה. ההפך הוא IMPARTIAL — הוגן, נייטרלי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-292",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to PROLIFIC?",
+    "choices": [
+      "barren",
+      "fertile",
+      "productive",
+      "creative"
+    ],
+    "answer": 0,
+    "explanation": "PROLIFIC means producing many works, results, or offspring. Its antonym is BARREN, meaning too poor to produce much vegetation; bleak; unproductive. Fertile, productive, and creative are synonyms of prolific.",
+    "wrongReasons": [
+      "Fertile is a synonym of prolific, meaning producing many offspring or results — not its opposite.",
+      "Productive is a synonym of prolific, meaning producing a large amount of output — not its opposite.",
+      "Creative is a synonym of prolific in context, meaning generating new ideas — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["prolific"],
+    "hebrewExplanation": "PROLIFIC פירושו פורה, יצרני. ההפך הוא BARREN — עקר, לא פורה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-293",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to TRANSITORY?",
+    "choices": [
+      "lasting",
+      "temporary",
+      "short-lived",
+      "fleeting"
+    ],
+    "answer": 0,
+    "explanation": "TRANSITORY means not permanent; short-lived. Its antonym is LASTING, meaning enduring or able to endure over time. Temporary, short-lived, and fleeting are synonyms of transitory.",
+    "wrongReasons": [
+      "Temporary is a synonym of transitory, meaning not permanent — not its opposite.",
+      "Short-lived is a synonym of transitory, meaning lasting only a short time — not its opposite.",
+      "Fleeting is a synonym of transitory, meaning passing swiftly — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["transitory"],
+    "hebrewExplanation": "TRANSITORY פירושו ארעי, חולף. ההפך הוא LASTING — מתמיד, קיים לאורך זמן.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-294",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to DORMANT?",
+    "choices": [
+      "latent",
+      "inactive",
+      "quiescent",
+      "active"
+    ],
+    "answer": 3,
+    "explanation": "DORMANT means having normal physical functions suspended; not active. Its antonym is ACTIVE, meaning engaging in physically energetic pursuits; in operation. Latent, inactive, and quiescent are synonyms of dormant.",
+    "wrongReasons": [
+      "Latent is a synonym of dormant, meaning existing but not yet developed — not its opposite.",
+      "Inactive is a synonym of dormant, meaning not active or not working — not its opposite.",
+      "Quiescent is a synonym of dormant, meaning in a state of quiet inactivity — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["dormant"],
+    "hebrewExplanation": "DORMANT פירושו רדום, לא פעיל. ההפך הוא ACTIVE — פעיל, ער.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-295",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to SPURIOUS?",
+    "choices": [
+      "false",
+      "genuine",
+      "counterfeit",
+      "fraudulent"
+    ],
+    "answer": 1,
+    "explanation": "SPURIOUS means not being what it purports to be; false or fake. Its antonym is GENUINE, meaning truly what it is said to be; authentic. False, counterfeit, and fraudulent are synonyms of spurious.",
+    "wrongReasons": [
+      "False is a synonym of spurious, meaning not according to truth — not its opposite.",
+      "Counterfeit is a synonym of spurious, meaning made in imitation to deceive — not its opposite.",
+      "Fraudulent is a synonym of spurious, meaning obtained by deception — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["spurious"],
+    "hebrewExplanation": "SPURIOUS פירושו מזויף, שקרי. ההפך הוא GENUINE — אמיתי, מקורי.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-296",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to ANTAGONIZE?",
+    "choices": [
+      "provoke",
+      "irritate",
+      "conciliate",
+      "aggravate"
+    ],
+    "answer": 2,
+    "explanation": "ANTAGONIZE means to cause someone to become hostile. Its antonym is CONCILIATE, meaning to stop someone from being angry by making concessions; to placate. Provoke, irritate, and aggravate are synonyms of antagonize.",
+    "wrongReasons": [
+      "Provoke is a synonym of antagonize, meaning to stimulate or incite a strong reaction — not its opposite.",
+      "Irritate is a synonym of antagonize, meaning to make someone annoyed or angry — not its opposite.",
+      "Aggravate is a synonym of antagonize, meaning to make a problem worse — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["antagonize"],
+    "hebrewExplanation": "ANTAGONIZE פירושו להסית, לגרות עוינות. ההפך הוא CONCILIATE — לפייס, להרגיע.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-297",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to MUNDANE?",
+    "choices": [
+      "extraordinary",
+      "ordinary",
+      "routine",
+      "commonplace"
+    ],
+    "answer": 0,
+    "explanation": "MUNDANE means lacking interest or excitement; dull and ordinary. Its antonym is EXTRAORDINARY, meaning very unusual or remarkable; beyond what is ordinary. Ordinary, routine, and commonplace are synonyms of mundane.",
+    "wrongReasons": [
+      "Ordinary is a synonym of mundane, meaning with no special quality; usual — not its opposite.",
+      "Routine is a synonym of mundane, meaning performed as part of regular procedure — not its opposite.",
+      "Commonplace is a synonym of mundane, meaning not unusual; ordinary — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["mundane"],
+    "hebrewExplanation": "MUNDANE פירושו מונוטוני, שגרתי. ההפך הוא EXTRAORDINARY — יוצא דופן, בלתי רגיל.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-298",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to GUARDED?",
+    "choices": [
+      "cautious",
+      "reserved",
+      "wary",
+      "candid"
+    ],
+    "answer": 3,
+    "explanation": "GUARDED means cautious and having possible reservations; reluctant to reveal information. Its antonym is CANDID, meaning truthful and straightforward; not hiding anything. Cautious, reserved, and wary are synonyms of guarded.",
+    "wrongReasons": [
+      "Cautious is a synonym of guarded, meaning being careful to avoid danger — not its opposite.",
+      "Reserved is a synonym of guarded, meaning slow to reveal emotion — not its opposite.",
+      "Wary is a synonym of guarded, meaning feeling or showing caution — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["guarded"],
+    "hebrewExplanation": "GUARDED פירושו זהיר, שמרן במה שמגלה. ההפך הוא CANDID — ישיר, כן, גלוי לב.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-299",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to INDOLENT?",
+    "choices": [
+      "sluggish",
+      "idle",
+      "lethargic",
+      "industrious"
+    ],
+    "answer": 3,
+    "explanation": "INDOLENT means wanting to avoid activity or exertion; lazy. Its antonym is INDUSTRIOUS, meaning diligent and hardworking. Sluggish, idle, and lethargic are synonyms of indolent.",
+    "wrongReasons": [
+      "Sluggish is a synonym of indolent, meaning slow-moving or lacking energy — not its opposite.",
+      "Idle is a synonym of indolent, meaning avoiding work; lazy — not its opposite.",
+      "Lethargic is a synonym of indolent, meaning affected by sluggishness — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["indolent"],
+    "hebrewExplanation": "INDOLENT פירושו עצלן, נמנע ממאמץ. ההפך הוא INDUSTRIOUS — חרוץ, עובד קשה.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "sb-ar-300",
+    "difficulty": "hard",
+    "text": "Which of the following is OPPOSITE in meaning to AMBIVALENT?",
+    "choices": [
+      "uncertain",
+      "hesitant",
+      "resolute",
+      "indecisive"
+    ],
+    "answer": 2,
+    "explanation": "AMBIVALENT means having mixed feelings or contradictory ideas about something; uncertain. Its antonym is RESOLUTE, meaning admirably purposeful, determined, and unwavering. Uncertain, hesitant, and indecisive are synonyms of ambivalent.",
+    "wrongReasons": [
+      "Uncertain is a synonym of ambivalent, meaning not able to be relied on — not its opposite.",
+      "Hesitant is a synonym of ambivalent, meaning tentative and unsure — not its opposite.",
+      "Indecisive is a synonym of ambivalent, meaning not settling an issue — not its opposite."
+    ],
+    "subType": "antonymRecognition",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "antonyms"],
+    "vocabularyWords": ["ambivalent"],
+    "hebrewExplanation": "AMBIVALENT פירושו דו-ערכי, מתלבט. ההפך הוא RESOLUTE — נחוש, בעל החלטיות מוחלטת.",
+    "estimatedTimeSeconds": 45
+  }
+]

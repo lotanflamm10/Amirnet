@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "sb-vc-201",
+    "difficulty": "easy",
+    "text": "The child's curiosity about nature was [apparent] to every teacher in the school; she always asked questions about plants and animals. The word 'apparent' most nearly means:",
+    "choices": [
+      "clearly visible or obvious",
+      "hidden and hard to detect",
+      "frequently changing",
+      "unusually intense"
+    ],
+    "answer": 0,
+    "explanation": "'Apparent' means easy to see or understand. The context clue is that every teacher noticed the child's curiosity, indicating it was obvious to all.",
+    "wrongReasons": [
+      "'Hidden and hard to detect' is the opposite of apparent; if every teacher noticed it, it was not hidden.",
+      "'Frequently changing' describes inconsistency, not visibility; apparent is about how clearly something is perceived.",
+      "'Unusually intense' describes degree, not how easily something is noticed; apparent focuses on visibility, not strength."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["apparent"],
+    "hebrewExplanation": "apparent = ברור, גלוי לעין. כל המורים שמו לב לסקרנות של הילדה — כלומר, הדבר היה ברור ומוחשי לכולם.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-202",
+    "difficulty": "easy",
+    "text": "The manager asked the team to be [prompt] with their reports so that decisions could be made without delay. The word 'prompt' most nearly means:",
+    "choices": [
+      "late and disorganized",
+      "on time and without delay",
+      "detailed and thorough",
+      "informal and casual"
+    ],
+    "answer": 1,
+    "explanation": "'Prompt' means acting at the right time, without delay. The context clue 'so that decisions could be made without delay' directly signals the meaning.",
+    "wrongReasons": [
+      "'Late and disorganized' is the opposite of prompt; the manager wants to avoid delays, not create them.",
+      "'Detailed and thorough' refers to the quality of content, not the timing; prompt is specifically about being on time.",
+      "'Informal and casual' describes style or tone, not timing; prompt is a neutral term about punctuality."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["prompt"],
+    "hebrewExplanation": "prompt = מיידי, ללא דיחוי. המנהל רצה שהדוחות יגיעו בזמן כדי לקבל החלטות במהירות — כלומר, הדגש הוא על עמידה בזמן.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-203",
+    "difficulty": "easy",
+    "text": "The volunteers worked [diligently] throughout the weekend, cleaning every corner of the park until it looked completely new. The word 'diligently' most nearly means:",
+    "choices": [
+      "carelessly and quickly",
+      "with steady effort and care",
+      "in a noisy and disruptive way",
+      "reluctantly and slowly"
+    ],
+    "answer": 1,
+    "explanation": "'Diligently' means working hard and with care over time. The context clues 'throughout the weekend' and 'cleaning every corner' show sustained, careful effort.",
+    "wrongReasons": [
+      "'Carelessly and quickly' contradicts the thoroughness implied by 'every corner'; diligent work is careful, not careless.",
+      "'In a noisy and disruptive way' describes manner or behavior, not effort level; diligently is about dedication, not noise.",
+      "'Reluctantly and slowly' implies resistance; diligently suggests willingness and steady application of effort."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["diligently"],
+    "hebrewExplanation": "diligently = בחריצות, ביגיעה ובקפידה. ההתנדבים עבדו כל סוף השבוע ונקו כל פינה — הדבר מעיד על מאמץ ממושך ועקבי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-204",
+    "difficulty": "easy",
+    "text": "The new law was designed to [prohibit] the sale of certain chemicals that had been used to make dangerous substances. The word 'prohibit' most nearly means:",
+    "choices": [
+      "encourage and promote",
+      "regulate and tax",
+      "formally prevent or forbid",
+      "delay and reconsider"
+    ],
+    "answer": 2,
+    "explanation": "'Prohibit' means to officially forbid something. The context — a law stopping sales of dangerous chemicals — shows a formal ban.",
+    "wrongReasons": [
+      "'Encourage and promote' is the direct opposite of prohibit; a law banning sales does not encourage them.",
+      "'Regulate and tax' suggests oversight with permission; prohibit means no permission at all, not managed permission.",
+      "'Delay and reconsider' means postponing a decision; prohibit is a definitive ban, not a temporary pause."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["prohibit"],
+    "hebrewExplanation": "prohibit = לאסור, למנוע רשמית. החוק נועד לאסור את מכירת כימיקלים מסוכנים — מדובר באיסור פורמלי מוחלט.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-205",
+    "difficulty": "easy",
+    "text": "The hiking trail was [arduous], featuring steep climbs and rocky terrain that exhausted even experienced walkers. The word 'arduous' most nearly means:",
+    "choices": [
+      "requiring great effort; very difficult",
+      "pleasant and easy to walk",
+      "short and straightforward",
+      "dangerous and forbidden"
+    ],
+    "answer": 0,
+    "explanation": "'Arduous' means demanding great effort. The context clues 'steep climbs,' 'rocky terrain,' and 'exhausted even experienced walkers' all signal extreme difficulty.",
+    "wrongReasons": [
+      "'Pleasant and easy to walk' is the opposite; the trail exhausted experienced walkers, showing it was not easy.",
+      "'Short and straightforward' describes length and simplicity; arduous refers to difficulty level, not distance.",
+      "'Dangerous and forbidden' adds a legal or safety dimension not present; arduous means difficult, not necessarily unsafe or banned."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["arduous"],
+    "hebrewExplanation": "arduous = מאתגר מאוד, הדורש מאמץ רב. המסלול כלל עליות תלולות וסלעים שהכניעו אפילו מטיילים מנוסים — כלומר, הוא היה קשה ביותר.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-206",
+    "difficulty": "easy",
+    "text": "The principal [commended] the students who had volunteered at the local shelter, praising them in front of the entire school. The word 'commended' most nearly means:",
+    "choices": [
+      "criticized harshly",
+      "formally praised or approved",
+      "briefly mentioned",
+      "privately warned"
+    ],
+    "answer": 1,
+    "explanation": "'Commended' means officially praised or expressed approval. The context clue 'praising them in front of the entire school' confirms the meaning.",
+    "wrongReasons": [
+      "'Criticized harshly' is the opposite of commended; the principal was praising, not blaming, the students.",
+      "'Briefly mentioned' suggests a passing reference; commended implies deliberate, formal recognition, not a brief mention.",
+      "'Privately warned' is both opposite in tone and opposite in setting; commending is public and positive, not private and cautionary."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["commended"],
+    "hebrewExplanation": "commended = שיבח, הוקיר בפומבי. המנהל שיבח את התלמידים לפני כל בית הספר — מדובר בהכרה חיובית ורשמית.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-207",
+    "difficulty": "easy",
+    "text": "The results of the experiment were [consistent] across all three trials, showing the same outcome every time. The word 'consistent' most nearly means:",
+    "choices": [
+      "unpredictable and varied",
+      "always producing the same result",
+      "carefully measured and exact",
+      "surprisingly different from expected"
+    ],
+    "answer": 1,
+    "explanation": "'Consistent' means producing the same result each time. The context clue 'showing the same outcome every time' directly defines the word.",
+    "wrongReasons": [
+      "'Unpredictable and varied' is the opposite; consistent means the results do not vary across trials.",
+      "'Carefully measured and exact' describes precision, not repetition; results can be precise but different each time.",
+      "'Surprisingly different from expected' implies unexpected change; consistent means predictable sameness, not surprise."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["consistent"],
+    "hebrewExplanation": "consistent = עקבי, קבוע. התוצאות היו זהות בכל שלוש הניסויים — כלומר, הן לא השתנו והיו צפויות.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-208",
+    "difficulty": "easy",
+    "text": "The city council voted to [allocate] extra funds to the public library so it could hire more staff and extend its opening hours. The word 'allocate' most nearly means:",
+    "choices": [
+      "set aside resources for a specific purpose",
+      "reduce and limit spending",
+      "borrow money from another source",
+      "publicly announce a new plan"
+    ],
+    "answer": 0,
+    "explanation": "'Allocate' means to officially assign or set aside resources for a particular use. The council directing extra funds to the library is a classic example of allocation.",
+    "wrongReasons": [
+      "'Reduce and limit spending' is the opposite action; allocating extra funds means adding resources, not cutting them.",
+      "'Borrow money from another source' describes obtaining funds externally; allocate means distributing existing funds, not borrowing.",
+      "'Publicly announce a new plan' describes communication; allocating is a financial action, not merely an announcement."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["allocate"],
+    "hebrewExplanation": "allocate = להקצות, לייחד משאבים למטרה מסוימת. המועצה הקצתה כספים נוספים לספרייה — כלומר, ייעדה אותם לשימוש ספציפי.",
+    "estimatedTimeSeconds": 35
+  },
+  {
+    "id": "sb-vc-209",
+    "difficulty": "medium",
+    "text": "The journalist's article was praised for its [impartial] reporting; she presented facts from all sides without favoring any political group. The word 'impartial' most nearly means:",
+    "choices": [
+      "favoring one side strongly",
+      "not biased; treating all sides fairly",
+      "based on personal feelings",
+      "written for a general audience"
+    ],
+    "answer": 1,
+    "explanation": "'Impartial' means not favoring any side; fair and unbiased. The context 'presented facts from all sides without favoring any political group' confirms this.",
+    "wrongReasons": [
+      "'Favoring one side strongly' is the direct opposite of impartial; biased reporting cannot be described as impartial.",
+      "'Based on personal feelings' describes subjective reporting, which is the opposite of the objectivity that impartial implies.",
+      "'Written for a general audience' describes the intended readership, not the fairness of the reporting itself."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["impartial"],
+    "hebrewExplanation": "impartial = ניטרלי, אובייקטיבי, לא משוחד. העיתונאית הציגה עובדות מכל הצדדים ללא העדפה — כלומר, דיווחה באופן הוגן ומאוזן.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-210",
+    "difficulty": "medium",
+    "text": "The charity's approach was [holistic] in name but [piecemeal] in practice, addressing individual symptoms rather than the underlying social problems. The word 'piecemeal' most nearly means:",
+    "choices": [
+      "done gradually, one part at a time, without a unified plan",
+      "carefully coordinated across all departments",
+      "extremely thorough and complete",
+      "focused on long-term outcomes"
+    ],
+    "answer": 0,
+    "explanation": "'Piecemeal' means done in small, separate parts rather than all at once or according to a single plan. The contrast with 'holistic' and the phrase 'individual symptoms rather than underlying problems' confirm this.",
+    "wrongReasons": [
+      "'Carefully coordinated across all departments' is the opposite of piecemeal; piecemeal implies a lack of coordination.",
+      "'Extremely thorough and complete' describes comprehensiveness; piecemeal means incomplete and fragmented, not thorough.",
+      "'Focused on long-term outcomes' describes a strategic orientation; piecemeal refers to the fragmented manner of action, not its time horizon."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["piecemeal"],
+    "hebrewExplanation": "piecemeal = קטוע, חלקי, ללא תכנית כוללת. הגישה טיפלה בתסמינים בודדים בנפרד — כלומר, לא הייתה מקיפה ומתואמת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-211",
+    "difficulty": "medium",
+    "text": "The committee agreed that the proposal was [feasible] given the available resources and timeline. The word 'feasible' most nearly means:",
+    "choices": [
+      "too expensive to consider",
+      "possible and practical to carry out",
+      "theoretically ideal but untested",
+      "requiring immediate rejection"
+    ],
+    "answer": 1,
+    "explanation": "'Feasible' means capable of being done; practical and achievable. The context 'given the available resources and timeline' shows the committee believed it could realistically be done.",
+    "wrongReasons": [
+      "'Too expensive to consider' implies financial rejection; feasible means the opposite — that it can be done within available means.",
+      "'Theoretically ideal but untested' suggests the proposal is only good in theory; feasible means it is practical in reality.",
+      "'Requiring immediate rejection' is the opposite conclusion; the committee's agreement signals acceptance, not rejection."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["feasible"],
+    "hebrewExplanation": "feasible = ישים, ניתן לביצוע בפועל. הוועדה הסכימה שהצעה היא ישימה בהינתן המשאבים והלוח הזמנים — כלומר, ניתן לממשה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-212",
+    "difficulty": "medium",
+    "text": "Her tone during the negotiation was [conciliatory]; she made several compromises to ease tensions between the two sides. The word 'conciliatory' most nearly means:",
+    "choices": [
+      "aggressive and unyielding",
+      "intended to reduce conflict and restore goodwill",
+      "legally binding and official",
+      "neutral and emotionally detached"
+    ],
+    "answer": 1,
+    "explanation": "'Conciliatory' describes behavior or words intended to make peace and reduce hostility. The clues 'made several compromises' and 'ease tensions' confirm this.",
+    "wrongReasons": [
+      "'Aggressive and unyielding' is the opposite of conciliatory; making compromises to ease tensions is the defining feature of conciliatory behavior.",
+      "'Legally binding and official' describes formality and legal status, not the intent to reconcile; conciliatory is about tone and intent.",
+      "'Neutral and emotionally detached' describes indifference; conciliatory implies active effort to improve relations, not passivity."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["conciliatory"],
+    "hebrewExplanation": "conciliatory = פייסני, נועד להרגיע ולשפר יחסים. היא ויתרה על כמה נקודות כדי להפחית מתחים — כלומר, גישתה הייתה פתוחה לפשרה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-213",
+    "difficulty": "medium",
+    "text": "The documentary provided a [candid] look at the struggles faced by first-generation college students, showing their real-life challenges without glamorizing them. The word 'candid' most nearly means:",
+    "choices": [
+      "dramatized for entertainment",
+      "honest and straightforward; not posed or edited",
+      "officially sanctioned and approved",
+      "focused on positive achievements"
+    ],
+    "answer": 1,
+    "explanation": "'Candid' means honest and direct, showing things as they really are. The contrast with 'glamorizing' and the phrase 'real-life challenges' confirm the meaning.",
+    "wrongReasons": [
+      "'Dramatized for entertainment' is the opposite of candid; candid means unedited and genuine, not theatrical.",
+      "'Officially sanctioned and approved' describes authorization; candid describes the honesty and rawness of presentation, not its official status.",
+      "'Focused on positive achievements' would be a partial or biased view; candid means showing the full, unvarnished truth."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["candid"],
+    "hebrewExplanation": "candid = גלוי, כן, ישיר. הסרט הציג את המאבקים כפי שהם בלי לייפות — כלומר, נתן תמונה אמיתית וללא עריכה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-214",
+    "difficulty": "medium",
+    "text": "The researcher argued that the policy was [counterproductive], since stricter rules led more people to find illegal workarounds rather than comply. The word 'counterproductive' most nearly means:",
+    "choices": [
+      "producing the opposite of the intended result",
+      "highly effective when carefully applied",
+      "expensive but necessary",
+      "difficult to measure or evaluate"
+    ],
+    "answer": 0,
+    "explanation": "'Counterproductive' means producing results that are the opposite of what was intended. Stricter rules backfiring by causing more non-compliance is a classic counterproductive outcome.",
+    "wrongReasons": [
+      "'Highly effective when carefully applied' is the opposite; counterproductive policies fail even when applied strictly.",
+      "'Expensive but necessary' evaluates cost versus need; counterproductive is about the direction of the outcome, not its cost.",
+      "'Difficult to measure or evaluate' describes research complexity; counterproductive describes an outcome that is clearly negative, not hard to assess."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["counterproductive"],
+    "hebrewExplanation": "counterproductive = נוגד את המטרה, מביא לתוצאה הפוכה מהרצויה. החוקרת טענה שכללים מחמירים יותר גרמו לאנשים לחפש עקיפות בלתי חוקיות — ממש ההיפך מהמטרה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-215",
+    "difficulty": "medium",
+    "text": "The startup's rapid growth was [attributed] to its innovative product design and aggressive marketing strategy. The word 'attributed' most nearly means:",
+    "choices": [
+      "explained as caused or produced by something",
+      "criticized for depending on luck",
+      "measured and calculated precisely",
+      "celebrated publicly"
+    ],
+    "answer": 0,
+    "explanation": "'Attributed' means to regard something as caused by or resulting from a particular factor. The growth being 'attributed to' design and marketing means those factors were seen as the cause.",
+    "wrongReasons": [
+      "'Criticized for depending on luck' adds a negative judgment not in the sentence; attributed is neutral, describing a causal link.",
+      "'Measured and calculated precisely' describes quantification; attributed describes explanation of causes, not precise measurement.",
+      "'Celebrated publicly' describes a reaction; attributed is an analytical term about identifying causes, not a celebratory one."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["attributed"],
+    "hebrewExplanation": "attributed = יוחס ל-, הוסבר כנגרם על ידי. הצמיחה יוחסה לעיצוב חדשני ולשיווק — כלומר, נחשבו לגורמים שהביאו לה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-216",
+    "difficulty": "medium",
+    "text": "The author's writing style was [verbose], filling ten pages with ideas that could have been expressed in two. The word 'verbose' most nearly means:",
+    "choices": [
+      "using far more words than necessary",
+      "highly technical and difficult to follow",
+      "elegant and richly descriptive",
+      "vague and hard to understand"
+    ],
+    "answer": 0,
+    "explanation": "'Verbose' means using more words than needed; wordy. The context clue 'ten pages with ideas that could have been expressed in two' directly illustrates excessive wordiness.",
+    "wrongReasons": [
+      "'Highly technical and difficult to follow' describes complexity or jargon; verbose is about quantity of words, not technical difficulty.",
+      "'Elegant and richly descriptive' describes literary quality; verbose suggests an excess of words, often with a negative connotation.",
+      "'Vague and hard to understand' describes clarity; a verbose text may actually be very explicit, just unnecessarily long."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["verbose"],
+    "hebrewExplanation": "verbose = מרבה מילים, ארוך מדי. הסופר מילא עשרה עמודים ברעיונות שניתן היה לבטא בשניים — כלומר, השתמש בהרבה יותר מילים מהנדרש.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-217",
+    "difficulty": "medium",
+    "text": "The professor was [skeptical] of the study's conclusions, noting that the sample size was too small to support such broad claims. The word 'skeptical' most nearly means:",
+    "choices": [
+      "enthusiastically supportive",
+      "having doubts; not easily convinced",
+      "completely uninformed",
+      "professionally obligated to disagree"
+    ],
+    "answer": 1,
+    "explanation": "'Skeptical' means having doubts or reservations; not easily persuaded. The professor's concern about the small sample size shows her reservations about the claims.",
+    "wrongReasons": [
+      "'Enthusiastically supportive' is the opposite of skeptical; the professor raised doubts rather than endorsing the conclusions.",
+      "'Completely uninformed' would mean the professor had no basis for judgment; skeptical means having informed doubts, not ignorance.",
+      "'Professionally obligated to disagree' suggests an institutional requirement; skeptical is an intellectual stance, not a professional duty."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["skeptical"],
+    "hebrewExplanation": "skeptical = ספקני, מטיל ספק. הפרופסורית ציינה שמדגם קטן לא מצדיק מסקנות רחבות — כלומר, לא השתכנעה בקלות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-218",
+    "difficulty": "medium",
+    "text": "The committee found that the evidence presented was purely [anecdotal] and could not be used to support a change in national policy. The word 'anecdotal' most nearly means:",
+    "choices": [
+      "based on personal stories or isolated cases rather than systematic data",
+      "collected from official government sources",
+      "verified through multiple independent experiments",
+      "highly emotional and persuasive"
+    ],
+    "answer": 0,
+    "explanation": "'Anecdotal' evidence is based on personal accounts or individual cases, not rigorous, systematic research. The committee's rejection of it for policy purposes highlights that it lacks the reliability of data.",
+    "wrongReasons": [
+      "'Collected from official government sources' describes the source's authority; anecdotal actually means the opposite — informal personal stories, not official data.",
+      "'Verified through multiple independent experiments' describes strong scientific evidence; anecdotal is specifically evidence that has not been verified this way.",
+      "'Highly emotional and persuasive' describes rhetorical impact; anecdotal refers to the informal, case-based nature of the evidence, not its emotional tone."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["anecdotal"],
+    "hebrewExplanation": "anecdotal = אנקדוטלי, מבוסס על סיפורים אישיים בודדים ולא על נתונים שיטתיים. הוועדה דחתה את הראיות כבסיס למדיניות — כי אנקדוטות אינן נתונים מחקריים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-219",
+    "difficulty": "medium",
+    "text": "The therapist encouraged her patient to [articulate] his feelings rather than keeping them bottled up inside. The word 'articulate' most nearly means:",
+    "choices": [
+      "suppress or hide feelings",
+      "express clearly in words",
+      "analyze scientifically",
+      "write down in a journal"
+    ],
+    "answer": 1,
+    "explanation": "'Articulate' as a verb means to express something clearly and fluently in words. The contrast with 'keeping them bottled up' shows the therapist wanted the patient to voice his feelings.",
+    "wrongReasons": [
+      "'Suppress or hide feelings' is the opposite of articulate; the therapist wanted open expression, contrasting with keeping feelings inside.",
+      "'Analyze scientifically' describes examination with distance; articulate means to put into words verbally, not to analyze clinically.",
+      "'Write down in a journal' specifies a written medium; articulate can include speech, and the sentence does not mention writing specifically."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["articulate"],
+    "hebrewExplanation": "articulate = לבטא בבירור במילים. המטפלת עודדה את המטופל לדבר על רגשותיו במקום לשמור אותם בפנים — כלומר, לבטא אותם בצורה ברורה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-220",
+    "difficulty": "medium",
+    "text": "The new tax regulations were so [convoluted] that even accountants struggled to interpret them correctly. The word 'convoluted' most nearly means:",
+    "choices": [
+      "unnecessarily complex and difficult to follow",
+      "straightforward and easy to apply",
+      "strict and punishing",
+      "recently updated and modern"
+    ],
+    "answer": 0,
+    "explanation": "'Convoluted' means extremely complex and difficult to understand, often in an unnecessary way. The fact that even experts struggled confirms the meaning.",
+    "wrongReasons": [
+      "'Straightforward and easy to apply' is the opposite; the regulations confused even professionals, showing they were not easy.",
+      "'Strict and punishing' describes severity; convoluted describes complexity of structure, not the harshness of the rules themselves.",
+      "'Recently updated and modern' describes timing and currency; convoluted is about the degree of complexity, not when the rules were written."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["convoluted"],
+    "hebrewExplanation": "convoluted = מסובך, מפותל, קשה להבנה. אפילו רואי חשבון התקשו לפרש את התקנות — מה שמעיד על סיבוכיות מוגזמת.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-221",
+    "difficulty": "medium",
+    "text": "The politician's speech was full of [platitudes], repeating well-worn phrases about freedom and unity without offering any real solutions. The word 'platitudes' most nearly means:",
+    "choices": [
+      "detailed policy proposals",
+      "overused statements lacking original thought",
+      "inspirational quotations from history",
+      "sharp criticism of opponents"
+    ],
+    "answer": 1,
+    "explanation": "'Platitudes' are remarks that are overused and lack real meaning or originality. The clues 'well-worn phrases' and 'without offering any real solutions' confirm this.",
+    "wrongReasons": [
+      "'Detailed policy proposals' are the opposite of platitudes; platitudes are vague generalizations, not specific plans.",
+      "'Inspirational quotations from history' suggests original, credited sources; platitudes are generic phrases no one attributes to a source.",
+      "'Sharp criticism of opponents' describes aggressive, targeted language; platitudes are bland and uncontroversial, not critical."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["platitudes"],
+    "hebrewExplanation": "platitudes = קלישאות, אמירות שחוקות חסרות מקוריות. הנאום מלא בביטויים שחוקים על חירות ואחדות ללא פתרונות אמיתיים — כלומר, קלישאות ריקות.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-222",
+    "difficulty": "medium",
+    "text": "The company's decision to [diversify] its product line proved wise when demand for its original product began to decline. The word 'diversify' most nearly means:",
+    "choices": [
+      "focus exclusively on one area",
+      "expand into a wider range of areas",
+      "reduce costs through efficiency",
+      "seek new international markets"
+    ],
+    "answer": 1,
+    "explanation": "'Diversify' means to broaden the range of products, investments, or activities. The contrast with 'original product' and the context of declining demand show the benefit of offering more variety.",
+    "wrongReasons": [
+      "'Focus exclusively on one area' is the opposite of diversifying; diversification means spreading across multiple areas.",
+      "'Reduce costs through efficiency' describes a different business strategy; diversify is about expanding the range, not cutting costs.",
+      "'Seek new international markets' is one possible form of diversification, but diversify broadly means expanding into more areas of any kind, not specifically international ones."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["diversify"],
+    "hebrewExplanation": "diversify = לגוון, להרחיב לתחומים נוספים. החברה הרחיבה את מגוון המוצרים שלה — מה שהתגלה כחכם כשהביקוש למוצר המקורי ירד.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-223",
+    "difficulty": "medium",
+    "text": "Doctors warned that the patient's condition was [deteriorating] rapidly and that immediate action was required. The word 'deteriorating' most nearly means:",
+    "choices": [
+      "stabilizing after a period of decline",
+      "becoming progressively worse",
+      "improving at an unexpectedly slow rate",
+      "remaining unchanged despite treatment"
+    ],
+    "answer": 1,
+    "explanation": "'Deteriorating' means getting worse over time. The urgency of 'immediate action was required' and the word 'rapidly' confirm that the condition was declining.",
+    "wrongReasons": [
+      "'Stabilizing after a period of decline' describes recovery of a sort; deteriorating means continuing to get worse, not leveling off.",
+      "'Improving at an unexpectedly slow rate' describes positive change; deteriorating describes negative change, the opposite direction.",
+      "'Remaining unchanged despite treatment' describes stagnation; deteriorating means active worsening, not a static state."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["deteriorating"],
+    "hebrewExplanation": "deteriorating = מתדרדר, הולך ומחמיר. מצב המטופל החמיר במהירות ונדרשה פעולה מיידית — כלומר, המצב הלך ונהיה גרוע יותר.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-224",
+    "difficulty": "medium",
+    "text": "The scientist remained [agnostic] about the new theory, saying there was simply not enough evidence yet to accept or reject it. The word 'agnostic' most nearly means:",
+    "choices": [
+      "strongly opposed and critical",
+      "enthusiastically in favor",
+      "uncommitted due to lack of sufficient evidence",
+      "confused by the technical language"
+    ],
+    "answer": 2,
+    "explanation": "'Agnostic' in this context means withholding judgment because the evidence is insufficient. The clue 'not enough evidence yet to accept or reject' defines this stance directly.",
+    "wrongReasons": [
+      "'Strongly opposed and critical' implies a firm negative position; agnostic means no firm position, neither for nor against.",
+      "'Enthusiastically in favor' implies commitment to the theory; agnostic is specifically a state of suspended judgment.",
+      "'Confused by the technical language' implies an inability to understand; agnostic is an informed choice to withhold judgment, not confusion."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["agnostic"],
+    "hebrewExplanation": "agnostic = אגנוסטי, מי שאינו מחויב לעמדה בגלל חוסר ראיות. המדענית לא קיבלה ולא דחתה את התיאוריה — כי לא היה עדיין מספיק מידע.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-225",
+    "difficulty": "medium",
+    "text": "The community group [mobilized] quickly after the announcement, organizing protests and contacting local representatives within days. The word 'mobilized' most nearly means:",
+    "choices": [
+      "became confused and divided",
+      "gathered and organized for action",
+      "filed a formal legal complaint",
+      "waited patiently for official guidance"
+    ],
+    "answer": 1,
+    "explanation": "'Mobilized' means to organize people and resources to take action. The rapid coordination — protests and contacting representatives — shows purposeful collective action.",
+    "wrongReasons": [
+      "'Became confused and divided' is the opposite of mobilizing; mobilizing implies unity and coordinated action.",
+      "'Filed a formal legal complaint' is one possible form of action, but mobilize is broader — it covers all forms of organized collective response.",
+      "'Waited patiently for official guidance' describes passivity; mobilizing is about taking proactive, organized action."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["mobilized"],
+    "hebrewExplanation": "mobilized = גויסו לפעולה, התארגנו. הקהילה ארגנה מחאות ופנתה לנציגים תוך ימים — כלומר, פעלה במהירות ובתיאום.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-226",
+    "difficulty": "medium",
+    "text": "The author used a [metaphor] to describe grief as a slow tide that rises and falls but never completely withdraws. The word 'metaphor' most nearly means:",
+    "choices": [
+      "a direct comparison using 'like' or 'as'",
+      "a figure of speech that describes one thing as if it were another",
+      "a scientific explanation of an emotional process",
+      "an exaggeration used to create humor"
+    ],
+    "answer": 1,
+    "explanation": "A 'metaphor' is a figure of speech that speaks of one thing as if it were something else, without using 'like' or 'as.' Grief described as 'a slow tide' is a classic metaphor.",
+    "wrongReasons": [
+      "'A direct comparison using like or as' describes a simile, not a metaphor; metaphors do not use those linking words.",
+      "'A scientific explanation of an emotional process' is the opposite of figurative language; metaphors are literary devices, not clinical explanations.",
+      "'An exaggeration used to create humor' describes hyperbole or satire; a metaphor is a comparison, not necessarily an exaggeration or humorous."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["metaphor"],
+    "hebrewExplanation": "metaphor = מטפורה, דימוי עקיף שבו דבר אחד מתואר כאילו הוא דבר אחר. הצרבה מתוארת כגל איטי — בלי להשתמש ב'כמו', לכן זו מטפורה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-227",
+    "difficulty": "medium",
+    "text": "The school adopted a [proactive] approach to bullying by teaching conflict-resolution skills before problems arose. The word 'proactive' most nearly means:",
+    "choices": [
+      "reacting to problems only after they occur",
+      "taking action in advance to prevent problems",
+      "involving all teachers in equal responsibility",
+      "relying on external experts for guidance"
+    ],
+    "answer": 1,
+    "explanation": "'Proactive' means taking anticipatory action to prevent problems before they happen. The clue 'before problems arose' confirms this forward-looking approach.",
+    "wrongReasons": [
+      "'Reacting to problems only after they occur' describes a reactive approach, which is the opposite of proactive.",
+      "'Involving all teachers in equal responsibility' describes distribution of duties; proactive refers to the timing and intent of action, not its distribution.",
+      "'Relying on external experts for guidance' describes a dependency strategy; proactive is about internal, anticipatory planning."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["proactive"],
+    "hebrewExplanation": "proactive = יוזמתי, פועל מראש למניעת בעיות. בית הספר לימד כישורי פתרון קונפליקטים לפני שצצו בעיות — כלומר, פעל מראש ולא בתגובה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-228",
+    "difficulty": "medium",
+    "text": "The report was [comprehensive], covering every aspect of the issue from historical background to current policy recommendations. The word 'comprehensive' most nearly means:",
+    "choices": [
+      "covering everything thoroughly; complete",
+      "limited to the most recent developments",
+      "written for a specialized expert audience",
+      "presenting only one perspective"
+    ],
+    "answer": 0,
+    "explanation": "'Comprehensive' means complete and thorough, covering all relevant aspects. The phrase 'every aspect of the issue from historical background to current policy' confirms this breadth.",
+    "wrongReasons": [
+      "'Limited to the most recent developments' implies a narrow time frame; comprehensive means broad coverage, not restricted coverage.",
+      "'Written for a specialized expert audience' describes the intended reader; comprehensive describes the scope of content, not the audience.",
+      "'Presenting only one perspective' is the opposite; comprehensive means covering many sides and aspects."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["comprehensive"],
+    "hebrewExplanation": "comprehensive = מקיף, כולל את כל ההיבטים. הדוח כיסה כל היבט של הנושא מרקע היסטורי ועד להמלצות מדיניות — כלומר, היה שלם ורחב.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-229",
+    "difficulty": "medium",
+    "text": "The activist argued that the proposed solution was merely [superficial] and failed to address the deep structural inequalities in the system. The word 'superficial' most nearly means:",
+    "choices": [
+      "dealing only with surface appearances; not thorough",
+      "based on decades of careful research",
+      "intentionally misleading the public",
+      "too expensive to implement"
+    ],
+    "answer": 0,
+    "explanation": "'Superficial' means dealing only with the surface level without going deeper. The contrast with 'deep structural inequalities' confirms the solution was shallow.",
+    "wrongReasons": [
+      "'Based on decades of careful research' implies depth and rigor; superficial means the opposite — shallow and under-researched.",
+      "'Intentionally misleading the public' describes deception; superficial means shallow, not necessarily dishonest.",
+      "'Too expensive to implement' is a practical objection about resources; superficial is a criticism of depth, not cost."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["superficial"],
+    "hebrewExplanation": "superficial = שטחי, עוסק בפני השטח בלבד. הפתרון המוצע לא עסק באי-השוויון המבני העמוק — כלומר, היה שטחי ולא מעמיק.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-230",
+    "difficulty": "medium",
+    "text": "The new study [corroborated] earlier findings, providing additional evidence that sleep deprivation impairs decision-making. The word 'corroborated' most nearly means:",
+    "choices": [
+      "challenged and contradicted",
+      "confirmed or supported with additional evidence",
+      "extended significantly beyond previous findings",
+      "replaced outdated research"
+    ],
+    "answer": 1,
+    "explanation": "'Corroborated' means confirmed or strengthened with new evidence. The phrase 'providing additional evidence' directly explains the corroborating role of the new study.",
+    "wrongReasons": [
+      "'Challenged and contradicted' is the opposite of corroborated; this study agreed with earlier findings rather than disagreeing.",
+      "'Extended significantly beyond previous findings' describes going further; corroborated specifically means confirming what was already found.",
+      "'Replaced outdated research' implies the old findings were wrong; corroborated means the old findings were supported as correct."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["corroborated"],
+    "hebrewExplanation": "corroborated = אישש, חיזק עם ראיות נוספות. המחקר החדש סיפק עוד ראיות שחיזקו את הממצאים הקודמים — כלומר, תמך בהם ואישש אותם.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-231",
+    "difficulty": "medium",
+    "text": "The museum's exhibit was designed to be [interactive], allowing visitors to touch displays, answer questions, and control simulations. The word 'interactive' most nearly means:",
+    "choices": [
+      "allowing active participation and two-way engagement",
+      "restricted to viewing from a distance",
+      "focused exclusively on digital technology",
+      "requiring advance booking and guided tours"
+    ],
+    "answer": 0,
+    "explanation": "'Interactive' means involving active participation and exchange, as opposed to passive observation. Touching, answering questions, and controlling simulations all illustrate interactive engagement.",
+    "wrongReasons": [
+      "'Restricted to viewing from a distance' describes passive, one-way experience; interactive is specifically about active participation.",
+      "'Focused exclusively on digital technology' may describe some interactive exhibits, but interactive as a concept includes physical activities too.",
+      "'Requiring advance booking and guided tours' describes logistics; interactive refers to the nature of visitor engagement, not organizational requirements."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["interactive"],
+    "hebrewExplanation": "interactive = אינטראקטיבי, מאפשר השתתפות פעילה. המבקרים יכלו לגעת, לענות ולשלוט בסימולציות — כלומר, לא היו פסיביים אלא שותפים פעילים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-232",
+    "difficulty": "medium",
+    "text": "The professor's [prolific] output — more than forty books and two hundred articles — was remarkable even by academic standards. The word 'prolific' most nearly means:",
+    "choices": [
+      "producing a large amount of work",
+      "writing only on a single specialized topic",
+      "widely celebrated by the general public",
+      "working slowly but with great precision"
+    ],
+    "answer": 0,
+    "explanation": "'Prolific' means producing a large quantity of output. Forty books and two hundred articles is concrete evidence of prolific production.",
+    "wrongReasons": [
+      "'Writing only on a single specialized topic' describes narrow focus; prolific is about quantity, not the range of subjects.",
+      "'Widely celebrated by the general public' describes fame; prolific describes productivity, not public recognition.",
+      "'Working slowly but with great precision' describes carefulness; prolific implies high volume output, regardless of speed."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["prolific"],
+    "hebrewExplanation": "prolific = פורה, מי שמייצר כמות גדולה של יצירות. ארבעים ספרים ומאתיים מאמרים — הם עדות ברורה ליצרנות עצומה.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-233",
+    "difficulty": "medium",
+    "text": "The city's water supply was deemed [adequate] for current needs, but officials warned it might not be sufficient if the population continued to grow. The word 'adequate' most nearly means:",
+    "choices": [
+      "far exceeding what is needed",
+      "satisfactory for the present situation but not more",
+      "dangerously low and in need of urgent action",
+      "carefully measured and scientifically approved"
+    ],
+    "answer": 1,
+    "explanation": "'Adequate' means just enough for the current situation. The warning about future growth suggests the supply meets present needs but may not exceed them.",
+    "wrongReasons": [
+      "'Far exceeding what is needed' describes abundance; adequate means meeting the minimum, not being excessive.",
+      "'Dangerously low and in need of urgent action' describes a critical shortage; adequate means the supply is currently sufficient, not critical.",
+      "'Carefully measured and scientifically approved' describes a process; adequate is a judgment about sufficiency, not methodology."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["adequate"],
+    "hebrewExplanation": "adequate = מספיק לצרכים הנוכחיים, אך לא יותר. אספקת המים מספיקה כעת, אבל אולי לא בעתיד — כלומר, היא עומדת בדרישות הנוכחיות בדיוק.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-234",
+    "difficulty": "medium",
+    "text": "The committee's recommendation was [unanimous]; every member agreed that the project should be approved without modification. The word 'unanimous' most nearly means:",
+    "choices": [
+      "agreed upon by all, with no dissent",
+      "decided by a narrow majority",
+      "reached after long debate and compromise",
+      "supported only by the most senior members"
+    ],
+    "answer": 0,
+    "explanation": "'Unanimous' means complete agreement with no disagreement. 'Every member agreed' is a direct context clue confirming the meaning.",
+    "wrongReasons": [
+      "'Decided by a narrow majority' means some members disagreed; unanimous requires everyone to be in agreement.",
+      "'Reached after long debate and compromise' describes the process, not the outcome; unanimous describes the final state of full agreement.",
+      "'Supported only by the most senior members' implies partial support; unanimous means all members, regardless of seniority."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["unanimous"],
+    "hebrewExplanation": "unanimous = פה אחד, ללא כל מתנגד. כל חבר הסכים לאשר את הפרויקט — כלומר, הייתה הסכמה מוחלטת ללא חריגים.",
+    "estimatedTimeSeconds": 40
+  },
+  {
+    "id": "sb-vc-235",
+    "difficulty": "hard",
+    "text": "The philosopher warned that reducing complex ethical problems to simple rules was [reductive] and risked ignoring morally relevant nuances. The word 'reductive' most nearly means:",
+    "choices": [
+      "oversimplifying something complex in a way that loses important meaning",
+      "building carefully toward a more complex understanding",
+      "relying exclusively on emotional arguments",
+      "applying rules consistently across all cases"
+    ],
+    "answer": 0,
+    "explanation": "'Reductive' means presenting or treating something complex as simpler than it really is, thereby losing important details. The warning about 'ignoring morally relevant nuances' confirms this.",
+    "wrongReasons": [
+      "'Building carefully toward a more complex understanding' is the opposite of reductive; reductive simplifies, not deepens.",
+      "'Relying exclusively on emotional arguments' describes a type of reasoning; reductive describes oversimplification of complexity, not emotionality.",
+      "'Applying rules consistently across all cases' describes principled consistency; reductive is about losing nuance by making things too simple."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["reductive"],
+    "hebrewExplanation": "reductive = מצמצם, פשטני יתר על המידה. הצמצום של בעיות אתיות מורכבות לכללים פשוטים מאבד ניואנסים חשובים — כלומר, הוא רדוקטיבי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-236",
+    "difficulty": "hard",
+    "text": "Critics accused the government of [expediency], arguing that its policy decisions were guided by short-term political gain rather than genuine public interest. The word 'expediency' most nearly means:",
+    "choices": [
+      "acting on what is convenient or advantageous rather than on principle",
+      "making decisions based on long-term strategic planning",
+      "prioritizing transparency in all government actions",
+      "consulting widely before reaching any conclusion"
+    ],
+    "answer": 0,
+    "explanation": "'Expediency' means doing what is convenient or advantageous, especially in the short term, rather than what is morally right. 'Short-term political gain rather than genuine public interest' directly contrasts principled action with expedient action.",
+    "wrongReasons": [
+      "'Making decisions based on long-term strategic planning' is the opposite of expediency; expediency means short-term convenience, not long-term strategy.",
+      "'Prioritizing transparency in all government actions' describes openness; expediency implies self-interested decision-making, often done quietly.",
+      "'Consulting widely before reaching any conclusion' describes deliberative process; expediency means cutting corners for advantage, not deliberating broadly."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["expediency"],
+    "hebrewExplanation": "expediency = נוחות, פועל לפי מה שמועיל כרגע ולא לפי עקרונות. הביקורת טענה שההחלטות מונעות מרווח פוליטי קצר-טווח ולא מטובת הציבור האמיתית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-237",
+    "difficulty": "hard",
+    "text": "The report described the relationship between poverty and poor health outcomes as [symbiotic] only in a perverse sense — each reinforcing the other in a destructive cycle. The word 'symbiotic' most nearly means:",
+    "choices": [
+      "involving mutual influence or interdependence between two elements",
+      "arising independently from unrelated causes",
+      "limited to biological organisms in natural environments",
+      "measurable only through long-term longitudinal research"
+    ],
+    "answer": 0,
+    "explanation": "'Symbiotic' means involving a relationship in which two elements affect and depend on each other. Here, poverty and poor health reinforce each other, creating mutual interdependence.",
+    "wrongReasons": [
+      "'Arising independently from unrelated causes' is the opposite of symbiotic; symbiotic means the two elements are interconnected, not independent.",
+      "'Limited to biological organisms in natural environments' describes the biological definition; the word is used here figuratively to describe a social relationship.",
+      "'Measurable only through long-term longitudinal research' describes a methodological challenge; symbiotic is about the nature of the relationship, not how it is studied."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["symbiotic"],
+    "hebrewExplanation": "symbiotic = סימביוטי, מערכת יחסים של תלות הדדית. עוני ובריאות לקויה מחזקים זה את זה בצורה מחזורית — כל אחד תלוי בשני ומשפיע עליו.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-238",
+    "difficulty": "hard",
+    "text": "The author's argument was [tendentious], consistently framing the data in ways that supported her predetermined political conclusions. The word 'tendentious' most nearly means:",
+    "choices": [
+      "promoting a particular point of view in a biased way",
+      "carefully balanced and considerate of all perspectives",
+      "so complex as to be understood only by specialists",
+      "unusually modest about the strength of its claims"
+    ],
+    "answer": 0,
+    "explanation": "'Tendentious' means biased in favor of a particular point of view, especially in a way that is not transparent or objective. Framing data to support predetermined conclusions is the hallmark of tendentious argument.",
+    "wrongReasons": [
+      "'Carefully balanced and considerate of all perspectives' is the opposite of tendentious; tendentious writing is deliberately one-sided.",
+      "'So complex as to be understood only by specialists' describes technical density; tendentious refers to bias, not complexity.",
+      "'Unusually modest about the strength of its claims' implies understatement; tendentious writing typically overstates claims in a partisan direction."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["tendentious"],
+    "hebrewExplanation": "tendentious = נטוי לדעה מסוימת, משוחד באופן שאינו שקוף. המחברת הציגה נתונים באופן שתמך במסקנות שהיו לה מראש — כלומר, הכתיבה הייתה כוונתית ולא אובייקטיבית.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-239",
+    "difficulty": "hard",
+    "text": "The anthropologist studied how [indigenous] knowledge systems about plant medicine had been largely ignored by Western pharmacology. The word 'indigenous' most nearly means:",
+    "choices": [
+      "originating naturally in a particular region or among a particular people",
+      "developed in laboratory conditions using modern methods",
+      "imported from other cultures through trade and exchange",
+      "classified as unofficial and therefore unreliable"
+    ],
+    "answer": 0,
+    "explanation": "'Indigenous' means originating or occurring naturally in a particular place or among a specific group of people. Knowledge systems developed by local peoples over generations are indigenous knowledge.",
+    "wrongReasons": [
+      "'Developed in laboratory conditions using modern methods' describes scientific methodology; indigenous knowledge is exactly what such methodology has historically ignored.",
+      "'Imported from other cultures through trade and exchange' is the opposite; indigenous means originating from within, not introduced from outside.",
+      "'Classified as unofficial and therefore unreliable' may reflect the bias described in the sentence, but indigenous itself is a neutral geographic and cultural term, not a reliability classification."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["indigenous"],
+    "hebrewExplanation": "indigenous = ילידי, מקומי, שמקורו בתוך קבוצה או אזור מסוים. הידע על רפואת צמחים שנוצר על ידי עמים מקומיים לאורך דורות — זהו ידע ילידי.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-240",
+    "difficulty": "hard",
+    "text": "The psychologist noted that the patient's coping mechanism was [maladaptive]; while it reduced anxiety in the short term, it made daily functioning significantly worse over time. The word 'maladaptive' most nearly means:",
+    "choices": [
+      "initially helpful but later requiring adjustment",
+      "failing to adjust appropriately; harmful to long-term functioning",
+      "effective only in clinical settings",
+      "too complex to be easily categorized"
+    ],
+    "answer": 1,
+    "explanation": "'Maladaptive' means not adequately adjusted to the environment or situation; causing harm over time despite appearing helpful momentarily. The contrast of short-term relief with long-term worsening defines the concept.",
+    "wrongReasons": [
+      "'Initially helpful but later requiring adjustment' sounds close but is incomplete; maladaptive specifically implies harm to functioning, not just a need for future adjustment.",
+      "'Effective only in clinical settings' describes a context limitation; maladaptive refers to the harmful pattern regardless of setting.",
+      "'Too complex to be easily categorized' describes classification difficulty; maladaptive has a clear clinical meaning about dysfunction."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["maladaptive"],
+    "hebrewExplanation": "maladaptive = לא מסתגל כראוי, מזיק לתפקוד לאורך זמן. מנגנון ההתמודדות הפחית חרדה לטווח קצר אך פגע בתפקוד היומיומי — כלומר, לא הסתגל בצורה בריאה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-241",
+    "difficulty": "hard",
+    "text": "The historian argued that interpreting past events through the values of the present constitutes [anachronism], distorting our understanding of historical actors' choices. The word 'anachronism' most nearly means:",
+    "choices": [
+      "the error of applying values or ideas from one time period to another, incompatible period",
+      "the practice of reading historical documents in their original language",
+      "a deliberate misrepresentation of historical records",
+      "a narrative technique that presents events out of chronological order"
+    ],
+    "answer": 0,
+    "explanation": "'Anachronism' means placing something in the wrong time period, particularly applying modern values or objects to a past era where they do not belong. The historian's argument is precisely about this mistake.",
+    "wrongReasons": [
+      "'The practice of reading historical documents in their original language' describes a philological method; anachronism is about temporal misplacement, not language.",
+      "'A deliberate misrepresentation of historical records' implies intention to deceive; anachronism can be an innocent error, not necessarily deliberate falsification.",
+      "'A narrative technique that presents events out of chronological order' describes literary flashback or non-linear storytelling; anachronism is specifically about temporal misplacement of values or objects, not narrative order."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["anachronism"],
+    "hebrewExplanation": "anachronism = אנאכרוניזם, יישום ערכים או מושגים ממועד אחד על תקופה שבה הם לא שייכים. פרשנות העבר לפי ערכי ההווה מעוותת את ההיסטוריה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-242",
+    "difficulty": "hard",
+    "text": "The scholar described the policy as [normative] rather than descriptive — it was not reporting what actually happens but prescribing what ought to happen. The word 'normative' most nearly means:",
+    "choices": [
+      "relating to standards of what should be done, rather than what is",
+      "based on the average behavior observed in a population",
+      "developed by an international standards body",
+      "neutral and free from any value judgment"
+    ],
+    "answer": 0,
+    "explanation": "'Normative' relates to establishing or prescribing norms — what should or ought to be, as opposed to describing what actually is. The direct contrast with 'descriptive' and the phrase 'what ought to happen' confirm this.",
+    "wrongReasons": [
+      "'Based on the average behavior observed in a population' describes statistical norms; normative in philosophy and policy refers to prescriptive standards, not statistical averages.",
+      "'Developed by an international standards body' describes institutional origin; normative is a philosophical category about prescriptive versus descriptive content.",
+      "'Neutral and free from any value judgment' is the opposite; normative is explicitly about value-laden prescriptions of what should be."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["normative"],
+    "hebrewExplanation": "normative = נורמטיבי, מתייחס למה שצריך להיות ולא למה שהוא. המדיניות קובעת נורמות — כלומר, מה ראוי לעשות — ולא מתארת מציאות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-243",
+    "difficulty": "hard",
+    "text": "The political theorist described the movement as [hegemonic], arguing it had successfully imposed its worldview on institutions that had once been independent. The word 'hegemonic' most nearly means:",
+    "choices": [
+      "exercising dominant power or influence over others",
+      "representing the majority view in a democratic system",
+      "organized around clearly stated philosophical principles",
+      "limited in scope to a single region or country"
+    ],
+    "answer": 0,
+    "explanation": "'Hegemonic' means having or relating to dominant authority or control over others, often in a way that others accept as natural. The imposing of a worldview on previously independent institutions illustrates hegemonic power.",
+    "wrongReasons": [
+      "'Representing the majority view in a democratic system' describes democratic legitimacy; hegemony goes beyond voting majorities to describe pervasive cultural or ideological dominance.",
+      "'Organized around clearly stated philosophical principles' describes ideological clarity; hegemonic refers to power relationships, not the clarity of a movement's ideas.",
+      "'Limited in scope to a single region or country' implies narrow reach; hegemonic power is typically broad and pervasive, not restricted."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["hegemonic"],
+    "hebrewExplanation": "hegemonic = הגמוני, בעל שליטה ועוצמה דומיננטיים המוחלים על אחרים. התנועה כפתה את השקפת עולמה על מוסדות שהיו עצמאיים — כלומר, השיגה שליטה רחבה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-244",
+    "difficulty": "hard",
+    "text": "The economist warned that the country's reliance on a single export commodity left its economy dangerously [vulnerable] to price [volatility] in global markets. The word 'volatility' most nearly means:",
+    "choices": [
+      "rapid and unpredictable changes in level or value",
+      "a long-term decline caused by structural problems",
+      "deliberate manipulation by foreign actors",
+      "seasonal fluctuations that are easy to predict"
+    ],
+    "answer": 0,
+    "explanation": "'Volatility' refers to the tendency of something to change rapidly and unpredictably. Price volatility in global markets means prices can swing sharply without warning.",
+    "wrongReasons": [
+      "'A long-term decline caused by structural problems' describes a trend, not volatility; volatility means irregular up-and-down movements, not a steady decline.",
+      "'Deliberate manipulation by foreign actors' implies conspiracy; volatility is a property of market behavior, not necessarily the result of intentional manipulation.",
+      "'Seasonal fluctuations that are easy to predict' describes predictable change; volatility specifically means change that is unpredictable and hard to anticipate."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["volatility"],
+    "hebrewExplanation": "volatility = תנודתיות, שינויים מהירים ובלתי צפויים בערכים. תלות בסחורת ייצוא אחת חושפת את הכלכלה לתנועות מחיר חדות ובלתי צפויות בשווקים הגלובליים.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-245",
+    "difficulty": "hard",
+    "text": "The novelist was praised for her [nuanced] portrayal of the antagonist, who was shown to have understandable motivations rather than being simply evil. The word 'nuanced' most nearly means:",
+    "choices": [
+      "taking account of subtle distinctions; avoiding oversimplification",
+      "emotionally restrained and deliberately understated",
+      "historically accurate in every documented detail",
+      "sympathetic to the point of excusing wrongdoing"
+    ],
+    "answer": 0,
+    "explanation": "'Nuanced' means showing awareness of subtle distinctions and complexities. A villain with understandable motivations rather than pure evil is a nuanced characterization.",
+    "wrongReasons": [
+      "'Emotionally restrained and deliberately understated' describes tone or style; nuanced refers to intellectual complexity and the recognition of subtlety.",
+      "'Historically accurate in every documented detail' describes factual fidelity; nuanced is about interpretive complexity, not historical precision.",
+      "'Sympathetic to the point of excusing wrongdoing' misreads nuance as uncritical sympathy; nuanced acknowledges complexity without necessarily absolving the character."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["nuanced"],
+    "hebrewExplanation": "nuanced = דק ומורכב, מתחשב בהבחנות עדינות. הרומן הציג את האנטגוניסט עם מניעים מובנים — כלומר, לא שחור-לבן אלא ניתוח מעמיק ועדין של הדמות.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-246",
+    "difficulty": "hard",
+    "text": "The sociologist described the process by which minority cultural practices become widely adopted by the mainstream as [assimilation], though critics preferred the term [appropriation] when the adoption lacked genuine respect. The word 'assimilation' most nearly means:",
+    "choices": [
+      "the process by which a group is absorbed into the dominant culture",
+      "the legal recognition of minority cultural rights",
+      "the scientific study of cultural change over time",
+      "the voluntary separation of cultural groups to preserve identity"
+    ],
+    "answer": 0,
+    "explanation": "'Assimilation' means the process by which individuals or groups adopt the culture of a dominant group, or a dominant culture absorbs elements of minority cultures. The contrast with 'appropriation' and the phrase 'minority cultural practices become widely adopted by the mainstream' confirm this.",
+    "wrongReasons": [
+      "'The legal recognition of minority cultural rights' describes protective legislation; assimilation is a social process, not a legal framework.",
+      "'The scientific study of cultural change over time' describes cultural anthropology; assimilation is a sociological process, not an academic discipline.",
+      "'The voluntary separation of cultural groups to preserve identity' describes segregation or cultural preservation strategies; assimilation involves integration and absorption, the opposite of separation."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["assimilation"],
+    "hebrewExplanation": "assimilation = הטמעה תרבותית, תהליך שבו קבוצה נספגת בתרבות הדומיננטית. הנוהגים התרבותיים של המיעוט אומצו על ידי הזרם המרכזי — כלומר, עברו הטמעה.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-247",
+    "difficulty": "hard",
+    "text": "The legal brief was criticized for its [specious] reasoning: the argument appeared logically sound at first glance but collapsed under careful examination. The word 'specious' most nearly means:",
+    "choices": [
+      "seeming correct or reasonable but actually flawed",
+      "highly technical and difficult for non-lawyers to assess",
+      "intentionally vague to avoid legal challenge",
+      "based on evidence gathered through improper means"
+    ],
+    "answer": 0,
+    "explanation": "'Specious' means superficially plausible but actually wrong or misleading. The phrase 'appeared logically sound at first glance but collapsed under careful examination' is a textbook definition of specious reasoning.",
+    "wrongReasons": [
+      "'Highly technical and difficult for non-lawyers to assess' describes complexity and accessibility; specious reasoning can be simple — it is about hidden flaws, not technical density.",
+      "'Intentionally vague to avoid legal challenge' describes a strategic use of ambiguity; specious reasoning appears clear and logical, not vague.",
+      "'Based on evidence gathered through improper means' describes procedural misconduct; specious refers to the logical quality of the argument, not how evidence was collected."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["specious"],
+    "hebrewExplanation": "specious = שנראה נכון אך הוא מוטעה. הטיעון נראה הגיוני במבט ראשון אך קרס תחת בחינה מדוקדקת — כלומר, הוא היה שכנועי לכאורה אך פגום.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-248",
+    "difficulty": "hard",
+    "text": "The philosopher argued that our sense of moral obligation to strangers is [attenuated] by distance — we feel less responsibility toward those we cannot see or know personally. The word 'attenuated' most nearly means:",
+    "choices": [
+      "weakened or reduced in force, effect, or strength",
+      "entirely eliminated through rational analysis",
+      "intensified and made more urgent by unfamiliarity",
+      "transferred from one person to another"
+    ],
+    "answer": 0,
+    "explanation": "'Attenuated' means weakened or made thinner. The argument that distance reduces moral obligation shows that the sense of responsibility is not eliminated but is weakened.",
+    "wrongReasons": [
+      "'Entirely eliminated through rational analysis' would mean obligation disappears; attenuated means reduced, not removed entirely.",
+      "'Intensified and made more urgent by unfamiliarity' is the opposite; attenuation means reduction, not intensification.",
+      "'Transferred from one person to another' describes a shift in direction; attenuated describes a change in strength, not destination."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["attenuated"],
+    "hebrewExplanation": "attenuated = מוחלש, מופחת בחוזקתו. הפילוסוף טוען שחובה מוסרית כלפי זרים נחלשת עם המרחק — לא נעלמת, אלא נחלשת.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-249",
+    "difficulty": "hard",
+    "text": "The critic described the artist's later work as [derivative], noting that it borrowed heavily from established movements without adding anything original. The word 'derivative' most nearly means:",
+    "choices": [
+      "lacking originality; based on or copying something that already exists",
+      "producing a wide range of styles and techniques",
+      "representing the culmination of a long artistic career",
+      "accessible to a broad popular audience"
+    ],
+    "answer": 0,
+    "explanation": "'Derivative' means originating from something else without adding genuine originality. 'Borrowed heavily from established movements without adding anything original' defines derivative art precisely.",
+    "wrongReasons": [
+      "'Producing a wide range of styles and techniques' describes versatility; derivative means copying a narrow set of existing influences.",
+      "'Representing the culmination of a long artistic career' describes achievement; derivative is a negative assessment of lack of originality, not a career milestone.",
+      "'Accessible to a broad popular audience' describes reception and reach; derivative is about creative originality, not audience accessibility."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["derivative"],
+    "hebrewExplanation": "derivative = נגזר, חסר מקוריות, מבוסס על יצירות קיימות. עבודת האמן שאלה רבות מתנועות מבוססות ללא תוספת מקורית — כלומר, היא הייתה נגזרת.",
+    "estimatedTimeSeconds": 50
+  },
+  {
+    "id": "sb-vc-250",
+    "difficulty": "hard",
+    "text": "The ethicist described the practice of [commodifying] human relationships — treating friendship and care as market transactions — as a profound threat to social trust. The word 'commodifying' most nearly means:",
+    "choices": [
+      "treating something as a product to be bought and sold; assigning it purely economic value",
+      "protecting something from commercial exploitation through legal means",
+      "transferring ownership of public goods to private companies",
+      "studying the economic consequences of social behavior"
+    ],
+    "answer": 0,
+    "explanation": "'Commodifying' means turning something into a commodity — something bought and sold in a market — often applied to things that are normally understood as having non-market value. The phrase 'treating friendship and care as market transactions' directly defines the concept.",
+    "wrongReasons": [
+      "'Protecting something from commercial exploitation through legal means' is the opposite; commodifying exposes things to market logic, while protection seeks to shield them from it.",
+      "'Transferring ownership of public goods to private companies' describes privatization, which is related but narrower; commodifying applies more broadly to assigning market value to non-market things.",
+      "'Studying the economic consequences of social behavior' describes behavioral economics; commodifying is an action or process, not a field of study."
+    ],
+    "subType": "vocabularyInContext",
+    "sourceType": "skill_booster",
+    "isSkillBooster": true,
+    "skillTags": ["vocabulary", "context-clues"],
+    "vocabularyWords": ["commodifying"],
+    "hebrewExplanation": "commodifying = הפיכה לסחורה, מתן ערך שוק לדברים שאינם שייכים לשוק. האתיקאי תיאר את הפיכת חברות וטיפול לעסקאות שוק כאיום על אמון חברתי.",
+    "estimatedTimeSeconds": 50
+  }
+]
