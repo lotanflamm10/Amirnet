@@ -12,7 +12,7 @@
  * they too get an override cookie. Clearing cookies reverts to the seed.
  */
 
-export type UserId = "admin" | "gili";
+export type UserId = "admin" | "gili" | "nadav";
 export type UserRole = "admin" | "student";
 
 export interface UserRecord {
@@ -40,6 +40,13 @@ export const USERS: UserRecord[] = [
     displayName: "גילי",
     role: "student",
     seedPassword: process.env.GILI_SEED_PASSWORD ?? "גילי7369!",
+  },
+  {
+    id: "nadav",
+    username: "nadav",
+    displayName: "nadav",
+    role: "student",
+    seedPassword: process.env.NADAV_SEED_PASSWORD ?? "nadav3003!",
   },
 ];
 
