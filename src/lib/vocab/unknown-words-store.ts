@@ -3,8 +3,10 @@ import type {
   UnknownWordSource,
   UnknownWordStatus,
 } from "@/types/unknown-words";
+import { userKey, safeGetItem, safeSetItem, safeRemoveItem } from "@/lib/storage/user-storage";
 
-const STORAGE_KEY = "amirnet-unknown-words-v1";
+const LEGACY_KEY = "amirnet-unknown-words-v1";
+const k = () => userKey(LEGACY_KEY);
 
 /** Normalize a word or phrase to a stable id (lowercase, single-space, trim). */
 export function normalizeWordKey(input: string): string {
@@ -17,15 +19,10 @@ export function normalizeWordKey(input: string): string {
     .trim();
 }
 
-function isBrowser(): boolean {
-  return typeof window !== "undefined" && typeof localStorage !== "undefined";
-}
-
 function load(): Record<string, UnknownWord> {
-  if (!isBrowser()) return {};
+  const raw = safeGetItem(k());
+  if (!raw) return {};
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return {};
     const parsed = JSON.parse(raw);
     if (parsed && typeof parsed === "object" && !Array.isArray(parsed)) {
       return parsed as Record<string, UnknownWord>;
@@ -37,12 +34,7 @@ function load(): Record<string, UnknownWord> {
 }
 
 function save(state: Record<string, UnknownWord>): void {
-  if (!isBrowser()) return;
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  } catch {
-    // Quota exceeded — fail silently.
-  }
+  safeSetItem(k(), JSON.stringify(state));
 }
 
 export interface AddUnknownWordInput {
@@ -155,6 +147,5 @@ export function getUnknownWord(word: string): UnknownWord | null {
 }
 
 export function clearAllUnknownWords(): void {
-  if (!isBrowser()) return;
-  localStorage.removeItem(STORAGE_KEY);
+  safeRemoveItem(k());
 }

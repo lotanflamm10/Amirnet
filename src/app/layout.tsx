@@ -3,7 +3,9 @@ import { Plus_Jakarta_Sans, Rubik } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/contexts/ThemeContext";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { UserProvider } from "@/contexts/UserContext";
 import { AppShell } from "@/components/layout/AppShell";
+import { OfflineBanner } from "@/components/system/OfflineBanner";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-jakarta", display: "swap" });
 const rubik   = Rubik({ subsets: ["latin", "hebrew"], variable: "--font-rubik", display: "swap" });
@@ -13,6 +15,21 @@ export const metadata: Metadata = {
   description: "Your personal AMIRNET coach — smart practice, full simulations, readiness analysis and vocabulary. Independent prep tool, not affiliated with NITE.",
   keywords: ["AMIRNET", "AMIRAM", "psychometric", "English", "Israel", "practice", "vocabulary"],
   openGraph: { title: "Amirnet Coach", description: "Your personal AMIRNET coach", type: "website" },
+  manifest: "/manifest.webmanifest",
+  applicationName: "Amirnet Coach",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Amirnet Coach",
+  },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/icon.svg" },
+    ],
+  },
 };
 
 export const viewport: Viewport = {
@@ -37,7 +54,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <ThemeProvider>
           <LanguageProvider>
-            <AppShell>{children}</AppShell>
+            <UserProvider>
+              <OfflineBanner />
+              <AppShell>{children}</AppShell>
+            </UserProvider>
           </LanguageProvider>
         </ThemeProvider>
       </body>

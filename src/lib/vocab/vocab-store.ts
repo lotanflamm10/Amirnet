@@ -6,14 +6,15 @@ import {
   afterMissed,
   isDue,
 } from "./spaced-repetition";
+import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
 
-const STORAGE_KEY = "amirnet-vocab-v1";
+const LEGACY_KEY = "amirnet-vocab-v1";
+const k = () => userKey(LEGACY_KEY);
 
 export function loadVocabStates(): Record<string, VocabReviewState> {
-  if (typeof window === "undefined") return {};
+  const raw = safeGetItem(k());
+  if (!raw) return {};
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return {};
     return JSON.parse(raw) as Record<string, VocabReviewState>;
   } catch {
     return {};
@@ -23,12 +24,7 @@ export function loadVocabStates(): Record<string, VocabReviewState> {
 export function saveVocabStates(
   states: Record<string, VocabReviewState>
 ): void {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(states));
-  } catch {
-    // Storage quota exceeded — fail silently
-  }
+  safeSetItem(k(), JSON.stringify(states));
 }
 
 export function getOrCreateState(itemId: string): VocabReviewState {

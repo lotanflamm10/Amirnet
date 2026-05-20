@@ -3,7 +3,10 @@
  * Stores seen question IDs, sentence hashes, answer patterns, and vocab words in localStorage.
  */
 
-const HISTORY_KEY   = "amirnet-qhistory-v1";
+import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
+
+const LEGACY_HISTORY_KEY = "amirnet-qhistory-v1";
+const historyK = () => userKey(LEGACY_HISTORY_KEY);
 const MAX_RECENT    = 100;  // soft-filter rolling window
 const MAX_SIM_SEEN  = 2000; // all questions ever seen in simulation
 const MAX_PRACTICE  = 500;  // recent practice questions
@@ -22,20 +25,17 @@ function emptyHistory(): HistoryState {
 }
 
 export function loadHistory(): HistoryState {
-  if (typeof window === "undefined") return emptyHistory();
+  const raw = safeGetItem(historyK());
+  if (!raw) return emptyHistory();
   try {
-    const raw = localStorage.getItem(HISTORY_KEY);
-    return raw
-      ? { ...emptyHistory(), ...(JSON.parse(raw) as Partial<HistoryState>) }
-      : emptyHistory();
+    return { ...emptyHistory(), ...(JSON.parse(raw) as Partial<HistoryState>) };
   } catch {
     return emptyHistory();
   }
 }
 
 function saveHistory(h: HistoryState): void {
-  if (typeof window === "undefined") return;
-  try { localStorage.setItem(HISTORY_KEY, JSON.stringify(h)); } catch { /* quota */ }
+  safeSetItem(historyK(), JSON.stringify(h));
 }
 
 /** Normalize question text to a short hash for similarity detection. */

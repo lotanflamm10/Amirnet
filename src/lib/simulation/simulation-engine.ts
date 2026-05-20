@@ -3,8 +3,10 @@ import { getSectionsByMode } from "./simulation-config";
 import type { SectionResult } from "./score-estimator";
 import { calculateMainScore } from "./score-estimator";
 import { calculatePilotBonus } from "./pilot-bonus-calculator";
+import { userKey, safeGetItem, safeSetItem, safeRemoveItem } from "@/lib/storage/user-storage";
 
-const SIM_KEY = "amirnet-sim-current";
+const LEGACY_SIM_KEY = "amirnet-sim-current";
+const simK = () => userKey(LEGACY_SIM_KEY);
 
 export interface SimulationState {
   id: string;
@@ -105,19 +107,17 @@ export function calculateFinalResults(
 }
 
 export function saveSimulationState(state: SimulationState) {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(SIM_KEY, JSON.stringify(state));
+  safeSetItem(simK(), JSON.stringify(state));
 }
 
 export function loadSimulationState(): SimulationState | null {
-  if (typeof window === "undefined") return null;
+  const raw = safeGetItem(simK());
+  if (!raw) return null;
   try {
-    const raw = localStorage.getItem(SIM_KEY);
-    return raw ? (JSON.parse(raw) as SimulationState) : null;
+    return JSON.parse(raw) as SimulationState;
   } catch { return null; }
 }
 
 export function clearSimulationState() {
-  if (typeof window === "undefined") return;
-  localStorage.removeItem(SIM_KEY);
+  safeRemoveItem(simK());
 }

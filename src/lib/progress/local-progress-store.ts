@@ -1,8 +1,10 @@
 import type { UserProgress, CategoryProgress, SimulationHistory } from "@/types/progress";
 import type { QuestionCategory, QuestionDifficulty } from "@/types/questions";
 import { getLevelFromXp } from "@/lib/gamification/xp-system";
+import { userKey, safeGetItem, safeSetItem, safeRemoveItem } from "@/lib/storage/user-storage";
 
-const KEY = "amirnet-progress-v1";
+const LEGACY_KEY = "amirnet-progress-v1";
+const k = () => userKey(LEGACY_KEY);
 
 function now() { return new Date().toISOString(); }
 function today() { return new Date().toISOString().slice(0, 10); }
@@ -36,7 +38,7 @@ function defaultProgress(): UserProgress {
 export function loadProgress(): UserProgress {
   if (typeof window === "undefined") return defaultProgress();
   try {
-    const raw = localStorage.getItem(KEY);
+    const raw = safeGetItem(k());
     if (!raw) return defaultProgress();
     const p = { ...defaultProgress(), ...(JSON.parse(raw) as Partial<UserProgress>) };
     // Reset daily goal if stale
@@ -56,7 +58,7 @@ export function loadProgress(): UserProgress {
 export function saveProgress(p: UserProgress) {
   if (typeof window === "undefined") return;
   p.updatedAt = now();
-  localStorage.setItem(KEY, JSON.stringify(p));
+  safeSetItem(k(), JSON.stringify(p));
 }
 
 export function recordAnswer(category: QuestionCategory, correct: boolean, timeSeconds: number) {
@@ -130,7 +132,7 @@ export function importProgress(json: string): boolean {
 
 export function resetProgress() {
   if (typeof window === "undefined") return;
-  localStorage.removeItem(KEY);
+  safeRemoveItem(k());
 }
 
 export function addXp(amount: number): UserProgress {

@@ -1,7 +1,10 @@
 import type { VocabItem, VocabDifficulty } from "@/types/vocab";
+import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
 
-const CUSTOM_RAW_KEY = "amirnet-custom-vocab-raw";
-const STRUCTURED_KEY = "amirnet-custom-vocab-cards-v1";
+const LEGACY_CUSTOM_RAW_KEY = "amirnet-custom-vocab-raw";
+const LEGACY_STRUCTURED_KEY = "amirnet-custom-vocab-cards-v1";
+const customRawK = () => userKey(LEGACY_CUSTOM_RAW_KEY);
+const structuredK = () => userKey(LEGACY_STRUCTURED_KEY);
 
 export interface CustomWordEntry {
   word: string;
@@ -57,17 +60,11 @@ export function entryToVocabItem(entry: CustomWordEntry): VocabItem {
 }
 
 export function loadCustomRaw(): string {
-  if (typeof window === "undefined") return "";
-  return localStorage.getItem(CUSTOM_RAW_KEY) ?? "";
+  return safeGetItem(customRawK()) ?? "";
 }
 
 export function saveCustomRaw(raw: string): void {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(CUSTOM_RAW_KEY, raw);
-  } catch {
-    // ignore storage quota errors
-  }
+  safeSetItem(customRawK(), raw);
 }
 
 export function getCustomVocabItems(): VocabItem[] {
@@ -92,22 +89,17 @@ export interface StructuredCard {
 }
 
 export function loadStructuredCards(): StructuredCard[] {
-  if (typeof window === "undefined") return [];
+  const raw = safeGetItem(structuredK());
+  if (!raw) return [];
   try {
-    const raw = localStorage.getItem(STRUCTURED_KEY);
-    return raw ? (JSON.parse(raw) as StructuredCard[]) : [];
+    return JSON.parse(raw) as StructuredCard[];
   } catch {
     return [];
   }
 }
 
 export function saveStructuredCards(cards: StructuredCard[]): void {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(STRUCTURED_KEY, JSON.stringify(cards));
-  } catch {
-    // ignore storage quota errors
-  }
+  safeSetItem(structuredK(), JSON.stringify(cards));
 }
 
 export function addStructuredCard(card: Omit<StructuredCard, "id" | "createdAt">): StructuredCard {

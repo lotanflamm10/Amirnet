@@ -1,6 +1,9 @@
 "use client";
 
-const STORAGE_KEY = "amirnet-credits-v1";
+import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
+
+const LEGACY_KEY = "amirnet-credits-v1";
+const k = () => userKey(LEGACY_KEY);
 
 interface CreditEntry {
   delta: number;
@@ -14,10 +17,9 @@ interface CreditStore {
 }
 
 function loadStore(): CreditStore {
-  if (typeof window === "undefined") return { balance: 0, history: [] };
+  const raw = safeGetItem(k());
+  if (!raw) return { balance: 0, history: [] };
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { balance: 0, history: [] };
     return { balance: 0, history: [], ...JSON.parse(raw) as Partial<CreditStore> };
   } catch {
     return { balance: 0, history: [] };
@@ -25,12 +27,7 @@ function loadStore(): CreditStore {
 }
 
 function saveStore(store: CreditStore): void {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
-  } catch {
-    // ignore
-  }
+  safeSetItem(k(), JSON.stringify(store));
 }
 
 export function getCredits(): number {

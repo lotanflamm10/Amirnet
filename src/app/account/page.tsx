@@ -8,6 +8,7 @@ import { useTheme, PRESET_COLORS, DEFAULT_PRIMARY } from "@/contexts/ThemeContex
 import { Moon, Sun, Monitor } from "lucide-react";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
+import { AccountSecurityCard } from "@/components/account/AccountSecurityCard";
 
 function planLabel(plan: PlanId, t: Translations): string {
   switch (plan) {
@@ -89,10 +90,13 @@ export default function AccountPage() {
       : t.account.appearanceModeSystem;
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "480px" }}>
-      <h1 style={{ fontFamily: "var(--font-display)", fontSize: "1.5rem", fontWeight: 800, color: "var(--ink)", margin: 0 }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "480px", width: "100%" }}>
+      <h1 style={{ fontFamily: "var(--font-display)", fontSize: "1.5rem", fontWeight: 800, color: "var(--ink)", margin: 0, overflowWrap: "anywhere" }}>
         {t.account.pageTitle}
       </h1>
+
+      {/* Auth: username + logout + change password */}
+      <AccountSecurityCard />
 
       {/* User card */}
       <div className="card" style={{ padding: "1.25rem" }}>

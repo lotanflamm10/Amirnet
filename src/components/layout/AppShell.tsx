@@ -25,8 +25,20 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <Sidebar t={t} lang={lang} toggleLang={toggleLang} theme={settings.mode} toggleTheme={toggleTheme} />
 
       {/* Main content — offset matches sidebar width */}
-      <div className="content-area flex-1 flex flex-col min-w-0">
-        <main className="flex-1 w-full px-4 py-6 pb-24 lg:pb-8" dir={dir}>
+      <div className="content-area flex-1 flex flex-col min-w-0" style={{ maxWidth: "100%" }}>
+        <main
+          className="flex-1 w-full px-4 py-6 pb-24 lg:pb-8"
+          dir={dir}
+          style={{
+            // Respect iPhone notch / dynamic island and home indicator.
+            paddingInlineStart: "max(1rem, env(safe-area-inset-left))",
+            paddingInlineEnd:   "max(1rem, env(safe-area-inset-right))",
+            paddingBottom:      "max(6rem, calc(6rem + env(safe-area-inset-bottom)))",
+            minWidth: 0,
+            maxWidth: "100%",
+            overflowWrap: "anywhere",
+          }}
+        >
           {children}
         </main>
         <div className="hidden lg:block" dir={dir}>

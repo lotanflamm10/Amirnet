@@ -1,153 +1,182 @@
-# Deploying Amirnet Coach to Vercel (free plan)
+# Deploying Amirnet Coach to Vercel
 
-This is a static-ish Next.js 16 app — no database, no server-side data, no
-external APIs. The only server-side code is the login gate (3 routes:
-`/login`, `/api/login`, `/api/logout`) and the middleware. Vercel auto-detects
-Next.js and runs everything on the free Hobby plan.
+Already live at: <https://amirnet-coach.vercel.app>
 
-The total time is about 5 minutes.
+This document covers the post-friends-testing deploy. The app is a Next.js 16
+project on the free Vercel Hobby plan — no database, no external services
+beyond Vercel itself.
 
 ---
 
-## 1. Push the project to GitHub
+## 1. Redeploy after pulling changes
 
-If the project is not already in a Git repo:
+Every push to GitHub `main` auto-deploys on Vercel. To trigger a redeploy
+manually after env-var changes:
 
 ```powershell
 cd C:\Lotan\amirnet
-git init
 git add .
-git commit -m "Initial commit"
+git commit -m "Your message"
+git push origin master
 ```
 
-Create a new (private) GitHub repo at <https://github.com/new>, then:
+Vercel picks up the push and builds in 1–3 minutes. The live URL stays the
+same: <https://amirnet-coach.vercel.app>.
+
+To redeploy WITHOUT a new commit (e.g. just to pick up new env vars):
+Vercel dashboard → project → **Deployments** → latest deployment → ⋯ menu
+→ **Redeploy**.
+
+---
+
+## 2. Required env vars on Vercel
+
+All are optional for the friends-testing build, but `AUTH_SECRET` should
+be set for any real use.
+
+| Variable | Required? | Purpose |
+|---|---|---|
+| `AUTH_SECRET` | **Recommended** | HMAC key that signs the session and password-override cookies. Without it, a dev-only constant is used and session cookies are forgeable. |
+| `ADMIN_SEED_PASSWORD` | Optional | Overrides the baked-in admin seed password. Default: `tsnhi5326`. |
+| `GILI_SEED_PASSWORD` | Optional | Overrides the baked-in גילי seed password. Default: `גילי7369!`. |
+| `ADMIN_ENABLED` | Optional | Set to `1` to expose `/admin/*` routes. Default: `0` (returns 404). |
+
+Generate a strong `AUTH_SECRET` locally and paste it into Vercel:
 
 ```powershell
-git remote add origin https://github.com/<your-user>/amirnet-coach.git
-git branch -M main
-git push -u origin main
+node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"
 ```
 
-> If the repo is already on GitHub, just push the latest changes:
-> `git add . && git commit -m "Add login gate + Vercel config" && git push`
+Vercel: **Project → Settings → Environment Variables** → add for the
+`Production` environment (and `Preview` if you want PRs to use the same
+key), then click **Redeploy** on the latest deployment.
 
 ---
 
-## 2. Import the repo into Vercel
+## 3. Routing & refresh
 
-1. Sign in at <https://vercel.com> with your GitHub account (free Hobby plan).
-2. Click **Add New → Project**.
-3. Pick the GitHub repo you just pushed.
-4. Project name: `amirnet-coach` (this becomes your URL,
-   e.g. `https://amirnet-coach.vercel.app`).
-5. Framework Preset: **Next.js** (auto-detected — leave defaults).
-6. Build Command: leave default (`next build`).
-7. Output Directory: leave default.
-8. Install Command: leave default (`npm install`).
+Nothing special required. Next.js App Router handles deep links and hard
+refreshes out of the box on Vercel. Middleware (`src/middleware.ts`) runs
+on every page request and redirects unauthenticated users to `/login`,
+preserving the original path as `?from=...`.
 
----
+The middleware matcher excludes:
 
-## 3. (Optional) Environment variables
+- `/api/login`, `/api/logout`, `/api/me`, `/api/change-password`
+- `/_next/static`, `/_next/image`, `/favicon.ico`, `/robots.txt`,
+  `/sitemap.xml`
+- `/manifest.webmanifest`
+- any path ending in a common static-asset extension
+  (`.png`, `.svg`, `.css`, `.js`, fonts, etc.)
 
-The gate defaults to `admin` / `admin` if no env vars are set, which is what
-you asked for. If you want to change the password later **without
-redeploying code**, add these env vars in Vercel:
-
-| Variable        | Example | Purpose                                  |
-|-----------------|---------|------------------------------------------|
-| `GATE_USERNAME` | `admin` | Login username                           |
-| `GATE_PASSWORD` | `admin` | Login password                           |
-| `ADMIN_ENABLED` | `0`     | Keep `/admin` returning 404 (default)    |
-
-In Vercel: **Project → Settings → Environment Variables** → add each one for
-the `Production` environment (and optionally `Preview`), then **Redeploy**.
-
-> The `.env.example` in the repo shows the same variables. Do not commit a
-> real `.env` file.
+So the PWA manifest and icons load without an auth check.
 
 ---
 
-## 4. Deploy
+## 4. Mobile / Chrome / PWA
 
-Click **Deploy**. The first build takes 1–3 minutes. When it finishes you
-get a URL like:
+- `<meta name="viewport">` is set via Next.js `viewport` export
+  (`width=device-width, initial-scale=1, viewport-fit=cover`).
+- `theme-color` matches dark/light scheme.
+- `manifest.webmanifest` lets the app be installed (Add to Home Screen)
+  on Chrome Android and Safari iOS.
+- The login form and account page use ≥16px input font (no iOS focus
+  zoom), 44–48px tap targets, and `safe-area-inset-*` padding.
+
+---
+
+## 5. Users
+
+Two seed users are baked in. They are NOT removable without a code change.
+
+| Username (typed at login) | Password | Role |
+|---|---|---|
+| `admin` | `tsnhi5326` | admin |
+| `גילי` | `גילי7369!` | student |
+
+Username matching is case-insensitive for ASCII (`admin` = `Admin`) and
+literal for Hebrew.
+
+### Password change persistence
+
+Each user can change their own password via `/account`. **Because there
+is no database, changes are stored as an HMAC-signed HttpOnly cookie
+scoped to the browser** (`amirnet-pw-<userId>`).
+
+- The change persists on this browser/device only.
+- Other devices keep the seed password until they too change it.
+- Clearing cookies reverts to the seed password.
+- The other user is never affected by your change.
+
+This is documented in the UI on the account page.
+
+---
+
+## 6. Per-user data isolation
+
+Every per-user localStorage key (progress, vocab, simulation, history,
+learning-engine, credits, entitlements) is namespaced as
+`amirnet:user:<userId>:<originalKey>`. Theme + language are intentionally
+kept device-global.
+
+On the first login as `admin`, a one-time migration copies any pre-existing
+legacy singleton keys into `amirnet:user:admin:*`, so an admin who used the
+app before this update keeps their progress. The legacy values are left in
+place as a safety net.
+
+`גילי` always starts fresh — by design (the migration is admin-only).
+
+---
+
+## 7. Local dev
+
+```powershell
+npm install
+npm run dev
+```
+
+Local cookies are `Secure` only in production builds, so HTTP localhost
+works. To override credentials locally, create `.env.local`:
 
 ```
-https://amirnet-coach.vercel.app
+AUTH_SECRET=local-dev-secret
+ADMIN_SEED_PASSWORD=tsnhi5326
+GILI_SEED_PASSWORD=גילי7369!
 ```
 
-Open the URL → the gate redirects you to `/login` → enter `admin` / `admin`
-→ you land on the dashboard.
+---
+
+## 8. Logging out
+
+`/account` has a **Log out** button. It calls `POST /api/logout` which
+clears the session and companion cookies (and the per-user pw-override
+cookie is NOT cleared — re-login restores the override).
+
+Logout does NOT delete progress data.
 
 ---
 
-## 5. Share with friends
+## 9. Security limitations (still not production)
 
-Send them the URL. They open it in Chrome on any device — desktop, laptop,
-tablet, Android phone, or iPhone — enter `admin` / `admin`, and they are in.
+What this build IS:
+- Multi-user gate with HMAC-signed session cookies (Edge-verifiable)
+- Per-user localStorage isolation
+- Input validation + constant-time password comparison
+- HttpOnly + SameSite=Lax + Secure (prod) + Path=/ + 30-day maxAge
 
-Their progress lives in **their own browser's localStorage**, so each tester
-gets a clean independent profile.
+What this build is **NOT**:
+- It's not a real authentication system.
+- There is no database, no server-side password store, no hashing at
+  rest (passwords live as plaintext in `src/lib/auth/users.ts`, which is
+  not shipped to the client but IS in the deployment image).
+- Password changes persist only in the browser cookie. There is no
+  cross-device sync, no account recovery, no admin reset.
+- No rate limiting. Brute-forcing the two known accounts is trivial at
+  scale — fine for friends testing, not for the open internet.
+- No audit log, no CSRF token (we rely on SameSite=Lax — adequate for
+  this scope but not for production).
+- Anyone who knows the seed credentials can log in from any browser.
 
----
-
-## 6. Routing & refresh behavior on Vercel
-
-Nothing special is required — Next.js App Router handles deep links and
-refreshes automatically on Vercel. Hard-refreshing `/simulation`, `/vocab`,
-or `/app` works out of the box.
-
-The middleware (`src/middleware.ts`) runs on every page navigation and
-non-asset request, so an unauthenticated user who pastes
-`https://amirnet-coach.vercel.app/simulation` directly into the address bar
-is redirected to `/login?from=/simulation`, then bounced back to
-`/simulation` after a successful login.
-
----
-
-## 7. Mobile Chrome notes
-
-- The root layout sets `<meta name="viewport" content="width=device-width,
-  initial-scale=1, viewport-fit=cover">` via Next.js `viewport` export, so
-  the app fills the screen correctly on iPhone and Android.
-- The login form uses `minHeight: 100dvh`, `box-sizing: border-box`,
-  `-webkit-tap-highlight-color: transparent`, and `inputMode="text"` so it
-  stays usable on small screens and respects the iOS safe area.
-- The existing `BottomTabBar` (`< lg`) gives the main app a native-feeling
-  bottom nav on phones.
-- The session cookie is `httpOnly`, `sameSite=lax`, `secure` in production —
-  works on every modern mobile browser.
-
----
-
-## 8. Updating after deploy
-
-Every `git push` to `main` triggers an automatic Vercel deploy. No manual
-step required.
-
----
-
-## 9. Logging out
-
-There is no logout button in the UI (kept the gate scope tight). To log out:
-
-- Chrome DevTools → Application → Cookies → delete `amirnet-session`, or
-- Send `POST /api/logout` (clears the cookie), or
-- Sign in again with a different identity (overwrites the cookie).
-
-The cookie expires automatically after 7 days.
-
----
-
-## 10. Reverting to no gate (later)
-
-To remove the gate entirely:
-
-1. Delete `src/app/login/`, `src/app/api/login/`, `src/app/api/logout/`,
-   `src/lib/auth/gate.ts`.
-2. Restore `src/middleware.ts` to its original `/admin` 404 stub.
-3. Commit and push.
-
-Or, to swap for a real auth provider (NextAuth/Clerk/etc.), replace
-`src/lib/auth/gate.ts` and the two `/api/*` routes — the middleware contract
-stays the same (`SESSION_COOKIE` present → authenticated).
+For production: replace this gate with a proper auth provider
+(NextAuth / Clerk / Supabase), use bcrypt/argon2 in a real DB, add rate
+limiting, add CSRF tokens, log auth events server-side.

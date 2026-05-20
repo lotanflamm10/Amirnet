@@ -1,0 +1,21 @@
+{
+  "name": "Amirnet Coach",
+  "short_name": "Amirnet",
+  "description": "AMIRNET / AMIRAM English exam coach — practice, simulations, vocabulary.",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1115",
+  "theme_color": "#0DCBB1",
+  "lang": "he",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}

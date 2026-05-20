@@ -2,8 +2,10 @@
 
 import type { PlanId, EntitlementKey } from "@/lib/billing/types";
 import type { UserEntitlement } from "@/types/billing";
+import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
 
-const STORAGE_KEY = "amirnet-entitlement-v1";
+const LEGACY_KEY = "amirnet-entitlement-v1";
+const k = () => userKey(LEGACY_KEY);
 
 const ENTITLEMENTS: Record<PlanId, Record<EntitlementKey, boolean>> = {
   guest: {
@@ -72,22 +74,13 @@ function isValidPlanId(value: string): value is PlanId {
 
 export function getCurrentPlan(): PlanId {
   if (typeof window === "undefined") return "guest";
-  try {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored && isValidPlanId(stored)) return stored;
-  } catch {
-    // ignore
-  }
+  const stored = safeGetItem(k());
+  if (stored && isValidPlanId(stored)) return stored;
   return process.env.NODE_ENV !== "production" ? "pro" : "guest";
 }
 
 export function setMockPlan(plan: PlanId): void {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(STORAGE_KEY, plan);
-  } catch {
-    // ignore
-  }
+  safeSetItem(k(), plan);
 }
 
 export function can(key: EntitlementKey): boolean {

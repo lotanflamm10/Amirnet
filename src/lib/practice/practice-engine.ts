@@ -1,7 +1,9 @@
 import type { PracticeSession, PracticeResult, PracticeMode } from "@/types/questions";
 import type { SessionMode, DifficultyFilter } from "./question-selector";
+import { userKey, safeGetItem, safeSetItem, safeRemoveItem } from "@/lib/storage/user-storage";
 
-const SESSION_KEY = "amirnet-session-current";
+const LEGACY_SESSION_KEY = "amirnet-session-current";
+const k = () => userKey(LEGACY_SESSION_KEY);
 
 function nowIso() {
   return new Date().toISOString();
@@ -81,10 +83,9 @@ export function getSessionProgress(session: PracticeSession): SessionProgress {
 }
 
 export function resumeSession(): PracticeSession | null {
-  if (typeof window === "undefined") return null;
+  const raw = safeGetItem(k());
+  if (!raw) return null;
   try {
-    const raw = localStorage.getItem(SESSION_KEY);
-    if (!raw) return null;
     return JSON.parse(raw) as PracticeSession;
   } catch {
     return null;
@@ -92,11 +93,9 @@ export function resumeSession(): PracticeSession | null {
 }
 
 export function saveCurrentSession(session: PracticeSession): void {
-  if (typeof window === "undefined") return;
-  localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+  safeSetItem(k(), JSON.stringify(session));
 }
 
 export function clearCurrentSession(): void {
-  if (typeof window === "undefined") return;
-  localStorage.removeItem(SESSION_KEY);
+  safeRemoveItem(k());
 }

@@ -5,14 +5,19 @@ import { learningTips } from "@/data/seed/learningTips";
 import { LearningTipCard } from "./LearningTipCard";
 import { useLang } from "@/contexts/LanguageContext";
 
-const LS_COMPLETED = "amirnet-learning-completed";
-const LS_BOOKMARKED = "amirnet-learning-bookmarked";
-const LS_LAST_IDX = "amirnet-learning-last-idx";
+import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
+
+const LEGACY_COMPLETED = "amirnet-learning-completed";
+const LEGACY_BOOKMARKED = "amirnet-learning-bookmarked";
+const LEGACY_LAST_IDX = "amirnet-learning-last-idx";
+const completedK = () => userKey(LEGACY_COMPLETED);
+const bookmarkedK = () => userKey(LEGACY_BOOKMARKED);
+const lastIdxK = () => userKey(LEGACY_LAST_IDX);
 
 function loadSet(key: string): Set<string> {
+  const raw = safeGetItem(key);
+  if (!raw) return new Set();
   try {
-    const raw = localStorage.getItem(key);
-    if (!raw) return new Set();
     return new Set(JSON.parse(raw) as string[]);
   } catch {
     return new Set();
@@ -20,9 +25,7 @@ function loadSet(key: string): Set<string> {
 }
 
 function saveSet(key: string, set: Set<string>) {
-  try {
-    localStorage.setItem(key, JSON.stringify([...set]));
-  } catch {}
+  safeSetItem(key, JSON.stringify([...set]));
 }
 
 function onTipViewed(_tipId: string) {}
@@ -43,17 +46,15 @@ export function LearningEngine() {
   const observerRef = useRef<IntersectionObserver | null>(null);
 
   useEffect(() => {
-    setCompleted(loadSet(LS_COMPLETED));
-    setBookmarked(loadSet(LS_BOOKMARKED));
-    try {
-      const idx = Number(localStorage.getItem(LS_LAST_IDX) ?? "0");
-      if (idx > 0 && idx < tips.length) setCurrentIdx(idx);
-    } catch {}
+    setCompleted(loadSet(completedK()));
+    setBookmarked(loadSet(bookmarkedK()));
+    const idx = Number(safeGetItem(lastIdxK()) ?? "0");
+    if (idx > 0 && idx < tips.length) setCurrentIdx(idx);
   }, []);
 
   // Restore scroll position after mount
   useEffect(() => {
-    const stored = Number(localStorage.getItem(LS_LAST_IDX) ?? "0");
+    const stored = Number(safeGetItem(lastIdxK()) ?? "0");
     if (stored > 0) {
       setTimeout(() => {
         const el = cardRefs.current.get(stored);
@@ -73,7 +74,7 @@ export function LearningEngine() {
             if (!isNaN(idx)) {
               setCurrentIdx(idx);
               onTipViewed(tips[idx]?.id ?? "");
-              try { localStorage.setItem(LS_LAST_IDX, String(idx)); } catch {}
+              safeSetItem(lastIdxK(), String(idx));
             }
           }
         }
@@ -118,7 +119,7 @@ export function LearningEngine() {
       const next = new Set(prev);
       if (next.has(tipId)) next.delete(tipId);
       else { next.add(tipId); onTipCompleted(tipId); }
-      saveSet(LS_COMPLETED, next);
+      saveSet(completedK(), next);
       return next;
     });
   }
@@ -128,7 +129,7 @@ export function LearningEngine() {
       const next = new Set(prev);
       if (next.has(tipId)) next.delete(tipId);
       else { next.add(tipId); onTipBookmarked(tipId); }
-      saveSet(LS_BOOKMARKED, next);
+      saveSet(bookmarkedK(), next);
       return next;
     });
   }

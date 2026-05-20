@@ -240,7 +240,10 @@ export function selectReadingPassage(
 }
 
 // ─── Recently-seen-passages history (localStorage) ──────────────────────────
-const HISTORY_KEY = "amirnet-reading-passages-v1";
+import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
+
+const LEGACY_HISTORY_KEY = "amirnet-reading-passages-v1";
+const readingHistoryK = () => userKey(LEGACY_HISTORY_KEY);
 const HISTORY_WINDOW = 20;
 
 interface ReadingHistory {
@@ -248,10 +251,9 @@ interface ReadingHistory {
 }
 
 function loadReadingHistory(): ReadingHistory {
-  if (typeof window === "undefined") return { recent: [] };
+  const raw = safeGetItem(readingHistoryK());
+  if (!raw) return { recent: [] };
   try {
-    const raw = localStorage.getItem(HISTORY_KEY);
-    if (!raw) return { recent: [] };
     const parsed = JSON.parse(raw) as Partial<ReadingHistory>;
     return { recent: Array.isArray(parsed.recent) ? parsed.recent : [] };
   } catch {
@@ -260,12 +262,7 @@ function loadReadingHistory(): ReadingHistory {
 }
 
 function saveReadingHistory(h: ReadingHistory): void {
-  if (typeof window === "undefined") return;
-  try {
-    localStorage.setItem(HISTORY_KEY, JSON.stringify(h));
-  } catch {
-    // quota — silent
-  }
+  safeSetItem(readingHistoryK(), JSON.stringify(h));
 }
 
 export function getRecentReadingPassageIds(): Set<string> {
