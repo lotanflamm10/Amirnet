@@ -10,16 +10,30 @@ export type CardType =
   | "phrasalVerbs"
   | "unclassified";
 
-export const CARD_TYPE_LABELS: Record<CardType, string> = {
-  all:          "הכל / All",
-  nouns:        "שמות עצם / Nouns",
-  verbs:        "פעלים / Verbs",
-  adjectives:   "תארים / Adj",
-  expressions:  "ביטויים / Expr",
-  connectors:   "מחברים / Conn",
-  phrasalVerbs: "פעלי ביטוי / Phrasal",
-  unclassified: "אחר / Other",
+export const CARD_TYPE_LABELS_HE: Record<CardType, string> = {
+  all:          "הכל",
+  nouns:        "שמות עצם",
+  verbs:        "פעלים",
+  adjectives:   "תארים",
+  expressions:  "ביטויים",
+  connectors:   "מחברים",
+  phrasalVerbs: "פעלי ביטוי",
+  unclassified: "אחר",
 };
+
+export const CARD_TYPE_LABELS_EN: Record<CardType, string> = {
+  all:          "All",
+  nouns:        "Nouns",
+  verbs:        "Verbs",
+  adjectives:   "Adjectives",
+  expressions:  "Expressions",
+  connectors:   "Connectors",
+  phrasalVerbs: "Phrasal Verbs",
+  unclassified: "Other",
+};
+
+/** @deprecated kept for compatibility; prefer the locale-specific maps. */
+export const CARD_TYPE_LABELS = CARD_TYPE_LABELS_HE;
 
 export function getVocabCardType(item: VocabItem): Exclude<CardType, "all"> {
   const pos = (item.partOfSpeech ?? "").toLowerCase().trim();

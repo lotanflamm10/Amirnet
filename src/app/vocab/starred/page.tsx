@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
+"use client";
 import { VocabList } from "@/components/vocab/VocabList";
-
-export const metadata: Metadata = { title: "Starred Vocab | AMIRNET" };
+import { useLang } from "@/contexts/LanguageContext";
 
 export default function VocabStarredPage() {
+  const { t } = useLang();
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
       <div>
         <h1 style={{ fontFamily: "var(--font-display)", fontSize: "1.5rem", fontWeight: 800, color: "var(--ink)", margin: "0 0 0.25rem" }}>
-          מסומנים ★ / Starred
+          ★ {t.vocab.starredPageTitle}
         </h1>
         <p style={{ fontSize: "0.85rem", color: "var(--ink-muted)", margin: 0 }}>
-          מילים שסימנת לחזרה מיוחדת
+          {t.vocab.starredPageSubtitle}
         </p>
       </div>
       <VocabList initialFilter="starred" />

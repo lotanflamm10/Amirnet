@@ -1,9 +1,12 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import Link from "next/link";
 import { Play, Pause, Eye, EyeOff } from "lucide-react";
 import type { Question, QuestionCategory } from "@/types/questions";
+import { useLang } from "@/contexts/LanguageContext";
+import { renderBlanks } from "@/lib/practice/render-blanks";
+import { ensureInView } from "@/lib/ui/smooth-scroll";
 
 const CATEGORY_TO_BOOSTER: Partial<Record<QuestionCategory, string>> = {
   sentenceCompletion:  "vocabularyInContext",
@@ -27,11 +30,6 @@ const CATEGORY_TO_BOOSTER: Partial<Record<QuestionCategory, string>> = {
 
 const CHOICE_LABELS = ["A", "B", "C", "D", "E", "F"];
 
-const CORRECT_MESSAGES = [
-  "נכון! מצוין 🌟", "כל הכבוד! ✓", "מצוין! ✓", "נכון! המשך כך 💪",
-];
-function randomCorrect() { return CORRECT_MESSAGES[Math.floor(Math.random() * CORRECT_MESSAGES.length)]; }
-
 interface Props {
   question: Question;
   onSubmit: (choiceIndex: number) => void;
@@ -43,28 +41,57 @@ interface Props {
 }
 
 export default function QuestionCard({ question, onSubmit, disabled, chosenIndex, showFeedback = true, variant = "practice" }: Props) {
+  const { t } = useLang();
   const [selected, setSelected]         = useState<number | null>(chosenIndex ?? null);
   const [submitted, setSubmitted]       = useState(disabled);
   const [ttsPlaying, setTtsPlaying]     = useState(false);
   const [showTranscript, setShowTranscript] = useState(false);
-  const [correctMsg] = useState(randomCorrect);
+  const correctMessages = useMemo(
+    () => [
+      t.practice.correctRandom1,
+      t.practice.correctRandom2,
+      t.practice.correctRandom3,
+      t.practice.correctRandom4,
+    ],
+    [t.practice.correctRandom1, t.practice.correctRandom2, t.practice.correctRandom3, t.practice.correctRandom4],
+  );
+  const [correctMsg] = useState(
+    () => correctMessages[Math.floor(Math.random() * correctMessages.length)],
+  );
   const uttRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const feedbackRef = useRef<HTMLDivElement | null>(null);
 
   const isLecture = question.category === "lectureQuestions";
 
+  // Auto-reveal flow: as soon as we render the explanation, smooth-scroll it
+  // into view. `ensureInView` is a no-op when the element is already visible,
+  // so this never causes "aggressive jump" UX on big screens.
   useEffect(() => {
-    setSelected(null);
-    setSubmitted(false);
+    if (!submitted || !showFeedback) return;
+    const id = window.setTimeout(() => ensureInView(feedbackRef.current, { threshold: 48 }), 50);
+    return () => window.clearTimeout(id);
+  }, [submitted, showFeedback]);
+
+  useEffect(() => {
+    // On question change, restore any previously-chosen index (used when
+    // navigating back to an already-answered question in simulation mode).
+    setSelected(chosenIndex ?? null);
+    setSubmitted(variant === "simulation" ? false : disabled);
     setTtsPlaying(false);
     setShowTranscript(false);
     if (typeof window !== "undefined") window.speechSynthesis?.cancel();
-  }, [question.id]);
+  }, [question.id, chosenIndex, variant, disabled]);
 
   useEffect(() => {
     return () => { if (typeof window !== "undefined") window.speechSynthesis?.cancel(); };
   }, []);
 
-  useEffect(() => { setSubmitted(disabled); }, [disabled]);
+  // In practice mode the parent locks the card via `disabled` once the
+  // answer is submitted. In simulation mode the user must be able to change
+  // their answer freely — so we ignore the prop there.
+  useEffect(() => {
+    if (variant !== "simulation") setSubmitted(disabled);
+  }, [disabled, variant]);
 
   function handlePlayPause() {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
@@ -101,15 +128,17 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
   }
 
   function handleSelect(idx: number) {
-    if (submitted) return;
-    setSelected(idx);
     if (variant === "simulation") {
-      // In simulation mode, selecting a choice immediately records the answer
+      // Simulation: never lock; clicking again switches the selection.
+      // No feedback, no green/red, no explanation — just record the new pick.
       if (typeof window !== "undefined") window.speechSynthesis?.cancel();
       setTtsPlaying(false);
-      setSubmitted(true);
+      setSelected(idx);
       onSubmit(idx);
+      return;
     }
+    if (submitted) return;
+    setSelected(idx);
   }
 
   function handleSubmit() {
@@ -159,7 +188,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
               }}
             >
               {ttsPlaying ? <Pause size={16} /> : <Play size={16} />}
-              {ttsPlaying ? "עצור" : "נגן הרצאה"}
+              {ttsPlaying ? t.practice.stopLecture : t.practice.playLecture}
             </button>
 
             {ttsPlaying && (
@@ -173,7 +202,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
               </div>
             )}
             {!ttsSupported && (
-              <span style={{ fontSize: "0.75rem", color: "var(--danger)" }}>Audio not supported</span>
+              <span style={{ fontSize: "0.75rem", color: "var(--danger)" }}>{t.practice.audioUnsupported}</span>
             )}
           </div>
 
@@ -187,7 +216,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
             }}
           >
             {showTranscript ? <EyeOff size={13} /> : <Eye size={13} />}
-            {showTranscript ? "הסתר תמליל" : "הצג תמליל (לתרגול בלבד)"}
+            {showTranscript ? t.practice.hideTranscript : t.practice.showTranscript}
           </button>
 
           {showTranscript && (
@@ -196,7 +225,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
               padding: "0.875rem 1rem", fontSize: "0.875rem", lineHeight: 1.75, color: "var(--ink-soft)",
             }}>
               <p style={{ margin: "0 0 0.35rem", fontSize: "0.68rem", fontWeight: 700, color: "var(--warn)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
-                📖 Transcript — לא גלוי במבחן
+                {t.practice.transcriptHidden}
               </p>
               <p className="ltr-content" style={{ margin: 0 }}>{question.passage.body}</p>
             </div>
@@ -217,20 +246,15 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
               {question.passage.title}
             </p>
           )}
-          <p style={{ margin: 0, color: "var(--ink-soft)" }}>
-            {question.passage.body.split("___").map((part, i, arr) =>
-              i < arr.length - 1 ? (
-                <span key={i}>
-                  {part}
-                  <span style={{
-                    display: "inline-block", minWidth: "4rem",
-                    borderBottom: "2.5px solid var(--teal)", marginInline: "0.2rem",
-                    color: "var(--teal)", fontWeight: 700, textAlign: "center",
-                  }}>{"___"}</span>
-                </span>
-              ) : <span key={i}>{part}</span>
-            )}
-          </p>
+          {question.passage.body
+            .split(/\n{2,}/)
+            .map((p) => p.trim())
+            .filter(Boolean)
+            .map((para, i, arr) => (
+              <p key={i} style={{ margin: 0, marginBottom: i < arr.length - 1 ? "0.875rem" : 0, color: "var(--ink-soft)" }}>
+                {renderBlanks(para)}
+              </p>
+            ))}
           {question.passage.source && (
             <footer style={{ marginTop: "0.625rem", fontSize: "0.75rem", color: "var(--ink-muted)" }}>
               — {question.passage.source}
@@ -248,7 +272,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
         border: "1px solid var(--line)",
         textAlign: "left",
       }}>
-        {question.text}
+        {renderBlanks(question.text)}
       </div>
 
       {/* ── Choices ── */}
@@ -292,28 +316,33 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
             disabled={selected === null}
             style={{ minWidth: 140 }}
           >
-            שלח תשובה
+            {t.practice.submitAnswer}
           </button>
         </div>
       )}
 
       {/* ── Feedback ── */}
       {submitted && showFeedback && (
-        <div className="animate-fade-up card" style={{
-          padding: "1.125rem 1.25rem",
-          borderColor: isCorrect ? "var(--success)" : "var(--danger)",
-          background: isCorrect ? "var(--success-sub)" : "var(--danger-sub)",
-          display: "flex", flexDirection: "column", gap: "0.75rem",
-        }}>
+        <div
+          ref={feedbackRef}
+          className={`animate-explanation-reveal card${isCorrect ? " animate-pulse-ok" : ""}`}
+          aria-live="polite"
+          style={{
+            padding: "1.125rem 1.25rem",
+            borderColor: isCorrect ? "var(--success)" : "var(--danger)",
+            background: isCorrect ? "var(--success-sub)" : "var(--danger-sub)",
+            display: "flex", flexDirection: "column", gap: "0.75rem",
+          }}
+        >
           {/* Result header */}
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <span style={{ fontSize: "1.1rem" }}>{isCorrect ? "✓" : "✗"}</span>
             <p style={{ fontWeight: 700, color: isCorrect ? "var(--success)" : "var(--danger)", margin: 0, fontSize: "0.95rem" }}>
-              {isCorrect ? correctMsg : "לא נכון"}
+              {isCorrect ? correctMsg : t.practice.incorrectLabel}
             </p>
             {question.isSkillBooster && (
-              <span style={{ fontSize: "0.68rem", padding: "0.1rem 0.45rem", borderRadius: 999, background: "var(--teal-sub)", color: "var(--teal)", fontWeight: 700, marginRight: "auto" }}>
-                חיזוק מיומנות
+              <span style={{ fontSize: "0.68rem", padding: "0.1rem 0.45rem", borderRadius: 999, background: "var(--teal-sub)", color: "var(--teal)", fontWeight: 700, marginInlineStart: "auto" }}>
+                {t.practice.skillBoosterTag}
               </span>
             )}
           </div>
@@ -339,7 +368,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
               display: "flex", flexDirection: "column", gap: "0.25rem",
             }}>
               <span style={{ fontSize: "0.68rem", fontWeight: 700, color: "var(--ink-muted)", textTransform: "uppercase", letterSpacing: "0.06em" }}>
-                הסבר בעברית
+                {t.practice.hebrewExplanation}
               </span>
               <p style={{ margin: 0, color: "var(--ink-soft)", fontSize: "0.85rem", lineHeight: 1.7, direction: "rtl" }}>
                 {question.hebrewExplanation}
@@ -350,7 +379,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
           {/* Vocabulary words */}
           {question.vocabularyWords && question.vocabularyWords.length > 0 && (
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.35rem", alignItems: "center" }}>
-              <span style={{ fontSize: "0.7rem", color: "var(--ink-muted)", fontWeight: 600 }}>מילים מפתח:</span>
+              <span style={{ fontSize: "0.7rem", color: "var(--ink-muted)", fontWeight: 600 }}>{t.practice.keyWords}</span>
               {question.vocabularyWords.map((w) => (
                 <span key={w} style={{
                   fontSize: "0.75rem", padding: "0.15rem 0.5rem", borderRadius: 999,
@@ -376,7 +405,7 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
                   transition: "opacity 0.15s",
                 }}
               >
-                ⚡ תרגל שאלות דומות →
+                ⚡ {t.practice.practiceSimilar}
               </Link>
             </div>
           )}

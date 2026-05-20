@@ -11,6 +11,7 @@ import {
 } from "@/lib/vocab/vocab-store";
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
 import SwipeCard from "./SwipeCard";
+import { useLang } from "@/contexts/LanguageContext";
 
 type HistoryEntry = { action: "known" | "missed"; item: VocabItem; prevState: VocabReviewState };
 
@@ -32,6 +33,7 @@ interface Props {
 }
 
 export default function CustomVocabSession({ items, onExit, onRestart }: Props) {
+  const { t } = useLang();
   const [sessionItems] = useState<VocabItem[]>(() => shuffle(items).slice(0, SESSION_SIZE));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [knew, setKnew] = useState(0);
@@ -124,8 +126,8 @@ export default function CustomVocabSession({ items, onExit, onRestart }: Props) 
     return (
       <div className="animate-fade-up" style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
         <div className="card" style={{ padding: "2rem", maxWidth: "420px", width: "100%", textAlign: "center" }}>
-          <p style={{ fontSize: "1rem", color: "var(--ink-soft)", marginBottom: "1rem" }}>אין מילים לתרגול</p>
-          <button className="btn btn-ghost" onClick={onExit}>← חזרה לרשימה</button>
+          <p style={{ fontSize: "1rem", color: "var(--ink-soft)", marginBottom: "1rem" }}>{t.vocab.customNoWords}</p>
+          <button className="btn btn-ghost" onClick={onExit}>{t.vocab.customBackToList}</button>
         </div>
       </div>
     );
@@ -138,13 +140,15 @@ export default function CustomVocabSession({ items, onExit, onRestart }: Props) 
       <div className="animate-fade-up" style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
         <div className="card" style={{ padding: "28px 20px", maxWidth: "420px", width: "100%", textAlign: "center" }}>
           <div style={{ fontSize: "2.5rem", marginBottom: "6px" }}>{accuracy >= 70 ? "🎉" : "💪"}</div>
-          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 800, marginBottom: "6px" }}>סיום סבב!</h2>
+          <h2 style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 800, marginBottom: "6px" }}>
+            {t.vocab.customRoundDone}
+          </h2>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: "8px", marginBottom: "16px" }}>
             {[
-              { label: "ידעתי",    value: knew,         color: "var(--teal)" },
-              { label: "לא ידעתי", value: missed,       color: "var(--danger)" },
-              { label: "דיוק",     value: `${accuracy}%`, color: accuracy >= 70 ? "var(--success)" : "var(--warn)" },
+              { label: t.vocab.statKnew,     value: knew,           color: "var(--teal)" },
+              { label: t.vocab.statMissed,   value: missed,         color: "var(--danger)" },
+              { label: t.vocab.statAccuracy, value: `${accuracy}%`, color: accuracy >= 70 ? "var(--success)" : "var(--warn)" },
             ].map(({ label, value, color }) => (
               <div key={label} style={{ background: "var(--raised)", borderRadius: "8px", padding: "10px 4px", border: "1px solid var(--line)" }}>
                 <div style={{ fontSize: "1.2rem", fontWeight: 800, color }}>{value}</div>
@@ -159,7 +163,7 @@ export default function CustomVocabSession({ items, onExit, onRestart }: Props) 
               borderRadius: "10px", padding: "12px", marginBottom: "14px",
             }}>
               <p style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--danger)", marginBottom: "8px" }}>
-                לא ידעת ({sessionMissedItems.length})
+                {t.vocab.customMissedSummary.replace("{n}", String(sessionMissedItems.length))}
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", justifyContent: "center" }}>
                 {sessionMissedItems.map((v) => (
@@ -178,8 +182,8 @@ export default function CustomVocabSession({ items, onExit, onRestart }: Props) 
           )}
 
           <div style={{ display: "flex", gap: "8px" }}>
-            <button className="btn btn-ghost" onClick={onExit} style={{ flex: 1 }}>← לרשימה</button>
-            <button className="btn btn-primary" onClick={onRestart} style={{ flex: 1 }}>סבב חדש →</button>
+            <button className="btn btn-ghost" onClick={onExit} style={{ flex: 1 }}>{t.vocab.customBackToList}</button>
+            <button className="btn btn-primary" onClick={onRestart} style={{ flex: 1 }}>{t.vocab.customNewRound}</button>
           </div>
         </div>
       </div>
@@ -187,14 +191,14 @@ export default function CustomVocabSession({ items, onExit, onRestart }: Props) 
   }
 
   if (!currentItem || !currentState) {
-    return <div style={{ textAlign: "center", padding: "48px", color: "var(--ink-muted)" }}>טוען...</div>;
+    return <div style={{ textAlign: "center", padding: "48px", color: "var(--ink-muted)" }}>{t.vocab.customLoading}</div>;
   }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
         <button className="btn btn-ghost btn-sm" onClick={onExit} style={{ flexShrink: 0, fontSize: "0.75rem" }}>
-          ← לרשימה
+          {t.vocab.customBackToList}
         </button>
         <div style={{ flex: 1 }}>
           <div className="progress-track">
@@ -207,7 +211,7 @@ export default function CustomVocabSession({ items, onExit, onRestart }: Props) 
       </div>
 
       <p style={{ fontSize: "0.68rem", color: "var(--ink-muted)", textAlign: "center", margin: 0 }}>
-        ← לא ידעתי · Space הפוך · ידעתי → · S סימן · Z חזור
+        {t.vocab.customKeyboardHint}
       </p>
 
       <SwipeCard

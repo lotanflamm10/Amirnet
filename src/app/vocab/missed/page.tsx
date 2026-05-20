@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
+"use client";
 import { MissedWordsList } from "@/components/vocab/MissedWordsList";
-
-export const metadata: Metadata = { title: "מילים שלא ידעתי | AMIRNET" };
+import { useLang } from "@/contexts/LanguageContext";
 
 export default function VocabMissedPage() {
+  const { t } = useLang();
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
       <div>
         <h1 style={{ fontFamily: "var(--font-display)", fontSize: "1.5rem", fontWeight: 800, color: "var(--ink)", margin: "0 0 0.25rem" }}>
-          לא ידעתי / Missed Words
+          {t.vocab.missedPageTitle}
         </h1>
         <p style={{ fontSize: "0.85rem", color: "var(--ink-muted)", margin: 0 }}>
-          כל המילים שסימנת &quot;לא ידעתי&quot; — ממוינות לפי תדירות פספוסים
+          {t.vocab.missedPageSubtitle}
         </p>
       </div>
       <MissedWordsList />

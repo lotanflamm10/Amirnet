@@ -4,7 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Translations } from "@/lib/i18n/translations";
 import { useTheme, DEFAULT_PRIMARY, DEFAULT_BG_HUE_DARK, DEFAULT_BG_HUE_LIGHT } from "@/contexts/ThemeContext";
+import { BrandMark } from "@/components/brand/BrandMark";
+import { NavIcon, Sun, Moon, Monitor, Globe } from "@/components/icons/NavIcons";
+import { Tag } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
+// ─── Helpers: accent hue ──────────────────────────────────────────────────────
 function hexToHue(hex: string): number {
   const h = hex.replace("#", "");
   const r = parseInt(h.slice(0, 2), 16) / 255;
@@ -38,23 +43,30 @@ function hueToHex(hue: number, isDark: boolean): string {
   return "#" + [r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("");
 }
 
+// ─── Nav items ────────────────────────────────────────────────────────────────
 type Props = { t: Translations; lang: string; toggleLang: () => void; theme: string; toggleTheme: () => void };
 
 const NAV = (t: Translations) => [
-  { href: "/app",              label: t.nav.dashboard,     icon: NavDashboard     },
-  { href: "/practice",         label: t.nav.practice,      icon: NavPractice      },
-  { href: "/learning-engine",  label: t.nav.learningEngine, icon: NavLearn        },
-  { href: "/simulation",       label: t.nav.simulation,    icon: NavSimulation    },
-  { href: "/challenge",        label: t.nav.challenge,     icon: NavChallenge     },
-  { href: "/vocab",            label: t.nav.vocab,         icon: NavVocab         },
-  { href: "/review",           label: t.nav.review,        icon: NavReview        },
+  { href: "/app",             label: t.nav.dashboard,      icon: "dashboard"      },
+  { href: "/practice",        label: t.nav.practice,       icon: "practice"       },
+  { href: "/learning-engine", label: t.nav.learningEngine, icon: "learningEngine" },
+  { href: "/simulation",      label: t.nav.simulation,     icon: "simulation"     },
+  { href: "/challenge",       label: t.nav.challenge,      icon: "challenge"      },
+  { href: "/vocab",           label: t.nav.vocab,          icon: "vocab"          },
+  { href: "/review",          label: t.nav.review,         icon: "review"         },
 ];
+
+const THEME_CYCLE: Record<string, { labelKey: keyof Translations["sidebar"]; Icon: LucideIcon }> = {
+  dark:   { labelKey: "themeDark",   Icon: Moon },
+  light:  { labelKey: "themeLight",  Icon: Sun },
+  system: { labelKey: "themeSystem", Icon: Monitor },
+};
 
 export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
   const path = usePathname();
-  const { settings, setPrimary, resetPrimary, setBgHue, resetBgHue } = useTheme();
+  const { settings, effectiveMode, setPrimary, resetPrimary, setBgHue, resetBgHue } = useTheme();
   const [hue, setHue] = useState(180);
-  const defaultBgHue = settings.mode === "dark" ? DEFAULT_BG_HUE_DARK : DEFAULT_BG_HUE_LIGHT;
+  const defaultBgHue = effectiveMode === "dark" ? DEFAULT_BG_HUE_DARK : DEFAULT_BG_HUE_LIGHT;
   const [bgHue, setBgHueLocal] = useState(settings.bgHue ?? defaultBgHue);
 
   useEffect(() => {
@@ -64,16 +76,16 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
           : DEFAULT_PRIMARY)
       : settings.primary;
     if (primary.startsWith("#") && primary.length === 7) setHue(hexToHue(primary));
-  }, [settings.primary, settings.mode]);
+  }, [settings.primary, effectiveMode]);
 
   useEffect(() => {
-    setBgHueLocal(settings.bgHue ?? (settings.mode === "dark" ? DEFAULT_BG_HUE_DARK : DEFAULT_BG_HUE_LIGHT));
-  }, [settings.bgHue, settings.mode]);
+    setBgHueLocal(settings.bgHue ?? (effectiveMode === "dark" ? DEFAULT_BG_HUE_DARK : DEFAULT_BG_HUE_LIGHT));
+  }, [settings.bgHue, effectiveMode]);
 
   function handleHueChange(e: React.ChangeEvent<HTMLInputElement>) {
     const h = Number(e.target.value);
     setHue(h);
-    setPrimary(hueToHex(h, settings.mode === "dark"));
+    setPrimary(hueToHex(h, effectiveMode === "dark"));
   }
 
   function handleBgHueChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -82,6 +94,9 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
     setBgHue(h);
   }
 
+  const themeCtrl = THEME_CYCLE[theme] ?? THEME_CYCLE.dark;
+  const ThemeIconComponent = themeCtrl.Icon;
+
   return (
     <aside
       className="sidebar-nav hidden lg:flex flex-col fixed top-0 h-full w-64 z-50"
@@ -89,25 +104,14 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
     >
       {/* Brand */}
       <div style={{ padding: "1.25rem 1.25rem 1rem", borderBottom: "1px solid var(--line)" }}>
-        <Link href="/" style={{ display: "flex", alignItems: "center", gap: "0.625rem", textDecoration: "none" }}>
-          <div style={{
-            width: 36, height: 36, borderRadius: 10,
-            background: "linear-gradient(135deg, var(--teal) 0%, #0994CC 100%)",
-            display: "flex", alignItems: "center", justifyContent: "center",
-            flexShrink: 0, boxShadow: "0 2px 8px rgba(13,203,177,0.3)",
-          }}>
-            <span style={{ color: "#fff", fontSize: "0.9rem", fontWeight: 900, fontFamily: "var(--font-display)", letterSpacing: "-0.02em" }}>A</span>
-          </div>
-          <div>
-            <div style={{ fontSize: "0.8rem", fontWeight: 800, letterSpacing: "0.08em", color: "var(--teal)", textTransform: "uppercase", lineHeight: 1 }}>AMIRNET</div>
-            <div style={{ fontSize: "0.72rem", color: "var(--ink-muted)", lineHeight: 1.3, marginTop: 1 }}>Trainer</div>
-          </div>
+        <Link href="/" style={{ textDecoration: "none" }}>
+          <BrandMark size={36} showName showTagline={false} />
         </Link>
       </div>
 
       {/* Primary Nav */}
-      <nav style={{ flex: 1, padding: "0.75rem 0.75rem", display: "flex", flexDirection: "column", gap: "0.125rem", overflowY: "auto" }}>
-        {NAV(t).map(({ href, label, icon: Icon }) => {
+      <nav style={{ flex: 1, padding: "0.75rem", display: "flex", flexDirection: "column", gap: "0.125rem", overflowY: "auto" }}>
+        {NAV(t).map(({ href, label, icon }) => {
           const active = path === href || (href !== "/" && path.startsWith(href));
           return (
             <Link key={href} href={href}
@@ -118,10 +122,12 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
                 transition: "all 0.15s ease",
                 background: active ? "var(--teal-sub)" : "transparent",
                 color: active ? "var(--teal)" : "var(--ink-soft)",
-                borderLeft: active ? "2px solid var(--teal)" : "2px solid transparent",
+                // Logical property: paints on the side closest to the
+                // sidebar edge — right in RTL (Hebrew), left in LTR (English).
+                borderInlineStart: active ? "2px solid var(--teal)" : "2px solid transparent",
               }}
             >
-              <Icon active={active} />
+              <NavIcon name={icon} size={17} color={active ? "var(--teal)" : "var(--ink-muted)"} />
               <span>{label}</span>
             </Link>
           );
@@ -137,19 +143,20 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
             transition: "all 0.15s",
           }}
         >
-          <NavIcon size={16} opacity={0.6}>◇</NavIcon>
+          <Tag size={16} color="var(--ink-muted)" strokeWidth={2} />
           {t.nav.pricing}
         </Link>
       </nav>
 
       {/* Controls */}
       <div style={{ borderTop: "1px solid var(--line)" }}>
-        {/* Color + BG sliders — shared horizontal padding ensures equal width */}
+        {/* Color + BG sliders */}
         <div style={{ padding: "0.75rem 0.75rem 0.5rem", display: "flex", flexDirection: "column", gap: "0.625rem" }}>
           {[
             {
-              label: "צבע / Color",
-              dot: hueToHex(hue, settings.mode === "dark"),
+              key: "color",
+              label: t.sidebar.colorLabel,
+              dot: hueToHex(hue, effectiveMode === "dark"),
               dotRadius: "50%",
               value: hue,
               onChange: handleHueChange,
@@ -157,30 +164,23 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
               onReset: resetPrimary,
             },
             {
-              label: "רקע / BG",
-              dot: `hsl(${bgHue}, 55%, ${settings.mode === "dark" ? "22%" : "80%"})`,
+              key: "bg",
+              label: t.sidebar.bgLabel,
+              dot: `hsl(${bgHue}, 55%, ${effectiveMode === "dark" ? "22%" : "80%"})`,
               dotRadius: "3px",
               value: bgHue,
               onChange: handleBgHueChange,
               showReset: settings.bgHue !== null && settings.bgHue !== undefined,
               onReset: resetBgHue,
             },
-          ].map(({ label, dot, dotRadius, value, onChange, showReset, onReset }) => (
-            <div key={label}>
+          ].map(({ key, label, dot, dotRadius, value, onChange, showReset, onReset }) => (
+            <div key={key}>
               <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.35rem" }}>
-                <div style={{
-                  width: 12, height: 12, borderRadius: dotRadius, flexShrink: 0,
-                  background: dot, border: "1.5px solid var(--line)",
-                }} />
-                <span style={{ fontSize: "0.7rem", color: "var(--ink-muted)", fontFamily: "var(--font-body)", flex: 1 }}>
-                  {label}
-                </span>
+                <div style={{ width: 12, height: 12, borderRadius: dotRadius, flexShrink: 0, background: dot, border: "1.5px solid var(--line)" }} />
+                <span style={{ fontSize: "0.7rem", color: "var(--ink-muted)", fontFamily: "var(--font-body)", flex: 1 }}>{label}</span>
                 {showReset && (
-                  <button onClick={onReset} style={{
-                    fontSize: "0.65rem", color: "var(--ink-muted)", background: "none",
-                    border: "none", cursor: "pointer", padding: 0, fontFamily: "var(--font-body)",
-                  }}>
-                    איפוס
+                  <button onClick={onReset} style={{ fontSize: "0.65rem", color: "var(--ink-muted)", background: "none", border: "none", cursor: "pointer", padding: 0, fontFamily: "var(--font-body)" }}>
+                    {t.sidebar.reset}
                   </button>
                 )}
               </div>
@@ -191,7 +191,9 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
 
         {/* Theme / Lang buttons */}
         <div style={{ padding: "0 0.75rem 0.75rem", display: "flex", gap: "0.5rem" }}>
-          <button onClick={toggleTheme}
+          <button
+            onClick={toggleTheme}
+            aria-label={`Switch theme (current: ${theme})`}
             style={{
               flex: 1, padding: "0.6rem 0.75rem", borderRadius: 8, border: "1.5px solid var(--line)",
               background: "var(--raised)", color: "var(--ink)", cursor: "pointer",
@@ -200,84 +202,24 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
               fontFamily: "var(--font-body)",
             }}
           >
-            {theme === "dark" ? "☀️" : "🌙"} {theme === "dark" ? "בהיר" : "כהה"}
+            <ThemeIconComponent size={14} strokeWidth={2} />
+            {t.sidebar[themeCtrl.labelKey]}
           </button>
-          <button onClick={toggleLang}
+          <button
+            onClick={toggleLang}
+            aria-label="Switch language"
             style={{
               padding: "0.6rem 0.75rem", borderRadius: 8, border: "1.5px solid var(--line)",
               background: "var(--raised)", color: "var(--ink)", cursor: "pointer",
               fontSize: "0.8rem", fontWeight: 600, transition: "all 0.15s",
-              fontFamily: "var(--font-body)",
+              fontFamily: "var(--font-body)", display: "flex", alignItems: "center", gap: "0.35rem",
             }}
           >
+            <Globe size={14} strokeWidth={2} />
             {lang === "he" ? "EN" : "עב"}
           </button>
         </div>
       </div>
     </aside>
-  );
-}
-
-function NavIcon({ children, size = 18, opacity = 1 }: { children: React.ReactNode; size?: number; opacity?: number }) {
-  return (
-    <span style={{
-      width: size, height: size, display: "flex", alignItems: "center",
-      justifyContent: "center", fontSize: size * 0.85, flexShrink: 0, opacity,
-    }}>{children}</span>
-  );
-}
-
-function NavDashboard({ active }: { active: boolean }) {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={active ? "var(--teal)" : "var(--ink-muted)"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="3" y="3" width="7" height="7" rx="1" />
-      <rect x="14" y="3" width="7" height="7" rx="1" />
-      <rect x="3" y="14" width="7" height="7" rx="1" />
-      <rect x="14" y="14" width="7" height="7" rx="1" />
-    </svg>
-  );
-}
-function NavPractice({ active }: { active: boolean }) {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={active ? "var(--teal)" : "var(--ink-muted)"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />
-    </svg>
-  );
-}
-function NavSimulation({ active }: { active: boolean }) {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={active ? "var(--teal)" : "var(--ink-muted)"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="12" cy="12" r="10" />
-      <polygon points="10 8 16 12 10 16 10 8" fill={active ? "var(--teal)" : "var(--ink-muted)"} />
-    </svg>
-  );
-}
-function NavChallenge({ active }: { active: boolean }) {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={active ? "var(--teal)" : "var(--ink-muted)"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-    </svg>
-  );
-}
-function NavVocab({ active }: { active: boolean }) {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={active ? "var(--teal)" : "var(--ink-muted)"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M4 19.5A2.5 2.5 0 016.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
-    </svg>
-  );
-}
-function NavReview({ active }: { active: boolean }) {
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={active ? "var(--teal)" : "var(--ink-muted)"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <polyline points="23 4 23 10 17 10" /><path d="M20.49 15a9 9 0 11-2.12-9.36L23 10" />
-    </svg>
-  );
-}
-function NavLearn({ active }: { active: boolean }) {
-  const c = active ? "var(--teal)" : "var(--ink-muted)";
-  return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={c} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M9 18h6M10 22h4M12 2a7 7 0 017 7c0 2.5-1.3 4.7-3.3 6H8.3A7 7 0 0112 2z" />
-    </svg>
   );
 }

@@ -1,0 +1,608 @@
+{
+  "reading": [
+    {
+      "id": "rsim06-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "The human microbiome is a passive collection of harmless bacteria that the body merely tolerates.",
+        "The microbiome is now understood as an active partner that shapes digestion, immunity and even behavior, complicating the boundary between self and microbe.",
+        "Antibiotics are the most effective tool for managing all microbiome-related diseases.",
+        "Modern hygiene has eliminated most of the bacteria that live in the human gut."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that what was once dismissed as a harmless cargo of bacteria is now understood as an active partner whose composition influences many bodily systems, blurring the older notion of a self-contained human body.",
+      "wrongReasons": [
+        "The passage rejects the 'passive collection' view as outdated.",
+        "Antibiotics are described as one factor that can disturb the microbiome, not as a universal solution.",
+        "The passage notes that gut microbes remain abundant; modern hygiene shifts their composition rather than eliminating them."
+      ],
+      "passage": {
+        "id": "rsim06-passage",
+        "title": "The Body's Hidden Ecosystem",
+        "body": "For a long time, the bacteria living inside the human body were treated as background detail. They were tolerated, perhaps occasionally useful, but essentially separate from the systems that mattered to medicine. The development of fast genetic sequencing in the 2000s changed this picture in a way few researchers had anticipated. By reading the DNA of microbes directly from samples of skin, mouth, and intestine, scientists discovered that a typical adult carries trillions of microorganisms from thousands of species — collectively known as the microbiome.\n\nWhat emerged was not a passive cargo but an active ecosystem. Gut bacteria help break down dietary fibers that human enzymes cannot touch, producing short-chain fatty acids that nourish the cells lining the intestine. They train the developing immune system, teaching it to distinguish dangerous invaders from harmless residents. Some species even synthesize vitamins and influence the production of signaling molecules that reach the brain through nerves and the bloodstream. Disturbing the community — through repeated antibiotic courses, an extremely low-fiber diet, or chronic stress — has measurable downstream effects on inflammation, mood, and metabolism.\n\nA growing body of clinical work is asking what to do with these findings. Faecal microbial transplants now cure certain stubborn intestinal infections that resist antibiotics, and diets rich in fermented foods have been shown to broaden microbial diversity in healthy volunteers. None of this means the microbiome explains every illness, as some popular accounts suggest. But it does mean that the older picture of the human body as a tightly bounded organism, isolated from the microbes it carries, no longer captures how the body actually works."
+      }
+    },
+    {
+      "id": "rsim06-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what role do gut bacteria play in digestion?",
+      "choices": [
+        "They replace the function of the human digestive enzymes entirely.",
+        "They break down dietary fibers that human enzymes cannot digest, producing short-chain fatty acids that nourish intestinal cells.",
+        "They produce all of the vitamins the body needs.",
+        "They prevent the absorption of nutrients from food."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 explicitly attributes this digestive role to gut bacteria, including the production of short-chain fatty acids that feed the cells of the intestinal lining.",
+      "wrongReasons": [
+        "The passage describes the microbes as complementing, not replacing, human digestion.",
+        "Bacteria synthesize 'some' vitamins, not all of them.",
+        "The opposite is true — they support nutrient processing rather than blocking it."
+      ],
+      "passage": {
+        "id": "rsim06-passage",
+        "title": "The Body's Hidden Ecosystem",
+        "body": "For a long time, the bacteria living inside the human body were treated as background detail. They were tolerated, perhaps occasionally useful, but essentially separate from the systems that mattered to medicine. The development of fast genetic sequencing in the 2000s changed this picture in a way few researchers had anticipated. By reading the DNA of microbes directly from samples of skin, mouth, and intestine, scientists discovered that a typical adult carries trillions of microorganisms from thousands of species — collectively known as the microbiome.\n\nWhat emerged was not a passive cargo but an active ecosystem. Gut bacteria help break down dietary fibers that human enzymes cannot touch, producing short-chain fatty acids that nourish the cells lining the intestine. They train the developing immune system, teaching it to distinguish dangerous invaders from harmless residents. Some species even synthesize vitamins and influence the production of signaling molecules that reach the brain through nerves and the bloodstream. Disturbing the community — through repeated antibiotic courses, an extremely low-fiber diet, or chronic stress — has measurable downstream effects on inflammation, mood, and metabolism.\n\nA growing body of clinical work is asking what to do with these findings. Faecal microbial transplants now cure certain stubborn intestinal infections that resist antibiotics, and diets rich in fermented foods have been shown to broaden microbial diversity in healthy volunteers. None of this means the microbiome explains every illness, as some popular accounts suggest. But it does mean that the older picture of the human body as a tightly bounded organism, isolated from the microbes it carries, no longer captures how the body actually works."
+      }
+    },
+    {
+      "id": "rsim06-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about repeated antibiotic use?",
+      "choices": [
+        "It has no measurable effect on the microbiome.",
+        "It can disturb the microbial community and produce downstream effects on inflammation, mood, and metabolism.",
+        "It always eliminates the microbiome permanently.",
+        "It is the only known method for treating intestinal infections."
+      ],
+      "answer": 1,
+      "explanation": "The passage lists repeated antibiotic courses alongside low-fibre diets and chronic stress as disturbances of the microbial community with downstream effects.",
+      "wrongReasons": [
+        "The passage states the opposite — antibiotics are a recognized disturbance.",
+        "The text describes disturbance, not permanent elimination.",
+        "Faecal transplants are described as another effective treatment, so antibiotics are not the only method."
+      ],
+      "passage": {
+        "id": "rsim06-passage",
+        "title": "The Body's Hidden Ecosystem",
+        "body": "For a long time, the bacteria living inside the human body were treated as background detail. They were tolerated, perhaps occasionally useful, but essentially separate from the systems that mattered to medicine. The development of fast genetic sequencing in the 2000s changed this picture in a way few researchers had anticipated. By reading the DNA of microbes directly from samples of skin, mouth, and intestine, scientists discovered that a typical adult carries trillions of microorganisms from thousands of species — collectively known as the microbiome.\n\nWhat emerged was not a passive cargo but an active ecosystem. Gut bacteria help break down dietary fibers that human enzymes cannot touch, producing short-chain fatty acids that nourish the cells lining the intestine. They train the developing immune system, teaching it to distinguish dangerous invaders from harmless residents. Some species even synthesize vitamins and influence the production of signaling molecules that reach the brain through nerves and the bloodstream. Disturbing the community — through repeated antibiotic courses, an extremely low-fiber diet, or chronic stress — has measurable downstream effects on inflammation, mood, and metabolism.\n\nA growing body of clinical work is asking what to do with these findings. Faecal microbial transplants now cure certain stubborn intestinal infections that resist antibiotics, and diets rich in fermented foods have been shown to broaden microbial diversity in healthy volunteers. None of this means the microbiome explains every illness, as some popular accounts suggest. But it does mean that the older picture of the human body as a tightly bounded organism, isolated from the microbes it carries, no longer captures how the body actually works."
+      }
+    },
+    {
+      "id": "rsim06-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the phrase \"as some popular accounts suggest\" most nearly conveys that the author:",
+      "choices": [
+        "endorses every popular claim made about the microbiome",
+        "is distancing the argument from exaggerated public claims",
+        "is repeating a personal anecdote",
+        "is summarizing a particular clinical trial"
+      ],
+      "answer": 1,
+      "explanation": "The phrase signals that the author is pushing back against overheated public claims, qualifying the genuine findings so they are not conflated with hype.",
+      "wrongReasons": [
+        "The author does the opposite — distancing from, not endorsing, those claims.",
+        "There is no anecdote here, only a contrast with overstated assertions.",
+        "No specific trial is summarized in this clause."
+      ],
+      "passage": {
+        "id": "rsim06-passage",
+        "title": "The Body's Hidden Ecosystem",
+        "body": "For a long time, the bacteria living inside the human body were treated as background detail. They were tolerated, perhaps occasionally useful, but essentially separate from the systems that mattered to medicine. The development of fast genetic sequencing in the 2000s changed this picture in a way few researchers had anticipated. By reading the DNA of microbes directly from samples of skin, mouth, and intestine, scientists discovered that a typical adult carries trillions of microorganisms from thousands of species — collectively known as the microbiome.\n\nWhat emerged was not a passive cargo but an active ecosystem. Gut bacteria help break down dietary fibers that human enzymes cannot touch, producing short-chain fatty acids that nourish the cells lining the intestine. They train the developing immune system, teaching it to distinguish dangerous invaders from harmless residents. Some species even synthesize vitamins and influence the production of signaling molecules that reach the brain through nerves and the bloodstream. Disturbing the community — through repeated antibiotic courses, an extremely low-fiber diet, or chronic stress — has measurable downstream effects on inflammation, mood, and metabolism.\n\nA growing body of clinical work is asking what to do with these findings. Faecal microbial transplants now cure certain stubborn intestinal infections that resist antibiotics, and diets rich in fermented foods have been shown to broaden microbial diversity in healthy volunteers. None of this means the microbiome explains every illness, as some popular accounts suggest. But it does mean that the older picture of the human body as a tightly bounded organism, isolated from the microbes it carries, no longer captures how the body actually works."
+      }
+    },
+    {
+      "id": "rsim06-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "How does the third paragraph relate to the rest of the passage?",
+      "choices": [
+        "It overturns the claims made in the first two paragraphs.",
+        "It applies the findings introduced earlier to clinical practice while also warning against overstatement.",
+        "It introduces an unrelated topic about hygiene and infection.",
+        "It restates the first paragraph word for word."
+      ],
+      "answer": 1,
+      "explanation": "After establishing the science (paragraph 1) and the active role of the microbiome (paragraph 2), the third paragraph turns to clinical applications and adds a measured caveat — applying the findings while guarding against exaggeration.",
+      "wrongReasons": [
+        "It builds on, rather than overturns, the previous paragraphs.",
+        "Hygiene and infection are not the focus; clinical applications and a caution are.",
+        "It is a development of the argument, not a restatement."
+      ],
+      "passage": {
+        "id": "rsim06-passage",
+        "title": "The Body's Hidden Ecosystem",
+        "body": "For a long time, the bacteria living inside the human body were treated as background detail. They were tolerated, perhaps occasionally useful, but essentially separate from the systems that mattered to medicine. The development of fast genetic sequencing in the 2000s changed this picture in a way few researchers had anticipated. By reading the DNA of microbes directly from samples of skin, mouth, and intestine, scientists discovered that a typical adult carries trillions of microorganisms from thousands of species — collectively known as the microbiome.\n\nWhat emerged was not a passive cargo but an active ecosystem. Gut bacteria help break down dietary fibers that human enzymes cannot touch, producing short-chain fatty acids that nourish the cells lining the intestine. They train the developing immune system, teaching it to distinguish dangerous invaders from harmless residents. Some species even synthesize vitamins and influence the production of signaling molecules that reach the brain through nerves and the bloodstream. Disturbing the community — through repeated antibiotic courses, an extremely low-fiber diet, or chronic stress — has measurable downstream effects on inflammation, mood, and metabolism.\n\nA growing body of clinical work is asking what to do with these findings. Faecal microbial transplants now cure certain stubborn intestinal infections that resist antibiotics, and diets rich in fermented foods have been shown to broaden microbial diversity in healthy volunteers. None of this means the microbiome explains every illness, as some popular accounts suggest. But it does mean that the older picture of the human body as a tightly bounded organism, isolated from the microbes it carries, no longer captures how the body actually works."
+      }
+    },
+
+    {
+      "id": "rsim07-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best captures the main idea of the passage?",
+      "choices": [
+        "Working memory has no real influence on how people learn complex subjects.",
+        "Because working memory is small, instructional design has to manage cognitive load — what to present, in what form, and how much help to give — if learning is to succeed.",
+        "Learners who feel mentally tired should simply repeat the material until it sticks.",
+        "Multimedia lessons are always more effective than text-only lessons."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that working memory's limits make the management of cognitive load — through staged practice, integrated materials and prior knowledge — the central task of effective instruction.",
+      "wrongReasons": [
+        "The opposite is true: the passage centres on the constraints working memory places on learning.",
+        "Repetition without managing load is precisely what the passage warns against.",
+        "The passage notes that multimedia helps only when it is designed to reduce, not multiply, demands on attention."
+      ],
+      "passage": {
+        "id": "rsim07-passage",
+        "title": "Cognitive Load and the Design of Lessons",
+        "body": "Cognitive psychology now treats working memory as one of the central bottlenecks in human learning. Although long-term memory has effectively unlimited capacity, working memory can hold only a handful of unrelated items at once, and these decay quickly without rehearsal. Any instruction that asks the learner to juggle too many novel pieces at the same time will therefore tend to fail — not because the learner is unmotivated, but because the relevant information is dropping out of mind before it can be processed.\n\nResearchers describe the demand a lesson places on working memory as its cognitive load. Some load is intrinsic to the material: solving simultaneous equations is harder than solving single equations no matter how well the lesson is designed. But a great deal of load is added, often unnecessarily, by the way information is presented. Diagrams placed far from the text that explains them force the learner to flip back and forth, holding both in mind. Lessons that demand independent problem-solving before any worked examples are seen leave novices spending most of their effort searching for moves rather than learning their structure. Even pleasant but distracting graphics can compete for the same limited attention.\n\nGood instructional design seeks to keep intrinsic load reasonable, strip away unnecessary extraneous load, and direct the remaining capacity toward building stable knowledge in long-term memory. In practice this means integrating diagrams with their labels, starting with worked examples before independent practice, and breaking a complex skill into manageable subskills. As learners gain experience, the same scaffolding can be withdrawn, because schemas now stored in long-term memory effectively expand the room available in working memory. Cognitive load, in short, is not an opinion about how to teach; it is a constraint that any honest instructional design has to respect."
+      }
+    },
+    {
+      "id": "rsim07-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is one example of unnecessary extraneous cognitive load?",
+      "choices": [
+        "Solving a genuinely difficult simultaneous equation.",
+        "Placing a diagram far from the text that explains it.",
+        "Allowing learners to study material at their own pace.",
+        "Reviewing material before a final exam."
+      ],
+      "answer": 1,
+      "explanation": "The second paragraph specifically identifies diagrams placed away from their explanatory text as a source of extraneous load, since the learner must hold both in mind while flipping between them.",
+      "wrongReasons": [
+        "That is intrinsic load, not extraneous load.",
+        "Self-paced study is not described as a source of load in this passage.",
+        "Reviewing for exams is not mentioned at all."
+      ],
+      "passage": {
+        "id": "rsim07-passage",
+        "title": "Cognitive Load and the Design of Lessons",
+        "body": "Cognitive psychology now treats working memory as one of the central bottlenecks in human learning. Although long-term memory has effectively unlimited capacity, working memory can hold only a handful of unrelated items at once, and these decay quickly without rehearsal. Any instruction that asks the learner to juggle too many novel pieces at the same time will therefore tend to fail — not because the learner is unmotivated, but because the relevant information is dropping out of mind before it can be processed.\n\nResearchers describe the demand a lesson places on working memory as its cognitive load. Some load is intrinsic to the material: solving simultaneous equations is harder than solving single equations no matter how well the lesson is designed. But a great deal of load is added, often unnecessarily, by the way information is presented. Diagrams placed far from the text that explains them force the learner to flip back and forth, holding both in mind. Lessons that demand independent problem-solving before any worked examples are seen leave novices spending most of their effort searching for moves rather than learning their structure. Even pleasant but distracting graphics can compete for the same limited attention.\n\nGood instructional design seeks to keep intrinsic load reasonable, strip away unnecessary extraneous load, and direct the remaining capacity toward building stable knowledge in long-term memory. In practice this means integrating diagrams with their labels, starting with worked examples before independent practice, and breaking a complex skill into manageable subskills. As learners gain experience, the same scaffolding can be withdrawn, because schemas now stored in long-term memory effectively expand the room available in working memory. Cognitive load, in short, is not an opinion about how to teach; it is a constraint that any honest instructional design has to respect."
+      }
+    },
+    {
+      "id": "rsim07-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about expert learners?",
+      "choices": [
+        "They have unlimited working memory.",
+        "They draw on schemas in long-term memory, which effectively reduces the working-memory demand of familiar tasks.",
+        "They no longer require any form of practice.",
+        "They struggle with extraneous load more than novices do."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph says that scaffolding can be withdrawn as experience grows because 'schemas now stored in long-term memory effectively expand the room available in working memory' — supporting this inference.",
+      "wrongReasons": [
+        "The passage attributes the change to long-term memory schemas, not to expanded working memory.",
+        "The passage does not claim experts stop needing practice.",
+        "The passage implies the opposite — extraneous load harms novices more, because experts can rely on stored schemas."
+      ],
+      "passage": {
+        "id": "rsim07-passage",
+        "title": "Cognitive Load and the Design of Lessons",
+        "body": "Cognitive psychology now treats working memory as one of the central bottlenecks in human learning. Although long-term memory has effectively unlimited capacity, working memory can hold only a handful of unrelated items at once, and these decay quickly without rehearsal. Any instruction that asks the learner to juggle too many novel pieces at the same time will therefore tend to fail — not because the learner is unmotivated, but because the relevant information is dropping out of mind before it can be processed.\n\nResearchers describe the demand a lesson places on working memory as its cognitive load. Some load is intrinsic to the material: solving simultaneous equations is harder than solving single equations no matter how well the lesson is designed. But a great deal of load is added, often unnecessarily, by the way information is presented. Diagrams placed far from the text that explains them force the learner to flip back and forth, holding both in mind. Lessons that demand independent problem-solving before any worked examples are seen leave novices spending most of their effort searching for moves rather than learning their structure. Even pleasant but distracting graphics can compete for the same limited attention.\n\nGood instructional design seeks to keep intrinsic load reasonable, strip away unnecessary extraneous load, and direct the remaining capacity toward building stable knowledge in long-term memory. In practice this means integrating diagrams with their labels, starting with worked examples before independent practice, and breaking a complex skill into manageable subskills. As learners gain experience, the same scaffolding can be withdrawn, because schemas now stored in long-term memory effectively expand the room available in working memory. Cognitive load, in short, is not an opinion about how to teach; it is a constraint that any honest instructional design has to respect."
+      }
+    },
+    {
+      "id": "rsim07-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the word \"intrinsic\" most nearly means:",
+      "choices": [
+        "added on by design",
+        "belonging to the material itself",
+        "easily eliminated",
+        "purely visual"
+      ],
+      "answer": 1,
+      "explanation": "The passage contrasts intrinsic load with load that is added by presentation; intrinsic load is the load that 'belongs' to the material itself.",
+      "wrongReasons": [
+        "That describes extraneous load, the opposite of intrinsic load.",
+        "Intrinsic load is precisely the load that cannot be easily eliminated.",
+        "Intrinsic load is not specifically visual; it relates to the structure of the material."
+      ],
+      "passage": {
+        "id": "rsim07-passage",
+        "title": "Cognitive Load and the Design of Lessons",
+        "body": "Cognitive psychology now treats working memory as one of the central bottlenecks in human learning. Although long-term memory has effectively unlimited capacity, working memory can hold only a handful of unrelated items at once, and these decay quickly without rehearsal. Any instruction that asks the learner to juggle too many novel pieces at the same time will therefore tend to fail — not because the learner is unmotivated, but because the relevant information is dropping out of mind before it can be processed.\n\nResearchers describe the demand a lesson places on working memory as its cognitive load. Some load is intrinsic to the material: solving simultaneous equations is harder than solving single equations no matter how well the lesson is designed. But a great deal of load is added, often unnecessarily, by the way information is presented. Diagrams placed far from the text that explains them force the learner to flip back and forth, holding both in mind. Lessons that demand independent problem-solving before any worked examples are seen leave novices spending most of their effort searching for moves rather than learning their structure. Even pleasant but distracting graphics can compete for the same limited attention.\n\nGood instructional design seeks to keep intrinsic load reasonable, strip away unnecessary extraneous load, and direct the remaining capacity toward building stable knowledge in long-term memory. In practice this means integrating diagrams with their labels, starting with worked examples before independent practice, and breaking a complex skill into manageable subskills. As learners gain experience, the same scaffolding can be withdrawn, because schemas now stored in long-term memory effectively expand the room available in working memory. Cognitive load, in short, is not an opinion about how to teach; it is a constraint that any honest instructional design has to respect."
+      }
+    },
+    {
+      "id": "rsim07-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the rhetorical purpose of the final sentence of the passage?",
+      "choices": [
+        "To offer a personal recommendation that the reader is free to ignore.",
+        "To frame cognitive load not as a teaching style but as a constraint that any serious instructional design must work with.",
+        "To list further reading on instructional design.",
+        "To weaken the argument by admitting that the evidence is uncertain."
+      ],
+      "answer": 1,
+      "explanation": "The closing sentence elevates the argument from preference to constraint, insisting that cognitive load is not merely an opinion but something instruction has to respect.",
+      "wrongReasons": [
+        "The passage's tone is the opposite — it argues that respecting load is not optional.",
+        "No further reading is mentioned.",
+        "The passage strengthens the argument rather than admitting uncertainty."
+      ],
+      "passage": {
+        "id": "rsim07-passage",
+        "title": "Cognitive Load and the Design of Lessons",
+        "body": "Cognitive psychology now treats working memory as one of the central bottlenecks in human learning. Although long-term memory has effectively unlimited capacity, working memory can hold only a handful of unrelated items at once, and these decay quickly without rehearsal. Any instruction that asks the learner to juggle too many novel pieces at the same time will therefore tend to fail — not because the learner is unmotivated, but because the relevant information is dropping out of mind before it can be processed.\n\nResearchers describe the demand a lesson places on working memory as its cognitive load. Some load is intrinsic to the material: solving simultaneous equations is harder than solving single equations no matter how well the lesson is designed. But a great deal of load is added, often unnecessarily, by the way information is presented. Diagrams placed far from the text that explains them force the learner to flip back and forth, holding both in mind. Lessons that demand independent problem-solving before any worked examples are seen leave novices spending most of their effort searching for moves rather than learning their structure. Even pleasant but distracting graphics can compete for the same limited attention.\n\nGood instructional design seeks to keep intrinsic load reasonable, strip away unnecessary extraneous load, and direct the remaining capacity toward building stable knowledge in long-term memory. In practice this means integrating diagrams with their labels, starting with worked examples before independent practice, and breaking a complex skill into manageable subskills. As learners gain experience, the same scaffolding can be withdrawn, because schemas now stored in long-term memory effectively expand the room available in working memory. Cognitive load, in short, is not an opinion about how to teach; it is a constraint that any honest instructional design has to respect."
+      }
+    },
+
+    {
+      "id": "rsim08-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "The honeybee waggle dance is a charming but mostly random behavior with no real information content.",
+        "The waggle dance is a precise communication system that encodes direction, distance, and quality of a food source, and its decoding extended ideas about symbolic communication beyond humans.",
+        "Bees rely entirely on scent rather than dance to recruit other foragers.",
+        "Karl von Frisch was the first to discover that bees can fly toward sunlight."
+      ],
+      "answer": 1,
+      "explanation": "The passage frames the waggle dance as a coded system carrying three specific kinds of information and explains why decoding it mattered for the broader scientific understanding of symbolic communication.",
+      "wrongReasons": [
+        "The passage stresses that the dance is precise, not random.",
+        "Scent is mentioned as a supplementary cue, not as a replacement for the dance.",
+        "Von Frisch's recognition came from decoding the dance, not from discovering basic flight behavior."
+      ],
+      "passage": {
+        "id": "rsim08-passage",
+        "title": "How Bees Talk About Food",
+        "body": "Among the most striking examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rewarding patch of flowers, it returns to the hive and performs a tightly choreographed routine on the vertical surface of the comb. The dance is small — only a few centimeters across — but its details encode surprisingly precise information about where the food is and how attractive it is.\n\nThree variables are layered into a single performance. The orientation of the central straight run, measured against the vertical, tells the audience the angle of the food relative to the sun: a run sixty degrees to the left of vertical means \"sixty degrees to the left of the sun.\" The duration of that run indicates distance, with longer runs corresponding to flowers farther from the hive. Finally, the vigor of the dance signals quality; a bee returning from rich nectar will repeat the routine more enthusiastically and recruit more followers than one that has found a thinner reward. Followers also receive scent cues from the dancer's body, which help them recognize the flowers when they arrive.\n\nThe Austrian zoologist Karl von Frisch decoded this system in the mid-twentieth century, work that eventually earned him a Nobel Prize. The decoding mattered far beyond entomology. Before von Frisch, many biologists held that the ability to represent locations beyond the immediate sensory environment was effectively unique to humans. The waggle dance showed that an insect, with a brain the size of a grass seed, could refer to a place it was not currently perceiving, and could update its message as the sun moved across the sky. Symbolic reference, it turned out, was older and more widely shared than anyone had assumed."
+      }
+    },
+    {
+      "id": "rsim08-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, how does a forager bee communicate the distance to a food source?",
+      "choices": [
+        "By the loudness of the buzzing during the dance.",
+        "By the duration of the straight \"waggle\" portion of the run.",
+        "By the number of bees that follow the dancer.",
+        "By the angle of the run relative to vertical."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 states explicitly that the duration of the run encodes distance: longer runs mean farther flowers.",
+      "wrongReasons": [
+        "Loudness is not described as a signal here.",
+        "Followers respond to the dance; they do not encode the information.",
+        "Angle encodes direction, not distance."
+      ],
+      "passage": {
+        "id": "rsim08-passage",
+        "title": "How Bees Talk About Food",
+        "body": "Among the most striking examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rewarding patch of flowers, it returns to the hive and performs a tightly choreographed routine on the vertical surface of the comb. The dance is small — only a few centimeters across — but its details encode surprisingly precise information about where the food is and how attractive it is.\n\nThree variables are layered into a single performance. The orientation of the central straight run, measured against the vertical, tells the audience the angle of the food relative to the sun: a run sixty degrees to the left of vertical means \"sixty degrees to the left of the sun.\" The duration of that run indicates distance, with longer runs corresponding to flowers farther from the hive. Finally, the vigor of the dance signals quality; a bee returning from rich nectar will repeat the routine more enthusiastically and recruit more followers than one that has found a thinner reward. Followers also receive scent cues from the dancer's body, which help them recognize the flowers when they arrive.\n\nThe Austrian zoologist Karl von Frisch decoded this system in the mid-twentieth century, work that eventually earned him a Nobel Prize. The decoding mattered far beyond entomology. Before von Frisch, many biologists held that the ability to represent locations beyond the immediate sensory environment was effectively unique to humans. The waggle dance showed that an insect, with a brain the size of a grass seed, could refer to a place it was not currently perceiving, and could update its message as the sun moved across the sky. Symbolic reference, it turned out, was older and more widely shared than anyone had assumed."
+      }
+    },
+    {
+      "id": "rsim08-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about pre-von-Frisch biology?",
+      "choices": [
+        "Most biologists already believed bees used symbolic communication.",
+        "Many biologists assumed that referring to places beyond the immediate environment was an ability essentially unique to humans.",
+        "The behavior of bees was considered too complex to study.",
+        "All scientific debates about animal cognition had already been resolved."
+      ],
+      "answer": 1,
+      "explanation": "The final paragraph states that before von Frisch, many biologists held the view that this kind of symbolic reference was effectively unique to humans.",
+      "wrongReasons": [
+        "The passage describes that assumption being overturned, not already accepted.",
+        "Bee behavior was studied; the passage does not say it was considered too complex.",
+        "The passage describes an open question being resolved, not all debates being settled."
+      ],
+      "passage": {
+        "id": "rsim08-passage",
+        "title": "How Bees Talk About Food",
+        "body": "Among the most striking examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rewarding patch of flowers, it returns to the hive and performs a tightly choreographed routine on the vertical surface of the comb. The dance is small — only a few centimeters across — but its details encode surprisingly precise information about where the food is and how attractive it is.\n\nThree variables are layered into a single performance. The orientation of the central straight run, measured against the vertical, tells the audience the angle of the food relative to the sun: a run sixty degrees to the left of vertical means \"sixty degrees to the left of the sun.\" The duration of that run indicates distance, with longer runs corresponding to flowers farther from the hive. Finally, the vigor of the dance signals quality; a bee returning from rich nectar will repeat the routine more enthusiastically and recruit more followers than one that has found a thinner reward. Followers also receive scent cues from the dancer's body, which help them recognize the flowers when they arrive.\n\nThe Austrian zoologist Karl von Frisch decoded this system in the mid-twentieth century, work that eventually earned him a Nobel Prize. The decoding mattered far beyond entomology. Before von Frisch, many biologists held that the ability to represent locations beyond the immediate sensory environment was effectively unique to humans. The waggle dance showed that an insect, with a brain the size of a grass seed, could refer to a place it was not currently perceiving, and could update its message as the sun moved across the sky. Symbolic reference, it turned out, was older and more widely shared than anyone had assumed."
+      }
+    },
+    {
+      "id": "rsim08-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the word \"vigor\" most nearly means:",
+      "choices": [
+        "uncertainty",
+        "energy or intensity",
+        "geographic direction",
+        "scent strength"
+      ],
+      "answer": 1,
+      "explanation": "Vigor here refers to how energetically or intensely the bee performs the dance — more enthusiastic repetitions signal higher-quality food.",
+      "wrongReasons": [
+        "Uncertainty is the opposite of the vigorous, confident dance the passage describes.",
+        "Direction is encoded by the angle of the run, not by vigor.",
+        "Scent is mentioned separately as an additional cue."
+      ],
+      "passage": {
+        "id": "rsim08-passage",
+        "title": "How Bees Talk About Food",
+        "body": "Among the most striking examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rewarding patch of flowers, it returns to the hive and performs a tightly choreographed routine on the vertical surface of the comb. The dance is small — only a few centimeters across — but its details encode surprisingly precise information about where the food is and how attractive it is.\n\nThree variables are layered into a single performance. The orientation of the central straight run, measured against the vertical, tells the audience the angle of the food relative to the sun: a run sixty degrees to the left of vertical means \"sixty degrees to the left of the sun.\" The duration of that run indicates distance, with longer runs corresponding to flowers farther from the hive. Finally, the vigor of the dance signals quality; a bee returning from rich nectar will repeat the routine more enthusiastically and recruit more followers than one that has found a thinner reward. Followers also receive scent cues from the dancer's body, which help them recognize the flowers when they arrive.\n\nThe Austrian zoologist Karl von Frisch decoded this system in the mid-twentieth century, work that eventually earned him a Nobel Prize. The decoding mattered far beyond entomology. Before von Frisch, many biologists held that the ability to represent locations beyond the immediate sensory environment was effectively unique to humans. The waggle dance showed that an insect, with a brain the size of a grass seed, could refer to a place it was not currently perceiving, and could update its message as the sun moved across the sky. Symbolic reference, it turned out, was older and more widely shared than anyone had assumed."
+      }
+    },
+    {
+      "id": "rsim08-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author emphasize that the bee's brain is \"the size of a grass seed\"?",
+      "choices": [
+        "To suggest that bees are unlikely to be useful in scientific research.",
+        "To highlight the contrast between the simplicity of the brain and the sophistication of the symbolic communication it supports.",
+        "To explain why the dance was so difficult to decode.",
+        "To imply that other animals could not possibly perform similar feats."
+      ],
+      "answer": 1,
+      "explanation": "The phrase appears precisely to underline how striking it is that such a tiny brain can support reference to places it is not currently perceiving — sharpening the point about symbolic communication.",
+      "wrongReasons": [
+        "The passage uses the detail to enrich the argument, not to dismiss bees as research subjects.",
+        "The difficulty of decoding is attributed to von Frisch's careful work, not to brain size.",
+        "The passage in fact opens up the possibility that more animals share such abilities, not fewer."
+      ],
+      "passage": {
+        "id": "rsim08-passage",
+        "title": "How Bees Talk About Food",
+        "body": "Among the most striking examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rewarding patch of flowers, it returns to the hive and performs a tightly choreographed routine on the vertical surface of the comb. The dance is small — only a few centimeters across — but its details encode surprisingly precise information about where the food is and how attractive it is.\n\nThree variables are layered into a single performance. The orientation of the central straight run, measured against the vertical, tells the audience the angle of the food relative to the sun: a run sixty degrees to the left of vertical means \"sixty degrees to the left of the sun.\" The duration of that run indicates distance, with longer runs corresponding to flowers farther from the hive. Finally, the vigor of the dance signals quality; a bee returning from rich nectar will repeat the routine more enthusiastically and recruit more followers than one that has found a thinner reward. Followers also receive scent cues from the dancer's body, which help them recognize the flowers when they arrive.\n\nThe Austrian zoologist Karl von Frisch decoded this system in the mid-twentieth century, work that eventually earned him a Nobel Prize. The decoding mattered far beyond entomology. Before von Frisch, many biologists held that the ability to represent locations beyond the immediate sensory environment was effectively unique to humans. The waggle dance showed that an insect, with a brain the size of a grass seed, could refer to a place it was not currently perceiving, and could update its message as the sun moved across the sky. Symbolic reference, it turned out, was older and more widely shared than anyone had assumed."
+      }
+    },
+
+    {
+      "id": "rsim09-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Mycorrhizal fungi steal nutrients from forest trees and weaken them.",
+        "Trees in temperate forests are linked by mycorrhizal networks that move resources between plants, complicating the view of a forest as a set of competing individuals.",
+        "Forests can be fully described by counting the number of trees per hectare.",
+        "Removing fungi from soil has no effect on the trees that grow in it."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that mycorrhizal networks act as a shared transport system carrying carbon and nutrients between trees, which reframes the forest as more than a collection of separate individuals.",
+      "wrongReasons": [
+        "The passage portrays the relationship as mutualistic, not parasitic.",
+        "It explicitly says that simple counts of trees miss the role of the underground network.",
+        "Removing fungi is described as harmful to forest health, contradicting this claim."
+      ],
+      "passage": {
+        "id": "rsim09-passage",
+        "title": "The Hidden Network of the Forest",
+        "body": "Walking through a mature temperate forest, it is easy to think of the trees as separate individuals competing for sunlight and water. Beneath the surface, the picture is more complicated. The roots of nearly every tree are wrapped in dense threads of mycorrhizal fungi, microscopic strands that exchange nutrients for sugars produced by photosynthesis. Where the threads of one tree's fungi meet those of a neighbor's, they often fuse into a continuous network that links many trees of different species into a single underground web.\n\nResearchers have begun to map what travels along these connections. Carbon labeled with rare isotopes moves from large, well-lit trees to shaded seedlings of the same species — and sometimes of different species — over the course of weeks. Phosphorus, nitrogen and even chemical warning signals about insect attacks have been recorded crossing the same network. The amounts involved are small relative to a tree's total resources, but they are far from negligible for a young seedling that would otherwise starve in the shade of its parents.\n\nThis evidence does not turn the forest into a single organism, as some popular accounts have suggested. Trees still compete, and many species can survive perfectly well without elaborate fungal networks. But the older image of the forest as a collection of independent individuals struggling against one another no longer fits the data. Conservation work is starting to take the network seriously: leaving residual mother trees standing during selective logging, for example, helps maintain the underground connections that seedlings rely on, and clear-cutting damages a forest in ways that simple tree counts cannot capture."
+      }
+    },
+    {
+      "id": "rsim09-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what kind of information has been observed traveling between trees on the mycorrhizal network?",
+      "choices": [
+        "Only water during dry seasons.",
+        "Carbon, phosphorus, nitrogen and chemical warning signals about insect attacks.",
+        "Genetic material that changes the species of the receiving tree.",
+        "Electrical signals identical to those in animal nervous systems."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 lists these specific items as travelling along the network in measurable amounts.",
+      "wrongReasons": [
+        "Water transfer is not what the passage emphasizes; it focuses on nutrients and signals.",
+        "The passage does not describe species change; only resource and signal transfer.",
+        "No claim is made about electrical signals identical to nervous systems."
+      ],
+      "passage": {
+        "id": "rsim09-passage",
+        "title": "The Hidden Network of the Forest",
+        "body": "Walking through a mature temperate forest, it is easy to think of the trees as separate individuals competing for sunlight and water. Beneath the surface, the picture is more complicated. The roots of nearly every tree are wrapped in dense threads of mycorrhizal fungi, microscopic strands that exchange nutrients for sugars produced by photosynthesis. Where the threads of one tree's fungi meet those of a neighbor's, they often fuse into a continuous network that links many trees of different species into a single underground web.\n\nResearchers have begun to map what travels along these connections. Carbon labeled with rare isotopes moves from large, well-lit trees to shaded seedlings of the same species — and sometimes of different species — over the course of weeks. Phosphorus, nitrogen and even chemical warning signals about insect attacks have been recorded crossing the same network. The amounts involved are small relative to a tree's total resources, but they are far from negligible for a young seedling that would otherwise starve in the shade of its parents.\n\nThis evidence does not turn the forest into a single organism, as some popular accounts have suggested. Trees still compete, and many species can survive perfectly well without elaborate fungal networks. But the older image of the forest as a collection of independent individuals struggling against one another no longer fits the data. Conservation work is starting to take the network seriously: leaving residual mother trees standing during selective logging, for example, helps maintain the underground connections that seedlings rely on, and clear-cutting damages a forest in ways that simple tree counts cannot capture."
+      }
+    },
+    {
+      "id": "rsim09-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about the practical implications of mycorrhizal research for forestry?",
+      "choices": [
+        "Forestry practices that leave mature mother trees in place help maintain underground networks that benefit seedlings.",
+        "Clear-cutting is the most effective way to maintain healthy forests.",
+        "Removing all fungi from the soil improves long-term tree growth.",
+        "Forest management can ignore underground processes without consequence."
+      ],
+      "answer": 0,
+      "explanation": "The final paragraph explicitly links leaving mother trees standing to maintaining the network and aiding seedlings, while warning that clear-cutting causes hidden damage.",
+      "wrongReasons": [
+        "The passage criticizes clear-cutting precisely because it damages the underground network.",
+        "Removing fungi is treated as harmful, not beneficial.",
+        "The passage argues the opposite: ignoring underground processes leads to damage that simple counts miss."
+      ],
+      "passage": {
+        "id": "rsim09-passage",
+        "title": "The Hidden Network of the Forest",
+        "body": "Walking through a mature temperate forest, it is easy to think of the trees as separate individuals competing for sunlight and water. Beneath the surface, the picture is more complicated. The roots of nearly every tree are wrapped in dense threads of mycorrhizal fungi, microscopic strands that exchange nutrients for sugars produced by photosynthesis. Where the threads of one tree's fungi meet those of a neighbor's, they often fuse into a continuous network that links many trees of different species into a single underground web.\n\nResearchers have begun to map what travels along these connections. Carbon labeled with rare isotopes moves from large, well-lit trees to shaded seedlings of the same species — and sometimes of different species — over the course of weeks. Phosphorus, nitrogen and even chemical warning signals about insect attacks have been recorded crossing the same network. The amounts involved are small relative to a tree's total resources, but they are far from negligible for a young seedling that would otherwise starve in the shade of its parents.\n\nThis evidence does not turn the forest into a single organism, as some popular accounts have suggested. Trees still compete, and many species can survive perfectly well without elaborate fungal networks. But the older image of the forest as a collection of independent individuals struggling against one another no longer fits the data. Conservation work is starting to take the network seriously: leaving residual mother trees standing during selective logging, for example, helps maintain the underground connections that seedlings rely on, and clear-cutting damages a forest in ways that simple tree counts cannot capture."
+      }
+    },
+    {
+      "id": "rsim09-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the word \"negligible\" most nearly means:",
+      "choices": [
+        "harmful",
+        "easily ignored",
+        "highly variable",
+        "officially measured"
+      ],
+      "answer": 1,
+      "explanation": "Something negligible is so small it can be safely ignored. The passage uses the word with 'far from' to insist that the amounts are NOT trivial for seedlings.",
+      "wrongReasons": [
+        "Negligible does not mean harmful; it means insignificantly small.",
+        "Variability is not what the word means here.",
+        "Negligible is not a measurement term in this context."
+      ],
+      "passage": {
+        "id": "rsim09-passage",
+        "title": "The Hidden Network of the Forest",
+        "body": "Walking through a mature temperate forest, it is easy to think of the trees as separate individuals competing for sunlight and water. Beneath the surface, the picture is more complicated. The roots of nearly every tree are wrapped in dense threads of mycorrhizal fungi, microscopic strands that exchange nutrients for sugars produced by photosynthesis. Where the threads of one tree's fungi meet those of a neighbor's, they often fuse into a continuous network that links many trees of different species into a single underground web.\n\nResearchers have begun to map what travels along these connections. Carbon labeled with rare isotopes moves from large, well-lit trees to shaded seedlings of the same species — and sometimes of different species — over the course of weeks. Phosphorus, nitrogen and even chemical warning signals about insect attacks have been recorded crossing the same network. The amounts involved are small relative to a tree's total resources, but they are far from negligible for a young seedling that would otherwise starve in the shade of its parents.\n\nThis evidence does not turn the forest into a single organism, as some popular accounts have suggested. Trees still compete, and many species can survive perfectly well without elaborate fungal networks. But the older image of the forest as a collection of independent individuals struggling against one another no longer fits the data. Conservation work is starting to take the network seriously: leaving residual mother trees standing during selective logging, for example, helps maintain the underground connections that seedlings rely on, and clear-cutting damages a forest in ways that simple tree counts cannot capture."
+      }
+    },
+    {
+      "id": "rsim09-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's main purpose in the third paragraph?",
+      "choices": [
+        "To overturn the findings reported in the second paragraph.",
+        "To draw a measured conclusion that revises the older view of forests without endorsing the most sweeping popular interpretations.",
+        "To prove that all trees behave identically in all forests.",
+        "To dismiss conservation work as unnecessary."
+      ],
+      "answer": 1,
+      "explanation": "The paragraph carefully rejects the 'single organism' overstatement, retains competition, but insists the old isolated-individual picture is wrong — and ties this to practical conservation.",
+      "wrongReasons": [
+        "The paragraph builds on, rather than overturns, the previous findings.",
+        "The passage explicitly notes variation across species and forests.",
+        "It actually argues that conservation work should take the network seriously, not abandon it."
+      ],
+      "passage": {
+        "id": "rsim09-passage",
+        "title": "The Hidden Network of the Forest",
+        "body": "Walking through a mature temperate forest, it is easy to think of the trees as separate individuals competing for sunlight and water. Beneath the surface, the picture is more complicated. The roots of nearly every tree are wrapped in dense threads of mycorrhizal fungi, microscopic strands that exchange nutrients for sugars produced by photosynthesis. Where the threads of one tree's fungi meet those of a neighbor's, they often fuse into a continuous network that links many trees of different species into a single underground web.\n\nResearchers have begun to map what travels along these connections. Carbon labeled with rare isotopes moves from large, well-lit trees to shaded seedlings of the same species — and sometimes of different species — over the course of weeks. Phosphorus, nitrogen and even chemical warning signals about insect attacks have been recorded crossing the same network. The amounts involved are small relative to a tree's total resources, but they are far from negligible for a young seedling that would otherwise starve in the shade of its parents.\n\nThis evidence does not turn the forest into a single organism, as some popular accounts have suggested. Trees still compete, and many species can survive perfectly well without elaborate fungal networks. But the older image of the forest as a collection of independent individuals struggling against one another no longer fits the data. Conservation work is starting to take the network seriously: leaving residual mother trees standing during selective logging, for example, helps maintain the underground connections that seedlings rely on, and clear-cutting damages a forest in ways that simple tree counts cannot capture."
+      }
+    },
+
+    {
+      "id": "rsim10-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        "The printing press was a minor invention that had little effect on European society.",
+        "By drastically lowering the cost of producing identical copies of texts, the printing press changed scholarship, religion and political life across early modern Europe.",
+        "The printing press was invented in the eighteenth century in northern Europe.",
+        "Literacy rates were uniformly high in Europe long before the printing press."
+      ],
+      "answer": 1,
+      "explanation": "The passage frames the press as a productivity revolution whose social effects reached scholarship, religion and politics — a much larger story than the technology itself.",
+      "wrongReasons": [
+        "The passage argues the opposite — the press had wide and lasting consequences.",
+        "Gutenberg's press is correctly dated to the mid-fifteenth century in the passage.",
+        "The passage notes that literacy expanded after, and partly because of, the printing press."
+      ],
+      "passage": {
+        "id": "rsim10-passage",
+        "title": "After Gutenberg",
+        "body": "When Johannes Gutenberg assembled his press in Mainz around 1450, copying a book was still slow and expensive work. A scribe might labor for months over a single Bible, and the resulting copies inevitably differed from one another in small ways. By replacing handwritten reproduction with movable metal type, Gutenberg made it possible to produce identical pages quickly and in large numbers. Within fifty years, printers operating in dozens of European cities had produced an estimated twenty million volumes — more books than had been copied by hand in the previous thousand years.\n\nThe consequences reached well beyond the workshops where the new presses ran. Scholarly debate accelerated as critics in Paris and Vienna could read and reply to the same edition of an argument without waiting years for a manuscript to circulate. Standard editions of classical texts made it possible to cite a passage by page number and expect a distant correspondent to find precisely the same words. The same standardization affected religion: when Martin Luther's pamphlets reached every market town within months of their printing, the local clergy could no longer easily contain or reinterpret his arguments.\n\nThe political reverberations were slower but real. Pamphlets, almanacs and cheap chapbooks taught reading to populations that had previously had little reason to acquire it, and they trained their audiences in the unusual habit of forming opinions about events that were happening far away. Governments responded by trying to license what could be printed; printers responded by inventing techniques to publish anonymously and across borders. None of these effects was the immediate intent of a single inventor. They were the secondary consequences of one practical change — making identical copies cheap — playing out across an entire continent for two centuries."
+      }
+    },
+    {
+      "id": "rsim10-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, why did standardized editions help scholars?",
+      "choices": [
+        "Because they made manuscripts easier to copy by hand.",
+        "Because they allowed correspondents in different places to cite and find exactly the same words on the same page.",
+        "Because they prevented anyone from disagreeing with them.",
+        "Because they were less accurate than handwritten texts."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 explicitly cites the ability to refer to a passage by page number and have a distant reader locate the same words as a benefit of standard printed editions.",
+      "wrongReasons": [
+        "The passage describes printing as replacing, not improving, handwritten copying.",
+        "The passage describes accelerated debate; it does not claim disagreement was prevented.",
+        "The passage emphasizes the accuracy and uniformity gains of printing."
+      ],
+      "passage": {
+        "id": "rsim10-passage",
+        "title": "After Gutenberg",
+        "body": "When Johannes Gutenberg assembled his press in Mainz around 1450, copying a book was still slow and expensive work. A scribe might labor for months over a single Bible, and the resulting copies inevitably differed from one another in small ways. By replacing handwritten reproduction with movable metal type, Gutenberg made it possible to produce identical pages quickly and in large numbers. Within fifty years, printers operating in dozens of European cities had produced an estimated twenty million volumes — more books than had been copied by hand in the previous thousand years.\n\nThe consequences reached well beyond the workshops where the new presses ran. Scholarly debate accelerated as critics in Paris and Vienna could read and reply to the same edition of an argument without waiting years for a manuscript to circulate. Standard editions of classical texts made it possible to cite a passage by page number and expect a distant correspondent to find precisely the same words. The same standardization affected religion: when Martin Luther's pamphlets reached every market town within months of their printing, the local clergy could no longer easily contain or reinterpret his arguments.\n\nThe political reverberations were slower but real. Pamphlets, almanacs and cheap chapbooks taught reading to populations that had previously had little reason to acquire it, and they trained their audiences in the unusual habit of forming opinions about events that were happening far away. Governments responded by trying to license what could be printed; printers responded by inventing techniques to publish anonymously and across borders. None of these effects was the immediate intent of a single inventor. They were the secondary consequences of one practical change — making identical copies cheap — playing out across an entire continent for two centuries."
+      }
+    },
+    {
+      "id": "rsim10-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about Gutenberg's intentions?",
+      "choices": [
+        "He intended to start a religious reformation.",
+        "The widest social consequences of his invention were not his immediate purpose.",
+        "He planned to suppress political pamphlets.",
+        "He aimed primarily at expanding literacy in rural areas."
+      ],
+      "answer": 1,
+      "explanation": "The passage's closing lines explicitly state that none of these social effects was the immediate intent of a single inventor — they were unintended downstream consequences.",
+      "wrongReasons": [
+        "The passage explicitly says Gutenberg did not intend the wider effects.",
+        "Suppression is described as a later governmental response, not Gutenberg's aim.",
+        "Expanding literacy is described as a secondary consequence, not the initial goal."
+      ],
+      "passage": {
+        "id": "rsim10-passage",
+        "title": "After Gutenberg",
+        "body": "When Johannes Gutenberg assembled his press in Mainz around 1450, copying a book was still slow and expensive work. A scribe might labor for months over a single Bible, and the resulting copies inevitably differed from one another in small ways. By replacing handwritten reproduction with movable metal type, Gutenberg made it possible to produce identical pages quickly and in large numbers. Within fifty years, printers operating in dozens of European cities had produced an estimated twenty million volumes — more books than had been copied by hand in the previous thousand years.\n\nThe consequences reached well beyond the workshops where the new presses ran. Scholarly debate accelerated as critics in Paris and Vienna could read and reply to the same edition of an argument without waiting years for a manuscript to circulate. Standard editions of classical texts made it possible to cite a passage by page number and expect a distant correspondent to find precisely the same words. The same standardization affected religion: when Martin Luther's pamphlets reached every market town within months of their printing, the local clergy could no longer easily contain or reinterpret his arguments.\n\nThe political reverberations were slower but real. Pamphlets, almanacs and cheap chapbooks taught reading to populations that had previously had little reason to acquire it, and they trained their audiences in the unusual habit of forming opinions about events that were happening far away. Governments responded by trying to license what could be printed; printers responded by inventing techniques to publish anonymously and across borders. None of these effects was the immediate intent of a single inventor. They were the secondary consequences of one practical change — making identical copies cheap — playing out across an entire continent for two centuries."
+      }
+    },
+    {
+      "id": "rsim10-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"reverberations\" most nearly means:",
+      "choices": [
+        "echoes or knock-on effects",
+        "musical compositions",
+        "official orders",
+        "diplomatic treaties"
+      ],
+      "answer": 0,
+      "explanation": "The 'political reverberations' are the indirect, spreading consequences of printing — the metaphor of sound echoing outward fits exactly.",
+      "wrongReasons": [
+        "The word is used metaphorically, not literally as musical sound.",
+        "Reverberations here are consequences, not commands.",
+        "Treaties are not what the word means in this context."
+      ],
+      "passage": {
+        "id": "rsim10-passage",
+        "title": "After Gutenberg",
+        "body": "When Johannes Gutenberg assembled his press in Mainz around 1450, copying a book was still slow and expensive work. A scribe might labor for months over a single Bible, and the resulting copies inevitably differed from one another in small ways. By replacing handwritten reproduction with movable metal type, Gutenberg made it possible to produce identical pages quickly and in large numbers. Within fifty years, printers operating in dozens of European cities had produced an estimated twenty million volumes — more books than had been copied by hand in the previous thousand years.\n\nThe consequences reached well beyond the workshops where the new presses ran. Scholarly debate accelerated as critics in Paris and Vienna could read and reply to the same edition of an argument without waiting years for a manuscript to circulate. Standard editions of classical texts made it possible to cite a passage by page number and expect a distant correspondent to find precisely the same words. The same standardization affected religion: when Martin Luther's pamphlets reached every market town within months of their printing, the local clergy could no longer easily contain or reinterpret his arguments.\n\nThe political reverberations were slower but real. Pamphlets, almanacs and cheap chapbooks taught reading to populations that had previously had little reason to acquire it, and they trained their audiences in the unusual habit of forming opinions about events that were happening far away. Governments responded by trying to license what could be printed; printers responded by inventing techniques to publish anonymously and across borders. None of these effects was the immediate intent of a single inventor. They were the secondary consequences of one practical change — making identical copies cheap — playing out across an entire continent for two centuries."
+      }
+    },
+    {
+      "id": "rsim10-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What broader claim about technological change does the passage support?",
+      "choices": [
+        "Important social changes only follow a deliberate plan by an inventor.",
+        "A single practical change can cascade into many secondary effects across a society over a long period.",
+        "Technology rarely has any effect outside of the workshop in which it is invented.",
+        "Governments can always control how a new technology is used."
+      ],
+      "answer": 1,
+      "explanation": "The final paragraph generalizes the Gutenberg case: a single practical change — cheap identical copies — produced cascading consequences across an entire continent, none of which was directly intended.",
+      "wrongReasons": [
+        "The passage repeatedly notes that the consequences were not deliberately planned.",
+        "Almost the entire passage is devoted to effects outside the workshop.",
+        "The passage describes governments struggling, often unsuccessfully, to control print."
+      ],
+      "passage": {
+        "id": "rsim10-passage",
+        "title": "After Gutenberg",
+        "body": "When Johannes Gutenberg assembled his press in Mainz around 1450, copying a book was still slow and expensive work. A scribe might labor for months over a single Bible, and the resulting copies inevitably differed from one another in small ways. By replacing handwritten reproduction with movable metal type, Gutenberg made it possible to produce identical pages quickly and in large numbers. Within fifty years, printers operating in dozens of European cities had produced an estimated twenty million volumes — more books than had been copied by hand in the previous thousand years.\n\nThe consequences reached well beyond the workshops where the new presses ran. Scholarly debate accelerated as critics in Paris and Vienna could read and reply to the same edition of an argument without waiting years for a manuscript to circulate. Standard editions of classical texts made it possible to cite a passage by page number and expect a distant correspondent to find precisely the same words. The same standardization affected religion: when Martin Luther's pamphlets reached every market town within months of their printing, the local clergy could no longer easily contain or reinterpret his arguments.\n\nThe political reverberations were slower but real. Pamphlets, almanacs and cheap chapbooks taught reading to populations that had previously had little reason to acquire it, and they trained their audiences in the unusual habit of forming opinions about events that were happening far away. Governments responded by trying to license what could be printed; printers responded by inventing techniques to publish anonymously and across borders. None of these effects was the immediate intent of a single inventor. They were the secondary consequences of one practical change — making identical copies cheap — playing out across an entire continent for two centuries."
+      }
+    }
+  ]
+}

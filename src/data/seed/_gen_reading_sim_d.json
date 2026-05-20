@@ -1,0 +1,608 @@
+{
+  "reading": [
+    {
+      "id": "rsim16-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "The Mediterranean diet has no measurable effect on health.",
+        "Long-term studies of populations bordering the Mediterranean prompted research that has linked the regional diet to improved cardiovascular outcomes, though the diet is best understood as a pattern of eating rather than a single rule.",
+        "Olive oil is the only food responsible for any health benefit observed in the region.",
+        "The diet has been proven to extend everyone's life by exactly the same amount."
+      ],
+      "answer": 1,
+      "explanation": "The passage traces the diet's research history, its association with better cardiovascular outcomes in trials, and ends by emphasizing that the diet is a pattern, not a single food or rigid prescription.",
+      "wrongReasons": [
+        "The passage cites measurable benefits in randomized trials.",
+        "Olive oil is one component, not the sole cause.",
+        "The passage emphasizes population averages and risk reduction, not a uniform effect on every individual."
+      ],
+      "passage": {
+        "id": "rsim16-passage",
+        "title": "What the Mediterranean Diet Actually Is",
+        "body": "The phrase \"Mediterranean diet\" first entered scientific use after the Second World War, when the American physiologist Ancel Keys noticed that postwar populations in southern Italy and Greece had unusually low rates of coronary heart disease despite far from comfortable standards of living. Keys's Seven Countries Study, begun in the late 1950s, set out to compare diets across very different regions and to identify which dietary patterns coincided with the lowest cardiovascular risk. The Mediterranean cluster — rich in vegetables, legumes, whole grains, fish, and olive oil, with modest amounts of dairy and meat — stood out and entered the public imagination as a model of healthy eating.\n\nLater, more controlled work refined the picture. The PREDIMED trial in Spain, published in 2013, randomly assigned several thousand older adults at high cardiovascular risk to either a Mediterranean-style diet supplemented with extra-virgin olive oil, the same diet supplemented with mixed nuts, or a low-fat control diet. After roughly five years, the two Mediterranean groups experienced about thirty percent fewer major cardiovascular events than the control group. Subsequent analyses suggested benefits for blood-sugar regulation and certain markers of inflammation, although results have varied with how strictly participants adhered to the dietary pattern.\n\nWhat the research has consistently found is harder to convey in a slogan than \"eat more olive oil.\" The Mediterranean diet is not a single recipe but a pattern: an emphasis on minimally processed plant foods, regular consumption of fish over red meat, fats supplied largely by olive oil rather than butter, and modest portions eaten alongside others. Translating that pattern to other regions requires adjusting for local availability and tradition rather than copying a Greek market basket. Nutrition science can identify the broad shape of a healthy diet, but adoption depends on choices that are inevitably cultural as well as biological."
+      }
+    },
+    {
+      "id": "rsim16-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what did the PREDIMED trial find?",
+      "choices": [
+        "Mediterranean-style diets supplemented with olive oil or nuts were associated with roughly 30% fewer major cardiovascular events than a low-fat control diet.",
+        "Mediterranean-style diets had no effect on heart-related events.",
+        "Low-fat control diets outperformed Mediterranean-style diets.",
+        "Participants who ate the most red meat had the best outcomes."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph 2 states this directly: the Mediterranean groups had about thirty percent fewer major cardiovascular events than the control group.",
+      "wrongReasons": [
+        "The passage explicitly describes a positive effect.",
+        "The trial outcome was the opposite of this claim.",
+        "Red meat consumption is not framed as protective in the passage."
+      ],
+      "passage": {
+        "id": "rsim16-passage",
+        "title": "What the Mediterranean Diet Actually Is",
+        "body": "The phrase \"Mediterranean diet\" first entered scientific use after the Second World War, when the American physiologist Ancel Keys noticed that postwar populations in southern Italy and Greece had unusually low rates of coronary heart disease despite far from comfortable standards of living. Keys's Seven Countries Study, begun in the late 1950s, set out to compare diets across very different regions and to identify which dietary patterns coincided with the lowest cardiovascular risk. The Mediterranean cluster — rich in vegetables, legumes, whole grains, fish, and olive oil, with modest amounts of dairy and meat — stood out and entered the public imagination as a model of healthy eating.\n\nLater, more controlled work refined the picture. The PREDIMED trial in Spain, published in 2013, randomly assigned several thousand older adults at high cardiovascular risk to either a Mediterranean-style diet supplemented with extra-virgin olive oil, the same diet supplemented with mixed nuts, or a low-fat control diet. After roughly five years, the two Mediterranean groups experienced about thirty percent fewer major cardiovascular events than the control group. Subsequent analyses suggested benefits for blood-sugar regulation and certain markers of inflammation, although results have varied with how strictly participants adhered to the dietary pattern.\n\nWhat the research has consistently found is harder to convey in a slogan than \"eat more olive oil.\" The Mediterranean diet is not a single recipe but a pattern: an emphasis on minimally processed plant foods, regular consumption of fish over red meat, fats supplied largely by olive oil rather than butter, and modest portions eaten alongside others. Translating that pattern to other regions requires adjusting for local availability and tradition rather than copying a Greek market basket. Nutrition science can identify the broad shape of a healthy diet, but adoption depends on choices that are inevitably cultural as well as biological."
+      }
+    },
+    {
+      "id": "rsim16-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about applying the Mediterranean diet outside the Mediterranean region?",
+      "choices": [
+        "Local foods should be ignored in favor of strict imitation of Greek and Italian recipes.",
+        "Successful adoption involves translating the broad pattern into locally available foods and cultural practices, not slavish copying.",
+        "It is impossible to gain any health benefit outside the Mediterranean.",
+        "Only people of Mediterranean descent are biologically able to benefit from such a diet."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph explicitly calls for translation to local availability and tradition rather than copying a Greek market basket.",
+      "wrongReasons": [
+        "The passage says the opposite — local availability matters.",
+        "The passage frames the diet as a transferable pattern.",
+        "No genetic restriction is suggested."
+      ],
+      "passage": {
+        "id": "rsim16-passage",
+        "title": "What the Mediterranean Diet Actually Is",
+        "body": "The phrase \"Mediterranean diet\" first entered scientific use after the Second World War, when the American physiologist Ancel Keys noticed that postwar populations in southern Italy and Greece had unusually low rates of coronary heart disease despite far from comfortable standards of living. Keys's Seven Countries Study, begun in the late 1950s, set out to compare diets across very different regions and to identify which dietary patterns coincided with the lowest cardiovascular risk. The Mediterranean cluster — rich in vegetables, legumes, whole grains, fish, and olive oil, with modest amounts of dairy and meat — stood out and entered the public imagination as a model of healthy eating.\n\nLater, more controlled work refined the picture. The PREDIMED trial in Spain, published in 2013, randomly assigned several thousand older adults at high cardiovascular risk to either a Mediterranean-style diet supplemented with extra-virgin olive oil, the same diet supplemented with mixed nuts, or a low-fat control diet. After roughly five years, the two Mediterranean groups experienced about thirty percent fewer major cardiovascular events than the control group. Subsequent analyses suggested benefits for blood-sugar regulation and certain markers of inflammation, although results have varied with how strictly participants adhered to the dietary pattern.\n\nWhat the research has consistently found is harder to convey in a slogan than \"eat more olive oil.\" The Mediterranean diet is not a single recipe but a pattern: an emphasis on minimally processed plant foods, regular consumption of fish over red meat, fats supplied largely by olive oil rather than butter, and modest portions eaten alongside others. Translating that pattern to other regions requires adjusting for local availability and tradition rather than copying a Greek market basket. Nutrition science can identify the broad shape of a healthy diet, but adoption depends on choices that are inevitably cultural as well as biological."
+      }
+    },
+    {
+      "id": "rsim16-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"pattern\" most nearly refers to:",
+      "choices": [
+        "a single rigid recipe to be followed exactly",
+        "a coherent overall way of eating made up of recurring choices",
+        "a decorative arrangement of ingredients on the plate",
+        "a randomly assembled meal"
+      ],
+      "answer": 1,
+      "explanation": "The passage uses 'pattern' to contrast with 'recipe' — it means a coherent style of eating defined by recurring choices, not a fixed set of dishes.",
+      "wrongReasons": [
+        "The passage explicitly says it is not a recipe.",
+        "The word is not used in an aesthetic or decorative sense.",
+        "It is the opposite of a random arrangement."
+      ],
+      "passage": {
+        "id": "rsim16-passage",
+        "title": "What the Mediterranean Diet Actually Is",
+        "body": "The phrase \"Mediterranean diet\" first entered scientific use after the Second World War, when the American physiologist Ancel Keys noticed that postwar populations in southern Italy and Greece had unusually low rates of coronary heart disease despite far from comfortable standards of living. Keys's Seven Countries Study, begun in the late 1950s, set out to compare diets across very different regions and to identify which dietary patterns coincided with the lowest cardiovascular risk. The Mediterranean cluster — rich in vegetables, legumes, whole grains, fish, and olive oil, with modest amounts of dairy and meat — stood out and entered the public imagination as a model of healthy eating.\n\nLater, more controlled work refined the picture. The PREDIMED trial in Spain, published in 2013, randomly assigned several thousand older adults at high cardiovascular risk to either a Mediterranean-style diet supplemented with extra-virgin olive oil, the same diet supplemented with mixed nuts, or a low-fat control diet. After roughly five years, the two Mediterranean groups experienced about thirty percent fewer major cardiovascular events than the control group. Subsequent analyses suggested benefits for blood-sugar regulation and certain markers of inflammation, although results have varied with how strictly participants adhered to the dietary pattern.\n\nWhat the research has consistently found is harder to convey in a slogan than \"eat more olive oil.\" The Mediterranean diet is not a single recipe but a pattern: an emphasis on minimally processed plant foods, regular consumption of fish over red meat, fats supplied largely by olive oil rather than butter, and modest portions eaten alongside others. Translating that pattern to other regions requires adjusting for local availability and tradition rather than copying a Greek market basket. Nutrition science can identify the broad shape of a healthy diet, but adoption depends on choices that are inevitably cultural as well as biological."
+      }
+    },
+    {
+      "id": "rsim16-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the rhetorical purpose of the closing sentence of the passage?",
+      "choices": [
+        "To suggest that nutrition science is fundamentally unreliable.",
+        "To delimit the role of nutrition science by pointing out that scientific findings still have to pass through cultural choices to become eating habits.",
+        "To insist that culture is irrelevant to public health.",
+        "To recommend a specific regional cuisine over all others."
+      ],
+      "answer": 1,
+      "explanation": "The closing sentence credits science with identifying the broad shape of a healthy diet but notes that adoption depends on cultural as well as biological choices — locating the limit of what science alone can determine.",
+      "wrongReasons": [
+        "The passage takes nutrition science seriously throughout.",
+        "It does the opposite, granting culture an essential role.",
+        "It explicitly avoids prescribing one cuisine over another."
+      ],
+      "passage": {
+        "id": "rsim16-passage",
+        "title": "What the Mediterranean Diet Actually Is",
+        "body": "The phrase \"Mediterranean diet\" first entered scientific use after the Second World War, when the American physiologist Ancel Keys noticed that postwar populations in southern Italy and Greece had unusually low rates of coronary heart disease despite far from comfortable standards of living. Keys's Seven Countries Study, begun in the late 1950s, set out to compare diets across very different regions and to identify which dietary patterns coincided with the lowest cardiovascular risk. The Mediterranean cluster — rich in vegetables, legumes, whole grains, fish, and olive oil, with modest amounts of dairy and meat — stood out and entered the public imagination as a model of healthy eating.\n\nLater, more controlled work refined the picture. The PREDIMED trial in Spain, published in 2013, randomly assigned several thousand older adults at high cardiovascular risk to either a Mediterranean-style diet supplemented with extra-virgin olive oil, the same diet supplemented with mixed nuts, or a low-fat control diet. After roughly five years, the two Mediterranean groups experienced about thirty percent fewer major cardiovascular events than the control group. Subsequent analyses suggested benefits for blood-sugar regulation and certain markers of inflammation, although results have varied with how strictly participants adhered to the dietary pattern.\n\nWhat the research has consistently found is harder to convey in a slogan than \"eat more olive oil.\" The Mediterranean diet is not a single recipe but a pattern: an emphasis on minimally processed plant foods, regular consumption of fish over red meat, fats supplied largely by olive oil rather than butter, and modest portions eaten alongside others. Translating that pattern to other regions requires adjusting for local availability and tradition rather than copying a Greek market basket. Nutrition science can identify the broad shape of a healthy diet, but adoption depends on choices that are inevitably cultural as well as biological."
+      }
+    },
+
+    {
+      "id": "rsim17-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main argument of the passage?",
+      "choices": [
+        "CRISPR makes gene editing fully safe and free of ethical concern.",
+        "CRISPR's relative simplicity has democratized gene editing, opening real medical promise while also intensifying ethical questions that were previously theoretical.",
+        "Gene editing technologies cannot be used in living human cells.",
+        "The CRISPR system was discovered only in 2020 and is still purely theoretical."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains how CRISPR's accessibility expanded the field, surveys its medical promise, and explicitly notes that long-standing ethical worries have become more urgent as the tool has become easier to use.",
+      "wrongReasons": [
+        "The passage emphasizes that ethical questions are now more urgent.",
+        "It describes successful clinical applications in human cells.",
+        "It traces the system's discovery to much earlier and notes practical uses today."
+      ],
+      "passage": {
+        "id": "rsim17-passage",
+        "title": "When Editing Genes Became Routine",
+        "body": "Genetic engineering existed long before CRISPR. The earliest tools, developed in the 1970s, relied on enzymes that could cut DNA only at a limited set of sequences, and inserting a new gene into a precise spot in a genome typically required years of work by specialised laboratories. The arrival of the CRISPR–Cas9 system in 2012 changed this picture in months. Adapted from a bacterial defense mechanism against viruses, the system uses a short guide RNA to direct an enzyme to almost any chosen sequence and make a cut there. Once cut, the cell's own repair machinery can be persuaded to delete a gene, replace it, or insert a new fragment.\n\nThe new method spread across biology faster than almost any technique before it. A graduate student with a few weeks of training can now edit fruit flies, plant cells, or human cell lines using reagents ordered from a catalogue. Clinical trials have already used CRISPR to treat sickle cell disease and certain inherited forms of blindness, and similar techniques are being explored against cancers and chronic infections. Agricultural research has produced fungus-resistant bananas and drought-tolerant wheat, though regulators in different countries treat these crops very differently from one another.\n\nWith accessibility has come a sharper version of an old debate. Editing somatic cells — the body cells of a single patient — is now broadly accepted in principle, because the changes are not inherited by future generations. Editing germline cells, by contrast, alters every cell the resulting person will pass on, raising questions about consent that no future patient can give. A widely condemned attempt in 2018 to edit the embryos of two human babies underscored how cheaply such an experiment could now be attempted, even where law and scientific consensus prohibit it. CRISPR has not created the underlying ethical questions, but it has stripped away the technical excuse that they were premature."
+      }
+    },
+    {
+      "id": "rsim17-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what role does the guide RNA play in CRISPR–Cas9?",
+      "choices": [
+        "It physically cuts the DNA molecule.",
+        "It directs the Cas9 enzyme to a chosen sequence, where the enzyme then makes a cut.",
+        "It repairs damaged DNA after editing.",
+        "It blocks the bacterial defense mechanism."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 describes the guide RNA as directing the enzyme to a chosen sequence, where the enzyme cuts.",
+      "wrongReasons": [
+        "Cutting is done by the Cas9 enzyme, not the RNA.",
+        "Repair is performed by the cell's own machinery after the cut.",
+        "The system is adapted from the bacterial defense, not opposed to it."
+      ],
+      "passage": {
+        "id": "rsim17-passage",
+        "title": "When Editing Genes Became Routine",
+        "body": "Genetic engineering existed long before CRISPR. The earliest tools, developed in the 1970s, relied on enzymes that could cut DNA only at a limited set of sequences, and inserting a new gene into a precise spot in a genome typically required years of work by specialised laboratories. The arrival of the CRISPR–Cas9 system in 2012 changed this picture in months. Adapted from a bacterial defense mechanism against viruses, the system uses a short guide RNA to direct an enzyme to almost any chosen sequence and make a cut there. Once cut, the cell's own repair machinery can be persuaded to delete a gene, replace it, or insert a new fragment.\n\nThe new method spread across biology faster than almost any technique before it. A graduate student with a few weeks of training can now edit fruit flies, plant cells, or human cell lines using reagents ordered from a catalogue. Clinical trials have already used CRISPR to treat sickle cell disease and certain inherited forms of blindness, and similar techniques are being explored against cancers and chronic infections. Agricultural research has produced fungus-resistant bananas and drought-tolerant wheat, though regulators in different countries treat these crops very differently from one another.\n\nWith accessibility has come a sharper version of an old debate. Editing somatic cells — the body cells of a single patient — is now broadly accepted in principle, because the changes are not inherited by future generations. Editing germline cells, by contrast, alters every cell the resulting person will pass on, raising questions about consent that no future patient can give. A widely condemned attempt in 2018 to edit the embryos of two human babies underscored how cheaply such an experiment could now be attempted, even where law and scientific consensus prohibit it. CRISPR has not created the underlying ethical questions, but it has stripped away the technical excuse that they were premature."
+      }
+    },
+    {
+      "id": "rsim17-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about germline editing from the passage?",
+      "choices": [
+        "It is treated as ethically equivalent to somatic-cell editing.",
+        "It is more controversial because the changes are passed on to future generations who cannot consent.",
+        "It has been universally adopted in medical practice.",
+        "It can never be performed with current technology."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph distinguishes the two: germline changes are inherited and therefore raise consent questions that no future patient can answer, making them more controversial.",
+      "wrongReasons": [
+        "The passage explicitly distinguishes them ethically.",
+        "It describes germline editing as broadly prohibited.",
+        "The 2018 incident shows that it is technically possible, however condemned."
+      ],
+      "passage": {
+        "id": "rsim17-passage",
+        "title": "When Editing Genes Became Routine",
+        "body": "Genetic engineering existed long before CRISPR. The earliest tools, developed in the 1970s, relied on enzymes that could cut DNA only at a limited set of sequences, and inserting a new gene into a precise spot in a genome typically required years of work by specialised laboratories. The arrival of the CRISPR–Cas9 system in 2012 changed this picture in months. Adapted from a bacterial defense mechanism against viruses, the system uses a short guide RNA to direct an enzyme to almost any chosen sequence and make a cut there. Once cut, the cell's own repair machinery can be persuaded to delete a gene, replace it, or insert a new fragment.\n\nThe new method spread across biology faster than almost any technique before it. A graduate student with a few weeks of training can now edit fruit flies, plant cells, or human cell lines using reagents ordered from a catalogue. Clinical trials have already used CRISPR to treat sickle cell disease and certain inherited forms of blindness, and similar techniques are being explored against cancers and chronic infections. Agricultural research has produced fungus-resistant bananas and drought-tolerant wheat, though regulators in different countries treat these crops very differently from one another.\n\nWith accessibility has come a sharper version of an old debate. Editing somatic cells — the body cells of a single patient — is now broadly accepted in principle, because the changes are not inherited by future generations. Editing germline cells, by contrast, alters every cell the resulting person will pass on, raising questions about consent that no future patient can give. A widely condemned attempt in 2018 to edit the embryos of two human babies underscored how cheaply such an experiment could now be attempted, even where law and scientific consensus prohibit it. CRISPR has not created the underlying ethical questions, but it has stripped away the technical excuse that they were premature."
+      }
+    },
+    {
+      "id": "rsim17-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the final sentence, the phrase \"stripped away the technical excuse\" most nearly means:",
+      "choices": [
+        "weakened the medical case for treating disease",
+        "removed the practical reason for postponing serious ethical debate",
+        "made it physically impossible to edit any genes",
+        "delayed regulation of agricultural products"
+      ],
+      "answer": 1,
+      "explanation": "The passage means that as long as gene editing was technically difficult, debates about its ethics could be deferred. Now that the technique is cheap and easy, that postponement is no longer defensible.",
+      "wrongReasons": [
+        "The passage treats medical applications positively.",
+        "The passage describes editing as easier than ever, not impossible.",
+        "It does not refer to agricultural regulation in that sentence."
+      ],
+      "passage": {
+        "id": "rsim17-passage",
+        "title": "When Editing Genes Became Routine",
+        "body": "Genetic engineering existed long before CRISPR. The earliest tools, developed in the 1970s, relied on enzymes that could cut DNA only at a limited set of sequences, and inserting a new gene into a precise spot in a genome typically required years of work by specialised laboratories. The arrival of the CRISPR–Cas9 system in 2012 changed this picture in months. Adapted from a bacterial defense mechanism against viruses, the system uses a short guide RNA to direct an enzyme to almost any chosen sequence and make a cut there. Once cut, the cell's own repair machinery can be persuaded to delete a gene, replace it, or insert a new fragment.\n\nThe new method spread across biology faster than almost any technique before it. A graduate student with a few weeks of training can now edit fruit flies, plant cells, or human cell lines using reagents ordered from a catalogue. Clinical trials have already used CRISPR to treat sickle cell disease and certain inherited forms of blindness, and similar techniques are being explored against cancers and chronic infections. Agricultural research has produced fungus-resistant bananas and drought-tolerant wheat, though regulators in different countries treat these crops very differently from one another.\n\nWith accessibility has come a sharper version of an old debate. Editing somatic cells — the body cells of a single patient — is now broadly accepted in principle, because the changes are not inherited by future generations. Editing germline cells, by contrast, alters every cell the resulting person will pass on, raising questions about consent that no future patient can give. A widely condemned attempt in 2018 to edit the embryos of two human babies underscored how cheaply such an experiment could now be attempted, even where law and scientific consensus prohibit it. CRISPR has not created the underlying ethical questions, but it has stripped away the technical excuse that they were premature."
+      }
+    },
+    {
+      "id": "rsim17-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Why does the author mention earlier genetic-engineering tools from the 1970s?",
+      "choices": [
+        "To argue that those earlier tools were superior to CRISPR.",
+        "To establish a baseline of slow, restricted editing against which CRISPR's speed and accessibility appear more dramatic.",
+        "To suggest that gene editing was always an ethical-free zone.",
+        "To recommend abandoning newer methods in favor of older ones."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 mentions the older enzymes precisely to set up a contrast with CRISPR's broad accessibility and speed.",
+      "wrongReasons": [
+        "The passage treats CRISPR as the breakthrough, not the older methods.",
+        "Ethics is treated as a longstanding concern that CRISPR sharpens.",
+        "The passage does not argue for reverting to older techniques."
+      ],
+      "passage": {
+        "id": "rsim17-passage",
+        "title": "When Editing Genes Became Routine",
+        "body": "Genetic engineering existed long before CRISPR. The earliest tools, developed in the 1970s, relied on enzymes that could cut DNA only at a limited set of sequences, and inserting a new gene into a precise spot in a genome typically required years of work by specialised laboratories. The arrival of the CRISPR–Cas9 system in 2012 changed this picture in months. Adapted from a bacterial defense mechanism against viruses, the system uses a short guide RNA to direct an enzyme to almost any chosen sequence and make a cut there. Once cut, the cell's own repair machinery can be persuaded to delete a gene, replace it, or insert a new fragment.\n\nThe new method spread across biology faster than almost any technique before it. A graduate student with a few weeks of training can now edit fruit flies, plant cells, or human cell lines using reagents ordered from a catalogue. Clinical trials have already used CRISPR to treat sickle cell disease and certain inherited forms of blindness, and similar techniques are being explored against cancers and chronic infections. Agricultural research has produced fungus-resistant bananas and drought-tolerant wheat, though regulators in different countries treat these crops very differently from one another.\n\nWith accessibility has come a sharper version of an old debate. Editing somatic cells — the body cells of a single patient — is now broadly accepted in principle, because the changes are not inherited by future generations. Editing germline cells, by contrast, alters every cell the resulting person will pass on, raising questions about consent that no future patient can give. A widely condemned attempt in 2018 to edit the embryos of two human babies underscored how cheaply such an experiment could now be attempted, even where law and scientific consensus prohibit it. CRISPR has not created the underlying ethical questions, but it has stripped away the technical excuse that they were premature."
+      }
+    },
+
+    {
+      "id": "rsim18-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Cities are no warmer than the surrounding countryside.",
+        "Urban surfaces and waste heat make built-up areas measurably hotter than nearby rural land, with consequences for health and energy use that can be partly addressed by design choices.",
+        "Air conditioning is the only practical way to cope with hot summers.",
+        "Removing all trees from cities would help reduce heat."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains why cities run hotter (surfaces, waste heat, geometry), describes the effects, and points to design choices — green roofs, lighter pavements, vegetation — that mitigate the effect.",
+      "wrongReasons": [
+        "The passage directly contradicts this; the temperature gap is its central topic.",
+        "Air conditioning is mentioned as adding to the problem, not solving it.",
+        "Trees are described as part of the solution, not an obstacle."
+      ],
+      "passage": {
+        "id": "rsim18-passage",
+        "title": "Why Cities Run Hot",
+        "body": "Anyone who has stepped off a country road onto a city street on a summer afternoon has felt the urban heat island. Air temperatures in dense built-up areas can run several degrees Celsius higher than in the surrounding countryside, and the difference is often largest at night, when rural soil and vegetation cool quickly while concrete and asphalt continue to release the heat they absorbed during the day. The effect has been measured in cities from Tokyo to Phoenix and is now considered a routine feature of the urban climate.\n\nSeveral mechanisms combine to produce it. Dark surfaces like asphalt absorb a high fraction of incoming sunlight and store the energy until well after sunset. Buildings packed closely together trap the resulting infrared radiation, slowing its escape to the sky. Waste heat from engines, factories, and air conditioners is added directly to the local air, and the relative scarcity of vegetation reduces the cooling that evaporation from leaves would normally provide. Each of these factors might seem small in isolation; together they account for the persistent temperature gap that researchers observe.\n\nThe consequences are not merely uncomfortable. Hotter nights make it harder for vulnerable residents — the elderly, infants, those with chronic illness — to recover from heat stress, and they raise the demand for air conditioning, which in turn generates more waste heat. Public-health agencies in many cities now issue heat warnings tied to overnight rather than midday temperatures. Encouragingly, design choices can blunt the effect: green roofs and street trees increase evapotranspiration, lighter-colored pavements reflect more sunlight, and adjusting building geometry to allow some cross-ventilation can release trapped heat earlier in the evening. None of these interventions reverses climate change, but they can substantially soften its impact on the people most exposed to it."
+      }
+    },
+    {
+      "id": "rsim18-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, why is the urban heat-island effect often largest at night?",
+      "choices": [
+        "Because cities run more air conditioners at night than during the day.",
+        "Because rural soil and vegetation cool quickly after sunset while concrete and asphalt continue releasing the heat they absorbed during the day.",
+        "Because winds normally die down only after dark.",
+        "Because city residents close their windows at night."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 explains this directly: rural surfaces cool quickly, urban materials keep releasing heat, so the gap widens after sunset.",
+      "wrongReasons": [
+        "Air conditioner use is part of the problem, but not the explanation given for the night-time gap.",
+        "Wind is not discussed.",
+        "Closing windows is not what creates the gap in temperature."
+      ],
+      "passage": {
+        "id": "rsim18-passage",
+        "title": "Why Cities Run Hot",
+        "body": "Anyone who has stepped off a country road onto a city street on a summer afternoon has felt the urban heat island. Air temperatures in dense built-up areas can run several degrees Celsius higher than in the surrounding countryside, and the difference is often largest at night, when rural soil and vegetation cool quickly while concrete and asphalt continue to release the heat they absorbed during the day. The effect has been measured in cities from Tokyo to Phoenix and is now considered a routine feature of the urban climate.\n\nSeveral mechanisms combine to produce it. Dark surfaces like asphalt absorb a high fraction of incoming sunlight and store the energy until well after sunset. Buildings packed closely together trap the resulting infrared radiation, slowing its escape to the sky. Waste heat from engines, factories, and air conditioners is added directly to the local air, and the relative scarcity of vegetation reduces the cooling that evaporation from leaves would normally provide. Each of these factors might seem small in isolation; together they account for the persistent temperature gap that researchers observe.\n\nThe consequences are not merely uncomfortable. Hotter nights make it harder for vulnerable residents — the elderly, infants, those with chronic illness — to recover from heat stress, and they raise the demand for air conditioning, which in turn generates more waste heat. Public-health agencies in many cities now issue heat warnings tied to overnight rather than midday temperatures. Encouragingly, design choices can blunt the effect: green roofs and street trees increase evapotranspiration, lighter-colored pavements reflect more sunlight, and adjusting building geometry to allow some cross-ventilation can release trapped heat earlier in the evening. None of these interventions reverses climate change, but they can substantially soften its impact on the people most exposed to it."
+      }
+    },
+    {
+      "id": "rsim18-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about the relationship between air conditioning and the urban heat island?",
+      "choices": [
+        "Air conditioning eliminates the heat island entirely.",
+        "Air conditioning makes the heat island worse, because the waste heat it generates is released back into the surrounding air.",
+        "Air conditioning has no measurable effect on the heat island.",
+        "Air conditioning is the only design choice that can soften the heat island."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph notes that demand for air conditioning rises with heat and that air conditioners themselves generate more waste heat, creating a reinforcing loop.",
+      "wrongReasons": [
+        "Air conditioning addresses indoor temperature, not the outdoor heat island.",
+        "The passage attributes a measurable role to waste heat from air conditioners.",
+        "The passage lists several other design choices that can soften the heat island."
+      ],
+      "passage": {
+        "id": "rsim18-passage",
+        "title": "Why Cities Run Hot",
+        "body": "Anyone who has stepped off a country road onto a city street on a summer afternoon has felt the urban heat island. Air temperatures in dense built-up areas can run several degrees Celsius higher than in the surrounding countryside, and the difference is often largest at night, when rural soil and vegetation cool quickly while concrete and asphalt continue to release the heat they absorbed during the day. The effect has been measured in cities from Tokyo to Phoenix and is now considered a routine feature of the urban climate.\n\nSeveral mechanisms combine to produce it. Dark surfaces like asphalt absorb a high fraction of incoming sunlight and store the energy until well after sunset. Buildings packed closely together trap the resulting infrared radiation, slowing its escape to the sky. Waste heat from engines, factories, and air conditioners is added directly to the local air, and the relative scarcity of vegetation reduces the cooling that evaporation from leaves would normally provide. Each of these factors might seem small in isolation; together they account for the persistent temperature gap that researchers observe.\n\nThe consequences are not merely uncomfortable. Hotter nights make it harder for vulnerable residents — the elderly, infants, those with chronic illness — to recover from heat stress, and they raise the demand for air conditioning, which in turn generates more waste heat. Public-health agencies in many cities now issue heat warnings tied to overnight rather than midday temperatures. Encouragingly, design choices can blunt the effect: green roofs and street trees increase evapotranspiration, lighter-colored pavements reflect more sunlight, and adjusting building geometry to allow some cross-ventilation can release trapped heat earlier in the evening. None of these interventions reverses climate change, but they can substantially soften its impact on the people most exposed to it."
+      }
+    },
+    {
+      "id": "rsim18-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the final paragraph, the word \"blunt\" most nearly means:",
+      "choices": [
+        "sharpen",
+        "reduce the strength of",
+        "describe in plain language",
+        "remove entirely"
+      ],
+      "answer": 1,
+      "explanation": "To blunt an effect is to reduce its severity. The passage emphasizes 'softening' the impact, not erasing it.",
+      "wrongReasons": [
+        "It means the opposite of sharpen.",
+        "Bluntness as plain speech is unrelated to this engineering context.",
+        "The passage acknowledges that the effect cannot be removed entirely."
+      ],
+      "passage": {
+        "id": "rsim18-passage",
+        "title": "Why Cities Run Hot",
+        "body": "Anyone who has stepped off a country road onto a city street on a summer afternoon has felt the urban heat island. Air temperatures in dense built-up areas can run several degrees Celsius higher than in the surrounding countryside, and the difference is often largest at night, when rural soil and vegetation cool quickly while concrete and asphalt continue to release the heat they absorbed during the day. The effect has been measured in cities from Tokyo to Phoenix and is now considered a routine feature of the urban climate.\n\nSeveral mechanisms combine to produce it. Dark surfaces like asphalt absorb a high fraction of incoming sunlight and store the energy until well after sunset. Buildings packed closely together trap the resulting infrared radiation, slowing its escape to the sky. Waste heat from engines, factories, and air conditioners is added directly to the local air, and the relative scarcity of vegetation reduces the cooling that evaporation from leaves would normally provide. Each of these factors might seem small in isolation; together they account for the persistent temperature gap that researchers observe.\n\nThe consequences are not merely uncomfortable. Hotter nights make it harder for vulnerable residents — the elderly, infants, those with chronic illness — to recover from heat stress, and they raise the demand for air conditioning, which in turn generates more waste heat. Public-health agencies in many cities now issue heat warnings tied to overnight rather than midday temperatures. Encouragingly, design choices can blunt the effect: green roofs and street trees increase evapotranspiration, lighter-colored pavements reflect more sunlight, and adjusting building geometry to allow some cross-ventilation can release trapped heat earlier in the evening. None of these interventions reverses climate change, but they can substantially soften its impact on the people most exposed to it."
+      }
+    },
+    {
+      "id": "rsim18-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "How does the third paragraph develop the argument introduced earlier?",
+      "choices": [
+        "It overturns the explanation given in the second paragraph.",
+        "It moves from describing the phenomenon to explaining who suffers most and what can be done, while keeping expectations realistic.",
+        "It introduces an unrelated topic about transportation policy.",
+        "It denies that the urban heat island has any consequences."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph shifts from why cities run hot to who is most affected and which design responses help — without claiming the effect can be eliminated.",
+      "wrongReasons": [
+        "It builds on, rather than overturns, the second paragraph.",
+        "Transportation policy is not the focus.",
+        "It explicitly catalogs consequences for vulnerable residents."
+      ],
+      "passage": {
+        "id": "rsim18-passage",
+        "title": "Why Cities Run Hot",
+        "body": "Anyone who has stepped off a country road onto a city street on a summer afternoon has felt the urban heat island. Air temperatures in dense built-up areas can run several degrees Celsius higher than in the surrounding countryside, and the difference is often largest at night, when rural soil and vegetation cool quickly while concrete and asphalt continue to release the heat they absorbed during the day. The effect has been measured in cities from Tokyo to Phoenix and is now considered a routine feature of the urban climate.\n\nSeveral mechanisms combine to produce it. Dark surfaces like asphalt absorb a high fraction of incoming sunlight and store the energy until well after sunset. Buildings packed closely together trap the resulting infrared radiation, slowing its escape to the sky. Waste heat from engines, factories, and air conditioners is added directly to the local air, and the relative scarcity of vegetation reduces the cooling that evaporation from leaves would normally provide. Each of these factors might seem small in isolation; together they account for the persistent temperature gap that researchers observe.\n\nThe consequences are not merely uncomfortable. Hotter nights make it harder for vulnerable residents — the elderly, infants, those with chronic illness — to recover from heat stress, and they raise the demand for air conditioning, which in turn generates more waste heat. Public-health agencies in many cities now issue heat warnings tied to overnight rather than midday temperatures. Encouragingly, design choices can blunt the effect: green roofs and street trees increase evapotranspiration, lighter-colored pavements reflect more sunlight, and adjusting building geometry to allow some cross-ventilation can release trapped heat earlier in the evening. None of these interventions reverses climate change, but they can substantially soften its impact on the people most exposed to it."
+      }
+    },
+
+    {
+      "id": "rsim19-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best summarizes the main idea of the passage?",
+      "choices": [
+        "Photosynthesis is a process that occurs only in tropical rainforests.",
+        "Photosynthesis ties together life, oxygen, and the carbon cycle, and any change in its rate at the planetary scale alters the conditions on which most organisms depend.",
+        "Plants release more carbon dioxide than they absorb over a year.",
+        "The Earth's oxygen reserves are unlimited."
+      ],
+      "answer": 1,
+      "explanation": "The passage frames photosynthesis as the foundation of oxygen-producing life and as the engine of the carbon cycle, then explores why disruptions to it have planetary consequences.",
+      "wrongReasons": [
+        "The passage extends the scope to oceans and forests in general, not just the tropics.",
+        "Net annual uptake is described as positive, not negative.",
+        "The atmosphere's oxygen is described as a finite consequence of photosynthesis, not unlimited."
+      ],
+      "passage": {
+        "id": "rsim19-passage",
+        "title": "Photosynthesis and the Air We Breathe",
+        "body": "More than two billion years ago, a group of microscopic organisms invented a way to split water molecules using the energy of sunlight, combining the resulting electrons with carbon dioxide to build simple sugars. The waste product of that reaction — molecular oxygen — slowly accumulated in the atmosphere and made possible nearly every form of life that breathes air today. Modern plants, algae, and a great many bacteria continue to run essentially the same chemistry inside specialized structures called chloroplasts.\n\nThe planetary consequences are easy to overlook because the process is invisible. Each year, photosynthetic organisms remove roughly a hundred billion tonnes of carbon from the atmosphere and bind it into the bodies of plants and microbes. Most of this carbon is eventually returned to the air when those organisms — or the creatures that eat them — respire or decompose. The remainder is locked into wood, soils, or sea-floor sediments, where it can stay out of circulation for centuries or, in the case of fossil fuels, hundreds of millions of years. The balance between uptake and release is what determines whether atmospheric carbon dioxide rises or falls over time.\n\nHuman activity now perturbs this balance from both sides. Burning coal, oil, and gas releases ancient stored carbon faster than living plants and oceans can absorb it. Clearing tropical forests reduces the standing biomass that pulled carbon down in the first place. Researchers monitoring forests and phytoplankton try to track how rapidly photosynthesis is responding — warmer waters can stress marine algae, while a slightly enriched atmosphere can briefly accelerate growth in some plants. None of these adjustments cancels the overall trend, but they remind us that the air we breathe is the running output of a global metabolic process, and that altering its inputs at scale has effects on every organism connected to that process."
+      }
+    },
+    {
+      "id": "rsim19-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what was the long-term consequence of early photosynthetic organisms splitting water using sunlight?",
+      "choices": [
+        "The seas became too salty for any new species to develop.",
+        "Molecular oxygen gradually accumulated in the atmosphere, making aerobic life possible.",
+        "All bacteria became extinct.",
+        "Carbon dioxide levels remained perfectly constant for two billion years."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 states explicitly that the waste product of the reaction — molecular oxygen — slowly accumulated in the atmosphere and made later air-breathing life possible.",
+      "wrongReasons": [
+        "Salinity is not discussed.",
+        "The passage notes that bacteria continue to perform photosynthesis today.",
+        "The passage describes ongoing changes in the carbon balance."
+      ],
+      "passage": {
+        "id": "rsim19-passage",
+        "title": "Photosynthesis and the Air We Breathe",
+        "body": "More than two billion years ago, a group of microscopic organisms invented a way to split water molecules using the energy of sunlight, combining the resulting electrons with carbon dioxide to build simple sugars. The waste product of that reaction — molecular oxygen — slowly accumulated in the atmosphere and made possible nearly every form of life that breathes air today. Modern plants, algae, and a great many bacteria continue to run essentially the same chemistry inside specialized structures called chloroplasts.\n\nThe planetary consequences are easy to overlook because the process is invisible. Each year, photosynthetic organisms remove roughly a hundred billion tonnes of carbon from the atmosphere and bind it into the bodies of plants and microbes. Most of this carbon is eventually returned to the air when those organisms — or the creatures that eat them — respire or decompose. The remainder is locked into wood, soils, or sea-floor sediments, where it can stay out of circulation for centuries or, in the case of fossil fuels, hundreds of millions of years. The balance between uptake and release is what determines whether atmospheric carbon dioxide rises or falls over time.\n\nHuman activity now perturbs this balance from both sides. Burning coal, oil, and gas releases ancient stored carbon faster than living plants and oceans can absorb it. Clearing tropical forests reduces the standing biomass that pulled carbon down in the first place. Researchers monitoring forests and phytoplankton try to track how rapidly photosynthesis is responding — warmer waters can stress marine algae, while a slightly enriched atmosphere can briefly accelerate growth in some plants. None of these adjustments cancels the overall trend, but they remind us that the air we breathe is the running output of a global metabolic process, and that altering its inputs at scale has effects on every organism connected to that process."
+      }
+    },
+    {
+      "id": "rsim19-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about the relationship between fossil-fuel use and the carbon balance?",
+      "choices": [
+        "Burning fossil fuels has no influence on atmospheric carbon.",
+        "Burning fossil fuels releases carbon that has been stored for hundreds of millions of years, faster than current photosynthesis can absorb it.",
+        "Carbon dioxide is consumed by combustion rather than released.",
+        "The carbon cycle does not include fossil fuels."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph explicitly says burning coal, oil, and gas releases ancient stored carbon faster than living plants and oceans can absorb it.",
+      "wrongReasons": [
+        "The passage contradicts this directly.",
+        "Combustion releases carbon dioxide, not consumes it.",
+        "Fossil fuels are described as a long-term carbon store within the cycle."
+      ],
+      "passage": {
+        "id": "rsim19-passage",
+        "title": "Photosynthesis and the Air We Breathe",
+        "body": "More than two billion years ago, a group of microscopic organisms invented a way to split water molecules using the energy of sunlight, combining the resulting electrons with carbon dioxide to build simple sugars. The waste product of that reaction — molecular oxygen — slowly accumulated in the atmosphere and made possible nearly every form of life that breathes air today. Modern plants, algae, and a great many bacteria continue to run essentially the same chemistry inside specialized structures called chloroplasts.\n\nThe planetary consequences are easy to overlook because the process is invisible. Each year, photosynthetic organisms remove roughly a hundred billion tonnes of carbon from the atmosphere and bind it into the bodies of plants and microbes. Most of this carbon is eventually returned to the air when those organisms — or the creatures that eat them — respire or decompose. The remainder is locked into wood, soils, or sea-floor sediments, where it can stay out of circulation for centuries or, in the case of fossil fuels, hundreds of millions of years. The balance between uptake and release is what determines whether atmospheric carbon dioxide rises or falls over time.\n\nHuman activity now perturbs this balance from both sides. Burning coal, oil, and gas releases ancient stored carbon faster than living plants and oceans can absorb it. Clearing tropical forests reduces the standing biomass that pulled carbon down in the first place. Researchers monitoring forests and phytoplankton try to track how rapidly photosynthesis is responding — warmer waters can stress marine algae, while a slightly enriched atmosphere can briefly accelerate growth in some plants. None of these adjustments cancels the overall trend, but they remind us that the air we breathe is the running output of a global metabolic process, and that altering its inputs at scale has effects on every organism connected to that process."
+      }
+    },
+    {
+      "id": "rsim19-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"perturbs\" most nearly means:",
+      "choices": [
+        "leaves untouched",
+        "disturbs or disrupts",
+        "completely destroys",
+        "officially measures"
+      ],
+      "answer": 1,
+      "explanation": "To perturb a balance is to disturb it. The passage uses 'perturbs' to mean that human activity disrupts an otherwise running balance between uptake and release.",
+      "wrongReasons": [
+        "It means the opposite.",
+        "It does not imply destruction; it refers to disturbance.",
+        "Measurement is not what the word means here."
+      ],
+      "passage": {
+        "id": "rsim19-passage",
+        "title": "Photosynthesis and the Air We Breathe",
+        "body": "More than two billion years ago, a group of microscopic organisms invented a way to split water molecules using the energy of sunlight, combining the resulting electrons with carbon dioxide to build simple sugars. The waste product of that reaction — molecular oxygen — slowly accumulated in the atmosphere and made possible nearly every form of life that breathes air today. Modern plants, algae, and a great many bacteria continue to run essentially the same chemistry inside specialized structures called chloroplasts.\n\nThe planetary consequences are easy to overlook because the process is invisible. Each year, photosynthetic organisms remove roughly a hundred billion tonnes of carbon from the atmosphere and bind it into the bodies of plants and microbes. Most of this carbon is eventually returned to the air when those organisms — or the creatures that eat them — respire or decompose. The remainder is locked into wood, soils, or sea-floor sediments, where it can stay out of circulation for centuries or, in the case of fossil fuels, hundreds of millions of years. The balance between uptake and release is what determines whether atmospheric carbon dioxide rises or falls over time.\n\nHuman activity now perturbs this balance from both sides. Burning coal, oil, and gas releases ancient stored carbon faster than living plants and oceans can absorb it. Clearing tropical forests reduces the standing biomass that pulled carbon down in the first place. Researchers monitoring forests and phytoplankton try to track how rapidly photosynthesis is responding — warmer waters can stress marine algae, while a slightly enriched atmosphere can briefly accelerate growth in some plants. None of these adjustments cancels the overall trend, but they remind us that the air we breathe is the running output of a global metabolic process, and that altering its inputs at scale has effects on every organism connected to that process."
+      }
+    },
+    {
+      "id": "rsim19-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the rhetorical effect of the closing image of the air as \"the running output of a global metabolic process\"?",
+      "choices": [
+        "It reduces the passage's argument to a simple slogan.",
+        "It frames the atmosphere as something actively maintained by living systems, encouraging the reader to take changes to those systems seriously.",
+        "It implies that the atmosphere is unchanging and stable.",
+        "It suggests that humans are entirely outside the carbon cycle."
+      ],
+      "answer": 1,
+      "explanation": "The image emphasizes that the air is not a passive backdrop but the continuously produced output of living systems, which heightens the stakes of disturbing those systems at scale.",
+      "wrongReasons": [
+        "The image enriches the argument rather than simplifying it.",
+        "It conveys the opposite — the air is the result of an active, perturbable process.",
+        "The passage places human activity inside the carbon cycle."
+      ],
+      "passage": {
+        "id": "rsim19-passage",
+        "title": "Photosynthesis and the Air We Breathe",
+        "body": "More than two billion years ago, a group of microscopic organisms invented a way to split water molecules using the energy of sunlight, combining the resulting electrons with carbon dioxide to build simple sugars. The waste product of that reaction — molecular oxygen — slowly accumulated in the atmosphere and made possible nearly every form of life that breathes air today. Modern plants, algae, and a great many bacteria continue to run essentially the same chemistry inside specialized structures called chloroplasts.\n\nThe planetary consequences are easy to overlook because the process is invisible. Each year, photosynthetic organisms remove roughly a hundred billion tonnes of carbon from the atmosphere and bind it into the bodies of plants and microbes. Most of this carbon is eventually returned to the air when those organisms — or the creatures that eat them — respire or decompose. The remainder is locked into wood, soils, or sea-floor sediments, where it can stay out of circulation for centuries or, in the case of fossil fuels, hundreds of millions of years. The balance between uptake and release is what determines whether atmospheric carbon dioxide rises or falls over time.\n\nHuman activity now perturbs this balance from both sides. Burning coal, oil, and gas releases ancient stored carbon faster than living plants and oceans can absorb it. Clearing tropical forests reduces the standing biomass that pulled carbon down in the first place. Researchers monitoring forests and phytoplankton try to track how rapidly photosynthesis is responding — warmer waters can stress marine algae, while a slightly enriched atmosphere can briefly accelerate growth in some plants. None of these adjustments cancels the overall trend, but they remind us that the air we breathe is the running output of a global metabolic process, and that altering its inputs at scale has effects on every organism connected to that process."
+      }
+    },
+
+    {
+      "id": "rsim20-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "The placebo effect is purely a matter of patients lying about feeling better.",
+        "The placebo effect is a real, measurable consequence of expectation and context, with clinically meaningful — though limited — implications for medical practice.",
+        "Placebos work just as well as actual drugs for every condition.",
+        "Pain is entirely subjective and cannot be studied scientifically."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that the placebo effect is a genuine, measurable phenomenon shaped by expectation and ritual, with real but bounded clinical implications.",
+      "wrongReasons": [
+        "The passage contradicts the lying explanation by citing measurable biological changes.",
+        "It explicitly notes that placebos work for some symptoms, not all conditions.",
+        "Pain is precisely the domain in which the passage shows scientific study can succeed."
+      ],
+      "passage": {
+        "id": "rsim20-passage",
+        "title": "What the Placebo Effect Really Is",
+        "body": "The placebo effect was long dismissed as an artefact of polite patients telling doctors what they wished to hear. Careful clinical work over the past three decades has produced a more interesting picture. When patients with chronic pain, mild depression, or irritable-bowel syndrome are given a pill they believe to be active treatment, many of them report genuine improvement that can be measured against an untreated comparison group. The improvement is not large enough to replace effective drugs, but it is not zero either, and crucially it appears in objective markers — such as the amount of pain-relief medication patients later request — and not only in self-report.\n\nA growing body of imaging and physiological research has begun to identify mechanisms. When patients expect relief, regions of the brain involved in pain modulation become more active, and the body releases its own endorphins in measurable quantities. Blocking those endorphins pharmacologically also blocks much of the placebo effect, suggesting the brain is recruiting genuinely analgesic systems rather than simply suppressing complaint. Context matters too: an injection elicits a larger placebo response than a pill, and a pill from a confident clinician outperforms an identical pill received without explanation.\n\nThese findings carry both practical and ethical weight. On the practical side, clinicians can ethically harness placebo effects by communicating clearly, allowing time for explanation, and conducting procedures with care — none of which involves deceiving the patient. On the ethical side, the placebo effect complicates the design of clinical trials, since any new treatment must outperform not only no treatment but also the inert expectations triggered by the trial itself. Modern medicine no longer treats the placebo response as a nuisance to be filtered out; it treats it as a measurable biological phenomenon to be understood, respected, and, where possible, deployed alongside specific therapies."
+      }
+    },
+    {
+      "id": "rsim20-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what does brain imaging reveal about the placebo response in pain studies?",
+      "choices": [
+        "There is no measurable change in brain activity when patients expect relief.",
+        "Regions involved in pain modulation become more active and endogenous endorphins are released in measurable amounts.",
+        "The visual cortex shuts down completely.",
+        "The brain becomes less responsive to actual drugs after a placebo."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 specifies that pain-modulation regions become more active and that endorphins are released — a measurable biological response.",
+      "wrongReasons": [
+        "The passage describes measurable changes, not their absence.",
+        "Visual processing is not discussed.",
+        "The passage notes that real drugs can also be supported by placebo-like effects, not undermined by them."
+      ],
+      "passage": {
+        "id": "rsim20-passage",
+        "title": "What the Placebo Effect Really Is",
+        "body": "The placebo effect was long dismissed as an artefact of polite patients telling doctors what they wished to hear. Careful clinical work over the past three decades has produced a more interesting picture. When patients with chronic pain, mild depression, or irritable-bowel syndrome are given a pill they believe to be active treatment, many of them report genuine improvement that can be measured against an untreated comparison group. The improvement is not large enough to replace effective drugs, but it is not zero either, and crucially it appears in objective markers — such as the amount of pain-relief medication patients later request — and not only in self-report.\n\nA growing body of imaging and physiological research has begun to identify mechanisms. When patients expect relief, regions of the brain involved in pain modulation become more active, and the body releases its own endorphins in measurable quantities. Blocking those endorphins pharmacologically also blocks much of the placebo effect, suggesting the brain is recruiting genuinely analgesic systems rather than simply suppressing complaint. Context matters too: an injection elicits a larger placebo response than a pill, and a pill from a confident clinician outperforms an identical pill received without explanation.\n\nThese findings carry both practical and ethical weight. On the practical side, clinicians can ethically harness placebo effects by communicating clearly, allowing time for explanation, and conducting procedures with care — none of which involves deceiving the patient. On the ethical side, the placebo effect complicates the design of clinical trials, since any new treatment must outperform not only no treatment but also the inert expectations triggered by the trial itself. Modern medicine no longer treats the placebo response as a nuisance to be filtered out; it treats it as a measurable biological phenomenon to be understood, respected, and, where possible, deployed alongside specific therapies."
+      }
+    },
+    {
+      "id": "rsim20-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about clinical trials from the passage?",
+      "choices": [
+        "Trials are easier to interpret because the placebo effect is real.",
+        "Trials must show that a new treatment outperforms not only no treatment but also the placebo response itself.",
+        "Trials no longer need control groups.",
+        "Patients in trials cannot benefit unless told they are receiving a real drug."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 3 says explicitly that the placebo effect complicates trial design because new treatments must beat the inert expectations the trial itself triggers.",
+      "wrongReasons": [
+        "The passage describes the placebo effect as a complication, not a simplification.",
+        "Control groups are essential precisely because of the placebo effect.",
+        "Patients can show measurable improvement even without being told they receive an active drug."
+      ],
+      "passage": {
+        "id": "rsim20-passage",
+        "title": "What the Placebo Effect Really Is",
+        "body": "The placebo effect was long dismissed as an artefact of polite patients telling doctors what they wished to hear. Careful clinical work over the past three decades has produced a more interesting picture. When patients with chronic pain, mild depression, or irritable-bowel syndrome are given a pill they believe to be active treatment, many of them report genuine improvement that can be measured against an untreated comparison group. The improvement is not large enough to replace effective drugs, but it is not zero either, and crucially it appears in objective markers — such as the amount of pain-relief medication patients later request — and not only in self-report.\n\nA growing body of imaging and physiological research has begun to identify mechanisms. When patients expect relief, regions of the brain involved in pain modulation become more active, and the body releases its own endorphins in measurable quantities. Blocking those endorphins pharmacologically also blocks much of the placebo effect, suggesting the brain is recruiting genuinely analgesic systems rather than simply suppressing complaint. Context matters too: an injection elicits a larger placebo response than a pill, and a pill from a confident clinician outperforms an identical pill received without explanation.\n\nThese findings carry both practical and ethical weight. On the practical side, clinicians can ethically harness placebo effects by communicating clearly, allowing time for explanation, and conducting procedures with care — none of which involves deceiving the patient. On the ethical side, the placebo effect complicates the design of clinical trials, since any new treatment must outperform not only no treatment but also the inert expectations triggered by the trial itself. Modern medicine no longer treats the placebo response as a nuisance to be filtered out; it treats it as a measurable biological phenomenon to be understood, respected, and, where possible, deployed alongside specific therapies."
+      }
+    },
+    {
+      "id": "rsim20-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"deployed\" most nearly means:",
+      "choices": [
+        "ignored",
+        "put to use",
+        "patented",
+        "exposed as fraudulent"
+      ],
+      "answer": 1,
+      "explanation": "The closing line says the placebo response is to be 'deployed alongside specific therapies' — that is, intentionally put to use as part of treatment.",
+      "wrongReasons": [
+        "The passage advocates for the opposite of ignoring it.",
+        "Patenting is unrelated to this context.",
+        "The passage argues that the effect is real, not fraudulent."
+      ],
+      "passage": {
+        "id": "rsim20-passage",
+        "title": "What the Placebo Effect Really Is",
+        "body": "The placebo effect was long dismissed as an artefact of polite patients telling doctors what they wished to hear. Careful clinical work over the past three decades has produced a more interesting picture. When patients with chronic pain, mild depression, or irritable-bowel syndrome are given a pill they believe to be active treatment, many of them report genuine improvement that can be measured against an untreated comparison group. The improvement is not large enough to replace effective drugs, but it is not zero either, and crucially it appears in objective markers — such as the amount of pain-relief medication patients later request — and not only in self-report.\n\nA growing body of imaging and physiological research has begun to identify mechanisms. When patients expect relief, regions of the brain involved in pain modulation become more active, and the body releases its own endorphins in measurable quantities. Blocking those endorphins pharmacologically also blocks much of the placebo effect, suggesting the brain is recruiting genuinely analgesic systems rather than simply suppressing complaint. Context matters too: an injection elicits a larger placebo response than a pill, and a pill from a confident clinician outperforms an identical pill received without explanation.\n\nThese findings carry both practical and ethical weight. On the practical side, clinicians can ethically harness placebo effects by communicating clearly, allowing time for explanation, and conducting procedures with care — none of which involves deceiving the patient. On the ethical side, the placebo effect complicates the design of clinical trials, since any new treatment must outperform not only no treatment but also the inert expectations triggered by the trial itself. Modern medicine no longer treats the placebo response as a nuisance to be filtered out; it treats it as a measurable biological phenomenon to be understood, respected, and, where possible, deployed alongside specific therapies."
+      }
+    },
+    {
+      "id": "rsim20-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Which sentence best captures how the author's view contrasts with the older view of placebos?",
+      "choices": [
+        "The author and earlier researchers agree that placebos work primarily because patients are polite.",
+        "The author treats the placebo effect as a measurable biological phenomenon to be understood, respected and where possible used, whereas older accounts dismissed it as a social artefact.",
+        "The author thinks placebos should fully replace specific medical therapies.",
+        "The author argues that the placebo effect cannot be measured at all."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 3's closing line draws exactly this contrast: modern medicine no longer treats the placebo response as a nuisance, but as a phenomenon to understand, respect, and deploy.",
+      "wrongReasons": [
+        "The passage explicitly disagrees with this older view.",
+        "It does not propose replacing specific therapies with placebo effects.",
+        "The passage cites multiple measurable markers."
+      ],
+      "passage": {
+        "id": "rsim20-passage",
+        "title": "What the Placebo Effect Really Is",
+        "body": "The placebo effect was long dismissed as an artefact of polite patients telling doctors what they wished to hear. Careful clinical work over the past three decades has produced a more interesting picture. When patients with chronic pain, mild depression, or irritable-bowel syndrome are given a pill they believe to be active treatment, many of them report genuine improvement that can be measured against an untreated comparison group. The improvement is not large enough to replace effective drugs, but it is not zero either, and crucially it appears in objective markers — such as the amount of pain-relief medication patients later request — and not only in self-report.\n\nA growing body of imaging and physiological research has begun to identify mechanisms. When patients expect relief, regions of the brain involved in pain modulation become more active, and the body releases its own endorphins in measurable quantities. Blocking those endorphins pharmacologically also blocks much of the placebo effect, suggesting the brain is recruiting genuinely analgesic systems rather than simply suppressing complaint. Context matters too: an injection elicits a larger placebo response than a pill, and a pill from a confident clinician outperforms an identical pill received without explanation.\n\nThese findings carry both practical and ethical weight. On the practical side, clinicians can ethically harness placebo effects by communicating clearly, allowing time for explanation, and conducting procedures with care — none of which involves deceiving the patient. On the ethical side, the placebo effect complicates the design of clinical trials, since any new treatment must outperform not only no treatment but also the inert expectations triggered by the trial itself. Modern medicine no longer treats the placebo response as a nuisance to be filtered out; it treats it as a measurable biological phenomenon to be understood, respected, and, where possible, deployed alongside specific therapies."
+      }
+    }
+  ]
+}

@@ -1,9 +1,11 @@
+import type { Translations } from "@/lib/i18n/translations";
+
 export interface Plan {
   id: string;
-  name: string;
+  nameKey: keyof Translations["pricing"];
+  featureKeys: Array<keyof Translations["pricing"]>;
   priceILS: number | null;
   priceMonthlyUSD: number | null;
-  features: string[];
   isFree?: boolean;
   isPopular?: boolean;
   isOneTime?: boolean;
@@ -13,66 +15,66 @@ export interface Plan {
 export const PLANS: Plan[] = [
   {
     id: "free",
-    name: "חינמי / Free",
+    nameKey: "planFree",
     priceILS: 0,
     priceMonthlyUSD: 0,
-    features: [
-      "שאלות אימון ללא הגבלה / Unlimited practice questions",
-      "2 הדמיות בחודש / 2 simulations per month",
-      "מאגר בסיסי 100 מילים / Basic vocab (100 words)",
-      "מעקב התקדמות / Progress tracking",
+    featureKeys: [
+      "featUnlimitedPractice",
+      "feat2SimsPerMonth",
+      "featBasicVocab",
+      "featProgressTracking",
     ],
     isFree: true,
     isPopular: false,
   },
   {
     id: "pro-monthly",
-    name: "פרו חודשי / Pro Monthly",
+    nameKey: "planProMonthly",
     priceILS: 49,
     priceMonthlyUSD: 13,
-    features: [
-      "כל מה שב-Free / Everything in Free",
-      "הדמיות ללא הגבלה / Unlimited simulations",
-      "מאגר מלא 900+ מילים / Full vocab deck (900+ words)",
-      "תור חזרה חכם / Smart review queue",
-      "ניתוח נקודות חולשה / Weakness analysis",
-      "ייצוא ויבוא התקדמות / Progress export & import",
+    featureKeys: [
+      "featEverythingInFree",
+      "featUnlimitedSimulations",
+      "featFullVocab",
+      "featSmartReviewQueue",
+      "featWeaknessAnalysis",
+      "featProgressExportImport",
     ],
     isPopular: true,
   },
   {
     id: "pro-3month",
-    name: "פרו 3 חודשים / Pro 3 Months",
+    nameKey: "planPro3Month",
     priceILS: 119,
     priceMonthlyUSD: 11,
-    features: [
-      "כל מה שב-Pro / Everything in Pro",
-      "חיסכון של ~19% / ~19% savings",
-      "הדמיות ללא הגבלה / Unlimited simulations",
-      "מאגר מלא 900+ מילים / Full vocab deck",
-      "תור חזרה חכם / Smart review queue",
+    featureKeys: [
+      "featEverythingInPro",
+      "feat19PercentSavings",
+      "featUnlimitedSimulations",
+      "featFullVocab",
+      "featSmartReviewQueue",
     ],
   },
   {
     id: "sim-pack",
-    name: "חבילת הדמיות / Simulation Pack",
+    nameKey: "planSimPack",
     priceILS: 29,
     priceMonthlyUSD: 8,
-    features: [
-      "3 הדמיות / 3 simulations",
-      "תשלום חד-פעמי / One-time payment",
-      "תוקף 60 יום / Valid 60 days",
+    featureKeys: [
+      "feat3Simulations",
+      "featOneTimePayment",
+      "featValid60Days",
     ],
     isOneTime: true,
   },
   {
     id: "credits",
-    name: "קרדיטים / Credits",
+    nameKey: "planCredits",
     priceILS: null,
     priceMonthlyUSD: null,
-    features: [
-      "בקרוב / Coming soon",
-      "קרדיטים לשימוש גמיש / Flexible-use credits",
+    featureKeys: [
+      "featComingSoon",
+      "featFlexibleCredits",
     ],
     comingSoon: true,
   },

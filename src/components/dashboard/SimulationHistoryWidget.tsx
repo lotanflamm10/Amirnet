@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
 import { useLayoutEffect, useState } from "react";
+import { BarChart2 } from "lucide-react";
 import { loadProgress } from "@/lib/progress/local-progress-store";
 import type { SimulationHistory } from "@/types/progress";
+import { useLang } from "@/contexts/LanguageContext";
 
 function ScoreColor(score: number) {
   if (score >= 130) return "var(--success)";
@@ -13,6 +15,9 @@ function ScoreColor(score: number) {
 
 export function SimulationHistoryWidget() {
   const [history, setHistory] = useState<SimulationHistory[]>([]);
+  const { lang } = useLang();
+  const isHe = lang === "he";
+  const locale = isHe ? "he-IL" : "en-US";
 
   useLayoutEffect(() => {
     const p = loadProgress();
@@ -22,31 +27,42 @@ export function SimulationHistoryWidget() {
   return (
     <div className="card" style={{ padding: "1.25rem" }}>
       <div className="section-header">
-        <h3 className="section-title">הדמיות</h3>
-        <Link href="/simulation" className="btn btn-ghost btn-xs">חדשה →</Link>
+        <h3 className="section-title">{isHe ? "הדמיות" : "Simulations"}</h3>
+        <Link href="/simulation" className="btn btn-ghost btn-xs">
+          {isHe ? "חדשה" : "New"}
+        </Link>
       </div>
 
       {history.length === 0 ? (
         <div style={{ textAlign: "center", padding: "0.75rem 0" }}>
-          <div style={{ fontSize: "1.75rem", marginBottom: "0.5rem" }}>📊</div>
+          <div style={{ display: "flex", justifyContent: "center", marginBottom: "0.5rem" }}>
+            <BarChart2 size={28} color="var(--ink-muted)" strokeWidth={1.5} />
+          </div>
           <p style={{ fontSize: "0.82rem", color: "var(--ink-muted)", marginBottom: "0.75rem" }}>
-            עדיין אין הדמיות
+            {isHe ? "עדיין אין הדמיות" : "No simulations yet"}
           </p>
-          <Link href="/simulation" className="btn btn-ghost btn-sm">התחל הדמיה →</Link>
+          <Link href="/simulation" className="btn btn-ghost btn-sm">
+            {isHe ? "התחל הדמיה" : "Start a simulation"}
+          </Link>
         </div>
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           {history.map((h, i) => (
-            <div key={h.id}
-              className="animate-fade-up"
+            <Link
+              key={h.id}
+              href="/simulation"
+              className="card-clickable animate-fade-up"
               style={{
                 display: "flex", justifyContent: "space-between", alignItems: "center",
                 padding: "0.625rem 0.75rem", borderRadius: 10, background: "var(--raised)",
+                border: "1px solid var(--line)",
                 animationDelay: `${i * 0.07}s`,
+                textDecoration: "none", color: "inherit",
               }}
+              aria-label={isHe ? `פתח הדמיות (${new Date(h.completedAt).toLocaleDateString(locale)})` : `Open simulations (${new Date(h.completedAt).toLocaleDateString(locale)})`}
             >
               <span style={{ fontSize: "0.78rem", color: "var(--ink-muted)" }}>
-                {new Date(h.completedAt).toLocaleDateString("he-IL", { day: "numeric", month: "short" })}
+                {new Date(h.completedAt).toLocaleDateString(locale, { day: "numeric", month: "short" })}
               </span>
               <span style={{
                 fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 800,
@@ -55,9 +71,9 @@ export function SimulationHistoryWidget() {
                 {h.estimatedScore}
               </span>
               <span style={{ fontSize: "0.75rem", color: "var(--ink-soft)" }}>
-                {Math.round(h.accuracyPercent)}% דיוק
+                {Math.round(h.accuracyPercent)}% {isHe ? "דיוק" : "acc"}
               </span>
-            </div>
+            </Link>
           ))}
         </div>
       )}

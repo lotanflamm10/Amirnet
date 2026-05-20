@@ -15,6 +15,7 @@ import {
 } from "@/lib/vocab/custom-vocab-store";
 import type { StructuredCard } from "@/lib/vocab/custom-vocab-store";
 import CustomVocabSession from "@/components/vocab/CustomVocabSession";
+import { useLang } from "@/contexts/LanguageContext";
 
 const PLACEHOLDER = "apple = תפוח\nconsequently = כתוצאה מכך\nhowever = אולם, לעומת זאת\npersist = להתמיד";
 
@@ -30,6 +31,7 @@ export default function CustomVocabPage() {
   const [mode, setMode] = useState<"edit" | "practice">("edit");
   const [sessionKey, setSessionKey] = useState(0);
   const [tab, setTab] = useState<Tab>("bulk");
+  const { t } = useLang();
 
   // Structured cards state
   const [structuredCards, setStructuredCards] = useState<StructuredCard[]>([]);
@@ -45,13 +47,11 @@ export default function CustomVocabPage() {
   const [formSuccess, setFormSuccess] = useState(false);
   const successTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // All items = bulk + structured
   const [sessionItems, setSessionItems] = useState<VocabItem[]>([]);
 
   useEffect(() => () => { if (successTimerRef.current) clearTimeout(successTimerRef.current); }, []);
 
   useLayoutEffect(() => {
-    // Initialize tab from query param (?tab=card|list|bulk)
     const tabParam = new URLSearchParams(window.location.search).get("tab") as Tab | null;
     if (tabParam === "card" || tabParam === "list" || tabParam === "bulk") {
       setTab(tabParam);
@@ -95,7 +95,7 @@ export default function CustomVocabPage() {
 
   function handleFormSubmit() {
     if (!form.word.trim() || !form.translation.trim()) {
-      setFormError("מילה ותרגום הם שדות חובה");
+      setFormError(t.vocab.customWordRequired);
       return;
     }
     setFormError("");
@@ -140,19 +140,19 @@ export default function CustomVocabPage() {
           fontSize: "0.8rem", color: "var(--ink-muted)", textDecoration: "none",
           display: "inline-flex", alignItems: "center", gap: "0.25rem", marginBottom: "0.5rem",
         }}>
-          ← מאמן מילים
+          {t.vocab.backToVocab}
         </Link>
-        <h1 className="page-title">מילים מותאמות אישית</h1>
-        <p className="page-subtitle">הוסף מילים משלך ותרגל אותן בכרטיסיות החלקה</p>
+        <h1 className="page-title">{t.vocab.customPageTitle}</h1>
+        <p className="page-subtitle">{t.vocab.customPageSubtitle}</p>
       </div>
 
       {/* Tab nav */}
       <div style={{ display: "flex", gap: "0.5rem", borderBottom: "1px solid var(--line)", paddingBottom: "0.5rem" }}>
         {([
-          { key: "bulk", label: "ייבוא מהיר" },
-          { key: "card", label: "הוסף כרטיס" },
-          { key: "list", label: `הכרטיסים שלי (${structuredCards.length})` },
-        ] as { key: Tab; label: string }[]).map(({ key, label }) => (
+          { key: "bulk" as Tab, label: t.vocab.customTabBulk },
+          { key: "card" as Tab, label: t.vocab.customTabCard },
+          { key: "list" as Tab, label: `${t.vocab.customTabMy} (${structuredCards.length})` },
+        ]).map(({ key, label }) => (
           <button
             key={key}
             onClick={() => setTab(key)}
@@ -178,7 +178,7 @@ export default function CustomVocabPage() {
         <>
           <div className="card" style={{ padding: "1rem 1.25rem", background: "var(--teal-faint)", borderColor: "var(--teal)" }}>
             <p style={{ margin: "0 0 0.4rem", fontSize: "0.82rem", fontWeight: 700, color: "var(--teal)" }}>
-              פורמט: מילה = תרגום
+              {t.vocab.customFormatHint}
             </p>
             <pre style={{
               margin: 0, fontSize: "0.8rem", color: "var(--ink-soft)", lineHeight: 1.7,
@@ -191,7 +191,7 @@ export default function CustomVocabPage() {
 
           <div>
             <label style={{ display: "block", fontSize: "0.8rem", fontWeight: 600, color: "var(--ink-soft)", marginBottom: "0.4rem" }}>
-              הזן מילים — כל שורה: מילה = תרגום
+              {t.vocab.customBulkLineFormat}
             </label>
             <textarea
               value={rawText}
@@ -218,17 +218,17 @@ export default function CustomVocabPage() {
           <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap", alignItems: "center", minHeight: "1.2rem" }}>
             {parsedItems.length > 0 && (
               <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "var(--success)" }}>
-                ✓ {parsedItems.length} מילים מוכנות לתרגול
+                {t.vocab.customReadyCount.replace("{n}", String(parsedItems.length))}
               </span>
             )}
             {skippedCount > 0 && (
               <span style={{ fontSize: "0.78rem", color: "var(--warn)" }}>
-                ⚠ {skippedCount} שורות דולגו (חסר =)
+                {t.vocab.customSkippedCount.replace("{n}", String(skippedCount))}
               </span>
             )}
             {rawText.trim() && parsedItems.length === 0 && skippedCount === 0 && (
               <span style={{ fontSize: "0.78rem", color: "var(--ink-muted)" }}>
-                כתוב מילים בפורמט: מילה = תרגום
+                {t.vocab.customWriteHere}
               </span>
             )}
           </div>
@@ -239,7 +239,7 @@ export default function CustomVocabPage() {
                 fontSize: "0.72rem", fontWeight: 700, color: "var(--ink-muted)",
                 textTransform: "uppercase", letterSpacing: "0.06em", marginBottom: "0.5rem",
               }}>
-                תצוגה מקדימה
+                {t.vocab.customPreview}
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
                 {parsedItems.slice(0, 30).map((item) => (
@@ -255,7 +255,7 @@ export default function CustomVocabPage() {
                 ))}
                 {parsedItems.length > 30 && (
                   <span style={{ padding: "4px 10px", fontSize: "0.78rem", color: "var(--ink-muted)" }}>
-                    +{parsedItems.length - 30} נוספות
+                    {t.vocab.customMore.replace("{n}", String(parsedItems.length - 30))}
                   </span>
                 )}
               </div>
@@ -268,12 +268,12 @@ export default function CustomVocabPage() {
       {tab === "card" && (
         <div className="card" style={{ padding: "1.25rem", display: "flex", flexDirection: "column", gap: "0.875rem" }}>
           <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink)", margin: 0, fontSize: "1rem" }}>
-            הוסף כרטיס חדש
+            {t.vocab.customAddNew}
           </h3>
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
             <div>
-              <label style={labelStyle}>מילה / Word *</label>
+              <label style={labelStyle}>{t.vocab.customWordLabel} *</label>
               <input
                 dir="ltr"
                 value={form.word}
@@ -283,12 +283,12 @@ export default function CustomVocabPage() {
               />
             </div>
             <div>
-              <label style={labelStyle}>תרגום / Translation *</label>
+              <label style={labelStyle}>{t.vocab.customTranslationLabel} *</label>
               <input
                 dir="rtl"
                 value={form.translation}
                 onChange={(e) => setForm({ ...form, translation: e.target.value })}
-                placeholder="התמדה"
+                placeholder={t.vocab.customTranslationPlaceholder}
                 style={inputStyle}
               />
             </div>
@@ -296,19 +296,19 @@ export default function CustomVocabPage() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.75rem" }}>
             <div>
-              <label style={labelStyle}>סוג מילה / Type</label>
+              <label style={labelStyle}>{t.vocab.customTypeLabel}</label>
               <select
                 value={form.cardType}
                 onChange={(e) => setForm({ ...form, cardType: e.target.value })}
                 style={{ ...inputStyle, direction: "ltr" }}
               >
                 {CARD_TYPE_OPTIONS.map((opt) => (
-                  <option key={opt} value={opt}>{opt || "— בחר —"}</option>
+                  <option key={opt} value={opt}>{opt || t.vocab.customTypePickPlaceholder}</option>
                 ))}
               </select>
             </div>
             <div>
-              <label style={labelStyle}>רמת קושי / Difficulty</label>
+              <label style={labelStyle}>{t.vocab.customDifficultyLabel}</label>
               <select
                 value={form.difficulty}
                 onChange={(e) => setForm({ ...form, difficulty: e.target.value as VocabDifficulty })}
@@ -322,7 +322,7 @@ export default function CustomVocabPage() {
           </div>
 
           <div>
-            <label style={labelStyle}>משפט לדוגמה / Example Sentence</label>
+            <label style={labelStyle}>{t.vocab.customExampleLabel}</label>
             <input
               dir="ltr"
               value={form.exampleSentence}
@@ -333,12 +333,12 @@ export default function CustomVocabPage() {
           </div>
 
           <div>
-            <label style={labelStyle}>הערות / Notes</label>
+            <label style={labelStyle}>{t.vocab.customNotesLabel}</label>
             <input
               dir="rtl"
               value={form.notes}
               onChange={(e) => setForm({ ...form, notes: e.target.value })}
-              placeholder="הערות נוספות..."
+              placeholder={t.vocab.customNotesPlaceholder}
               style={inputStyle}
             />
           </div>
@@ -347,11 +347,11 @@ export default function CustomVocabPage() {
             <p style={{ fontSize: "0.8rem", color: "var(--danger)", margin: 0 }}>{formError}</p>
           )}
           {formSuccess && (
-            <p style={{ fontSize: "0.8rem", color: "var(--success)", margin: 0 }}>✓ הכרטיס נוסף בהצלחה!</p>
+            <p style={{ fontSize: "0.8rem", color: "var(--success)", margin: 0 }}>{t.vocab.customCardAdded}</p>
           )}
 
           <button className="btn btn-primary" onClick={handleFormSubmit}>
-            + הוסף כרטיס
+            {t.vocab.customAddCardCta}
           </button>
         </div>
       )}
@@ -361,8 +361,8 @@ export default function CustomVocabPage() {
         <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
           {structuredCards.length === 0 ? (
             <div className="card" style={{ padding: "2rem", textAlign: "center" }}>
-              <p style={{ color: "var(--ink-soft)", marginBottom: "0.75rem" }}>עדיין לא הוספת כרטיסים מובנים</p>
-              <button className="btn btn-ghost btn-sm" onClick={() => setTab("card")}>הוסף כרטיס ראשון →</button>
+              <p style={{ color: "var(--ink-soft)", marginBottom: "0.75rem" }}>{t.vocab.customNoCardsYet}</p>
+              <button className="btn btn-ghost btn-sm" onClick={() => setTab("card")}>{t.vocab.customAddFirstCard}</button>
             </div>
           ) : (
             structuredCards.map((card) => (
@@ -375,7 +375,7 @@ export default function CustomVocabPage() {
                 <button
                   onClick={() => handleDelete(card.id)}
                   style={{ background: "none", border: "none", cursor: "pointer", color: "var(--danger)", fontSize: "1rem", flexShrink: 0, padding: "0.25rem" }}
-                  title="מחק"
+                  title={t.vocab.customDeleteCard}
                 >
                   ✕
                 </button>
@@ -393,8 +393,8 @@ export default function CustomVocabPage() {
           disabled={allCount === 0}
           style={{ flex: 1 }}
         >
-          התחל תרגול
-          {allCount > 0 && ` (${allCount} מילים)`} →
+          {t.vocab.customStartPractice}
+          {allCount > 0 && ` (${t.vocab.customWordsCount.replace("{n}", String(allCount))})`} →
         </button>
         {rawText.trim() && (
           <button
@@ -402,7 +402,7 @@ export default function CustomVocabPage() {
             onClick={() => handleTextChange("")}
             style={{ flexShrink: 0 }}
           >
-            נקה ייבוא
+            {t.vocab.customClearImport}
           </button>
         )}
       </div>

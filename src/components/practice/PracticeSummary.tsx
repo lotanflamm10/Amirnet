@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { PracticeSession } from "@/types/questions";
 import type { SessionMode } from "@/lib/practice/question-selector";
 import { estimateScore, getScoreBand, calculateSessionAccuracy, formatTime } from "@/lib/practice/scoring";
+import { useLang } from "@/contexts/LanguageContext";
 
 interface Props {
   session: PracticeSession;
@@ -26,14 +27,15 @@ const BAND_BG: Record<string, string> = {
   "ink-soft": "var(--raised)",
 };
 
-const MOTIVATING: Record<string, { text: string; emoji: string }> = {
-  success:    { text: "מעולה! אתה ברמת פטור. המשך כך!", emoji: "🌟" },
-  "ink-soft": { text: "ביצוע טוב — עוד קצת תרגול ותגיע לפטור.", emoji: "💪" },
-  warn:       { text: "יש פוטנציאל — תתמקד בנושאים החלשים.", emoji: "📈" },
-  danger:     { text: "אל תוותר! כל תרגול מקרב אותך למטרה.", emoji: "🎯" },
+const MOTIV_EMOJI: Record<string, string> = {
+  success:    "🌟",
+  "ink-soft": "💪",
+  warn:       "📈",
+  danger:     "🎯",
 };
 
 export default function PracticeSummary({ session, mode, totalTimeSeconds, onPracticeAgain }: Props) {
+  const { t } = useLang();
   const results  = session.results;
   const correct  = results.filter(r => r.correct).length;
   const total    = results.length;
@@ -47,7 +49,12 @@ export default function PracticeSummary({ session, mode, totalTimeSeconds, onPra
   const band      = getScoreBand(score);
   const bandColor = BAND_COLORS[band.color];
   const bandBg    = BAND_BG[band.color];
-  const motiv     = MOTIVATING[band.color];
+
+  const motivText =
+    band.color === "success" ? t.practiceSummary.motivExcellent
+      : band.color === "ink-soft" ? t.practiceSummary.motivGood
+      : band.color === "warn" ? t.practiceSummary.motivOk
+      : t.practiceSummary.motivWeak;
 
   return (
     <div className="animate-fade-up" style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: 520, margin: "0 auto" }}>
@@ -56,31 +63,31 @@ export default function PracticeSummary({ session, mode, totalTimeSeconds, onPra
         padding: "2rem 1.5rem", textAlign: "center",
         borderColor: bandColor, background: bandBg,
       }}>
-        <div style={{ fontSize: "2rem", marginBottom: "0.25rem" }}>{motiv.emoji}</div>
+        <div style={{ fontSize: "2rem", marginBottom: "0.25rem" }}>{MOTIV_EMOJI[band.color]}</div>
         <div style={{ fontFamily: "var(--font-display)", fontSize: "4.5rem", fontWeight: 900, color: bandColor, lineHeight: 1 }}>
           {score}
         </div>
         <div style={{ fontSize: "0.82rem", color: "var(--ink-muted)", margin: "0.375rem 0 0.75rem" }}>
-          ציון משוער (לא רשמי) · מתוך 150
+          {t.practiceSummary.estimatedScore}
         </div>
         <span style={{
           display: "inline-block", padding: "0.3rem 1rem", borderRadius: 99,
           background: `color-mix(in srgb, ${bandColor} 15%, transparent)`,
           color: bandColor, fontWeight: 700, fontSize: "0.85rem", marginBottom: "0.875rem",
         }}>
-          {band.label}
+          {t.scoreBand[band.key]}
         </span>
         <p style={{ fontSize: "0.875rem", color: "var(--ink-soft)", margin: 0, lineHeight: 1.55 }}>
-          {motiv.text}
+          {motivText}
         </p>
       </div>
 
       {/* Stats */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0.625rem" }}>
         {[
-          { label: "דיוק",       value: `${accuracy}%`,          color: accuracy >= 75 ? "var(--success)" : accuracy >= 55 ? "var(--warn)" : "var(--danger)" },
-          { label: "נכון / סה״כ", value: `${correct}/${total}`,  color: "var(--ink)" },
-          { label: "זמן",        value: formatTime(totalTimeSeconds), color: "var(--info)" },
+          { label: t.practiceSummary.accuracy,     value: `${accuracy}%`,                color: accuracy >= 75 ? "var(--success)" : accuracy >= 55 ? "var(--warn)" : "var(--danger)" },
+          { label: t.practiceSummary.correctTotal, value: `${correct}/${total}`,         color: "var(--ink)" },
+          { label: t.practiceSummary.time,         value: formatTime(totalTimeSeconds), color: "var(--info)" },
         ].map(({ label, value, color }) => (
           <div key={label} className="card card-flat" style={{ padding: "1rem", textAlign: "center", background: "var(--raised)" }}>
             <div style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 800, color }}>{value}</div>
@@ -93,7 +100,9 @@ export default function PracticeSummary({ session, mode, totalTimeSeconds, onPra
       <div className="card" style={{ padding: "1rem 1.25rem" }}>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem", color: "var(--ink-muted)", marginBottom: "0.5rem" }}>
           <span>0%</span>
-          <span style={{ fontWeight: 700, color: bandColor }}>{accuracy}% דיוק</span>
+          <span style={{ fontWeight: 700, color: bandColor }}>
+            {t.practiceSummary.accuracyPercent.replace("{n}", String(accuracy))}
+          </span>
           <span>100%</span>
         </div>
         <div className="progress-track">
@@ -105,20 +114,20 @@ export default function PracticeSummary({ session, mode, totalTimeSeconds, onPra
       {/* Actions */}
       <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
         <button className="btn btn-primary btn-lg btn-block" onClick={onPracticeAgain}>
-          תרגל שוב
+          {t.practiceSummary.practiceAgain}
         </button>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.625rem" }}>
           <Link href="/review" className="btn btn-ghost btn-block" style={{ textAlign: "center" }}>
-            סקור שגיאות
+            {t.practiceSummary.reviewMistakes}
           </Link>
           <Link href="/app" className="btn btn-ghost btn-block" style={{ textAlign: "center" }}>
-            לוח בקרה
+            {t.practiceSummary.dashboard}
           </Link>
         </div>
       </div>
 
       <p style={{ textAlign: "center", color: "var(--ink-muted)", fontSize: "0.7rem", lineHeight: 1.5 }}>
-        ציון זה אינו רשמי ומיועד לאימון בלבד. לא קשור לנית או מאל&quot;מ.
+        {t.practiceSummary.unofficialFooter}
       </p>
     </div>
   );

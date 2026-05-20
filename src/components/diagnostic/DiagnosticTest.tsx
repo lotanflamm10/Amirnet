@@ -1,7 +1,10 @@
 "use client";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import diagnosticQuestions from "@/data/seed/diagnostic-questions.json";
 import { saveDiagnosticResult } from "@/lib/progress/local-progress-store";
+import { useLang } from "@/contexts/LanguageContext";
+import type { Translations } from "@/lib/i18n/translations";
+import { ensureInView } from "@/lib/ui/smooth-scroll";
 
 type Screen = "intro" | "testing" | "results";
 
@@ -31,13 +34,19 @@ interface DiagnosticQuestion {
 
 const questions = diagnosticQuestions as DiagnosticQuestion[];
 
-const catLabels: Record<string, string> = {
-  sentenceCompletion: "השלמת משפטים",
-  restatements: "ניסוח מחדש",
-  grammar: "דקדוק",
-  wordFormation: "צורות מילים",
-  vocabulary: "אוצר מילים",
-};
+function categoryLabel(cat: string, t: Translations): string {
+  switch (cat) {
+    case "sentenceCompletion": return t.dashboard.catSentenceCompletion;
+    case "restatements":       return t.dashboard.catRestatements;
+    case "grammar":            return t.dashboard.catGrammar;
+    case "wordFormation":      return t.dashboard.catWordFormation;
+    case "vocabulary":         return t.dashboard.catVocabulary;
+    case "reading":            return t.dashboard.catReading;
+    case "textCompletion":     return t.dashboard.catTextCompletion;
+    case "lectureQuestions":   return t.dashboard.catLectureQuestions;
+    default:                   return cat;
+  }
+}
 
 export default function DiagnosticTest({ onComplete }: { onComplete: () => void }) {
   const [screen, setScreen] = useState<Screen>("intro");
@@ -46,6 +55,16 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
   const [feedbackState, setFeedbackState] = useState<FeedbackState | null>(null);
   const [questionStartTime, setQuestionStartTime] = useState(0);
   const [resultData, setResultData] = useState<{ scoreLow: number; scoreHigh: number; catAccuracies: Record<string, number>; overallPct: number } | null>(null);
+  const { t } = useLang();
+  const questionRef = useRef<HTMLDivElement | null>(null);
+
+  // Smooth-scroll the question into view after we advance, so the user
+  // never has to find the next question manually.
+  useEffect(() => {
+    if (screen !== "testing") return;
+    const id = window.setTimeout(() => ensureInView(questionRef.current, { threshold: 64 }), 30);
+    return () => window.clearTimeout(id);
+  }, [screen, currentIndex]);
 
   const computeResults = useCallback((finalAnswers: AnswerRecord[]) => {
     const catCorrect: Record<string, number> = {};
@@ -83,6 +102,9 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
     const fb: FeedbackState = { chosen: idx, correct };
     setFeedbackState(fb);
 
+    // 650ms gives enough time to read the correct/wrong cue without dragging
+    // the test. Combined with the auto-scroll in useEffect, the next question
+    // appears instantly under the user's eyes.
     setTimeout(() => {
       const newRecord: AnswerRecord = { chosenIndex: idx, correct, timeSeconds, category: q.category };
       const newAnswers = [...answers, newRecord];
@@ -95,25 +117,31 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
         setFeedbackState(null);
         setQuestionStartTime(Date.now());
       }
-    }, 800);
+    }, 650);
   }, [feedbackState, currentIndex, questionStartTime, answers, computeResults]);
 
   // INTRO SCREEN
   if (screen === "intro") {
+    const badges = [
+      t.diagnostic.badge15Questions,
+      t.diagnostic.badge8Minutes,
+      t.diagnostic.badgeNoTimePressure,
+      t.diagnostic.badgeInstant,
+    ];
     return (
       <div style={{ textAlign: "center", maxWidth: 480, margin: "0 auto", display: "flex", flexDirection: "column", gap: "1.5rem", padding: "2rem 1rem" }}>
         <div style={{ fontSize: "3.5rem" }}>🔬</div>
         <div>
           <h1 style={{ fontFamily: "var(--font-display)", fontSize: "1.6rem", fontWeight: 900, color: "var(--ink)", marginBottom: "0.5rem" }}>
-            בדיקת מיצוב ראשונית
+            {t.diagnostic.introTitle}
           </h1>
           <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem", lineHeight: 1.6 }}>
-            נאמד את רמתך ונבנה עבורך תוכנית אימון מותאמת אישית
+            {t.diagnostic.introSubtitle}
           </p>
         </div>
         <div style={{ display: "flex", gap: "0.5rem", justifyContent: "center", flexWrap: "wrap" }}>
-          {["15 שאלות", "~8 דקות", "ללא לחץ זמן", "מיידי ומדויק"].map(t => (
-            <span key={t} style={{ background: "var(--raised)", border: "1px solid var(--line)", borderRadius: 99, padding: "0.3rem 0.75rem", fontSize: "0.78rem", color: "var(--ink-soft)" }}>{t}</span>
+          {badges.map((label) => (
+            <span key={label} style={{ background: "var(--raised)", border: "1px solid var(--line)", borderRadius: 99, padding: "0.3rem 0.75rem", fontSize: "0.78rem", color: "var(--ink-soft)" }}>{label}</span>
           ))}
         </div>
         <button
@@ -124,9 +152,9 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
             setScreen("testing");
           }}
         >
-          התחל בדיקה →
+          {t.diagnostic.startCta}
         </button>
-        <p style={{ fontSize: "0.7rem", color: "var(--ink-muted)" }}>כלי הכנה עצמאי · ציונים אינם רשמיים</p>
+        <p style={{ fontSize: "0.7rem", color: "var(--ink-muted)" }}>{t.diagnostic.introDisclaimer}</p>
       </div>
     );
   }
@@ -138,12 +166,14 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
     const progressPct = (currentIndex / 15) * 100;
 
     return (
-      <div style={{ maxWidth: 560, margin: "0 auto", width: "100%", padding: "1rem" }}>
+      <div ref={questionRef} style={{ maxWidth: 560, margin: "0 auto", width: "100%", padding: "1rem" }}>
         {/* Progress */}
         <div style={{ marginBottom: "1.25rem" }}>
           <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem", color: "var(--ink-muted)", marginBottom: "0.4rem" }}>
-            <span style={{ fontWeight: 600, color: "var(--ink)" }}>שאלה {currentIndex + 1} מתוך 15</span>
-            <span className="badge badge-teal">{catLabels[q.category] ?? q.category}</span>
+            <span style={{ fontWeight: 600, color: "var(--ink)" }}>
+              {t.diagnostic.questionOf.replace("{n}", String(currentIndex + 1))}
+            </span>
+            <span className="badge badge-teal">{categoryLabel(q.category, t)}</span>
           </div>
           <div className="progress-track">
             <div className="progress-fill" style={{ width: `${progressPct}%`, transition: "width 0.3s ease" }} />
@@ -217,28 +247,28 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
     const accuracyColor = overallPct >= 75 ? "var(--success)" : overallPct >= 55 ? "var(--warn)" : "var(--danger)";
 
     const catEntries = Object.entries(catAccuracies).sort((a, b) => b[1] - a[1]);
-    const strongest = catEntries[0] ? catLabels[catEntries[0][0]] ?? catEntries[0][0] : null;
-    const weakest = catEntries[catEntries.length - 1] ? catLabels[catEntries[catEntries.length - 1][0]] ?? catEntries[catEntries.length - 1][0] : null;
+    const strongest = catEntries[0] ? categoryLabel(catEntries[0][0], t) : null;
+    const weakest = catEntries[catEntries.length - 1] ? categoryLabel(catEntries[catEntries.length - 1][0], t) : null;
 
     return (
       <div style={{ maxWidth: 520, margin: "0 auto", width: "100%", padding: "1.5rem 1rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
         {/* Score card */}
         <div className="card animate-fade-up" style={{ padding: "2rem", textAlign: "center" }}>
           <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--ink-muted)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "0.5rem" }}>
-            ציון משוער
+            {t.diagnostic.estimatedScore}
           </div>
           <div style={{ fontFamily: "var(--font-display)", fontSize: "4rem", fontWeight: 900, color: "var(--teal)", lineHeight: 1 }}>
             {scoreLow}–{scoreHigh}
           </div>
           <div style={{ fontSize: "0.78rem", color: "var(--ink-muted)", marginTop: "0.5rem" }}>
-            ציון משוער לא רשמי · מתוך 150
+            {t.diagnostic.estimatedScoreUnofficial}
           </div>
         </div>
 
         {/* Accuracy */}
         <div className="card animate-fade-up" style={{ padding: "1.25rem" }}>
           <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.5rem" }}>
-            <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--ink)" }}>דיוק כולל</span>
+            <span style={{ fontSize: "0.85rem", fontWeight: 600, color: "var(--ink)" }}>{t.diagnostic.overallAccuracy}</span>
             <span style={{ fontSize: "0.85rem", fontWeight: 700, color: accuracyColor }}>{overallPct}%</span>
           </div>
           <div className="progress-track">
@@ -248,14 +278,14 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
 
         {/* Category breakdown */}
         <div className="card animate-fade-up" style={{ padding: "1.25rem" }}>
-          <div className="section-title" style={{ marginBottom: "0.875rem" }}>פירוט לפי קטגוריה</div>
+          <div className="section-title" style={{ marginBottom: "0.875rem" }}>{t.diagnostic.categoryBreakdown}</div>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
             {catEntries.map(([cat, pct]) => {
               const color = pct >= 75 ? "var(--success)" : pct >= 55 ? "var(--warn)" : "var(--danger)";
               return (
                 <div key={cat}>
                   <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem", marginBottom: "0.25rem" }}>
-                    <span style={{ color: "var(--ink-soft)" }}>{catLabels[cat] ?? cat}</span>
+                    <span style={{ color: "var(--ink-soft)" }}>{categoryLabel(cat, t)}</span>
                     <span style={{ fontWeight: 700, color }}>{pct}%</span>
                   </div>
                   <div className="progress-track" style={{ height: 5 }}>
@@ -270,12 +300,12 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
             <div style={{ display: "flex", gap: "0.75rem", marginTop: "1rem", flexWrap: "wrap" }}>
               {strongest && (
                 <div style={{ fontSize: "0.78rem", color: "var(--success)" }}>
-                  <strong>החזק שלך:</strong> {strongest}
+                  <strong>{t.diagnostic.yourStrongest}:</strong> {strongest}
                 </div>
               )}
               {weakest && weakest !== strongest && (
                 <div style={{ fontSize: "0.78rem", color: "var(--warn)" }}>
-                  <strong>זקוק לשיפור:</strong> {weakest}
+                  <strong>{t.diagnostic.needsImprovement}:</strong> {weakest}
                 </div>
               )}
             </div>
@@ -283,7 +313,7 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
         </div>
 
         <button className="btn btn-primary btn-xl btn-block" onClick={onComplete} style={{ textAlign: "center" }}>
-          המשך לתוכנית האימון שלי →
+          {t.diagnostic.continueCta}
         </button>
       </div>
     );

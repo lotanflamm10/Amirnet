@@ -6,12 +6,14 @@ import { withCustomItems } from "@/lib/vocab/custom-vocab-store";
 import vocabData from "@/data/seed/vocab.normalized.json";
 import type { VocabItem } from "@/types/vocab";
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
+import { useLang } from "@/contexts/LanguageContext";
 
 export function MissedWordsList() {
   const [items, setItems] = useState<VocabItem[]>([]);
   const [states, setStates] = useState<Record<string, VocabReviewState>>({});
   const [expanded, setExpanded] = useState<string | null>(null);
   const [search, setSearch] = useState("");
+  const { t } = useLang();
 
   function reload() {
     const all = withCustomItems(vocabData as VocabItem[]);
@@ -31,11 +33,11 @@ export function MissedWordsList() {
   if (items.length === 0) {
     return (
       <div className="card" style={{ padding: "2rem", textAlign: "center" }}>
-        <p style={{ fontSize: "1.1rem", color: "var(--success)", marginBottom: "0.5rem" }}>כל הכבוד! 🎉</p>
+        <p style={{ fontSize: "1.1rem", color: "var(--success)", marginBottom: "0.5rem" }}>{t.vocab.missedEmptyTitle}</p>
         <p style={{ fontSize: "0.85rem", color: "var(--ink-muted)", marginBottom: "1.25rem" }}>
-          עדיין לא פספסת אף מילה. תרגל כרטיסיות כדי לבנות את הרשימה.
+          {t.vocab.missedEmptySub}
         </p>
-        <Link href="/vocab/swipe" className="btn btn-primary">התחל לתרגל →</Link>
+        <Link href="/vocab/swipe" className="btn btn-primary">{t.vocab.missedStartPractice}</Link>
       </div>
     );
   }
@@ -46,24 +48,24 @@ export function MissedWordsList() {
       <div style={{ display: "flex", gap: "0.75rem", alignItems: "center", flexWrap: "wrap" }}>
         <div className="card" style={{ padding: "0.6rem 1rem", display: "flex", gap: "1rem", flex: 1 }}>
           <div style={{ textAlign: "center" }}>
-            <p style={{ fontSize: "0.65rem", color: "var(--ink-muted)", margin: "0 0 0.1rem", textTransform: "uppercase" }}>פוספסו</p>
+            <p style={{ fontSize: "0.65rem", color: "var(--ink-muted)", margin: "0 0 0.1rem", textTransform: "uppercase" }}>{t.vocab.missedSummaryMissed}</p>
             <p style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 800, color: "var(--danger)", margin: 0 }}>{items.length}</p>
           </div>
           <div style={{ textAlign: "center" }}>
-            <p style={{ fontSize: "0.65rem", color: "var(--ink-muted)", margin: "0 0 0.1rem", textTransform: "uppercase" }}>שלטתי</p>
+            <p style={{ fontSize: "0.65rem", color: "var(--ink-muted)", margin: "0 0 0.1rem", textTransform: "uppercase" }}>{t.vocab.missedSummaryMastered}</p>
             <p style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 800, color: "var(--success)", margin: 0 }}>
               {items.filter((v) => (states[v.id]?.masteryScore ?? 0) >= 3).length}
             </p>
           </div>
         </div>
         <Link href="/vocab/swipe" className="btn btn-sm" style={{ background: "var(--danger)", color: "#fff", border: "none", whiteSpace: "nowrap" }}>
-          תרגל הכל →
+          {t.vocab.missedPracticeAll}
         </Link>
       </div>
 
       <input
         type="search"
-        placeholder="חפש מילה..."
+        placeholder={t.vocab.missedSearchPlaceholder}
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         style={{
@@ -74,7 +76,7 @@ export function MissedWordsList() {
       />
 
       <p style={{ fontSize: "0.75rem", color: "var(--ink-muted)", margin: 0 }}>
-        {filtered.length} מילים
+        {filtered.length} {t.vocab.missedCountSuffix}
       </p>
 
       <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
@@ -99,7 +101,7 @@ export function MissedWordsList() {
                   <span style={{ fontWeight: 700, color: "var(--ink)", fontSize: "0.95rem" }}>{v.word}</span>
                   <span style={{ fontSize: "0.8rem", color: "var(--teal)", direction: "rtl", flexShrink: 0 }}>{v.hebrewTranslation}</span>
                 </div>
-                <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", flexShrink: 0, marginLeft: "0.5rem" }}>
+                <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", flexShrink: 0, marginInlineStart: "0.5rem" }}>
                   {/* Missed count badge */}
                   <span style={{
                     fontSize: "0.7rem", fontWeight: 700, padding: "2px 7px",
@@ -136,14 +138,14 @@ export function MissedWordsList() {
                     <p style={{ fontSize: "0.85rem", color: "var(--ink-soft)", margin: "0 0 0.5rem" }}>{v.englishDefinition}</p>
                   )}
                   {v.exampleSentence && (
-                    <p style={{ fontSize: "0.8rem", color: "var(--ink-muted)", fontStyle: "italic", margin: "0 0 0.75rem", borderLeft: "2px solid var(--teal)", paddingLeft: "8px" }}>
+                    <p style={{ fontSize: "0.8rem", color: "var(--ink-muted)", fontStyle: "italic", margin: "0 0 0.75rem", borderInlineStart: "2px solid var(--teal)", paddingInlineStart: "8px" }}>
                       &ldquo;{v.exampleSentence}&rdquo;
                     </p>
                   )}
                   <div style={{ display: "flex", gap: "0.5rem", fontSize: "0.72rem", color: "var(--ink-muted)", marginBottom: "0.75rem" }}>
-                    <span>פוספס {missed}×</span>
+                    <span>{t.vocab.missedTimes.replace("{n}", String(missed))}</span>
                     <span>·</span>
-                    <span>ידוע {known}×</span>
+                    <span>{t.vocab.knownTimes.replace("{n}", String(known))}</span>
                     <span>·</span>
                     <span>{v.difficulty} · {v.partOfSpeech}</span>
                   </div>
@@ -151,7 +153,7 @@ export function MissedWordsList() {
                     className="btn btn-ghost btn-sm"
                     onClick={(e) => { e.stopPropagation(); markKnown(v.id); reload(); setExpanded(null); }}
                   >
-                    ✓ סמן כידוע
+                    {t.vocab.markKnown}
                   </button>
                 </div>
               )}

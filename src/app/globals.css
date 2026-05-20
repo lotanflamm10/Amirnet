@@ -120,8 +120,9 @@ a { color: inherit; text-decoration: none; }
 /* ─── RTL / layout ─────────────────────────────────────────────── */
 [dir="rtl"] body { direction: rtl; text-align: right; }
 
-/* Sidebar on the RIGHT — natural for Hebrew (RTL) layout */
+/* Sidebar: RIGHT for RTL/Hebrew, LEFT for LTR/English */
 .sidebar-nav { right: 0; left: auto; border-left: 1px solid var(--line); border-right: none; }
+[dir="ltr"] .sidebar-nav { left: 0; right: auto; border-left: none; border-right: 1px solid var(--line); }
 
 /*
  * Structural shell uses LTR so flex-column cross-axis runs left-to-right,
@@ -131,8 +132,9 @@ a { color: inherit; text-decoration: none; }
 .content-area { direction: ltr; }
 
 @media (min-width: 1024px) {
-  /* Push content away from the right-side sidebar */
+  /* Push content away from sidebar: right-side for RTL, left-side for LTR */
   .content-area { margin-right: 16rem; margin-left: 0; }
+  [dir="ltr"] .content-area { margin-left: 16rem; margin-right: 0; }
 
   /* Center page content in the content area with comfortable horizontal padding.
      max-width is set per-page via .page-container; this just adds the gutter. */
@@ -192,6 +194,24 @@ a { color: inherit; text-decoration: none; }
 }
 .card-sm { border-radius: var(--radius-sm); }
 .card-flat { box-shadow: none; }
+
+/* Fully-clickable card / row. Used on dashboard plan items and similar
+   surfaces where the entire area is wrapped in <Link>. */
+.card-clickable {
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease, background 0.15s ease;
+}
+.card-clickable:hover {
+  border-color: var(--teal);
+  box-shadow: var(--shadow-teal);
+  transform: translateY(-1px);
+}
+.card-clickable:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+  border-color: var(--teal);
+}
+.card-clickable:active { transform: translateY(0); }
 
 /* ─── Stat cards ──────────────────────────────────────────────── */
 .stat-card {
@@ -563,3 +583,82 @@ a { color: inherit; text-decoration: none; }
 .delay-200 { animation-delay: 0.2s; }
 .delay-300 { animation-delay: 0.3s; }
 .delay-400 { animation-delay: 0.4s; }
+
+/* ─── Answer flow UX ─────────────────────────────────────────────
+ * Used by QuestionCard / PracticeSession to keep the next-action
+ * affordance comfortably reachable on mobile and to add a subtle
+ * "ready" hint when the Next button first appears.
+ */
+
+/* Sticky "Next question" footer used in practice + reading flows.
+ * Pinned to the bottom of the viewport on mobile so the user never
+ * has to hunt for the next-step button. On wider screens it sits
+ * inline at the natural document position. */
+.next-action-bar {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  margin-top: 0.5rem;
+  padding: 0.75rem 0.5rem calc(0.75rem + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--canvas) 0%, transparent) 0%,
+    var(--canvas) 38%
+  );
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media (max-width: 640px) {
+  /* On phones make the gradient solid so the button never looks "floating
+     above" text behind it. */
+  .next-action-bar { background: var(--canvas); }
+}
+
+/* Subtle pulse to draw the eye to the Next button the moment it appears,
+   then settle. Stops after one pass so it doesn't become noise. */
+@keyframes next-ready-glow {
+  0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--teal) 0%, transparent); }
+  25%  { box-shadow: 0 0 0 6px color-mix(in srgb, var(--teal) 28%, transparent); }
+  100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--teal) 0%, transparent); }
+}
+.animate-next-ready { animation: next-ready-glow 1.1s ease-out both; }
+
+/* Answer-state transition: gentle background settle when feedback turns on. */
+@keyframes answer-settle {
+  from { background: var(--raised); }
+  to   { background: var(--raised); }
+}
+
+/* Smooth height/opacity reveal for the explanation card. Used in place of
+   the harder `fade-up` so the explanation slides down into view without
+   feeling jumpy. */
+@keyframes explanation-reveal {
+  0%   { opacity: 0; transform: translateY(6px) scale(0.99); }
+  60%  { opacity: 1; }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+.animate-explanation-reveal {
+  animation: explanation-reveal 0.32s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Honour reduced-motion users — disable our heavier flow animations. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-explanation-reveal,
+  .animate-next-ready,
+  .animate-fade-up,
+  .animate-slide-right,
+  .animate-slide-up { animation: none; }
+}
+
+/* Subtle "selected" pulse so a click feels rewarding even before submit. */
+@keyframes choice-pulse {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.015); }
+  100% { transform: scale(1); }
+}
+.choice-row.selected { animation: choice-pulse 0.18s ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .choice-row.selected { animation: none; }
+}

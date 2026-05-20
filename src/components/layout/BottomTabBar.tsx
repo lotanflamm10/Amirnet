@@ -2,13 +2,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Translations } from "@/lib/i18n/translations";
+import { NavIcon } from "@/components/icons/NavIcons";
 
 const TABS = (t: Translations) => [
-  { href: "/app",              label: t.nav.dashboard,      icon: "⊟" },
-  { href: "/practice",         label: t.nav.practice,       icon: "✏" },
-  { href: "/learning-engine",  label: t.nav.learningEngine, icon: "💡" },
-  { href: "/vocab",            label: t.nav.vocab,          icon: "📖" },
-  { href: "/account",          label: t.nav.account,        icon: "◉" },
+  { href: "/app",             label: t.nav.dashboard,      icon: "dashboard"      },
+  { href: "/practice",        label: t.nav.practice,       icon: "practice"       },
+  { href: "/learning-engine", label: t.nav.learningEngine, icon: "learningEngine" },
+  { href: "/vocab",           label: t.nav.vocab,          icon: "vocab"          },
+  { href: "/account",         label: t.nav.account,        icon: "account"        },
 ];
 
 export function BottomTabBar({ t }: { t: Translations }) {
@@ -29,7 +30,7 @@ export function BottomTabBar({ t }: { t: Translations }) {
             style={{
               flex: 1, display: "flex", flexDirection: "column",
               alignItems: "center", justifyContent: "center",
-              padding: "0.625rem 0.25rem", gap: "0.2rem",
+              padding: "0.625rem 0.25rem", gap: "0.25rem",
               textDecoration: "none", fontSize: "0.65rem", fontWeight: 600,
               color: active ? "var(--teal)" : "var(--ink-muted)",
               transition: "color 0.15s",
@@ -43,7 +44,7 @@ export function BottomTabBar({ t }: { t: Translations }) {
                 background: "var(--teal)",
               }} />
             )}
-            <span style={{ fontSize: "1.15rem", lineHeight: 1 }}>{icon}</span>
+            <NavIcon name={icon} size={19} color={active ? "var(--teal)" : "var(--ink-muted)"} />
             <span style={{ lineHeight: 1, letterSpacing: "0.01em" }}>{label}</span>
           </Link>
         );

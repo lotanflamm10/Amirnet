@@ -47,17 +47,16 @@ export function predictScoreRange(progress: UserProgress): { low: number; high: 
   return { low, high: Math.min(150, low + 12) };
 }
 
+/**
+ * Returns the up-to-2 weakest category ids. Display labels must be resolved
+ * by the caller via translations (see `dashboard.cat*` keys).
+ */
 export function getBlockers(progress: UserProgress): string[] {
-  const labels: Record<string, string> = {
-    sentenceCompletion: "השלמת משפטים", restatements: "ניסוח מחדש", reading: "הבנת הנקרא",
-    grammar: "דקדוק", wordFormation: "צורות מילים", textCompletion: "השלמת טקסט",
-    lectureQuestions: "שאלות הרצאה", vocabulary: "אוצר מילים",
-  };
   return [...progress.categoryProgress]
     .filter(c => c.totalAnswered >= 3)
     .sort((a, b) => calculateMasteryScore(a) - calculateMasteryScore(b))
     .slice(0, 2)
-    .map(c => labels[c.category] ?? c.category);
+    .map(c => c.category);
 }
 
 export function classifyMistake(questionCategory: QuestionCategory, timeSpentSeconds: number, categoryAvgTime: number, questionTags?: string[]): MistakeType {

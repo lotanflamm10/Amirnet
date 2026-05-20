@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { learningTips } from "@/data/seed/learningTips";
 import { LearningTipCard } from "./LearningTipCard";
+import { useLang } from "@/contexts/LanguageContext";
 
 const LS_COMPLETED = "amirnet-learning-completed";
 const LS_BOOKMARKED = "amirnet-learning-bookmarked";
@@ -31,6 +32,7 @@ function onTipBookmarked(_tipId: string) {}
 const tips = learningTips;
 
 export function LearningEngine() {
+  const { t } = useLang();
   const [completed, setCompleted] = useState<Set<string>>(new Set());
   const [bookmarked, setBookmarked] = useState<Set<string>>(new Set());
   const [expandedExamples, setExpandedExamples] = useState<Set<string>>(new Set());
@@ -153,7 +155,7 @@ export function LearningEngine() {
       <div
         ref={feedRef}
         role="feed"
-        aria-label="עצות לימוד"
+        aria-label={t.learningEngine.tipsAria}
         style={{
           height: "100%",
           overflowY: "scroll",
@@ -203,7 +205,7 @@ export function LearningEngine() {
             <button
               key={i}
               onClick={() => scrollToCard(i)}
-              aria-label={`עצה ${i + 1}`}
+              aria-label={t.learningEngine.tipAria.replace("{n}", String(i + 1))}
               style={{
                 width: i === currentIdx ? 7 : 4,
                 height: i === currentIdx ? 7 : 4,

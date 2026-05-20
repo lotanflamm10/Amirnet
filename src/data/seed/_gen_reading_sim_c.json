@@ -1,0 +1,608 @@
+{
+  "reading": [
+    {
+      "id": "rsim11-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Volcanic eruptions are local events whose effects are limited to the slopes of the mountain.",
+        "Large volcanic eruptions can inject sulfate aerosols high into the atmosphere, producing measurable short-term cooling and lasting historical effects on weather and society.",
+        "Volcanic ash falls quickly and therefore has no climate consequences whatever.",
+        "Tropical eruptions warm the planet for several years after they happen."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains why sulfate aerosols injected into the stratosphere matter, traces measurable global cooling after specific eruptions, and links those cool years to documented social effects.",
+      "wrongReasons": [
+        "The passage describes effects that extend across the planet, not just near the volcano.",
+        "It is sulfur dioxide, not ash, that drives the climate effect; ash falls quickly but is not the main factor.",
+        "The passage describes cooling — the opposite of warming — after such eruptions."
+      ],
+      "passage": {
+        "id": "rsim11-passage",
+        "title": "When Volcanoes Cool the Earth",
+        "body": "Most volcanic eruptions are local affairs: lava and ash damage the surrounding landscape, but the effects fade within months. A small minority of eruptions, however, are powerful enough to push gas high into the stratosphere, the layer of the atmosphere above weather. There the gas behaves very differently from anything that stays near the ground, and its consequences can be felt across the entire planet for several years.\n\nThe key ingredient is sulfur dioxide rather than ash. Once injected above the rain-bearing layers of the atmosphere, sulfur dioxide reacts with water vapor to form fine droplets of sulfuric acid called sulfate aerosols. These droplets reflect part of the incoming sunlight back into space without ever reaching the surface. After the 1991 eruption of Mount Pinatubo in the Philippines, satellite measurements showed average global temperatures fell by roughly half a degree Celsius for about two years — a small number in absolute terms, but a noticeable signal in the climate record. Larger historical eruptions left bigger traces. Following the 1815 explosion of Mount Tambora, much of the Northern Hemisphere endured the so-called \"Year Without a Summer,\" with frost in June ruining crops from New England to central Europe.\n\nFor historians, the value of these episodes lies in what they reveal about the connection between weather and human life. Tree rings, ice cores and harvest records align closely with the dates of major eruptions, and they often coincide with documented famines, migrations and political unrest. These case studies do not turn climate into a single cause of historical events, but they show that even a temporary cooling of one or two degrees, lasting only a few seasons, can ripple through agricultural societies in ways that contemporaries seldom traced back to a mountain on the other side of the world."
+      }
+    },
+    {
+      "id": "rsim11-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which gas is most responsible for the climate effect of large eruptions?",
+      "choices": [
+        "Carbon dioxide that falls back to the surface quickly.",
+        "Sulfur dioxide that forms sulfate aerosols in the stratosphere.",
+        "Methane released from underground reservoirs.",
+        "Water vapor that condenses into rain near the volcano."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 explicitly identifies sulfur dioxide in the stratosphere as the driver of the cooling effect.",
+      "wrongReasons": [
+        "Carbon dioxide is not the gas the passage credits with the cooling effect.",
+        "Methane is not mentioned.",
+        "Local rain near the volcano is not the relevant mechanism."
+      ],
+      "passage": {
+        "id": "rsim11-passage",
+        "title": "When Volcanoes Cool the Earth",
+        "body": "Most volcanic eruptions are local affairs: lava and ash damage the surrounding landscape, but the effects fade within months. A small minority of eruptions, however, are powerful enough to push gas high into the stratosphere, the layer of the atmosphere above weather. There the gas behaves very differently from anything that stays near the ground, and its consequences can be felt across the entire planet for several years.\n\nThe key ingredient is sulfur dioxide rather than ash. Once injected above the rain-bearing layers of the atmosphere, sulfur dioxide reacts with water vapor to form fine droplets of sulfuric acid called sulfate aerosols. These droplets reflect part of the incoming sunlight back into space without ever reaching the surface. After the 1991 eruption of Mount Pinatubo in the Philippines, satellite measurements showed average global temperatures fell by roughly half a degree Celsius for about two years — a small number in absolute terms, but a noticeable signal in the climate record. Larger historical eruptions left bigger traces. Following the 1815 explosion of Mount Tambora, much of the Northern Hemisphere endured the so-called \"Year Without a Summer,\" with frost in June ruining crops from New England to central Europe.\n\nFor historians, the value of these episodes lies in what they reveal about the connection between weather and human life. Tree rings, ice cores and harvest records align closely with the dates of major eruptions, and they often coincide with documented famines, migrations and political unrest. These case studies do not turn climate into a single cause of historical events, but they show that even a temporary cooling of one or two degrees, lasting only a few seasons, can ripple through agricultural societies in ways that contemporaries seldom traced back to a mountain on the other side of the world."
+      }
+    },
+    {
+      "id": "rsim11-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about the relationship between climate and history?",
+      "choices": [
+        "Climate is the single cause of most major historical events.",
+        "Climate plays no measurable role in agricultural societies.",
+        "Even a small, brief drop in temperature can contribute to famine and unrest in agricultural societies.",
+        "Only modern industrial societies are vulnerable to climate shifts."
+      ],
+      "answer": 2,
+      "explanation": "The third paragraph explicitly says that even a one- or two-degree cooling lasting only a few seasons can ripple through agricultural societies — supporting this inference.",
+      "wrongReasons": [
+        "The passage explicitly denies that climate is the single cause of historical events.",
+        "The passage emphasizes the vulnerability of agricultural societies.",
+        "The passage cites pre-industrial events (1815) as paradigmatic, not industrial societies."
+      ],
+      "passage": {
+        "id": "rsim11-passage",
+        "title": "When Volcanoes Cool the Earth",
+        "body": "Most volcanic eruptions are local affairs: lava and ash damage the surrounding landscape, but the effects fade within months. A small minority of eruptions, however, are powerful enough to push gas high into the stratosphere, the layer of the atmosphere above weather. There the gas behaves very differently from anything that stays near the ground, and its consequences can be felt across the entire planet for several years.\n\nThe key ingredient is sulfur dioxide rather than ash. Once injected above the rain-bearing layers of the atmosphere, sulfur dioxide reacts with water vapor to form fine droplets of sulfuric acid called sulfate aerosols. These droplets reflect part of the incoming sunlight back into space without ever reaching the surface. After the 1991 eruption of Mount Pinatubo in the Philippines, satellite measurements showed average global temperatures fell by roughly half a degree Celsius for about two years — a small number in absolute terms, but a noticeable signal in the climate record. Larger historical eruptions left bigger traces. Following the 1815 explosion of Mount Tambora, much of the Northern Hemisphere endured the so-called \"Year Without a Summer,\" with frost in June ruining crops from New England to central Europe.\n\nFor historians, the value of these episodes lies in what they reveal about the connection between weather and human life. Tree rings, ice cores and harvest records align closely with the dates of major eruptions, and they often coincide with documented famines, migrations and political unrest. These case studies do not turn climate into a single cause of historical events, but they show that even a temporary cooling of one or two degrees, lasting only a few seasons, can ripple through agricultural societies in ways that contemporaries seldom traced back to a mountain on the other side of the world."
+      }
+    },
+    {
+      "id": "rsim11-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the word \"injected\" most nearly means:",
+      "choices": [
+        "withdrawn slowly",
+        "forced upward into place",
+        "filtered out chemically",
+        "diluted with water"
+      ],
+      "answer": 1,
+      "explanation": "The eruption thrusts the gas up into the stratosphere — 'injected' carries the sense of forcefully pushing material into a location.",
+      "wrongReasons": [
+        "The opposite of injection.",
+        "Filtering is removal, not introduction.",
+        "Dilution does not describe being placed somewhere."
+      ],
+      "passage": {
+        "id": "rsim11-passage",
+        "title": "When Volcanoes Cool the Earth",
+        "body": "Most volcanic eruptions are local affairs: lava and ash damage the surrounding landscape, but the effects fade within months. A small minority of eruptions, however, are powerful enough to push gas high into the stratosphere, the layer of the atmosphere above weather. There the gas behaves very differently from anything that stays near the ground, and its consequences can be felt across the entire planet for several years.\n\nThe key ingredient is sulfur dioxide rather than ash. Once injected above the rain-bearing layers of the atmosphere, sulfur dioxide reacts with water vapor to form fine droplets of sulfuric acid called sulfate aerosols. These droplets reflect part of the incoming sunlight back into space without ever reaching the surface. After the 1991 eruption of Mount Pinatubo in the Philippines, satellite measurements showed average global temperatures fell by roughly half a degree Celsius for about two years — a small number in absolute terms, but a noticeable signal in the climate record. Larger historical eruptions left bigger traces. Following the 1815 explosion of Mount Tambora, much of the Northern Hemisphere endured the so-called \"Year Without a Summer,\" with frost in June ruining crops from New England to central Europe.\n\nFor historians, the value of these episodes lies in what they reveal about the connection between weather and human life. Tree rings, ice cores and harvest records align closely with the dates of major eruptions, and they often coincide with documented famines, migrations and political unrest. These case studies do not turn climate into a single cause of historical events, but they show that even a temporary cooling of one or two degrees, lasting only a few seasons, can ripple through agricultural societies in ways that contemporaries seldom traced back to a mountain on the other side of the world."
+      }
+    },
+    {
+      "id": "rsim11-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "How do the three paragraphs build the argument?",
+      "choices": [
+        "Paragraph 1 describes a mechanism, paragraph 2 disproves it, paragraph 3 illustrates it.",
+        "Paragraph 1 sets up the scale of the phenomenon, paragraph 2 explains the chemistry and gives data, paragraph 3 widens the discussion to historical and social consequences.",
+        "All three paragraphs make essentially the same point in different words.",
+        "Paragraph 1 lists eruptions, paragraph 2 lists volcanoes, paragraph 3 lists famines."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 distinguishes most eruptions from the rare global ones; paragraph 2 explains the chemistry and offers measured data; paragraph 3 turns to history and society. The structure moves from scope → mechanism → implications.",
+      "wrongReasons": [
+        "Paragraph 2 supports rather than disproves the claim of paragraph 1.",
+        "Each paragraph contributes a distinct kind of content.",
+        "The paragraphs offer explanation, not enumerated lists."
+      ],
+      "passage": {
+        "id": "rsim11-passage",
+        "title": "When Volcanoes Cool the Earth",
+        "body": "Most volcanic eruptions are local affairs: lava and ash damage the surrounding landscape, but the effects fade within months. A small minority of eruptions, however, are powerful enough to push gas high into the stratosphere, the layer of the atmosphere above weather. There the gas behaves very differently from anything that stays near the ground, and its consequences can be felt across the entire planet for several years.\n\nThe key ingredient is sulfur dioxide rather than ash. Once injected above the rain-bearing layers of the atmosphere, sulfur dioxide reacts with water vapor to form fine droplets of sulfuric acid called sulfate aerosols. These droplets reflect part of the incoming sunlight back into space without ever reaching the surface. After the 1991 eruption of Mount Pinatubo in the Philippines, satellite measurements showed average global temperatures fell by roughly half a degree Celsius for about two years — a small number in absolute terms, but a noticeable signal in the climate record. Larger historical eruptions left bigger traces. Following the 1815 explosion of Mount Tambora, much of the Northern Hemisphere endured the so-called \"Year Without a Summer,\" with frost in June ruining crops from New England to central Europe.\n\nFor historians, the value of these episodes lies in what they reveal about the connection between weather and human life. Tree rings, ice cores and harvest records align closely with the dates of major eruptions, and they often coincide with documented famines, migrations and political unrest. These case studies do not turn climate into a single cause of historical events, but they show that even a temporary cooling of one or two degrees, lasting only a few seasons, can ripple through agricultural societies in ways that contemporaries seldom traced back to a mountain on the other side of the world."
+      }
+    },
+
+    {
+      "id": "rsim12-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best expresses the central argument of the passage?",
+      "choices": [
+        "Default options have no measurable effect on the decisions people make.",
+        "Small changes in how a choice is framed — its default, ordering, or wording — can predictably shape decisions, which has produced both useful policy and ethical concerns.",
+        "Behavioral economists believe that humans always behave rationally.",
+        "Nudges always force people to act against their will."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that minor changes to choice architecture (defaults, ordering, framing) can produce systematic shifts in behavior, used in public policy but also raising ethical questions about manipulation.",
+      "wrongReasons": [
+        "The passage describes how defaults shift behavior, not the opposite.",
+        "Behavioral economics is defined precisely as the study of departures from rationality.",
+        "Nudges are described as preserving freedom of choice while shifting the path of least resistance."
+      ],
+      "passage": {
+        "id": "rsim12-passage",
+        "title": "Nudges and Choice Architecture",
+        "body": "Classical economics generally assumes that people, given the same information, will choose what serves them best. Behavioral economics began as a sustained challenge to that assumption. Carefully designed experiments showed that human decisions depend not only on the available options but also on how those options are presented — the order in which they appear, the unit in which a price is quoted, whether one alternative is marked as the default.\n\nA simple example comes from organ donation. Countries that ask citizens to opt into a donor registry have consistently lower participation than otherwise similar countries that enroll citizens by default and allow them to opt out. The legal commitment is identical; only the path of least resistance differs. Comparable patterns appear in retirement-savings plans, vaccine uptake, and the choice of greener appliances. Economists have come to call these design features the \"choice architecture\" of a decision, and small adjustments are sometimes called \"nudges\" — interventions that preserve every available option but make some easier to choose than others.\n\nNudges have entered mainstream public policy because they are usually cheap, sometimes effective, and explicitly non-coercive: anyone who notices the default can override it. They have also attracted criticism. If a government can predictably steer behavior by rearranging menus or wording, the question of who decides which way to steer becomes politically important. Some scholars argue that nudges are most defensible when their goals are transparent, when independent review can confirm that they actually serve the people being nudged, and when individuals retain a low-friction way to opt out. Behavioral findings, in other words, have given policymakers a powerful tool — and forced them to articulate the values that should govern its use."
+      }
+    },
+    {
+      "id": "rsim12-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, why do opt-out organ donation systems produce higher enrollment than opt-in systems?",
+      "choices": [
+        "Because opt-out countries pay citizens to register.",
+        "Because the legal commitment to donate is different in the two systems.",
+        "Because the default — what happens if a citizen does nothing — favors enrollment.",
+        "Because organ donation is much more popular in some cultures than others."
+      ],
+      "answer": 2,
+      "explanation": "The passage stresses that the legal commitment is identical and that only the default — the path of least resistance — differs.",
+      "wrongReasons": [
+        "Payment is not mentioned in the passage.",
+        "The passage explicitly notes the legal commitment is the same.",
+        "Cultural attitudes are not the explanation given; the default itself is."
+      ],
+      "passage": {
+        "id": "rsim12-passage",
+        "title": "Nudges and Choice Architecture",
+        "body": "Classical economics generally assumes that people, given the same information, will choose what serves them best. Behavioral economics began as a sustained challenge to that assumption. Carefully designed experiments showed that human decisions depend not only on the available options but also on how those options are presented — the order in which they appear, the unit in which a price is quoted, whether one alternative is marked as the default.\n\nA simple example comes from organ donation. Countries that ask citizens to opt into a donor registry have consistently lower participation than otherwise similar countries that enroll citizens by default and allow them to opt out. The legal commitment is identical; only the path of least resistance differs. Comparable patterns appear in retirement-savings plans, vaccine uptake, and the choice of greener appliances. Economists have come to call these design features the \"choice architecture\" of a decision, and small adjustments are sometimes called \"nudges\" — interventions that preserve every available option but make some easier to choose than others.\n\nNudges have entered mainstream public policy because they are usually cheap, sometimes effective, and explicitly non-coercive: anyone who notices the default can override it. They have also attracted criticism. If a government can predictably steer behavior by rearranging menus or wording, the question of who decides which way to steer becomes politically important. Some scholars argue that nudges are most defensible when their goals are transparent, when independent review can confirm that they actually serve the people being nudged, and when individuals retain a low-friction way to opt out. Behavioral findings, in other words, have given policymakers a powerful tool — and forced them to articulate the values that should govern its use."
+      }
+    },
+    {
+      "id": "rsim12-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about nudges from the passage?",
+      "choices": [
+        "Their non-coercive nature removes any need for ethical scrutiny.",
+        "They are politically neutral and never controversial.",
+        "Because they reliably influence behavior, decisions about how to use them raise political and ethical questions.",
+        "They have failed in every area of public policy where they have been tried."
+      ],
+      "answer": 2,
+      "explanation": "The third paragraph explicitly states that the very ability of nudges to steer behavior makes the question of who decides the direction politically important.",
+      "wrongReasons": [
+        "The opposite is true — the passage emphasizes the ethical scrutiny that nudges require.",
+        "The passage describes ongoing criticism, so they are not uncontroversial.",
+        "The passage notes that nudges are 'sometimes effective,' not universally failed."
+      ],
+      "passage": {
+        "id": "rsim12-passage",
+        "title": "Nudges and Choice Architecture",
+        "body": "Classical economics generally assumes that people, given the same information, will choose what serves them best. Behavioral economics began as a sustained challenge to that assumption. Carefully designed experiments showed that human decisions depend not only on the available options but also on how those options are presented — the order in which they appear, the unit in which a price is quoted, whether one alternative is marked as the default.\n\nA simple example comes from organ donation. Countries that ask citizens to opt into a donor registry have consistently lower participation than otherwise similar countries that enroll citizens by default and allow them to opt out. The legal commitment is identical; only the path of least resistance differs. Comparable patterns appear in retirement-savings plans, vaccine uptake, and the choice of greener appliances. Economists have come to call these design features the \"choice architecture\" of a decision, and small adjustments are sometimes called \"nudges\" — interventions that preserve every available option but make some easier to choose than others.\n\nNudges have entered mainstream public policy because they are usually cheap, sometimes effective, and explicitly non-coercive: anyone who notices the default can override it. They have also attracted criticism. If a government can predictably steer behavior by rearranging menus or wording, the question of who decides which way to steer becomes politically important. Some scholars argue that nudges are most defensible when their goals are transparent, when independent review can confirm that they actually serve the people being nudged, and when individuals retain a low-friction way to opt out. Behavioral findings, in other words, have given policymakers a powerful tool — and forced them to articulate the values that should govern its use."
+      }
+    },
+    {
+      "id": "rsim12-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the phrase \"path of least resistance\" most nearly means:",
+      "choices": [
+        "the option that requires the least effort from the decision-maker",
+        "the only legally permitted alternative",
+        "the cheapest available product",
+        "the route taken by water flowing downhill"
+      ],
+      "answer": 0,
+      "explanation": "In context, the path of least resistance is the default — whatever happens if the person does nothing — i.e., the option that demands the least effort.",
+      "wrongReasons": [
+        "The passage emphasizes that other legal options remain available; this is not the only one.",
+        "Cost is not the point being made.",
+        "The phrase is used metaphorically about decisions, not literally about water."
+      ],
+      "passage": {
+        "id": "rsim12-passage",
+        "title": "Nudges and Choice Architecture",
+        "body": "Classical economics generally assumes that people, given the same information, will choose what serves them best. Behavioral economics began as a sustained challenge to that assumption. Carefully designed experiments showed that human decisions depend not only on the available options but also on how those options are presented — the order in which they appear, the unit in which a price is quoted, whether one alternative is marked as the default.\n\nA simple example comes from organ donation. Countries that ask citizens to opt into a donor registry have consistently lower participation than otherwise similar countries that enroll citizens by default and allow them to opt out. The legal commitment is identical; only the path of least resistance differs. Comparable patterns appear in retirement-savings plans, vaccine uptake, and the choice of greener appliances. Economists have come to call these design features the \"choice architecture\" of a decision, and small adjustments are sometimes called \"nudges\" — interventions that preserve every available option but make some easier to choose than others.\n\nNudges have entered mainstream public policy because they are usually cheap, sometimes effective, and explicitly non-coercive: anyone who notices the default can override it. They have also attracted criticism. If a government can predictably steer behavior by rearranging menus or wording, the question of who decides which way to steer becomes politically important. Some scholars argue that nudges are most defensible when their goals are transparent, when independent review can confirm that they actually serve the people being nudged, and when individuals retain a low-friction way to opt out. Behavioral findings, in other words, have given policymakers a powerful tool — and forced them to articulate the values that should govern its use."
+      }
+    },
+    {
+      "id": "rsim12-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the main purpose of the final paragraph?",
+      "choices": [
+        "To declare nudges illegitimate and unfit for public policy.",
+        "To celebrate nudges as solving every behavioral problem.",
+        "To weigh the benefits of nudges against the ethical and political questions they raise and to outline conditions for their defensible use.",
+        "To describe the laboratory experiments behind behavioral economics."
+      ],
+      "answer": 2,
+      "explanation": "The paragraph acknowledges both the appeal and the criticisms of nudges, then lists conditions — transparent goals, independent review, easy opt-out — under which they are most defensible.",
+      "wrongReasons": [
+        "The paragraph does not reject nudges outright; it asks how they should be used.",
+        "It does not present them as universal solutions.",
+        "Laboratory experiments are discussed in earlier paragraphs, not here."
+      ],
+      "passage": {
+        "id": "rsim12-passage",
+        "title": "Nudges and Choice Architecture",
+        "body": "Classical economics generally assumes that people, given the same information, will choose what serves them best. Behavioral economics began as a sustained challenge to that assumption. Carefully designed experiments showed that human decisions depend not only on the available options but also on how those options are presented — the order in which they appear, the unit in which a price is quoted, whether one alternative is marked as the default.\n\nA simple example comes from organ donation. Countries that ask citizens to opt into a donor registry have consistently lower participation than otherwise similar countries that enroll citizens by default and allow them to opt out. The legal commitment is identical; only the path of least resistance differs. Comparable patterns appear in retirement-savings plans, vaccine uptake, and the choice of greener appliances. Economists have come to call these design features the \"choice architecture\" of a decision, and small adjustments are sometimes called \"nudges\" — interventions that preserve every available option but make some easier to choose than others.\n\nNudges have entered mainstream public policy because they are usually cheap, sometimes effective, and explicitly non-coercive: anyone who notices the default can override it. They have also attracted criticism. If a government can predictably steer behavior by rearranging menus or wording, the question of who decides which way to steer becomes politically important. Some scholars argue that nudges are most defensible when their goals are transparent, when independent review can confirm that they actually serve the people being nudged, and when individuals retain a low-friction way to opt out. Behavioral findings, in other words, have given policymakers a powerful tool — and forced them to articulate the values that should govern its use."
+      }
+    },
+
+    {
+      "id": "rsim13-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best summarizes the main idea of the passage?",
+      "choices": [
+        "Migratory birds rely on a single, simple cue to find their way across continents.",
+        "Migratory birds combine multiple sources of orientation, including the sun, stars, landmarks and Earth's magnetic field, in a system that is robust precisely because no one cue would suffice alone.",
+        "Bird migration has been completely explained for several decades.",
+        "Magnetic navigation in birds has been disproved by recent experiments."
+      ],
+      "answer": 1,
+      "explanation": "The passage emphasizes that no single sense is sufficient; birds integrate solar, stellar, landmark, and magnetic information, which makes the system robust against the failure of any one cue.",
+      "wrongReasons": [
+        "The passage argues against the single-cue view.",
+        "It explicitly says key parts of the mechanism are still being investigated.",
+        "Recent experiments have refined, not refuted, the magnetic component."
+      ],
+      "passage": {
+        "id": "rsim13-passage",
+        "title": "How Migrating Birds Find Their Way",
+        "body": "The annual migration of songbirds remains one of biology's most striking puzzles. Tens of millions of small birds, some weighing less than a coin, leave the northern forests each autumn and arrive months later at specific patches of forest thousands of kilometers away. They do this on a first attempt, with no opportunity to learn the route from older birds. Researchers have spent decades asking how a creature with so small a brain can solve a problem that took human navigators centuries to formalize.\n\nThe answer that has emerged is that no single sense explains it. During the day, migrating birds appear to use the position of the sun, correcting for its movement across the sky with an internal clock. At night, captive birds raised in planetariums learn the patterns of stars near the celestial pole and use that fixed point as a reference. Landmarks such as coastlines and mountain ranges provide local corrections, and many species rely on Earth's magnetic field to establish a compass direction even when the sky is overcast. Experiments in which one cue is disrupted typically show that the others can compensate, at least partially.\n\nThe magnetic sense has been particularly hard to pin down. There is good evidence that specialised cells in the bird's eye, together with iron-containing particles in the beak, contribute to the perception of magnetic information. The exact molecules involved are still being worked out, and the way the bird's brain combines magnetic data with other cues remains an active research question. What is clear, however, is that the robustness of bird migration depends precisely on this redundancy: a system relying on a single cue would have been pruned long ago by any cloudy season, any solar storm, any unfamiliar coastline. Multiple imperfect signals, integrated, produce reliable navigation across a hemisphere."
+      }
+    },
+    {
+      "id": "rsim13-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what role does an internal clock play in daytime navigation?",
+      "choices": [
+        "It tells the bird when it is hungry.",
+        "It allows the bird to correct for the changing position of the sun across the sky.",
+        "It controls the strength of the bird's magnetic sense.",
+        "It synchronizes departure with other birds in the flock."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 explicitly says birds use the sun's position 'correcting for its movement across the sky with an internal clock.'",
+      "wrongReasons": [
+        "Hunger is not discussed in this context.",
+        "The clock is linked to solar navigation, not the magnetic sense.",
+        "Synchronizing departures is not the function described."
+      ],
+      "passage": {
+        "id": "rsim13-passage",
+        "title": "How Migrating Birds Find Their Way",
+        "body": "The annual migration of songbirds remains one of biology's most striking puzzles. Tens of millions of small birds, some weighing less than a coin, leave the northern forests each autumn and arrive months later at specific patches of forest thousands of kilometers away. They do this on a first attempt, with no opportunity to learn the route from older birds. Researchers have spent decades asking how a creature with so small a brain can solve a problem that took human navigators centuries to formalize.\n\nThe answer that has emerged is that no single sense explains it. During the day, migrating birds appear to use the position of the sun, correcting for its movement across the sky with an internal clock. At night, captive birds raised in planetariums learn the patterns of stars near the celestial pole and use that fixed point as a reference. Landmarks such as coastlines and mountain ranges provide local corrections, and many species rely on Earth's magnetic field to establish a compass direction even when the sky is overcast. Experiments in which one cue is disrupted typically show that the others can compensate, at least partially.\n\nThe magnetic sense has been particularly hard to pin down. There is good evidence that specialised cells in the bird's eye, together with iron-containing particles in the beak, contribute to the perception of magnetic information. The exact molecules involved are still being worked out, and the way the bird's brain combines magnetic data with other cues remains an active research question. What is clear, however, is that the robustness of bird migration depends precisely on this redundancy: a system relying on a single cue would have been pruned long ago by any cloudy season, any solar storm, any unfamiliar coastline. Multiple imperfect signals, integrated, produce reliable navigation across a hemisphere."
+      }
+    },
+    {
+      "id": "rsim13-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about a bird whose magnetic sense has been temporarily disrupted?",
+      "choices": [
+        "It would become permanently disoriented.",
+        "It could often continue navigating, at least in part, by relying on solar, stellar, or landmark cues.",
+        "It would lose all interest in migrating.",
+        "It would migrate in exactly the opposite direction."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes the migratory system as redundant: experiments show that other cues can at least partially compensate when one is disrupted.",
+      "wrongReasons": [
+        "The passage stresses that the system is robust to single-cue failure.",
+        "Motivation to migrate is unrelated to which compass cue is available.",
+        "Reverse migration is not what experiments described in the passage produce."
+      ],
+      "passage": {
+        "id": "rsim13-passage",
+        "title": "How Migrating Birds Find Their Way",
+        "body": "The annual migration of songbirds remains one of biology's most striking puzzles. Tens of millions of small birds, some weighing less than a coin, leave the northern forests each autumn and arrive months later at specific patches of forest thousands of kilometers away. They do this on a first attempt, with no opportunity to learn the route from older birds. Researchers have spent decades asking how a creature with so small a brain can solve a problem that took human navigators centuries to formalize.\n\nThe answer that has emerged is that no single sense explains it. During the day, migrating birds appear to use the position of the sun, correcting for its movement across the sky with an internal clock. At night, captive birds raised in planetariums learn the patterns of stars near the celestial pole and use that fixed point as a reference. Landmarks such as coastlines and mountain ranges provide local corrections, and many species rely on Earth's magnetic field to establish a compass direction even when the sky is overcast. Experiments in which one cue is disrupted typically show that the others can compensate, at least partially.\n\nThe magnetic sense has been particularly hard to pin down. There is good evidence that specialised cells in the bird's eye, together with iron-containing particles in the beak, contribute to the perception of magnetic information. The exact molecules involved are still being worked out, and the way the bird's brain combines magnetic data with other cues remains an active research question. What is clear, however, is that the robustness of bird migration depends precisely on this redundancy: a system relying on a single cue would have been pruned long ago by any cloudy season, any solar storm, any unfamiliar coastline. Multiple imperfect signals, integrated, produce reliable navigation across a hemisphere."
+      }
+    },
+    {
+      "id": "rsim13-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the final paragraph, the word \"redundancy\" most nearly means:",
+      "choices": [
+        "wasteful repetition",
+        "the presence of multiple sources of the same information so that the loss of one is not catastrophic",
+        "the elimination of unnecessary parts",
+        "the smallest possible amount of information"
+      ],
+      "answer": 1,
+      "explanation": "The context — multiple cues compensating for one another — gives 'redundancy' the technical meaning of overlapping information that protects against the loss of any single source.",
+      "wrongReasons": [
+        "The passage treats this redundancy as a virtue, not a waste.",
+        "Redundancy adds duplicates; it does not eliminate parts.",
+        "It is the opposite of minimal information."
+      ],
+      "passage": {
+        "id": "rsim13-passage",
+        "title": "How Migrating Birds Find Their Way",
+        "body": "The annual migration of songbirds remains one of biology's most striking puzzles. Tens of millions of small birds, some weighing less than a coin, leave the northern forests each autumn and arrive months later at specific patches of forest thousands of kilometers away. They do this on a first attempt, with no opportunity to learn the route from older birds. Researchers have spent decades asking how a creature with so small a brain can solve a problem that took human navigators centuries to formalize.\n\nThe answer that has emerged is that no single sense explains it. During the day, migrating birds appear to use the position of the sun, correcting for its movement across the sky with an internal clock. At night, captive birds raised in planetariums learn the patterns of stars near the celestial pole and use that fixed point as a reference. Landmarks such as coastlines and mountain ranges provide local corrections, and many species rely on Earth's magnetic field to establish a compass direction even when the sky is overcast. Experiments in which one cue is disrupted typically show that the others can compensate, at least partially.\n\nThe magnetic sense has been particularly hard to pin down. There is good evidence that specialised cells in the bird's eye, together with iron-containing particles in the beak, contribute to the perception of magnetic information. The exact molecules involved are still being worked out, and the way the bird's brain combines magnetic data with other cues remains an active research question. What is clear, however, is that the robustness of bird migration depends precisely on this redundancy: a system relying on a single cue would have been pruned long ago by any cloudy season, any solar storm, any unfamiliar coastline. Multiple imperfect signals, integrated, produce reliable navigation across a hemisphere."
+      }
+    },
+    {
+      "id": "rsim13-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What broader claim about biological systems does the passage support?",
+      "choices": [
+        "Natural selection consistently produces minimal, single-purpose systems.",
+        "Reliable performance in nature often depends on combining several imperfect cues rather than perfecting a single one.",
+        "Complex behaviors must always rely on a large brain.",
+        "Animal behavior cannot be studied experimentally."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly draws this generalization in its last sentence — multiple imperfect signals integrated produce reliable behavior.",
+      "wrongReasons": [
+        "The argument is the opposite — selection has produced overlapping, redundant systems here.",
+        "The passage stresses how small a bird's brain is, yet how complex the behavior is.",
+        "The whole passage is an account of experimental study of animal behavior."
+      ],
+      "passage": {
+        "id": "rsim13-passage",
+        "title": "How Migrating Birds Find Their Way",
+        "body": "The annual migration of songbirds remains one of biology's most striking puzzles. Tens of millions of small birds, some weighing less than a coin, leave the northern forests each autumn and arrive months later at specific patches of forest thousands of kilometers away. They do this on a first attempt, with no opportunity to learn the route from older birds. Researchers have spent decades asking how a creature with so small a brain can solve a problem that took human navigators centuries to formalize.\n\nThe answer that has emerged is that no single sense explains it. During the day, migrating birds appear to use the position of the sun, correcting for its movement across the sky with an internal clock. At night, captive birds raised in planetariums learn the patterns of stars near the celestial pole and use that fixed point as a reference. Landmarks such as coastlines and mountain ranges provide local corrections, and many species rely on Earth's magnetic field to establish a compass direction even when the sky is overcast. Experiments in which one cue is disrupted typically show that the others can compensate, at least partially.\n\nThe magnetic sense has been particularly hard to pin down. There is good evidence that specialised cells in the bird's eye, together with iron-containing particles in the beak, contribute to the perception of magnetic information. The exact molecules involved are still being worked out, and the way the bird's brain combines magnetic data with other cues remains an active research question. What is clear, however, is that the robustness of bird migration depends precisely on this redundancy: a system relying on a single cue would have been pruned long ago by any cloudy season, any solar storm, any unfamiliar coastline. Multiple imperfect signals, integrated, produce reliable navigation across a hemisphere."
+      }
+    },
+
+    {
+      "id": "rsim14-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Artificial light at night has no effect on natural ecosystems.",
+        "The spread of artificial light at night is a real and underappreciated form of pollution, disrupting animal behavior, plant cycles, and even human health.",
+        "Cities should switch off all lights immediately to save energy.",
+        "Light pollution affects only nocturnal insects and is otherwise harmless."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that artificial light at night is a pollutant in its own right, with effects on animals, plants, and people, even though it is rarely discussed alongside chemical or noise pollution.",
+      "wrongReasons": [
+        "The passage describes substantial effects, not absence of effects.",
+        "The passage proposes targeted, gradual measures, not blanket shut-offs.",
+        "It explicitly discusses effects on plants and humans, not only nocturnal insects."
+      ],
+      "passage": {
+        "id": "rsim14-passage",
+        "title": "The Cost of a Lit Night Sky",
+        "body": "For most of evolutionary history, the alternation of day and night was one of the most reliable signals available to living things. Bacteria, plants, insects, and vertebrates all developed internal clocks tuned to roughly twenty-four hours, with behavior, hormone levels, and even cell division shifting in step with the rising and setting of the sun. The widespread adoption of artificial light beginning in the nineteenth century changed that signal almost overnight, and the change has accelerated as cheap LED lighting now floods the sky from streets, parking lots, and advertising.\n\nEcologists describe the result as a new kind of pollution. Sea-turtle hatchlings emerging on beaches near coastal cities head toward the brightest horizon, which used to be the moonlit sea but is now often the row of resort lights inland; many die before reaching the water. Migratory songbirds, attracted to lit skyscrapers during night flights, collide with windows in numbers estimated in the hundreds of millions per year. Even trees near streetlights drop their autumn leaves later than their unlit neighbors, throwing off the timing of insects and animals that feed on those leaves. Human shift workers, exposed to bright artificial light at night, show measurable disruptions of melatonin and metabolic markers.\n\nUnlike chemical pollutants, light pollution can be reduced almost instantly by changes in design rather than long cleanups. Shielding fixtures so they direct light downward, switching to warmer color temperatures, and turning off non-essential lighting in the small hours have all been shown to restore portions of the natural night without compromising safety. The challenge is not technical so much as cultural: many communities equate brightness with security and progress, and rolling back the lit night requires persuading them that a darker sky is not a step backward but a recovered resource."
+      }
+    },
+    {
+      "id": "rsim14-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, why do many sea-turtle hatchlings die near coastal cities?",
+      "choices": [
+        "Because predators near beaches have multiplied dramatically.",
+        "Because they head toward the brightest horizon, which is now often artificial light inland rather than the moonlit sea.",
+        "Because rising sea temperatures cause them to lose direction.",
+        "Because they cannot smell their way to the water."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 attributes the deaths directly to the misdirection caused by inland artificial lights replacing the moonlit horizon they evolved to follow.",
+      "wrongReasons": [
+        "Predators are not mentioned as the cause in this passage.",
+        "Sea temperature is not discussed in this context.",
+        "Smell is not part of the mechanism described."
+      ],
+      "passage": {
+        "id": "rsim14-passage",
+        "title": "The Cost of a Lit Night Sky",
+        "body": "For most of evolutionary history, the alternation of day and night was one of the most reliable signals available to living things. Bacteria, plants, insects, and vertebrates all developed internal clocks tuned to roughly twenty-four hours, with behavior, hormone levels, and even cell division shifting in step with the rising and setting of the sun. The widespread adoption of artificial light beginning in the nineteenth century changed that signal almost overnight, and the change has accelerated as cheap LED lighting now floods the sky from streets, parking lots, and advertising.\n\nEcologists describe the result as a new kind of pollution. Sea-turtle hatchlings emerging on beaches near coastal cities head toward the brightest horizon, which used to be the moonlit sea but is now often the row of resort lights inland; many die before reaching the water. Migratory songbirds, attracted to lit skyscrapers during night flights, collide with windows in numbers estimated in the hundreds of millions per year. Even trees near streetlights drop their autumn leaves later than their unlit neighbors, throwing off the timing of insects and animals that feed on those leaves. Human shift workers, exposed to bright artificial light at night, show measurable disruptions of melatonin and metabolic markers.\n\nUnlike chemical pollutants, light pollution can be reduced almost instantly by changes in design rather than long cleanups. Shielding fixtures so they direct light downward, switching to warmer color temperatures, and turning off non-essential lighting in the small hours have all been shown to restore portions of the natural night without compromising safety. The challenge is not technical so much as cultural: many communities equate brightness with security and progress, and rolling back the lit night requires persuading them that a darker sky is not a step backward but a recovered resource."
+      }
+    },
+    {
+      "id": "rsim14-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about light pollution compared with chemical pollution?",
+      "choices": [
+        "It is more harmful in every respect than chemical pollution.",
+        "It is easier and faster to reverse, because the source can be changed by redesign rather than long-term cleanup.",
+        "It cannot be measured or quantified scientifically.",
+        "It produces no effects on human health."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 3 explicitly contrasts the two: light pollution can be reduced almost instantly by design changes, unlike chemical pollutants which require lengthy cleanup.",
+      "wrongReasons": [
+        "The passage compares reversibility, not overall severity.",
+        "The passage describes ecological and physiological effects that are measured scientifically.",
+        "The passage notes measurable hormonal and metabolic disruptions in shift workers."
+      ],
+      "passage": {
+        "id": "rsim14-passage",
+        "title": "The Cost of a Lit Night Sky",
+        "body": "For most of evolutionary history, the alternation of day and night was one of the most reliable signals available to living things. Bacteria, plants, insects, and vertebrates all developed internal clocks tuned to roughly twenty-four hours, with behavior, hormone levels, and even cell division shifting in step with the rising and setting of the sun. The widespread adoption of artificial light beginning in the nineteenth century changed that signal almost overnight, and the change has accelerated as cheap LED lighting now floods the sky from streets, parking lots, and advertising.\n\nEcologists describe the result as a new kind of pollution. Sea-turtle hatchlings emerging on beaches near coastal cities head toward the brightest horizon, which used to be the moonlit sea but is now often the row of resort lights inland; many die before reaching the water. Migratory songbirds, attracted to lit skyscrapers during night flights, collide with windows in numbers estimated in the hundreds of millions per year. Even trees near streetlights drop their autumn leaves later than their unlit neighbors, throwing off the timing of insects and animals that feed on those leaves. Human shift workers, exposed to bright artificial light at night, show measurable disruptions of melatonin and metabolic markers.\n\nUnlike chemical pollutants, light pollution can be reduced almost instantly by changes in design rather than long cleanups. Shielding fixtures so they direct light downward, switching to warmer color temperatures, and turning off non-essential lighting in the small hours have all been shown to restore portions of the natural night without compromising safety. The challenge is not technical so much as cultural: many communities equate brightness with security and progress, and rolling back the lit night requires persuading them that a darker sky is not a step backward but a recovered resource."
+      }
+    },
+    {
+      "id": "rsim14-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the final paragraph, the phrase \"recovered resource\" most nearly means:",
+      "choices": [
+        "a fuel that has been rescued from waste",
+        "a valuable feature of the environment that had been lost and can be reclaimed",
+        "a financial investment that has been refunded",
+        "a piece of land that has been physically cleared"
+      ],
+      "answer": 1,
+      "explanation": "The phrase treats the dark sky as something the community once had, lost, and can take back — an environmental amenity reclaimed.",
+      "wrongReasons": [
+        "Fuel is not what the dark sky is being compared to.",
+        "Money is not the metaphor at work.",
+        "Land clearance is not what 'recovered resource' refers to here."
+      ],
+      "passage": {
+        "id": "rsim14-passage",
+        "title": "The Cost of a Lit Night Sky",
+        "body": "For most of evolutionary history, the alternation of day and night was one of the most reliable signals available to living things. Bacteria, plants, insects, and vertebrates all developed internal clocks tuned to roughly twenty-four hours, with behavior, hormone levels, and even cell division shifting in step with the rising and setting of the sun. The widespread adoption of artificial light beginning in the nineteenth century changed that signal almost overnight, and the change has accelerated as cheap LED lighting now floods the sky from streets, parking lots, and advertising.\n\nEcologists describe the result as a new kind of pollution. Sea-turtle hatchlings emerging on beaches near coastal cities head toward the brightest horizon, which used to be the moonlit sea but is now often the row of resort lights inland; many die before reaching the water. Migratory songbirds, attracted to lit skyscrapers during night flights, collide with windows in numbers estimated in the hundreds of millions per year. Even trees near streetlights drop their autumn leaves later than their unlit neighbors, throwing off the timing of insects and animals that feed on those leaves. Human shift workers, exposed to bright artificial light at night, show measurable disruptions of melatonin and metabolic markers.\n\nUnlike chemical pollutants, light pollution can be reduced almost instantly by changes in design rather than long cleanups. Shielding fixtures so they direct light downward, switching to warmer color temperatures, and turning off non-essential lighting in the small hours have all been shown to restore portions of the natural night without compromising safety. The challenge is not technical so much as cultural: many communities equate brightness with security and progress, and rolling back the lit night requires persuading them that a darker sky is not a step backward but a recovered resource."
+      }
+    },
+    {
+      "id": "rsim14-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the main purpose of the final sentence of the passage?",
+      "choices": [
+        "To attack the engineers who design lighting fixtures.",
+        "To suggest that the obstacle to reducing light pollution is mostly cultural and rhetorical rather than technical.",
+        "To argue that dark skies are useless without rural redevelopment.",
+        "To propose that all street lights be removed permanently."
+      ],
+      "answer": 1,
+      "explanation": "The closing sentence identifies the real challenge as a cultural one — persuading communities that darker skies are not regress but a recovered amenity.",
+      "wrongReasons": [
+        "Engineers are not blamed; the issue is identified as cultural.",
+        "Rural redevelopment is not what the passage is about.",
+        "The passage explicitly notes that safety can be preserved and recommends targeted reductions, not removal of all lights."
+      ],
+      "passage": {
+        "id": "rsim14-passage",
+        "title": "The Cost of a Lit Night Sky",
+        "body": "For most of evolutionary history, the alternation of day and night was one of the most reliable signals available to living things. Bacteria, plants, insects, and vertebrates all developed internal clocks tuned to roughly twenty-four hours, with behavior, hormone levels, and even cell division shifting in step with the rising and setting of the sun. The widespread adoption of artificial light beginning in the nineteenth century changed that signal almost overnight, and the change has accelerated as cheap LED lighting now floods the sky from streets, parking lots, and advertising.\n\nEcologists describe the result as a new kind of pollution. Sea-turtle hatchlings emerging on beaches near coastal cities head toward the brightest horizon, which used to be the moonlit sea but is now often the row of resort lights inland; many die before reaching the water. Migratory songbirds, attracted to lit skyscrapers during night flights, collide with windows in numbers estimated in the hundreds of millions per year. Even trees near streetlights drop their autumn leaves later than their unlit neighbors, throwing off the timing of insects and animals that feed on those leaves. Human shift workers, exposed to bright artificial light at night, show measurable disruptions of melatonin and metabolic markers.\n\nUnlike chemical pollutants, light pollution can be reduced almost instantly by changes in design rather than long cleanups. Shielding fixtures so they direct light downward, switching to warmer color temperatures, and turning off non-essential lighting in the small hours have all been shown to restore portions of the natural night without compromising safety. The challenge is not technical so much as cultural: many communities equate brightness with security and progress, and rolling back the lit night requires persuading them that a darker sky is not a step backward but a recovered resource."
+      }
+    },
+
+    {
+      "id": "rsim15-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "The Industrial Revolution was primarily a technological story about new machines.",
+        "Industrialization in Britain reshaped not only production but the daily rhythms, settlement patterns, and class structure of an entire society, with effects that long outlived the original machinery.",
+        "Factory work in the early 1800s was widely understood by contemporaries to be beneficial for workers.",
+        "Rural life in England disappeared almost overnight after 1750."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that industrialization was far more than a set of machines; it transformed where people lived, how time was measured, and the social hierarchy itself.",
+      "wrongReasons": [
+        "The passage explicitly broadens the story beyond machines.",
+        "It describes contemporary distress and protest at factory conditions.",
+        "It notes that the rural shift was profound but spanned generations, not days."
+      ],
+      "passage": {
+        "id": "rsim15-passage",
+        "title": "The Industrial Revolution's Quiet Earthquake",
+        "body": "It is tempting to picture the Industrial Revolution as a sequence of inventions — the spinning jenny, the steam engine, the power loom — each appearing on cue to drive the next. The technical breakthroughs were real, but they cannot by themselves explain why eighteenth- and nineteenth-century Britain was the first society to undergo the transformation. New machines existed elsewhere; what was distinctive in Britain was the coincidence of accessible coal, cheap iron, expanding overseas markets, a labor force willing to enter factories, and a legal system that protected accumulation of capital. Once these elements aligned, the production of cloth, iron and tools accelerated by orders of magnitude within a few generations.\n\nThe social effects were less obvious but more lasting. Tens of thousands of villagers moved into the new industrial towns to work in mills and foundries. Daily life had previously been organized around the sun and the seasons; the factory replaced these rhythms with the clock, summoning workers at a set hour and releasing them by a whistle. Wages, paid weekly in cash, gradually replaced subsistence farming as the dominant way of acquiring food, clothing and shelter. New classes emerged — industrial workers and factory owners — whose interests often conflicted, and whose disputes shaped political reform for the next century.\n\nContemporaries did not greet these changes with uniform enthusiasm. Reports of long shifts, child labour, and unsanitary housing prompted novels, parliamentary inquiries, and the first reforming legislation. Yet the same period also saw rising literacy, falling mortality from infectious disease in later decades, and the emergence of public services that would have been unthinkable in a purely agrarian society. Whether the balance was on the whole positive remains a matter of historical debate, but few historians dispute the scale of the shift: the Britain of 1850 was not simply a wealthier version of the Britain of 1750 but a different kind of society."
+      }
+    },
+    {
+      "id": "rsim15-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what factor distinguished Britain from other societies that already had access to new machines?",
+      "choices": [
+        "Britain had warmer weather than other industrializing nations.",
+        "Britain alone possessed the steam engine.",
+        "Britain had a particular combination of coal, iron, markets, a willing workforce, and a legal system that protected capital.",
+        "Britain was the only country with rivers suitable for water power."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph 1 lists this exact combination as what was distinctive about Britain, rather than the machines themselves.",
+      "wrongReasons": [
+        "Weather is not discussed.",
+        "The passage notes new machines existed elsewhere too.",
+        "Rivers are not given as the distinguishing factor."
+      ],
+      "passage": {
+        "id": "rsim15-passage",
+        "title": "The Industrial Revolution's Quiet Earthquake",
+        "body": "It is tempting to picture the Industrial Revolution as a sequence of inventions — the spinning jenny, the steam engine, the power loom — each appearing on cue to drive the next. The technical breakthroughs were real, but they cannot by themselves explain why eighteenth- and nineteenth-century Britain was the first society to undergo the transformation. New machines existed elsewhere; what was distinctive in Britain was the coincidence of accessible coal, cheap iron, expanding overseas markets, a labor force willing to enter factories, and a legal system that protected accumulation of capital. Once these elements aligned, the production of cloth, iron and tools accelerated by orders of magnitude within a few generations.\n\nThe social effects were less obvious but more lasting. Tens of thousands of villagers moved into the new industrial towns to work in mills and foundries. Daily life had previously been organized around the sun and the seasons; the factory replaced these rhythms with the clock, summoning workers at a set hour and releasing them by a whistle. Wages, paid weekly in cash, gradually replaced subsistence farming as the dominant way of acquiring food, clothing and shelter. New classes emerged — industrial workers and factory owners — whose interests often conflicted, and whose disputes shaped political reform for the next century.\n\nContemporaries did not greet these changes with uniform enthusiasm. Reports of long shifts, child labour, and unsanitary housing prompted novels, parliamentary inquiries, and the first reforming legislation. Yet the same period also saw rising literacy, falling mortality from infectious disease in later decades, and the emergence of public services that would have been unthinkable in a purely agrarian society. Whether the balance was on the whole positive remains a matter of historical debate, but few historians dispute the scale of the shift: the Britain of 1850 was not simply a wealthier version of the Britain of 1750 but a different kind of society."
+      }
+    },
+    {
+      "id": "rsim15-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about contemporary reactions to industrialization?",
+      "choices": [
+        "Most contemporaries celebrated all aspects of industrial life.",
+        "Most contemporaries opposed all aspects of industrial life.",
+        "Reactions were mixed, with reports of harsh conditions provoking reform even as the period also produced gains such as rising literacy and improved public services.",
+        "Contemporaries paid no attention to the changes occurring around them."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph 3 explicitly notes both the protests at long shifts and child labour and the simultaneous gains in literacy and public services, supporting this mixed picture.",
+      "wrongReasons": [
+        "The passage describes contemporary protest, not uniform celebration.",
+        "It also describes celebrated gains, not uniform opposition.",
+        "The passage describes substantial contemporary engagement with the issues."
+      ],
+      "passage": {
+        "id": "rsim15-passage",
+        "title": "The Industrial Revolution's Quiet Earthquake",
+        "body": "It is tempting to picture the Industrial Revolution as a sequence of inventions — the spinning jenny, the steam engine, the power loom — each appearing on cue to drive the next. The technical breakthroughs were real, but they cannot by themselves explain why eighteenth- and nineteenth-century Britain was the first society to undergo the transformation. New machines existed elsewhere; what was distinctive in Britain was the coincidence of accessible coal, cheap iron, expanding overseas markets, a labor force willing to enter factories, and a legal system that protected accumulation of capital. Once these elements aligned, the production of cloth, iron and tools accelerated by orders of magnitude within a few generations.\n\nThe social effects were less obvious but more lasting. Tens of thousands of villagers moved into the new industrial towns to work in mills and foundries. Daily life had previously been organized around the sun and the seasons; the factory replaced these rhythms with the clock, summoning workers at a set hour and releasing them by a whistle. Wages, paid weekly in cash, gradually replaced subsistence farming as the dominant way of acquiring food, clothing and shelter. New classes emerged — industrial workers and factory owners — whose interests often conflicted, and whose disputes shaped political reform for the next century.\n\nContemporaries did not greet these changes with uniform enthusiasm. Reports of long shifts, child labour, and unsanitary housing prompted novels, parliamentary inquiries, and the first reforming legislation. Yet the same period also saw rising literacy, falling mortality from infectious disease in later decades, and the emergence of public services that would have been unthinkable in a purely agrarian society. Whether the balance was on the whole positive remains a matter of historical debate, but few historians dispute the scale of the shift: the Britain of 1850 was not simply a wealthier version of the Britain of 1750 but a different kind of society."
+      }
+    },
+    {
+      "id": "rsim15-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the phrase \"summoning workers at a set hour\" most nearly means:",
+      "choices": [
+        "inviting workers to attend an evening event",
+        "calling workers to begin their shift at a fixed clock time",
+        "requiring workers to repeat the same task forever",
+        "punishing workers for being early"
+      ],
+      "answer": 1,
+      "explanation": "The passage contrasts agrarian rhythms with the factory whistle that brought workers in at a set clock time and released them at the end of the shift.",
+      "wrongReasons": [
+        "It is not a social invitation but a work signal.",
+        "The phrase concerns timing, not repetition of tasks.",
+        "Punishment is not described in this sentence."
+      ],
+      "passage": {
+        "id": "rsim15-passage",
+        "title": "The Industrial Revolution's Quiet Earthquake",
+        "body": "It is tempting to picture the Industrial Revolution as a sequence of inventions — the spinning jenny, the steam engine, the power loom — each appearing on cue to drive the next. The technical breakthroughs were real, but they cannot by themselves explain why eighteenth- and nineteenth-century Britain was the first society to undergo the transformation. New machines existed elsewhere; what was distinctive in Britain was the coincidence of accessible coal, cheap iron, expanding overseas markets, a labor force willing to enter factories, and a legal system that protected accumulation of capital. Once these elements aligned, the production of cloth, iron and tools accelerated by orders of magnitude within a few generations.\n\nThe social effects were less obvious but more lasting. Tens of thousands of villagers moved into the new industrial towns to work in mills and foundries. Daily life had previously been organized around the sun and the seasons; the factory replaced these rhythms with the clock, summoning workers at a set hour and releasing them by a whistle. Wages, paid weekly in cash, gradually replaced subsistence farming as the dominant way of acquiring food, clothing and shelter. New classes emerged — industrial workers and factory owners — whose interests often conflicted, and whose disputes shaped political reform for the next century.\n\nContemporaries did not greet these changes with uniform enthusiasm. Reports of long shifts, child labour, and unsanitary housing prompted novels, parliamentary inquiries, and the first reforming legislation. Yet the same period also saw rising literacy, falling mortality from infectious disease in later decades, and the emergence of public services that would have been unthinkable in a purely agrarian society. Whether the balance was on the whole positive remains a matter of historical debate, but few historians dispute the scale of the shift: the Britain of 1850 was not simply a wealthier version of the Britain of 1750 but a different kind of society."
+      }
+    },
+    {
+      "id": "rsim15-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Which sentence best captures the author's overall stance on whether the Industrial Revolution was good or bad?",
+      "choices": [
+        "The author concludes definitively that industrialization was on the whole harmful.",
+        "The author concludes definitively that industrialization was on the whole beneficial.",
+        "The author treats the moral balance as genuinely contested but underscores that the scale of the social transformation is not in doubt.",
+        "The author argues that the question is meaningless and not worth asking."
+      ],
+      "answer": 2,
+      "explanation": "The closing sentences explicitly say that the moral balance remains debated even though few historians dispute that the scale of change was profound — which is precisely the stance described.",
+      "wrongReasons": [
+        "The passage describes mixed effects and explicitly says historians still debate.",
+        "It does not endorse a uniformly positive verdict either.",
+        "It treats the question as legitimate and continuing, not meaningless."
+      ],
+      "passage": {
+        "id": "rsim15-passage",
+        "title": "The Industrial Revolution's Quiet Earthquake",
+        "body": "It is tempting to picture the Industrial Revolution as a sequence of inventions — the spinning jenny, the steam engine, the power loom — each appearing on cue to drive the next. The technical breakthroughs were real, but they cannot by themselves explain why eighteenth- and nineteenth-century Britain was the first society to undergo the transformation. New machines existed elsewhere; what was distinctive in Britain was the coincidence of accessible coal, cheap iron, expanding overseas markets, a labor force willing to enter factories, and a legal system that protected accumulation of capital. Once these elements aligned, the production of cloth, iron and tools accelerated by orders of magnitude within a few generations.\n\nThe social effects were less obvious but more lasting. Tens of thousands of villagers moved into the new industrial towns to work in mills and foundries. Daily life had previously been organized around the sun and the seasons; the factory replaced these rhythms with the clock, summoning workers at a set hour and releasing them by a whistle. Wages, paid weekly in cash, gradually replaced subsistence farming as the dominant way of acquiring food, clothing and shelter. New classes emerged — industrial workers and factory owners — whose interests often conflicted, and whose disputes shaped political reform for the next century.\n\nContemporaries did not greet these changes with uniform enthusiasm. Reports of long shifts, child labour, and unsanitary housing prompted novels, parliamentary inquiries, and the first reforming legislation. Yet the same period also saw rising literacy, falling mortality from infectious disease in later decades, and the emergence of public services that would have been unthinkable in a purely agrarian society. Whether the balance was on the whole positive remains a matter of historical debate, but few historians dispute the scale of the shift: the Britain of 1850 was not simply a wealthier version of the Britain of 1750 but a different kind of society."
+      }
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "reading": [
+    {
+      "id": "rsim26-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Antarctic ice cores reveal nothing about Earth's past atmosphere.",
+        "Antarctic ice cores preserve a continuous record of past atmospheres and temperatures, providing direct evidence of how greenhouse gases and climate have varied together over hundreds of thousands of years.",
+        "Greenhouse gases were always at modern levels in the past.",
+        "Ice cores have to be drilled from active volcanoes."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes how ice cores trap ancient air bubbles and isotopic signals, and how the resulting record shows long-term covariation between temperature and greenhouse gases — the central evidence cited for present-day concerns.",
+      "wrongReasons": [
+        "The passage shows ice cores yield rich climate information.",
+        "It explicitly describes large variation in greenhouse gases over time.",
+        "Ice cores are drilled in stable polar ice sheets, not volcanoes."
+      ],
+      "passage": {
+        "id": "rsim26-passage",
+        "title": "Reading Climate History from Ice",
+        "body": "When snow falls on the high plateaus of Antarctica, it does not melt. New layers compress the snow beneath them, gradually squeezing it into solid ice and trapping pockets of air between the crystals. Each pocket is a tiny sample of the atmosphere that existed when the snow originally fell. By drilling vertical cores through the ice sheet — sometimes more than three kilometers down — researchers obtain a continuous time series of ancient air, layer by layer, stretching back hundreds of thousands of years.\n\nThe analyses go well beyond a count of bubbles. The ratio of heavy to light oxygen isotopes in the ice itself records the temperature at which the snow originally fell, since heavier isotopes tend to fall out of the atmosphere earlier in a cooling air mass. Dust embedded in the ice reflects how arid distant continents were. Volcanic eruptions leave sulphate fingerprints that allow researchers to align records from different cores. Most importantly for current debates, the trapped air bubbles can be measured directly for carbon dioxide and methane. The result is a coupled record: when greenhouse-gas concentrations rose in the past, polar temperatures rose with them; when they fell, temperatures fell.\n\nThis evidence is not the only argument that today's climate change is unusual, but it is one of the clearest. Modern measurements from observatories show that carbon dioxide is now higher than at any point in the ice-core record, and that the rise has occurred over decades rather than millennia. The geological context, in other words, makes it possible to say with confidence not merely that the atmosphere is changing, but that it is changing in a direction and at a speed that have no precedent in the past eight hundred thousand years. The same archive that confirms a long history of natural variation also frames the current departure from that variation."
+      }
+    },
+    {
+      "id": "rsim26-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what does the ratio of heavy to light oxygen isotopes in the ice record?",
+      "choices": [
+        "The temperature at which the snow originally fell.",
+        "The amount of carbon dioxide currently in the atmosphere.",
+        "The age of the ice in years.",
+        "The level of pollution in modern cities."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph 2 explicitly attributes the temperature signal to the heavy/light oxygen isotope ratio in the ice.",
+      "wrongReasons": [
+        "Carbon dioxide is read from trapped air bubbles, not from the isotope ratio.",
+        "Age is determined by layer counting and other dating methods, not by the isotope ratio.",
+        "Modern urban pollution is not encoded in ancient ice."
+      ],
+      "passage": {
+        "id": "rsim26-passage",
+        "title": "Reading Climate History from Ice",
+        "body": "When snow falls on the high plateaus of Antarctica, it does not melt. New layers compress the snow beneath them, gradually squeezing it into solid ice and trapping pockets of air between the crystals. Each pocket is a tiny sample of the atmosphere that existed when the snow originally fell. By drilling vertical cores through the ice sheet — sometimes more than three kilometers down — researchers obtain a continuous time series of ancient air, layer by layer, stretching back hundreds of thousands of years.\n\nThe analyses go well beyond a count of bubbles. The ratio of heavy to light oxygen isotopes in the ice itself records the temperature at which the snow originally fell, since heavier isotopes tend to fall out of the atmosphere earlier in a cooling air mass. Dust embedded in the ice reflects how arid distant continents were. Volcanic eruptions leave sulphate fingerprints that allow researchers to align records from different cores. Most importantly for current debates, the trapped air bubbles can be measured directly for carbon dioxide and methane. The result is a coupled record: when greenhouse-gas concentrations rose in the past, polar temperatures rose with them; when they fell, temperatures fell.\n\nThis evidence is not the only argument that today's climate change is unusual, but it is one of the clearest. Modern measurements from observatories show that carbon dioxide is now higher than at any point in the ice-core record, and that the rise has occurred over decades rather than millennia. The geological context, in other words, makes it possible to say with confidence not merely that the atmosphere is changing, but that it is changing in a direction and at a speed that have no precedent in the past eight hundred thousand years. The same archive that confirms a long history of natural variation also frames the current departure from that variation."
+      }
+    },
+    {
+      "id": "rsim26-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about the strength of the ice-core evidence for present-day concerns?",
+      "choices": [
+        "It is the single argument used to support modern climate concerns.",
+        "It is one of several lines of evidence and is particularly powerful because it places today's atmospheric measurements into a long natural baseline.",
+        "It contradicts modern observatory data.",
+        "It proves that current changes have many close precedents in the past."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 3 explicitly says the ice-core evidence is 'not the only argument' but is 'one of the clearest,' precisely because it provides a long natural baseline against which the modern departure is visible.",
+      "wrongReasons": [
+        "The passage explicitly acknowledges other arguments.",
+        "It harmonizes with modern observatory data.",
+        "It shows the opposite — no precedent in the past 800,000 years."
+      ],
+      "passage": {
+        "id": "rsim26-passage",
+        "title": "Reading Climate History from Ice",
+        "body": "When snow falls on the high plateaus of Antarctica, it does not melt. New layers compress the snow beneath them, gradually squeezing it into solid ice and trapping pockets of air between the crystals. Each pocket is a tiny sample of the atmosphere that existed when the snow originally fell. By drilling vertical cores through the ice sheet — sometimes more than three kilometers down — researchers obtain a continuous time series of ancient air, layer by layer, stretching back hundreds of thousands of years.\n\nThe analyses go well beyond a count of bubbles. The ratio of heavy to light oxygen isotopes in the ice itself records the temperature at which the snow originally fell, since heavier isotopes tend to fall out of the atmosphere earlier in a cooling air mass. Dust embedded in the ice reflects how arid distant continents were. Volcanic eruptions leave sulphate fingerprints that allow researchers to align records from different cores. Most importantly for current debates, the trapped air bubbles can be measured directly for carbon dioxide and methane. The result is a coupled record: when greenhouse-gas concentrations rose in the past, polar temperatures rose with them; when they fell, temperatures fell.\n\nThis evidence is not the only argument that today's climate change is unusual, but it is one of the clearest. Modern measurements from observatories show that carbon dioxide is now higher than at any point in the ice-core record, and that the rise has occurred over decades rather than millennia. The geological context, in other words, makes it possible to say with confidence not merely that the atmosphere is changing, but that it is changing in a direction and at a speed that have no precedent in the past eight hundred thousand years. The same archive that confirms a long history of natural variation also frames the current departure from that variation."
+      }
+    },
+    {
+      "id": "rsim26-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"archive\" most nearly means:",
+      "choices": [
+        "a digital storage device",
+        "a long-running record from which the past can be reconstructed",
+        "an officially designated history book",
+        "a government department"
+      ],
+      "answer": 1,
+      "explanation": "In context, the 'archive' is the ice core itself — a long-running natural record from which the past can be reconstructed.",
+      "wrongReasons": [
+        "It is not a digital device.",
+        "It is a natural, not an officially compiled, record.",
+        "It does not refer to a government department."
+      ],
+      "passage": {
+        "id": "rsim26-passage",
+        "title": "Reading Climate History from Ice",
+        "body": "When snow falls on the high plateaus of Antarctica, it does not melt. New layers compress the snow beneath them, gradually squeezing it into solid ice and trapping pockets of air between the crystals. Each pocket is a tiny sample of the atmosphere that existed when the snow originally fell. By drilling vertical cores through the ice sheet — sometimes more than three kilometers down — researchers obtain a continuous time series of ancient air, layer by layer, stretching back hundreds of thousands of years.\n\nThe analyses go well beyond a count of bubbles. The ratio of heavy to light oxygen isotopes in the ice itself records the temperature at which the snow originally fell, since heavier isotopes tend to fall out of the atmosphere earlier in a cooling air mass. Dust embedded in the ice reflects how arid distant continents were. Volcanic eruptions leave sulphate fingerprints that allow researchers to align records from different cores. Most importantly for current debates, the trapped air bubbles can be measured directly for carbon dioxide and methane. The result is a coupled record: when greenhouse-gas concentrations rose in the past, polar temperatures rose with them; when they fell, temperatures fell.\n\nThis evidence is not the only argument that today's climate change is unusual, but it is one of the clearest. Modern measurements from observatories show that carbon dioxide is now higher than at any point in the ice-core record, and that the rise has occurred over decades rather than millennia. The geological context, in other words, makes it possible to say with confidence not merely that the atmosphere is changing, but that it is changing in a direction and at a speed that have no precedent in the past eight hundred thousand years. The same archive that confirms a long history of natural variation also frames the current departure from that variation."
+      }
+    },
+    {
+      "id": "rsim26-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "How does the final sentence of the passage tie together its argument?",
+      "choices": [
+        "It rejects the use of ice-core evidence as fundamentally flawed.",
+        "It notes that the very same record demonstrating long-term natural variation also makes the current departure from that variation visible and quantifiable.",
+        "It calls for the immediate cessation of all ice-core drilling.",
+        "It introduces a completely new line of evidence not discussed in the passage."
+      ],
+      "answer": 1,
+      "explanation": "The closing line ties the two roles of the ice-core record together — confirming natural variation and quantifying the modern departure — which is the structural punchline of the passage.",
+      "wrongReasons": [
+        "It endorses, rather than rejects, the use of ice-core data.",
+        "Stopping research is not the message.",
+        "It synthesizes ideas already developed, not new ones."
+      ],
+      "passage": {
+        "id": "rsim26-passage",
+        "title": "Reading Climate History from Ice",
+        "body": "When snow falls on the high plateaus of Antarctica, it does not melt. New layers compress the snow beneath them, gradually squeezing it into solid ice and trapping pockets of air between the crystals. Each pocket is a tiny sample of the atmosphere that existed when the snow originally fell. By drilling vertical cores through the ice sheet — sometimes more than three kilometers down — researchers obtain a continuous time series of ancient air, layer by layer, stretching back hundreds of thousands of years.\n\nThe analyses go well beyond a count of bubbles. The ratio of heavy to light oxygen isotopes in the ice itself records the temperature at which the snow originally fell, since heavier isotopes tend to fall out of the atmosphere earlier in a cooling air mass. Dust embedded in the ice reflects how arid distant continents were. Volcanic eruptions leave sulphate fingerprints that allow researchers to align records from different cores. Most importantly for current debates, the trapped air bubbles can be measured directly for carbon dioxide and methane. The result is a coupled record: when greenhouse-gas concentrations rose in the past, polar temperatures rose with them; when they fell, temperatures fell.\n\nThis evidence is not the only argument that today's climate change is unusual, but it is one of the clearest. Modern measurements from observatories show that carbon dioxide is now higher than at any point in the ice-core record, and that the rise has occurred over decades rather than millennia. The geological context, in other words, makes it possible to say with confidence not merely that the atmosphere is changing, but that it is changing in a direction and at a speed that have no precedent in the past eight hundred thousand years. The same archive that confirms a long history of natural variation also frames the current departure from that variation."
+      }
+    },
+
+    {
+      "id": "rsim27-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Wind and solar power cannot supply meaningful amounts of electricity.",
+        "Because wind and solar generation are intermittent, expanding their share of electricity requires equally large investments in storage and grid flexibility.",
+        "Lithium-ion batteries can already store enough energy to power any country for a year.",
+        "Pumped hydroelectric storage has been entirely replaced by batteries."
+      ],
+      "answer": 1,
+      "explanation": "The passage frames the integration of renewables as a storage and flexibility problem, surveys the available technologies, and argues that scaling requires investment beyond generation alone.",
+      "wrongReasons": [
+        "The passage describes the growing share of wind and solar generation.",
+        "It explicitly notes that batteries store only minutes to hours, not a year.",
+        "It identifies pumped hydro as still the dominant grid-scale storage."
+      ],
+      "passage": {
+        "id": "rsim27-passage",
+        "title": "Why Renewable Storage Matters",
+        "body": "Wind and solar generation have become surprisingly inexpensive over the past decade, and their share of electricity supply is rising in most large economies. Replacing fossil generation with renewable generation, however, is not the same as replacing the service the fossil generators provided. A coal or gas plant can be dispatched on demand: operators tell it to run, and it runs. Wind and solar output depend on weather and time of day, and the gap between supply and demand has to be bridged somehow if the grid is to remain stable.\n\nStorage is the most direct solution, and several technologies coexist for different time scales. Lithium-ion batteries can absorb a sudden surge of solar output at midday and release it during the evening demand peak, but they remain expensive for periods longer than a few hours. Pumped hydroelectric storage — pumping water uphill when electricity is cheap and letting it run back through turbines when it is needed — is still the largest form of grid-scale storage worldwide, although it depends on suitable geography. Newer approaches such as compressed air, gravity-based systems, and chemical storage in the form of hydrogen are being trialed for the days-to-weeks window that conventional batteries cannot cover.\n\nStorage is only part of the solution. A grid that can transmit electricity across long distances allows surpluses in one region to meet shortages in another, smoothing variation without needing to store it locally. Demand-side measures — pricing electricity dynamically so that flexible loads such as electric-vehicle charging shift toward periods of abundance — also reduce the need for storage. None of these tools is a single fix. Decarbonizing electricity at large scale requires committing to a portfolio of investments that match the time scales of variability: minutes to hours of batteries, hours to days of pumped or chemical storage, weeks of long-distance interconnection, and ongoing improvements to demand flexibility."
+      }
+    },
+    {
+      "id": "rsim27-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what is the difference between dispatchable fossil generation and wind or solar generation?",
+      "choices": [
+        "Wind and solar can be turned on and off on operator command, while fossil plants cannot.",
+        "Fossil generators can be dispatched on demand, while wind and solar output depends on weather and time of day.",
+        "Both generate exactly the same amount of electricity per square meter.",
+        "Wind and solar have higher emissions than coal plants."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 makes this exact contrast: fossil plants can be dispatched on demand; renewable output depends on weather and time of day.",
+      "wrongReasons": [
+        "The passage states the opposite.",
+        "Generation density is not the topic.",
+        "The passage presents wind and solar as replacing fossil fuels precisely because they are lower-emission."
+      ],
+      "passage": {
+        "id": "rsim27-passage",
+        "title": "Why Renewable Storage Matters",
+        "body": "Wind and solar generation have become surprisingly inexpensive over the past decade, and their share of electricity supply is rising in most large economies. Replacing fossil generation with renewable generation, however, is not the same as replacing the service the fossil generators provided. A coal or gas plant can be dispatched on demand: operators tell it to run, and it runs. Wind and solar output depend on weather and time of day, and the gap between supply and demand has to be bridged somehow if the grid is to remain stable.\n\nStorage is the most direct solution, and several technologies coexist for different time scales. Lithium-ion batteries can absorb a sudden surge of solar output at midday and release it during the evening demand peak, but they remain expensive for periods longer than a few hours. Pumped hydroelectric storage — pumping water uphill when electricity is cheap and letting it run back through turbines when it is needed — is still the largest form of grid-scale storage worldwide, although it depends on suitable geography. Newer approaches such as compressed air, gravity-based systems, and chemical storage in the form of hydrogen are being trialed for the days-to-weeks window that conventional batteries cannot cover.\n\nStorage is only part of the solution. A grid that can transmit electricity across long distances allows surpluses in one region to meet shortages in another, smoothing variation without needing to store it locally. Demand-side measures — pricing electricity dynamically so that flexible loads such as electric-vehicle charging shift toward periods of abundance — also reduce the need for storage. None of these tools is a single fix. Decarbonizing electricity at large scale requires committing to a portfolio of investments that match the time scales of variability: minutes to hours of batteries, hours to days of pumped or chemical storage, weeks of long-distance interconnection, and ongoing improvements to demand flexibility."
+      }
+    },
+    {
+      "id": "rsim27-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about a grid that relies heavily on lithium-ion batteries alone for storage?",
+      "choices": [
+        "It would smoothly handle multi-week shortages of wind and solar generation.",
+        "It would handle short-term mismatches well but struggle to bridge gaps lasting more than a few hours unless paired with other tools.",
+        "It would require no transmission capacity at all.",
+        "It would automatically lower electricity prices to zero."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 explicitly notes that lithium-ion batteries are expensive for periods longer than a few hours, so longer gaps would need other technologies — supporting this inference.",
+      "wrongReasons": [
+        "The passage says batteries struggle with long durations.",
+        "Transmission is described as complementary to storage.",
+        "Price effects are not described that way."
+      ],
+      "passage": {
+        "id": "rsim27-passage",
+        "title": "Why Renewable Storage Matters",
+        "body": "Wind and solar generation have become surprisingly inexpensive over the past decade, and their share of electricity supply is rising in most large economies. Replacing fossil generation with renewable generation, however, is not the same as replacing the service the fossil generators provided. A coal or gas plant can be dispatched on demand: operators tell it to run, and it runs. Wind and solar output depend on weather and time of day, and the gap between supply and demand has to be bridged somehow if the grid is to remain stable.\n\nStorage is the most direct solution, and several technologies coexist for different time scales. Lithium-ion batteries can absorb a sudden surge of solar output at midday and release it during the evening demand peak, but they remain expensive for periods longer than a few hours. Pumped hydroelectric storage — pumping water uphill when electricity is cheap and letting it run back through turbines when it is needed — is still the largest form of grid-scale storage worldwide, although it depends on suitable geography. Newer approaches such as compressed air, gravity-based systems, and chemical storage in the form of hydrogen are being trialed for the days-to-weeks window that conventional batteries cannot cover.\n\nStorage is only part of the solution. A grid that can transmit electricity across long distances allows surpluses in one region to meet shortages in another, smoothing variation without needing to store it locally. Demand-side measures — pricing electricity dynamically so that flexible loads such as electric-vehicle charging shift toward periods of abundance — also reduce the need for storage. None of these tools is a single fix. Decarbonizing electricity at large scale requires committing to a portfolio of investments that match the time scales of variability: minutes to hours of batteries, hours to days of pumped or chemical storage, weeks of long-distance interconnection, and ongoing improvements to demand flexibility."
+      }
+    },
+    {
+      "id": "rsim27-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the final paragraph, the word \"portfolio\" most nearly means:",
+      "choices": [
+        "a single, narrowly chosen investment",
+        "a deliberately diversified set of complementary investments",
+        "a financial spreadsheet",
+        "a collection of unrelated documents"
+      ],
+      "answer": 1,
+      "explanation": "The passage uses 'portfolio' in the sense of a deliberate mix — batteries, pumped storage, transmission and demand-flexibility — that together cover different time scales.",
+      "wrongReasons": [
+        "It is precisely the opposite of a single investment.",
+        "It is used metaphorically, not as a spreadsheet.",
+        "The components are explicitly complementary."
+      ],
+      "passage": {
+        "id": "rsim27-passage",
+        "title": "Why Renewable Storage Matters",
+        "body": "Wind and solar generation have become surprisingly inexpensive over the past decade, and their share of electricity supply is rising in most large economies. Replacing fossil generation with renewable generation, however, is not the same as replacing the service the fossil generators provided. A coal or gas plant can be dispatched on demand: operators tell it to run, and it runs. Wind and solar output depend on weather and time of day, and the gap between supply and demand has to be bridged somehow if the grid is to remain stable.\n\nStorage is the most direct solution, and several technologies coexist for different time scales. Lithium-ion batteries can absorb a sudden surge of solar output at midday and release it during the evening demand peak, but they remain expensive for periods longer than a few hours. Pumped hydroelectric storage — pumping water uphill when electricity is cheap and letting it run back through turbines when it is needed — is still the largest form of grid-scale storage worldwide, although it depends on suitable geography. Newer approaches such as compressed air, gravity-based systems, and chemical storage in the form of hydrogen are being trialed for the days-to-weeks window that conventional batteries cannot cover.\n\nStorage is only part of the solution. A grid that can transmit electricity across long distances allows surpluses in one region to meet shortages in another, smoothing variation without needing to store it locally. Demand-side measures — pricing electricity dynamically so that flexible loads such as electric-vehicle charging shift toward periods of abundance — also reduce the need for storage. None of these tools is a single fix. Decarbonizing electricity at large scale requires committing to a portfolio of investments that match the time scales of variability: minutes to hours of batteries, hours to days of pumped or chemical storage, weeks of long-distance interconnection, and ongoing improvements to demand flexibility."
+      }
+    },
+    {
+      "id": "rsim27-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Which of the following best describes the author's overall stance toward decarbonizing electricity?",
+      "choices": [
+        "It can be achieved by simply installing more solar panels.",
+        "It is essentially impossible.",
+        "It is feasible but requires committing simultaneously to several complementary technologies and policies, not a single technological fix.",
+        "It can be left to market forces with no policy commitment."
+      ],
+      "answer": 2,
+      "explanation": "The passage concludes that decarbonization requires a portfolio of investments matched to different time scales — feasible but not reducible to one technology.",
+      "wrongReasons": [
+        "The passage explicitly argues that generation alone is insufficient.",
+        "It treats decarbonization as feasible, not impossible.",
+        "It calls for explicit commitment to a portfolio of investments."
+      ],
+      "passage": {
+        "id": "rsim27-passage",
+        "title": "Why Renewable Storage Matters",
+        "body": "Wind and solar generation have become surprisingly inexpensive over the past decade, and their share of electricity supply is rising in most large economies. Replacing fossil generation with renewable generation, however, is not the same as replacing the service the fossil generators provided. A coal or gas plant can be dispatched on demand: operators tell it to run, and it runs. Wind and solar output depend on weather and time of day, and the gap between supply and demand has to be bridged somehow if the grid is to remain stable.\n\nStorage is the most direct solution, and several technologies coexist for different time scales. Lithium-ion batteries can absorb a sudden surge of solar output at midday and release it during the evening demand peak, but they remain expensive for periods longer than a few hours. Pumped hydroelectric storage — pumping water uphill when electricity is cheap and letting it run back through turbines when it is needed — is still the largest form of grid-scale storage worldwide, although it depends on suitable geography. Newer approaches such as compressed air, gravity-based systems, and chemical storage in the form of hydrogen are being trialed for the days-to-weeks window that conventional batteries cannot cover.\n\nStorage is only part of the solution. A grid that can transmit electricity across long distances allows surpluses in one region to meet shortages in another, smoothing variation without needing to store it locally. Demand-side measures — pricing electricity dynamically so that flexible loads such as electric-vehicle charging shift toward periods of abundance — also reduce the need for storage. None of these tools is a single fix. Decarbonizing electricity at large scale requires committing to a portfolio of investments that match the time scales of variability: minutes to hours of batteries, hours to days of pumped or chemical storage, weeks of long-distance interconnection, and ongoing improvements to demand flexibility."
+      }
+    },
+
+    {
+      "id": "rsim28-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Diseases have always been correctly attributed to invisible organisms.",
+        "The germ theory of disease replaced earlier explanations of illness and reorganized medicine around the assumption that specific infectious diseases are caused by specific microorganisms.",
+        "Joseph Lister invented the modern hospital.",
+        "Surgery in the nineteenth century was already safe before the germ theory."
+      ],
+      "answer": 1,
+      "explanation": "The passage traces the rise of germ theory, the displacement of older explanations, and the reorganization of clinical practice around the link between specific pathogens and specific diseases.",
+      "wrongReasons": [
+        "The passage describes pre-germ-theory explanations as different from microbial ones.",
+        "Lister applied germ theory to surgery; he did not invent the hospital.",
+        "The passage describes surgery before germ theory as dangerous, with extremely high mortality rates."
+      ],
+      "passage": {
+        "id": "rsim28-passage",
+        "title": "How the Germ Theory Reshaped Medicine",
+        "body": "For most of recorded history, the leading explanations of disease were not microbial. Greek physicians traced illness to imbalances among bodily humors. Eighteenth-century reformers identified \"miasmas,\" or bad airs rising from rotting matter, as the source of fevers. Both views could organize useful sanitary measures — cleaning streets and draining marshes — but neither explained why some cleanings worked and others failed, or why a particular illness moved from one community to another along a specific route.\n\nMid-nineteenth-century work changed the picture. Louis Pasteur's experiments showed that fermentation and spoilage were caused by living microorganisms rather than by spontaneous chemical change. Robert Koch then provided a logical framework for connecting particular microbes to particular diseases: isolate the suspected organism from sick hosts, grow it in pure culture, reintroduce it into a healthy animal, and recover the same organism from the new case. The framework, later called Koch's postulates, gave epidemiologists a checklist for moving from suspicion to proof. Within a few decades, the agents responsible for cholera, tuberculosis, anthrax, and plague had each been identified by name.\n\nThe consequences for clinical practice were profound. Joseph Lister, applying the new theory to surgery, introduced antiseptic procedures that reduced post-operative infections from majority to manageable. Public-health agencies built sewage systems aimed at specific waterborne organisms rather than vague miasmas. Vaccination, which had until then been empirically powerful but theoretically isolated, was reframed as a specific defense against a specific pathogen. Older sanitary measures did not disappear — they had always done genuine good — but they now joined a coherent framework that allowed doctors and engineers to predict where to act, rather than only to react to outbreaks once they began."
+      }
+    },
+    {
+      "id": "rsim28-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what did Koch's postulates provide?",
+      "choices": [
+        "A treatment for tuberculosis.",
+        "A logical checklist for connecting a particular microorganism to a particular disease.",
+        "A new method for fermenting wine.",
+        "A vaccine against cholera."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 describes Koch's postulates as a checklist for moving from suspicion to proof that a particular organism causes a particular disease.",
+      "wrongReasons": [
+        "Treatments are not what the postulates supplied.",
+        "Fermentation was Pasteur's territory.",
+        "A specific vaccine is not what the postulates are."
+      ],
+      "passage": {
+        "id": "rsim28-passage",
+        "title": "How the Germ Theory Reshaped Medicine",
+        "body": "For most of recorded history, the leading explanations of disease were not microbial. Greek physicians traced illness to imbalances among bodily humors. Eighteenth-century reformers identified \"miasmas,\" or bad airs rising from rotting matter, as the source of fevers. Both views could organize useful sanitary measures — cleaning streets and draining marshes — but neither explained why some cleanings worked and others failed, or why a particular illness moved from one community to another along a specific route.\n\nMid-nineteenth-century work changed the picture. Louis Pasteur's experiments showed that fermentation and spoilage were caused by living microorganisms rather than by spontaneous chemical change. Robert Koch then provided a logical framework for connecting particular microbes to particular diseases: isolate the suspected organism from sick hosts, grow it in pure culture, reintroduce it into a healthy animal, and recover the same organism from the new case. The framework, later called Koch's postulates, gave epidemiologists a checklist for moving from suspicion to proof. Within a few decades, the agents responsible for cholera, tuberculosis, anthrax, and plague had each been identified by name.\n\nThe consequences for clinical practice were profound. Joseph Lister, applying the new theory to surgery, introduced antiseptic procedures that reduced post-operative infections from majority to manageable. Public-health agencies built sewage systems aimed at specific waterborne organisms rather than vague miasmas. Vaccination, which had until then been empirically powerful but theoretically isolated, was reframed as a specific defense against a specific pathogen. Older sanitary measures did not disappear — they had always done genuine good — but they now joined a coherent framework that allowed doctors and engineers to predict where to act, rather than only to react to outbreaks once they began."
+      }
+    },
+    {
+      "id": "rsim28-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about the older explanations of disease from the passage?",
+      "choices": [
+        "They produced no useful practical actions whatsoever.",
+        "They sometimes organized useful sanitary measures, even though they could not explain why those measures sometimes failed.",
+        "They identified specific pathogens for each illness.",
+        "They were never replaced by germ theory."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 says explicitly that the older views could organize useful sanitation but lacked the explanatory power to say why some measures worked and others did not.",
+      "wrongReasons": [
+        "The passage explicitly credits them with useful effects.",
+        "Specific pathogens were precisely what they could not identify.",
+        "The passage describes germ theory replacing the older accounts."
+      ],
+      "passage": {
+        "id": "rsim28-passage",
+        "title": "How the Germ Theory Reshaped Medicine",
+        "body": "For most of recorded history, the leading explanations of disease were not microbial. Greek physicians traced illness to imbalances among bodily humors. Eighteenth-century reformers identified \"miasmas,\" or bad airs rising from rotting matter, as the source of fevers. Both views could organize useful sanitary measures — cleaning streets and draining marshes — but neither explained why some cleanings worked and others failed, or why a particular illness moved from one community to another along a specific route.\n\nMid-nineteenth-century work changed the picture. Louis Pasteur's experiments showed that fermentation and spoilage were caused by living microorganisms rather than by spontaneous chemical change. Robert Koch then provided a logical framework for connecting particular microbes to particular diseases: isolate the suspected organism from sick hosts, grow it in pure culture, reintroduce it into a healthy animal, and recover the same organism from the new case. The framework, later called Koch's postulates, gave epidemiologists a checklist for moving from suspicion to proof. Within a few decades, the agents responsible for cholera, tuberculosis, anthrax, and plague had each been identified by name.\n\nThe consequences for clinical practice were profound. Joseph Lister, applying the new theory to surgery, introduced antiseptic procedures that reduced post-operative infections from majority to manageable. Public-health agencies built sewage systems aimed at specific waterborne organisms rather than vague miasmas. Vaccination, which had until then been empirically powerful but theoretically isolated, was reframed as a specific defense against a specific pathogen. Older sanitary measures did not disappear — they had always done genuine good — but they now joined a coherent framework that allowed doctors and engineers to predict where to act, rather than only to react to outbreaks once they began."
+      }
+    },
+    {
+      "id": "rsim28-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the phrase \"theoretically isolated\" most nearly means:",
+      "choices": [
+        "geographically restricted to one country",
+        "lacking a unifying explanation that linked it to a broader scientific framework",
+        "physically separated from patients",
+        "officially classified as secret"
+      ],
+      "answer": 1,
+      "explanation": "Before germ theory, vaccination worked but had no overarching scientific account; germ theory provided the missing framework. Hence 'theoretically isolated' here means lacking a unifying explanation.",
+      "wrongReasons": [
+        "It is not about geographic restriction.",
+        "It does not describe physical separation.",
+        "There is no implication of secrecy."
+      ],
+      "passage": {
+        "id": "rsim28-passage",
+        "title": "How the Germ Theory Reshaped Medicine",
+        "body": "For most of recorded history, the leading explanations of disease were not microbial. Greek physicians traced illness to imbalances among bodily humors. Eighteenth-century reformers identified \"miasmas,\" or bad airs rising from rotting matter, as the source of fevers. Both views could organize useful sanitary measures — cleaning streets and draining marshes — but neither explained why some cleanings worked and others failed, or why a particular illness moved from one community to another along a specific route.\n\nMid-nineteenth-century work changed the picture. Louis Pasteur's experiments showed that fermentation and spoilage were caused by living microorganisms rather than by spontaneous chemical change. Robert Koch then provided a logical framework for connecting particular microbes to particular diseases: isolate the suspected organism from sick hosts, grow it in pure culture, reintroduce it into a healthy animal, and recover the same organism from the new case. The framework, later called Koch's postulates, gave epidemiologists a checklist for moving from suspicion to proof. Within a few decades, the agents responsible for cholera, tuberculosis, anthrax, and plague had each been identified by name.\n\nThe consequences for clinical practice were profound. Joseph Lister, applying the new theory to surgery, introduced antiseptic procedures that reduced post-operative infections from majority to manageable. Public-health agencies built sewage systems aimed at specific waterborne organisms rather than vague miasmas. Vaccination, which had until then been empirically powerful but theoretically isolated, was reframed as a specific defense against a specific pathogen. Older sanitary measures did not disappear — they had always done genuine good — but they now joined a coherent framework that allowed doctors and engineers to predict where to act, rather than only to react to outbreaks once they began."
+      }
+    },
+    {
+      "id": "rsim28-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "How does the closing paragraph relate to the older sanitary measures discussed in the first paragraph?",
+      "choices": [
+        "It argues that older sanitary measures were entirely wasted.",
+        "It integrates them into the new framework, presenting germ theory as building on, rather than discarding, the practical successes of earlier sanitation.",
+        "It calls for abandoning all modern sewage systems.",
+        "It claims that miasmas have been scientifically confirmed."
+      ],
+      "answer": 1,
+      "explanation": "The final paragraph explicitly says older sanitary measures did not disappear; they joined a coherent framework, retaining their genuine successes and gaining theoretical guidance.",
+      "wrongReasons": [
+        "The passage says the opposite — they did genuine good.",
+        "It calls for targeted sewage systems, not abandoning them.",
+        "Miasmas are described as superseded, not confirmed."
+      ],
+      "passage": {
+        "id": "rsim28-passage",
+        "title": "How the Germ Theory Reshaped Medicine",
+        "body": "For most of recorded history, the leading explanations of disease were not microbial. Greek physicians traced illness to imbalances among bodily humors. Eighteenth-century reformers identified \"miasmas,\" or bad airs rising from rotting matter, as the source of fevers. Both views could organize useful sanitary measures — cleaning streets and draining marshes — but neither explained why some cleanings worked and others failed, or why a particular illness moved from one community to another along a specific route.\n\nMid-nineteenth-century work changed the picture. Louis Pasteur's experiments showed that fermentation and spoilage were caused by living microorganisms rather than by spontaneous chemical change. Robert Koch then provided a logical framework for connecting particular microbes to particular diseases: isolate the suspected organism from sick hosts, grow it in pure culture, reintroduce it into a healthy animal, and recover the same organism from the new case. The framework, later called Koch's postulates, gave epidemiologists a checklist for moving from suspicion to proof. Within a few decades, the agents responsible for cholera, tuberculosis, anthrax, and plague had each been identified by name.\n\nThe consequences for clinical practice were profound. Joseph Lister, applying the new theory to surgery, introduced antiseptic procedures that reduced post-operative infections from majority to manageable. Public-health agencies built sewage systems aimed at specific waterborne organisms rather than vague miasmas. Vaccination, which had until then been empirically powerful but theoretically isolated, was reframed as a specific defense against a specific pathogen. Older sanitary measures did not disappear — they had always done genuine good — but they now joined a coherent framework that allowed doctors and engineers to predict where to act, rather than only to react to outbreaks once they began."
+      }
+    },
+
+    {
+      "id": "rsim29-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Stormwater is a purely cosmetic problem with no real environmental or financial cost.",
+        "Urban surfaces dramatically alter how rainwater moves through cities, producing flooding and pollution that older drainage systems were not designed to handle, and prompting a shift toward landscape-based solutions.",
+        "Underground pipes have always been the most environmentally friendly drainage option.",
+        "Rainfall is decreasing in most cities, making drainage obsolete."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains how impervious surfaces change runoff, describes the limits of older systems, and frames green infrastructure as the emerging response.",
+      "wrongReasons": [
+        "The passage describes real flooding, infrastructure, and water-quality costs.",
+        "Underground pipes are presented as the older approach being supplemented or replaced.",
+        "Rainfall trends in cities are not described as decreasing here."
+      ],
+      "passage": {
+        "id": "rsim29-passage",
+        "title": "Where City Rain Goes",
+        "body": "In a forest, most of the rain that falls on a given hour is absorbed before it ever reaches a stream. Leaves intercept droplets, soil sponges up water, and roots draw it slowly into plants and groundwater. Cities are built almost entirely from surfaces that do none of these things. Asphalt, concrete, and roofs send rainwater running into gutters and pipes within minutes, concentrating into volumes that would never have reached the same drainage point in a natural landscape.\n\nThe consequences are both quick and slow. In the short term, a heavy summer storm can deliver more water than the underground pipe network can carry, producing surface flooding that may damage homes and snarl transport even hours later. In the longer term, the same rapid flow strips pollutants — oil, brake dust, fertilizers, animal waste — off urban surfaces and dumps them into nearby waterways. Many older cities combine stormwater and sewage in a single pipe, which means that during heavy rain the overloaded system can spill raw sewage directly into rivers and harbors.\n\nMore recent urban design borrows directly from the forests these cities replaced. \"Green infrastructure\" — planting trees, building rain gardens, replacing impervious surfaces with porous pavement, and adding green roofs — reduces runoff at its source by allowing water to be absorbed before it ever reaches a pipe. These measures rarely solve the problem on their own; pipes remain necessary for extreme events. But they spread the work across many small landscape interventions, lowering peak flows, filtering pollutants, and producing co-benefits such as cooler streets and habitat for urban wildlife. The shift in thinking is from the pipe as the only solution toward the city itself as part of the hydrological system that has to manage every storm."
+      }
+    },
+    {
+      "id": "rsim29-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what happens to most of the rain that falls in a forest in a given hour?",
+      "choices": [
+        "It runs into nearby streams within minutes.",
+        "It is intercepted by leaves and absorbed by soil and roots before reaching a stream.",
+        "It is collected by underground pipes built into the forest floor.",
+        "It evaporates almost instantly upon hitting the ground."
+      ],
+      "answer": 1,
+      "explanation": "The first paragraph contrasts forests, where leaves, soil, and roots absorb most rain before it reaches a stream, with cities, where runoff is rapid.",
+      "wrongReasons": [
+        "That describes the urban condition, not the forest.",
+        "Forests are not equipped with stormwater pipes in the passage.",
+        "Instant evaporation is not the explanation given."
+      ],
+      "passage": {
+        "id": "rsim29-passage",
+        "title": "Where City Rain Goes",
+        "body": "In a forest, most of the rain that falls on a given hour is absorbed before it ever reaches a stream. Leaves intercept droplets, soil sponges up water, and roots draw it slowly into plants and groundwater. Cities are built almost entirely from surfaces that do none of these things. Asphalt, concrete, and roofs send rainwater running into gutters and pipes within minutes, concentrating into volumes that would never have reached the same drainage point in a natural landscape.\n\nThe consequences are both quick and slow. In the short term, a heavy summer storm can deliver more water than the underground pipe network can carry, producing surface flooding that may damage homes and snarl transport even hours later. In the longer term, the same rapid flow strips pollutants — oil, brake dust, fertilizers, animal waste — off urban surfaces and dumps them into nearby waterways. Many older cities combine stormwater and sewage in a single pipe, which means that during heavy rain the overloaded system can spill raw sewage directly into rivers and harbors.\n\nMore recent urban design borrows directly from the forests these cities replaced. \"Green infrastructure\" — planting trees, building rain gardens, replacing impervious surfaces with porous pavement, and adding green roofs — reduces runoff at its source by allowing water to be absorbed before it ever reaches a pipe. These measures rarely solve the problem on their own; pipes remain necessary for extreme events. But they spread the work across many small landscape interventions, lowering peak flows, filtering pollutants, and producing co-benefits such as cooler streets and habitat for urban wildlife. The shift in thinking is from the pipe as the only solution toward the city itself as part of the hydrological system that has to manage every storm."
+      }
+    },
+    {
+      "id": "rsim29-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about green infrastructure from the passage?",
+      "choices": [
+        "It eliminates the need for any underground pipes.",
+        "It complements existing pipe networks by absorbing water at its source and reducing peak flows, even though pipes are still needed for extreme storms.",
+        "It is more expensive than continuing to expand pipes.",
+        "It has no relationship to water quality."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 3 explicitly describes green infrastructure as a complement, not a replacement: it reduces runoff and pollutants while pipes remain necessary for extreme events.",
+      "wrongReasons": [
+        "The passage says pipes remain necessary.",
+        "Cost comparisons are not the focus.",
+        "Filtering pollutants is highlighted as one of the benefits."
+      ],
+      "passage": {
+        "id": "rsim29-passage",
+        "title": "Where City Rain Goes",
+        "body": "In a forest, most of the rain that falls on a given hour is absorbed before it ever reaches a stream. Leaves intercept droplets, soil sponges up water, and roots draw it slowly into plants and groundwater. Cities are built almost entirely from surfaces that do none of these things. Asphalt, concrete, and roofs send rainwater running into gutters and pipes within minutes, concentrating into volumes that would never have reached the same drainage point in a natural landscape.\n\nThe consequences are both quick and slow. In the short term, a heavy summer storm can deliver more water than the underground pipe network can carry, producing surface flooding that may damage homes and snarl transport even hours later. In the longer term, the same rapid flow strips pollutants — oil, brake dust, fertilizers, animal waste — off urban surfaces and dumps them into nearby waterways. Many older cities combine stormwater and sewage in a single pipe, which means that during heavy rain the overloaded system can spill raw sewage directly into rivers and harbors.\n\nMore recent urban design borrows directly from the forests these cities replaced. \"Green infrastructure\" — planting trees, building rain gardens, replacing impervious surfaces with porous pavement, and adding green roofs — reduces runoff at its source by allowing water to be absorbed before it ever reaches a pipe. These measures rarely solve the problem on their own; pipes remain necessary for extreme events. But they spread the work across many small landscape interventions, lowering peak flows, filtering pollutants, and producing co-benefits such as cooler streets and habitat for urban wildlife. The shift in thinking is from the pipe as the only solution toward the city itself as part of the hydrological system that has to manage every storm."
+      }
+    },
+    {
+      "id": "rsim29-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the term \"co-benefits\" most nearly means:",
+      "choices": [
+        "additional positive effects beyond the primary goal of the intervention",
+        "side effects that cancel out the main benefit",
+        "financial subsidies paid to landowners",
+        "official certifications issued by a government agency"
+      ],
+      "answer": 0,
+      "explanation": "The passage uses 'co-benefits' to refer to extra positive outcomes of green infrastructure — cooler streets, urban habitat — beyond its primary stormwater purpose.",
+      "wrongReasons": [
+        "Co-benefits are positive, not cancelling.",
+        "Subsidies are not what the term means here.",
+        "Certifications are not the meaning in this context."
+      ],
+      "passage": {
+        "id": "rsim29-passage",
+        "title": "Where City Rain Goes",
+        "body": "In a forest, most of the rain that falls on a given hour is absorbed before it ever reaches a stream. Leaves intercept droplets, soil sponges up water, and roots draw it slowly into plants and groundwater. Cities are built almost entirely from surfaces that do none of these things. Asphalt, concrete, and roofs send rainwater running into gutters and pipes within minutes, concentrating into volumes that would never have reached the same drainage point in a natural landscape.\n\nThe consequences are both quick and slow. In the short term, a heavy summer storm can deliver more water than the underground pipe network can carry, producing surface flooding that may damage homes and snarl transport even hours later. In the longer term, the same rapid flow strips pollutants — oil, brake dust, fertilizers, animal waste — off urban surfaces and dumps them into nearby waterways. Many older cities combine stormwater and sewage in a single pipe, which means that during heavy rain the overloaded system can spill raw sewage directly into rivers and harbors.\n\nMore recent urban design borrows directly from the forests these cities replaced. \"Green infrastructure\" — planting trees, building rain gardens, replacing impervious surfaces with porous pavement, and adding green roofs — reduces runoff at its source by allowing water to be absorbed before it ever reaches a pipe. These measures rarely solve the problem on their own; pipes remain necessary for extreme events. But they spread the work across many small landscape interventions, lowering peak flows, filtering pollutants, and producing co-benefits such as cooler streets and habitat for urban wildlife. The shift in thinking is from the pipe as the only solution toward the city itself as part of the hydrological system that has to manage every storm."
+      }
+    },
+    {
+      "id": "rsim29-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What broader shift in urban planning does the passage describe?",
+      "choices": [
+        "From treating the city as part of the natural hydrological system to relying exclusively on engineered pipes.",
+        "From treating drainage as a single-pipe problem to viewing the city itself as part of the hydrological system that must absorb and manage rainwater.",
+        "From investing in city infrastructure to abandoning it.",
+        "From scientific design back to traditional aesthetics."
+      ],
+      "answer": 1,
+      "explanation": "The last sentence describes the shift in thinking as moving from the pipe as the only solution to viewing the city as part of the hydrological system that handles every storm.",
+      "wrongReasons": [
+        "The passage describes the opposite direction.",
+        "It describes new investments in green infrastructure, not abandonment.",
+        "It is precisely about applying scientific reasoning to design, not retreating from it."
+      ],
+      "passage": {
+        "id": "rsim29-passage",
+        "title": "Where City Rain Goes",
+        "body": "In a forest, most of the rain that falls on a given hour is absorbed before it ever reaches a stream. Leaves intercept droplets, soil sponges up water, and roots draw it slowly into plants and groundwater. Cities are built almost entirely from surfaces that do none of these things. Asphalt, concrete, and roofs send rainwater running into gutters and pipes within minutes, concentrating into volumes that would never have reached the same drainage point in a natural landscape.\n\nThe consequences are both quick and slow. In the short term, a heavy summer storm can deliver more water than the underground pipe network can carry, producing surface flooding that may damage homes and snarl transport even hours later. In the longer term, the same rapid flow strips pollutants — oil, brake dust, fertilizers, animal waste — off urban surfaces and dumps them into nearby waterways. Many older cities combine stormwater and sewage in a single pipe, which means that during heavy rain the overloaded system can spill raw sewage directly into rivers and harbors.\n\nMore recent urban design borrows directly from the forests these cities replaced. \"Green infrastructure\" — planting trees, building rain gardens, replacing impervious surfaces with porous pavement, and adding green roofs — reduces runoff at its source by allowing water to be absorbed before it ever reaches a pipe. These measures rarely solve the problem on their own; pipes remain necessary for extreme events. But they spread the work across many small landscape interventions, lowering peak flows, filtering pollutants, and producing co-benefits such as cooler streets and habitat for urban wildlife. The shift in thinking is from the pipe as the only solution toward the city itself as part of the hydrological system that has to manage every storm."
+      }
+    },
+
+    {
+      "id": "rsim30-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Game theory shows that cooperation is impossible whenever each player acts in self-interest.",
+        "Repeated interaction, reputation, and institutional structure can sustain cooperation among self-interested players, even when a one-off game would predict defection.",
+        "All human social behavior can be explained by a single mathematical game.",
+        "Cooperation is observed only among saints and idealists."
+      ],
+      "answer": 1,
+      "explanation": "The passage uses the prisoner's dilemma as a starting point and then argues that repetition, reputation, and institutions can shift incentives so that cooperation becomes rational even for self-interested players.",
+      "wrongReasons": [
+        "The passage shows how cooperation is sustained, not that it is impossible.",
+        "It treats game theory as one tool among others, not as a universal explanation.",
+        "Cooperation is described as a rational outcome under the right conditions, not as a saintly exception."
+      ],
+      "passage": {
+        "id": "rsim30-passage",
+        "title": "When Self-Interest Can Cooperate",
+        "body": "In the simplest version of the prisoner's dilemma, two suspects are interrogated separately. Each will receive the lightest sentence if both stay silent; the heaviest, if both confess; and an extreme outcome — very light for the betrayer, very heavy for the betrayed — if one confesses and the other does not. Working through the payoffs, both suspects discover that confessing yields a better result for them, whatever the other person does. So both confess and both end up worse off than if they had managed to cooperate. The example is artificial, but the underlying logic — individual incentives leading collectively to a worse outcome — appears everywhere from overfishing to climate negotiations.\n\nThe puzzle has a partial solution when the same players meet repeatedly. In an indefinitely repeated game, defectors face the prospect of being remembered and punished in future rounds, while cooperators may build a reputation that earns them better treatment. Computer tournaments run since the 1980s have shown that simple strategies such as \"tit for tat\" — start by cooperating, then mirror the other player's previous move — outperform more aggressive strategies across a wide range of opponents. Real groups appear to use richer versions of the same idea, mixing forgiveness with retaliation in ways that preserve cooperation without making participants endlessly exploitable.\n\nInstitutions extend this logic to large groups where individuals do not know each other personally. Courts make contracts costly to break; professional standards bodies sanction cheating; transparent record-keeping turns even brief encounters into something closer to a repeated game. None of these mechanisms makes betrayal impossible. What they do is shift the payoffs so that cooperation can be sustained without requiring every participant to be unusually generous. Game theory's contribution, then, is not to claim that humans are purely selfish but to clarify which structural features allow even self-interested actors to produce outcomes that benefit the group."
+      }
+    },
+    {
+      "id": "rsim30-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what does the strategy \"tit for tat\" do?",
+      "choices": [
+        "It always defects regardless of the opponent's move.",
+        "It always cooperates regardless of the opponent's move.",
+        "It begins by cooperating and then copies the opponent's previous move.",
+        "It chooses moves at random in every round."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph 2 explicitly describes tit-for-tat as starting with cooperation and then mirroring the opponent's previous move.",
+      "wrongReasons": [
+        "That would be 'always defect,' a different strategy.",
+        "That would be 'always cooperate,' a different strategy.",
+        "Tit-for-tat is deterministic, not random."
+      ],
+      "passage": {
+        "id": "rsim30-passage",
+        "title": "When Self-Interest Can Cooperate",
+        "body": "In the simplest version of the prisoner's dilemma, two suspects are interrogated separately. Each will receive the lightest sentence if both stay silent; the heaviest, if both confess; and an extreme outcome — very light for the betrayer, very heavy for the betrayed — if one confesses and the other does not. Working through the payoffs, both suspects discover that confessing yields a better result for them, whatever the other person does. So both confess and both end up worse off than if they had managed to cooperate. The example is artificial, but the underlying logic — individual incentives leading collectively to a worse outcome — appears everywhere from overfishing to climate negotiations.\n\nThe puzzle has a partial solution when the same players meet repeatedly. In an indefinitely repeated game, defectors face the prospect of being remembered and punished in future rounds, while cooperators may build a reputation that earns them better treatment. Computer tournaments run since the 1980s have shown that simple strategies such as \"tit for tat\" — start by cooperating, then mirror the other player's previous move — outperform more aggressive strategies across a wide range of opponents. Real groups appear to use richer versions of the same idea, mixing forgiveness with retaliation in ways that preserve cooperation without making participants endlessly exploitable.\n\nInstitutions extend this logic to large groups where individuals do not know each other personally. Courts make contracts costly to break; professional standards bodies sanction cheating; transparent record-keeping turns even brief encounters into something closer to a repeated game. None of these mechanisms makes betrayal impossible. What they do is shift the payoffs so that cooperation can be sustained without requiring every participant to be unusually generous. Game theory's contribution, then, is not to claim that humans are purely selfish but to clarify which structural features allow even self-interested actors to produce outcomes that benefit the group."
+      }
+    },
+    {
+      "id": "rsim30-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about institutions like courts and standards bodies from the passage?",
+      "choices": [
+        "They make cheating physically impossible.",
+        "They alter incentives so that cooperative behavior is rational, by raising the cost of betrayal and extending the shadow of future consequences over brief encounters.",
+        "They have no relevance to game-theoretic analyses.",
+        "They eliminate the need for any reputation or memory."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 3 explicitly says institutions shift the payoffs so that cooperation can be sustained, treating fleeting encounters as repeated games — without claiming they make betrayal impossible.",
+      "wrongReasons": [
+        "The passage explicitly says betrayal is not impossible.",
+        "Institutions are precisely the extension of game-theoretic logic to large groups.",
+        "Reputation and memory remain part of the picture; institutions reinforce them."
+      ],
+      "passage": {
+        "id": "rsim30-passage",
+        "title": "When Self-Interest Can Cooperate",
+        "body": "In the simplest version of the prisoner's dilemma, two suspects are interrogated separately. Each will receive the lightest sentence if both stay silent; the heaviest, if both confess; and an extreme outcome — very light for the betrayer, very heavy for the betrayed — if one confesses and the other does not. Working through the payoffs, both suspects discover that confessing yields a better result for them, whatever the other person does. So both confess and both end up worse off than if they had managed to cooperate. The example is artificial, but the underlying logic — individual incentives leading collectively to a worse outcome — appears everywhere from overfishing to climate negotiations.\n\nThe puzzle has a partial solution when the same players meet repeatedly. In an indefinitely repeated game, defectors face the prospect of being remembered and punished in future rounds, while cooperators may build a reputation that earns them better treatment. Computer tournaments run since the 1980s have shown that simple strategies such as \"tit for tat\" — start by cooperating, then mirror the other player's previous move — outperform more aggressive strategies across a wide range of opponents. Real groups appear to use richer versions of the same idea, mixing forgiveness with retaliation in ways that preserve cooperation without making participants endlessly exploitable.\n\nInstitutions extend this logic to large groups where individuals do not know each other personally. Courts make contracts costly to break; professional standards bodies sanction cheating; transparent record-keeping turns even brief encounters into something closer to a repeated game. None of these mechanisms makes betrayal impossible. What they do is shift the payoffs so that cooperation can be sustained without requiring every participant to be unusually generous. Game theory's contribution, then, is not to claim that humans are purely selfish but to clarify which structural features allow even self-interested actors to produce outcomes that benefit the group."
+      }
+    },
+    {
+      "id": "rsim30-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the phrase \"endlessly exploitable\" most nearly means:",
+      "choices": [
+        "permanently exposed to being taken advantage of without any response",
+        "indefinitely profitable for the cooperator",
+        "completely free from punishment",
+        "officially registered with the authorities"
+      ],
+      "answer": 0,
+      "explanation": "The passage praises tit-for-tat for combining forgiveness with retaliation so that cooperators are not left permanently exposed to exploitation. 'Endlessly exploitable' describes that exposure.",
+      "wrongReasons": [
+        "It is the opposite of profitable.",
+        "Punishment is precisely what tit-for-tat allows.",
+        "Registration is unrelated to the phrase."
+      ],
+      "passage": {
+        "id": "rsim30-passage",
+        "title": "When Self-Interest Can Cooperate",
+        "body": "In the simplest version of the prisoner's dilemma, two suspects are interrogated separately. Each will receive the lightest sentence if both stay silent; the heaviest, if both confess; and an extreme outcome — very light for the betrayer, very heavy for the betrayed — if one confesses and the other does not. Working through the payoffs, both suspects discover that confessing yields a better result for them, whatever the other person does. So both confess and both end up worse off than if they had managed to cooperate. The example is artificial, but the underlying logic — individual incentives leading collectively to a worse outcome — appears everywhere from overfishing to climate negotiations.\n\nThe puzzle has a partial solution when the same players meet repeatedly. In an indefinitely repeated game, defectors face the prospect of being remembered and punished in future rounds, while cooperators may build a reputation that earns them better treatment. Computer tournaments run since the 1980s have shown that simple strategies such as \"tit for tat\" — start by cooperating, then mirror the other player's previous move — outperform more aggressive strategies across a wide range of opponents. Real groups appear to use richer versions of the same idea, mixing forgiveness with retaliation in ways that preserve cooperation without making participants endlessly exploitable.\n\nInstitutions extend this logic to large groups where individuals do not know each other personally. Courts make contracts costly to break; professional standards bodies sanction cheating; transparent record-keeping turns even brief encounters into something closer to a repeated game. None of these mechanisms makes betrayal impossible. What they do is shift the payoffs so that cooperation can be sustained without requiring every participant to be unusually generous. Game theory's contribution, then, is not to claim that humans are purely selfish but to clarify which structural features allow even self-interested actors to produce outcomes that benefit the group."
+      }
+    },
+    {
+      "id": "rsim30-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's main claim about the contribution of game theory?",
+      "choices": [
+        "Game theory shows that human beings are purely selfish.",
+        "Game theory clarifies which structural features — repetition, reputation, institutions — allow even self-interested actors to sustain cooperation.",
+        "Game theory is incompatible with the existence of laws or courts.",
+        "Game theory should replace all other approaches to studying society."
+      ],
+      "answer": 1,
+      "explanation": "The closing sentence states this explicitly: game theory's contribution is to identify the structural features under which self-interested actors can cooperate.",
+      "wrongReasons": [
+        "The author explicitly rejects this reading.",
+        "Courts are presented as exactly the kind of institution game theory illuminates.",
+        "The passage treats game theory as one contribution, not a totalizing replacement."
+      ],
+      "passage": {
+        "id": "rsim30-passage",
+        "title": "When Self-Interest Can Cooperate",
+        "body": "In the simplest version of the prisoner's dilemma, two suspects are interrogated separately. Each will receive the lightest sentence if both stay silent; the heaviest, if both confess; and an extreme outcome — very light for the betrayer, very heavy for the betrayed — if one confesses and the other does not. Working through the payoffs, both suspects discover that confessing yields a better result for them, whatever the other person does. So both confess and both end up worse off than if they had managed to cooperate. The example is artificial, but the underlying logic — individual incentives leading collectively to a worse outcome — appears everywhere from overfishing to climate negotiations.\n\nThe puzzle has a partial solution when the same players meet repeatedly. In an indefinitely repeated game, defectors face the prospect of being remembered and punished in future rounds, while cooperators may build a reputation that earns them better treatment. Computer tournaments run since the 1980s have shown that simple strategies such as \"tit for tat\" — start by cooperating, then mirror the other player's previous move — outperform more aggressive strategies across a wide range of opponents. Real groups appear to use richer versions of the same idea, mixing forgiveness with retaliation in ways that preserve cooperation without making participants endlessly exploitable.\n\nInstitutions extend this logic to large groups where individuals do not know each other personally. Courts make contracts costly to break; professional standards bodies sanction cheating; transparent record-keeping turns even brief encounters into something closer to a repeated game. None of these mechanisms makes betrayal impossible. What they do is shift the payoffs so that cooperation can be sustained without requiring every participant to be unusually generous. Game theory's contribution, then, is not to claim that humans are purely selfish but to clarify which structural features allow even self-interested actors to produce outcomes that benefit the group."
+      }
+    }
+  ]
+}

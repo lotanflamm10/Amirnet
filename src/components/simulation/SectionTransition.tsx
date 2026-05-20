@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { useLang } from "@/contexts/LanguageContext";
 
 interface Props {
   sectionNumber: number;
@@ -10,6 +11,7 @@ interface Props {
 
 export function SectionTransition({ sectionNumber, sectionLabel, timeLimitSeconds, onContinue }: Props) {
   const [countdown, setCountdown] = useState(5);
+  const { t } = useLang();
 
   useEffect(() => {
     if (countdown <= 0) { onContinue(); return; }
@@ -22,16 +24,18 @@ export function SectionTransition({ sectionNumber, sectionLabel, timeLimitSecond
   return (
     <div className="animate-fade-up" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: "1.5rem", padding: "3rem 1rem", textAlign: "center" }}>
       <div style={{ fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.1em", color: "var(--teal)", textTransform: "uppercase" }}>
-        סעיף {sectionNumber} / Section {sectionNumber}
+        {t.simulation.transitionEyebrow.replace("{n}", String(sectionNumber))}
       </div>
       <h2 style={{ fontFamily: "var(--font-display)", fontSize: "1.75rem", fontWeight: 800, color: "var(--ink)", margin: 0 }}>
         {sectionLabel}
       </h2>
       <p style={{ color: "var(--ink-soft)", fontSize: "0.95rem" }}>
-        {mins} minutes · Starting in {countdown}…
+        {t.simulation.transitionTime
+          .replace("{m}", String(mins))
+          .replace("{n}", String(countdown))}
       </p>
       <button className="btn btn-primary btn-lg" onClick={onContinue}>
-        Start now →
+        {t.simulation.transitionCta}
       </button>
     </div>
   );

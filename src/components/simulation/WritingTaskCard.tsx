@@ -2,6 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import type { Question } from "@/types/questions";
+import { useLang } from "@/contexts/LanguageContext";
+import type { Translations } from "@/lib/i18n/translations";
 
 interface Props {
   question: Question;
@@ -10,13 +12,16 @@ interface Props {
   disabled?: boolean;
 }
 
-const RUBRIC_LABELS: Record<string, string> = {
-  content_and_organization: "תוכן וארגון",
-  vocabulary:               "אוצר מילים",
-  grammar_accuracy:         "דיוק דקדוקי",
-  coherence:                "קוהרנטיות",
-  task_relevance:           "רלוונטיות למשימה",
-};
+function rubricLabel(key: string, t: Translations): string {
+  switch (key) {
+    case "content_and_organization": return t.writingTask.rubricContentOrg;
+    case "vocabulary":               return t.writingTask.rubricVocabulary;
+    case "grammar_accuracy":         return t.writingTask.rubricGrammar;
+    case "coherence":                return t.writingTask.rubricCoherence;
+    case "task_relevance":           return t.writingTask.rubricTaskRelevance;
+    default: return key;
+  }
+}
 
 const TEMPLATE = `I believe that ... because ...
 First, ...
@@ -28,6 +33,7 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
   const [text, setText]                 = useState(initialText);
   const [showTemplate, setShowTemplate] = useState(false);
   const textareaRef                     = useRef<HTMLTextAreaElement>(null);
+  const { t } = useLang();
 
   const minWords = question.wordLimitMin ?? 90;
   const maxWords = question.wordLimitMax ?? 120;
@@ -67,7 +73,7 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
         borderRadius: 12,
       }}>
         <p style={{ margin: "0 0 0.5rem", fontSize: "0.7rem", fontWeight: 700, color: "var(--teal)", textTransform: "uppercase", letterSpacing: "0.07em" }}>
-          ✍️ נושא הכתיבה / Writing Topic
+          {t.writingTask.topicHeading}
         </p>
         <p className="ltr-content" style={{ margin: 0, fontSize: "1rem", fontWeight: 600, color: "var(--ink)", lineHeight: 1.65, fontFamily: "var(--font-display)" }}>
           {prompt}
@@ -80,20 +86,22 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
         background: "var(--raised)", border: "1px solid var(--line)",
         fontSize: "0.8rem", color: "var(--ink-muted)", lineHeight: 1.6,
       }}>
-        <strong style={{ color: "var(--ink-soft)" }}>הנחיות:</strong>{" "}
-        כתב/י תשובה ברורה של <strong>{minWords}–{maxWords} מילים</strong>. הצג/י עמדה, תן/י שתי סיבות ודוגמה, וסיים/י בסיכום קצר. שים/י לב לדקדוק, אוצר מילים ורציפות.
+        <strong style={{ color: "var(--ink-soft)" }}>{t.writingTask.instructionsTitle}</strong>{" "}
+        {t.writingTask.instructionsBody
+          .replace("{min}", String(minWords))
+          .replace("{max}", String(maxWords))}
       </div>
 
       {/* Rubric */}
       {question.rubric && question.rubric.length > 0 && (
         <div style={{ display: "flex", flexWrap: "wrap", gap: "0.35rem", alignItems: "center" }}>
-          <span style={{ fontSize: "0.68rem", color: "var(--ink-muted)", fontWeight: 600 }}>קריטריונים לניקוד:</span>
+          <span style={{ fontSize: "0.68rem", color: "var(--ink-muted)", fontWeight: 600 }}>{t.writingTask.rubricLabel}</span>
           {question.rubric.map((r) => (
             <span key={r} style={{
               fontSize: "0.68rem", padding: "0.15rem 0.5rem", borderRadius: 999,
               background: "var(--teal-sub)", color: "var(--teal)", fontWeight: 600,
             }}>
-              {RUBRIC_LABELS[r] ?? r}
+              {rubricLabel(r, t)}
             </span>
           ))}
         </div>
@@ -110,7 +118,7 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
               color: "var(--ink-muted)", fontFamily: "var(--font-body)", transition: "all 0.15s",
             }}
           >
-            {showTemplate ? "הסתר תבנית" : "📋 הצג תבנית מומלצת"}
+            {showTemplate ? t.writingTask.templateToggleHide : t.writingTask.templateToggleShow}
           </button>
           {showTemplate && (
             <div style={{
@@ -118,7 +126,7 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
               background: "var(--raised)", border: "1px dashed var(--warn)", borderRadius: 10,
             }}>
               <p style={{ margin: "0 0 0.5rem", fontSize: "0.7rem", fontWeight: 700, color: "var(--warn)", textTransform: "uppercase" }}>
-                תבנית לכתיבה (לתרגול בלבד)
+                {t.writingTask.templateHeading}
               </p>
               <pre className="ltr-content" style={{
                 margin: 0, fontSize: "0.82rem", color: "var(--ink-soft)",
@@ -132,7 +140,7 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
                   cursor: "pointer", fontSize: "0.78rem", fontFamily: "var(--font-body)",
                 }}
               >
-                הכנס תבנית לשדה הכתיבה
+                {t.writingTask.templateInsert}
               </button>
             </div>
           )}
@@ -146,7 +154,7 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
           value={text}
           onChange={handleChange}
           disabled={disabled}
-          placeholder="כתב/י כאן את תשובתך באנגלית..."
+          placeholder={t.writingTask.placeholderTextarea}
           className="ltr-content"
           style={{
             width: "100%", minHeight: 180, padding: "0.875rem 1rem",
@@ -175,13 +183,15 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
               fontSize: "0.82rem", fontWeight: 700,
               color: inRange ? "var(--success)" : tooLong ? "var(--danger)" : "var(--ink-muted)",
             }}>
-              {wordCount} מילים
+              {wordCount} {t.writingTask.wordsLabel}
               {inRange && " ✓"}
-              {tooShort && wordCount > 0 && ` — עוד ${minWords - wordCount} מילים נדרשות`}
-              {tooLong && ` — ${wordCount - maxWords} מילים יתר`}
+              {tooShort && wordCount > 0 && ` — ${t.writingTask.wordsMoreNeeded.replace("{n}", String(minWords - wordCount))}`}
+              {tooLong && ` — ${t.writingTask.wordsOver.replace("{n}", String(wordCount - maxWords))}`}
             </span>
             <span style={{ fontSize: "0.75rem", color: "var(--ink-muted)" }}>
-              טווח: {minWords}–{maxWords} מילים
+              {t.writingTask.wordsRange
+                .replace("{min}", String(minWords))
+                .replace("{max}", String(maxWords))}
             </span>
           </div>
         </div>
@@ -194,7 +204,7 @@ export function WritingTaskCard({ question, onTextChange, initialText = "", disa
           background: "var(--raised)", border: "1px solid var(--line)",
           fontSize: "0.82rem", color: "var(--ink-muted)", textAlign: "center",
         }}>
-          הזמן לסעיף זה הסתיים.
+          {t.writingTask.timeoutMessage}
         </div>
       )}
     </div>

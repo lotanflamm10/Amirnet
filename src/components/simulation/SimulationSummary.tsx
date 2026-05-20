@@ -2,6 +2,8 @@
 import Link from "next/link";
 import type { SimulationFinalResult } from "@/lib/simulation/simulation-engine";
 import { getScoreBand, formatScoreDisplay } from "@/lib/simulation/score-estimator";
+import { useLang } from "@/contexts/LanguageContext";
+import { sectionTypeLabel } from "@/lib/simulation/section-labels";
 
 interface Props {
   result: SimulationFinalResult;
@@ -17,6 +19,7 @@ const BAND_COLORS: Record<string, string> = {
 };
 
 export function SimulationSummary({ result, onRestart, onReview }: Props) {
+  const { t } = useLang();
   const { mainScore, pilotBonus, totalScore, sectionResults } = result;
   const band = getScoreBand(mainScore);
   const scoreDisplay = formatScoreDisplay(mainScore, pilotBonus);
@@ -26,7 +29,7 @@ export function SimulationSummary({ result, onRestart, onReview }: Props) {
       {/* Score hero */}
       <div className="card" style={{ padding: "2rem", textAlign: "center" }}>
         <div style={{ fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.1em", color: "var(--ink-muted)", textTransform: "uppercase", marginBottom: "0.5rem" }}>
-          הדמיה הסתיימה / Simulation Complete
+          {t.simulation.summaryComplete}
         </div>
         <div style={{ fontSize: "3rem", fontWeight: 900, fontFamily: "var(--font-display)", color: BAND_COLORS[band.color], lineHeight: 1.1 }}>
           {totalScore}
@@ -36,17 +39,19 @@ export function SimulationSummary({ result, onRestart, onReview }: Props) {
           {band.description}
         </div>
 
-        {/* IMPORTANT disclaimer */}
-        <p style={{ marginTop: "1rem", fontSize: "0.75rem", color: "var(--ink-muted)", padding: "0.6rem 0.8rem", borderRadius: 8, background: "var(--raised)", border: "1px solid var(--line)" }}>
-          This score estimate is unofficial and for practice only. Not affiliated with NITE or MALAM.
-          <br />ציון זה אינו רשמי ומיועד לאימון בלבד. לא קשור לנית או מאל&quot;מ.
+        <p style={{
+          marginTop: "1rem", fontSize: "0.75rem", color: "var(--ink-muted)",
+          padding: "0.6rem 0.8rem", borderRadius: 8,
+          background: "var(--raised)", border: "1px solid var(--line)",
+        }}>
+          {t.simulation.summaryDisclaimer}
         </p>
       </div>
 
       {/* Section breakdown */}
       <div className="card" style={{ padding: "1.5rem" }}>
         <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, marginBottom: "1rem", color: "var(--ink)" }}>
-          פירוט לפי סעיף / Section breakdown
+          {t.simulation.summaryBreakdownTitle}
         </h3>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
           {sectionResults.map((r) => {
@@ -56,8 +61,13 @@ export function SimulationSummary({ result, onRestart, onReview }: Props) {
               <div key={r.sectionId}>
                 <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "0.25rem", fontSize: "0.85rem" }}>
                   <span style={{ color: "var(--ink)", display: "flex", gap: "0.5rem", alignItems: "center" }}>
-                    {r.type}
-                    {r.isPilot && <span style={{ fontSize: "0.65rem", padding: "1px 6px", borderRadius: 99, background: "rgba(245,158,11,0.15)", color: "var(--warn)" }}>pilot</span>}
+                    {sectionTypeLabel(r.type, t)}
+                    {r.isPilot && (
+                      <span style={{
+                        fontSize: "0.65rem", padding: "1px 6px", borderRadius: 99,
+                        background: "rgba(245,158,11,0.15)", color: "var(--warn)",
+                      }}>{t.simulation.summaryPilot}</span>
+                    )}
                   </span>
                   <span style={{ color: "var(--ink-soft)" }}>{r.correct}/{r.total} ({acc}%)</span>
                 </div>
@@ -72,10 +82,10 @@ export function SimulationSummary({ result, onRestart, onReview }: Props) {
 
       {/* Actions */}
       <div style={{ display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-        <button className="btn btn-primary" onClick={onReview}>Review answers →</button>
-        <Link href="/practice" className="btn btn-ghost">Practice weaknesses</Link>
-        <button className="btn btn-ghost" onClick={onRestart}>New simulation</button>
-        <Link href="/app" className="btn btn-ghost">Dashboard</Link>
+        <button className="btn btn-primary" onClick={onReview}>{t.simulation.summaryReviewBtn}</button>
+        <Link href="/practice" className="btn btn-ghost">{t.simulation.summaryPracticeWeaknesses}</Link>
+        <button className="btn btn-ghost" onClick={onRestart}>{t.simulation.summaryNewSimulation}</button>
+        <Link href="/app" className="btn btn-ghost">{t.simulation.summaryDashboard}</Link>
       </div>
     </div>
   );

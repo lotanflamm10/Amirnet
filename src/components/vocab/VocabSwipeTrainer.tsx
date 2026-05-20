@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useLayoutEffect, useCallback, useRef } from "react";
+import Link from "next/link";
 import type { VocabItem } from "@/types/vocab";
 import {
   getOrCreateState,
@@ -17,15 +18,20 @@ import {
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
 import { recordVocabSession } from "@/lib/progress/local-progress-store";
 import { withCustomItems } from "@/lib/vocab/custom-vocab-store";
-import { filterByCardType, CARD_TYPE_LABELS } from "@/lib/vocab/vocab-card-type";
+import { filterByCardType, CARD_TYPE_LABELS_HE, CARD_TYPE_LABELS_EN } from "@/lib/vocab/vocab-card-type";
 import type { CardType } from "@/lib/vocab/vocab-card-type";
+import { getDailyVocabPool } from "@/lib/vocab/daily-vocab";
+import { useLang } from "@/contexts/LanguageContext";
+import type { Translations } from "@/lib/i18n/translations";
 
 type HistoryEntry = { action: "known" | "missed"; item: VocabItem; prevState: VocabReviewState };
 import SwipeCard from "./SwipeCard";
 import vocabRaw from "@/data/seed/vocab.normalized.json";
 
 const vocabData = vocabRaw as unknown as VocabItem[];
-const SESSION_SIZE = 20;
+// Daily flow exposes exactly DAILY_VOCAB_LIMIT cards. Filtered sessions
+// (missed / starred / weak / etc.) are allowed up to BROWSE_SESSION_SIZE.
+const BROWSE_SESSION_SIZE = 20;
 
 type Difficulty = "all" | "easy" | "medium" | "hard";
 type StatusFilter = "due" | "starred" | "weak" | "new" | "mastered" | "missed" | null;
@@ -61,6 +67,11 @@ function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardT
 
   pool = filterByCardType(pool, cardType);
 
+  // Default daily flow: no status / cardType / difficulty filter → return the
+  // canonical 10-card daily pool, ordered by due-first then study priority.
+  const isDefaultDaily =
+    status === null && cardType === "all" && difficulty === "all";
+
   // Apply status filter to the already difficulty+cardType-filtered pool so that
   // e.g. "Due + connectors" returns due connector cards, not a global due pre-filter.
   if (status === "due") {
@@ -75,8 +86,11 @@ function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardT
     pool = pool.filter((v) => !states[v.id] || states[v.id].masteryScore === 0);
   } else if (status === "mastered") {
     pool = pool.filter((v) => states[v.id]?.masteryScore === 5);
+  } else if (isDefaultDaily) {
+    // Daily mode: delegate ordering + capping to the central helper.
+    return spreadSimilarWords(getDailyVocabPool(allItems));
   } else {
-    // Sort by studyPriority desc (most AMIRNET-relevant first), then by next review date
+    // Status === null but a non-default difficulty/cardType was chosen.
     pool.sort((a, b) => {
       const pa = a.studyPriority ?? 5;
       const pb = b.studyPriority ?? 5;
@@ -95,27 +109,41 @@ function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardT
     }
   }
 
-  return spreadSimilarWords(pool.slice(0, SESSION_SIZE));
+  return spreadSimilarWords(pool.slice(0, BROWSE_SESSION_SIZE));
 }
 
-const DIFFICULTY_OPTIONS: { value: Difficulty; label: string; color: string }[] = [
-  { value: "all",    label: "הכל / All",    color: "var(--teal)" },
-  { value: "easy",   label: "קל / Easy",    color: "var(--success)" },
-  { value: "medium", label: "בינוני / Med", color: "var(--warn)" },
-  { value: "hard",   label: "קשה / Hard",   color: "var(--danger)" },
+const DIFFICULTY_VALUES: { value: Difficulty; color: string }[] = [
+  { value: "all",    color: "var(--teal)"   },
+  { value: "easy",   color: "var(--success)" },
+  { value: "medium", color: "var(--warn)"   },
+  { value: "hard",   color: "var(--danger)" },
 ];
 
-const STATUS_OPTIONS: { value: StatusFilter; label: string }[] = [
-  { value: null,       label: "ברירת מחדל" },
-  { value: "missed",   label: "לא ידעתי ✗" },
-  { value: "due",      label: "לחזרה" },
-  { value: "new",      label: "חדשות" },
-  { value: "starred",  label: "מסומנים ★" },
-  { value: "weak",     label: "חלשים" },
-  { value: "mastered", label: "שולטים" },
-];
+const STATUS_VALUES: StatusFilter[] = [null, "missed", "due", "new", "starred", "weak", "mastered"];
+
+function difficultyLabel(value: Difficulty, t: Translations): string {
+  switch (value) {
+    case "all":    return t.vocab.diffAll;
+    case "easy":   return t.vocab.diffEasy;
+    case "medium": return t.vocab.diffMedium;
+    case "hard":   return t.vocab.diffHard;
+  }
+}
+
+function statusLabel(value: StatusFilter, t: Translations): string {
+  switch (value) {
+    case null:       return t.vocab.statusDefault;
+    case "missed":   return t.vocab.statusMissed;
+    case "due":      return t.vocab.statusDue;
+    case "new":      return t.vocab.statusNew;
+    case "starred":  return t.vocab.statusStarred;
+    case "weak":     return t.vocab.statusWeak;
+    case "mastered": return t.vocab.statusMastered;
+  }
+}
 
 export default function VocabSwipeTrainer() {
+  const { t } = useLang();
   const [difficulty, setDifficulty] = useState<Difficulty>("all");
   const [status, setStatus] = useState<StatusFilter>(null);
   const [cardType, setCardType] = useState<CardType>("all");
@@ -129,6 +157,10 @@ export default function VocabSwipeTrainer() {
   const [newlyMastered, setNewlyMastered] = useState(0);
   const [sessionMissedItems, setSessionMissedItems] = useState<VocabItem[]>([]);
   const [actionHistory, setActionHistory] = useState<HistoryEntry[]>([]);
+  // `retrySource` is the ephemeral pool used by the "Practice missed words
+  // from this session" flow — when non-null, the trainer keeps reusing only
+  // these items instead of drawing a fresh daily pool.
+  const [retrySource, setRetrySource] = useState<VocabItem[] | null>(null);
   const sessionRecordedRef = useRef(false);
 
   // Record vocab session progress when a session finishes
@@ -141,9 +173,7 @@ export default function VocabSwipeTrainer() {
     }
   }, [sessionDone, knew, missed]);
 
-  const startSession = useCallback((overrideStatus?: StatusFilter) => {
-    const s = overrideStatus !== undefined ? overrideStatus : status;
-    const items = buildPool(difficulty, s, cardType);
+  function resetSessionState(items: VocabItem[]) {
     setSessionItems(items);
     setCurrentIndex(0);
     setKnew(0);
@@ -157,8 +187,28 @@ export default function VocabSwipeTrainer() {
       const st = getOrCreateState(items[0].id);
       setCurrentState(st);
       setIsStarred(st.starred);
+    } else {
+      setCurrentState(null);
     }
+  }
+
+  const startSession = useCallback((overrideStatus?: StatusFilter) => {
+    const s = overrideStatus !== undefined ? overrideStatus : status;
+    setRetrySource(null);
+    resetSessionState(buildPool(difficulty, s, cardType));
   }, [difficulty, status, cardType]);
+
+  /**
+   * Re-run a focused round using ONLY the words the user missed in the
+   * current session. This is intentionally scoped to the current 10-card
+   * round — it does NOT pull from the global missed/weak/unknown pools.
+   */
+  const startSessionMissedRetry = useCallback(() => {
+    if (sessionMissedItems.length === 0) return;
+    const items = [...sessionMissedItems];
+    setRetrySource(items);
+    resetSessionState(spreadSimilarWords(items));
+  }, [sessionMissedItems]);
 
   useLayoutEffect(() => {
     startSession();
@@ -168,7 +218,7 @@ export default function VocabSwipeTrainer() {
 
   function advanceTo(nextIndex: number) {
     if (nextIndex < 0) return;
-    if (nextIndex >= sessionItems.length || nextIndex >= SESSION_SIZE) {
+    if (nextIndex >= sessionItems.length) {
       setSessionDone(true);
       return;
     }
@@ -233,45 +283,45 @@ export default function VocabSwipeTrainer() {
   }, [sessionDone, handleKnown, handleMissed, handleStar, handleBack]);
 
   const progress = sessionItems.length > 0
-    ? currentIndex / Math.min(sessionItems.length, SESSION_SIZE)
+    ? currentIndex / sessionItems.length
     : 0;
-  const totalCards = Math.min(sessionItems.length, SESSION_SIZE);
+  const totalCards = sessionItems.length;
 
   // ── Session done ──
   if (sessionDone || (sessionItems.length === 0 && currentIndex === 0 && (status !== null || cardType !== "all"))) {
     const total = knew + missed;
     const accuracy = total > 0 ? Math.round((knew / total) * 100) : 0;
-    let message = "Keep going — you're building momentum!";
-    if (accuracy >= 90) message = "מצוין! אתה מתפתח בקצב מהיר! 🔥";
-    else if (accuracy >= 70) message = "עבודה טובה! המשך להתקדם!";
-    else if (accuracy >= 50) message = "נסיון טוב — תרגל את המילים הקשות!";
+    let message = t.vocab.sessionMessageDefault;
+    if (accuracy >= 90) message = t.vocab.sessionMessageExcellent;
+    else if (accuracy >= 70) message = t.vocab.sessionMessageGood;
+    else if (accuracy >= 50) message = t.vocab.sessionMessageOk;
 
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-        <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} />
+        <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} t={t} />
 
         <div className="animate-fade-up" style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
           {sessionItems.length === 0 ? (
             <div className="card" style={{ padding: "2rem", textAlign: "center", width: "100%", maxWidth: "400px" }}>
               <div style={{ fontSize: "2rem", marginBottom: "0.5rem" }}>🔍</div>
-              <p style={{ fontSize: "1rem", color: "var(--ink-soft)", marginBottom: "0.5rem" }}>אין מילים בסינון זה</p>
-              <p style={{ fontSize: "0.82rem", color: "var(--ink-muted)", marginBottom: "1rem" }}>נסה לשנות את הקטגוריה, הרמה או הסטטוס</p>
-              <button className="btn btn-ghost btn-sm" onClick={() => { setCardType("all"); setStatus(null); }}>נקה סינון</button>
+              <p style={{ fontSize: "1rem", color: "var(--ink-soft)", marginBottom: "0.5rem" }}>{t.vocab.emptyFilterTitle}</p>
+              <p style={{ fontSize: "0.82rem", color: "var(--ink-muted)", marginBottom: "1rem" }}>{t.vocab.emptyFilterSubtitle}</p>
+              <button className="btn btn-ghost btn-sm" onClick={() => { setCardType("all"); setStatus(null); }}>{t.vocab.clearFilter}</button>
             </div>
           ) : (
             <div className="card" style={{ padding: "28px 20px", maxWidth: "420px", width: "100%", textAlign: "center" }}>
               <div style={{ fontSize: "2.5rem", marginBottom: "6px" }}>{accuracy >= 70 ? "🎉" : "💪"}</div>
               <h2 style={{ fontFamily: "var(--font-display)", fontSize: "1.4rem", fontWeight: 800, marginBottom: "6px" }}>
-                סיום סבב!
+                {t.vocab.sessionDoneTitle}
               </h2>
               <p style={{ color: "var(--ink-soft)", marginBottom: "16px", fontSize: "0.88rem" }}>{message}</p>
 
               <div style={{ display: "grid", gridTemplateColumns: "repeat(4,1fr)", gap: "8px", marginBottom: "16px" }}>
                 {[
-                  { label: "ידעתי", value: knew, color: "var(--teal)" },
-                  { label: "לא ידעתי", value: missed, color: "var(--danger)" },
-                  { label: "דיוק", value: `${accuracy}%`, color: accuracy >= 70 ? "var(--success)" : "var(--warn)" },
-                  { label: "שלטתי", value: newlyMastered, color: "var(--success)" },
+                  { label: t.vocab.statKnew,     value: knew, color: "var(--teal)" },
+                  { label: t.vocab.statMissed,   value: missed, color: "var(--danger)" },
+                  { label: t.vocab.statAccuracy, value: `${accuracy}%`, color: accuracy >= 70 ? "var(--success)" : "var(--warn)" },
+                  { label: t.vocab.statMastered, value: newlyMastered, color: "var(--success)" },
                 ].map(({ label, value, color }) => (
                   <div key={label} style={{ background: "var(--raised)", borderRadius: "8px", padding: "10px 4px", border: "1px solid var(--line)" }}>
                     <div style={{ fontSize: "1.2rem", fontWeight: 800, color }}>{value}</div>
@@ -288,10 +338,16 @@ export default function VocabSwipeTrainer() {
                   borderRadius: "10px",
                   padding: "12px",
                   marginBottom: "14px",
-                  textAlign: "right",
+                  textAlign: "center",
                 }}>
-                  <p style={{ fontSize: "0.78rem", fontWeight: 700, color: "var(--danger)", marginBottom: "8px", textAlign: "center" }}>
-                    מילים שלא ידעת בסבב זה ({sessionMissedItems.length})
+                  <p style={{
+                    fontSize: "0.85rem", fontWeight: 700, color: "var(--danger)",
+                    marginBottom: "4px", textAlign: "center",
+                  }}>
+                    {t.vocab.sessionMissedSummary.replace("{n}", String(sessionMissedItems.length))}
+                  </p>
+                  <p style={{ fontSize: "0.72rem", color: "var(--ink-muted)", margin: "0 0 8px" }}>
+                    {t.vocab.missedThisRound}
                   </p>
                   <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", justifyContent: "center" }}>
                     {sessionMissedItems.map((v) => (
@@ -301,35 +357,32 @@ export default function VocabSwipeTrainer() {
                         fontSize: "0.78rem", color: "var(--ink)",
                       }}>
                         {v.word}
-                        <span style={{ color: "var(--ink-muted)", marginRight: "4px", marginLeft: "4px", direction: "rtl" }}>
+                        <span style={{ color: "var(--ink-muted)", marginInlineStart: "4px", marginInlineEnd: "4px", direction: "rtl" }}>
                           {v.hebrewTranslation}
                         </span>
                       </span>
                     ))}
                   </div>
                   <button
-                    className="btn btn-sm"
-                    onClick={() => {
-                      setStatus("missed");
-                      startSession("missed");
-                    }}
+                    className="btn btn-sm btn-block"
+                    onClick={startSessionMissedRetry}
                     style={{
-                      marginTop: "10px", width: "100%",
+                      marginTop: "10px",
                       background: "var(--danger)", color: "#fff", border: "none",
                     }}
                   >
-                    תרגל את המילים שלא ידעת →
+                    {t.vocab.practiceMissedCta}
                   </button>
                 </div>
               )}
 
-              <div style={{ display: "flex", gap: "8px" }}>
-                <button className="btn btn-primary" onClick={() => startSession()} style={{ flex: 1 }}>
-                  סבב חדש →
+              <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+                <button className="btn btn-primary btn-block" onClick={() => startSession()}>
+                  {t.vocab.newRound}
                 </button>
-                <a href="/vocab/missed" className="btn btn-ghost" style={{ flex: 1 }}>
-                  כל הלא ידועות
-                </a>
+                <Link href="/vocab/unknown" className="btn btn-ghost btn-block" style={{ textAlign: "center" }}>
+                  {t.vocab.unknownBankCta}
+                </Link>
               </div>
             </div>
           )}
@@ -341,15 +394,30 @@ export default function VocabSwipeTrainer() {
   if (!currentItem || !currentState) {
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-        <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} />
-        <div style={{ textAlign: "center", padding: "48px", color: "var(--ink-muted)" }}>טוען...</div>
+        <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} t={t} />
+        <div style={{ textAlign: "center", padding: "48px", color: "var(--ink-muted)" }}>{t.vocab.loading}</div>
       </div>
     );
   }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-      <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} />
+      <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} t={t} />
+
+      {retrySource !== null && (
+        <div
+          style={{
+            display: "flex", alignItems: "center", gap: "0.5rem",
+            padding: "0.5rem 0.875rem", borderRadius: 999,
+            background: "var(--danger-sub)", border: "1px solid var(--danger)",
+            color: "var(--danger)", fontSize: "0.78rem", fontWeight: 700,
+            alignSelf: "flex-start",
+          }}
+          aria-label={t.vocab.retryRoundLabel}
+        >
+          ↻ {t.vocab.retryRoundLabel}
+        </div>
+      )}
 
       <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
         <div style={{ flex: 1 }}>
@@ -363,7 +431,7 @@ export default function VocabSwipeTrainer() {
       </div>
 
       <p style={{ fontSize: "0.68rem", color: "var(--ink-muted)", textAlign: "center", margin: 0 }}>
-        ← לא ידעתי · Space הפוך · ידעתי → · S סימן · Z חזור
+        {t.vocab.keyboardHint}
       </p>
 
       <SwipeCard
@@ -382,7 +450,7 @@ export default function VocabSwipeTrainer() {
 }
 
 function FilterBar({
-  difficulty, status, cardType, onDifficulty, onStatus, onCardType,
+  difficulty, status, cardType, onDifficulty, onStatus, onCardType, t,
 }: {
   difficulty: Difficulty;
   status: StatusFilter;
@@ -390,7 +458,10 @@ function FilterBar({
   onDifficulty: (d: Difficulty) => void;
   onStatus: (s: StatusFilter) => void;
   onCardType: (t: CardType) => void;
+  t: Translations;
 }) {
+  const { lang } = useLang();
+  const cardTypeLabels = lang === "he" ? CARD_TYPE_LABELS_HE : CARD_TYPE_LABELS_EN;
   const diffColors: Record<Difficulty, string> = {
     all: "var(--teal)", easy: "var(--success)", medium: "var(--warn)", hard: "var(--danger)",
   };
@@ -398,7 +469,7 @@ function FilterBar({
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "6px" }}>
-        {DIFFICULTY_OPTIONS.map(({ value, label }) => {
+        {DIFFICULTY_VALUES.map(({ value }) => {
           const active = difficulty === value;
           const color = diffColors[value];
           return (
@@ -411,14 +482,14 @@ function FilterBar({
               transition: "all 0.15s", fontFamily: "var(--font-body)",
               whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
             }}>
-              {label}
+              {difficultyLabel(value, t)}
             </button>
           );
         })}
       </div>
 
       <div style={{ display: "flex", gap: "6px", overflowX: "auto", paddingBottom: "2px" }}>
-        {STATUS_OPTIONS.map(({ value, label }) => {
+        {STATUS_VALUES.map((value) => {
           const active = status === value;
           const isMissed = value === "missed";
           return (
@@ -432,7 +503,7 @@ function FilterBar({
               whiteSpace: "nowrap", flexShrink: 0,
               fontFamily: "var(--font-body)", transition: "all 0.15s",
             }}>
-              {label}
+              {statusLabel(value, t)}
             </button>
           );
         })}
@@ -452,7 +523,7 @@ function FilterBar({
               whiteSpace: "nowrap", flexShrink: 0,
               fontFamily: "var(--font-body)", transition: "all 0.15s",
             }}>
-              {CARD_TYPE_LABELS[type]}
+              {cardTypeLabels[type]}
             </button>
           );
         })}

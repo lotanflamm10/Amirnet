@@ -1,12 +1,12 @@
 "use client";
 import { createContext, useContext, useEffect, useState } from "react";
 
-export type ThemeMode = "dark" | "light";
+export type ThemeMode = "dark" | "light" | "system";
 
 export interface ThemeSettings {
   mode: ThemeMode;
-  primary: string; // hex color
-  bgHue: number | null; // 0-360, null = CSS default
+  primary: string;
+  bgHue: number | null;
 }
 
 const SETTINGS_KEY = "amirnet-theme-settings-v1";
@@ -24,6 +24,13 @@ const PRESET_COLORS = [
   { label: "ירוק", value: "#4ADE80" },
 ];
 export { PRESET_COLORS };
+
+/** Resolve "system" to an actual dark/light mode. */
+export function getEffectiveMode(mode: ThemeMode): "dark" | "light" {
+  if (mode !== "system") return mode;
+  if (typeof window === "undefined") return "dark";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
 
 function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
   const m = hex.replace("#", "").match(/^([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
@@ -64,7 +71,7 @@ function hslToHex(h: number, s: number, l: number): string {
   return "#" + [r, g, b].map((v) => v.toString(16).padStart(2, "0")).join("");
 }
 
-function applyBgToDom(mode: ThemeMode, bgHue: number | null) {
+function applyBgToDom(effective: "dark" | "light", bgHue: number | null) {
   const el = document.documentElement;
   const BG_VARS = ["--canvas", "--surface", "--raised", "--line"] as const;
   if (bgHue === null) {
@@ -72,7 +79,7 @@ function applyBgToDom(mode: ThemeMode, bgHue: number | null) {
     return;
   }
   const h = bgHue;
-  if (mode === "dark") {
+  if (effective === "dark") {
     el.style.setProperty("--canvas",  hslToHex(h, 28, 7));
     el.style.setProperty("--surface", hslToHex(h, 34, 13));
     el.style.setProperty("--raised",  hslToHex(h, 30, 17));
@@ -86,7 +93,8 @@ function applyBgToDom(mode: ThemeMode, bgHue: number | null) {
 }
 
 export function applyThemeToDom(settings: ThemeSettings) {
-  document.documentElement.setAttribute("data-theme", settings.mode);
+  const effective = getEffectiveMode(settings.mode);
+  document.documentElement.setAttribute("data-theme", effective);
   const el = document.documentElement;
   if (settings.primary && settings.primary !== DEFAULT_PRIMARY) {
     const p = settings.primary;
@@ -106,7 +114,7 @@ export function applyThemeToDom(settings: ThemeSettings) {
     el.style.removeProperty("--shadow-btn-primary");
     el.style.removeProperty("--shadow-btn-primary-hover");
   }
-  applyBgToDom(settings.mode, settings.bgHue);
+  applyBgToDom(effective, settings.bgHue);
 }
 
 function loadSettings(): ThemeSettings {
@@ -114,28 +122,34 @@ function loadSettings(): ThemeSettings {
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
     if (raw) {
-      const parsed = JSON.parse(raw) as Partial<ThemeSettings>;
+      const parsed = JSON.parse(raw) as Partial<ThemeSettings & { mode: string }>;
+      const mode: ThemeMode =
+        parsed.mode === "light" ? "light"
+        : parsed.mode === "system" ? "system"
+        : "dark";
       return {
-        mode: parsed.mode === "light" ? "light" : "dark",
+        mode,
         primary: parsed.primary ?? DEFAULT_PRIMARY,
         bgHue: typeof parsed.bgHue === "number" && parsed.bgHue >= 0 && parsed.bgHue <= 360
           ? parsed.bgHue : null,
       };
     }
   } catch { /* ignore */ }
-  const legacy = localStorage.getItem(LEGACY_KEY) as ThemeMode | null;
+  const legacy = localStorage.getItem(LEGACY_KEY);
   return { mode: legacy === "light" ? "light" : "dark", primary: DEFAULT_PRIMARY, bgHue: null };
 }
 
 function saveSettings(s: ThemeSettings) {
   try {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
-    localStorage.setItem(LEGACY_KEY, s.mode);
+    // Keep legacy key in sync with effective mode for the bootstrap script
+    localStorage.setItem(LEGACY_KEY, getEffectiveMode(s.mode));
   } catch { /* ignore */ }
 }
 
 interface ThemeCtxValue {
   settings: ThemeSettings;
+  effectiveMode: "dark" | "light";
   toggle: () => void;
   setPrimary: (hex: string) => void;
   resetPrimary: () => void;
@@ -145,6 +159,7 @@ interface ThemeCtxValue {
 
 const ThemeCtx = createContext<ThemeCtxValue>({
   settings: { mode: "dark", primary: DEFAULT_PRIMARY, bgHue: null },
+  effectiveMode: "dark",
   toggle: () => {},
   setPrimary: () => {},
   resetPrimary: () => {},
@@ -154,16 +169,37 @@ const ThemeCtx = createContext<ThemeCtxValue>({
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [settings, setSettings] = useState<ThemeSettings>({ mode: "dark", primary: DEFAULT_PRIMARY, bgHue: null });
+  const [effectiveMode, setEffectiveMode] = useState<"dark" | "light">("dark");
 
   useEffect(() => {
     const s = loadSettings();
     setSettings(s);
+    const eff = getEffectiveMode(s.mode);
+    setEffectiveMode(eff);
     applyThemeToDom(s);
+
+    // Listen for system preference changes when mode === "system"
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    const onMqChange = () => {
+      setSettings((cur) => {
+        if (cur.mode !== "system") return cur;
+        const nextEff = mq.matches ? "dark" : "light";
+        setEffectiveMode(nextEff);
+        applyThemeToDom(cur);
+        return cur;
+      });
+    };
+    mq.addEventListener("change", onMqChange);
+    return () => mq.removeEventListener("change", onMqChange);
   }, []);
 
   function toggle() {
     setSettings((prev) => {
-      const next: ThemeSettings = { ...prev, mode: prev.mode === "dark" ? "light" : "dark" };
+      const cycle: ThemeMode[] = ["dark", "light", "system"];
+      const nextMode = cycle[(cycle.indexOf(prev.mode) + 1) % cycle.length];
+      const next: ThemeSettings = { ...prev, mode: nextMode };
+      const eff = getEffectiveMode(nextMode);
+      setEffectiveMode(eff);
       saveSettings(next);
       applyThemeToDom(next);
       return next;
@@ -179,9 +215,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     });
   }
 
-  function resetPrimary() {
-    setPrimary(DEFAULT_PRIMARY);
-  }
+  function resetPrimary() { setPrimary(DEFAULT_PRIMARY); }
 
   function setBgHue(hue: number) {
     setSettings((prev) => {
@@ -202,7 +236,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <ThemeCtx.Provider value={{ settings, toggle, setPrimary, resetPrimary, setBgHue, resetBgHue }}>
+    <ThemeCtx.Provider value={{ settings, effectiveMode, toggle, setPrimary, resetPrimary, setBgHue, resetBgHue }}>
       {children}
     </ThemeCtx.Provider>
   );

@@ -1,0 +1,608 @@
+{
+  "reading": [
+    {
+      "id": "rsim01-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best expresses the main idea of the passage?",
+      "choices": [
+        "Coral reefs are home to a quarter of all marine species and therefore deserve protection.",
+        "Coral bleaching is the result of a fragile partnership breaking down, and restoring reefs requires both local intervention and broad action on global warming.",
+        "Scientists have already engineered coral strains that can survive any future increase in ocean temperature.",
+        "Probiotic bacteria are the single most promising solution to reef collapse worldwide."
+      ],
+      "answer": 1,
+      "explanation": "The passage frames bleaching as a breakdown of the coral–algae partnership, surveys the local interventions scientists are testing, and closes by insisting that these efforts only work in combination with reducing global emissions.",
+      "wrongReasons": [
+        "The biodiversity statistic is a supporting detail in the opening, not the central argument.",
+        "The passage explicitly notes that successive heatwaves outpace recovery; it never claims any strain tolerates any temperature.",
+        "Probiotic bacteria are mentioned briefly as one of several experimental approaches, not as the primary solution."
+      ],
+      "passage": {
+        "id": "rsim01-passage",
+        "title": "Why Coral Reefs Bleach",
+        "body": "Coral reefs harbor roughly a quarter of all marine species, yet they occupy less than one percent of the ocean floor. This disproportionate richness depends on a delicate partnership between corals and tiny algae called zooxanthellae, which live inside the coral tissue and supply most of the energy the corals need to grow and build their calcium-carbonate skeletons. The vivid colors that make tropical reefs famous come almost entirely from these microscopic guests, not from the corals themselves.\n\nWhen ocean temperatures rise even one or two degrees above the seasonal average, the partnership breaks down. Stressed corals expel their algae, exposing their pale skeletons in a phenomenon called bleaching. Bleached corals are not yet dead; they can survive for weeks without their photosynthetic partners. But if the heat persists, the corals starve, and the entire reef structure begins to collapse. Once a reef has died, decades may pass before the slow-growing colonies that built it can return — assuming local conditions ever permit them to.\n\nMarine biologists are now racing to identify coral strains that tolerate warmer water and to transplant them into degraded reefs. Some experiments selectively breed corals that survived recent heatwaves; others rely on probiotic bacteria thought to buffer thermal stress. These interventions buy time, but they cannot keep pace with successive marine heatwaves that now strike before earlier damage has healed. Researchers consistently emphasize that local restoration efforts are only meaningful if global emissions are also curbed; otherwise, the partnership at the heart of every reef will keep dissolving faster than it can be rebuilt."
+      }
+    },
+    {
+      "id": "rsim01-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what produces the bright colors of healthy tropical reefs?",
+      "choices": [
+        "Pigments inside the coral skeletons themselves.",
+        "The variety of fish species that inhabit the reef.",
+        "Microscopic algae living inside the coral tissue.",
+        "Sunlight reflecting off the calcium-carbonate structures."
+      ],
+      "answer": 2,
+      "explanation": "The first paragraph states explicitly that the vivid colors of reefs come 'almost entirely from these microscopic guests' — the zooxanthellae algae — and not from the corals themselves.",
+      "wrongReasons": [
+        "The passage contradicts this: it says the colors do NOT come from the coral skeletons.",
+        "Fish are never mentioned as the source of reef color.",
+        "Reflected sunlight is not discussed; the color is attributed to the symbiotic algae."
+      ],
+      "passage": {
+        "id": "rsim01-passage",
+        "title": "Why Coral Reefs Bleach",
+        "body": "Coral reefs harbor roughly a quarter of all marine species, yet they occupy less than one percent of the ocean floor. This disproportionate richness depends on a delicate partnership between corals and tiny algae called zooxanthellae, which live inside the coral tissue and supply most of the energy the corals need to grow and build their calcium-carbonate skeletons. The vivid colors that make tropical reefs famous come almost entirely from these microscopic guests, not from the corals themselves.\n\nWhen ocean temperatures rise even one or two degrees above the seasonal average, the partnership breaks down. Stressed corals expel their algae, exposing their pale skeletons in a phenomenon called bleaching. Bleached corals are not yet dead; they can survive for weeks without their photosynthetic partners. But if the heat persists, the corals starve, and the entire reef structure begins to collapse. Once a reef has died, decades may pass before the slow-growing colonies that built it can return — assuming local conditions ever permit them to.\n\nMarine biologists are now racing to identify coral strains that tolerate warmer water and to transplant them into degraded reefs. Some experiments selectively breed corals that survived recent heatwaves; others rely on probiotic bacteria thought to buffer thermal stress. These interventions buy time, but they cannot keep pace with successive marine heatwaves that now strike before earlier damage has healed. Researchers consistently emphasize that local restoration efforts are only meaningful if global emissions are also curbed; otherwise, the partnership at the heart of every reef will keep dissolving faster than it can be rebuilt."
+      }
+    },
+    {
+      "id": "rsim01-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about a reef that has just bleached?",
+      "choices": [
+        "It is permanently dead and cannot recover.",
+        "It still contains living coral that may recover if heat stress eases quickly.",
+        "It has lost all of its fish populations.",
+        "Its skeletons have already begun to dissolve."
+      ],
+      "answer": 1,
+      "explanation": "The passage explicitly says bleached corals 'are not yet dead' and can survive for weeks without their algae. Recovery is therefore possible if the heat passes before they starve.",
+      "wrongReasons": [
+        "The passage states the opposite — bleaching is not the same as death.",
+        "The passage discusses corals, not fish populations; this is outside the scope of what can be inferred.",
+        "Dissolution of the structure is described as a longer-term consequence of reef death, not an immediate bleaching effect."
+      ],
+      "passage": {
+        "id": "rsim01-passage",
+        "title": "Why Coral Reefs Bleach",
+        "body": "Coral reefs harbor roughly a quarter of all marine species, yet they occupy less than one percent of the ocean floor. This disproportionate richness depends on a delicate partnership between corals and tiny algae called zooxanthellae, which live inside the coral tissue and supply most of the energy the corals need to grow and build their calcium-carbonate skeletons. The vivid colors that make tropical reefs famous come almost entirely from these microscopic guests, not from the corals themselves.\n\nWhen ocean temperatures rise even one or two degrees above the seasonal average, the partnership breaks down. Stressed corals expel their algae, exposing their pale skeletons in a phenomenon called bleaching. Bleached corals are not yet dead; they can survive for weeks without their photosynthetic partners. But if the heat persists, the corals starve, and the entire reef structure begins to collapse. Once a reef has died, decades may pass before the slow-growing colonies that built it can return — assuming local conditions ever permit them to.\n\nMarine biologists are now racing to identify coral strains that tolerate warmer water and to transplant them into degraded reefs. Some experiments selectively breed corals that survived recent heatwaves; others rely on probiotic bacteria thought to buffer thermal stress. These interventions buy time, but they cannot keep pace with successive marine heatwaves that now strike before earlier damage has healed. Researchers consistently emphasize that local restoration efforts are only meaningful if global emissions are also curbed; otherwise, the partnership at the heart of every reef will keep dissolving faster than it can be rebuilt."
+      }
+    },
+    {
+      "id": "rsim01-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the word \"persists\" most nearly means:",
+      "choices": [
+        "weakens",
+        "continues",
+        "intensifies suddenly",
+        "spreads geographically"
+      ],
+      "answer": 1,
+      "explanation": "In context, the sentence describes what happens when heat keeps going — the corals starve. 'Persists' here means 'continues' over time.",
+      "wrongReasons": [
+        "The opposite — if heat weakened, corals would not starve.",
+        "The text describes continued heat, not a sudden intensification.",
+        "Geographic spread is not what the sentence is about; the focus is on the duration of stress on a given reef."
+      ],
+      "passage": {
+        "id": "rsim01-passage",
+        "title": "Why Coral Reefs Bleach",
+        "body": "Coral reefs harbor roughly a quarter of all marine species, yet they occupy less than one percent of the ocean floor. This disproportionate richness depends on a delicate partnership between corals and tiny algae called zooxanthellae, which live inside the coral tissue and supply most of the energy the corals need to grow and build their calcium-carbonate skeletons. The vivid colors that make tropical reefs famous come almost entirely from these microscopic guests, not from the corals themselves.\n\nWhen ocean temperatures rise even one or two degrees above the seasonal average, the partnership breaks down. Stressed corals expel their algae, exposing their pale skeletons in a phenomenon called bleaching. Bleached corals are not yet dead; they can survive for weeks without their photosynthetic partners. But if the heat persists, the corals starve, and the entire reef structure begins to collapse. Once a reef has died, decades may pass before the slow-growing colonies that built it can return — assuming local conditions ever permit them to.\n\nMarine biologists are now racing to identify coral strains that tolerate warmer water and to transplant them into degraded reefs. Some experiments selectively breed corals that survived recent heatwaves; others rely on probiotic bacteria thought to buffer thermal stress. These interventions buy time, but they cannot keep pace with successive marine heatwaves that now strike before earlier damage has healed. Researchers consistently emphasize that local restoration efforts are only meaningful if global emissions are also curbed; otherwise, the partnership at the heart of every reef will keep dissolving faster than it can be rebuilt."
+      }
+    },
+    {
+      "id": "rsim01-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the primary function of the final paragraph?",
+      "choices": [
+        "To celebrate a recent breakthrough that has reversed reef decline globally.",
+        "To argue that breeding heat-tolerant corals will fully solve the problem on its own.",
+        "To qualify the value of local restoration efforts by explaining why they cannot succeed without broader action on emissions.",
+        "To describe the laboratory techniques used to create probiotic bacteria for corals."
+      ],
+      "answer": 2,
+      "explanation": "The closing paragraph presents the interventions, then explicitly limits their effectiveness: 'These interventions buy time, but they cannot keep pace…' and ends by tying success to reducing global emissions. Its rhetorical role is qualification.",
+      "wrongReasons": [
+        "No breakthrough has reversed decline; the paragraph in fact describes interventions that cannot keep up with damage.",
+        "The paragraph contradicts this — it stresses that local breeding alone is insufficient.",
+        "The paragraph does not describe how probiotic bacteria are produced; it only mentions them as one approach."
+      ],
+      "passage": {
+        "id": "rsim01-passage",
+        "title": "Why Coral Reefs Bleach",
+        "body": "Coral reefs harbor roughly a quarter of all marine species, yet they occupy less than one percent of the ocean floor. This disproportionate richness depends on a delicate partnership between corals and tiny algae called zooxanthellae, which live inside the coral tissue and supply most of the energy the corals need to grow and build their calcium-carbonate skeletons. The vivid colors that make tropical reefs famous come almost entirely from these microscopic guests, not from the corals themselves.\n\nWhen ocean temperatures rise even one or two degrees above the seasonal average, the partnership breaks down. Stressed corals expel their algae, exposing their pale skeletons in a phenomenon called bleaching. Bleached corals are not yet dead; they can survive for weeks without their photosynthetic partners. But if the heat persists, the corals starve, and the entire reef structure begins to collapse. Once a reef has died, decades may pass before the slow-growing colonies that built it can return — assuming local conditions ever permit them to.\n\nMarine biologists are now racing to identify coral strains that tolerate warmer water and to transplant them into degraded reefs. Some experiments selectively breed corals that survived recent heatwaves; others rely on probiotic bacteria thought to buffer thermal stress. These interventions buy time, but they cannot keep pace with successive marine heatwaves that now strike before earlier damage has healed. Researchers consistently emphasize that local restoration efforts are only meaningful if global emissions are also curbed; otherwise, the partnership at the heart of every reef will keep dissolving faster than it can be rebuilt."
+      }
+    },
+
+    {
+      "id": "rsim02-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which statement best captures the main argument of the passage?",
+      "choices": [
+        "Antibiotics should no longer be prescribed to anyone, because resistance has become uncontrollable.",
+        "Antibiotic resistance is a predictable evolutionary outcome that is accelerated by both medical overuse and agricultural practices, requiring coordinated action.",
+        "All modern infections will soon become untreatable, regardless of how the medical system responds.",
+        "Bacterial mutations are essentially random, so resistance cannot be predicted or managed."
+      ],
+      "answer": 1,
+      "explanation": "The passage frames resistance as a natural evolutionary process, identifies medical overuse and routine agricultural use as the two main accelerants, and points to coordinated stewardship as the response.",
+      "wrongReasons": [
+        "The passage does not call for halting all prescriptions; it argues for more careful use.",
+        "It explicitly notes the situation is serious but does not claim untreatability is inevitable.",
+        "While mutations include a random element, the passage emphasizes that selection pressure makes the outcome predictable, not unpredictable."
+      ],
+      "passage": {
+        "id": "rsim02-passage",
+        "title": "The Quiet Spread of Antibiotic Resistance",
+        "body": "When penicillin was introduced in the 1940s, it seemed to render bacterial infection almost trivial. Within two decades, however, hospitals were already reporting infections that no longer responded to it. The pattern has repeated itself with nearly every antibiotic since: a few years of triumph, followed by the steady emergence of resistant strains. This trajectory is not a failure of pharmacology so much as a textbook example of evolution at work.\n\nBacteria reproduce in enormous numbers and short generations. Random mutations occasionally produce individuals that survive a given drug; when other cells around them die, the survivors multiply unchallenged. Anything that exposes large bacterial populations to weak or partial doses of antibiotics speeds the process. Two practices in particular have proved decisive. First, doctors frequently prescribe antibiotics for viral infections, where they cannot help but can still apply selective pressure to the patient's resident bacteria. Second, livestock are routinely dosed at sub-therapeutic levels to promote growth, creating vast reservoirs in which resistant strains can flourish and later move into human populations through food and water.\n\nReversing course is harder than people often assume. Genes that confer resistance can move between unrelated bacterial species on small pieces of DNA called plasmids, which means that resistance gained in a farm animal can appear in a hospital pathogen weeks later. Researchers therefore argue for what is now called \"antimicrobial stewardship\": prescribing antibiotics only when necessary, completing prescribed courses, restricting their use in agriculture, and investing in surveillance systems that track resistance as it spreads. None of these steps eliminates resistance, but together they slow it enough to keep older drugs useful while new ones are developed."
+      }
+    },
+    {
+      "id": "rsim02-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which two practices have most accelerated antibiotic resistance?",
+      "choices": [
+        "Public hand-washing campaigns and vaccinations.",
+        "Prescribing antibiotics for viral infections and using them routinely in livestock.",
+        "Genetic engineering of bacteria and the production of plasmids in laboratories.",
+        "The disposal of expired drugs and the rise of probiotic supplements."
+      ],
+      "answer": 1,
+      "explanation": "The second paragraph identifies two decisive practices: prescribing antibiotics for viral infections (where they cannot work but still apply selective pressure), and the routine sub-therapeutic use in livestock.",
+      "wrongReasons": [
+        "The passage mentions neither of these as drivers of resistance.",
+        "Plasmids are described as a natural mechanism of gene transfer, not a laboratory production technique.",
+        "Neither drug disposal nor probiotic supplements is mentioned in the passage."
+      ],
+      "passage": {
+        "id": "rsim02-passage",
+        "title": "The Quiet Spread of Antibiotic Resistance",
+        "body": "When penicillin was introduced in the 1940s, it seemed to render bacterial infection almost trivial. Within two decades, however, hospitals were already reporting infections that no longer responded to it. The pattern has repeated itself with nearly every antibiotic since: a few years of triumph, followed by the steady emergence of resistant strains. This trajectory is not a failure of pharmacology so much as a textbook example of evolution at work.\n\nBacteria reproduce in enormous numbers and short generations. Random mutations occasionally produce individuals that survive a given drug; when other cells around them die, the survivors multiply unchallenged. Anything that exposes large bacterial populations to weak or partial doses of antibiotics speeds the process. Two practices in particular have proved decisive. First, doctors frequently prescribe antibiotics for viral infections, where they cannot help but can still apply selective pressure to the patient's resident bacteria. Second, livestock are routinely dosed at sub-therapeutic levels to promote growth, creating vast reservoirs in which resistant strains can flourish and later move into human populations through food and water.\n\nReversing course is harder than people often assume. Genes that confer resistance can move between unrelated bacterial species on small pieces of DNA called plasmids, which means that resistance gained in a farm animal can appear in a hospital pathogen weeks later. Researchers therefore argue for what is now called \"antimicrobial stewardship\": prescribing antibiotics only when necessary, completing prescribed courses, restricting their use in agriculture, and investing in surveillance systems that track resistance as it spreads. None of these steps eliminates resistance, but together they slow it enough to keep older drugs useful while new ones are developed."
+      }
+    },
+    {
+      "id": "rsim02-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about plasmids from the passage?",
+      "choices": [
+        "They allow resistance traits to move between bacterial species that are otherwise unrelated.",
+        "They are the only mechanism by which resistance emerges.",
+        "They are an artificial invention used in modern laboratories.",
+        "They prevent resistant bacteria from spreading to humans."
+      ],
+      "answer": 0,
+      "explanation": "The passage states that resistance genes can travel between unrelated bacterial species 'on small pieces of DNA called plasmids,' which is exactly the inference offered.",
+      "wrongReasons": [
+        "The passage describes random mutation followed by selection as the basic mechanism; plasmids speed the spread, but they are not the only source of resistance.",
+        "Plasmids are presented as a natural feature of bacteria, not a laboratory creation.",
+        "The passage describes plasmids as a route by which resistance reaches humans, not as a barrier."
+      ],
+      "passage": {
+        "id": "rsim02-passage",
+        "title": "The Quiet Spread of Antibiotic Resistance",
+        "body": "When penicillin was introduced in the 1940s, it seemed to render bacterial infection almost trivial. Within two decades, however, hospitals were already reporting infections that no longer responded to it. The pattern has repeated itself with nearly every antibiotic since: a few years of triumph, followed by the steady emergence of resistant strains. This trajectory is not a failure of pharmacology so much as a textbook example of evolution at work.\n\nBacteria reproduce in enormous numbers and short generations. Random mutations occasionally produce individuals that survive a given drug; when other cells around them die, the survivors multiply unchallenged. Anything that exposes large bacterial populations to weak or partial doses of antibiotics speeds the process. Two practices in particular have proved decisive. First, doctors frequently prescribe antibiotics for viral infections, where they cannot help but can still apply selective pressure to the patient's resident bacteria. Second, livestock are routinely dosed at sub-therapeutic levels to promote growth, creating vast reservoirs in which resistant strains can flourish and later move into human populations through food and water.\n\nReversing course is harder than people often assume. Genes that confer resistance can move between unrelated bacterial species on small pieces of DNA called plasmids, which means that resistance gained in a farm animal can appear in a hospital pathogen weeks later. Researchers therefore argue for what is now called \"antimicrobial stewardship\": prescribing antibiotics only when necessary, completing prescribed courses, restricting their use in agriculture, and investing in surveillance systems that track resistance as it spreads. None of these steps eliminates resistance, but together they slow it enough to keep older drugs useful while new ones are developed."
+      }
+    },
+    {
+      "id": "rsim02-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"confer\" most nearly means:",
+      "choices": [
+        "discuss",
+        "grant",
+        "reverse",
+        "monitor"
+      ],
+      "answer": 1,
+      "explanation": "In context, the genes 'confer resistance' on the bacteria — that is, they grant or bestow the property. Among the choices, 'grant' is the closest synonym.",
+      "wrongReasons": [
+        "'Discuss' is a common general meaning of 'confer' but does not fit this biological context.",
+        "'Reverse' inverts the intended meaning: the genes give resistance rather than removing it.",
+        "'Monitor' describes a separate activity (surveillance) and does not apply to the genes themselves."
+      ],
+      "passage": {
+        "id": "rsim02-passage",
+        "title": "The Quiet Spread of Antibiotic Resistance",
+        "body": "When penicillin was introduced in the 1940s, it seemed to render bacterial infection almost trivial. Within two decades, however, hospitals were already reporting infections that no longer responded to it. The pattern has repeated itself with nearly every antibiotic since: a few years of triumph, followed by the steady emergence of resistant strains. This trajectory is not a failure of pharmacology so much as a textbook example of evolution at work.\n\nBacteria reproduce in enormous numbers and short generations. Random mutations occasionally produce individuals that survive a given drug; when other cells around them die, the survivors multiply unchallenged. Anything that exposes large bacterial populations to weak or partial doses of antibiotics speeds the process. Two practices in particular have proved decisive. First, doctors frequently prescribe antibiotics for viral infections, where they cannot help but can still apply selective pressure to the patient's resident bacteria. Second, livestock are routinely dosed at sub-therapeutic levels to promote growth, creating vast reservoirs in which resistant strains can flourish and later move into human populations through food and water.\n\nReversing course is harder than people often assume. Genes that confer resistance can move between unrelated bacterial species on small pieces of DNA called plasmids, which means that resistance gained in a farm animal can appear in a hospital pathogen weeks later. Researchers therefore argue for what is now called \"antimicrobial stewardship\": prescribing antibiotics only when necessary, completing prescribed courses, restricting their use in agriculture, and investing in surveillance systems that track resistance as it spreads. None of these steps eliminates resistance, but together they slow it enough to keep older drugs useful while new ones are developed."
+      }
+    },
+    {
+      "id": "rsim02-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "Which of the following best describes how the three paragraphs are organized?",
+      "choices": [
+        "The first paragraph describes a personal anecdote, the second offers statistics, and the third draws a moral.",
+        "The first paragraph introduces a phenomenon, the second explains its biological and social causes, and the third proposes practical responses.",
+        "The first paragraph rejects a hypothesis, the second confirms it experimentally, and the third applies it to medicine.",
+        "All three paragraphs make essentially the same point in different words."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 introduces the recurring pattern of antibiotic decline; paragraph 2 explains the underlying biology together with the medical and agricultural practices that accelerate it; paragraph 3 turns to what to do about it.",
+      "wrongReasons": [
+        "There is no anecdote; the first paragraph offers a historical observation rather than a personal story.",
+        "No hypothesis is rejected; the structure is descriptive, not experimental.",
+        "Each paragraph contributes a distinct kind of content, not a paraphrase of the others."
+      ],
+      "passage": {
+        "id": "rsim02-passage",
+        "title": "The Quiet Spread of Antibiotic Resistance",
+        "body": "When penicillin was introduced in the 1940s, it seemed to render bacterial infection almost trivial. Within two decades, however, hospitals were already reporting infections that no longer responded to it. The pattern has repeated itself with nearly every antibiotic since: a few years of triumph, followed by the steady emergence of resistant strains. This trajectory is not a failure of pharmacology so much as a textbook example of evolution at work.\n\nBacteria reproduce in enormous numbers and short generations. Random mutations occasionally produce individuals that survive a given drug; when other cells around them die, the survivors multiply unchallenged. Anything that exposes large bacterial populations to weak or partial doses of antibiotics speeds the process. Two practices in particular have proved decisive. First, doctors frequently prescribe antibiotics for viral infections, where they cannot help but can still apply selective pressure to the patient's resident bacteria. Second, livestock are routinely dosed at sub-therapeutic levels to promote growth, creating vast reservoirs in which resistant strains can flourish and later move into human populations through food and water.\n\nReversing course is harder than people often assume. Genes that confer resistance can move between unrelated bacterial species on small pieces of DNA called plasmids, which means that resistance gained in a farm animal can appear in a hospital pathogen weeks later. Researchers therefore argue for what is now called \"antimicrobial stewardship\": prescribing antibiotics only when necessary, completing prescribed courses, restricting their use in agriculture, and investing in surveillance systems that track resistance as it spreads. None of these steps eliminates resistance, but together they slow it enough to keep older drugs useful while new ones are developed."
+      }
+    },
+
+    {
+      "id": "rsim03-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best summarises the main idea of the passage?",
+      "choices": [
+        "Memory consolidation happens entirely while we are awake.",
+        "Sleep plays an active role in transforming fragile new memories into durable ones, and different sleep stages contribute different aspects of this process.",
+        "Slow-wave sleep is the only phase that contributes to learning.",
+        "Dreams have no measurable effect on the way the brain stores information."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that sleep is not a passive pause but an active phase of memory consolidation, and it shows that REM and slow-wave sleep contribute different functions to that work.",
+      "wrongReasons": [
+        "The passage contradicts this directly — much of consolidation occurs during sleep.",
+        "Slow-wave sleep is described as one important stage, not the only contributor.",
+        "REM sleep, which is associated with dreaming, is shown to play a role in integrating memories with prior knowledge."
+      ],
+      "passage": {
+        "id": "rsim03-passage",
+        "title": "What Sleep Does for Memory",
+        "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+      }
+    },
+    {
+      "id": "rsim03-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what happens in the brain during slow-wave sleep?",
+      "choices": [
+        "The hippocampus is inactive and recovers from the day.",
+        "The cortex shuts down most networks to conserve energy.",
+        "The hippocampus replays sequences of recently activated neurons while slow-frequency activity sweeps through the cortex.",
+        "Vivid dream imagery dominates as the brain integrates new information with old."
+      ],
+      "answer": 2,
+      "explanation": "The second paragraph describes exactly this: low-frequency activity sweeps the cortex while the hippocampus replays neuron sequences from recent experience.",
+      "wrongReasons": [
+        "The opposite is true — the hippocampus is highly active and replaying experiences.",
+        "The passage rejects the idea that the brain merely shuts down during sleep.",
+        "Vivid imagery is associated with REM sleep, not slow-wave sleep."
+      ],
+      "passage": {
+        "id": "rsim03-passage",
+        "title": "What Sleep Does for Memory",
+        "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+      }
+    },
+    {
+      "id": "rsim03-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which conclusion is most strongly supported by the passage?",
+      "choices": [
+        "Cutting sleep to study more is an effective long-term strategy for difficult subjects.",
+        "Slow-wave sleep is irrelevant to recall of factual material.",
+        "A student who consistently sleeps less than they need will retain less, no matter how many extra waking hours they study.",
+        "Vivid dreams disrupt the consolidation of newly learned material."
+      ],
+      "answer": 2,
+      "explanation": "The final paragraph states that chronic sleep loss impairs consolidation 'regardless of how much waking effort the learner invests,' which is exactly the conclusion offered.",
+      "wrongReasons": [
+        "The passage argues the opposite — sacrificing sleep undermines retention.",
+        "The passage attributes a key role to slow-wave sleep precisely because it strengthens factual traces.",
+        "Vivid dreams are associated with REM sleep, which the passage credits with integrating new material — not with disrupting it."
+      ],
+      "passage": {
+        "id": "rsim03-passage",
+        "title": "What Sleep Does for Memory",
+        "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+      }
+    },
+    {
+      "id": "rsim03-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the first paragraph, the word \"sifted\" most nearly means:",
+      "choices": [
+        "selectively sorted",
+        "forgotten",
+        "physically moved",
+        "loudly broadcast"
+      ],
+      "answer": 0,
+      "explanation": "In context, the brain 'sifts' experiences — that is, sorts through them and selects what to retain. 'Selectively sorted' is the closest fit.",
+      "wrongReasons": [
+        "Sifting is not the same as forgetting; the passage describes it as a step toward consolidation.",
+        "Nothing is physically moved; the term is used metaphorically.",
+        "Broadcast is unrelated to the meaning intended here."
+      ],
+      "passage": {
+        "id": "rsim03-passage",
+        "title": "What Sleep Does for Memory",
+        "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+      }
+    },
+    {
+      "id": "rsim03-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What role does the second paragraph play in the overall argument of the passage?",
+      "choices": [
+        "It provides a counterexample that challenges the claim of the first paragraph.",
+        "It supplies the biological mechanism that supports the claim that sleep actively consolidates memory.",
+        "It introduces an unrelated topic to broaden the discussion.",
+        "It concludes the passage by summarizing the practical implications for students."
+      ],
+      "answer": 1,
+      "explanation": "After paragraph 1 makes the general claim that sleep is an active consolidation phase, paragraph 2 explains how — describing slow-wave and REM sleep — so it functions as the mechanistic support for the claim.",
+      "wrongReasons": [
+        "It is not a counterexample; it strengthens, not weakens, paragraph 1.",
+        "The topic is the same — what happens in the brain during sleep — so it is not unrelated.",
+        "Concluding implications appear in paragraph 3, not paragraph 2."
+      ],
+      "passage": {
+        "id": "rsim03-passage",
+        "title": "What Sleep Does for Memory",
+        "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+      }
+    },
+
+    {
+      "id": "rsim04-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Linear perspective is a mathematical curiosity with no real impact on art history.",
+        "The Renaissance development of linear perspective transformed painting into a discipline grounded in geometry as much as in craft.",
+        "All medieval paintings used careful perspective, but the technique was forgotten in the Renaissance.",
+        "Linear perspective was invented in northern Europe and only later spread to Italy."
+      ],
+      "answer": 1,
+      "explanation": "The passage argues that linear perspective, formalized in the early fifteenth century in Florence, gave painters a geometric basis for depicting space, fundamentally changing the discipline.",
+      "wrongReasons": [
+        "The passage takes the opposite view — perspective profoundly changed art.",
+        "The passage describes medieval painting as relying on conventions other than geometric perspective.",
+        "The passage locates the formal development in Florence, not in northern Europe."
+      ],
+      "passage": {
+        "id": "rsim04-passage",
+        "title": "How Linear Perspective Reshaped Painting",
+        "body": "Before the early fifteenth century, European painters represented space mainly through convention. Important figures were drawn larger than less important ones, distant objects were stacked above nearer ones, and overlapping shapes suggested rough depth. The result could be beautiful, but it was rarely meant to imitate how a scene actually appeared to the eye.\n\nThis began to change in Florence, where the architect Filippo Brunelleschi formalized a procedure now known as linear perspective. By choosing a single point on the horizon — the vanishing point — and drawing receding edges so that they converge upon it, a painter could project a three-dimensional scene onto a flat surface with measurable accuracy. Leon Battista Alberti soon codified the technique in a short treatise, and within a generation painters across Italy were treating the picture plane as a transparent window opening onto a calculated world.\n\nThe consequences went well beyond optical realism. Because perspective made every painted object's apparent size mathematically dependent on its distance, it forced painters to think like geometers, planning the floor tiles, columns, and architecture of a scene long before any figure was added. It also subtly changed the viewer's role: a perspectival painting assumes a single, fixed vantage point, drawing the audience into a precise position rather than offering a flexible symbolic display. Later periods would experiment with multiple viewpoints and deliberate distortions, but they did so in dialogue with — and in reaction against — the rigorous spatial framework that the Renaissance had inherited from a single small city's workshops."
+      }
+    },
+    {
+      "id": "rsim04-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, who formalized the procedure of linear perspective?",
+      "choices": [
+        "Leon Battista Alberti, in a treatise published in northern Europe.",
+        "An anonymous group of medieval craftsmen.",
+        "Filippo Brunelleschi, working in Florence.",
+        "Painters working independently across several Italian cities."
+      ],
+      "answer": 2,
+      "explanation": "The second paragraph states explicitly that Brunelleschi, working in Florence, formalized the procedure that came to be called linear perspective.",
+      "wrongReasons": [
+        "Alberti codified the technique in a treatise after Brunelleschi formalized it; the treatise was Italian, not northern European.",
+        "The passage attributes the formal development to a named individual, not to anonymous craftsmen.",
+        "It describes one originating workshop, then spread across Italy — not parallel independent development."
+      ],
+      "passage": {
+        "id": "rsim04-passage",
+        "title": "How Linear Perspective Reshaped Painting",
+        "body": "Before the early fifteenth century, European painters represented space mainly through convention. Important figures were drawn larger than less important ones, distant objects were stacked above nearer ones, and overlapping shapes suggested rough depth. The result could be beautiful, but it was rarely meant to imitate how a scene actually appeared to the eye.\n\nThis began to change in Florence, where the architect Filippo Brunelleschi formalized a procedure now known as linear perspective. By choosing a single point on the horizon — the vanishing point — and drawing receding edges so that they converge upon it, a painter could project a three-dimensional scene onto a flat surface with measurable accuracy. Leon Battista Alberti soon codified the technique in a short treatise, and within a generation painters across Italy were treating the picture plane as a transparent window opening onto a calculated world.\n\nThe consequences went well beyond optical realism. Because perspective made every painted object's apparent size mathematically dependent on its distance, it forced painters to think like geometers, planning the floor tiles, columns, and architecture of a scene long before any figure was added. It also subtly changed the viewer's role: a perspectival painting assumes a single, fixed vantage point, drawing the audience into a precise position rather than offering a flexible symbolic display. Later periods would experiment with multiple viewpoints and deliberate distortions, but they did so in dialogue with — and in reaction against — the rigorous spatial framework that the Renaissance had inherited from a single small city's workshops."
+      }
+    },
+    {
+      "id": "rsim04-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about modern art movements that use multiple viewpoints?",
+      "choices": [
+        "They were the original source of the techniques later adopted in the Renaissance.",
+        "They develop in relation to the spatial conventions established by Renaissance perspective.",
+        "They have no connection to the geometric tradition of perspective.",
+        "They prove that Renaissance painters did not actually use perspective."
+      ],
+      "answer": 1,
+      "explanation": "The passage's last sentence explicitly says later periods experimented with multiple viewpoints 'in dialogue with — and in reaction against — the rigorous spatial framework' of the Renaissance, supporting this inference.",
+      "wrongReasons": [
+        "The chronology in the passage is the reverse: perspective came first, multi-viewpoint experiments later.",
+        "The passage explicitly ties later experiments to perspective, so they are connected, not unrelated.",
+        "Renaissance use of perspective is treated as fact throughout the passage."
+      ],
+      "passage": {
+        "id": "rsim04-passage",
+        "title": "How Linear Perspective Reshaped Painting",
+        "body": "Before the early fifteenth century, European painters represented space mainly through convention. Important figures were drawn larger than less important ones, distant objects were stacked above nearer ones, and overlapping shapes suggested rough depth. The result could be beautiful, but it was rarely meant to imitate how a scene actually appeared to the eye.\n\nThis began to change in Florence, where the architect Filippo Brunelleschi formalized a procedure now known as linear perspective. By choosing a single point on the horizon — the vanishing point — and drawing receding edges so that they converge upon it, a painter could project a three-dimensional scene onto a flat surface with measurable accuracy. Leon Battista Alberti soon codified the technique in a short treatise, and within a generation painters across Italy were treating the picture plane as a transparent window opening onto a calculated world.\n\nThe consequences went well beyond optical realism. Because perspective made every painted object's apparent size mathematically dependent on its distance, it forced painters to think like geometers, planning the floor tiles, columns, and architecture of a scene long before any figure was added. It also subtly changed the viewer's role: a perspectival painting assumes a single, fixed vantage point, drawing the audience into a precise position rather than offering a flexible symbolic display. Later periods would experiment with multiple viewpoints and deliberate distortions, but they did so in dialogue with — and in reaction against — the rigorous spatial framework that the Renaissance had inherited from a single small city's workshops."
+      }
+    },
+    {
+      "id": "rsim04-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the phrase \"think like geometers\" most nearly means:",
+      "choices": [
+        "decorate scenes with ornamental patterns",
+        "plan the spatial structure of a painting with mathematical precision",
+        "abandon any concern with proportion or measurement",
+        "imitate the brushstrokes of earlier masters"
+      ],
+      "answer": 1,
+      "explanation": "In context, the phrase describes how painters had to lay out floors, columns and architecture mathematically before adding figures — i.e., plan spatial structure with precision.",
+      "wrongReasons": [
+        "Ornamental decoration is not what geometric thinking implies in this passage.",
+        "The opposite — they had to take measurement and proportion very seriously.",
+        "Imitating brushwork is unrelated to the geometric planning the passage describes."
+      ],
+      "passage": {
+        "id": "rsim04-passage",
+        "title": "How Linear Perspective Reshaped Painting",
+        "body": "Before the early fifteenth century, European painters represented space mainly through convention. Important figures were drawn larger than less important ones, distant objects were stacked above nearer ones, and overlapping shapes suggested rough depth. The result could be beautiful, but it was rarely meant to imitate how a scene actually appeared to the eye.\n\nThis began to change in Florence, where the architect Filippo Brunelleschi formalized a procedure now known as linear perspective. By choosing a single point on the horizon — the vanishing point — and drawing receding edges so that they converge upon it, a painter could project a three-dimensional scene onto a flat surface with measurable accuracy. Leon Battista Alberti soon codified the technique in a short treatise, and within a generation painters across Italy were treating the picture plane as a transparent window opening onto a calculated world.\n\nThe consequences went well beyond optical realism. Because perspective made every painted object's apparent size mathematically dependent on its distance, it forced painters to think like geometers, planning the floor tiles, columns, and architecture of a scene long before any figure was added. It also subtly changed the viewer's role: a perspectival painting assumes a single, fixed vantage point, drawing the audience into a precise position rather than offering a flexible symbolic display. Later periods would experiment with multiple viewpoints and deliberate distortions, but they did so in dialogue with — and in reaction against — the rigorous spatial framework that the Renaissance had inherited from a single small city's workshops."
+      }
+    },
+    {
+      "id": "rsim04-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the main purpose of the first paragraph?",
+      "choices": [
+        "To list the technical tools available to medieval painters.",
+        "To establish the pre-Renaissance state of pictorial space as a baseline against which the Renaissance shift can be measured.",
+        "To argue that medieval painting was artistically inferior to Renaissance work.",
+        "To trace the influence of ancient Roman painting on the early Renaissance."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 sketches the conventions painters used before perspective so that paragraph 2's shift is meaningful. It functions as a baseline, not a value judgment.",
+      "wrongReasons": [
+        "The paragraph is about conventions of representation, not a list of tools.",
+        "The passage explicitly notes that pre-perspectival paintings could be beautiful, so it does not argue inferiority.",
+        "Roman influence is not discussed in the passage."
+      ],
+      "passage": {
+        "id": "rsim04-passage",
+        "title": "How Linear Perspective Reshaped Painting",
+        "body": "Before the early fifteenth century, European painters represented space mainly through convention. Important figures were drawn larger than less important ones, distant objects were stacked above nearer ones, and overlapping shapes suggested rough depth. The result could be beautiful, but it was rarely meant to imitate how a scene actually appeared to the eye.\n\nThis began to change in Florence, where the architect Filippo Brunelleschi formalized a procedure now known as linear perspective. By choosing a single point on the horizon — the vanishing point — and drawing receding edges so that they converge upon it, a painter could project a three-dimensional scene onto a flat surface with measurable accuracy. Leon Battista Alberti soon codified the technique in a short treatise, and within a generation painters across Italy were treating the picture plane as a transparent window opening onto a calculated world.\n\nThe consequences went well beyond optical realism. Because perspective made every painted object's apparent size mathematically dependent on its distance, it forced painters to think like geometers, planning the floor tiles, columns, and architecture of a scene long before any figure was added. It also subtly changed the viewer's role: a perspectival painting assumes a single, fixed vantage point, drawing the audience into a precise position rather than offering a flexible symbolic display. Later periods would experiment with multiple viewpoints and deliberate distortions, but they did so in dialogue with — and in reaction against — the rigorous spatial framework that the Renaissance had inherited from a single small city's workshops."
+      }
+    },
+
+    {
+      "id": "rsim05-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "What is the main idea of the passage?",
+      "choices": [
+        "Plate tectonics was an obvious theory that scientists accepted as soon as it was proposed.",
+        "Continental drift was originally rejected for lack of a plausible mechanism, but mid-twentieth-century evidence from the ocean floor turned it into the accepted theory of plate tectonics.",
+        "Volcanoes provide the only convincing evidence for the motion of continents.",
+        "Plate tectonics is still a controversial hypothesis with little empirical support."
+      ],
+      "answer": 1,
+      "explanation": "The passage traces the path from Wegener's rejected idea to the discovery of sea-floor spreading and magnetic stripes, which together supplied the missing mechanism and turned drift into the accepted theory.",
+      "wrongReasons": [
+        "The passage opens with how the idea was initially rejected, contradicting this option.",
+        "Volcanoes are mentioned only in passing; sea-floor evidence is described as decisive.",
+        "The passage treats plate tectonics as a well-established framework, not a contested hypothesis."
+      ],
+      "passage": {
+        "id": "rsim05-passage",
+        "title": "From Continental Drift to Plate Tectonics",
+        "body": "In 1912 the German meteorologist Alfred Wegener noticed that the coastlines of South America and Africa appeared to interlock, that similar fossils were found on continents now separated by oceans, and that bands of identical rocks stretched across mountain ranges on opposite sides of the Atlantic. He proposed that the continents had once been joined and had slowly drifted apart. The scientific community received the idea politely and then rejected it. Wegener could not say what force could possibly move whole continents through solid rock, and without a mechanism his correlations looked like coincidences.\n\nThe missing piece arrived from an unexpected place: the floor of the ocean. After the Second World War, sonar surveys revealed a continuous chain of underwater mountains running down the middle of the Atlantic and other oceans. Drill samples showed that the rocks on either side of these ridges were strikingly young, with age increasing symmetrically as one moved away from the crest. Even more striking, the magnetic minerals frozen into these rocks formed mirror-image bands recording successive reversals of Earth's magnetic field. The simplest explanation was that new sea floor was being produced at the ridges and spreading outward in both directions.\n\nOnce sea-floor spreading was accepted, the rest of the theory followed quickly. The Earth's outer shell was understood to consist of rigid plates, slowly carried by convection currents in the hotter mantle below. Earthquakes, volcanic chains, and mountain belts traced the boundaries where plates pulled apart, slid past, or collided. What had looked to Wegener's contemporaries like an unsupported speculation became, within two decades, the unifying framework of modern geology — not because the original observations had changed, but because a credible engine for the movement had finally been found."
+      }
+    },
+    {
+      "id": "rsim05-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, why was Wegener's idea initially rejected?",
+      "choices": [
+        "His correlations between continents were proven to be coincidences.",
+        "He could not provide a physical mechanism that could move continents through solid rock.",
+        "The scientific community had not yet read his proposal.",
+        "Better explanations of the matching coastlines had already been published."
+      ],
+      "answer": 1,
+      "explanation": "The first paragraph explicitly states that Wegener 'could not say what force could possibly move whole continents,' and that without a mechanism his correlations looked like coincidences.",
+      "wrongReasons": [
+        "The passage says they 'looked like' coincidences for lack of a mechanism — not that they were proven to be.",
+        "The passage says the community received and then rejected the idea, so it was read.",
+        "No competing explanation is mentioned."
+      ],
+      "passage": {
+        "id": "rsim05-passage",
+        "title": "From Continental Drift to Plate Tectonics",
+        "body": "In 1912 the German meteorologist Alfred Wegener noticed that the coastlines of South America and Africa appeared to interlock, that similar fossils were found on continents now separated by oceans, and that bands of identical rocks stretched across mountain ranges on opposite sides of the Atlantic. He proposed that the continents had once been joined and had slowly drifted apart. The scientific community received the idea politely and then rejected it. Wegener could not say what force could possibly move whole continents through solid rock, and without a mechanism his correlations looked like coincidences.\n\nThe missing piece arrived from an unexpected place: the floor of the ocean. After the Second World War, sonar surveys revealed a continuous chain of underwater mountains running down the middle of the Atlantic and other oceans. Drill samples showed that the rocks on either side of these ridges were strikingly young, with age increasing symmetrically as one moved away from the crest. Even more striking, the magnetic minerals frozen into these rocks formed mirror-image bands recording successive reversals of Earth's magnetic field. The simplest explanation was that new sea floor was being produced at the ridges and spreading outward in both directions.\n\nOnce sea-floor spreading was accepted, the rest of the theory followed quickly. The Earth's outer shell was understood to consist of rigid plates, slowly carried by convection currents in the hotter mantle below. Earthquakes, volcanic chains, and mountain belts traced the boundaries where plates pulled apart, slid past, or collided. What had looked to Wegener's contemporaries like an unsupported speculation became, within two decades, the unifying framework of modern geology — not because the original observations had changed, but because a credible engine for the movement had finally been found."
+      }
+    },
+    {
+      "id": "rsim05-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about the magnetic stripes found on the ocean floor?",
+      "choices": [
+        "They prove that the Earth's magnetic field has never reversed.",
+        "They support the idea that new ocean floor is generated at mid-ocean ridges and spreads outward.",
+        "They show that continents are stationary.",
+        "They were predicted by Wegener in his original 1912 proposal."
+      ],
+      "answer": 1,
+      "explanation": "The mirror-image magnetic bands flanking the ridges, taken together with the symmetrical age pattern, are presented as evidence that new floor is generated at the ridge and moves outward in both directions.",
+      "wrongReasons": [
+        "The passage states the opposite — the stripes record reversals of the magnetic field.",
+        "The stripes are used to support the idea that the floor moves, which contradicts stationary continents.",
+        "Wegener's original work predates sonar surveys and did not predict these magnetic patterns."
+      ],
+      "passage": {
+        "id": "rsim05-passage",
+        "title": "From Continental Drift to Plate Tectonics",
+        "body": "In 1912 the German meteorologist Alfred Wegener noticed that the coastlines of South America and Africa appeared to interlock, that similar fossils were found on continents now separated by oceans, and that bands of identical rocks stretched across mountain ranges on opposite sides of the Atlantic. He proposed that the continents had once been joined and had slowly drifted apart. The scientific community received the idea politely and then rejected it. Wegener could not say what force could possibly move whole continents through solid rock, and without a mechanism his correlations looked like coincidences.\n\nThe missing piece arrived from an unexpected place: the floor of the ocean. After the Second World War, sonar surveys revealed a continuous chain of underwater mountains running down the middle of the Atlantic and other oceans. Drill samples showed that the rocks on either side of these ridges were strikingly young, with age increasing symmetrically as one moved away from the crest. Even more striking, the magnetic minerals frozen into these rocks formed mirror-image bands recording successive reversals of Earth's magnetic field. The simplest explanation was that new sea floor was being produced at the ridges and spreading outward in both directions.\n\nOnce sea-floor spreading was accepted, the rest of the theory followed quickly. The Earth's outer shell was understood to consist of rigid plates, slowly carried by convection currents in the hotter mantle below. Earthquakes, volcanic chains, and mountain belts traced the boundaries where plates pulled apart, slid past, or collided. What had looked to Wegener's contemporaries like an unsupported speculation became, within two decades, the unifying framework of modern geology — not because the original observations had changed, but because a credible engine for the movement had finally been found."
+      }
+    },
+    {
+      "id": "rsim05-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the final paragraph, the word \"engine\" most nearly means:",
+      "choices": [
+        "a noisy mechanical device",
+        "a driving cause or mechanism",
+        "a piece of laboratory equipment",
+        "a published scientific paper"
+      ],
+      "answer": 1,
+      "explanation": "Here 'engine' is metaphorical: the passage means that researchers finally identified a driving cause for continental motion, namely convection moving the plates.",
+      "wrongReasons": [
+        "The word is used metaphorically, not literally.",
+        "No laboratory equipment is described in this sentence.",
+        "A scientific paper is not what 'engine' refers to in this context."
+      ],
+      "passage": {
+        "id": "rsim05-passage",
+        "title": "From Continental Drift to Plate Tectonics",
+        "body": "In 1912 the German meteorologist Alfred Wegener noticed that the coastlines of South America and Africa appeared to interlock, that similar fossils were found on continents now separated by oceans, and that bands of identical rocks stretched across mountain ranges on opposite sides of the Atlantic. He proposed that the continents had once been joined and had slowly drifted apart. The scientific community received the idea politely and then rejected it. Wegener could not say what force could possibly move whole continents through solid rock, and without a mechanism his correlations looked like coincidences.\n\nThe missing piece arrived from an unexpected place: the floor of the ocean. After the Second World War, sonar surveys revealed a continuous chain of underwater mountains running down the middle of the Atlantic and other oceans. Drill samples showed that the rocks on either side of these ridges were strikingly young, with age increasing symmetrically as one moved away from the crest. Even more striking, the magnetic minerals frozen into these rocks formed mirror-image bands recording successive reversals of Earth's magnetic field. The simplest explanation was that new sea floor was being produced at the ridges and spreading outward in both directions.\n\nOnce sea-floor spreading was accepted, the rest of the theory followed quickly. The Earth's outer shell was understood to consist of rigid plates, slowly carried by convection currents in the hotter mantle below. Earthquakes, volcanic chains, and mountain belts traced the boundaries where plates pulled apart, slid past, or collided. What had looked to Wegener's contemporaries like an unsupported speculation became, within two decades, the unifying framework of modern geology — not because the original observations had changed, but because a credible engine for the movement had finally been found."
+      }
+    },
+    {
+      "id": "rsim05-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What broader point about how scientific theories gain acceptance does the passage illustrate?",
+      "choices": [
+        "Empirical correlations are by themselves usually enough to win acceptance for a new theory.",
+        "Theories often need a credible mechanism, not just supporting correlations, before the wider community will accept them.",
+        "Mid-twentieth-century geology was uniquely hostile to new ideas.",
+        "Scientific theories are accepted when they are politically convenient."
+      ],
+      "answer": 1,
+      "explanation": "The last sentence underlines that the same observations were available all along; what changed was the discovery of a credible engine for motion. This illustrates the broader point that mechanisms matter as much as correlations.",
+      "wrongReasons": [
+        "The Wegener story is precisely a counterexample to this; correlations alone were not enough.",
+        "The passage does not single out geology as uniquely hostile; the story is presented as a general pattern.",
+        "Political convenience is not discussed."
+      ],
+      "passage": {
+        "id": "rsim05-passage",
+        "title": "From Continental Drift to Plate Tectonics",
+        "body": "In 1912 the German meteorologist Alfred Wegener noticed that the coastlines of South America and Africa appeared to interlock, that similar fossils were found on continents now separated by oceans, and that bands of identical rocks stretched across mountain ranges on opposite sides of the Atlantic. He proposed that the continents had once been joined and had slowly drifted apart. The scientific community received the idea politely and then rejected it. Wegener could not say what force could possibly move whole continents through solid rock, and without a mechanism his correlations looked like coincidences.\n\nThe missing piece arrived from an unexpected place: the floor of the ocean. After the Second World War, sonar surveys revealed a continuous chain of underwater mountains running down the middle of the Atlantic and other oceans. Drill samples showed that the rocks on either side of these ridges were strikingly young, with age increasing symmetrically as one moved away from the crest. Even more striking, the magnetic minerals frozen into these rocks formed mirror-image bands recording successive reversals of Earth's magnetic field. The simplest explanation was that new sea floor was being produced at the ridges and spreading outward in both directions.\n\nOnce sea-floor spreading was accepted, the rest of the theory followed quickly. The Earth's outer shell was understood to consist of rigid plates, slowly carried by convection currents in the hotter mantle below. Earthquakes, volcanic chains, and mountain belts traced the boundaries where plates pulled apart, slid past, or collided. What had looked to Wegener's contemporaries like an unsupported speculation became, within two decades, the unifying framework of modern geology — not because the original observations had changed, but because a credible engine for the movement had finally been found."
+      }
+    }
+  ]
+}

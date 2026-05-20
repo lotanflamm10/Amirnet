@@ -2,6 +2,9 @@
 import { useState } from "react";
 import type { SectionConfig } from "@/lib/simulation/simulation-config";
 import type { Question } from "@/types/questions";
+import { useLang } from "@/contexts/LanguageContext";
+import { sectionDisplayLabel } from "@/lib/simulation/section-labels";
+import { renderBlanks } from "@/lib/practice/render-blanks";
 
 interface Props {
   sections: SectionConfig[];
@@ -13,6 +16,7 @@ interface Props {
 export function SimulationReview({ sections, allSectionQuestions, sectionAnswers, onDone }: Props) {
   const [sectionIdx, setSectionIdx] = useState(0);
   const [questionIdx, setQuestionIdx] = useState(0);
+  const { t, lang } = useLang();
 
   const section   = sections[sectionIdx];
   const sectionId = section?.id ?? "";
@@ -53,9 +57,9 @@ export function SimulationReview({ sections, allSectionQuestions, sectionAnswers
       {/* Header */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <h2 style={{ fontFamily: "var(--font-display)", fontSize: "1.15rem", fontWeight: 700, color: "var(--ink)", margin: 0 }}>
-          סקירת תשובות
+          {t.simulation.reviewTitle}
         </h2>
-        <button className="btn btn-ghost btn-sm" onClick={onDone}>← חזרה לתוצאות</button>
+        <button className="btn btn-ghost btn-sm" onClick={onDone}>{t.simulation.reviewBackToResults}</button>
       </div>
 
       {/* Section tabs */}
@@ -77,8 +81,8 @@ export function SimulationReview({ sections, allSectionQuestions, sectionAnswers
                 fontSize: "0.78rem", fontWeight: 600,
               }}
             >
-              {sec.label}
-              <span style={{ marginRight: "0.35rem", opacity: 0.7, fontWeight: 400 }}>
+              {sectionDisplayLabel(sec, sections, t, lang)}
+              <span style={{ marginInlineStart: "0.35rem", opacity: 0.7, fontWeight: 400 }}>
                 ({correct}/{secQs.length})
               </span>
             </button>
@@ -125,7 +129,7 @@ export function SimulationReview({ sections, allSectionQuestions, sectionAnswers
             </div>
           )}
           <p className="ltr-content" style={{ fontSize: "0.9rem", lineHeight: 1.75, color: "var(--ink-soft)", margin: 0 }}>
-            {question.passage.body}
+            {renderBlanks(question.passage.body)}
           </p>
         </div>
       )}
@@ -133,16 +137,20 @@ export function SimulationReview({ sections, allSectionQuestions, sectionAnswers
       {/* Question */}
       <div className="card" style={{ padding: "1.5rem" }}>
         <div style={{ fontSize: "0.75rem", color: "var(--ink-muted)", marginBottom: "0.75rem", display: "flex", gap: "0.5rem", alignItems: "center", flexWrap: "wrap" }}>
-          <span>שאלה {questionIdx + 1} מתוך {questions.length}</span>
-          {!wasAnswered && <span style={{ color: "var(--warn)", fontWeight: 600 }}>• לא נענתה</span>}
+          <span>
+            {t.simulation.reviewQuestionOf
+              .replace("{n}", String(questionIdx + 1))
+              .replace("{total}", String(questions.length))}
+          </span>
+          {!wasAnswered && <span style={{ color: "var(--warn)", fontWeight: 600 }}>{t.simulation.reviewUnanswered}</span>}
           {wasAnswered && (
             <span style={{ color: isCorrect ? "var(--success)" : "var(--danger)", fontWeight: 600 }}>
-              • {isCorrect ? "✓ נכון" : "✗ שגוי"}
+              • {isCorrect ? t.simulation.reviewCorrect : t.simulation.reviewWrong}
             </span>
           )}
         </div>
         <p className="ltr-content" style={{ fontSize: "1rem", lineHeight: 1.7, color: "var(--ink)", margin: 0 }}>
-          {question.text}
+          {renderBlanks(question.text)}
         </p>
       </div>
 
@@ -178,8 +186,16 @@ export function SimulationReview({ sections, allSectionQuestions, sectionAnswers
                 {["A","B","C","D"][idx]}
               </span>
               <span className="ltr-content" style={{ flex: 1 }}>{choice}</span>
-              {isCorrectChoice && <span style={{ fontSize: "0.72rem", fontWeight: 700, whiteSpace: "nowrap" }}>✓ Correct</span>}
-              {isChosen && !isCorrect && <span style={{ fontSize: "0.72rem", fontWeight: 700, whiteSpace: "nowrap" }}>✗ Your answer</span>}
+              {isCorrectChoice && (
+                <span style={{ fontSize: "0.72rem", fontWeight: 700, whiteSpace: "nowrap" }}>
+                  ✓ {t.simulation.reviewCorrectMark}
+                </span>
+              )}
+              {isChosen && !isCorrect && (
+                <span style={{ fontSize: "0.72rem", fontWeight: 700, whiteSpace: "nowrap" }}>
+                  ✗ {t.simulation.reviewYourAnswer}
+                </span>
+              )}
             </div>
           );
         })}
@@ -189,7 +205,7 @@ export function SimulationReview({ sections, allSectionQuestions, sectionAnswers
       {question.explanation && (
         <div style={{ padding: "0.875rem 1rem", borderRadius: 8, background: "var(--raised)", border: "1px solid var(--line)" }}>
           <div style={{ fontSize: "0.72rem", fontWeight: 700, color: "var(--ink-muted)", marginBottom: "0.4rem", textTransform: "uppercase", letterSpacing: "0.05em" }}>
-            הסבר / Explanation
+            {t.simulation.reviewExplanation}
           </div>
           <p className="ltr-content" style={{ fontSize: "0.875rem", color: "var(--ink-soft)", margin: 0, lineHeight: 1.6 }}>
             {question.explanation}
@@ -199,8 +215,8 @@ export function SimulationReview({ sections, allSectionQuestions, sectionAnswers
 
       {/* Navigation */}
       <div style={{ display: "flex", justifyContent: "space-between", direction: "ltr" }}>
-        <button className="btn btn-ghost btn-sm" disabled={isFirst} onClick={goPrev}>← Prev</button>
-        <button className="btn btn-ghost btn-sm" disabled={isLast} onClick={goNext}>Next →</button>
+        <button className="btn btn-ghost btn-sm" disabled={isFirst} onClick={goPrev}>{t.simulation.btnPrev}</button>
+        <button className="btn btn-ghost btn-sm" disabled={isLast} onClick={goNext}>{t.simulation.btnNext}</button>
       </div>
     </div>
   );

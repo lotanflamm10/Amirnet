@@ -1,0 +1,608 @@
+{
+  "reading": [
+    {
+      "id": "rsim21-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Humans treat gains and losses symmetrically when making decisions.",
+        "The psychological asymmetry between losses and gains, called loss aversion, shapes a wide range of decisions and can be used both to explain behavior and, occasionally, to manipulate it.",
+        "Money is the only thing people treat asymmetrically.",
+        "Loss aversion is a recent invention of behavioral economists."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains loss aversion as a robust psychological asymmetry, surveys its effects across markets, sports and policy, and notes that the same asymmetry can be exploited or harnessed.",
+      "wrongReasons": [
+        "The passage argues the opposite — losses loom larger than gains.",
+        "Loss aversion is shown to operate beyond money — in sports, ownership of objects, and other domains.",
+        "The phenomenon is described as long studied, not newly invented."
+      ],
+      "passage": {
+        "id": "rsim21-passage",
+        "title": "Why Losses Feel Larger Than Gains",
+        "body": "If you offer a person a coin flip in which heads wins a hundred shekels and tails loses a hundred, most will refuse the bet. The expected monetary value is zero, but the imagined sting of losing a hundred shekels turns out to be larger than the imagined pleasure of winning the same amount. Daniel Kahneman and Amos Tversky formalized this pattern in the late 1970s and called it loss aversion. Carefully designed experiments since have suggested that, on average, a loss feels roughly twice as intense as an equivalent gain.\n\nThe asymmetry is more than a quirk of laboratory games. Investors hold on to declining stocks far longer than they would hold them if those losses were already realized, because selling makes the loss feel concrete. Homeowners list their houses for prices anchored to their original purchase price rather than to current market conditions. Even professional golfers, whose decisions are studied frame by frame on video, putt with measurably more care when their shot is for par — avoiding a bogey — than when it is for birdie, an equivalent stroke in raw scoring terms.\n\nLoss aversion is not a bug; it is a default of human cognition, and like any default it can be used or misused. Marketers exploit it by framing fees as discounts that customers might forgo. Policymakers use it constructively by structuring penalties for missed payments rather than rewards for on-time ones, on the assumption that the threat of loss is more motivating than the prospect of gain. Critics argue that such framings risk treating citizens as objects to be steered rather than reasons to be persuaded. Either way, recognizing loss aversion helps people notice when a choice that looks neutral has in fact been arranged to make one option feel more painful to refuse than to accept."
+      }
+    },
+    {
+      "id": "rsim21-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what unusual pattern have researchers observed in professional golfers?",
+      "choices": [
+        "They consistently putt better in cold weather than in warm weather.",
+        "They putt more carefully on shots that would prevent a bogey than on shots that would earn a birdie, even though the strokes count the same.",
+        "They never miss any putts longer than two meters.",
+        "They use larger putters when ahead than when behind."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 cites the golfer study exactly: more care on par putts (avoiding a loss) than on birdie putts (gaining a stroke), despite identical scoring impact.",
+      "wrongReasons": [
+        "Weather is not discussed.",
+        "The passage does not claim perfect performance.",
+        "Putter size is not mentioned."
+      ],
+      "passage": {
+        "id": "rsim21-passage",
+        "title": "Why Losses Feel Larger Than Gains",
+        "body": "If you offer a person a coin flip in which heads wins a hundred shekels and tails loses a hundred, most will refuse the bet. The expected monetary value is zero, but the imagined sting of losing a hundred shekels turns out to be larger than the imagined pleasure of winning the same amount. Daniel Kahneman and Amos Tversky formalized this pattern in the late 1970s and called it loss aversion. Carefully designed experiments since have suggested that, on average, a loss feels roughly twice as intense as an equivalent gain.\n\nThe asymmetry is more than a quirk of laboratory games. Investors hold on to declining stocks far longer than they would hold them if those losses were already realized, because selling makes the loss feel concrete. Homeowners list their houses for prices anchored to their original purchase price rather than to current market conditions. Even professional golfers, whose decisions are studied frame by frame on video, putt with measurably more care when their shot is for par — avoiding a bogey — than when it is for birdie, an equivalent stroke in raw scoring terms.\n\nLoss aversion is not a bug; it is a default of human cognition, and like any default it can be used or misused. Marketers exploit it by framing fees as discounts that customers might forgo. Policymakers use it constructively by structuring penalties for missed payments rather than rewards for on-time ones, on the assumption that the threat of loss is more motivating than the prospect of gain. Critics argue that such framings risk treating citizens as objects to be steered rather than reasons to be persuaded. Either way, recognizing loss aversion helps people notice when a choice that looks neutral has in fact been arranged to make one option feel more painful to refuse than to accept."
+      }
+    },
+    {
+      "id": "rsim21-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about policy design?",
+      "choices": [
+        "Penalties are always more humane than rewards.",
+        "Penalties for non-compliance can be more behaviorally powerful than equivalent rewards for compliance, although this raises ethical questions about steering citizens.",
+        "Rewards never change behavior.",
+        "Loss aversion has no implications for policy."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph notes that loss-framed penalties are often more motivating than gain-framed rewards but flags the ethical critique that this risks treating citizens as objects to be steered.",
+      "wrongReasons": [
+        "The passage does not claim penalties are more humane; only more motivating, and it questions the ethics.",
+        "Rewards are not described as ineffective in general.",
+        "The passage applies loss aversion specifically to policy choices."
+      ],
+      "passage": {
+        "id": "rsim21-passage",
+        "title": "Why Losses Feel Larger Than Gains",
+        "body": "If you offer a person a coin flip in which heads wins a hundred shekels and tails loses a hundred, most will refuse the bet. The expected monetary value is zero, but the imagined sting of losing a hundred shekels turns out to be larger than the imagined pleasure of winning the same amount. Daniel Kahneman and Amos Tversky formalized this pattern in the late 1970s and called it loss aversion. Carefully designed experiments since have suggested that, on average, a loss feels roughly twice as intense as an equivalent gain.\n\nThe asymmetry is more than a quirk of laboratory games. Investors hold on to declining stocks far longer than they would hold them if those losses were already realized, because selling makes the loss feel concrete. Homeowners list their houses for prices anchored to their original purchase price rather than to current market conditions. Even professional golfers, whose decisions are studied frame by frame on video, putt with measurably more care when their shot is for par — avoiding a bogey — than when it is for birdie, an equivalent stroke in raw scoring terms.\n\nLoss aversion is not a bug; it is a default of human cognition, and like any default it can be used or misused. Marketers exploit it by framing fees as discounts that customers might forgo. Policymakers use it constructively by structuring penalties for missed payments rather than rewards for on-time ones, on the assumption that the threat of loss is more motivating than the prospect of gain. Critics argue that such framings risk treating citizens as objects to be steered rather than reasons to be persuaded. Either way, recognizing loss aversion helps people notice when a choice that looks neutral has in fact been arranged to make one option feel more painful to refuse than to accept."
+      }
+    },
+    {
+      "id": "rsim21-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the second paragraph, the word \"quirk\" most nearly means:",
+      "choices": [
+        "an unusual habit or peculiarity",
+        "a deliberate strategy",
+        "a precise calculation",
+        "an official rule"
+      ],
+      "answer": 0,
+      "explanation": "The passage uses 'quirk' to suggest the asymmetry might look like an oddity confined to a laboratory game, before arguing that it is in fact systematic and widespread.",
+      "wrongReasons": [
+        "Quirks are not deliberate strategies.",
+        "It is the opposite of a precise calculation.",
+        "It is not an official rule."
+      ],
+      "passage": {
+        "id": "rsim21-passage",
+        "title": "Why Losses Feel Larger Than Gains",
+        "body": "If you offer a person a coin flip in which heads wins a hundred shekels and tails loses a hundred, most will refuse the bet. The expected monetary value is zero, but the imagined sting of losing a hundred shekels turns out to be larger than the imagined pleasure of winning the same amount. Daniel Kahneman and Amos Tversky formalized this pattern in the late 1970s and called it loss aversion. Carefully designed experiments since have suggested that, on average, a loss feels roughly twice as intense as an equivalent gain.\n\nThe asymmetry is more than a quirk of laboratory games. Investors hold on to declining stocks far longer than they would hold them if those losses were already realized, because selling makes the loss feel concrete. Homeowners list their houses for prices anchored to their original purchase price rather than to current market conditions. Even professional golfers, whose decisions are studied frame by frame on video, putt with measurably more care when their shot is for par — avoiding a bogey — than when it is for birdie, an equivalent stroke in raw scoring terms.\n\nLoss aversion is not a bug; it is a default of human cognition, and like any default it can be used or misused. Marketers exploit it by framing fees as discounts that customers might forgo. Policymakers use it constructively by structuring penalties for missed payments rather than rewards for on-time ones, on the assumption that the threat of loss is more motivating than the prospect of gain. Critics argue that such framings risk treating citizens as objects to be steered rather than reasons to be persuaded. Either way, recognizing loss aversion helps people notice when a choice that looks neutral has in fact been arranged to make one option feel more painful to refuse than to accept."
+      }
+    },
+    {
+      "id": "rsim21-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the rhetorical function of the closing sentence of the passage?",
+      "choices": [
+        "To encourage readers to gamble more aggressively.",
+        "To prompt readers to recognize when an apparently neutral choice has been framed to exploit loss aversion.",
+        "To declare that all framings are equally manipulative.",
+        "To argue that citizens should never be persuaded by anyone."
+      ],
+      "answer": 1,
+      "explanation": "The closing sentence turns the analysis into a practical alert: noticing when a 'neutral' choice has been arranged so that one option feels more painful to refuse than to accept.",
+      "wrongReasons": [
+        "The passage gives no gambling advice.",
+        "It distinguishes between constructive and exploitative framings.",
+        "It does not reject persuasion in general."
+      ],
+      "passage": {
+        "id": "rsim21-passage",
+        "title": "Why Losses Feel Larger Than Gains",
+        "body": "If you offer a person a coin flip in which heads wins a hundred shekels and tails loses a hundred, most will refuse the bet. The expected monetary value is zero, but the imagined sting of losing a hundred shekels turns out to be larger than the imagined pleasure of winning the same amount. Daniel Kahneman and Amos Tversky formalized this pattern in the late 1970s and called it loss aversion. Carefully designed experiments since have suggested that, on average, a loss feels roughly twice as intense as an equivalent gain.\n\nThe asymmetry is more than a quirk of laboratory games. Investors hold on to declining stocks far longer than they would hold them if those losses were already realized, because selling makes the loss feel concrete. Homeowners list their houses for prices anchored to their original purchase price rather than to current market conditions. Even professional golfers, whose decisions are studied frame by frame on video, putt with measurably more care when their shot is for par — avoiding a bogey — than when it is for birdie, an equivalent stroke in raw scoring terms.\n\nLoss aversion is not a bug; it is a default of human cognition, and like any default it can be used or misused. Marketers exploit it by framing fees as discounts that customers might forgo. Policymakers use it constructively by structuring penalties for missed payments rather than rewards for on-time ones, on the assumption that the threat of loss is more motivating than the prospect of gain. Critics argue that such framings risk treating citizens as objects to be steered rather than reasons to be persuaded. Either way, recognizing loss aversion helps people notice when a choice that looks neutral has in fact been arranged to make one option feel more painful to refuse than to accept."
+      }
+    },
+
+    {
+      "id": "rsim22-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Vaccines were a controversial idea in the eighteenth century but unanimously accepted today.",
+        "Vaccination evolved from a risky empirical practice into one of the most reliable interventions in public health, but maintaining its benefits depends on trust as well as biology.",
+        "Edward Jenner discovered all known vaccines.",
+        "Smallpox was eradicated without vaccination."
+      ],
+      "answer": 1,
+      "explanation": "The passage traces the path from inoculation through vaccination, recognizes its public-health success, and explicitly notes that continued benefits depend on public trust.",
+      "wrongReasons": [
+        "The passage acknowledges ongoing public-trust challenges, not unanimity.",
+        "Jenner introduced cowpox-based vaccination, not all vaccines.",
+        "The passage explicitly credits vaccination with eradicating smallpox."
+      ],
+      "passage": {
+        "id": "rsim22-passage",
+        "title": "From Inoculation to the Modern Vaccine",
+        "body": "In eighteenth-century Europe, smallpox killed roughly one in three of the children it infected. The earliest defense was inoculation, an Ottoman practice in which material from a mild case was rubbed into a small wound. It often worked, but it sometimes produced a full-blown infection, and inoculated patients could spread the disease to others. Edward Jenner's 1796 experiment offered an alternative: he showed that inoculating with material from cowpox, a related but mild disease, protected against smallpox without producing the dangerous illness. The term \"vaccination\" — from the Latin word for cow — was coined for the new procedure.\n\nLouis Pasteur, working a century later, generalized the idea. Pasteur reasoned that the protective effect depended on exposure to a weakened or killed form of the pathogen itself rather than to a related disease. Working with rabies, anthrax, and chicken cholera, he produced laboratory strains that could be safely administered. From that point on, vaccination ceased to be a one-off discovery and became a research program. By the mid-twentieth century, vaccines against tetanus, diphtheria, polio, and measles had reduced the burden of those diseases in industrialized countries by more than ninety percent.\n\nDespite this record, vaccination has never been free of controversy. Side effects, although rare and usually mild, are immediate and visible, whereas the prevented diseases recede from public memory once they become uncommon. Outbreaks of measles in communities with falling vaccination rates show how quickly a forgotten disease can return when collective immunity slips even a few percentage points. Public-health agencies now treat trust as part of the intervention itself: transparent reporting of adverse events, clear communication of how vaccines are tested, and patient access to local clinicians who can answer questions tend to maintain coverage more reliably than mandates alone."
+      }
+    },
+    {
+      "id": "rsim22-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what made Jenner's procedure safer than earlier inoculation?",
+      "choices": [
+        "He used material from cowpox, a related but mild disease, instead of material from smallpox itself.",
+        "He vaccinated only children who had already had smallpox.",
+        "He invented sterile syringes for the first time.",
+        "He treated patients in fully isolated hospitals."
+      ],
+      "answer": 0,
+      "explanation": "The first paragraph contrasts Jenner's cowpox-based vaccination with the earlier smallpox-based inoculation, identifying the cross-species approach as the safety advance.",
+      "wrongReasons": [
+        "The passage does not say Jenner selected only previously infected children.",
+        "Sterile syringes are not what the passage credits with the change.",
+        "Isolated hospitals are not part of Jenner's contribution as described."
+      ],
+      "passage": {
+        "id": "rsim22-passage",
+        "title": "From Inoculation to the Modern Vaccine",
+        "body": "In eighteenth-century Europe, smallpox killed roughly one in three of the children it infected. The earliest defense was inoculation, an Ottoman practice in which material from a mild case was rubbed into a small wound. It often worked, but it sometimes produced a full-blown infection, and inoculated patients could spread the disease to others. Edward Jenner's 1796 experiment offered an alternative: he showed that inoculating with material from cowpox, a related but mild disease, protected against smallpox without producing the dangerous illness. The term \"vaccination\" — from the Latin word for cow — was coined for the new procedure.\n\nLouis Pasteur, working a century later, generalized the idea. Pasteur reasoned that the protective effect depended on exposure to a weakened or killed form of the pathogen itself rather than to a related disease. Working with rabies, anthrax, and chicken cholera, he produced laboratory strains that could be safely administered. From that point on, vaccination ceased to be a one-off discovery and became a research program. By the mid-twentieth century, vaccines against tetanus, diphtheria, polio, and measles had reduced the burden of those diseases in industrialized countries by more than ninety percent.\n\nDespite this record, vaccination has never been free of controversy. Side effects, although rare and usually mild, are immediate and visible, whereas the prevented diseases recede from public memory once they become uncommon. Outbreaks of measles in communities with falling vaccination rates show how quickly a forgotten disease can return when collective immunity slips even a few percentage points. Public-health agencies now treat trust as part of the intervention itself: transparent reporting of adverse events, clear communication of how vaccines are tested, and patient access to local clinicians who can answer questions tend to maintain coverage more reliably than mandates alone."
+      }
+    },
+    {
+      "id": "rsim22-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about public attitudes toward vaccination from the passage?",
+      "choices": [
+        "Vaccination has been universally accepted ever since Jenner's experiment.",
+        "Public attitudes are unstable because rare side effects are vivid and visible while the diseases vaccination prevents become invisible when coverage is high.",
+        "Outbreaks of measles cannot occur in modern times.",
+        "Mandates are always more effective than dialogue with patients."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph attributes the instability of public attitudes to exactly this asymmetry: visible side effects against invisible prevented diseases.",
+      "wrongReasons": [
+        "The passage describes continuing controversy, not universal acceptance.",
+        "The passage cites recent measles outbreaks tied to falling coverage.",
+        "It contrasts mandates with trust-building, suggesting trust often works better."
+      ],
+      "passage": {
+        "id": "rsim22-passage",
+        "title": "From Inoculation to the Modern Vaccine",
+        "body": "In eighteenth-century Europe, smallpox killed roughly one in three of the children it infected. The earliest defense was inoculation, an Ottoman practice in which material from a mild case was rubbed into a small wound. It often worked, but it sometimes produced a full-blown infection, and inoculated patients could spread the disease to others. Edward Jenner's 1796 experiment offered an alternative: he showed that inoculating with material from cowpox, a related but mild disease, protected against smallpox without producing the dangerous illness. The term \"vaccination\" — from the Latin word for cow — was coined for the new procedure.\n\nLouis Pasteur, working a century later, generalized the idea. Pasteur reasoned that the protective effect depended on exposure to a weakened or killed form of the pathogen itself rather than to a related disease. Working with rabies, anthrax, and chicken cholera, he produced laboratory strains that could be safely administered. From that point on, vaccination ceased to be a one-off discovery and became a research program. By the mid-twentieth century, vaccines against tetanus, diphtheria, polio, and measles had reduced the burden of those diseases in industrialized countries by more than ninety percent.\n\nDespite this record, vaccination has never been free of controversy. Side effects, although rare and usually mild, are immediate and visible, whereas the prevented diseases recede from public memory once they become uncommon. Outbreaks of measles in communities with falling vaccination rates show how quickly a forgotten disease can return when collective immunity slips even a few percentage points. Public-health agencies now treat trust as part of the intervention itself: transparent reporting of adverse events, clear communication of how vaccines are tested, and patient access to local clinicians who can answer questions tend to maintain coverage more reliably than mandates alone."
+      }
+    },
+    {
+      "id": "rsim22-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"recede\" most nearly means:",
+      "choices": [
+        "increase",
+        "move out of awareness",
+        "become physically smaller",
+        "be officially banned"
+      ],
+      "answer": 1,
+      "explanation": "The passage means that as a disease becomes uncommon, it slips out of public attention. 'Move out of awareness' fits exactly.",
+      "wrongReasons": [
+        "It means the opposite.",
+        "Diseases do not literally shrink in this context.",
+        "Bans are not what 'recede' means here."
+      ],
+      "passage": {
+        "id": "rsim22-passage",
+        "title": "From Inoculation to the Modern Vaccine",
+        "body": "In eighteenth-century Europe, smallpox killed roughly one in three of the children it infected. The earliest defense was inoculation, an Ottoman practice in which material from a mild case was rubbed into a small wound. It often worked, but it sometimes produced a full-blown infection, and inoculated patients could spread the disease to others. Edward Jenner's 1796 experiment offered an alternative: he showed that inoculating with material from cowpox, a related but mild disease, protected against smallpox without producing the dangerous illness. The term \"vaccination\" — from the Latin word for cow — was coined for the new procedure.\n\nLouis Pasteur, working a century later, generalized the idea. Pasteur reasoned that the protective effect depended on exposure to a weakened or killed form of the pathogen itself rather than to a related disease. Working with rabies, anthrax, and chicken cholera, he produced laboratory strains that could be safely administered. From that point on, vaccination ceased to be a one-off discovery and became a research program. By the mid-twentieth century, vaccines against tetanus, diphtheria, polio, and measles had reduced the burden of those diseases in industrialized countries by more than ninety percent.\n\nDespite this record, vaccination has never been free of controversy. Side effects, although rare and usually mild, are immediate and visible, whereas the prevented diseases recede from public memory once they become uncommon. Outbreaks of measles in communities with falling vaccination rates show how quickly a forgotten disease can return when collective immunity slips even a few percentage points. Public-health agencies now treat trust as part of the intervention itself: transparent reporting of adverse events, clear communication of how vaccines are tested, and patient access to local clinicians who can answer questions tend to maintain coverage more reliably than mandates alone."
+      }
+    },
+    {
+      "id": "rsim22-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "How does the passage's structure reflect its argument?",
+      "choices": [
+        "It moves from history of practice, to scientific generalization, to a discussion of the social conditions on which the practice now depends.",
+        "It begins with a personal anecdote and ends with a chemical analysis.",
+        "It is a chronological list of every known vaccine.",
+        "It argues that science has nothing to do with public trust."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph 1 sets up the original practice; paragraph 2 shows how it generalized into a research program; paragraph 3 turns to the social and trust conditions on which the practice depends.",
+      "wrongReasons": [
+        "There is no personal anecdote.",
+        "It is selective, not an exhaustive list of vaccines.",
+        "The passage explicitly links trust to the maintenance of vaccination's benefits."
+      ],
+      "passage": {
+        "id": "rsim22-passage",
+        "title": "From Inoculation to the Modern Vaccine",
+        "body": "In eighteenth-century Europe, smallpox killed roughly one in three of the children it infected. The earliest defense was inoculation, an Ottoman practice in which material from a mild case was rubbed into a small wound. It often worked, but it sometimes produced a full-blown infection, and inoculated patients could spread the disease to others. Edward Jenner's 1796 experiment offered an alternative: he showed that inoculating with material from cowpox, a related but mild disease, protected against smallpox without producing the dangerous illness. The term \"vaccination\" — from the Latin word for cow — was coined for the new procedure.\n\nLouis Pasteur, working a century later, generalized the idea. Pasteur reasoned that the protective effect depended on exposure to a weakened or killed form of the pathogen itself rather than to a related disease. Working with rabies, anthrax, and chicken cholera, he produced laboratory strains that could be safely administered. From that point on, vaccination ceased to be a one-off discovery and became a research program. By the mid-twentieth century, vaccines against tetanus, diphtheria, polio, and measles had reduced the burden of those diseases in industrialized countries by more than ninety percent.\n\nDespite this record, vaccination has never been free of controversy. Side effects, although rare and usually mild, are immediate and visible, whereas the prevented diseases recede from public memory once they become uncommon. Outbreaks of measles in communities with falling vaccination rates show how quickly a forgotten disease can return when collective immunity slips even a few percentage points. Public-health agencies now treat trust as part of the intervention itself: transparent reporting of adverse events, clear communication of how vaccines are tested, and patient access to local clinicians who can answer questions tend to maintain coverage more reliably than mandates alone."
+      }
+    },
+
+    {
+      "id": "rsim23-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Ocean currents have no significant effect on regional climates.",
+        "Large-scale ocean currents redistribute enormous amounts of heat across the planet and changes in their strength can therefore reshape regional climates.",
+        "Western Europe is colder than expected for its latitude.",
+        "Surface winds are the only thing that drives ocean currents."
+      ],
+      "answer": 1,
+      "explanation": "The passage explains how oceans move heat and explicitly notes that changes in current strength alter regional climate, using the warming of northwestern Europe as an illustration.",
+      "wrongReasons": [
+        "The passage takes the opposite view; currents shape regional climate.",
+        "Europe is described as warmer than its latitude would predict, not colder.",
+        "Both surface winds and density differences are credited with driving currents."
+      ],
+      "passage": {
+        "id": "rsim23-passage",
+        "title": "Why Currents Shape Climate",
+        "body": "Land and ocean both transport heat from the sunlit tropics toward the colder poles, but the ocean does most of the work. Currents at the surface, driven by winds and the rotation of the planet, carry warm water poleward; deeper currents, driven by differences in density between cold-and-salty and warm-and-fresh water, return colder water back toward the equator. Together they form a slow-moving conveyor that links every ocean basin and moves roughly the same amount of heat each year as the entire atmosphere.\n\nThe regional consequences can be dramatic. The Gulf Stream, an arm of this conveyor in the North Atlantic, carries enough warm tropical water past western Europe to keep the climate of Britain and Norway many degrees warmer than other places at the same latitude. Pacific currents play comparable roles along South America and East Asia. Where two currents of very different temperature meet, persistent fog banks form and rich fishing grounds appear because nutrients from the deep are stirred up to the surface.\n\nBecause the engine depends on density differences, anything that changes the salinity or temperature of the surface water can change the engine itself. Researchers monitoring the North Atlantic have found measurable slowing of the deep return flow over recent decades, attributed in part to fresh water entering the system from melting Greenland ice. The implications are not straightforward: a slower conveyor would in principle deliver less warm water to Europe even as the planet as a whole continues to warm, producing local cooling against a global warming background. This is one reason that climate scientists insist on a distinction between average global temperature and the local conditions to which any particular region is adapted."
+      }
+    },
+    {
+      "id": "rsim23-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what drives the deeper return currents in the ocean?",
+      "choices": [
+        "Surface winds and Earth's rotation alone.",
+        "Differences in density between cold-salty and warm-fresh water.",
+        "Earthquakes on the sea floor.",
+        "Tidal forces from the moon only."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 1 explicitly distinguishes surface currents, driven by winds and rotation, from deeper currents, driven by density differences between cold/salty and warm/fresh water.",
+      "wrongReasons": [
+        "Those drive surface currents in the passage, not the deep return.",
+        "Earthquakes are not described as a driver of currents.",
+        "Tides are not the explanation given for deep return currents."
+      ],
+      "passage": {
+        "id": "rsim23-passage",
+        "title": "Why Currents Shape Climate",
+        "body": "Land and ocean both transport heat from the sunlit tropics toward the colder poles, but the ocean does most of the work. Currents at the surface, driven by winds and the rotation of the planet, carry warm water poleward; deeper currents, driven by differences in density between cold-and-salty and warm-and-fresh water, return colder water back toward the equator. Together they form a slow-moving conveyor that links every ocean basin and moves roughly the same amount of heat each year as the entire atmosphere.\n\nThe regional consequences can be dramatic. The Gulf Stream, an arm of this conveyor in the North Atlantic, carries enough warm tropical water past western Europe to keep the climate of Britain and Norway many degrees warmer than other places at the same latitude. Pacific currents play comparable roles along South America and East Asia. Where two currents of very different temperature meet, persistent fog banks form and rich fishing grounds appear because nutrients from the deep are stirred up to the surface.\n\nBecause the engine depends on density differences, anything that changes the salinity or temperature of the surface water can change the engine itself. Researchers monitoring the North Atlantic have found measurable slowing of the deep return flow over recent decades, attributed in part to fresh water entering the system from melting Greenland ice. The implications are not straightforward: a slower conveyor would in principle deliver less warm water to Europe even as the planet as a whole continues to warm, producing local cooling against a global warming background. This is one reason that climate scientists insist on a distinction between average global temperature and the local conditions to which any particular region is adapted."
+      }
+    },
+    {
+      "id": "rsim23-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about climate change in Europe?",
+      "choices": [
+        "Europe will warm at exactly the same rate as the global average.",
+        "A slowing North Atlantic conveyor could in principle produce local cooling in parts of Europe, even as the global average continues to warm.",
+        "Europe is unaffected by ocean currents.",
+        "Greenland's ice is irrelevant to European climate."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph explicitly describes how a weaker conveyor would deliver less warm water to Europe, potentially producing local cooling against a warming background.",
+      "wrongReasons": [
+        "The passage uses Europe to illustrate that local trends can diverge from the global average.",
+        "Europe is precisely the region the passage uses as its main illustration.",
+        "Greenland's melting ice is named as a cause of the conveyor's slowing."
+      ],
+      "passage": {
+        "id": "rsim23-passage",
+        "title": "Why Currents Shape Climate",
+        "body": "Land and ocean both transport heat from the sunlit tropics toward the colder poles, but the ocean does most of the work. Currents at the surface, driven by winds and the rotation of the planet, carry warm water poleward; deeper currents, driven by differences in density between cold-and-salty and warm-and-fresh water, return colder water back toward the equator. Together they form a slow-moving conveyor that links every ocean basin and moves roughly the same amount of heat each year as the entire atmosphere.\n\nThe regional consequences can be dramatic. The Gulf Stream, an arm of this conveyor in the North Atlantic, carries enough warm tropical water past western Europe to keep the climate of Britain and Norway many degrees warmer than other places at the same latitude. Pacific currents play comparable roles along South America and East Asia. Where two currents of very different temperature meet, persistent fog banks form and rich fishing grounds appear because nutrients from the deep are stirred up to the surface.\n\nBecause the engine depends on density differences, anything that changes the salinity or temperature of the surface water can change the engine itself. Researchers monitoring the North Atlantic have found measurable slowing of the deep return flow over recent decades, attributed in part to fresh water entering the system from melting Greenland ice. The implications are not straightforward: a slower conveyor would in principle deliver less warm water to Europe even as the planet as a whole continues to warm, producing local cooling against a global warming background. This is one reason that climate scientists insist on a distinction between average global temperature and the local conditions to which any particular region is adapted."
+      }
+    },
+    {
+      "id": "rsim23-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the first paragraph, the word \"conveyor\" most nearly means:",
+      "choices": [
+        "a noisy mechanical device",
+        "an extended, connected system that transports something from one place to another",
+        "a written message sent to someone",
+        "a single small current"
+      ],
+      "answer": 1,
+      "explanation": "The passage uses 'conveyor' metaphorically — a connected system that transports heat between ocean basins. 'Extended, connected system' captures the idea.",
+      "wrongReasons": [
+        "The metaphor is not about a literal noisy machine.",
+        "It is not a written message.",
+        "It refers to a connected system, not a single current."
+      ],
+      "passage": {
+        "id": "rsim23-passage",
+        "title": "Why Currents Shape Climate",
+        "body": "Land and ocean both transport heat from the sunlit tropics toward the colder poles, but the ocean does most of the work. Currents at the surface, driven by winds and the rotation of the planet, carry warm water poleward; deeper currents, driven by differences in density between cold-and-salty and warm-and-fresh water, return colder water back toward the equator. Together they form a slow-moving conveyor that links every ocean basin and moves roughly the same amount of heat each year as the entire atmosphere.\n\nThe regional consequences can be dramatic. The Gulf Stream, an arm of this conveyor in the North Atlantic, carries enough warm tropical water past western Europe to keep the climate of Britain and Norway many degrees warmer than other places at the same latitude. Pacific currents play comparable roles along South America and East Asia. Where two currents of very different temperature meet, persistent fog banks form and rich fishing grounds appear because nutrients from the deep are stirred up to the surface.\n\nBecause the engine depends on density differences, anything that changes the salinity or temperature of the surface water can change the engine itself. Researchers monitoring the North Atlantic have found measurable slowing of the deep return flow over recent decades, attributed in part to fresh water entering the system from melting Greenland ice. The implications are not straightforward: a slower conveyor would in principle deliver less warm water to Europe even as the planet as a whole continues to warm, producing local cooling against a global warming background. This is one reason that climate scientists insist on a distinction between average global temperature and the local conditions to which any particular region is adapted."
+      }
+    },
+    {
+      "id": "rsim23-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the author's main reason for emphasizing the distinction between global average temperature and local conditions?",
+      "choices": [
+        "To dismiss the relevance of global climate measurements.",
+        "To prepare the reader for the apparently paradoxical possibility that a region might cool locally even as the planet warms on average.",
+        "To suggest that ocean currents do not matter for climate policy.",
+        "To advocate that every country should design its own thermometer."
+      ],
+      "answer": 1,
+      "explanation": "The author distinguishes global from local in order to make sense of the apparent paradox that a slowing Gulf Stream could cool Europe even as global averages rise.",
+      "wrongReasons": [
+        "The passage treats both global averages and local conditions as relevant.",
+        "It is using ocean currents to argue that local effects matter for policy, not less.",
+        "Thermometer design is not the topic."
+      ],
+      "passage": {
+        "id": "rsim23-passage",
+        "title": "Why Currents Shape Climate",
+        "body": "Land and ocean both transport heat from the sunlit tropics toward the colder poles, but the ocean does most of the work. Currents at the surface, driven by winds and the rotation of the planet, carry warm water poleward; deeper currents, driven by differences in density between cold-and-salty and warm-and-fresh water, return colder water back toward the equator. Together they form a slow-moving conveyor that links every ocean basin and moves roughly the same amount of heat each year as the entire atmosphere.\n\nThe regional consequences can be dramatic. The Gulf Stream, an arm of this conveyor in the North Atlantic, carries enough warm tropical water past western Europe to keep the climate of Britain and Norway many degrees warmer than other places at the same latitude. Pacific currents play comparable roles along South America and East Asia. Where two currents of very different temperature meet, persistent fog banks form and rich fishing grounds appear because nutrients from the deep are stirred up to the surface.\n\nBecause the engine depends on density differences, anything that changes the salinity or temperature of the surface water can change the engine itself. Researchers monitoring the North Atlantic have found measurable slowing of the deep return flow over recent decades, attributed in part to fresh water entering the system from melting Greenland ice. The implications are not straightforward: a slower conveyor would in principle deliver less warm water to Europe even as the planet as a whole continues to warm, producing local cooling against a global warming background. This is one reason that climate scientists insist on a distinction between average global temperature and the local conditions to which any particular region is adapted."
+      }
+    },
+
+    {
+      "id": "rsim24-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Bilingualism damages cognitive development in children.",
+        "Long-term bilingualism is associated with measurable cognitive effects, particularly in attention control, although early claims of broad advantages have been refined by more careful research.",
+        "Bilingualism guarantees superior performance on every cognitive task.",
+        "Speaking two languages prevents all forms of cognitive decline in old age."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes a likely effect on attention control while explicitly tempering the broad early claims with the more cautious findings of recent studies.",
+      "wrongReasons": [
+        "The passage argues against such a view.",
+        "Recent work explicitly limits the scope of the effects.",
+        "The passage avoids absolute claims about preventing decline."
+      ],
+      "passage": {
+        "id": "rsim24-passage",
+        "title": "What Speaking Two Languages Does to the Brain",
+        "body": "For most of the twentieth century, popular advice held that learning two languages in childhood would confuse young minds and slow their development. By the 1980s a more careful generation of studies had begun to suggest the opposite. Children who grew up speaking two languages performed comparably on most measures of vocabulary in each language separately, and they sometimes outperformed monolingual peers on tasks that required ignoring distracting information. The early enthusiasm peaked in claims that bilingualism produced a broad \"cognitive advantage\" across many domains.\n\nLater studies, including large analyses pooling many data sets, have been more cautious. Some of the early advantages disappeared when researchers controlled for socioeconomic status, the specific tasks chosen, or the degree and recency of language use. What has held up is a narrower finding: bilingual speakers, on average, do somewhat better on tasks requiring attention control — selecting one stream of information while suppressing another. This is plausible at a mechanistic level, since speaking either language always requires inhibiting the other.\n\nThe most interesting questions have moved from \"is bilingualism good for the brain\" to \"under what conditions and for what abilities does it matter.\" Active, daily use of two languages appears to matter more than nominal proficiency from school lessons. Studies of older bilingual adults have reported slightly later onset of dementia symptoms in some cohorts, although the size and reliability of the effect remain debated. The honest position today is that bilingualism is not a magic bullet for the brain, but neither is it a problem to be feared; it is one of many demanding mental activities that may modestly support cognitive flexibility over a lifetime."
+      }
+    },
+    {
+      "id": "rsim24-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, which cognitive ability has most consistently shown an advantage in bilinguals?",
+      "choices": [
+        "Mathematical reasoning across all ages.",
+        "Attention control — selecting one stream of information while suppressing another.",
+        "Long-distance physical coordination.",
+        "Visual memory for unfamiliar faces."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 identifies attention control as the narrower finding that has held up under more careful analysis.",
+      "wrongReasons": [
+        "Mathematical reasoning is not the consistent finding the passage cites.",
+        "Physical coordination is not discussed.",
+        "Visual memory is not what the passage emphasizes."
+      ],
+      "passage": {
+        "id": "rsim24-passage",
+        "title": "What Speaking Two Languages Does to the Brain",
+        "body": "For most of the twentieth century, popular advice held that learning two languages in childhood would confuse young minds and slow their development. By the 1980s a more careful generation of studies had begun to suggest the opposite. Children who grew up speaking two languages performed comparably on most measures of vocabulary in each language separately, and they sometimes outperformed monolingual peers on tasks that required ignoring distracting information. The early enthusiasm peaked in claims that bilingualism produced a broad \"cognitive advantage\" across many domains.\n\nLater studies, including large analyses pooling many data sets, have been more cautious. Some of the early advantages disappeared when researchers controlled for socioeconomic status, the specific tasks chosen, or the degree and recency of language use. What has held up is a narrower finding: bilingual speakers, on average, do somewhat better on tasks requiring attention control — selecting one stream of information while suppressing another. This is plausible at a mechanistic level, since speaking either language always requires inhibiting the other.\n\nThe most interesting questions have moved from \"is bilingualism good for the brain\" to \"under what conditions and for what abilities does it matter.\" Active, daily use of two languages appears to matter more than nominal proficiency from school lessons. Studies of older bilingual adults have reported slightly later onset of dementia symptoms in some cohorts, although the size and reliability of the effect remain debated. The honest position today is that bilingualism is not a magic bullet for the brain, but neither is it a problem to be feared; it is one of many demanding mental activities that may modestly support cognitive flexibility over a lifetime."
+      }
+    },
+    {
+      "id": "rsim24-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred about a person who studied a second language only briefly in school?",
+      "choices": [
+        "They will show the same cognitive effects as someone who uses two languages daily.",
+        "They are unlikely to display the cognitive effects associated with active, daily bilingual use.",
+        "They will avoid all benefits and harms of bilingualism.",
+        "They will speak both languages perfectly in adulthood."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 3 specifies that active, daily use of two languages matters more than nominal school proficiency, supporting this inference.",
+      "wrongReasons": [
+        "The passage explicitly distinguishes them from active bilinguals.",
+        "The passage describes a graded effect, not absence of any effect.",
+        "Perfect proficiency is not predicted by limited schooling."
+      ],
+      "passage": {
+        "id": "rsim24-passage",
+        "title": "What Speaking Two Languages Does to the Brain",
+        "body": "For most of the twentieth century, popular advice held that learning two languages in childhood would confuse young minds and slow their development. By the 1980s a more careful generation of studies had begun to suggest the opposite. Children who grew up speaking two languages performed comparably on most measures of vocabulary in each language separately, and they sometimes outperformed monolingual peers on tasks that required ignoring distracting information. The early enthusiasm peaked in claims that bilingualism produced a broad \"cognitive advantage\" across many domains.\n\nLater studies, including large analyses pooling many data sets, have been more cautious. Some of the early advantages disappeared when researchers controlled for socioeconomic status, the specific tasks chosen, or the degree and recency of language use. What has held up is a narrower finding: bilingual speakers, on average, do somewhat better on tasks requiring attention control — selecting one stream of information while suppressing another. This is plausible at a mechanistic level, since speaking either language always requires inhibiting the other.\n\nThe most interesting questions have moved from \"is bilingualism good for the brain\" to \"under what conditions and for what abilities does it matter.\" Active, daily use of two languages appears to matter more than nominal proficiency from school lessons. Studies of older bilingual adults have reported slightly later onset of dementia symptoms in some cohorts, although the size and reliability of the effect remain debated. The honest position today is that bilingualism is not a magic bullet for the brain, but neither is it a problem to be feared; it is one of many demanding mental activities that may modestly support cognitive flexibility over a lifetime."
+      }
+    },
+    {
+      "id": "rsim24-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the last paragraph, the phrase \"magic bullet\" most nearly means:",
+      "choices": [
+        "a precise mathematical formula",
+        "a single, simple solution that would address a problem completely",
+        "a literal weapon used in warfare",
+        "a routine medical examination"
+      ],
+      "answer": 1,
+      "explanation": "The phrase is metaphorical: the passage denies that bilingualism is a single, simple solution that would by itself solve cognitive challenges.",
+      "wrongReasons": [
+        "It is not a mathematical formula.",
+        "The metaphor is not literal.",
+        "It does not refer to a medical examination."
+      ],
+      "passage": {
+        "id": "rsim24-passage",
+        "title": "What Speaking Two Languages Does to the Brain",
+        "body": "For most of the twentieth century, popular advice held that learning two languages in childhood would confuse young minds and slow their development. By the 1980s a more careful generation of studies had begun to suggest the opposite. Children who grew up speaking two languages performed comparably on most measures of vocabulary in each language separately, and they sometimes outperformed monolingual peers on tasks that required ignoring distracting information. The early enthusiasm peaked in claims that bilingualism produced a broad \"cognitive advantage\" across many domains.\n\nLater studies, including large analyses pooling many data sets, have been more cautious. Some of the early advantages disappeared when researchers controlled for socioeconomic status, the specific tasks chosen, or the degree and recency of language use. What has held up is a narrower finding: bilingual speakers, on average, do somewhat better on tasks requiring attention control — selecting one stream of information while suppressing another. This is plausible at a mechanistic level, since speaking either language always requires inhibiting the other.\n\nThe most interesting questions have moved from \"is bilingualism good for the brain\" to \"under what conditions and for what abilities does it matter.\" Active, daily use of two languages appears to matter more than nominal proficiency from school lessons. Studies of older bilingual adults have reported slightly later onset of dementia symptoms in some cohorts, although the size and reliability of the effect remain debated. The honest position today is that bilingualism is not a magic bullet for the brain, but neither is it a problem to be feared; it is one of many demanding mental activities that may modestly support cognitive flexibility over a lifetime."
+      }
+    },
+    {
+      "id": "rsim24-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "How does the passage characterize the change in scientific questions about bilingualism over time?",
+      "choices": [
+        "Researchers now ask whether bilingualism is good or bad in the absolute.",
+        "Researchers now ask narrower, conditional questions about which abilities improve and under what circumstances.",
+        "Researchers have given up studying bilingualism altogether.",
+        "Researchers have moved away from cognitive tasks and toward pure linguistic surveys."
+      ],
+      "answer": 1,
+      "explanation": "The third paragraph explicitly says the interesting questions have moved from a global 'is it good' to conditional 'under what circumstances and for what abilities.'",
+      "wrongReasons": [
+        "The passage describes the opposite shift, away from absolute judgments.",
+        "It describes continued research, not abandonment.",
+        "Cognitive tasks remain central to the research described."
+      ],
+      "passage": {
+        "id": "rsim24-passage",
+        "title": "What Speaking Two Languages Does to the Brain",
+        "body": "For most of the twentieth century, popular advice held that learning two languages in childhood would confuse young minds and slow their development. By the 1980s a more careful generation of studies had begun to suggest the opposite. Children who grew up speaking two languages performed comparably on most measures of vocabulary in each language separately, and they sometimes outperformed monolingual peers on tasks that required ignoring distracting information. The early enthusiasm peaked in claims that bilingualism produced a broad \"cognitive advantage\" across many domains.\n\nLater studies, including large analyses pooling many data sets, have been more cautious. Some of the early advantages disappeared when researchers controlled for socioeconomic status, the specific tasks chosen, or the degree and recency of language use. What has held up is a narrower finding: bilingual speakers, on average, do somewhat better on tasks requiring attention control — selecting one stream of information while suppressing another. This is plausible at a mechanistic level, since speaking either language always requires inhibiting the other.\n\nThe most interesting questions have moved from \"is bilingualism good for the brain\" to \"under what conditions and for what abilities does it matter.\" Active, daily use of two languages appears to matter more than nominal proficiency from school lessons. Studies of older bilingual adults have reported slightly later onset of dementia symptoms in some cohorts, although the size and reliability of the effect remain debated. The honest position today is that bilingualism is not a magic bullet for the brain, but neither is it a problem to be feared; it is one of many demanding mental activities that may modestly support cognitive flexibility over a lifetime."
+      }
+    },
+
+    {
+      "id": "rsim25-q1",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following best states the main idea of the passage?",
+      "choices": [
+        "Mass extinctions are short-term events with no lasting effect on life on Earth.",
+        "Mass extinctions reset evolutionary trajectories by clearing space that surviving lineages then occupy in unpredictable ways, reshaping the planet's biology for tens of millions of years.",
+        "Mammals existed only after the last ice age.",
+        "Asteroid impacts are the only known cause of mass extinction."
+      ],
+      "answer": 1,
+      "explanation": "The passage describes mass extinctions as turning points: they remove dominant lineages, open ecological space, and allow other lineages to diversify, with effects lasting tens of millions of years.",
+      "wrongReasons": [
+        "The passage stresses long-lasting evolutionary consequences.",
+        "Early mammals are described as already present in the age of dinosaurs.",
+        "The passage cites a combination of factors, not asteroids alone."
+      ],
+      "passage": {
+        "id": "rsim25-passage",
+        "title": "How Extinctions Reshape Life",
+        "body": "Paleontologists recognize five global episodes during which a large fraction of species disappeared from the fossil record within a geologically brief window. The most famous, around sixty-six million years ago, ended the long reign of non-avian dinosaurs and is most plausibly tied to the impact of a large asteroid in what is now the Yucatan Peninsula, compounded by intense volcanic activity in India and the climate disruption that followed. Earlier extinctions, including the much greater event at the end of the Permian, involved combinations of volcanic emissions, ocean chemistry changes, and rapid climate shifts.\n\nThe interesting biological story begins after each extinction, not during it. With dominant groups removed, surviving lineages encounter ecological niches that had been closed to them for tens or hundreds of millions of years. Mammals, which had spent the entire age of dinosaurs as small, mostly nocturnal animals, diversified into the array of forms — whales, primates, horses, bats — that fill modern ecosystems. Earlier, after the end-Permian event, marine reptiles temporarily replaced fish as top ocean predators, and entire body plans that had dominated for hundreds of millions of years vanished, never to return.\n\nThe lesson modern biologists draw is partly humbling. Which lineages happen to survive a global crisis is not a function of how impressive they were before; it depends on contingent traits such as small size, low metabolic demand, or geographic isolation. Recovery is not a return to the previous state but a fundamentally new arrangement built from whatever survives. This has practical resonance today: a human-caused biodiversity crisis would not simply remove some species before the rest carry on as before. It would set off a re-shuffling of ecological winners and losers that no one alive could fully predict, with consequences playing out for far longer than any planning horizon humans usually consider."
+      }
+    },
+    {
+      "id": "rsim25-q2",
+      "category": "reading",
+      "difficulty": "easy",
+      "text": "According to the passage, what role did mammals play during the age of dinosaurs?",
+      "choices": [
+        "They were the dominant land predators of the period.",
+        "They lived as small, mostly nocturnal animals before diversifying after the dinosaurs went extinct.",
+        "They were absent from Earth until after the end-Cretaceous extinction.",
+        "They were exclusively marine animals."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph 2 describes mammals as small and mostly nocturnal during the age of dinosaurs, diversifying into many modern forms only after the extinction.",
+      "wrongReasons": [
+        "The passage says the dinosaurs were dominant, not mammals.",
+        "Mammals are explicitly present during the dinosaur era.",
+        "Most early mammals are described as small land animals, not marine."
+      ],
+      "passage": {
+        "id": "rsim25-passage",
+        "title": "How Extinctions Reshape Life",
+        "body": "Paleontologists recognize five global episodes during which a large fraction of species disappeared from the fossil record within a geologically brief window. The most famous, around sixty-six million years ago, ended the long reign of non-avian dinosaurs and is most plausibly tied to the impact of a large asteroid in what is now the Yucatan Peninsula, compounded by intense volcanic activity in India and the climate disruption that followed. Earlier extinctions, including the much greater event at the end of the Permian, involved combinations of volcanic emissions, ocean chemistry changes, and rapid climate shifts.\n\nThe interesting biological story begins after each extinction, not during it. With dominant groups removed, surviving lineages encounter ecological niches that had been closed to them for tens or hundreds of millions of years. Mammals, which had spent the entire age of dinosaurs as small, mostly nocturnal animals, diversified into the array of forms — whales, primates, horses, bats — that fill modern ecosystems. Earlier, after the end-Permian event, marine reptiles temporarily replaced fish as top ocean predators, and entire body plans that had dominated for hundreds of millions of years vanished, never to return.\n\nThe lesson modern biologists draw is partly humbling. Which lineages happen to survive a global crisis is not a function of how impressive they were before; it depends on contingent traits such as small size, low metabolic demand, or geographic isolation. Recovery is not a return to the previous state but a fundamentally new arrangement built from whatever survives. This has practical resonance today: a human-caused biodiversity crisis would not simply remove some species before the rest carry on as before. It would set off a re-shuffling of ecological winners and losers that no one alive could fully predict, with consequences playing out for far longer than any planning horizon humans usually consider."
+      }
+    },
+    {
+      "id": "rsim25-q3",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "Which of the following can be inferred from the passage about a possible modern biodiversity crisis?",
+      "choices": [
+        "Other species will smoothly take over the ecological roles of those lost.",
+        "The system would be reshuffled in ways no one alive could fully predict, with effects lasting far beyond ordinary human planning horizons.",
+        "It would have no relevance to evolutionary history.",
+        "It would simply repeat the end-Permian extinction precisely."
+      ],
+      "answer": 1,
+      "explanation": "The final paragraph generalizes from the fossil record: recovery is a new arrangement, not a continuation, and human-caused biodiversity loss would similarly produce unpredictable long-term effects.",
+      "wrongReasons": [
+        "The passage stresses that recovery is unpredictable and not smooth.",
+        "Mass-extinction precedents are exactly why it is relevant.",
+        "The passage does not claim history repeats identically."
+      ],
+      "passage": {
+        "id": "rsim25-passage",
+        "title": "How Extinctions Reshape Life",
+        "body": "Paleontologists recognize five global episodes during which a large fraction of species disappeared from the fossil record within a geologically brief window. The most famous, around sixty-six million years ago, ended the long reign of non-avian dinosaurs and is most plausibly tied to the impact of a large asteroid in what is now the Yucatan Peninsula, compounded by intense volcanic activity in India and the climate disruption that followed. Earlier extinctions, including the much greater event at the end of the Permian, involved combinations of volcanic emissions, ocean chemistry changes, and rapid climate shifts.\n\nThe interesting biological story begins after each extinction, not during it. With dominant groups removed, surviving lineages encounter ecological niches that had been closed to them for tens or hundreds of millions of years. Mammals, which had spent the entire age of dinosaurs as small, mostly nocturnal animals, diversified into the array of forms — whales, primates, horses, bats — that fill modern ecosystems. Earlier, after the end-Permian event, marine reptiles temporarily replaced fish as top ocean predators, and entire body plans that had dominated for hundreds of millions of years vanished, never to return.\n\nThe lesson modern biologists draw is partly humbling. Which lineages happen to survive a global crisis is not a function of how impressive they were before; it depends on contingent traits such as small size, low metabolic demand, or geographic isolation. Recovery is not a return to the previous state but a fundamentally new arrangement built from whatever survives. This has practical resonance today: a human-caused biodiversity crisis would not simply remove some species before the rest carry on as before. It would set off a re-shuffling of ecological winners and losers that no one alive could fully predict, with consequences playing out for far longer than any planning horizon humans usually consider."
+      }
+    },
+    {
+      "id": "rsim25-q4",
+      "category": "reading",
+      "difficulty": "medium",
+      "text": "As used in the third paragraph, the word \"contingent\" most nearly means:",
+      "choices": [
+        "carefully designed in advance",
+        "depending on circumstances that could have gone otherwise",
+        "fully decided by genetic merit",
+        "unimportant in the long run"
+      ],
+      "answer": 1,
+      "explanation": "Contingent traits are those that happen to matter because of the particular crisis — not features of long-term evolutionary superiority. The phrase captures historical accident.",
+      "wrongReasons": [
+        "Contingent is the opposite of pre-designed.",
+        "The passage contrasts contingency with intrinsic merit.",
+        "The passage stresses their long-term significance."
+      ],
+      "passage": {
+        "id": "rsim25-passage",
+        "title": "How Extinctions Reshape Life",
+        "body": "Paleontologists recognize five global episodes during which a large fraction of species disappeared from the fossil record within a geologically brief window. The most famous, around sixty-six million years ago, ended the long reign of non-avian dinosaurs and is most plausibly tied to the impact of a large asteroid in what is now the Yucatan Peninsula, compounded by intense volcanic activity in India and the climate disruption that followed. Earlier extinctions, including the much greater event at the end of the Permian, involved combinations of volcanic emissions, ocean chemistry changes, and rapid climate shifts.\n\nThe interesting biological story begins after each extinction, not during it. With dominant groups removed, surviving lineages encounter ecological niches that had been closed to them for tens or hundreds of millions of years. Mammals, which had spent the entire age of dinosaurs as small, mostly nocturnal animals, diversified into the array of forms — whales, primates, horses, bats — that fill modern ecosystems. Earlier, after the end-Permian event, marine reptiles temporarily replaced fish as top ocean predators, and entire body plans that had dominated for hundreds of millions of years vanished, never to return.\n\nThe lesson modern biologists draw is partly humbling. Which lineages happen to survive a global crisis is not a function of how impressive they were before; it depends on contingent traits such as small size, low metabolic demand, or geographic isolation. Recovery is not a return to the previous state but a fundamentally new arrangement built from whatever survives. This has practical resonance today: a human-caused biodiversity crisis would not simply remove some species before the rest carry on as before. It would set off a re-shuffling of ecological winners and losers that no one alive could fully predict, with consequences playing out for far longer than any planning horizon humans usually consider."
+      }
+    },
+    {
+      "id": "rsim25-q5",
+      "category": "reading",
+      "difficulty": "hard",
+      "text": "What is the rhetorical role of the final paragraph?",
+      "choices": [
+        "It restates the description of dinosaurs from the first paragraph.",
+        "It draws a lesson from the fossil record and applies it to the current biodiversity situation, framing the issue in evolutionary terms.",
+        "It rejects the data presented earlier as unreliable.",
+        "It explains the chemistry of asteroid impacts in detail."
+      ],
+      "answer": 1,
+      "explanation": "After describing the fossil record and recovery patterns, the final paragraph extracts a generalisation and applies it to the modern context, giving the historical material its current relevance.",
+      "wrongReasons": [
+        "It is not a restatement.",
+        "It builds on, rather than rejects, earlier paragraphs.",
+        "It does not discuss impact chemistry."
+      ],
+      "passage": {
+        "id": "rsim25-passage",
+        "title": "How Extinctions Reshape Life",
+        "body": "Paleontologists recognize five global episodes during which a large fraction of species disappeared from the fossil record within a geologically brief window. The most famous, around sixty-six million years ago, ended the long reign of non-avian dinosaurs and is most plausibly tied to the impact of a large asteroid in what is now the Yucatan Peninsula, compounded by intense volcanic activity in India and the climate disruption that followed. Earlier extinctions, including the much greater event at the end of the Permian, involved combinations of volcanic emissions, ocean chemistry changes, and rapid climate shifts.\n\nThe interesting biological story begins after each extinction, not during it. With dominant groups removed, surviving lineages encounter ecological niches that had been closed to them for tens or hundreds of millions of years. Mammals, which had spent the entire age of dinosaurs as small, mostly nocturnal animals, diversified into the array of forms — whales, primates, horses, bats — that fill modern ecosystems. Earlier, after the end-Permian event, marine reptiles temporarily replaced fish as top ocean predators, and entire body plans that had dominated for hundreds of millions of years vanished, never to return.\n\nThe lesson modern biologists draw is partly humbling. Which lineages happen to survive a global crisis is not a function of how impressive they were before; it depends on contingent traits such as small size, low metabolic demand, or geographic isolation. Recovery is not a return to the previous state but a fundamentally new arrangement built from whatever survives. This has practical resonance today: a human-caused biodiversity crisis would not simply remove some species before the rest carry on as before. It would set off a re-shuffling of ecological winners and losers that no one alive could fully predict, with consequences playing out for far longer than any planning horizon humans usually consider."
+      }
+    }
+  ]
+}

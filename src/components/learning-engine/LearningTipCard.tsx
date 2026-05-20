@@ -6,6 +6,7 @@ import {
   DIFFICULTY_LABELS,
   CATEGORY_EMOJIS,
 } from "@/types/learning";
+import { useLang } from "@/contexts/LanguageContext";
 
 interface Props {
   tip: LearningTip;
@@ -195,6 +196,7 @@ export function LearningTipCard({
   onPrev,
   cardRef,
 }: Props) {
+  const { t } = useLang();
   const isVideoStyle = tip.visualType === "video_style";
   const accent = CATEGORY_ACCENT[tip.category] ?? "var(--teal)";
 
@@ -396,7 +398,7 @@ export function LearningTipCard({
                 <button
                   onClick={onToggleExample}
                   aria-expanded={isExampleExpanded}
-                  aria-label={isExampleExpanded ? "הסתר דוגמה" : "הצג דוגמה"}
+                  aria-label={isExampleExpanded ? t.learningEngine.hideExample : t.learningEngine.showExample}
                   style={{
                     background: "none",
                     border: "none",
@@ -427,7 +429,7 @@ export function LearningTipCard({
                   >
                     ▼
                   </span>
-                  {isExampleExpanded ? "הסתר דוגמה" : "הצג דוגמה"}
+                  {isExampleExpanded ? t.learningEngine.hideExample : t.learningEngine.showExample}
                 </button>
 
                 {isExampleExpanded && (
@@ -505,7 +507,7 @@ export function LearningTipCard({
           {/* Bookmark — icon only */}
           <button
             onClick={onBookmark}
-            aria-label={isBookmarked ? "הסר סימנייה" : "הוסף סימנייה"}
+            aria-label={isBookmarked ? t.learningEngine.removeBookmark : t.learningEngine.addBookmark}
             style={{
               flexShrink: 0,
               width: 38,
@@ -531,7 +533,7 @@ export function LearningTipCard({
           {/* Understood — primary CTA */}
           <button
             onClick={onComplete}
-            aria-label={isCompleted ? "סמן כלא הובן" : "סמן כהובן"}
+            aria-label={isCompleted ? t.learningEngine.markNotUnderstood : t.learningEngine.markUnderstood}
             style={{
               flex: 1,
               height: 38,
@@ -558,7 +560,7 @@ export function LearningTipCard({
               fontFamily: "var(--font-body)",
             }}
           >
-            {isCompleted ? "✓ הובן" : "הבנתי"}
+            {isCompleted ? t.learningEngine.understood : t.learningEngine.gotIt}
           </button>
 
           {/* Practice link */}
@@ -592,7 +594,7 @@ export function LearningTipCard({
           {/* Prev arrow */}
           <button
             onClick={onPrev}
-            aria-label="עצה קודמת"
+            aria-label={t.learningEngine.prevTip}
             style={{
               flexShrink: 0,
               width: 38,
@@ -615,7 +617,7 @@ export function LearningTipCard({
           {/* Next arrow */}
           <button
             onClick={onNext}
-            aria-label="עצה הבאה"
+            aria-label={t.learningEngine.nextTip}
             style={{
               flexShrink: 0,
               width: 38,

@@ -4,6 +4,7 @@ import { useState, useRef, useCallback, useEffect } from "react";
 import type { VocabItem } from "@/types/vocab";
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
 import { getProgressLabel } from "@/lib/vocab/spaced-repetition";
+import { useLang } from "@/contexts/LanguageContext";
 
 interface SwipeCardProps {
   item: VocabItem;
@@ -57,6 +58,7 @@ function DifficultyBadge({ difficulty }: { difficulty: string }) {
 }
 
 export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar, onBack, canGoBack, isStarred }: SwipeCardProps) {
+  const { t } = useLang();
   const [isFlipped, setIsFlipped] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [dragX, setDragX] = useState(0);
@@ -195,14 +197,14 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
               position: "absolute", top: "16px", left: "16px", zIndex: 10,
               padding: "6px 14px", borderRadius: "8px", background: "var(--teal)", color: "#fff",
               fontWeight: 700, fontSize: "0.85rem", opacity: Math.min(1, (dragX - 30) / 50),
-            }}>✓ ידעתי</div>
+            }}>{t.vocab.swipeKnown}</div>
           )}
           {isDragging && dragX < -30 && (
             <div style={{
               position: "absolute", top: "16px", right: "16px", zIndex: 10,
               padding: "6px 14px", borderRadius: "8px", background: "var(--danger)", color: "#fff",
               fontWeight: 700, fontSize: "0.85rem", opacity: Math.min(1, (-dragX - 30) / 50),
-            }}>↩ שוב</div>
+            }}>{t.vocab.swipeReview}</div>
           )}
 
           {/* 3D flip scene */}
@@ -229,7 +231,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                     <ProgressBadge score={reviewState.masteryScore} />
                     <button
                       onClick={(e) => { e.stopPropagation(); onStar(); }}
-                      aria-label={isStarred ? "הסר כוכב" : "הוסף כוכב"}
+                      aria-label={isStarred ? t.vocab.removeStar : t.vocab.addStar}
                       style={{ background: "none", border: "none", cursor: "pointer", fontSize: "1.2rem", color: isStarred ? "var(--warn)" : "var(--ink-muted)", padding: "2px", lineHeight: 1 }}
                     >
                       {isStarred ? "★" : "☆"}
@@ -256,12 +258,12 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
 
                 {/* Bottom: hint + audio */}
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: "12px" }}>
-                  <span dir="ltr" style={{ fontSize: "0.78rem", color: "var(--ink-muted)", fontStyle: "italic" }}>
-                    Tap to reveal
+                  <span style={{ fontSize: "0.78rem", color: "var(--ink-muted)", fontStyle: "italic" }}>
+                    {t.vocab.tapToReveal}
                   </span>
                   <button
                     onClick={speak}
-                    aria-label={isSpeaking ? "מנגן הגייה" : "השמע הגייה"}
+                    aria-label={isSpeaking ? t.vocab.playingAudio : t.vocab.playAudio}
                     aria-pressed={isSpeaking}
                     style={{
                       background: isSpeaking ? "var(--teal-sub)" : "none",
@@ -342,7 +344,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
 
                   {item.commonTrap && (
                     <div dir="ltr" style={{ padding: "7px 10px", borderRadius: "8px", background: "rgba(245,158,11,0.08)", border: "1px solid rgba(245,158,11,0.25)", fontSize: "0.76rem", color: "var(--warn)", lineHeight: 1.4, textAlign: "left" }}>
-                      <span style={{ fontWeight: 700 }}>Trap: </span>{item.commonTrap}
+                      <span style={{ fontWeight: 700 }}>{t.vocab.trap}: </span>{item.commonTrap}
                     </div>
                   )}
                 </div>
@@ -359,7 +361,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
           className="btn btn-ghost btn-sm"
           onClick={onBack}
           disabled={!canGoBack}
-          aria-label="חזור לכרטיס הקודם (Z)"
+          aria-label={t.vocab.goBackCard}
           style={{
             flexShrink: 0, color: "var(--ink-muted)",
             opacity: canGoBack ? 1 : 0.3,
@@ -367,16 +369,16 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
             transition: "opacity 0.2s",
           }}
         >
-          ← חזור
+          {t.vocab.back}
         </button>
         <button className="btn btn-ghost" onClick={onMissed} style={{ flex: 1, maxWidth: "120px", color: "var(--danger)", borderColor: "var(--danger)" }}>
-          ↩ לא ידעתי
+          {t.vocab.didntKnow}
         </button>
         <button className="btn btn-ghost btn-sm" onClick={() => setIsFlipped((p) => !p)} style={{ flexShrink: 0 }}>
-          הפוך ⟳
+          {t.vocab.flipCard}
         </button>
         <button className="btn btn-primary" onClick={onKnown} style={{ flex: 1, maxWidth: "120px" }}>
-          ידעתי ✓
+          {t.vocab.knew}
         </button>
       </div>
     </div>

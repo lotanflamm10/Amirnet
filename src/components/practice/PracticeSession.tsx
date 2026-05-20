@@ -18,6 +18,9 @@ import { formatTime } from "@/lib/practice/scoring";
 import QuestionCard from "./QuestionCard";
 import { WritingTaskCard } from "@/components/simulation/WritingTaskCard";
 import PracticeSummary from "./PracticeSummary";
+import ReadingPassageSession from "./ReadingPassageSession";
+import { useLang } from "@/contexts/LanguageContext";
+import { ensureInView, focusWithoutJump } from "@/lib/ui/smooth-scroll";
 import type { PracticeSession as PracticeSessionType } from "@/types/questions";
 
 const SESSION_QUESTIONS = 20;
@@ -31,6 +34,16 @@ interface Props {
 }
 
 export default function PracticeSession({ mode, difficulty }: Props) {
+  // Reading uses the AMIRAM-style passage flow: one passage of 5 questions.
+  if (mode === "reading") {
+    return <ReadingPassageSession difficulty={difficulty} />;
+  }
+
+  return <StandardPracticeSession mode={mode} difficulty={difficulty} />;
+}
+
+function StandardPracticeSession({ mode, difficulty }: Props) {
+  const { t } = useLang();
   const [questions, setQuestions] = useState<Question[]>([]);
   const [session, setSession] = useState<PracticeSessionType | null>(null);
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -42,6 +55,8 @@ export default function PracticeSession({ mode, difficulty }: Props) {
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   // Initialized to 0; set to Date.now() inside initSession and handleNext (never during render)
   const questionStartRef = useRef<number>(0);
+  const nextBtnRef = useRef<HTMLButtonElement | null>(null);
+  const questionAnchorRef = useRef<HTMLDivElement | null>(null);
 
   const isWritingMode = mode === "writingTask";
   const sessionQuestionCount = isWritingMode ? WRITING_SESSION_QUESTIONS : SESSION_QUESTIONS;
@@ -81,6 +96,21 @@ export default function PracticeSession({ mode, difficulty }: Props) {
       if (timerRef.current) clearInterval(timerRef.current);
     };
   }, [done, session]);
+
+  // When the Next button appears, focus + scroll it into view smoothly so
+  // the user never has to scroll-hunt for the next step.
+  useEffect(() => {
+    if (!answered && !isWritingMode) return;
+    const id = window.setTimeout(() => focusWithoutJump(nextBtnRef.current), 60);
+    return () => window.clearTimeout(id);
+  }, [answered, isWritingMode, currentIdx]);
+
+  // When the active question changes, bring the question into view.
+  useEffect(() => {
+    if (answered) return;
+    const id = window.setTimeout(() => ensureInView(questionAnchorRef.current, { threshold: 64 }), 30);
+    return () => window.clearTimeout(id);
+  }, [currentIdx, answered]);
 
   function handleSubmit(choiceIndex: number) {
     if (!session || answered) return;
@@ -155,8 +185,7 @@ export default function PracticeSession({ mode, difficulty }: Props) {
         }}
       >
         <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>📭</div>
-        <p style={{ margin: 0 }}>אין שאלות זמינות עבור מצב זה.</p>
-        {/* No questions available for this mode. */}
+        <p style={{ margin: 0 }}>{t.practice.noQuestionsAvailable}</p>
       </div>
     );
   }
@@ -196,13 +225,12 @@ export default function PracticeSession({ mode, difficulty }: Props) {
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: "1rem" }}>
         {/* Question counter */}
         <span style={{ color: "var(--ink-muted)", fontSize: "0.88rem" }}>
-          שאלה {currentIdx + 1} מתוך {sessionQuestionCount}
-          {/* Question X of 20 */}
+          {t.practice.question} {currentIdx + 1} {t.practice.of} {sessionQuestionCount}
         </span>
 
         {/* Correct count */}
         <span style={{ color: "var(--teal)", fontSize: "0.88rem", fontWeight: 600 }}>
-          {progress.correct} נכון {/* correct */}
+          {progress.correct} {t.practice.correctOfTotal}
         </span>
 
         {/* Timer */}
@@ -229,31 +257,43 @@ export default function PracticeSession({ mode, difficulty }: Props) {
       </div>
 
       {/* Question card or writing task */}
-      {isWritingMode ? (
-        <WritingTaskCard key={q.id} question={q} onTextChange={setWritingText} />
-      ) : (
-        <QuestionCard
-          key={q.id}
-          question={q}
-          onSubmit={handleSubmit}
-          disabled={answered}
-        />
-      )}
+      <div ref={questionAnchorRef}>
+        {isWritingMode ? (
+          <WritingTaskCard key={q.id} question={q} onTextChange={setWritingText} />
+        ) : (
+          <QuestionCard
+            key={q.id}
+            question={q}
+            onSubmit={handleSubmit}
+            disabled={answered}
+          />
+        )}
+      </div>
 
-      {/* Next / Done button */}
+      {/* Sticky Next / Done bar — always reachable without scrolling on mobile */}
       {(answered || isWritingMode) && (
-        <div className="animate-fade-up" style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "0.4rem" }}>
+        <div className="next-action-bar animate-fade-up">
           {isWritingMode && !writingReady && writingWordCount > 0 && (
-            <span style={{ fontSize: "0.78rem", color: "var(--danger)" }}>
-              עוד {writingMinWords - writingWordCount} מילים נדרשות לסיום
+            <span style={{ fontSize: "0.78rem", color: "var(--danger)", marginInlineEnd: "auto" }}>
+              {t.practice.writingNeedMoreWords.replace(
+                "{n}",
+                String(writingMinWords - writingWordCount),
+              )}
             </span>
           )}
           <button
-            className="btn btn-primary"
+            ref={nextBtnRef}
+            className="btn btn-primary animate-next-ready"
             onClick={isWritingMode ? handleWritingComplete : handleNext}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                if (isWritingMode) handleWritingComplete();
+                else handleNext();
+              }
+            }}
             disabled={isWritingMode && !writingReady}
           >
-            {currentIdx + 1 >= questions.length ? "סיים סשן" : "הבאה →"}
+            {currentIdx + 1 >= questions.length ? t.practice.finishSession : t.practice.nextArrow}
           </button>
         </div>
       )}

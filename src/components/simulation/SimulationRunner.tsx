@@ -10,6 +10,7 @@ import {
 import { recordSimulation } from "@/lib/progress/local-progress-store";
 import { recordSeen, hashSentence } from "@/lib/practice/question-history";
 import { selectAdaptiveQuestions } from "@/lib/simulation/adaptive-selector";
+import { sectionDisplayLabel } from "@/lib/simulation/section-labels";
 import type { Question } from "@/types/questions";
 import QuestionCard from "@/components/practice/QuestionCard";
 import { WritingTaskCard } from "./WritingTaskCard";
@@ -18,6 +19,7 @@ import { SectionTransition } from "./SectionTransition";
 import { PilotSectionIntro } from "./PilotSectionIntro";
 import { SimulationSummary } from "./SimulationSummary";
 import { SimulationReview } from "./SimulationReview";
+import { useLang } from "@/contexts/LanguageContext";
 import questionsRaw from "@/data/seed/questions.json";
 import hardAddon from "@/data/seed/hard_questions_addon.json";
 
@@ -114,6 +116,7 @@ interface Props { mode: SimMode }
 
 export function SimulationRunner({ mode }: Props) {
   const [state, dispatch] = useReducer(simReducer, undefined, () => makeInitialState(mode));
+  const { t, lang } = useLang();
 
   // Mutable dedup sets — not reactive, live outside reducer
   const seenIds    = useRef(new Set<string>());
@@ -224,15 +227,17 @@ export function SimulationRunner({ mode }: Props) {
 
   if (state.phase === "pilot-intro") {
     const sec = state.sim.sections[state.sim.currentSectionIndex];
-    return <PilotSectionIntro label={sec.label} onContinue={handlePilotIntroContinue} />;
+    const secLabel = sectionDisplayLabel(sec, state.sim.sections, t, lang);
+    return <PilotSectionIntro label={secLabel} onContinue={handlePilotIntroContinue} />;
   }
 
   if (state.phase === "between-sections") {
     const nextSec = state.sim.sections[state.sim.currentSectionIndex];
+    const secLabel = sectionDisplayLabel(nextSec, state.sim.sections, t, lang);
     return (
       <SectionTransition
         sectionNumber={state.sim.currentSectionIndex + 1}
-        sectionLabel={nextSec.label}
+        sectionLabel={secLabel}
         timeLimitSeconds={nextSec.timeLimitSeconds}
         onContinue={handleContinueSection}
       />
@@ -252,10 +257,14 @@ export function SimulationRunner({ mode }: Props) {
   if (!currentQ) {
     return (
       <div style={{ padding: "2rem", color: "var(--ink-muted)", textAlign: "center" }}>
-        Loading questions…
+        {t.simulation.loadingQuestions}
       </div>
     );
   }
+
+  const currentSectionLabel = currentSection
+    ? sectionDisplayLabel(currentSection, sim.sections, t, lang)
+    : "";
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
@@ -267,10 +276,16 @@ export function SimulationRunner({ mode }: Props) {
       }}>
         <div>
           <span style={{ fontSize: "0.7rem", color: "var(--ink-muted)", textTransform: "uppercase", letterSpacing: "0.08em" }}>
-            פרק {sim.currentSectionIndex + 1}/{sim.sections.length}
-            {currentSection?.isPilot && <span style={{ marginRight: "0.4rem", color: "var(--warn)" }}>● ניסיוני</span>}
+            {t.simulation.sectionLabelN
+              .replace("{n}", String(sim.currentSectionIndex + 1))
+              .replace("{total}", String(sim.sections.length))}
+            {currentSection?.isPilot && (
+              <span style={{ marginInlineStart: "0.4rem", color: "var(--warn)" }}>
+                {t.simulation.pilotTag}
+              </span>
+            )}
           </span>
-          <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)" }}>{currentSection?.label}</div>
+          <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "var(--ink)" }}>{currentSectionLabel}</div>
         </div>
         <SimulationTimer
           key={sectionId}
@@ -298,8 +313,10 @@ export function SimulationRunner({ mode }: Props) {
               >{i + 1}</button>
             );
           })}
-          <span style={{ marginLeft: "auto", fontSize: "0.8rem", color: "var(--ink-muted)" }}>
-            {answeredCount}/{sectionQuestions.length} answered
+          <span style={{ marginInlineStart: "auto", fontSize: "0.8rem", color: "var(--ink-muted)" }}>
+            {t.simulation.questionsAnswered
+              .replace("{a}", String(answeredCount))
+              .replace("{b}", String(sectionQuestions.length))}
           </span>
         </div>
       )}
@@ -309,15 +326,16 @@ export function SimulationRunner({ mode }: Props) {
         <WritingTaskCard
           key={currentQ.id}
           question={currentQ}
-          onTextChange={(t) => { writingTextRef.current = t; }}
+          onTextChange={(txt) => { writingTextRef.current = txt; }}
         />
       ) : (
-        /* Multiple-choice — simulation variant: clicking a choice records it immediately, no feedback */
+        /* Multiple-choice — simulation variant: clicking a choice records it
+           but the user can freely change the answer until the section ends. */
         <QuestionCard
           key={currentQ.id}
           question={currentQ}
           onSubmit={handleAnswer}
-          disabled={isAnswered}
+          disabled={false}
           chosenIndex={chosenIndex}
           showFeedback={false}
           variant="simulation"
@@ -331,16 +349,18 @@ export function SimulationRunner({ mode }: Props) {
             className="btn btn-ghost btn-sm"
             disabled={sim.currentQuestionIndex === 0}
             onClick={() => handleNavQ(sim.currentQuestionIndex - 1)}
-          >← Prev</button>
+          >{t.simulation.btnPrev}</button>
         ) : <span />}
 
         {!isWritingSection && sim.currentQuestionIndex < sectionQuestions.length - 1 ? (
           <button className="btn btn-ghost btn-sm" onClick={() => handleNavQ(sim.currentQuestionIndex + 1)}>
-            Next →
+            {t.simulation.btnNext}
           </button>
         ) : (
           <button className="btn btn-primary btn-sm" onClick={handleSectionExpire}>
-            {sim.currentSectionIndex < sim.sections.length - 1 ? "המשך לפרק הבא →" : "סיים הדמיה →"}
+            {sim.currentSectionIndex < sim.sections.length - 1
+              ? t.simulation.btnNextSection
+              : t.simulation.btnFinishSimulation}
           </button>
         )}
       </div>

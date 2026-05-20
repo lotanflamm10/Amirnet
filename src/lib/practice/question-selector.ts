@@ -77,7 +77,10 @@ const MIXED_BOOSTER_WEIGHT = 20; // 20% from skill boosters
 
 type QuestionsData = Record<string, Question[]>;
 
+// Source JSONs are static — merge them once on module load and reuse.
+let MERGED_DATA: QuestionsData | null = null;
 function mergeData(): QuestionsData {
+  if (MERGED_DATA) return MERGED_DATA;
   const sources = [
     questionsRaw as unknown as QuestionsData,
     hardAddon    as unknown as QuestionsData,
@@ -97,6 +100,7 @@ function mergeData(): QuestionsData {
       }
     }
   }
+  MERGED_DATA = merged;
   return merged;
 }
 

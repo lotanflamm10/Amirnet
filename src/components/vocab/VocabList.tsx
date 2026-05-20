@@ -9,14 +9,26 @@ import {
   getWeakItems,
 } from "@/lib/vocab/vocab-store";
 import { withCustomItems } from "@/lib/vocab/custom-vocab-store";
-import { filterByCardType, CARD_TYPE_LABELS } from "@/lib/vocab/vocab-card-type";
+import { filterByCardType, CARD_TYPE_LABELS_HE, CARD_TYPE_LABELS_EN } from "@/lib/vocab/vocab-card-type";
 import type { CardType } from "@/lib/vocab/vocab-card-type";
 import vocabData from "@/data/seed/vocab.normalized.json";
 import type { VocabItem } from "@/types/vocab";
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
+import { useLang } from "@/contexts/LanguageContext";
+import type { Translations } from "@/lib/i18n/translations";
 
 type Filter = "all" | "starred" | "weak" | "due" | "mastered";
 const CARD_TYPE_OPTIONS: CardType[] = ["all", "nouns", "verbs", "adjectives", "expressions", "connectors", "phrasalVerbs", "unclassified"];
+
+function filterLabel(value: Filter, t: Translations): string {
+  switch (value) {
+    case "all":      return t.vocab.diffAll;
+    case "starred":  return t.vocab.statusStarred;
+    case "weak":     return t.vocab.statusWeak;
+    case "due":      return t.vocab.statusDue;
+    case "mastered": return t.vocab.statusMastered;
+  }
+}
 
 interface Props {
   initialFilter?: Filter;
@@ -30,6 +42,8 @@ export function VocabList({ initialFilter = "all" }: Props) {
   const [flipped, setFlipped] = useState<string | null>(null);
   const [nowMs] = useState(() => Date.now());
   const [all, setAll] = useState<VocabItem[]>(() => vocabData as VocabItem[]);
+  const { lang, t } = useLang();
+  const cardTypeLabels = lang === "he" ? CARD_TYPE_LABELS_HE : CARD_TYPE_LABELS_EN;
 
   useLayoutEffect(() => {
     setStates(loadVocabStates());
@@ -66,18 +80,12 @@ export function VocabList({ initialFilter = "all" }: Props) {
     setStates(loadVocabStates());
   }
 
-  const filterLabels: { key: Filter; label: string }[] = [
-    { key: "all", label: "הכל / All" },
-    { key: "due", label: "לחזרה / Due" },
-    { key: "starred", label: "מסומנים ★" },
-    { key: "weak", label: "חלשים / Weak" },
-    { key: "mastered", label: "שולטים / Mastered" },
-  ];
+  const FILTER_VALUES: Filter[] = ["all", "due", "starred", "weak", "mastered"];
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
       <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
-        {filterLabels.map(({ key, label }) => (
+        {FILTER_VALUES.map((key) => (
           <button
             key={key}
             onClick={() => setFilter(key)}
@@ -93,7 +101,7 @@ export function VocabList({ initialFilter = "all" }: Props) {
               cursor: "pointer",
             }}
           >
-            {label}
+            {filterLabel(key, t)}
           </button>
         ))}
       </div>
@@ -116,14 +124,14 @@ export function VocabList({ initialFilter = "all" }: Props) {
               whiteSpace: "nowrap",
             }}
           >
-            {CARD_TYPE_LABELS[type]}
+            {cardTypeLabels[type]}
           </button>
         ))}
       </div>
 
       <input
         type="search"
-        placeholder="חפש מילה / Search..."
+        placeholder={t.vocab.missedSearchPlaceholder}
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         style={{
@@ -138,17 +146,17 @@ export function VocabList({ initialFilter = "all" }: Props) {
       />
 
       <p style={{ fontSize: "0.78rem", color: "var(--ink-muted)", margin: 0 }}>
-        {filtered.length} מילים
+        {filtered.length} {t.vocab.missedCountSuffix}
       </p>
 
       <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
         {filtered.length === 0 && (
           <div className="card" style={{ padding: "2rem", textAlign: "center" }}>
             <div style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>🔍</div>
-            <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", marginBottom: "0.5rem" }}>אין מילים בסינון זה</p>
-            <p style={{ color: "var(--ink-muted)", fontSize: "0.8rem", marginBottom: "1rem" }}>נסה לשנות את הקטגוריה, הסטטוס או החיפוש</p>
+            <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", marginBottom: "0.5rem" }}>{t.vocab.emptyFilterTitle}</p>
+            <p style={{ color: "var(--ink-muted)", fontSize: "0.8rem", marginBottom: "1rem" }}>{t.vocab.emptyFilterSubtitle}</p>
             <button className="btn btn-ghost btn-sm" onClick={() => { setFilter("all"); setCardType("all"); setSearch(""); }}>
-              נקה סינון
+              {t.vocab.clearFilter}
             </button>
           </div>
         )}
@@ -198,13 +206,13 @@ export function VocabList({ initialFilter = "all" }: Props) {
                       className="btn btn-ghost btn-sm"
                       onClick={(e) => { e.stopPropagation(); markMissed(item.id); reload(); }}
                     >
-                      ✗ לא ידעתי
+                      ✗ {t.vocab.didntKnow}
                     </button>
                     <button
                       className="btn btn-primary btn-sm"
                       onClick={(e) => { e.stopPropagation(); markKnown(item.id); reload(); }}
                     >
-                      ✓ ידעתי
+                      ✓ {t.vocab.knew}
                     </button>
                   </div>
                 </div>
@@ -214,7 +222,7 @@ export function VocabList({ initialFilter = "all" }: Props) {
         })}
         {filtered.length > 200 && (
           <p style={{ textAlign: "center", fontSize: "0.8rem", color: "var(--ink-muted)" }}>
-            מציג 200 מתוך {filtered.length}. צמצם החיפוש.
+            {t.vocab.listShowingOfTotal.replace("{n}", String(filtered.length))}
           </p>
         )}
       </div>
