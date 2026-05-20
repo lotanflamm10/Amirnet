@@ -7,8 +7,9 @@ import { NavIcon } from "@/components/icons/NavIcons";
 const TABS = (t: Translations) => [
   { href: "/app",             label: t.nav.dashboard,      icon: "dashboard"      },
   { href: "/practice",        label: t.nav.practice,       icon: "practice"       },
-  { href: "/learning-engine", label: t.nav.learningEngine, icon: "learningEngine" },
+  { href: "/simulation",      label: t.nav.simulation,     icon: "simulation"     },
   { href: "/vocab",           label: t.nav.vocab,          icon: "vocab"          },
+  { href: "/learning-engine", label: t.nav.learningEngine, icon: "learningEngine" },
   { href: "/account",         label: t.nav.account,        icon: "account"        },
 ];
 
@@ -28,13 +29,14 @@ export function BottomTabBar({ t }: { t: Translations }) {
         return (
           <Link key={href} href={href}
             style={{
-              flex: 1, display: "flex", flexDirection: "column",
+              flex: 1, minWidth: 0, display: "flex", flexDirection: "column",
               alignItems: "center", justifyContent: "center",
-              padding: "0.625rem 0.25rem", gap: "0.25rem",
-              textDecoration: "none", fontSize: "0.65rem", fontWeight: 600,
+              padding: "0.5rem 0.15rem", gap: "0.2rem",
+              textDecoration: "none", fontSize: "0.62rem", fontWeight: 600,
               color: active ? "var(--teal)" : "var(--ink-muted)",
               transition: "color 0.15s",
               position: "relative",
+              WebkitTapHighlightColor: "transparent",
             }}
           >
             {active && (
@@ -44,8 +46,19 @@ export function BottomTabBar({ t }: { t: Translations }) {
                 background: "var(--teal)",
               }} />
             )}
-            <NavIcon name={icon} size={19} color={active ? "var(--teal)" : "var(--ink-muted)"} />
-            <span style={{ lineHeight: 1, letterSpacing: "0.01em" }}>{label}</span>
+            <NavIcon name={icon} size={18} color={active ? "var(--teal)" : "var(--ink-muted)"} />
+            <span
+              style={{
+                lineHeight: 1.05,
+                letterSpacing: "0.005em",
+                maxWidth: "100%",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {label}
+            </span>
           </Link>
         );
       })}

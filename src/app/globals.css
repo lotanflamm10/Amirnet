@@ -617,30 +617,59 @@ a { color: inherit; text-decoration: none; }
  * "ready" hint when the Next button first appears.
  */
 
+/* Mobile bottom-tab bar height — kept here so .next-action-bar can lift
+ * itself above it. Matches the rendered height of <BottomTabBar/>:
+ * ~ 0.625rem padding-top + 19px icon + 0.25rem gap + 0.65rem label + 0.625rem
+ * padding-bottom + safe-area inset. ~56px without the safe-area inset. */
+:root {
+  --mobile-tabbar-height: 56px;
+  /* Bottom padding for <main>: leaves room for the fixed BottomTabBar and
+     the sticky next-action-bar without overlay. Overridden on desktop
+     where there is no bottom nav. */
+  --content-bottom-pad: calc(var(--mobile-tabbar-height) + 4rem + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 1024px) {
+  :root { --content-bottom-pad: 2rem; }
+}
+
 /* Sticky "Next question" footer used in practice + reading flows.
- * Pinned to the bottom of the viewport on mobile so the user never
- * has to hunt for the next-step button. On wider screens it sits
- * inline at the natural document position. */
+ * On mobile it pins to the bottom of the viewport *above* the
+ * BottomTabBar (so the button is always tappable, never hidden behind
+ * the fixed nav). On ≥1024px screens — where there is no bottom nav —
+ * it sticks at the very bottom edge. */
 .next-action-bar {
   position: sticky;
-  bottom: 0;
+  /* Lift above BottomTabBar + iPhone home-indicator inset. */
+  bottom: calc(var(--mobile-tabbar-height) + env(safe-area-inset-bottom, 0px));
   z-index: 5;
   margin-top: 0.5rem;
-  padding: 0.75rem 0.5rem calc(0.75rem + env(safe-area-inset-bottom, 0px));
-  background: linear-gradient(
-    180deg,
-    color-mix(in srgb, var(--canvas) 0%, transparent) 0%,
-    var(--canvas) 38%
-  );
+  padding: 0.75rem 0.5rem;
+  background: var(--canvas);
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 0.5rem;
+  /* Light edge so the bar reads as a distinct surface above the page bg. */
+  border-top: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
+  /* Mobile tap targets must be large + reachable with one thumb */
+  min-height: 56px;
 }
-@media (max-width: 640px) {
-  /* On phones make the gradient solid so the button never looks "floating
-     above" text behind it. */
-  .next-action-bar { background: var(--canvas); }
+.next-action-bar > .btn {
+  min-height: 48px;
+  font-size: 1rem;
+}
+@media (min-width: 1024px) {
+  /* No bottom nav on desktop — stick at the real bottom and let the
+     natural gradient drop back in for a softer transition. */
+  .next-action-bar {
+    bottom: 0;
+    border-top: none;
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--canvas) 0%, transparent) 0%,
+      var(--canvas) 38%
+    );
+  }
 }
 
 /* Subtle pulse to draw the eye to the Next button the moment it appears,
