@@ -39,11 +39,11 @@ interface SwipeCardProps {
  *   before triggering known/unknown. Keeps the gesture predictable across
  *   320px phones and tablet/desktop widths.
  */
-const DEAD_ZONE_PX = 10;
-const HORIZONTAL_BIAS = 1.25;
-const TAP_MAX_DELTA = 10;
-const SWIPE_THRESHOLD_MIN = 60;
-const SWIPE_THRESHOLD_RATIO = 0.25;
+const DEAD_ZONE_PX = 6;
+const HORIZONTAL_BIAS = 1.0;
+const TAP_MAX_DELTA = 8;
+const SWIPE_THRESHOLD_MIN = 50;
+const SWIPE_THRESHOLD_RATIO = 0.22;
 
 function ProgressBadge({ score }: { score: number }) {
   const label = getProgressLabel(score);
@@ -198,27 +198,32 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     // draggingRef and short-circuiting on the next move.
   };
 
+  /** Clean state shared by pointerup / pointercancel. */
+  const cleanupGesture = useCallback(() => {
+    draggingRef.current = false;
+    setIsDragging(false);
+    directionRef.current = "none";
+  }, []);
+
   const onPointerUp = useCallback((e: React.PointerEvent) => {
-    // If we never even entered the dead zone, treat it as a possible tap.
+    // Vertical lock — page scrolled naturally, nothing to do on the card.
+    if (directionRef.current === "vertical") {
+      cleanupGesture();
+      return;
+    }
+
+    // Tap path — pointer never left the dead zone. Flip the card.
     if (!draggingRef.current && directionRef.current === "none") {
       const dx = e.clientX - startXRef.current;
       const dy = e.clientY - startYRef.current;
       if (Math.hypot(dx, dy) < TAP_MAX_DELTA) {
         setIsFlipped((p) => !p);
       }
-      directionRef.current = "none";
-      return;
-    }
-
-    // Vertical lock — page scrolled naturally, nothing to do on the card.
-    if (directionRef.current === "vertical") {
-      directionRef.current = "none";
+      cleanupGesture();
       return;
     }
 
     // Horizontal release.
-    draggingRef.current = false;
-    setIsDragging(false);
     try {
       (e.currentTarget as Element).releasePointerCapture?.(e.pointerId);
     } catch {
@@ -226,7 +231,8 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     }
 
     const delta = dragXRef.current;
-    // Responsive threshold: 25% of card width, floor at 60px.
+    // Responsive threshold: 22% of card width, floor at 50px so a quick
+    // half-screen flick reliably triggers a known/missed on 320–430px phones.
     const cardWidth = cardElRef.current?.offsetWidth ?? 300;
     const threshold = Math.max(SWIPE_THRESHOLD_MIN, cardWidth * SWIPE_THRESHOLD_RATIO);
 
@@ -243,13 +249,34 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     } else {
       setDragX(0);
       dragXRef.current = 0;
+      // Card moved less than a tap delta — interpret as tap → flip.
+      // Important: only flip on a real pointerup. pointercancel goes
+      // through onPointerCancel below and never flips.
       if (Math.abs(delta) < TAP_MAX_DELTA) {
-        // Card moved less than a few pixels — interpret as tap → flip.
         setIsFlipped((p) => !p);
       }
     }
-    directionRef.current = "none";
-  }, [onKnown, onMissed]);
+    cleanupGesture();
+  }, [onKnown, onMissed, cleanupGesture]);
+
+  /**
+   * `pointercancel` fires when the browser takes over the touch — most
+   * commonly on iOS Safari once it commits to native vertical scroll
+   * mid-gesture. We must NOT treat that as a tap (it would flip the card
+   * every time the user starts scrolling), and we must NOT trigger
+   * known/missed. Just clean up state and let the page scroll.
+   */
+  const onPointerCancel = useCallback((e: React.PointerEvent) => {
+    try {
+      (e.currentTarget as Element).releasePointerCapture?.(e.pointerId);
+    } catch {
+      /* ignore */
+    }
+    setDragX(0);
+    dragXRef.current = 0;
+    setFlyDir(null);
+    cleanupGesture();
+  }, [cleanupGesture]);
 
   const rotation = isDragging ? dragX / 18 : 0;
 
@@ -293,8 +320,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
           onPointerDown={onPointerDown}
           onPointerMove={onPointerMove}
           onPointerUp={onPointerUp}
-          onPointerLeave={onPointerUp}
-          onPointerCancel={onPointerUp}
+          onPointerCancel={onPointerCancel}
         >
           {/* Drag indicators */}
           {isDragging && dragX > 30 && (
@@ -388,6 +414,12 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                 boxShadow: "0 8px 32px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.12)",
                 display: "flex", flexDirection: "column", padding: "16px 18px",
                 overflowY: "auto", gap: "10px",
+                // The back face is a scroll container (overflow-y: auto), so
+                // iOS would otherwise interpret horizontal gestures here as
+                // browser-handled. Explicit pan-y keeps vertical content
+                // scroll while letting JS pointer events own horizontal
+                // swipes — same axis-lock rules as the outer card.
+                touchAction: "pan-y",
               }}>
                 {(() => {
                   const enrich = getMemoryEnrichment(item);
