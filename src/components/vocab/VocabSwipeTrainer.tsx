@@ -21,6 +21,7 @@ import { withCustomItems } from "@/lib/vocab/custom-vocab-store";
 import { filterByCardType, CARD_TYPE_LABELS_HE, CARD_TYPE_LABELS_EN } from "@/lib/vocab/vocab-card-type";
 import type { CardType } from "@/lib/vocab/vocab-card-type";
 import { getDailyVocabPool } from "@/lib/vocab/daily-vocab";
+import { addUnknownWord } from "@/lib/vocab/unknown-words-store";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
 
@@ -245,6 +246,16 @@ export default function VocabSwipeTrainer() {
     if (!currentItem) return;
     const prevState = getOrCreateState(currentItem.id);
     markMissed(currentItem.id);
+    // Mirror the miss into the per-user unknown-words archive so the session
+    // summary's "עבור למאגר המילים הלא ידועות" link actually has content.
+    // addUnknownWord is a no-op duplicate that just bumps reviewCount when the
+    // same word is missed again, and is per-user via userKey().
+    addUnknownWord({
+      word: currentItem.word,
+      translation: currentItem.hebrewTranslation,
+      source: "vocab",
+      status: "unknown",
+    });
     setActionHistory((h) => [...h, { action: "missed", item: currentItem, prevState }]);
     setMissed((p) => p + 1);
     setSessionMissedItems((prev) =>

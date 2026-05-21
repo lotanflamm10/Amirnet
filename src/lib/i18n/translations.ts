@@ -295,6 +295,10 @@ export interface Translations {
     /** Card */
     tapToReveal: string;
     trap: string;
+    memoryTip: string;        // friendly label for the smart memory hint
+    example: string;          // friendly label for the example sentence
+    moreExamples: string;     // collapsed-details toggle (open)
+    hideExamples: string;     // collapsed-details toggle (close)
     addStar: string;
     removeStar: string;
     playAudio: string;
@@ -914,6 +918,10 @@ export const he: Translations = {
     swipeReview: "↩ שוב",
     tapToReveal: "הקש כדי לחשוף",
     trap: "מלכודת",
+    memoryTip: "טיפ לזכירה",
+    example: "דוגמה",
+    moreExamples: "עוד דוגמאות",
+    hideExamples: "פחות דוגמאות",
     addStar: "הוסף כוכב",
     removeStar: "הסר כוכב",
     playAudio: "השמע הגייה",
@@ -1514,6 +1522,10 @@ export const en: Translations = {
     swipeReview: "↩ Review",
     tapToReveal: "Tap to reveal",
     trap: "Trap",
+    memoryTip: "Memory tip",
+    example: "Example",
+    moreExamples: "More examples",
+    hideExamples: "Fewer examples",
     addStar: "Add star",
     removeStar: "Remove star",
     playAudio: "Play pronunciation",

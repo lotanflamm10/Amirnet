@@ -12,6 +12,7 @@ import {
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
 import SwipeCard from "./SwipeCard";
 import { useLang } from "@/contexts/LanguageContext";
+import { addUnknownWord } from "@/lib/vocab/unknown-words-store";
 
 type HistoryEntry = { action: "known" | "missed"; item: VocabItem; prevState: VocabReviewState };
 
@@ -78,6 +79,15 @@ export default function CustomVocabSession({ items, onExit, onRestart }: Props) 
     if (!currentItem) return;
     const prevState = getOrCreateState(currentItem.id);
     markMissed(currentItem.id);
+    // Also persist to the per-user unknown-words archive so the missed words
+    // surface on /vocab/unknown. addUnknownWord dedupes by normalized key and
+    // is per-user via userKey().
+    addUnknownWord({
+      word: currentItem.word,
+      translation: currentItem.hebrewTranslation,
+      source: "vocab",
+      status: "unknown",
+    });
     setActionHistory((h) => [...h, { action: "missed", item: currentItem, prevState }]);
     setMissed((p) => p + 1);
     setSessionMissedItems((prev) =>
