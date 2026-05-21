@@ -653,8 +653,11 @@ a { color: inherit; text-decoration: none; }
  * it sticks at the very bottom edge. */
 .next-action-bar {
   position: sticky;
-  /* Lift above BottomTabBar + iPhone home-indicator inset. */
-  bottom: calc(var(--mobile-tabbar-height) + env(safe-area-inset-bottom, 0px));
+  /* Lift above BottomTabBar + iPhone home-indicator inset. The extra 6px
+     gives a visible gap between this bar and the BottomTabBar so the two
+     surfaces never appear to merge / overlap on iPhone — a 0px gap on
+     screens with similar background tones reads as "covered by nav". */
+  bottom: calc(var(--mobile-tabbar-height) + env(safe-area-inset-bottom, 0px) + 6px);
   z-index: 5;
   margin-top: 0.5rem;
   padding: 0.75rem 0.5rem;

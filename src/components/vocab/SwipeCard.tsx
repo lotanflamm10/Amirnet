@@ -51,21 +51,26 @@ const SWIPE_THRESHOLD_RATIO = 0.22;
 const VELOCITY_TRIGGER_PX_PER_MS = 0.5;
 const VELOCITY_MIN_DISPLACEMENT_PX = 32;
 
-function ProgressBadge({ score }: { score: number }) {
-  const label = getProgressLabel(score);
+function ProgressBadge({ score, label, dir }: { score: number; label: string; dir: "rtl" | "ltr" }) {
+  const englishKey = getProgressLabel(score);
   const colors: Record<string, string> = {
     New: "var(--ink-muted)",
     Learning: "var(--warn)",
     Strong: "var(--teal)",
     Mastered: "var(--success)",
   };
+  const color = colors[englishKey];
   return (
-    <span style={{
-      fontSize: "0.7rem", fontWeight: 700, padding: "2px 8px",
-      borderRadius: "99px", background: colors[label] + "22",
-      color: colors[label], border: `1px solid ${colors[label]}44`,
-      letterSpacing: "0.04em",
-    }}>
+    <span
+      dir={dir}
+      style={{
+        display: "inline-flex", alignItems: "center", lineHeight: 1,
+        fontSize: "0.7rem", fontWeight: 700, padding: "3px 8px",
+        borderRadius: "99px", background: color + "22",
+        color, border: `1px solid ${color}44`,
+        letterSpacing: dir === "ltr" ? "0.04em" : "0",
+        whiteSpace: "nowrap",
+      }}>
       {label}
     </span>
   );
@@ -90,6 +95,17 @@ function DifficultyBadge({ difficulty }: { difficulty: string }) {
 
 export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar, onBack, canGoBack, isStarred }: SwipeCardProps) {
   const { t, lang } = useLang();
+  // Hebrew/English label for the mastery badge. Always derived from the
+  // English getProgressLabel() output (which is the stable canonical key)
+  // and translated via the i18n table — so "חדש" appears in HE mode
+  // instead of the raw "New".
+  const progressKey = getProgressLabel(reviewState.masteryScore);
+  const progressLabel = (
+    progressKey === "New"      ? t.vocab.new
+    : progressKey === "Learning" ? t.vocab.learning
+    : progressKey === "Strong"   ? t.vocab.strong
+    :                              t.vocab.mastered
+  );
   const [isFlipped, setIsFlipped] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [dragX, setDragX] = useState(0);
@@ -478,24 +494,40 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
               <div className="swipe-card-face" style={{
                 background: "var(--surface)", border: "1px solid var(--line)",
                 boxShadow: "0 8px 32px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.12)",
-                display: "flex", flexDirection: "column", padding: "20px",
+                display: "flex", flexDirection: "column", padding: "18px",
               }}>
-                {/* Top row: badges + star */}
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px" }}>
-                  <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
+                {/* Top row: badges + status pill + star. alignItems: center
+                    so the small badges and the larger star icon share a
+                    visual baseline ("New" / "חדש" no longer hangs higher
+                    than the star). */}
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "8px", marginBottom: "12px" }}>
+                  <div style={{ display: "flex", gap: "6px", flexWrap: "wrap", alignItems: "center" }}>
                     <DifficultyBadge difficulty={item.difficulty} />
                     {item.partOfSpeech && (
-                      <span dir="ltr" style={{ fontSize: "0.7rem", padding: "2px 8px", borderRadius: "99px", background: "var(--raised)", color: "var(--ink-soft)", border: "1px solid var(--line)" }}>
+                      <span dir="ltr" style={{
+                        display: "inline-flex", alignItems: "center", lineHeight: 1,
+                        fontSize: "0.7rem", padding: "3px 8px", borderRadius: "99px",
+                        background: "var(--raised)", color: "var(--ink-soft)",
+                        border: "1px solid var(--line)", whiteSpace: "nowrap",
+                      }}>
                         {item.partOfSpeech}
                       </span>
                     )}
                   </div>
-                  <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-                    <ProgressBadge score={reviewState.masteryScore} />
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <ProgressBadge
+                      score={reviewState.masteryScore}
+                      label={progressLabel}
+                      dir={lang === "he" ? "rtl" : "ltr"}
+                    />
                     <button
                       onClick={(e) => { e.stopPropagation(); onStar(); }}
                       aria-label={isStarred ? t.vocab.removeStar : t.vocab.addStar}
-                      style={{ background: "none", border: "none", cursor: "pointer", fontSize: "1.2rem", color: isStarred ? "var(--warn)" : "var(--ink-muted)", padding: "2px", lineHeight: 1 }}
+                      style={{
+                        background: "none", border: "none", cursor: "pointer",
+                        fontSize: "1.1rem", color: isStarred ? "var(--warn)" : "var(--ink-muted)",
+                        padding: "2px 4px", lineHeight: 1, display: "inline-flex", alignItems: "center",
+                      }}
                     >
                       {isStarred ? "★" : "☆"}
                     </button>
@@ -544,7 +576,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
               <div className="swipe-card-back" style={{
                 background: "var(--surface)", border: "1px solid var(--line)",
                 boxShadow: "0 8px 32px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.12)",
-                display: "flex", flexDirection: "column", padding: "16px 18px",
+                display: "flex", flexDirection: "column", padding: "18px",
                 overflowY: "auto", gap: "10px",
                 // The back face is a scroll container (overflow-y: auto), so
                 // iOS would otherwise interpret horizontal gestures here as

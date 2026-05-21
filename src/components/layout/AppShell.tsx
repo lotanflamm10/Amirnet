@@ -27,12 +27,17 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       {/* Main content — offset matches sidebar width */}
       <div className="content-area flex-1 flex flex-col min-w-0" style={{ maxWidth: "100%" }}>
         <main
-          className="flex-1 w-full px-4 py-6"
+          className="flex-1 w-full px-4"
           dir={dir}
           style={{
             // Respect iPhone notch / dynamic island and home indicator.
             paddingInlineStart: "max(1rem, env(safe-area-inset-left))",
             paddingInlineEnd:   "max(1rem, env(safe-area-inset-right))",
+            // Top padding lifts content below the iPhone status bar / dynamic
+            // island when the app runs as a PWA (display: standalone). On
+            // regular browser tabs env(safe-area-inset-top) is 0 so we fall
+            // back to the previous 1.5rem.
+            paddingTop:    "max(1.5rem, env(safe-area-inset-top))",
             // Driven by --content-bottom-pad which collapses to 2rem on
             // desktop (no bottom tab bar) and expands on mobile to clear
             // the bar + sticky next-action-bar + iPhone home indicator.

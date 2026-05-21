@@ -183,7 +183,11 @@ export default function PracticePage() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "0.75rem" }}>
           {standardModes.map((mode) => {
             const copy = pickCopy(mode);
-            const sub = isHe ? mode.en.label : mode.he.label;
+            // In Hebrew UI mode, the English sub-label felt redundant next
+            // to the primary Hebrew title (e.g. "Restatements" right under
+            // "ניסוח מחדש"). Keep the Hebrew gloss visible in English UI as
+            // a learning aid, but suppress the English echo in Hebrew UI.
+            const sub = isHe ? "" : mode.he.label;
             return (
               <ModeCard
                 key={mode.id}
@@ -235,7 +239,9 @@ export default function PracticePage() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "0.625rem" }}>
               {SKILL_BOOSTERS.map((booster) => {
                 const copy = pickCopy(booster);
-                const sub = isHe ? booster.en.label : booster.he.label;
+                // Same rationale as the standard mode cards above: drop the
+                // English echo in Hebrew UI; keep the Hebrew sub in English UI.
+                const sub = isHe ? "" : booster.he.label;
                 return (
                   <Link key={booster.id} href={`/practice/${booster.id}?difficulty=${difficulty}`}
                     className="card card-hover"
@@ -255,7 +261,9 @@ export default function PracticePage() {
                     </div>
                     <div>
                       <div style={{ fontWeight: 700, color: "var(--ink)", fontSize: "0.88rem" }}>{copy.label}</div>
-                      <div style={{ fontSize: "0.68rem", color: "var(--ink-muted)" }}>{sub}</div>
+                      {sub && (
+                        <div style={{ fontSize: "0.68rem", color: "var(--ink-muted)" }}>{sub}</div>
+                      )}
                     </div>
                     <p style={{ margin: 0, color: "var(--ink-soft)", fontSize: "0.78rem", lineHeight: 1.5, flex: 1 }}>{copy.desc}</p>
                     <span style={{ fontSize: "0.78rem", color: booster.color, fontWeight: 600 }}>{t.practice.practiceVerb} →</span>
@@ -281,7 +289,11 @@ export default function PracticePage() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "0.75rem" }}>
           {pilotModes.map((mode) => {
             const copy = pickCopy(mode);
-            const sub = isHe ? mode.en.label : mode.he.label;
+            // In Hebrew UI mode, the English sub-label felt redundant next
+            // to the primary Hebrew title (e.g. "Restatements" right under
+            // "ניסוח מחדש"). Keep the Hebrew gloss visible in English UI as
+            // a learning aid, but suppress the English echo in Hebrew UI.
+            const sub = isHe ? "" : mode.he.label;
             return (
               <ModeCard
                 key={mode.id}
@@ -348,7 +360,9 @@ function ModeCard({
 
       <div>
         <div style={{ fontWeight: 700, color: "var(--ink)", fontSize: "0.95rem", lineHeight: 1.3 }}>{label}</div>
-        <div style={{ color: "var(--ink-muted)", fontSize: "0.72rem", marginTop: "0.125rem" }}>{sub}</div>
+        {sub && (
+          <div style={{ color: "var(--ink-muted)", fontSize: "0.72rem", marginTop: "0.125rem" }}>{sub}</div>
+        )}
       </div>
 
       <p style={{ margin: 0, color: "var(--ink-soft)", fontSize: "0.82rem", lineHeight: 1.55, flex: 1 }}>{desc}</p>

@@ -73,14 +73,22 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
   }, [submitted, showFeedback]);
 
   useEffect(() => {
-    // On question change, restore any previously-chosen index (used when
-    // navigating back to an already-answered question in simulation mode).
+    // On question CHANGE only. Resetting on `disabled` or `chosenIndex`
+    // flips was wiping the user's just-submitted `selected` the moment the
+    // parent flipped `disabled = true` after submit — which made
+    // `isCorrect = selected === question.answer` evaluate against `null`
+    // and showed "לא נכון" even when the user picked correctly.
+    // `disabled` is handled by a dedicated effect below; `chosenIndex` and
+    // `variant` are stable per-question so re-reading them here at mount
+    // (key={q.id} causes a fresh mount per question in PracticeSession,
+    // and SimulationRunner remounts via key on navigation too) is enough.
     setSelected(chosenIndex ?? null);
     setSubmitted(variant === "simulation" ? false : disabled);
     setTtsPlaying(false);
     setShowTranscript(false);
     if (typeof window !== "undefined") window.speechSynthesis?.cancel();
-  }, [question.id, chosenIndex, variant, disabled]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [question.id]);
 
   useEffect(() => {
     return () => { if (typeof window !== "undefined") window.speechSynthesis?.cancel(); };

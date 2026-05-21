@@ -211,6 +211,41 @@ export default function VocabSwipeTrainer() {
     resetSessionState(spreadSimilarWords(items));
   }, [sessionMissedItems]);
 
+  /**
+   * Shuffle the REMAINING (not-yet-answered) cards of the current session
+   * without resetting known/missed counters. Preserves the cards the user
+   * already swiped through — only the upcoming pool order is re-randomized.
+   * If we haven't started yet, falls back to a full re-shuffle of the pool.
+   */
+  const handleShuffle = useCallback(() => {
+    const tailStart = currentIndex;
+    const tail = sessionItems.slice(tailStart);
+    if (tail.length <= 1) {
+      // Nothing meaningful to shuffle in the current session — rebuild
+      // from filters with a fresh random order.
+      resetSessionState(buildPool(difficulty, status, cardType));
+      return;
+    }
+    // Fisher–Yates shuffle of the upcoming tail. spreadSimilarWords keeps
+    // root-stem siblings (e.g. "appropriate" → "appropriately") apart so
+    // the new order also feels varied.
+    const shuffled = [...tail];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    const next = [...sessionItems.slice(0, tailStart), ...spreadSimilarWords(shuffled)];
+    setSessionItems(next);
+    // Re-anchor the current card to whatever now sits at currentIndex so
+    // the star/state UI matches the new top card.
+    const head = next[currentIndex];
+    if (head) {
+      const st = getOrCreateState(head.id);
+      setCurrentState(st);
+      setIsStarred(st.starred);
+    }
+  }, [currentIndex, sessionItems, difficulty, status, cardType]);
+
   useLayoutEffect(() => {
     startSession();
   }, [startSession]);
@@ -439,6 +474,22 @@ export default function VocabSwipeTrainer() {
         <span style={{ fontSize: "0.78rem", color: "var(--ink-muted)", whiteSpace: "nowrap" }}>{currentIndex}/{totalCards}</span>
         <span style={{ fontSize: "0.78rem", color: "var(--teal)", whiteSpace: "nowrap" }}>✓ {knew}</span>
         <span style={{ fontSize: "0.78rem", color: "var(--danger)", whiteSpace: "nowrap" }}>✗ {missed}</span>
+        <button
+          type="button"
+          onClick={handleShuffle}
+          aria-label={t.vocab.shuffle}
+          title={t.vocab.shuffle}
+          style={{
+            display: "inline-flex", alignItems: "center", gap: "4px",
+            padding: "4px 10px", borderRadius: 999,
+            background: "var(--raised)", border: "1px solid var(--line)",
+            color: "var(--ink-soft)", fontSize: "0.74rem", fontWeight: 600,
+            cursor: "pointer", whiteSpace: "nowrap",
+            fontFamily: "var(--font-body)", transition: "all 0.15s",
+          }}
+        >
+          🔀 <span>{t.vocab.shuffle}</span>
+        </button>
       </div>
 
       <p style={{ fontSize: "0.68rem", color: "var(--ink-muted)", textAlign: "center", margin: 0 }}>
