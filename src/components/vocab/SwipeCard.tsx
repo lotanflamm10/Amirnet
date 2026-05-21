@@ -18,8 +18,32 @@ interface SwipeCardProps {
   isStarred: boolean;
 }
 
-const SWIPE_THRESHOLD = 80;
+/**
+ * Gesture tuning constants.
+ *
+ * DEAD_ZONE_PX: how far the pointer must move from its start position
+ *   before we even decide whether it's a horizontal swipe or a vertical
+ *   scroll. Below this the card stays put and no transform is applied.
+ *
+ * HORIZONTAL_BIAS: the gesture commits to "horizontal" only when
+ *   |dx| > |dy| * HORIZONTAL_BIAS. A value > 1 means the user can swipe
+ *   slightly diagonally (up-and-to-the-right etc.) and we still treat it
+ *   as horizontal — but a near-vertical drag is correctly classified as
+ *   "vertical" and we yield to the page scroll.
+ *
+ * TAP_MAX_DELTA: total pointer travel below which we treat the gesture as
+ *   a tap (and flip the card) rather than any kind of drag.
+ *
+ * SWIPE_THRESHOLD_MIN / _RATIO: the swipe threshold is responsive — we
+ *   require at least min(card_width * RATIO, MIN) of horizontal travel
+ *   before triggering known/unknown. Keeps the gesture predictable across
+ *   320px phones and tablet/desktop widths.
+ */
+const DEAD_ZONE_PX = 10;
+const HORIZONTAL_BIAS = 1.25;
 const TAP_MAX_DELTA = 10;
+const SWIPE_THRESHOLD_MIN = 60;
+const SWIPE_THRESHOLD_RATIO = 0.25;
 
 function ProgressBadge({ score }: { score: number }) {
   const label = getProgressLabel(score);
@@ -67,8 +91,18 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
   const [isSpeaking, setIsSpeaking] = useState(false);
 
   const startXRef = useRef(0);
+  const startYRef = useRef(0);
   const dragXRef = useRef(0);
   const draggingRef = useRef(false);
+  /**
+   * Gesture direction lock. Starts at "none" while the pointer is inside
+   * the dead zone. Once the user moves past the dead zone we commit to
+   * "horizontal" (and start translating the card) or "vertical" (and
+   * release the gesture entirely so the page scrolls naturally).
+   */
+  const directionRef = useRef<"none" | "horizontal" | "vertical">("none");
+  /** Container ref used to compute a responsive swipe threshold from card width. */
+  const cardElRef = useRef<HTMLDivElement | null>(null);
 
   // Speak the current word using the Web Speech API
   const speak = useCallback((e: React.MouseEvent) => {
@@ -112,40 +146,109 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     if ((e.target as HTMLElement).closest("button")) return;
     draggingRef.current = true;
     startXRef.current = e.clientX;
+    startYRef.current = e.clientY;
     dragXRef.current = 0;
-    setIsDragging(true);
+    directionRef.current = "none";
+    // NOTE: do NOT set isDragging(true) yet — wait until we've committed to
+    // a horizontal lock, otherwise even a vertical scroll would tint the
+    // card and apply a phantom rotation.
     setDragX(0);
-    // No setPointerCapture — it redirects click events and breaks tap-to-flip
+    // setPointerCapture is deferred until horizontal lock — capturing too
+    // early would prevent vertical scrolling from yielding to the browser.
   };
 
   const onPointerMove = (e: React.PointerEvent) => {
     if (!draggingRef.current) return;
-    const delta = e.clientX - startXRef.current;
-    dragXRef.current = delta;
-    setDragX(delta);
+
+    const dx = e.clientX - startXRef.current;
+    const dy = e.clientY - startYRef.current;
+
+    if (directionRef.current === "none") {
+      // Still inside the dead zone — wait before classifying.
+      if (Math.hypot(dx, dy) < DEAD_ZONE_PX) return;
+
+      const adx = Math.abs(dx);
+      const ady = Math.abs(dy);
+
+      if (adx > ady * HORIZONTAL_BIAS) {
+        // Horizontal lock — start dragging the card. Capture the pointer
+        // so a fast swipe that drifts off the card still resolves here.
+        directionRef.current = "horizontal";
+        setIsDragging(true);
+        try {
+          (e.currentTarget as Element).setPointerCapture?.(e.pointerId);
+        } catch {
+          /* ignore — older browsers */
+        }
+      } else {
+        // Vertical / ambiguous — release the gesture entirely so the page
+        // can scroll natively. We won't transform the card and won't fire
+        // known/unknown.
+        directionRef.current = "vertical";
+        draggingRef.current = false;
+        return;
+      }
+    }
+
+    if (directionRef.current === "horizontal") {
+      dragXRef.current = dx;
+      setDragX(dx);
+    }
+    // directionRef.current === "vertical" is handled above by releasing
+    // draggingRef and short-circuiting on the next move.
   };
 
-  const onPointerUp = useCallback(() => {
-    if (!draggingRef.current) return;
+  const onPointerUp = useCallback((e: React.PointerEvent) => {
+    // If we never even entered the dead zone, treat it as a possible tap.
+    if (!draggingRef.current && directionRef.current === "none") {
+      const dx = e.clientX - startXRef.current;
+      const dy = e.clientY - startYRef.current;
+      if (Math.hypot(dx, dy) < TAP_MAX_DELTA) {
+        setIsFlipped((p) => !p);
+      }
+      directionRef.current = "none";
+      return;
+    }
+
+    // Vertical lock — page scrolled naturally, nothing to do on the card.
+    if (directionRef.current === "vertical") {
+      directionRef.current = "none";
+      return;
+    }
+
+    // Horizontal release.
     draggingRef.current = false;
     setIsDragging(false);
+    try {
+      (e.currentTarget as Element).releasePointerCapture?.(e.pointerId);
+    } catch {
+      /* ignore */
+    }
 
     const delta = dragXRef.current;
+    // Responsive threshold: 25% of card width, floor at 60px.
+    const cardWidth = cardElRef.current?.offsetWidth ?? 300;
+    const threshold = Math.max(SWIPE_THRESHOLD_MIN, cardWidth * SWIPE_THRESHOLD_RATIO);
 
-    if (delta > SWIPE_THRESHOLD) {
+    if (delta > threshold) {
       setFlyDir("right");
-      setTimeout(() => { setDragX(0); dragXRef.current = 0; setFlyDir(null); onKnown(); }, 380);
-    } else if (delta < -SWIPE_THRESHOLD) {
+      setTimeout(() => {
+        setDragX(0); dragXRef.current = 0; setFlyDir(null); onKnown();
+      }, 380);
+    } else if (delta < -threshold) {
       setFlyDir("left");
-      setTimeout(() => { setDragX(0); dragXRef.current = 0; setFlyDir(null); onMissed(); }, 380);
+      setTimeout(() => {
+        setDragX(0); dragXRef.current = 0; setFlyDir(null); onMissed();
+      }, 380);
     } else {
       setDragX(0);
       dragXRef.current = 0;
-      // Small movement = tap → flip the card
       if (Math.abs(delta) < TAP_MAX_DELTA) {
+        // Card moved less than a few pixels — interpret as tap → flip.
         setIsFlipped((p) => !p);
       }
     }
+    directionRef.current = "none";
   }, [onKnown, onMissed]);
 
   const rotation = isDragging ? dragX / 18 : 0;
@@ -185,6 +288,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
 
         {/* Main swipeable card */}
         <div
+          ref={cardElRef}
           style={{ position: "relative", zIndex: 1, ...cardStyle }}
           onPointerDown={onPointerDown}
           onPointerMove={onPointerMove}
