@@ -38,12 +38,18 @@ interface SwipeCardProps {
  *   require at least min(card_width * RATIO, MIN) of horizontal travel
  *   before triggering known/unknown. Keeps the gesture predictable across
  *   320px phones and tablet/desktop widths.
+ *
+ * VELOCITY_TRIGGER_PX_PER_MS: a fast horizontal flick commits the swipe
+ *   even if the displacement is below the threshold. Helps quick flicks
+ *   feel responsive on mobile.
  */
-const DEAD_ZONE_PX = 6;
+const DEAD_ZONE_PX = 8;
 const HORIZONTAL_BIAS = 1.0;
 const TAP_MAX_DELTA = 8;
 const SWIPE_THRESHOLD_MIN = 50;
 const SWIPE_THRESHOLD_RATIO = 0.22;
+const VELOCITY_TRIGGER_PX_PER_MS = 0.5;
+const VELOCITY_MIN_DISPLACEMENT_PX = 32;
 
 function ProgressBadge({ score }: { score: number }) {
   const label = getProgressLabel(score);
@@ -90,19 +96,15 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
   const [flyDir, setFlyDir] = useState<"left" | "right" | null>(null);
   const [isSpeaking, setIsSpeaking] = useState(false);
 
-  const startXRef = useRef(0);
-  const startYRef = useRef(0);
-  const dragXRef = useRef(0);
-  const draggingRef = useRef(false);
-  /**
-   * Gesture direction lock. Starts at "none" while the pointer is inside
-   * the dead zone. Once the user moves past the dead zone we commit to
-   * "horizontal" (and start translating the card) or "vertical" (and
-   * release the gesture entirely so the page scrolls naturally).
-   */
-  const directionRef = useRef<"none" | "horizontal" | "vertical">("none");
   /** Container ref used to compute a responsive swipe threshold from card width. */
   const cardElRef = useRef<HTMLDivElement | null>(null);
+
+  // Hold the latest callback references so the gesture effect can read them
+  // without re-attaching its native event listeners on every render.
+  const onKnownRef = useRef(onKnown);
+  const onMissedRef = useRef(onMissed);
+  useEffect(() => { onKnownRef.current = onKnown; }, [onKnown]);
+  useEffect(() => { onMissedRef.current = onMissed; }, [onMissed]);
 
   // Speak the current word using the Web Speech API
   const speak = useCallback((e: React.MouseEvent) => {
@@ -122,7 +124,6 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
   useEffect(() => {
     setIsFlipped(false);
     setDragX(0);
-    dragXRef.current = 0;
     setFlyDir(null);
     setIsSpeaking(false);
     if (typeof window !== "undefined" && window.speechSynthesis) {
@@ -142,141 +143,244 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  const onPointerDown = (e: React.PointerEvent) => {
-    if ((e.target as HTMLElement).closest("button")) return;
-    draggingRef.current = true;
-    startXRef.current = e.clientX;
-    startYRef.current = e.clientY;
-    dragXRef.current = 0;
-    directionRef.current = "none";
-    // NOTE: do NOT set isDragging(true) yet — wait until we've committed to
-    // a horizontal lock, otherwise even a vertical scroll would tint the
-    // card and apply a phantom rotation.
-    setDragX(0);
-    // setPointerCapture is deferred until horizontal lock — capturing too
-    // early would prevent vertical scrolling from yielding to the browser.
-  };
+  /**
+   * Gesture handling — native touch + mouse listeners.
+   *
+   * Why native (not React's onPointerDown/Move/Up):
+   *   React's synthetic touchmove listener is registered as passive on most
+   *   targets, so we can't call preventDefault() from it. On iOS Safari
+   *   that's fatal: as soon as the gesture has any vertical drift, the
+   *   browser commits to its own scroll and fires pointercancel — the
+   *   card never gets to swipe. By attaching a native touchmove listener
+   *   with { passive: false }, we can call preventDefault() the moment
+   *   horizontal intent is confirmed, locking the gesture to JS.
+   *
+   *   For vertical drags we simply never call preventDefault, so the page
+   *   scrolls naturally — touch-action: pan-y on the card surface keeps
+   *   the browser primed for that.
+   *
+   * Mouse path uses document-level mousemove/mouseup so the drag still
+   * resolves even if the cursor leaves the card mid-drag — the desktop
+   * analogue of pointer capture.
+   */
+  useEffect(() => {
+    const el = cardElRef.current;
+    if (!el) return;
 
-  const onPointerMove = (e: React.PointerEvent) => {
-    if (!draggingRef.current) return;
+    // Mutable gesture state held in closure (avoids React state re-renders
+    // during the gesture path itself).
+    let started = false;                                  // gesture started on the card (not a button)
+    let active = false;                                   // gesture still owned by JS (not released to scroll)
+    let startX = 0;
+    let startY = 0;
+    let startTime = 0;
+    let dx = 0;
+    let direction: "none" | "horizontal" | "vertical" = "none";
 
-    const dx = e.clientX - startXRef.current;
-    const dy = e.clientY - startYRef.current;
+    const reset = () => {
+      started = false;
+      active = false;
+      direction = "none";
+      dx = 0;
+    };
 
-    if (directionRef.current === "none") {
-      // Still inside the dead zone — wait before classifying.
-      if (Math.hypot(dx, dy) < DEAD_ZONE_PX) return;
+    const beginGesture = (cx: number, cy: number, target: EventTarget | null): boolean => {
+      // Don't hijack taps on the action buttons / star / audio.
+      const targetEl = target as HTMLElement | null;
+      if (targetEl && typeof targetEl.closest === "function" && targetEl.closest("button")) {
+        return false;
+      }
+      started = true;
+      active = true;
+      startX = cx;
+      startY = cy;
+      startTime = performance.now();
+      dx = 0;
+      direction = "none";
+      setDragX(0);
+      return true;
+    };
 
-      const adx = Math.abs(dx);
-      const ady = Math.abs(dy);
+    /** Returns true when caller should preventDefault on the underlying event. */
+    const updateGesture = (cx: number, cy: number): boolean => {
+      if (!active) return false;
+      const nx = cx - startX;
+      const ny = cy - startY;
 
-      if (adx > ady * HORIZONTAL_BIAS) {
-        // Horizontal lock — start dragging the card. Capture the pointer
-        // so a fast swipe that drifts off the card still resolves here.
-        directionRef.current = "horizontal";
-        setIsDragging(true);
-        try {
-          (e.currentTarget as Element).setPointerCapture?.(e.pointerId);
-        } catch {
-          /* ignore — older browsers */
+      if (direction === "none") {
+        // Still inside the dead zone — wait before classifying so a tiny
+        // jitter doesn't accidentally lock to a direction.
+        if (Math.hypot(nx, ny) < DEAD_ZONE_PX) return false;
+        if (Math.abs(nx) > Math.abs(ny) * HORIZONTAL_BIAS) {
+          // Horizontal lock — JS now owns the gesture. From this point on
+          // we preventDefault so iOS will not steal it as a scroll.
+          direction = "horizontal";
+          setIsDragging(true);
+        } else {
+          // Vertical / ambiguous — release the gesture so the browser can
+          // scroll naturally. We never preventDefault on vertical moves.
+          direction = "vertical";
+          active = false;
+          return false;
         }
-      } else {
-        // Vertical / ambiguous — release the gesture entirely so the page
-        // can scroll natively. We won't transform the card and won't fire
-        // known/unknown.
-        directionRef.current = "vertical";
-        draggingRef.current = false;
+      }
+
+      if (direction === "horizontal") {
+        dx = nx;
+        setDragX(nx);
+        return true;
+      }
+      return false;
+    };
+
+    const endGesture = (cancelled: boolean) => {
+      if (!started) {
+        reset();
         return;
       }
-    }
 
-    if (directionRef.current === "horizontal") {
-      dragXRef.current = dx;
-      setDragX(dx);
-    }
-    // directionRef.current === "vertical" is handled above by releasing
-    // draggingRef and short-circuiting on the next move.
-  };
+      // Browser cancelled the touch (iOS Safari scroll commit, OS gesture,
+      // popup, etc). Don't fire known/missed, don't flip — just settle.
+      if (cancelled) {
+        setDragX(0);
+        setIsDragging(false);
+        setFlyDir(null);
+        reset();
+        return;
+      }
 
-  /** Clean state shared by pointerup / pointercancel. */
-  const cleanupGesture = useCallback(() => {
-    draggingRef.current = false;
-    setIsDragging(false);
-    directionRef.current = "none";
+      // Vertical lock — page scrolled naturally, nothing to do on the card.
+      if (direction === "vertical") {
+        reset();
+        return;
+      }
+
+      // No movement past the dead zone → treat as a tap and flip the card.
+      if (direction === "none") {
+        if (Math.abs(dx) < TAP_MAX_DELTA) {
+          setIsFlipped((p) => !p);
+        }
+        reset();
+        return;
+      }
+
+      // Horizontal release — commit known/missed if past threshold or fast
+      // enough; otherwise snap back.
+      const cardWidth = el.offsetWidth || 300;
+      const threshold = Math.max(SWIPE_THRESHOLD_MIN, cardWidth * SWIPE_THRESHOLD_RATIO);
+      const elapsedMs = Math.max(1, performance.now() - startTime);
+      const velocity = dx / elapsedMs; // signed: px / ms
+      const fastFlick =
+        Math.abs(velocity) >= VELOCITY_TRIGGER_PX_PER_MS &&
+        Math.abs(dx) >= VELOCITY_MIN_DISPLACEMENT_PX;
+
+      if (dx > threshold || (fastFlick && dx > 0)) {
+        setFlyDir("right");
+        setTimeout(() => {
+          setDragX(0); setFlyDir(null); onKnownRef.current();
+        }, 380);
+      } else if (dx < -threshold || (fastFlick && dx < 0)) {
+        setFlyDir("left");
+        setTimeout(() => {
+          setDragX(0); setFlyDir(null); onMissedRef.current();
+        }, 380);
+      } else {
+        // Snap back. CSS transition on transform animates the card home.
+        setDragX(0);
+        // Tap that briefly crossed the dead zone but barely moved — still
+        // count as a tap so a slightly-shaky finger can flip the card.
+        if (Math.abs(dx) < TAP_MAX_DELTA) {
+          setIsFlipped((p) => !p);
+        }
+      }
+      setIsDragging(false);
+      reset();
+    };
+
+    // ── Touch handlers ───────────────────────────────────────────
+    const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length !== 1) {
+        // Multi-touch (pinch etc) — abandon any in-progress gesture cleanly.
+        if (started) endGesture(true);
+        return;
+      }
+      const tt = e.touches[0];
+      beginGesture(tt.clientX, tt.clientY, e.target);
+    };
+
+    const onTouchMove = (e: TouchEvent) => {
+      if (!active || e.touches.length !== 1) return;
+      const tt = e.touches[0];
+      if (updateGesture(tt.clientX, tt.clientY)) {
+        // Horizontal lock confirmed — keep iOS from claiming the gesture
+        // as a vertical scroll. preventDefault works here because this
+        // listener was registered with { passive: false }.
+        e.preventDefault();
+      }
+    };
+
+    const onTouchEnd = () => {
+      endGesture(false);
+    };
+
+    const onTouchCancel = () => {
+      endGesture(true);
+    };
+
+    // ── Mouse handlers (desktop) ─────────────────────────────────
+    // Listening on document during a drag is the desktop analogue of
+    // pointer capture: the gesture keeps resolving even if the cursor
+    // leaves the card mid-drag.
+    const onDocMouseMove = (e: MouseEvent) => {
+      if (!started) return;
+      if (!active) {
+        // Vertical lock or released — stop listening, no transform.
+        cleanupMouseListeners();
+        return;
+      }
+      updateGesture(e.clientX, e.clientY);
+    };
+
+    const onDocMouseUp = (e: MouseEvent) => {
+      cleanupMouseListeners();
+      if (started) {
+        // Sync dx one last time for the upstroke position.
+        if (active) updateGesture(e.clientX, e.clientY);
+        endGesture(false);
+      }
+    };
+
+    const cleanupMouseListeners = () => {
+      document.removeEventListener("mousemove", onDocMouseMove);
+      document.removeEventListener("mouseup", onDocMouseUp);
+    };
+
+    const onMouseDown = (e: MouseEvent) => {
+      if (e.button !== 0) return; // only primary button
+      if (beginGesture(e.clientX, e.clientY, e.target)) {
+        document.addEventListener("mousemove", onDocMouseMove);
+        document.addEventListener("mouseup", onDocMouseUp);
+      }
+    };
+
+    // ── Wire up listeners ─────────────────────────────────────────
+    // touchmove MUST be non-passive so preventDefault can lock iOS away
+    // from native scroll the instant we detect horizontal intent.
+    el.addEventListener("touchstart", onTouchStart, { passive: true });
+    el.addEventListener("touchmove",  onTouchMove,  { passive: false });
+    el.addEventListener("touchend",   onTouchEnd,   { passive: true });
+    el.addEventListener("touchcancel", onTouchCancel, { passive: true });
+    el.addEventListener("mousedown",  onMouseDown);
+
+    return () => {
+      el.removeEventListener("touchstart", onTouchStart);
+      el.removeEventListener("touchmove", onTouchMove);
+      el.removeEventListener("touchend", onTouchEnd);
+      el.removeEventListener("touchcancel", onTouchCancel);
+      el.removeEventListener("mousedown", onMouseDown);
+      cleanupMouseListeners();
+    };
   }, []);
-
-  const onPointerUp = useCallback((e: React.PointerEvent) => {
-    // Vertical lock — page scrolled naturally, nothing to do on the card.
-    if (directionRef.current === "vertical") {
-      cleanupGesture();
-      return;
-    }
-
-    // Tap path — pointer never left the dead zone. Flip the card.
-    if (!draggingRef.current && directionRef.current === "none") {
-      const dx = e.clientX - startXRef.current;
-      const dy = e.clientY - startYRef.current;
-      if (Math.hypot(dx, dy) < TAP_MAX_DELTA) {
-        setIsFlipped((p) => !p);
-      }
-      cleanupGesture();
-      return;
-    }
-
-    // Horizontal release.
-    try {
-      (e.currentTarget as Element).releasePointerCapture?.(e.pointerId);
-    } catch {
-      /* ignore */
-    }
-
-    const delta = dragXRef.current;
-    // Responsive threshold: 22% of card width, floor at 50px so a quick
-    // half-screen flick reliably triggers a known/missed on 320–430px phones.
-    const cardWidth = cardElRef.current?.offsetWidth ?? 300;
-    const threshold = Math.max(SWIPE_THRESHOLD_MIN, cardWidth * SWIPE_THRESHOLD_RATIO);
-
-    if (delta > threshold) {
-      setFlyDir("right");
-      setTimeout(() => {
-        setDragX(0); dragXRef.current = 0; setFlyDir(null); onKnown();
-      }, 380);
-    } else if (delta < -threshold) {
-      setFlyDir("left");
-      setTimeout(() => {
-        setDragX(0); dragXRef.current = 0; setFlyDir(null); onMissed();
-      }, 380);
-    } else {
-      setDragX(0);
-      dragXRef.current = 0;
-      // Card moved less than a tap delta — interpret as tap → flip.
-      // Important: only flip on a real pointerup. pointercancel goes
-      // through onPointerCancel below and never flips.
-      if (Math.abs(delta) < TAP_MAX_DELTA) {
-        setIsFlipped((p) => !p);
-      }
-    }
-    cleanupGesture();
-  }, [onKnown, onMissed, cleanupGesture]);
-
-  /**
-   * `pointercancel` fires when the browser takes over the touch — most
-   * commonly on iOS Safari once it commits to native vertical scroll
-   * mid-gesture. We must NOT treat that as a tap (it would flip the card
-   * every time the user starts scrolling), and we must NOT trigger
-   * known/missed. Just clean up state and let the page scroll.
-   */
-  const onPointerCancel = useCallback((e: React.PointerEvent) => {
-    try {
-      (e.currentTarget as Element).releasePointerCapture?.(e.pointerId);
-    } catch {
-      /* ignore */
-    }
-    setDragX(0);
-    dragXRef.current = 0;
-    setFlyDir(null);
-    cleanupGesture();
-  }, [cleanupGesture]);
 
   const rotation = isDragging ? dragX / 18 : 0;
 
@@ -313,14 +417,13 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
           borderRadius: "18px", background: "var(--surface)", border: "1px solid var(--line)", opacity: 0.75,
         }} />
 
-        {/* Main swipeable card */}
+        {/* Main swipeable card. Pointer/touch handling lives in the
+            useEffect above — native listeners are required so we can
+            preventDefault on touchmove the moment horizontal intent is
+            confirmed (React's synthetic touchmove is passive). */}
         <div
           ref={cardElRef}
           style={{ position: "relative", zIndex: 1, ...cardStyle }}
-          onPointerDown={onPointerDown}
-          onPointerMove={onPointerMove}
-          onPointerUp={onPointerUp}
-          onPointerCancel={onPointerCancel}
         >
           {/* Drag indicators */}
           {isDragging && dragX > 30 && (
