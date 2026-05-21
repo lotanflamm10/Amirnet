@@ -177,6 +177,26 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     let dx = 0;
     let direction: "none" | "horizontal" | "vertical" = "none";
 
+    // Suppress the synthetic mouse events that fire after every touch
+    // sequence on mobile. Without this guard a pure tap (which doesn't
+    // trigger preventDefault on touchmove) would be handled BOTH by the
+    // touch path AND by the mouse path — calling setIsFlipped twice and
+    // visibly cancelling the flip. The window has to be long enough to
+    // cover the 0–500ms tap-click delay some iOS versions still apply.
+    let touchActive = false;
+    let touchCleanupTimer: ReturnType<typeof setTimeout> | null = null;
+    const armTouchActive = () => {
+      touchActive = true;
+      if (touchCleanupTimer) clearTimeout(touchCleanupTimer);
+    };
+    const releaseTouchActive = () => {
+      if (touchCleanupTimer) clearTimeout(touchCleanupTimer);
+      touchCleanupTimer = setTimeout(() => {
+        touchActive = false;
+        touchCleanupTimer = null;
+      }, 700);
+    };
+
     const reset = () => {
       started = false;
       active = false;
@@ -299,6 +319,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
 
     // ── Touch handlers ───────────────────────────────────────────
     const onTouchStart = (e: TouchEvent) => {
+      armTouchActive();
       if (e.touches.length !== 1) {
         // Multi-touch (pinch etc) — abandon any in-progress gesture cleanly.
         if (started) endGesture(true);
@@ -321,10 +342,12 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
 
     const onTouchEnd = () => {
       endGesture(false);
+      releaseTouchActive();
     };
 
     const onTouchCancel = () => {
       endGesture(true);
+      releaseTouchActive();
     };
 
     // ── Mouse handlers (desktop) ─────────────────────────────────
@@ -356,6 +379,11 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     };
 
     const onMouseDown = (e: MouseEvent) => {
+      // Ignore synthetic mouse events fired by the OS after a touch
+      // sequence — they would re-trigger the gesture and double-toggle
+      // the flip (visibly cancelling a tap). Real desktop mousedowns
+      // happen with touchActive=false.
+      if (touchActive) return;
       if (e.button !== 0) return; // only primary button
       if (beginGesture(e.clientX, e.clientY, e.target)) {
         document.addEventListener("mousemove", onDocMouseMove);
@@ -379,6 +407,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
       el.removeEventListener("touchcancel", onTouchCancel);
       el.removeEventListener("mousedown", onMouseDown);
       cleanupMouseListeners();
+      if (touchCleanupTimer) clearTimeout(touchCleanupTimer);
     };
   }, []);
 
