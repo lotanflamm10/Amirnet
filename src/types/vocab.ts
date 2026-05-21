@@ -55,6 +55,17 @@ export interface VocabItem {
   studyPriority: number;
   createdAt: string;
   updatedAt: string;
+  /**
+   * Optional vocabulary-card enrichment fields (added 2026-05).
+   *
+   * These are NOT present on the seed JSON for every word — they are
+   * looked up at render-time via lib/vocab/memory-hint.ts which combines
+   * a small hand-crafted lookup table with a deterministic transliteration
+   * fallback. Treat any read here as "may or may not exist".
+   */
+  hePronunciation?: string;
+  heMemoryHint?: string;
+  heContextSentence?: string;
 }
 
 export interface VocabImportIssue {

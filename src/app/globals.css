@@ -106,6 +106,11 @@ html {
   /* Prevent iOS Safari from auto-resizing text on orientation change */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  /* Hard-clip horizontal scrolling regardless of any rogue child width
+     (e.g. a swipe card mid-translate). `clip` is more reliable than
+     `hidden` on iOS — `hidden` still allows programmatic scroll. */
+  overflow-x: clip;
+  max-width: 100vw;
 }
 body {
   background: var(--canvas);
@@ -114,8 +119,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100dvh;
   line-height: 1.6;
-  /* Block horizontal scrolling caused by any rogue child width on small viewports */
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100vw;
 }
 
@@ -124,8 +128,18 @@ body {
   input, select, textarea { font-size: 16px; }
 }
 
-/* Long Hebrew/English content always wraps; never overflows its card */
-p, h1, h2, h3, h4, li, span { overflow-wrap: anywhere; word-break: break-word; }
+/*
+ * Wrap on word boundaries first (`overflow-wrap: break-word`), and only
+ * break mid-word as a last resort when a word truly does not fit.
+ * `word-break: keep-all` keeps multi-byte runs together; combined with
+ * `overflow-wrap: break-word` this prevents the prior aggressive
+ * letter-by-letter vertical wrap we saw in narrow flex children (e.g.
+ * the learning engine on 320px viewports). Span is intentionally NOT
+ * in this rule — span children inside flex layouts were the main
+ * vertical-wrap offender. Spans get their break behavior from their
+ * parent's text-wrap context.
+ */
+p, h1, h2, h3, h4, li { overflow-wrap: break-word; word-break: keep-all; }
 
 /* Honor reduced-motion preference globally */
 @media (prefers-reduced-motion: reduce) {

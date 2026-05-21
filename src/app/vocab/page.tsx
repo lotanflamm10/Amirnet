@@ -7,6 +7,7 @@ import { DAILY_VOCAB_LIMIT } from "@/lib/vocab/daily-vocab";
 import vocabData from "@/data/seed/vocab.normalized.json";
 import type { VocabItem } from "@/types/vocab";
 import { useLang } from "@/contexts/LanguageContext";
+import { formatNumber } from "@/lib/ui/format-number";
 
 interface NavCard {
   href: string;
@@ -59,13 +60,13 @@ export default function VocabPage() {
       {stats && (
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))", gap: "0.75rem" }}>
           {[
-            { label: statLabels.due,      value: stats.dueCount.toLocaleString(), color: stats.dueCount > 0 ? "var(--teal)" : "var(--success)", emoji: stats.dueCount > 0 ? "📅" : "✓" },
-            { label: statLabels.mastered, value: stats.mastered.toString(),       color: "var(--success)",                                       emoji: "🏆" },
-            { label: statLabels.starred,  value: stats.starred.toString(),        color: "var(--warn)",                                          emoji: "⭐" },
+            { label: statLabels.due,      value: formatNumber(stats.dueCount, lang), color: stats.dueCount > 0 ? "var(--teal)" : "var(--success)", emoji: stats.dueCount > 0 ? "📅" : "✓" },
+            { label: statLabels.mastered, value: formatNumber(stats.mastered, lang), color: "var(--success)",                                       emoji: "🏆" },
+            { label: statLabels.starred,  value: formatNumber(stats.starred, lang),  color: "var(--warn)",                                          emoji: "⭐" },
           ].map(({ label, value, color, emoji }) => (
             <div key={label} className="stat-card animate-pop-in" style={{ textAlign: "center", alignItems: "center" }}>
               <div style={{ fontSize: "1.25rem", marginBottom: "0.125rem" }}>{emoji}</div>
-              <div className="stat-value" style={{ color, fontSize: "1.75rem" }}>{value}</div>
+              <div className="stat-value" style={{ color, fontSize: "1.75rem", whiteSpace: "nowrap" }}>{value}</div>
               <p className="stat-label" style={{ textTransform: "none", letterSpacing: 0, color: "var(--ink-muted)" }}>{label}</p>
             </div>
           ))}

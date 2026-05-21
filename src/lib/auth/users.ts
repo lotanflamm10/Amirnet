@@ -12,7 +12,16 @@
  * they too get an override cookie. Clearing cookies reverts to the seed.
  */
 
-export type UserId = "admin" | "gili" | "nadav";
+export type UserId =
+  | "admin"
+  | "gili"
+  | "nadav"
+  | "may"
+  | "maya"
+  | "yanir"
+  | "alma"
+  | "liroy"
+  | "tal";
 export type UserRole = "admin" | "student";
 
 export interface UserRecord {
@@ -48,6 +57,18 @@ export const USERS: UserRecord[] = [
     role: "student",
     seedPassword: process.env.NADAV_SEED_PASSWORD ?? "nadav3003!",
   },
+  { id: "may",   username: "may",   displayName: "may",   role: "student",
+    seedPassword: process.env.MAY_SEED_PASSWORD   ?? "may2105"   },
+  { id: "maya",  username: "maya",  displayName: "maya",  role: "student",
+    seedPassword: process.env.MAYA_SEED_PASSWORD  ?? "maya1103"  },
+  { id: "yanir", username: "yanir", displayName: "yanir", role: "student",
+    seedPassword: process.env.YANIR_SEED_PASSWORD ?? "yanir2905" },
+  { id: "alma",  username: "alma",  displayName: "alma",  role: "student",
+    seedPassword: process.env.ALMA_SEED_PASSWORD  ?? "alma2801"  },
+  { id: "liroy", username: "liroy", displayName: "liroy", role: "student",
+    seedPassword: process.env.LIROY_SEED_PASSWORD ?? "liroy1001" },
+  { id: "tal",   username: "tal",   displayName: "tal",   role: "student",
+    seedPassword: process.env.TAL_SEED_PASSWORD   ?? "tal2211"   },
 ];
 
 /** Lookup helper. Case-insensitive for ASCII; Hebrew is matched literally. */

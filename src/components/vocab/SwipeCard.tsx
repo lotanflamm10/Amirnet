@@ -5,6 +5,7 @@ import type { VocabItem } from "@/types/vocab";
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
 import { getProgressLabel } from "@/lib/vocab/spaced-repetition";
 import { useLang } from "@/contexts/LanguageContext";
+import { getMemoryEnrichment } from "@/lib/vocab/memory-hint";
 
 interface SwipeCardProps {
   item: VocabItem;
@@ -208,7 +209,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
           )}
 
           {/* 3D flip scene */}
-          <div className="swipe-card-scene" style={{ height: "420px" }}>
+          <div className="swipe-card-scene" style={{ height: "clamp(420px, 62vh, 520px)" }}>
             <div className={`swipe-card-inner${isFlipped ? " flipped" : ""}`} style={{ background: tintBg, borderRadius: "18px" }}>
 
               {/* ── FRONT ── */}
@@ -283,45 +284,99 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                 boxShadow: "0 8px 32px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.12)",
                 display: "flex", flexDirection: "column", padding: "20px", overflowY: "auto",
               }}>
-                {/* Hebrew — large and centered */}
+                {/* Hebrew — large and centered + pronunciation */}
                 <div style={{
-                  flex: 1,
+                  flex: "0 0 auto",
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
-                  gap: "12px",
+                  gap: "6px",
                   minHeight: 0,
+                  paddingTop: "0.25rem",
                 }}>
-                  <span style={{
+                  <span dir="rtl" style={{
                     fontFamily: "var(--font-body)",
-                    fontSize: "clamp(2.25rem, 8vw, 3rem)",
+                    fontSize: "clamp(1.6rem, 6.5vw, 2.4rem)",
                     fontWeight: 800,
                     color: "var(--teal)",
                     lineHeight: 1.2,
                     direction: "rtl",
+                    overflowWrap: "anywhere",
                   }}>
                     {item.hebrewTranslation}
                   </span>
 
+                  {(() => {
+                    const enrich = getMemoryEnrichment(item);
+                    return enrich.pronunciation ? (
+                      <span dir="rtl" style={{
+                        fontSize: "0.82rem",
+                        color: "var(--ink-muted)",
+                        fontFamily: "var(--font-body)",
+                        letterSpacing: "0.02em",
+                      }}>
+                        {enrich.pronunciation}
+                      </span>
+                    ) : null;
+                  })()}
+
                   {item.englishDefinition && (
                     <p dir="ltr" style={{
-                      fontSize: "0.88rem", color: "var(--ink-soft)", lineHeight: 1.5,
-                      margin: 0, maxWidth: "90%", textAlign: "center",
+                      fontSize: "0.82rem", color: "var(--ink-soft)", lineHeight: 1.45,
+                      margin: 0, maxWidth: "92%", textAlign: "center",
                     }}>
                       {item.englishDefinition}
                     </p>
                   )}
                 </div>
 
-                {/* Bottom: example + tags */}
-                <div style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "12px", borderTop: "1px solid var(--line)" }}>
+                {/* Bottom: memory hint + Hebrew context + example + tags */}
+                <div style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "10px", borderTop: "1px solid var(--line)", minWidth: 0 }}>
+                  {(() => {
+                    const enrich = getMemoryEnrichment(item);
+                    return (
+                      <>
+                        {enrich.memoryHint && (
+                          <div dir="rtl" style={{
+                            fontSize: "0.78rem",
+                            color: "var(--ink-soft)",
+                            lineHeight: 1.5,
+                            padding: "8px 10px",
+                            background: "rgba(13,203,177,0.06)",
+                            border: "1px solid rgba(13,203,177,0.18)",
+                            borderRadius: 8,
+                            overflowWrap: "break-word",
+                            textAlign: "right",
+                          }}>
+                            <span style={{ fontWeight: 700, color: "var(--teal)" }}>
+                              💡 שיטה לזכור:
+                            </span>{" "}
+                            {enrich.memoryHint}
+                          </div>
+                        )}
+                        {enrich.contextSentence && (
+                          <p dir="rtl" style={{
+                            fontSize: "0.78rem",
+                            color: "var(--ink-muted)",
+                            margin: 0,
+                            lineHeight: 1.5,
+                            textAlign: "right",
+                            fontStyle: "italic",
+                          }}>
+                            {enrich.contextSentence}
+                          </p>
+                        )}
+                      </>
+                    );
+                  })()}
+
                   {item.exampleSentence && (
                     <p dir="ltr" style={{
-                      fontSize: "0.82rem", color: "var(--ink-muted)", fontStyle: "italic",
-                      borderLeft: "2px solid var(--teal)", paddingLeft: "10px",
-                      margin: 0, lineHeight: 1.5, textAlign: "left",
+                      fontSize: "0.78rem", color: "var(--ink-muted)", fontStyle: "italic",
+                      borderInlineStart: "2px solid var(--teal)", paddingInlineStart: "10px",
+                      margin: 0, lineHeight: 1.45, textAlign: "left",
                     }}>
                       {item.exampleSentence}
                     </p>

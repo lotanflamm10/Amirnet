@@ -16,6 +16,7 @@ import { PlanIcon } from "@/components/icons/NavIcons";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
+import { formatNumber } from "@/lib/ui/format-number";
 
 function PriorityDot({ priority }: { priority: DailyPlanItem["priority"] }) {
   const color = priority === "high" ? "var(--danger)" : priority === "medium" ? "var(--warn)" : "var(--teal)";
@@ -59,9 +60,9 @@ function renderLabel(label: DailyPlanLabel, t: Translations): string {
   }
 }
 
-function renderReason(reason: DailyPlanReason, t: Translations): string {
+function renderReason(reason: DailyPlanReason, t: Translations, lang: "he" | "en"): string {
   switch (reason.kind) {
-    case "vocabPending":    return t.dashboard.planReasonVocabPending.replace("{n}", reason.count.toLocaleString());
+    case "vocabPending":    return t.dashboard.planReasonVocabPending.replace("{n}", formatNumber(reason.count, lang));
     case "vocabBuild":      return t.dashboard.planReasonVocabBuild;
     case "reading":         return t.dashboard.planReasonReading;
     case "weakCategory":    return t.dashboard.planReasonWeak.replace("{n}", String(reason.accuracyPercent));
@@ -116,7 +117,7 @@ export function TodaysTraining() {
       <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem", marginBottom: "1.25rem" }}>
         {plan.map((item, i) => {
           const label = renderLabel(item.label, t);
-          const reason = renderReason(item.reason, t);
+          const reason = renderReason(item.reason, t, lang);
           return (
             <Link
               key={i}

@@ -65,12 +65,7 @@ export default function DashboardPage() {
 
       <WeakAreas />
       <RecommendedActivity />
-
-      <p style={{ fontSize: "0.7rem", color: "var(--ink-muted)", textAlign: "center" }}>
-        {isHe
-          ? "כלי הכנה עצמאי לאמירנט · אינו קשור ל-NITE · ציונים וחיזויים אינם רשמיים"
-          : "Independent AMIRNET prep tool · not affiliated with NITE · scores and predictions are unofficial"}
-      </p>
+      {/* Disclaimer lives in <AppFooter/> (single source of truth) */}
     </div>
   );
 }

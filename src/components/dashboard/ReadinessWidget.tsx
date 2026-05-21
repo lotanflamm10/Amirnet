@@ -1,6 +1,5 @@
 "use client";
 import { useLayoutEffect, useState } from "react";
-import Link from "next/link";
 import { Target } from "lucide-react";
 import { loadProgress } from "@/lib/progress/local-progress-store";
 import { calculateReadinessScore, predictScoreRange, getBlockers } from "@/lib/analytics/mastery-engine";
@@ -50,32 +49,11 @@ export function ReadinessWidget() {
   const hasData = progress.categoryProgress.filter(c => c.totalAnswered >= 3).length > 0 || progress.diagnosticCompleted;
 
   if (!hasData) {
-    return (
-      <div className="card animate-fade-up" style={{
-        padding: "1.5rem",
-        borderColor: "var(--teal)",
-        background: "var(--teal-faint)",
-      }}>
-        <div style={{ display: "flex", gap: "1rem", alignItems: "center", flexWrap: "wrap" }}>
-          <div style={{
-            width: 48, height: 48, borderRadius: 12, flexShrink: 0,
-            background: "var(--teal-sub)",
-            display: "flex", alignItems: "center", justifyContent: "center",
-          }}>
-            <Target size={22} color="var(--teal)" strokeWidth={2} />
-          </div>
-          <div style={{ flex: 1 }}>
-            <div style={{ fontFamily: "var(--font-display)", fontSize: "1rem", fontWeight: 700, color: "var(--ink)", marginBottom: "0.25rem" }}>
-              {t.dashboard.readinessNoData}
-            </div>
-            <div style={{ fontSize: "0.82rem", color: "var(--ink-soft)" }}>
-              {t.dashboard.readinessNoDataSub}
-            </div>
-          </div>
-          <Link href="/diagnostic" className="btn btn-primary btn-sm">{t.dashboard.readinessPlacementBtn}</Link>
-        </div>
-      </div>
-    );
+    // The dashboard page already renders the dedicated "discover your
+    // real level" placement-test CTA card just above this widget when
+    // diagnostic is incomplete. Returning null here removes the
+    // duplicate CTA without removing the diagnostic feature.
+    return null;
   }
 
   const readiness = calculateReadinessScore(progress);

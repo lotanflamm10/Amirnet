@@ -8,6 +8,7 @@ import { DAILY_VOCAB_LIMIT } from "@/lib/vocab/daily-vocab";
 import vocabData from "@/data/seed/vocab.normalized.json";
 import type { VocabItem } from "@/types/vocab";
 import { useLang } from "@/contexts/LanguageContext";
+import { formatNumber } from "@/lib/ui/format-number";
 
 export function VocabDueWidget() {
   const [stats, setStats] = useState<{ dueCount: number; mastered: number; total: number } | null>(null);
@@ -35,10 +36,10 @@ export function VocabDueWidget() {
       <div className="section-header">
         <h3 className="section-title">{isHe ? "מילים" : "Vocabulary"}</h3>
         {stats.dueCount > 0 ? (
-          <span className="badge badge-teal">
+          <span className="badge badge-teal" style={{ whiteSpace: "nowrap" }}>
             {isHe
-              ? `${stats.dueCount.toLocaleString()} ממתינות`
-              : `${stats.dueCount.toLocaleString()} pending`}
+              ? `${formatNumber(stats.dueCount, "he")} ממתינות`
+              : `${formatNumber(stats.dueCount, "en")} pending`}
           </span>
         ) : (
           <span className="badge badge-success">
@@ -48,9 +49,11 @@ export function VocabDueWidget() {
       </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem", gap: "0.5rem" }}>
           <span style={{ color: "var(--ink-muted)" }}>{isHe ? "שלטו" : "Mastered"}</span>
-          <span style={{ color: "var(--ink-soft)", fontWeight: 600 }}>{stats.mastered}/{stats.total}</span>
+          <span style={{ color: "var(--ink-soft)", fontWeight: 600, whiteSpace: "nowrap" }}>
+            {formatNumber(stats.mastered, lang)}/{formatNumber(stats.total, lang)}
+          </span>
         </div>
         <div className="progress-track sm">
           <div className="progress-fill success" style={{ width: `${masteredPct}%` }} />

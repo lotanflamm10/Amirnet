@@ -147,9 +147,14 @@ export function LearningEngine() {
     <div
       style={{
         position: "relative",
-        // Full height minus mobile bottom tab bar; desktop: full height (sidebar is beside)
-        height: "calc(100dvh - 58px)",
+        // Account for the fixed mobile bottom tab bar + iPhone home indicator
+        // safe-area inset + a small breathing margin so the last card's
+        // action button is never hidden behind the nav.
+        height:
+          "calc(100dvh - var(--mobile-tabbar-height, 56px) - env(safe-area-inset-bottom, 0px) - 12px)",
         overflow: "hidden",
+        maxWidth: "100%",
+        minWidth: 0,
       }}
     >
       {/* Pure scroll-snap feed */}

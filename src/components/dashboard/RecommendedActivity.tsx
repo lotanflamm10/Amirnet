@@ -11,6 +11,7 @@ import { BookOpen, CalendarCheck, Target, Play, Zap } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
+import { formatNumber } from "@/lib/ui/format-number";
 
 function categoryLabel(category: string, t: Translations): string {
   const map: Record<string, string> = {
@@ -55,8 +56,8 @@ export function RecommendedActivity() {
         Icon: CalendarCheck,
         title: isHe ? `${todays} מילים להיום` : `Today's ${todays} words`,
         sub: isHe
-          ? `${dueCount.toLocaleString()} ממתינות בסך הכל — תתחיל ב-${todays} ושמור על הרצף`
-          : `${dueCount.toLocaleString()} pending in total — start with ${todays} and keep your streak`,
+          ? `${formatNumber(dueCount, "he")} ממתינות בסך הכל — תתחיל ב-${todays} ושמור על הרצף`
+          : `${formatNumber(dueCount, "en")} pending in total — start with ${todays} and keep your streak`,
         href: "/vocab/swipe",
         cta: isHe ? `התחל ${todays} מילים` : `Start ${todays} words`,
       });
