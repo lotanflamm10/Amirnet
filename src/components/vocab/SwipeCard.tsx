@@ -386,65 +386,58 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
               <div className="swipe-card-back" style={{
                 background: "var(--surface)", border: "1px solid var(--line)",
                 boxShadow: "0 8px 32px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.12)",
-                display: "flex", flexDirection: "column", padding: "20px", overflowY: "auto",
+                display: "flex", flexDirection: "column", padding: "16px 18px",
+                overflowY: "auto", gap: "10px",
               }}>
-                {/* Hebrew — large and centered + pronunciation */}
-                <div style={{
-                  flex: "0 0 auto",
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "center",
-                  gap: "6px",
-                  minHeight: 0,
-                  paddingTop: "0.25rem",
-                }}>
-                  <span dir="rtl" style={{
-                    fontFamily: "var(--font-body)",
-                    fontSize: "clamp(1.6rem, 6.5vw, 2.4rem)",
-                    fontWeight: 800,
-                    color: "var(--teal)",
-                    lineHeight: 1.2,
-                    direction: "rtl",
-                    overflowWrap: "anywhere",
-                  }}>
-                    {item.hebrewTranslation}
-                  </span>
-
-                  {(() => {
-                    const enrich = getMemoryEnrichment(item);
-                    return enrich.pronunciation ? (
-                      <span dir="rtl" style={{
-                        fontSize: "0.82rem",
-                        color: "var(--ink-muted)",
-                        fontFamily: "var(--font-body)",
-                        letterSpacing: "0.02em",
-                      }}>
-                        {enrich.pronunciation}
-                      </span>
-                    ) : null;
-                  })()}
-
-                  {item.englishDefinition && (
-                    <p dir="ltr" style={{
-                      fontSize: "0.82rem", color: "var(--ink-soft)", lineHeight: 1.45,
-                      margin: 0, maxWidth: "92%", textAlign: "center",
-                    }}>
-                      {item.englishDefinition}
-                    </p>
-                  )}
-                </div>
-
-                {/* Bottom: memory hint + Hebrew context + example + tags */}
-                <div style={{ display: "flex", flexDirection: "column", gap: "8px", paddingTop: "10px", borderTop: "1px solid var(--line)", minWidth: 0 }}>
-                  {(() => {
-                    const enrich = getMemoryEnrichment(item);
-                    return (
-                      <>
-                        {enrich.memoryHint && (
+                {(() => {
+                  const enrich = getMemoryEnrichment(item);
+                  return (
+                    <>
+                      {/* English word — large, visually central, LTR */}
+                      <div style={{ textAlign: "center", paddingTop: "2px" }}>
+                        <div dir="ltr" style={{
+                          fontFamily: "var(--font-display)",
+                          fontSize: "clamp(1.9rem, 7vw, 2.6rem)",
+                          fontWeight: 800,
+                          color: "var(--ink)",
+                          lineHeight: 1.1,
+                          letterSpacing: "-0.01em",
+                          overflowWrap: "anywhere",
+                        }}>
+                          {item.word}
+                        </div>
+                        {/* Hebrew translation directly below — supporting line */}
+                        <div dir="rtl" style={{
+                          fontFamily: "var(--font-body)",
+                          fontSize: "clamp(1.05rem, 4.5vw, 1.4rem)",
+                          fontWeight: 700,
+                          color: "var(--teal)",
+                          marginTop: "4px",
+                          lineHeight: 1.3,
+                          overflowWrap: "anywhere",
+                        }}>
+                          {item.hebrewTranslation}
+                        </div>
+                        {enrich.pronunciation && (
                           <div dir="rtl" style={{
                             fontSize: "0.78rem",
+                            color: "var(--ink-muted)",
+                            marginTop: "2px",
+                            letterSpacing: "0.02em",
+                          }}>
+                            {enrich.pronunciation}
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Divider */}
+                      <div style={{ height: 1, background: "var(--line)" }} />
+
+                      {/* Smart memory section */}
+                      <div style={{ display: "flex", flexDirection: "column", gap: "7px", minWidth: 0 }}>
+                        {enrich.coreMeaning && (
+                          <div dir="rtl" style={{
+                            fontSize: "0.82rem",
                             color: "var(--ink-soft)",
                             lineHeight: 1.5,
                             padding: "8px 10px",
@@ -454,59 +447,130 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                             overflowWrap: "break-word",
                             textAlign: "right",
                           }}>
-                            <span style={{ fontWeight: 700, color: "var(--teal)" }}>
-                              💡 שיטה לזכור:
-                            </span>{" "}
-                            {enrich.memoryHint}
+                            <span style={{ fontWeight: 700, color: "var(--teal)" }}>💡 רעיון: </span>
+                            {enrich.coreMeaning}
                           </div>
                         )}
-                        {enrich.contextSentence && (
-                          <p dir="rtl" style={{
-                            fontSize: "0.78rem",
-                            color: "var(--ink-muted)",
-                            margin: 0,
+
+                        {enrich.memoryAnchor && (
+                          <div dir="rtl" style={{
+                            fontSize: "0.8rem",
+                            color: "var(--ink-soft)",
                             lineHeight: 1.5,
                             textAlign: "right",
-                            fontStyle: "italic",
+                            overflowWrap: "break-word",
                           }}>
-                            {enrich.contextSentence}
-                          </p>
+                            <span style={{ fontWeight: 700, color: "var(--ink)" }}>⚓ עוגן: </span>
+                            <span dir="auto">{enrich.memoryAnchor}</span>
+                          </div>
                         )}
-                      </>
-                    );
-                  })()}
 
-                  {item.exampleSentence && (
-                    <p dir="ltr" style={{
-                      fontSize: "0.78rem", color: "var(--ink-muted)", fontStyle: "italic",
-                      borderInlineStart: "2px solid var(--teal)", paddingInlineStart: "10px",
-                      margin: 0, lineHeight: 1.45, textAlign: "left",
-                    }}>
-                      {item.exampleSentence}
-                    </p>
-                  )}
+                        {enrich.collocations.length > 0 && (
+                          <div dir="ltr" style={{
+                            display: "flex",
+                            flexWrap: "wrap",
+                            gap: "4px",
+                            marginTop: "2px",
+                          }}>
+                            {enrich.collocations.slice(0, 4).map((c) => (
+                              <span key={c} dir="ltr" style={{
+                                fontSize: "0.72rem",
+                                padding: "2px 8px",
+                                borderRadius: 99,
+                                background: "var(--raised)",
+                                color: "var(--ink-soft)",
+                                border: "1px solid var(--line)",
+                                whiteSpace: "nowrap",
+                              }}>
+                                {c}
+                              </span>
+                            ))}
+                          </div>
+                        )}
 
-                  {(item.synonyms.length > 0 || item.antonyms.length > 0) && (
-                    <div dir="ltr" style={{ display: "flex", flexWrap: "wrap", gap: "5px" }}>
-                      {item.synonyms.slice(0, 3).map((s) => (
-                        <span key={s} dir="ltr" style={{ fontSize: "0.7rem", padding: "2px 7px", borderRadius: "99px", background: "rgba(13,203,177,0.12)", color: "var(--teal)", border: "1px solid rgba(13,203,177,0.3)" }}>
-                          ≈ {s}
-                        </span>
-                      ))}
-                      {item.antonyms.slice(0, 2).map((a) => (
-                        <span key={a} dir="ltr" style={{ fontSize: "0.7rem", padding: "2px 7px", borderRadius: "99px", background: "rgba(239,68,68,0.1)", color: "var(--danger)", border: "1px solid rgba(239,68,68,0.25)" }}>
-                          ≠ {a}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+                        {enrich.exampleEn && (
+                          <div style={{
+                            padding: "6px 10px",
+                            borderInlineStart: "3px solid var(--teal)",
+                            background: "var(--raised)",
+                            borderRadius: 6,
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "2px",
+                          }}>
+                            <p dir="ltr" style={{
+                              fontSize: "0.8rem",
+                              color: "var(--ink)",
+                              fontStyle: "italic",
+                              margin: 0,
+                              lineHeight: 1.4,
+                              textAlign: "left",
+                            }}>
+                              {enrich.exampleEn}
+                            </p>
+                            {enrich.exampleHe && (
+                              <p dir="rtl" style={{
+                                fontSize: "0.76rem",
+                                color: "var(--ink-muted)",
+                                margin: 0,
+                                lineHeight: 1.4,
+                                textAlign: "right",
+                              }}>
+                                {enrich.exampleHe}
+                              </p>
+                            )}
+                          </div>
+                        )}
 
-                  {item.commonTrap && (
-                    <div dir="ltr" style={{ padding: "7px 10px", borderRadius: "8px", background: "rgba(245,158,11,0.08)", border: "1px solid rgba(245,158,11,0.25)", fontSize: "0.76rem", color: "var(--warn)", lineHeight: 1.4, textAlign: "left" }}>
-                      <span style={{ fontWeight: 700 }}>{t.vocab.trap}: </span>{item.commonTrap}
-                    </div>
-                  )}
-                </div>
+                        {enrich.confusion && (
+                          <div dir="rtl" style={{
+                            padding: "6px 10px",
+                            borderRadius: 6,
+                            background: "rgba(245,158,11,0.08)",
+                            border: "1px solid rgba(245,158,11,0.25)",
+                            fontSize: "0.76rem",
+                            color: "var(--warn)",
+                            lineHeight: 1.45,
+                            textAlign: "right",
+                            overflowWrap: "break-word",
+                          }}>
+                            <span style={{ fontWeight: 700 }}>⚠️ זהירות: </span>
+                            <span dir="auto">{enrich.confusion}</span>
+                          </div>
+                        )}
+
+                        {enrich.retrieval && (
+                          <div dir="rtl" style={{
+                            fontSize: "0.78rem",
+                            color: "var(--ink-soft)",
+                            lineHeight: 1.5,
+                            textAlign: "right",
+                            paddingTop: "2px",
+                            overflowWrap: "break-word",
+                          }}>
+                            <span style={{ fontWeight: 700, color: "var(--teal)" }}>❓ </span>
+                            <span dir="auto">{enrich.retrieval}</span>
+                          </div>
+                        )}
+
+                        {item.commonTrap && !enrich.confusion && (
+                          <div dir="ltr" style={{
+                            padding: "6px 10px",
+                            borderRadius: 6,
+                            background: "rgba(245,158,11,0.08)",
+                            border: "1px solid rgba(245,158,11,0.25)",
+                            fontSize: "0.74rem",
+                            color: "var(--warn)",
+                            lineHeight: 1.4,
+                            textAlign: "left",
+                          }}>
+                            <span style={{ fontWeight: 700 }}>{t.vocab.trap}: </span>{item.commonTrap}
+                          </div>
+                        )}
+                      </div>
+                    </>
+                  );
+                })()}
               </div>
 
             </div>

@@ -1,703 +1,559 @@
 /**
- * Vocabulary card enrichment: per-word Hebrew memory hints + optional
- * Hebrew pronunciation.
+ * Vocabulary card enrichment: smart memory method.
  *
  * Strategy:
- *   1. Hand-crafted natural-Hebrew hints for the most common AMIRAM
- *      vocabulary words live in HAND_CRAFTED_HINTS.
- *   2. Words without a hand-crafted entry get a smart, data-driven
- *      fallback built from the word's own translation / example /
- *      synonyms / antonyms / part-of-speech. Never a generic template,
- *      never an auto-transliteration of the English word.
- *   3. Pronunciation is shown ONLY when it appears in a hand-crafted
- *      entry — auto-transliterated pronunciation was ugly and is gone.
+ *   1. RICH_ENTRIES — full hand-crafted learning blocks for high-frequency
+ *      AMIRAM words (core meaning + memory anchor + collocations + example
+ *      with Hebrew translation + optional confusion + retrieval question).
+ *   2. LIGHT_HINTS — single-sentence natural-Hebrew hints for the next tier
+ *      of common words. These get auto-promoted into the richer shape with
+ *      a sensible default retrieval question.
+ *   3. Fallback — for every other word, build a word-specific block from
+ *      the seed data we DO have (translation, partOfSpeech, synonyms,
+ *      antonyms, example sentence). Never generic templates, never
+ *      transliteration garbage.
  */
 
 import type { VocabItem } from "@/types/vocab";
 
 export interface MemoryEnrichment {
-  /** Hebrew letter pronunciation. Empty string when not available. */
+  /** Hebrew pronunciation (only when actually helpful). Empty otherwise. */
   pronunciation: string;
-  /** Short, word-specific Hebrew memory hint. */
-  memoryHint: string;
-  /** Short Hebrew context sentence / usage prompt. */
-  contextSentence: string;
+  /** Central idea of the word, paraphrased in Hebrew. */
+  coreMeaning: string;
+  /** Short Hebrew anchor — the one phrase to remember. */
+  memoryAnchor: string;
+  /** Common English collocations (≤4). */
+  collocations: string[];
+  /** Single short English example sentence. */
+  exampleEn: string;
+  /** Hebrew translation of the example, when meaningful. */
+  exampleHe: string;
+  /** Optional warning about a confusable word/meaning. */
+  confusion: string;
+  /** Single retrieval question for active recall. */
+  retrieval: string;
 }
 
-// ─── Hand-crafted hints ─────────────────────────────────────────────────────
-//
-// Each entry is a natural Hebrew sentence with a vivid, word-specific
-// connection — analogy, real-life scenario, word family, contrast, image.
-// Pronunciation is optional and only added where it actually helps a
-// Hebrew speaker pronounce the English word.
-//
-// Coverage focus: the highest-frequency AMIRAM/AMIRNET words a learner
-// is likely to see in a typical session.
-//
-// Keys are lowercased English words.
-interface Hint { p?: string; h: string; c?: string }
+interface RichEntry {
+  /** Optional Hebrew pronunciation. */
+  p?: string;
+  /** Core meaning: "רעיון: ..." */
+  core: string;
+  /** Memory anchor: "עוגן: ..." */
+  anchor: string;
+  /** 2–4 common collocations. */
+  coll: string[];
+  /** English example sentence. */
+  ex: string;
+  /** Hebrew translation of the example. */
+  exHe: string;
+  /** Optional confusion note. */
+  conf?: string;
+  /** Optional retrieval question — auto-generated when omitted. */
+  rq?: string;
+}
 
-const HAND_CRAFTED_HINTS: Record<string, Hint> = {
-  abandon: {
-    h: "abandon = לנטוש לגמרי. דמיין מכונית ישנה שנעזבה בצד הדרך עם מנעולים מחלידים.",
-    c: "הוא החליט שלא to abandon את החלום, גם כשזה היה קשה.",
+// ─── Rich hand-crafted entries ──────────────────────────────────────────────
+// Keys = lowercased English words. Each entry follows the spec patterns:
+// real meaning anchor + collocations + clean example + Hebrew translation.
+const RICH_ENTRIES: Record<string, RichEntry> = {
+  absorbent: {
+    core: "משהו שמכניס נוזל לתוכו במקום להשאיר אותו בחוץ.",
+    anchor: "absorbent = סופג לתוכו",
+    coll: ["absorbent material", "absorbent towel", "absorbent paper"],
+    ex: "This towel is very absorbent.",
+    exHe: "המגבת הזו סופגת מאוד.",
+    rq: "מה עושה absorbent material?",
   },
   abbreviate: {
-    h: "abbreviate פירושו להפוך משהו ארוך לקצר, כמו לכתוב 'info' במקום 'information'.",
+    core: "להפוך משהו ארוך לקצר — מילה, שם או מסמך.",
+    anchor: "abbreviate = לקצר ולתמצת",
+    coll: ["abbreviate a word", "abbreviate the name", "abbreviated form"],
+    ex: "We abbreviate 'information' as 'info'.",
+    exHe: "אנחנו מקצרים 'information' ל-'info'.",
+    rq: "איך אומרים 'לקצר מילה' באנגלית?",
   },
-  ability: {
-    h: "ability היא היכולת המעשית של אדם לעשות משהו — ability לרוץ 10 ק״מ, ability לפתור חידה.",
+  abandon: {
+    core: "לעזוב לגמרי ולא לחזור — בית, תוכנית, מטרה.",
+    anchor: "abandon = נטשת לחלוטין",
+    coll: ["abandon a plan", "abandon hope", "abandoned building"],
+    ex: "They had to abandon their plan because of the storm.",
+    exHe: "הם נאלצו לנטוש את התוכנית בגלל הסערה.",
+    rq: "מה ההבדל בין to leave לבין to abandon?",
   },
   abolish: {
-    h: "abolish = לבטל באופן רשמי לחלוטין, כמו חוק ישן שנמחק מספר החוקים.",
-  },
-  abrupt: {
-    h: "abrupt זה משהו פתאומי וחד, כמו עצירה abrupt של מכונית באמצע הכביש.",
-  },
-  abundant: {
-    h: "abundant = יש בשפע. דמיין שולחן חג עמוס באוכל — abundant food.",
-  },
-  accept: {
-    h: "accept זה לקבל ברצון — accept מתנה, accept הזמנה, accept הצעת עבודה.",
-  },
-  access: {
-    h: "access זה כניסה או גישה — כרטיס שנותן לך access לבניין.",
-  },
-  accidental: {
-    h: "accidental = במקרה, לא מתוכנן. גילוי accidental כמו פניצילין.",
-  },
-  accommodate: {
-    h: "accommodate זה לארח או להתאים — מלון שיכול to accommodate 200 אורחים.",
-  },
-  accomplish: {
-    h: "accomplish = להשלים משימה בהצלחה. רץ שעבר את הקו — he accomplished his goal.",
+    core: "לבטל באופן רשמי — חוק, מוסד או מנהג ישן.",
+    anchor: "abolish = למחוק מהספרים",
+    coll: ["abolish a law", "abolish slavery", "abolish a tax"],
+    ex: "The new government abolished the old tax.",
+    exHe: "הממשלה החדשה ביטלה את המס הישן.",
+    conf: "לא לבלבל עם abolished (פעלים בעבר). זה לא 'לחקור' ולא 'להפסיק זמנית'.",
+    rq: "מה הפעולה של מי ש-abolishes a law?",
   },
   accurate: {
-    h: "accurate שייך לדיוק. תשובה accurate פוגעת בדיוק במטרה, בלי להחמיץ.",
-  },
-  accuse: {
-    h: "accuse זה להאשים מישהו במעשה רע, כמו במשפט בבית משפט.",
+    core: "מדויק לחלוטין — תשובה, מדידה או תיאור שאין בו טעויות.",
+    anchor: "accurate = פוגע בדיוק במטרה",
+    coll: ["accurate answer", "accurate measurement", "accurate description"],
+    ex: "Her description was very accurate.",
+    exHe: "התיאור שלה היה מאוד מדויק.",
+    conf: "accurate ≠ adequate. accurate = מדויק; adequate = מספיק.",
+    rq: "מה ההבדל בין accurate לבין correct?",
   },
   achieve: {
-    h: "achieve = להגיע למטרה אחרי מאמץ. ספורטאי שעמד על דוכן המנצחים — he achieved gold.",
-  },
-  acknowledge: {
-    h: "acknowledge זה להכיר במשהו או באמת — להניד בראש ולאשר 'כן, אתה צודק'.",
+    core: "להגיע למטרה אחרי מאמץ — לא במקרה, אלא כתוצאה מעבודה.",
+    anchor: "achieve = השגתי אחרי מאמץ",
+    coll: ["achieve a goal", "achieve success", "achieve results"],
+    ex: "He achieved high scores through daily practice.",
+    exHe: "הוא השיג ציונים גבוהים בזכות תרגול יומי.",
+    rq: "איך אומרים 'להשיג מטרה' באנגלית?",
   },
   acquire: {
-    h: "acquire = לרכוש או לקנות, גם ידע. acquire safiton חדש, acquire מיומנות חדשה.",
+    core: "לקבל או לרכוש משהו — חפץ, ידע או מיומנות.",
+    anchor: "acquire = לרכוש לעצמך",
+    coll: ["acquire skills", "acquire knowledge", "acquire a company"],
+    ex: "She acquired new language skills during her trip.",
+    exHe: "היא רכשה מיומנויות שפה חדשות בטיול.",
+    conf: "acquire ≠ require. acquire = לרכוש; require = לדרוש.",
+    rq: "מה זה to acquire skills?",
   },
   adapt: {
-    h: "adapt זה להתאים את עצמך למצב חדש — חייל שהגיע למדבר ולמד adapt לחום.",
-  },
-  adequate: {
-    h: "adequate = מספיק, אבל לא יותר מזה. ארוחת adequate משביעה — לא חגיגה.",
-  },
-  adjust: {
-    h: "adjust זה לכוון בעדינות — adjust את ההגה של האופניים בגובה הנכון.",
-  },
-  admit: {
-    h: "admit = להודות באמת לא נוחה, כמו ילד שמודה שהוא שבר את האגרטל.",
+    core: "להתאים את עצמך למצב חדש — אקלים, תפקיד או סביבה.",
+    anchor: "adapt = להתאים את עצמך",
+    coll: ["adapt to change", "adapt quickly", "adapt to new conditions"],
+    ex: "Children adapt to new schools quickly.",
+    exHe: "ילדים מסתגלים לבתי ספר חדשים במהירות.",
+    conf: "adapt ≠ adopt. adapt = להסתגל; adopt = לאמץ (ילד או רעיון).",
+    rq: "מה ההבדל בין adapt ל-adopt?",
   },
   adopt: {
-    h: "adopt זה לאמץ — לאמץ ילד, אבל גם adopt שיטה חדשה או רעיון.",
-  },
-  advance: {
-    h: "advance = להתקדם. צבא ש-advances קדימה לעבר היעד, או טכנולוגיה שעושה advance.",
-  },
-  adverse: {
-    h: "adverse = שלילי, לא נוח. תנאי מזג אוויר adverse עוצרים טיסות.",
-  },
-  affect: {
-    h: "affect זה להשפיע על. הגשם affected את התוכניות שלי לים.",
-  },
-  affluent: {
-    h: "affluent = עשיר ושופע. שכונה affluent עם בתי פאר ובריכות.",
-  },
-  although: {
-    h: "although פותח ניגוד: 'למרות ש-'. Although היה קר, יצאנו לטיול.",
+    core: "לקחת משהו כשלך — ילד, רעיון או שיטה.",
+    anchor: "adopt = לאמץ ולקבל לתוכך",
+    coll: ["adopt a child", "adopt a policy", "adopt an approach"],
+    ex: "The company adopted a new approach to marketing.",
+    exHe: "החברה אימצה גישה חדשה לשיווק.",
+    conf: "adopt ≠ adapt. adopt = לאמץ; adapt = להסתגל.",
+    rq: "מתי משתמשים ב-adopt ומתי ב-adapt?",
   },
   ambiguous: {
-    h: "ambiguous = דו-משמעי, אפשר להבין בכמה דרכים. תשובה ambiguous משאירה אותך מבולבל.",
-  },
-  ambition: {
-    h: "ambition = שאיפה גדולה. הילד עם ambition להיות אסטרונאוט.",
-  },
-  analyze: {
-    h: "analyze זה לפרק לחלקים ולבחון. מדען analyzes דגימת דם תחת מיקרוסקופ.",
-  },
-  ancient: {
-    h: "ancient = עתיק מאוד, אלפי שנים. שרידים ancient של מצרים העתיקה.",
-  },
-  annoy: {
-    h: "annoy זה להציק או להרגיז קצת — יתוש ש-annoys אותך בלילה.",
-  },
-  anticipate: {
-    h: "anticipate = לצפות מראש למשהו. ילדים ש-anticipate את החופש הגדול.",
-  },
-  apparent: {
-    h: "apparent = נראה לעין, ברור. הסיבה הייתה apparent לכל מי שהסתכל.",
-  },
-  appeal: {
-    h: "appeal זה גם פנייה וגם משיכה — מוצר עם appeal לצעירים, או appeal לעזרה.",
-  },
-  apply: {
-    h: "apply = להגיש בקשה או ליישם. apply לעבודה, apply את החוק על מקרה חדש.",
-  },
-  appreciate: {
-    h: "appreciate זה להעריך את הטוב — appreciate ידיד אמיתי, appreciate כוס קפה בבוקר.",
+    core: "דו-משמעי — אפשר להבין בכמה דרכים, ולא ברור איזו נכונה.",
+    anchor: "ambiguous = משאיר אותך בספק",
+    coll: ["ambiguous answer", "ambiguous statement", "deliberately ambiguous"],
+    ex: "His answer was ambiguous and confused everyone.",
+    exHe: "התשובה שלו הייתה דו-משמעית ובלבלה את כולם.",
+    rq: "מה זה an ambiguous statement?",
   },
   approach: {
-    h: "approach = לגשת אל, להתקרב. גם הגישה לפתרון בעיה — איזה approach לנקוט?",
+    core: "גם פועל (להתקרב) וגם שם עצם (גישה, דרך פעולה).",
+    anchor: "approach = איך אתה ניגש לבעיה",
+    coll: ["a different approach", "approach a problem", "scientific approach"],
+    ex: "We need a new approach to this problem.",
+    exHe: "אנחנו צריכים גישה חדשה לבעיה הזו.",
+    rq: "איך אומרים 'גישה אחרת לבעיה' באנגלית?",
   },
   appropriate: {
-    h: "appropriate = מתאים, ראוי. בגד appropriate לחתונה — לא ג'ינס וכפכפים.",
-  },
-  approve: {
-    h: "approve זה לאשר רשמית. הבוס approved את החופשה שלך.",
-  },
-  argue: {
-    h: "argue = להתווכח או לטעון. עורך דין ש-argues עם השופט בבית משפט.",
-  },
-  arise: {
-    h: "arise = לקום, לצוץ. בעיות arise כשלא מתכננים מראש.",
-  },
-  arrogant: {
-    h: "arrogant = יהיר, מתנשא. אדם arrogant חושב שהוא תמיד יודע יותר טוב.",
-  },
-  aspire: {
-    h: "aspire = לשאוף גבוה. סטודנט ש-aspires להיות רופא.",
-  },
-  assemble: {
-    h: "assemble זה להרכיב או להתאסף — assemble ארון מאיקאה, או צבא ש-assembles ליציאה.",
-  },
-  assert: {
-    h: "assert = להצהיר בנחישות, לטעון בתוקף. הוא asserted שהוא חף מפשע.",
-  },
-  assess: {
-    h: "assess = להעריך שווי או רמה. שמאי ש-assesses את ערך הדירה.",
-  },
-  assist: {
-    h: "assist = לעזור. חובש ש-assists את הרופא בניתוח.",
-  },
-  assume: {
-    h: "assume = להניח בלי לבדוק. אל תניח שכולם יודעים — תשאל. גם 'לקבל אחריות'.",
-  },
-  attain: {
-    h: "attain = להשיג אחרי מאמץ ארוך. attain תואר, attain חלום של שנים.",
-  },
-  attempt: {
-    h: "attempt = ניסיון. an attempt to שבור שיא, גם אם זה לא הצליח.",
-  },
-  attribute: {
-    h: "attribute = לייחס משהו לסיבה. הצלחתו attributed לעבודה קשה ולמזל.",
-  },
-  authentic: {
-    h: "authentic = אמיתי, לא חיקוי. שעון authentic מהמותג, לא זיוף.",
-  },
-  available: {
-    h: "available = זמין, פנוי. רופא שהוא available לפגישה ביום שלישי.",
-  },
-  avoid: {
-    h: "avoid = להימנע, לעקוף. avoid פקקים בכביש על ידי יציאה מוקדמת.",
-  },
-  aware: {
-    h: "aware = מודע, יודע. נהג aware לסכנה אוחז בהגה חזק יותר.",
+    core: "מתאים לסיטואציה — בגד, התנהגות או תשובה.",
+    anchor: "appropriate = מתאים לרגע",
+    coll: ["appropriate response", "appropriate behavior", "appropriate for the occasion"],
+    ex: "His response was appropriate and respectful.",
+    exHe: "התגובה שלו הייתה מתאימה ומכבדת.",
+    rq: "מה זה an appropriate response?",
   },
   beneath: {
-    h: "beneath = מתחת ל-. החתול ישן beneath the table, מתחת לשולחן.",
-  },
-  benefit: {
-    h: "benefit = תועלת. ה-benefit של תרגול יומי הוא שיפור אמיתי לאורך זמן.",
-  },
-  brief: {
-    h: "brief = קצר, תמציתי. הרצאה brief של 5 דקות — ישר ולעניין.",
-  },
-  burden: {
-    h: "burden = נטל כבד. דמיין אדם הולך עם תיק ענק על הגב — that's a burden.",
-  },
-  capable: {
-    h: "capable = מסוגל. אדם capable של פתרון בעיות מורכבות.",
-  },
-  cease: {
-    h: "cease = להפסיק לחלוטין. cease fire — הפסקת אש, סוף לחימה.",
-  },
-  challenge: {
-    h: "challenge זה אתגר. ריצת מרתון היא challenge פיזית ומנטלית.",
-  },
-  characteristic: {
-    h: "characteristic = תכונה אופיינית. צחוק רם הוא characteristic שלו שכולם מזהים.",
-  },
-  clarify: {
-    h: "clarify = להבהיר, להפוך ברור. המורה clarified את ההוראות פעמיים.",
-  },
-  clear: {
-    p: "קְלִיר",
-    h: "clear = ברור, נקי. דמיין חלון נקי לחלוטין — clear glass שדרכו רואים הכל.",
-    c: "ביום הראשון בעבודה לא היה לי clear מה צריך לעשות.",
-  },
-  collapse: {
-    h: "collapse = להתמוטט. בניין ישן ש-collapsed ברעידת אדמה, או חבר ש-collapsed מעייפות.",
-  },
-  combine: {
-    h: "combine = לחבר יחד. combine שמן וחומץ → סלט. combine רעיונות → פתרון.",
-  },
-  commit: {
-    h: "commit = להתחייב או לבצע. commit לקשר, commit פשע (לבצע אותו).",
-  },
-  compel: {
-    h: "compel = להכריח, לכפות. נסיבות ש-compel אותך לעזוב את הבית.",
-  },
-  compensate: {
-    h: "compensate = לפצות. חברת ביטוח ש-compensates על נזק לרכב.",
-  },
-  competent: {
-    h: "competent = כשיר, מקצועי. עובד competent יודע את העבודה ועושה אותה היטב.",
-  },
-  complex: {
-    h: "complex = מורכב, רב-רובדי. בעיה complex עם הרבה פרטים שצריך לפרק.",
-  },
-  comply: {
-    h: "comply = לציית, לעמוד בדרישה. נהג ש-complies with the speed limit.",
-  },
-  concise: {
-    h: "concise = תמציתי. סיכום concise תופס את העיקר במעט מילים.",
-  },
-  conclude: {
-    h: "conclude = להסיק או לסיים. הוא concluded שהמכונית בוצעה — מסקנה הגיונית.",
-  },
-  condemn: {
-    h: "condemn = לגנות בחריפות. ארגון בינלאומי condemned את ההפרה של זכויות אדם.",
-  },
-  confess: {
-    h: "confess = להתוודות. ילד ש-confesses שהוא אכל את העוגה.",
-  },
-  confine: {
-    h: "confine = להגביל למקום. אסיר confined לתאו, ביקור confined ל-30 דקות.",
-  },
-  confirm: {
-    h: "confirm = לאשר רשמית. אימייל ש-confirms את ההזמנה שלך.",
-  },
-  confront: {
-    h: "confront = להתעמת. בסוף הוא decided to confront את הבעיה במקום לברוח.",
-  },
-  consider: {
-    h: "consider = לשקול במחשבה. consider את כל האפשרויות לפני שאתה בוחר.",
-  },
-  consequently: {
-    h: "consequently = כתוצאה מכך. ירד גשם, consequently המשחק בוטל.",
+    core: "מתחת ל- (מילת יחס פורמלית יותר מ-under).",
+    anchor: "beneath = מתחת ל-",
+    coll: ["beneath the surface", "beneath the table", "beneath contempt"],
+    ex: "The treasure was buried beneath the old tree.",
+    exHe: "האוצר היה קבור מתחת לעץ הזקן.",
+    conf: "beneath ≠ between. beneath = מתחת; between = בין.",
+    rq: "מה ההבדל בין beneath ל-under?",
   },
   considerable: {
-    h: "considerable = ניכר, גדול במידה. כסף considerable — סכום שמרגישים.",
-  },
-  consistent: {
-    h: "consistent = עקבי. מתאמן consistent מגיע לאימון 4 פעמים בשבוע, כל שבוע.",
-  },
-  constitute: {
-    h: "constitute = להוות, להרכיב. 12 חודשים constitute שנה אחת.",
-  },
-  constrain: {
-    h: "constrain = להגביל, לכבול. תקציב נמוך ש-constrains את התוכניות שלך.",
-  },
-  construct: {
-    h: "construct = לבנות, לבנות בצעדים. constructing בניין לבנה אחר לבנה.",
-  },
-  consume: {
-    h: "consume = לצרוך, לכלות. גוף שצורך מזון, או מכונית ש-consumes דלק.",
-  },
-  contain: {
-    h: "contain = מכיל בתוכו. הקופסה contains 12 ביצים, החלב contains סידן.",
-  },
-  contemplate: {
-    h: "contemplate = להרהר בעמקות. הוא contemplated את ההחלטה לילה שלם.",
-  },
-  contend: {
-    h: "contend = להתחרות או לטעון. צוותים ש-contend על הגביע, או טוען ש-contends במשפט.",
-  },
-  contrary: {
-    h: "contrary = הפוך, מנוגד. on the contrary — להפך, ההיפך הוא הנכון.",
-  },
-  contribute: {
-    h: "contribute = לתרום. כל חבר contributes לפרויקט עם רעיונות משלו.",
-  },
-  controversial: {
-    h: "controversial = שנוי במחלוקת. נושא controversial מעלה ויכוחים סוערים.",
-  },
-  convey: {
-    h: "convey = להעביר מסר או חפץ. רכבת ש-conveys סחורה, או דיבור ש-conveys רגש.",
-  },
-  cope: {
-    h: "cope = להתמודד בהצלחה. הורה ש-copes with שלושה ילדים קטנים בו זמנית.",
-  },
-  crucial: {
-    h: "crucial = קריטי, מכריע. שלב crucial במשחק — נקודה אחת תכריע את התוצאה.",
-  },
-  decline: {
-    h: "decline = ירידה או סירוב. decline של מכירות, או decline להזמנה.",
-  },
-  deliberate: {
-    h: "deliberate = מכוון, מתוכנן. שגיאה deliberate, לא טעות מקרית.",
-  },
-  demonstrate: {
-    h: "demonstrate = להדגים, להראות בפעולה. demo = הדגמה, demonstrate הנוסחה על הלוח.",
-  },
-  deny: {
-    h: "deny = להכחיש או לסרב. הוא denied שהוא היה במקום, או deny גישה לחדר.",
-  },
-  depend: {
-    h: "depend = להיות תלוי. תינוק שלם תלוי בהורים — depends on them.",
+    core: "ניכר במידה — סכום, מאמץ או הבדל שמרגישים אותם.",
+    anchor: "considerable = משמעותי מבחינת גודל",
+    coll: ["considerable amount", "considerable effort", "considerable damage"],
+    ex: "The project required a considerable amount of time.",
+    exHe: "הפרויקט דרש כמות זמן ניכרת.",
+    conf: "considerable ≠ considerate. considerable = ניכר; considerate = מתחשב.",
+    rq: "מה ההבדל בין considerable ל-considerate?",
   },
   derive: {
-    h: "derive = להפיק, להגיע מ-. derive מסקנה מהראיות, או derive הנאה מקריאה.",
-  },
-  describe: {
-    h: "describe = לתאר. עד שה-describes את החשוד למשטרה — שיער שחור, גובה ממוצע.",
-  },
-  despite: {
-    h: "despite = למרות. despite the rain, יצאנו לטיול.",
-  },
-  detect: {
-    h: "detect = לזהות, לאתר. כלב ש-detects ריח חשוד, או חיישן ש-detects עשן.",
-  },
-  determine: {
-    h: "determine = לקבוע. הציון determines את הקבלה לאוניברסיטה.",
-  },
-  diminish: {
-    h: "diminish = להפחית, להצטמצם. עניין ש-diminishes עם הזמן.",
-  },
-  distinct: {
-    h: "distinct = ברור, שונה במובהק. ריח distinct של תפוח שעולה מהסל.",
-  },
-  diverse: {
-    h: "diverse = מגוון. עיר diverse עם תושבים מתרבויות שונות.",
-  },
-  doubt: {
-    h: "doubt = ספק. יש לי doubts אם זה רעיון טוב — אני לא בטוח.",
-  },
-  durable: {
-    h: "durable = עמיד לאורך זמן. נעלי הליכה durable שמחזיקות שנים.",
-  },
-  efficient: {
-    h: "efficient = יעיל. מנוע efficient מפיק הרבה תוצאה מעט אנרגיה.",
-  },
-  emerge: {
-    h: "emerge = לצוץ, להופיע. צוללת ש-emerges מתחת למים, או מנהיג שצץ מתוך הקהל.",
+    core: "משהו יוצא או נובע ממקור אחר — תועלת, מסקנה או שורש מילה.",
+    anchor: "derive = מה יצא מתוך מה?",
+    coll: ["derive meaning", "derive benefit", "derived from"],
+    ex: "The word 'biology' is derived from Greek.",
+    exHe: "המילה 'ביולוגיה' נגזרת מיוונית.",
+    rq: "מה זה derive meaning?",
   },
   emphasize: {
-    h: "emphasize = להדגיש. emphasize בקול רם או באותיות מודגשות — שים לב לזה!",
+    core: "לתת דגש מיוחד למשהו — בקול, באותיות מודגשות או בחזרה.",
+    anchor: "emphasize = שים לב לזה!",
+    coll: ["emphasize the importance", "strongly emphasize", "emphasize a point"],
+    ex: "The teacher emphasized the importance of practice.",
+    exHe: "המורה הדגישה את חשיבות התרגול.",
+    rq: "איך אומרים 'להדגיש את החשיבות' באנגלית?",
   },
-  encounter: {
-    h: "encounter = להיתקל. מטייל ש-encounters דב ביער.",
+  encourage: {
+    core: "לעודד מישהו לעשות משהו — לתת ביטחון או מוטיבציה.",
+    anchor: "encourage = לתת רוח לפעולה",
+    coll: ["encourage someone to", "encourage participation", "strongly encourage"],
+    ex: "Her parents encouraged her to apply for the scholarship.",
+    exHe: "הוריה עודדו אותה לגשת למלגה.",
+    rq: "מה זה to encourage someone?",
   },
   endure: {
-    h: "endure = לסבול בסבלנות, להחזיק מעמד. חייל ש-endures אימון קשה.",
-  },
-  enforce: {
-    h: "enforce = לאכוף. שוטר ש-enforces חוקי תנועה ברחוב.",
+    core: "לסבול קושי לאורך זמן בלי להתפרק.",
+    anchor: "endure = להחזיק מעמד תחת לחץ",
+    coll: ["endure hardship", "endure pain", "endure for years"],
+    ex: "Soldiers must endure difficult training.",
+    exHe: "חיילים חייבים לעמוד באימון קשה.",
+    rq: "מה זה to endure hardship?",
   },
   enhance: {
-    h: "enhance = לשפר, להעצים. תוסף ש-enhances את הצבעים בתמונה.",
-  },
-  enormous: {
-    h: "enormous = ענק, עצום. פיל הוא יצור enormous, או בעיה enormous שדורשת פתרון.",
+    core: "לשפר, להעצים — תכונה קיימת שכבר טובה.",
+    anchor: "enhance = לעלות רמה",
+    coll: ["enhance performance", "enhance the experience", "enhance flavor"],
+    ex: "These exercises enhance your memory.",
+    exHe: "התרגילים האלה משפרים את הזיכרון שלך.",
+    conf: "enhance ≠ increase. enhance = לשפר באיכות; increase = לגדול בכמות.",
+    rq: "מה ההבדל בין enhance ל-improve?",
   },
   ensure: {
-    h: "ensure = לוודא. ensure שדלת ננעלה לפני יציאה.",
-  },
-  entirely: {
-    h: "entirely = לחלוטין, במלואו. החדר היה entirely ריק — לא נשאר אפילו רהיט אחד.",
-  },
-  equivalent: {
-    h: "equivalent = שווה ערך. דולר equivalent ל-3.7 שקלים בערך.",
-  },
-  essential: {
-    h: "essential = הכרחי, חיוני. מים essential לחיים — אי אפשר בלעדיהם.",
+    core: "לוודא שמשהו יקרה — לקחת אחריות שזה לא ישתבש.",
+    anchor: "ensure = לוודא ולוודא שוב",
+    coll: ["ensure quality", "ensure safety", "ensure success"],
+    ex: "Please ensure that the door is locked.",
+    exHe: "אנא ודא שהדלת נעולה.",
+    conf: "ensure ≠ insure. ensure = לוודא; insure = לבטח.",
+    rq: "איך אומרים 'לוודא שהדלת נעולה' באנגלית?",
   },
   establish: {
-    h: "establish = להקים, לבסס. establish חברה חדשה, establish שם טוב במקצוע.",
-  },
-  evaluate: {
-    h: "evaluate = להעריך באופן שיטתי. מורה ש-evaluates עבודות עם רובריקה.",
+    core: "להקים משהו חדש — חברה, חוק, או לבסס שם.",
+    anchor: "establish = לבסס יסודות",
+    coll: ["establish a company", "establish a fact", "well-established"],
+    ex: "The company was established in 1990.",
+    exHe: "החברה הוקמה בשנת 1990.",
+    rq: "מה זה a well-established company?",
   },
   evident: {
-    h: "evident = ברור לעין. הכאב שלו היה evident מההבעה על פניו.",
-  },
-  evoke: {
-    h: "evoke = לעורר רגש או זיכרון. ריח של עוגה evokes זכרונות ילדות.",
-  },
-  exceed: {
-    h: "exceed = לעלות על, לחרוג. exceeded the speed limit — נהג מעל המהירות.",
-  },
-  exhibit: {
-    h: "exhibit = להציג. מוזיאון ש-exhibits יצירות אמנות, או עובד ש-exhibits מקצועיות.",
+    core: "ברור לעין, גלוי — אין צורך בהוכחה נוספת.",
+    anchor: "evident = רואים את זה ברור",
+    coll: ["clearly evident", "evident from", "self-evident"],
+    ex: "His relief was evident on his face.",
+    exHe: "ההקלה שלו הייתה ניכרת על פניו.",
+    rq: "איך נשמע מישהו שאומר 'It is evident that...'?",
   },
   expand: {
-    h: "expand = להתרחב, להתפשט. expand זה כמו בלון שמתנפח ונהיה רחב יותר.",
-  },
-  exploit: {
-    h: "exploit = לנצל. exploit הזדמנות (טוב), exploit עובדים (רע).",
-  },
-  expose: {
-    h: "expose = לחשוף. כתב ש-exposes שחיתות, או צילום שמצריך expose לאור.",
-  },
-  extend: {
-    h: "extend = להאריך. extend חופשה, extend יד לעזרה.",
-  },
-  facilitate: {
-    h: "facilitate = להקל, לאפשר. מתורגמן ש-facilitates שיחה בין שתי שפות.",
-  },
-  familiar: {
-    h: "familiar = מוכר. רחוב familiar שאתה זוכר מילדות.",
-  },
-  fascinate: {
-    h: "fascinate = להקסים. ילד ש-fascinated by דינוזאורים, לא מפסיק לקרוא עליהם.",
-  },
-  feasible: {
-    h: "feasible = ישים, אפשרי לביצוע. תוכנית feasible עם משאבים ולוח זמנים סבירים.",
-  },
-  flexible: {
-    h: "flexible = גמיש. גוף flexible של מתעמלת, או שעות עבודה flexible.",
+    core: "להתרחב, להגדיל — חברה, אופקים או מאמר.",
+    anchor: "expand = להתפשט החוצה",
+    coll: ["expand the business", "expand your horizons", "expand on the topic"],
+    ex: "The company plans to expand into Asia.",
+    exHe: "החברה מתכננת להתרחב לאסיה.",
+    rq: "מה ההבדל בין expand ל-explain?",
   },
   fragile: {
-    h: "fragile = שביר, עדין. דמיין כוס זכוכית דקה עם מדבקה fragile — נגיעה חזקה והיא נשברת.",
+    core: "שביר, עדין — חפץ או יחסים שיכולים להישבר בקלות.",
+    anchor: "fragile = נשבר אם נוגעים חזק",
+    coll: ["fragile item", "fragile peace", "extremely fragile"],
+    ex: "Please handle this package carefully — it's fragile.",
+    exHe: "אנא טפלו בחבילה הזו בזהירות — היא שבירה.",
+    rq: "מה כתוב בדרך כלל על קופסה עם זכוכית?",
   },
   fundamental: {
-    h: "fundamental = יסודי, בסיסי. הבנת השורש היא fundamental להבנת המילה.",
+    core: "בסיסי וחיוני — בלעדיו הכל קורס.",
+    anchor: "fundamental = יסוד הבניין",
+    coll: ["fundamental principle", "fundamental rights", "fundamentally different"],
+    ex: "Practice is fundamental to learning a language.",
+    exHe: "תרגול הוא יסוד ללימוד שפה.",
+    rq: "מה זה a fundamental principle?",
   },
-  furthermore: {
-    h: "furthermore = יתר על כן, בנוסף. מוסיף עוד טיעון: 'ועוד דבר...'",
-  },
-  generate: {
-    h: "generate = ליצור, להפיק. גנרטור ש-generates חשמל, או רעיון ש-generates עניין.",
-  },
-  generous: {
-    h: "generous = נדיב. אדם generous שתורם זמן וכסף לזולת.",
-  },
-  genuine: {
-    h: "genuine = אמיתי, כן. חיוך genuine שמגיע מהלב, לא חיקוי.",
-  },
-  gradually: {
-    h: "gradually = בהדרגה, לאט. השמש gradually שוקעת — לא בבת אחת.",
-  },
-  hesitate: {
-    h: "hesitate = להסס. הוא hesitated רגע לפני שקפץ למים הקרים.",
-  },
-  hostile: {
-    h: "hostile = עוין, אגרסיבי. שכן hostile שצועק מעבר לגדר.",
-  },
-  identify: {
-    h: "identify = לזהות. עד ש-identifies את החשוד מבין תמונות.",
-  },
-  imply: {
-    h: "imply = לרמוז בלי לומר במפורש. הוא implied שיש בעיה, בלי להגיד מה.",
+  impose: {
+    core: "לכפות משהו על מישהו — מס, חוק או נוכחות.",
+    anchor: "impose = לכפות מלמעלה",
+    coll: ["impose restrictions", "impose a fine", "impose your will"],
+    ex: "The city imposed strict water restrictions.",
+    exHe: "העירייה הטילה הגבלות מים מחמירות.",
+    rq: "מה זה to impose restrictions?",
   },
   inevitable: {
-    h: "inevitable = בלתי נמנע. מוות הוא inevitable — אי אפשר לברוח ממנו.",
+    core: "בלתי נמנע — יקרה ואי אפשר לעצור.",
+    anchor: "inevitable = אין דרך לברוח",
+    coll: ["inevitable outcome", "almost inevitable", "the inevitable consequence"],
+    ex: "Change is inevitable in business.",
+    exHe: "שינוי הוא בלתי נמנע בעולם העסקים.",
+    rq: "מה זה an inevitable outcome?",
   },
-  influence: {
-    h: "influence = השפעה. מורה טוב has influence על תלמידיו לכל החיים.",
-  },
-  inherent: {
-    h: "inherent = טבוע, מובנה. סקרנות inherent בילדים קטנים — זה חלק מהטבע שלהם.",
-  },
-  initiate: {
-    h: "initiate = ליזום, להתחיל תהליך. הוא initiated שיחה עם הזר.",
-  },
-  intense: {
-    h: "intense = חזק, עוצמתי. אימון intense שמשאיר אותך מותש.",
-  },
-  involve: {
-    h: "involve = לערב, לכלול. הפרויקט involves צוות של 5 אנשים.",
-  },
-  justify: {
-    h: "justify = להצדיק. הוא tried to justify את האיחור עם תירוץ של פקק.",
-  },
-  maintain: {
-    h: "maintain = לשמור, לתחזק. maintain את הרכב כדי שיעבוד, maintain קשר עם חבר.",
-  },
-  modify: {
-    h: "modify = לשנות במידה. מתכון שעבר modify — פחות סוכר, יותר תבלינים.",
-  },
-  mutual: {
-    h: "mutual = הדדי. כבוד mutual — שניהם מכבדים אחד את השני.",
+  intend: {
+    core: "להתכוון לעשות משהו — תוכנית או מטרה.",
+    anchor: "intend = יש לי כוונה ל-",
+    coll: ["intend to do", "intended for", "intended audience"],
+    ex: "I intend to apply for the job next week.",
+    exHe: "אני מתכוון להגיש מועמדות לעבודה בשבוע הבא.",
+    rq: "מה ההבדל בין intend ל-want?",
   },
   obtain: {
-    h: "obtain = להשיג, לקבל. obtain רישיון נהיגה אחרי מבחן.",
-  },
-  obvious: {
-    h: "obvious = ברור מאליו. התשובה הייתה obvious אחרי שקראתי שוב.",
-  },
-  occur: {
-    h: "occur = לקרות, להתרחש. תאונה ש-occurred על הכביש המהיר.",
-  },
-  particular: {
-    h: "particular = מסוים, ייחודי. אני מחפש particular מילה — לא סתם דומה.",
+    core: "להשיג משהו דרך מאמץ או תהליך — רישיון, מידע או הסכמה.",
+    anchor: "obtain = להשיג בעיקר רשמית",
+    coll: ["obtain a license", "obtain permission", "obtain information"],
+    ex: "You must obtain a license to drive.",
+    exHe: "אתה חייב להוציא רישיון כדי לנהוג.",
+    conf: "obtain ≠ observe. obtain = להשיג; observe = להתבונן.",
+    rq: "מה ההבדל בין obtain ל-receive?",
   },
   perceive: {
-    h: "perceive = לתפוס בחושים או בהבנה. perceive סכנה לפני שהיא מתרחשת.",
+    core: "לתפוס במחשבה או בחושים — להבין איך משהו נראה.",
+    anchor: "perceive = ככה זה נתפס אצלך",
+    coll: ["perceive a threat", "perceive as", "widely perceived"],
+    ex: "She perceived a sense of urgency in his voice.",
+    exHe: "היא חשה תחושת דחיפות בקולו.",
+    rq: "מה ההבדל בין perceive ל-see?",
   },
-  persist: {
-    h: "persist = להתמיד. הוא persisted גם כשכולם אמרו שזה בלתי אפשרי.",
-  },
-  perspective: {
-    h: "perspective = נקודת מבט, זווית. מ-perspective אחרת הבעיה נראית אחרת.",
-  },
-  persuade: {
-    h: "persuade = לשכנע. הוא persuaded אותי לבוא לסרט — שינה לי את הדעה.",
-  },
-  precise: {
-    h: "precise = מדויק. הוראות precise: לערבב 3 דקות בדיוק, לא 2 ולא 4.",
-  },
-  prevent: {
-    h: "prevent = למנוע. גדר ש-prevents כניסה, או חיסון ש-prevents מחלה.",
-  },
-  prior: {
-    h: "prior = קודם, מוקדם יותר. prior to the meeting — לפני הפגישה.",
-  },
-  proceed: {
-    h: "proceed = להמשיך, להתקדם. proceed to the gate — המשך לשער. גם 'לפעול'.",
-  },
-  prominent: {
-    h: "prominent = בולט, מכובד. דמות prominent בעיר — כולם מכירים אותה.",
-  },
-  propose: {
-    h: "propose = להציע. הוא proposed רעיון, או proposed נישואים.",
-  },
-  reduce: {
-    h: "reduce = להפחית. reduce הוצאות, reduce סוכר בקפה.",
-  },
-  refer: {
-    h: "refer = להתייחס או להפנות. רופא ש-refers אותך למומחה.",
-  },
-  reflect: {
-    h: "reflect = לשקף או להרהר. מראה ש-reflects דמות, או שקט ל-reflect on the day.",
-  },
-  reject: {
-    h: "reject = לדחות. מוצר faulty ש-rejected בסוף הקו, או הצעה ש-rejected.",
-  },
-  relevant: {
-    h: "relevant = רלוונטי, קשור. מידע relevant לנושא — לא סיפור צדדי.",
+  reconcile: {
+    core: "להחזיר הרמוניה — בין אנשים, או בין שני דברים שנראים סותרים.",
+    anchor: "reconcile = להחזיר ידידות",
+    coll: ["reconcile differences", "reconcile with", "hard to reconcile"],
+    ex: "It is hard to reconcile these two reports.",
+    exHe: "קשה ליישב בין שני הדוחות האלה.",
+    rq: "מה זה reconcile differences?",
   },
   reluctant: {
-    h: "reluctant = מהסס, לא נלהב. תלמיד reluctant לענות מול הכיתה.",
-  },
-  remain: {
-    h: "remain = להישאר. רק שני נגנים remained על הבמה בסוף הקונצרט.",
-  },
-  remarkable: {
-    h: "remarkable = ראוי לציון. ביצוע remarkable של זמרת בת 10 — מדהים לגיל הזה.",
-  },
-  require: {
-    h: "require = לדרוש. עבודה ש-requires תואר ראשון לפחות.",
-  },
-  resemble: {
-    h: "resemble = להיות דומה. הילד resembles את אביו — אותה צורת אף.",
-  },
-  resist: {
-    h: "resist = להתנגד, לעמוד בפיתוי. resist עוגה בדיאטה.",
-  },
-  resolve: {
-    h: "resolve = לפתור או החלטה איתנה. resolve סכסוך, או New Year's resolution.",
-  },
-  retain: {
-    h: "retain = לשמור, להחזיק. retain את הקבלה ל-30 יום, retain מידע בזיכרון.",
-  },
-  reveal: {
-    h: "reveal = לחשוף. הקוסם revealed את הסוד מאחורי הטריק.",
-  },
-  rigid: {
-    h: "rigid = נוקשה, לא גמיש. כללים rigid שאין להם חריגים.",
-  },
-  significant: {
-    h: "significant = משמעותי. ההבדל בין התשובות היה significant — לא טכני בלבד.",
-  },
-  similar: {
-    h: "similar = דומה. שני שירים שהם similar במנגינה אבל שונים במילים.",
-  },
-  simulate: {
-    h: "simulate = לדמות, לחקות. תוכנה ש-simulates נהיגה לפני שיוצאים לכביש אמיתי.",
-  },
-  spontaneous: {
-    h: "spontaneous = ספונטני, לא מתוכנן. החלטה spontaneous לקפוץ לים.",
-  },
-  subsequently: {
-    h: "subsequently = לאחר מכן. הוא נפצע, subsequently לקח שבועיים מנוחה.",
-  },
-  substantial: {
-    h: "substantial = ניכר, רב. ירושה substantial — סכום שמשנה חיים.",
-  },
-  succeed: {
-    h: "succeed = להצליח. הוא succeeded במבחן אחרי חודשי תרגול.",
+    core: "לא נלהב — מסכים בקושי, אחרי לחץ.",
+    anchor: "reluctant = מהסס לפני שהוא עושה",
+    coll: ["reluctant to admit", "reluctant participant", "somewhat reluctant"],
+    ex: "He was reluctant to share his answer.",
+    exHe: "הוא היסס לשתף את התשובה שלו.",
+    rq: "מה זה a reluctant participant?",
   },
   sufficient: {
-    h: "sufficient = מספיק. זמן sufficient להכנת ארוחה — לא צריך לרוץ.",
+    core: "מספיק לצורך מסוים — לא בעודף, רק מה שדרוש.",
+    anchor: "sufficient = מספיק כדי לעבור",
+    coll: ["sufficient evidence", "sufficient time", "sufficient funds"],
+    ex: "There is sufficient evidence to support the claim.",
+    exHe: "יש מספיק ראיות לתמוך בטענה.",
+    conf: "sufficient ≠ efficient. sufficient = מספיק; efficient = יעיל.",
+    rq: "איך אומרים 'מספיק ראיות' באנגלית?",
   },
-  suggest: {
-    h: "suggest = להציע. I suggest שתתחיל מהשאלות הקלות.",
-  },
-  superior: {
-    h: "superior = עליון, טוב יותר. איכות superior במחיר גבוה יותר.",
-  },
-  surface: {
-    h: "surface = פני שטח. surface חלק של אגם בלי גלים, או 'לצוץ' (במים).",
-  },
-  surround: {
-    h: "surround = להקיף. הר ש-surrounded by עצים, או אדם surrounded by חברים.",
-  },
-  suspect: {
-    h: "suspect = לחשוד. השוטר suspected שמשהו לא בסדר עם התשובה שלו.",
-  },
-  sustain: {
-    h: "sustain = לקיים לאורך זמן. sustain קצב מהיר במרתון, sustain פגיעה ולהמשיך.",
-  },
-  temporary: {
-    h: "temporary = זמני. פתרון temporary עד שיגיע משהו קבוע.",
-  },
-  thorough: {
-    h: "thorough = יסודי, מקיף. בדיקה thorough שלא משאירה אבן לא הפוכה.",
-  },
-  transparent: {
-    h: "transparent = שקוף. זכוכית transparent שדרכה רואים הכל, או תהליך transparent וגלוי.",
-  },
-  ultimate: {
-    h: "ultimate = סופי, אולטימטיבי. ה-ultimate goal — המטרה הסופית של הכל.",
-  },
-  utilize: {
-    h: "utilize = להשתמש ביעילות. utilize את הזמן הפנוי לתרגול.",
+  undermine: {
+    core: "לפגוע במשהו מבפנים או מלמטה עד שהוא נחלש — לא תקיפה ישירה, אלא הרס יסודות.",
+    anchor: "undermine = פוגע ביסודות",
+    coll: ["undermine trust", "undermine authority", "undermine confidence"],
+    ex: "His lies undermined trust in the team.",
+    exHe: "השקרים שלו פגעו באמון בקבוצה.",
+    conf: "לא לתרגם כ'לחקור מתחת'. המשמעות היא להחליש מבפנים.",
+    rq: "מה זה undermine trust?",
   },
   vague: {
-    h: "vague = מעורפל, לא ברור. הסבר vague שמשאיר אותך מבולבל מתמיד.",
-  },
-  valid: {
-    h: "valid = תקף. דרכון valid עד 2030, או טיעון valid שמחזיק לוגית.",
-  },
-  vary: {
-    h: "vary = להשתנות, לגוון. מחירים ש-vary מחנות לחנות.",
-  },
-  vast: {
-    h: "vast = עצום, רחב ידיים. מדבר vast שאין לו סוף לעין.",
-  },
-  vital: {
-    h: "vital = חיוני. אוויר vital לנשימה — אי אפשר בלי.",
+    core: "מעורפל ולא ספציפי — תשובה שאי אפשר לפעול לפיה.",
+    anchor: "vague = הסבר ערפילי",
+    coll: ["vague answer", "vague memory", "vague idea"],
+    ex: "His instructions were too vague to follow.",
+    exHe: "ההוראות שלו היו עמומות מדי כדי לפעול לפיהן.",
+    conf: "vague ≠ vast. vague = מעורפל; vast = עצום.",
+    rq: "מה זה a vague answer?",
   },
   vulnerable: {
-    h: "vulnerable = פגיע. תינוק vulnerable דורש הגנה מתמדת.",
-  },
-  whereas: {
-    h: "whereas = בעוד ש-. אני אוהב הבנת הנקרא, whereas היא מעדיפה דקדוק.",
-  },
-  withdraw: {
-    h: "withdraw = למשוך בחזרה. withdraw כסף מהבנק, או withdraw מצוות.",
-  },
-  witness: {
-    h: "witness = עד או להיות עד. witness תאונה — לראות אותה במו עיניך.",
-  },
-  yield: {
-    h: "yield = להניב או להיכנע. שדה ש-yields יבול, או נהג ש-yields זכות קדימה.",
+    core: "פגיע — חשוף לפגיעה ולא יכול להגן על עצמו.",
+    anchor: "vulnerable = ללא הגנה",
+    coll: ["vulnerable to attack", "vulnerable population", "particularly vulnerable"],
+    ex: "Young children are vulnerable to cold.",
+    exHe: "ילדים קטנים פגיעים לקור.",
+    rq: "מה זה a vulnerable population?",
   },
 };
 
-// ─── Hebrew part-of-speech labels for the fallback ──────────────────────────
+// ─── Light hints — single sentence, auto-promoted to the richer shape ───────
+// These are the entries from the previous round. They have a good 1-sentence
+// hint but no full structured data — the renderer treats them as
+// "core meaning + auto retrieval question".
+const LIGHT_HINTS: Record<string, { p?: string; h: string }> = {
+  abrupt: { h: "פתאומי וחד, כמו עצירה abrupt של מכונית באמצע הכביש." },
+  abundant: { h: "יש בשפע. שולחן חג עמוס באוכל — abundant food." },
+  accept: { h: "לקבל ברצון — accept מתנה, accept הזמנה, accept הצעת עבודה." },
+  access: { h: "כניסה או גישה — כרטיס שנותן לך access לבניין." },
+  accidental: { h: "במקרה, לא מתוכנן. גילוי accidental כמו פניצילין." },
+  accommodate: { h: "לארח או להתאים — מלון שיכול to accommodate 200 אורחים." },
+  accomplish: { h: "להשלים משימה בהצלחה. רץ שעבר את הקו — he accomplished his goal." },
+  accuse: { h: "להאשים מישהו במעשה רע, כמו במשפט בבית משפט." },
+  acknowledge: { h: "להכיר במשהו או באמת — להניד בראש ולאשר 'כן, אתה צודק'." },
+  adjust: { h: "לכוון בעדינות — adjust את ההגה של האופניים בגובה הנכון." },
+  admit: { h: "להודות באמת לא נוחה, כמו ילד שמודה שהוא שבר את האגרטל." },
+  advance: { h: "להתקדם. צבא ש-advances קדימה, או טכנולוגיה שעושה advance." },
+  adverse: { h: "שלילי, לא נוח. תנאי מזג אוויר adverse עוצרים טיסות." },
+  affect: { h: "להשפיע על. הגשם affected את התוכניות שלי לים." },
+  affluent: { h: "עשיר ושופע. שכונה affluent עם בתי פאר ובריכות." },
+  although: { h: "מילת ניגוד: 'למרות ש-'. Although היה קר, יצאנו לטיול." },
+  ambition: { h: "שאיפה גדולה. הילד עם ambition להיות אסטרונאוט." },
+  analyze: { h: "לפרק לחלקים ולבחון. מדען analyzes דגימה תחת מיקרוסקופ." },
+  ancient: { h: "עתיק מאוד, אלפי שנים. שרידים ancient של מצרים העתיקה." },
+  annoy: { h: "להציק או להרגיז קצת — יתוש ש-annoys אותך בלילה." },
+  anticipate: { h: "לצפות מראש למשהו. ילדים ש-anticipate את החופש הגדול." },
+  apparent: { h: "נראה לעין, ברור. הסיבה הייתה apparent לכל מי שהסתכל." },
+  appeal: { h: "פנייה או משיכה — מוצר עם appeal לצעירים, או appeal לעזרה." },
+  apply: { h: "להגיש בקשה או ליישם. apply לעבודה, apply את החוק על מקרה חדש." },
+  appreciate: { h: "להעריך את הטוב — appreciate ידיד אמיתי, כוס קפה בבוקר." },
+  approve: { h: "לאשר רשמית. הבוס approved את החופשה שלך." },
+  argue: { h: "להתווכח או לטעון. עורך דין ש-argues עם השופט בבית משפט." },
+  arise: { h: "לקום, לצוץ. בעיות arise כשלא מתכננים מראש." },
+  arrogant: { h: "יהיר, מתנשא. אדם arrogant חושב שהוא תמיד יודע יותר טוב." },
+  aspire: { h: "לשאוף גבוה. סטודנט ש-aspires להיות רופא." },
+  assemble: { h: "להרכיב או להתאסף — assemble ארון, או צבא ש-assembles ליציאה." },
+  assert: { h: "להצהיר בנחישות, לטעון בתוקף. הוא asserted שהוא חף מפשע." },
+  assess: { h: "להעריך שווי או רמה. שמאי ש-assesses את ערך הדירה." },
+  assist: { h: "לעזור. חובש ש-assists את הרופא בניתוח." },
+  assume: { h: "להניח בלי לבדוק. אל תניח שכולם יודעים — תשאל." },
+  attain: { h: "להשיג אחרי מאמץ ארוך. attain תואר, attain חלום של שנים." },
+  attempt: { h: "ניסיון. an attempt to שבור שיא, גם אם זה לא הצליח." },
+  attribute: { h: "לייחס משהו לסיבה. הצלחתו attributed לעבודה קשה ולמזל." },
+  authentic: { h: "אמיתי, לא חיקוי. שעון authentic מהמותג, לא זיוף." },
+  available: { h: "זמין, פנוי. רופא שהוא available לפגישה ביום שלישי." },
+  avoid: { h: "להימנע, לעקוף. avoid פקקים בכביש על ידי יציאה מוקדמת." },
+  aware: { h: "מודע, יודע. נהג aware לסכנה אוחז בהגה חזק יותר." },
+  benefit: { h: "תועלת. ה-benefit של תרגול יומי הוא שיפור אמיתי לאורך זמן." },
+  brief: { h: "קצר, תמציתי. הרצאה brief של 5 דקות — ישר ולעניין." },
+  burden: { h: "נטל כבד. אדם הולך עם תיק ענק על הגב — that's a burden." },
+  capable: { h: "מסוגל. אדם capable של פתרון בעיות מורכבות." },
+  cease: { h: "להפסיק לחלוטין. cease fire — הפסקת אש, סוף לחימה." },
+  challenge: { h: "אתגר. ריצת מרתון היא challenge פיזית ומנטלית." },
+  characteristic: { h: "תכונה אופיינית. צחוק רם הוא characteristic שלו." },
+  clarify: { h: "להבהיר, להפוך ברור. המורה clarified את ההוראות פעמיים." },
+  clear: { p: "קְלִיר", h: "ברור, נקי. חלון נקי לחלוטין — clear glass שדרכו רואים הכל." },
+  collapse: { h: "להתמוטט. בניין ישן ש-collapsed ברעידת אדמה." },
+  combine: { h: "לחבר יחד. combine שמן וחומץ → סלט. combine רעיונות → פתרון." },
+  commit: { h: "להתחייב או לבצע. commit לקשר, commit פשע (לבצע אותו)." },
+  compel: { h: "להכריח, לכפות. נסיבות ש-compel אותך לעזוב את הבית." },
+  compensate: { h: "לפצות. חברת ביטוח ש-compensates על נזק לרכב." },
+  competent: { h: "כשיר, מקצועי. עובד competent יודע את העבודה ועושה אותה היטב." },
+  complex: { h: "מורכב, רב-רובדי. בעיה complex עם הרבה פרטים." },
+  comply: { h: "לציית, לעמוד בדרישה. נהג ש-complies with the speed limit." },
+  concise: { h: "תמציתי. סיכום concise תופס את העיקר במעט מילים." },
+  conclude: { h: "להסיק או לסיים. הוא concluded שהמכונית בוצעה — מסקנה הגיונית." },
+  condemn: { h: "לגנות בחריפות. ארגון בינלאומי condemned את ההפרה." },
+  confess: { h: "להתוודות. ילד ש-confesses שהוא אכל את העוגה." },
+  confirm: { h: "לאשר רשמית. אימייל ש-confirms את ההזמנה שלך." },
+  confront: { h: "להתעמת. בסוף הוא decided to confront את הבעיה." },
+  consider: { h: "לשקול במחשבה. consider את כל האפשרויות לפני שאתה בוחר." },
+  consequently: { h: "כתוצאה מכך. ירד גשם, consequently המשחק בוטל." },
+  consistent: { h: "עקבי. מתאמן consistent מגיע לאימון 4 פעמים בשבוע." },
+  constitute: { h: "להוות, להרכיב. 12 חודשים constitute שנה אחת." },
+  constrain: { h: "להגביל, לכבול. תקציב נמוך ש-constrains את התוכניות." },
+  construct: { h: "לבנות בצעדים. constructing בניין לבנה אחר לבנה." },
+  consume: { h: "לצרוך, לכלות. גוף שצורך מזון, מכונית ש-consumes דלק." },
+  contain: { h: "מכיל בתוכו. הקופסה contains 12 ביצים." },
+  contemplate: { h: "להרהר בעמקות. הוא contemplated את ההחלטה לילה שלם." },
+  contend: { h: "להתחרות או לטעון. צוותים ש-contend על הגביע." },
+  contrary: { h: "הפוך, מנוגד. on the contrary — להפך, ההיפך הוא הנכון." },
+  contribute: { h: "לתרום. כל חבר contributes לפרויקט עם רעיונות משלו." },
+  controversial: { h: "שנוי במחלוקת. נושא controversial מעלה ויכוחים סוערים." },
+  convey: { h: "להעביר מסר או חפץ. רכבת ש-conveys סחורה, דיבור ש-conveys רגש." },
+  cope: { h: "להתמודד בהצלחה. הורה ש-copes with שלושה ילדים קטנים." },
+  crucial: { h: "קריטי, מכריע. שלב crucial במשחק — נקודה אחת תכריע." },
+  decline: { h: "ירידה או סירוב. decline של מכירות, decline להזמנה." },
+  deliberate: { h: "מכוון, מתוכנן. שגיאה deliberate, לא טעות מקרית." },
+  demonstrate: { h: "להדגים, להראות בפעולה. demonstrate הנוסחה על הלוח." },
+  deny: { h: "להכחיש או לסרב. הוא denied שהוא היה במקום." },
+  depend: { h: "להיות תלוי. תינוק תלוי בהורים — depends on them." },
+  describe: { h: "לתאר. עד שה-describes את החשוד למשטרה." },
+  despite: { h: "למרות. despite the rain, יצאנו לטיול." },
+  detect: { h: "לזהות, לאתר. חיישן ש-detects עשן." },
+  determine: { h: "לקבוע. הציון determines את הקבלה לאוניברסיטה." },
+  diminish: { h: "להפחית, להצטמצם. עניין ש-diminishes עם הזמן." },
+  distinct: { h: "ברור, שונה במובהק. ריח distinct של תפוח." },
+  diverse: { h: "מגוון. עיר diverse עם תושבים מתרבויות שונות." },
+  doubt: { h: "ספק. יש לי doubts אם זה רעיון טוב." },
+  durable: { h: "עמיד לאורך זמן. נעלי הליכה durable שמחזיקות שנים." },
+  efficient: { h: "יעיל. מנוע efficient מפיק הרבה תוצאה מעט אנרגיה." },
+  emerge: { h: "לצוץ, להופיע. צוללת ש-emerges מתחת למים." },
+  encounter: { h: "להיתקל. מטייל ש-encounters דב ביער." },
+  enforce: { h: "לאכוף. שוטר ש-enforces חוקי תנועה ברחוב." },
+  enormous: { h: "ענק, עצום. פיל הוא יצור enormous." },
+  entirely: { h: "לחלוטין, במלואו. החדר היה entirely ריק." },
+  equivalent: { h: "שווה ערך. דולר equivalent ל-3.7 שקלים." },
+  essential: { h: "הכרחי, חיוני. מים essential לחיים — אי אפשר בלעדיהם." },
+  evaluate: { h: "להעריך באופן שיטתי. מורה ש-evaluates עבודות עם רובריקה." },
+  evoke: { h: "לעורר רגש או זיכרון. ריח של עוגה evokes זכרונות ילדות." },
+  exceed: { h: "לעלות על, לחרוג. exceeded the speed limit." },
+  exhibit: { h: "להציג. מוזיאון ש-exhibits יצירות אמנות." },
+  exploit: { h: "לנצל. exploit הזדמנות (טוב), exploit עובדים (רע)." },
+  expose: { h: "לחשוף. כתב ש-exposes שחיתות." },
+  extend: { h: "להאריך. extend חופשה, extend יד לעזרה." },
+  facilitate: { h: "להקל, לאפשר. מתורגמן ש-facilitates שיחה בין שתי שפות." },
+  familiar: { h: "מוכר. רחוב familiar שאתה זוכר מילדות." },
+  fascinate: { h: "להקסים. ילד ש-fascinated by דינוזאורים." },
+  feasible: { h: "ישים, אפשרי לביצוע. תוכנית feasible עם משאבים סבירים." },
+  flexible: { h: "גמיש. גוף flexible של מתעמלת, שעות עבודה flexible." },
+  furthermore: { h: "יתר על כן, בנוסף. מוסיף עוד טיעון: 'ועוד דבר...'" },
+  generate: { h: "ליצור, להפיק. גנרטור ש-generates חשמל." },
+  generous: { h: "נדיב. אדם generous שתורם זמן וכסף לזולת." },
+  genuine: { h: "אמיתי, כן. חיוך genuine שמגיע מהלב, לא חיקוי." },
+  gradually: { h: "בהדרגה, לאט. השמש gradually שוקעת — לא בבת אחת." },
+  hesitate: { h: "להסס. הוא hesitated רגע לפני שקפץ למים הקרים." },
+  hostile: { h: "עוין, אגרסיבי. שכן hostile שצועק מעבר לגדר." },
+  identify: { h: "לזהות. עד ש-identifies את החשוד מבין תמונות." },
+  imply: { h: "לרמוז בלי לומר במפורש. הוא implied שיש בעיה." },
+  influence: { h: "השפעה. מורה טוב has influence על תלמידיו לכל החיים." },
+  inherent: { h: "טבוע, מובנה. סקרנות inherent בילדים קטנים." },
+  initiate: { h: "ליזום, להתחיל תהליך. הוא initiated שיחה עם הזר." },
+  intense: { h: "חזק, עוצמתי. אימון intense שמשאיר אותך מותש." },
+  involve: { h: "לערב, לכלול. הפרויקט involves צוות של 5 אנשים." },
+  justify: { h: "להצדיק. הוא tried to justify את האיחור עם תירוץ של פקק." },
+  maintain: { h: "לשמור, לתחזק. maintain את הרכב, maintain קשר עם חבר." },
+  modify: { h: "לשנות במידה. מתכון שעבר modify — פחות סוכר, יותר תבלינים." },
+  mutual: { h: "הדדי. כבוד mutual — שניהם מכבדים אחד את השני." },
+  obvious: { h: "ברור מאליו. התשובה הייתה obvious אחרי שקראתי שוב." },
+  occur: { h: "לקרות, להתרחש. תאונה ש-occurred על הכביש המהיר." },
+  particular: { h: "מסוים, ייחודי. אני מחפש particular מילה — לא דומה." },
+  persist: { h: "להתמיד. הוא persisted גם כשכולם אמרו שזה בלתי אפשרי." },
+  perspective: { h: "נקודת מבט. מ-perspective אחרת הבעיה נראית אחרת." },
+  persuade: { h: "לשכנע. הוא persuaded אותי לבוא לסרט — שינה לי את הדעה." },
+  precise: { h: "מדויק. הוראות precise: לערבב 3 דקות בדיוק." },
+  prevent: { h: "למנוע. גדר ש-prevents כניסה, חיסון ש-prevents מחלה." },
+  prior: { h: "קודם, מוקדם יותר. prior to the meeting — לפני הפגישה." },
+  proceed: { h: "להמשיך, להתקדם. proceed to the gate — המשך לשער." },
+  prominent: { h: "בולט, מכובד. דמות prominent בעיר — כולם מכירים אותה." },
+  propose: { h: "להציע. הוא proposed רעיון, או proposed נישואים." },
+  reduce: { h: "להפחית. reduce הוצאות, reduce סוכר בקפה." },
+  refer: { h: "להתייחס או להפנות. רופא ש-refers אותך למומחה." },
+  reflect: { h: "לשקף או להרהר. מראה ש-reflects דמות." },
+  reject: { h: "לדחות. מוצר faulty ש-rejected בסוף הקו." },
+  relevant: { h: "רלוונטי, קשור. מידע relevant לנושא — לא סיפור צדדי." },
+  remain: { h: "להישאר. רק שני נגנים remained על הבמה בסוף הקונצרט." },
+  remarkable: { h: "ראוי לציון. ביצוע remarkable של זמרת בת 10." },
+  require: { h: "לדרוש. עבודה ש-requires תואר ראשון לפחות." },
+  resemble: { h: "להיות דומה. הילד resembles את אביו — אותה צורת אף." },
+  resist: { h: "להתנגד, לעמוד בפיתוי. resist עוגה בדיאטה." },
+  resolve: { h: "לפתור או החלטה איתנה. resolve סכסוך, New Year's resolution." },
+  retain: { h: "לשמור, להחזיק. retain את הקבלה ל-30 יום." },
+  reveal: { h: "לחשוף. הקוסם revealed את הסוד מאחורי הטריק." },
+  rigid: { h: "נוקשה, לא גמיש. כללים rigid שאין להם חריגים." },
+  significant: { h: "משמעותי. ההבדל בין התשובות היה significant." },
+  similar: { h: "דומה. שני שירים similar במנגינה אבל שונים במילים." },
+  simulate: { h: "לדמות, לחקות. תוכנה ש-simulates נהיגה לפני הכביש." },
+  spontaneous: { h: "ספונטני, לא מתוכנן. החלטה spontaneous לקפוץ לים." },
+  subsequently: { h: "לאחר מכן. הוא נפצע, subsequently לקח שבועיים מנוחה." },
+  substantial: { h: "ניכר, רב. ירושה substantial — סכום שמשנה חיים." },
+  succeed: { h: "להצליח. הוא succeeded במבחן אחרי חודשי תרגול." },
+  suggest: { h: "להציע. I suggest שתתחיל מהשאלות הקלות." },
+  superior: { h: "עליון, טוב יותר. איכות superior במחיר גבוה יותר." },
+  surface: { h: "פני שטח. surface חלק של אגם בלי גלים." },
+  surround: { h: "להקיף. הר ש-surrounded by עצים, אדם surrounded by חברים." },
+  suspect: { h: "לחשוד. השוטר suspected שמשהו לא בסדר." },
+  sustain: { h: "לקיים לאורך זמן. sustain קצב מהיר במרתון." },
+  temporary: { h: "זמני. פתרון temporary עד שיגיע משהו קבוע." },
+  thorough: { h: "יסודי, מקיף. בדיקה thorough שלא משאירה אבן לא הפוכה." },
+  transparent: { h: "שקוף. זכוכית transparent שדרכה רואים הכל." },
+  ultimate: { h: "סופי, אולטימטיבי. ה-ultimate goal — המטרה הסופית." },
+  utilize: { h: "להשתמש ביעילות. utilize את הזמן הפנוי לתרגול." },
+  valid: { h: "תקף. דרכון valid עד 2030, או טיעון valid שמחזיק לוגית." },
+  vary: { h: "להשתנות, לגוון. מחירים ש-vary מחנות לחנות." },
+  vast: { h: "עצום, רחב ידיים. מדבר vast שאין לו סוף לעין." },
+  vital: { h: "חיוני. אוויר vital לנשימה — אי אפשר בלי." },
+  whereas: { h: "בעוד ש-. אני אוהב הבנת הנקרא, whereas היא מעדיפה דקדוק." },
+  withdraw: { h: "למשוך בחזרה. withdraw כסף מהבנק, או withdraw מצוות." },
+  witness: { h: "עד או להיות עד. witness תאונה — לראות אותה במו עיניך." },
+  yield: { h: "להניב או להיכנע. שדה ש-yields יבול, נהג ש-yields זכות קדימה." },
+};
+
+// Hebrew part-of-speech labels for the data-driven fallback
 const POS_HE: Record<string, string> = {
   verb: "פועל",
   noun: "שם עצם",
@@ -710,94 +566,137 @@ const POS_HE: Record<string, string> = {
   idiom: "ביטוי",
 };
 
+const EMPTY: MemoryEnrichment = {
+  pronunciation: "",
+  coreMeaning: "",
+  memoryAnchor: "",
+  collocations: [],
+  exampleEn: "",
+  exampleHe: "",
+  confusion: "",
+  retrieval: "",
+};
+
 /**
- * Returns enrichment for a vocabulary item. Always returns a meaningful
- * memory hint — hand-crafted when available, data-driven otherwise.
+ * Returns enrichment for a vocabulary item. Always returns a meaningful,
+ * word-specific learning block — hand-crafted when available, smart
+ * data-driven fallback otherwise. Empty fields are hidden by the UI.
  */
 export function getMemoryEnrichment(item: VocabItem): MemoryEnrichment {
   const key = item.word.trim().toLowerCase();
-  const hand = HAND_CRAFTED_HINTS[key];
 
-  if (hand) {
+  // 1. Rich hand-crafted entry — best case.
+  const rich = RICH_ENTRIES[key];
+  if (rich) {
     return {
-      pronunciation: item.hePronunciation ?? hand.p ?? "",
-      memoryHint: item.heMemoryHint ?? hand.h,
-      contextSentence: item.heContextSentence ?? hand.c ?? "",
+      ...EMPTY,
+      pronunciation: item.hePronunciation ?? rich.p ?? "",
+      coreMeaning: item.heCoreMeaning ?? rich.core,
+      memoryAnchor: item.heMemoryAnchor ?? rich.anchor,
+      collocations: item.commonCollocations ?? rich.coll,
+      exampleEn: item.exampleSentenceEn ?? item.exampleSentence ?? rich.ex,
+      exampleHe: item.exampleSentenceHe ?? item.exampleSentenceHebrew ?? rich.exHe,
+      confusion: item.commonConfusion ?? rich.conf ?? "",
+      retrieval: item.retrievalQuestion ?? rich.rq ?? buildRetrieval(item.word),
     };
   }
 
-  // Per-item override wins if present (future-proofing for enriched seed data).
-  if (item.heMemoryHint) {
+  // 2. Light hint — auto-promoted into the richer shape.
+  const light = LIGHT_HINTS[key];
+  if (light) {
+    const primary = primaryMeaning(item.hebrewTranslation);
     return {
-      pronunciation: item.hePronunciation ?? "",
-      memoryHint: item.heMemoryHint,
-      contextSentence: item.heContextSentence ?? "",
+      ...EMPTY,
+      pronunciation: item.hePronunciation ?? light.p ?? "",
+      coreMeaning: item.heCoreMeaning ?? light.h,
+      memoryAnchor: item.heMemoryAnchor ?? `${item.word} = ${primary}`,
+      collocations: item.commonCollocations ?? [],
+      exampleEn: item.exampleSentenceEn ?? item.exampleSentence ?? "",
+      exampleHe: item.exampleSentenceHe ?? item.exampleSentenceHebrew ?? "",
+      confusion: item.commonConfusion ?? "",
+      retrieval: item.retrievalQuestion ?? buildRetrieval(item.word),
     };
+  }
+
+  // 3. Per-item override (future-proofing) — if the seed gets enriched.
+  if (item.heCoreMeaning || item.heMemoryHint) {
+    return {
+      ...EMPTY,
+      pronunciation: item.hePronunciation ?? "",
+      coreMeaning: item.heCoreMeaning ?? item.heMemoryHint ?? "",
+      memoryAnchor: item.heMemoryAnchor ?? `${item.word} = ${primaryMeaning(item.hebrewTranslation)}`,
+      collocations: item.commonCollocations ?? [],
+      exampleEn: item.exampleSentenceEn ?? item.exampleSentence ?? "",
+      exampleHe: item.exampleSentenceHe ?? item.exampleSentenceHebrew ?? "",
+      confusion: item.commonConfusion ?? "",
+      retrieval: item.retrievalQuestion ?? buildRetrieval(item.word),
+    };
+  }
+
+  // 4. Smart fallback — word-specific block from seed data.
+  return buildFallback(item);
+}
+
+function buildFallback(item: VocabItem): MemoryEnrichment {
+  const word = item.word;
+  const primary = primaryMeaning(item.hebrewTranslation);
+  const all = item.hebrewTranslation;
+
+  // Core meaning — choose the best shape based on available data
+  let core: string;
+  if (all && (all.includes(";") || all.includes(","))) {
+    core = `${word} יכול להיות ${all}. בחר את המשמעות שמתאימה להקשר.`;
+  } else if (item.partOfSpeech) {
+    const pos = POS_HE[item.partOfSpeech.toLowerCase()] ?? "";
+    if (pos === "פועל") {
+      core = `${word}: פועל שמשמעותו "${primary}".`;
+    } else if (pos === "שם תואר") {
+      core = `${word}: תואר שמתאר "${primary}".`;
+    } else if (pos === "שם עצם") {
+      core = `${word}: שם עצם — ${primary}.`;
+    } else if (pos === "תואר הפועל") {
+      core = `${word}: תואר הפועל שמתאר *איך* — ${primary}.`;
+    } else if (pos === "מילת חיבור") {
+      core = `${word}: מילת חיבור — ${primary}.`;
+    } else {
+      core = `${word}: ${primary}.`;
+    }
+  } else {
+    core = `${word}: ${primary}.`;
+  }
+
+  // Memory anchor — short, always word-specific
+  const anchor = `${word} = ${primary}`;
+
+  // Collocations — derive from synonyms when we have them
+  const collocations: string[] = [];
+  if (item.synonyms?.length) {
+    collocations.push(...item.synonyms.slice(0, 3));
   }
 
   return {
-    pronunciation: "",
-    memoryHint: buildFallbackHint(item),
-    contextSentence: buildFallbackContext(item),
+    pronunciation: item.hePronunciation ?? "",
+    coreMeaning: item.heCoreMeaning ?? core,
+    memoryAnchor: item.heMemoryAnchor ?? anchor,
+    collocations: item.commonCollocations ?? collocations,
+    exampleEn: item.exampleSentenceEn ?? item.exampleSentence ?? "",
+    exampleHe: item.exampleSentenceHe ?? item.exampleSentenceHebrew ?? "",
+    confusion: item.commonConfusion ?? buildConfusion(item),
+    retrieval: item.retrievalQuestion ?? buildRetrieval(word),
   };
 }
 
-/**
- * Builds a short, word-specific Hebrew memory hint from whatever data
- * the seed gives us. Never generic — always uses the word's own
- * translation/example/synonym/antonym/POS.
- */
-function buildFallbackHint(item: VocabItem): string {
-  const word = item.word;
-  const meaning = primaryMeaning(item.hebrewTranslation);
-  const allMeanings = item.hebrewTranslation;
-
-  // Best: example sentence (concrete usage)
-  if (item.exampleSentence && item.exampleSentence.length <= 130) {
-    return `${word} = ${meaning}. בהקשר: "${item.exampleSentence}"`;
+function buildConfusion(item: VocabItem): string {
+  // Only show confusion when the seed gives us a meaningful confusable pair.
+  if (item.confusingWords && item.confusingWords.length > 0) {
+    return `${item.word} ≠ ${item.confusingWords[0]}.`;
   }
-
-  // Good: contrast with an antonym
-  if (item.antonyms && item.antonyms.length > 0) {
-    return `${word} = ${meaning}, ההפך מ-${item.antonyms[0]}.`;
-  }
-
-  // Good: link to a known synonym
-  if (item.synonyms && item.synonyms.length > 0) {
-    const syns = item.synonyms.slice(0, 2).join(", ");
-    return `${word} = ${meaning}. דומה ל-${syns}.`;
-  }
-
-  // Use part-of-speech to shape the sentence naturally
-  const pos = item.partOfSpeech ? POS_HE[item.partOfSpeech.toLowerCase()] : "";
-  if (pos === "פועל") {
-    return `${word} פירושו "${meaning}". זה הפועל שמתאר את הפעולה — נסה לחשוב מתי תשתמש בה.`;
-  }
-  if (pos === "שם תואר") {
-    return `${word} הוא ${meaning} — תכונה שמתארת אדם, חפץ או מצב.`;
-  }
-  if (pos === "שם עצם") {
-    return `${word} הוא ${meaning}. דמיין דוגמה ספציפית של ${meaning} שאתה מכיר.`;
-  }
-  if (pos === "תואר הפועל") {
-    return `${word} = ${meaning}. תואר הפועל שמתאר *איך* משהו קורה.`;
-  }
-  if (pos === "מילת חיבור") {
-    return `${word} = ${meaning}. מחבר בין שני חלקי משפט.`;
-  }
-
-  // Multiple meanings: highlight that
-  if (allMeanings.includes(";") || allMeanings.includes(",")) {
-    return `${word} יכול להיות ${allMeanings}. בחר את המשמעות שמתאימה להקשר.`;
-  }
-
-  // Last resort: simple meaning sentence (still word-specific)
-  return `${word} = ${meaning}.`;
+  return "";
 }
 
-function buildFallbackContext(item: VocabItem): string {
-  if (item.exampleSentence && item.exampleSentence.length <= 130) return item.exampleSentence;
-  return "";
+function buildRetrieval(word: string): string {
+  // Compact, generic-but-word-specific recall prompt.
+  return `שאלת שליפה: איך תשתמש ב-${word} במשפט?`;
 }
 
 function primaryMeaning(hebrewTranslation: string): string {

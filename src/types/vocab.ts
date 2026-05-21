@@ -60,12 +60,23 @@ export interface VocabItem {
    *
    * These are NOT present on the seed JSON for every word — they are
    * looked up at render-time via lib/vocab/memory-hint.ts which combines
-   * a small hand-crafted lookup table with a deterministic transliteration
-   * fallback. Treat any read here as "may or may not exist".
+   * a hand-crafted per-word table with a smart data-driven fallback.
+   * Treat any read here as "may or may not exist".
    */
   hePronunciation?: string;
   heMemoryHint?: string;
   heContextSentence?: string;
+  /**
+   * Smart memory method fields (added 2026-05). Structured learning block
+   * shown on the card back; see lib/vocab/memory-hint.ts. All optional.
+   */
+  heCoreMeaning?: string;        // "רעיון: ..."  central idea
+  heMemoryAnchor?: string;       // "עוגן: ..."   short Hebrew anchor
+  commonCollocations?: string[]; // ["undermine trust", "undermine authority"]
+  exampleSentenceEn?: string;    // English example sentence
+  exampleSentenceHe?: string;    // Hebrew translation of the example
+  commonConfusion?: string;      // "לא לבלבל עם X"
+  retrievalQuestion?: string;    // "מה זה undermine trust?"
 }
 
 export interface VocabImportIssue {
