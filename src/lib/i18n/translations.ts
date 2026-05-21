@@ -139,6 +139,9 @@ export interface Translations {
     appearancePrimaryColor: string;
     appearanceReset: string;
     appearanceCustomColor: string;
+    languageLabel: string;       // "Language" row label
+    languageHebrew: string;      // "עברית" / "Hebrew"
+    languageEnglish: string;     // "English" / "אנגלית"
     dataTitle: string;
     exportProgress: string;
     importProgress: string;
@@ -764,6 +767,9 @@ export const he: Translations = {
     appearancePrimaryColor: "צבע ראשי",
     appearanceReset: "איפוס",
     appearanceCustomColor: "צבע מותאם אישית",
+    languageLabel: "שפה",
+    languageHebrew: "עברית",
+    languageEnglish: "English",
     dataTitle: "ניהול נתונים",
     exportProgress: "ייצא התקדמות",
     importProgress: "ייבא התקדמות",
@@ -1359,6 +1365,9 @@ export const en: Translations = {
     entSmartReview: "Smart Review",
     entAnalytics: "Full Analytics",
     entVocabImport: "Vocab Import",
+    languageLabel: "Language",
+    languageHebrew: "עברית",
+    languageEnglish: "English",
     appearance: "Appearance",
     appearanceModeDark: "Dark mode",
     appearanceModeLight: "Light mode",

@@ -111,6 +111,11 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
   const [dragX, setDragX] = useState(0);
   const [flyDir, setFlyDir] = useState<"left" | "right" | null>(null);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  // Local expand state for the "עוד דוגמאות" / "More examples" panel on
+  // the back face. A real <button> drives this (instead of <details>/
+  // <summary>) so that the gesture handler's `closest("button")` guard
+  // skips taps on it — otherwise tapping the toggle also flipped the card.
+  const [showMore, setShowMore] = useState(false);
 
   /** Container ref used to compute a responsive swipe threshold from card width. */
   const cardElRef = useRef<HTMLDivElement | null>(null);
@@ -142,6 +147,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
     setDragX(0);
     setFlyDir(null);
     setIsSpeaking(false);
+    setShowMore(false);
     if (typeof window !== "undefined" && window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
@@ -689,83 +695,115 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                         </div>
                       )}
 
-                      {/* Expanded details — collapsed by default. Holds the
-                          Hebrew translation of the example, the collocations,
-                          and the confusion/retrieval helpers. */}
+                      {/* Expanded details — collapsed by default. A real
+                          <button> drives the open/close so the gesture
+                          handler's `closest("button")` guard skips it; the
+                          previous <details>/<summary> was treated as plain
+                          card surface and tapping it flipped the card
+                          instead of opening examples. onPointerDown also
+                          stops propagation as a belt-and-suspenders guard
+                          against future gesture-handler changes. */}
                       {hasExtras && (
-                        <details style={{ marginTop: "2px" }}>
-                          <summary style={{
-                            cursor: "pointer",
-                            fontSize: "0.78rem",
-                            fontWeight: 700,
-                            color: "var(--teal)",
-                            padding: "4px 0",
-                            listStyle: "none",
-                            textAlign: lang === "he" ? "right" : "left",
-                          }}>
-                            {t.vocab.moreExamples}
-                          </summary>
-                          <div style={{ display: "flex", flexDirection: "column", gap: "7px", paddingTop: "6px" }}>
-                            {enrich.exampleHe && (
-                              <p dir="rtl" style={{
-                                fontSize: "0.78rem",
-                                color: "var(--ink-soft)",
-                                margin: 0,
-                                lineHeight: 1.45,
-                                textAlign: "right",
-                              }}>
-                                {enrich.exampleHe}
-                              </p>
-                            )}
-                            {enrich.collocations.length > 0 && (
-                              <div dir="ltr" style={{
-                                display: "flex",
-                                flexWrap: "wrap",
-                                gap: "4px",
-                              }}>
-                                {enrich.collocations.slice(0, 4).map((c) => (
-                                  <span key={c} dir="ltr" style={{
-                                    fontSize: "0.72rem",
-                                    padding: "2px 8px",
-                                    borderRadius: 99,
-                                    background: "var(--raised)",
-                                    color: "var(--ink-soft)",
-                                    border: "1px solid var(--line)",
-                                    whiteSpace: "nowrap",
-                                  }}>
-                                    {c}
-                                  </span>
-                                ))}
-                              </div>
-                            )}
-                            {enrich.confusion && (
-                              <div dir="rtl" style={{
-                                padding: "6px 10px",
-                                borderRadius: 6,
-                                background: "rgba(245,158,11,0.08)",
-                                border: "1px solid rgba(245,158,11,0.25)",
-                                fontSize: "0.76rem",
-                                color: "var(--warn)",
-                                lineHeight: 1.45,
-                                textAlign: "right",
-                                overflowWrap: "break-word",
-                              }}>
-                                <span dir="auto">{enrich.confusion}</span>
-                              </div>
-                            )}
-                            {enrich.retrieval && (
-                              <div dir="rtl" style={{
-                                fontSize: "0.78rem",
-                                color: "var(--ink-soft)",
-                                lineHeight: 1.5,
-                                textAlign: "right",
-                                overflowWrap: "break-word",
-                              }}>
-                                <span dir="auto">{enrich.retrieval}</span>
-                              </div>
-                            )}
-                          </div>
-                        </details>
+                        <div style={{ marginTop: "2px" }}>
+                          <button
+                            type="button"
+                            aria-expanded={showMore}
+                            aria-controls="vocab-card-more"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setShowMore((p) => !p);
+                            }}
+                            onPointerDown={(e) => e.stopPropagation()}
+                            onTouchStart={(e) => e.stopPropagation()}
+                            style={{
+                              // Full-width pill — bigger tap target on mobile,
+                              // visually obvious that it's a real action.
+                              display: "flex", alignItems: "center", justifyContent: "center", gap: 6,
+                              width: "100%", minHeight: 44,
+                              padding: "10px 14px",
+                              borderRadius: 10,
+                              border: "1px solid color-mix(in srgb, var(--teal) 35%, transparent)",
+                              background: "color-mix(in srgb, var(--teal) 8%, var(--surface))",
+                              color: "var(--teal)",
+                              fontWeight: 700, fontSize: "0.82rem",
+                              fontFamily: "var(--font-body)",
+                              cursor: "pointer",
+                              direction: lang === "he" ? "rtl" : "ltr",
+                              WebkitTapHighlightColor: "transparent",
+                            }}
+                          >
+                            <span>{showMore ? t.vocab.hideExamples : t.vocab.moreExamples}</span>
+                            <span aria-hidden="true" style={{
+                              display: "inline-block", transition: "transform 0.18s ease",
+                              transform: showMore ? "rotate(180deg)" : "none", fontSize: "0.7rem",
+                            }}>▾</span>
+                          </button>
+                          {showMore && (
+                            <div
+                              id="vocab-card-more"
+                              style={{ display: "flex", flexDirection: "column", gap: "7px", paddingTop: "8px" }}
+                            >
+                              {enrich.exampleHe && (
+                                <p dir="rtl" style={{
+                                  fontSize: "0.78rem",
+                                  color: "var(--ink-soft)",
+                                  margin: 0,
+                                  lineHeight: 1.45,
+                                  textAlign: "right",
+                                }}>
+                                  {enrich.exampleHe}
+                                </p>
+                              )}
+                              {enrich.collocations.length > 0 && (
+                                <div dir="ltr" style={{
+                                  display: "flex",
+                                  flexWrap: "wrap",
+                                  gap: "4px",
+                                }}>
+                                  {enrich.collocations.slice(0, 4).map((c) => (
+                                    <span key={c} dir="ltr" style={{
+                                      fontSize: "0.72rem",
+                                      padding: "2px 8px",
+                                      borderRadius: 99,
+                                      background: "var(--raised)",
+                                      color: "var(--ink-soft)",
+                                      border: "1px solid var(--line)",
+                                      whiteSpace: "nowrap",
+                                    }}>
+                                      {c}
+                                    </span>
+                                  ))}
+                                </div>
+                              )}
+                              {enrich.confusion && (
+                                <div dir="rtl" style={{
+                                  padding: "6px 10px",
+                                  borderRadius: 6,
+                                  background: "rgba(245,158,11,0.08)",
+                                  border: "1px solid rgba(245,158,11,0.25)",
+                                  fontSize: "0.76rem",
+                                  color: "var(--warn)",
+                                  lineHeight: 1.45,
+                                  textAlign: "right",
+                                  overflowWrap: "break-word",
+                                }}>
+                                  <span dir="auto">{enrich.confusion}</span>
+                                </div>
+                              )}
+                              {enrich.retrieval && (
+                                <div dir="rtl" style={{
+                                  fontSize: "0.78rem",
+                                  color: "var(--ink-soft)",
+                                  lineHeight: 1.5,
+                                  textAlign: "right",
+                                  overflowWrap: "break-word",
+                                }}>
+                                  <span dir="auto">{enrich.retrieval}</span>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
                       )}
                     </>
                   );

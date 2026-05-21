@@ -20,7 +20,7 @@ import { recordVocabSession } from "@/lib/progress/local-progress-store";
 import { withCustomItems } from "@/lib/vocab/custom-vocab-store";
 import { filterByCardType, CARD_TYPE_LABELS_HE, CARD_TYPE_LABELS_EN } from "@/lib/vocab/vocab-card-type";
 import type { CardType } from "@/lib/vocab/vocab-card-type";
-import { getDailyVocabPool } from "@/lib/vocab/daily-vocab";
+import { getDailyVocabPool, DAILY_VOCAB_LIMIT } from "@/lib/vocab/daily-vocab";
 import { addUnknownWord } from "@/lib/vocab/unknown-words-store";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
@@ -58,7 +58,28 @@ function spreadSimilarWords(items: VocabItem[]): VocabItem[] {
   return result;
 }
 
-function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardType): VocabItem[] {
+/** Fisher–Yates in-place shuffle. */
+function shuffleInPlace<T>(arr: T[]): T[] {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+/**
+ * Compute the FULL eligible pool for the given filters — every word that
+ * matches difficulty + cardType + status, with no slicing. Used by both
+ * the initial session build and the explicit Shuffle button.
+ *
+ * Important: this function never sorts alphabetically. The previous
+ * implementation sorted by (studyPriority desc, nextReviewAt asc) and then
+ * sliced the first N. Because every seed word has studyPriority = 5, the
+ * tie-breaker fell through to the JSON's insertion order — alphabetical —
+ * so the first 20 were "abandon, abbreviate, ability, …". Now we keep the
+ * pool order natural and let callers decide whether to shuffle.
+ */
+function getFilteredPool(difficulty: Difficulty, status: StatusFilter, cardType: CardType): VocabItem[] {
   const states = loadVocabStates();
   const allItems = withCustomItems(vocabData);
 
@@ -68,49 +89,60 @@ function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardT
 
   pool = filterByCardType(pool, cardType);
 
+  if (status === "due") {
+    // "due" is the one case that benefits from explicit ordering — review
+    // the oldest-overdue first. Caller decides whether to shuffle later.
+    return getDueItems(pool, pool.length);
+  }
+  if (status === "starred") return getStarredItems(pool);
+  if (status === "weak")    return getWeakItems(pool);
+  if (status === "missed")  return getMissedItems(pool);
+  if (status === "new") {
+    return pool.filter((v) => !states[v.id] || states[v.id].masteryScore === 0);
+  }
+  if (status === "mastered") {
+    return pool.filter((v) => states[v.id]?.masteryScore === 5);
+  }
+  return pool;
+}
+
+function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardType): VocabItem[] {
   // Default daily flow: no status / cardType / difficulty filter → return the
-  // canonical 10-card daily pool, ordered by due-first then study priority.
+  // canonical 10-card daily pool, ordered by due-first then study priority
+  // (the per-day seeded shuffle in daily-vocab.ts handles diversity).
   const isDefaultDaily =
     status === null && cardType === "all" && difficulty === "all";
-
-  // Apply status filter to the already difficulty+cardType-filtered pool so that
-  // e.g. "Due + connectors" returns due connector cards, not a global due pre-filter.
-  if (status === "due") {
-    pool = getDueItems(pool, pool.length);
-  } else if (status === "starred") {
-    pool = getStarredItems(pool);
-  } else if (status === "weak") {
-    pool = getWeakItems(pool);
-  } else if (status === "missed") {
-    pool = getMissedItems(pool);
-  } else if (status === "new") {
-    pool = pool.filter((v) => !states[v.id] || states[v.id].masteryScore === 0);
-  } else if (status === "mastered") {
-    pool = pool.filter((v) => states[v.id]?.masteryScore === 5);
-  } else if (isDefaultDaily) {
-    // Daily mode: delegate ordering + capping to the central helper.
+  if (isDefaultDaily) {
+    const allItems = withCustomItems(vocabData);
     return spreadSimilarWords(getDailyVocabPool(allItems));
-  } else {
-    // Status === null but a non-default difficulty/cardType was chosen.
-    pool.sort((a, b) => {
-      const pa = a.studyPriority ?? 5;
-      const pb = b.studyPriority ?? 5;
-      if (pb !== pa) return pb - pa;
-      const na = states[a.id]?.nextReviewAt ? new Date(states[a.id].nextReviewAt!).getTime() : 0;
-      const nb = states[b.id]?.nextReviewAt ? new Date(states[b.id].nextReviewAt!).getTime() : 0;
-      return na - nb;
-    });
   }
 
-  // Shuffle non-sorted pools to add variety, then spread similar-root words
-  if (status !== null) {
-    for (let i = pool.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [pool[i], pool[j]] = [pool[j], pool[i]];
-    }
-  }
-
+  // Browse mode: any non-default filter combo. Randomize the FULL filtered
+  // set before slicing so the result isn't alphabetically biased.
+  const pool = getFilteredPool(difficulty, status, cardType);
+  shuffleInPlace(pool);
   return spreadSimilarWords(pool.slice(0, BROWSE_SESSION_SIZE));
+}
+
+/**
+ * Build a freshly-shuffled session pool from the full filtered set.
+ * Used by the explicit Shuffle button — bypasses the daily-seed path so
+ * that hitting Shuffle while on the default view ALSO produces a real
+ * random sample (not the same daily 10 in a different order). For
+ * non-default filters, returns the same truly-shuffled BROWSE_SESSION_SIZE
+ * window as buildPool would.
+ */
+function buildShuffledPool(difficulty: Difficulty, status: StatusFilter, cardType: CardType): VocabItem[] {
+  const allEligible = getFilteredPool(difficulty, status, cardType);
+  if (allEligible.length === 0) return [];
+  const size = (status === null && cardType === "all" && difficulty === "all")
+    ? DAILY_VOCAB_LIMIT
+    : BROWSE_SESSION_SIZE;
+  // True Fisher–Yates over the ENTIRE filtered set, then take the window.
+  // This is what makes Shuffle feel random: for a default view of ~2600
+  // words, the first 10 are uniformly distributed across the whole vocab.
+  shuffleInPlace(allEligible);
+  return spreadSimilarWords(allEligible.slice(0, size));
 }
 
 const DIFFICULTY_VALUES: { value: Difficulty; color: string }[] = [
@@ -212,39 +244,24 @@ export default function VocabSwipeTrainer() {
   }, [sessionMissedItems]);
 
   /**
-   * Shuffle the REMAINING (not-yet-answered) cards of the current session
-   * without resetting known/missed counters. Preserves the cards the user
-   * already swiped through — only the upcoming pool order is re-randomized.
-   * If we haven't started yet, falls back to a full re-shuffle of the pool.
+   * Re-shuffle the session with a fresh random pick from the FULL eligible
+   * filtered pool. Previously this shuffled only the existing 10 items in
+   * sessionItems — if the initial daily/browse build had landed on a slice
+   * dominated by A-words, shuffling those same 10 just rearranged the same
+   * A-words. Now we rebuild from `buildShuffledPool`, which Fisher–Yates
+   * across the whole filtered pool (~2,600 items by default) and then
+   * takes the session window.
+   *
+   * UX trade-off: this resets the session counters (knew / missed) for the
+   * current round, just like "Start new session" would. The user explicitly
+   * asked for a real shuffle, so a clean restart with a new mix is the
+   * expected behavior. Persistent data — SR state, starred, unknown-words
+   * archive — is untouched.
    */
   const handleShuffle = useCallback(() => {
-    const tailStart = currentIndex;
-    const tail = sessionItems.slice(tailStart);
-    if (tail.length <= 1) {
-      // Nothing meaningful to shuffle in the current session — rebuild
-      // from filters with a fresh random order.
-      resetSessionState(buildPool(difficulty, status, cardType));
-      return;
-    }
-    // Fisher–Yates shuffle of the upcoming tail. spreadSimilarWords keeps
-    // root-stem siblings (e.g. "appropriate" → "appropriately") apart so
-    // the new order also feels varied.
-    const shuffled = [...tail];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    const next = [...sessionItems.slice(0, tailStart), ...spreadSimilarWords(shuffled)];
-    setSessionItems(next);
-    // Re-anchor the current card to whatever now sits at currentIndex so
-    // the star/state UI matches the new top card.
-    const head = next[currentIndex];
-    if (head) {
-      const st = getOrCreateState(head.id);
-      setCurrentState(st);
-      setIsStarred(st.starred);
-    }
-  }, [currentIndex, sessionItems, difficulty, status, cardType]);
+    setRetrySource(null);
+    resetSessionState(buildShuffledPool(difficulty, status, cardType));
+  }, [difficulty, status, cardType]);
 
   useLayoutEffect(() => {
     startSession();

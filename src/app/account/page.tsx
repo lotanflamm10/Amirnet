@@ -9,6 +9,7 @@ import { Moon, Sun, Monitor } from "lucide-react";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
 import { AccountSecurityCard } from "@/components/account/AccountSecurityCard";
+import { Globe } from "@/components/icons/NavIcons";
 
 function planLabel(plan: PlanId, t: Translations): string {
   switch (plan) {
@@ -27,7 +28,7 @@ export default function AccountPage() {
   const [importStatus, setImportStatus] = useState<"success" | "error" | null>(null);
   const { settings, toggle, setPrimary, resetPrimary } = useTheme();
   const [displayPrimary, setDisplayPrimary] = useState(DEFAULT_PRIMARY);
-  const { t } = useLang();
+  const { t, lang, toggle: toggleLang } = useLang();
 
   useLayoutEffect(() => {
     setPlan(getCurrentPlan());
@@ -165,6 +166,52 @@ export default function AccountPage() {
           {t.account.appearance}
         </h3>
         <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
+          {/* Language toggle — must be reachable on mobile because the
+              Sidebar Globe button is desktop-only (>= lg). The Account page
+              IS in the bottom tab bar, so this is where iPhone users find
+              the switch. */}
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "0.5rem" }}>
+            <span style={{ fontSize: "0.875rem", color: "var(--ink-soft)", display: "flex", alignItems: "center", gap: "0.375rem" }}>
+              <Globe size={15} strokeWidth={2} />
+              {t.account.languageLabel}
+            </span>
+            <div role="group" aria-label={t.account.languageLabel} style={{
+              display: "inline-flex", border: "1.5px solid var(--line)",
+              borderRadius: 999, overflow: "hidden",
+            }}>
+              <button
+                type="button"
+                aria-pressed={lang === "he"}
+                onClick={() => { if (lang !== "he") toggleLang(); }}
+                style={{
+                  padding: "0.35rem 0.85rem", minHeight: 36,
+                  fontSize: "0.82rem", fontWeight: 700,
+                  fontFamily: "var(--font-body)",
+                  border: "none", cursor: "pointer",
+                  background: lang === "he" ? "var(--teal)" : "transparent",
+                  color: lang === "he" ? "#fff" : "var(--ink-soft)",
+                }}
+              >
+                {t.account.languageHebrew}
+              </button>
+              <button
+                type="button"
+                aria-pressed={lang === "en"}
+                onClick={() => { if (lang !== "en") toggleLang(); }}
+                style={{
+                  padding: "0.35rem 0.85rem", minHeight: 36,
+                  fontSize: "0.82rem", fontWeight: 700,
+                  fontFamily: "var(--font-body)",
+                  border: "none", cursor: "pointer",
+                  background: lang === "en" ? "var(--teal)" : "transparent",
+                  color: lang === "en" ? "#fff" : "var(--ink-soft)",
+                }}
+              >
+                {t.account.languageEnglish}
+              </button>
+            </div>
+          </div>
+
           {/* Theme mode toggle */}
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <span style={{ fontSize: "0.875rem", color: "var(--ink-soft)", display: "flex", alignItems: "center", gap: "0.375rem" }}>
