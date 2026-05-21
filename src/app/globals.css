@@ -646,41 +646,44 @@ a { color: inherit; text-decoration: none; }
   :root { --content-bottom-pad: 2rem; }
 }
 
-/* Sticky "Next question" footer used in practice + reading flows.
- * On mobile it pins to the bottom of the viewport *above* the
- * BottomTabBar (so the button is always tappable, never hidden behind
- * the fixed nav). On ≥1024px screens — where there is no bottom nav —
- * it sticks at the very bottom edge. */
+/* "Next question" action bar — used in practice + reading flows.
+ *
+ * Mobile (< 1024px): rendered INLINE in the normal content flow, directly
+ * below the explanation card. The previous sticky-at-viewport-bottom
+ * behavior caused the bar to pin in the MIDDLE of long explanations on
+ * iPhone — explanation text scrolled behind the bar so the user saw the
+ * first sentence above the bar, the bar in the middle, and the next
+ * sentence peeking out below. That read as "broken UX". Inline keeps the
+ * explanation card fully readable and Next still reachable (the page has
+ * --content-bottom-pad of bottom padding so this row clears the
+ * BottomTabBar + iPhone home indicator).
+ *
+ * Desktop (>= 1024px): there's no fixed bottom nav, so we restore the
+ * original sticky-at-viewport-bottom behavior with a fade gradient.
+ */
 .next-action-bar {
-  position: sticky;
-  /* Lift above BottomTabBar + iPhone home-indicator inset. The extra 6px
-     gives a visible gap between this bar and the BottomTabBar so the two
-     surfaces never appear to merge / overlap on iPhone — a 0px gap on
-     screens with similar background tones reads as "covered by nav". */
-  bottom: calc(var(--mobile-tabbar-height) + env(safe-area-inset-bottom, 0px) + 6px);
-  z-index: 5;
-  margin-top: 0.5rem;
-  padding: 0.75rem 0.5rem;
-  background: var(--canvas);
+  margin-top: 0.75rem;
+  padding: 0.5rem 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 0.5rem;
-  /* Light edge so the bar reads as a distinct surface above the page bg. */
-  border-top: 1px solid color-mix(in srgb, var(--line) 60%, transparent);
-  /* Mobile tap targets must be large + reachable with one thumb */
   min-height: 56px;
+  background: transparent;
 }
 .next-action-bar > .btn {
   min-height: 48px;
   font-size: 1rem;
 }
 @media (min-width: 1024px) {
-  /* No bottom nav on desktop — stick at the real bottom and let the
-     natural gradient drop back in for a softer transition. */
+  /* No bottom nav on desktop — pin at the real bottom of the viewport
+     with a soft gradient backdrop so long explanations can scroll behind
+     a visually intentional surface. */
   .next-action-bar {
+    position: sticky;
     bottom: 0;
-    border-top: none;
+    z-index: 5;
+    padding: 0.75rem 0.5rem;
     background: linear-gradient(
       180deg,
       color-mix(in srgb, var(--canvas) 0%, transparent) 0%,
