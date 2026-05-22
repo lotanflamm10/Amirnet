@@ -21,7 +21,9 @@ export type UserId =
   | "yanir"
   | "alma"
   | "liroy"
-  | "tal";
+  | "tal"
+  | "nikol"
+  | "omer";
 export type UserRole = "admin" | "student";
 
 export interface UserRecord {
@@ -69,6 +71,10 @@ export const USERS: UserRecord[] = [
     seedPassword: process.env.LIROY_SEED_PASSWORD ?? "liroy1001" },
   { id: "tal",   username: "tal",   displayName: "tal",   role: "student",
     seedPassword: process.env.TAL_SEED_PASSWORD   ?? "tal2211"   },
+  { id: "nikol", username: "nikol", displayName: "nikol", role: "student",
+    seedPassword: process.env.NIKOL_SEED_PASSWORD ?? "nikol1234" },
+  { id: "omer",  username: "omer",  displayName: "omer",  role: "student",
+    seedPassword: process.env.OMER_SEED_PASSWORD  ?? "omer1234"  },
 ];
 
 /** Lookup helper. Case-insensitive for ASCII; Hebrew is matched literally. */
