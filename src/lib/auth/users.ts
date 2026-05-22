@@ -22,7 +22,7 @@ export type UserId =
   | "alma"
   | "liroy"
   | "tal"
-  | "nikol"
+  | "noee"
   | "omer";
 export type UserRole = "admin" | "student";
 
@@ -71,8 +71,8 @@ export const USERS: UserRecord[] = [
     seedPassword: process.env.LIROY_SEED_PASSWORD ?? "liroy1001" },
   { id: "tal",   username: "tal",   displayName: "tal",   role: "student",
     seedPassword: process.env.TAL_SEED_PASSWORD   ?? "tal2211"   },
-  { id: "nikol", username: "nikol", displayName: "nikol", role: "student",
-    seedPassword: process.env.NIKOL_SEED_PASSWORD ?? "nikol1234" },
+  { id: "noee",  username: "noee",  displayName: "noee",  role: "student",
+    seedPassword: process.env.NOEE_SEED_PASSWORD  ?? "noee1234"  },
   { id: "omer",  username: "omer",  displayName: "omer",  role: "student",
     seedPassword: process.env.OMER_SEED_PASSWORD  ?? "omer1234"  },
 ];
