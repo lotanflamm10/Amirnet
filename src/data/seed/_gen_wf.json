@@ -786,8 +786,8 @@
     },
     {
       "id": "wf107",
-      "category": "wordFormation",
-      "difficulty": "hard",
+      "category": "vocabularyInContext",
+      "difficulty": "medium",
       "text": "The committee's findings were _____ of the broader patterns observed in comparable studies.",
       "choices": ["indicative", "representative", "suggestive", "reflective"],
       "answer": 1,

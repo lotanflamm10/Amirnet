@@ -40,7 +40,7 @@
     },
     {
       "id": "sc15",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The policy was intended to _____ cooperation between the departments rather than competition.",
       "choices": [
         "foster",
@@ -59,7 +59,7 @@
     },
     {
       "id": "sc16",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "Because the data came from only a few observations, the conclusion remained highly _____.",
       "choices": [
         "tentative",
@@ -96,7 +96,7 @@
     },
     {
       "id": "sc18",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The ambassador's remarks were deliberately _____ so that they could not be interpreted as a direct threat.",
       "choices": [
         "ambiguous",
@@ -114,7 +114,7 @@
     },
     {
       "id": "sc19",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "Researchers were reluctant to publish the findings before the data had been thoroughly _____.",
       "choices": [
         "verified",
@@ -132,7 +132,7 @@
     },
     {
       "id": "sc20",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "Her explanation was so _____ that even the most complicated steps seemed manageable.",
       "choices": [
         "lucid",
@@ -153,7 +153,7 @@
   "paraphrasing": [
     {
       "id": "p13",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The study suggests that economic growth alone does not guarantee improvements in living standards.",
       "choices": [
         "Economic growth may occur without raising people's quality of life.",
@@ -172,7 +172,7 @@
     },
     {
       "id": "p14",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The author warns that relying exclusively on technological solutions may overlook deeper social issues.",
       "choices": [
         "Technological solutions might ignore underlying social problems.",
@@ -191,7 +191,7 @@
     },
     {
       "id": "p15",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The report concludes that short-term savings may result in greater long-term costs.",
       "choices": [
         "Reducing expenses now can sometimes lead to higher costs later.",
@@ -210,7 +210,7 @@
     },
     {
       "id": "p16",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The professor emphasized that correlation should not be mistaken for causation.",
       "choices": [
         "The professor warned that two connected trends do not necessarily mean one caused the other.",
@@ -228,7 +228,7 @@
     },
     {
       "id": "p17",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The minister denied that the reforms were intended to weaken public oversight.",
       "choices": [
         "The minister rejected the claim that the reforms aimed to reduce public supervision.",
@@ -247,7 +247,7 @@
     },
     {
       "id": "p18",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The company attributed the decline in sales to changes in consumer behaviour rather than product quality.",
       "choices": [
         "The company said that changing customer habits, not poor quality, caused sales to fall.",
@@ -359,7 +359,7 @@
     },
     {
       "id": "g18",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The results were less conclusive than the researchers had initially _____.",
       "choices": [
         "expected",
@@ -379,7 +379,7 @@
     {
       "id": "wf13",
       "category": "wordFormation",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The new regulations were introduced to increase financial _____.",
       "choices": [
         "transparent",
@@ -396,7 +396,7 @@
     {
       "id": "wf14",
       "category": "wordFormation",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The success of the project depended on effective _____ between the research teams.",
       "choices": [
         "collaborate",
@@ -430,7 +430,7 @@
     {
       "id": "wf16",
       "category": "wordFormation",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "Frequent policy changes created a sense of _____ among investors.",
       "choices": [
         "instability",
@@ -448,7 +448,7 @@
     {
       "id": "wf17",
       "category": "wordFormation",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The speaker responded with impressive _____ to a difficult question from the audience.",
       "choices": [
         "confident",
@@ -465,7 +465,7 @@
     {
       "id": "wf18",
       "category": "wordFormation",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "text": "The long-term _____ of the programme remains uncertain.",
       "choices": [
         "sustain",

@@ -79,7 +79,7 @@
     {
       "id": "tc55",
       "category": "textCompletion",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "text": "Choose the word that best completes the passage:",
       "choices": ["authority", "legitimacy", "power", "sovereignty"],
       "answer": 1,

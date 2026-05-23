@@ -11332,8 +11332,8 @@
     },
     {
       "id": "wf107",
-      "category": "wordFormation",
-      "difficulty": "hard",
+      "category": "vocabularyInContext",
+      "difficulty": "medium",
       "text": "The committee's findings were _____ of the broader patterns observed in comparable studies.",
       "choices": [
         "representative",
@@ -20553,7 +20553,7 @@
     {
       "id": "tc15",
       "category": "textCompletion",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "text": "Choose the word that best completes the passage:",
       "choices": [
         "volatile",
@@ -21513,7 +21513,7 @@
     {
       "id": "tc55",
       "category": "textCompletion",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "text": "Choose the word that best completes the passage:",
       "choices": [
         "legitimacy",
@@ -21777,7 +21777,7 @@
     {
       "id": "tc66",
       "category": "textCompletion",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "text": "Choose the word that best completes the passage:",
       "choices": [
         "inflation",
@@ -22281,7 +22281,7 @@
     {
       "id": "tc87",
       "category": "textCompletion",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "text": "Choose the word that best completes the passage:",
       "choices": [
         "lateralized",

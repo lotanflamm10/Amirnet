@@ -3,7 +3,7 @@
                                {
                                    "id":  "sc1",
                                    "difficulty":  "easy",
-                                   "text":  "The scientist repeated the experiment to make sure the results were _____.",
+                                   "text":  "Marie Curie repeated her radiation experiments many times to make sure her results were _____.",
                                    "choices":  [
                                                    "reliable",
                                                    "ceremonial",
@@ -11,18 +11,19 @@
                                                    "annual"
                                                ],
                                    "answer":  0,
-                                   "explanation":  "Reliable fits the idea of results that can be trusted after repetition.",
+                                   "explanation":  "Repeated experiments are run specifically to confirm that results are reliable — i.e. trustworthy and reproducible.",
                                    "wrongReasons":  [
-                                                        "Ceremonial is unrelated to research.",
-                                                        "Fragile describes physical weakness, not data quality.",
-                                                        "Annual describes time, not trustworthiness."
+                                                        "'Ceremonial' describes formal rituals; experiments are not rituals, so the word does not fit the scientific context.",
+                                                        "'Fragile' describes physical objects that break easily; data and findings cannot be fragile in this sense.",
+                                                        "'Annual' describes things that happen once a year; the sentence is about reliability, not frequency."
                                                     ],
+                                   "hebrewExplanation":  "פירוק משמעות המשפט המקורי: מארי קירי חזרה על הניסויים שוב ושוב כדי לוודא שהתוצאות יציבות.\nמדוע התשובה הנכונה נכונה: reliable = אמין, ניתן לסמוך עליו — בדיוק מה שמדען רוצה להוכיח על ידי חזרה.\nמדוע שאר התשובות שגויות: ceremonial (טקסי) שייך לעולם הטקסים; fragile (שביר) מתייחס לעצמים פיזיים; annual (שנתי) מתייחס לתדירות, לא לאמינות.\nמילים קשות: reliable = אמין; ceremonial = טקסי; fragile = שביר; annual = שנתי.",
                                    "category":  "sentenceCompletion"
                                },
                                {
                                    "id":  "sc2",
                                    "difficulty":  "easy",
-                                   "text":  "Because the library was unusually quiet, Maya could study without any _____.",
+                                   "text":  "Because the British Library's reading room was unusually quiet, the historian could research her book without any _____.",
                                    "choices":  [
                                                    "distraction",
                                                    "prediction",
@@ -30,17 +31,18 @@
                                                    "reward"
                                                ],
                                    "answer":  0,
-                                   "explanation":  "A quiet library helps her study without distraction.",
+                                   "explanation":  "A quiet library is the classic environment for focused work — the absence of distraction is what the sentence highlights.",
                                    "wrongReasons":  [
-                                                        "Prediction does not fit the context.",
-                                                        "Creation is unrelated.",
-                                                        "Reward does not complete the meaning."
+                                                        "'Prediction' means forecasting the future, which has nothing to do with concentration in a library.",
+                                                        "'Creation' is the act of making something new; the historian is researching, not creating, and quietness is not what enables creation.",
+                                                        "'Reward' is a benefit given for an action, not something a quiet room removes."
                                                     ],
+                                   "hebrewExplanation":  "פירוק משמעות המשפט המקורי: חדר הקריאה היה שקט מהרגיל, כך שההיסטוריונית יכלה לעבוד ללא הפרעה.\nמדוע התשובה הנכונה נכונה: distraction = הסחת דעת — שקט מאפשר ריכוז, כלומר חוסר הסחות.\nמדוע שאר התשובות שגויות: prediction (תחזית) לא קשור לריכוז; creation (יצירה) היא פעולה אקטיבית; reward (גמול) הוא דבר חיובי שמוענק, לא דבר שמוסר.\nמילים קשות: distraction = הסחת דעת; prediction = תחזית; creation = יצירה; reward = גמול.",
                                    "category":  "sentenceCompletion"
                                },
                                {
                                    "id":  "sc3",
-                                   "difficulty":  "medium",
+                                   "difficulty":  "easy",
                                    "text":  "The committee rejected the proposal because several details remained too _____ to support a final decision.",
                                    "choices":  [
                                                    "vague",
@@ -59,7 +61,7 @@
                                },
                                {
                                    "id":  "sc4",
-                                   "difficulty":  "medium",
+                                   "difficulty":  "easy",
                                    "text":  "Although the lecture was long, the professor presented the material in such a _____ way that students remained attentive.",
                                    "choices":  [
                                                    "engaging",
@@ -77,7 +79,7 @@
                                },
                                {
                                    "id":  "sc5",
-                                   "difficulty":  "hard",
+                                   "difficulty":  "medium",
                                    "text":  "The new policy was introduced gradually so that employees would have time to _____ to the revised procedures.",
                                    "choices":  [
                                                    "adapt",
@@ -96,7 +98,7 @@
                                },
                                {
                                    "id":  "sc6",
-                                   "difficulty":  "hard",
+                                   "difficulty":  "medium",
                                    "text":  "The report was praised for its _____ analysis, which considered both the short-term and long-term effects of the reform.",
                                    "choices":  [
                                                    "comprehensive",
@@ -114,7 +116,7 @@
                                },
                                {
                                    "id":  "sc7",
-                                   "difficulty":  "medium",
+                                   "difficulty":  "easy",
                                    "text":  "The manager asked for a concise summary because she did not have time to read the entire _____.",
                                    "choices":  [
                                                    "document",
@@ -131,7 +133,7 @@
                                },
                                {
                                    "id":  "sc8",
-                                   "difficulty":  "hard",
+                                   "difficulty":  "medium",
                                    "text":  "Many researchers are cautious about drawing conclusions from a small sample because the data may not be _____.",
                                    "choices":  [
                                                    "representative",
@@ -182,7 +184,7 @@
                                },
                                {
                                    "id":  "sc11",
-                                   "difficulty":  "hard",
+                                   "difficulty":  "medium",
                                    "text":  "Because the information was _____, the editor removed it from the final draft of the report.",
                                    "choices":  [
                                                    "irrelevant",
@@ -219,18 +221,21 @@
                          {
                              "id":  "p1",
                              "difficulty":  "easy",
-                             "text":  "The meeting was postponed because several participants were still traveling.",
+                             "text":  "The board meeting was postponed because several participants were still travelling.",
                              "choices":  [
-                                             "The meeting was delayed since some participants had not arrived yet.",
-                                             "The meeting was canceled after all participants traveled.",
-                                             "The meeting started early because people were traveling.",
-                                             "The meeting continued although nobody arrived."
+                                             "The board meeting was delayed because some participants had not yet arrived.",
+                                             "The board meeting was cancelled outright when participants chose to keep travelling.",
+                                             "Several participants travelled in order to attend the meeting on time.",
+                                             "The board meeting continued despite the absence of several participants."
                                          ],
                              "answer":  0,
-                             "explanation":  "Postponed means delayed.",
+                             "explanation":  "'Postponed' = pushed to a later time, which matches 'delayed'. 'Were still travelling' = 'had not yet arrived'.",
                              "wrongReasons":  [
-                                                  "The other options change the meaning or contradict it."
+                                                  "B reverses the action — 'cancelled outright' is permanent and contradicts 'postponed', which only moves the meeting.",
+                                                  "C reverses cause and effect — the original says travelling caused the postponement; C says travelling was the way to attend on time.",
+                                                  "D contradicts 'postponed' entirely by saying the meeting continued."
                                               ],
+                             "hebrewExplanation":  "פירוק משמעות המשפט המקורי: ישיבת ההנהלה נדחתה מפני שכמה משתתפים עוד היו בדרך.\nמדוע התשובה הנכונה נכונה: postponed = נדחה, ובחירה A שומרת בדיוק על המשמעות: נדחתה כי חלקם עוד לא הגיעו.\nמדוע שאר התשובות שגויות: B מחליפה 'נדחתה' ב'בוטלה כליל' — שינוי משמעות; C הופכת את הסיבתיות; D סותרת לחלוטין את הדחייה.\nמילים קשות: postponed = נדחה; cancelled outright = בוטל כליל; despite = למרות.",
                              "category":  "restatements"
                          },
                          {
@@ -254,7 +259,7 @@
                          },
                          {
                              "id":  "p3",
-                             "difficulty":  "medium",
+                             "difficulty":  "easy",
                              "text":  "The museum expanded its hours in order to attract more visitors.",
                              "choices":  [
                                              "The museum reduced its hours to save money.",
@@ -271,7 +276,7 @@
                          },
                          {
                              "id":  "p4",
-                             "difficulty":  "medium",
+                             "difficulty":  "easy",
                              "text":  "Although the instructions looked simple, many users still made mistakes.",
                              "choices":  [
                                              "The instructions were simple, so users made no mistakes.",
@@ -290,7 +295,7 @@
                          },
                          {
                              "id":  "p5",
-                             "difficulty":  "hard",
+                             "difficulty":  "medium",
                              "text":  "The author argues that technological progress should be measured by social benefit, not by novelty alone.",
                              "choices":  [
                                              "The author claims that new technology matters only when it improves society.",
@@ -307,7 +312,7 @@
                          },
                          {
                              "id":  "p6",
-                             "difficulty":  "hard",
+                             "difficulty":  "medium",
                              "text":  "The results were inconclusive, so the team decided to conduct a follow-up study.",
                              "choices":  [
                                              "Because the results were clear, the team ended the project.",
@@ -361,7 +366,7 @@
                          },
                          {
                              "id":  "p9",
-                             "difficulty":  "hard",
+                             "difficulty":  "medium",
                              "text":  "The professor recommended that students focus on primary sources rather than relying on summaries.",
                              "choices":  [
                                              "The professor told students that summaries are unreliable.",
@@ -418,7 +423,7 @@
                          },
                          {
                              "id":  "p12",
-                             "difficulty":  "hard",
+                             "difficulty":  "medium",
                              "text":  "The legislation was amended after extensive lobbying by environmental groups.",
                              "choices":  [
                                              "Environmental groups successfully pushed for changes to the law.",
@@ -473,7 +478,7 @@
                     },
                     {
                         "id":  "g3",
-                        "difficulty":  "medium",
+                        "difficulty":  "easy",
                         "text":  "The committee was pleased that the recommendations _____ by all departments.",
                         "choices":  [
                                         "accepted",
@@ -491,7 +496,7 @@
                     },
                     {
                         "id":  "g4",
-                        "difficulty":  "medium",
+                        "difficulty":  "easy",
                         "text":  "Students who arrive late must wait _____ the next break before entering the room.",
                         "choices":  [
                                         "until",
@@ -685,7 +690,7 @@
                           {
                               "id":  "wf3",
                               "category":  "wordFormation",
-                              "difficulty":  "medium",
+                              "difficulty":  "easy",
                               "text":  "Her answer showed a deep _____ of the article.",
                               "choices":  [
                                               "understanding",
@@ -702,7 +707,7 @@
                           {
                               "id":  "wf4",
                               "category":  "wordFormation",
-                              "difficulty":  "medium",
+                              "difficulty":  "easy",
                               "text":  "The company hopes the new system will improve _____ between departments.",
                               "choices":  [
                                               "communicate",
@@ -719,7 +724,7 @@
                           {
                               "id":  "wf5",
                               "category":  "wordFormation",
-                              "difficulty":  "hard",
+                              "difficulty":  "medium",
                               "text":  "Because of the policy change, many employees felt a sense of _____.",
                               "choices":  [
                                               "uncertain",
@@ -736,7 +741,7 @@
                           {
                               "id":  "wf6",
                               "category":  "wordFormation",
-                              "difficulty":  "hard",
+                              "difficulty":  "medium",
                               "text":  "The proposal was rejected because it lacked financial _____.",
                               "choices":  [
                                               "stable",
@@ -770,7 +775,7 @@
                           {
                               "id":  "wf8",
                               "category":  "wordFormation",
-                              "difficulty":  "medium",
+                              "difficulty":  "easy",
                               "text":  "The new software increased the _____ of the sorting process significantly.",
                               "choices":  [
                                               "accurate",
@@ -787,7 +792,7 @@
                           {
                               "id":  "wf9",
                               "category":  "wordFormation",
-                              "difficulty":  "hard",
+                              "difficulty":  "medium",
                               "text":  "The government introduced measures to reduce the _____ of air pollution in the capital.",
                               "choices":  [
                                               "severe",
@@ -804,7 +809,7 @@
                           {
                               "id":  "wf10",
                               "category":  "wordFormation",
-                              "difficulty":  "medium",
+                              "difficulty":  "easy",
                               "text":  "The students were impressed by the _____ of the professor\u0027s explanation.",
                               "choices":  [
                                               "clear",
@@ -838,7 +843,7 @@
                           {
                               "id":  "wf12",
                               "category":  "wordFormation",
-                              "difficulty":  "hard",
+                              "difficulty":  "medium",
                               "text":  "The board voted against the merger, citing a lack of financial _____.",
                               "choices":  [
                                               "transparency",
@@ -860,42 +865,118 @@
                         "difficulty":  "easy",
                         "text":  "What is the main idea of the passage?",
                         "choices":  [
-                                        "Passive rereading is usually better than active recall.",
-                                        "Trying to retrieve information can improve memory more than simply rereading notes.",
-                                        "Long study sessions are always more effective than short ones.",
-                                        "Memory researchers do not agree on how students learn."
+                                        "Passive rereading is the most effective study strategy supported by memory research.",
+                                        "Students who feel confident after studying have almost always retained the material.",
+                                        "Active recall and spaced practice produce deeper retention than long sessions of rereading.",
+                                        "The Roediger and Karpicke study proved that students should study only once."
                                     ],
-                        "answer":  1,
-                        "explanation":  "The passage contrasts rereading with active recall and argues for active recall.",
+                        "answer":  2,
+                        "explanation":  "The passage's central claim is that active recall and spaced practice outperform passive rereading, supported by both behavioural research and the Roediger and Karpicke study.",
                         "wrongReasons":  [
-                                             "The other options contradict or miss the central idea."
+                                             "A inverts the passage's claim — rereading is described as less effective, not most effective.",
+                                             "B overstates the link between subjective confidence and retention; the passage says confidence is a poor guide.",
+                                             "D misreads the study, which compared rereading vs. testing, not single vs. repeated studying."
                                          ],
                         "passage":  {
                                         "id":  "r1-passage",
                                         "title":  "Why Students Forget After Studying",
-                                        "body":  "Many students believe that spending several hours reading the same notes is the best way to remember information. However, memory researchers have found that passive rereading is often less effective than active recall. In active recall, the learner tries to retrieve information without looking at the notes. This process strengthens memory because it forces the brain to reconstruct the material. Short, repeated retrieval sessions are often more effective than one long study period."
+                                        "body":  "For decades, students have been told that the most effective way to prepare for an examination is to read their notes again and again until the material 'sticks'. Yet decades of memory research point to a different conclusion. The same act of rereading that feels productive often produces only a fleeting sense of familiarity — a feeling that the material is mastered, when in fact very little has been encoded in a way that the brain can later retrieve.\n\nThe alternative that researchers have shown to be far more effective is active recall. In active recall, the learner closes the notes and tries to reconstruct the material from memory. Each attempted retrieval — even a failed one — strengthens the underlying memory trace, much as a muscle strengthens through resistance rather than through merely watching exercise being performed.\n\nA classic study by Henry Roediger and Jeffrey Karpicke at Washington University asked one group of students to read a passage four times and another group to read it once and then test themselves on it three times. A week later, the testing group recalled significantly more of the material, even though they had spent the same amount of time on it. The students who had merely reread, however, judged themselves to know the material better — a striking demonstration that subjective confidence is a poor guide to actual retention.\n\nA second finding, equally counter-intuitive, concerns spacing. Studying the same material in short sessions separated by hours or days produces deeper learning than the same total time packed into a single sitting. The forgetting that occurs between sessions, rather than undermining learning, appears to be precisely what gives the next session its strengthening effect.\n\nThe practical implications are clear. Students who plan their preparation around long marathon study sessions of passive rereading are working against their own memory architecture. Brief, spaced sessions of self-testing — even when they feel less productive in the moment — leave a deeper and more durable trace."
                                     }
                     },
                     {
                         "id":  "r1-q2",
                         "category":  "reading",
                         "difficulty":  "easy",
-                        "text":  "Why does active recall strengthen memory?",
+                        "text":  "What did the testing group in the Roediger and Karpicke study do differently from the rereading group?",
                         "choices":  [
-                                        "Because it requires the learner to reconstruct the material.",
-                                        "Because it removes the need for notes completely.",
-                                        "Because it makes study sessions longer.",
-                                        "Because it reduces the number of topics students study."
+                                        "They studied four times the amount of material in the same time period.",
+                                        "They read the passage once and then tested themselves on it three times.",
+                                        "They received instruction from the researchers instead of studying alone.",
+                                        "They reread the passage and added their own annotations after each reading."
                                     ],
-                        "answer":  0,
-                        "explanation":  "The passage explicitly says it forces the brain to reconstruct the material.",
+                        "answer":  1,
+                        "explanation":  "The passage states explicitly that the testing group read the passage once and then tested themselves three times, while the rereading group read four times.",
                         "wrongReasons":  [
-                                             "The other answers are unsupported."
+                                             "A misreads the study — the rereading group read four times, but neither group studied 'four times the amount of material'.",
+                                             "C adds detail not in the passage; both groups studied independently.",
+                                             "D adds an annotation activity that is not described in the passage."
                                          ],
                         "passage":  {
                                         "id":  "r1-passage",
                                         "title":  "Why Students Forget After Studying",
-                                        "body":  "Many students believe that spending several hours reading the same notes is the best way to remember information. However, memory researchers have found that passive rereading is often less effective than active recall. In active recall, the learner tries to retrieve information without looking at the notes. This process strengthens memory because it forces the brain to reconstruct the material. Short, repeated retrieval sessions are often more effective than one long study period."
+                                        "body":  "For decades, students have been told that the most effective way to prepare for an examination is to read their notes again and again until the material 'sticks'. Yet decades of memory research point to a different conclusion. The same act of rereading that feels productive often produces only a fleeting sense of familiarity — a feeling that the material is mastered, when in fact very little has been encoded in a way that the brain can later retrieve.\n\nThe alternative that researchers have shown to be far more effective is active recall. In active recall, the learner closes the notes and tries to reconstruct the material from memory. Each attempted retrieval — even a failed one — strengthens the underlying memory trace, much as a muscle strengthens through resistance rather than through merely watching exercise being performed.\n\nA classic study by Henry Roediger and Jeffrey Karpicke at Washington University asked one group of students to read a passage four times and another group to read it once and then test themselves on it three times. A week later, the testing group recalled significantly more of the material, even though they had spent the same amount of time on it. The students who had merely reread, however, judged themselves to know the material better — a striking demonstration that subjective confidence is a poor guide to actual retention.\n\nA second finding, equally counter-intuitive, concerns spacing. Studying the same material in short sessions separated by hours or days produces deeper learning than the same total time packed into a single sitting. The forgetting that occurs between sessions, rather than undermining learning, appears to be precisely what gives the next session its strengthening effect.\n\nThe practical implications are clear. Students who plan their preparation around long marathon study sessions of passive rereading are working against their own memory architecture. Brief, spaced sessions of self-testing — even when they feel less productive in the moment — leave a deeper and more durable trace."
+                                    }
+                    },
+                    {
+                        "id":  "r1-q3",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "As used in the first paragraph, the phrase 'fleeting sense of familiarity' most nearly means:",
+                        "choices":  [
+                                        "a permanent and reliable feeling that the material is mastered",
+                                        "a short-lived impression of recognition that does not reflect real retention",
+                                        "an emotional reaction triggered by the visual style of one's own notes",
+                                        "a long-term memory trace that survives weeks without further study"
+                                    ],
+                        "answer":  1,
+                        "explanation":  "'Fleeting' means short-lived, and the passage contrasts this surface feeling with the deeper retention that the brain has not actually achieved.",
+                        "wrongReasons":  [
+                                             "A reverses the meaning — 'fleeting' is the opposite of 'permanent and reliable'.",
+                                             "C introduces a visual-aesthetic element that the passage never mentions.",
+                                             "D contradicts the passage's claim that very little has been encoded for later retrieval."
+                                         ],
+                        "passage":  {
+                                        "id":  "r1-passage",
+                                        "title":  "Why Students Forget After Studying",
+                                        "body":  "For decades, students have been told that the most effective way to prepare for an examination is to read their notes again and again until the material 'sticks'. Yet decades of memory research point to a different conclusion. The same act of rereading that feels productive often produces only a fleeting sense of familiarity — a feeling that the material is mastered, when in fact very little has been encoded in a way that the brain can later retrieve.\n\nThe alternative that researchers have shown to be far more effective is active recall. In active recall, the learner closes the notes and tries to reconstruct the material from memory. Each attempted retrieval — even a failed one — strengthens the underlying memory trace, much as a muscle strengthens through resistance rather than through merely watching exercise being performed.\n\nA classic study by Henry Roediger and Jeffrey Karpicke at Washington University asked one group of students to read a passage four times and another group to read it once and then test themselves on it three times. A week later, the testing group recalled significantly more of the material, even though they had spent the same amount of time on it. The students who had merely reread, however, judged themselves to know the material better — a striking demonstration that subjective confidence is a poor guide to actual retention.\n\nA second finding, equally counter-intuitive, concerns spacing. Studying the same material in short sessions separated by hours or days produces deeper learning than the same total time packed into a single sitting. The forgetting that occurs between sessions, rather than undermining learning, appears to be precisely what gives the next session its strengthening effect.\n\nThe practical implications are clear. Students who plan their preparation around long marathon study sessions of passive rereading are working against their own memory architecture. Brief, spaced sessions of self-testing — even when they feel less productive in the moment — leave a deeper and more durable trace."
+                                    }
+                    },
+                    {
+                        "id":  "r1-q4",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "Based on the passage, what can be inferred about students' subjective confidence in their own studying?",
+                        "choices":  [
+                                        "It usually corresponds closely to their actual retention.",
+                                        "It is most accurate immediately before an examination.",
+                                        "It can be high after rereading even when very little has actually been retained.",
+                                        "It is generally lower in students who have used active recall."
+                                    ],
+                        "answer":  2,
+                        "explanation":  "The passage emphasises that students who reread judged themselves to know the material better while actually recalling less — confidence can be high without genuine retention.",
+                        "wrongReasons":  [
+                                             "A contradicts the passage's explicit claim that confidence is a poor guide to retention.",
+                                             "B introduces a timing claim about examinations that the passage never makes.",
+                                             "D reverses the comparison — the rereading group, not the active-recall group, was the over-confident one."
+                                         ],
+                        "passage":  {
+                                        "id":  "r1-passage",
+                                        "title":  "Why Students Forget After Studying",
+                                        "body":  "For decades, students have been told that the most effective way to prepare for an examination is to read their notes again and again until the material 'sticks'. Yet decades of memory research point to a different conclusion. The same act of rereading that feels productive often produces only a fleeting sense of familiarity — a feeling that the material is mastered, when in fact very little has been encoded in a way that the brain can later retrieve.\n\nThe alternative that researchers have shown to be far more effective is active recall. In active recall, the learner closes the notes and tries to reconstruct the material from memory. Each attempted retrieval — even a failed one — strengthens the underlying memory trace, much as a muscle strengthens through resistance rather than through merely watching exercise being performed.\n\nA classic study by Henry Roediger and Jeffrey Karpicke at Washington University asked one group of students to read a passage four times and another group to read it once and then test themselves on it three times. A week later, the testing group recalled significantly more of the material, even though they had spent the same amount of time on it. The students who had merely reread, however, judged themselves to know the material better — a striking demonstration that subjective confidence is a poor guide to actual retention.\n\nA second finding, equally counter-intuitive, concerns spacing. Studying the same material in short sessions separated by hours or days produces deeper learning than the same total time packed into a single sitting. The forgetting that occurs between sessions, rather than undermining learning, appears to be precisely what gives the next session its strengthening effect.\n\nThe practical implications are clear. Students who plan their preparation around long marathon study sessions of passive rereading are working against their own memory architecture. Brief, spaced sessions of self-testing — even when they feel less productive in the moment — leave a deeper and more durable trace."
+                                    }
+                    },
+                    {
+                        "id":  "r1-q5",
+                        "category":  "reading",
+                        "difficulty":  "hard",
+                        "text":  "What is the primary function of the fourth paragraph (on spacing)?",
+                        "choices":  [
+                                        "To contradict the findings of the Roediger and Karpicke study.",
+                                        "To introduce a second counter-intuitive principle that further supports the passage's central claim.",
+                                        "To provide background on the historical origin of memory research.",
+                                        "To recommend that students avoid breaks of any kind during study sessions."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The fourth paragraph opens with 'A second finding, equally counter-intuitive' and uses spacing to reinforce the same broader point: long marathon sessions are inferior to brief, spaced ones.",
+                        "wrongReasons":  [
+                                             "A misreads the relationship — the spacing finding supplements rather than contradicts the testing-effect study.",
+                                             "C is unsupported; the paragraph does not discuss the historical origins of memory research.",
+                                             "D reverses the paragraph's conclusion, which is that breaks between sessions help, not hurt, learning."
+                                         ],
+                        "passage":  {
+                                        "id":  "r1-passage",
+                                        "title":  "Why Students Forget After Studying",
+                                        "body":  "For decades, students have been told that the most effective way to prepare for an examination is to read their notes again and again until the material 'sticks'. Yet decades of memory research point to a different conclusion. The same act of rereading that feels productive often produces only a fleeting sense of familiarity — a feeling that the material is mastered, when in fact very little has been encoded in a way that the brain can later retrieve.\n\nThe alternative that researchers have shown to be far more effective is active recall. In active recall, the learner closes the notes and tries to reconstruct the material from memory. Each attempted retrieval — even a failed one — strengthens the underlying memory trace, much as a muscle strengthens through resistance rather than through merely watching exercise being performed.\n\nA classic study by Henry Roediger and Jeffrey Karpicke at Washington University asked one group of students to read a passage four times and another group to read it once and then test themselves on it three times. A week later, the testing group recalled significantly more of the material, even though they had spent the same amount of time on it. The students who had merely reread, however, judged themselves to know the material better — a striking demonstration that subjective confidence is a poor guide to actual retention.\n\nA second finding, equally counter-intuitive, concerns spacing. Studying the same material in short sessions separated by hours or days produces deeper learning than the same total time packed into a single sitting. The forgetting that occurs between sessions, rather than undermining learning, appears to be precisely what gives the next session its strengthening effect.\n\nThe practical implications are clear. Students who plan their preparation around long marathon study sessions of passive rereading are working against their own memory architecture. Brief, spaced sessions of self-testing — even when they feel less productive in the moment — leave a deeper and more durable trace."
                                     }
                     },
                     {
@@ -1310,7 +1391,7 @@
                              {
                                  "id":  "l1-q1",
                                  "category":  "lectureQuestions",
-                                 "difficulty":  "medium",
+                                 "difficulty":  "easy",
                                  "text":  "What is the main purpose of the lecture?",
                                  "choices":  [
                                                  "To explain several practical benefits of green roofs.",
@@ -1332,7 +1413,7 @@
                              {
                                  "id":  "l1-q2",
                                  "category":  "lectureQuestions",
-                                 "difficulty":  "medium",
+                                 "difficulty":  "easy",
                                  "text":  "Why does the professor mention cost?",
                                  "choices":  [
                                                  "To show that green roofs are not useful.",
@@ -1354,7 +1435,7 @@
                              {
                                  "id":  "l2-q1",
                                  "category":  "lectureQuestions",
-                                 "difficulty":  "hard",
+                                 "difficulty":  "medium",
                                  "text":  "What advice does the advisor give?",
                                  "choices":  [
                                                  "Collect as much data as possible before deciding on a topic.",
@@ -1376,7 +1457,7 @@
                              {
                                  "id":  "l2-q2",
                                  "category":  "lectureQuestions",
-                                 "difficulty":  "hard",
+                                 "difficulty":  "medium",
                                  "text":  "Why is a precise question helpful?",
                                  "choices":  [
                                                  "It makes the project longer.",
@@ -1871,7 +1952,7 @@
                            {
                                "id":  "tc2",
                                "category":  "textCompletion",
-                               "difficulty":  "medium",
+                               "difficulty":  "easy",
                                "text":  "Choose the word that best completes the passage:",
                                "choices":  [
                                                "selective",
@@ -1893,7 +1974,7 @@
                            {
                                "id":  "tc3",
                                "category":  "textCompletion",
-                               "difficulty":  "hard",
+                               "difficulty":  "medium",
                                "text":  "Choose the word that best completes the passage:",
                                "choices":  [
                                                "replace",
@@ -1915,7 +1996,7 @@
                            {
                                "id":  "tc4",
                                "category":  "textCompletion",
-                               "difficulty":  "hard",
+                               "difficulty":  "medium",
                                "text":  "Choose the word that best completes the passage:",
                                "choices":  [
                                                "equip",
@@ -1960,7 +2041,7 @@
                            {
                                "id":  "tc6",
                                "category":  "textCompletion",
-                               "difficulty":  "medium",
+                               "difficulty":  "easy",
                                "text":  "Choose the word that best completes the passage:",
                                "choices":  [
                                                "capture",
@@ -1983,7 +2064,7 @@
                            {
                                "id":  "tc7",
                                "category":  "textCompletion",
-                               "difficulty":  "hard",
+                               "difficulty":  "medium",
                                "text":  "Choose the word that best completes the passage:",
                                "choices":  [
                                                "evaluate",
@@ -2029,7 +2110,7 @@
                            {
                                "id":  "tc9",
                                "category":  "textCompletion",
-                               "difficulty":  "medium",
+                               "difficulty":  "easy",
                                "text":  "Choose the word that best completes the passage:",
                                "choices":  [
                                                "follow",
@@ -2052,7 +2133,7 @@
                            {
                                "id":  "tc10",
                                "category":  "textCompletion",
-                               "difficulty":  "hard",
+                               "difficulty":  "medium",
                                "text":  "Choose the word that best completes the passage:",
                                "choices":  [
                                                "hinders",
