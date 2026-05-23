@@ -5173,21 +5173,22 @@
     {
       "id": "p79",
       "difficulty": "medium",
-      "text": "The rise of e-commerce has forced many traditional retailers to either adapt their business models or face closure.",
+      "text": "The findings suggest that increased screen time among adolescents is associated with reduced quality of sleep.",
       "choices": [
-        "The expansion of online shopping has put conventional retailers in the position of needing to transform how they operate or risk going out of business.",
-        "Traditional retailers have benefited from the growth of e-commerce by expanding their customer base.",
-        "E-commerce growth has created new opportunities for traditional retailers without threatening existing ones.",
-        "Traditional retailers chose to close rather than compete with e-commerce platforms."
+        "The findings suggest that more screen time among adolescents is linked to poorer sleep quality.",
+        "Screen time has no measurable impact on the sleep quality of adolescents, the findings indicate.",
+        "Adolescents who sleep more tend to spend significantly more time on their screens.",
+        "Reducing screen time among adolescents has been shown to lower sleep quality."
       ],
       "answer": 0,
-      "explanation": "E-commerce forced retailers to adapt or face closure = expansion of online shopping put retailers in position of needing to transform or risk going out of business.",
+      "explanation": "The original links higher screen time to lower sleep quality. (A) preserves both ends.",
       "wrongReasons": [
-        "Choice A says retailers benefited without threat, contradicting the pressure described in the original.",
-        "Choice B says e-commerce created only opportunities without threats, also contradicting the original.",
-        "Choice D says retailers chose to close rather than compete, which overstates and misrepresents the original."
+        "B contradicts the finding.",
+        "C reverses the direction.",
+        "D reverses both the intervention and the outcome."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: הממצאים מצביעים על כך שזמן מסך מוגבר בקרב מתבגרים קשור לאיכות שינה ירודה.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על הקשר בין המשתנים.\nמדוע שאר התשובות שגויות: B שוללת את הקשר; C הופכת את כיוונו; D הופכת את ההתערבות והתוצאה.\nמילים קשות: associated with = קשור ל; quality = איכות."
     },
     {
       "id": "p80",
@@ -5382,21 +5383,22 @@
     {
       "id": "p90",
       "difficulty": "hard",
-      "text": "The philosopher distinguishes between freedom as the absence of external constraint and freedom as the capacity to act in accordance with one's authentic values.",
+      "text": "The new policy is unlikely to succeed unless it is accompanied by sustained investment in the institutions responsible for implementing it.",
       "choices": [
-        "The philosopher equates freedom with the absence of external constraint and views all other definitions as secondary.",
-        "According to the philosopher, true freedom requires both the absence of constraints and complete alignment with social norms.",
-        "The philosopher argues that external constraints are necessary for authentic freedom.",
-        "The philosopher identifies two distinct conceptions of freedom: one defined by the lack of outside interference, and another by the ability to act in line with one's genuine values."
+        "The policy is unlikely to succeed without sustained investment in the institutions that implement it.",
+        "Sustained investment in implementing institutions has historically made policies harder to succeed.",
+        "The new policy will succeed regardless of whether implementing institutions are funded.",
+        "Institutions responsible for implementation have already received the sustained investment the policy requires."
       ],
-      "answer": 3,
-      "explanation": "Distinguishes between freedom as absence of constraint and freedom as capacity to act according to authentic values = identifies two conceptions: lack of outside interference and ability to act in line with genuine values.",
+      "answer": 0,
+      "explanation": "The original conditions policy success on sustained institutional investment. (A) preserves the condition.",
       "wrongReasons": [
-        "Choice A says the philosopher equates freedom with absence of constraint only, ignoring the second conception.",
-        "Choice C introduces alignment with social norms, which substitutes authentic values and adds an external standard.",
-        "Choice D reverses the first conception — external constraints are necessary, contradicting freedom as their absence."
+        "B inverts the relationship between investment and success.",
+        "C drops the condition entirely.",
+        "D claims the condition has already been met, which the original does not."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: המדיניות לא תצליח אלא אם תלווה בהשקעה מתמשכת במוסדות האחראים על יישומה.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על התנאי להצלחה.\nמדוע שאר התשובות שגויות: B הופכת את הקשר; C מסירה את התנאי; D טוענת שהתנאי כבר התקיים.\nמילים קשות: accompanied = מלווה; sustained = מתמשך."
     },
     {
       "id": "p91",
@@ -5515,21 +5517,22 @@
     {
       "id": "p97",
       "difficulty": "hard",
-      "text": "Proponents of the precautionary principle argue that in the absence of scientific consensus, the burden of proof should lie with those who advocate for a potentially harmful action, not those who seek to prevent it.",
+      "text": "While advances in machine translation have dramatically reduced the labour involved in producing draft translations, the role of human editors in producing publishable text has, if anything, become more important.",
       "choices": [
-        "The precautionary principle holds that actions should be permitted unless scientific consensus has established their harmfulness.",
-        "The precautionary principle requires scientific consensus before any potentially harmful action is either permitted or prevented.",
-        "Supporters of the precautionary principle contend that when scientific certainty is lacking, those wishing to proceed with a potentially dangerous action must demonstrate its safety rather than expecting opponents to prove its harm.",
-        "Advocates of the precautionary principle argue that both proponents and opponents of an action share equal responsibility for establishing its safety."
+        "Machine translation has cut draft-translation labour, but human editors are arguably more important for publishable text.",
+        "Machine translation has replaced human editors entirely for almost every type of professional translation work.",
+        "The role of human editors in professional translation has declined sharply as machine translation has improved.",
+        "Producing draft translations now requires more human labour than ever, despite progress in machine translation."
       ],
-      "answer": 2,
-      "explanation": "Burden of proof on those advocating potentially harmful action, not those seeking to prevent it, in absence of consensus = those wishing to proceed must demonstrate safety rather than opponents proving harm.",
+      "answer": 0,
+      "explanation": "The original notes labour reduction in drafting but says editors have become more, not less, important. (A) preserves the contrast.",
       "wrongReasons": [
-        "Choice A reverses the principle — actions permitted unless harm is established, placing burden on opponents.",
-        "Choice C requires consensus before any action, which is different from specifying where the burden of proof lies.",
-        "Choice D says the burden is shared equally, contradicting the clear assignment of burden in the original."
+        "B overstates the position by claiming complete replacement of editors.",
+        "C reverses the editor's role.",
+        "D reverses the labour claim."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: התקדמות בתרגום מכונה הפחיתה משמעותית את העבודה בטיוטות, אך תפקיד העורכים האנושיים בטקסטים לפרסום נעשה חשוב יותר ולא פחות.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על שני האלמנטים — הפחתת עבודת הטיוטה וחשיבות העורך.\nמדוע שאר התשובות שגויות: B טוענת להחלפה מלאה; C הופכת את תפקיד העורך; D הופכת את היקף העבודה.\nמילים קשות: dramatically = משמעותית; publishable = ראוי לפרסום."
     },
     {
       "id": "p98",
@@ -5572,21 +5575,22 @@
     {
       "id": "p100",
       "difficulty": "hard",
-      "text": "The economist argues that price controls, while superficially appealing as a measure against inflation, tend to produce shortages by discouraging production at the controlled price.",
+      "text": "The committee concluded that the failure of the project had less to do with technical limitations than with the absence of clear lines of accountability between the participating institutions.",
       "choices": [
-        "Price controls are advocated by the economist as an effective long-term solution to both inflation and production shortages.",
-        "The economist contends that although price controls may seem like an attractive anti-inflation tool, they often lead to supply deficits by reducing producers' incentive to produce at the regulated price.",
-        "According to the economist, price controls reduce inflation without any significant effect on production levels.",
-        "The economist warns that inflation tends to cause price controls, which then lead to shortages."
+        "The committee blamed the project's failure on unclear accountability between institutions, not on technical limits.",
+        "Clear lines of accountability between the institutions prevented the project from failing on technical grounds.",
+        "The committee identified technical limitations as the main cause of the project's eventual failure.",
+        "The participating institutions agreed to share accountability evenly, which contributed to the project's success."
       ],
-      "answer": 1,
-      "explanation": "Price controls superficially appealing against inflation but produce shortages by discouraging production = although seemingly attractive anti-inflation tool, often lead to supply deficits by reducing producers' incentive at regulated price.",
+      "answer": 0,
+      "explanation": "The original places blame on accountability, not technical limits. (A) preserves the comparison.",
       "wrongReasons": [
-        "Choice A says the economist advocates price controls as an effective long-term solution, contradicting the criticism.",
-        "Choice B says price controls reduce inflation without affecting production, ignoring the discouragement of production.",
-        "Choice D reverses the causal direction — inflation causes price controls in Choice D, whereas the original discusses price controls as a response to inflation."
+        "B inverts the conclusion (success rather than failure).",
+        "C reverses the assigned cause (technical rather than accountability).",
+        "D reverses the outcome entirely."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: הוועדה הסיקה שהכישלון נבע פחות ממגבלות טכניות ויותר מהיעדר אחריות ברורה בין המוסדות.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על השוואה בין הסיבות.\nמדוע שאר התשובות שגויות: B הופכת לכישלון להצלחה; C מייחסת את הסיבה הלא נכונה; D הופכת את התוצאה.\nמילים קשות: accountability = אחריותיות; institutions = מוסדות."
     },
     {
       "id": "p101",
@@ -5705,21 +5709,22 @@
     {
       "id": "p107",
       "difficulty": "hard",
-      "text": "The principle of subsidiarity holds that decisions should be taken at the most local level capable of addressing the issue effectively, delegating to higher levels only when necessary.",
+      "text": "Although the painter is now widely regarded as a major figure in twentieth-century art, his work was almost entirely ignored during his lifetime.",
       "choices": [
-        "Under subsidiarity, the default position is to address issues at the closest level to those affected, escalating to higher authority only when the local level lacks the capacity to handle it.",
-        "Subsidiarity argues that all significant decisions should be made at the highest possible level of governance to ensure efficiency.",
-        "The principle of subsidiarity requires decisions to be made jointly by local and higher-level authorities in all cases.",
-        "Subsidiarity dictates that higher levels of governance should take precedence over local decision-making whenever efficiency is a concern."
+        "The painter is highly regarded today, even though his work was almost entirely ignored during his lifetime.",
+        "Major figures in twentieth-century art were typically appreciated during their lifetimes, including this painter.",
+        "The painter's reputation peaked during his lifetime and has gradually declined since his death.",
+        "Twentieth-century critics paid close attention to this painter, but later audiences have largely forgotten his work."
       ],
       "answer": 0,
-      "explanation": "Decisions at most local level capable of addressing effectively, delegating upward only when necessary = default is closest level to those affected, escalating only when local level lacks capacity.",
+      "explanation": "The original contrasts current major-figure status with lifetime obscurity — (A) preserves the contrast.",
       "wrongReasons": [
-        "Choice A says decisions should be at the highest level, which directly inverts the subsidiarity principle.",
-        "Choice C says all decisions are made jointly, which removes the preference for local authority.",
-        "Choice D says higher levels take precedence whenever efficiency is a concern, contradicting the local-first principle."
+        "B contradicts the lifetime-obscurity element.",
+        "C reverses the chronology of reputation.",
+        "D reverses both the contemporary and the historical receptions."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: הצייר נחשב כיום לדמות מרכזית באמנות המאה ה-20, אף שעבודתו הייתה כמעט לחלוטין מוזנחת בזמן חייו.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על הניגוד בין מעמדו היום לחוסר ההכרה בחייו.\nמדוע שאר התשובות שגויות: B סותרת את חוסר ההכרה בחייו; C הופכת את הסדר הכרונולוגי; D הופכת את שני הצדדים.\nמילים קשות: regarded = נחשב; ignored = הוזנח."
     },
     {
       "id": "p108",
@@ -5800,40 +5805,42 @@
     {
       "id": "p112",
       "difficulty": "hard",
-      "text": "The study's authors acknowledge that their model accounts for the most commonly cited variables but cannot rule out the influence of factors that have not yet been identified in the literature.",
+      "text": "Recent studies suggest that moderate alcohol consumption, once thought to confer mild cardiovascular benefits, does not in fact provide any health advantage over total abstinence.",
       "choices": [
-        "The authors claim their model is comprehensive and eliminates the possibility of any unknown influencing factors.",
-        "While the model incorporates the variables most frequently referenced in existing research, the authors admit it may still be affected by unknown factors not yet documented in the field.",
-        "The model's limitations stem entirely from the failure to include the most commonly cited variables.",
-        "The study identifies previously unknown variables that explain the findings more fully than the commonly cited ones."
+        "Moderate alcohol consumption offers no health advantage over total abstinence, recent studies suggest.",
+        "Moderate alcohol consumption has been confirmed by recent studies as offering substantial cardiovascular benefits.",
+        "Heavy alcohol consumption has been shown to be safer than total abstinence in recent cardiovascular studies.",
+        "Recent studies have demonstrated that moderate alcohol consumption causes serious cardiovascular harm."
       ],
-      "answer": 1,
-      "explanation": "Accounts for common variables but cannot rule out unidentified factors = incorporates frequently referenced variables but may still be affected by unknown factors not yet documented in the field.",
+      "answer": 0,
+      "explanation": "The original says recent studies find no advantage over abstinence. (A) restates this neutrally.",
       "wrongReasons": [
-        "Choice A claims the model eliminates unknown factors, directly contradicting cannot rule out.",
-        "Choice B says the model's limitations come from excluding common variables, which is the opposite — the model includes them but still has limits.",
-        "Choice D says the study identifies previously unknown variables, whereas the original says those variables cannot yet be identified."
+        "B reverses the finding by asserting benefit.",
+        "C introduces heavy consumption, which the original does not address.",
+        "D overstates by claiming serious harm."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: מחקרים עדכניים מראים שצריכת אלכוהול מתונה אינה מקנה יתרון בריאותי על פני התנזרות מוחלטת.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על המסקנה ועל ההשוואה.\nמדוע שאר התשובות שגויות: B הופכת את המסקנה ליתרון; C מציגה צריכה גבוהה שאינה במקור; D מגזימה לכיוון נזק חמור.\nמילים קשות: moderate = מתון; abstinence = התנזרות; confer = מקנה."
     },
     {
       "id": "p113",
       "difficulty": "hard",
-      "text": "The transition from authoritarian to democratic governance is rarely linear, often involving reversals, stagnation, and periods of hybrid rule in which democratic institutions coexist with authoritarian practices.",
+      "text": "The author's central thesis is that the modern preoccupation with productivity has, paradoxically, eroded the conditions under which sustained creative work has historically taken place.",
       "choices": [
-        "Democratization is a straightforward and predictable process in which authoritarian institutions are gradually replaced by democratic ones.",
-        "Authoritarian governance systems always collapse before democratic ones can be established in their place.",
-        "The move from authoritarian to democratic systems is not a smooth progression but a complex and irregular process that may include setbacks, standstills, and phases where both types of governance operate simultaneously.",
-        "Democratic transitions invariably succeed once they begin, though the pace of change may vary."
+        "The author argues that the modern focus on productivity has, paradoxically, undermined the conditions for sustained creativity.",
+        "The author maintains that focusing on productivity has improved the conditions for creative work in recent decades.",
+        "Creative work historically required slow conditions that the author believes can never be restored in modern life.",
+        "The author concludes that productivity and creativity are unrelated, neither helping nor hindering the other."
       ],
-      "answer": 2,
-      "explanation": "Rarely linear, involving reversals, stagnation, and hybrid rule = not a smooth progression but complex and irregular, including setbacks, standstills, and phases with both governance types simultaneously.",
+      "answer": 0,
+      "explanation": "The original argues that productivity focus paradoxically erodes the conditions for creativity — (A) preserves the paradox.",
       "wrongReasons": [
-        "Choice A says it is straightforward and predictable, contradicting rarely linear.",
-        "Choice B says authoritarian systems always collapse before democracy emerges, introducing a claim not in the original.",
-        "Choice D says transitions invariably succeed, contradicting the possibility of reversals and stagnation."
+        "B reverses the central claim from erosion to improvement.",
+        "C overstates the position with a permanence claim not in the original.",
+        "D drops the paradoxical relationship entirely."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: המחבר טוען שהעיסוק המודרני בפרודוקטיביות פגע, באופן פרדוקסלי, בתנאים שאפשרו עבודה יצירתית מתמשכת.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על הקשר הפרדוקסלי בין פרודוקטיביות ופגיעה ביצירתיות.\nמדוע שאר התשובות שגויות: B הופכת את הטענה מפגיעה לשיפור; C מוסיפה טענת קבעיות לא במקור; D מסירה את הקשר הפרדוקסלי.\nמילים קשות: preoccupation = עיסוק; eroded = שחקה; sustained = מתמשך."
     },
     {
       "id": "p114",
@@ -5895,21 +5902,22 @@
     {
       "id": "p117",
       "difficulty": "hard",
-      "text": "The paradox at the heart of the privacy debate is that individuals often voluntarily disclose personal information in exchange for services while simultaneously demanding stronger legal protections for their data.",
+      "text": "Although the new tax incentives were specifically designed to encourage investment in renewable energy, much of the increased investment that followed was directed instead at conventional infrastructure projects.",
       "choices": [
-        "Legal protections for personal data have made individuals more willing to share information in exchange for services.",
-        "Individuals who demand legal protections for their data rarely use digital services that require personal information disclosure.",
-        "There is an internal tension in the privacy debate: people tend to give away personal data for services of their own accord while also calling for robust legislative safeguards for that same data.",
-        "The paradox is resolved once individuals stop sharing personal information voluntarily, at which point legal protections become unnecessary."
+        "The tax incentives were meant to drive renewable energy investment, but most new investment went to conventional infrastructure.",
+        "Renewable energy investment fell sharply after the tax incentives were introduced because of design flaws.",
+        "The tax incentives correctly directed new investment exclusively into renewable energy projects as intended.",
+        "Conventional infrastructure projects were excluded from the tax incentives, which targeted only renewable energy investment."
       ],
-      "answer": 2,
-      "explanation": "Paradox: voluntary disclosure for services while demanding stronger legal protections = internal tension: people give away data voluntarily while also calling for robust legislative safeguards.",
+      "answer": 0,
+      "explanation": "The original sets up a concessive contrast: intended purpose (renewables) versus actual outcome (conventional infrastructure). (A) preserves both.",
       "wrongReasons": [
-        "Choice A says legal protections increase willingness to share, which removes the paradox entirely.",
-        "Choice B says individuals who demand protections rarely use services requiring disclosure, which also resolves the paradox rather than describing it.",
-        "Choice D says the paradox is resolved when sharing stops, which is a proposed solution, not a description of the paradox."
+        "B introduces a fall in renewable investment not stated in the original.",
+        "C reverses the actual outcome.",
+        "D collapses the concessive structure by re-stating only the intention."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: התמריצים נועדו לעודד השקעה באנרגיה מתחדשת, אך רוב ההשקעה החדשה הופנתה לתשתיות קונבנציונליות.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על המבנה הוויתורי בין כוונה לתוצאה.\nמדוע שאר התשובות שגויות: B מוסיפה ירידה לא מוזכרת; C הופכת את התוצאה; D משאירה רק את הכוונה.\nמילים קשות: incentives = תמריצים; directed = הופנה; conventional = קונבנציונלי."
     },
     {
       "id": "p118",
@@ -5933,21 +5941,22 @@
     {
       "id": "p119",
       "difficulty": "hard",
-      "text": "Democratic backsliding often proceeds incrementally through formally legal mechanisms — the amendment of electoral rules, the packing of courts, and the erosion of press freedom — rather than through outright coups.",
+      "text": "Although the firm posted record profits in the first quarter, its share price fell sharply when analysts noticed that the gains had been driven almost entirely by a one-off accounting adjustment rather than improved performance.",
       "choices": [
-        "The process of democratic decline frequently occurs step by step, using technically lawful tools such as changing election rules, appointing loyalists to courts, and weakening press freedoms, rather than via sudden unconstitutional seizures of power.",
-        "Democratic backsliding is characterized primarily by violent overthrows of government rather than by gradual, legally framed changes.",
-        "Amendments to electoral rules, court packing, and restrictions on press freedom are illegal under all democratic constitutions.",
-        "Democratic backsliding is rare because legal mechanisms prevent the erosion of democratic institutions."
+        "Despite the strong quarterly profit, the share price fell once analysts realised the gain came from a one-off accounting change.",
+        "The firm reported record profits and its share price rose accordingly, with no analyst raising concerns about the underlying basis.",
+        "Analysts ignored the accounting adjustment because the firm's underlying performance had improved substantially during the quarter.",
+        "The firm's first-quarter loss reflected weaker performance, but a one-off accounting adjustment partially restored investor confidence."
       ],
       "answer": 0,
-      "explanation": "Proceeds incrementally through formally legal mechanisms rather than outright coups = occurs step by step using technically lawful tools rather than sudden unconstitutional seizures of power.",
+      "explanation": "The original concedes the record profit but attributes the share-price fall to analysts' discovery that the gain was an accounting adjustment, not real performance — (A) preserves both elements.",
       "wrongReasons": [
-        "Choice A says it is characterized primarily by violent overthrows, directly contradicting the incremental, legal character described.",
-        "Choice B claims the mechanisms are illegal under all democratic constitutions, contradicting formally legal mechanisms.",
-        "Choice D says backsliding is rare because legal mechanisms prevent it, which inverts the original claim that legal mechanisms are used to facilitate it."
+        "B reverses the share-price direction; the original says the price fell.",
+        "C inverts the analysts' reaction and the cause of the gain.",
+        "D inverts the headline result, turning record profits into a loss."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: הפירמה דיווחה על רווחי שיא ברבעון הראשון, אך מחיר המניה צנח כשהאנליסטים גילו שהרווחים נבעו מהתאמה חשבונאית חד-פעמית ולא משיפור אמיתי.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על שני האלמנטים — הרווח החד-פעמי וירידת המניה — בהיקף תמציתי ומאוזן.\nמדוע שאר התשובות שגויות: B הופכת את כיוון מחיר המניה; C הופכת את תגובת האנליסטים ואת הסיבה; D הופכת את התוצאה הכוללת מרווח להפסד.\nמילים קשות: posted = דיווח על; one-off = חד-פעמי; adjustment = התאמה; underlying = הבסיסי."
     },
     {
       "id": "p120",
@@ -6389,21 +6398,22 @@
     {
       "id": "p143",
       "difficulty": "easy",
-      "text": "Philosophers have long questioned whether moral truths are universal or culturally relative.",
+      "text": "The professor emphasised that statistical correlation does not by itself establish a causal relationship between two variables.",
       "choices": [
-        "The question of whether moral standards apply to all cultures equally or vary by culture has been a persistent subject of philosophical inquiry.",
-        "It is widely agreed among philosophers that moral truths are universal.",
-        "Philosophers have recently discovered that moral truths are entirely subjective.",
-        "Cultural relativism has been rejected by most modern philosophers."
+        "The professor stressed that correlation alone does not prove causation between two variables.",
+        "The professor argued that any statistical correlation is sufficient evidence of a causal link.",
+        "Causal relationships, the professor said, are easier to establish than statistical correlations.",
+        "The professor warned that two variables cannot be both correlated and causally related."
       ],
       "answer": 0,
-      "explanation": "Choice B correctly restates the longstanding philosophical debate between universal and culturally relative moral truths.",
+      "explanation": "The original says correlation alone does not prove causation — (A) restates this.",
       "wrongReasons": [
-        "Choice A replaces debate with consensus, claiming universalism is agreed upon.",
-        "Choice C presents subjective morality as a recent discovery rather than a longstanding debate.",
-        "Choice D makes an unsupported factual claim about philosophical consensus."
+        "B reverses the claim.",
+        "C reverses the relative difficulty of correlation and causation.",
+        "D introduces a mutual-exclusion claim not in the original."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: המרצה הדגיש שמתאם סטטיסטי לבדו אינו מבסס קשר סיבתי בין משתנים.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על האזהרה — מתאם אינו סיבתיות.\nמדוע שאר התשובות שגויות: B הופכת את הטענה; C הופכת את הקושי היחסי; D מציגה אי-תאימות לא מוצדקת.\nמילים קשות: correlation = מתאם; causal = סיבתי."
     },
     {
       "id": "p144",
@@ -6978,40 +6988,42 @@
     {
       "id": "p174",
       "difficulty": "medium",
-      "text": "Comparative advantage theory suggests that countries benefit from specializing in goods they produce at relatively lower cost, even if another country could produce everything more efficiently.",
+      "text": "While the new public health regulation was praised for its scientific rigour, it was politically unpopular among voters who saw it as an unwarranted intrusion into private life.",
       "choices": [
-        "Comparative advantage holds that only the most efficient countries should produce goods and trade with others.",
-        "Comparative advantage theory implies that trade benefits only countries with the highest absolute productivity.",
-        "Countries should avoid specialization and instead produce all goods domestically, according to comparative advantage theory.",
-        "Countries gain from specializing in and trading goods where their relative production cost is lower, according to comparative advantage theory, even when one country has an absolute efficiency edge in all goods."
+        "The regulation was scientifically rigorous but politically unpopular with voters who considered it intrusive.",
+        "Voters welcomed the new public health regulation, citing its scientific rigour as an important benefit.",
+        "The regulation was politically popular among voters but criticised by scientists for lacking proper rigour.",
+        "Public health officials abandoned the regulation after it was found to be both unscientific and unpopular."
       ],
-      "answer": 3,
-      "explanation": "Choice B correctly preserves the comparative advantage argument, including the crucial caveat about absolute versus comparative efficiency.",
+      "answer": 0,
+      "explanation": "The original carries two facts in tension — scientific rigour praised, political reception negative — and (A) preserves both compactly.",
       "wrongReasons": [
-        "Choice A confuses absolute advantage with comparative advantage, restricting trade benefits to the most efficient.",
-        "Choice C incorrectly limits trade gains to countries with highest absolute productivity.",
-        "Choice D contradicts the theory entirely by advocating for self-sufficiency."
+        "B reverses voter reaction.",
+        "C reverses both elements (popular instead of unpopular, unscientific instead of rigorous).",
+        "D invents an abandonment that the original does not describe."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: התקנה זכתה לשבחים על קפדנות מדעית אך הייתה לא פופולרית פוליטית בקרב מצביעים שראו בה התערבות לא מוצדקת בחיים פרטיים.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על הקפדנות המדעית ועל הקבלה השלילית הפוליטית ללא הוספה של אלמנטים חדשים.\nמדוע שאר התשובות שגויות: B הופכת את תגובת המצביעים; C הופכת את שני האלמנטים; D ממציאה ביטול לא מוזכר.\nמילים קשות: rigour = קפדנות; intrusive = פולשני; unwarranted = לא מוצדק."
     },
     {
       "id": "p175",
       "difficulty": "medium",
-      "text": "Bioethics requires weighing patient autonomy against the duty of care that medical professionals owe their patients.",
+      "text": "The historian argues that early industrial cities owed much of their growth to migration from rural areas.",
       "choices": [
-        "Bioethical reasoning involves balancing a patient's right to make their own decisions against the medical professional's obligation to act in the patient's best interest.",
-        "In bioethics, patient autonomy always overrides the physician's duty of care.",
-        "Medical professionals are not ethically obligated to consider patient autonomy.",
-        "The duty of care always supersedes patient autonomy in bioethical frameworks."
+        "Early industrial cities, the historian says, grew largely through migration from the countryside.",
+        "Industrial cities grew faster than rural areas regardless of migration patterns.",
+        "Rural areas absorbed migrants from the early industrial cities as those cities declined.",
+        "The historian disputes the claim that migration played any role in early industrial city growth."
       ],
       "answer": 0,
-      "explanation": "Choice B correctly captures the balancing act in bioethics between patient autonomy and the physician's duty of care.",
+      "explanation": "The original locates the growth of early industrial cities in rural migration — (A) preserves the attribution.",
       "wrongReasons": [
-        "Choice A grants absolute priority to patient autonomy, removing the balance the original describes.",
-        "Choice C denies any ethical obligation to consider patient autonomy.",
-        "Choice D reverses the balance, giving absolute priority to duty of care."
+        "B drops the migration mechanism entirely.",
+        "C reverses the direction of migration.",
+        "D contradicts the historian's position."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: ההיסטוריון טוען שהגדילה של הערים התעשייתיות הראשונות חבה הרבה להגירה מאזורי הכפר.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על הקשר בין הגירה לגדילה.\nמדוע שאר התשובות שגויות: B מוסר את מנגנון ההגירה; C הופך את כיוון ההגירה; D סותרת את עמדת ההיסטוריון.\nמילים קשות: owed = חבה; migration = הגירה; rural = כפרי."
     },
     {
       "id": "p176",
@@ -7263,21 +7275,22 @@
     {
       "id": "p189",
       "difficulty": "hard",
-      "text": "Development indices that aggregate multiple dimensions of well-being can obscure distributional inequalities within the populations they measure.",
+      "text": "While most of the city's infrastructure was rebuilt within five years of the disaster, restoring the social and cultural fabric of the affected neighbourhoods has taken considerably longer.",
       "choices": [
-        "Multidimensional development indices improve the visibility of distributional inequalities compared to single-dimension measures.",
-        "Development indices that aggregate well-being dimensions are only reliable when distributional inequalities are absent.",
-        "When multiple aspects of well-being are combined into a single index, the resulting measure may hide how unevenly those dimensions are distributed across the measured population.",
-        "Distributional inequalities within populations are best captured by single-dimension indices rather than composite measures."
+        "Physical reconstruction took five years, but rebuilding social and cultural life has taken much longer.",
+        "Restoring social and cultural life happened faster than rebuilding the city's physical infrastructure.",
+        "Both physical and social rebuilding were completed within the same five-year window after the disaster.",
+        "The city's physical infrastructure remains in ruins despite years of social and cultural recovery efforts."
       ],
-      "answer": 2,
-      "explanation": "Choice B correctly restates that aggregating multiple dimensions can mask how unevenly distributed well-being is within the measured population.",
+      "answer": 0,
+      "explanation": "The original contrasts fast physical reconstruction with slower social/cultural recovery. (A) preserves both.",
       "wrongReasons": [
-        "Choice A reverses the effect, claiming multidimensional indices improve visibility of inequalities.",
-        "Choice C introduces a reliability condition not present in the original.",
-        "Choice D makes an unrelated comparative claim favoring single-dimension indices."
+        "B reverses the speeds.",
+        "C eliminates the contrast.",
+        "D reverses the physical state."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: רוב התשתית הפיזית של העיר שוקמה תוך חמש שנים מהאסון, אך שיקום המרקם החברתי והתרבותי לקח זמן רב יותר.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על שני קצבי השיקום השונים.\nמדוע שאר התשובות שגויות: B הופכת את הקצבים; C מבטלת את הניגוד; D הופכת את מצב התשתית.\nמילים קשות: infrastructure = תשתית; fabric = מרקם."
     },
     {
       "id": "p190",
@@ -7396,21 +7409,22 @@
     {
       "id": "p196",
       "difficulty": "hard",
-      "text": "Carbon border adjustment mechanisms are designed not to protect domestic industries per se but to prevent carbon leakage by ensuring that imports are subject to equivalent carbon costs.",
+      "text": "Although the new legislation was passed with broad support across party lines, its implementation has been hampered by chronic underfunding of the agencies responsible for enforcement.",
       "choices": [
-        "Carbon border adjustments are primarily protectionist trade measures that incidentally reduce carbon leakage.",
-        "The purpose of carbon border adjustment mechanisms is to level the carbon cost playing field for imported goods, thereby preventing carbon leakage rather than shielding domestic industries as such.",
-        "Carbon border adjustments prevent carbon leakage by exempting domestic industries from carbon pricing.",
-        "Carbon border adjustment mechanisms are designed to eliminate trade competition by imposing costs on all imported goods equally."
+        "Broad cross-party support passed the legislation, but chronic underfunding of enforcement agencies has hampered implementation.",
+        "The legislation passed without support and has been implemented smoothly by well-funded enforcement agencies.",
+        "Enforcement agencies have been generously funded but failed to gain cross-party support for the legislation.",
+        "The legislation was rejected by parliament and was never assigned to any enforcement agency for implementation."
       ],
-      "answer": 1,
-      "explanation": "Choice B preserves the stated purpose (preventing carbon leakage through equivalent carbon costs on imports) and the explicit disavowal of domestic protection as the primary goal.",
+      "answer": 0,
+      "explanation": "The original concedes broad passage but attributes implementation problems to underfunded enforcement. (A) preserves both halves.",
       "wrongReasons": [
-        "Choice A inverts the primary purpose, calling the mechanism primarily protectionist.",
-        "Choice C distorts the mechanism by suggesting it works through exempting domestic industries rather than leveling import costs.",
-        "Choice D overstates the mechanism's reach by claiming it imposes costs on all imported goods equally, misrepresenting the carbon equivalence aim."
+        "B reverses both the passage support and the funding picture.",
+        "C swaps which thing is funded vs. supported.",
+        "D contradicts the legislative outcome."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: החקיקה עברה בתמיכה רחבה חוצת מפלגות, אך יישומה נפגע מתת-תקצוב כרוני של גופי האכיפה.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על שני הצדדים — אישור החקיקה והקושי ביישום.\nמדוע שאר התשובות שגויות: B הופכת את שני הצדדים; C מחליפה את התקצוב והתמיכה; D הופכת את התוצאה החקיקתית.\nמילים קשות: hampered = נפגע; chronic = כרוני; enforcement = אכיפה."
     },
     {
       "id": "p197",
@@ -7776,21 +7790,22 @@
     {
       "id": "p216",
       "difficulty": "hard",
-      "text": "Path dependency in institutional economics suggests that the range of viable future choices is constrained by prior decisions, even when those earlier choices were contingent and suboptimal.",
+      "text": "The committee found that the safety failures had not been caused by any single individual but had emerged from a culture in which routine warning signs were systematically dismissed.",
       "choices": [
-        "Path dependency holds that institutions always converge toward optimal arrangements over time, regardless of their historical origins.",
-        "In institutional economics, path dependency refers to the tendency for historical choices to limit the set of feasible future options, even when the original choices were not necessarily the best ones available.",
-        "Prior institutional decisions constrain future choices only when they were deliberate and optimal, according to path dependency theory.",
-        "Path dependency suggests that suboptimal institutional choices can always be corrected by future policy interventions without significant constraint."
+        "The safety failures arose not from one person's error but from a culture that habitually dismissed warning signs.",
+        "A single individual was identified as the cause of every documented safety failure investigated by the committee.",
+        "Routine warning signs were absent in the affected facility, which is why the safety failures could not be prevented.",
+        "The committee concluded that the safety failures had no identifiable cause and could not be attributed to any source."
       ],
-      "answer": 1,
-      "explanation": "Choice B correctly preserves path dependency: prior choices limit future options even when those choices were contingent and suboptimal.",
+      "answer": 0,
+      "explanation": "The original distinguishes individual blame from systemic culture and locates the cause in the latter. (A) preserves both halves.",
       "wrongReasons": [
-        "Choice A contradicts path dependency by claiming convergence toward optimal outcomes.",
-        "Choice C restricts the constraining effect to deliberate and optimal prior choices, contradicting the 'even suboptimal' qualifier.",
-        "Choice D contradicts path dependency by claiming suboptimal choices can always be corrected without constraint."
+        "B reverses the conclusion by attributing the failures to a single individual.",
+        "C says warning signs were absent, while the original says they were present but dismissed.",
+        "D contradicts the conclusion, which does identify a cause (the culture)."
       ],
-      "category": "restatements"
+      "category": "restatements",
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי: כשלי הבטיחות לא נגרמו על ידי יחיד אלא נבעו מתרבות שבה סימני אזהרה שגרתיים נדחו באופן שיטתי.\nמדוע התשובה הנכונה נכונה: בחירה A שומרת על ההבחנה בין יחיד למערכת ועל זיהוי התרבות כסיבה.\nמדוע שאר התשובות שגויות: B מייחסת את הכשלים ליחיד; C טוענת שסימני האזהרה נעדרו; D שוללת זיהוי סיבה.\nמילים קשות: emerged from = נבעו מ; systematically dismissed = נדחו באופן שיטתי."
     },
     {
       "id": "p217",
@@ -13757,121 +13772,121 @@
     {
       "id": "r24-q1",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "What is the main idea of the passage?",
+      "difficulty": "hard",
+      "text": "Which of the following best states the central claim of the passage?",
       "choices": [
-        "Bees rely primarily on scent rather than movement to find flowers.",
-        "Scientists have only recently begun studying bee communication.",
-        "The waggle dance is used by bees to warn the hive of approaching predators.",
-        "Honeybees use a complex dance to communicate precise information about food sources."
+        "Bees use a symbolic dance to encode navigational information confirmed by independent experiments.",
+        "Insects with small brains cannot perform any form of complex symbolic communication.",
+        "Karl von Frisch's findings were rejected by modern researchers and have since been replaced.",
+        "The waggle dance is purely instinctive and shows no variation across bee populations."
       ],
-      "answer": 3,
-      "explanation": "The passage centers on the waggle dance as a sophisticated communication system through which bees convey direction, distance, and quality of food sources to other members of the hive.",
+      "answer": 0,
+      "explanation": "The passage builds its central argument from von Frisch's claim, presents independent confirmation by Seeley, discusses the dance's broader significance, and closes with refinements — all in support of (A).",
       "wrongReasons": [
-        "B contradicts the passage, which emphasizes movement (dance) as the primary communication method.",
-        "C is unsupported; the passage mentions Karl von Frisch's mid-20th century research, not recent study.",
-        "D is incorrect; the waggle dance is about food sources, not predator warnings."
+        "B contradicts the entire thesis of the passage, which is precisely that small-brained insects do perform symbolic communication.",
+        "C reverses the historical outcome — the passage describes confirmation, not rejection, of von Frisch's framework.",
+        "D contradicts the closing paragraph, which explicitly describes dialect variation across populations."
       ],
       "passage": {
         "id": "r24-passage",
         "title": "How Bees Communicate",
-        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+        "body": "For most of human history, the idea that an insect could give another insect detailed directions to a flower would have seemed absurd. Bees, after all, possess brains roughly the size of a sesame seed. Yet in the 1940s the Austrian zoologist Karl von Frisch published a series of experiments suggesting exactly this: returning forager bees, he argued, performed a precise \"waggle dance\" inside the hive whose tempo and orientation encoded both the distance and the bearing of a food source. The claim was met with considerable scepticism, and decades of replication and refinement were required before it was widely accepted.\n\nThe dance itself takes place on the vertical comb in the darkness of the hive. A returning forager runs forward in a straight line while shaking her abdomen, then loops back to repeat the pattern. The duration of the straight run corresponds to the distance of the food source — roughly one second of waggle per kilometre — and the angle of that run relative to vertical encodes the bearing of the source relative to the sun. Other foragers crowd around the dancer, contacting her body with their antennae and tracking the rhythm in the dark.\n\nSceptics initially suggested that recruits were simply following the scent of nectar on the dancer rather than interpreting the geometry of her movements. The dispute was settled experimentally by Tom Seeley and his colleagues in the 1990s using a robotic bee that performed the dance without producing scent. Recruits given coordinates by the robot still flew to the indicated location, confirming that the dance itself, and not the chemistry of the dancer, supplied the navigational information.\n\nThe waggle dance is one of the very few documented cases in non-human biology in which a symbolic communication system encodes abstract information that can be acted on by a receiver who has never visited the source. It complicated a once-comfortable distinction between human language and animal signalling, and it remains a touchstone in debates about the cognitive sophistication of small-brained organisms.\n\nRecent research has further refined the picture. Bees in different geographic populations have been shown to use slightly different \"dialects\" of the waggle dance, and young workers appear to learn from older ones. Far from being a rigid instinct, the dance now looks like a culturally transmitted skill that varies and develops."
       }
     },
     {
       "id": "r24-q2",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "According to the passage, how does a bee communicate the distance to a food source?",
+      "difficulty": "hard",
+      "text": "What is the primary function of the third paragraph?",
       "choices": [
-        "By the duration of its waggle run",
-        "By flying in circles of different sizes",
-        "By the angle of its dance relative to the sun",
-        "By the number of times it exits and re-enters the hive"
+        "To describe the original experiments performed by Karl von Frisch in the 1940s.",
+        "To address scepticism by presenting evidence that isolates the dance from scent.",
+        "To compare the bee waggle dance with human language and other animal signals.",
+        "To introduce regional dialects observed in modern bee populations worldwide."
       ],
-      "answer": 0,
-      "explanation": "The passage explicitly states that 'distance is communicated through the duration of the waggle run: the longer the run, the farther the food.'",
+      "answer": 1,
+      "explanation": "The third paragraph opens by naming the scent-following hypothesis and then describes Seeley's robotic-bee experiment, whose purpose is precisely to separate dance information from scent cues.",
       "wrongReasons": [
-        "A describes a different pattern not mentioned in the passage.",
-        "B describes how direction is communicated, not distance.",
-        "D is not mentioned anywhere in the passage."
+        "A describes the first paragraph, not the third.",
+        "C describes the fourth paragraph, which discusses broader significance.",
+        "D describes the fifth paragraph, which introduces regional dialects."
       ],
       "passage": {
         "id": "r24-passage",
         "title": "How Bees Communicate",
-        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+        "body": "For most of human history, the idea that an insect could give another insect detailed directions to a flower would have seemed absurd. Bees, after all, possess brains roughly the size of a sesame seed. Yet in the 1940s the Austrian zoologist Karl von Frisch published a series of experiments suggesting exactly this: returning forager bees, he argued, performed a precise \"waggle dance\" inside the hive whose tempo and orientation encoded both the distance and the bearing of a food source. The claim was met with considerable scepticism, and decades of replication and refinement were required before it was widely accepted.\n\nThe dance itself takes place on the vertical comb in the darkness of the hive. A returning forager runs forward in a straight line while shaking her abdomen, then loops back to repeat the pattern. The duration of the straight run corresponds to the distance of the food source — roughly one second of waggle per kilometre — and the angle of that run relative to vertical encodes the bearing of the source relative to the sun. Other foragers crowd around the dancer, contacting her body with their antennae and tracking the rhythm in the dark.\n\nSceptics initially suggested that recruits were simply following the scent of nectar on the dancer rather than interpreting the geometry of her movements. The dispute was settled experimentally by Tom Seeley and his colleagues in the 1990s using a robotic bee that performed the dance without producing scent. Recruits given coordinates by the robot still flew to the indicated location, confirming that the dance itself, and not the chemistry of the dancer, supplied the navigational information.\n\nThe waggle dance is one of the very few documented cases in non-human biology in which a symbolic communication system encodes abstract information that can be acted on by a receiver who has never visited the source. It complicated a once-comfortable distinction between human language and animal signalling, and it remains a touchstone in debates about the cognitive sophistication of small-brained organisms.\n\nRecent research has further refined the picture. Bees in different geographic populations have been shown to use slightly different \"dialects\" of the waggle dance, and young workers appear to learn from older ones. Far from being a rigid instinct, the dance now looks like a culturally transmitted skill that varies and develops."
       }
     },
     {
       "id": "r24-q3",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "What can be inferred from the passage about the significance of Karl von Frisch's discovery?",
+      "difficulty": "hard",
+      "text": "As used in the first paragraph, the word 'encoded' most nearly means:",
       "choices": [
-        "It proved that bees are the most intelligent insects on Earth.",
-        "It challenged the assumption that symbolic communication is unique to humans.",
-        "It led to the development of new agricultural technologies based on bee behavior.",
-        "It showed that bees communicate only about food, not about threats."
+        "translated systematically into a different form for later interpretation",
+        "memorised through repeated rehearsal and visual reinforcement",
+        "broadcast loudly in a way audible to neighbouring hives",
+        "obscured deliberately to prevent recognition by rival colonies"
       ],
-      "answer": 1,
-      "explanation": "The passage states that the waggle dance represents a symbolic communication system 'once thought exclusive to humans,' implying von Frisch's work challenged that assumption.",
+      "answer": 0,
+      "explanation": "In context, the dance 'encodes' distance and bearing — i.e. it represents that information in a different form (movement) that another bee can decode. (A) captures the systematic-translation sense.",
       "wrongReasons": [
-        "A makes a comparative claim about insect intelligence that the passage does not support.",
-        "C introduces agricultural applications not mentioned anywhere in the passage.",
-        "D narrows the claim inappropriately; the passage does not say bees communicate only about food."
+        "B describes a learning process, not a representation; the dance is performed, not memorised by the dancer.",
+        "C describes audibility, but the passage emphasises that the dance occurs in darkness on a vertical comb.",
+        "D describes deliberate concealment, which is the opposite of what informational encoding does here."
       ],
       "passage": {
         "id": "r24-passage",
         "title": "How Bees Communicate",
-        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+        "body": "For most of human history, the idea that an insect could give another insect detailed directions to a flower would have seemed absurd. Bees, after all, possess brains roughly the size of a sesame seed. Yet in the 1940s the Austrian zoologist Karl von Frisch published a series of experiments suggesting exactly this: returning forager bees, he argued, performed a precise \"waggle dance\" inside the hive whose tempo and orientation encoded both the distance and the bearing of a food source. The claim was met with considerable scepticism, and decades of replication and refinement were required before it was widely accepted.\n\nThe dance itself takes place on the vertical comb in the darkness of the hive. A returning forager runs forward in a straight line while shaking her abdomen, then loops back to repeat the pattern. The duration of the straight run corresponds to the distance of the food source — roughly one second of waggle per kilometre — and the angle of that run relative to vertical encodes the bearing of the source relative to the sun. Other foragers crowd around the dancer, contacting her body with their antennae and tracking the rhythm in the dark.\n\nSceptics initially suggested that recruits were simply following the scent of nectar on the dancer rather than interpreting the geometry of her movements. The dispute was settled experimentally by Tom Seeley and his colleagues in the 1990s using a robotic bee that performed the dance without producing scent. Recruits given coordinates by the robot still flew to the indicated location, confirming that the dance itself, and not the chemistry of the dancer, supplied the navigational information.\n\nThe waggle dance is one of the very few documented cases in non-human biology in which a symbolic communication system encodes abstract information that can be acted on by a receiver who has never visited the source. It complicated a once-comfortable distinction between human language and animal signalling, and it remains a touchstone in debates about the cognitive sophistication of small-brained organisms.\n\nRecent research has further refined the picture. Bees in different geographic populations have been shown to use slightly different \"dialects\" of the waggle dance, and young workers appear to learn from older ones. Far from being a rigid instinct, the dance now looks like a culturally transmitted skill that varies and develops."
       }
     },
     {
       "id": "r24-q4",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "As used in the passage, the word 'encodes' most nearly means:",
+      "difficulty": "hard",
+      "text": "According to the passage, how was Tom Seeley's team able to rule out the scent hypothesis?",
       "choices": [
-        "Hides from other species",
-        "Repeats in a predictable pattern",
-        "Translates into a form that carries information",
-        "Simplifies for easier understanding"
+        "By replacing scent receptors in foragers and observing failure to find food.",
+        "By tracking nectar carried by returning bees with chemical sensors.",
+        "By using a robotic bee whose dance lacked the scent of nectar.",
+        "By isolating individual recruits and exposing them only to dance movements."
       ],
       "answer": 2,
-      "explanation": "In context, 'encodes' describes how the waggle dance translates complex information (direction, distance, quality) into a physical form—movement—that other bees can interpret.",
+      "explanation": "The passage states explicitly that Seeley used a robotic bee that performed the dance without producing scent, and recruits still flew to the indicated location.",
       "wrongReasons": [
-        "A implies secrecy or concealment, which is not the meaning intended here.",
-        "C suggests repetition but does not capture the meaning of converting information into a communicable form.",
-        "D suggests simplification, but encoding is about representation, not necessarily simplification."
+        "A invents an experiment not described in the passage; Seeley did not modify bee anatomy.",
+        "B describes monitoring scent, not eliminating it as an information source.",
+        "D describes a different methodological idea (isolation of recruits) not mentioned in the passage."
       ],
       "passage": {
         "id": "r24-passage",
         "title": "How Bees Communicate",
-        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+        "body": "For most of human history, the idea that an insect could give another insect detailed directions to a flower would have seemed absurd. Bees, after all, possess brains roughly the size of a sesame seed. Yet in the 1940s the Austrian zoologist Karl von Frisch published a series of experiments suggesting exactly this: returning forager bees, he argued, performed a precise \"waggle dance\" inside the hive whose tempo and orientation encoded both the distance and the bearing of a food source. The claim was met with considerable scepticism, and decades of replication and refinement were required before it was widely accepted.\n\nThe dance itself takes place on the vertical comb in the darkness of the hive. A returning forager runs forward in a straight line while shaking her abdomen, then loops back to repeat the pattern. The duration of the straight run corresponds to the distance of the food source — roughly one second of waggle per kilometre — and the angle of that run relative to vertical encodes the bearing of the source relative to the sun. Other foragers crowd around the dancer, contacting her body with their antennae and tracking the rhythm in the dark.\n\nSceptics initially suggested that recruits were simply following the scent of nectar on the dancer rather than interpreting the geometry of her movements. The dispute was settled experimentally by Tom Seeley and his colleagues in the 1990s using a robotic bee that performed the dance without producing scent. Recruits given coordinates by the robot still flew to the indicated location, confirming that the dance itself, and not the chemistry of the dancer, supplied the navigational information.\n\nThe waggle dance is one of the very few documented cases in non-human biology in which a symbolic communication system encodes abstract information that can be acted on by a receiver who has never visited the source. It complicated a once-comfortable distinction between human language and animal signalling, and it remains a touchstone in debates about the cognitive sophistication of small-brained organisms.\n\nRecent research has further refined the picture. Bees in different geographic populations have been shown to use slightly different \"dialects\" of the waggle dance, and young workers appear to learn from older ones. Far from being a rigid instinct, the dance now looks like a culturally transmitted skill that varies and develops."
       }
     },
     {
       "id": "r24-q5",
       "category": "reading",
       "difficulty": "hard",
-      "text": "What is the author's primary purpose in writing this passage?",
+      "text": "Which of the following can be inferred from the closing paragraph?",
       "choices": [
-        "To argue that bees should receive greater protection under environmental law",
-        "To persuade readers that insect intelligence has been underestimated by scientists",
-        "To describe the daily life of forager bees in a typical hive",
-        "To inform readers about a sophisticated animal communication system and its broader implications"
+        "The waggle dance can no longer be considered a purely innate, genetically fixed behaviour.",
+        "Older bees prefer to dance only when younger bees are actively observing them.",
+        "Modern researchers have abandoned von Frisch's original framework entirely.",
+        "Geographic dialects make the waggle dance harder to study scientifically."
       ],
-      "answer": 3,
-      "explanation": "The passage explains the mechanics of the waggle dance in detail and concludes by placing it in a broader scientific context (symbolic communication once thought exclusive to humans), serving both an informative and intellectually expansive purpose.",
+      "answer": 0,
+      "explanation": "The paragraph describes regional dialects and learning from older bees, then explicitly says the dance 'now looks like a culturally transmitted skill that varies and develops' — i.e. not fixed instinct. (A) restates this inference.",
       "wrongReasons": [
-        "A introduces a legal or conservation argument that the passage never makes.",
-        "C overstates the argument; the passage does not claim scientists broadly underestimated insects.",
-        "D describes only daily life, missing the broader scientific significance the passage emphasizes."
+        "B invents a motivation for older bees that the passage does not assert.",
+        "C contradicts the passage, which describes refinement of von Frisch's framework, not its abandonment.",
+        "D introduces an unsupported claim about research difficulty; the passage treats dialects as a finding, not an obstacle."
       ],
       "passage": {
         "id": "r24-passage",
         "title": "How Bees Communicate",
-        "body": "Among the most remarkable examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rich food source, it returns to the hive and performs an intricate series of movements that conveys precise information to its nestmates. The dance encodes three key variables: the direction of the food relative to the sun, the distance to the source, and the quality of the reward.\n\nThe direction is indicated by the angle of the waggle run relative to vertical—an angle of 60 degrees to the left means the food lies 60 degrees to the left of the sun. Distance is communicated through the duration of the waggle run: the longer the run, the farther the food. Finally, the enthusiasm of the dance signals quality; a bee that has found abundant, high-quality nectar will dance more vigorously and recruit more followers.\n\nKarl von Frisch first decoded this system in the mid-20th century, earning a Nobel Prize for his work. His discovery revealed that bees possess a symbolic communication system—one that can represent locations beyond the immediate environment, a capacity once thought exclusive to humans."
+        "body": "For most of human history, the idea that an insect could give another insect detailed directions to a flower would have seemed absurd. Bees, after all, possess brains roughly the size of a sesame seed. Yet in the 1940s the Austrian zoologist Karl von Frisch published a series of experiments suggesting exactly this: returning forager bees, he argued, performed a precise \"waggle dance\" inside the hive whose tempo and orientation encoded both the distance and the bearing of a food source. The claim was met with considerable scepticism, and decades of replication and refinement were required before it was widely accepted.\n\nThe dance itself takes place on the vertical comb in the darkness of the hive. A returning forager runs forward in a straight line while shaking her abdomen, then loops back to repeat the pattern. The duration of the straight run corresponds to the distance of the food source — roughly one second of waggle per kilometre — and the angle of that run relative to vertical encodes the bearing of the source relative to the sun. Other foragers crowd around the dancer, contacting her body with their antennae and tracking the rhythm in the dark.\n\nSceptics initially suggested that recruits were simply following the scent of nectar on the dancer rather than interpreting the geometry of her movements. The dispute was settled experimentally by Tom Seeley and his colleagues in the 1990s using a robotic bee that performed the dance without producing scent. Recruits given coordinates by the robot still flew to the indicated location, confirming that the dance itself, and not the chemistry of the dancer, supplied the navigational information.\n\nThe waggle dance is one of the very few documented cases in non-human biology in which a symbolic communication system encodes abstract information that can be acted on by a receiver who has never visited the source. It complicated a once-comfortable distinction between human language and animal signalling, and it remains a touchstone in debates about the cognitive sophistication of small-brained organisms.\n\nRecent research has further refined the picture. Bees in different geographic populations have been shown to use slightly different \"dialects\" of the waggle dance, and young workers appear to learn from older ones. Far from being a rigid instinct, the dance now looks like a culturally transmitted skill that varies and develops."
       }
     },
     {
@@ -13997,241 +14012,241 @@
     {
       "id": "r26-q1",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "What is the main idea of the passage?",
+      "difficulty": "hard",
+      "text": "Which of the following best expresses the main idea of the passage?",
       "choices": [
-        "Desalination is the only effective technology for solving global water scarcity.",
-        "Water scarcity is a growing global crisis that requires multiple coordinated solutions.",
-        "Developing nations are entirely responsible for the world's water shortage problems.",
-        "Climate change has made water conservation strategies obsolete."
+        "Water scarcity has multiple distinct dimensions, and each one calls for a different kind of solution.",
+        "The global freshwater supply has already been exhausted and cannot be replenished by any means.",
+        "Desalination is the most promising long-term solution to water scarcity worldwide.",
+        "Treaties between countries that share rivers have prevented all major water conflicts."
       ],
-      "answer": 1,
-      "explanation": "The passage describes water scarcity as a serious and expanding global problem, then outlines a range of solutions—technology, policy, and conservation—showing that no single fix is sufficient.",
+      "answer": 0,
+      "explanation": "The passage distinguishes physical, economic, and governance scarcity, and closes by saying the right intervention depends on which is dominant. (A) captures the multi-dimensional framing.",
       "wrongReasons": [
-        "A singles out desalination as the only solution, which the passage contradicts by presenting multiple approaches.",
-        "C misattributes responsibility to developing nations alone; the passage presents water scarcity as a global challenge.",
-        "D contradicts the passage, which explicitly recommends conservation as part of the solution."
+        "B overstates the position; the passage says scarcity is rising in many regions, not that the global supply is exhausted.",
+        "C overemphasises one solution; the passage explicitly says no single solution addresses all dimensions.",
+        "D contradicts the passage, which describes treaties as outdated and contested."
       ],
       "passage": {
         "id": "r26-passage",
         "title": "Water Scarcity and Global Solutions",
-        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+        "body": "Of all the water on Earth, less than three percent is fresh, and most of that is locked away in glaciers, ice caps, and deep aquifers that are difficult or impossible to reach. The fraction available for human use — in rivers, lakes, and shallow groundwater — is a small enough share of the whole that it can be exhausted faster than it is replenished, and in many regions it now is. The phrase \"water scarcity\" obscures a more complicated reality: scarcity has both a physical and a political dimension, and the second is often the more decisive of the two.\n\nPhysical scarcity describes places where renewable freshwater is simply insufficient to meet demand. Much of North Africa and the Arabian Peninsula falls into this category. Aquifers that took tens of thousands of years to fill are now being drained for irrigation within a generation. Once they are gone, replacement cannot be engineered on any human timescale, only conserved.\n\nEconomic scarcity is different, and in many ways more solvable. Roughly a sixth of the world's population lives in places where freshwater is theoretically available but cannot be reliably delivered to households or farms because the infrastructure has never been built, has been allowed to decay, or has been built only for some users and not for others. The result is sometimes called inequitable access: a city in which one neighbourhood enjoys treated water around the clock while another receives untreated water for a few hours every several days.\n\nA third dimension, sometimes called governance scarcity, has drawn attention more recently. Even where water exists and infrastructure can be built, decisions about who gets which share — irrigators, industries, downstream users, ecosystems — are contested and frequently fought along political lines. Many international river basins are now governed by treaties that were signed before climate change began to redistribute the supply they were meant to allocate.\n\nSolutions exist for each dimension — desalination, repaired distribution networks, treaty reform, agricultural efficiency, and demand management — but no single solution addresses all three. The choice of intervention is increasingly shaped by which type of scarcity is dominant in a given place, and by who holds the political capital to act on it."
       }
     },
     {
       "id": "r26-q2",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "According to the passage, what percentage of global freshwater consumption does agriculture account for?",
+      "difficulty": "hard",
+      "text": "What is the primary purpose of the third paragraph?",
       "choices": [
-        "About 30 percent",
-        "About 50 percent",
-        "About 70 percent",
-        "About 90 percent"
+        "To argue that physical scarcity is more decisive than economic scarcity in most regions.",
+        "To define economic scarcity as the failure to deliver available water to all users.",
+        "To describe specific desalination technologies being deployed in coastal cities.",
+        "To recount the historical origins of international river-basin treaties."
       ],
-      "answer": 2,
-      "explanation": "The passage explicitly states that agriculture 'accounts for roughly 70 percent of global freshwater consumption.'",
+      "answer": 1,
+      "explanation": "The third paragraph contrasts economic scarcity with the physical scarcity of paragraph two, defines it as delivery failure, and gives the example of inequitable urban access.",
       "wrongReasons": [
-        "A is too low and not supported by the passage.",
-        "B is not the figure given in the passage.",
-        "D overstates the figure; the passage says roughly 70 percent, not 90 percent."
+        "A misreads the passage, which gives economic scarcity equal weight as a distinct dimension.",
+        "C is unsupported; desalination appears only in the final paragraph as one possible intervention.",
+        "D describes the fourth paragraph, which discusses governance scarcity and treaties."
       ],
       "passage": {
         "id": "r26-passage",
         "title": "Water Scarcity and Global Solutions",
-        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+        "body": "Of all the water on Earth, less than three percent is fresh, and most of that is locked away in glaciers, ice caps, and deep aquifers that are difficult or impossible to reach. The fraction available for human use — in rivers, lakes, and shallow groundwater — is a small enough share of the whole that it can be exhausted faster than it is replenished, and in many regions it now is. The phrase \"water scarcity\" obscures a more complicated reality: scarcity has both a physical and a political dimension, and the second is often the more decisive of the two.\n\nPhysical scarcity describes places where renewable freshwater is simply insufficient to meet demand. Much of North Africa and the Arabian Peninsula falls into this category. Aquifers that took tens of thousands of years to fill are now being drained for irrigation within a generation. Once they are gone, replacement cannot be engineered on any human timescale, only conserved.\n\nEconomic scarcity is different, and in many ways more solvable. Roughly a sixth of the world's population lives in places where freshwater is theoretically available but cannot be reliably delivered to households or farms because the infrastructure has never been built, has been allowed to decay, or has been built only for some users and not for others. The result is sometimes called inequitable access: a city in which one neighbourhood enjoys treated water around the clock while another receives untreated water for a few hours every several days.\n\nA third dimension, sometimes called governance scarcity, has drawn attention more recently. Even where water exists and infrastructure can be built, decisions about who gets which share — irrigators, industries, downstream users, ecosystems — are contested and frequently fought along political lines. Many international river basins are now governed by treaties that were signed before climate change began to redistribute the supply they were meant to allocate.\n\nSolutions exist for each dimension — desalination, repaired distribution networks, treaty reform, agricultural efficiency, and demand management — but no single solution addresses all three. The choice of intervention is increasingly shaped by which type of scarcity is dominant in a given place, and by who holds the political capital to act on it."
       }
     },
     {
       "id": "r26-q3",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "What can be inferred about regions that suffer from poor infrastructure related to water?",
+      "difficulty": "hard",
+      "text": "As used in the third paragraph, the phrase 'inequitable access' most nearly means:",
       "choices": [
-        "They necessarily have less total rainfall than other regions.",
-        "They are located exclusively in developing nations.",
-        "Technology alone is sufficient to solve their water challenges.",
-        "Their water problems could potentially be reduced without increasing total water supply."
+        "fair distribution of water across geographic regions and demographic groups",
+        "uneven distribution that favours some users while denying others reliable supply",
+        "exclusive private ownership of municipal water by industrial customers",
+        "long-term inability to deliver water because of physical depletion of aquifers"
       ],
-      "answer": 3,
-      "explanation": "The passage states that many regions 'suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and lack of regulation,' implying that better management—not more water—could alleviate their problems.",
+      "answer": 1,
+      "explanation": "The passage immediately illustrates the phrase with one neighbourhood receiving treated water 24/7 and another receiving untreated water occasionally — a textbook case of uneven, unfair distribution.",
       "wrongReasons": [
-        "A attributes their problems to rainfall levels, which the passage does not claim.",
-        "C limits these regions to developing nations, a generalization the passage does not make.",
-        "D contradicts the passage's emphasis on policy and governance alongside technology."
+        "A reverses the meaning — inequitable access is not fair distribution but the opposite.",
+        "C narrows the meaning to industrial ownership, which the passage does not invoke.",
+        "D conflates the concept with physical scarcity discussed in the second paragraph."
       ],
       "passage": {
         "id": "r26-passage",
         "title": "Water Scarcity and Global Solutions",
-        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+        "body": "Of all the water on Earth, less than three percent is fresh, and most of that is locked away in glaciers, ice caps, and deep aquifers that are difficult or impossible to reach. The fraction available for human use — in rivers, lakes, and shallow groundwater — is a small enough share of the whole that it can be exhausted faster than it is replenished, and in many regions it now is. The phrase \"water scarcity\" obscures a more complicated reality: scarcity has both a physical and a political dimension, and the second is often the more decisive of the two.\n\nPhysical scarcity describes places where renewable freshwater is simply insufficient to meet demand. Much of North Africa and the Arabian Peninsula falls into this category. Aquifers that took tens of thousands of years to fill are now being drained for irrigation within a generation. Once they are gone, replacement cannot be engineered on any human timescale, only conserved.\n\nEconomic scarcity is different, and in many ways more solvable. Roughly a sixth of the world's population lives in places where freshwater is theoretically available but cannot be reliably delivered to households or farms because the infrastructure has never been built, has been allowed to decay, or has been built only for some users and not for others. The result is sometimes called inequitable access: a city in which one neighbourhood enjoys treated water around the clock while another receives untreated water for a few hours every several days.\n\nA third dimension, sometimes called governance scarcity, has drawn attention more recently. Even where water exists and infrastructure can be built, decisions about who gets which share — irrigators, industries, downstream users, ecosystems — are contested and frequently fought along political lines. Many international river basins are now governed by treaties that were signed before climate change began to redistribute the supply they were meant to allocate.\n\nSolutions exist for each dimension — desalination, repaired distribution networks, treaty reform, agricultural efficiency, and demand management — but no single solution addresses all three. The choice of intervention is increasingly shaped by which type of scarcity is dominant in a given place, and by who holds the political capital to act on it."
       }
     },
     {
       "id": "r26-q4",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "As used in the passage, the word 'inequitable' most nearly means:",
+      "difficulty": "hard",
+      "text": "According to the passage, what makes the freshwater stored in deep aquifers especially vulnerable?",
       "choices": [
-        "Unfair or unequal in how something is distributed",
-        "Insufficient in total quantity",
-        "Difficult to measure or assess accurately",
-        "Rapidly changing over time"
+        "Once those aquifers are depleted, no human-scale process can refill them again.",
+        "The water in them is too contaminated by mineral deposits to be safely used.",
+        "Modern irrigation cannot reach the depths at which the water is stored.",
+        "Treaties allocate that water entirely to ecosystems rather than to humans."
       ],
       "answer": 0,
-      "explanation": "In context, 'inequitable distribution' refers to water being distributed unfairly—some areas receiving too little while others have enough—meaning the issue is fairness of distribution, not total quantity.",
+      "explanation": "The second paragraph states that aquifers took tens of thousands of years to fill and that replacement cannot be engineered on a human timescale, only conserved.",
       "wrongReasons": [
-        "A refers to total quantity, which is a separate issue from how water is distributed.",
-        "C implies a measurement problem, which is unrelated to the meaning of inequitable.",
-        "D suggests change over time, which is not what inequitable means in this context."
+        "B introduces a contamination claim the passage does not make.",
+        "C contradicts the passage, which says the aquifers are actively being drained for irrigation.",
+        "D conflates deep aquifers with the treaty disputes discussed in paragraph four."
       ],
       "passage": {
         "id": "r26-passage",
         "title": "Water Scarcity and Global Solutions",
-        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+        "body": "Of all the water on Earth, less than three percent is fresh, and most of that is locked away in glaciers, ice caps, and deep aquifers that are difficult or impossible to reach. The fraction available for human use — in rivers, lakes, and shallow groundwater — is a small enough share of the whole that it can be exhausted faster than it is replenished, and in many regions it now is. The phrase \"water scarcity\" obscures a more complicated reality: scarcity has both a physical and a political dimension, and the second is often the more decisive of the two.\n\nPhysical scarcity describes places where renewable freshwater is simply insufficient to meet demand. Much of North Africa and the Arabian Peninsula falls into this category. Aquifers that took tens of thousands of years to fill are now being drained for irrigation within a generation. Once they are gone, replacement cannot be engineered on any human timescale, only conserved.\n\nEconomic scarcity is different, and in many ways more solvable. Roughly a sixth of the world's population lives in places where freshwater is theoretically available but cannot be reliably delivered to households or farms because the infrastructure has never been built, has been allowed to decay, or has been built only for some users and not for others. The result is sometimes called inequitable access: a city in which one neighbourhood enjoys treated water around the clock while another receives untreated water for a few hours every several days.\n\nA third dimension, sometimes called governance scarcity, has drawn attention more recently. Even where water exists and infrastructure can be built, decisions about who gets which share — irrigators, industries, downstream users, ecosystems — are contested and frequently fought along political lines. Many international river basins are now governed by treaties that were signed before climate change began to redistribute the supply they were meant to allocate.\n\nSolutions exist for each dimension — desalination, repaired distribution networks, treaty reform, agricultural efficiency, and demand management — but no single solution addresses all three. The choice of intervention is increasingly shaped by which type of scarcity is dominant in a given place, and by who holds the political capital to act on it."
       }
     },
     {
       "id": "r26-q5",
       "category": "reading",
       "difficulty": "hard",
-      "text": "What is the author's primary purpose in writing this passage?",
+      "text": "Which of the following can be inferred from the closing paragraph?",
       "choices": [
-        "To demonstrate that desalination is the most promising technology for water security",
-        "To present the scope of water scarcity and make the case for comprehensive, multi-level action",
-        "To argue that climate change is the sole cause of the global water crisis",
-        "To entertain readers with case studies of countries that have solved water scarcity"
+        "Policy choices about water are shaped less by technical feasibility than by political power.",
+        "Demand management is now considered the only effective response to water scarcity.",
+        "International cooperation between basin countries has reduced inequitable access.",
+        "Climate change has had no measurable impact on existing water-sharing treaties."
       ],
-      "answer": 1,
-      "explanation": "The author systematically describes the scale of the problem, surveys technological and governance solutions, and concludes with a call for 'coordinated action combining technology, conservation, and policy reform'—a comprehensive, persuasive purpose.",
+      "answer": 0,
+      "explanation": "The closing sentence says the choice of intervention is shaped by which scarcity dominates and by who holds the political capital to act — implying political constraints, not just technical ones, drive policy.",
       "wrongReasons": [
-        "A prioritizes one technology over others, but the passage explicitly presents multiple solutions as necessary.",
-        "B attributes the crisis to climate change alone, whereas the passage lists multiple causes.",
-        "D describes case studies that are not present in the passage, which is analytical rather than narrative."
+        "B overstates one option; the closing paragraph lists demand management as one tool among several.",
+        "C is unsupported and partly contradicts the description of contested governance.",
+        "D contradicts paragraph four, which says climate change is redistributing supply faster than treaties can adapt."
       ],
       "passage": {
         "id": "r26-passage",
         "title": "Water Scarcity and Global Solutions",
-        "body": "Freshwater is essential to human survival, yet it is among the planet's most unevenly distributed and increasingly strained resources. Over two billion people currently live in countries experiencing high water stress, and projections suggest that demand will outstrip supply in many regions within decades. The causes are multiple: population growth, agricultural expansion, industrial use, and the accelerating effects of climate change, which alters rainfall patterns and accelerates glacier melt.\n\nAddressing water scarcity requires solutions at multiple scales. Desalination technology, which converts seawater into drinkable water, has grown more efficient and affordable, making it viable for coastal regions. Drip irrigation systems dramatically reduce agricultural water waste, which accounts for roughly 70 percent of global freshwater consumption. Water recycling and the restoration of degraded watersheds offer additional pathways.\n\nPolicy and governance, however, are equally critical. Many regions suffer less from absolute water shortage than from poor infrastructure, inequitable distribution, and a lack of regulation preventing overuse. International cooperation is essential where water sources cross national borders. Without coordinated action combining technology, conservation, and policy reform, water scarcity will remain one of the defining humanitarian crises of the 21st century."
+        "body": "Of all the water on Earth, less than three percent is fresh, and most of that is locked away in glaciers, ice caps, and deep aquifers that are difficult or impossible to reach. The fraction available for human use — in rivers, lakes, and shallow groundwater — is a small enough share of the whole that it can be exhausted faster than it is replenished, and in many regions it now is. The phrase \"water scarcity\" obscures a more complicated reality: scarcity has both a physical and a political dimension, and the second is often the more decisive of the two.\n\nPhysical scarcity describes places where renewable freshwater is simply insufficient to meet demand. Much of North Africa and the Arabian Peninsula falls into this category. Aquifers that took tens of thousands of years to fill are now being drained for irrigation within a generation. Once they are gone, replacement cannot be engineered on any human timescale, only conserved.\n\nEconomic scarcity is different, and in many ways more solvable. Roughly a sixth of the world's population lives in places where freshwater is theoretically available but cannot be reliably delivered to households or farms because the infrastructure has never been built, has been allowed to decay, or has been built only for some users and not for others. The result is sometimes called inequitable access: a city in which one neighbourhood enjoys treated water around the clock while another receives untreated water for a few hours every several days.\n\nA third dimension, sometimes called governance scarcity, has drawn attention more recently. Even where water exists and infrastructure can be built, decisions about who gets which share — irrigators, industries, downstream users, ecosystems — are contested and frequently fought along political lines. Many international river basins are now governed by treaties that were signed before climate change began to redistribute the supply they were meant to allocate.\n\nSolutions exist for each dimension — desalination, repaired distribution networks, treaty reform, agricultural efficiency, and demand management — but no single solution addresses all three. The choice of intervention is increasingly shaped by which type of scarcity is dominant in a given place, and by who holds the political capital to act on it."
       }
     },
     {
       "id": "r27-q1",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "What is the main idea of the passage?",
+      "difficulty": "hard",
+      "text": "Which of the following best states the central claim of the passage?",
       "choices": [
-        "Automation will eliminate all jobs within the next decade.",
-        "Automation creates more jobs than it eliminates and benefits all workers equally.",
-        "Automation is reshaping the labor market with significant social consequences that require careful policy responses.",
-        "Governments should ban automation in industries with high employment rates."
+        "Current automation is unique in scope and pace, and the response needs to be political rather than purely technical.",
+        "Past waves of automation produced no displaced workers because new industries always absorbed them.",
+        "Automation should be blocked outright in regions where displaced workers cannot easily retrain.",
+        "Machine learning will eliminate all middle-skill jobs within the next decade."
       ],
-      "answer": 2,
-      "explanation": "The passage acknowledges both benefits and harms of automation, describes uneven effects across workers, and calls for policy responses—reflecting a balanced but concerned central argument about social consequences.",
+      "answer": 0,
+      "explanation": "The passage's argument moves from historical comparison, to what is different now, to community-level consequences, to a closing claim that the response is a political question — captured by (A).",
       "wrongReasons": [
-        "A overstates the timeline and completeness of job elimination, which the passage does not claim.",
-        "B contradicts the passage, which emphasizes unequal distribution of benefits and significant job losses.",
-        "D proposes a ban that the passage never suggests."
+        "B contradicts the opening paragraph, which says past waves did displace workers, just at a manageable scale.",
+        "C contradicts the closing paragraph, which explicitly rejects blocking automation.",
+        "D overstates the passage; the text describes risk and polarisation, not a definite ten-year forecast."
       ],
       "passage": {
         "id": "r27-passage",
         "title": "The Social Impact of Automation",
-        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+        "body": "Every major wave of automation in modern history has provoked the same anxious prediction: this time, the machines will displace human workers in numbers that the labour market cannot absorb. The historical record so far has been more nuanced. New technologies have indeed eliminated entire occupations, but they have also created new ones in numbers large enough to keep aggregate employment growing. What changes from one wave to the next is which workers benefit and which are displaced, and at what speed.\n\nThe current wave is different from earlier ones in at least two ways. First, the technologies being deployed — machine learning systems, language models, and increasingly capable robotics — are not confined to a single sector. They reach into legal research, medical diagnostics, customer service, software engineering, and creative production simultaneously, rather than being absorbed slowly by one industry at a time. Second, the pace of deployment is faster than in previous waves, leaving workers and institutions less time to retrain and adapt.\n\nThese differences matter most at the community level. When a textile mill closed in a one-industry town a century ago, the disruption was severe but largely local, and the labour market in nearby cities could often absorb displaced workers within a few years. When a single technology displaces middle-skill jobs across multiple sectors of an entire regional economy simultaneously, the assumption that \"the next industry will hire them\" no longer holds in the same way.\n\nEconomists who study labour markets have begun to speak of the risk of \"hollowed out\" employment — a polarised economy in which highly compensated technical roles continue to grow at the top, low-wage service work continues to grow at the bottom, and the middle layer of clerical, administrative, and routine professional work shrinks. The polarisation is more pronounced in regions where the displaced workers cannot easily relocate or retrain.\n\nWhat follows from this is not a case for blocking automation, which is neither possible nor desirable, but a case for taking seriously the social investments — in education, in transitional income support, in regional development — that historically softened the transitions of earlier waves. Whether those investments will be made on the scale required is, by every measure, a political question rather than a technical one."
       }
     },
     {
       "id": "r27-q2",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "According to the passage, how does modern automation differ from earlier waves of mechanization?",
+      "difficulty": "hard",
+      "text": "What is the primary function of the second paragraph?",
       "choices": [
-        "Modern automation is slower and affects fewer workers.",
-        "Earlier mechanization was more disruptive to society than modern automation.",
-        "Modern automation is limited to industrial manufacturing sectors.",
-        "Modern automation also threatens cognitive and service-sector jobs, not just manual labor."
+        "To explain how labour markets historically absorbed displaced workers within a few years.",
+        "To identify two features that distinguish the current wave of automation from earlier ones.",
+        "To recommend specific retraining programmes for workers in clerical and administrative roles.",
+        "To describe technological breakthroughs in machine learning over the past five years."
       ],
-      "answer": 3,
-      "explanation": "The passage states that 'unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well.'",
+      "answer": 1,
+      "explanation": "The second paragraph opens with 'is different from earlier ones in at least two ways' and then enumerates breadth and pace.",
       "wrongReasons": [
-        "A contradicts the passage, which says the pace of change has accelerated.",
-        "C contradicts the passage's implication that modern automation is broader and more challenging.",
-        "D contradicts the passage, which specifically mentions legal research, medical imaging, and financial reports."
+        "A describes the third paragraph, which discusses local absorption.",
+        "C describes the closing paragraph's recommendations.",
+        "D is too narrow; the paragraph names example technologies but does not describe breakthroughs."
       ],
       "passage": {
         "id": "r27-passage",
         "title": "The Social Impact of Automation",
-        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+        "body": "Every major wave of automation in modern history has provoked the same anxious prediction: this time, the machines will displace human workers in numbers that the labour market cannot absorb. The historical record so far has been more nuanced. New technologies have indeed eliminated entire occupations, but they have also created new ones in numbers large enough to keep aggregate employment growing. What changes from one wave to the next is which workers benefit and which are displaced, and at what speed.\n\nThe current wave is different from earlier ones in at least two ways. First, the technologies being deployed — machine learning systems, language models, and increasingly capable robotics — are not confined to a single sector. They reach into legal research, medical diagnostics, customer service, software engineering, and creative production simultaneously, rather than being absorbed slowly by one industry at a time. Second, the pace of deployment is faster than in previous waves, leaving workers and institutions less time to retrain and adapt.\n\nThese differences matter most at the community level. When a textile mill closed in a one-industry town a century ago, the disruption was severe but largely local, and the labour market in nearby cities could often absorb displaced workers within a few years. When a single technology displaces middle-skill jobs across multiple sectors of an entire regional economy simultaneously, the assumption that \"the next industry will hire them\" no longer holds in the same way.\n\nEconomists who study labour markets have begun to speak of the risk of \"hollowed out\" employment — a polarised economy in which highly compensated technical roles continue to grow at the top, low-wage service work continues to grow at the bottom, and the middle layer of clerical, administrative, and routine professional work shrinks. The polarisation is more pronounced in regions where the displaced workers cannot easily relocate or retrain.\n\nWhat follows from this is not a case for blocking automation, which is neither possible nor desirable, but a case for taking seriously the social investments — in education, in transitional income support, in regional development — that historically softened the transitions of earlier waves. Whether those investments will be made on the scale required is, by every measure, a political question rather than a technical one."
       }
     },
     {
       "id": "r27-q3",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "What can be inferred about single-industry communities mentioned in the passage?",
+      "difficulty": "hard",
+      "text": "As used in the fourth paragraph, the phrase 'hollowed out' most nearly means:",
       "choices": [
-        "Their vulnerability to automation extends beyond direct job losses to broader community services.",
-        "They are more likely to adapt successfully to automation than diversified economies.",
-        "They are better funded by governments and therefore more resilient to economic shocks.",
-        "They consist mainly of high-skill workers who benefit from automation."
+        "growing rapidly at the centre while the top and bottom remain stable",
+        "shrinking in the middle while the top and the bottom continue to expand",
+        "rendered economically insignificant because of widespread emigration",
+        "reorganised so that previously separate occupations are merged into one"
       ],
-      "answer": 0,
-      "explanation": "The passage notes that when facilities in single-industry communities close, effects 'ripple through local businesses, schools, and healthcare systems,' implying harm well beyond direct job displacement.",
+      "answer": 1,
+      "explanation": "The fourth paragraph defines 'hollowed out' as growth at the top and bottom with shrinkage in the middle — (B) restates exactly that pattern.",
       "wrongReasons": [
-        "A contradicts the passage, which identifies these communities as 'particularly vulnerable.'",
-        "B introduces government funding as a factor, which the passage does not discuss.",
-        "D contradicts the passage, which describes displacement of low- and middle-skill workers, not high-skill ones."
+        "A reverses the pattern (centre growing rather than shrinking).",
+        "C invokes emigration, which the passage does not mention.",
+        "D describes a merger of occupations, not a polarisation of skill levels."
       ],
       "passage": {
         "id": "r27-passage",
         "title": "The Social Impact of Automation",
-        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+        "body": "Every major wave of automation in modern history has provoked the same anxious prediction: this time, the machines will displace human workers in numbers that the labour market cannot absorb. The historical record so far has been more nuanced. New technologies have indeed eliminated entire occupations, but they have also created new ones in numbers large enough to keep aggregate employment growing. What changes from one wave to the next is which workers benefit and which are displaced, and at what speed.\n\nThe current wave is different from earlier ones in at least two ways. First, the technologies being deployed — machine learning systems, language models, and increasingly capable robotics — are not confined to a single sector. They reach into legal research, medical diagnostics, customer service, software engineering, and creative production simultaneously, rather than being absorbed slowly by one industry at a time. Second, the pace of deployment is faster than in previous waves, leaving workers and institutions less time to retrain and adapt.\n\nThese differences matter most at the community level. When a textile mill closed in a one-industry town a century ago, the disruption was severe but largely local, and the labour market in nearby cities could often absorb displaced workers within a few years. When a single technology displaces middle-skill jobs across multiple sectors of an entire regional economy simultaneously, the assumption that \"the next industry will hire them\" no longer holds in the same way.\n\nEconomists who study labour markets have begun to speak of the risk of \"hollowed out\" employment — a polarised economy in which highly compensated technical roles continue to grow at the top, low-wage service work continues to grow at the bottom, and the middle layer of clerical, administrative, and routine professional work shrinks. The polarisation is more pronounced in regions where the displaced workers cannot easily relocate or retrain.\n\nWhat follows from this is not a case for blocking automation, which is neither possible nor desirable, but a case for taking seriously the social investments — in education, in transitional income support, in regional development — that historically softened the transitions of earlier waves. Whether those investments will be made on the scale required is, by every measure, a political question rather than a technical one."
       }
     },
     {
       "id": "r27-q4",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "As used in the passage, the phrase 'hollow out' most nearly means:",
+      "difficulty": "hard",
+      "text": "According to the passage, what makes current automation harder to absorb than past waves?",
       "choices": [
-        "To physically destroy buildings and infrastructure",
-        "To gradually eliminate the central or most stable segment of a group",
-        "To reduce a country's total population significantly",
-        "To lower wages for all workers across all skill levels"
+        "It is concentrated in one sector that historically had no displaced workers.",
+        "It affects many sectors at once and is being deployed at an unusually fast pace.",
+        "It does not produce any new occupations to replace those it eliminates.",
+        "It only affects regions that lack any form of educational infrastructure."
       ],
       "answer": 1,
-      "explanation": "In context, 'hollow out the middle class' means gradually eroding its size and stability—leaving a gap between high earners and low earners—mirroring the literal meaning of making something empty at its core.",
+      "explanation": "The second paragraph names exactly these two features — cross-sectoral reach and faster pace — as the differences from earlier waves.",
       "wrongReasons": [
-        "A interprets the phrase too literally in a physical sense unrelated to economic context.",
-        "C conflates hollowing out an economic class with reducing total population.",
-        "D implies uniform wage cuts, but the passage describes divergence between high-skill and low-skill workers."
+        "A reverses the passage, which says current automation reaches many sectors simultaneously.",
+        "C contradicts the opening paragraph's observation about new occupations.",
+        "D narrows the effect to regions without infrastructure, which the passage does not assert."
       ],
       "passage": {
         "id": "r27-passage",
         "title": "The Social Impact of Automation",
-        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+        "body": "Every major wave of automation in modern history has provoked the same anxious prediction: this time, the machines will displace human workers in numbers that the labour market cannot absorb. The historical record so far has been more nuanced. New technologies have indeed eliminated entire occupations, but they have also created new ones in numbers large enough to keep aggregate employment growing. What changes from one wave to the next is which workers benefit and which are displaced, and at what speed.\n\nThe current wave is different from earlier ones in at least two ways. First, the technologies being deployed — machine learning systems, language models, and increasingly capable robotics — are not confined to a single sector. They reach into legal research, medical diagnostics, customer service, software engineering, and creative production simultaneously, rather than being absorbed slowly by one industry at a time. Second, the pace of deployment is faster than in previous waves, leaving workers and institutions less time to retrain and adapt.\n\nThese differences matter most at the community level. When a textile mill closed in a one-industry town a century ago, the disruption was severe but largely local, and the labour market in nearby cities could often absorb displaced workers within a few years. When a single technology displaces middle-skill jobs across multiple sectors of an entire regional economy simultaneously, the assumption that \"the next industry will hire them\" no longer holds in the same way.\n\nEconomists who study labour markets have begun to speak of the risk of \"hollowed out\" employment — a polarised economy in which highly compensated technical roles continue to grow at the top, low-wage service work continues to grow at the bottom, and the middle layer of clerical, administrative, and routine professional work shrinks. The polarisation is more pronounced in regions where the displaced workers cannot easily relocate or retrain.\n\nWhat follows from this is not a case for blocking automation, which is neither possible nor desirable, but a case for taking seriously the social investments — in education, in transitional income support, in regional development — that historically softened the transitions of earlier waves. Whether those investments will be made on the scale required is, by every measure, a political question rather than a technical one."
       }
     },
     {
       "id": "r27-q5",
       "category": "reading",
       "difficulty": "hard",
-      "text": "What is the author's primary purpose in writing this passage?",
+      "text": "Which of the following can be inferred from the closing paragraph?",
       "choices": [
-        "To celebrate the economic productivity gains made possible by automation",
-        "To warn that automation will inevitably destroy society and cannot be controlled",
-        "To argue that retraining programs have already proven effective in managing automation's impact",
-        "To analyze the unequal social consequences of automation and urge proactive policy responses"
+        "Social investments comparable to earlier transitions are unlikely without political will to fund them.",
+        "Education and transitional income support are technically impossible to design today.",
+        "Blocking automation is the only available response to widespread regional displacement.",
+        "Regional development programmes have historically been ineffective at softening labour transitions."
       ],
-      "answer": 2,
-      "explanation": "The author methodically examines who benefits and who suffers from automation, highlights risks to communities and social cohesion, and concludes by emphasizing that policy choices will determine long-term outcomes—a call to action grounded in analysis.",
+      "answer": 0,
+      "explanation": "The closing line frames the question of whether such investments will be made as 'a political question rather than a technical one', implying technical feasibility is not the obstacle — political will is.",
       "wrongReasons": [
-        "A focuses only on productivity gains; the passage explicitly addresses harms and inequality.",
-        "B overstates the author's position; the passage suggests problems can be managed with the right policies.",
-        "C is close but the passage does not claim retraining programs have already succeeded—it presents them as a necessary response, not a proven one."
+        "B reverses the implication; the passage treats the design challenge as soluble.",
+        "C is explicitly rejected in the same paragraph.",
+        "D contradicts the passage, which says such investments historically softened earlier transitions."
       ],
       "passage": {
         "id": "r27-passage",
         "title": "The Social Impact of Automation",
-        "body": "Automation has transformed industries throughout history, but the pace of change accelerated by artificial intelligence and robotics raises new questions about its social consequences. Unlike earlier waves of mechanization, which primarily displaced manual labor, modern automation increasingly threatens cognitive and service-sector jobs as well. Algorithms can now perform legal research, diagnose medical images, and write financial reports—tasks once considered beyond the reach of machines.\n\nThe economic effects are deeply unequal. Highly skilled workers who design, maintain, and work alongside automated systems often see their productivity—and wages—rise. Low- and middle-skill workers face stagnant wages or displacement without equivalent alternatives. This divergence contributes to growing income inequality and can hollow out the middle class in affected economies.\n\nSocial cohesion is also at risk. Communities built around a single industry are particularly vulnerable; when factories or call centers close, the effects ripple through local businesses, schools, and healthcare systems. Policymakers face pressure to respond with retraining programs, stronger social safety nets, and education systems that prepare workers for an automated economy. How societies manage this transition will shape both economic opportunity and social stability for generations."
+        "body": "Every major wave of automation in modern history has provoked the same anxious prediction: this time, the machines will displace human workers in numbers that the labour market cannot absorb. The historical record so far has been more nuanced. New technologies have indeed eliminated entire occupations, but they have also created new ones in numbers large enough to keep aggregate employment growing. What changes from one wave to the next is which workers benefit and which are displaced, and at what speed.\n\nThe current wave is different from earlier ones in at least two ways. First, the technologies being deployed — machine learning systems, language models, and increasingly capable robotics — are not confined to a single sector. They reach into legal research, medical diagnostics, customer service, software engineering, and creative production simultaneously, rather than being absorbed slowly by one industry at a time. Second, the pace of deployment is faster than in previous waves, leaving workers and institutions less time to retrain and adapt.\n\nThese differences matter most at the community level. When a textile mill closed in a one-industry town a century ago, the disruption was severe but largely local, and the labour market in nearby cities could often absorb displaced workers within a few years. When a single technology displaces middle-skill jobs across multiple sectors of an entire regional economy simultaneously, the assumption that \"the next industry will hire them\" no longer holds in the same way.\n\nEconomists who study labour markets have begun to speak of the risk of \"hollowed out\" employment — a polarised economy in which highly compensated technical roles continue to grow at the top, low-wage service work continues to grow at the bottom, and the middle layer of clerical, administrative, and routine professional work shrinks. The polarisation is more pronounced in regions where the displaced workers cannot easily relocate or retrain.\n\nWhat follows from this is not a case for blocking automation, which is neither possible nor desirable, but a case for taking seriously the social investments — in education, in transitional income support, in regional development — that historically softened the transitions of earlier waves. Whether those investments will be made on the scale required is, by every measure, a political question rather than a technical one."
       }
     },
     {
@@ -15557,241 +15572,241 @@
     {
       "id": "r39-q1",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "What is the main idea of the passage?",
+      "difficulty": "hard",
+      "text": "Which of the following best expresses the main argument of the passage?",
       "choices": [
-        "Advertising is primarily about providing consumers with truthful product information.",
-        "Most consumers are fully aware of and immune to advertising techniques.",
-        "Psychological principles such as emotional appeal and social proof are central to effective advertising.",
-        "Digital advertising is less effective than traditional print advertising."
+        "Contemporary advertising deliberately exploits cognitive biases identified by behavioural research.",
+        "Early twentieth-century advertising was more effective than modern data-driven campaigns.",
+        "Behavioural economics has largely succeeded in preventing manipulative marketing practices.",
+        "Loss aversion is the only cognitive bias relevant to modern consumer behaviour."
       ],
-      "answer": 2,
-      "explanation": "The passage focuses on how advertisers use psychological tactics — emotional appeals, social proof, and scarcity — to influence consumer behavior.",
+      "answer": 0,
+      "explanation": "The passage traces a progression from simple persuasion to a science-driven exploitation of biases like loss aversion, scarcity, and defaults, and closes with the explicit claim that advertising sets out to exploit the gap between how consumers think they decide and how they actually do.",
       "wrongReasons": [
-        "The passage describes advertising as often manipulative and emotion-driven, not primarily informational.",
-        "The passage implies consumers are frequently influenced without realizing it, contradicting the idea of immunity.",
-        "The passage does not compare digital and print advertising effectiveness."
+        "B reverses the passage's comparison; modern advertising is described as more sophisticated, not less effective.",
+        "C is unsupported and contradicted by the closing paragraph's concern about exploitation.",
+        "D overstates one example; the passage discusses several biases, not just loss aversion."
       ],
       "passage": {
         "id": "r39-passage",
         "title": "The Psychology of Advertising",
-        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+        "body": "Advertising has long borrowed from psychology, but the relationship has become considerably more sophisticated in the past few decades. Early twentieth-century campaigns relied on simple persuasion and brand repetition. Modern advertising, by contrast, is built on a substantial empirical literature about how human beings actually decide — a literature that has revealed cognitive biases more useful to marketers than to the consumers who fall under them.\n\nOne of the most heavily exploited biases is loss aversion. Pioneered in the experimental work of Daniel Kahneman and Amos Tversky, loss aversion describes the asymmetry between the way people experience gains and the way they experience losses: a loss of a given size feels roughly twice as bad as a gain of the same size feels good. Advertising campaigns built around fear of missing out — limited-time offers, countdown timers, low-stock warnings — exploit this asymmetry by reframing a routine purchase decision as the avoidance of a perceived loss.\n\nThe same logic underlies the broader category of scarcity advertising. When a product is presented as in short supply or as accessible only to a limited audience, the perceived value of acquiring it rises sharply, regardless of the product's underlying utility. The effect is amplified when the audience presumed to be excluded is socially desirable. Younger consumers, who are more likely to encounter such messaging on social media and to evaluate decisions in social terms, appear to be particularly susceptible.\n\nA related body of research concerns the role of default settings. When a particular option is selected automatically — a paid subscription that continues unless cancelled, an extended warranty added at checkout, a higher service tier presented as standard — the share of consumers who accept it rises dramatically. This is not because the default is preferred on its merits but because the cognitive cost of changing it slightly exceeds the perceived benefit of doing so.\n\nTaken together, these findings raise a question that the field of behavioural economics is increasingly unwilling to ignore. Advertising once promised, however loosely, to inform consumers and reflect their preferences. A more honest description of contemporary advertising would be that it sets out, very deliberately, to exploit the gap between how consumers think they decide and how they actually do."
       }
     },
     {
       "id": "r39-q2",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "According to the passage, which demographic is particularly targeted by FOMO-based marketing?",
+      "difficulty": "hard",
+      "text": "What is the primary function of the third paragraph?",
       "choices": [
-        "Older adults with established brand loyalty.",
-        "Business-to-business corporate clients.",
-        "Rural consumers who rely on print media.",
-        "Younger demographics in digital marketing campaigns."
+        "To describe how scarcity messaging amplifies perceived value beyond underlying utility.",
+        "To introduce Daniel Kahneman and Amos Tversky's empirical research on loss aversion.",
+        "To compare social media advertising with traditional broadcast advertising.",
+        "To explain how default settings determine the share of consumers who accept an option."
       ],
-      "answer": 3,
-      "explanation": "The passage explicitly states that FOMO 'is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.'",
+      "answer": 0,
+      "explanation": "The third paragraph opens with 'the broader category of scarcity advertising' and develops how artificially restricting access amplifies perceived value — that is its central work.",
       "wrongReasons": [
-        "The passage does not mention older adults in connection with FOMO; they are not identified as the target group.",
-        "The passage discusses consumer advertising, not B2B marketing strategies.",
-        "The passage links FOMO to digital marketing, not print media or rural consumers."
+        "B describes the second paragraph, which is about loss aversion.",
+        "C is too narrow; the paragraph mentions social media only as an example, not a comparison.",
+        "D describes the fourth paragraph, which addresses default settings."
       ],
       "passage": {
         "id": "r39-passage",
         "title": "The Psychology of Advertising",
-        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+        "body": "Advertising has long borrowed from psychology, but the relationship has become considerably more sophisticated in the past few decades. Early twentieth-century campaigns relied on simple persuasion and brand repetition. Modern advertising, by contrast, is built on a substantial empirical literature about how human beings actually decide — a literature that has revealed cognitive biases more useful to marketers than to the consumers who fall under them.\n\nOne of the most heavily exploited biases is loss aversion. Pioneered in the experimental work of Daniel Kahneman and Amos Tversky, loss aversion describes the asymmetry between the way people experience gains and the way they experience losses: a loss of a given size feels roughly twice as bad as a gain of the same size feels good. Advertising campaigns built around fear of missing out — limited-time offers, countdown timers, low-stock warnings — exploit this asymmetry by reframing a routine purchase decision as the avoidance of a perceived loss.\n\nThe same logic underlies the broader category of scarcity advertising. When a product is presented as in short supply or as accessible only to a limited audience, the perceived value of acquiring it rises sharply, regardless of the product's underlying utility. The effect is amplified when the audience presumed to be excluded is socially desirable. Younger consumers, who are more likely to encounter such messaging on social media and to evaluate decisions in social terms, appear to be particularly susceptible.\n\nA related body of research concerns the role of default settings. When a particular option is selected automatically — a paid subscription that continues unless cancelled, an extended warranty added at checkout, a higher service tier presented as standard — the share of consumers who accept it rises dramatically. This is not because the default is preferred on its merits but because the cognitive cost of changing it slightly exceeds the perceived benefit of doing so.\n\nTaken together, these findings raise a question that the field of behavioural economics is increasingly unwilling to ignore. Advertising once promised, however loosely, to inform consumers and reflect their preferences. A more honest description of contemporary advertising would be that it sets out, very deliberately, to exploit the gap between how consumers think they decide and how they actually do."
       }
     },
     {
       "id": "r39-q3",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "Based on the passage, what can be inferred about a consumer who buys a product solely because a celebrity endorsed it?",
+      "difficulty": "hard",
+      "text": "As used in the second paragraph, the phrase 'loss aversion' most nearly refers to:",
       "choices": [
-        "The consumer has been influenced by social proof without necessarily assessing the product's merits.",
-        "The consumer has carefully evaluated the product's quality and found it superior.",
-        "The consumer is primarily motivated by the product's low price.",
-        "The consumer is immune to emotional advertising and relies only on facts."
+        "the systematic preference for avoiding losses over acquiring equivalent gains",
+        "the deliberate avoidance of advertising messages by sceptical consumers",
+        "a marketing strategy aimed at increasing the variety of products on offer",
+        "the rational rebalancing of investment risk by experienced market participants"
       ],
       "answer": 0,
-      "explanation": "The passage explains that social proof — including celebrity endorsements — leads consumers to 'perceive [a product] as trustworthy and desirable,' tapping into conformity rather than independent evaluation.",
+      "explanation": "The paragraph defines loss aversion as the asymmetry by which a given-size loss feels roughly twice as bad as a same-size gain feels good — i.e. systematic preference for avoiding losses over acquiring equivalent gains.",
       "wrongReasons": [
-        "Celebrity endorsement is a social proof tactic, not an objective quality indicator, so careful evaluation is not implied.",
-        "The passage links celebrity endorsement to social proof and desirability, not to price sensitivity.",
-        "Being influenced by a celebrity endorsement is precisely an example of emotional/social influence, not fact-based reasoning."
+        "B describes consumer behaviour, not the cognitive bias the term names.",
+        "C describes a marketing strategy, which has nothing to do with the psychological bias.",
+        "D describes a market-finance idea unrelated to the cognitive bias."
       ],
       "passage": {
         "id": "r39-passage",
         "title": "The Psychology of Advertising",
-        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+        "body": "Advertising has long borrowed from psychology, but the relationship has become considerably more sophisticated in the past few decades. Early twentieth-century campaigns relied on simple persuasion and brand repetition. Modern advertising, by contrast, is built on a substantial empirical literature about how human beings actually decide — a literature that has revealed cognitive biases more useful to marketers than to the consumers who fall under them.\n\nOne of the most heavily exploited biases is loss aversion. Pioneered in the experimental work of Daniel Kahneman and Amos Tversky, loss aversion describes the asymmetry between the way people experience gains and the way they experience losses: a loss of a given size feels roughly twice as bad as a gain of the same size feels good. Advertising campaigns built around fear of missing out — limited-time offers, countdown timers, low-stock warnings — exploit this asymmetry by reframing a routine purchase decision as the avoidance of a perceived loss.\n\nThe same logic underlies the broader category of scarcity advertising. When a product is presented as in short supply or as accessible only to a limited audience, the perceived value of acquiring it rises sharply, regardless of the product's underlying utility. The effect is amplified when the audience presumed to be excluded is socially desirable. Younger consumers, who are more likely to encounter such messaging on social media and to evaluate decisions in social terms, appear to be particularly susceptible.\n\nA related body of research concerns the role of default settings. When a particular option is selected automatically — a paid subscription that continues unless cancelled, an extended warranty added at checkout, a higher service tier presented as standard — the share of consumers who accept it rises dramatically. This is not because the default is preferred on its merits but because the cognitive cost of changing it slightly exceeds the perceived benefit of doing so.\n\nTaken together, these findings raise a question that the field of behavioural economics is increasingly unwilling to ignore. Advertising once promised, however loosely, to inform consumers and reflect their preferences. A more honest description of contemporary advertising would be that it sets out, very deliberately, to exploit the gap between how consumers think they decide and how they actually do."
       }
     },
     {
       "id": "r39-q4",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "As used in the passage, the phrase 'loss aversion' most nearly refers to:",
+      "difficulty": "hard",
+      "text": "According to the passage, why are default settings such an effective tool for advertisers?",
       "choices": [
-        "A consumer's preference for lower prices over brand loyalty.",
-        "A cognitive bias where people strongly prefer avoiding losses over acquiring equivalent gains.",
-        "The tendency to avoid purchasing unfamiliar products.",
-        "An advertiser's strategy of reducing product inventory to cut costs."
+        "Defaults reflect the option that consumers genuinely prefer after careful evaluation.",
+        "Defaults are perceived as endorsements by trusted third-party reviewers in the industry.",
+        "Changing a default imposes a cognitive cost that slightly exceeds the perceived benefit.",
+        "Defaults are typically the cheapest of the available options on offer to consumers."
       ],
-      "answer": 1,
-      "explanation": "The passage uses 'loss aversion' in the context of scarcity tactics that make consumers fear missing out on an opportunity — consistent with the psychological bias of weighting losses more heavily than gains.",
+      "answer": 2,
+      "explanation": "The fourth paragraph states explicitly that the elevated acceptance rate is not because the default is preferred on its merits but because the cognitive cost of changing it slightly exceeds the perceived benefit.",
       "wrongReasons": [
-        "Loss aversion relates to the psychology of missing out, not simply price preference.",
-        "Avoiding unfamiliar products describes neophobia, not loss aversion as described in the passage.",
-        "Loss aversion is described as a consumer cognitive bias exploited by advertisers, not an inventory management strategy."
+        "A contradicts the passage's explicit claim about why defaults work.",
+        "B introduces third-party endorsement, which the passage does not mention.",
+        "D describes a price claim that the passage does not make and that would not match the warranty/subscription examples."
       ],
       "passage": {
         "id": "r39-passage",
         "title": "The Psychology of Advertising",
-        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+        "body": "Advertising has long borrowed from psychology, but the relationship has become considerably more sophisticated in the past few decades. Early twentieth-century campaigns relied on simple persuasion and brand repetition. Modern advertising, by contrast, is built on a substantial empirical literature about how human beings actually decide — a literature that has revealed cognitive biases more useful to marketers than to the consumers who fall under them.\n\nOne of the most heavily exploited biases is loss aversion. Pioneered in the experimental work of Daniel Kahneman and Amos Tversky, loss aversion describes the asymmetry between the way people experience gains and the way they experience losses: a loss of a given size feels roughly twice as bad as a gain of the same size feels good. Advertising campaigns built around fear of missing out — limited-time offers, countdown timers, low-stock warnings — exploit this asymmetry by reframing a routine purchase decision as the avoidance of a perceived loss.\n\nThe same logic underlies the broader category of scarcity advertising. When a product is presented as in short supply or as accessible only to a limited audience, the perceived value of acquiring it rises sharply, regardless of the product's underlying utility. The effect is amplified when the audience presumed to be excluded is socially desirable. Younger consumers, who are more likely to encounter such messaging on social media and to evaluate decisions in social terms, appear to be particularly susceptible.\n\nA related body of research concerns the role of default settings. When a particular option is selected automatically — a paid subscription that continues unless cancelled, an extended warranty added at checkout, a higher service tier presented as standard — the share of consumers who accept it rises dramatically. This is not because the default is preferred on its merits but because the cognitive cost of changing it slightly exceeds the perceived benefit of doing so.\n\nTaken together, these findings raise a question that the field of behavioural economics is increasingly unwilling to ignore. Advertising once promised, however loosely, to inform consumers and reflect their preferences. A more honest description of contemporary advertising would be that it sets out, very deliberately, to exploit the gap between how consumers think they decide and how they actually do."
       }
     },
     {
       "id": "r39-q5",
       "category": "reading",
       "difficulty": "hard",
-      "text": "What is the author's primary purpose in concluding with the sentence about 'more conscious, informed choices'?",
+      "text": "Which of the following can be inferred from the closing paragraph?",
       "choices": [
-        "To suggest that advertising should be banned because it manipulates consumers.",
-        "To imply that only educated consumers are capable of making good decisions.",
-        "To empower readers by framing knowledge of advertising psychology as a tool for better decision-making.",
-        "To criticize advertisers for using unethical practices in their campaigns."
+        "Advertising's earlier self-description as informational has become increasingly difficult to sustain.",
+        "Behavioural economics has been unable to influence the ethical standards of advertising.",
+        "Most consumers are now fully aware of the cognitive biases that shape their decisions.",
+        "Cognitive biases identified by Kahneman and Tversky have been largely disproved by recent research."
       ],
-      "answer": 2,
-      "explanation": "The final sentence shifts from description to empowerment, suggesting that awareness of these psychological mechanisms enables consumers to exercise greater agency — a constructive, informative purpose.",
+      "answer": 0,
+      "explanation": "The closing paragraph contrasts the earlier promise that advertising would inform consumers with what it actually does today, implying that the informational self-description is harder to defend now.",
       "wrongReasons": [
-        "The passage does not call for banning advertising; it takes an informative, not activist, stance.",
-        "The passage does not suggest that only educated people make good choices; the implication is that all readers can benefit from awareness.",
-        "While the passage describes tactics that some might find manipulative, it does not explicitly label them unethical or condemn advertisers."
+        "B contradicts the paragraph's claim that behavioural economics is 'increasingly unwilling to ignore' the question.",
+        "C is unsupported; the whole passage rests on the gap between consumer self-perception and actual decision-making.",
+        "D contradicts the passage, which treats those biases as a settled research basis for current advertising."
       ],
       "passage": {
         "id": "r39-passage",
         "title": "The Psychology of Advertising",
-        "body": "Modern advertising is far more than the simple promotion of products and services. At its core, it is a sophisticated discipline rooted in psychological research, designed to shape consumer attitudes and drive purchasing behavior. Advertisers draw on a range of cognitive and emotional techniques to capture attention and build brand loyalty.\n\nOne of the most powerful tools is emotional appeal. Commercials that evoke happiness, nostalgia, or even mild anxiety tend to be more memorable and persuasive than those that rely solely on factual information. Fear-of-missing-out, or FOMO, is a particularly effective emotional lever, especially in digital marketing campaigns targeting younger demographics.\n\nSocial proof is another cornerstone of advertising psychology. When consumers see that a product is popular, endorsed by celebrities, or highly rated by peers, they are more likely to perceive it as trustworthy and desirable. This phenomenon taps into deep-seated human tendencies toward conformity and group validation.\n\nScarcity tactics — such as limited-time offers and low-stock warnings — exploit loss aversion, a well-documented cognitive bias. By framing a purchase as an opportunity that could be lost, advertisers create urgency that bypasses rational deliberation. Understanding these mechanisms helps consumers make more conscious, informed choices."
+        "body": "Advertising has long borrowed from psychology, but the relationship has become considerably more sophisticated in the past few decades. Early twentieth-century campaigns relied on simple persuasion and brand repetition. Modern advertising, by contrast, is built on a substantial empirical literature about how human beings actually decide — a literature that has revealed cognitive biases more useful to marketers than to the consumers who fall under them.\n\nOne of the most heavily exploited biases is loss aversion. Pioneered in the experimental work of Daniel Kahneman and Amos Tversky, loss aversion describes the asymmetry between the way people experience gains and the way they experience losses: a loss of a given size feels roughly twice as bad as a gain of the same size feels good. Advertising campaigns built around fear of missing out — limited-time offers, countdown timers, low-stock warnings — exploit this asymmetry by reframing a routine purchase decision as the avoidance of a perceived loss.\n\nThe same logic underlies the broader category of scarcity advertising. When a product is presented as in short supply or as accessible only to a limited audience, the perceived value of acquiring it rises sharply, regardless of the product's underlying utility. The effect is amplified when the audience presumed to be excluded is socially desirable. Younger consumers, who are more likely to encounter such messaging on social media and to evaluate decisions in social terms, appear to be particularly susceptible.\n\nA related body of research concerns the role of default settings. When a particular option is selected automatically — a paid subscription that continues unless cancelled, an extended warranty added at checkout, a higher service tier presented as standard — the share of consumers who accept it rises dramatically. This is not because the default is preferred on its merits but because the cognitive cost of changing it slightly exceeds the perceived benefit of doing so.\n\nTaken together, these findings raise a question that the field of behavioural economics is increasingly unwilling to ignore. Advertising once promised, however loosely, to inform consumers and reflect their preferences. A more honest description of contemporary advertising would be that it sets out, very deliberately, to exploit the gap between how consumers think they decide and how they actually do."
       }
     },
     {
       "id": "r40-q1",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "What is the main idea of the passage?",
+      "difficulty": "hard",
+      "text": "Which of the following best states the central argument of the passage?",
       "choices": [
-        "Oceans are primarily responsible for producing the oxygen humans breathe.",
-        "Human industrial activity has no measurable effect on ocean chemistry.",
-        "Carbon dioxide dissolves in ocean water but does not affect marine ecosystems.",
-        "Oceans absorb and store significant amounts of carbon dioxide, playing a critical role in regulating Earth's climate."
+        "Ocean carbon-storage processes are highly efficient and unlikely to weaken under climate change.",
+        "The ocean stores most of Earth's carbon, but its capacity to keep doing so is no longer assured.",
+        "The biological pump has already collapsed in most regions of the world's oceans.",
+        "Surface stratification has had no measurable effect on the rate of ocean carbon uptake."
       ],
-      "answer": 3,
-      "explanation": "The passage describes how oceans absorb atmospheric CO2 through physical and biological processes, and how this carbon storage function is vital for climate regulation.",
+      "answer": 1,
+      "explanation": "The passage establishes the ocean as the dominant carbon reservoir, describes how it stores carbon, identifies climate-driven risks to both pumps, and closes by warning that the ocean's role cannot be taken for granted.",
       "wrongReasons": [
-        "While oceans do produce oxygen, the passage focuses on carbon storage, not oxygen production.",
-        "The passage explicitly states that increased CO2 absorption due to human activity is causing ocean acidification.",
-        "The passage directly links CO2 dissolution in oceans to ocean acidification, which affects marine ecosystems."
+        "A contradicts the fourth paragraph's discussion of weakening solubility.",
+        "C overstates the case; the passage says the biological pump's response is variable, not that it has collapsed.",
+        "D contradicts the explicit statement that stratification slows downward mixing."
       ],
       "passage": {
         "id": "r40-passage",
         "title": "How Oceans Store Carbon",
-        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+        "body": "The ocean is the largest active reservoir of carbon on the planet, holding roughly fifty times as much carbon as the atmosphere. It moves carbon between the surface and the deep sea through a set of overlapping processes that researchers describe collectively as the carbon pump. Understanding how this pump works has become unusually urgent in the past two decades, because changes in its efficiency are now among the strongest determinants of how much of human-emitted carbon dioxide ends up in the air and how much is removed from it.\n\nMost of the carbon that enters the ocean from the atmosphere does so through simple physical exchange. Carbon dioxide dissolves more readily in cold, dense water than in warm water, so the polar oceans absorb a disproportionate share. As that cold surface water sinks into the deep, it carries dissolved carbon with it, sequestering it from contact with the atmosphere for centuries at a time. This part of the system is sometimes called the solubility pump.\n\nA second component, the biological pump, depends on living organisms. Microscopic phytoplankton near the sunlit surface fix carbon through photosynthesis. When they die or are eaten and excreted, a small fraction of the resulting organic material sinks below the depth at which it would otherwise be respired back into the water column. That sinking carbon — sometimes called marine snow — is the basis of a long-term storage process that, in aggregate, removes billions of tonnes of carbon from the surface each year.\n\nThe two pumps respond to climate change in different ways. The solubility pump is weakening because warm water dissolves less carbon dioxide and because greater surface stratification slows the mixing that brings carbon-laden water downward. The biological pump is more difficult to project, since it depends on the productivity of plankton communities whose responses to warming and acidification vary by region.\n\nWhat is clear is that the ocean's role as a carbon sink cannot be taken for granted. Each tonne of carbon stored beneath the surface is a tonne that does not heat the atmosphere, and any slowdown in either pump translates fairly directly into faster atmospheric warming. The ocean, in short, has been doing humanity an enormous favour — and there is no guarantee it will continue to do so indefinitely."
       }
     },
     {
       "id": "r40-q2",
       "category": "reading",
-      "difficulty": "easy",
-      "text": "According to the passage, what percentage of annually released atmospheric CO2 do oceans absorb?",
+      "difficulty": "hard",
+      "text": "What is the primary function of the fourth paragraph?",
       "choices": [
-        "About twenty-five percent.",
-        "About ten percent.",
-        "About fifty percent.",
-        "About seventy percent."
+        "To define the solubility pump in terms of physical exchange between air and surface water.",
+        "To explain how warming and stratification affect each of the two ocean carbon pumps differently.",
+        "To describe the biological role of phytoplankton in fixing surface carbon through photosynthesis.",
+        "To recommend specific climate policies for reducing global ocean acidification."
       ],
-      "answer": 0,
-      "explanation": "The passage states that oceans absorb 'approximately twenty-five percent of the carbon dioxide released into the atmosphere each year.'",
+      "answer": 1,
+      "explanation": "The fourth paragraph compares the two pumps' responses to climate change — the solubility pump is weakening because of warmer water and stratification, while the biological pump's response is regionally variable.",
       "wrongReasons": [
-        "Ten percent is not mentioned in the passage as the absorption figure.",
-        "Fifty percent overstates the figure given in the passage.",
-        "Seventy percent refers to the ocean's coverage of Earth's surface, not its CO2 absorption rate."
+        "A describes the second paragraph, which defines the solubility pump.",
+        "C describes the third paragraph, which introduces the biological pump.",
+        "D is unsupported; the passage describes mechanisms, not policy recommendations."
       ],
       "passage": {
         "id": "r40-passage",
         "title": "How Oceans Store Carbon",
-        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+        "body": "The ocean is the largest active reservoir of carbon on the planet, holding roughly fifty times as much carbon as the atmosphere. It moves carbon between the surface and the deep sea through a set of overlapping processes that researchers describe collectively as the carbon pump. Understanding how this pump works has become unusually urgent in the past two decades, because changes in its efficiency are now among the strongest determinants of how much of human-emitted carbon dioxide ends up in the air and how much is removed from it.\n\nMost of the carbon that enters the ocean from the atmosphere does so through simple physical exchange. Carbon dioxide dissolves more readily in cold, dense water than in warm water, so the polar oceans absorb a disproportionate share. As that cold surface water sinks into the deep, it carries dissolved carbon with it, sequestering it from contact with the atmosphere for centuries at a time. This part of the system is sometimes called the solubility pump.\n\nA second component, the biological pump, depends on living organisms. Microscopic phytoplankton near the sunlit surface fix carbon through photosynthesis. When they die or are eaten and excreted, a small fraction of the resulting organic material sinks below the depth at which it would otherwise be respired back into the water column. That sinking carbon — sometimes called marine snow — is the basis of a long-term storage process that, in aggregate, removes billions of tonnes of carbon from the surface each year.\n\nThe two pumps respond to climate change in different ways. The solubility pump is weakening because warm water dissolves less carbon dioxide and because greater surface stratification slows the mixing that brings carbon-laden water downward. The biological pump is more difficult to project, since it depends on the productivity of plankton communities whose responses to warming and acidification vary by region.\n\nWhat is clear is that the ocean's role as a carbon sink cannot be taken for granted. Each tonne of carbon stored beneath the surface is a tonne that does not heat the atmosphere, and any slowdown in either pump translates fairly directly into faster atmospheric warming. The ocean, in short, has been doing humanity an enormous favour — and there is no guarantee it will continue to do so indefinitely."
       }
     },
     {
       "id": "r40-q3",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "What can be inferred about the long-term consequences if human CO2 emissions continue to rise?",
+      "difficulty": "hard",
+      "text": "As used in the passage, the word 'sequestering' most nearly means:",
       "choices": [
-        "Phytoplankton populations will expand rapidly, absorbing all excess CO2.",
-        "The ocean's ability to buffer climate change will weaken, potentially speeding up global warming.",
-        "The ocean will become more alkaline, benefiting coral reef ecosystems.",
-        "Cold surface water will warm and rise, eliminating the physical pump permanently."
+        "isolating something from a process it would otherwise rejoin",
+        "concentrating a substance into a single small, accessible region",
+        "publicly recording a quantity for future regulatory inspection",
+        "extracting a useful resource for industrial reprocessing later"
       ],
-      "answer": 1,
-      "explanation": "The passage warns that if emissions are not reduced, 'the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change,' implying a feedback loop worsening global warming.",
+      "answer": 0,
+      "explanation": "The passage says dissolved carbon is carried into the deep sea and held there for centuries — i.e. isolated from contact with the atmosphere, which is the carbon-cycle process it would otherwise rejoin.",
       "wrongReasons": [
-        "The passage does not predict phytoplankton expansion; acidification threatens marine ecosystems, including phytoplankton.",
-        "The passage describes acidification as a drop in pH (more acidic), not an increase in alkalinity.",
-        "The passage does not claim the physical pump will be permanently eliminated; it warns about diminished buffering capacity overall."
+        "B describes concentration into an accessible region, the opposite of the deep-sea isolation described.",
+        "C describes record-keeping, which is unrelated to the physical-cycle sense used here.",
+        "D describes industrial extraction, which the passage does not invoke."
       ],
       "passage": {
         "id": "r40-passage",
         "title": "How Oceans Store Carbon",
-        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+        "body": "The ocean is the largest active reservoir of carbon on the planet, holding roughly fifty times as much carbon as the atmosphere. It moves carbon between the surface and the deep sea through a set of overlapping processes that researchers describe collectively as the carbon pump. Understanding how this pump works has become unusually urgent in the past two decades, because changes in its efficiency are now among the strongest determinants of how much of human-emitted carbon dioxide ends up in the air and how much is removed from it.\n\nMost of the carbon that enters the ocean from the atmosphere does so through simple physical exchange. Carbon dioxide dissolves more readily in cold, dense water than in warm water, so the polar oceans absorb a disproportionate share. As that cold surface water sinks into the deep, it carries dissolved carbon with it, sequestering it from contact with the atmosphere for centuries at a time. This part of the system is sometimes called the solubility pump.\n\nA second component, the biological pump, depends on living organisms. Microscopic phytoplankton near the sunlit surface fix carbon through photosynthesis. When they die or are eaten and excreted, a small fraction of the resulting organic material sinks below the depth at which it would otherwise be respired back into the water column. That sinking carbon — sometimes called marine snow — is the basis of a long-term storage process that, in aggregate, removes billions of tonnes of carbon from the surface each year.\n\nThe two pumps respond to climate change in different ways. The solubility pump is weakening because warm water dissolves less carbon dioxide and because greater surface stratification slows the mixing that brings carbon-laden water downward. The biological pump is more difficult to project, since it depends on the productivity of plankton communities whose responses to warming and acidification vary by region.\n\nWhat is clear is that the ocean's role as a carbon sink cannot be taken for granted. Each tonne of carbon stored beneath the surface is a tonne that does not heat the atmosphere, and any slowdown in either pump translates fairly directly into faster atmospheric warming. The ocean, in short, has been doing humanity an enormous favour — and there is no guarantee it will continue to do so indefinitely."
       }
     },
     {
       "id": "r40-q4",
       "category": "reading",
-      "difficulty": "medium",
-      "text": "As used in the passage, the word 'sequestered' most nearly means:",
+      "difficulty": "hard",
+      "text": "According to the passage, why do the polar oceans absorb a disproportionate share of atmospheric CO2?",
       "choices": [
-        "Released rapidly into the atmosphere.",
-        "Converted into oxygen through photosynthesis.",
-        "Isolated and stored away for a long period.",
-        "Distributed evenly across the ocean's surface."
+        "Because phytoplankton populations near the poles fix carbon much more rapidly than tropical populations.",
+        "Because cold dense water dissolves more carbon dioxide than warm water does.",
+        "Because polar regions lack the surface stratification that limits deep-water mixing elsewhere.",
+        "Because international treaties direct most carbon-uptake research to high-latitude regions."
       ],
-      "answer": 2,
-      "explanation": "The passage says dissolved carbon sinks into the deep ocean 'where it can remain sequestered for centuries,' meaning it is stored and isolated from the atmosphere for a long time.",
+      "answer": 1,
+      "explanation": "The second paragraph states explicitly that carbon dioxide dissolves more readily in cold, dense water than in warm water, so the polar oceans absorb a disproportionate share.",
       "wrongReasons": [
-        "The passage says carbon is carried down and stored, not released — the opposite of sequestered.",
-        "Conversion to oxygen describes photosynthesis, which is the biological pump's mechanism, not what sequestered means.",
-        "The passage describes carbon sinking into the deep ocean, not being distributed across the surface."
+        "A confuses the solubility pump (paragraph 2) with the biological pump (paragraph 3).",
+        "C introduces stratification, which the passage describes as a slowing factor, not the polar-uptake mechanism.",
+        "D introduces treaties unrelated to the physical-chemistry explanation given."
       ],
       "passage": {
         "id": "r40-passage",
         "title": "How Oceans Store Carbon",
-        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+        "body": "The ocean is the largest active reservoir of carbon on the planet, holding roughly fifty times as much carbon as the atmosphere. It moves carbon between the surface and the deep sea through a set of overlapping processes that researchers describe collectively as the carbon pump. Understanding how this pump works has become unusually urgent in the past two decades, because changes in its efficiency are now among the strongest determinants of how much of human-emitted carbon dioxide ends up in the air and how much is removed from it.\n\nMost of the carbon that enters the ocean from the atmosphere does so through simple physical exchange. Carbon dioxide dissolves more readily in cold, dense water than in warm water, so the polar oceans absorb a disproportionate share. As that cold surface water sinks into the deep, it carries dissolved carbon with it, sequestering it from contact with the atmosphere for centuries at a time. This part of the system is sometimes called the solubility pump.\n\nA second component, the biological pump, depends on living organisms. Microscopic phytoplankton near the sunlit surface fix carbon through photosynthesis. When they die or are eaten and excreted, a small fraction of the resulting organic material sinks below the depth at which it would otherwise be respired back into the water column. That sinking carbon — sometimes called marine snow — is the basis of a long-term storage process that, in aggregate, removes billions of tonnes of carbon from the surface each year.\n\nThe two pumps respond to climate change in different ways. The solubility pump is weakening because warm water dissolves less carbon dioxide and because greater surface stratification slows the mixing that brings carbon-laden water downward. The biological pump is more difficult to project, since it depends on the productivity of plankton communities whose responses to warming and acidification vary by region.\n\nWhat is clear is that the ocean's role as a carbon sink cannot be taken for granted. Each tonne of carbon stored beneath the surface is a tonne that does not heat the atmosphere, and any slowdown in either pump translates fairly directly into faster atmospheric warming. The ocean, in short, has been doing humanity an enormous favour — and there is no guarantee it will continue to do so indefinitely."
       }
     },
     {
       "id": "r40-q5",
       "category": "reading",
       "difficulty": "hard",
-      "text": "What is the author's primary purpose in this passage?",
+      "text": "Which of the following can be inferred from the closing paragraph?",
       "choices": [
-        "To celebrate the ocean's resilience and its ability to solve the climate crisis independently.",
-        "To argue that phytoplankton are more important than all other climate solutions combined.",
-        "To present a purely scientific description of ocean chemistry with no implications for human behavior.",
-        "To inform readers about how oceans store carbon while cautioning about the risks of continued emissions."
+        "Future atmospheric warming will depend in part on whether the ocean's carbon pumps continue at their current rate.",
+        "The ocean's contribution to global carbon storage has been steady for at least the past century.",
+        "Slowing the carbon pump by half would have only a small effect on the atmosphere.",
+        "Humans have so far stored more carbon in the ocean than the ocean stores naturally."
       ],
-      "answer": 3,
-      "explanation": "The passage explains the mechanisms of ocean carbon storage and then pivots to a warning about acidification and the risk of diminishing the ocean's buffering capacity — combining information with a cautionary message about emissions.",
+      "answer": 0,
+      "explanation": "The closing paragraph says any slowdown in either pump translates fairly directly into faster atmospheric warming and that there is no guarantee the ocean will continue to do humanity its favour indefinitely.",
       "wrongReasons": [
-        "The passage does not suggest the ocean can solve the climate crisis on its own; it warns the opposite — that the ocean's capacity may be overwhelmed.",
-        "Phytoplankton are one part of the biological pump described, but the passage does not claim they are superior to other climate solutions.",
-        "The final paragraph explicitly ties ocean chemistry to human emissions and climate consequences, making it relevant to human behavior."
+        "B contradicts the passage's emphasis on changes in pump efficiency.",
+        "C reverses the closing argument, which says the effect on the atmosphere is direct and significant.",
+        "D is unsupported; the passage compares atmospheric vs. ocean stocks, not human additions vs. natural storage."
       ],
       "passage": {
         "id": "r40-passage",
         "title": "How Oceans Store Carbon",
-        "body": "Oceans cover more than seventy percent of Earth's surface and serve as the planet's largest active carbon sink. Through a combination of physical, chemical, and biological processes, the world's oceans absorb approximately twenty-five percent of the carbon dioxide released into the atmosphere each year, playing an indispensable role in moderating global climate change.\n\nThe physical pump operates through simple gas exchange: CO2 dissolves into cold surface water, which is denser and sinks, carrying dissolved carbon into the deep ocean where it can remain sequestered for centuries. The biological pump complements this process as phytoplankton — microscopic marine plants — absorb CO2 through photosynthesis. When these organisms die, they sink and decompose, transferring carbon to the ocean floor.\n\nHowever, as atmospheric CO2 concentrations rise due to human industrial activity, oceans are absorbing more carbon than in previous centuries. This increased absorption is causing ocean acidification — a drop in the pH of seawater that threatens coral reefs, shellfish, and the broader marine food web. Scientists warn that if emissions are not reduced, the ocean's capacity to act as a carbon buffer may be significantly diminished, accelerating the pace of climate change."
+        "body": "The ocean is the largest active reservoir of carbon on the planet, holding roughly fifty times as much carbon as the atmosphere. It moves carbon between the surface and the deep sea through a set of overlapping processes that researchers describe collectively as the carbon pump. Understanding how this pump works has become unusually urgent in the past two decades, because changes in its efficiency are now among the strongest determinants of how much of human-emitted carbon dioxide ends up in the air and how much is removed from it.\n\nMost of the carbon that enters the ocean from the atmosphere does so through simple physical exchange. Carbon dioxide dissolves more readily in cold, dense water than in warm water, so the polar oceans absorb a disproportionate share. As that cold surface water sinks into the deep, it carries dissolved carbon with it, sequestering it from contact with the atmosphere for centuries at a time. This part of the system is sometimes called the solubility pump.\n\nA second component, the biological pump, depends on living organisms. Microscopic phytoplankton near the sunlit surface fix carbon through photosynthesis. When they die or are eaten and excreted, a small fraction of the resulting organic material sinks below the depth at which it would otherwise be respired back into the water column. That sinking carbon — sometimes called marine snow — is the basis of a long-term storage process that, in aggregate, removes billions of tonnes of carbon from the surface each year.\n\nThe two pumps respond to climate change in different ways. The solubility pump is weakening because warm water dissolves less carbon dioxide and because greater surface stratification slows the mixing that brings carbon-laden water downward. The biological pump is more difficult to project, since it depends on the productivity of plankton communities whose responses to warming and acidification vary by region.\n\nWhat is clear is that the ocean's role as a carbon sink cannot be taken for granted. Each tonne of carbon stored beneath the surface is a tonne that does not heat the atmosphere, and any slowdown in either pump translates fairly directly into faster atmospheric warming. The ocean, in short, has been doing humanity an enormous favour — and there is no guarantee it will continue to do so indefinitely."
       }
     },
     {

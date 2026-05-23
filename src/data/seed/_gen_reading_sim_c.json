@@ -120,24 +120,23 @@
         "body": "Most volcanic eruptions are local affairs: lava and ash damage the surrounding landscape, but the effects fade within months. A small minority of eruptions, however, are powerful enough to push gas high into the stratosphere, the layer of the atmosphere above weather. There the gas behaves very differently from anything that stays near the ground, and its consequences can be felt across the entire planet for several years.\n\nThe key ingredient is sulfur dioxide rather than ash. Once injected above the rain-bearing layers of the atmosphere, sulfur dioxide reacts with water vapor to form fine droplets of sulfuric acid called sulfate aerosols. These droplets reflect part of the incoming sunlight back into space without ever reaching the surface. After the 1991 eruption of Mount Pinatubo in the Philippines, satellite measurements showed average global temperatures fell by roughly half a degree Celsius for about two years — a small number in absolute terms, but a noticeable signal in the climate record. Larger historical eruptions left bigger traces. Following the 1815 explosion of Mount Tambora, much of the Northern Hemisphere endured the so-called \"Year Without a Summer,\" with frost in June ruining crops from New England to central Europe.\n\nFor historians, the value of these episodes lies in what they reveal about the connection between weather and human life. Tree rings, ice cores and harvest records align closely with the dates of major eruptions, and they often coincide with documented famines, migrations and political unrest. These case studies do not turn climate into a single cause of historical events, but they show that even a temporary cooling of one or two degrees, lasting only a few seasons, can ripple through agricultural societies in ways that contemporaries seldom traced back to a mountain on the other side of the world."
       }
     },
-
     {
       "id": "rsim12-q1",
       "category": "reading",
       "difficulty": "medium",
-      "text": "Which of the following best expresses the central argument of the passage?",
+      "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Default options have no measurable effect on the decisions people make.",
-        "Small changes in how a choice is framed — its default, ordering, or wording — can predictably shape decisions, which has produced both useful policy and ethical concerns.",
-        "Behavioral economists believe that humans always behave rationally.",
-        "Nudges always force people to act against their will."
+        "Choice architecture can guide decisions while preserving individual freedom of choice.",
+        "Nudges are a deceptive form of marketing aimed at exploiting cognitive biases.",
+        "Decision-makers always benefit from being given the maximum number of options.",
+        "Choice architecture has been abandoned by behavioural economists as ineffective."
       ],
-      "answer": 1,
-      "explanation": "The passage argues that minor changes to choice architecture (defaults, ordering, framing) can produce systematic shifts in behavior, used in public policy but also raising ethical questions about manipulation.",
+      "answer": 0,
+      "explanation": "The passage frames nudges and choice architecture as ways of guiding decisions while leaving options open — (A) preserves this core claim.",
       "wrongReasons": [
-        "The passage describes how defaults shift behavior, not the opposite.",
-        "Behavioral economics is defined precisely as the study of departures from rationality.",
-        "Nudges are described as preserving freedom of choice while shifting the path of least resistance."
+        "B reframes nudges as deceptive marketing, which the passage does not assert.",
+        "C contradicts the passage's discussion of how option-overload reduces decision quality.",
+        "D is unsupported."
       ],
       "passage": {
         "id": "rsim12-passage",
@@ -241,24 +240,23 @@
         "body": "Classical economics generally assumes that people, given the same information, will choose what serves them best. Behavioral economics began as a sustained challenge to that assumption. Carefully designed experiments showed that human decisions depend not only on the available options but also on how those options are presented — the order in which they appear, the unit in which a price is quoted, whether one alternative is marked as the default.\n\nA simple example comes from organ donation. Countries that ask citizens to opt into a donor registry have consistently lower participation than otherwise similar countries that enroll citizens by default and allow them to opt out. The legal commitment is identical; only the path of least resistance differs. Comparable patterns appear in retirement-savings plans, vaccine uptake, and the choice of greener appliances. Economists have come to call these design features the \"choice architecture\" of a decision, and small adjustments are sometimes called \"nudges\" — interventions that preserve every available option but make some easier to choose than others.\n\nNudges have entered mainstream public policy because they are usually cheap, sometimes effective, and explicitly non-coercive: anyone who notices the default can override it. They have also attracted criticism. If a government can predictably steer behavior by rearranging menus or wording, the question of who decides which way to steer becomes politically important. Some scholars argue that nudges are most defensible when their goals are transparent, when independent review can confirm that they actually serve the people being nudged, and when individuals retain a low-friction way to opt out. Behavioral findings, in other words, have given policymakers a powerful tool — and forced them to articulate the values that should govern its use."
       }
     },
-
     {
       "id": "rsim13-q1",
       "category": "reading",
       "difficulty": "medium",
-      "text": "Which of the following best summarizes the main idea of the passage?",
+      "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Migratory birds rely on a single, simple cue to find their way across continents.",
-        "Migratory birds combine multiple sources of orientation, including the sun, stars, landmarks and Earth's magnetic field, in a system that is robust precisely because no one cue would suffice alone.",
-        "Bird migration has been completely explained for several decades.",
-        "Magnetic navigation in birds has been disproved by recent experiments."
+        "Migrating birds use a combination of cues to navigate over thousands of kilometres.",
+        "Bird migration is now considered a purely instinctive behaviour with no learning involved.",
+        "Songbirds rely exclusively on the Earth's magnetic field for long-distance navigation.",
+        "Migration routes have remained completely unchanged since modern records began."
       ],
-      "answer": 1,
-      "explanation": "The passage emphasizes that no single sense is sufficient; birds integrate solar, stellar, landmark, and magnetic information, which makes the system robust against the failure of any one cue.",
+      "answer": 0,
+      "explanation": "The passage's central claim is that migrating birds combine multiple cues over long distances — (A) restates this.",
       "wrongReasons": [
-        "The passage argues against the single-cue view.",
-        "It explicitly says key parts of the mechanism are still being investigated.",
-        "Recent experiments have refined, not refuted, the magnetic component."
+        "B overstates by removing the learning component.",
+        "C overstates by limiting to one cue.",
+        "D contradicts what is known about route changes."
       ],
       "passage": {
         "id": "rsim13-passage",
@@ -362,7 +360,6 @@
         "body": "The annual migration of songbirds remains one of biology's most striking puzzles. Tens of millions of small birds, some weighing less than a coin, leave the northern forests each autumn and arrive months later at specific patches of forest thousands of kilometers away. They do this on a first attempt, with no opportunity to learn the route from older birds. Researchers have spent decades asking how a creature with so small a brain can solve a problem that took human navigators centuries to formalize.\n\nThe answer that has emerged is that no single sense explains it. During the day, migrating birds appear to use the position of the sun, correcting for its movement across the sky with an internal clock. At night, captive birds raised in planetariums learn the patterns of stars near the celestial pole and use that fixed point as a reference. Landmarks such as coastlines and mountain ranges provide local corrections, and many species rely on Earth's magnetic field to establish a compass direction even when the sky is overcast. Experiments in which one cue is disrupted typically show that the others can compensate, at least partially.\n\nThe magnetic sense has been particularly hard to pin down. There is good evidence that specialised cells in the bird's eye, together with iron-containing particles in the beak, contribute to the perception of magnetic information. The exact molecules involved are still being worked out, and the way the bird's brain combines magnetic data with other cues remains an active research question. What is clear, however, is that the robustness of bird migration depends precisely on this redundancy: a system relying on a single cue would have been pruned long ago by any cloudy season, any solar storm, any unfamiliar coastline. Multiple imperfect signals, integrated, produce reliable navigation across a hemisphere."
       }
     },
-
     {
       "id": "rsim14-q1",
       "category": "reading",
@@ -483,7 +480,6 @@
         "body": "For most of evolutionary history, the alternation of day and night was one of the most reliable signals available to living things. Bacteria, plants, insects, and vertebrates all developed internal clocks tuned to roughly twenty-four hours, with behavior, hormone levels, and even cell division shifting in step with the rising and setting of the sun. The widespread adoption of artificial light beginning in the nineteenth century changed that signal almost overnight, and the change has accelerated as cheap LED lighting now floods the sky from streets, parking lots, and advertising.\n\nEcologists describe the result as a new kind of pollution. Sea-turtle hatchlings emerging on beaches near coastal cities head toward the brightest horizon, which used to be the moonlit sea but is now often the row of resort lights inland; many die before reaching the water. Migratory songbirds, attracted to lit skyscrapers during night flights, collide with windows in numbers estimated in the hundreds of millions per year. Even trees near streetlights drop their autumn leaves later than their unlit neighbors, throwing off the timing of insects and animals that feed on those leaves. Human shift workers, exposed to bright artificial light at night, show measurable disruptions of melatonin and metabolic markers.\n\nUnlike chemical pollutants, light pollution can be reduced almost instantly by changes in design rather than long cleanups. Shielding fixtures so they direct light downward, switching to warmer color temperatures, and turning off non-essential lighting in the small hours have all been shown to restore portions of the natural night without compromising safety. The challenge is not technical so much as cultural: many communities equate brightness with security and progress, and rolling back the lit night requires persuading them that a darker sky is not a step backward but a recovered resource."
       }
     },
-
     {
       "id": "rsim15-q1",
       "category": "reading",
@@ -536,19 +532,19 @@
       "id": "rsim15-q3",
       "category": "reading",
       "difficulty": "medium",
-      "text": "Which of the following can be inferred from the passage about contemporary reactions to industrialization?",
+      "text": "As used in the third paragraph, the phrase 'quiet earthquake' most nearly means:",
       "choices": [
-        "Most contemporaries celebrated all aspects of industrial life.",
-        "Most contemporaries opposed all aspects of industrial life.",
-        "Reactions were mixed, with reports of harsh conditions provoking reform even as the period also produced gains such as rising literacy and improved public services.",
-        "Contemporaries paid no attention to the changes occurring around them."
+        "a transformation as sweeping as a disaster but felt only in retrospect",
+        "a literal seismic event measured during the period under discussion",
+        "a sudden collapse of public trust in industrial production methods",
+        "a brief and ultimately reversible change in working conditions"
       ],
-      "answer": 2,
-      "explanation": "Paragraph 3 explicitly notes both the protests at long shifts and child labour and the simultaneous gains in literacy and public services, supporting this mixed picture.",
+      "answer": 0,
+      "explanation": "The phrase is a metaphor for a sweeping transformation whose magnitude was understood only later. (A) preserves the figurative sense.",
       "wrongReasons": [
-        "The passage describes contemporary protest, not uniform celebration.",
-        "It also describes celebrated gains, not uniform opposition.",
-        "The passage describes substantial contemporary engagement with the issues."
+        "B reads the phrase literally, which the passage does not intend.",
+        "C narrows the meaning to public trust only.",
+        "D reverses the lasting nature of the change."
       ],
       "passage": {
         "id": "rsim15-passage",

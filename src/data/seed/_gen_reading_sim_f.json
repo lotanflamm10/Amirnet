@@ -6,17 +6,17 @@
       "difficulty": "medium",
       "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Antarctic ice cores reveal nothing about Earth's past atmosphere.",
-        "Antarctic ice cores preserve a continuous record of past atmospheres and temperatures, providing direct evidence of how greenhouse gases and climate have varied together over hundreds of thousands of years.",
-        "Greenhouse gases were always at modern levels in the past.",
-        "Ice cores have to be drilled from active volcanoes."
+        "Ice cores preserve a long record of past atmospheric composition and global climate.",
+        "Modern climate research no longer relies on ice cores after newer methods replaced them.",
+        "Ice cores show that atmospheric composition has never changed over geological time.",
+        "Climate history can be read only from tree rings, not from polar ice samples."
       ],
-      "answer": 1,
-      "explanation": "The passage describes how ice cores trap ancient air bubbles and isotopic signals, and how the resulting record shows long-term covariation between temperature and greenhouse gases — the central evidence cited for present-day concerns.",
+      "answer": 0,
+      "explanation": "The passage's central claim is that ice cores preserve a long record of past atmosphere and climate — (A) restates it.",
       "wrongReasons": [
-        "The passage shows ice cores yield rich climate information.",
-        "It explicitly describes large variation in greenhouse gases over time.",
-        "Ice cores are drilled in stable polar ice sheets, not volcanoes."
+        "B contradicts the passage's positive description.",
+        "C contradicts the changes the passage describes.",
+        "D contradicts the passage's emphasis on ice cores."
       ],
       "passage": {
         "id": "rsim26-passage",
@@ -120,7 +120,6 @@
         "body": "When snow falls on the high plateaus of Antarctica, it does not melt. New layers compress the snow beneath them, gradually squeezing it into solid ice and trapping pockets of air between the crystals. Each pocket is a tiny sample of the atmosphere that existed when the snow originally fell. By drilling vertical cores through the ice sheet — sometimes more than three kilometers down — researchers obtain a continuous time series of ancient air, layer by layer, stretching back hundreds of thousands of years.\n\nThe analyses go well beyond a count of bubbles. The ratio of heavy to light oxygen isotopes in the ice itself records the temperature at which the snow originally fell, since heavier isotopes tend to fall out of the atmosphere earlier in a cooling air mass. Dust embedded in the ice reflects how arid distant continents were. Volcanic eruptions leave sulphate fingerprints that allow researchers to align records from different cores. Most importantly for current debates, the trapped air bubbles can be measured directly for carbon dioxide and methane. The result is a coupled record: when greenhouse-gas concentrations rose in the past, polar temperatures rose with them; when they fell, temperatures fell.\n\nThis evidence is not the only argument that today's climate change is unusual, but it is one of the clearest. Modern measurements from observatories show that carbon dioxide is now higher than at any point in the ice-core record, and that the rise has occurred over decades rather than millennia. The geological context, in other words, makes it possible to say with confidence not merely that the atmosphere is changing, but that it is changing in a direction and at a speed that have no precedent in the past eight hundred thousand years. The same archive that confirms a long history of natural variation also frames the current departure from that variation."
       }
     },
-
     {
       "id": "rsim27-q1",
       "category": "reading",
@@ -241,7 +240,6 @@
         "body": "Wind and solar generation have become surprisingly inexpensive over the past decade, and their share of electricity supply is rising in most large economies. Replacing fossil generation with renewable generation, however, is not the same as replacing the service the fossil generators provided. A coal or gas plant can be dispatched on demand: operators tell it to run, and it runs. Wind and solar output depend on weather and time of day, and the gap between supply and demand has to be bridged somehow if the grid is to remain stable.\n\nStorage is the most direct solution, and several technologies coexist for different time scales. Lithium-ion batteries can absorb a sudden surge of solar output at midday and release it during the evening demand peak, but they remain expensive for periods longer than a few hours. Pumped hydroelectric storage — pumping water uphill when electricity is cheap and letting it run back through turbines when it is needed — is still the largest form of grid-scale storage worldwide, although it depends on suitable geography. Newer approaches such as compressed air, gravity-based systems, and chemical storage in the form of hydrogen are being trialed for the days-to-weeks window that conventional batteries cannot cover.\n\nStorage is only part of the solution. A grid that can transmit electricity across long distances allows surpluses in one region to meet shortages in another, smoothing variation without needing to store it locally. Demand-side measures — pricing electricity dynamically so that flexible loads such as electric-vehicle charging shift toward periods of abundance — also reduce the need for storage. None of these tools is a single fix. Decarbonizing electricity at large scale requires committing to a portfolio of investments that match the time scales of variability: minutes to hours of batteries, hours to days of pumped or chemical storage, weeks of long-distance interconnection, and ongoing improvements to demand flexibility."
       }
     },
-
     {
       "id": "rsim28-q1",
       "category": "reading",
@@ -362,24 +360,23 @@
         "body": "For most of recorded history, the leading explanations of disease were not microbial. Greek physicians traced illness to imbalances among bodily humors. Eighteenth-century reformers identified \"miasmas,\" or bad airs rising from rotting matter, as the source of fevers. Both views could organize useful sanitary measures — cleaning streets and draining marshes — but neither explained why some cleanings worked and others failed, or why a particular illness moved from one community to another along a specific route.\n\nMid-nineteenth-century work changed the picture. Louis Pasteur's experiments showed that fermentation and spoilage were caused by living microorganisms rather than by spontaneous chemical change. Robert Koch then provided a logical framework for connecting particular microbes to particular diseases: isolate the suspected organism from sick hosts, grow it in pure culture, reintroduce it into a healthy animal, and recover the same organism from the new case. The framework, later called Koch's postulates, gave epidemiologists a checklist for moving from suspicion to proof. Within a few decades, the agents responsible for cholera, tuberculosis, anthrax, and plague had each been identified by name.\n\nThe consequences for clinical practice were profound. Joseph Lister, applying the new theory to surgery, introduced antiseptic procedures that reduced post-operative infections from majority to manageable. Public-health agencies built sewage systems aimed at specific waterborne organisms rather than vague miasmas. Vaccination, which had until then been empirically powerful but theoretically isolated, was reframed as a specific defense against a specific pathogen. Older sanitary measures did not disappear — they had always done genuine good — but they now joined a coherent framework that allowed doctors and engineers to predict where to act, rather than only to react to outbreaks once they began."
       }
     },
-
     {
       "id": "rsim29-q1",
       "category": "reading",
       "difficulty": "medium",
       "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Stormwater is a purely cosmetic problem with no real environmental or financial cost.",
-        "Urban surfaces dramatically alter how rainwater moves through cities, producing flooding and pollution that older drainage systems were not designed to handle, and prompting a shift toward landscape-based solutions.",
-        "Underground pipes have always been the most environmentally friendly drainage option.",
-        "Rainfall is decreasing in most cities, making drainage obsolete."
+        "Urban stormwater management is shifting from rapid drainage to slower, on-site absorption.",
+        "Cities have abandoned all efforts to manage stormwater after recent failures of drainage systems.",
+        "Stormwater can only be safely managed by directing it as quickly as possible into rivers.",
+        "On-site absorption methods have been shown to be inferior to conventional drainage in every case."
       ],
-      "answer": 1,
-      "explanation": "The passage explains how impervious surfaces change runoff, describes the limits of older systems, and frames green infrastructure as the emerging response.",
+      "answer": 0,
+      "explanation": "The passage's central claim is the shift from rapid drainage to on-site absorption — (A) preserves it.",
       "wrongReasons": [
-        "The passage describes real flooding, infrastructure, and water-quality costs.",
-        "Underground pipes are presented as the older approach being supplemented or replaced.",
-        "Rainfall trends in cities are not described as decreasing here."
+        "B overstates by claiming abandonment.",
+        "C reverses the shift described.",
+        "D contradicts the passage's positive assessment of absorption methods."
       ],
       "passage": {
         "id": "rsim29-passage",
@@ -483,7 +480,6 @@
         "body": "In a forest, most of the rain that falls on a given hour is absorbed before it ever reaches a stream. Leaves intercept droplets, soil sponges up water, and roots draw it slowly into plants and groundwater. Cities are built almost entirely from surfaces that do none of these things. Asphalt, concrete, and roofs send rainwater running into gutters and pipes within minutes, concentrating into volumes that would never have reached the same drainage point in a natural landscape.\n\nThe consequences are both quick and slow. In the short term, a heavy summer storm can deliver more water than the underground pipe network can carry, producing surface flooding that may damage homes and snarl transport even hours later. In the longer term, the same rapid flow strips pollutants — oil, brake dust, fertilizers, animal waste — off urban surfaces and dumps them into nearby waterways. Many older cities combine stormwater and sewage in a single pipe, which means that during heavy rain the overloaded system can spill raw sewage directly into rivers and harbors.\n\nMore recent urban design borrows directly from the forests these cities replaced. \"Green infrastructure\" — planting trees, building rain gardens, replacing impervious surfaces with porous pavement, and adding green roofs — reduces runoff at its source by allowing water to be absorbed before it ever reaches a pipe. These measures rarely solve the problem on their own; pipes remain necessary for extreme events. But they spread the work across many small landscape interventions, lowering peak flows, filtering pollutants, and producing co-benefits such as cooler streets and habitat for urban wildlife. The shift in thinking is from the pipe as the only solution toward the city itself as part of the hydrological system that has to manage every storm."
       }
     },
-
     {
       "id": "rsim30-q1",
       "category": "reading",

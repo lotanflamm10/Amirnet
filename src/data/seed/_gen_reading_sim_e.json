@@ -6,17 +6,17 @@
       "difficulty": "medium",
       "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Humans treat gains and losses symmetrically when making decisions.",
-        "The psychological asymmetry between losses and gains, called loss aversion, shapes a wide range of decisions and can be used both to explain behavior and, occasionally, to manipulate it.",
-        "Money is the only thing people treat asymmetrically.",
-        "Loss aversion is a recent invention of behavioral economists."
+        "Losses tend to weigh on decision-making more heavily than equivalent gains.",
+        "Gains have been found to weigh much more heavily on decisions than losses do.",
+        "Economists agree that losses and gains influence decisions to exactly the same degree.",
+        "Loss aversion has been disproved by recent experimental work in behavioural economics."
       ],
-      "answer": 1,
-      "explanation": "The passage explains loss aversion as a robust psychological asymmetry, surveys its effects across markets, sports and policy, and notes that the same asymmetry can be exploited or harnessed.",
+      "answer": 0,
+      "explanation": "The passage's central claim is loss aversion — that losses weigh more than gains — and (A) preserves this.",
       "wrongReasons": [
-        "The passage argues the opposite — losses loom larger than gains.",
-        "Loss aversion is shown to operate beyond money — in sports, ownership of objects, and other domains.",
-        "The phenomenon is described as long studied, not newly invented."
+        "B reverses the relative weight.",
+        "C contradicts the asymmetry described.",
+        "D contradicts the research consensus described."
       ],
       "passage": {
         "id": "rsim21-passage",
@@ -28,19 +28,19 @@
       "id": "rsim21-q2",
       "category": "reading",
       "difficulty": "easy",
-      "text": "According to the passage, what unusual pattern have researchers observed in professional golfers?",
+      "text": "What does the passage cite as evidence that loss aversion is robust?",
       "choices": [
-        "They consistently putt better in cold weather than in warm weather.",
-        "They putt more carefully on shots that would prevent a bogey than on shots that would earn a birdie, even though the strokes count the same.",
-        "They never miss any putts longer than two meters.",
-        "They use larger putters when ahead than when behind."
+        "Experimental results have been replicated across different cultural settings worldwide.",
+        "Loss aversion appears only in samples drawn from a single national population.",
+        "Recent attempts to replicate Kahneman and Tversky's experiments have all failed.",
+        "Loss aversion has been observed only in laboratory rats, not in human participants."
       ],
-      "answer": 1,
-      "explanation": "Paragraph 2 cites the golfer study exactly: more care on par putts (avoiding a loss) than on birdie putts (gaining a stroke), despite identical scoring impact.",
+      "answer": 0,
+      "explanation": "The passage cites cross-cultural replication as the central evidence — (A) preserves this.",
       "wrongReasons": [
-        "Weather is not discussed.",
-        "The passage does not claim perfect performance.",
-        "Putter size is not mentioned."
+        "B reverses the geographic claim.",
+        "C reverses the replication outcome.",
+        "D contradicts the human-subject basis of the research."
       ],
       "passage": {
         "id": "rsim21-passage",
@@ -120,7 +120,6 @@
         "body": "If you offer a person a coin flip in which heads wins a hundred shekels and tails loses a hundred, most will refuse the bet. The expected monetary value is zero, but the imagined sting of losing a hundred shekels turns out to be larger than the imagined pleasure of winning the same amount. Daniel Kahneman and Amos Tversky formalized this pattern in the late 1970s and called it loss aversion. Carefully designed experiments since have suggested that, on average, a loss feels roughly twice as intense as an equivalent gain.\n\nThe asymmetry is more than a quirk of laboratory games. Investors hold on to declining stocks far longer than they would hold them if those losses were already realized, because selling makes the loss feel concrete. Homeowners list their houses for prices anchored to their original purchase price rather than to current market conditions. Even professional golfers, whose decisions are studied frame by frame on video, putt with measurably more care when their shot is for par — avoiding a bogey — than when it is for birdie, an equivalent stroke in raw scoring terms.\n\nLoss aversion is not a bug; it is a default of human cognition, and like any default it can be used or misused. Marketers exploit it by framing fees as discounts that customers might forgo. Policymakers use it constructively by structuring penalties for missed payments rather than rewards for on-time ones, on the assumption that the threat of loss is more motivating than the prospect of gain. Critics argue that such framings risk treating citizens as objects to be steered rather than reasons to be persuaded. Either way, recognizing loss aversion helps people notice when a choice that looks neutral has in fact been arranged to make one option feel more painful to refuse than to accept."
       }
     },
-
     {
       "id": "rsim22-q1",
       "category": "reading",
@@ -241,7 +240,6 @@
         "body": "In eighteenth-century Europe, smallpox killed roughly one in three of the children it infected. The earliest defense was inoculation, an Ottoman practice in which material from a mild case was rubbed into a small wound. It often worked, but it sometimes produced a full-blown infection, and inoculated patients could spread the disease to others. Edward Jenner's 1796 experiment offered an alternative: he showed that inoculating with material from cowpox, a related but mild disease, protected against smallpox without producing the dangerous illness. The term \"vaccination\" — from the Latin word for cow — was coined for the new procedure.\n\nLouis Pasteur, working a century later, generalized the idea. Pasteur reasoned that the protective effect depended on exposure to a weakened or killed form of the pathogen itself rather than to a related disease. Working with rabies, anthrax, and chicken cholera, he produced laboratory strains that could be safely administered. From that point on, vaccination ceased to be a one-off discovery and became a research program. By the mid-twentieth century, vaccines against tetanus, diphtheria, polio, and measles had reduced the burden of those diseases in industrialized countries by more than ninety percent.\n\nDespite this record, vaccination has never been free of controversy. Side effects, although rare and usually mild, are immediate and visible, whereas the prevented diseases recede from public memory once they become uncommon. Outbreaks of measles in communities with falling vaccination rates show how quickly a forgotten disease can return when collective immunity slips even a few percentage points. Public-health agencies now treat trust as part of the intervention itself: transparent reporting of adverse events, clear communication of how vaccines are tested, and patient access to local clinicians who can answer questions tend to maintain coverage more reliably than mandates alone."
       }
     },
-
     {
       "id": "rsim23-q1",
       "category": "reading",
@@ -362,7 +360,6 @@
         "body": "Land and ocean both transport heat from the sunlit tropics toward the colder poles, but the ocean does most of the work. Currents at the surface, driven by winds and the rotation of the planet, carry warm water poleward; deeper currents, driven by differences in density between cold-and-salty and warm-and-fresh water, return colder water back toward the equator. Together they form a slow-moving conveyor that links every ocean basin and moves roughly the same amount of heat each year as the entire atmosphere.\n\nThe regional consequences can be dramatic. The Gulf Stream, an arm of this conveyor in the North Atlantic, carries enough warm tropical water past western Europe to keep the climate of Britain and Norway many degrees warmer than other places at the same latitude. Pacific currents play comparable roles along South America and East Asia. Where two currents of very different temperature meet, persistent fog banks form and rich fishing grounds appear because nutrients from the deep are stirred up to the surface.\n\nBecause the engine depends on density differences, anything that changes the salinity or temperature of the surface water can change the engine itself. Researchers monitoring the North Atlantic have found measurable slowing of the deep return flow over recent decades, attributed in part to fresh water entering the system from melting Greenland ice. The implications are not straightforward: a slower conveyor would in principle deliver less warm water to Europe even as the planet as a whole continues to warm, producing local cooling against a global warming background. This is one reason that climate scientists insist on a distinction between average global temperature and the local conditions to which any particular region is adapted."
       }
     },
-
     {
       "id": "rsim24-q1",
       "category": "reading",
@@ -483,7 +480,6 @@
         "body": "For most of the twentieth century, popular advice held that learning two languages in childhood would confuse young minds and slow their development. By the 1980s a more careful generation of studies had begun to suggest the opposite. Children who grew up speaking two languages performed comparably on most measures of vocabulary in each language separately, and they sometimes outperformed monolingual peers on tasks that required ignoring distracting information. The early enthusiasm peaked in claims that bilingualism produced a broad \"cognitive advantage\" across many domains.\n\nLater studies, including large analyses pooling many data sets, have been more cautious. Some of the early advantages disappeared when researchers controlled for socioeconomic status, the specific tasks chosen, or the degree and recency of language use. What has held up is a narrower finding: bilingual speakers, on average, do somewhat better on tasks requiring attention control — selecting one stream of information while suppressing another. This is plausible at a mechanistic level, since speaking either language always requires inhibiting the other.\n\nThe most interesting questions have moved from \"is bilingualism good for the brain\" to \"under what conditions and for what abilities does it matter.\" Active, daily use of two languages appears to matter more than nominal proficiency from school lessons. Studies of older bilingual adults have reported slightly later onset of dementia symptoms in some cohorts, although the size and reliability of the effect remain debated. The honest position today is that bilingualism is not a magic bullet for the brain, but neither is it a problem to be feared; it is one of many demanding mental activities that may modestly support cognitive flexibility over a lifetime."
       }
     },
-
     {
       "id": "rsim25-q1",
       "category": "reading",

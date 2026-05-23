@@ -120,24 +120,23 @@
         "body": "For a long time, the bacteria living inside the human body were treated as background detail. They were tolerated, perhaps occasionally useful, but essentially separate from the systems that mattered to medicine. The development of fast genetic sequencing in the 2000s changed this picture in a way few researchers had anticipated. By reading the DNA of microbes directly from samples of skin, mouth, and intestine, scientists discovered that a typical adult carries trillions of microorganisms from thousands of species — collectively known as the microbiome.\n\nWhat emerged was not a passive cargo but an active ecosystem. Gut bacteria help break down dietary fibers that human enzymes cannot touch, producing short-chain fatty acids that nourish the cells lining the intestine. They train the developing immune system, teaching it to distinguish dangerous invaders from harmless residents. Some species even synthesize vitamins and influence the production of signaling molecules that reach the brain through nerves and the bloodstream. Disturbing the community — through repeated antibiotic courses, an extremely low-fiber diet, or chronic stress — has measurable downstream effects on inflammation, mood, and metabolism.\n\nA growing body of clinical work is asking what to do with these findings. Faecal microbial transplants now cure certain stubborn intestinal infections that resist antibiotics, and diets rich in fermented foods have been shown to broaden microbial diversity in healthy volunteers. None of this means the microbiome explains every illness, as some popular accounts suggest. But it does mean that the older picture of the human body as a tightly bounded organism, isolated from the microbes it carries, no longer captures how the body actually works."
       }
     },
-
     {
       "id": "rsim07-q1",
       "category": "reading",
       "difficulty": "medium",
-      "text": "Which of the following best captures the main idea of the passage?",
+      "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Working memory has no real influence on how people learn complex subjects.",
-        "Because working memory is small, instructional design has to manage cognitive load — what to present, in what form, and how much help to give — if learning is to succeed.",
-        "Learners who feel mentally tired should simply repeat the material until it sticks.",
-        "Multimedia lessons are always more effective than text-only lessons."
+        "Lesson design should account for the brain's limited working-memory capacity.",
+        "Working-memory limits are irrelevant to how effectively students learn new material.",
+        "Students with greater working memory always benefit more from complex lessons.",
+        "Cognitive load theory has been replaced by newer models of student attention."
       ],
-      "answer": 1,
-      "explanation": "The passage argues that working memory's limits make the management of cognitive load — through staged practice, integrated materials and prior knowledge — the central task of effective instruction.",
+      "answer": 0,
+      "explanation": "The passage's central argument is that lesson design should respect working-memory limits — (A) restates this directly.",
       "wrongReasons": [
-        "The opposite is true: the passage centres on the constraints working memory places on learning.",
-        "Repetition without managing load is precisely what the passage warns against.",
-        "The passage notes that multimedia helps only when it is designed to reduce, not multiply, demands on attention."
+        "B contradicts the passage's premise that working memory matters.",
+        "C overstates and misrepresents the role of working memory.",
+        "D is unsupported by the passage."
       ],
       "passage": {
         "id": "rsim07-passage",
@@ -241,7 +240,6 @@
         "body": "Cognitive psychology now treats working memory as one of the central bottlenecks in human learning. Although long-term memory has effectively unlimited capacity, working memory can hold only a handful of unrelated items at once, and these decay quickly without rehearsal. Any instruction that asks the learner to juggle too many novel pieces at the same time will therefore tend to fail — not because the learner is unmotivated, but because the relevant information is dropping out of mind before it can be processed.\n\nResearchers describe the demand a lesson places on working memory as its cognitive load. Some load is intrinsic to the material: solving simultaneous equations is harder than solving single equations no matter how well the lesson is designed. But a great deal of load is added, often unnecessarily, by the way information is presented. Diagrams placed far from the text that explains them force the learner to flip back and forth, holding both in mind. Lessons that demand independent problem-solving before any worked examples are seen leave novices spending most of their effort searching for moves rather than learning their structure. Even pleasant but distracting graphics can compete for the same limited attention.\n\nGood instructional design seeks to keep intrinsic load reasonable, strip away unnecessary extraneous load, and direct the remaining capacity toward building stable knowledge in long-term memory. In practice this means integrating diagrams with their labels, starting with worked examples before independent practice, and breaking a complex skill into manageable subskills. As learners gain experience, the same scaffolding can be withdrawn, because schemas now stored in long-term memory effectively expand the room available in working memory. Cognitive load, in short, is not an opinion about how to teach; it is a constraint that any honest instructional design has to respect."
       }
     },
-
     {
       "id": "rsim08-q1",
       "category": "reading",
@@ -362,7 +360,6 @@
         "body": "Among the most striking examples of animal communication is the honeybee's waggle dance. When a forager bee discovers a rewarding patch of flowers, it returns to the hive and performs a tightly choreographed routine on the vertical surface of the comb. The dance is small — only a few centimeters across — but its details encode surprisingly precise information about where the food is and how attractive it is.\n\nThree variables are layered into a single performance. The orientation of the central straight run, measured against the vertical, tells the audience the angle of the food relative to the sun: a run sixty degrees to the left of vertical means \"sixty degrees to the left of the sun.\" The duration of that run indicates distance, with longer runs corresponding to flowers farther from the hive. Finally, the vigor of the dance signals quality; a bee returning from rich nectar will repeat the routine more enthusiastically and recruit more followers than one that has found a thinner reward. Followers also receive scent cues from the dancer's body, which help them recognize the flowers when they arrive.\n\nThe Austrian zoologist Karl von Frisch decoded this system in the mid-twentieth century, work that eventually earned him a Nobel Prize. The decoding mattered far beyond entomology. Before von Frisch, many biologists held that the ability to represent locations beyond the immediate sensory environment was effectively unique to humans. The waggle dance showed that an insect, with a brain the size of a grass seed, could refer to a place it was not currently perceiving, and could update its message as the sun moved across the sky. Symbolic reference, it turned out, was older and more widely shared than anyone had assumed."
       }
     },
-
     {
       "id": "rsim09-q1",
       "category": "reading",
@@ -483,7 +480,6 @@
         "body": "Walking through a mature temperate forest, it is easy to think of the trees as separate individuals competing for sunlight and water. Beneath the surface, the picture is more complicated. The roots of nearly every tree are wrapped in dense threads of mycorrhizal fungi, microscopic strands that exchange nutrients for sugars produced by photosynthesis. Where the threads of one tree's fungi meet those of a neighbor's, they often fuse into a continuous network that links many trees of different species into a single underground web.\n\nResearchers have begun to map what travels along these connections. Carbon labeled with rare isotopes moves from large, well-lit trees to shaded seedlings of the same species — and sometimes of different species — over the course of weeks. Phosphorus, nitrogen and even chemical warning signals about insect attacks have been recorded crossing the same network. The amounts involved are small relative to a tree's total resources, but they are far from negligible for a young seedling that would otherwise starve in the shade of its parents.\n\nThis evidence does not turn the forest into a single organism, as some popular accounts have suggested. Trees still compete, and many species can survive perfectly well without elaborate fungal networks. But the older image of the forest as a collection of independent individuals struggling against one another no longer fits the data. Conservation work is starting to take the network seriously: leaving residual mother trees standing during selective logging, for example, helps maintain the underground connections that seedlings rely on, and clear-cutting damages a forest in ways that simple tree counts cannot capture."
       }
     },
-
     {
       "id": "rsim10-q1",
       "category": "reading",

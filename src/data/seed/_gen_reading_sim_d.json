@@ -6,17 +6,17 @@
       "difficulty": "medium",
       "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "The Mediterranean diet has no measurable effect on health.",
-        "Long-term studies of populations bordering the Mediterranean prompted research that has linked the regional diet to improved cardiovascular outcomes, though the diet is best understood as a pattern of eating rather than a single rule.",
-        "Olive oil is the only food responsible for any health benefit observed in the region.",
-        "The diet has been proven to extend everyone's life by exactly the same amount."
+        "The Mediterranean diet is best understood as a pattern of eating, not a fixed menu.",
+        "Mediterranean foods are universally preferred over those of other regional cuisines.",
+        "Modern research has refuted the cardiovascular benefits of the Mediterranean diet.",
+        "The diet originated in the United States and was later exported to southern Europe."
       ],
-      "answer": 1,
-      "explanation": "The passage traces the diet's research history, its association with better cardiovascular outcomes in trials, and ends by emphasizing that the diet is a pattern, not a single food or rigid prescription.",
+      "answer": 0,
+      "explanation": "The passage's central claim is that the Mediterranean diet is a pattern, not a fixed prescription — (A) preserves this.",
       "wrongReasons": [
-        "The passage cites measurable benefits in randomized trials.",
-        "Olive oil is one component, not the sole cause.",
-        "The passage emphasizes population averages and risk reduction, not a uniform effect on every individual."
+        "B introduces a preference claim not in the passage.",
+        "C reverses the research consensus described.",
+        "D reverses the geographic origin."
       ],
       "passage": {
         "id": "rsim16-passage",
@@ -120,7 +120,6 @@
         "body": "The phrase \"Mediterranean diet\" first entered scientific use after the Second World War, when the American physiologist Ancel Keys noticed that postwar populations in southern Italy and Greece had unusually low rates of coronary heart disease despite far from comfortable standards of living. Keys's Seven Countries Study, begun in the late 1950s, set out to compare diets across very different regions and to identify which dietary patterns coincided with the lowest cardiovascular risk. The Mediterranean cluster — rich in vegetables, legumes, whole grains, fish, and olive oil, with modest amounts of dairy and meat — stood out and entered the public imagination as a model of healthy eating.\n\nLater, more controlled work refined the picture. The PREDIMED trial in Spain, published in 2013, randomly assigned several thousand older adults at high cardiovascular risk to either a Mediterranean-style diet supplemented with extra-virgin olive oil, the same diet supplemented with mixed nuts, or a low-fat control diet. After roughly five years, the two Mediterranean groups experienced about thirty percent fewer major cardiovascular events than the control group. Subsequent analyses suggested benefits for blood-sugar regulation and certain markers of inflammation, although results have varied with how strictly participants adhered to the dietary pattern.\n\nWhat the research has consistently found is harder to convey in a slogan than \"eat more olive oil.\" The Mediterranean diet is not a single recipe but a pattern: an emphasis on minimally processed plant foods, regular consumption of fish over red meat, fats supplied largely by olive oil rather than butter, and modest portions eaten alongside others. Translating that pattern to other regions requires adjusting for local availability and tradition rather than copying a Greek market basket. Nutrition science can identify the broad shape of a healthy diet, but adoption depends on choices that are inevitably cultural as well as biological."
       }
     },
-
     {
       "id": "rsim17-q1",
       "category": "reading",
@@ -241,24 +240,23 @@
         "body": "Genetic engineering existed long before CRISPR. The earliest tools, developed in the 1970s, relied on enzymes that could cut DNA only at a limited set of sequences, and inserting a new gene into a precise spot in a genome typically required years of work by specialised laboratories. The arrival of the CRISPR–Cas9 system in 2012 changed this picture in months. Adapted from a bacterial defense mechanism against viruses, the system uses a short guide RNA to direct an enzyme to almost any chosen sequence and make a cut there. Once cut, the cell's own repair machinery can be persuaded to delete a gene, replace it, or insert a new fragment.\n\nThe new method spread across biology faster than almost any technique before it. A graduate student with a few weeks of training can now edit fruit flies, plant cells, or human cell lines using reagents ordered from a catalogue. Clinical trials have already used CRISPR to treat sickle cell disease and certain inherited forms of blindness, and similar techniques are being explored against cancers and chronic infections. Agricultural research has produced fungus-resistant bananas and drought-tolerant wheat, though regulators in different countries treat these crops very differently from one another.\n\nWith accessibility has come a sharper version of an old debate. Editing somatic cells — the body cells of a single patient — is now broadly accepted in principle, because the changes are not inherited by future generations. Editing germline cells, by contrast, alters every cell the resulting person will pass on, raising questions about consent that no future patient can give. A widely condemned attempt in 2018 to edit the embryos of two human babies underscored how cheaply such an experiment could now be attempted, even where law and scientific consensus prohibit it. CRISPR has not created the underlying ethical questions, but it has stripped away the technical excuse that they were premature."
       }
     },
-
     {
       "id": "rsim18-q1",
       "category": "reading",
       "difficulty": "medium",
       "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Cities are no warmer than the surrounding countryside.",
-        "Urban surfaces and waste heat make built-up areas measurably hotter than nearby rural land, with consequences for health and energy use that can be partly addressed by design choices.",
-        "Air conditioning is the only practical way to cope with hot summers.",
-        "Removing all trees from cities would help reduce heat."
+        "Cities run hotter than surrounding rural areas because of how their surfaces store heat.",
+        "Rural areas tend to be hotter than cities owing to greater exposure to direct sunlight.",
+        "Urban heat is determined entirely by the number of vehicles operating in the city.",
+        "City surfaces release stored heat more slowly than vegetation does at night."
       ],
-      "answer": 1,
-      "explanation": "The passage explains why cities run hotter (surfaces, waste heat, geometry), describes the effects, and points to design choices — green roofs, lighter pavements, vegetation — that mitigate the effect.",
+      "answer": 0,
+      "explanation": "The passage's thesis is that urban surfaces produce the heat-island effect by absorbing and re-radiating solar energy — (A) restates this.",
       "wrongReasons": [
-        "The passage directly contradicts this; the temperature gap is its central topic.",
-        "Air conditioning is mentioned as adding to the problem, not solving it.",
-        "Trees are described as part of the solution, not an obstacle."
+        "B reverses the comparison.",
+        "C overstates vehicle contribution.",
+        "D reverses the surface vs. vegetation behaviour described."
       ],
       "passage": {
         "id": "rsim18-passage",
@@ -362,24 +360,23 @@
         "body": "Anyone who has stepped off a country road onto a city street on a summer afternoon has felt the urban heat island. Air temperatures in dense built-up areas can run several degrees Celsius higher than in the surrounding countryside, and the difference is often largest at night, when rural soil and vegetation cool quickly while concrete and asphalt continue to release the heat they absorbed during the day. The effect has been measured in cities from Tokyo to Phoenix and is now considered a routine feature of the urban climate.\n\nSeveral mechanisms combine to produce it. Dark surfaces like asphalt absorb a high fraction of incoming sunlight and store the energy until well after sunset. Buildings packed closely together trap the resulting infrared radiation, slowing its escape to the sky. Waste heat from engines, factories, and air conditioners is added directly to the local air, and the relative scarcity of vegetation reduces the cooling that evaporation from leaves would normally provide. Each of these factors might seem small in isolation; together they account for the persistent temperature gap that researchers observe.\n\nThe consequences are not merely uncomfortable. Hotter nights make it harder for vulnerable residents — the elderly, infants, those with chronic illness — to recover from heat stress, and they raise the demand for air conditioning, which in turn generates more waste heat. Public-health agencies in many cities now issue heat warnings tied to overnight rather than midday temperatures. Encouragingly, design choices can blunt the effect: green roofs and street trees increase evapotranspiration, lighter-colored pavements reflect more sunlight, and adjusting building geometry to allow some cross-ventilation can release trapped heat earlier in the evening. None of these interventions reverses climate change, but they can substantially soften its impact on the people most exposed to it."
       }
     },
-
     {
       "id": "rsim19-q1",
       "category": "reading",
       "difficulty": "medium",
-      "text": "Which of the following best summarizes the main idea of the passage?",
+      "text": "Which of the following best states the main idea of the passage?",
       "choices": [
-        "Photosynthesis is a process that occurs only in tropical rainforests.",
-        "Photosynthesis ties together life, oxygen, and the carbon cycle, and any change in its rate at the planetary scale alters the conditions on which most organisms depend.",
-        "Plants release more carbon dioxide than they absorb over a year.",
-        "The Earth's oxygen reserves are unlimited."
+        "Photosynthesis is the basis of the oxygen atmosphere on which complex life depends.",
+        "Photosynthesis is now considered too inefficient to sustain modern ecosystems.",
+        "Oxygen in the atmosphere comes mainly from non-biological geological processes.",
+        "Complex life predates the rise of photosynthesis by hundreds of millions of years."
       ],
-      "answer": 1,
-      "explanation": "The passage frames photosynthesis as the foundation of oxygen-producing life and as the engine of the carbon cycle, then explores why disruptions to it have planetary consequences.",
+      "answer": 0,
+      "explanation": "The passage's central claim is that photosynthesis produces the oxygen on which complex life depends — (A) preserves this.",
       "wrongReasons": [
-        "The passage extends the scope to oceans and forests in general, not just the tropics.",
-        "Net annual uptake is described as positive, not negative.",
-        "The atmosphere's oxygen is described as a finite consequence of photosynthesis, not unlimited."
+        "B contradicts the passage's positive evaluation.",
+        "C reverses the atmospheric source.",
+        "D reverses the chronological dependence."
       ],
       "passage": {
         "id": "rsim19-passage",
@@ -483,7 +480,6 @@
         "body": "More than two billion years ago, a group of microscopic organisms invented a way to split water molecules using the energy of sunlight, combining the resulting electrons with carbon dioxide to build simple sugars. The waste product of that reaction — molecular oxygen — slowly accumulated in the atmosphere and made possible nearly every form of life that breathes air today. Modern plants, algae, and a great many bacteria continue to run essentially the same chemistry inside specialized structures called chloroplasts.\n\nThe planetary consequences are easy to overlook because the process is invisible. Each year, photosynthetic organisms remove roughly a hundred billion tonnes of carbon from the atmosphere and bind it into the bodies of plants and microbes. Most of this carbon is eventually returned to the air when those organisms — or the creatures that eat them — respire or decompose. The remainder is locked into wood, soils, or sea-floor sediments, where it can stay out of circulation for centuries or, in the case of fossil fuels, hundreds of millions of years. The balance between uptake and release is what determines whether atmospheric carbon dioxide rises or falls over time.\n\nHuman activity now perturbs this balance from both sides. Burning coal, oil, and gas releases ancient stored carbon faster than living plants and oceans can absorb it. Clearing tropical forests reduces the standing biomass that pulled carbon down in the first place. Researchers monitoring forests and phytoplankton try to track how rapidly photosynthesis is responding — warmer waters can stress marine algae, while a slightly enriched atmosphere can briefly accelerate growth in some plants. None of these adjustments cancels the overall trend, but they remind us that the air we breathe is the running output of a global metabolic process, and that altering its inputs at scale has effects on every organism connected to that process."
       }
     },
-
     {
       "id": "rsim20-q1",
       "category": "reading",
