@@ -1,0 +1,244 @@
+{
+  "paraphrasing": [
+    {
+      "id": "pc_001",
+      "category": "restatements",
+      "difficulty": "medium",
+      "text": "Although the printing press dramatically expanded access to written knowledge, scholars at the time worried that the proliferation of cheap books would weaken students' memory and analytical skills.",
+      "choices": [
+        "The printing press greatly broadened access to written knowledge, yet contemporary scholars feared that abundant cheap books would erode students' memory and reasoning.",
+        "The printing press did little to expand access to written knowledge, and contemporary scholars praised its effect on students' memory and reasoning.",
+        "The printing press greatly broadened access to written knowledge, and most scholars at the time enthusiastically welcomed its educational and cultural effects.",
+        "The printing press broadened access to knowledge, weakened students' memory, and was eventually banned in several European universities by the end of the century."
+      ],
+      "answer": 0,
+      "explanation": "The original carries two meaning units: the press broadened access (positive), and scholars feared cheap books would weaken memory and reasoning (negative concern). A faithful paraphrase must keep both. Option A keeps both — 'greatly broadened access' and 'feared … would erode memory and reasoning'.",
+      "wrongReasons": [
+        "Reverses the meaning — claims the press did 'little to expand access' and that scholars 'praised' its effect on memory, contradicting both halves of the original.",
+        "Loses the worry clause — replaces the contemporary scholarly fear with enthusiastic welcoming, dropping the memory/analytical-skills concern entirely.",
+        "Adds an unsupported claim — the original says nothing about the press being banned in European universities."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. הדפוס הרחיב משמעותית את הגישה לידע כתוב.\n2. חוקרים בני התקופה חששו שריבוי ספרים זולים יחליש זיכרון ויכולת ניתוח של תלמידים.\n\nמדוע התשובה הנכונה נכונה:\n(A) שומרת על שתי יחידות המשמעות — ההרחבה (\"greatly broadened access\") וגם החשש (\"feared … would erode memory and reasoning\").\n\nמדוע שאר התשובות שגויות:\n(B) היפוך משמעות: טוענת שהדפוס לא הרחיב גישה ושהחוקרים שיבחו את השפעתו — סותר את שני חלקי המקור.\n(C) איבוד פסוקית: משאירה רק את הפן החיובי, ומחליפה את החשש בקבלה נלהבת.\n(D) הוספת מידע שאינו במקור: \"banned in European universities\" — לא נאמר במקור.\n\nמילים קשות:\n- proliferation = רבייה, התפשטות מהירה\n- erode = לשחוק, להחליש בהדרגה\n- abundant = בשפע"
+    },
+    {
+      "id": "pc_002",
+      "category": "restatements",
+      "difficulty": "medium",
+      "text": "The development of antibiotic drugs in the twentieth century transformed the practice of medicine. However, the overuse of these drugs has now produced resistant bacterial strains that threaten to undo many of those gains.",
+      "choices": [
+        "Antibiotics had little impact on medicine in the twentieth century, even though resistant bacteria have only made their treatment effects stronger.",
+        "Twentieth-century antibiotics revolutionized medicine and are still credited as one of the most important and life-saving developments in modern medical practice.",
+        "Twentieth-century antibiotics revolutionized medicine, but their overuse has now bred resistant bacterial strains that risk reversing much of that initial progress.",
+        "Antibiotics transformed medicine, but their overuse has produced resistant bacteria, prompting most countries to ban over-the-counter sales of these drugs."
+      ],
+      "answer": 2,
+      "explanation": "The two-sentence original has two units linked by 'However': antibiotics transformed medicine, but overuse has now bred resistant bacteria that threaten to reverse those gains. The correct paraphrase preserves both — the revolution and the resistance-driven reversal.",
+      "wrongReasons": [
+        "Reverses the meaning — denies that antibiotics affected medicine and claims resistance has made treatment 'stronger', the opposite of the original.",
+        "Loses the resistance clause — keeps only the celebration of antibiotics' importance and drops the 'overuse has produced resistant strains' warning entirely.",
+        "Adds an unsupported claim — the original mentions resistance but says nothing about countries banning over-the-counter antibiotic sales."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. אנטיביוטיקה במאה ה־20 שינתה את הרפואה.\n2. שימוש יתר באנטיביוטיקה הוליד זני חיידקים עמידים המאיימים לבטל חלק נכבד מההישגים האלו.\n\nמדוע התשובה הנכונה נכונה:\n(C) שומרת על שתי יחידות המשמעות — המהפכה הרפואית והנסיגה בשל עמידות.\n\nמדוע שאר התשובות שגויות:\n(A) היפוך משמעות: טוענת שהאנטיביוטיקה כמעט לא השפיעה ושהעמידות חיזקה אותה — היפך גמור של המקור.\n(B) איבוד פסוקית: שומרת רק על הצד החיובי ומשמיטה את אזהרת העמידות.\n(D) הוספת מידע: ההחלטה לאסור מכירה ללא מרשם אינה במקור.\n\nמילים קשות:\n- resistant strains = זני חיידקים עמידים\n- overuse = שימוש יתר\n- undo = לבטל, להפוך לאחור"
+    },
+    {
+      "id": "pc_003",
+      "category": "restatements",
+      "difficulty": "medium",
+      "text": "As global trade routes expanded during the nineteenth century, distant societies began exchanging not only goods but also customs and ideas, reshaping local cultures in unexpected ways.",
+      "choices": [
+        "Despite the growth of global trade in the nineteenth century, distant societies remained largely isolated from one another's customs and ideas.",
+        "The nineteenth-century expansion of global trade routes drew distant societies into exchanges of customs and ideas, transforming local cultures in surprising ways.",
+        "Nineteenth-century global trade primarily allowed distant societies to exchange goods more efficiently, with surprisingly little effect on customs or local cultures.",
+        "Nineteenth-century trade expanded the exchange of customs and ideas, ultimately driving the formation of the modern United Nations and World Bank."
+      ],
+      "answer": 1,
+      "explanation": "The original couples two ideas via the 'as' clause: global trade grew, and that growth carried customs and ideas (not just goods) into local cultures. The correct paraphrase keeps both the cultural exchange and the local-culture transformation.",
+      "wrongReasons": [
+        "Reverses the meaning — claims that despite trade growth societies stayed isolated, contradicting the entire claim of cross-cultural exchange.",
+        "Loses the cultural-exchange clause — narrows the exchange to goods only and explicitly denies any effect on customs or local cultures.",
+        "Adds an unsupported claim — links the trade to the formation of the UN and World Bank, institutions never mentioned in the original."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. נתיבי הסחר הגלובלי התרחבו במאה ה־19.\n2. ההרחבה גרמה להחלפת לא רק סחורות אלא גם מנהגים ורעיונות בין חברות רחוקות.\n3. התוצאה: שינוי בלתי צפוי של תרבויות מקומיות.\n\nמדוע התשובה הנכונה נכונה:\n(B) משמרת את כל שלוש יחידות המשמעות — ההתרחבות, החלפת המנהגים והרעיונות, והשינוי בתרבויות המקומיות.\n\nמדוע שאר התשובות שגויות:\n(A) היפוך משמעות: טוענת שהחברות נשארו מבודדות — הפך המקור.\n(C) איבוד פסוקית: שומרת רק על חילופי הסחורות, ושוללת את חילופי המנהגים והתרבויות.\n(D) הוספת מידע: יצירת ארגונים בינלאומיים מודרניים לא נאמרה במקור.\n\nמילים קשות:\n- reshape = לעצב מחדש\n- customs = מנהגים, מסורות\n- unexpected = בלתי צפוי"
+    },
+    {
+      "id": "pc_004",
+      "category": "restatements",
+      "difficulty": "medium",
+      "text": "Maria Montessori, who began her career as one of the first female physicians in Italy, developed an educational philosophy that prioritized independent exploration over rigid teacher-led instruction.",
+      "choices": [
+        "Maria Montessori designed an educational philosophy that consistently prioritized independent exploration over teacher-led instruction, an approach she refined throughout her career.",
+        "Maria Montessori, an early female physician in Italy, designed a pedagogy that imposed strict teacher-led instruction in place of free exploration.",
+        "Maria Montessori, one of Italy's first female physicians, founded an exploration-based pedagogy that has since become the standard curriculum across most European primary schools.",
+        "Maria Montessori, originally trained as one of Italy's first female doctors, designed a pedagogy that valued self-directed learning over teacher-led instruction."
+      ],
+      "answer": 3,
+      "explanation": "The non-restrictive relative clause ('who began her career…') gives biographical context; the main claim is that Montessori's pedagogy valued independent exploration over rigid teacher-led instruction. The correct paraphrase keeps both the medical background and the pedagogical claim intact.",
+      "wrongReasons": [
+        "Loses a clause — drops the 'first female physicians in Italy' biographical fact entirely; only the pedagogical claim survives.",
+        "Reverses the meaning — turns Montessori's exploration-led pedagogy into one that imposes strict teacher-led instruction, the opposite of the original.",
+        "Adds an unsupported claim — the original says nothing about Montessori's pedagogy becoming the standard curriculum across most European primary schools."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. מריה מונטסורי החלה את הקריירה שלה כאחת הרופאות הראשונות באיטליה.\n2. היא פיתחה פילוסופיה חינוכית.\n3. הפילוסופיה הזו העדיפה חקירה עצמאית על פני הוראה קשיחה בהכוונת המורה.\n\nמדוע התשובה הנכונה נכונה:\n(D) שומרת על כל יחידות המשמעות — הרקע הרפואי, פיתוח הפדגוגיה, וההעדפה של למידה עצמאית.\n\nמדוע שאר התשובות שגויות:\n(A) איבוד פסוקית: משמיטה את הרקע כרופאה.\n(B) היפוך משמעות: הופכת את הפדגוגיה מ\"חקירה עצמאית\" ל\"הוראה קשיחה\".\n(C) הוספת מידע: הקביעה שהפדגוגיה הפכה לתוכנית הלימודים הסטנדרטית באירופה לא נאמרה במקור.\n\nמילים קשות:\n- physician = רופא/ה\n- pedagogy = פדגוגיה, תורת ההוראה\n- self-directed learning = למידה עצמאית"
+    },
+    {
+      "id": "pc_005",
+      "category": "restatements",
+      "difficulty": "hard",
+      "text": "Even though the construction of the Suez Canal dramatically shortened shipping routes between Europe and Asia, the project produced unforeseen geopolitical tensions that eventually contributed to the British occupation of Egypt.",
+      "choices": [
+        "While the Suez Canal greatly reduced sailing distances between Europe and Asia, it generated unexpected geopolitical strains that helped lead to Britain's occupation of Egypt.",
+        "The Suez Canal did little to shorten European routes to Asia, although the calm relations it produced soon ended Britain's interest in occupying Egypt.",
+        "The Suez Canal greatly shortened shipping routes between Europe and Asia, and contemporary observers regarded the project as politically uneventful at the time.",
+        "The Suez Canal shortened European routes to Asia and produced political tensions that prompted Egypt to nationalize all foreign-owned infrastructure within a decade."
+      ],
+      "answer": 0,
+      "explanation": "The concessive 'even though' sets up a contrast: the canal shortened routes (positive) but produced unforeseen tensions that eventually led to Britain occupying Egypt (negative consequence). The correct paraphrase preserves both halves of that contrast and the causal chain to British occupation.",
+      "wrongReasons": [
+        "Reverses the meaning — denies the route-shortening effect and claims the canal produced 'calm relations' that ended British interest in Egypt, contradicting both halves.",
+        "Loses a clause — keeps only the route-shortening and explicitly describes the project as 'politically uneventful', dropping the geopolitical-tension consequence.",
+        "Adds an unsupported claim — the original ends with the British occupation, not with Egypt nationalizing all foreign-owned infrastructure."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. תעלת סואץ קיצרה משמעותית את נתיבי השיט בין אירופה לאסיה.\n2. הפרויקט יצר מתחים גיאו־פוליטיים בלתי צפויים.\n3. המתחים האלה תרמו לכיבוש מצרים על ידי בריטניה.\n\nמדוע התשובה הנכונה נכונה:\n(A) שומרת על כל שלוש יחידות המשמעות — קיצור הנתיבים, יצירת המתחים, וקשר ההובלה לכיבוש הבריטי.\n\nמדוע שאר התשובות שגויות:\n(B) היפוך משמעות: שוללת את קיצור הנתיבים ומתארת \"יחסים רגועים\" שסיימו את ההתעניינות הבריטית — הפך גמור.\n(C) איבוד פסוקית: מבטלת את חלק המתחים והכיבוש, ומתארת את הפרויקט כ\"שקט פוליטית\".\n(D) הוספת מידע: הלאמת התשתיות הזרות לא הוזכרה — הכיבוש הבריטי הוא ההמשך במקור.\n\nמילים קשות:\n- unforeseen = בלתי צפוי\n- geopolitical = גיאו־פוליטי\n- occupation = כיבוש"
+    },
+    {
+      "id": "pc_006",
+      "category": "restatements",
+      "difficulty": "hard",
+      "text": "Since urban planners began rethinking the role of the automobile in the 1980s, cities that once prioritized highways have rediscovered the economic value of dense, walkable, mixed-use neighborhoods.",
+      "choices": [
+        "Urban planners have rethought the role of the automobile since the 1980s, with little visible effect on most American downtowns or neighborhoods.",
+        "Planners' renewed enthusiasm for highways since the 1980s has led most cities to abandon their once-valued dense, walkable, mixed-use neighborhoods.",
+        "As planners began questioning car-centric design in the 1980s, formerly highway-dependent cities have re-embraced the economic benefits of dense, walkable, mixed-use districts.",
+        "Planners' shift away from car-centric design has revived dense, mixed-use neighborhoods and prompted federal legislation banning new urban highways across the United States."
+      ],
+      "answer": 2,
+      "explanation": "The 'since' clause establishes a temporal/causal frame: planners' rethinking of the automobile from the 1980s onwards led highway-prioritizing cities to rediscover the value of dense, walkable, mixed-use neighborhoods. The correct paraphrase keeps the causal chain and all three urban descriptors.",
+      "wrongReasons": [
+        "Loses a clause — drops the rediscovery of dense, walkable, mixed-use neighborhoods entirely; only the rethinking is mentioned, with 'little visible effect' instead.",
+        "Reverses the meaning — turns planners' rethinking of cars into 'renewed enthusiasm for highways' and claims cities abandoned (not rediscovered) the dense neighborhoods.",
+        "Adds an unsupported claim — federal legislation banning new urban highways is not mentioned in the original."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. מתכנני ערים החלו לחשוב מחדש על תפקיד המכונית משנות ה־80.\n2. ערים שבעבר העדיפו כבישים מהירים גילו מחדש את הערך הכלכלי של שכונות צפופות, ידידותיות להולכי רגל ורב־שימושיות.\n\nמדוע התשובה הנכונה נכונה:\n(C) שומרת על שתי יחידות המשמעות — שינוי תפיסת המכונית, וההיפוך בערים שגילו מחדש את ערך השכונות הצפופות.\n\nמדוע שאר התשובות שגויות:\n(A) איבוד פסוקית: שומרת רק על שינוי החשיבה, ושוללת את התוצאה הממשית (\"little visible effect\").\n(B) היפוך משמעות: מציגה את המתכננים כמי שהתלהבו מחדש מכבישים — הפך המקור.\n(D) הוספת מידע: \"federal legislation banning new urban highways\" לא הוזכר.\n\nמילים קשות:\n- car-centric design = תכנון מוטה מכוניות\n- mixed-use = רב־שימושי (מגורים ומסחר יחד)\n- re-embrace = לאמץ מחדש"
+    },
+    {
+      "id": "pc_007",
+      "category": "restatements",
+      "difficulty": "medium",
+      "text": "Many readers initially regarded Toni Morrison's novels as confined to the experience of Black Americans. Yet her work has since been recognized for engaging universal questions of memory, identity, and moral responsibility.",
+      "choices": [
+        "Once celebrated for their universal themes of memory and morality, Morrison's novels are now regarded as narrowly focused on African-American life.",
+        "Although Morrison's novels were once seen as limited to African-American themes, they are now valued for raising universal questions of memory and morality.",
+        "Many early readers regarded Toni Morrison's novels as confined to the experience of Black Americans throughout her long writing career.",
+        "Critics now read Morrison's novels as universal moral inquiries, citing her translation into more than thirty languages as definitive proof of the claim."
+      ],
+      "answer": 1,
+      "explanation": "Two sentences linked by 'Yet': initial readers saw Morrison's novels as narrow (limited to Black-American experience), but later readers recognized universal themes (memory, identity, moral responsibility). The correct paraphrase preserves both the initial narrow framing and the later universal recognition.",
+      "wrongReasons": [
+        "Reverses the meaning — the original moves from 'narrow' to 'universal'; this option reverses the chronology, ending in narrow framing rather than universal recognition.",
+        "Loses a clause — keeps only the initial narrow reading and drops the 'Yet … universal questions' reversal entirely.",
+        "Adds an unsupported claim — the original mentions universal themes but says nothing about Morrison being translated into thirty-plus languages."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. רבים בתחילה ראו את הרומנים של טוני מוריסון כמוגבלים לחוויה האפרו־אמריקנית.\n2. בהמשך זכתה יצירתה להכרה כעוסקת בשאלות אוניברסליות של זיכרון, זהות ואחריות מוסרית.\n\nמדוע התשובה הנכונה נכונה:\n(B) שומרת על שני חלקי הניגוד — המבט המצומצם בתחילה, וההכרה האוניברסלית שבאה לאחר מכן.\n\nמדוע שאר התשובות שגויות:\n(A) היפוך משמעות: היפוך הסדר — מתחילה ב\"אוניברסלי\" ומסיימת ב\"מצומצם\".\n(C) איבוד פסוקית: משאירה רק את התפיסה המצומצמת המוקדמת, ללא ההכרה האוניברסלית.\n(D) הוספת מידע: תרגום ליותר משלושים שפות לא נאמר במקור.\n\nמילים קשות:\n- confined to = מוגבל ל\n- universal questions = שאלות אוניברסליות\n- moral responsibility = אחריות מוסרית"
+    },
+    {
+      "id": "pc_008",
+      "category": "restatements",
+      "difficulty": "medium",
+      "text": "Because early experimental psychology relied almost entirely on subjects from Western universities, many of its supposedly universal findings reflected the cultural assumptions of a single, narrow population.",
+      "choices": [
+        "Early experimental psychology relied heavily on Western university subjects, and its findings continue to be regarded as broadly representative of all humanity today.",
+        "Early experimental psychologists deliberately recruited diverse global populations, so their findings were generally free from the cultural assumptions of any single group.",
+        "Western-university subjects shaped early psychology's findings, and modern psychologists have responded by relocating most major experiments to universities in non-Western countries.",
+        "Since early experimental psychology mostly studied participants from Western universities, its supposedly universal results often reflected the cultural assumptions of one narrow population."
+      ],
+      "answer": 3,
+      "explanation": "The 'because' clause names the cause (Western-university samples), and the main clause states the effect (universal claims actually reflect narrow cultural assumptions). The correct paraphrase preserves both the narrow sampling cause and the cultural-bias effect.",
+      "wrongReasons": [
+        "Loses a clause — keeps only the Western-sample cause and explicitly denies the cultural-bias consequence, claiming findings remain 'broadly representative'.",
+        "Reverses the meaning — claims psychologists 'deliberately recruited diverse global populations', the opposite of the original's 'almost entirely Western universities'.",
+        "Adds an unsupported claim — the relocation of most major experiments to non-Western universities is not mentioned in the original."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. הפסיכולוגיה הניסויית המוקדמת התבססה כמעט אך ורק על נבדקים מאוניברסיטאות מערביות.\n2. כתוצאה מכך, ממצאיה ה\"אוניברסליים\" שיקפו הנחות תרבותיות של אוכלוסייה אחת ומצומצמת.\n\nמדוע התשובה הנכונה נכונה:\n(D) שומרת על הקשר הסיבתי בין הדגימה המערבית המצומצמת לבין הטיית התוצאות.\n\nמדוע שאר התשובות שגויות:\n(A) איבוד פסוקית: שומרת על הסיבה (דגימה מערבית) ומשמיטה את התוצאה (הטיה תרבותית).\n(B) היפוך משמעות: מציגה את החוקרים כמי שגייסו אוכלוסיות מגוונות בכוונה — הפך המקור.\n(C) הוספת מידע: \"relocating … to universities in non-Western countries\" לא במקור.\n\nמילים קשות:\n- supposedly = כביכול, לכאורה\n- cultural assumptions = הנחות תרבותיות\n- subjects = נבדקים"
+    },
+    {
+      "id": "pc_009",
+      "category": "restatements",
+      "difficulty": "hard",
+      "text": "Improvements in artificial lighting allowed nineteenth-century factories to operate around the clock. As a result, the working day lengthened beyond what natural rhythms had previously permitted, contributing to a sustained public debate about labor reform.",
+      "choices": [
+        "Nineteenth-century factory lighting extended shifts beyond what natural daylight had once required, fueling a long-running public argument over the regulation of working hours.",
+        "Improvements in nineteenth-century factory lighting shortened the working day below what daylight had previously demanded, ending public debate about labor reform within a generation.",
+        "Improvements in artificial lighting allowed nineteenth-century factories to operate around the clock, with little contemporary attention paid to labor conditions or working hours.",
+        "Factory lighting lengthened the working day and provoked debate over labor reform, leading directly to the eight-hour workday being adopted across Europe by 1880."
+      ],
+      "answer": 0,
+      "explanation": "Two sentences linked by 'As a result': improved lighting let factories run 24 hours, which lengthened the working day past natural limits and fed sustained public debate about labor reform. The correct paraphrase keeps both the time-extension and the labor-reform debate.",
+      "wrongReasons": [
+        "Reverses the meaning — claims lighting shortened the working day and ended labor-reform debate, the opposite of the original.",
+        "Loses a clause — keeps only the round-the-clock operation and denies the public-debate consequence ('little contemporary attention paid').",
+        "Adds an unsupported claim — the original mentions sustained debate but does not say that the eight-hour workday was adopted across Europe by 1880."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. שיפורים בתאורה מלאכותית אפשרו לבתי חרושת במאה ה־19 לעבוד 24 שעות.\n2. כתוצאה מכך, יום העבודה התארך מעבר למה שהאור הטבעי איפשר.\n3. השינוי תרם לוויכוח ציבורי מתמשך על רפורמת עבודה.\n\nמדוע התשובה הנכונה נכונה:\n(A) שומרת על שלוש יחידות המשמעות — התאורה כסיבה, הארכת היום, והוויכוח הציבורי הממושך.\n\nמדוע שאר התשובות שגויות:\n(B) היפוך משמעות: טוענת שהתאורה קיצרה את היום וסיימה את הוויכוח — הפך גמור.\n(C) איבוד פסוקית: שומרת על הפעולה הסביב־לשעון ושוללת את הוויכוח הציבורי.\n(D) הוספת מידע: אימוץ יום עבודה בן שמונה שעות באירופה עד 1880 לא הוזכר במקור.\n\nמילים קשות:\n- around the clock = מסביב לשעון\n- natural rhythms = מקצבים טבעיים\n- sustained debate = ויכוח מתמשך"
+    },
+    {
+      "id": "pc_010",
+      "category": "restatements",
+      "difficulty": "hard",
+      "text": "Despite the widespread availability of preventive vaccines for decades, several historically eliminated diseases have recently returned in regions where public confidence in immunization has eroded under the influence of online misinformation.",
+      "choices": [
+        "The wide availability of vaccines has steadily increased public confidence in immunization, eliminating diseases that had previously thrived on online misinformation in many regions.",
+        "Previously eliminated diseases have returned in several regions, even though preventive vaccines remain widely available and inexpensive to manufacture for global distribution.",
+        "Although preventive vaccines have been broadly available for years, diseases once eliminated are reappearing in places where online misinformation has reduced public confidence in immunization.",
+        "Vaccine misinformation has revived eliminated diseases, prompting governments worldwide to introduce criminal penalties for the online spread of medical claims unsupported by evidence."
+      ],
+      "answer": 2,
+      "explanation": "The concessive 'despite' carries a three-part claim: vaccines have been widely available, yet eliminated diseases have returned, in regions where online misinformation has eroded public confidence. The correct paraphrase preserves all three — the availability, the disease return, and the misinformation-driven confidence drop.",
+      "wrongReasons": [
+        "Reverses the meaning — claims vaccine availability 'steadily increased' confidence and eliminated misinformation-related diseases, the opposite of the original's eroded confidence.",
+        "Loses a clause — drops the misinformation cause entirely and only credits availability and manufacturing cost, leaving the disease return unexplained.",
+        "Adds an unsupported claim — the original mentions misinformation but says nothing about governments introducing criminal penalties for online medical misinformation."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. חיסונים מונעים זמינים בקנה מידה רחב כבר עשורים.\n2. למרות זאת, מחלות שהוכחדו בעבר חוזרות לאזורים מסוימים.\n3. הסיבה: ירידה באמון הציבור בחיסונים בעקבות מידע שגוי ברשת.\n\nמדוע התשובה הנכונה נכונה:\n(C) שומרת על שלוש יחידות המשמעות — הזמינות, החזרת המחלות, וההסבר של ירידת האמון בגלל מידע שגוי ברשת.\n\nמדוע שאר התשובות שגויות:\n(A) היפוך משמעות: טוענת שאמון הציבור עלה ושהחיסונים חיסלו את ההשפעה של המידע השגוי — הפך המקור.\n(B) איבוד פסוקית: שומרת על שני החלקים הראשונים ומתעלמת מסיבת המידע השגוי.\n(D) הוספת מידע: סנקציות פליליות על מידע שגוי ברשת לא הוזכרו.\n\nמילים קשות:\n- preventive vaccine = חיסון מונע\n- erode = לכרסם, לשחוק\n- misinformation = מידע מטעה / שגוי"
+    },
+    {
+      "id": "pc_011",
+      "category": "restatements",
+      "difficulty": "hard",
+      "text": "The Bauhaus, which began as a small design school in early-twentieth-century Germany, established principles of functional minimalism that continue to influence architecture, furniture design, and graphic communication around the world today.",
+      "choices": [
+        "The Bauhaus established principles of functional minimalism in early-twentieth-century Germany that continue to influence architecture and furniture design in academic settings.",
+        "Originally a modest German design school, the Bauhaus laid out principles of functional minimalism that still shape modern architecture, furniture, and graphic design worldwide.",
+        "The Bauhaus's German-born principles of functional minimalism still shape worldwide design and have inspired several universities to dedicate entire campuses to the school's revival.",
+        "Although the Bauhaus is often discussed, its principles of functional minimalism never reached architecture, furniture, or graphic design outside early-twentieth-century Germany itself."
+      ],
+      "answer": 1,
+      "explanation": "The non-restrictive relative clause ('which began as…') sets the historical origin; the main claim is that Bauhaus principles of functional minimalism still influence architecture, furniture, and graphic communication worldwide. The correct paraphrase keeps both the German-school origin and the continuing global influence across the same three design fields.",
+      "wrongReasons": [
+        "Loses a clause — drops 'graphic communication' from the three influenced fields and confines the influence to 'academic settings' rather than the global reach the original asserts.",
+        "Adds an unsupported claim — universities dedicating entire campuses to a Bauhaus revival is nowhere in the original.",
+        "Reverses the meaning — explicitly denies that Bauhaus principles reached architecture, furniture, or graphic design outside Germany, the opposite of the original."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. הבאוהאוס החל כבית ספר קטן לעיצוב בגרמניה של ראשית המאה ה־20.\n2. הוא ביסס עקרונות של מינימליזם פונקציונלי.\n3. עקרונות אלה ממשיכים להשפיע על אדריכלות, עיצוב רהיטים ותקשורת גרפית ברחבי העולם.\n\nמדוע התשובה הנכונה נכונה:\n(B) שומרת על שלוש יחידות המשמעות — המקור הגרמני, עקרונות המינימליזם, וההשפעה הגלובלית המתמשכת על שלושת התחומים.\n\nמדוע שאר התשובות שגויות:\n(A) איבוד פסוקית: מצמצמת את ההשפעה ל\"academic settings\" במקום \"around the world\", ומשמיטה את התקשורת הגרפית.\n(C) הוספת מידע: הקמת קמפוסים אוניברסיטאיים מוקדשים לבאוהאוס לא במקור.\n(D) היפוך משמעות: שוללת לחלוטין את ההשפעה מחוץ לגרמניה — הפך המקור.\n\nמילים קשות:\n- functional minimalism = מינימליזם פונקציונלי\n- graphic communication = תקשורת חזותית/גרפית\n- modest = צנוע, קטן ממדים"
+    },
+    {
+      "id": "pc_012",
+      "category": "restatements",
+      "difficulty": "hard",
+      "text": "Although early ecologists studied isolated species in narrowly defined habitats, contemporary researchers increasingly emphasize that ecosystems function as interconnected networks in which the loss of a single species can produce cascading effects.",
+      "choices": [
+        "Early ecologists studied isolated species in narrowly defined habitats, and contemporary researchers continue to organize their work along those same restricted lines.",
+        "Early ecologists viewed ecosystems as deeply interconnected networks, while contemporary researchers have shifted to studying isolated species in narrowly defined habitats with limited interaction.",
+        "Modern ecology now treats ecosystems as interconnected networks, with most journals refusing to publish single-species studies unless they include cross-species impact analyses.",
+        "While earlier ecologists focused on individual species in single habitats, today's researchers stress that ecosystems behave as connected networks where one species' loss may trigger broader effects."
+      ],
+      "answer": 3,
+      "explanation": "The concessive 'although' contrasts two methodological eras: early ecology studied isolated species in narrow habitats; contemporary research treats ecosystems as interconnected networks where single-species loss can cascade. The correct paraphrase preserves both eras and the cascading-effect consequence.",
+      "wrongReasons": [
+        "Loses a clause — keeps only the early-ecology framing and claims contemporary researchers still work the same way, dropping the network/cascading-effect shift entirely.",
+        "Reverses the meaning — swaps the two eras, claiming the older view was 'interconnected' and the modern view 'isolated species' — the exact opposite of the original.",
+        "Adds an unsupported claim — journal policies requiring cross-species analyses for single-species studies are not mentioned in the original."
+      ],
+      "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. אקולוגים מוקדמים חקרו מינים בודדים בבתי גידול צרים.\n2. חוקרים בני זמננו מדגישים שמערכות אקולוגיות פועלות כרשתות מקושרות.\n3. ברשתות הללו, אובדן של מין אחד יכול להוביל לאפקטים משתלשלים.\n\nמדוע התשובה הנכונה נכונה:\n(D) שומרת על שלוש יחידות המשמעות — הניגוד בין שני העידנים, ראיית המערכת כרשת מקושרת, וההשלכות המשתלשלות של אובדן מין.\n\nמדוע שאר התשובות שגויות:\n(A) איבוד פסוקית: משאירה את התפיסה הישנה ומכחישה את השינוי המחקרי המודרני.\n(B) היפוך משמעות: מחליפה את הסדר ההיסטורי — מציגה את הראייה הישנה כ\"מקושרת\" ואת המודרנית כ\"בודדה\".\n(C) הוספת מידע: מדיניות עורכי כתבי עת לגבי מחקרי מין יחיד לא הוזכרה במקור.\n\nמילים קשות:\n- isolated species = מינים מבודדים\n- interconnected networks = רשתות מקושרות\n- cascading effects = השלכות משתלשלות"
+    }
+  ]
+}

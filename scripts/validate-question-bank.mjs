@@ -16,6 +16,7 @@ const FILES = [
   resolve(ROOT, "src/data/seed/questions.json"),
   resolve(ROOT, "src/data/seed/hard_questions_addon.json"),
   resolve(ROOT, "src/data/seed/questions_expanded.json"),
+  resolve(ROOT, "src/data/seed/_gen_para_complex.json"),
   resolve(ROOT, "src/data/seed/skill_booster_questions.json"),
   resolve(ROOT, "src/data/seed/diagnostic-questions.json"),
 ];

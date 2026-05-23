@@ -4,9 +4,16 @@ import type { SectionResult } from "./score-estimator";
 import { calculateMainScore } from "./score-estimator";
 import { calculatePilotBonus } from "./pilot-bonus-calculator";
 import { userKey, safeGetItem, safeSetItem, safeRemoveItem } from "@/lib/storage/user-storage";
+import type { Question } from "@/types/questions";
+import type {
+  SimulationHistory,
+  SimulationHistoryQuestion,
+} from "@/types/progress";
 
 const LEGACY_SIM_KEY = "amirnet-sim-current";
+const LEGACY_INPROGRESS_KEY = "amirnet-sim-inprogress-v1";
 const simK = () => userKey(LEGACY_SIM_KEY);
+const inProgressK = () => userKey(LEGACY_INPROGRESS_KEY);
 
 export interface SimulationState {
   id: string;
@@ -120,4 +127,114 @@ export function loadSimulationState(): SimulationState | null {
 
 export function clearSimulationState() {
   safeRemoveItem(simK());
+}
+
+// ── In-progress autosave + abandon-to-history flow ──────────────────────────
+
+/**
+ * Lightweight snapshot of an active simulation including the served question
+ * objects, so we can render a per-question review even if the user closes
+ * the tab without finishing.
+ *
+ * Lives under `amirnet-sim-inprogress-v1` (separate from the legacy
+ * `amirnet-sim-current` key) so the `UserProgress` blob is not bloated by
+ * question content.
+ */
+export interface SimulationInProgress {
+  id: string;
+  mode: SimMode;
+  startedAt: string;
+  lastUpdatedAt: string;
+  sections: SectionConfig[];
+  sectionAnswers: Record<string, Record<string, number>>;
+  sectionQuestions: Record<string, Question[]>;
+}
+
+export function saveSimulationInProgress(snap: SimulationInProgress) {
+  safeSetItem(inProgressK(), JSON.stringify(snap));
+}
+
+export function loadSimulationInProgress(): SimulationInProgress | null {
+  const raw = safeGetItem(inProgressK());
+  if (!raw) return null;
+  try {
+    return JSON.parse(raw) as SimulationInProgress;
+  } catch {
+    return null;
+  }
+}
+
+export function clearSimulationInProgress() {
+  safeRemoveItem(inProgressK());
+}
+
+/**
+ * Convert an in-progress snapshot into a SimulationHistory record so it can
+ * be rendered alongside completed simulations. `status` lets callers reuse
+ * this for both the "finished" and "abandoned" paths.
+ */
+export function buildHistoryFromInProgress(
+  snap: SimulationInProgress,
+  status: "completed" | "abandoned"
+): SimulationHistory {
+  const reviewQuestions: SimulationHistoryQuestion[] = [];
+  const breakdown: Record<string, { correct: number; total: number }> = {};
+  let totalAnswered = 0;
+  let totalCorrect = 0;
+
+  for (const section of snap.sections) {
+    const qs = snap.sectionQuestions[section.id] ?? [];
+    const ans = snap.sectionAnswers[section.id] ?? {};
+    let correct = 0;
+    for (const q of qs) {
+      const chosenRaw = ans[q.id];
+      const chosenIndex = typeof chosenRaw === "number" ? chosenRaw : null;
+      const isCorrect = chosenIndex !== null && chosenIndex === q.answer;
+      if (chosenIndex !== null) totalAnswered++;
+      if (isCorrect) {
+        correct++;
+        totalCorrect++;
+      }
+      reviewQuestions.push({
+        sectionId: section.id,
+        questionId: q.id,
+        category: q.category,
+        text: q.text,
+        choices: q.choices,
+        answer: q.answer,
+        chosenIndex,
+        explanation: q.explanation,
+        hebrewExplanation: q.hebrewExplanation,
+        wrongReasons: q.wrongReasons ?? [],
+        passage: q.passage,
+      });
+    }
+    breakdown[section.id] = { correct, total: qs.length };
+  }
+
+  const totalQuestions = reviewQuestions.length;
+  const accuracyPercent = totalAnswered > 0
+    ? Math.round((totalCorrect / totalAnswered) * 100)
+    : 0;
+
+  // For abandoned sessions we don't have a real Amiram-scaled score, so use
+  // a conservative proportional estimate. The "completed" path uses the real
+  // score from calculateMainScore; this helper is intended for the abandoned
+  // path. Callers that compute a real score can override `estimatedScore`.
+  const estimatedScore = totalQuestions > 0
+    ? Math.max(50, Math.min(150, Math.round(50 + (totalCorrect / Math.max(1, totalQuestions)) * 100)))
+    : 50;
+
+  return {
+    id: snap.id,
+    completedAt: new Date().toISOString(),
+    estimatedScore,
+    accuracyPercent,
+    durationSeconds: Math.max(0, Math.round((Date.now() - new Date(snap.startedAt).getTime()) / 1000)),
+    sectionBreakdown: breakdown,
+    isPilot: snap.sections.some((s) => s.isPilot),
+    status,
+    mode: snap.mode,
+    questions: reviewQuestions,
+  };
 }

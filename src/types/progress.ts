@@ -1,4 +1,4 @@
-import type { QuestionCategory, QuestionDifficulty } from "./questions";
+import type { QuestionCategory, QuestionDifficulty, ReadingPassage } from "./questions";
 
 export interface CategoryProgress {
   category: QuestionCategory;
@@ -17,6 +17,25 @@ export interface VocabProgress {
   lastStudiedAt: string | null;
 }
 
+/**
+ * Per-question snapshot saved with a simulation history record so a user
+ * can revisit which questions they got wrong and read the explanation,
+ * even for sessions they abandoned.
+ */
+export interface SimulationHistoryQuestion {
+  sectionId: string;
+  questionId: string;
+  category: QuestionCategory;
+  text: string;
+  choices: string[];
+  answer: number;
+  chosenIndex: number | null;
+  explanation: string;
+  hebrewExplanation?: string;
+  wrongReasons: string[];
+  passage?: ReadingPassage;
+}
+
 export interface SimulationHistory {
   id: string;
   completedAt: string;
@@ -25,6 +44,11 @@ export interface SimulationHistory {
   durationSeconds: number;
   sectionBreakdown: Record<string, { correct: number; total: number }>;
   isPilot: boolean;
+  /** "completed" = user finished normally; "abandoned" = closed mid-session. */
+  status?: "completed" | "abandoned";
+  mode?: string;
+  /** Per-question review data — present on records created from 2026-05 onward. */
+  questions?: SimulationHistoryQuestion[];
 }
 
 export interface DailyGoal {

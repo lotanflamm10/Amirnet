@@ -1,0 +1,818 @@
+Sentence Completion 1
+✗
+The term "drama" was _____ to describe the theatrical performances of Ancient Greece, which were influential worldwide.
+A coined ✓
+B contemplated ✗
+C practiced
+D divided
+Your answer: contemplated
+Correct answer: coined
+Explanation:
+Correct answer: coined
+
+השאלה בעברית:
+המונח "דרמה" היה __ לתאר את ההופעות התיאטרליות של יוון העתיקה, שהיו משפיעות ברחבי העולם.
+
+כל האפשרויות בעברית:
+
+מוּמצָא (coined)
+
+נִשׁקַל (contemplated)
+
+מְתוּרְגָל (practiced)
+
+מְחוּלָק (divided)
+
+הסבר בעברית:
+כדי לבחור נכון, נחשוב על תהליך יצירת מונח חדש. המונח "דרמה" היה צריך להיווצר או "להיות מוּמצָא" כדי לתאר משהו חדש. האפשרות "מוּמצָא" מתאימה לתיאור משהו שחדש. לעומת זאת, "נשקל" לא מתאים, כי זה מתאר רעיון שנשקל ולא מונח שנוצר. "מתורגל" מתייחס לאימון או הרגל, מה שלא מתאים כאן כי זה על יצירת מונח. "מחולק" לא הגיוני כי זה אומר לחלק למשהו ולא ליצור מונח חדש.
+Explanation in English:
+To choose correctly, think about how a new term is created. The word "drama" needed to be created or "coined" to describe something new. "Coined" fits because it describes creating something new. "Contemplated" doesn't fit because it means thinking about an idea, not creating. "Practiced" relates to training or habit, which doesn’t make sense here because it’s about creating a term. "Divided" doesn’t make sense because it means to split something, not create a new term.
+✓
+A rare video _____ capturing the unique biodiversity of Lake Baikal has gained significant attention from researchers.
+A alert
+B fund
+C clip ✓
+D companion
+Your answer: clip
+Correct answer: clip
+Explanation:
+Correct answer: clip
+
+השאלה בעברית:
+סרטון נדיר _____ שתיעד את המגוון הביולוגי הייחודי של ימת בייקל, משך תשומת לב רבה מצד החוקרים.
+
+כל האפשרויות בעברית:
+
+התרעה (alert)
+
+מימון (fund)
+
+סרטון (clip)
+
+חבר (companion)
+
+הסבר בעברית:
+המשפט מדבר על משהו נדיר שקיבל תשומת לב מחוקרים. כשחושבים על מה יכול "לתפוס" תשומת לב, סביר להניח שזה משהו שאפשר לראות או לשמוע, כמו סרטון או תמונה. "סרטון" מתאים כאן כי מדברים על תיעוד של משהו ייחודי. "התרעה" או "מימון" או "חבר" לא מתחברים למשמעות של ללכוד בעין או להקליט.
+Explanation in English:
+The sentence mentions something rare getting attention from researchers. We might expect this to be something you can watch or listen to, like a video. "Clip" fits because it can mean a short video or recording. "Alert," "fund," and "companion" do not fit this idea of recording or seeing something unique.
+✗
+During the Harlem Renaissance, Langston Hughes was _____ by racial discrimination despite his literary success.
+A stressed ✗
+B heightened
+C plagued ✓
+D committed
+Your answer: stressed
+Correct answer: plagued
+Explanation:
+Correct answer: plagued
+
+השאלה בעברית:
+במהלך הרנסאנס של הארלם, לנגסטון יוז היה _____ על ידי אפליה גזעית, למרות הצלחתו הספרותית.
+
+כל האפשרויות בעברית:
+
+לחוץ (stressed)
+
+גבר (heightened)
+
+מתייסר (plagued)
+
+מחויב (committed)
+
+הסבר בעברית:
+הכינוי במשפט הוא ״לנגסטון יוז היה על ידי אפליה גזעית״. אנחנו מחפשים מילה שמתאימה ליחס שלילי לאפליה.
+
+- "לחוץ" לא מתאים כי הוא לא מתאר תהליך מתמשך והקשר כאן הוא השלילי.
+- "גבר" גם לא מתאר משהו לא נעים או שתואם אפליה.
+- "מחויב" הוא במובן של להיות מחויב למשהו, וזה לא מתאים כאן כי האפליה היא משהו שלילי שקרה לו.
+- "מתייסר" מתאים כאן מפני שמדובר בתחושה מתמשכת ולא נוחה עקב האפליה.
+Explanation in English:
+The sentence says "Langston Hughes was _____ by racial discrimination." We need a word that fits a negative impact by discrimination.
+
+- "stressed" doesn't work because it describes temporary feelings, not ongoing issues.
+- "heightened" doesn't describe something bad or discrimination-related.
+- "committed" is about dedication and doesn't match the negative impact.
+- "plagued" fits because it means suffering from a long-lasting, negative situation like discrimination.
+✓
+Tensions began to _____ in Machado de Assis's narrative, reflecting the underlying societal issues of the time.
+A bathe
+B spend
+C monitor
+D escalate ✓
+Your answer: escalate
+Correct answer: escalate
+Explanation:
+Correct answer: escalate
+
+השאלה בעברית:
+המתחים החלו **ב-** עליית משאטרו דה אסיס, המשקפת את הנושאים החברתיים הבסיסיים באותה תקופה.
+
+כל האפשרויות בעברית:
+
+להתרחץ (bathe)
+
+לבזבז (spend)
+
+לנטר (monitor)
+
+להסלים (escalate)
+
+הסבר בעברית:
+המשפט מדבר על מתחים שמתחילים לבצע פעולה כלשהי. הכי הגיוני שמתחים "מסלימים" — כלומר מתחזקים או מתגברים. ההסברים האחרים לא מתאימים כאן. מתחים לא מתרחצים, לא מבזבזים, ולא מנוטרים.
+Explanation in English:
+The sentence talks about tensions starting to do something. The logical choice is "escalate" because it means the tensions are increasing or getting stronger. The other choices don't fit here. Tensions don't bathe, don't spend, and don't monitor.
+Sentence Completion 2
+✗
+Individuals must often _____ to adapt to evolving circumstances in order to ensure personal development.
+A attest
+B resolve ✓
+C pretend
+D cling ✗
+Your answer: cling
+Correct answer: resolve
+Explanation:
+Correct answer: resolve
+
+השאלה בעברית:
+אנשים צריכים לעיתים קרובות _____ כדי להתאים עצמם לנסיבות משתנות במטרה להבטיח התפתחות אישית.
+
+כל האפשרויות בעברית:
+להעיד (attest)
+לפתור (resolve)
+להעמיד פנים (pretend)
+להיאחז (cling)
+
+הסבר בעברית:
+כדי להבין את המשפט, יש להתמקד בתהליך של אנשים שמנסים להתאים את עצמם לנסיבות משתנות כדי לצמוח באופן אישי. "לפתור" מתאים פה כי זה אומר שצריך לפתור בעיות כדי להסתגל ולגדול. "להעיד" לא מתאים כי זה לא קשור להתפתחות. "להעמיד פנים" לא מתאים כי זה לא אקט אמיתי של הסתגלות, ו"להיאחז" לא מתאים כי זה אומר להיצמד ולא להשתנות או להסתגל.
+Explanation in English:
+To understand this sentence, focus on how people try to adjust to changing situations to grow personally. "Resolve" fits because it means solving problems to adapt and grow. "Attest" is not right because it’s about proving something true, not adapting. "Pretend" is not a real act of adapting, and "cling" means holding on, not changing or adapting.
+✗
+Art critics often discuss the _____ of changes in Matisse's style during his later years.
+A severity ✓
+B intimidation
+C agenda ✗
+D stem
+Your answer: agenda
+Correct answer: severity
+Explanation:
+Correct answer: severity
+
+השאלה בעברית:
+מבקרי אמנות דנים לעיתים קרובות ב־_____ של השינויים בסגנון של מאטיס במהלך שנותיו המאוחרות.
+
+כל האפשרויות בעברית:
+
+החומרה (severity)
+
+ההפחדה (intimidation)
+
+הסדר היום (agenda)
+
+הבסיס (stem)
+
+הסבר בעברית:
+במשפט כדאי להתמקד במילה "changes" שמשמעותה שינויים. לדיון בשינויים אפשר להתאים "חומרה" (באיזו מידה הם היו קיצוניים) ולכן "חומרה" מתאימה. "הפחדה" ו"סדר יום" לא מתאימים, כי בדרך כלל הם לא קשורים לשינויים בסגנון אמנותי. "בסיס" לא מתאים גם כי הוא לא מתאר גודל או מידה.
+Explanation in English:
+In the sentence, focus on the word "changes." We often talk about the "severity" of changes, meaning how extreme they are. "Severity" fits because it describes the degree of change. "Intimidation" and "agenda" don't fit because they are not typically related to style changes in art. "Stem" doesn't fit because it doesn't describe size or degree of change.
+✓
+The soldiers were _____ by the ominous circumstances surrounding Alexander the Great's sudden demise.
+A stripped
+B encountered
+C frightened ✓
+D defined
+Your answer: frightened
+Correct answer: frightened
+Explanation:
+Correct answer: frightened
+
+השאלה בעברית:
+החיילים היו _____ מהנסיבות המאיימות סביב מותו הפתאומי של אלכסנדר הגדול.
+
+כל האפשרויות בעברית:
+
+הופשטו (stripped)
+
+נפגשו (encountered)
+
+מפוחדים (frightened)
+
+הוגדרו (defined)
+
+הסבר בעברית:
+יש לשים לב לחלקים החשובים במשפט: "חיילים", "נסיבות מאיימות" ו"מות פתאום". המילה הנכונה צריכה לתאר איך החיילים הרגישו בנסיבות אלו. "מפוחדים" מתאר מה החיילים חוו בגלל הנסיבות המאיימות. האפשרויות האחרות לא מתאימות למשפט כי הן לא מתחברות מבחינה לוגית לרגש או חוויה מותאמת לאיום או חוסר נוחות.
+Explanation in English:
+Focus on key parts of the sentence: "soldiers," "ominous circumstances," and "sudden demise." The right word should describe how the soldiers felt in this situation. "Frightened" describes the soldiers' feelings because of the threatening circumstances. The other options don't fit the sentence as they don't logically connect to a feeling or experience related to threat or discomfort.
+✗
+Weather conditions can _____ significantly between regions, influencing communication network reliability and the deployment of infrastructure.
+A interrupt
+B verify
+C tie ✗
+D differ ✓
+Your answer: tie
+Correct answer: differ
+Explanation:
+Correct answer: differ
+
+השאלה בעברית:
+תנאי מזג האוויר יכולים **להשתנות** בצורה משמעותית בין אזורים, ולהשפיע על אמינות רשתות התקשורת והקמת תשתיות.
+
+כל האפשרויות בעברית:
+
+להפריע (interrupt)
+
+לאמת (verify)
+
+לקשור (tie)
+
+להשתנות (differ)
+
+הסבר בעברית:
+חשוב להבין מה הקשר הלוגי בין חלקי המשפט. כאן אנחנו מדברים על הבדלים בתנאי מזג האוויר בין אזורים שונים. המילה "להשתנות" היא ההגיונית ביותר מתוך האפשרויות, כי מדובר ביכולת של מזג האוויר להיות שונה ממקום למקום. "להשתנות" מתאים לתמונה שנבנית מהמשפט כולו. האפשרויות האחרות כמו "להפריע", "לאמת", ו"לקשור" לא מתאימות למשמעות זו.
+Explanation in English:
+We need to understand the logical connection in the sentence. This sentence talks about differences in weather conditions between regions. The word "differ" makes the most sense because it talks about how weather can be different from one place to another. It fits the picture the whole sentence creates. The other options like "interrupt", "verify", and "tie" don’t fit this meaning.
+Reading Comprehension
+✓
+An appropriate title for this text would be -
+The heart is a marvel of biological engineering, a vital organ tirelessly working to pump blood throughout the human body. This muscular organ, roughly the size of a clenched fist, functions as a sophisticated pump. At its core is a rhythmic dance of contraction and relaxation that comprises the cardiac cycle. The heart is divided into four chambers: two atria situated at the top and two ventricles below. The journey of blood begins as the right atrium receives oxygen-poor blood from the body's extremities. As the heart contracts, this blood is pushed into the right ventricle, which then propels it to the lungs via the pulmonary arteries.
+
+Within the lungs, carbon dioxide, a waste product, is exchanged for oxygen. Freshly oxygenated blood returns to the heart, entering the left atrium. From there, it moves into the powerful left ventricle, which delivers it into the systemic circulation through the aorta, the largest artery in the body. This life-sustaining substance is then distributed to organs and tissues, delivering essential nutrients and oxygen.
+
+The heart's efficient pumping action is orchestrated by electrical impulses originating in the sinoatrial node, often referred to as the heart's natural pacemaker. These impulses ensure that the heart beats in a coordinated manner, maintaining the rhythmic contractions necessary for proper blood flow. Heart valves, such as the mitral and tricuspid valves, also play a crucial role by preventing backflow and ensuring unidirectional blood flow.
+
+This complex mechanism enables the heart to pump around 70 milliliters of blood with each heartbeat, amounting to approximately five liters per minute. A testament to its endurance, the heart will beat millions of times over a human lifetime, underscoring its indispensable role in maintaining life and health.
+A The Rhythm of Life: Understanding the Heart's Function ✓
+B The Journey of Blood: From Heart to Lungs
+C Electrical Impulses: The Heart's Coordinating Force
+D The Anatomy of the Human Lung
+Your answer: The Rhythm of Life: Understanding the Heart's Function
+Correct answer: The Rhythm of Life: Understanding the Heart's Function
+Explanation:
+The text gives a comprehensive overview of the heart's structure and function, detailing the heart's role in the circulation of blood as well as the electrical and mechanical aspects that enable it. Thus, '(1) The Rhythm of Life: Understanding the Heart's Function' encapsulates the main idea.
+✓
+The main purpose of the first paragraph is to describe –
+The heart is a marvel of biological engineering, a vital organ tirelessly working to pump blood throughout the human body. This muscular organ, roughly the size of a clenched fist, functions as a sophisticated pump. At its core is a rhythmic dance of contraction and relaxation that comprises the cardiac cycle. The heart is divided into four chambers: two atria situated at the top and two ventricles below. The journey of blood begins as the right atrium receives oxygen-poor blood from the body's extremities. As the heart contracts, this blood is pushed into the right ventricle, which then propels it to the lungs via the pulmonary arteries.
+
+Within the lungs, carbon dioxide, a waste product, is exchanged for oxygen. Freshly oxygenated blood returns to the heart, entering the left atrium. From there, it moves into the powerful left ventricle, which delivers it into the systemic circulation through the aorta, the largest artery in the body. This life-sustaining substance is then distributed to organs and tissues, delivering essential nutrients and oxygen.
+
+The heart's efficient pumping action is orchestrated by electrical impulses originating in the sinoatrial node, often referred to as the heart's natural pacemaker. These impulses ensure that the heart beats in a coordinated manner, maintaining the rhythmic contractions necessary for proper blood flow. Heart valves, such as the mitral and tricuspid valves, also play a crucial role by preventing backflow and ensuring unidirectional blood flow.
+
+This complex mechanism enables the heart to pump around 70 milliliters of blood with each heartbeat, amounting to approximately five liters per minute. A testament to its endurance, the heart will beat millions of times over a human lifetime, underscoring its indispensable role in maintaining life and health.
+A the heart's role in oxygenating blood
+B the structural components and basic function of the heart ✓
+C the journey of blood through the circulatory system
+D the regulation of heartbeats by electrical impulses
+Your answer: the structural components and basic function of the heart
+Correct answer: the structural components and basic function of the heart
+Explanation:
+The first paragraph introduces the heart as a biological pump and describes its basic structure and function, including the heart's four chambers and the initial steps of blood circulation.
+✓
+The main purpose of the second paragraph is to describe -
+The heart is a marvel of biological engineering, a vital organ tirelessly working to pump blood throughout the human body. This muscular organ, roughly the size of a clenched fist, functions as a sophisticated pump. At its core is a rhythmic dance of contraction and relaxation that comprises the cardiac cycle. The heart is divided into four chambers: two atria situated at the top and two ventricles below. The journey of blood begins as the right atrium receives oxygen-poor blood from the body's extremities. As the heart contracts, this blood is pushed into the right ventricle, which then propels it to the lungs via the pulmonary arteries.
+
+Within the lungs, carbon dioxide, a waste product, is exchanged for oxygen. Freshly oxygenated blood returns to the heart, entering the left atrium. From there, it moves into the powerful left ventricle, which delivers it into the systemic circulation through the aorta, the largest artery in the body. This life-sustaining substance is then distributed to organs and tissues, delivering essential nutrients and oxygen.
+
+The heart's efficient pumping action is orchestrated by electrical impulses originating in the sinoatrial node, often referred to as the heart's natural pacemaker. These impulses ensure that the heart beats in a coordinated manner, maintaining the rhythmic contractions necessary for proper blood flow. Heart valves, such as the mitral and tricuspid valves, also play a crucial role by preventing backflow and ensuring unidirectional blood flow.
+
+This complex mechanism enables the heart to pump around 70 milliliters of blood with each heartbeat, amounting to approximately five liters per minute. A testament to its endurance, the heart will beat millions of times over a human lifetime, underscoring its indispensable role in maintaining life and health.
+A the electrical impulses that coordinate the heart's function
+B the cycle of blood as it moves through the heart and lungs ✓
+C the size and shape of the human heart
+D the importance of heart valves in preventing backflow
+Your answer: the cycle of blood as it moves through the heart and lungs
+Correct answer: the cycle of blood as it moves through the heart and lungs
+Explanation:
+The second paragraph details the process of blood circulation through the heart and lungs, highlighting the exchange of carbon dioxide for oxygen and the path of oxygenated blood.
+✓
+In the sentence, 'unidirectional' could best be replaced by -
+The heart is a marvel of biological engineering, a vital organ tirelessly working to pump blood throughout the human body. This muscular organ, roughly the size of a clenched fist, functions as a sophisticated pump. At its core is a rhythmic dance of contraction and relaxation that comprises the cardiac cycle. The heart is divided into four chambers: two atria situated at the top and two ventricles below. The journey of blood begins as the right atrium receives oxygen-poor blood from the body's extremities. As the heart contracts, this blood is pushed into the right ventricle, which then propels it to the lungs via the pulmonary arteries.
+
+Within the lungs, carbon dioxide, a waste product, is exchanged for oxygen. Freshly oxygenated blood returns to the heart, entering the left atrium. From there, it moves into the powerful left ventricle, which delivers it into the systemic circulation through the aorta, the largest artery in the body. This life-sustaining substance is then distributed to organs and tissues, delivering essential nutrients and oxygen.
+
+The heart's efficient pumping action is orchestrated by electrical impulses originating in the sinoatrial node, often referred to as the heart's natural pacemaker. These impulses ensure that the heart beats in a coordinated manner, maintaining the rhythmic contractions necessary for proper blood flow. Heart valves, such as the mitral and tricuspid valves, also play a crucial role by preventing backflow and ensuring unidirectional blood flow.
+
+This complex mechanism enables the heart to pump around 70 milliliters of blood with each heartbeat, amounting to approximately five liters per minute. A testament to its endurance, the heart will beat millions of times over a human lifetime, underscoring its indispensable role in maintaining life and health.
+A Limited
+B One-way ✓
+C Reversible
+D Varying
+Your answer: One-way
+Correct answer: One-way
+Explanation:
+The term 'unidirectional' refers to blood flowing in a single direction, which aligns with the concept of 'one-way'.
+✓
+The main purpose of the text is to discuss -
+The heart is a marvel of biological engineering, a vital organ tirelessly working to pump blood throughout the human body. This muscular organ, roughly the size of a clenched fist, functions as a sophisticated pump. At its core is a rhythmic dance of contraction and relaxation that comprises the cardiac cycle. The heart is divided into four chambers: two atria situated at the top and two ventricles below. The journey of blood begins as the right atrium receives oxygen-poor blood from the body's extremities. As the heart contracts, this blood is pushed into the right ventricle, which then propels it to the lungs via the pulmonary arteries.
+
+Within the lungs, carbon dioxide, a waste product, is exchanged for oxygen. Freshly oxygenated blood returns to the heart, entering the left atrium. From there, it moves into the powerful left ventricle, which delivers it into the systemic circulation through the aorta, the largest artery in the body. This life-sustaining substance is then distributed to organs and tissues, delivering essential nutrients and oxygen.
+
+The heart's efficient pumping action is orchestrated by electrical impulses originating in the sinoatrial node, often referred to as the heart's natural pacemaker. These impulses ensure that the heart beats in a coordinated manner, maintaining the rhythmic contractions necessary for proper blood flow. Heart valves, such as the mitral and tricuspid valves, also play a crucial role by preventing backflow and ensuring unidirectional blood flow.
+
+This complex mechanism enables the heart to pump around 70 milliliters of blood with each heartbeat, amounting to approximately five liters per minute. A testament to its endurance, the heart will beat millions of times over a human lifetime, underscoring its indispensable role in maintaining life and health.
+A the anatomical structure of the heart
+B the role and function of the human heart ✓
+C the diseases that affect the heart
+D the history of cardiac studies
+Your answer: the role and function of the human heart
+Correct answer: the role and function of the human heart
+Explanation:
+The text provides a comprehensive overview of the heart's structure, its function as a pump in the circulatory system, and its role in sustaining human life, highlighting the efficiency and coordination of its operations.
+Restatement 1
+✓
+The founding of NATO in 1949 marked a pivotal moment in international relations, driven by collective defense against aggression.
+A In 1949, a new approach to international relations focusing on mutual protection was adopted with the establishment of NATO.
+B The founding of NATO in 1949 signaled a new era in relations among nations, based on the principle of mutual defense against attack. ✓
+C The 1949 NATO agreement not only ensured protection from hostility but also paved the way for innovative strategies in international relations.
+D The need for an alliance to safeguard nations from aggression altered the course of international relations and led to the establishment of NATO in 1949.
+Your answer: The founding of NATO in 1949 signaled a new era in relations among nations, based on the principle of mutual defense against attack.
+Correct answer: The founding of NATO in 1949 signaled a new era in relations among nations, based on the principle of mutual defense against attack.
+Explanation:
+Correct answer: b
+
+השאלה בעברית:
+
+הקמת נאט"ו בשנת 1949 סימנה רגע מכריע ביחסים בינלאומיים, שנבע מהגנה משותפת מפני תוקפנות.
+
+(א) בשנת 1949, גישה חדשה ליחסים בינלאומיים המתמקדת בהגנה הדדית אומצה עם הקמת נאט"ו.
+
+(ב) הקמת נאט"ו ב-1949 סימנה עידן חדש ביחסים בין מדינות, המבוסס על עקרון ההגנה ההדדית מפני התקפה.
+
+(ג) הסכם נאט"ו משנת 1949 לא רק הבטיח הגנה מתוקפנות אלא גם סלל את הדרך לאסטרטגיות חדשניות ביחסים בינלאומיים.
+
+(ד) הצורך בברית שתגן על מדינות מפני תוקפנות שינה את מסלול היחסים הבינלאומיים והוביל להקמת נאט"ו ב-1949.
+
+הסבר בעברית:
+
+פירוק משמעות המשפט המקורי:
+
+1. ההקמה של נאט"ו ב-1949 הייתה רגע חשוב ביחסים הבינלאומיים.
+2. ההקמה נבעה מהצורך בהגנה משותפת מפני תוקפנות.
+
+למה התשובה הנכונה נכונה:
+
+(ב) מתארת בדיוק את שני חלקי המשמעות: הקמת נאט"ו ב-1949 מסמנת עידן חדש (רגע מכריע) המבוסס על הגנה הדדית מפני התקפה, שמכוון לצורך בהגנה קולקטיבית.
+
+למה שאר התשובות שגויות:
+
+(א): חסרה את המשמעות של רגע מכריע. מתמקדת באימוץ גישה חדשה ללא הדגש על שינוי מהותי ביחסים בינלאומיים.
+
+(ג): מוסיפה מידע שלא קיים במקור, על אסטרטגיות חדשניות, ולא מדגישה את הרגע המכריע.
+
+(ד): משנה את סדר האירועים ונותנת עדיפות לצורך בהגנה לפני ההקמה, במקום להציג את ההקמה כרגע מכריע.
+
+מילים קשות:
+
+Pivotal - מכריע
+Explanation in English:
+
+Breakdown of the original meaning:
+
+1. The founding of NATO in 1949 was a significant moment in international relations.
+2. It was driven by the need for collective defense against aggression.
+
+Why the correct option is correct:
+
+(b) Accurately reflects both meaning units: the founding of NATO in 1949 marked a new era (significant moment) based on the principle of mutual defense against attack, indicating the need for collective defense.
+
+Why the other options are wrong:
+
+(a): Omits the idea of a pivotal moment. It focuses on adopting a new approach without emphasizing the significant change in international relations.
+
+(c): Adds information not present in the original, about innovative strategies, and does not emphasize the pivotal moment.
+
+(d): Changes the order of events, suggesting the need for defense came first before the founding, rather than presenting the founding as the pivotal moment.
+
+Difficult words:
+
+Pivotal - significant, crucial
+✓
+Urbanization in the 20th century led to significant market expansion, often accelerating economic growth in major cities.
+A A variety of markets developed in major cities during the 20th century, partly as a result of urbanization.
+B A major factor in the economic growth of cities in the 20th century was the expansion of the markets located there.
+C In many major cities, urbanization in the 20th century resulted not only in larger markets but also in a faster rate of economic growth. ✓
+D The 20th century saw major cities grow into important economic centers as their markets expanded.
+Your answer: In many major cities, urbanization in the 20th century resulted not only in larger markets but also in a faster rate of economic growth.
+Correct answer: In many major cities, urbanization in the 20th century resulted not only in larger markets but also in a faster rate of economic growth.
+Explanation:
+Correct answer: c
+
+השאלה בעברית:
+העיור במאה ה-20 הוביל להתרחבות משמעותית של שווקים, ולעיתים אף האיץ את הצמיחה הכלכלית בערים מרכזיות.
+(a) מגוון של שווקים התפתח בערים מרכזיות במהלך המאה ה-20, בחלקו כתוצאה מהעיור.
+(b) גורם מרכזי בצמיחה הכלכלית של ערים במאה ה-20 היה ההתרחבות של השווקים הממוקמים בהן.
+(c) בערים מרכזיות רבות, העיור במאה ה-20 הביא לא רק לשווקים גדולים יותר, אלא גם לקצב צמיחה כלכלית מהיר יותר.
+(d) המאה ה-20 ראתה ערים מרכזיות גדלות למרכזים כלכליים חשובים ככל שהשווקים שלהן התרחבו.
+
+הסבר בעברית:
+
+פירוק משמעות המשפט המקורי:
+העיור במאה ה-20 גרם להתרחבות שוק משמעותית
+התרחבות זו לעיתים האיצה את הצמיחה הכלכלית בערים גדולות
+
+למה התשובה הנכונה נכונה:
+(c) עונה על כל יחידות המשמעות: היא מדברת גם על הרחבת השווקים כתוצאה מהעיור וגם על האצת קצב הצמיחה הכלכלית בערים המרכזיות.
+
+למה שאר התשובות שגויות:
+(b): מתייחס רק להתרחבות השווקים כגורם לצמיחה כלכלית, ולא מזכיר את ההשפעה של העיור עצמו על ההתרחבות.
+(a): מתייחס לפרספקטיבה מצומצמת יותר, שאומרת ששווקים התפתחו כתוצאה מהעיור, אבל לא מדבר על הצמיחה הכלכלית.
+(d): מדובר על ערים שגדלו למרכזים כלכליים בעקבות הרחבת השווקים, אך לא מציין את תפקיד העיור והקשר להאצת הצמיחה.
+
+מילים קשות:
+Urbanization - עיור
+Significant - משמעותי
+Accelerating - האיץ
+Explanation in English:
+
+Breakdown of the original meaning:
+Urbanization in the 20th century caused significant market expansion.
+This expansion sometimes accelerated economic growth in large cities.
+
+Why the correct option is correct:
+(c) Matches all meaning units: it addresses both the market expansion due to urbanization and the accelerated rate of economic growth in major cities.
+
+Why the other options are wrong:
+(b) Focuses only on market expansion as a factor for economic growth, but does not mention the role of urbanization in this expansion.
+(a) Provides a narrower perspective, stating that markets developed due to urbanization, but does not discuss economic growth.
+(d) Talks about cities growing into economic centers due to market expansion but does not mention the role of urbanization and its link to accelerating growth.
+
+Difficult words:
+Urbanization - the process of making an area more urban.
+Significant - important or notable.
+Accelerating - speeding up.
+✓
+The Chernobyl disaster, unfolding in 1986, remains a stark warning of nuclear energy risks.
+A The dangers of nuclear energy were illustrated dramatically by the events at Chernobyl in 1986. ✓
+B If not for the use of nuclear energy, the reactor accident at Chernobyl would never have occurred.
+C There are nuclear risks comparable to those that led to the Chernobyl catastrophe.
+D The incident at Chernobyl in 1986 has not lessened society's dependence on nuclear energy.
+Your answer: The dangers of nuclear energy were illustrated dramatically by the events at Chernobyl in 1986.
+Correct answer: The dangers of nuclear energy were illustrated dramatically by the events at Chernobyl in 1986.
+Explanation:
+Correct answer: a
+
+השאלה בעברית:
+אסון צ'רנוביל, שהתרחש בשנת 1986, נשאר אזהרה חמורה על הסיכונים באנרגיה גרעינית.
+(א) הסכנות שבאנרגיה גרעינית הודגמו באופן דרמטי באירועים בצ'רנוביל בשנת 1986.
+(ב) אילולא השימוש באנרגיה גרעינית, תאונת הכור בצ'רנוביל לעולם לא הייתה מתרחשת.
+(ג) קיימים סיכונים גרעיניים הדומים לאלה שהובילו לאסון צ'רנוביל.
+(ד) האירוע בצ'רנוביל בשנת 1986 לא הפחית את התלות של החברה באנרגיה גרעינית.
+
+הסבר בעברית:
+
+פירוק משמעות המשפט המקורי:
+
+אסון צ'רנוביל התרחש בשנת 1986
+
+האסון נשאר אזהרה חמורה
+
+האסון מזכיר את הסיכונים באנרגיה גרעינית
+
+למה התשובה הנכונה נכונה:
+
+(א) התשובה הזו שומרת על כל יחידות המשמעות: היא מתייחסת לאירוע בצ'רנוביל בשנת 1986, ומציינת שהאירוע מדגים את הסכנות שבאנרגיה גרעינית.
+
+למה שאר התשובות שגויות:
+
+(ב) הוספת מידע: מציעה תרחיש אילו האנרגיה הגרעינית לא הייתה בשימוש, מה שלא נאמר במשפט המקורי.
+
+(ג) הרחבת משמעות: מציינת סיכונים גרעיניים אחרים הדומים לאלה של צ'רנוביל, בעוד שבמשפט המקורי אין התייחסות להשוואות לסיכונים אחרים.
+
+(ד) שינוי משמעות: מתמקדת בתלות באנרגיה גרעינית לאחר צ'רנוביל, נושא שלא נדון במשפט המקורי.
+
+מילים קשות
+
+disaster - אסון
+
+unfolding - שהתרחש
+
+stark warning - אזהרה חמורה
+Explanation in English:
+
+Breakdown of the original meaning:
+
+The Chernobyl disaster occurred in 1986
+
+The disaster remains a stark warning
+
+It highlights the risks of nuclear energy
+
+Why the correct option is correct:
+
+(a) This option maintains all meaning units: it refers to Chernobyl in 1986 and indicates that the event clearly demonstrates the dangers of nuclear energy.
+
+Why the other options are wrong:
+
+(b) Adds extra information: It suggests a scenario where nuclear energy was not used, which is not mentioned in the original sentence.
+
+(c) Broadens the meaning: It talks about other nuclear risks similar to Chernobyl, whereas the original sentence does not make comparisons to other risks.
+
+(d) Changes the meaning: It focuses on the dependence on nuclear energy after Chernobyl, a topic not discussed in the original sentence.
+
+Difficult words:
+
+disaster - catastrophe
+
+unfolding - happening
+
+stark warning - serious warning
+Restatement 2
+✓
+The dawn of industrialization fundamentally transformed labor practices, as mechanized processes supplanted traditional methods, thereby reshaping societal structures and economic relationships across the globe.
+A Industrialized labor practices spread rapidly around the globe, but did not substantially alter societal structures or economic relationships.
+B In order to compete in a rapidly industrializing global economy, many nations transformed their labor practices, societal structures and economic relationships.
+C The profound changes that occurred in labor practices, societal structures and economic relationships around the world at the onset of industrialization were brought about by the substitution of mechanized processes for traditional methods in the workplace. ✓
+D As industrialization transformed labor practices and economic relationships, societies around the globe struggled to adapt to these changes.
+Your answer: The profound changes that occurred in labor practices, societal structures and economic relationships around the world at the onset of industrialization were brought about by the substitution of mechanized processes for traditional methods in the workplace.
+Correct answer: The profound changes that occurred in labor practices, societal structures and economic relationships around the world at the onset of industrialization were brought about by the substitution of mechanized processes for traditional methods in the workplace.
+Explanation:
+Correct answer: c
+
+השאלה בעברית:
+
+ראשית התיעוש שינתה באופן יסודי את שיטות העבודה, כאשר תהליכים ממוכנים החליפו שיטות מסורתיות ובכך עיצבו מחדש את המבנים החברתיים והיחסים הכלכליים ברחבי העולם.
+(א) שיטות העבודה התעשייתיות התפשטו במהירות ברחבי העולם, אך לא שינו באופן משמעותי את המבנים החברתיים או את היחסים הכלכליים.
+(ב) כדי להתחרות בכלכלה העולמית המתועשת במהירות, אומות רבות שינו את שיטות העבודה שלהן, את המבנים החברתיים ואת היחסים הכלכליים.
+(ג) השינויים העמוקים שהתרחשו בשיטות העבודה, במבנים החברתיים וביחסים הכלכליים ברחבי העולם בתחילת התיעוש נגרמו על ידי החלפת תהליכים ממוכנים בשיטות מסורתיות במקום העבודה.
+(ד) ככל שהתיעוש שינה את שיטות העבודה ואת היחסים הכלכליים, חבריות ברחבי העולם נאבקו להסתגל לשינויים אלה.
+
+הסבר בעברית:
+
+פירוק משמעות המשפט המקורי:
+
+1. ראשית התיעוש שינתה לחלוטין את שיטות העבודה.
+2. תהליכים ממוכנים החליפו שיטות מסורתיות.
+3. כתוצאה מכך המבנים החברתיים והיחסים הכלכליים ברחבי העולם השתנו.
+
+למה התשובה הנכונה נכונה:
+
+(ג) תשובה זו תואמת לכל יחידות המשמעות: היא מציינת שינויים בשיטות עבודה, החלפת שיטות מסורתיות בתהליכים ממוכנים, והשפעות על המבנים החברתיים והיחסים הכלכליים ברחבי העולם.
+
+למה שאר התשובות שגויות:
+
+(ב) מוסיפה מידע שלא נאמר במקור - היא מציעה שהתחרות בכלכלה העולמית היא הסיבה לשינויים, מידע לא נזכר במקור.
+
+(ד) מציינת את ההתמודדות של החברות להסתגל לשינויים, נקודה שלא מצוינת במקור.
+
+(א) סותרת את הרעיון המרכזי - היא מציינת ששיטות העבודה התפשטו אך לא שינו את המבנים החברתיים או יחסים כלכליים, בעוד שהמקור קובע ההפך הגמור.
+
+מילים קשות:
+
+dawn - תחילת (בהקשר של תקופה חדשה)
+Explanation in English:
+
+Breakdown of the original meaning:
+
+1. The dawn of industrialization fundamentally changed labor practices.
+2. Mechanized processes replaced traditional methods.
+3. This change reshaped societal structures and economic relationships globally.
+
+Why the correct option is correct:
+
+(c) This sentence matches all meaning units: it mentions changes in labor practices, the substitution of traditional methods by mechanized processes, and the impact on societal structures and economic relationships worldwide.
+
+Why the other options are wrong:
+
+(b) Adds extra information not stated in the original — it suggests competition in the global economy is the reason for the changes, which isn't mentioned in the original.
+
+(d) Mentions societies struggling to adapt to changes, which is not highlighted in the original.
+
+(a) Directly contradicts the main idea — it says industrial labor practices spread but didn't change societal structures or economic relationships, while the original states the opposite.
+
+Difficult words:
+
+dawn - the beginning (in the context of a new period)
+✓
+Langston Hughes's poetry often embodies the rich complexity of African American cultural experiences.
+A Langston Hughes's poems have sometimes been criticized for their complicated language and obscure references.
+B The African American cultural experiences that Langston Hughes portrays in his poetry are often shared by people of other backgrounds as well.
+C Langston Hughes sought to bring African American cultural experiences out of the shadows and into the main stream of American society.
+D The powerful intricacy of African American cultural experiences is often expressed in Langston Hughes's poetry. ✓
+Your answer: The powerful intricacy of African American cultural experiences is often expressed in Langston Hughes's poetry.
+Correct answer: The powerful intricacy of African American cultural experiences is often expressed in Langston Hughes's poetry.
+Explanation:
+Correct answer: d
+
+השאלה בעברית:
+השירה של לנגסטון יוז לעיתים קרובות מגלמת את המורכבות העשירה של החוויות התרבותיות האפרו-אמריקאיות.
+
+(א) לעיתים השירים של לנגסטון יוז זוכים לביקורת בשל השפה המסובכת וההתייחסויות המעורפלות שלהם.
+(ב) החוויות התרבותיות האפרו-אמריקאיות שלנגסטון יוז מתאר בשירה שלו הן בדרך כלל משותפות גם לאנשים מרקעים אחרים.
+(ג) לנגסטון יוז שאף להוציא את החוויות התרבותיות האפרו-אמריקאיות מהצל אל המיינסטרים של החברה האמריקאית.
+(ד) המורכבות העוצמתית של החוויות התרבותיות האפרו-אמריקאיות מתבטאת לעיתים קרובות בשירה של לנגסטון יוז.
+
+הסבר בעברית:
+
+פירוק משמעות המשפט המקורי:
+
+- השירה של לנגסטון יוז
+- לעיתים קרובות מגלמת
+- את המורכבות העשירה של החוויות התרבותיות האפרו-אמריקאיות
+
+למה התשובה הנכונה נכונה:
+
+(ד) נכון מכיוון שהוא משקף את הרעיון שהמורכבות של החוויות האפרו-אמריקאיות מתבטאת בשירה של יוז, ללא שינוי או הוספה למשמעות.
+
+למה שאר התשובות שגויות:
+
+(ב) מוסיף משמעות - מתאר את הרעיון שהחוויות התרבותיות גם משותפות לאנשים אחרים, שלא נאמר בפועל המקורי.
+
+(ג) משנה משמעות - מתאר מטרה של יוז (להוציא מהצל), שלא צוינה במשפט המקורי.
+
+(א) משנה משמעות - מתמקד בביקורת על השפה וההתייחסויות, שאין להם קשר לתוכן המקורי.
+
+מילים קשות:
+
+embodies - מגלמת
+Explanation in English:
+
+Breakdown of the original meaning:
+
+- Langston Hughes's poetry
+- often embodies
+- the rich complexity of African American cultural experiences
+
+Why the correct option is correct:
+
+(d) is correct because it reflects the idea that the complexity of African American experiences is expressed in Hughes's poetry, without altering or adding to the original meaning.
+
+Why the other options are wrong:
+
+(b) Adds meaning - Describes the idea that the cultural experiences are also shared by others, which is not mentioned in the original statement.
+
+(c) Changes meaning - Describes an intent of Hughes (bringing into mainstream), not stated in the original sentence.
+
+(a) Changes meaning - Focuses on criticism of language and references, which is unrelated to the original content.
+
+Difficult words:
+
+embodies - expresses or represents
+✓
+Even though Haile Selassie's reign ended in 1974, his legacy endures resiliently.
+A The influence of Haile Selassie, who ended his reign in 1974, remains remarkably strong. ✓
+B Once resiliently charismatic, Haile Selassie lost his legacy as a leader when he ended his reign in 1974.
+C Haile Selassie's successors have struggled to maintain his legacy.
+D Without question, Haile Selassie's dynamic leadership did not survive the end of his reign in 1974.
+Your answer: The influence of Haile Selassie, who ended his reign in 1974, remains remarkably strong.
+Correct answer: The influence of Haile Selassie, who ended his reign in 1974, remains remarkably strong.
+Explanation:
+Correct answer: a
+
+השאלה בעברית:
+למרות ששלטונו של היילה סלאסי הסתיים ב-1974, מורשתו נמשכת בעוצמה.
+(א) השפעתו של היילה סלאסי, שסיים את שלטונו ב-1974, נותרת חזקה באופן מרשים.
+(ב) היילה סלאסי, שהיה פעם כריזמטי באופן מתמשך, איבד את מורשתו כמנהיג כאשר סיים את שלטונו ב-1974.
+(ג) יורשיו של היילה סלאסי התקשו לשמר את מורשתו.
+(ד) אין ספק שמנהיגותו הדינמית של היילה סלאסי לא שרדה את סיום שלטונו ב-1974.
+
+הסבר בעברית:
+
+פירוק משמעות המשפט המקורי:
+
+1. שלטונו של היילה סלאסי הסתיים ב-1974.
+2. מורשתו נמשכת בעוצמה ולא נפגעה.
+
+למה התשובה הנכונה נכונה:
+
+(א) התשובה מתארת כיצד השפעתו של היילה סלאסי נותרת חזקה, התאמה מדויקת למורשתו שממשיכה בעוצמה.
+
+למה שאר התשובות שגויות:
+
+(ב): משנה את המשמעות – נאמר שסלאסי איבד את מורשתו עם סיום שלטונו, שזה ההפך מהמשפט המקורי.
+
+(ג): מוסיף מידע – מדבר על הקושי של יורשיו לשמר את מורשתו, דבר שלא נאמר במקור.
+
+(ד): משנה את המשמעות – מצהיר שמנהיגותו לא שרדה את סיום השלטון, שזה לא עולה בקנה אחד עם המורשת שנמשכת בעוצמה.
+
+מילים קשות:
+
+resiliently - באופן יציב ועמיד
+Explanation in English:
+
+Breakdown of the original meaning:
+
+1. Haile Selassie's reign ended in 1974.
+2. His legacy continues strongly and is unaffected.
+
+Why the correct option is correct:
+
+(a) The answer describes how the influence of Haile Selassie remains strong, accurately matching the original idea that his legacy endures resiliently.
+
+Why the other options are wrong:
+
+(b) Changes the meaning – it states that Haile Selassie lost his legacy when his reign ended, which is the opposite of the original statement.
+
+(c) Adds information – speaks about the successors' struggle to maintain his legacy, which is not mentioned in the original.
+
+(d) Changes the meaning – claims his leadership did not survive the end of his reign, which does not align with the original's idea of a legacy that continues strongly.
+
+Difficult words:
+
+Resiliently - in a strong and enduring manner
+Sentence Completion 3
+✗
+Antoni Gaudí's architectural style often featured _____ shapes that harmonized with the surrounding natural environment.
+A nutritional ✗
+B organic ✓
+C enthusiastic
+D eternal
+Your answer: nutritional
+Correct answer: organic
+Explanation:
+Correct answer: organic
+
+השאלה בעברית:
+סגנון האדריכלות של אנטוני גאודי לעיתים קרובות כלל צורות _____ שהשתלבו בהרמוניה עם הסביבה הטבעית.
+
+כל האפשרויות בעברית:
+
+תזונתיות (nutritional)
+
+אורגניות (organic)
+
+נלהבות (enthusiastic)
+
+נצחיות (eternal)
+
+הסבר בעברית:
+במשפט מדובר על צורות שמשתלבות בהרמוניה עם הסביבה הטבעית. המילה "אורגניות" מתאימה, כי היא מתקשרת לטבע. המילים האחרות לא מתאימות. "תזונתיות" מתאימה לאוכל. "נלהבות" מתייחסות לרגשות ולא לצורות. "נצחיות" מצביעות על זמן או תוחלת ולא על צורה שקשורה לטבע.
+Explanation in English:
+The sentence talks about shapes that fit with the natural environment. "Organic" works because it connects to nature. The other words do not fit. "Nutritional" is about food. "Enthusiastic" is about feelings, not shapes. "Eternal" is about time, not something that links to nature.
+✗
+Recognizing personal freedom was _____ to Jean-Paul Sartre's existential philosophy, influencing numerous literary and philosophical works.
+A vital ✓
+B assembled ✗
+C indifferent
+D severe
+Your answer: assembled
+Correct answer: vital
+Explanation:
+Correct answer: vital
+
+השאלה בעברית:
+ההכרה בחופש אישי הייתה __ לפילוסופיה האקזיסטנציאליסטית של ז'אן-פול סארטר, והשפיעה על יצירות ספרותיות ופילוסופיות רבות.
+
+כל האפשרויות בעברית:
+
+חיונית (vital)
+
+מורכבת (assembled)
+
+אדישה (indifferent)
+
+חמורה (severe)
+
+הסבר בעברית:
+המשפט מדבר על משהו שהיה חשוב לפילוסופיה של סארטר והשפיע על יצירות רבות. התחלה כזו דורשת מילה שמביעה חשיבות, ולכן "חיונית". האפשרויות האחרות פחות מתאימות: "מורכבת" מדברת על תהליך יצירה, "אדישה" היא חוסר תשומת לב, ו"חמורה" לא מתאימה להקשר של חשיבות או השפעה.
+Explanation in English:
+The sentence talks about something very important to Sartre's philosophy that influenced many works. This suggests a need for a word meaning importance, like "vital." The other options do not fit: "assembled" is about making something, "indifferent" means not caring, and "severe" does not express importance or influence.
+✓
+During the Chinese Cultural Revolution, the _____ of revolutionary ideas into educational institutions significantly altered the curriculum and teaching practices.
+A performer
+B ray
+C infiltration ✓
+D score
+Your answer: infiltration
+Correct answer: infiltration
+Explanation:
+Correct answer: infiltration
+
+השאלה בעברית:
+במהלך המהפכה התרבותית בסין, ה____ של רעיונות מהפכניים לתוך מוסדות חינוכיים שינה באופן משמעותי את תוכנית הלימודים ושיטות ההוראה.
+
+כל האפשרויות בעברית:
+מבצע (performer)
+קרן (ray)
+חדירה (infiltration)
+תוצאה (score)
+
+הסבר בעברית:
+המילה שחסרה מדברת על איך רעיונות חדשים נכנסים למוסדות חינוכיים. "חדירה" היא המילה שמתאימה למעבר של רעיונות או השפעות. "מבצע" מדבר על אדם, ולא מתאים להקשר. "קרן" מתייחסת לאור ולא לרעיונות, ו"תוצאה" מתארת משהו אחר לגמרי - הצלחה או ציון.
+Explanation in English:
+The missing word talks about how new ideas get into educational institutions. "Infiltration" fits because it describes ideas or influences getting into a place. "Performer" talks about a person, which is not right here. "Ray" is about light, not ideas, and "score" means results or numbers, not the spreading of ideas.
+✓
+Visitors to the exhibition were captivated by the _____ representations of Hokusai's renowned wave paintings.
+A defective
+B tolerable
+C trivial
+D mock ✓
+Your answer: mock
+Correct answer: mock
+Explanation:
+Correct answer: mock
+
+השאלה בעברית:
+הבאים לתערוכה נשבו בקסם של **ייצוגים** של ציורי הגלים הידועים של הוקוסאי.
+
+כל האפשרויות בעברית:
+
+פגומים (defective)
+
+נסבלים (tolerable)
+
+שוליים (trivial)
+
+מדמים (mock)
+
+הסבר בעברית:
+במשפט מדובר על ייצוגים או חיקויים של ציורים. מתוך האפשרויות, "מדמים" מתאים לתיאור משהו שלא מקורי אלא מחקה את המקור. אפשרויות כמו "פגומים", "נסבלים" ו"שוליים" אינן מתאימות להקשר שבו האנשים נשבו בקסם של הייצוגים.
+Explanation in English:
+The sentence talks about representations or imitations of paintings. "Mock" means imitating something, which fits well here. Options like "defective," "tolerable," and "trivial" don't fit because they don't describe something people would be captivated by.

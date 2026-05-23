@@ -2,6 +2,7 @@ import type { Question } from "@/types/questions";
 import questionsRaw from "@/data/seed/questions.json";
 import hardAddon from "@/data/seed/hard_questions_addon.json";
 import expandedAddon from "@/data/seed/questions_expanded.json";
+import paraComplex from "@/data/seed/_gen_para_complex.json";
 import skillBoostersRaw from "@/data/seed/skill_booster_questions.json";
 import {
   getRecentIds,
@@ -85,6 +86,7 @@ function mergeData(): QuestionsData {
     questionsRaw as unknown as QuestionsData,
     hardAddon    as unknown as QuestionsData,
     expandedAddon as unknown as QuestionsData,
+    paraComplex  as unknown as QuestionsData,
   ];
   const merged: QuestionsData = {};
 

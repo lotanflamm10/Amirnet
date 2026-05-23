@@ -2,6 +2,12 @@ import type { UserProgress, CategoryProgress, SimulationHistory } from "@/types/
 import type { QuestionCategory, QuestionDifficulty } from "@/types/questions";
 import { getLevelFromXp } from "@/lib/gamification/xp-system";
 import { userKey, safeGetItem, safeSetItem, safeRemoveItem } from "@/lib/storage/user-storage";
+import {
+  loadSimulationInProgress,
+  clearSimulationInProgress,
+  clearSimulationState,
+  buildHistoryFromInProgress,
+} from "@/lib/simulation/simulation-engine";
 
 const LEGACY_KEY = "amirnet-progress-v1";
 const k = () => userKey(LEGACY_KEY);
@@ -95,8 +101,54 @@ export function recordSimulation(sim: SimulationHistory) {
   const p = loadProgress();
   p.simulationHistory.unshift(sim);
   if (p.simulationHistory.length > 20) p.simulationHistory.pop();
-  p.estimatedScore = sim.estimatedScore;
+  // Only update the headline estimatedScore for completed sessions —
+  // abandoned partial attempts shouldn't pull the dashboard score down.
+  if (sim.status !== "abandoned") {
+    p.estimatedScore = sim.estimatedScore;
+  }
   saveProgress(p);
+}
+
+/**
+ * If the user closed the tab mid-simulation, an in-progress snapshot will
+ * still be on disk. Convert it into an "abandoned" history record so the
+ * student can revisit the questions they answered, then clear the in-
+ * progress state. Safe to call on every page load — no-ops when there is
+ * no in-progress snapshot or when nothing was answered yet.
+ */
+export function flushAbandonedSimulation(): SimulationHistory | null {
+  if (typeof window === "undefined") return null;
+  const snap = loadSimulationInProgress();
+  if (!snap) return null;
+
+  const totalAnswered = Object.values(snap.sectionAnswers ?? {}).reduce(
+    (acc, s) => acc + Object.keys(s ?? {}).length,
+    0
+  );
+
+  // Don't record empty/0-answer abandons — that's just noise.
+  if (totalAnswered === 0) {
+    clearSimulationInProgress();
+    clearSimulationState();
+    return null;
+  }
+
+  const p = loadProgress();
+  if (p.simulationHistory.some((h) => h.id === snap.id)) {
+    // Already recorded (e.g. user finished, then we ran again on next load).
+    clearSimulationInProgress();
+    clearSimulationState();
+    return null;
+  }
+
+  const record = buildHistoryFromInProgress(snap, "abandoned");
+  p.simulationHistory.unshift(record);
+  if (p.simulationHistory.length > 20) p.simulationHistory.pop();
+  saveProgress(p);
+
+  clearSimulationInProgress();
+  clearSimulationState();
+  return record;
 }
 
 export function recordVocabSession(seen: number, known: number) {

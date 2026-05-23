@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
-import Link from "next/link";
 import type { Question } from "@/types/questions";
 import { selectQuestions } from "@/lib/practice/question-selector";
 import type { DifficultyFilter, SessionMode } from "@/lib/practice/question-selector";
@@ -9,13 +8,23 @@ import { addXp, recordAnswer as recordProgressAnswer } from "@/lib/progress/loca
 import type { QuestionCategory } from "@/types/questions";
 import QuestionCard from "@/components/practice/QuestionCard";
 import { useLang } from "@/contexts/LanguageContext";
+import {
+  CHALLENGE_DEFAULT_SECONDS,
+  CHALLENGE_MIN_READ_SECONDS,
+  getChallengePerQuestionSeconds,
+} from "@/lib/practice/challenge-timing";
+import {
+  getRecentChallengeSummaries,
+  saveChallengeSummary,
+  summaryFromQuestions,
+  type ChallengeSummary,
+} from "@/lib/practice/challenge-history";
+import { ChallengeSummaryReport } from "./ChallengeSummary";
 
-const Q_TIME = 30;
+const COMPLIMENTS_HE = ["מצוין!", "אש!", "כל הכבוד!", "ישר ולעניין!", "מעולה!", "נהדר!", "חכם!", "כך ממשיכים!", "מושלם!", "בלתי ניתן לעצירה!"];
+const COMPLIMENTS_EN = ["Amazing!", "You're on fire!", "Great job!", "Nailed it!", "Excellent!", "On a roll!", "Smart!", "Keep it up!", "Perfect!", "Unstoppable!"];
 
-const COMPLIMENTS_HE = ["מצוין! 🌟", "אש! 🔥", "כל הכבוד!", "ישר ולעניין! 💪", "מעולה! 🎯", "נהדר! 🔥", "חכם! 🧠", "כך ממשיכים! 🚀", "מושלם! ✨", "בלתי ניתן לעצירה! 💥"];
-const COMPLIMENTS_EN = ["Amazing! 🌟", "You're on fire! 🔥", "Great job!", "Nailed it! 💪", "Excellent! 🎯", "On a roll! 🔥", "Smart! 🧠", "Keep it up! 🚀", "Perfect! ✨", "Unstoppable! 💥"];
-
-type Screen = "lobby" | "playing" | "correct" | "wrong" | "summary";
+type Screen = "lobby" | "playing" | "answered" | "summary";
 
 interface CatStat { correct: number; total: number }
 
@@ -41,10 +50,6 @@ const CATEGORIES: ChallengeCat[] = [
   { id: "wordFormation",      he: "יצירת מילה",              en: "Word Formation",              isPilot: true },
   { id: "writingTask",        he: "מטלת כתיבה",              en: "Writing Task",                isPilot: true, unavailable: true },
 ];
-
-const CAT_LABEL_BY_ID: Record<string, { he: string; en: string }> = Object.fromEntries(
-  CATEGORIES.map((c) => [c.id, { he: c.he, en: c.en }]),
-);
 
 const DIFFS: { id: DifficultyFilter; he: string; en: string }[] = [
   { id: "adaptive", he: "מעורב",  en: "Mixed" },
@@ -91,8 +96,12 @@ function buildMultiPool(
   return merged.slice(0, count);
 }
 
-function calcGain(timeLeft: number, streak: number): number {
-  return 10 + Math.min(streak, 5) * 2 + (timeLeft >= 25 ? 5 : 0);
+function calcGain(timeLeft: number, totalTime: number, streak: number): number {
+  // Speed bonus rewards answering in the first 1/6 of the budget; old
+  // behaviour rewarded the first 5s of a 30s timer (≥25s left), which is
+  // equivalent.
+  const fastThreshold = Math.round(totalTime * (5 / 6));
+  return 10 + Math.min(streak, 5) * 2 + (timeLeft >= fastThreshold ? 5 : 0);
 }
 
 function CategoryChip({
@@ -146,12 +155,15 @@ export default function ChallengeSession() {
   ]);
   const [diff, setDiff] = useState<DifficultyFilter>("adaptive");
   const [count, setCount] = useState(20);
+  const [recentSummaries, setRecentSummaries] = useState<ChallengeSummary[]>([]);
 
   // Game state
   const [screen, setScreen] = useState<Screen>("lobby");
   const [questions, setQuestions] = useState<Question[]>([]);
   const [idx, setIdx] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(Q_TIME);
+  const [questionBudget, setQuestionBudget] = useState(CHALLENGE_DEFAULT_SECONDS);
+  const [timeLeft, setTimeLeft] = useState(CHALLENGE_DEFAULT_SECONDS);
+  const [readWindow, setReadWindow] = useState(CHALLENGE_MIN_READ_SECONDS);
   const [score, setScore] = useState(0);
   const [streak, setStreak] = useState(0);
   const [maxStreak, setMaxStreak] = useState(0);
@@ -160,32 +172,68 @@ export default function ChallengeSession() {
   const [compliment, setCompliment] = useState("");
   const [chosenIdx, setChosenIdx] = useState<number | undefined>(undefined);
   const [results, setResults] = useState<(boolean | null)[]>([]);
-  const [catStats, setCatStats] = useState<Record<string, CatStat>>({});
+  const [activeSummary, setActiveSummary] = useState<ChallengeSummary | null>(null);
+  const [sessionStartedAt, setSessionStartedAt] = useState<string>("");
 
-  const tlRef = useRef(Q_TIME);
+  const tlRef = useRef(CHALLENGE_DEFAULT_SECONDS);
+  const budgetRef = useRef(CHALLENGE_DEFAULT_SECONDS);
   const answeredRef = useRef(false);
   const streakRef = useRef(0);
   const scoreRef = useRef(0);
   const maxRef = useRef(0);
   const statsRef = useRef<Record<string, CatStat>>({});
+  const chosenRef = useRef<(number | null)[]>([]);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const readTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const advRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const handleRef = useRef<(ci: number) => void>(() => {});
+  const persistedRef = useRef<string | null>(null);
+
+  // Load recent challenge summaries for the lobby "Recent" section.
+  useEffect(() => {
+    setRecentSummaries(getRecentChallengeSummaries(5));
+  }, []);
 
   function stopTimer() { if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; } }
+  function stopReadTimer() { if (readTimerRef.current) { clearInterval(readTimerRef.current); readTimerRef.current = null; } }
   function stopAdv()   { if (advRef.current) { clearTimeout(advRef.current); advRef.current = null; } }
 
+  const persistSummary = useCallback((qs: Question[], chosenList: (number | null)[]) => {
+    const summary = summaryFromQuestions(
+      sessionStartedAt || new Date().toISOString(),
+      qs,
+      chosenList,
+      scoreRef.current,
+      maxRef.current,
+      diff
+    );
+    if (persistedRef.current !== summary.id) {
+      saveChallengeSummary(summary);
+      persistedRef.current = summary.id;
+      setRecentSummaries(getRecentChallengeSummaries(5));
+    }
+    return summary;
+  }, [sessionStartedAt, diff]);
+
   function doAdvance(capturedIdx: number, capturedQs: Question[]) {
+    stopReadTimer();
+    stopAdv();
     const next = capturedIdx + 1;
     if (next >= capturedQs.length) {
-      setCatStats({ ...statsRef.current });
+      const finalSummary = persistSummary(capturedQs, [...chosenRef.current]);
+      setActiveSummary(finalSummary);
       setScreen("summary");
     } else {
       setIdx(next);
       setChosenIdx(undefined);
       answeredRef.current = false;
-      tlRef.current = Q_TIME;
-      setTimeLeft(Q_TIME);
+      const nextQ = capturedQs[next];
+      const budget = getChallengePerQuestionSeconds(nextQ?.category);
+      budgetRef.current = budget;
+      tlRef.current = budget;
+      setQuestionBudget(budget);
+      setTimeLeft(budget);
+      setReadWindow(CHALLENGE_MIN_READ_SECONDS);
       setScreen("playing");
     }
   }
@@ -200,7 +248,8 @@ export default function ChallengeSession() {
 
     const isCorrect = ci >= 0 && ci === q.answer;
     const cat = q.category ?? "sentenceCompletion";
-    const timeSpent = Q_TIME - tlRef.current;
+    const budget = budgetRef.current;
+    const timeSpent = budget - tlRef.current;
     recordProgressAnswer(cat as QuestionCategory, isCorrect, timeSpent);
     if (isCorrect) addXp(10);
     const ps = statsRef.current[cat] ?? { correct: 0, total: 0 };
@@ -211,17 +260,20 @@ export default function ChallengeSession() {
 
     if (ci >= 0) setChosenIdx(ci);
 
-    const capturedIdx = idx;
-    const capturedQs = questions;
+    // Record the user's choice (or null on timeout) per-question.
+    const newChosen = [...chosenRef.current];
+    newChosen[idx] = ci >= 0 ? ci : null;
+    chosenRef.current = newChosen;
+
     setResults((prev) => {
       const next = [...prev];
-      next[capturedIdx] = isCorrect;
+      next[idx] = isCorrect;
       return next;
     });
 
     const compls = isHe ? COMPLIMENTS_HE : COMPLIMENTS_EN;
     if (isCorrect) {
-      const gain = calcGain(tlRef.current, streakRef.current);
+      const gain = calcGain(tlRef.current, budget, streakRef.current);
       const ns = streakRef.current + 1;
       const nScore = scoreRef.current + gain;
       const nMax = Math.max(maxRef.current, ns);
@@ -229,22 +281,44 @@ export default function ChallengeSession() {
       setScore(nScore); setStreak(ns); setMaxStreak(nMax);
       setLastGain(gain); setGainKey((k) => k + 1);
       setCompliment(compls[Math.floor(Math.random() * compls.length)]);
-      setScreen("correct");
-      advRef.current = setTimeout(() => doAdvance(capturedIdx, capturedQs), 1500);
     } else {
       streakRef.current = 0;
       setStreak(0);
-      setScreen("wrong");
-      advRef.current = setTimeout(() => doAdvance(capturedIdx, capturedQs), 2200);
+      setLastGain(0);
     }
-  }, [questions, idx, isHe]); // eslint-disable-line react-hooks/exhaustive-deps
+
+    // Show the answered/explanation screen until the user clicks Next
+    // (or until the generous read window expires).
+    setScreen("answered");
+    setReadWindow(CHALLENGE_MIN_READ_SECONDS);
+    stopReadTimer();
+    readTimerRef.current = setInterval(() => {
+      setReadWindow((prev) => {
+        const next = Math.max(0, prev - 1);
+        if (next === 0) {
+          stopReadTimer();
+          // Capture current values for advance; do NOT auto-advance unless
+          // the user is still on the explanation screen.
+          advRef.current = setTimeout(() => doAdvance(idx, questions), 50);
+        }
+        return next;
+      });
+    }, 1000);
+  }, [questions, idx, isHe, persistSummary]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const handleNext = useCallback(() => {
+    if (screen !== "answered") return;
+    stopReadTimer();
+    stopAdv();
+    doAdvance(idx, questions);
+  }, [screen, idx, questions]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => { handleRef.current = handleAnswer; });
 
   useEffect(() => {
     if (screen !== "playing") return;
     stopTimer();
-    tlRef.current = Q_TIME;
+    tlRef.current = budgetRef.current;
     timerRef.current = setInterval(() => {
       tlRef.current = Math.max(0, tlRef.current - 1);
       setTimeLeft(tlRef.current);
@@ -256,7 +330,7 @@ export default function ChallengeSession() {
     return () => stopTimer();
   }, [screen, idx]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  useEffect(() => () => { stopTimer(); stopAdv(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => () => { stopTimer(); stopReadTimer(); stopAdv(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function toggleCat(id: ChallengeCat["id"]) {
     setSelectedCats((prev) =>
@@ -275,22 +349,42 @@ export default function ChallengeSession() {
 
   function start() {
     if (!canStart) return;
-    stopTimer(); stopAdv();
+    stopTimer(); stopReadTimer(); stopAdv();
     const qs = buildMultiPool(availableSelected, diff, count);
     if (!qs.length) return;
+    const initialBudget = getChallengePerQuestionSeconds(qs[0]?.category);
     setQuestions(qs);
     setResults(new Array(qs.length).fill(null));
-    setIdx(0); setTimeLeft(Q_TIME);
+    chosenRef.current = new Array(qs.length).fill(null);
+    setIdx(0);
+    setQuestionBudget(initialBudget);
+    setTimeLeft(initialBudget);
+    setReadWindow(CHALLENGE_MIN_READ_SECONDS);
     setScore(0); setStreak(0); setMaxStreak(0);
-    setLastGain(0); setGainKey(0); setChosenIdx(undefined); setCatStats({});
+    setLastGain(0); setGainKey(0); setChosenIdx(undefined);
+    setActiveSummary(null);
+    setSessionStartedAt(new Date().toISOString());
     scoreRef.current = 0; streakRef.current = 0; maxRef.current = 0;
-    tlRef.current = Q_TIME; answeredRef.current = false; statsRef.current = {};
+    budgetRef.current = initialBudget;
+    tlRef.current = initialBudget;
+    answeredRef.current = false;
+    statsRef.current = {};
+    persistedRef.current = null;
     setScreen("playing");
   }
 
+  function backToLobby() {
+    stopTimer(); stopReadTimer(); stopAdv();
+    setActiveSummary(null);
+    setRecentSummaries(getRecentChallengeSummaries(5));
+    setScreen("lobby");
+  }
+
   const q = questions[idx];
-  const timerPct = (timeLeft / Q_TIME) * 100;
-  const timerColor = timeLeft > 15 ? "var(--teal)" : timeLeft > 7 ? "var(--warn)" : "var(--danger)";
+  const timerPct = (timeLeft / Math.max(1, questionBudget)) * 100;
+  const warnAt = Math.max(5, Math.round(questionBudget * 0.4));
+  const dangerAt = Math.max(2, Math.round(questionBudget * 0.15));
+  const timerColor = timeLeft > warnAt ? "var(--teal)" : timeLeft > dangerAt ? "var(--warn)" : "var(--danger)";
 
   const mainCats = useMemo(() => CATEGORIES.filter((c) => !c.isPilot), []);
   const pilotCats = useMemo(() => CATEGORIES.filter((c) => c.isPilot), []);
@@ -444,93 +538,54 @@ export default function ChallengeSession() {
               minHeight: 48,
             }}
           >
-            {isHe ? "התחל אתגר ⚡" : "Start Challenge ⚡"}
+            {isHe ? "התחל אתגר" : "Start Challenge"}
           </button>
+
+          {/* Recent challenges — last 5 summaries from this user */}
+          {recentSummaries.length > 0 && (
+            <div className="card" style={{ padding: "1.1rem 1.25rem" }}>
+              <div style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--ink-muted)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "0.6rem" }}>
+                {isHe ? "אתגרים אחרונים" : "Recent challenges"}
+              </div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+                {recentSummaries.map((s) => {
+                  const acc = s.totalQuestions > 0 ? Math.round((s.totalCorrect / s.totalQuestions) * 100) : 0;
+                  return (
+                    <button
+                      key={s.id}
+                      type="button"
+                      onClick={() => { setActiveSummary(s); setScreen("summary"); }}
+                      style={{
+                        display: "flex", justifyContent: "space-between", alignItems: "center",
+                        padding: "0.55rem 0.75rem", borderRadius: 8,
+                        background: "var(--raised)", border: "1px solid var(--line)",
+                        textAlign: "start", cursor: "pointer", gap: "0.5rem", minHeight: 44,
+                      }}
+                      aria-label={isHe ? `הצג סיכום אתגר ${new Date(s.completedAt).toLocaleString("he-IL")}` : `Show challenge summary ${new Date(s.completedAt).toLocaleString("en-US")}`}
+                    >
+                      <span style={{ fontSize: "0.78rem", color: "var(--ink-muted)" }}>
+                        {new Date(s.completedAt).toLocaleDateString(isHe ? "he-IL" : "en-US", { day: "numeric", month: "short" })}
+                      </span>
+                      <span style={{ fontSize: "0.85rem", color: "var(--ink)", fontWeight: 700 }}>
+                        {s.totalCorrect}/{s.totalQuestions} · {acc}%
+                      </span>
+                      <span style={{ fontSize: "0.78rem", color: "var(--teal)", fontWeight: 700 }}>
+                        {s.totalScore} {isHe ? "נק'" : "pts"}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     );
   }
 
   // ── SUMMARY ──────────────────────────────────────────────────────────────
-  if (screen === "summary") {
-    const totalQ = Object.values(catStats).reduce((s, c) => s + c.total, 0);
-    const totalC = Object.values(catStats).reduce((s, c) => s + c.correct, 0);
-    const pct = totalQ > 0 ? Math.round((totalC / totalQ) * 100) : 0;
-    const weakCats = Object.entries(catStats)
-      .filter(([, s]) => s.total > 0 && s.correct / s.total < 0.5)
-      .map(([cat]) => (isHe ? CAT_LABEL_BY_ID[cat]?.he : CAT_LABEL_BY_ID[cat]?.en) ?? cat);
-
-    return (
-      <div dir={isHe ? "rtl" : "ltr"} className="animate-fade-up" style={{
-        display: "flex", flexDirection: "column", gap: "1.25rem",
-        maxWidth: 600, margin: "0 auto", width: "100%", minWidth: 0, boxSizing: "border-box",
-      }}>
-        <div className="card" style={{ padding: "2rem 1.25rem", textAlign: "center" }}>
-          <div style={{ fontSize: "0.72rem", fontWeight: 700, color: "var(--ink-muted)", letterSpacing: "0.1em", textTransform: "uppercase" }}>
-            {isHe ? "אתגר הושלם ⚡" : "Challenge Complete ⚡"}
-          </div>
-          <div style={{ fontSize: "clamp(3rem, 12vw, 4.5rem)", fontWeight: 900, fontFamily: "var(--font-display)", color: "var(--teal)", lineHeight: 1, margin: "0.5rem 0 0.25rem", whiteSpace: "nowrap" }}>
-            {score}
-          </div>
-          <div style={{ color: "var(--ink-muted)", fontSize: "0.88rem" }}>
-            {isHe
-              ? `נקודות · ${pct}% דיוק · ${totalC}/${totalQ} נכונות`
-              : `points · ${pct}% accuracy · ${totalC}/${totalQ} correct`}
-          </div>
-          {maxStreak >= 3 && (
-            <div style={{ marginTop: "0.75rem", fontSize: "1.05rem", fontWeight: 700, color: "var(--warn)" }}>
-              {isHe ? `🔥 רצף הטוב ביותר: ${maxStreak}` : `🔥 Best streak: ${maxStreak}`}
-            </div>
-          )}
-        </div>
-
-        {Object.entries(catStats).length > 0 && (
-          <div className="card" style={{ padding: "1.25rem" }}>
-            <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink)", margin: "0 0 0.75rem" }}>
-              {isHe ? "פירוט" : "Breakdown"}
-            </h3>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-              {Object.entries(catStats).map(([cat, stat]) => {
-                const p = stat.total > 0 ? Math.round((stat.correct / stat.total) * 100) : 0;
-                const col = p >= 75 ? "var(--success)" : p >= 50 ? "var(--warn)" : "var(--danger)";
-                const label = (isHe ? CAT_LABEL_BY_ID[cat]?.he : CAT_LABEL_BY_ID[cat]?.en) ?? cat;
-                return (
-                  <div key={cat}>
-                    <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.85rem", marginBottom: "0.25rem", gap: "0.5rem" }}>
-                      <span style={{ color: "var(--ink)", overflowWrap: "anywhere" }}>{label}</span>
-                      <span style={{ color: "var(--ink-soft)", whiteSpace: "nowrap" }}>{stat.correct}/{stat.total} ({p}%)</span>
-                    </div>
-                    <div className="progress-track">
-                      <div className="progress-fill" style={{ width: `${p}%`, background: col }} />
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {weakCats.length > 0 && (
-          <div className="card" style={{ padding: "1rem 1.1rem", borderColor: "var(--warn)" }}>
-            <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "var(--warn)", marginBottom: "0.4rem" }}>
-              {isHe ? "💡 תחומים לחיזוק" : "💡 Focus areas"}
-            </div>
-            <p style={{ color: "var(--ink-soft)", fontSize: "0.9rem", margin: 0, overflowWrap: "anywhere" }}>
-              {isHe ? "השקיע יותר ב: " : "Spend more time on: "}
-              <strong style={{ color: "var(--ink)" }}>{weakCats.join(", ")}</strong>
-            </p>
-          </div>
-        )}
-
-        <div style={{ display: "flex", gap: "0.6rem", flexWrap: "wrap" }}>
-          <button className="btn btn-primary" onClick={() => setScreen("lobby")} style={{ flex: 1, minWidth: 0 }}>
-            {isHe ? "שחק שוב ⚡" : "Play Again ⚡"}
-          </button>
-          <Link href="/practice" className="btn btn-ghost">{isHe ? "מצב תרגול" : "Practice Mode"}</Link>
-          <Link href="/app" className="btn btn-ghost">{isHe ? "לוח בקרה" : "Dashboard"}</Link>
-        </div>
-      </div>
-    );
+  if (screen === "summary" && activeSummary) {
+    return <ChallengeSummaryReport summary={activeSummary} onPlayAgain={backToLobby} />;
   }
 
   // ── GAME ─────────────────────────────────────────────────────────────────
@@ -595,60 +650,86 @@ export default function ChallengeSession() {
         })}
       </div>
 
-      {screen === "correct" && (
-        <div className="card animate-overlay-pop" style={{
-          padding: "2.5rem 1.25rem", textAlign: "center",
-          background: "linear-gradient(135deg, rgba(34,197,94,0.08), rgba(13,203,177,0.05))",
-          borderColor: "var(--success)", position: "relative", overflow: "hidden", minHeight: 180,
-        }}>
-          {["🔥", "✨", "⭐", "💫", "🌟"].map((e, i) => (
-            <span key={i} style={{
-              position: "absolute", left: `${8 + i * 19}%`, bottom: "15%", fontSize: "1.4rem",
-              animation: `fire-float ${0.9 + i * 0.15}s ease-out forwards`,
-              animationDelay: `${i * 0.08}s`, pointerEvents: "none", userSelect: "none",
-            }}>{e}</span>
-          ))}
-          <div style={{ fontSize: "2.5rem", lineHeight: 1 }}>✓</div>
-          <div style={{ fontSize: "1.25rem", fontWeight: 800, color: "var(--success)", margin: "0.5rem 0 0.25rem" }}>
-            {compliment}
-          </div>
-          <div style={{ fontSize: "1.6rem", fontWeight: 900, color: "var(--teal)", fontFamily: "var(--font-display)" }}>
-            +{lastGain} pts
-          </div>
-          {streak > 1 && (
-            <div style={{ marginTop: "0.4rem", fontSize: "0.88rem", color: "var(--warn)", fontWeight: 700 }}>
-              {isHe ? `🔥 רצף של ${streak}!` : `🔥 ${streak} streak!`}
+      {screen === "answered" && (() => {
+        const wasCorrect = chosenIdx !== undefined && chosenIdx === q.answer;
+        const wasSkipped = chosenIdx === undefined;
+        const isLast = idx >= questions.length - 1;
+        return (
+          <>
+            <div style={{
+              background: wasCorrect
+                ? "rgba(34,197,94,0.08)"
+                : "rgba(239,68,68,0.07)",
+              border: `1px solid ${wasCorrect ? "var(--success)" : "var(--danger)"}`,
+              borderRadius: 10, padding: "0.7rem 1rem",
+              display: "flex", alignItems: "center", gap: "0.6rem", flexWrap: "wrap",
+            }}>
+              <span style={{ fontSize: "1rem", color: wasCorrect ? "var(--success)" : "var(--danger)" }}>
+                {wasCorrect ? "✓" : "✗"}
+              </span>
+              <span style={{ fontWeight: 700, color: wasCorrect ? "var(--success)" : "var(--danger)", fontSize: "0.9rem" }}>
+                {wasCorrect
+                  ? compliment
+                  : wasSkipped
+                    ? (isHe ? "נגמר הזמן" : "Time's up")
+                    : (isHe ? "לא נכון" : "Incorrect")}
+              </span>
+              {wasCorrect && (
+                <span style={{ color: "var(--teal)", fontWeight: 800, fontFamily: "var(--font-display)", fontSize: "1rem" }}>
+                  +{lastGain}
+                </span>
+              )}
+              <span style={{ color: "var(--ink-muted)", fontSize: "0.78rem", marginInlineStart: "auto" }}>
+                {isHe
+                  ? `קריאה ${readWindow}ש׳`
+                  : `Read ${readWindow}s`}
+              </span>
             </div>
-          )}
-        </div>
-      )}
 
-      {screen === "wrong" && (
-        <>
-          <div className="animate-wrong-entry" style={{
-            background: "rgba(239,68,68,0.07)", border: "1px solid var(--danger)",
-            borderRadius: 10, padding: "0.7rem 1rem",
-            display: "flex", alignItems: "center", gap: "0.6rem", flexWrap: "wrap",
-          }}>
-            <span style={{ fontSize: "1rem", color: "var(--danger)" }}>✗</span>
-            <span style={{ fontWeight: 700, color: "var(--danger)", fontSize: "0.88rem" }}>
-              {chosenIdx === undefined
-                ? (isHe ? "נגמר הזמן!" : "Time's up!")
-                : (isHe ? "לא נכון" : "Incorrect")}
-            </span>
-            <span style={{ color: "var(--ink-muted)", fontSize: "0.78rem", marginInlineStart: "auto" }}>
-              {isHe ? "ממשיכים בעוד 2 שניות…" : "Next in 2s…"}
-            </span>
-          </div>
-          <QuestionCard
-            question={q}
-            onSubmit={() => {}}
-            disabled={true}
-            showFeedback={true}
-            chosenIndex={chosenIdx}
-          />
-        </>
-      )}
+            <QuestionCard
+              question={q}
+              onSubmit={() => {}}
+              disabled={true}
+              showFeedback={true}
+              chosenIndex={chosenIdx}
+            />
+
+            {q.hebrewExplanation && (
+              <div dir="rtl" className="card" style={{ padding: "0.75rem 1rem" }}>
+                <div style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--ink-muted)", marginBottom: "0.3rem" }}>
+                  הסבר בעברית
+                </div>
+                <p style={{ fontSize: "0.88rem", color: "var(--ink-soft)", margin: 0, lineHeight: 1.7, whiteSpace: "pre-wrap" }}>
+                  {q.hebrewExplanation}
+                </p>
+              </div>
+            )}
+
+            {q.wrongReasons && q.wrongReasons.length > 0 && (
+              <details className="card" style={{ padding: "0.6rem 0.9rem" }}>
+                <summary style={{ cursor: "pointer", fontSize: "0.8rem", fontWeight: 700, color: "var(--ink-soft)" }}>
+                  {isHe ? "מדוע שאר התשובות שגויות" : "Why the other choices are wrong"}
+                </summary>
+                <ul style={{ margin: "0.5rem 0 0 1rem", padding: 0, fontSize: "0.84rem", color: "var(--ink-soft)", lineHeight: 1.6 }}>
+                  {q.wrongReasons.map((r, i) => (
+                    <li key={i} style={{ marginBottom: "0.2rem" }}>{r}</li>
+                  ))}
+                </ul>
+              </details>
+            )}
+
+            <button
+              className="btn btn-primary btn-lg"
+              onClick={handleNext}
+              style={{ width: "100%", minHeight: 48 }}
+            >
+              {isLast
+                ? (isHe ? "סיים אתגר" : "Finish challenge")
+                : (isHe ? "השאלה הבאה" : "Next question")}
+            </button>
+          </>
+        );
+      })()}
 
       {screen === "playing" && (
         <div key={idx} className="animate-question-enter">

@@ -5,9 +5,11 @@ import {
   createSimulation, recordAnswer, setCurrentQuestion,
   advanceToNextSection, resumeSection, calculateFinalResults,
   saveSimulationState, clearSimulationState,
+  saveSimulationInProgress, clearSimulationInProgress,
   type SimulationState, type SimulationFinalResult,
 } from "@/lib/simulation/simulation-engine";
-import { recordSimulation } from "@/lib/progress/local-progress-store";
+import type { SimulationHistoryQuestion } from "@/types/progress";
+import { flushAbandonedSimulation, recordSimulation } from "@/lib/progress/local-progress-store";
 import { recordSeen, hashSentence } from "@/lib/practice/question-history";
 import { selectAdaptiveQuestions } from "@/lib/simulation/adaptive-selector";
 import { sectionDisplayLabel } from "@/lib/simulation/section-labels";
@@ -22,16 +24,20 @@ import { SimulationReview } from "./SimulationReview";
 import { useLang } from "@/contexts/LanguageContext";
 import questionsRaw from "@/data/seed/questions.json";
 import hardAddon from "@/data/seed/hard_questions_addon.json";
+import paraComplex from "@/data/seed/_gen_para_complex.json";
 
 type RawQ = Record<string, Question[]>;
 
 function buildQuestionsPool(): RawQ {
-  const base  = questionsRaw as unknown as RawQ;
-  const addon = hardAddon  as unknown as RawQ;
+  const base       = questionsRaw as unknown as RawQ;
+  const addon      = hardAddon    as unknown as RawQ;
+  const complexPar = paraComplex  as unknown as RawQ;
   const merged: RawQ = { ...base };
-  for (const [k, v] of Object.entries(addon)) {
-    const existing = new Set((merged[k] ?? []).map((q) => q.id));
-    merged[k] = [...(merged[k] ?? []), ...v.filter((q) => !existing.has(q.id))];
+  for (const src of [addon, complexPar]) {
+    for (const [k, v] of Object.entries(src)) {
+      const existing = new Set((merged[k] ?? []).map((q) => q.id));
+      merged[k] = [...(merged[k] ?? []), ...v.filter((q) => !existing.has(q.id))];
+    }
   }
   return merged;
 }
@@ -99,6 +105,9 @@ function simReducer(state: RunnerState, action: RunnerAction): RunnerState {
 }
 
 function makeInitialState(mode: SimMode): RunnerState {
+  // Flush any stale in-progress sim (closed tab) into history as "abandoned"
+  // before starting fresh, so the student doesn't lose their answered work.
+  flushAbandonedSimulation();
   const sim = createSimulation(mode);
   const qs  = selectAdaptiveQuestions(sim.sections[0], POOL);
   return {
@@ -131,12 +140,22 @@ export function SimulationRunner({ mode }: Props) {
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // Persist simulation state (skip when done/review — clearSimulationState handles cleanup)
+  // Persist simulation state on every change so a closed tab leaves enough
+  // to rebuild an abandoned-history record. Skip when done/review — those
+  // paths clear the in-progress key explicitly.
   useEffect(() => {
-    if (state.phase !== "done" && state.phase !== "review") {
-      saveSimulationState(state.sim);
-    }
-  }, [state.sim, state.phase]);
+    if (state.phase === "done" || state.phase === "review") return;
+    saveSimulationState(state.sim);
+    saveSimulationInProgress({
+      id: state.sim.id,
+      mode: state.sim.mode,
+      startedAt: state.sim.startedAt,
+      lastUpdatedAt: new Date().toISOString(),
+      sections: state.sim.sections,
+      sectionAnswers: state.sim.sectionAnswers,
+      sectionQuestions: state.allSectionQuestions,
+    });
+  }, [state.sim, state.phase, state.allSectionQuestions]);
 
   // Record completed simulation exactly once
   useEffect(() => {
@@ -147,6 +166,31 @@ export function SimulationRunner({ mode }: Props) {
     const totalCorrect  = result.sectionResults.reduce((s, r) => s + r.correct, 0);
     const breakdown: Record<string, { correct: number; total: number }> = {};
     result.sectionResults.forEach((r) => { breakdown[r.sectionId] = { correct: r.correct, total: r.total }; });
+
+    // Snapshot each served question so the user can review explanations later.
+    const reviewQuestions: SimulationHistoryQuestion[] = [];
+    for (const section of state.sim.sections) {
+      const qs = state.allSectionQuestions[section.id] ?? [];
+      const ans = state.sim.sectionAnswers[section.id] ?? {};
+      for (const q of qs) {
+        const chosenRaw = ans[q.id];
+        const chosenIndex = typeof chosenRaw === "number" ? chosenRaw : null;
+        reviewQuestions.push({
+          sectionId: section.id,
+          questionId: q.id,
+          category: q.category,
+          text: q.text,
+          choices: q.choices,
+          answer: q.answer,
+          chosenIndex,
+          explanation: q.explanation,
+          hebrewExplanation: q.hebrewExplanation,
+          wrongReasons: q.wrongReasons ?? [],
+          passage: q.passage,
+        });
+      }
+    }
+
     recordSimulation({
       id: state.sim.id,
       completedAt: new Date().toISOString(),
@@ -155,9 +199,13 @@ export function SimulationRunner({ mode }: Props) {
       durationSeconds: Math.round((Date.now() - new Date(state.sim.startedAt).getTime()) / 1000),
       sectionBreakdown: breakdown,
       isPilot: state.sim.sections.some((s) => s.isPilot),
+      status: "completed",
+      mode: state.sim.mode,
+      questions: reviewQuestions,
     });
     clearSimulationState();
-  }, [state.phase, state.finalResult, state.sim]);
+    clearSimulationInProgress();
+  }, [state.phase, state.finalResult, state.sim, state.allSectionQuestions]);
 
   // ── Handlers ──────────────────────────────────────────────────────────────
 

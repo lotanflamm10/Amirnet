@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useLayoutEffect, useState } from "react";
 import { BarChart2 } from "lucide-react";
-import { loadProgress } from "@/lib/progress/local-progress-store";
+import { flushAbandonedSimulation, loadProgress } from "@/lib/progress/local-progress-store";
 import type { SimulationHistory } from "@/types/progress";
 import { useLang } from "@/contexts/LanguageContext";
 
@@ -20,6 +20,9 @@ export function SimulationHistoryWidget() {
   const locale = isHe ? "he-IL" : "en-US";
 
   useLayoutEffect(() => {
+    // Flush any tab-closed simulation into history as "abandoned" before
+    // we read it, so the widget reflects the latest state.
+    flushAbandonedSimulation();
     const p = loadProgress();
     setHistory(p.simulationHistory.slice(0, 3));
   }, []);
@@ -47,34 +50,55 @@ export function SimulationHistoryWidget() {
         </div>
       ) : (
         <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-          {history.map((h, i) => (
-            <Link
-              key={h.id}
-              href="/simulation"
-              className="card-clickable animate-fade-up"
-              style={{
-                display: "flex", justifyContent: "space-between", alignItems: "center",
-                padding: "0.625rem 0.75rem", borderRadius: 10, background: "var(--raised)",
-                border: "1px solid var(--line)",
-                animationDelay: `${i * 0.07}s`,
-                textDecoration: "none", color: "inherit",
-              }}
-              aria-label={isHe ? `פתח הדמיות (${new Date(h.completedAt).toLocaleDateString(locale)})` : `Open simulations (${new Date(h.completedAt).toLocaleDateString(locale)})`}
-            >
-              <span style={{ fontSize: "0.78rem", color: "var(--ink-muted)" }}>
-                {new Date(h.completedAt).toLocaleDateString(locale, { day: "numeric", month: "short" })}
-              </span>
-              <span style={{
-                fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 800,
-                color: ScoreColor(h.estimatedScore),
-              }}>
-                {h.estimatedScore}
-              </span>
-              <span style={{ fontSize: "0.75rem", color: "var(--ink-soft)" }}>
-                {Math.round(h.accuracyPercent)}% {isHe ? "דיוק" : "acc"}
-              </span>
-            </Link>
-          ))}
+          {history.map((h, i) => {
+            const isAbandoned = h.status === "abandoned";
+            const canReview = (h.questions?.length ?? 0) > 0;
+            const reviewHref = canReview ? `/simulation/review/${encodeURIComponent(h.id)}` : "/simulation";
+            return (
+              <Link
+                key={h.id}
+                href={reviewHref}
+                className="card-clickable animate-fade-up"
+                style={{
+                  display: "flex", justifyContent: "space-between", alignItems: "center",
+                  padding: "0.625rem 0.75rem", borderRadius: 10, background: "var(--raised)",
+                  border: `1px solid ${isAbandoned ? "var(--warn)" : "var(--line)"}`,
+                  animationDelay: `${i * 0.07}s`,
+                  textDecoration: "none", color: "inherit", gap: "0.5rem",
+                }}
+                aria-label={
+                  isHe
+                    ? `סקור הדמיה (${new Date(h.completedAt).toLocaleDateString(locale)})`
+                    : `Review simulation (${new Date(h.completedAt).toLocaleDateString(locale)})`
+                }
+              >
+                <span style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                  <span style={{ fontSize: "0.78rem", color: "var(--ink-muted)" }}>
+                    {new Date(h.completedAt).toLocaleDateString(locale, { day: "numeric", month: "short" })}
+                  </span>
+                  {isAbandoned && (
+                    <span style={{ fontSize: "0.65rem", fontWeight: 700, color: "var(--warn)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                      {isHe ? "ננטשה" : "Abandoned"}
+                    </span>
+                  )}
+                </span>
+                <span style={{
+                  fontFamily: "var(--font-display)", fontSize: "1.1rem", fontWeight: 800,
+                  color: isAbandoned ? "var(--ink-soft)" : ScoreColor(h.estimatedScore),
+                }}>
+                  {isAbandoned ? "—" : h.estimatedScore}
+                </span>
+                <span style={{ fontSize: "0.75rem", color: "var(--ink-soft)" }}>
+                  {Math.round(h.accuracyPercent)}% {isHe ? "דיוק" : "acc"}
+                </span>
+                {canReview && (
+                  <span style={{ fontSize: "0.72rem", color: "var(--teal)", fontWeight: 700, whiteSpace: "nowrap" }}>
+                    {isHe ? "סקירה ›" : "Review ›"}
+                  </span>
+                )}
+              </Link>
+            );
+          })}
         </div>
       )}
     </div>

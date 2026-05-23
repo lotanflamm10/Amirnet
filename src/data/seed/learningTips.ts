@@ -323,7 +323,7 @@ export const learningTips: LearningTip[] = [
   },
   {
     id: "tip-word-formation-agreement",
-    title: "בדוק יחיד/רבים ונקביות",
+    title: "בדוק יחיד/רבים וזכר/נקבה",
     category: "word_formation",
     difficulty: "intermediate",
     shortText:
