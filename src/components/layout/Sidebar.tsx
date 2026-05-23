@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import type { Translations } from "@/lib/i18n/translations";
 import { useTheme, DEFAULT_PRIMARY, DEFAULT_BG_HUE_DARK, DEFAULT_BG_HUE_LIGHT } from "@/contexts/ThemeContext";
 import { BrandMark } from "@/components/brand/BrandMark";
-import { NavIcon, Sun, Moon, Monitor, Globe } from "@/components/icons/NavIcons";
+import { NavIcon, Sun, Moon, Globe } from "@/components/icons/NavIcons";
 import { Tag } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -57,9 +57,8 @@ const NAV = (t: Translations) => [
 ];
 
 const THEME_CYCLE: Record<string, { labelKey: keyof Translations["sidebar"]; Icon: LucideIcon }> = {
-  dark:   { labelKey: "themeDark",   Icon: Moon },
-  light:  { labelKey: "themeLight",  Icon: Sun },
-  system: { labelKey: "themeSystem", Icon: Monitor },
+  dark:  { labelKey: "themeDark",  Icon: Moon },
+  light: { labelKey: "themeLight", Icon: Sun },
 };
 
 export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
@@ -135,6 +134,26 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
 
         <div style={{ height: 1, background: "var(--line)", margin: "0.5rem 0" }} />
 
+        {(() => {
+          const settingsActive = path === "/account" || path?.startsWith("/account");
+          return (
+            <Link href="/account"
+              style={{
+                display: "flex", alignItems: "center", gap: "0.75rem",
+                padding: "0.6rem 0.875rem", borderRadius: 10, textDecoration: "none",
+                fontSize: "0.875rem", fontWeight: settingsActive ? 600 : 500,
+                color: settingsActive ? "var(--teal)" : "var(--ink-soft)",
+                background: settingsActive ? "var(--teal-sub)" : "transparent",
+                borderInlineStart: settingsActive ? "2px solid var(--teal)" : "2px solid transparent",
+                transition: "all 0.15s",
+              }}
+            >
+              <NavIcon name="settings" size={17} color={settingsActive ? "var(--teal)" : "var(--ink-muted)"} />
+              <span>{t.nav.settings}</span>
+            </Link>
+          );
+        })()}
+
         <Link href="/pricing"
           style={{
             display: "flex", alignItems: "center", gap: "0.75rem",
@@ -193,7 +212,8 @@ export function Sidebar({ t, lang, toggleLang, theme, toggleTheme }: Props) {
         <div style={{ padding: "0 0.75rem 0.75rem", display: "flex", gap: "0.5rem" }}>
           <button
             onClick={toggleTheme}
-            aria-label={`Switch theme (current: ${theme})`}
+            title={t.sidebar.themeCycleTitle}
+            aria-label={`${t.sidebar[themeCtrl.labelKey]} — ${t.sidebar.themeCycleTitle}`}
             style={{
               flex: 1, padding: "0.6rem 0.75rem", borderRadius: 8, border: "1.5px solid var(--line)",
               background: "var(--raised)", color: "var(--ink)", cursor: "pointer",

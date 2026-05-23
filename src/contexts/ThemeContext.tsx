@@ -1,7 +1,7 @@
 "use client";
 import { createContext, useContext, useEffect, useState } from "react";
 
-export type ThemeMode = "dark" | "light" | "system";
+export type ThemeMode = "dark" | "light";
 
 export interface ThemeSettings {
   mode: ThemeMode;
@@ -25,11 +25,20 @@ const PRESET_COLORS = [
 ];
 export { PRESET_COLORS };
 
-/** Resolve "system" to an actual dark/light mode. */
-export function getEffectiveMode(mode: ThemeMode): "dark" | "light" {
-  if (mode !== "system") return mode;
+/**
+ * Resolve a (possibly legacy) persisted theme value to the binary mode.
+ * "system" is the dropped 3-state value — we coerce it to whatever the OS
+ * preference resolves to once, then the migration in `loadSettings` re-
+ * persists the concrete value.
+ */
+function resolveLegacySystem(): "dark" | "light" {
   if (typeof window === "undefined") return "dark";
   return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+/** Public helper for callers that used to ask "is the resolved mode dark or light?". */
+export function getEffectiveMode(mode: ThemeMode): "dark" | "light" {
+  return mode;
 }
 
 function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
@@ -93,7 +102,7 @@ function applyBgToDom(effective: "dark" | "light", bgHue: number | null) {
 }
 
 export function applyThemeToDom(settings: ThemeSettings) {
-  const effective = getEffectiveMode(settings.mode);
+  const effective = settings.mode;
   document.documentElement.setAttribute("data-theme", effective);
   const el = document.documentElement;
   if (settings.primary && settings.primary !== DEFAULT_PRIMARY) {
@@ -119,31 +128,42 @@ export function applyThemeToDom(settings: ThemeSettings) {
 
 function loadSettings(): ThemeSettings {
   if (typeof window === "undefined") return { mode: "dark", primary: DEFAULT_PRIMARY, bgHue: null };
+  let migratedFromSystem = false;
+  let resolved: ThemeSettings = { mode: "dark", primary: DEFAULT_PRIMARY, bgHue: null };
   try {
     const raw = localStorage.getItem(SETTINGS_KEY);
     if (raw) {
-      const parsed = JSON.parse(raw) as Partial<ThemeSettings & { mode: string }>;
-      const mode: ThemeMode =
-        parsed.mode === "light" ? "light"
-        : parsed.mode === "system" ? "system"
-        : "dark";
-      return {
+      // `mode` is widened to string here so we can still match the dropped
+      // "system" value and migrate it; the union itself no longer accepts it.
+      const parsed = JSON.parse(raw) as { mode?: string; primary?: string; bgHue?: number };
+      let mode: ThemeMode;
+      if (parsed.mode === "light") mode = "light";
+      else if (parsed.mode === "system") { mode = resolveLegacySystem(); migratedFromSystem = true; }
+      else mode = "dark";
+      resolved = {
         mode,
         primary: parsed.primary ?? DEFAULT_PRIMARY,
         bgHue: typeof parsed.bgHue === "number" && parsed.bgHue >= 0 && parsed.bgHue <= 360
           ? parsed.bgHue : null,
       };
+    } else {
+      const legacy = localStorage.getItem(LEGACY_KEY);
+      resolved = { mode: legacy === "light" ? "light" : "dark", primary: DEFAULT_PRIMARY, bgHue: null };
     }
-  } catch { /* ignore */ }
-  const legacy = localStorage.getItem(LEGACY_KEY);
-  return { mode: legacy === "light" ? "light" : "dark", primary: DEFAULT_PRIMARY, bgHue: null };
+  } catch { /* ignore — fall back to defaults */ }
+
+  if (migratedFromSystem) {
+    // Re-persist the concrete value so the next load doesn't have to migrate again.
+    saveSettings(resolved);
+  }
+  return resolved;
 }
 
 function saveSettings(s: ThemeSettings) {
   try {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
-    // Keep legacy key in sync with effective mode for the bootstrap script
-    localStorage.setItem(LEGACY_KEY, getEffectiveMode(s.mode));
+    // Keep legacy key in sync for the bootstrap script
+    localStorage.setItem(LEGACY_KEY, s.mode);
   } catch { /* ignore */ }
 }
 
@@ -174,32 +194,15 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const s = loadSettings();
     setSettings(s);
-    const eff = getEffectiveMode(s.mode);
-    setEffectiveMode(eff);
+    setEffectiveMode(s.mode);
     applyThemeToDom(s);
-
-    // Listen for system preference changes when mode === "system"
-    const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    const onMqChange = () => {
-      setSettings((cur) => {
-        if (cur.mode !== "system") return cur;
-        const nextEff = mq.matches ? "dark" : "light";
-        setEffectiveMode(nextEff);
-        applyThemeToDom(cur);
-        return cur;
-      });
-    };
-    mq.addEventListener("change", onMqChange);
-    return () => mq.removeEventListener("change", onMqChange);
   }, []);
 
   function toggle() {
     setSettings((prev) => {
-      const cycle: ThemeMode[] = ["dark", "light", "system"];
-      const nextMode = cycle[(cycle.indexOf(prev.mode) + 1) % cycle.length];
+      const nextMode: ThemeMode = prev.mode === "dark" ? "light" : "dark";
       const next: ThemeSettings = { ...prev, mode: nextMode };
-      const eff = getEffectiveMode(nextMode);
-      setEffectiveMode(eff);
+      setEffectiveMode(nextMode);
       saveSettings(next);
       applyThemeToDom(next);
       return next;

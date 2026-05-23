@@ -27,6 +27,7 @@ export const LEGACY_USER_KEYS: readonly string[] = [
   "amirnet-sim-current",
   "amirnet-sim-inprogress-v1",
   "amirnet-challenge-history-v1",
+  "amirnet-practice-prefs-v1",
   "amirnet-qhistory-v1",
   "amirnet-learning-completed",
   "amirnet-learning-bookmarked",

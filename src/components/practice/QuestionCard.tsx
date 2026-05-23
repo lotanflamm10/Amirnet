@@ -3,10 +3,14 @@
 import { useState, useEffect, useMemo, useRef } from "react";
 import Link from "next/link";
 import { Play, Pause, Eye, EyeOff } from "lucide-react";
+import { Languages } from "@/components/icons/NavIcons";
 import type { Question, QuestionCategory } from "@/types/questions";
 import { useLang } from "@/contexts/LanguageContext";
 import { renderBlanks } from "@/lib/practice/render-blanks";
 import { ensureInView } from "@/lib/ui/smooth-scroll";
+import { getGlossaryForQuestion } from "@/lib/vocab/explain-glossary";
+import { WordGlossaryPanel } from "./WordGlossaryPanel";
+import { usePracticePrefs } from "@/lib/practice/practice-prefs";
 
 const CATEGORY_TO_BOOSTER: Partial<Record<QuestionCategory, string>> = {
   sentenceCompletion:  "vocabularyInContext",
@@ -38,9 +42,15 @@ interface Props {
   showFeedback?: boolean;
   /** "simulation": clicking a choice immediately records it; no submit button shown */
   variant?: "practice" | "simulation";
+  /**
+   * Show the optional Hebrew word-translation panels (during + post-answer).
+   * Opt-in — only Practice mode passes true. Simulation and Challenge keep
+   * the card clean.
+   */
+  glossaryEnabled?: boolean;
 }
 
-export default function QuestionCard({ question, onSubmit, disabled, chosenIndex, showFeedback = true, variant = "practice" }: Props) {
+export default function QuestionCard({ question, onSubmit, disabled, chosenIndex, showFeedback = true, variant = "practice", glossaryEnabled = false }: Props) {
   const { t } = useLang();
   const [selected, setSelected]         = useState<number | null>(chosenIndex ?? null);
   const [submitted, setSubmitted]       = useState(disabled);
@@ -170,6 +180,21 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
   const ttsSupported = typeof window !== "undefined" && "speechSynthesis" in window;
   const recommendedBooster = CATEGORY_TO_BOOSTER[question.category];
 
+  // ── Optional Hebrew glossary (practice only) ──
+  const { prefs: practicePrefs } = usePracticePrefs();
+  const [showDuringGlossary, setShowDuringGlossary] = useState(false);
+  // Reset the during-question disclosure each time we navigate to a new question.
+  useEffect(() => { setShowDuringGlossary(false); }, [question.id]);
+
+  const duringGlossaryRows = useMemo(
+    () => (glossaryEnabled ? getGlossaryForQuestion(question, { includeExplanation: false }) : []),
+    [glossaryEnabled, question]
+  );
+  const postGlossaryRows = useMemo(
+    () => (glossaryEnabled && submitted ? getGlossaryForQuestion(question, { includeExplanation: true }) : []),
+    [glossaryEnabled, submitted, question]
+  );
+
   return (
     <div className="animate-slide-right" style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
 
@@ -282,6 +307,38 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
       }}>
         {renderBlanks(question.text)}
       </div>
+
+      {/* ── During-question Hebrew help (practice only, opt-in, never auto-open) ── */}
+      {glossaryEnabled && !submitted && duringGlossaryRows.length > 0 && (
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+          <button
+            type="button"
+            onClick={() => setShowDuringGlossary((v) => !v)}
+            aria-expanded={showDuringGlossary}
+            style={{
+              alignSelf: "flex-start",
+              display: "inline-flex", alignItems: "center", gap: "0.35rem",
+              background: "transparent", border: "1px solid var(--line)",
+              borderRadius: 8, padding: "0.35rem 0.7rem",
+              fontSize: "0.78rem", fontWeight: 600,
+              color: "var(--ink-soft)", cursor: "pointer",
+              fontFamily: "var(--font-body)",
+              transition: "all 0.15s",
+            }}
+          >
+            <Languages size={13} strokeWidth={2} color="var(--ink-soft)" />
+            {t.practice.hebrewHelpBtn}
+          </button>
+          {showDuringGlossary && (
+            <WordGlossaryPanel
+              rows={duringGlossaryRows}
+              defaultExpanded
+              title={t.practice.wordGlossaryTitle}
+              variant="compact"
+            />
+          )}
+        </div>
+      )}
 
       {/* ── Choices ── */}
       <div dir="ltr" className="ltr-content" style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
@@ -416,6 +473,16 @@ export default function QuestionCard({ question, onSubmit, disabled, chosenIndex
                 ⚡ {t.practice.practiceSimilar}
               </Link>
             </div>
+          )}
+
+          {/* Optional Hebrew word translations — below existing content, never in place of it */}
+          {glossaryEnabled && postGlossaryRows.length > 0 && (
+            <WordGlossaryPanel
+              rows={postGlossaryRows}
+              defaultExpanded={practicePrefs.autoGlossaryInExplanation}
+              title={t.practice.wordGlossaryTitle}
+              variant="regular"
+            />
           )}
         </div>
       )}

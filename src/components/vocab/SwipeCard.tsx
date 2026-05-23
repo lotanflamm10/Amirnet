@@ -815,8 +815,17 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
         </div>
       </div>
 
-      {/* Action buttons */}
-      <div style={{ display: "flex", gap: "8px", justifyContent: "center", alignItems: "center" }}>
+      {/*
+       * Action buttons.
+       * Spatial mapping must match the keyboard shortcuts: the RIGHT arrow
+       * key triggers "knew" (onKnown), so the "knew" button must sit on the
+       * visual RIGHT of the row in both HE (RTL) and EN (LTR). We force
+       * `dir="rtl"` on the row so the HTML order [back, knew, flip, didntKnow]
+       * always renders right-to-left as: back · knew · flip · didntKnow.
+       * This is a JSX reorder + a row-level dir override — no handler,
+       * shortcut, swipe-gesture, SRS, or storage change.
+       */}
+      <div dir="rtl" style={{ display: "flex", gap: "8px", justifyContent: "center", alignItems: "center" }}>
         <button
           className="btn btn-ghost btn-sm"
           onClick={onBack}
@@ -831,14 +840,14 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
         >
           {t.vocab.back}
         </button>
-        <button className="btn btn-ghost" onClick={onMissed} style={{ flex: 1, maxWidth: "120px", color: "var(--danger)", borderColor: "var(--danger)" }}>
-          {t.vocab.didntKnow}
+        <button className="btn btn-primary" onClick={onKnown} style={{ flex: 1, maxWidth: "120px" }}>
+          {t.vocab.knew}
         </button>
         <button className="btn btn-ghost btn-sm" onClick={() => setIsFlipped((p) => !p)} style={{ flexShrink: 0 }}>
           {t.vocab.flipCard}
         </button>
-        <button className="btn btn-primary" onClick={onKnown} style={{ flex: 1, maxWidth: "120px" }}>
-          {t.vocab.knew}
+        <button className="btn btn-ghost" onClick={onMissed} style={{ flex: 1, maxWidth: "120px", color: "var(--danger)", borderColor: "var(--danger)" }}>
+          {t.vocab.didntKnow}
         </button>
       </div>
     </div>

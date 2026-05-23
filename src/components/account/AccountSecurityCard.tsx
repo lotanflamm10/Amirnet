@@ -2,16 +2,17 @@
 
 import { useState } from "react";
 import { useUser } from "@/contexts/UserContext";
+import { useLang } from "@/contexts/LanguageContext";
 
 /**
  * Account security panel: shows the current user, gives a Logout button,
- * and exposes a Change Password form that posts to /api/change-password.
- *
- * All UI strings are bilingual (Hebrew + English) since the rest of the app
- * routes labels through translations.ts but this is a small focused panel.
+ * and exposes a Change Password form. All strings are routed through
+ * `useLang()` so only the active locale ever renders — the page used to
+ * stack HE + EN on every label which made it visually noisy.
  */
 export function AccountSecurityCard() {
   const { user, loading, logout } = useUser();
+  const { t } = useLang();
   const [currentPassword, setCurrentPassword] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -24,11 +25,11 @@ export function AccountSecurityCard() {
     setError(null);
     setSuccess(null);
     if (newPassword.length < 6) {
-      setError("הסיסמה החדשה חייבת להיות לפחות 6 תווים · New password must be at least 6 characters");
+      setError(t.account.passwordTooShort);
       return;
     }
     if (newPassword !== confirmPassword) {
-      setError("הסיסמה החדשה והאישור אינם תואמים · Passwords do not match");
+      setError(t.account.passwordMismatch);
       return;
     }
     setSubmitting(true);
@@ -41,16 +42,18 @@ export function AccountSecurityCard() {
         body: JSON.stringify({ currentPassword, newPassword, confirmPassword }),
       });
       if (res.ok) {
-        setSuccess("הסיסמה עודכנה · Password updated");
+        setSuccess(t.account.passwordUpdated);
         setCurrentPassword("");
         setNewPassword("");
         setConfirmPassword("");
       } else {
+        // API errors come back already-localized when the backend has a
+        // matching string; otherwise fall back to the generic localized one.
         const data = (await res.json().catch(() => null)) as { error?: string } | null;
-        setError(data?.error ?? "שגיאה בעדכון הסיסמה · Could not update password");
+        setError(data?.error ?? t.account.passwordUpdateError);
       }
     } catch {
-      setError("שגיאת רשת · Network error");
+      setError(t.account.networkError);
     } finally {
       setSubmitting(false);
     }
@@ -67,13 +70,13 @@ export function AccountSecurityCard() {
           fontSize: "1rem",
         }}
       >
-        חשבון · Account
+        {t.account.securityTitle}
       </h3>
 
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "0.6rem", marginBottom: "1rem" }}>
         <div style={{ minWidth: 0, flex: "1 1 160px" }}>
           <div style={{ fontSize: "0.7rem", color: "var(--ink-muted)", textTransform: "uppercase", letterSpacing: "0.08em" }}>
-            משתמש · Signed in as
+            {t.account.userLabel}
           </div>
           <div
             dir="auto"
@@ -89,7 +92,7 @@ export function AccountSecurityCard() {
           </div>
           {user && (
             <div style={{ fontSize: "0.72rem", color: "var(--ink-muted)" }}>
-              {user.role === "admin" ? "admin" : "student"}
+              {user.role === "admin" ? t.account.roleAdmin : t.account.roleStudent}
             </div>
           )}
         </div>
@@ -98,7 +101,7 @@ export function AccountSecurityCard() {
           onClick={() => void logout()}
           className="btn btn-ghost btn-sm"
           style={{
-            minHeight: 40,
+            minHeight: 44,
             border: "1.5px solid var(--line)",
             color: "var(--ink-soft)",
             background: "transparent",
@@ -109,32 +112,32 @@ export function AccountSecurityCard() {
             fontSize: "0.85rem",
           }}
         >
-          התנתק · Log out
+          {t.account.logOut}
         </button>
       </div>
 
       <form onSubmit={handleChangePassword} style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }} noValidate>
         <p style={{ margin: 0, fontSize: "0.78rem", color: "var(--ink-muted)", lineHeight: 1.5 }}>
-          שינוי הסיסמה נשמר בדפדפן הזה בלבד (אין שרת אמיתי) · Password change is stored on this browser only (no real backend).
+          {t.account.passwordHint}
         </p>
 
         <Field
           id="cp-current"
-          label="סיסמה נוכחית · Current password"
+          label={t.account.passwordCurrentLabel}
           value={currentPassword}
           onChange={setCurrentPassword}
           disabled={submitting}
         />
         <Field
           id="cp-new"
-          label="סיסמה חדשה · New password"
+          label={t.account.passwordNewLabel}
           value={newPassword}
           onChange={setNewPassword}
           disabled={submitting}
         />
         <Field
           id="cp-confirm"
-          label="אישור סיסמה · Confirm new password"
+          label={t.account.passwordConfirmLabel}
           value={confirmPassword}
           onChange={setConfirmPassword}
           disabled={submitting}
@@ -193,7 +196,7 @@ export function AccountSecurityCard() {
             transition: "opacity 0.15s ease",
           }}
         >
-          {submitting ? "מעדכן… · Updating…" : "שנה סיסמה · Change password"}
+          {submitting ? t.account.passwordUpdatingBtn : t.account.passwordChangeBtn}
         </button>
       </form>
     </div>
@@ -215,7 +218,13 @@ function Field({
 }) {
   return (
     <div>
-      <label htmlFor={id} style={{ display: "block", fontSize: "0.78rem", fontWeight: 600, color: "var(--ink-soft)", marginBottom: "0.25rem" }}>
+      <label
+        htmlFor={id}
+        style={{
+          display: "block", fontSize: "0.78rem", fontWeight: 600,
+          color: "var(--ink-soft)", marginBottom: "0.25rem",
+        }}
+      >
         {label}
       </label>
       <input

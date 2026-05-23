@@ -266,6 +266,7 @@ function StandardPracticeSession({ mode, difficulty }: Props) {
             question={q}
             onSubmit={handleSubmit}
             disabled={answered}
+            glossaryEnabled
           />
         )}
       </div>

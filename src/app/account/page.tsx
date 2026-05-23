@@ -5,11 +5,12 @@ import { getCurrentPlan, setMockPlan, can, isDevMode } from "@/lib/entitlements"
 import { exportProgress, importProgress, resetProgress, loadProgress } from "@/lib/progress/local-progress-store";
 import type { PlanId } from "@/lib/billing/types";
 import { useTheme, PRESET_COLORS, DEFAULT_PRIMARY } from "@/contexts/ThemeContext";
-import { Moon, Sun, Monitor } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
 import { AccountSecurityCard } from "@/components/account/AccountSecurityCard";
-import { Globe } from "@/components/icons/NavIcons";
+import { Globe, Languages } from "@/components/icons/NavIcons";
+import { usePracticePrefs } from "@/lib/practice/practice-prefs";
 
 function planLabel(plan: PlanId, t: Translations): string {
   switch (plan) {
@@ -29,6 +30,7 @@ export default function AccountPage() {
   const { settings, toggle, setPrimary, resetPrimary } = useTheme();
   const [displayPrimary, setDisplayPrimary] = useState(DEFAULT_PRIMARY);
   const { t, lang, toggle: toggleLang } = useLang();
+  const { prefs: practicePrefs, update: updatePracticePrefs } = usePracticePrefs();
 
   useLayoutEffect(() => {
     setPlan(getCurrentPlan());
@@ -86,12 +88,15 @@ export default function AccountPage() {
   const acc = stats && stats.total > 0 ? Math.round((stats.correct / stats.total) * 100) : null;
 
   const appearanceModeLabel =
-    settings.mode === "dark" ? t.account.appearanceModeDark
-      : settings.mode === "light" ? t.account.appearanceModeLight
-      : t.account.appearanceModeSystem;
+    settings.mode === "dark" ? t.account.appearanceModeDark : t.account.appearanceModeLight;
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem", maxWidth: "480px", width: "100%" }}>
+    <div style={{
+      display: "flex", flexDirection: "column", gap: "1.25rem",
+      maxWidth: "700px", width: "100%",
+      // Centered on desktop, fluid on mobile (logical margins respect RTL/LTR).
+      marginInline: "auto",
+    }}>
       <h1 style={{ fontFamily: "var(--font-display)", fontSize: "1.5rem", fontWeight: 800, color: "var(--ink)", margin: 0, overflowWrap: "anywhere" }}>
         {t.account.pageTitle}
       </h1>
@@ -122,7 +127,10 @@ export default function AccountPage() {
             {[
               { label: t.account.statsQuestions, value: stats.total },
               { label: t.account.statsAccuracy,   value: acc !== null ? `${acc}%` : "—" },
-              { label: t.account.statsStreak,     value: `${stats.streak}${t.account.statsStreakSuffix}` },
+              // Use a localized "{n} ימים" / "{n} days" format so the digit
+              // and the Hebrew suffix render with a proper separator (no
+              // more "0ימים" bidi-mangled to "סימים").
+              { label: t.account.statsStreak,     value: t.account.statsStreakValueFormat.replace("{n}", String(stats.streak)) },
             ].map(({ label, value }) => (
               <div key={label} style={{ textAlign: "center", padding: "0.5rem", background: "var(--surface-raised)", borderRadius: "var(--radius)" }}>
                 <p style={{ fontSize: "0.68rem", color: "var(--ink-muted)", margin: "0 0 0.15rem", textTransform: "uppercase" }}>{label}</p>
@@ -217,9 +225,7 @@ export default function AccountPage() {
             <span style={{ fontSize: "0.875rem", color: "var(--ink-soft)", display: "flex", alignItems: "center", gap: "0.375rem" }}>
               {settings.mode === "dark"
                 ? <Moon size={15} strokeWidth={2} />
-                : settings.mode === "light"
-                ? <Sun size={15} strokeWidth={2} />
-                : <Monitor size={15} strokeWidth={2} />}
+                : <Sun size={15} strokeWidth={2} />}
               {appearanceModeLabel}
             </span>
             <button className="btn btn-ghost btn-sm" onClick={toggle}>
@@ -268,6 +274,45 @@ export default function AccountPage() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Practice preferences */}
+      <div className="card" style={{ padding: "1.25rem" }}>
+        <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, color: "var(--ink)", margin: "0 0 0.75rem" }}>
+          {t.account.practiceSectionTitle}
+        </h3>
+        <label
+          style={{
+            display: "flex", alignItems: "flex-start", justifyContent: "space-between",
+            gap: "0.75rem", cursor: "pointer",
+          }}
+        >
+          <div style={{ display: "flex", flexDirection: "column", gap: "0.2rem", flex: 1 }}>
+            <span
+              style={{
+                fontSize: "0.875rem", color: "var(--ink-soft)",
+                display: "flex", alignItems: "center", gap: "0.375rem",
+              }}
+            >
+              <Languages size={15} strokeWidth={2} color="var(--ink-soft)" />
+              {t.account.practiceAutoGlossaryLabel}
+            </span>
+            <span style={{ fontSize: "0.74rem", color: "var(--ink-muted)", lineHeight: 1.5 }}>
+              {t.account.practiceAutoGlossaryHint}
+            </span>
+          </div>
+          <input
+            type="checkbox"
+            role="switch"
+            aria-checked={practicePrefs.autoGlossaryInExplanation}
+            checked={practicePrefs.autoGlossaryInExplanation}
+            onChange={(e) => updatePracticePrefs({ autoGlossaryInExplanation: e.target.checked })}
+            style={{
+              flexShrink: 0, width: 36, height: 20, cursor: "pointer",
+              accentColor: "var(--teal)",
+            }}
+          />
+        </label>
       </div>
 
       {/* Progress export/import/reset */}

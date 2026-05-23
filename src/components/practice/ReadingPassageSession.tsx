@@ -313,6 +313,7 @@ export default function ReadingPassageSession({ difficulty }: Props) {
           question={{ ...q, passage: undefined }}
           onSubmit={handleSubmit}
           disabled={answered}
+          glossaryEnabled
         />
       </div>
 

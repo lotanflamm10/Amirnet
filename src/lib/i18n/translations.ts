@@ -10,6 +10,7 @@ export interface Translations {
     account: string;
     admin: string;
     learningEngine: string;
+    settings: string;
   };
   home: {
     tagline: string;
@@ -110,6 +111,11 @@ export interface Translations {
     audioUnsupported: string;
     /** Reading hint inside passage */
     readingHint: string;
+    /** Optional Hebrew glossary (per-question opt-in) */
+    hebrewHelpBtn: string;       // "עזרה בעברית" / "Hebrew help"
+    wordGlossaryTitle: string;   // "תרגום מילים" / "Word translations"
+    wordGlossaryShowMore: string; // "הצג עוד" / "Show more"
+    wordGlossaryShowLess: string; // "הצג פחות" / "Show less"
   };
   account: {
     pageTitle: string;
@@ -125,6 +131,26 @@ export interface Translations {
     statsAccuracy: string;
     statsStreak: string;
     statsStreakSuffix: string;
+    /** Formatted streak value, e.g. "{n} days" / "{n} ימים" — replaces statsStreakSuffix concatenation. */
+    statsStreakValueFormat: string;
+    /** Role labels shown under the username. */
+    roleAdmin: string;
+    roleStudent: string;
+    /** Account security card */
+    securityTitle: string;
+    userLabel: string;
+    logOut: string;
+    passwordHint: string;
+    passwordCurrentLabel: string;
+    passwordNewLabel: string;
+    passwordConfirmLabel: string;
+    passwordChangeBtn: string;
+    passwordUpdatingBtn: string;
+    passwordTooShort: string;
+    passwordMismatch: string;
+    passwordUpdated: string;
+    passwordUpdateError: string;
+    networkError: string;
     entitlements: string;
     entPractice: string;
     entSimulation: string;
@@ -134,7 +160,6 @@ export interface Translations {
     appearance: string;
     appearanceModeDark: string;
     appearanceModeLight: string;
-    appearanceModeSystem: string;
     appearanceSwitch: string;
     appearancePrimaryColor: string;
     appearanceReset: string;
@@ -151,6 +176,10 @@ export interface Translations {
     resetConfirm: string;
     devModeSwitcher: string;
     dataDisclaimer: string;
+    /** Practice preferences card */
+    practiceSectionTitle: string;
+    practiceAutoGlossaryLabel: string;
+    practiceAutoGlossaryHint: string;
   };
   pricing: {
     title: string;
@@ -492,7 +521,8 @@ export interface Translations {
     reset: string;
     themeDark: string;
     themeLight: string;
-    themeSystem: string;
+    /** title attribute on the theme toggle button */
+    themeCycleTitle: string;
   };
   review: {
     title: string;
@@ -642,7 +672,7 @@ export interface Translations {
 }
 
 export const he: Translations = {
-  nav: { dashboard: "לוח בקרה", practice: "תרגול", simulation: "הדמיה", vocab: "מילים", review: "סקירה", challenge: "אתגר", pricing: "תמחור", account: "חשבון", admin: "ניהול", learningEngine: "מנוע למידה" },
+  nav: { dashboard: "לוח בקרה", practice: "תרגול", simulation: "הדמיה", vocab: "מילים", review: "סקירה", challenge: "אתגר", pricing: "תמחור", account: "חשבון", admin: "ניהול", learningEngine: "מנוע למידה", settings: "הגדרות" },
   home: {
     tagline: "המאמן האישי שלך לאמירנט",
     hero: "תתאמן באנגלית ברמת אמירנט עם כלים חכמים",
@@ -738,6 +768,10 @@ export const he: Translations = {
     audioUnsupported: "אודיו לא נתמך בדפדפן זה",
     readingHint:
       "טיפ: סמן מילה או ביטוי כדי לתרגם לעברית ולהוסיף למאגר 'לא יודע'.",
+    hebrewHelpBtn: "עזרה בעברית",
+    wordGlossaryTitle: "תרגום מילים",
+    wordGlossaryShowMore: "הצג עוד",
+    wordGlossaryShowLess: "הצג פחות",
   },
   account: {
     pageTitle: "חשבון",
@@ -753,6 +787,23 @@ export const he: Translations = {
     statsAccuracy: "דיוק",
     statsStreak: "רצף",
     statsStreakSuffix: "ימים",
+    statsStreakValueFormat: "{n} ימים",
+    roleAdmin: "מנהל",
+    roleStudent: "סטודנט",
+    securityTitle: "אבטחה",
+    userLabel: "משתמש",
+    logOut: "התנתק",
+    passwordHint: "שינוי הסיסמה נשמר בדפדפן הזה בלבד (אין שרת אמיתי).",
+    passwordCurrentLabel: "סיסמה נוכחית",
+    passwordNewLabel: "סיסמה חדשה",
+    passwordConfirmLabel: "אישור סיסמה",
+    passwordChangeBtn: "שנה סיסמה",
+    passwordUpdatingBtn: "מעדכן…",
+    passwordTooShort: "הסיסמה החדשה חייבת להיות לפחות 6 תווים",
+    passwordMismatch: "הסיסמה החדשה והאישור אינם תואמים",
+    passwordUpdated: "הסיסמה עודכנה",
+    passwordUpdateError: "שגיאה בעדכון הסיסמה",
+    networkError: "שגיאת רשת",
     entitlements: "הרשאות",
     entPractice: "תרגול",
     entSimulation: "הדמיה",
@@ -762,7 +813,6 @@ export const he: Translations = {
     appearance: "מראה",
     appearanceModeDark: "מצב כהה",
     appearanceModeLight: "מצב בהיר",
-    appearanceModeSystem: "מצב מערכת",
     appearanceSwitch: "החלף",
     appearancePrimaryColor: "צבע ראשי",
     appearanceReset: "איפוס",
@@ -779,6 +829,9 @@ export const he: Translations = {
     resetConfirm: "בטוח שרצית לאפס את כל ההתקדמות? פעולה זו אינה הפיכה.",
     devModeSwitcher: "DEV: מתג תוכנית (Mock)",
     dataDisclaimer: "כל הנתונים שמורים מקומית. לא נשלח מידע לשרת.",
+    practiceSectionTitle: "תרגול",
+    practiceAutoGlossaryLabel: "הצג תרגום מילים אוטומטית בהסברים",
+    practiceAutoGlossaryHint: "בסיום שאלה, פאנל \"תרגום מילים\" ייפתח מאליו. במהלך השאלה התרגום נשאר אופציונלי בלחיצה.",
   },
   pricing: {
     title: "תמחור",
@@ -1106,7 +1159,7 @@ export const he: Translations = {
     reset: "איפוס",
     themeDark: "כהה",
     themeLight: "בהיר",
-    themeSystem: "מערכת",
+    themeCycleTitle: "החלף ערכת נושא",
   },
   review: {
     title: "סקירה חכמה",
@@ -1248,7 +1301,7 @@ export const he: Translations = {
 };
 
 export const en: Translations = {
-  nav: { dashboard: "Dashboard", practice: "Practice", simulation: "Simulation", vocab: "Vocab", review: "Review", challenge: "Challenge", pricing: "Pricing", account: "Account", admin: "Admin", learningEngine: "Learn" },
+  nav: { dashboard: "Dashboard", practice: "Practice", simulation: "Simulation", vocab: "Vocab", review: "Review", challenge: "Challenge", pricing: "Pricing", account: "Account", admin: "Admin", learningEngine: "Learn", settings: "Settings" },
   home: {
     tagline: "Your personal AMIRNET coach",
     hero: "Practice AMIRNET-level English with smart tools",
@@ -1344,6 +1397,10 @@ export const en: Translations = {
     audioUnsupported: "Audio is not supported in this browser",
     readingHint:
       "Tip: highlight any word or phrase to translate it and save to your unknown-words bank.",
+    hebrewHelpBtn: "Hebrew help",
+    wordGlossaryTitle: "Word translations",
+    wordGlossaryShowMore: "Show more",
+    wordGlossaryShowLess: "Show less",
   },
   account: {
     pageTitle: "Account",
@@ -1359,6 +1416,23 @@ export const en: Translations = {
     statsAccuracy: "Accuracy",
     statsStreak: "Streak",
     statsStreakSuffix: "d",
+    statsStreakValueFormat: "{n} days",
+    roleAdmin: "admin",
+    roleStudent: "student",
+    securityTitle: "Security",
+    userLabel: "Signed in as",
+    logOut: "Log out",
+    passwordHint: "Password change is stored on this browser only (no real backend).",
+    passwordCurrentLabel: "Current password",
+    passwordNewLabel: "New password",
+    passwordConfirmLabel: "Confirm new password",
+    passwordChangeBtn: "Change password",
+    passwordUpdatingBtn: "Updating…",
+    passwordTooShort: "New password must be at least 6 characters",
+    passwordMismatch: "Passwords do not match",
+    passwordUpdated: "Password updated",
+    passwordUpdateError: "Could not update password",
+    networkError: "Network error",
     entitlements: "Entitlements",
     entPractice: "Practice",
     entSimulation: "Simulation",
@@ -1371,7 +1445,6 @@ export const en: Translations = {
     appearance: "Appearance",
     appearanceModeDark: "Dark mode",
     appearanceModeLight: "Light mode",
-    appearanceModeSystem: "System mode",
     appearanceSwitch: "Switch",
     appearancePrimaryColor: "Primary color",
     appearanceReset: "Reset",
@@ -1385,6 +1458,9 @@ export const en: Translations = {
     resetConfirm: "Are you sure you want to reset all progress? This cannot be undone.",
     devModeSwitcher: "DEV: Mock plan switcher",
     dataDisclaimer: "All data is stored locally on this device. Nothing is sent to a server.",
+    practiceSectionTitle: "Practice",
+    practiceAutoGlossaryLabel: "Auto-expand word translations in explanations",
+    practiceAutoGlossaryHint: "After you answer, the \"Word translations\" panel opens by default. During a question it stays opt-in.",
   },
   pricing: {
     title: "Pricing",
@@ -1713,7 +1789,7 @@ export const en: Translations = {
     reset: "Reset",
     themeDark: "Dark",
     themeLight: "Light",
-    themeSystem: "System",
+    themeCycleTitle: "Toggle theme",
   },
   review: {
     title: "Smart Review",
