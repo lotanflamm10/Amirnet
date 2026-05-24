@@ -6,7 +6,13 @@ import questionsRaw from "@/data/seed/questions.json";
 import hardAddon from "@/data/seed/hard_questions_addon.json";
 import expandedAddon from "@/data/seed/questions_expanded.json";
 import skillBoostersRaw from "@/data/seed/skill_booster_questions.json";
+import { Library } from "@/components/icons/NavIcons";
 import { useLang } from "@/contexts/LanguageContext";
+
+function IconMark({ value, size }: { value: string; size: number }) {
+  if (value === "library") return <Library size={size} color="currentColor" strokeWidth={2} />;
+  return <span>{value}</span>;
+}
 
 type QData = Record<string, unknown[]>;
 
@@ -41,7 +47,7 @@ interface DifficultyEntry {
 }
 
 const SKILL_BOOSTERS: BoosterEntry[] = [
-  { id: "vocabularyInContext", he: { label: "אוצר מילים בהקשר", desc: "זהה מילים אקדמיות מתוך הקשר המשפט." },          en: { label: "Vocabulary in Context", desc: "Identify academic words from the surrounding sentence." },     icon: "📚", color: "var(--teal)" },
+  { id: "vocabularyInContext", he: { label: "אוצר מילים בהקשר", desc: "זהה מילים אקדמיות מתוך הקשר המשפט." },          en: { label: "Vocabulary in Context", desc: "Identify academic words from the surrounding sentence." },     icon: "library", color: "var(--teal)" },
   { id: "synonymRecognition",  he: { label: "זיהוי נרדפות",      desc: "זהה את המילה הקרובה ביותר במשמעות." },           en: { label: "Synonym Recognition",   desc: "Pick the word closest in meaning." },                          icon: "🔁", color: "var(--success)" },
   { id: "antonymRecognition",  he: { label: "זיהוי הפכים",       desc: "חזק את היכולת לזהות מילים מנוגדות." },           en: { label: "Antonym Recognition",   desc: "Strengthen recognition of opposites." },                       icon: "⇄",  color: "var(--warn)" },
   { id: "connectorPractice",   he: { label: "מילות קישור",        desc: "תרגל מילות חיבור לוגיות: although, however, moreover." }, en: { label: "Connectors Practice", desc: "Drill logical connectors: although, however, moreover." }, icon: "🔗", color: "var(--teal)" },
@@ -253,7 +259,7 @@ export default function PracticePage() {
                         background: `color-mix(in srgb, ${booster.color} 12%, var(--raised))`,
                         display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1.1rem",
                       }}>
-                        {booster.icon}
+                        <IconMark value={booster.icon} size={18} />
                       </div>
                       <span style={{ fontSize: "0.7rem", color: "var(--ink-muted)" }}>
                         {getBoosterCount(booster.id)} {t.practice.questionsUnit}

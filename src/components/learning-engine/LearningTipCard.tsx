@@ -6,7 +6,13 @@ import {
   DIFFICULTY_LABELS,
   CATEGORY_EMOJIS,
 } from "@/types/learning";
+import { Lightbulb } from "@/components/icons/NavIcons";
 import { useLang } from "@/contexts/LanguageContext";
+
+function CategoryIcon({ value, size }: { value: string; size: number }) {
+  if (value === "lightbulb") return <Lightbulb size={size} strokeWidth={2} />;
+  return <span>{value}</span>;
+}
 
 interface Props {
   tip: LearningTip;
@@ -269,7 +275,8 @@ export function LearningTipCard({
                 letterSpacing: "0.01em",
               }}
             >
-              {CATEGORY_EMOJIS[tip.category]} {CATEGORY_LABELS[tip.category]}
+              <CategoryIcon value={CATEGORY_EMOJIS[tip.category]} size={14} />
+              {CATEGORY_LABELS[tip.category]}
             </span>
             <span
               style={{
@@ -329,7 +336,7 @@ export function LearningTipCard({
               lineHeight: 1,
             }}
           >
-            {CATEGORY_EMOJIS[tip.category]}
+            <CategoryIcon value={CATEGORY_EMOJIS[tip.category]} size={isVideoStyle ? 32 : 26} />
           </div>
 
           {/* Title */}

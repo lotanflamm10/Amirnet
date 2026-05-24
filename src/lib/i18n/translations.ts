@@ -191,6 +191,7 @@ export interface Translations {
     oneTime: string;
     activated: string;
     activate: string;
+    activeBadge: string;
     devMode: string;
     disclaimer: string;
     /** Plan display names */
@@ -499,6 +500,13 @@ export interface Translations {
     summaryPracticeWeaknesses: string;
     summaryNewSimulation: string;
     summaryDashboard: string;
+    /** Quota gate */
+    quotaRemainingMonth: string; // "{n} simulations left this month"
+    quotaRemainingPack: string;  // "{n} simulations left in this pack"
+    quotaReachedPrefix: string;  // text before the upgrade link
+    quotaReachedLink: string;    // the linked word ("Pro" / "פרו")
+    quotaReachedSuffix: string;  // text after the upgrade link
+    quotaPricingShort: string;   // "{n} / {limit} simulations left" — pricing card
   };
   writingTask: {
     topicHeading: string;
@@ -849,6 +857,7 @@ export const he: Translations = {
     oneTime: "חד-פעמי",
     activated: "✓ מופעל (Mock)",
     activate: "הפעל (Mock)",
+    activeBadge: "פעיל",
     devMode: "DEV MODE: לחיצה על תוכנית מדמה הפעלה מקומית בלבד. תשלום אמיתי אינו מופעל.",
     disclaimer: "כלי הכנה עצמאי לאמירנט. אינו קשור ל-NITE. ציונים והדמיות אינם רשמיים.",
     planFree: "חינמי",
@@ -961,7 +970,7 @@ export const he: Translations = {
     unknownTitle: "מילים שאני לא יודע",
     unknownSubtitle: "מאגר אישי של מילים וביטויים שסימנת בזמן הקריאה.",
     sessionDoneTitle: "סיום סבב!",
-    sessionMessageExcellent: "מצוין! אתה מתפתח בקצב מהיר! 🔥",
+    sessionMessageExcellent: "מצוין! אתה מתפתח בקצב מהיר!",
     sessionMessageGood: "עבודה טובה! המשך להתקדם!",
     sessionMessageOk: "נסיון טוב — תרגל את המילים הקשות!",
     sessionMessageDefault: "המשך כך — אתה בונה תנופה!",
@@ -1142,6 +1151,12 @@ export const he: Translations = {
     summaryPracticeWeaknesses: "תרגל חולשות",
     summaryNewSimulation: "הדמיה חדשה",
     summaryDashboard: "לוח בקרה",
+    quotaRemainingMonth: "נותרו {n} הדמיות החודש",
+    quotaRemainingPack: "נותרו {n} הדמיות בחבילה",
+    quotaReachedPrefix: "השלמת את מכסת ההדמיות. שדרג לתוכנית ",
+    quotaReachedLink: "פרו",
+    quotaReachedSuffix: "",
+    quotaPricingShort: "נותרו {n} / {limit} הדמיות",
   },
   writingTask: {
     topicHeading: "✍️ נושא הכתיבה",
@@ -1483,6 +1498,7 @@ export const en: Translations = {
     oneTime: "one-time",
     activated: "✓ Activated (Mock)",
     activate: "Activate (Mock)",
+    activeBadge: "Active",
     devMode: "DEV MODE: clicking a plan only activates it locally. Real payment is not wired up.",
     disclaimer: "Independent AMIRNET prep tool. Not affiliated with NITE. Scores and simulations are unofficial.",
     planFree: "Free",
@@ -1595,7 +1611,7 @@ export const en: Translations = {
     unknownTitle: "Words I don't know",
     unknownSubtitle: "Your personal bank of words and phrases you flagged while reading.",
     sessionDoneTitle: "Session complete!",
-    sessionMessageExcellent: "Great work! You are improving quickly 🔥",
+    sessionMessageExcellent: "Great work! You are improving quickly",
     sessionMessageGood: "Solid work — keep the streak going!",
     sessionMessageOk: "Nice try — drill the harder words next.",
     sessionMessageDefault: "Keep going — you're building momentum!",
@@ -1777,6 +1793,12 @@ export const en: Translations = {
     summaryPracticeWeaknesses: "Practice weaknesses",
     summaryNewSimulation: "New simulation",
     summaryDashboard: "Dashboard",
+    quotaRemainingMonth: "{n} simulations left this month",
+    quotaRemainingPack: "{n} simulations left in this pack",
+    quotaReachedPrefix: "Quota reached. Upgrade to ",
+    quotaReachedLink: "Pro",
+    quotaReachedSuffix: "",
+    quotaPricingShort: "{n} / {limit} simulations left",
   },
   writingTask: {
     topicHeading: "✍️ Writing Topic",

@@ -5,6 +5,7 @@ import type { PracticeSession } from "@/types/questions";
 import type { SessionMode } from "@/lib/practice/question-selector";
 import { estimateScore, getScoreBand, calculateSessionAccuracy, formatTime } from "@/lib/practice/scoring";
 import { useLang } from "@/contexts/LanguageContext";
+import { Target } from "@/components/icons/NavIcons";
 
 interface Props {
   session: PracticeSession;
@@ -31,8 +32,13 @@ const MOTIV_EMOJI: Record<string, string> = {
   success:    "🌟",
   "ink-soft": "💪",
   warn:       "📈",
-  danger:     "🎯",
+  danger:     "target",
 };
+
+function MotivMark({ value, color }: { value: string; color: string }) {
+  if (value === "target") return <Target size={28} color={color} strokeWidth={2} />;
+  return <span>{value}</span>;
+}
 
 export default function PracticeSummary({ session, mode, totalTimeSeconds, onPracticeAgain }: Props) {
   const { t } = useLang();
@@ -63,7 +69,9 @@ export default function PracticeSummary({ session, mode, totalTimeSeconds, onPra
         padding: "2rem 1.5rem", textAlign: "center",
         borderColor: bandColor, background: bandBg,
       }}>
-        <div style={{ fontSize: "2rem", marginBottom: "0.25rem" }}>{MOTIV_EMOJI[band.color]}</div>
+        <div style={{ fontSize: "2rem", marginBottom: "0.25rem", display: "flex", justifyContent: "center", alignItems: "center", minHeight: "2.25rem" }}>
+          <MotivMark value={MOTIV_EMOJI[band.color]} color={bandColor} />
+        </div>
         <div style={{ fontFamily: "var(--font-display)", fontSize: "4.5rem", fontWeight: 900, color: bandColor, lineHeight: 1 }}>
           {score}
         </div>

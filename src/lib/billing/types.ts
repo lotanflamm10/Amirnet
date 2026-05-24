@@ -1,7 +1,14 @@
 "use client";
 
 export type BillingMode = "mock" | "stripe" | "cardcom" | "payplus" | "grow";
-export type PlanId = "guest" | "free" | "pro" | "lifetime" | "admin";
+export type PlanId =
+  | "guest"
+  | "free"
+  | "pro"
+  | "pro-3month"
+  | "sim-pack"
+  | "lifetime"
+  | "admin";
 export type EntitlementKey =
   | "canAccessPractice"
   | "canAccessSimulation"

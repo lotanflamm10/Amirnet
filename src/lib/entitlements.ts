@@ -38,6 +38,26 @@ const ENTITLEMENTS: Record<PlanId, Record<EntitlementKey, boolean>> = {
     vocabImportEnabled: true,
     adminAccess: false,
   },
+  "pro-3month": {
+    canAccessPractice: true,
+    canAccessSimulation: true,
+    canAccessFullAnalytics: true,
+    canUseSwipeVocab: true,
+    canUseSmartReview: true,
+    canConsumeCredit: true,
+    vocabImportEnabled: true,
+    adminAccess: false,
+  },
+  "sim-pack": {
+    canAccessPractice: true,
+    canAccessSimulation: true,
+    canAccessFullAnalytics: false,
+    canUseSwipeVocab: true,
+    canUseSmartReview: true,
+    canConsumeCredit: false,
+    vocabImportEnabled: false,
+    adminAccess: false,
+  },
   lifetime: {
     canAccessPractice: true,
     canAccessSimulation: true,
@@ -66,7 +86,7 @@ export function isDevMode(): boolean {
   );
 }
 
-const PLAN_IDS: PlanId[] = ["guest", "free", "pro", "lifetime", "admin"];
+const PLAN_IDS: PlanId[] = ["guest", "free", "pro", "pro-3month", "sim-pack", "lifetime", "admin"];
 
 function isValidPlanId(value: string): value is PlanId {
   return PLAN_IDS.includes(value as PlanId);
@@ -88,12 +108,27 @@ export function can(key: EntitlementKey): boolean {
   return ENTITLEMENTS[plan][key] ?? false;
 }
 
+function publicPlanFromInternal(plan: PlanId): "free" | "pro" | "unlimited" {
+  switch (plan) {
+    case "guest":
+    case "free":
+    case "sim-pack":
+      return "free";
+    case "pro":
+    case "pro-3month":
+      return "pro";
+    case "lifetime":
+    case "admin":
+      return "unlimited";
+  }
+}
+
 export function getUserEntitlement(): UserEntitlement {
   const plan = getCurrentPlan();
   const ent = ENTITLEMENTS[plan];
   return {
     userId: "local",
-    plan: plan === "lifetime" || plan === "admin" ? "unlimited" : plan === "guest" ? "free" : plan as "free" | "pro" | "unlimited",
+    plan: publicPlanFromInternal(plan),
     status: "active",
     expiresAt: null,
     simulationsRemaining: ent.canAccessSimulation ? null : 0,

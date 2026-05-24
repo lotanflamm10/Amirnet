@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useLayoutEffect, useState } from "react";
-import { getCurrentPlan, setMockPlan, can, isDevMode } from "@/lib/entitlements";
+import { getCurrentPlan, can, isDevMode } from "@/lib/entitlements";
+import { activatePlan } from "@/lib/billing/mock-activate-plan";
 import { exportProgress, importProgress, resetProgress, loadProgress } from "@/lib/progress/local-progress-store";
 import type { PlanId } from "@/lib/billing/types";
 import { useTheme, PRESET_COLORS, DEFAULT_PRIMARY } from "@/contexts/ThemeContext";
@@ -14,11 +15,13 @@ import { usePracticePrefs } from "@/lib/practice/practice-prefs";
 
 function planLabel(plan: PlanId, t: Translations): string {
   switch (plan) {
-    case "guest":    return t.account.planLabelGuest;
-    case "free":     return t.account.planLabelFree;
-    case "pro":      return t.account.planLabelPro;
-    case "lifetime": return t.account.planLabelLifetime;
-    case "admin":    return t.account.planLabelAdmin;
+    case "guest":      return t.account.planLabelGuest;
+    case "free":       return t.account.planLabelFree;
+    case "pro":        return t.account.planLabelPro;
+    case "pro-3month": return t.account.planLabelPro;
+    case "sim-pack":   return t.account.planLabelFree;
+    case "lifetime":   return t.account.planLabelLifetime;
+    case "admin":      return t.account.planLabelAdmin;
   }
 }
 
@@ -81,7 +84,7 @@ export default function AccountPage() {
   }
 
   function handlePlanChange(newPlan: PlanId) {
-    setMockPlan(newPlan);
+    activatePlan(newPlan);
     setPlan(newPlan);
   }
 

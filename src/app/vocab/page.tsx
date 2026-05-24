@@ -8,6 +8,13 @@ import vocabData from "@/data/seed/vocab.normalized.json";
 import type { VocabItem } from "@/types/vocab";
 import { useLang } from "@/contexts/LanguageContext";
 import { formatNumber } from "@/lib/ui/format-number";
+import { HelpCircle, Library } from "@/components/icons/NavIcons";
+
+function IconMark({ value, size }: { value: string; size: number }) {
+  if (value === "library") return <Library size={size} color="currentColor" strokeWidth={2} />;
+  if (value === "help-circle") return <HelpCircle size={size} color="currentColor" strokeWidth={2} />;
+  return <span>{value}</span>;
+}
 
 interface NavCard {
   href: string;
@@ -19,7 +26,7 @@ interface NavCard {
 
 const VOCAB_NAV: NavCard[] = [
   { href: "/vocab/swipe",   icon: "🎴", he: { label: "כרטיסיות החלקה",   desc: "תרגל עם כרטיסיות חכמות וחזרה מרווחת" }, en: { label: "Swipe Cards",          desc: "Practice with smart spaced-repetition cards" }, color: "var(--teal)" },
-  { href: "/vocab/unknown", icon: "❓", he: { label: "לא יודע",           desc: "מילים שסימנת בקריאה — לתרגול מהיר" },     en: { label: "Words I Don't Know",   desc: "Words you flagged while reading — quick review" }, color: "var(--info)" },
+  { href: "/vocab/unknown", icon: "help-circle", he: { label: "לא יודע",           desc: "מילים שסימנת בקריאה — לתרגול מהיר" },     en: { label: "Words I Don't Know",   desc: "Words you flagged while reading — quick review" }, color: "var(--info)" },
   { href: "/vocab/missed",  icon: "🔁", he: { label: "לא ידעתי",          desc: "כל המילים שפספסת — ממוינות לפי תדירות" }, en: { label: "Missed Words",         desc: "All words you missed, sorted by frequency" },     color: "var(--danger)" },
   { href: "/vocab/starred", icon: "⭐", he: { label: "מסומנים",            desc: "מילים שסימנת לחזרה מיוחדת" },             en: { label: "Starred",              desc: "Words you starred for focused review" },          color: "var(--warn)" },
   { href: "/vocab/custom",  icon: "✏️", he: { label: "מילים שלי",          desc: "הוסף מילים משלך ותרגל אותן בכרטיסיות" }, en: { label: "My Words",             desc: "Add your own words and study them as cards" },     color: "var(--success)" },
@@ -27,7 +34,7 @@ const VOCAB_NAV: NavCard[] = [
 ];
 
 const VOCAB_BOOSTERS: NavCard[] = [
-  { href: "/practice/vocabularyInContext", icon: "📚", he: { label: "מילים בהקשר",  desc: "זהה מילים אקדמיות מתוך הקשר המשפט" }, en: { label: "Vocabulary in Context", desc: "Identify academic words from sentence context" }, color: "var(--teal)" },
+  { href: "/practice/vocabularyInContext", icon: "library", he: { label: "מילים בהקשר",  desc: "זהה מילים אקדמיות מתוך הקשר המשפט" }, en: { label: "Vocabulary in Context", desc: "Identify academic words from sentence context" }, color: "var(--teal)" },
   { href: "/practice/synonymRecognition",  icon: "🔁", he: { label: "זיהוי נרדפות", desc: "מצא את המילה הקרובה ביותר במשמעות" }, en: { label: "Synonym Recognition",   desc: "Find the closest word in meaning" },               color: "var(--success)" },
   { href: "/practice/antonymRecognition",  icon: "⇄",  he: { label: "זיהוי הפכים",  desc: "חזק זיהוי מילים מנוגדות" },           en: { label: "Antonym Recognition",   desc: "Strengthen recognition of opposites" },            color: "var(--warn)" },
 ];
@@ -122,7 +129,10 @@ export default function VocabPage() {
                   width: 34, height: 34, borderRadius: 8, flexShrink: 0,
                   background: `color-mix(in srgb, ${card.color} 12%, var(--raised))`,
                   display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem",
-                }}>{card.icon}</span>
+                  color: card.color,
+                }}>
+                  <IconMark value={card.icon} size={18} />
+                </span>
                 <div>
                   <div style={{ fontWeight: 700, color: "var(--ink)", fontSize: "0.875rem", lineHeight: 1.2 }}>{copy.label}</div>
                   <div style={{ fontSize: "0.68rem", color: "var(--ink-muted)" }}>{sub}</div>
@@ -154,7 +164,10 @@ export default function VocabPage() {
                   width: 32, height: 32, borderRadius: 8, flexShrink: 0,
                   background: `color-mix(in srgb, ${card.color} 12%, var(--raised))`,
                   display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem",
-                }}>{card.icon}</span>
+                  color: card.color,
+                }}>
+                  <IconMark value={card.icon} size={18} />
+                </span>
                 <div>
                   <div style={{ fontWeight: 700, color: "var(--ink)", fontSize: "0.82rem", lineHeight: 1.2 }}>{copy.label}</div>
                   <div style={{ fontSize: "0.66rem", color: "var(--ink-muted)" }}>{sub}</div>

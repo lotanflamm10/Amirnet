@@ -8,6 +8,7 @@ import type { DifficultyFilter, SessionMode } from "@/lib/practice/question-sele
 import { addXp, recordAnswer as recordProgressAnswer } from "@/lib/progress/local-progress-store";
 import type { QuestionCategory } from "@/types/questions";
 import QuestionCard from "@/components/practice/QuestionCard";
+import { Flame } from "@/components/icons/NavIcons";
 import { useLang } from "@/contexts/LanguageContext";
 import {
   CHALLENGE_DEFAULT_SECONDS,
@@ -638,7 +639,7 @@ export default function ChallengeSession() {
             border: `1px solid ${streak >= 3 ? "rgba(245,158,11,0.3)" : "var(--line)"}`,
           }}
         >
-          <span style={{ fontSize: "0.85rem" }}>🔥</span>
+          <Flame size={14} color={streak >= 3 ? "var(--warn)" : "var(--ink-muted)"} strokeWidth={2} style={{ marginInlineEnd: 6 }} />
           <span style={{ fontWeight: 700, fontSize: "0.9rem", color: streak >= 3 ? "var(--warn)" : "var(--ink-muted)" }}>
             {streak}
           </span>

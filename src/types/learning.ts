@@ -76,5 +76,5 @@ export const CATEGORY_EMOJIS: Record<LearningCategory, string> = {
   time_management: "⏱️",
   exam_interface: "🖥️",
   test_day: "📋",
-  general: "💡",
+  general: "lightbulb",
 };

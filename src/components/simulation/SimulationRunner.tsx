@@ -1,5 +1,6 @@
 "use client";
-import { useReducer, useRef, useCallback, useLayoutEffect, useEffect } from "react";
+import { useReducer, useRef, useCallback, useLayoutEffect, useEffect, useState } from "react";
+import Link from "next/link";
 import type { SimMode } from "@/lib/simulation/simulation-config";
 import {
   createSimulation, recordAnswer, setCurrentQuestion,
@@ -22,6 +23,8 @@ import { PilotSectionIntro } from "./PilotSectionIntro";
 import { SimulationSummary } from "./SimulationSummary";
 import { SimulationReview } from "./SimulationReview";
 import { useLang } from "@/contexts/LanguageContext";
+import { getCurrentPlan } from "@/lib/entitlements";
+import { canStartSimulation } from "@/lib/billing/simulation-quota";
 import questionsRaw from "@/data/seed/questions.json";
 import hardAddon from "@/data/seed/hard_questions_addon.json";
 import paraComplex from "@/data/seed/_gen_para_complex.json";
@@ -123,7 +126,41 @@ function makeInitialState(mode: SimMode): RunnerState {
 
 interface Props { mode: SimMode }
 
+function QuotaGate() {
+  const { t } = useLang();
+  return (
+    <div
+      role="status"
+      style={{
+        padding: "1.5rem", borderRadius: 10,
+        background: "var(--raised)", border: "1px solid var(--line)",
+        color: "var(--ink)", fontSize: "0.9rem", lineHeight: 1.6,
+        textAlign: "center",
+      }}
+    >
+      {t.simulation.quotaReachedPrefix}
+      <Link href="/pricing" style={{ color: "var(--teal)", fontWeight: 700 }}>
+        {t.simulation.quotaReachedLink}
+      </Link>
+      {t.simulation.quotaReachedSuffix}
+    </div>
+  );
+}
+
 export function SimulationRunner({ mode }: Props) {
+  const [gateState, setGateState] = useState<"pending" | "blocked" | "open">("pending");
+
+  useLayoutEffect(() => {
+    setGateState(canStartSimulation(getCurrentPlan()) ? "open" : "blocked");
+  }, []);
+
+  if (gateState === "pending") return null;
+  if (gateState === "blocked") return <QuotaGate />;
+
+  return <SimulationRunnerInner mode={mode} />;
+}
+
+function SimulationRunnerInner({ mode }: Props) {
   const [state, dispatch] = useReducer(simReducer, undefined, () => makeInitialState(mode));
   const { t, lang } = useLang();
 
@@ -243,6 +280,14 @@ export function SimulationRunner({ mode }: Props) {
   const writingTextRef = useRef("");
 
   const handleRestart = useCallback(() => {
+    // Defensive guard: a session just completed may have consumed the
+    // user's last allowance. Re-check before spinning up a fresh sim;
+    // otherwise the user can drain the quota by tapping "New simulation"
+    // forever and the page-level gate never gets a turn.
+    if (!canStartSimulation(getCurrentPlan())) {
+      window.location.assign("/simulation");
+      return;
+    }
     const freshState = makeInitialState(mode);
     seenIds.current   = new Set(freshState.sectionQuestions.map((q) => q.id));
     seenHashes.current = new Set(freshState.sectionQuestions.map((q) => hashSentence(q.text)));

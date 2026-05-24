@@ -1,9 +1,15 @@
 "use client";
-import { useState } from "react";
+import { useLayoutEffect, useState } from "react";
+import Link from "next/link";
 import type { SimMode } from "@/lib/simulation/simulation-config";
 import { SimulationRunner } from "@/components/simulation/SimulationRunner";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
+import { getCurrentPlan } from "@/lib/entitlements";
+import {
+  getRemainingSimulations,
+  getSimulationQuota,
+} from "@/lib/billing/simulation-quota";
 
 interface ModeEntry {
   id: SimMode;
@@ -50,7 +56,15 @@ const MODES: ModeEntry[] = [
 
 export default function SimulationPage() {
   const [activeMode, setActiveMode] = useState<SimMode | null>(null);
+  const [remaining, setRemaining] = useState<number | null>(null);
+  const [periodLabel, setPeriodLabel] = useState<"month" | "pack" | "none">("none");
   const { t } = useLang();
+
+  useLayoutEffect(() => {
+    const plan = getCurrentPlan();
+    setRemaining(getRemainingSimulations(plan));
+    setPeriodLabel(getSimulationQuota(plan).periodLabel);
+  }, [activeMode]);
 
   if (activeMode) {
     return (
@@ -64,6 +78,9 @@ export default function SimulationPage() {
     );
   }
 
+  const quotaApplies = remaining !== null;
+  const quotaExhausted = quotaApplies && remaining === 0;
+
   return (
     <div className="page-container animate-fade-up" style={{ display: "flex", flexDirection: "column", gap: "1.75rem" }}>
       <div>
@@ -71,15 +88,49 @@ export default function SimulationPage() {
         <p className="page-subtitle">{t.simulation.subtitle}</p>
       </div>
 
+      {quotaApplies && (
+        <div
+          role="status"
+          style={{
+            fontSize: "0.85rem",
+            color: quotaExhausted ? "var(--ink)" : "var(--ink-soft)",
+            background: quotaExhausted ? "var(--raised)" : "transparent",
+            border: quotaExhausted ? "1px solid var(--line)" : "none",
+            borderRadius: quotaExhausted ? 8 : 0,
+            padding: quotaExhausted ? "0.6rem 0.9rem" : 0,
+          }}
+        >
+          {quotaExhausted ? (
+            <>
+              {t.simulation.quotaReachedPrefix}
+              <Link href="/pricing" style={{ color: "var(--teal)", fontWeight: 700 }}>
+                {t.simulation.quotaReachedLink}
+              </Link>
+              {t.simulation.quotaReachedSuffix}
+            </>
+          ) : (
+            (periodLabel === "pack"
+              ? t.simulation.quotaRemainingPack
+              : t.simulation.quotaRemainingMonth
+            ).replace("{n}", String(remaining))
+          )}
+        </div>
+      )}
+
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: "0.875rem" }}>
         {MODES.map((mode) => {
           const label = mode.label(t);
           const desc  = mode.desc(t);
           return (
-            <button key={mode.id} onClick={() => setActiveMode(mode.id)}
+            <button
+              key={mode.id}
+              onClick={() => !quotaExhausted && setActiveMode(mode.id)}
+              disabled={quotaExhausted}
               className="card card-hover"
               style={{
-                padding: "1.5rem", textAlign: "start", cursor: "pointer",
+                padding: "1.5rem", textAlign: "start",
+                cursor: quotaExhausted ? "not-allowed" : "pointer",
+                opacity: quotaExhausted ? 0.55 : 1,
                 border: mode.recommended ? "1.5px solid var(--teal)" : "1px solid var(--line)",
                 background: mode.recommended ? "linear-gradient(135deg, var(--teal-faint), var(--surface))" : "var(--surface)",
                 position: "relative",

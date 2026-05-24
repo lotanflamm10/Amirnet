@@ -6,6 +6,7 @@ import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
 import { getProgressLabel } from "@/lib/vocab/spaced-repetition";
 import { useLang } from "@/contexts/LanguageContext";
 import { getCardSections, partitionExamples, type CardExample } from "@/lib/vocab/card-sections";
+import { Lightbulb, BookOpen, HelpCircle } from "@/components/icons/NavIcons";
 
 interface SwipeCardProps {
   item: VocabItem;
@@ -652,7 +653,10 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                           overflowWrap: "break-word",
                           textAlign: "right",
                         }}>
-                          <span style={{ fontWeight: 700, color: "var(--teal)" }}>💡 {t.vocab.memoryTip}: </span>
+                          <span style={{ fontWeight: 700, color: "var(--teal)", display: "inline-flex", alignItems: "center" }}>
+                            <Lightbulb size={14} color="currentColor" strokeWidth={2} style={{ marginInlineEnd: 6 }} />
+                            {t.vocab.memoryTip}:&nbsp;
+                          </span>
                           {sections.memoryTip}
                         </div>
                       )}
@@ -671,8 +675,9 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                           flexDirection: "column",
                           gap: "6px",
                         }}>
-                          <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--ink-muted)", letterSpacing: "0.02em", textAlign: "start" }}>
-                            📝 {t.vocab.examplesHeading}
+                          <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--ink-muted)", letterSpacing: "0.02em", textAlign: "start", display: "inline-flex", alignItems: "center" }}>
+                            <BookOpen size={14} color="currentColor" strokeWidth={2} style={{ marginInlineEnd: 6 }} />
+                            {t.vocab.examplesHeading}
                           </span>
                           {inlineExamples.map((ex, i) => (
                             <ExampleRow key={`inline-${i}`} ex={ex} />
@@ -693,8 +698,9 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                           gap: "4px",
                           textAlign: "right",
                         }}>
-                          <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--warn)", letterSpacing: "0.02em" }}>
-                            ❓ {t.vocab.recallHeading}
+                          <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--warn)", letterSpacing: "0.02em", display: "inline-flex", alignItems: "center" }}>
+                            <HelpCircle size={14} color="currentColor" strokeWidth={2} style={{ marginInlineEnd: 6 }} />
+                            {t.vocab.recallHeading}
                           </span>
                           <p dir="auto" style={{
                             fontSize: "0.82rem",
