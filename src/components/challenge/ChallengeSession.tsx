@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import type { Question } from "@/types/questions";
 import { selectQuestions } from "@/lib/practice/question-selector";
 import type { DifficultyFilter, SessionMode } from "@/lib/practice/question-selector";
@@ -38,6 +39,13 @@ interface ChallengeCat {
   isPilot: boolean;
   /** True if the category is not yet wired to MCQ data and should be unavailable. */
   unavailable?: boolean;
+  /**
+   * True for categories that aren't really "challenges" (rapid-fire MCQ) —
+   * clicking them in the lobby short-circuits straight to the dedicated
+   * practice editor instead of toggling them into the multi-select.
+   * Writing Task is the only such category today.
+   */
+  redirectMode?: string;
 }
 
 const CATEGORIES: ChallengeCat[] = [
@@ -48,7 +56,7 @@ const CATEGORIES: ChallengeCat[] = [
   { id: "textCompletion",     he: "השלמת קטע שמע",           en: "Audio Cloze",                 isPilot: true },
   { id: "grammar",            he: "דקדוק בהקשר",             en: "Grammar in Context",          isPilot: true },
   { id: "wordFormation",      he: "יצירת מילה",              en: "Word Formation",              isPilot: true },
-  { id: "writingTask",        he: "מטלת כתיבה",              en: "Writing Task",                isPilot: true, unavailable: true },
+  { id: "writingTask",        he: "מטלת כתיבה",              en: "Writing Task",                isPilot: true, redirectMode: "/practice/writingTask" },
 ];
 
 const DIFFS: { id: DifficultyFilter; he: string; en: string }[] = [
@@ -146,6 +154,7 @@ function CategoryChip({
 export default function ChallengeSession() {
   const { lang } = useLang();
   const isHe = lang === "he";
+  const router = useRouter();
 
   // Lobby settings — multi-select; default to all 3 main categories.
   const [selectedCats, setSelectedCats] = useState<ChallengeCat["id"][]>([
@@ -333,6 +342,15 @@ export default function ChallengeSession() {
   useEffect(() => () => { stopTimer(); stopReadTimer(); stopAdv(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function toggleCat(id: ChallengeCat["id"]) {
+    const cat = CATEGORIES.find((c) => c.id === id);
+    // Redirect-only categories don't enter the multi-select — tapping the
+    // chip jumps straight to the dedicated practice page. Writing Task is
+    // the canonical example: it doesn't fit the rapid-fire MCQ format and
+    // already has its own full-screen editor at /practice/writingTask.
+    if (cat?.redirectMode) {
+      router.push(cat.redirectMode);
+      return;
+    }
     setSelectedCats((prev) =>
       prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id],
     );
@@ -458,6 +476,11 @@ export default function ChallengeSession() {
                       ({isHe ? "בקרוב" : "soon"})
                     </span>
                   )}
+                  {c.redirectMode && (
+                    <span style={{ fontSize: "0.65rem", opacity: 0.8 }}>
+                      ↗
+                    </span>
+                  )}
                 </CategoryChip>
               ))}
             </div>
@@ -513,19 +536,6 @@ export default function ChallengeSession() {
               </div>
             </div>
           </div>
-
-          {/* Selection hint / unavailable warning */}
-          {selectedCats.some((id) => CATEGORIES.find((c) => c.id === id)?.unavailable) && (
-            <div style={{
-              background: "rgba(245,158,11,0.08)", border: "1px solid rgba(245,158,11,0.3)",
-              borderRadius: 10, padding: "0.6rem 0.85rem", fontSize: "0.78rem",
-              color: "var(--warn)", lineHeight: 1.5,
-            }}>
-              {isHe
-                ? "מטלת כתיבה תהיה זמינה בקרוב — היא תדולג מהאתגר."
-                : "Writing Task will be available soon — it'll be skipped in the challenge."}
-            </div>
-          )}
 
           <button
             className="btn btn-primary btn-lg"

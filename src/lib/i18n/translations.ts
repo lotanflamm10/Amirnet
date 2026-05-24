@@ -248,6 +248,10 @@ export interface Translations {
     estimatedScoreUnofficial: string;
     overallAccuracy: string;
     categoryBreakdown: string;
+    /** New section headers for the split result screen. */
+    coreComponentsTitle: string;
+    boostersTitle: string;
+    boosterRowHint: string;
     yourStrongest: string;
     needsImprovement: string;
     continueCta: string;
@@ -329,6 +333,8 @@ export interface Translations {
     trap: string;
     memoryTip: string;        // friendly label for the smart memory hint
     example: string;          // friendly label for the example sentence
+    examplesHeading: string;  // section header for the examples list
+    recallHeading: string;    // section header for the recall question
     moreExamples: string;     // collapsed-details toggle (open)
     hideExamples: string;     // collapsed-details toggle (close)
     addStar: string;
@@ -898,6 +904,9 @@ export const he: Translations = {
     estimatedScoreUnofficial: "ציון משוער לא רשמי · מתוך 150",
     overallAccuracy: "דיוק כולל",
     categoryBreakdown: "פירוט לפי קטגוריה",
+    coreComponentsTitle: "מרכיבי ציון מרכזיים",
+    boostersTitle: "תחומי חיזוק מומלצים",
+    boosterRowHint: "לתרגול בלבד — לא משוקלל בציון המשוער",
     yourStrongest: "החזק שלך",
     needsImprovement: "זקוק לשיפור",
     continueCta: "המשך לתוכנית האימון שלי →",
@@ -979,6 +988,8 @@ export const he: Translations = {
     trap: "מלכודת",
     memoryTip: "טיפ לזכירה",
     example: "דוגמה",
+    examplesHeading: "דוגמאות",
+    recallHeading: "שאלת שליפה",
     moreExamples: "עוד דוגמאות",
     hideExamples: "פחות דוגמאות",
     addStar: "הוסף כוכב",
@@ -1527,6 +1538,9 @@ export const en: Translations = {
     estimatedScoreUnofficial: "Unofficial estimated score · out of 150",
     overallAccuracy: "Overall accuracy",
     categoryBreakdown: "Breakdown by category",
+    coreComponentsTitle: "Core score components",
+    boostersTitle: "Recommended skill boosters",
+    boosterRowHint: "Practice only — not weighted in estimate",
     yourStrongest: "Strongest",
     needsImprovement: "Needs work",
     continueCta: "Continue to my training plan →",
@@ -1609,6 +1623,8 @@ export const en: Translations = {
     trap: "Trap",
     memoryTip: "Memory tip",
     example: "Example",
+    examplesHeading: "Examples",
+    recallHeading: "Recall question",
     moreExamples: "More examples",
     hideExamples: "Fewer examples",
     addStar: "Add star",

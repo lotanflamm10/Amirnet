@@ -1,5 +1,6 @@
 import type { VocabItem } from "@/types/vocab";
-import { getDueItems, loadVocabStates } from "./vocab-store";
+import { loadVocabStates } from "./vocab-store";
+import { getCurrentUserId } from "@/lib/storage/user-storage";
 
 export const DAILY_VOCAB_LIMIT = 10;
 
@@ -8,8 +9,12 @@ export const DAILY_VOCAB_LIMIT = 10;
  * top-up pool with a seed that is stable for a single day (so refreshing
  * mid-session does not scramble the order) but rotates each day so a new
  * user does not see the same A-Z-looking list every visit.
+ *
+ * Also exported so the swipe trainer can apply the same per-user/per-day
+ * shuffle to the cold-start pool (no SRS state) without re-implementing
+ * the math.
  */
-function mulberry32(seed: number): () => number {
+export function mulberry32(seed: number): () => number {
   let t = seed >>> 0;
   return () => {
     t = (t + 0x6d2b79f5) >>> 0;
@@ -23,7 +28,7 @@ function mulberry32(seed: number): () => number {
  * Returns YYYY-MM-DD for today in the user's local timezone, used as a
  * stable per-day seed.
  */
-function todayKey(): string {
+export function todayKey(): string {
   const d = new Date();
   const y = d.getFullYear();
   const m = String(d.getMonth() + 1).padStart(2, "0");
@@ -31,7 +36,7 @@ function todayKey(): string {
   return `${y}-${m}-${day}`;
 }
 
-function hashString(s: string): number {
+export function hashString(s: string): number {
   let h = 0;
   for (let i = 0; i < s.length; i++) {
     h = ((h << 5) - h + s.charCodeAt(i)) | 0;
@@ -39,7 +44,7 @@ function hashString(s: string): number {
   return h >>> 0;
 }
 
-function seededShuffle<T>(items: readonly T[], seed: number): T[] {
+export function seededShuffle<T>(items: readonly T[], seed: number): T[] {
   const a = [...items];
   const rand = mulberry32(seed || 1);
   for (let i = a.length - 1; i > 0; i--) {
@@ -51,28 +56,67 @@ function seededShuffle<T>(items: readonly T[], seed: number): T[] {
 
 /**
  * Returns the cards a user should study today, capped at DAILY_VOCAB_LIMIT.
- * Priority:
- *   1. Items that are due (sorted internally by nextReviewAt asc).
- *   2. If fewer than the limit are due, top-up with new/high-priority items.
- *      We bucket by studyPriority (desc) and shuffle WITHIN each bucket with
- *      a per-day seed. Without the shuffle, the seed JSON's alphabetical
- *      order leaks through — new users see "abbreviate, abdomen, ability,
- *      …" which feels mechanical and discouraging.
+ *
+ * Two distinct "due" buckets:
+ *   • TRULY due — items whose SRS schedule has an explicit `nextReviewAt`
+ *     in the past. These represent the user's real review queue and are
+ *     served first, in oldest-overdue order (returning users see their
+ *     normal SRS order).
+ *   • NEW / unseen — items with no SRS state (or null `nextReviewAt`).
+ *     For a brand-new user this is essentially the entire vocab corpus.
+ *     We shuffle these with a per-user/per-day seed so the cold-start deck
+ *     doesn't read as a long alphabetical "a*" run.
+ *
+ * The two buckets are concatenated (truly-due first, then shuffled new)
+ * and sliced to DAILY_VOCAB_LIMIT. If the user has ≥10 truly-due items,
+ * the new-item shuffle never fires — exactly the "returning user keeps
+ * normal order" contract.
  */
-export function getDailyVocabPool(allItems: VocabItem[]): VocabItem[] {
-  const due = getDueItems(allItems, DAILY_VOCAB_LIMIT);
-  if (due.length >= DAILY_VOCAB_LIMIT) return due;
-
+export function getDailyVocabPool(
+  allItems: VocabItem[],
+  userId?: string | null,
+): VocabItem[] {
   const states = loadVocabStates();
-  const dueIds = new Set(due.map((v) => v.id));
-  const seed = hashString(todayKey());
+  const now = Date.now();
 
-  // Bucket remaining items by (mastered, studyPriority). Within each bucket
-  // the order is randomized using today's seed.
+  // Truly-due: explicit nextReviewAt that has already passed. Sort
+  // oldest-overdue first so the SRS spirit is preserved for return visits.
+  const trulyDue: VocabItem[] = [];
+  for (const item of allItems) {
+    const state = states[item.id];
+    if (!state?.nextReviewAt) continue;
+    const t = new Date(state.nextReviewAt).getTime();
+    if (Number.isFinite(t) && t <= now) trulyDue.push(item);
+  }
+  trulyDue.sort((a, b) => {
+    const ta = new Date(states[a.id]!.nextReviewAt!).getTime();
+    const tb = new Date(states[b.id]!.nextReviewAt!).getTime();
+    return ta - tb;
+  });
+
+  if (trulyDue.length >= DAILY_VOCAB_LIMIT) {
+    return trulyDue.slice(0, DAILY_VOCAB_LIMIT);
+  }
+
+  // Top-up: items with no SRS state at all OR null nextReviewAt. These are
+  // the "new to me" cards. Bucket by (mastered, studyPriority) and shuffle
+  // WITHIN each bucket using a per-user/per-day seed. Without the seed
+  // every visitor on the same day would see the same deck; without the
+  // user component every user would see the same deck on the same day.
+  const dueIds = new Set(trulyDue.map((v) => v.id));
+  const uid = userId ?? getCurrentUserId() ?? "anon";
+  const baseSeed = hashString(`${uid}|${todayKey()}`);
+
   const buckets = new Map<string, VocabItem[]>();
   for (const v of allItems) {
     if (dueIds.has(v.id)) continue;
-    const mastered = states[v.id]?.masteryScore === 5 ? 1 : 0;
+    const state = states[v.id];
+    // Skip items that are scheduled in the future — they're not due yet.
+    if (state?.nextReviewAt) {
+      const t = new Date(state.nextReviewAt).getTime();
+      if (Number.isFinite(t) && t > now) continue;
+    }
+    const mastered = state?.masteryScore === 5 ? 1 : 0;
     const priority = v.studyPriority ?? 5;
     const key = `${mastered}|${priority}`;
     const arr = buckets.get(key);
@@ -92,17 +136,27 @@ export function getDailyVocabPool(allItems: VocabItem[]): VocabItem[] {
   for (const key of sortedKeys) {
     const items = buckets.get(key);
     if (!items) continue;
-    topUpCandidates.push(...seededShuffle(items, seed + hashString(key)));
+    topUpCandidates.push(...seededShuffle(items, baseSeed + hashString(key)));
   }
 
-  return [...due, ...topUpCandidates].slice(0, DAILY_VOCAB_LIMIT);
+  return [...trulyDue, ...topUpCandidates].slice(0, DAILY_VOCAB_LIMIT);
 }
 
 /**
- * Convenience: counts how many items are still due today. Used by widgets
- * that want to display the *pending* number (separately from today's task,
- * which is always exactly DAILY_VOCAB_LIMIT cards).
+ * Convenience: counts how many items are still pending today. This is the
+ * union of truly-due items + unseen/new items — i.e. anything `isDue` would
+ * still return for. Used by widgets that want a "pending" stat.
  */
 export function getDailyDueRemaining(allItems: VocabItem[]): number {
-  return getDueItems(allItems, allItems.length).length;
+  const states = loadVocabStates();
+  const now = Date.now();
+  let count = 0;
+  for (const item of allItems) {
+    const state = states[item.id];
+    if (!state) { count++; continue; }
+    if (!state.nextReviewAt) { count++; continue; }
+    const t = new Date(state.nextReviewAt).getTime();
+    if (Number.isFinite(t) && t <= now) count++;
+  }
+  return count;
 }

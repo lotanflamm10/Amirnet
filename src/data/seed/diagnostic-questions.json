@@ -106,98 +106,134 @@
   },
   {
     "id": "diag_07",
-    "category": "grammar",
+    "category": "sentenceCompletion",
     "difficulty": "easy",
-    "text": "Choose the correct form: 'She ___ to the gym every morning.'",
-    "choices": ["go", "goes", "going", "gone"],
-    "answer": 1,
-    "explanation": "With a third-person singular subject (she) in the simple present tense, the verb requires the -s ending: goes.",
+    "text": "The chef seasoned the soup carefully, knowing that too much salt would ___ the natural flavor of the vegetables.",
+    "choices": ["enhance", "preserve", "overpower", "complement"],
+    "answer": 2,
+    "explanation": "Too much salt has a negative effect on the natural taste — 'overpower' captures that the salt would dominate and hide the vegetable flavor.",
     "wrongReasons": [
-      "Go is the base form used with I, you, we, they — not with she",
-      "Going requires an auxiliary verb such as is going and cannot stand alone",
-      "Gone is the past participle used in perfect tenses, not in simple present statements"
+      "'Enhance' means to improve, the opposite of the harm implied by too much salt",
+      "'Preserve' means to keep something unchanged — too much salt would not preserve the natural flavor here",
+      "'Complement' means to add to harmoniously, the opposite of dominating the flavor"
     ],
-    "tags": ["grammar", "subject_verb_agreement", "simple_present"]
+    "hebrewExplanation": "פירוק משמעות המשפט: השף תיבל בזהירות כי יותר מדי מלח יכול להזיק לטעם הטבעי של הירקות.\n\nמדוע התשובה הנכונה נכונה: overpower = להשתלט, להכריע — מלח רב משתלט על הטעם המקורי ומסתיר אותו.\n\nמדוע שאר התשובות שגויות:\n- enhance (לשפר) — הפך הפגיעה שהמשפט מתאר.\n- preserve (לשמר) — לא מתאר את הפעולה השלילית של עודף מלח כאן.\n- complement (להשלים בהרמוניה) — ההפך מהשתלטות.\n\nמילים קשות: overpower = להשתלט; complement = להשלים; preserve = לשמר.",
+    "tags": ["vocabulary", "context_clues"]
   },
   {
     "id": "diag_08",
-    "category": "grammar",
+    "category": "sentenceCompletion",
     "difficulty": "medium",
-    "text": "Choose the correct form: 'By the time we arrived, they ___ already ___ the presentation.'",
-    "choices": [
-      "have / finished",
-      "had / finished",
-      "were / finishing",
-      "did / finish"
-    ],
-    "answer": 1,
-    "explanation": "The past perfect (had + past participle) is used to show an action completed before another past event. By the time we arrived signals the earlier action.",
+    "text": "The team's victory in the regional championship was not ___ — it followed three years of disciplined training and careful planning.",
+    "choices": ["earned", "deserved", "spontaneous", "celebrated"],
+    "answer": 2,
+    "explanation": "The dash sets up a contrast: the victory was not sudden / unplanned but the product of long preparation. 'Spontaneous' fits because it means arising without prior thought or planning.",
     "wrongReasons": [
-      "Have finished is present perfect and cannot be used for actions before a past reference point",
-      "Were finishing is past continuous and describes an ongoing action, not a completed one",
-      "Did finish is simple past and does not show that the action was completed before arrival"
+      "'Earned' fits a deserved victory but creates no contrast with 'three years of disciplined training' — the sentence would contradict itself",
+      "'Deserved' has the same problem as 'earned' — the long preparation supports rather than opposes this",
+      "'Celebrated' refers to public recognition and doesn't form the implied contrast with planned preparation"
     ],
-    "tags": ["grammar", "past_perfect", "time_clauses"]
+    "hebrewExplanation": "פירוק משמעות המשפט: הניצחון לא היה ___ — הוא היה תוצאה של שלוש שנות אימון ותכנון.\n\nמדוע התשובה הנכונה נכונה: spontaneous = ספונטני, בלי תכנון מוקדם — בדיוק הניגוד שהקטע יוצר עם שלוש שנות התכנון.\n\nמדוע שאר התשובות שגויות:\n- earned/deserved — ניצחון מאומן הוא ניצחון מגיע; אין כאן ניגוד הגיוני.\n- celebrated — מתאר התקבלות ציבורית, לא יוצר את הניגוד עם תכנון.\n\nמילים קשות: spontaneous = ספונטני; disciplined = ממושמע; deliberate = מכוון.",
+    "tags": ["vocabulary", "contrast_clue"]
   },
   {
     "id": "diag_09",
-    "category": "grammar",
-    "difficulty": "hard",
-    "text": "Choose the correct form: 'Neither the students nor the teacher ___ aware of the schedule change.'",
-    "choices": ["were", "was", "are", "have been"],
-    "answer": 1,
-    "explanation": "With neither...nor, the verb agrees with the subject closest to it (the teacher), which is singular, so was is correct.",
-    "wrongReasons": [
-      "Were is plural and would agree with students, but the rule requires agreement with the nearer subject (teacher)",
-      "Are is present tense but the context requires past tense and also does not apply the proximity rule",
-      "Have been is present perfect and is grammatically inconsistent with the simple past context"
+    "category": "restatements",
+    "difficulty": "medium",
+    "text": "Although the new factory created hundreds of jobs, environmental groups argued that the resulting pollution outweighed the economic benefits.",
+    "choices": [
+      "The new factory generated many jobs, but environmentalists claimed its pollution caused more harm than the economic gains were worth.",
+      "Environmental groups praised the factory because the jobs it created were worth far more than the small amount of pollution produced.",
+      "The new factory created hundreds of jobs and was widely supported by local residents and environmental advocates.",
+      "The factory created hundreds of jobs, and the resulting pollution led to a permanent ban on similar facilities across the country."
     ],
-    "tags": ["grammar", "subject_verb_agreement", "correlative_conjunctions"]
+    "answer": 0,
+    "explanation": "The original has two clauses joined by 'although': jobs created (positive) vs. pollution outweighed the benefits (negative judgement). Option A preserves both, with 'caused more harm than the economic gains were worth' mirroring 'outweighed the economic benefits'.",
+    "wrongReasons": [
+      "B reverses the meaning — it claims environmentalists praised the factory and that pollution was small",
+      "C drops the pollution objection entirely and adds that environmental advocates supported the factory, which contradicts the original",
+      "D keeps the jobs and pollution but adds an unsupported claim about a nationwide ban on similar facilities"
+    ],
+    "hebrewExplanation": "פירוק משמעות המשפט המקורי:\n1. המפעל החדש יצר מאות מקומות עבודה.\n2. ארגוני סביבה טענו שהזיהום שנגרם 'עולה' (חמור יותר) מהיתרונות הכלכליים.\n\nמדוע התשובה הנכונה נכונה:\n(A) שומרת על שני חלקי המשמעות — יצירת המשרות, וההשגה הסביבתית שהנזק עולה על הרווח.\n\nמדוע שאר התשובות שגויות:\n(B) היפוך משמעות — מציגה את הארגונים כמשבחים ואת הזיהום כקטן.\n(C) איבוד פסוקית — משמיטה את השגת הזיהום ומוסיפה תמיכה סביבתית שלא היתה.\n(D) הוספת מידע — אזכור של איסור כלל-ארצי שלא מופיע במקור.\n\nמילים קשות: outweighed = עלה על; pollution = זיהום; resulting = הנובע.",
+    "tags": ["restatement", "concessive", "contrast"]
   },
   {
     "id": "diag_10",
-    "category": "wordFormation",
+    "category": "reading",
     "difficulty": "easy",
-    "text": "Choose the correct word form: 'The ___ was made by the committee.' (decide)",
-    "choices": ["decision", "decisive", "decided", "deciding"],
-    "answer": 0,
-    "explanation": "Decision is the noun form of decide and correctly fills the subject position in the sentence.",
-    "wrongReasons": [
-      "Decisive is an adjective meaning showing quick judgment and cannot function as the subject of was made",
-      "Decided is a past tense verb or adjective and cannot serve as a noun subject here",
-      "Deciding is a present participle or gerund that would require a different sentence structure"
+    "text": "According to the passage, which activity in the brain is associated with slow-wave sleep?",
+    "choices": [
+      "The brain shuts down most of its networks to conserve energy.",
+      "The hippocampus replays sequences of recently activated neurons while low-frequency activity sweeps through the cortex.",
+      "Vivid mental imagery dominates as the brain integrates emotional content.",
+      "Cortical traces for new factual material are erased and replaced with older memories."
     ],
-    "tags": ["word_formation", "noun_suffix", "decision"]
+    "answer": 1,
+    "explanation": "The second paragraph explicitly says slow-wave sleep involves 'dense bursts of low-frequency activity' in the cortex while 'the hippocampus repeatedly replays sequences of recently activated neurons'.",
+    "wrongReasons": [
+      "The 'shuts down to save energy' description is the OLD pre-modern view the passage explicitly dismisses",
+      "Vivid mental imagery is described as a feature of REM sleep, not slow-wave sleep",
+      "The passage says replay strengthens cortical traces, not that they are erased"
+    ],
+    "hebrewExplanation": "פירוק משמעות הקטע (פסקה שנייה): שינה גלית-איטית = פעילות נמוכת תדר בקליפת המוח + השמעה חוזרת בהיפוקמפוס של רצפי נוירונים פעילים.\n\nמדוע התשובה הנכונה נכונה: (B) שומרת על שני האלמנטים — ההיפוקמפוס שמשמיע מחדש + פעילות נמוכת תדר בקליפת המוח.\n\nמדוע שאר התשובות שגויות:\n(A) זו התפיסה הישנה שהקטע דוחה במפורש בפסקה הראשונה.\n(C) דימוי חזותי חי מתואר ב-REM, לא בשינה גלית-איטית.\n(D) הקטע אומר שההשמעה מחזקת זיכרונות, לא מוחקת.\n\nמילים קשות: hippocampus = היפוקמפוס; cortical traces = עקבות קליפתיים; consolidate = לאחד, לקבע.",
+    "passage": {
+      "id": "diag-r1-passage",
+      "title": "What Sleep Does for Memory",
+      "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+    },
+    "tags": ["reading", "detail"]
   },
   {
     "id": "diag_11",
-    "category": "wordFormation",
+    "category": "reading",
     "difficulty": "medium",
-    "text": "Choose the correct word form: 'Her ___ in mathematics were remarkable.' (achieve)",
-    "choices": ["achieve", "achiever", "achievements", "achieving"],
-    "answer": 2,
-    "explanation": "Achievements is the plural noun form of achieve and correctly acts as the subject of the sentence.",
-    "wrongReasons": [
-      "Achieve is a verb and cannot serve as a noun subject without modification",
-      "Achiever is a noun meaning a person who achieves, not the results of achievement",
-      "Achieving is a present participle that would need an auxiliary verb to function as a predicate"
+    "text": "Which statement best captures the central idea of the passage?",
+    "choices": [
+      "Modern neuroscience confirms that sleep is mostly a passive energy-saving state.",
+      "Different stages of sleep play distinct, active roles in turning new learning into durable long-term memory.",
+      "Only slow-wave sleep contributes to learning; REM sleep is decorative and has no functional value.",
+      "Sleep deprivation has no measurable effect on memory consolidation as long as study effort is sufficient."
     ],
-    "tags": ["word_formation", "noun_suffix", "plurals"]
+    "answer": 1,
+    "explanation": "The passage's whole argument is that sleep actively consolidates memory, with slow-wave sleep handling factual/spatial traces and REM handling emotional integration — two distinct active roles.",
+    "wrongReasons": [
+      "Option A is the OLD view the passage explicitly dismisses in the first paragraph",
+      "Option C reverses the passage — REM is described as 'particularly important' for emotional regulation and integration, not as decorative",
+      "Option D contradicts the third paragraph, which says chronic sleep loss impairs consolidation 'regardless of how much waking effort the learner invests'"
+    ],
+    "hebrewExplanation": "פירוק משמעות הקטע: המסר המרכזי — שינה היא תהליך פעיל של איחוד זיכרון, ושלבי השינה תורמים תרומות שונות (גלית-איטית לעובדתי, REM לרגשי/אינטגרציה).\n\nמדוע התשובה הנכונה נכונה: (B) שומרת על שני העקרונות — תפקיד פעיל + הבדלים בין שלבי שינה.\n\nמדוע שאר התשובות שגויות:\n(A) זו התפיסה הישנה שהקטע דוחה.\n(C) הופכת את התיאור — הקטע אומר ש-REM 'חשובה במיוחד', לא דקורטיבית.\n(D) הקטע אומר שחסך שינה כרוני פוגע באיחוד 'ללא קשר לכמה מאמץ בערות'.\n\nמילים קשות: consolidate = לאחד, לקבע; durable = עמיד; distinct = שונה, נבדל.",
+    "passage": {
+      "id": "diag-r1-passage",
+      "title": "What Sleep Does for Memory",
+      "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+    },
+    "tags": ["reading", "main_idea"]
   },
   {
     "id": "diag_12",
-    "category": "wordFormation",
+    "category": "reading",
     "difficulty": "hard",
-    "text": "Choose the correct word form: 'The new policy led to a significant ___ in student performance.' (improve)",
-    "choices": ["improve", "improved", "improvement", "improving"],
-    "answer": 2,
-    "explanation": "Improvement is the noun form required after the article a and adjective significant in this noun phrase.",
-    "wrongReasons": [
-      "Improve is a verb and cannot follow a and significant in a noun phrase",
-      "Improved is an adjective or past tense verb and does not complete the noun phrase correctly",
-      "Improving is a present participle and requires a different grammatical structure to be used here"
+    "text": "What is the primary function of the second paragraph in the overall argument of the passage?",
+    "choices": [
+      "It contradicts the conclusion of the first paragraph by offering opposing evidence.",
+      "It supplies the biological mechanism that supports the first paragraph's claim that sleep actively consolidates memory.",
+      "It introduces an unrelated example from animal behaviour to broaden the discussion.",
+      "It concludes the passage by summarising practical recommendations for students."
     ],
-    "tags": ["word_formation", "noun_suffix", "noun_phrase"]
+    "answer": 1,
+    "explanation": "Paragraph 1 makes the claim (sleep actively consolidates memory). Paragraph 2 names the mechanisms — slow-wave replay strengthens factual traces, REM handles emotional integration. So it functions as the supporting biological evidence for the headline claim.",
+    "wrongReasons": [
+      "It does not contradict paragraph 1 — it explains the very mechanism the first paragraph asserted exists",
+      "The animal studies are cited specifically to support the consolidation claim, not as an unrelated tangent",
+      "It is the second paragraph, not the closing one — the practical recommendations appear in paragraph 3"
+    ],
+    "hebrewExplanation": "פירוק המבנה: פסקה 1 = הטענה (שינה מאחדת זיכרון פעיל). פסקה 2 = הסבר ביולוגי (מנגנון). פסקה 3 = השלכות יומיומיות.\n\nמדוע התשובה הנכונה נכונה: (B) פסקה 2 מספקת את ההסבר הביולוגי התומך בטענה — מתארת את המנגנון של שלבי שינה ופעולתם על הזיכרון.\n\nמדוע שאר התשובות שגויות:\n(A) הפסקה לא סותרת — היא תומכת.\n(C) הניסויים בבעלי חיים הובאו לתמוך, לא להרחיב לנושא אחר.\n(D) זו פסקה שנייה, לא המסכמת; ההמלצות המעשיות בפסקה השלישית.\n\nמילים קשות: mechanism = מנגנון; consolidate = לאחד; biological = ביולוגי.",
+    "passage": {
+      "id": "diag-r1-passage",
+      "title": "What Sleep Does for Memory",
+      "body": "For most of the twentieth century, sleep was treated as a kind of biological pause — a period during which the brain quieted down to save energy. Modern neuroscience has dismantled this view almost completely. Recordings from sleeping subjects show vigorous, structured activity in the very networks that have just been used during waking learning. Sleep, it now appears, is when many of the day's experiences are sifted, replayed, and consolidated into long-term memory.\n\nThe process is not uniform across the night. During slow-wave sleep, dense bursts of low-frequency activity sweep through the cortex while the hippocampus repeatedly replays sequences of recently activated neurons. Animal studies suggest that this replay strengthens the cortical traces that hold factual and spatial information; subjects deprived of slow-wave sleep after a learning task perform substantially worse the next day. Rapid-eye-movement (REM) sleep, by contrast, is rich in vivid mental imagery and seems particularly important for emotional regulation and for integrating new material with knowledge the learner already had.\n\nThe implications for everyday life are concrete. Studying immediately before sleep produces noticeably better recall than studying just after waking, and short naps containing slow-wave sleep can rescue performance on demanding tasks. Chronic sleep loss, on the other hand, impairs the brain's ability to consolidate even well-rehearsed material, regardless of how much waking effort the learner invests. Sleep is therefore not a luxury that compresses available study time but a built-in mechanism that turns short-lived neural traces into the durable knowledge we rely on later."
+    },
+    "tags": ["reading", "paragraph_function"]
   },
   {
     "id": "diag_13",

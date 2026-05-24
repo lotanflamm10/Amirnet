@@ -5,6 +5,10 @@ import { saveDiagnosticResult } from "@/lib/progress/local-progress-store";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
 import { ensureInView } from "@/lib/ui/smooth-scroll";
+import {
+  DIAGNOSTIC_CATEGORY_WEIGHTS,
+  isCoreCategory,
+} from "@/lib/diagnostic/category-weights";
 
 type Screen = "intro" | "testing" | "results";
 
@@ -30,6 +34,12 @@ interface DiagnosticQuestion {
   explanation: string;
   wrongReasons: string[];
   tags?: string[];
+  /** Optional reading passage — only present on category === "reading" items. */
+  passage?: {
+    id: string;
+    title?: string;
+    body: string;
+  };
 }
 
 const questions = diagnosticQuestions as DiagnosticQuestion[];
@@ -69,11 +79,9 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
   const computeResults = useCallback((finalAnswers: AnswerRecord[]) => {
     const catCorrect: Record<string, number> = {};
     const catTotal: Record<string, number> = {};
-    let correctCount = 0;
     for (const a of finalAnswers) {
       catTotal[a.category] = (catTotal[a.category] ?? 0) + 1;
       if (a.correct) {
-        correctCount++;
         catCorrect[a.category] = (catCorrect[a.category] ?? 0) + 1;
       } else {
         catCorrect[a.category] = catCorrect[a.category] ?? 0;
@@ -86,11 +94,30 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
       catResults[cat] = pct;
       catAccuracies[cat] = pct;
     }
-    const accuracy = questions.length > 0 ? correctCount / questions.length : 0;
-    const scoreLow = Math.max(50, Math.min(150, Math.round(70 + accuracy * 0.55 * 100)));
+
+    // Diagnostic score is a weighted average over CORE categories only.
+    // Booster categories (grammar / wordFormation) get weight 0 — they
+    // still feed the recommendations pipeline downstream via catResults.
+    let weightedSum = 0;
+    let totalWeight = 0;
+    for (const cat of Object.keys(catTotal)) {
+      const weight = DIAGNOSTIC_CATEGORY_WEIGHTS[cat] ?? 0;
+      if (weight <= 0) continue;
+      const catAccuracy = (catCorrect[cat] ?? 0) / catTotal[cat];
+      weightedSum += catAccuracy * weight;
+      totalWeight += weight;
+    }
+    const coreAccuracy = totalWeight > 0 ? weightedSum / totalWeight : 0;
+
+    // Headline accuracy reported to the user reflects the SAME core-only
+    // view (so it can't disagree with the headline score when a student
+    // aces core but tanks boosters).
+    const reportedAccuracyPct = Math.round(coreAccuracy * 100);
+
+    const scoreLow = Math.max(50, Math.min(150, Math.round(70 + coreAccuracy * 0.55 * 100)));
     const scoreHigh = Math.min(150, scoreLow + 12);
     saveDiagnosticResult(scoreLow, catResults);
-    setResultData({ scoreLow, scoreHigh, catAccuracies, overallPct: Math.round(accuracy * 100) });
+    setResultData({ scoreLow, scoreHigh, catAccuracies, overallPct: reportedAccuracyPct });
     setScreen("results");
   }, []);
 
@@ -180,6 +207,36 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
           </div>
         </div>
 
+        {/* Passage — only rendered for reading items */}
+        {q.passage && (
+          <div className="ltr-content" style={{
+            background: "var(--raised)",
+            border: "1.5px solid var(--line)",
+            borderInlineStart: "4px solid var(--teal)",
+            borderRadius: 12,
+            padding: "1.125rem 1.25rem",
+            marginBottom: "1rem",
+            color: "var(--ink-soft)",
+            fontSize: "0.9rem",
+            lineHeight: 1.85,
+          }}>
+            {q.passage.title && (
+              <p style={{ fontWeight: 700, color: "var(--ink-muted)", marginBottom: "0.625rem", fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.06em" }}>
+                {q.passage.title}
+              </p>
+            )}
+            {q.passage.body
+              .split(/\n{2,}/)
+              .map((p) => p.trim())
+              .filter(Boolean)
+              .map((para, i, arr) => (
+                <p key={i} style={{ margin: 0, marginBottom: i < arr.length - 1 ? "0.875rem" : 0, color: "var(--ink-soft)" }}>
+                  {para}
+                </p>
+              ))}
+          </div>
+        )}
+
         {/* Question */}
         <div className="card" style={{ padding: "1.5rem", marginBottom: "1rem" }}>
           <p className="ltr-content" style={{ fontSize: "1rem", lineHeight: 1.7, color: "var(--ink)", margin: 0 }}>
@@ -246,9 +303,16 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
     const { scoreLow, scoreHigh, catAccuracies, overallPct } = resultData;
     const accuracyColor = overallPct >= 75 ? "var(--success)" : overallPct >= 55 ? "var(--warn)" : "var(--danger)";
 
-    const catEntries = Object.entries(catAccuracies).sort((a, b) => b[1] - a[1]);
-    const strongest = catEntries[0] ? categoryLabel(catEntries[0][0], t) : null;
-    const weakest = catEntries[catEntries.length - 1] ? categoryLabel(catEntries[catEntries.length - 1][0], t) : null;
+    const sortedEntries = Object.entries(catAccuracies).sort((a, b) => b[1] - a[1]);
+    const coreEntries = sortedEntries.filter(([cat]) => isCoreCategory(cat));
+
+    // All diagnostic categories are now core (boosters were removed from
+    // the seed), so strongest / needs-work highlights are simply the
+    // top and bottom of the sorted core list.
+    const strongest = coreEntries[0] ? categoryLabel(coreEntries[0][0], t) : null;
+    const weakest = coreEntries.length > 1
+      ? categoryLabel(coreEntries[coreEntries.length - 1][0], t)
+      : null;
 
     return (
       <div style={{ maxWidth: 520, margin: "0 auto", width: "100%", padding: "1.5rem 1rem", display: "flex", flexDirection: "column", gap: "1.25rem" }}>
@@ -276,41 +340,48 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
           </div>
         </div>
 
-        {/* Category breakdown */}
-        <div className="card animate-fade-up" style={{ padding: "1.25rem" }}>
-          <div className="section-title" style={{ marginBottom: "0.875rem" }}>{t.diagnostic.categoryBreakdown}</div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
-            {catEntries.map(([cat, pct]) => {
-              const color = pct >= 75 ? "var(--success)" : pct >= 55 ? "var(--warn)" : "var(--danger)";
-              return (
-                <div key={cat}>
-                  <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem", marginBottom: "0.25rem" }}>
-                    <span style={{ color: "var(--ink-soft)" }}>{categoryLabel(cat, t)}</span>
-                    <span style={{ fontWeight: 700, color }}>{pct}%</span>
+        {/* Core score components — only categories that drive the headline */}
+        {coreEntries.length > 0 && (
+          <div className="card animate-fade-up" style={{ padding: "1.25rem" }}>
+            <div className="section-title" style={{ marginBottom: "0.875rem" }}>{t.diagnostic.coreComponentsTitle}</div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "0.625rem" }}>
+              {coreEntries.map(([cat, pct]) => {
+                const color = pct >= 75 ? "var(--success)" : pct >= 55 ? "var(--warn)" : "var(--danger)";
+                return (
+                  <div key={cat}>
+                    <div style={{ display: "flex", justifyContent: "space-between", fontSize: "0.78rem", marginBottom: "0.25rem", gap: "0.5rem" }}>
+                      <span style={{ color: "var(--ink-soft)", overflowWrap: "anywhere" }}>{categoryLabel(cat, t)}</span>
+                      <span style={{ fontWeight: 700, color, whiteSpace: "nowrap" }}>{pct}%</span>
+                    </div>
+                    <div className="progress-track" style={{ height: 5 }}>
+                      <div className="progress-fill" style={{ width: `${pct}%`, background: color }} />
+                    </div>
                   </div>
-                  <div className="progress-track" style={{ height: 5 }}>
-                    <div className="progress-fill" style={{ width: `${pct}%`, background: color }} />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          {(strongest || weakest) && (
-            <div style={{ display: "flex", gap: "0.75rem", marginTop: "1rem", flexWrap: "wrap" }}>
-              {strongest && (
-                <div style={{ fontSize: "0.78rem", color: "var(--success)" }}>
-                  <strong>{t.diagnostic.yourStrongest}:</strong> {strongest}
-                </div>
-              )}
-              {weakest && weakest !== strongest && (
-                <div style={{ fontSize: "0.78rem", color: "var(--warn)" }}>
-                  <strong>{t.diagnostic.needsImprovement}:</strong> {weakest}
-                </div>
-              )}
+                );
+              })}
             </div>
-          )}
-        </div>
+
+            {(strongest || weakest) && (
+              <div style={{ display: "flex", gap: "0.75rem", marginTop: "1rem", flexWrap: "wrap" }}>
+                {strongest && (
+                  <div style={{ fontSize: "0.78rem", color: "var(--success)" }}>
+                    <strong>{t.diagnostic.yourStrongest}:</strong> {strongest}
+                  </div>
+                )}
+                {weakest && weakest !== strongest && (
+                  <div style={{ fontSize: "0.78rem", color: "var(--warn)" }}>
+                    <strong>{t.diagnostic.needsImprovement}:</strong> {weakest}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Recommended skill boosters section removed — the diagnostic now
+            contains only core categories. Weak-category practice
+            suggestions still flow through the daily-plan generator via
+            `saveDiagnosticResult(catResults)` written above. */}
 
         <button className="btn btn-primary btn-xl btn-block" onClick={onComplete} style={{ textAlign: "center" }}>
           {t.diagnostic.continueCta}

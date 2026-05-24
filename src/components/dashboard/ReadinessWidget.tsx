@@ -56,7 +56,11 @@ export function ReadinessWidget() {
     return null;
   }
 
-  const readiness = calculateReadinessScore(progress);
+  const readinessRaw = calculateReadinessScore(progress);
+  // Defensive clamp — the readiness % must never exceed 100 regardless of
+  // what upstream returns. The source-of-truth fix lives in mastery-engine
+  // (diagnostic fallback now maps to /150); this is belt-and-braces.
+  const readiness = Math.max(0, Math.min(100, readinessRaw));
   const { low, high } = predictScoreRange(progress);
   const blockers = getBlockers(progress);
   const target = progress.targetScore ?? 134;

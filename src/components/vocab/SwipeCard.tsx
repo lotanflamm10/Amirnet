@@ -5,7 +5,7 @@ import type { VocabItem } from "@/types/vocab";
 import type { VocabReviewState } from "@/lib/vocab/spaced-repetition";
 import { getProgressLabel } from "@/lib/vocab/spaced-repetition";
 import { useLang } from "@/contexts/LanguageContext";
-import { getMemoryEnrichment } from "@/lib/vocab/memory-hint";
+import { getCardSections, partitionExamples, type CardExample } from "@/lib/vocab/card-sections";
 
 interface SwipeCardProps {
   item: VocabItem;
@@ -592,16 +592,9 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                 touchAction: "pan-y",
               }}>
                 {(() => {
-                  const enrich = getMemoryEnrichment(item);
-                  // Pick the single best memory tip for the main card. coreMeaning
-                  // is the most useful one; we never surface memoryAnchor (the
-                  // "Anchor / עוגן" label was technical noise).
-                  const tip = enrich.coreMeaning;
-                  const hasExtras =
-                    enrich.collocations.length > 0 ||
-                    Boolean(enrich.exampleHe) ||
-                    Boolean(enrich.confusion) ||
-                    Boolean(enrich.retrieval);
+                  const sections = getCardSections(item);
+                  const { inline: inlineExamples, extra: extraExamples } = partitionExamples(sections.examples);
+                  const hasMoreExamples = extraExamples.length > 0;
                   return (
                     <>
                       {/* Hebrew translation — visually centered and the primary
@@ -631,13 +624,13 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                         }}>
                           {item.hebrewTranslation}
                         </div>
-                        {enrich.pronunciation && (
+                        {sections.pronunciation && (
                           <div dir="rtl" style={{
                             fontSize: "0.76rem",
                             color: "var(--ink-muted)",
                             letterSpacing: "0.02em",
                           }}>
-                            {enrich.pronunciation}
+                            {sections.pronunciation}
                           </div>
                         )}
                       </div>
@@ -647,7 +640,7 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
 
                       {/* Memory tip — single short block. Smaller than the
                           Hebrew translation so the translation stays the focus. */}
-                      {tip && (
+                      {sections.memoryTip && (
                         <div dir="rtl" style={{
                           fontSize: "0.85rem",
                           color: "var(--ink-soft)",
@@ -660,50 +653,107 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                           textAlign: "right",
                         }}>
                           <span style={{ fontWeight: 700, color: "var(--teal)" }}>💡 {t.vocab.memoryTip}: </span>
-                          {tip}
+                          {sections.memoryTip}
                         </div>
                       )}
 
-                      {/* Single example — main-card view. Additional context
-                          (collocations, Hebrew gloss of the example, confusion,
-                          retrieval) is hidden behind a toggle to keep the card
-                          lightweight on iPhone. */}
-                      {enrich.exampleEn && (
-                        <div dir="rtl" style={{
+                      {/* Examples section — shows the inline subset under an
+                          "Examples" header. The "More examples" toggle only
+                          appears when real examples were stashed behind it,
+                          NEVER for a recall question or memory tip. */}
+                      {inlineExamples.length > 0 && (
+                        <div dir={lang === "he" ? "rtl" : "ltr"} style={{
                           padding: "8px 10px",
                           borderInlineStart: "3px solid var(--teal)",
                           background: "var(--raised)",
                           borderRadius: 6,
                           display: "flex",
                           flexDirection: "column",
-                          gap: "2px",
+                          gap: "6px",
+                        }}>
+                          <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--ink-muted)", letterSpacing: "0.02em", textAlign: "start" }}>
+                            📝 {t.vocab.examplesHeading}
+                          </span>
+                          {inlineExamples.map((ex, i) => (
+                            <ExampleRow key={`inline-${i}`} ex={ex} />
+                          ))}
+                        </div>
+                      )}
+
+                      {/* Recall question — ALWAYS its own section, never hidden
+                          behind "More examples". A recall prompt is not an example. */}
+                      {sections.recallQuestion && (
+                        <div dir="rtl" style={{
+                          padding: "8px 10px",
+                          borderInlineStart: "3px solid var(--warn)",
+                          background: "rgba(245,158,11,0.06)",
+                          borderRadius: 6,
+                          display: "flex",
+                          flexDirection: "column",
+                          gap: "4px",
                           textAlign: "right",
                         }}>
-                          <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--ink-muted)", letterSpacing: "0.02em" }}>
-                            📝 {t.vocab.example}
+                          <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "var(--warn)", letterSpacing: "0.02em" }}>
+                            ❓ {t.vocab.recallHeading}
                           </span>
-                          <p dir="ltr" style={{
-                            fontSize: "0.85rem",
-                            color: "var(--ink)",
-                            fontStyle: "italic",
+                          <p dir="auto" style={{
+                            fontSize: "0.82rem",
+                            color: "var(--ink-soft)",
                             margin: 0,
-                            lineHeight: 1.4,
-                            textAlign: "left",
+                            lineHeight: 1.45,
                           }}>
-                            {enrich.exampleEn}
+                            {sections.recallQuestion}
                           </p>
                         </div>
                       )}
 
-                      {/* Expanded details — collapsed by default. A real
-                          <button> drives the open/close so the gesture
-                          handler's `closest("button")` guard skips it; the
-                          previous <details>/<summary> was treated as plain
-                          card surface and tapping it flipped the card
-                          instead of opening examples. onPointerDown also
-                          stops propagation as a belt-and-suspenders guard
-                          against future gesture-handler changes. */}
-                      {hasExtras && (
+                      {/* Confusion warning — its own small note, never inside
+                          the More-examples toggle. */}
+                      {sections.confusion && (
+                        <div dir="rtl" style={{
+                          padding: "6px 10px",
+                          borderRadius: 6,
+                          background: "rgba(245,158,11,0.08)",
+                          border: "1px solid rgba(245,158,11,0.25)",
+                          fontSize: "0.76rem",
+                          color: "var(--warn)",
+                          lineHeight: 1.45,
+                          textAlign: "right",
+                          overflowWrap: "break-word",
+                        }}>
+                          <span dir="auto">{sections.confusion}</span>
+                        </div>
+                      )}
+
+                      {/* Collocations — kept as their own pill row. Not folded
+                          into "More examples" because they aren't examples. */}
+                      {sections.collocations.length > 0 && (
+                        <div dir="ltr" style={{
+                          display: "flex",
+                          flexWrap: "wrap",
+                          gap: "4px",
+                        }}>
+                          {sections.collocations.slice(0, 4).map((c) => (
+                            <span key={c} dir="ltr" style={{
+                              fontSize: "0.72rem",
+                              padding: "2px 8px",
+                              borderRadius: 99,
+                              background: "var(--raised)",
+                              color: "var(--ink-soft)",
+                              border: "1px solid var(--line)",
+                              whiteSpace: "nowrap",
+                            }}>
+                              {c}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+
+                      {/* "More examples" toggle — only appears when there are
+                          REAL example sentences stashed behind it. stopPropagation
+                          + onPointerDown/onTouchStart keep the card flip and
+                          swipe gestures unaffected. */}
+                      {hasMoreExamples && (
                         <div style={{ marginTop: "2px" }}>
                           <button
                             type="button"
@@ -716,8 +766,6 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                             onPointerDown={(e) => e.stopPropagation()}
                             onTouchStart={(e) => e.stopPropagation()}
                             style={{
-                              // Full-width pill — bigger tap target on mobile,
-                              // visually obvious that it's a real action.
                               display: "flex", alignItems: "center", justifyContent: "center", gap: 6,
                               width: "100%", minHeight: 44,
                               padding: "10px 14px",
@@ -743,64 +791,19 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
                               id="vocab-card-more"
                               style={{ display: "flex", flexDirection: "column", gap: "7px", paddingTop: "8px" }}
                             >
-                              {enrich.exampleHe && (
-                                <p dir="rtl" style={{
-                                  fontSize: "0.78rem",
-                                  color: "var(--ink-soft)",
-                                  margin: 0,
-                                  lineHeight: 1.45,
-                                  textAlign: "right",
-                                }}>
-                                  {enrich.exampleHe}
-                                </p>
-                              )}
-                              {enrich.collocations.length > 0 && (
-                                <div dir="ltr" style={{
-                                  display: "flex",
-                                  flexWrap: "wrap",
-                                  gap: "4px",
-                                }}>
-                                  {enrich.collocations.slice(0, 4).map((c) => (
-                                    <span key={c} dir="ltr" style={{
-                                      fontSize: "0.72rem",
-                                      padding: "2px 8px",
-                                      borderRadius: 99,
-                                      background: "var(--raised)",
-                                      color: "var(--ink-soft)",
-                                      border: "1px solid var(--line)",
-                                      whiteSpace: "nowrap",
-                                    }}>
-                                      {c}
-                                    </span>
-                                  ))}
-                                </div>
-                              )}
-                              {enrich.confusion && (
-                                <div dir="rtl" style={{
+                              {extraExamples.map((ex, i) => (
+                                <div key={`extra-${i}`} dir={lang === "he" ? "rtl" : "ltr"} style={{
                                   padding: "6px 10px",
+                                  borderInlineStart: "2px solid var(--line)",
+                                  background: "var(--raised)",
                                   borderRadius: 6,
-                                  background: "rgba(245,158,11,0.08)",
-                                  border: "1px solid rgba(245,158,11,0.25)",
-                                  fontSize: "0.76rem",
-                                  color: "var(--warn)",
-                                  lineHeight: 1.45,
-                                  textAlign: "right",
-                                  overflowWrap: "break-word",
+                                  display: "flex",
+                                  flexDirection: "column",
+                                  gap: "2px",
                                 }}>
-                                  <span dir="auto">{enrich.confusion}</span>
+                                  <ExampleRow ex={ex} />
                                 </div>
-                              )}
-                              {enrich.retrieval && (
-                                <div dir="rtl" style={{
-                                  fontSize: "0.78rem",
-                                  color: "var(--ink-soft)",
-                                  lineHeight: 1.5,
-                                  textAlign: "right",
-                                  overflowWrap: "break-word",
-                                }}>
-                                  <span dir="auto">{enrich.retrieval}</span>
-                                </div>
-                              )}
+                              ))}
                             </div>
                           )}
                         </div>
@@ -851,5 +854,40 @@ export default function SwipeCard({ item, reviewState, onKnown, onMissed, onStar
         </button>
       </div>
     </div>
+  );
+}
+
+/**
+ * Renders one example block — English sentence in LTR italic + optional
+ * Hebrew gloss below it (RTL). When the entry has only Hebrew (a context
+ * sentence), renders just the Hebrew line.
+ */
+function ExampleRow({ ex }: { ex: CardExample }) {
+  return (
+    <>
+      {ex.en && (
+        <p dir="ltr" style={{
+          fontSize: "0.85rem",
+          color: "var(--ink)",
+          fontStyle: "italic",
+          margin: 0,
+          lineHeight: 1.4,
+          textAlign: "left",
+        }}>
+          {ex.en}
+        </p>
+      )}
+      {ex.he && (
+        <p dir="rtl" style={{
+          fontSize: "0.78rem",
+          color: "var(--ink-soft)",
+          margin: 0,
+          lineHeight: 1.45,
+          textAlign: "right",
+        }}>
+          {ex.he}
+        </p>
+      )}
+    </>
   );
 }

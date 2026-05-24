@@ -23,10 +23,25 @@ export function calculateMasteryScore(cat: CategoryProgress): number {
   return Math.round(Math.min(100, Math.max(0, mastery * 100)));
 }
 
+/**
+ * Convert an AMIRAM-scale diagnostic score (50–150) into a 0–100 readiness
+ * percentage. Anything outside the canonical range is clamped — the result
+ * is meant for the "% ready" display and must never exceed 100.
+ */
+function diagnosticScoreToReadinessPct(score: number): number {
+  return Math.max(0, Math.min(100, Math.round((score / 150) * 100)));
+}
+
 export function calculateReadinessScore(progress: UserProgress): number {
   const cats = progress.categoryProgress.filter(c => c.totalAnswered >= 3);
   if (cats.length === 0) {
-    if (progress.diagnosticScore != null) return Math.round(progress.diagnosticScore as number);
+    // The user hasn't built up category data yet — fall back to the
+    // diagnostic. `diagnosticScore` is on the AMIRAM 50–150 scale, so we
+    // map it to a 0–100 readiness percentage. Reading it raw used to leak
+    // values like "114%" into the dashboard widget.
+    if (progress.diagnosticScore != null) {
+      return diagnosticScoreToReadinessPct(progress.diagnosticScore as number);
+    }
     return 0;
   }
   let totalWeight = 0, weightedSum = 0;
@@ -41,6 +56,17 @@ export function calculateReadinessScore(progress: UserProgress): number {
 }
 
 export function predictScoreRange(progress: UserProgress): { low: number; high: number } {
+  const cats = progress.categoryProgress.filter(c => c.totalAnswered >= 3);
+  // If the user has a diagnostic but no category data yet, honour the
+  // diagnostic value directly — it's already on the AMIRAM 50–150 scale,
+  // so wrapping it in a small ± margin produces a more meaningful range
+  // than re-deriving from the (now percentage-clamped) readiness score.
+  if (cats.length === 0 && progress.diagnosticScore != null) {
+    const s = progress.diagnosticScore as number;
+    const low = Math.max(50, Math.round(s - 6));
+    const high = Math.min(150, Math.round(s + 6));
+    return { low, high };
+  }
   const readiness = calculateReadinessScore(progress);
   if (readiness === 0) return { low: 70, high: 85 };
   const low = Math.round(70 + readiness * 0.55);

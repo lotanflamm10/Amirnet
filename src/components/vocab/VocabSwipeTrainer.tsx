@@ -21,6 +21,7 @@ import { withCustomItems } from "@/lib/vocab/custom-vocab-store";
 import { filterByCardType, CARD_TYPE_LABELS_HE, CARD_TYPE_LABELS_EN } from "@/lib/vocab/vocab-card-type";
 import type { CardType } from "@/lib/vocab/vocab-card-type";
 import { getDailyVocabPool, DAILY_VOCAB_LIMIT } from "@/lib/vocab/daily-vocab";
+import { getCurrentUserId } from "@/lib/storage/user-storage";
 import { addUnknownWord } from "@/lib/vocab/unknown-words-store";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
@@ -35,7 +36,17 @@ const vocabData = vocabRaw as unknown as VocabItem[];
 const BROWSE_SESSION_SIZE = 20;
 
 type Difficulty = "all" | "easy" | "medium" | "hard";
+type DifficultyValue = Exclude<Difficulty, "all">;
+type DifficultySelection = Set<DifficultyValue>;
+const ALL_DIFFICULTIES: readonly DifficultyValue[] = ["easy", "medium", "hard"] as const;
 type StatusFilter = "due" | "starred" | "weak" | "new" | "mastered" | "missed" | null;
+
+function isAllDifficulties(sel: DifficultySelection): boolean {
+  // Empty set OR full set both mean "no narrowing" — easier UX than forcing
+  // the user to always have at least one chip lit.
+  if (sel.size === 0) return true;
+  return ALL_DIFFICULTIES.every((d) => sel.has(d));
+}
 const CARD_TYPE_OPTIONS: CardType[] = ["all", "nouns", "verbs", "adjectives", "expressions", "connectors", "phrasalVerbs", "unclassified"];
 
 // Returns the shared stem (first N cleaned chars) of a word for similarity check
@@ -79,13 +90,14 @@ function shuffleInPlace<T>(arr: T[]): T[] {
  * so the first 20 were "abandon, abbreviate, ability, …". Now we keep the
  * pool order natural and let callers decide whether to shuffle.
  */
-function getFilteredPool(difficulty: Difficulty, status: StatusFilter, cardType: CardType): VocabItem[] {
+function getFilteredPool(difficulties: DifficultySelection, status: StatusFilter, cardType: CardType): VocabItem[] {
   const states = loadVocabStates();
   const allItems = withCustomItems(vocabData);
 
-  let pool = difficulty === "all"
+  // Multi-select difficulty — empty or full selection means "all".
+  let pool = isAllDifficulties(difficulties)
     ? [...allItems]
-    : allItems.filter((v) => v.difficulty === difficulty);
+    : allItems.filter((v) => difficulties.has(v.difficulty as DifficultyValue));
 
   pool = filterByCardType(pool, cardType);
 
@@ -106,20 +118,23 @@ function getFilteredPool(difficulty: Difficulty, status: StatusFilter, cardType:
   return pool;
 }
 
-function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardType): VocabItem[] {
-  // Default daily flow: no status / cardType / difficulty filter → return the
-  // canonical 10-card daily pool, ordered by due-first then study priority
-  // (the per-day seeded shuffle in daily-vocab.ts handles diversity).
+function buildPool(difficulties: DifficultySelection, status: StatusFilter, cardType: CardType): VocabItem[] {
+  // Default daily flow: no status / cardType / difficulty filter → return
+  // the canonical 10-card daily pool. `getDailyVocabPool` now applies a
+  // per-user/per-day seeded shuffle to the topup portion, so cold-start
+  // users no longer see an alphabetical "a*" run, and returning users
+  // with actually-due items still get their normal SRS order first.
   const isDefaultDaily =
-    status === null && cardType === "all" && difficulty === "all";
+    status === null && cardType === "all" && isAllDifficulties(difficulties);
   if (isDefaultDaily) {
     const allItems = withCustomItems(vocabData);
-    return spreadSimilarWords(getDailyVocabPool(allItems));
+    const userId = getCurrentUserId() ?? "anon";
+    return spreadSimilarWords(getDailyVocabPool(allItems, userId));
   }
 
   // Browse mode: any non-default filter combo. Randomize the FULL filtered
   // set before slicing so the result isn't alphabetically biased.
-  const pool = getFilteredPool(difficulty, status, cardType);
+  const pool = getFilteredPool(difficulties, status, cardType);
   shuffleInPlace(pool);
   return spreadSimilarWords(pool.slice(0, BROWSE_SESSION_SIZE));
 }
@@ -132,10 +147,10 @@ function buildPool(difficulty: Difficulty, status: StatusFilter, cardType: CardT
  * non-default filters, returns the same truly-shuffled BROWSE_SESSION_SIZE
  * window as buildPool would.
  */
-function buildShuffledPool(difficulty: Difficulty, status: StatusFilter, cardType: CardType): VocabItem[] {
-  const allEligible = getFilteredPool(difficulty, status, cardType);
+function buildShuffledPool(difficulties: DifficultySelection, status: StatusFilter, cardType: CardType): VocabItem[] {
+  const allEligible = getFilteredPool(difficulties, status, cardType);
   if (allEligible.length === 0) return [];
-  const size = (status === null && cardType === "all" && difficulty === "all")
+  const size = (status === null && cardType === "all" && isAllDifficulties(difficulties))
     ? DAILY_VOCAB_LIMIT
     : BROWSE_SESSION_SIZE;
   // True Fisher–Yates over the ENTIRE filtered set, then take the window.
@@ -177,7 +192,8 @@ function statusLabel(value: StatusFilter, t: Translations): string {
 
 export default function VocabSwipeTrainer() {
   const { t } = useLang();
-  const [difficulty, setDifficulty] = useState<Difficulty>("all");
+  // Difficulty is multi-select. Empty or full set = "all" (no narrowing).
+  const [difficulties, setDifficulties] = useState<DifficultySelection>(() => new Set(ALL_DIFFICULTIES));
   const [status, setStatus] = useState<StatusFilter>(null);
   const [cardType, setCardType] = useState<CardType>("all");
   const [sessionItems, setSessionItems] = useState<VocabItem[]>([]);
@@ -228,8 +244,8 @@ export default function VocabSwipeTrainer() {
   const startSession = useCallback((overrideStatus?: StatusFilter) => {
     const s = overrideStatus !== undefined ? overrideStatus : status;
     setRetrySource(null);
-    resetSessionState(buildPool(difficulty, s, cardType));
-  }, [difficulty, status, cardType]);
+    resetSessionState(buildPool(difficulties, s, cardType));
+  }, [difficulties, status, cardType]);
 
   /**
    * Re-run a focused round using ONLY the words the user missed in the
@@ -260,8 +276,8 @@ export default function VocabSwipeTrainer() {
    */
   const handleShuffle = useCallback(() => {
     setRetrySource(null);
-    resetSessionState(buildShuffledPool(difficulty, status, cardType));
-  }, [difficulty, status, cardType]);
+    resetSessionState(buildShuffledPool(difficulties, status, cardType));
+  }, [difficulties, status, cardType]);
 
   useLayoutEffect(() => {
     startSession();
@@ -361,7 +377,7 @@ export default function VocabSwipeTrainer() {
 
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-        <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} t={t} />
+        <FilterBar difficulties={difficulties} status={status} cardType={cardType} onDifficulties={setDifficulties} onStatus={setStatus} onCardType={setCardType} t={t} />
 
         <div className="animate-fade-up" style={{ display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
           {sessionItems.length === 0 ? (
@@ -457,7 +473,7 @@ export default function VocabSwipeTrainer() {
   if (!currentItem || !currentState) {
     return (
       <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-        <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} t={t} />
+        <FilterBar difficulties={difficulties} status={status} cardType={cardType} onDifficulties={setDifficulties} onStatus={setStatus} onCardType={setCardType} t={t} />
         <div style={{ textAlign: "center", padding: "48px", color: "var(--ink-muted)" }}>{t.vocab.loading}</div>
       </div>
     );
@@ -465,7 +481,7 @@ export default function VocabSwipeTrainer() {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-      <FilterBar difficulty={difficulty} status={status} cardType={cardType} onDifficulty={setDifficulty} onStatus={setStatus} onCardType={setCardType} t={t} />
+      <FilterBar difficulties={difficulties} status={status} cardType={cardType} onDifficulties={setDifficulties} onStatus={setStatus} onCardType={setCardType} t={t} />
 
       {retrySource !== null && (
         <div
@@ -529,12 +545,12 @@ export default function VocabSwipeTrainer() {
 }
 
 function FilterBar({
-  difficulty, status, cardType, onDifficulty, onStatus, onCardType, t,
+  difficulties, status, cardType, onDifficulties, onStatus, onCardType, t,
 }: {
-  difficulty: Difficulty;
+  difficulties: DifficultySelection;
   status: StatusFilter;
   cardType: CardType;
-  onDifficulty: (d: Difficulty) => void;
+  onDifficulties: (d: DifficultySelection) => void;
   onStatus: (s: StatusFilter) => void;
   onCardType: (t: CardType) => void;
   t: Translations;
@@ -544,23 +560,61 @@ function FilterBar({
   const diffColors: Record<Difficulty, string> = {
     all: "var(--teal)", easy: "var(--success)", medium: "var(--warn)", hard: "var(--danger)",
   };
+  const allActive = isAllDifficulties(difficulties);
+
+  function toggleDifficulty(value: Difficulty) {
+    if (value === "all") {
+      // "All" chip is a reset shortcut — clear any narrowing.
+      onDifficulties(new Set(ALL_DIFFICULTIES));
+      return;
+    }
+    const v = value as DifficultyValue;
+    const next = new Set<DifficultyValue>(difficulties);
+    // If currently "all" (full set), starting a narrowing turns this into
+    // a single-pick rather than a "remove one" — that's the natural UX
+    // for the first click after the default state.
+    if (allActive) {
+      next.clear();
+      next.add(v);
+    } else if (next.has(v)) {
+      next.delete(v);
+    } else {
+      next.add(v);
+    }
+    onDifficulties(next);
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "6px" }}>
+      <div
+        role="group"
+        aria-label={t.vocab.diffAll}
+        style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "6px" }}
+      >
         {DIFFICULTY_VALUES.map(({ value }) => {
-          const active = difficulty === value;
+          // "all" chip lights up when the selection is empty OR contains
+          // every difficulty — i.e. when nothing is narrowed.
+          const active = value === "all"
+            ? allActive
+            : !allActive && difficulties.has(value as DifficultyValue);
           const color = diffColors[value];
           return (
-            <button key={value} onClick={() => onDifficulty(value)} style={{
-              padding: "0.45rem 0.25rem", borderRadius: "10px",
-              fontSize: "0.75rem", fontWeight: 700, cursor: "pointer",
-              border: "1.5px solid", borderColor: active ? color : "var(--line)",
-              background: active ? color + "22" : "transparent",
-              color: active ? color : "var(--ink-muted)",
-              transition: "all 0.15s", fontFamily: "var(--font-body)",
-              whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
-            }}>
+            <button
+              key={value}
+              type="button"
+              aria-pressed={active}
+              onClick={() => toggleDifficulty(value)}
+              style={{
+                padding: "0.45rem 0.25rem", borderRadius: "10px",
+                fontSize: "0.75rem", fontWeight: 700, cursor: "pointer",
+                border: "1.5px solid", borderColor: active ? color : "var(--line)",
+                background: active ? color + "22" : "transparent",
+                color: active ? color : "var(--ink-muted)",
+                transition: "all 0.15s", fontFamily: "var(--font-body)",
+                whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
+                minHeight: 36,
+              }}
+            >
               {difficultyLabel(value, t)}
             </button>
           );
