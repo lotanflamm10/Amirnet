@@ -3,6 +3,7 @@ export type UnknownWordSource =
   | "vocab"
   | "practice"
   | "academicPhrase"
+  | "chat"
   | "manual";
 
 export type UnknownWordStatus = "unknown" | "known";

@@ -42,6 +42,8 @@ import {
   Languages,
   HelpCircle,
   Library,
+  MessagesSquare,
+  ChevronDown,
   type LucideProps,
 } from "lucide-react";
 import type { ComponentType } from "react";
@@ -66,7 +68,7 @@ export const NAV_ICONS: Record<string, LucideIcon> = {
 
 // ─── Theme icons ──────────────────────────────────────────────────────────────
 export const ThemeIcon = { dark: Moon, light: Sun, system: Monitor };
-export { Sun, Moon, Monitor, Globe, Flame, Target, BarChart2, CheckCircle2, Award, Activity, TrendingUp, CircleDot, Settings, Languages, Lightbulb, HelpCircle, BookOpen, Library };
+export { Sun, Moon, Monitor, Globe, Flame, Target, BarChart2, CheckCircle2, Award, Activity, TrendingUp, CircleDot, Settings, Languages, Lightbulb, HelpCircle, BookOpen, Library, MessagesSquare, ChevronDown };
 
 // ─── Plan item icons (keyed by DailyPlanItem.icon string) ────────────────────
 const PLAN_ICON_MAP: Record<string, LucideIcon> = {

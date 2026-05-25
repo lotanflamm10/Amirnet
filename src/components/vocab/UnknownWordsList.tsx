@@ -20,6 +20,7 @@ function sourceLabel(source: UnknownWordSource, t: Translations): string {
     case "vocab":          return t.unknownWords.sourceVocab;
     case "practice":       return t.unknownWords.sourcePractice;
     case "academicPhrase": return t.unknownWords.sourceAcademicPhrase;
+    case "chat":           return t.unknownWords.sourceChat;
     case "manual":         return t.unknownWords.sourceManual;
   }
 }

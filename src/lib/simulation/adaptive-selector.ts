@@ -7,6 +7,7 @@ import {
   recordReadingPassageSeen,
 } from "@/lib/reading/reading-passages";
 import { filterRestatementsForSimulation } from "@/lib/restatement/restatement-validator";
+import { composeAmirnetScSection } from "./sc-amirnet-composer";
 
 type RawQFile = Record<string, Question[]>;
 
@@ -50,6 +51,21 @@ export function selectAdaptiveQuestions(
     if (excludeHashes.has(hashSentence(q.text))) return false;
     return true;
   });
+
+  // Sentence Completion in a simulation goes through a fixed AMIRNET
+  // composition (1 hard + N medium + M easy, no accuracy adaptivity)
+  // with a preference for stems that name a real historical subject.
+  // This branch is SC-and-simulation-only — practice mode lives in
+  // src/lib/practice/question-selector.ts and is untouched.
+  if (section.type === "sentenceCompletion") {
+    const composed = composeAmirnetScSection(
+      questionsData[key] ?? [],
+      section.questionCount,
+      excludeIds,
+      excludeHashes,
+    );
+    return composed.selected;
+  }
 
   // Restatement sections in a simulation must use only items whose stem
   // length and option parity match real Amirnet medium difficulty. Fall

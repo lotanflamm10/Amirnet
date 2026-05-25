@@ -1,0 +1,1004 @@
+{
+  "sentenceCompletion": [
+    {
+      "id": "sc21",
+      "difficulty": "easy",
+      "text": "The teacher gave clear instructions so that students would not feel _____ about the assignment requirements.",
+      "choices": ["excited", "confused", "prepared", "satisfied"],
+      "answer": 1,
+      "explanation": "Clear instructions are given specifically to prevent confusion about what is expected.",
+      "wrongReasons": ["Excited is a positive emotion not related to unclear instructions.", "Prepared means ready, which is the opposite of the problem being solved.", "Satisfied means content, which does not follow from unclear requirements."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc22",
+      "difficulty": "easy",
+      "text": "The hospital introduced a new schedule to _____ waiting times in the emergency department.",
+      "choices": ["extend", "ignore", "reduce", "celebrate"],
+      "answer": 2,
+      "explanation": "Reducing waiting times is a standard goal of scheduling improvements in healthcare.",
+      "wrongReasons": ["Extend means to make longer, which is the opposite of an improvement.", "Ignore means to disregard, not to act on waiting times.", "Celebrate means to mark an occasion and has no relevance to scheduling."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc23",
+      "difficulty": "easy",
+      "text": "Because the instructions were written in simple language, even beginners found the software easy to _____.",
+      "choices": ["manufacture", "translate", "demolish", "navigate"],
+      "answer": 3,
+      "explanation": "Simple instructions help users navigate software with ease.",
+      "wrongReasons": ["Manufacture means to produce physically, not to use software.", "Translate refers to language conversion, not software use.", "Demolish means to destroy, which is unrelated to using software."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc24",
+      "difficulty": "easy",
+      "text": "The documentary provided _____ evidence that the ancient city had been destroyed by an earthquake.",
+      "choices": ["compelling", "trivial", "imaginary", "optional"],
+      "answer": 0,
+      "explanation": "Compelling evidence is persuasive and convincing, fitting a documentary that supports a historical claim.",
+      "wrongReasons": ["Trivial means unimportant, which would not support the conclusion.", "Imaginary means not real, which contradicts the nature of evidence.", "Optional means not required, which does not describe the quality of evidence."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc25",
+      "difficulty": "easy",
+      "text": "The researcher kept detailed notes during the experiment in order to _____ her findings accurately.",
+      "choices": ["discard", "document", "exaggerate", "postpone"],
+      "answer": 1,
+      "explanation": "Detailed notes are kept specifically to document findings with accuracy.",
+      "wrongReasons": ["Discard means to throw away, which contradicts careful note-taking.", "Exaggerate means to overstate, which conflicts with accuracy.", "Postpone means to delay, not to record information."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc26",
+      "difficulty": "easy",
+      "text": "The board agreed to _____ the budget proposal before a final vote could take place.",
+      "choices": ["publish", "dismiss", "review", "decorate"],
+      "answer": 2,
+      "explanation": "Reviewing a proposal is the standard step before a formal vote is held.",
+      "wrongReasons": ["Publish implies releasing to the public, not an internal approval step.", "Dismiss means to reject outright, which would eliminate the need for a vote.", "Decorate is irrelevant to a financial or governance process."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc27",
+      "difficulty": "easy",
+      "text": "The professor asked students to support their arguments with _____ from the assigned readings.",
+      "choices": ["decoration", "rumors", "obstacles", "evidence"],
+      "answer": 3,
+      "explanation": "Academic arguments are strengthened by evidence drawn from sources.",
+      "wrongReasons": ["Decoration refers to visual embellishment and does not apply to arguments.", "Rumors are unverified claims and are not acceptable academic support.", "Obstacles are barriers, not supportive material for arguments."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc28",
+      "difficulty": "easy",
+      "text": "The economy began to _____ after several years of recession, with employment rates rising steadily.",
+      "choices": ["recover", "collapse", "stagnate", "shrink"],
+      "answer": 0,
+      "explanation": "Rising employment is a sign of economic recovery following a recession.",
+      "wrongReasons": ["Collapse means to fail completely, contradicting the rising employment mentioned.", "Stagnate means no change, which contradicts the steady rise described.", "Shrink means to decrease, which is inconsistent with rising employment."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc29",
+      "difficulty": "easy",
+      "text": "Children who read regularly tend to develop a larger _____ than those who do not.",
+      "choices": ["appetite", "vocabulary", "schedule", "wardrobe"],
+      "answer": 1,
+      "explanation": "Reading regularly exposes children to more words, expanding their vocabulary.",
+      "wrongReasons": ["Appetite refers to desire for food and is unrelated to reading.", "Schedule is a plan for activities and not built through reading.", "Wardrobe refers to clothing and has no connection to reading habits."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc30",
+      "difficulty": "easy",
+      "text": "The government launched a public campaign to _____ citizens about the dangers of air pollution.",
+      "choices": ["confuse", "entertain", "educate", "silence"],
+      "answer": 2,
+      "explanation": "Public campaigns are designed to educate citizens about health and environmental risks.",
+      "wrongReasons": ["Confuse means to make unclear, which is the opposite of a campaign's goal.", "Entertain does not align with the serious topic of air pollution.", "Silence means to stop people from speaking, which contradicts a public outreach campaign."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc31",
+      "difficulty": "easy",
+      "text": "Despite the storm, the rescue team managed to _____ all passengers safely from the damaged vessel.",
+      "choices": ["abandon", "delay", "monitor", "evacuate"],
+      "answer": 3,
+      "explanation": "Evacuating passengers means moving them to safety, which is the goal of a rescue operation.",
+      "wrongReasons": ["Abandon means to leave behind, the opposite of a rescue.", "Delay means to postpone action, not to complete a rescue.", "Monitor means to observe, not to physically move people to safety."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc32",
+      "difficulty": "easy",
+      "text": "The architect's design was praised for being both _____ and cost-effective, satisfying the client's needs.",
+      "choices": ["functional", "ornate", "obsolete", "hazardous"],
+      "answer": 0,
+      "explanation": "A functional design serves its practical purpose while remaining cost-effective.",
+      "wrongReasons": ["Ornate means overly decorative, which conflicts with cost-effectiveness.", "Obsolete means outdated and would not satisfy a client's current needs.", "Hazardous means dangerous, which contradicts client satisfaction."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc33",
+      "difficulty": "easy",
+      "text": "The new medication was found to be _____ in treating the infection, with most patients recovering within a week.",
+      "choices": ["toxic", "effective", "irrelevant", "optional"],
+      "answer": 1,
+      "explanation": "An effective medication produces the desired result, consistent with most patients recovering.",
+      "wrongReasons": ["Toxic means harmful, which contradicts recovery.", "Irrelevant means unrelated, implying the medication had no effect.", "Optional implies it is not necessary, which conflicts with it being a treatment."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc34",
+      "difficulty": "easy",
+      "text": "Students who set clear goals tend to _____ better academically than those who study without direction.",
+      "choices": ["decline", "hesitate", "perform", "disagree"],
+      "answer": 2,
+      "explanation": "Goal-setting is associated with stronger academic performance.",
+      "wrongReasons": ["Decline means to worsen, which contradicts the benefit of setting clear goals.", "Hesitate means to pause or be uncertain, not to achieve better results.", "Disagree describes a social interaction, not academic outcomes."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc35",
+      "difficulty": "easy",
+      "text": "The journalist was careful to _____ information from multiple sources before publishing the article.",
+      "choices": ["fabricate", "withhold", "simplify", "verify"],
+      "answer": 3,
+      "explanation": "Verifying information from multiple sources is standard journalistic practice for accuracy.",
+      "wrongReasons": ["Fabricate means to invent, which is unethical and contradicts careful journalism.", "Withhold means to keep back, not to confirm information.", "Simplify refers to making information easier, not to checking its accuracy."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc36",
+      "difficulty": "easy",
+      "text": "The patient was asked to _____ eating or drinking anything for twelve hours before the surgical procedure.",
+      "choices": ["avoid", "continue", "schedule", "increase"],
+      "answer": 0,
+      "explanation": "Patients are typically instructed to avoid food and drink before surgery for medical safety.",
+      "wrongReasons": ["Continue means to keep doing, which is the opposite of the instruction.", "Schedule means to plan for a time, not to abstain from an activity.", "Increase means to do more, which contradicts the medical requirement."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc37",
+      "difficulty": "easy",
+      "text": "The museum exhibit offered visitors a _____ look at life in ancient Rome through artifacts and reconstructions.",
+      "choices": ["vague", "vivid", "distant", "theoretical"],
+      "answer": 1,
+      "explanation": "Artifacts and reconstructions provide a vivid, lifelike portrayal of the past.",
+      "wrongReasons": ["Vague means unclear, which contradicts the detailed nature of artifacts and reconstructions.", "Distant implies no direct connection, which is inconsistent with immersive exhibits.", "Theoretical means based on ideas rather than evidence, which contradicts physical artifacts."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc38",
+      "difficulty": "easy",
+      "text": "The company decided to _____ its resources on its most profitable product line.",
+      "choices": ["scatter", "restrict", "concentrate", "disguise"],
+      "answer": 2,
+      "explanation": "Concentrating resources on the most profitable line is a sound business strategy.",
+      "wrongReasons": ["Scatter means to spread out, which is the opposite of focusing resources.", "Restrict means to limit access, not to direct resources toward a goal.", "Disguise means to conceal, which is unrelated to resource allocation."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc39",
+      "difficulty": "easy",
+      "text": "The new law was intended to _____ the rights of workers, particularly in low-wage industries.",
+      "choices": ["eliminate", "overlook", "complicate", "protect"],
+      "answer": 3,
+      "explanation": "Labor laws are designed to protect workers' rights, especially in vulnerable sectors.",
+      "wrongReasons": ["Eliminate means to remove, which contradicts the purpose of a rights-based law.", "Overlook means to ignore, not to safeguard.", "Complicate means to make more difficult, which is not the intent of protective legislation."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc40",
+      "difficulty": "easy",
+      "text": "The author's writing style was _____, making complex philosophical ideas accessible to general readers.",
+      "choices": ["lucid", "obscure", "verbose", "pedantic"],
+      "answer": 0,
+      "explanation": "Lucid writing is clear and easy to understand, which explains why general readers found it accessible.",
+      "wrongReasons": ["Obscure means difficult to understand, which would hinder accessibility.", "Verbose means using too many words, which often reduces clarity.", "Pedantic means overly academic, which would alienate general readers."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc41",
+      "difficulty": "easy",
+      "text": "The government allocated additional funds to _____ the aging infrastructure of the national railway system.",
+      "choices": ["demolish", "modernize", "restrict", "privatize"],
+      "answer": 1,
+      "explanation": "Allocating funds to aging infrastructure typically aims to modernize and update it.",
+      "wrongReasons": ["Demolish means to destroy, which would not justify additional public funding.", "Restrict means to limit use, not to improve infrastructure.", "Privatize means to transfer to private ownership, which does not follow directly from fund allocation."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc42",
+      "difficulty": "easy",
+      "text": "The study found a strong _____ between physical exercise and improved mental health outcomes.",
+      "choices": ["contradiction", "barrier", "correlation", "disruption"],
+      "answer": 2,
+      "explanation": "A correlation is a statistical relationship between two variables, fitting findings in health research.",
+      "wrongReasons": ["Contradiction means opposition, which implies the variables work against each other.", "Barrier is an obstacle, not a statistical relationship.", "Disruption means interference, not a positive association between variables."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc43",
+      "difficulty": "easy",
+      "text": "The policy was designed to _____ innovation by offering tax incentives to technology startups.",
+      "choices": ["discourage", "suppress", "regulate", "encourage"],
+      "answer": 3,
+      "explanation": "Tax incentives are a standard mechanism to encourage innovation and entrepreneurship.",
+      "wrongReasons": ["Discourage means to reduce motivation, which contradicts incentive-based policy.", "Suppress means to prevent, which is the opposite of fostering innovation.", "Regulate means to control, which does not necessarily promote new ideas."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc44",
+      "difficulty": "easy",
+      "text": "The organization issued a formal _____ to all employees outlining the new workplace safety procedures.",
+      "choices": ["directive", "complaint", "invitation", "rumor"],
+      "answer": 0,
+      "explanation": "A directive is an official instruction issued to guide behavior, fitting a formal workplace announcement.",
+      "wrongReasons": ["Complaint expresses dissatisfaction, not instructions.", "Invitation offers participation in an event, not procedural guidance.", "Rumor is unverified information, not a formal organizational communication."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc45",
+      "difficulty": "easy",
+      "text": "The festival attracted thousands of visitors and made a significant _____ to the local economy.",
+      "choices": ["threat", "contribution", "obstacle", "distraction"],
+      "answer": 1,
+      "explanation": "A large festival generates spending and tourism, contributing positively to the local economy.",
+      "wrongReasons": ["Threat implies danger, which contradicts the economic benefit of a popular event.", "Obstacle is a barrier, not a financial gain.", "Distraction implies a negative diversion, not an economic benefit."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc46",
+      "difficulty": "medium",
+      "text": "The historian argued that the revolution was not _____ but was the result of decades of social and economic tension.",
+      "choices": ["inevitable", "violent", "spontaneous", "widespread"],
+      "answer": 2,
+      "explanation": "Calling it not spontaneous emphasizes that it had long-term causes rather than arising suddenly.",
+      "wrongReasons": ["Inevitable means certain to happen; denying this would mean it might not have occurred, but the sentence attributes it to existing causes.", "Violent describes the nature of the revolution, not its origin.", "Widespread describes geographic scope, not the cause of the revolution."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc47",
+      "difficulty": "medium",
+      "text": "Although the initial prototype was promising, the engineers acknowledged that several _____ issues remained before mass production could begin.",
+      "choices": ["aesthetic", "historical", "linguistic", "technical"],
+      "answer": 3,
+      "explanation": "Prototypes typically face unresolved technical problems before they are ready for mass production.",
+      "wrongReasons": ["Aesthetic means related to appearance, which is not typically a barrier to production.", "Historical refers to past events, which are irrelevant to prototype development.", "Linguistic refers to language, which has no bearing on engineering prototypes."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc48",
+      "difficulty": "medium",
+      "text": "The panel was unable to reach a _____ conclusion because the members held fundamentally different views on the matter.",
+      "choices": ["unanimous", "preliminary", "biased", "marginal"],
+      "answer": 0,
+      "explanation": "A unanimous conclusion requires all members to agree, which is impossible if views are fundamentally different.",
+      "wrongReasons": ["Preliminary means early or initial, not requiring full agreement.", "Biased means one-sided, which could occur even with divided opinion.", "Marginal means minor or borderline, not related to agreement among members."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc49",
+      "difficulty": "medium",
+      "text": "The CEO was praised for her ability to _____ competing priorities and deliver results under pressure.",
+      "choices": ["ignore", "balance", "escalate", "fragment"],
+      "answer": 1,
+      "explanation": "Balancing competing priorities is a key leadership skill associated with effective management.",
+      "wrongReasons": ["Ignore means to disregard priorities, which would not lead to results.", "Escalate means to intensify, which would worsen conflicts rather than resolve them.", "Fragment means to break apart, which would undermine coordination."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc50",
+      "difficulty": "medium",
+      "text": "The student's essay lacked _____ because its arguments were scattered across multiple unrelated themes.",
+      "choices": ["length", "formality", "coherence", "originality"],
+      "answer": 2,
+      "explanation": "Coherence refers to logical connectedness; an essay with scattered, unrelated arguments lacks it.",
+      "wrongReasons": ["Length refers to word count, not the logical organization of ideas.", "Formality refers to tone and register, not the structure of arguments.", "Originality refers to novelty of ideas, not their logical connection."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc51",
+      "difficulty": "medium",
+      "text": "The pharmaceutical company had to _____ its drug application after new safety concerns were identified in clinical trials.",
+      "choices": ["accelerate", "publicize", "submit", "withdraw"],
+      "answer": 3,
+      "explanation": "Safety concerns discovered during trials typically require a company to withdraw its application.",
+      "wrongReasons": ["Accelerate means to speed up, which would be inappropriate given new safety risks.", "Publicize means to make widely known, which would not address a safety concern.", "Submit means to file an application, which is the action being undone."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc52",
+      "difficulty": "medium",
+      "text": "The sociologist noted that social media use had become _____ among teenagers, with most spending several hours online daily.",
+      "choices": ["pervasive", "negligible", "intermittent", "voluntary"],
+      "answer": 0,
+      "explanation": "Pervasive means widespread and present everywhere, fitting the description of daily multi-hour use.",
+      "wrongReasons": ["Negligible means too small to be significant, contradicting daily multi-hour use.", "Intermittent means occasional, which is inconsistent with daily sustained use.", "Voluntary means by choice, which does not describe the extent or frequency of the behavior."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc53",
+      "difficulty": "medium",
+      "text": "Critics argued that the reform was _____, addressing surface-level issues while leaving the core problems untouched.",
+      "choices": ["radical", "superficial", "transparent", "equitable"],
+      "answer": 1,
+      "explanation": "Superficial means dealing only with appearances rather than underlying causes, matching the criticism.",
+      "wrongReasons": ["Radical means fundamental and far-reaching, the opposite of surface-level change.", "Transparent means open and clear, which does not describe the depth of a reform.", "Equitable means fair, which describes distribution rather than depth of change."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc54",
+      "difficulty": "medium",
+      "text": "The documentary filmmaker sought to _____ the daily lives of factory workers who rarely receive public attention.",
+      "choices": ["discredit", "commercialize", "chronicle", "dramatize"],
+      "answer": 2,
+      "explanation": "To chronicle means to record and document events over time, which is the core purpose of documentary filmmaking.",
+      "wrongReasons": ["Discredit means to damage reputation, not to document lives.", "Commercialize means to make profitable, which is not the stated purpose.", "Dramatize means to present with exaggeration, which differs from documentary recording."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc55",
+      "difficulty": "medium",
+      "text": "The government's attempt to _____ the curriculum received backlash from educators who valued regional diversity.",
+      "choices": ["enrich", "privatize", "translate", "standardize"],
+      "answer": 3,
+      "explanation": "Standardizing a curriculum imposes uniform content, which would conflict with regional diversity.",
+      "wrongReasons": ["Enrich means to improve quality, which educators would typically welcome.", "Privatize means to transfer to private control, not to impose uniform content.", "Translate refers to language conversion, which is unrelated to regional diversity in education."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc56",
+      "difficulty": "medium",
+      "text": "The psychologist explained that repeated failure can _____ a person's confidence, making future attempts less likely.",
+      "choices": ["erode", "reinforce", "sharpen", "stabilize"],
+      "answer": 0,
+      "explanation": "Erode means to gradually wear away; repeated failure gradually diminishes confidence.",
+      "wrongReasons": ["Reinforce means to strengthen, which would make future attempts more likely, not less.", "Sharpen means to improve precision, which is positive and inconsistent with reduced confidence.", "Stabilize means to make steady, which would not lead to avoidance of future attempts."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc57",
+      "difficulty": "medium",
+      "text": "The environmental study concluded that deforestation had _____ the natural habitat of several endangered species.",
+      "choices": ["restored", "degraded", "expanded", "preserved"],
+      "answer": 1,
+      "explanation": "Deforestation degrades habitat by removing the trees and ecosystems that species depend on.",
+      "wrongReasons": ["Restored means to return to a former condition, which is the opposite of deforestation's effect.", "Expanded means to make larger, which contradicts the destructive nature of deforestation.", "Preserved means to maintain in its original state, which is the opposite of what deforestation does."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc58",
+      "difficulty": "medium",
+      "text": "The treaty was considered a landmark achievement because it was the first to _____ binding emission targets on all signatory nations.",
+      "choices": ["suggest", "waive", "impose", "oppose"],
+      "answer": 2,
+      "explanation": "Imposing binding targets means making them legally required, which is what makes the treaty significant.",
+      "wrongReasons": ["Suggest means to recommend, which would not be binding.", "Waive means to give up a requirement, the opposite of imposing one.", "Oppose means to act against, which contradicts a nation signing the treaty."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc59",
+      "difficulty": "medium",
+      "text": "Despite the promising results, the researchers cautioned against drawing _____ conclusions before the study could be replicated.",
+      "choices": ["preliminary", "quantitative", "ethical", "definitive"],
+      "answer": 3,
+      "explanation": "Definitive conclusions are final and certain; researchers caution against them until replication confirms the results.",
+      "wrongReasons": ["Preliminary means early and tentative, which are typically acceptable at this stage.", "Quantitative refers to numerical measurement, which is a method rather than a level of certainty.", "Ethical refers to moral principles, not to the certainty of conclusions."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc60",
+      "difficulty": "medium",
+      "text": "The patient's gradual recovery was attributed to the _____ care provided by the rehabilitation team.",
+      "choices": ["consistent", "sporadic", "minimal", "experimental"],
+      "answer": 0,
+      "explanation": "Consistent care means reliable and uninterrupted treatment, which supports gradual recovery.",
+      "wrongReasons": ["Sporadic means irregular and infrequent, which would not support a steady recovery.", "Minimal means very little, which would be insufficient to explain a positive outcome.", "Experimental means untested, which does not specifically explain the gradual recovery described."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc61",
+      "difficulty": "medium",
+      "text": "The artist chose to _____ from the traditional format, experimenting with unconventional materials and techniques.",
+      "choices": ["benefit", "deviate", "withdraw", "conform"],
+      "answer": 1,
+      "explanation": "Deviating from tradition means moving away from established norms, consistent with experimentation.",
+      "wrongReasons": ["Benefit means to gain something, not to change direction artistically.", "Withdraw means to retreat entirely, not to experiment within the field.", "Conform means to follow norms, the opposite of experimenting with unconventional approaches."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc62",
+      "difficulty": "medium",
+      "text": "The new transport system was designed to _____ the environmental impact of urban commuting.",
+      "choices": ["amplify", "delay", "minimize", "obscure"],
+      "answer": 2,
+      "explanation": "Designing a transport system to minimize environmental impact reflects sustainability goals.",
+      "wrongReasons": ["Amplify means to increase, which would worsen the environmental problem.", "Delay means to postpone, not to reduce environmental effects.", "Obscure means to hide, not to genuinely address the impact."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc63",
+      "difficulty": "medium",
+      "text": "The philosopher maintained that moral judgments should not be _____ to personal preferences but should appeal to universal principles.",
+      "choices": ["elevated", "transferred", "applied", "reduced"],
+      "answer": 3,
+      "explanation": "Reducing moral judgments to personal preferences would undermine objective ethics, which the philosopher opposed.",
+      "wrongReasons": ["Elevated means to raise in status, which does not describe subjective relativism.", "Transferred means moved from one place to another, not connected to the argument.", "Applied means put into practice, which is not the concern being raised."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc64",
+      "difficulty": "medium",
+      "text": "The merger was expected to _____ the combined company's competitive position in the global market.",
+      "choices": ["strengthen", "weaken", "obscure", "fragment"],
+      "answer": 0,
+      "explanation": "Mergers are typically pursued to strengthen the combined entity's market position.",
+      "wrongReasons": ["Weaken means to reduce strength, which is the opposite of a merger's intended purpose.", "Obscure means to make less clear, which does not describe a company's market position.", "Fragment means to break into pieces, which contradicts the act of combining companies."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc65",
+      "difficulty": "medium",
+      "text": "Many economists believe that excessive government _____ in private markets can stifle innovation and efficiency.",
+      "choices": ["investment", "transparency", "intervention", "oversight"],
+      "answer": 2,
+      "explanation": "Intervention refers to government interference in markets, which critics argue can hinder efficiency.",
+      "wrongReasons": ["Investment means providing capital, which typically stimulates rather than stifles markets.", "Transparency means openness, which generally benefits rather than harms markets.", "Oversight means supervision, which is related but less specific than direct intervention in market mechanisms."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc66",
+      "difficulty": "medium",
+      "text": "The curriculum was revised to place greater _____ on critical thinking rather than rote memorization.",
+      "choices": ["restriction", "dependence", "tolerance", "emphasis"],
+      "answer": 3,
+      "explanation": "Placing emphasis on critical thinking means prioritizing it over memorization in the curriculum.",
+      "wrongReasons": ["Restriction means a limit, not a focus or priority in learning.", "Dependence means relying on something, which does not describe an educational priority.", "Tolerance means acceptance, not a shift in instructional focus."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc67",
+      "difficulty": "medium",
+      "text": "The scientist was reluctant to _____ causation from the data, noting that the study only established a correlation.",
+      "choices": ["infer", "measure", "dispute", "publish"],
+      "answer": 0,
+      "explanation": "Inferring causation from correlational data is a methodological error that careful scientists avoid.",
+      "wrongReasons": ["Measure refers to quantifying variables, not to interpreting relationships between them.", "Dispute means to challenge, not to draw a conclusion from data.", "Publish refers to sharing findings, not to the act of interpreting statistical relationships."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc68",
+      "difficulty": "medium",
+      "text": "The report identified a lack of _____ between the health ministry and local authorities as a key reason for the delayed response.",
+      "choices": ["funding", "coordination", "documentation", "ambition"],
+      "answer": 1,
+      "explanation": "Poor coordination between agencies is a common cause of delayed or ineffective emergency responses.",
+      "wrongReasons": ["Funding is a resource issue, not the specific cause of miscommunication identified.", "Documentation refers to record-keeping, not to working relationships between agencies.", "Ambition refers to motivation or aspiration, not to organizational collaboration."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc69",
+      "difficulty": "medium",
+      "text": "Although the policy was well-intentioned, its _____ in practice proved far more complex than anticipated.",
+      "choices": ["definition", "rejection", "implementation", "promotion"],
+      "answer": 2,
+      "explanation": "Implementation refers to putting a policy into action, which is where practical difficulties commonly arise.",
+      "wrongReasons": ["Definition refers to clarifying meaning, not to execution.", "Rejection means refusing the policy, not experiencing difficulty in enacting it.", "Promotion means publicizing the policy, not the complexity of applying it."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc70",
+      "difficulty": "medium",
+      "text": "The research team sought to _____ the gap in existing literature by conducting the first large-scale study on the topic.",
+      "choices": ["widen", "conceal", "replicate", "address"],
+      "answer": 3,
+      "explanation": "Addressing a gap in the literature means filling it with new research, which is the study's stated aim.",
+      "wrongReasons": ["Widen means to make the gap larger, which is the opposite of the research goal.", "Conceal means to hide, which contradicts the purpose of publishing research.", "Replicate means to repeat an existing study, not to fill a gap where none existed."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc71",
+      "difficulty": "medium",
+      "text": "The museum's new interactive displays were intended to _____ younger visitors and make history more engaging.",
+      "choices": ["captivate", "alienate", "restrict", "overwhelm"],
+      "answer": 0,
+      "explanation": "Captivating visitors means holding their attention and interest, which is the goal of interactive educational displays.",
+      "wrongReasons": ["Alienate means to push away, which is the opposite of engaging visitors.", "Restrict means to limit access, which does not support broader engagement.", "Overwhelm means to overload, which would reduce rather than improve the visitor experience."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc72",
+      "difficulty": "medium",
+      "text": "The economist warned that rapid inflation could _____ the purchasing power of low-income households.",
+      "choices": ["boost", "stabilize", "erode", "redistribute"],
+      "answer": 2,
+      "explanation": "Inflation erodes purchasing power by reducing what a fixed income can buy.",
+      "wrongReasons": ["Boost means to increase, which is the opposite of inflation's effect on purchasing power.", "Stabilize means to keep steady, which contradicts the harmful impact of rapid inflation.", "Redistribute means to reallocate, which describes a policy action rather than an economic effect."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc73",
+      "difficulty": "medium",
+      "text": "The clinical guidelines were updated to _____ the most recent evidence on treatment outcomes.",
+      "choices": ["contradict", "challenge", "simplify", "reflect"],
+      "answer": 3,
+      "explanation": "Updated guidelines reflect the most current evidence available to practitioners.",
+      "wrongReasons": ["Contradict means to go against, which would make the updated guidelines medically problematic.", "Challenge means to question, not to incorporate or align with evidence.", "Simplify means to make easier, which describes a communication goal rather than alignment with evidence."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc74",
+      "difficulty": "medium",
+      "text": "The politician's speech was criticized for being _____, offering no concrete solutions to the problems raised.",
+      "choices": ["rhetorical", "factual", "measured", "technical"],
+      "answer": 0,
+      "explanation": "Rhetorical language is persuasive and emotive rather than substantive, fitting the criticism of lacking concrete solutions.",
+      "wrongReasons": ["Factual means based on facts, which would imply substance rather than emptiness.", "Measured means careful and restrained, a positive quality that would not draw criticism.", "Technical means highly specialized, which describes content complexity rather than the absence of solutions."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc75",
+      "difficulty": "medium",
+      "text": "The company's failure to _____ with environmental regulations resulted in a substantial financial penalty.",
+      "choices": ["interfere", "comply", "compete", "negotiate"],
+      "answer": 1,
+      "explanation": "Failing to comply with regulations means not following the required rules, which leads to penalties.",
+      "wrongReasons": ["Interfere means to obstruct others, not to follow or ignore regulations.", "Compete refers to market rivalry, not to regulatory adherence.", "Negotiate implies a process of reaching agreement, not a failure to follow established rules."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc76",
+      "difficulty": "medium",
+      "text": "The expedition was delayed due to _____ weather conditions, which made navigation across the mountain range dangerous.",
+      "choices": ["moderate", "predictable", "adverse", "seasonal"],
+      "answer": 2,
+      "explanation": "Adverse conditions are harmful or unfavorable, which explains why navigation became dangerous.",
+      "wrongReasons": ["Moderate means mild, which would not create dangerous navigational hazards.", "Predictable conditions might still be dangerous but the sentence implies an unexpected complication.", "Seasonal describes a time-of-year pattern, not the severity that caused a delay."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc77",
+      "difficulty": "medium",
+      "text": "The author's second novel was widely regarded as _____ because it broke new ground in narrative form and subject matter.",
+      "choices": ["derivative", "accessible", "conventional", "innovative"],
+      "answer": 3,
+      "explanation": "Breaking new ground in form and subject matter is the definition of innovation in literature.",
+      "wrongReasons": ["Derivative means copied from earlier work, the opposite of breaking new ground.", "Accessible describes ease of reading, not originality of form.", "Conventional means traditional, which contradicts breaking new ground."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc78",
+      "difficulty": "medium",
+      "text": "The funding body required all grant applicants to provide _____ data demonstrating the need for the proposed intervention.",
+      "choices": ["empirical", "anecdotal", "speculative", "secondary"],
+      "answer": 0,
+      "explanation": "Empirical data is based on observation and evidence, which is the standard requirement for grant justification.",
+      "wrongReasons": ["Anecdotal data is based on personal stories rather than systematic evidence, which is typically insufficient for funding bodies.", "Speculative data is hypothetical, not the evidence-based standard required.", "Secondary data is derived from existing sources, but the specific contrast here is with evidence-based versus unverified claims."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc79",
+      "difficulty": "medium",
+      "text": "The organization sought to _____ its global reach by opening offices in three additional countries.",
+      "choices": ["consolidate", "expand", "reduce", "automate"],
+      "answer": 1,
+      "explanation": "Opening new offices in additional countries is a direct means of expanding an organization's global reach.",
+      "wrongReasons": ["Consolidate means to merge or strengthen existing operations, not to extend into new regions.", "Reduce means to make smaller, which contradicts the plan to open more offices.", "Automate means to use machines for tasks, unrelated to geographic expansion."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc80",
+      "difficulty": "medium",
+      "text": "The debate over the proposed legislation remained _____, with neither side willing to compromise on key issues.",
+      "choices": ["resolved", "irrelevant", "contentious", "preliminary"],
+      "answer": 2,
+      "explanation": "Contentious means causing disagreement and dispute, fitting a debate where neither side will compromise.",
+      "wrongReasons": ["Resolved means settled, which contradicts the ongoing disagreement described.", "Irrelevant means of no importance, which contradicts the active debate over legislation.", "Preliminary means early-stage, which does not capture the stubbornness of the positions described."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc81",
+      "difficulty": "medium",
+      "text": "The literary critic argued that the novel's power lay in its _____ of the protagonist's internal conflict.",
+      "choices": ["omission", "rejection", "simplification", "portrayal"],
+      "answer": 3,
+      "explanation": "Portrayal means representation or depiction, which is central to how a novel conveys a character's internal life.",
+      "wrongReasons": ["Omission means leaving something out, which would reduce rather than create power.", "Rejection means refusal or dismissal, which does not describe a narrative technique.", "Simplification means reducing complexity, which would undermine the depiction of internal conflict."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc82",
+      "difficulty": "medium",
+      "text": "The board meeting was _____ after an urgent issue required the director's immediate attention elsewhere.",
+      "choices": ["adjourned", "extended", "publicized", "convened"],
+      "answer": 0,
+      "explanation": "Adjourning a meeting means suspending it temporarily, which is a natural response to an urgent interruption.",
+      "wrongReasons": ["Extended means made longer, which contradicts the need to stop the meeting.", "Publicized means made known to the public, unrelated to stopping or pausing a meeting.", "Convened means called to order, the opposite of being stopped."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc83",
+      "difficulty": "medium",
+      "text": "The rise in antibiotic resistance is _____ to overuse of antibiotics in both medicine and agriculture.",
+      "choices": ["opposed", "attributed", "limited", "adjusted"],
+      "answer": 1,
+      "explanation": "Attributed means credited as a cause; overuse is widely identified as the primary cause of antibiotic resistance.",
+      "wrongReasons": ["Opposed means contrasted or challenged, which does not describe a causal relationship.", "Limited means restricted, which describes scope rather than cause.", "Adjusted means changed slightly, which does not capture a causal explanation."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc84",
+      "difficulty": "medium",
+      "text": "The survey results were considered _____ because a majority of respondents came from a single demographic group.",
+      "choices": ["reliable", "random", "skewed", "comprehensive"],
+      "answer": 2,
+      "explanation": "Skewed data is distorted by an unrepresentative sample, which is the case when most respondents share a demographic.",
+      "wrongReasons": ["Reliable means consistent and dependable, which would not apply to an unrepresentative sample.", "Random means without pattern or bias, which contradicts overrepresentation of one group.", "Comprehensive means covering all aspects, which is the opposite of the narrow sampling described."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc85",
+      "difficulty": "medium",
+      "text": "The committee recommended that the plan be _____ before a final decision was made, as new information had emerged.",
+      "choices": ["abandoned", "publicized", "accelerated", "revisited"],
+      "answer": 3,
+      "explanation": "Revisiting a plan means reviewing it again in light of new information, which is the appropriate response.",
+      "wrongReasons": ["Abandoned means given up entirely, which is more drastic than reviewing the plan.", "Publicized means made public, which does not address the need to evaluate new information.", "Accelerated means sped up, which would be inappropriate when new concerns have been raised."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc86",
+      "difficulty": "hard",
+      "text": "The committee's decision to _____ the funding application was seen as ideologically motivated rather than based on merit.",
+      "choices": ["reject", "approve", "review", "defer"],
+      "answer": 0,
+      "explanation": "Rejecting the application is the action most likely to provoke accusations of ideological motivation rather than merit-based judgment.",
+      "wrongReasons": ["Approve means to accept, which would not typically be criticized as ideologically motivated against merit.", "Review means to examine, which is a neutral process and not a final decision.", "Defer means to postpone, which does not constitute a strong enough action to suggest ideological bias."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc87",
+      "difficulty": "hard",
+      "text": "The philosopher contended that the concept of free will is _____ with a strictly deterministic view of the universe.",
+      "choices": ["consistent", "incompatible", "associated", "enriched"],
+      "answer": 1,
+      "explanation": "If the universe is strictly deterministic, all events are caused by prior conditions, leaving no room for free will, making the two concepts incompatible.",
+      "wrongReasons": ["Consistent means in agreement, which would imply both can coexist, contradicting the philosophical tension.", "Associated means linked, which does not capture a logical contradiction.", "Enriched means enhanced, which implies free will benefits from determinism rather than being negated by it."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc88",
+      "difficulty": "hard",
+      "text": "The geologist's findings were dismissed as _____ by peers who insisted the sediment layers could not have formed so rapidly.",
+      "choices": ["conclusive", "anomalous", "redundant", "preliminary"],
+      "answer": 1,
+      "explanation": "Anomalous means deviating from the norm; peers dismissed findings that seemed inconsistent with accepted geological rates.",
+      "wrongReasons": ["Conclusive means definitive and settled, which would prompt acceptance rather than dismissal.", "Redundant means repetitive and unnecessary, which does not describe findings that challenge scientific consensus.", "Preliminary means early-stage, which invites caution but not outright dismissal on scientific grounds."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc89",
+      "difficulty": "hard",
+      "text": "The legislation was designed to prevent corporations from _____ regulatory oversight by relocating operations to less-regulated jurisdictions.",
+      "choices": ["facilitating", "complying with", "circumventing", "contesting"],
+      "answer": 2,
+      "explanation": "Circumventing oversight means finding ways to avoid it, which the legislation seeks to prevent.",
+      "wrongReasons": ["Facilitating means to help or make easier, the opposite of what the law aims to stop.", "Complying with means following the rules, which is what the law wants corporations to do.", "Contesting means to formally challenge, which is a legal process rather than avoidance through relocation."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc90",
+      "difficulty": "hard",
+      "text": "The sociologist argued that poverty should be understood not as an individual failing but as a _____ phenomenon rooted in structural inequality.",
+      "choices": ["moral", "transient", "voluntary", "systemic"],
+      "answer": 3,
+      "explanation": "Systemic means embedded in the structures of society, which aligns with the argument that poverty stems from structural inequality.",
+      "wrongReasons": ["Moral implies personal virtue or fault, which is the individual-blame view the sociologist rejects.", "Transient means short-lived, which does not capture structural inequality as a persistent force.", "Voluntary means chosen, which also assigns individual responsibility rather than structural causes."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc91",
+      "difficulty": "hard",
+      "text": "The policy paper called for a more _____ approach, urging decision-makers to anticipate problems before they escalate.",
+      "choices": ["proactive", "reactive", "punitive", "deferential"],
+      "answer": 0,
+      "explanation": "A proactive approach involves anticipating and preventing problems in advance, which is exactly what the paper advocates.",
+      "wrongReasons": ["Reactive means responding after problems occur, the opposite of the paper's recommendation.", "Punitive means focused on punishment, which does not describe anticipating or preventing issues.", "Deferential means yielding to others' authority, which does not capture the forward-looking stance described."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc92",
+      "difficulty": "hard",
+      "text": "The linguist observed that the dialect had undergone significant _____ over two generations, absorbing vocabulary from the dominant language.",
+      "choices": ["preservation", "assimilation", "codification", "elimination"],
+      "answer": 1,
+      "explanation": "Assimilation means adopting features of a dominant culture or language, consistent with absorbing outside vocabulary.",
+      "wrongReasons": ["Preservation means maintaining the original form, which contradicts absorbing external vocabulary.", "Codification means formally standardizing a language, which is a deliberate process unrelated to natural absorption.", "Elimination means complete removal, which is too extreme and does not describe gradual change."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc93",
+      "difficulty": "hard",
+      "text": "The economist warned that prolonged fiscal _____ could undermine investor confidence and destabilize the national currency.",
+      "choices": ["austerity", "transparency", "profligacy", "growth"],
+      "answer": 2,
+      "explanation": "Fiscal profligacy means reckless or excessive government spending, which can erode confidence in a country's finances.",
+      "wrongReasons": ["Austerity means cutting spending, which is typically intended to reassure investors rather than undermine confidence.", "Transparency means openness in financial reporting, which builds rather than destroys investor confidence.", "Growth is generally seen as a positive economic condition that supports rather than undermines currency stability."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc94",
+      "difficulty": "hard",
+      "text": "Although the candidate's proposals were ambitious, analysts questioned whether they were _____ within the existing legal framework.",
+      "choices": ["controversial", "redundant", "symbolic", "feasible"],
+      "answer": 3,
+      "explanation": "Feasible means practically achievable, and the question is whether ambition can be delivered within current legal constraints.",
+      "wrongReasons": ["Controversial means debated, which does not address whether the proposals can be enacted.", "Redundant means repetitive, which does not relate to legal achievability.", "Symbolic means representing an idea rather than producing real change, which is a broader critique, not specific to legal constraints."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc95",
+      "difficulty": "hard",
+      "text": "The court ruled that the evidence had been obtained through _____ means and was therefore inadmissible.",
+      "choices": ["coercive", "transparent", "voluntary", "verifiable"],
+      "answer": 0,
+      "explanation": "Coercive means obtained through force or pressure, which violates legal standards for admissibility.",
+      "wrongReasons": ["Transparent means open and honest, which would support rather than challenge admissibility.", "Voluntary means freely given, which would make the evidence legally sound.", "Verifiable means capable of being confirmed, which is a quality that supports rather than undermines evidence."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc96",
+      "difficulty": "hard",
+      "text": "The novelist employed a highly _____ narrative technique, weaving together multiple storylines across different time periods.",
+      "choices": ["linear", "intricate", "sparse", "redundant"],
+      "answer": 1,
+      "explanation": "Intricate means complex and detailed, which describes a narrative structure with multiple interwoven storylines across time periods.",
+      "wrongReasons": ["Linear means following a single straight chronological path, the opposite of multiple interwoven timelines.", "Sparse means minimal and simple, contradicting the complexity of multiple storylines.", "Redundant means unnecessarily repetitive, which is a negative quality not consistent with praised narrative technique."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc97",
+      "difficulty": "hard",
+      "text": "The think-tank's report was accused of being _____ because it selectively cited studies that supported a predetermined conclusion.",
+      "choices": ["impartial", "rigorous", "tendentious", "preliminary"],
+      "answer": 2,
+      "explanation": "Tendentious means biased toward a particular viewpoint, which is the criticism when evidence is selectively chosen to reach a predetermined conclusion.",
+      "wrongReasons": ["Impartial means unbiased, the opposite of selective citation.", "Rigorous means thorough and methodologically sound, which contradicts cherry-picking evidence.", "Preliminary means early-stage, which describes the state of research rather than its bias."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc98",
+      "difficulty": "hard",
+      "text": "The minister's refusal to answer questions directly was interpreted as a sign of _____, suggesting the government had something to hide.",
+      "choices": ["candor", "assertiveness", "composure", "evasiveness"],
+      "answer": 3,
+      "explanation": "Evasiveness means deliberately avoiding direct responses, which is the behavior described and the basis for suspicion.",
+      "wrongReasons": ["Candor means openness and honesty, the opposite of what was demonstrated.", "Assertiveness means confident directness, which is also inconsistent with avoiding questions.", "Composure means calmness under pressure, which is unrelated to the content of the minister's responses."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc99",
+      "difficulty": "hard",
+      "text": "The scholar cautioned that applying modern ethical standards to historical figures risks committing an _____, distorting our understanding of the past.",
+      "choices": ["anachronism", "allegory", "allusion", "abstraction"],
+      "answer": 0,
+      "explanation": "An anachronism is the error of applying concepts from one time period to another where they do not belong.",
+      "wrongReasons": ["Allegory is a narrative technique using symbolic figures, unrelated to historical analysis.", "Allusion is a reference to another work or event, not an error in temporal reasoning.", "Abstraction means a general concept removed from specifics, which does not describe the specific error of misapplying temporal standards."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc100",
+      "difficulty": "hard",
+      "text": "The negotiators reached an agreement only after each side made significant _____ on issues that had previously been non-negotiable.",
+      "choices": ["accusations", "concessions", "escalations", "clarifications"],
+      "answer": 1,
+      "explanation": "Concessions are things given up in a negotiation; both sides making them is what allows agreement to be reached.",
+      "wrongReasons": ["Accusations involve blame, which would hinder rather than enable agreement.", "Escalations mean intensifying conflict, which is the opposite of what leads to compromise.", "Clarifications mean explaining positions more clearly, which alone does not explain movement on previously fixed positions."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc101",
+      "difficulty": "hard",
+      "text": "The research institute's credibility was damaged when it emerged that several of its published findings could not be _____ by independent laboratories.",
+      "choices": ["challenged", "applied", "replicated", "published"],
+      "answer": 2,
+      "explanation": "Replication by independent labs is the gold standard for scientific validity; failure to replicate undermines credibility.",
+      "wrongReasons": ["Challenged means contested, which would be a normal part of scientific debate rather than a credibility-damaging event.", "Applied means put into practice, which does not directly bear on the validity of published findings.", "Published means made available, which is already the state of the findings described."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc102",
+      "difficulty": "hard",
+      "text": "The administration's position shifted significantly following public _____, suggesting that political pressure had influenced the decision.",
+      "choices": ["indifference", "consensus", "endorsement", "outcry"],
+      "answer": 3,
+      "explanation": "An outcry is a strong public protest; a shift in position following it implies political pressure was the cause.",
+      "wrongReasons": ["Indifference means lack of interest, which would not prompt a policy shift.", "Consensus means widespread agreement, which would support rather than pressure a position change.", "Endorsement means approval, which would reinforce the original position rather than cause a shift."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc103",
+      "difficulty": "hard",
+      "text": "The scientist argued that the new model was not merely _____ but represented a genuine improvement over its predecessors.",
+      "choices": ["incremental", "radical", "speculative", "theoretical"],
+      "answer": 0,
+      "explanation": "Incremental means involving only small steps; the scientist argues the model is more than a small improvement.",
+      "wrongReasons": ["Radical means fundamental and dramatic, which is actually what the scientist is claiming, not dismissing.", "Speculative means unproven, which is a different kind of criticism unrelated to the scale of improvement.", "Theoretical means based on theory rather than evidence, which does not relate to the comparison with predecessors."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc104",
+      "difficulty": "hard",
+      "text": "The novel's ending was criticized for being _____, as it tied together every plotline too neatly and left no ambiguity.",
+      "choices": ["poignant", "contrived", "ambiguous", "abrupt"],
+      "answer": 1,
+      "explanation": "Contrived means artificially or unconvincingly constructed; an excessively tidy resolution that strains credibility is the classic example.",
+      "wrongReasons": ["Poignant means emotionally moving, which is a positive quality inconsistent with the criticism.", "Ambiguous means open to interpretation, the opposite of what is described as too neat.", "Abrupt means sudden and unexplained, which describes insufficient resolution, not excessive neatness."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc105",
+      "difficulty": "hard",
+      "text": "The health authority's decision to suppress the preliminary study was later viewed as _____, given the public health implications of its findings.",
+      "choices": ["prudent", "transparent", "indefensible", "routine"],
+      "answer": 2,
+      "explanation": "Indefensible means impossible to justify; suppressing findings with major public health implications cannot be excused.",
+      "wrongReasons": ["Prudent means cautious and sensible, implying the suppression was wise, which is the opposite of the criticism implied.", "Transparent means open, which contradicts the act of suppressing information.", "Routine means ordinary and unremarkable, which would not provoke a retrospective negative judgment."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc106",
+      "difficulty": "hard",
+      "text": "The two competing theories were once thought to be _____, but recent evidence suggests they may actually be complementary.",
+      "choices": ["equivalent", "derivative", "marginal", "irreconcilable"],
+      "answer": 3,
+      "explanation": "Irreconcilable means impossible to harmonize; the contrast in the sentence shows this belief was later revised.",
+      "wrongReasons": ["Equivalent means equal or interchangeable, which would not require reconciliation.", "Derivative means copied from another source, which does not describe two competing original theories.", "Marginal means minor, which does not describe the nature of the conflict between the two theories."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc107",
+      "difficulty": "hard",
+      "text": "The judge instructed the jury to set aside any _____ they might have formed before the trial and consider only the evidence presented.",
+      "choices": ["preconceptions", "testimonies", "deliberations", "objections"],
+      "answer": 0,
+      "explanation": "Preconceptions are opinions formed before hearing the evidence; jurors must set these aside to ensure a fair trial.",
+      "wrongReasons": ["Testimonies are the evidence given at trial, which should be considered rather than set aside.", "Deliberations are the jury's discussions, which occur after the trial, not before it.", "Objections are legal challenges raised during the trial, not prior personal opinions."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc108",
+      "difficulty": "hard",
+      "text": "The company's aggressive expansion strategy was seen by some analysts as _____, given the fragile state of global markets.",
+      "choices": ["prudent", "reckless", "calculated", "conservative"],
+      "answer": 1,
+      "explanation": "Reckless means taking undue risks without caution, which is a reasonable criticism of aggressive expansion during market fragility.",
+      "wrongReasons": ["Prudent means wisely cautious, the opposite of the criticism implied.", "Calculated means deliberate and carefully planned, which is a neutral or positive attribute.", "Conservative means cautious and risk-averse, the opposite of aggressive expansion."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc109",
+      "difficulty": "hard",
+      "text": "The anthropologist noted that the community's mourning rituals served a _____ function, helping survivors reintegrate into daily life.",
+      "choices": ["aesthetic", "therapeutic", "punitive", "bureaucratic"],
+      "answer": 1,
+      "explanation": "Therapeutic means having a healing effect; mourning rituals that help reintegration serve a psychological and social healing purpose.",
+      "wrongReasons": ["Aesthetic means related to beauty, which does not describe the social function of mourning.", "Punitive means involving punishment, which has no connection to grief or reintegration.", "Bureaucratic means related to formal administrative processes, which is inappropriate in the context of community rituals."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc110",
+      "difficulty": "hard",
+      "text": "The government's failure to consult affected communities before enacting the policy was widely condemned as _____ and undemocratic.",
+      "choices": ["transparent", "participatory", "paternalistic", "deliberate"],
+      "answer": 2,
+      "explanation": "Paternalistic means making decisions for others without their input, which is exactly the criticism of failing to consult the affected communities.",
+      "wrongReasons": ["Transparent means open and consultative, the opposite of what the government did.", "Participatory means involving affected parties, also the opposite of the behavior criticized.", "Deliberate merely means intentional, which does not capture the specific critique of denying community voice."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc111",
+      "difficulty": "hard",
+      "text": "The professor argued that the study's conclusions were _____ because the methodology had not accounted for several significant confounding variables.",
+      "choices": ["validated", "replicable", "generalized", "compromised"],
+      "answer": 3,
+      "explanation": "Uncontrolled confounding variables compromise the validity and reliability of a study's conclusions.",
+      "wrongReasons": ["Validated means confirmed as sound, which is the opposite of what flawed methodology produces.", "Replicable means capable of being repeated, which is a separate methodological quality.", "Generalized means applied broadly, which describes scope rather than the problem of confounding variables."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc112",
+      "difficulty": "hard",
+      "text": "The author's use of _____ throughout the novel allowed readers to interpret the central conflict as both personal and universally human.",
+      "choices": ["allegory", "irony", "chronology", "diction"],
+      "answer": 0,
+      "explanation": "Allegory is a narrative mode where characters and events represent broader ideas, enabling both personal and universal readings.",
+      "wrongReasons": ["Irony involves incongruity between appearance and reality, which does not explain dual personal and universal interpretation.", "Chronology refers to the arrangement of events in time, not to layered meaning.", "Diction refers to word choice, which is a stylistic element that does not inherently produce symbolic dual readings."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc113",
+      "difficulty": "hard",
+      "text": "The delegation arrived at the summit with _____ demands, making a negotiated settlement virtually impossible from the outset.",
+      "choices": ["flexible", "intransigent", "provisional", "modest"],
+      "answer": 1,
+      "explanation": "Intransigent demands are inflexible and uncompromising, which makes agreement impossible from the start.",
+      "wrongReasons": ["Flexible demands would allow for compromise and make settlement more likely.", "Provisional demands are tentative and subject to change, which would facilitate negotiation.", "Modest demands are limited in scope, which would make them easier to accept rather than block a settlement."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc114",
+      "difficulty": "hard",
+      "text": "The historian argued that attributing the collapse of the civilization solely to climate change was an _____ oversimplification.",
+      "choices": ["obvious", "minor", "unwarranted", "implicit"],
+      "answer": 2,
+      "explanation": "Unwarranted means not justified by the evidence; blaming collapse on a single cause without sufficient support is an unwarranted oversimplification.",
+      "wrongReasons": ["Obvious means clear and self-evident, implying the oversimplification is acceptable, which is the opposite of the historian's point.", "Minor means small in significance, which would suggest the oversimplification barely matters.", "Implicit means suggested rather than stated, which refers to how something is expressed rather than whether it is justified."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc115",
+      "difficulty": "hard",
+      "text": "The bioethicist contended that informed consent is not merely a _____ requirement but a fundamental expression of patient autonomy.",
+      "choices": ["ethical", "optional", "clinical", "procedural"],
+      "answer": 3,
+      "explanation": "Procedural means relating only to formal process; the bioethicist argues it is more than a formality and has deeper ethical meaning.",
+      "wrongReasons": ["Ethical is actually what the bioethicist is elevating consent to, so calling it 'not merely ethical' contradicts the argument.", "Optional means not required, which no bioethicist would claim about informed consent.", "Clinical means related to medical practice, but the sentence distinguishes formal compliance from deeper value, not clinical from non-clinical."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc116",
+      "difficulty": "hard",
+      "text": "The opposition accused the ruling party of using state media to _____ its political rivals ahead of the election.",
+      "choices": ["vilify", "promote", "consult", "compensate"],
+      "answer": 0,
+      "explanation": "Vilify means to speak about in a highly critical and abusive way; using state media to attack rivals is a form of vilification.",
+      "wrongReasons": ["Promote means to publicize positively, the opposite of attacking rivals.", "Consult means to seek advice from, which would suggest collaboration rather than hostility.", "Compensate means to pay or make amends, which is unrelated to media use against rivals."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc117",
+      "difficulty": "hard",
+      "text": "The company's rapid growth was partly _____ on its ability to retain top talent through competitive compensation packages.",
+      "choices": ["founded", "contingent", "dependent", "projected"],
+      "answer": 2,
+      "explanation": "Dependent on means relying on as a necessary condition, and this collocates most naturally here to describe growth relying on talent retention.",
+      "wrongReasons": ["Founded on implies that talent retention is the sole origin of growth, which is too strong a claim.", "Contingent typically takes 'upon' rather than 'on' in formal usage, making it a weaker fit.", "Projected means forecast, which does not describe a causal relationship."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc118",
+      "difficulty": "hard",
+      "text": "The report warned that without significant policy intervention, existing inequalities would become further _____ over the next decade.",
+      "choices": ["mitigated", "redistributed", "acknowledged", "entrenched"],
+      "answer": 3,
+      "explanation": "Entrenched means deeply embedded and difficult to change; without intervention, inequalities are expected to deepen and solidify.",
+      "wrongReasons": ["Mitigated means reduced, which is the opposite of what the warning predicts.", "Redistributed means reallocated, which implies a policy action rather than passive worsening.", "Acknowledged means recognized, which refers to awareness rather than the structural deepening of inequality."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc119",
+      "difficulty": "hard",
+      "text": "The critic argued that the exhibition was intellectually _____, presenting ideas that had been thoroughly explored in the discourse for over a decade.",
+      "choices": ["provocative", "demanding", "redundant", "obscure"],
+      "answer": 2,
+      "explanation": "Redundant means unnecessary and repetitive; an exhibition covering thoroughly explored ideas adds nothing new to the discourse.",
+      "wrongReasons": ["Provocative means challenging or stimulating thought, which would be a positive quality rather than a criticism.", "Demanding means intellectually challenging, which is also a positive quality in critical or academic work.", "Obscure means unclear or hard to understand, which is a different criticism unrelated to repeating existing ideas."],
+      "category": "sentenceCompletion"
+    },
+    {
+      "id": "sc120",
+      "difficulty": "hard",
+      "text": "The epidemiologist stressed that the preliminary data should be interpreted with _____, as the sample size was too small to draw firm conclusions.",
+      "choices": ["urgency", "confidence", "skepticism", "circumspection"],
+      "answer": 3,
+      "explanation": "Circumspection means careful consideration and caution before acting or concluding, which is appropriate when data is limited.",
+      "wrongReasons": ["Urgency means the need for immediate action, which contradicts the call for restraint with limited data.", "Confidence means certainty, which is precisely what the small sample size does not justify.", "Skepticism means general doubt, but circumspection is more precisely appropriate here as it implies careful, measured judgment rather than outright disbelief."],
+      "category": "sentenceCompletion"
+    }
+  ]
+}

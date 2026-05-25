@@ -422,6 +422,52 @@ export interface Translations {
     statusWeak: string;
     statusMastered: string;
   };
+  chatCoach: {
+    hubCardLabel: string;
+    hubCardDesc: string;
+    pageTitle: string;
+    pageSubtitle: string;
+    statKnown: string;
+    statWeak: string;
+    statEverFailed: string;
+    modeNew10: string;
+    modeWeak: string;
+    modeMixed: string;
+    modeActiveWeak: string;
+    modeAllFailed: string;
+    startTitle: string;
+    startBody: string;
+    startCta: string;
+    batchPromptTitle: string; // "Translate to Hebrew:"
+    batchPromptHint: string;  // "One line per word, in order."
+    placeholderLines: string;
+    checkAnswers: string;
+    skipReview: string;
+    retryWeak: string;
+    backToModes: string;
+    emptyTitle: string;
+    emptyBody: string;
+    scoreLine: string; // "Score: {n}/{total}"
+    sectionKnew: string;
+    sectionWeak: string;
+    sectionConfusions: string;
+    expandRow: string;
+    correctAnswerLabel: string;
+    memoryAnchorLabel: string;
+    commonPhraseLabel: string;
+    nextActionTitle: string;
+    actionReviewWeakNow: string;
+    actionTakeNew10: string;
+    actionCritical: string;
+    actionStopHere: string;
+    chipExact: string;
+    chipAlias: string;
+    chipPartial: string;
+    chipWrong: string;
+    chipBlank: string;
+    chipConfusion: string;
+    answerCellAria: string; // "Answer for word {n}"
+  };
   simulation: {
     title: string;
     standard: string;
@@ -659,6 +705,7 @@ export interface Translations {
     sourceVocab: string;
     sourcePractice: string;
     sourceAcademicPhrase: string;
+    sourceChat: string;
     sourceManual: string;
   };
   selectionPopup: {
@@ -1078,6 +1125,52 @@ export const he: Translations = {
     statusWeak: "חלשים",
     statusMastered: "שולטים",
   },
+  chatCoach: {
+    hubCardLabel: "מאמן צ׳אט",
+    hubCardDesc: "תרגום של 10 מילים בכל סבב — מאמן עברי קפדני אבל ידידותי",
+    pageTitle: "מאמן מילים בצ׳אט",
+    pageSubtitle: "תרגום של 10 מילים בסבב, בדיקה אוטומטית, חיזוק חכם של מה שלא הצלחת.",
+    statKnown: "בשליטה",
+    statWeak: "לחיזוק",
+    statEverFailed: "טעיתי פעם",
+    modeNew10: "10 חדשות",
+    modeWeak: "חלשות",
+    modeMixed: "מעורב",
+    modeActiveWeak: "פעילות לחיזוק",
+    modeAllFailed: "כל מה שטעיתי בו",
+    startTitle: "יאללה, פעימה חדשה",
+    startBody: "אביא לך 10 מילים. כתוב את התרגום בעברית בכל שורה, בסדר שמופיע למעלה.",
+    startCta: "התחל סבב",
+    batchPromptTitle: "תרגם לעברית:",
+    batchPromptHint: "שורה אחת לכל מילה, באותו סדר.",
+    placeholderLines: "1. \n2. \n3. \n…",
+    checkAnswers: "בדוק תשובות",
+    skipReview: "דלג על חזרה",
+    retryWeak: "המשך לחזרה",
+    backToModes: "← בחר מצב",
+    emptyTitle: "אין מילים זמינות כרגע",
+    emptyBody: "אין מספיק מילים במצב הזה. נסה \"10 חדשות\" או \"מעורב\".",
+    scoreLine: "ציון: {n}/{total}",
+    sectionKnew: "ירדו כי ידעת",
+    sectionWeak: "נשארו לחיזוק",
+    sectionConfusions: "טעויות ובלבולים",
+    expandRow: "פרטים",
+    correctAnswerLabel: "תרגום נכון",
+    memoryAnchorLabel: "עוגן זיכרון",
+    commonPhraseLabel: "צירוף נפוץ",
+    nextActionTitle: "הצעד הבא",
+    actionReviewWeakNow: "חזור עכשיו על המילים החלשות",
+    actionTakeNew10: "קח עוד 10 חדשות",
+    actionCritical: "מומלץ סבב חיזוק קצר",
+    actionStopHere: "עבודה טובה — אפשר לעצור כאן להיום",
+    chipExact: "מדויק",
+    chipAlias: "תקין",
+    chipPartial: "חלקי",
+    chipWrong: "שגוי",
+    chipBlank: "ריק",
+    chipConfusion: "בלבול",
+    answerCellAria: "תשובה למילה {n}",
+  },
   simulation: {
     title: "הדמיית אמירנט",
     standard: "אמירנט סטנדרטי",
@@ -1300,6 +1393,7 @@ export const he: Translations = {
     sourceVocab: "מילון",
     sourcePractice: "תרגול",
     sourceAcademicPhrase: "ביטוי אקדמי",
+    sourceChat: "מאמן צ׳אט",
     sourceManual: "ידני",
   },
   selectionPopup: {
@@ -1720,6 +1814,52 @@ export const en: Translations = {
     statusWeak: "Weak",
     statusMastered: "Mastered",
   },
+  chatCoach: {
+    hubCardLabel: "Chat Coach",
+    hubCardDesc: "Translate 10 words per round — a strict-but-friendly Hebrew coach",
+    pageTitle: "Vocabulary Chat Coach",
+    pageSubtitle: "Translate 10 words a round. Auto-graded. Smart reinforcement of what you missed.",
+    statKnown: "Known",
+    statWeak: "Weak",
+    statEverFailed: "Ever failed",
+    modeNew10: "New 10",
+    modeWeak: "Weak",
+    modeMixed: "Mixed",
+    modeActiveWeak: "Active weak",
+    modeAllFailed: "All ever failed",
+    startTitle: "Let's go — new round",
+    startBody: "Here are 10 words. Type the Hebrew translation on each line, in the order shown above.",
+    startCta: "Start round",
+    batchPromptTitle: "Translate to Hebrew:",
+    batchPromptHint: "One line per word, same order.",
+    placeholderLines: "1. \n2. \n3. \n…",
+    checkAnswers: "Check answers",
+    skipReview: "Skip review",
+    retryWeak: "Retry weak words",
+    backToModes: "← Pick mode",
+    emptyTitle: "No words available right now",
+    emptyBody: "Not enough words in this mode yet. Try \"New 10\" or \"Mixed\".",
+    scoreLine: "Score: {n}/{total}",
+    sectionKnew: "You knew these",
+    sectionWeak: "Still need work",
+    sectionConfusions: "Mistakes and confusions",
+    expandRow: "Details",
+    correctAnswerLabel: "Correct answer",
+    memoryAnchorLabel: "Memory hook",
+    commonPhraseLabel: "Common phrase",
+    nextActionTitle: "Next step",
+    actionReviewWeakNow: "Review weak words now",
+    actionTakeNew10: "Take 10 more new words",
+    actionCritical: "Short reinforcement round recommended",
+    actionStopHere: "Nice — fine to stop here for today",
+    chipExact: "Exact",
+    chipAlias: "OK",
+    chipPartial: "Partial",
+    chipWrong: "Wrong",
+    chipBlank: "Blank",
+    chipConfusion: "Confusion",
+    answerCellAria: "Answer for word {n}",
+  },
   simulation: {
     title: "AMIRNET Simulation",
     standard: "Standard AMIRNET",
@@ -1942,6 +2082,7 @@ export const en: Translations = {
     sourceVocab: "vocab",
     sourcePractice: "practice",
     sourceAcademicPhrase: "academic phrase",
+    sourceChat: "chat coach",
     sourceManual: "manual",
   },
   selectionPopup: {

@@ -13,7 +13,8 @@
     "qa:amirnet:debug": "tsx qa-agent/runner.ts --debug --headed",
     "qa:amirnet:returning": "tsx qa-agent/runner.ts --returning",
     "qa:amirnet:report": "node -e \"console.log(require('path').resolve('qa-report/amirnet-qa-report.md'))\"",
-    "validate:questions": "node scripts/validate-question-bank.mjs"
+    "validate:questions": "node scripts/validate-question-bank.mjs",
+    "audit:sc-amirnet": "node scripts/audit-sc-simulation-composition.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

@@ -8,11 +8,12 @@ import vocabData from "@/data/seed/vocab.normalized.json";
 import type { VocabItem } from "@/types/vocab";
 import { useLang } from "@/contexts/LanguageContext";
 import { formatNumber } from "@/lib/ui/format-number";
-import { HelpCircle, Library } from "@/components/icons/NavIcons";
+import { HelpCircle, Library, MessagesSquare } from "@/components/icons/NavIcons";
 
 function IconMark({ value, size }: { value: string; size: number }) {
   if (value === "library") return <Library size={size} color="currentColor" strokeWidth={2} />;
   if (value === "help-circle") return <HelpCircle size={size} color="currentColor" strokeWidth={2} />;
+  if (value === "messages-square") return <MessagesSquare size={size} color="currentColor" strokeWidth={2} />;
   return <span>{value}</span>;
 }
 
@@ -26,6 +27,7 @@ interface NavCard {
 
 const VOCAB_NAV: NavCard[] = [
   { href: "/vocab/swipe",   icon: "🎴", he: { label: "כרטיסיות החלקה",   desc: "תרגל עם כרטיסיות חכמות וחזרה מרווחת" }, en: { label: "Swipe Cards",          desc: "Practice with smart spaced-repetition cards" }, color: "var(--teal)" },
+  { href: "/vocab/chat-coach", icon: "messages-square", he: { label: "מאמן צ׳אט",     desc: "תרגום של 10 מילים בכל סבב — מאמן עברי קפדני אבל ידידותי" }, en: { label: "Chat Coach",          desc: "Translate 10 words per round — a strict-but-friendly Hebrew coach" }, color: "var(--teal)" },
   { href: "/vocab/unknown", icon: "help-circle", he: { label: "לא יודע",           desc: "מילים שסימנת בקריאה — לתרגול מהיר" },     en: { label: "Words I Don't Know",   desc: "Words you flagged while reading — quick review" }, color: "var(--info)" },
   { href: "/vocab/missed",  icon: "🔁", he: { label: "לא ידעתי",          desc: "כל המילים שפספסת — ממוינות לפי תדירות" }, en: { label: "Missed Words",         desc: "All words you missed, sorted by frequency" },     color: "var(--danger)" },
   { href: "/vocab/starred", icon: "⭐", he: { label: "מסומנים",            desc: "מילים שסימנת לחזרה מיוחדת" },             en: { label: "Starred",              desc: "Words you starred for focused review" },          color: "var(--warn)" },

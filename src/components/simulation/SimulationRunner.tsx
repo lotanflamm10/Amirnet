@@ -28,15 +28,21 @@ import { canStartSimulation } from "@/lib/billing/simulation-quota";
 import questionsRaw from "@/data/seed/questions.json";
 import hardAddon from "@/data/seed/hard_questions_addon.json";
 import paraComplex from "@/data/seed/_gen_para_complex.json";
+import questionsExpanded from "@/data/seed/questions_expanded.json";
+import genScA from "@/data/seed/_gen_sc_a.json";
+import genScB from "@/data/seed/_gen_sc_b.json";
 
 type RawQ = Record<string, Question[]>;
 
 function buildQuestionsPool(): RawQ {
-  const base       = questionsRaw as unknown as RawQ;
-  const addon      = hardAddon    as unknown as RawQ;
-  const complexPar = paraComplex  as unknown as RawQ;
+  const base       = questionsRaw     as unknown as RawQ;
+  const addon      = hardAddon        as unknown as RawQ;
+  const complexPar = paraComplex      as unknown as RawQ;
+  const expanded   = questionsExpanded as unknown as RawQ;
+  const scA        = genScA           as unknown as RawQ;
+  const scB        = genScB           as unknown as RawQ;
   const merged: RawQ = { ...base };
-  for (const src of [addon, complexPar]) {
+  for (const src of [addon, complexPar, expanded, scA, scB]) {
     for (const [k, v] of Object.entries(src)) {
       const existing = new Set((merged[k] ?? []).map((q) => q.id));
       merged[k] = [...(merged[k] ?? []), ...v.filter((q) => !existing.has(q.id))];

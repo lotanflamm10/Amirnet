@@ -3,7 +3,7 @@
     {
       "id": "sc13",
       "difficulty": "hard",
-      "text": "The Senate Judiciary Committee remained _____ about the proposal because several financial details were still unclear.",
+      "text": "The committee remained _____ about the proposal because several financial details were still unclear.",
       "choices": [
         "sceptical",
         "generous",
@@ -22,7 +22,7 @@
     {
       "id": "sc14",
       "difficulty": "hard",
-      "text": "Although Newton's theory of absolute space initially seemed convincing, further experiments began to _____ its validity.",
+      "text": "Although the theory initially seemed convincing, further experiments began to _____ its validity.",
       "choices": [
         "undermine",
         "translate",
@@ -41,7 +41,7 @@
     {
       "id": "sc15",
       "difficulty": "medium",
-      "text": "The Marshall Plan was intended to _____ cooperation between European nations rather than competition.",
+      "text": "The policy was intended to _____ cooperation between the departments rather than competition.",
       "choices": [
         "foster",
         "withdraw",
@@ -60,7 +60,7 @@
     {
       "id": "sc16",
       "difficulty": "medium",
-      "text": "Because the early Hubble Space Telescope data came from only a few observations, the conclusion remained highly _____.",
+      "text": "Because the data came from only a few observations, the conclusion remained highly _____.",
       "choices": [
         "tentative",
         "permanent",
@@ -79,7 +79,7 @@
     {
       "id": "sc17",
       "difficulty": "hard",
-      "text": "The New York Times editor removed several paragraphs that were considered _____ to the main argument.",
+      "text": "The editor removed several paragraphs that were considered _____ to the main argument.",
       "choices": [
         "extraneous",
         "beneficial",
@@ -97,7 +97,7 @@
     {
       "id": "sc18",
       "difficulty": "medium",
-      "text": "During the Cuban Missile Crisis, the ambassador's remarks were deliberately _____ so that they could not be interpreted as a direct threat.",
+      "text": "The ambassador's remarks were deliberately _____ so that they could not be interpreted as a direct threat.",
       "choices": [
         "ambiguous",
         "transparent",
@@ -115,7 +115,7 @@
     {
       "id": "sc19",
       "difficulty": "medium",
-      "text": "Charles Darwin was reluctant to publish his findings on the Galápagos finches before the data had been thoroughly _____.",
+      "text": "Researchers were reluctant to publish the findings before the data had been thoroughly _____.",
       "choices": [
         "verified",
         "predicted",
@@ -133,7 +133,7 @@
     {
       "id": "sc20",
       "difficulty": "medium",
-      "text": "Carl Sagan's explanation was so _____ that even the most complicated steps seemed manageable.",
+      "text": "Her explanation was so _____ that even the most complicated steps seemed manageable.",
       "choices": [
         "lucid",
         "fragile",

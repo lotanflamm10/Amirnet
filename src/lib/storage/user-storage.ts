@@ -35,6 +35,7 @@ export const LEGACY_USER_KEYS: readonly string[] = [
   "amirnet-credits-v1",
   "amirnet-entitlement-v1",
   "amirnet-reading-passages-v1",
+  "amirnet-chat-coach-progress-v1",
 ];
 
 /** Read the active user id from the companion (non-HttpOnly) cookie. */

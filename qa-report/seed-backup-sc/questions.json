@@ -43,7 +43,7 @@
                                {
                                    "id":  "sc3",
                                    "difficulty":  "easy",
-                                   "text":  "The Senate Banking Committee rejected the proposal because several details remained too _____ to support a final decision.",
+                                   "text":  "The committee rejected the proposal because several details remained too _____ to support a final decision.",
                                    "choices":  [
                                                    "vague",
                                                    "efficient",
@@ -62,7 +62,7 @@
                                {
                                    "id":  "sc4",
                                    "difficulty":  "easy",
-                                   "text":  "Although the lecture at Cornell University was long, Carl Sagan presented the material in such a _____ way that students remained attentive.",
+                                   "text":  "Although the lecture was long, the professor presented the material in such a _____ way that students remained attentive.",
                                    "choices":  [
                                                    "engaging",
                                                    "fragile",
@@ -80,7 +80,7 @@
                                {
                                    "id":  "sc5",
                                    "difficulty":  "medium",
-                                   "text":  "The Federal Reserve Board's new policy was introduced gradually so that banks would have time to _____ to the revised procedures.",
+                                   "text":  "The new policy was introduced gradually so that employees would have time to _____ to the revised procedures.",
                                    "choices":  [
                                                    "adapt",
                                                    "predict",
@@ -99,7 +99,7 @@
                                {
                                    "id":  "sc6",
                                    "difficulty":  "medium",
-                                   "text":  "The Brookings Institution report was praised for its _____ analysis, which considered both the short-term and long-term effects of the reform.",
+                                   "text":  "The report was praised for its _____ analysis, which considered both the short-term and long-term effects of the reform.",
                                    "choices":  [
                                                    "comprehensive",
                                                    "accidental",
@@ -117,7 +117,7 @@
                                {
                                    "id":  "sc7",
                                    "difficulty":  "easy",
-                                   "text":  "President Abraham Lincoln asked for a concise summary because he did not have time to read the entire _____.",
+                                   "text":  "The manager asked for a concise summary because she did not have time to read the entire _____.",
                                    "choices":  [
                                                    "document",
                                                    "ceremony",
@@ -134,7 +134,7 @@
                                {
                                    "id":  "sc8",
                                    "difficulty":  "medium",
-                                   "text":  "Charles Darwin was cautious about drawing conclusions from a small sample of Galápagos finches because the data may not be _____.",
+                                   "text":  "Many researchers are cautious about drawing conclusions from a small sample because the data may not be _____.",
                                    "choices":  [
                                                    "representative",
                                                    "decorative",
@@ -151,7 +151,7 @@
                                {
                                    "id":  "sc9",
                                    "difficulty":  "easy",
-                                   "text":  "Ford Motor Company decided to _____ its Model T prices after customers complained that the products were too expensive.",
+                                   "text":  "The company decided to _____ its prices after customers complained that the products were too expensive.",
                                    "choices":  [
                                                    "lower",
                                                    "delay",
@@ -168,7 +168,7 @@
                                {
                                    "id":  "sc10",
                                    "difficulty":  "medium",
-                                   "text":  "The Brooklyn Bridge was designed to _____ heavy traffic and strong winds without damage.",
+                                   "text":  "The new bridge was designed to _____ heavy traffic and strong winds without damage.",
                                    "choices":  [
                                                    "withstand",
                                                    "postpone",
@@ -185,7 +185,7 @@
                                {
                                    "id":  "sc11",
                                    "difficulty":  "medium",
-                                   "text":  "Because the information was _____, the New York Times editor removed it from the final draft of the report.",
+                                   "text":  "Because the information was _____, the editor removed it from the final draft of the report.",
                                    "choices":  [
                                                    "irrelevant",
                                                    "important",
@@ -202,7 +202,7 @@
                                {
                                    "id":  "sc12",
                                    "difficulty":  "easy",
-                                   "text":  "Students at Harvard Law School were asked to submit their essays by Friday, but several requested a _____.",
+                                   "text":  "The students were asked to submit their essays by Friday, but several requested a _____.",
                                    "choices":  [
                                                    "extension",
                                                    "correction",
