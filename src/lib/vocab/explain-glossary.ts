@@ -1,5 +1,6 @@
 import type { Question } from "@/types/questions";
 import vocabRaw from "@/data/seed/vocab.normalized.json";
+import { SC_CHOICE_GLOSSARY } from "./sc-choice-glossary";
 
 export interface GlossaryRow {
   en: string;
@@ -56,6 +57,47 @@ function normalizeWord(raw: string): string {
 }
 
 /**
+ * Light-touch lemmatizer for the glossary lookup. Generates likely base
+ * forms of an inflected English word so we can find a seed dictionary
+ * hit on "demands" via "demand", "innovating" via "innovate", etc.
+ */
+function lemmaCandidates(word: string): string[] {
+  const out = [word];
+  if (word.length <= 3) return out;
+  if (word.endsWith("ies")) out.push(word.slice(0, -3) + "y");
+  if (word.endsWith("es") && word.length > 3) {
+    out.push(word.slice(0, -2));
+    out.push(word.slice(0, -1));
+  }
+  if (word.endsWith("s") && !word.endsWith("ss")) out.push(word.slice(0, -1));
+  if (word.endsWith("ed") && word.length > 3) {
+    out.push(word.slice(0, -1));
+    out.push(word.slice(0, -2));
+  }
+  if (word.endsWith("ing") && word.length > 4) {
+    out.push(word.slice(0, -3));
+    out.push(word.slice(0, -3) + "e");
+  }
+  return out;
+}
+
+/**
+ * Resolve a normalized English word to a Hebrew translation. Tries the
+ * seed dictionary first (direct + lemma forms), then falls back to the
+ * curated SC choice glossary. Returns null if nothing matches.
+ */
+function lookupHebrew(normalizedWord: string): string | null {
+  if (!normalizedWord) return null;
+  for (const candidate of lemmaCandidates(normalizedWord)) {
+    const seedHit = DICT.get(candidate);
+    if (seedHit) return seedHit;
+    const curatedHit = SC_CHOICE_GLOSSARY[candidate];
+    if (curatedHit) return curatedHit;
+  }
+  return null;
+}
+
+/**
  * Extract candidate English words from a chunk of text, dedup-preserving order.
  * Strips punctuation, filters stopwords and very short tokens.
  */
@@ -88,18 +130,47 @@ interface GetGlossaryOptions {
  *
  * Sorted by word length DESC as a proxy for "hardest first".
  */
+const SC_MISSING_TRANSLATION_HE = "(אין תרגום)";
+
 export function getGlossaryForQuestion(
   question: Question,
   options: GetGlossaryOptions = {}
 ): GlossaryRow[] {
+  const isSC = question.category === "sentenceCompletion";
   const seen = new Set<string>();
-  const words: string[] = [];
+  const rows: GlossaryRow[] = [];
 
+  // ── SC mode: the 4 answer choices ARE the learning surface, so they
+  //   come first in the glossary, in original order, and ONLY them — no
+  //   stem/explanation noise. Lookup goes seed dictionary → curated SC
+  //   choice glossary → "(אין תרגום)" only as a last-resort safety net
+  //   when both miss.
+  if (isSC) {
+    for (const choice of question.choices ?? []) {
+      const display = (choice ?? "").trim();
+      if (!display) continue;
+      const key = normalizeWord(display);
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      // Try the raw lowercased form first so multi-word phrases like
+      // "complying with" or "ostensibly secular" can match curated
+      // entries by their full text; fall through to the normalized
+      // single-word + lemma path for everything else.
+      const phraseKey = display.toLowerCase();
+      const he = SC_CHOICE_GLOSSARY[phraseKey] ?? lookupHebrew(key);
+      rows.push({ en: display, he: he ?? SC_MISSING_TRANSLATION_HE });
+    }
+    return rows;
+  }
+
+  // ── Non-SC modes: stem + choices + (optionally) explanation/wrongReasons.
+  //   Dictionary-hit only — words missing from the seed vocab are silently
+  //   omitted so the panel stays tight.
+  const words: string[] = [];
   words.push(...extractContentWords(question.text ?? "", seen));
   for (const choice of question.choices ?? []) {
     words.push(...extractContentWords(choice, seen));
   }
-
   if (options.includeExplanation) {
     words.push(...extractContentWords(question.explanation ?? "", seen));
     for (const reason of question.wrongReasons ?? []) {
@@ -107,14 +178,15 @@ export function getGlossaryForQuestion(
     }
   }
 
-  const rows: GlossaryRow[] = [];
+  const stemRows: GlossaryRow[] = [];
   for (const word of words) {
     const he = DICT.get(word);
     if (!he) continue;
-    rows.push({ en: word, he });
+    stemRows.push({ en: word, he });
   }
+  stemRows.sort((a, b) => b.en.length - a.en.length);
 
-  rows.sort((a, b) => b.en.length - a.en.length);
+  rows.push(...stemRows);
   return rows;
 }
 
