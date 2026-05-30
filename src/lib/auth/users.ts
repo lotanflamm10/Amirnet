@@ -23,7 +23,8 @@ export type UserId =
   | "liroy"
   | "tal"
   | "noee"
-  | "omer";
+  | "omer"
+  | "daniel";
 export type UserRole = "admin" | "student";
 
 export interface UserRecord {
@@ -75,6 +76,8 @@ export const USERS: UserRecord[] = [
     seedPassword: process.env.NOEE_SEED_PASSWORD  ?? "noee1234"  },
   { id: "omer",  username: "omer",  displayName: "omer",  role: "student",
     seedPassword: process.env.OMER_SEED_PASSWORD  ?? "omer1234"  },
+  { id: "daniel", username: "daniel", displayName: "daniel", role: "student",
+    seedPassword: process.env.DANIEL_SEED_PASSWORD ?? "daniel1908" },
 ];
 
 /** Lookup helper. Case-insensitive for ASCII; Hebrew is matched literally. */
