@@ -4,6 +4,18 @@ import hardAddon from "@/data/seed/hard_questions_addon.json";
 import expandedAddon from "@/data/seed/questions_expanded.json";
 import paraComplex from "@/data/seed/_gen_para_complex.json";
 import skillBoostersRaw from "@/data/seed/skill_booster_questions.json";
+// Generated category banks. IDs already overlap with questions_expanded today,
+// so the first-write-wins merge is mostly a no-op — but wiring them in keeps
+// /practice/{lecture,grammar,wordFormation,textCompletion} alive if the
+// expanded file ever loses or re-namespaces those keys.
+import genLecture1 from "@/data/seed/_gen_lecture_1.json";
+import genLecture2 from "@/data/seed/_gen_lecture_2.json";
+import genLecturePart1Raw from "@/data/seed/_gen_lecture_part1.json";
+import genGrammar from "@/data/seed/_gen_grammar.json";
+import genWf from "@/data/seed/_gen_wf.json";
+import genTc from "@/data/seed/_gen_tc.json";
+import genTc2 from "@/data/seed/_gen_tc_2.json";
+import genTc3 from "@/data/seed/_gen_tc_3.json";
 import {
   getRecentIds,
   getSimSeenIds,
@@ -61,15 +73,19 @@ export const SKILL_BOOSTER_KEYS: Record<string, string> = {
 
 export const SKILL_BOOSTER_MODE_IDS = Object.keys(SKILL_BOOSTER_KEYS) as SessionMode[];
 
-// Grammar removed — moved to pilot. Mixed uses these keys only.
-const MIXED_KEYS = ["sentenceCompletion", "paraphrasing", "wordFormation", "textCompletion"];
+// Mixed practice exposes the four scored Amirnet categories plus the
+// grammar and textCompletion pilots — students benefit from rotating
+// across grammar mechanics even though grammar is a pilot in the real
+// exam. Keeps the practice surface richer than the pure-scored split.
+const MIXED_KEYS = ["sentenceCompletion", "paraphrasing", "wordFormation", "textCompletion", "grammar"];
 
 // Weighted proportions for core categories in mixed mode (sums to 80)
 const MIXED_WEIGHTS: Record<string, number> = {
-  sentenceCompletion: 30,
-  paraphrasing:       25,
-  wordFormation:      15,
-  textCompletion:     10,
+  sentenceCompletion: 28,
+  paraphrasing:       22,
+  wordFormation:      12,
+  textCompletion:     9,
+  grammar:            9,
 };
 
 // Skill booster categories included in mixed (up to 25% of session)
@@ -82,11 +98,24 @@ type QuestionsData = Record<string, Question[]>;
 let MERGED_DATA: QuestionsData | null = null;
 function mergeData(): QuestionsData {
   if (MERGED_DATA) return MERGED_DATA;
+  // _gen_lecture_part1.json ships as a raw Question[] (no top-level key)
+  // unlike the other generated banks, so wrap it before merging.
+  const genLecturePart1: QuestionsData = {
+    lectureQuestions: genLecturePart1Raw as unknown as Question[],
+  };
   const sources = [
     questionsRaw as unknown as QuestionsData,
     hardAddon    as unknown as QuestionsData,
     expandedAddon as unknown as QuestionsData,
     paraComplex  as unknown as QuestionsData,
+    genLecture1  as unknown as QuestionsData,
+    genLecture2  as unknown as QuestionsData,
+    genLecturePart1,
+    genGrammar   as unknown as QuestionsData,
+    genWf        as unknown as QuestionsData,
+    genTc        as unknown as QuestionsData,
+    genTc2       as unknown as QuestionsData,
+    genTc3       as unknown as QuestionsData,
   ];
   const merged: QuestionsData = {};
 
@@ -256,11 +285,18 @@ export function selectQuestions(
   let pool: Question[] = [];
 
   if (mode === "smartReview") {
-    for (const key of Object.keys(data)) pool = pool.concat(data[key] ?? []);
-    // Also include skill boosters in smart review
+    // writingTask items have empty choices and answer:-1 — they would crash
+    // / misrender inside the MCQ UI used by smart review. Skip the key on
+    // ingest AND defensively strip any items whose category/answer marks
+    // them as non-MCQ in case a future seed file misfiles them.
+    for (const key of Object.keys(data)) {
+      if (key === "writingTask") continue;
+      pool = pool.concat(data[key] ?? []);
+    }
     for (const key of Object.values(SKILL_BOOSTER_KEYS)) {
       pool = pool.concat(boosterData[key] ?? []);
     }
+    pool = pool.filter((q) => q.category !== "writingTask" && q.answer !== -1);
   } else {
     const dataKey = MODE_TO_KEY[mode];
     if (dataKey) pool = data[dataKey] ?? [];

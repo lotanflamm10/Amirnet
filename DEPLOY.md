@@ -31,12 +31,13 @@ Vercel dashboard → project → **Deployments** → latest deployment → ⋯ m
 
 ## 2. Required env vars on Vercel
 
-All are optional for the friends-testing build, but `AUTH_SECRET` should
-be set for any real use.
+`AUTH_SECRET` is **required** in production — the auth layer fails closed
+at the first request when `NODE_ENV=production` and `AUTH_SECRET` is
+missing. The other vars are optional.
 
 | Variable | Required? | Purpose |
 |---|---|---|
-| `AUTH_SECRET` | **Recommended** | HMAC key that signs the session and password-override cookies. Without it, a dev-only constant is used and session cookies are forgeable. |
+| `AUTH_SECRET` | **Required** | HMAC key that signs the session and password-override cookies. The first authenticated request will throw a descriptive error if this is unset on a production build. Local dev (`npm run dev`) keeps a fallback so setup is not blocked. |
 | `ADMIN_SEED_PASSWORD` | Optional | Overrides the baked-in admin seed password. Default: `tsnhi5326`. |
 | `GILI_SEED_PASSWORD` | Optional | Overrides the baked-in גילי seed password. Default: `גילי7369!`. |
 | `ADMIN_ENABLED` | Optional | Set to `1` to expose `/admin/*` routes. Default: `0` (returns 404). |

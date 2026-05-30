@@ -38,6 +38,9 @@ function defaultProgress(): UserProgress {
     diagnosticScore: null,
     diagnosticCompletedAt: null,
     diagnosticCategoryResults: null,
+    diagnosticScoreLow: null,
+    diagnosticScoreHigh: null,
+    diagnosticCoreAccuracy: null,
   };
 }
 
@@ -196,12 +199,26 @@ export function addXp(amount: number): UserProgress {
   return p;
 }
 
-export function saveDiagnosticResult(score: number, categoryResults: Record<string, number>): UserProgress {
+export interface DiagnosticResultInput {
+  scoreLow: number;
+  scoreHigh: number;
+  /** Weighted core-category accuracy (0–1). */
+  coreAccuracy: number;
+  /** Per-category accuracy percentages (0–100), keyed by category id. */
+  perCategory: Record<string, number>;
+}
+
+export function saveDiagnosticResult(input: DiagnosticResultInput): UserProgress {
   const p = loadProgress();
   p.diagnosticCompleted = true;
-  p.diagnosticScore = score;
+  // diagnosticScore keeps its legacy "headline" role for back-compat with
+  // mastery-engine and the readiness widget — it shadows scoreLow.
+  p.diagnosticScore = input.scoreLow;
+  p.diagnosticScoreLow = input.scoreLow;
+  p.diagnosticScoreHigh = input.scoreHigh;
+  p.diagnosticCoreAccuracy = input.coreAccuracy;
   p.diagnosticCompletedAt = new Date().toISOString();
-  p.diagnosticCategoryResults = categoryResults;
+  p.diagnosticCategoryResults = input.perCategory;
   p.xp = (p.xp ?? 0) + 75;
   p.level = getLevelFromXp(p.xp).level;
   if (!p.achievements?.includes("first_diagnostic")) {

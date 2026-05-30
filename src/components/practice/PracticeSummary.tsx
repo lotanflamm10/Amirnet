@@ -1,11 +1,29 @@
 "use client";
 
 import Link from "next/link";
-import type { PracticeSession } from "@/types/questions";
+import type { PracticeSession, QuestionCategory } from "@/types/questions";
 import type { SessionMode } from "@/lib/practice/question-selector";
 import { estimateScore, getScoreBand, calculateSessionAccuracy, formatTime } from "@/lib/practice/scoring";
+import { accuracyToScore } from "@/lib/scoring/score";
 import { useLang } from "@/contexts/LanguageContext";
 import { Target } from "@/components/icons/NavIcons";
+
+/**
+ * Per-category weights mirror the simulation scorer (src/lib/simulation/
+ * score-estimator.ts) so a reading-heavy practice session scores higher
+ * than the same accuracy on word-formation, matching the real exam.
+ * Categories not listed default to weight 1.
+ */
+const CATEGORY_WEIGHTS: Partial<Record<QuestionCategory, number>> = {
+  reading: 3,
+  restatements: 2,
+  sentenceCompletion: 1.5,
+};
+
+function weightFor(category: QuestionCategory | undefined): number {
+  if (!category) return 1;
+  return CATEGORY_WEIGHTS[category] ?? 1;
+}
 
 interface Props {
   session: PracticeSession;
@@ -51,7 +69,29 @@ export default function PracticeSummary({ session, mode, totalTimeSeconds, onPra
     : mode === "restatements" ? "restatements"
     : mode as Parameters<typeof estimateScore>[2];
 
-  const score     = estimateScore(correct, total, category);
+  // Weighted score: when results carry per-question category metadata,
+  // weight reading/restatements/SC the same way the simulation scorer
+  // does, then convert that weighted accuracy via accuracyToScore.
+  // Mixed-mode sessions are the main beneficiary; single-category sessions
+  // give identical weighted vs. unweighted results (uniform numerator
+  // scaling). Sessions stored before the metadata existed fall back to the
+  // unweighted estimateScore.
+  const hasCategoryMeta = results.some((r) => Boolean(r.category));
+  let score: number;
+  let isWeighted = false;
+  if (hasCategoryMeta) {
+    let weightedCorrect = 0;
+    let weightedTotal = 0;
+    for (const r of results) {
+      const w = weightFor(r.category);
+      weightedTotal += w;
+      if (r.correct) weightedCorrect += w;
+    }
+    score = weightedTotal > 0 ? accuracyToScore(weightedCorrect / weightedTotal) : 50;
+    isWeighted = results.some((r) => weightFor(r.category) !== 1);
+  } else {
+    score = estimateScore(correct, total, category);
+  }
   const band      = getScoreBand(score);
   const bandColor = BAND_COLORS[band.color];
   const bandBg    = BAND_BG[band.color];
@@ -78,6 +118,11 @@ export default function PracticeSummary({ session, mode, totalTimeSeconds, onPra
         <div style={{ fontSize: "0.82rem", color: "var(--ink-muted)", margin: "0.375rem 0 0.75rem" }}>
           {t.practiceSummary.estimatedScore}
         </div>
+        {isWeighted && (
+          <div style={{ fontSize: "0.72rem", color: "var(--ink-muted)", margin: "-0.5rem 0 0.75rem", lineHeight: 1.45 }}>
+            {t.practiceSummary.weightedByExam}
+          </div>
+        )}
         <span style={{
           display: "inline-block", padding: "0.3rem 1rem", borderRadius: 99,
           background: `color-mix(in srgb, ${bandColor} 15%, transparent)`,

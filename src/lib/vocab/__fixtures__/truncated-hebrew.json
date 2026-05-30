@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "phase": "Phase 3 Batch A",
+    "createdAt": "2026-05-27",
+    "auditRef": "DIFFICULTY_AUDIT.md §B.10",
+    "note": "DIFFICULTY_AUDIT named 15 entries (adhere to, advocate, bridle, consist, dispose, elderly, give rise to, possess, pursue, refrain, relate to, repudiate, associated, attach, avoid) plus 3 more flagged but not printed. A scan of the current vocab.normalized.json shows all 15 named entries already carry clean Hebrew translations (likely fixed in commit 5bbdcd1). However a broader scan for the literal substring '...' inside hebrewTranslation surfaces 5 entries that still use it as a placeholder for the verb's object — same root cause as the audit (raw import strings carried '...' to mark 'something/someone goes here'). These 5 are the actual remaining occurrences. Two other matches (vocab_whereas, amirnet_b4_not_only_but_also) use '...' intentionally inside stock construction patterns (e.g. 'בשעה ש... בעוד...', 'לא רק...אלא גם') and are left as-is."
+  },
+  "fixed": [
+    {
+      "id": "vocab_conceive",
+      "word": "conceive",
+      "before": "לחשוב על..., להרות",
+      "after": "לתפוס רעיון, לחשוב; להרות"
+    },
+    {
+      "id": "vocab_differ",
+      "word": "differ",
+      "before": "לחלוק על..., להיות שונה, לא להסכים",
+      "after": "להיות שונה, לחלוק על משהו, לא להסכים"
+    },
+    {
+      "id": "vocab_refer",
+      "word": "refer",
+      "before": "להתייחס ל..., להפנות",
+      "after": "להתייחס למשהו, להפנות, לציין"
+    },
+    {
+      "id": "vocab_transform",
+      "word": "transform",
+      "before": "להפוך ל..., להשתנות",
+      "after": "להפוך, להשתנות, לעבור שינוי מוחלט"
+    },
+    {
+      "id": "vocab_treat",
+      "word": "treat",
+      "before": "להתייחס אל..., תענוג",
+      "after": "להתייחס אל, לטפל ב; תענוג, פינוק"
+    }
+  ],
+  "intentionalSkipped": [
+    {
+      "id": "vocab_whereas",
+      "word": "whereas",
+      "hebrewTranslation": "בשעה ש... בעוד... (מראה על ניגוד בין משפטים)",
+      "reason": "Stock contrast construction; '...' marks 'clause goes here' and is part of the teaching pattern."
+    },
+    {
+      "id": "amirnet_b4_not_only_but_also",
+      "word": "not only but also",
+      "hebrewTranslation": "לא רק...אלא גם",
+      "reason": "Stock paired-construction pattern; '...' marks the elided clause."
+    }
+  ],
+  "alreadyFixedBeforePhase3": [
+    "vocab_adhere_to",
+    "vocab_advocate",
+    "vocab_bridle",
+    "vocab_consist",
+    "vocab_dispose",
+    "vocab_elderly",
+    "vocab_give_rise_to",
+    "vocab_possess",
+    "vocab_pursue",
+    "vocab_refrain",
+    "vocab_relate_to",
+    "vocab_repudiate",
+    "vocab_associated",
+    "vocab_attach",
+    "vocab_avoid"
+  ]
+}

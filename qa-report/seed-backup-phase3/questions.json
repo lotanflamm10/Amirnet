@@ -270,9 +270,7 @@
                              "answer":  1,
                              "explanation":  "Expanded its hours to attract visitors means changed opening times to encourage attendance.",
                              "wrongReasons":  [
-                                                  "A reverses 'expanded' to 'reduced' and invents a money-saving motive that the original never mentions.",
-                                                  "C reverses both the cause (too many visitors vs. wanting more) and the action (closed earlier vs. expanded hours).",
-                                                  "D misreads 'attract more visitors' as recruiting staff; the original is about drawing attendance, not hiring."
+                                                  "The other options contradict or distort the sentence."
                                               ],
                              "category":  "restatements"
                          },
@@ -308,9 +306,7 @@
                              "answer":  0,
                              "explanation":  "The sentence says novelty alone is not enough; social benefit matters.",
                              "wrongReasons":  [
-                                                  "B reverses the author's claim; the stem says novelty alone is NOT enough, so novelty cannot be more important than social benefit.",
-                                                  "C is an extreme position never stated; evaluating progress by benefit is not the same as rejecting all new technology.",
-                                                  "D inverts the metric. The stem measures progress BY social benefit; it does not measure benefit by the number of inventions."
+                                                  "The other options reverse or exaggerate the meaning."
                                               ],
                              "category":  "restatements"
                          },
@@ -327,9 +323,7 @@
                              "answer":  1,
                              "explanation":  "Inconclusive means not leading to a firm conclusion.",
                              "wrongReasons":  [
-                                                  "A reverses 'inconclusive' to 'clear' and turns the follow-up study into ending the project.",
-                                                  "C says the team ignored the results and changed topics; the stem says they responded by planning another study on the same question.",
-                                                  "D invents a future outcome. The stem describes the decision to conduct a follow-up, not the results of that follow-up."
+                                                  "The others add or reverse information."
                                               ],
                              "category":  "restatements"
                          },
@@ -365,9 +359,8 @@
                              "answer":  1,
                              "explanation":  "Despite introduces contrast; the event continued in spite of the rain.",
                              "wrongReasons":  [
-                                                  "A directly contradicts 'was not canceled' — the stem explicitly says the event went ahead.",
-                                                  "C invents a location change. The stem says the event was not canceled, not that it moved indoors.",
-                                                  "D invents a postponement. The stem says the event proceeded as scheduled despite the rain, not that it was delayed."
+                                                  "A contradicts the sentence.",
+                                                  "C and D add information not stated."
                                               ],
                              "category":  "restatements"
                          },

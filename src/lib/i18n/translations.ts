@@ -11,6 +11,10 @@ export interface Translations {
     admin: string;
     learningEngine: string;
     settings: string;
+    more: string;
+    bottomNavAria: string;
+    moreSheetAria: string;
+    closeAria: string;
   };
   home: {
     tagline: string;
@@ -278,6 +282,7 @@ export interface Translations {
     motivGood: string;
     motivOk: string;
     motivWeak: string;
+    weightedByExam: string;
   };
   vocab: {
     title: string;
@@ -733,7 +738,7 @@ export interface Translations {
 }
 
 export const he: Translations = {
-  nav: { dashboard: "לוח בקרה", practice: "תרגול", simulation: "הדמיה", vocab: "מילים", review: "סקירה", challenge: "אתגר", pricing: "תמחור", account: "חשבון", admin: "ניהול", learningEngine: "מנוע למידה", settings: "הגדרות" },
+  nav: { dashboard: "לוח בקרה", practice: "תרגול", simulation: "הדמיה", vocab: "מילים", review: "סקירה", challenge: "אתגר", pricing: "תמחור", account: "חשבון", admin: "ניהול", learningEngine: "מנוע למידה", settings: "הגדרות", more: "עוד", bottomNavAria: "ניווט תחתון", moreSheetAria: "תפריט עוד", closeAria: "סגור" },
   home: {
     tagline: "המאמן האישי שלך לאמירנט",
     hero: "תתאמן באנגלית ברמת אמירנט עם כלים חכמים",
@@ -989,6 +994,7 @@ export const he: Translations = {
     motivGood: "ביצוע טוב — עוד קצת תרגול ותגיע לפטור.",
     motivOk: "יש פוטנציאל — תתמקד בנושאים החלשים.",
     motivWeak: "אל תוותר! כל תרגול מקרב אותך למטרה.",
+    weightedByExam: "משוקלל לפי משקלות הבחינה (הבנת הנקרא ×3, ניסוח ×2, השלמת משפטים ×1.5).",
   },
   vocab: {
     title: "מילון",
@@ -1421,7 +1427,7 @@ export const he: Translations = {
 };
 
 export const en: Translations = {
-  nav: { dashboard: "Dashboard", practice: "Practice", simulation: "Simulation", vocab: "Vocab", review: "Review", challenge: "Challenge", pricing: "Pricing", account: "Account", admin: "Admin", learningEngine: "Learn", settings: "Settings" },
+  nav: { dashboard: "Dashboard", practice: "Practice", simulation: "Simulation", vocab: "Vocab", review: "Review", challenge: "Challenge", pricing: "Pricing", account: "Account", admin: "Admin", learningEngine: "Learn", settings: "Settings", more: "More", bottomNavAria: "Bottom navigation", moreSheetAria: "More menu", closeAria: "Close" },
   home: {
     tagline: "Your personal AMIRNET coach",
     hero: "Practice AMIRNET-level English with smart tools",
@@ -1677,6 +1683,7 @@ export const en: Translations = {
     motivGood: "Good performance — a bit more practice and you'll reach exemption.",
     motivOk: "There's potential — focus on your weakest topics.",
     motivWeak: "Don't give up — every session brings you closer.",
+    weightedByExam: "Weighted by exam category (reading ×3, restatements ×2, sentence completion ×1.5).",
   },
   vocab: {
     title: "Vocab Trainer",

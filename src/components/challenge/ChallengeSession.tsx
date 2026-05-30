@@ -5,6 +5,11 @@ import { useRouter } from "next/navigation";
 import type { Question } from "@/types/questions";
 import { selectQuestions } from "@/lib/practice/question-selector";
 import type { DifficultyFilter, SessionMode } from "@/lib/practice/question-selector";
+import {
+  selectReadingPassage,
+  getRecentReadingPassageIds,
+  recordReadingPassageSeen,
+} from "@/lib/reading/reading-passages";
 import { addXp, recordAnswer as recordProgressAnswer } from "@/lib/progress/local-progress-store";
 import type { QuestionCategory } from "@/types/questions";
 import QuestionCard from "@/components/practice/QuestionCard";
@@ -72,6 +77,15 @@ const DIFFS: { id: DifficultyFilter; he: string; en: string }[] = [
  * count/N from each selected category, merges, shuffles, slices to count.
  * Categories marked unavailable (writing task) are silently filtered out
  * — the caller already shows them as disabled in the UI.
+ *
+ * Reading is special: it must be served as ONE coherent passage with its
+ * 5 questions (matching the real AMIRAM block structure). We pull the
+ * passage up-front via selectReadingPassage so the 5 questions all share
+ * the same passage object, keep their passage-natural order, and the
+ * passage is rendered above each question via QuestionCard's built-in
+ * passage display. Reading-only challenges deliver exactly that one
+ * passage's questions; mixed challenges prepend the passage block and
+ * fill the remaining slots from the other categories.
  */
 function buildMultiPool(
   selected: ChallengeCat["id"][],
@@ -80,29 +94,53 @@ function buildMultiPool(
 ): Question[] {
   const cats = selected.filter((id) => !CATEGORIES.find((c) => c.id === id)?.unavailable);
   if (cats.length === 0) return [];
-  const perCat = Math.ceil(count / cats.length);
-  const buckets = cats.map((id) => selectQuestions(id as SessionMode, diff, perCat));
-  // Merge + shuffle
+
+  let readingQuestions: Question[] = [];
+  if (cats.includes("reading")) {
+    const seen = getRecentReadingPassageIds();
+    const bundle = selectReadingPassage(seen, { mode: "practice" });
+    if (bundle) {
+      recordReadingPassageSeen(bundle.passage.id);
+      // Attach the passage to each question so QuestionCard renders it
+      // above the choices; with the same object referenced by all 5
+      // questions, the passage stays identical across the block.
+      readingQuestions = bundle.questions.map((q) => ({ ...q, passage: bundle.passage }));
+    }
+  }
+
+  const nonReadingCats = cats.filter((id) => id !== "reading");
+
+  // Reading-only challenge: the passage's questions ARE the challenge.
+  // We deliberately do not pad with shuffled per-question reading items
+  // (which is what broke the AMIRAM block shape in the first place).
+  if (nonReadingCats.length === 0) {
+    return readingQuestions;
+  }
+
+  const remaining = Math.max(0, count - readingQuestions.length);
+  const perCat = nonReadingCats.length > 0 ? Math.ceil(remaining / nonReadingCats.length) : 0;
+  const buckets = nonReadingCats.map((id) => selectQuestions(id as SessionMode, diff, perCat));
   const merged: Question[] = [];
   let consumed = true;
   let i = 0;
-  while (consumed && merged.length < count) {
+  while (consumed && merged.length < remaining) {
     consumed = false;
     for (const bucket of buckets) {
       if (i < bucket.length) {
         merged.push(bucket[i]);
         consumed = true;
-        if (merged.length >= count) break;
+        if (merged.length >= remaining) break;
       }
     }
     i++;
   }
-  // Final shuffle
+  // Shuffle only the non-reading tail so the 5 passage questions stay
+  // together and in passage order at the front of the session.
   for (let j = merged.length - 1; j > 0; j--) {
     const k = Math.floor(Math.random() * (j + 1));
     [merged[j], merged[k]] = [merged[k], merged[j]];
   }
-  return merged.slice(0, count);
+  return [...readingQuestions, ...merged].slice(0, count);
 }
 
 function calcGain(timeLeft: number, totalTime: number, streak: number): number {
@@ -341,6 +379,20 @@ export default function ChallengeSession() {
   }, [screen, idx]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => () => { stopTimer(); stopReadTimer(); stopAdv(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Hide mobile chrome (bottom tab bar + bottom buffer) while the user is
+  // mid-challenge. Lobby + summary screens keep the normal layout.
+  useEffect(() => {
+    const examActive = screen === "playing" || screen === "answered";
+    if (examActive) {
+      document.documentElement.setAttribute("data-exam-active", "1");
+    } else {
+      document.documentElement.removeAttribute("data-exam-active");
+    }
+    return () => {
+      document.documentElement.removeAttribute("data-exam-active");
+    };
+  }, [screen]);
 
   function toggleCat(id: ChallengeCat["id"]) {
     const cat = CATEGORIES.find((c) => c.id === id);

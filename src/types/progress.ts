@@ -84,7 +84,15 @@ export interface UserProgress {
   targetScore: number;
   achievements: string[];
   diagnosticCompleted: boolean;
+  /** Back-compat: the headline diagnostic score. New code should read
+   *  diagnosticScoreLow / diagnosticScoreHigh for the range. */
   diagnosticScore: number | null;
   diagnosticCompletedAt: string | null;
   diagnosticCategoryResults: Record<string, number> | null;
+  /** Lower bound of the estimated AMIRAM score range (50–150). */
+  diagnosticScoreLow: number | null;
+  /** Upper bound of the estimated AMIRAM score range (50–150). */
+  diagnosticScoreHigh: number | null;
+  /** Weighted core-category accuracy used to derive the score range (0–1). */
+  diagnosticCoreAccuracy: number | null;
 }

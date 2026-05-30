@@ -13,12 +13,13 @@ import {
   saveCurrentSession,
   clearCurrentSession,
 } from "@/lib/practice/practice-engine";
-import { recordAnswer } from "@/lib/progress/local-progress-store";
+import { recordAnswer, loadProgress } from "@/lib/progress/local-progress-store";
 import { formatTime } from "@/lib/practice/scoring";
 import QuestionCard from "./QuestionCard";
 import { WritingTaskCard } from "@/components/simulation/WritingTaskCard";
 import PracticeSummary from "./PracticeSummary";
 import ReadingPassageSession from "./ReadingPassageSession";
+import { Inbox } from "@/components/icons/NavIcons";
 import { useLang } from "@/contexts/LanguageContext";
 import { ensureInView, focusWithoutJump } from "@/lib/ui/smooth-scroll";
 import type { PracticeSession as PracticeSessionType } from "@/types/questions";
@@ -64,7 +65,19 @@ function StandardPracticeSession({ mode, difficulty }: Props) {
   const initSession = useCallback(() => {
     // Use global history to exclude recently-seen practice questions (rolling 200-question window)
     const seenIds = getPracticeSeenIds(200);
-    const qs = selectQuestions(mode, difficulty, sessionQuestionCount, seenIds);
+
+    // Adaptive difficulty: feed the selector the student's category accuracy
+    // (0–100) so the resolved band actually shifts above medium when they're
+    // doing well. Only meaningful once the user has at least a handful of
+    // attempts in this category; below that we let the selector fall back to
+    // its neutral 60% assumption.
+    let recentAccuracy: number | undefined;
+    if (difficulty === "adaptive") {
+      const cat = loadProgress().categoryProgress.find((c) => c.category === mode);
+      if (cat && cat.totalAnswered >= 5) recentAccuracy = cat.accuracyPercent;
+    }
+
+    const qs = selectQuestions(mode, difficulty, sessionQuestionCount, seenIds, recentAccuracy);
 
     const sess = createSession(mode, difficulty, qs.length);
     setQuestions(qs);
@@ -125,7 +138,8 @@ function StandardPracticeSession({ mode, difficulty }: Props) {
       q.id,
       choiceIndex,
       questionSeconds,
-      q.answer
+      q.answer,
+      q.category,
     );
 
     setSession(updated);
@@ -161,8 +175,11 @@ function StandardPracticeSession({ mode, difficulty }: Props) {
     if (!session) return;
     const q = questions[currentIdx];
     if (q) {
-      const timeSeconds = Math.round((Date.now() - questionStartRef.current) / 1000);
-      recordAnswer("writingTask" as Parameters<typeof recordAnswer>[0], true, timeSeconds);
+      // Mirrors the simulation writing-pilot policy (Phase 2 FIX 1):
+      // writing has no rubric, so we don't claim correctness or feed
+      // anything into the writingTask category accuracy bucket. The
+      // recordSeen call still preserves the question in the anti-repetition
+      // history; recordAnswer is intentionally skipped.
       recordSeen(q.id, "practice", q.text, 0);
     }
     handleNext();
@@ -184,7 +201,9 @@ function StandardPracticeSession({ mode, difficulty }: Props) {
           maxWidth: 480,
         }}
       >
-        <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>📭</div>
+        <div style={{ marginBottom: "0.75rem", display: "flex", justifyContent: "center" }} aria-hidden="true">
+          <Inbox size={32} color="var(--ink-muted)" strokeWidth={2} />
+        </div>
         <p style={{ margin: 0 }}>{t.practice.noQuestionsAvailable}</p>
       </div>
     );

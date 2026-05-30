@@ -91,12 +91,18 @@ export function calculateFinalResults(
   const sectionResults: SectionResult[] = state.sections.map((sec) => {
     const questions = questionsBySection[sec.id] ?? [];
     const sectionAns = state.sectionAnswers[sec.id] ?? {};
-    const correct = questions.filter((q) => sectionAns[q.id] === q.answer).length;
+    // Writing-task items are open-ended (q.answer === -1, no rubric); the
+    // recorded "answer" is a 0/1 submission flag. Exclude them from BOTH
+    // correct and total so they neither inflate nor dilute the pilot-bonus
+    // accuracy denominator. The submission flag itself remains in
+    // sectionAns for the review/summary screens.
+    const scorable = questions.filter((q) => q.answer !== -1);
+    const correct = scorable.filter((q) => sectionAns[q.id] === q.answer).length;
     return {
       sectionId: sec.id,
       isPilot: sec.isPilot,
       correct,
-      total: questions.length,
+      total: scorable.length,
       timeTakenSeconds: sec.timeLimitSeconds,
       type: sec.type,
     };

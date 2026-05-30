@@ -20,7 +20,7 @@ const ADMIN_ITEMS = [
   { href: "/admin/questions", label: "Question Admin" },
 ];
 
-const IS_MOCK_ADMIN = true;
+const IS_MOCK_ADMIN = false;
 
 export function MainNav() {
   const pathname = usePathname();

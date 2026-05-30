@@ -116,6 +116,7 @@ export default function ReadingPassageSession({ difficulty }: Props) {
       choiceIndex,
       seconds,
       q.answer,
+      q.category,
     );
     setSession(updated);
     setAnswered(true);

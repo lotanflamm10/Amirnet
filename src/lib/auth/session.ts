@@ -49,11 +49,18 @@ function timingSafeEqualBytes(a: Uint8Array, b: Uint8Array): boolean {
 
 // ── HMAC ───────────────────────────────────────────────────────────────────
 function getSecret(): string {
-  // AUTH_SECRET should be set in production. Fallback is for local dev only.
-  // The fallback is constant per build, so signatures still verify across
-  // serverless instances — but a leaked client-side token would be forgeable
-  // if AUTH_SECRET is left unset. Set it on Vercel for any non-throwaway use.
-  return process.env.AUTH_SECRET ?? "dev-only-amirnet-default-secret-please-set-AUTH_SECRET";
+  const fromEnv = process.env.AUTH_SECRET;
+  if (fromEnv && fromEnv.length > 0) return fromEnv;
+  // Production runtime without AUTH_SECRET → fail closed. A leaked default
+  // secret would let anyone forge a session cookie for any user. We throw
+  // at first request rather than ship a known-key build. Local dev keeps
+  // a constant fallback so `npm run dev` works without env setup.
+  if (process.env.NODE_ENV === "production") {
+    throw new Error(
+      "AUTH_SECRET is required in production. Set it on Vercel under Project → Settings → Environment Variables (or as a Vercel env var via CLI), then redeploy. Without it, session cookies would be forgeable."
+    );
+  }
+  return "dev-only-amirnet-default-secret-please-set-AUTH_SECRET";
 }
 
 async function getHmacKey(): Promise<CryptoKey> {

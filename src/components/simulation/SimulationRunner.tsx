@@ -31,6 +31,17 @@ import paraComplex from "@/data/seed/_gen_para_complex.json";
 import questionsExpanded from "@/data/seed/questions_expanded.json";
 import genScA from "@/data/seed/_gen_sc_a.json";
 import genScB from "@/data/seed/_gen_sc_b.json";
+// Generated category banks for the pilot sections (lecture / tc / wf / grammar).
+// First-write-wins matches questions_expanded.json today; included so the
+// simulation pool keeps the same coverage as /practice/[mode].
+import genLecture1 from "@/data/seed/_gen_lecture_1.json";
+import genLecture2 from "@/data/seed/_gen_lecture_2.json";
+import genLecturePart1Raw from "@/data/seed/_gen_lecture_part1.json";
+import genGrammar from "@/data/seed/_gen_grammar.json";
+import genWf from "@/data/seed/_gen_wf.json";
+import genTc from "@/data/seed/_gen_tc.json";
+import genTc2 from "@/data/seed/_gen_tc_2.json";
+import genTc3 from "@/data/seed/_gen_tc_3.json";
 
 type RawQ = Record<string, Question[]>;
 
@@ -41,8 +52,16 @@ function buildQuestionsPool(): RawQ {
   const expanded   = questionsExpanded as unknown as RawQ;
   const scA        = genScA           as unknown as RawQ;
   const scB        = genScB           as unknown as RawQ;
+  const lec1       = genLecture1      as unknown as RawQ;
+  const lec2       = genLecture2      as unknown as RawQ;
+  const lecPart1: RawQ = { lectureQuestions: genLecturePart1Raw as unknown as Question[] };
+  const gram       = genGrammar       as unknown as RawQ;
+  const wf         = genWf            as unknown as RawQ;
+  const tc1        = genTc            as unknown as RawQ;
+  const tc2        = genTc2           as unknown as RawQ;
+  const tc3        = genTc3           as unknown as RawQ;
   const merged: RawQ = { ...base };
-  for (const src of [addon, complexPar, expanded, scA, scB]) {
+  for (const src of [addon, complexPar, expanded, scA, scB, lec1, lec2, lecPart1, gram, wf, tc1, tc2, tc3]) {
     for (const [k, v] of Object.entries(src)) {
       const existing = new Set((merged[k] ?? []).map((q) => q.id));
       merged[k] = [...(merged[k] ?? []), ...v.filter((q) => !existing.has(q.id))];
@@ -174,6 +193,8 @@ function SimulationRunnerInner({ mode }: Props) {
   const seenIds    = useRef(new Set<string>());
   const seenHashes = useRef(new Set<string>());
   const recordedRef = useRef(false);
+  // Writing task text — stored in a ref (not reactive; only read on section expiry)
+  const writingTextRef = useRef("");
 
   // Seed dedup sets from section 0 questions
   useLayoutEffect(() => {
@@ -182,6 +203,21 @@ function SimulationRunnerInner({ mode }: Props) {
       seenHashes.current.add(hashSentence(q.text));
     });
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Mark the document as being inside an active exam so chrome (mobile
+  // bottom tab bar, page-bottom buffer) can collapse during timed work.
+  // The summary, review and pilot-intro phases restore the normal chrome.
+  useEffect(() => {
+    const examActive = state.phase === "active" || state.phase === "between-sections";
+    if (examActive) {
+      document.documentElement.setAttribute("data-exam-active", "1");
+    } else {
+      document.documentElement.removeAttribute("data-exam-active");
+    }
+    return () => {
+      document.documentElement.removeAttribute("data-exam-active");
+    };
+  }, [state.phase]);
 
   // Persist simulation state on every change so a closed tab leaves enough
   // to rebuild an abandoned-history record. Skip when done/review — those
@@ -264,26 +300,56 @@ function SimulationRunnerInner({ mode }: Props) {
   }, []);
 
   const handleSectionExpire = useCallback(() => {
+    // Writing-pilot sections have no rubric, so we don't grade correctness.
+    // We DO record participation: a non-empty textarea on section end
+    // becomes a recordAnswer of 1 (vs. 0 for an empty submission). The
+    // question's real answer is -1, so neither value contributes to the
+    // pilot section's correct count — the boolean exists purely so the
+    // pilot bonus calculator can see the student attempted the section.
+    const currentSection = state.sim.sections[state.sim.currentSectionIndex];
+    if (currentSection?.type === "writingTask") {
+      const writingQ = state.sectionQuestions[0];
+      if (writingQ) {
+        const submitted = writingTextRef.current.trim().length > 0;
+        dispatch({ type: "ANSWER", questionId: writingQ.id, choiceIdx: submitted ? 1 : 0 });
+      }
+    }
     dispatch({ type: "EXPIRE_SECTION" });
-  }, []);
+  }, [state.sim, state.sectionQuestions]);
 
   const handleContinueSection = useCallback(() => {
     const nextSec = state.sim.sections[state.sim.currentSectionIndex];
     if (!nextSec) return;
-    const qs = selectAdaptiveQuestions(nextSec, POOL, undefined, seenIds.current, seenHashes.current);
+
+    // Adaptive difficulty: compute the just-completed section's accuracy
+    // (correct / total) and pass it to selectAdaptiveQuestions so the new
+    // section's preferred difficulty shifts up/down. Reading and SC sections
+    // are routed to their own dedicated selectors inside
+    // selectAdaptiveQuestions, so prior-accuracy steering doesn't apply.
+    const prevIdx = state.sim.currentSectionIndex - 1;
+    const prevSec = prevIdx >= 0 ? state.sim.sections[prevIdx] : null;
+    let prevAccuracy: number | undefined;
+    if (prevSec && prevSec.type !== "reading" && prevSec.type !== "sentenceCompletion") {
+      const prevQs = state.allSectionQuestions[prevSec.id] ?? [];
+      const prevAns = state.sim.sectionAnswers[prevSec.id] ?? {};
+      const total = prevQs.length;
+      if (total > 0) {
+        const correct = prevQs.filter((q) => prevAns[q.id] === q.answer).length;
+        prevAccuracy = correct / total;
+      }
+    }
+
+    const qs = selectAdaptiveQuestions(nextSec, POOL, prevAccuracy, seenIds.current, seenHashes.current);
     qs.forEach((q) => {
       seenIds.current.add(q.id);
       seenHashes.current.add(hashSentence(q.text));
     });
     dispatch({ type: "LOAD_NEXT_SECTION", sectionId: nextSec.id, questions: qs });
-  }, [state.sim]);
+  }, [state.sim, state.allSectionQuestions]);
 
   const handlePilotIntroContinue = useCallback(() => {
     dispatch({ type: "DISMISS_PILOT_INTRO" });
   }, []);
-
-  // Writing task text — stored in a ref (not reactive; only read on section expiry)
-  const writingTextRef = useRef("");
 
   const handleRestart = useCallback(() => {
     // Defensive guard: a session just completed may have consumed the

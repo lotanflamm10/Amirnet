@@ -6269,34 +6269,6 @@
       ],
       "hebrewExplanation": "ossified = מאובן, קשיח ולא מסוגל להשתנות. כללים מהשנות ה-80 עדיין מסדירים טכנולוגיות מהעשור הקודם — כלומר, המסגרת קפאה ולא הצליחה להתפתח.",
       "estimatedTimeSeconds": 50
-    },
-    {
-      "id": "sb-vc-301",
-      "difficulty": "medium",
-      "text": "The committee's findings were _____ of the broader patterns observed in comparable studies.",
-      "choices": [
-        "representative",
-        "indicative",
-        "suggestive",
-        "reflective"
-      ],
-      "answer": 0,
-      "explanation": "'Representative of' means serving as a typical example of a larger group, which precisely fits 'broader patterns in comparable studies'. The other adjectives carry subtly different meanings.",
-      "wrongReasons": [
-        "Indicative of means pointing toward or suggesting — implies a weaker or indirect signal than the statistical sense of representation.",
-        "Suggestive of implies a hint or implication rather than direct typicality.",
-        "Reflective of means mirroring or showing something, which is close but less precise in an academic statistical context."
-      ],
-      "subType": "vocabularyInContext",
-      "sourceType": "skill_booster",
-      "isSkillBooster": true,
-      "skillTags": [
-        "vocabulary",
-        "context-clues"
-      ],
-      "vocabularyWords": [
-        "representative"
-      ]
     }
   ],
   "synonymRecognition": [

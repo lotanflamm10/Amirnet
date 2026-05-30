@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useLayoutEffect, useRef, useCallback } from "react";
 import { learningTips } from "@/data/seed/learningTips";
 import { LearningTipCard } from "./LearningTipCard";
 import { useLang } from "@/contexts/LanguageContext";
@@ -50,6 +50,26 @@ export function LearningEngine() {
     setBookmarked(loadSet(bookmarkedK()));
     const idx = Number(safeGetItem(lastIdxK()) ?? "0");
     if (idx > 0 && idx < tips.length) setCurrentIdx(idx);
+  }, []);
+
+  // Collapse the page-bottom buffer that `<main>` reserves for the
+  // next-action-bar (used by practice/reading). LearningEngine has its own
+  // sticky action bar at the bottom of each tip card, so the global 4rem
+  // breathing room above the tab bar shows up as a visible empty stripe.
+  // We shrink --content-bottom-pad to tab-bar + safe-area for the duration
+  // of this view (mobile only — desktop has no tab bar).
+  useLayoutEffect(() => {
+    if (!window.matchMedia("(max-width: 1023px)").matches) return;
+    const root = document.documentElement;
+    const original = root.style.getPropertyValue("--content-bottom-pad");
+    root.style.setProperty(
+      "--content-bottom-pad",
+      "calc(var(--mobile-tabbar-height, 56px) + env(safe-area-inset-bottom, 0px))",
+    );
+    return () => {
+      if (original) root.style.setProperty("--content-bottom-pad", original);
+      else root.style.removeProperty("--content-bottom-pad");
+    };
   }, []);
 
   // Restore scroll position after mount
@@ -147,11 +167,13 @@ export function LearningEngine() {
     <div
       style={{
         position: "relative",
-        // Account for the fixed mobile bottom tab bar + iPhone home indicator
-        // safe-area inset + a small breathing margin so the last card's
-        // action button is never hidden behind the nav.
+        // Fit exactly inside <main>'s content area: total viewport minus
+        // main's bottom padding (which itself reserves the tab bar / safe
+        // area via --content-bottom-pad — collapsed above) and main's top
+        // padding. No extra breathing margin → the tip card's action bar
+        // sits flush above the tab bar, no double-gap empty stripe below.
         height:
-          "calc(100dvh - var(--mobile-tabbar-height, 56px) - env(safe-area-inset-bottom, 0px) - 12px)",
+          "calc(100dvh - var(--content-bottom-pad) - max(1.5rem, env(safe-area-inset-top)))",
         overflow: "hidden",
         maxWidth: "100%",
         minWidth: 0,

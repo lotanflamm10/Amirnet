@@ -785,6 +785,20 @@
       ]
     },
     {
+      "id": "wf107",
+      "category": "vocabularyInContext",
+      "difficulty": "medium",
+      "text": "The committee's findings were _____ of the broader patterns observed in comparable studies.",
+      "choices": ["indicative", "representative", "suggestive", "reflective"],
+      "answer": 1,
+      "explanation": "'Representative of' means serving as a typical example of a larger group, which precisely fits 'broader patterns in comparable studies'. The other adjectives carry subtly different meanings.",
+      "wrongReasons": [
+        "Indicative of means pointing toward or suggesting — implies a weaker or indirect signal than the statistical sense of representation.",
+        "Suggestive of implies a hint or implication rather than direct typicality.",
+        "Reflective of means mirroring or showing something, which is close but less precise in an academic statistical context."
+      ]
+    },
+    {
       "id": "wf108",
       "category": "wordFormation",
       "difficulty": "hard",

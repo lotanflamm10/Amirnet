@@ -2,6 +2,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import diagnosticQuestions from "@/data/seed/diagnostic-questions.json";
 import { saveDiagnosticResult } from "@/lib/progress/local-progress-store";
+import { accuracyToScore } from "@/lib/scoring/score";
 import { useLang } from "@/contexts/LanguageContext";
 import type { Translations } from "@/lib/i18n/translations";
 import { ensureInView } from "@/lib/ui/smooth-scroll";
@@ -114,9 +115,20 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
     // aces core but tanks boosters).
     const reportedAccuracyPct = Math.round(coreAccuracy * 100);
 
-    const scoreLow = Math.max(50, Math.min(150, Math.round(70 + coreAccuracy * 0.55 * 100)));
+    // Headline score uses the SAME piecewise curve as the simulation
+    // scorer (accuracyToScore), so a student who hits 70% on the diagnostic
+    // sees the same score they'd see for 70% on a full simulation — no
+    // confusing "two estimators that disagree" UX. The +12 spread keeps the
+    // diagnostic's range framing intact (15 questions can't pin a real
+    // score that tightly).
+    const scoreLow = accuracyToScore(coreAccuracy);
     const scoreHigh = Math.min(150, scoreLow + 12);
-    saveDiagnosticResult(scoreLow, catResults);
+    saveDiagnosticResult({
+      scoreLow,
+      scoreHigh,
+      coreAccuracy,
+      perCategory: catResults,
+    });
     setResultData({ scoreLow, scoreHigh, catAccuracies, overallPct: reportedAccuracyPct });
     setScreen("results");
   }, []);
@@ -190,7 +202,7 @@ export default function DiagnosticTest({ onComplete }: { onComplete: () => void 
   if (screen === "testing") {
     const q = questions[currentIndex];
     const choiceLabels = ["A", "B", "C", "D"];
-    const progressPct = (currentIndex / 15) * 100;
+    const progressPct = (currentIndex / questions.length) * 100;
 
     return (
       <div ref={questionRef} style={{ maxWidth: 560, margin: "0 auto", width: "100%", padding: "1rem" }}>

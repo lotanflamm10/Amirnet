@@ -35,6 +35,24 @@ export function OfflineBanner() {
     };
   }, []);
 
+  // The banner is fixed-position so it doesn't push the document; push
+  // <main> via --main-pad-top (AppShell consults it for paddingTop) so
+  // page headers aren't covered while the banner is visible.
+  useEffect(() => {
+    const root = document.documentElement;
+    if (offline || recoveredAt) {
+      root.style.setProperty(
+        "--main-pad-top",
+        "calc(max(1.5rem, env(safe-area-inset-top)) + 2.75rem)",
+      );
+    } else {
+      root.style.removeProperty("--main-pad-top");
+    }
+    return () => {
+      root.style.removeProperty("--main-pad-top");
+    };
+  }, [offline, recoveredAt]);
+
   if (!offline && !recoveredAt) return null;
 
   const isOffline = offline;

@@ -1,9 +1,12 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { SESSION_COOKIE, USER_COOKIE, verifySessionToken, SESSION_MAX_AGE_SECONDS } from "@/lib/auth/session";
+import { findUserById } from "@/lib/auth/users";
 
 /**
  * 1. /admin/* stays disabled in production unless ADMIN_ENABLED=1
- *    (preserves original middleware behavior).
+ *    (preserves original middleware behavior). When enabled, it ALSO
+ *    requires the session's user to have role === "admin"; non-admins
+ *    get a 404 (not a redirect) so the route appears to not exist.
  * 2. Everything else requires a valid signed session cookie;
  *    unauthenticated requests are redirected to /login.
  * 3. If the signed session is valid but the companion `amirnet-user`
@@ -19,17 +22,28 @@ import { SESSION_COOKIE, USER_COOKIE, verifySessionToken, SESSION_MAX_AGE_SECOND
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // 1. Preserve original /admin gate.
+  const sessionToken = req.cookies.get(SESSION_COOKIE)?.value;
+  const session = await verifySessionToken(sessionToken);
+  const isAuthed = session !== null;
+
+  // 1. /admin gate: hidden unless ADMIN_ENABLED=1, AND only available to
+  //    users whose seed record carries role === "admin". A non-admin (or
+  //    unauthenticated visitor) sees a 404, matching the disabled-route
+  //    response — we don't redirect to /login because we want to avoid
+  //    leaking that /admin exists at all.
   if (pathname.startsWith("/admin")) {
     if (process.env.ADMIN_ENABLED !== "1") {
       return new NextResponse(null, { status: 404 });
     }
-    // /admin is reachable only with ADMIN_ENABLED=1 — still require login below.
+    if (!session) {
+      return new NextResponse(null, { status: 404 });
+    }
+    const user = findUserById(session.userId);
+    if (user?.role !== "admin") {
+      return new NextResponse(null, { status: 404 });
+    }
+    // Admin user, ADMIN_ENABLED=1 — fall through to companion-cookie refresh.
   }
-
-  const sessionToken = req.cookies.get(SESSION_COOKIE)?.value;
-  const session = await verifySessionToken(sessionToken);
-  const isAuthed = session !== null;
 
   // 2. /login: bounce already-authenticated users to /app, otherwise show form.
   if (pathname === "/login") {

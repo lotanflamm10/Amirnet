@@ -2,7 +2,11 @@
 import type { SectionResult } from "./score-estimator";
 
 export function calculatePilotBonus(pilotResults: SectionResult[]): number {
-  const pilotOnly = pilotResults.filter((r) => r.isPilot);
+  // Belt-and-braces: simulation-engine.ts already strips writingTask items
+  // from correct/total (q.answer === -1), so writing sections arrive here
+  // with total = 0. We also skip the writingTask section type explicitly
+  // in case a future caller wires this to a different pipeline.
+  const pilotOnly = pilotResults.filter((r) => r.isPilot && r.type !== "writingTask");
   if (pilotOnly.length === 0) return 0;
 
   const totalCorrect = pilotOnly.reduce((sum, r) => sum + r.correct, 0);

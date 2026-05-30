@@ -108,6 +108,11 @@ export interface PracticeResult {
   chosenIndex: number;
   timeSpentSeconds: number;
   answeredAt: string;
+  /** Originating question category — used by PracticeSummary to weight
+   *  mixed-session accuracy the same way the simulation scorer does
+   *  (reading × 3, restatements × 2, SC × 1.5, others × 1). Optional for
+   *  back-compat with sessions stored before this field existed. */
+  category?: QuestionCategory;
 }
 
 export interface PracticeSession {

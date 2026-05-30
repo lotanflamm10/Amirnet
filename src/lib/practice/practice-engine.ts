@@ -1,4 +1,4 @@
-import type { PracticeSession, PracticeResult, PracticeMode } from "@/types/questions";
+import type { PracticeSession, PracticeResult, PracticeMode, QuestionCategory } from "@/types/questions";
 import type { SessionMode, DifficultyFilter } from "./question-selector";
 import { userKey, safeGetItem, safeSetItem, safeRemoveItem } from "@/lib/storage/user-storage";
 
@@ -40,7 +40,8 @@ export function submitAnswer(
   questionId: string,
   choiceIndex: number,
   timeSeconds: number,
-  correctIndex: number
+  correctIndex: number,
+  category?: QuestionCategory,
 ): AnswerResult {
   const correct = choiceIndex === correctIndex;
   const result: PracticeResult = {
@@ -49,6 +50,7 @@ export function submitAnswer(
     chosenIndex: choiceIndex,
     timeSpentSeconds: timeSeconds,
     answeredAt: nowIso(),
+    category,
   };
   const updated: PracticeSession = {
     ...session,
