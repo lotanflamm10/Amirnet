@@ -2,7 +2,16 @@
 
 import type { PlanId, EntitlementKey } from "@/lib/billing/types";
 import type { UserEntitlement } from "@/types/billing";
-import { userKey, safeGetItem, safeSetItem } from "@/lib/storage/user-storage";
+import { userKey, safeGetItem, safeSetItem, getCurrentUserId } from "@/lib/storage/user-storage";
+
+/**
+ * Tester accounts that always resolve to the "pro" plan so friends can
+ * exercise every gated feature (unlimited simulations, full analytics,
+ * vocab import) without going through the mock pricing flow on each
+ * device they log in from. Add usernames here, not passwords; the
+ * entitlement only kicks in for actively logged-in sessions.
+ */
+const TESTER_USER_IDS = new Set<string>(["daniel"]);
 
 const LEGACY_KEY = "amirnet-entitlement-v1";
 const k = () => userKey(LEGACY_KEY);
@@ -94,6 +103,12 @@ function isValidPlanId(value: string): value is PlanId {
 
 export function getCurrentPlan(): PlanId {
   if (typeof window === "undefined") return "guest";
+  // Tester allowlist short-circuits the stored plan AND the prod-default
+  // "guest" so testers always see Pro behaviour regardless of which device
+  // they log in from. This is intentionally device-independent: testers
+  // shouldn't have to re-activate Pro from /pricing on every device.
+  const uid = getCurrentUserId();
+  if (uid && TESTER_USER_IDS.has(uid)) return "pro";
   const stored = safeGetItem(k());
   if (stored && isValidPlanId(stored)) return stored;
   return process.env.NODE_ENV !== "production" ? "pro" : "guest";
