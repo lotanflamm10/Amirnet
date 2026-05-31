@@ -1,6 +1,6 @@
 # questions_expanded.json — category vs top-level key mismatch survey
 
-Generated: 2026-05-31T08:48:45.414Z
+Generated: 2026-05-31T12:47:30.609Z
 
 The practice selector (`src/lib/practice/question-selector.ts`) pulls items by
 their TOP-LEVEL key in the JSON. The `category` field on each item is metadata
@@ -12,14 +12,14 @@ This file is a SURVEY only. No fixes applied.
 ## Aggregate
 
 - Total items scanned: **1207**
-- Items where `category` mismatches their top-level key: **12**
+- Items where `category` mismatches their top-level key: **0**
 
 ## Per-key breakdown
 
 | top-level key | total items | mismatches |
 |---|---:|---:|
 | `sentenceCompletion` | 212 | 0 |
-| `paraphrasing` | 214 | 12 |
+| `paraphrasing` | 214 | 0 |
 | `grammar` | 114 | 0 |
 | `wordFormation` | 113 | 0 |
 | `reading` | 214 | 0 |
@@ -31,16 +31,4 @@ This file is a SURVEY only. No fixes applied.
 
 | top-level key | item id | declared category | expected |
 |---|---|---|---|
-| `paraphrasing` | `px001` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px002` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px003` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px004` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px005` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px006` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px007` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px008` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px009` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px010` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px011` | `paraphrasing` | `restatements` |
-| `paraphrasing` | `px012` | `paraphrasing` | `restatements` |
 

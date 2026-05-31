@@ -7885,7 +7885,7 @@
     },
     {
       "id": "px001",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "easy",
       "text": "The council voted unanimously to approve the new zoning regulations.",
       "choices": [
@@ -7904,7 +7904,7 @@
     },
     {
       "id": "px002",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "medium",
       "text": "Prolonged exposure to loud noise can permanently impair a person's hearing.",
       "choices": [
@@ -7923,7 +7923,7 @@
     },
     {
       "id": "px003",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "hard",
       "text": "The merger was contingent upon regulatory approval from three separate government bodies.",
       "choices": [
@@ -7942,7 +7942,7 @@
     },
     {
       "id": "px004",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "medium",
       "text": "The archaeologist's meticulous documentation preserved an accurate record of the excavation.",
       "choices": [
@@ -7961,7 +7961,7 @@
     },
     {
       "id": "px005",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "easy",
       "text": "The government allocated additional funds to improve rural healthcare infrastructure.",
       "choices": [
@@ -7980,7 +7980,7 @@
     },
     {
       "id": "px006",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "hard",
       "text": "Despite the adverse weather conditions, the expedition team pressed on with their climb.",
       "choices": [
@@ -7999,7 +7999,7 @@
     },
     {
       "id": "px007",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "medium",
       "text": "The scientist refuted the hypothesis with compelling experimental evidence.",
       "choices": [
@@ -8018,7 +8018,7 @@
     },
     {
       "id": "px008",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "easy",
       "text": "The company's profits increased significantly in the second quarter of the year.",
       "choices": [
@@ -8037,7 +8037,7 @@
     },
     {
       "id": "px009",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "hard",
       "text": "The legislation was drafted to mitigate the adverse economic effects of the trade embargo.",
       "choices": [
@@ -8056,7 +8056,7 @@
     },
     {
       "id": "px010",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "medium",
       "text": "The instructor emphasized the importance of critical thinking over rote memorization.",
       "choices": [
@@ -8075,7 +8075,7 @@
     },
     {
       "id": "px011",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "easy",
       "text": "The museum's new exhibit attracted thousands of visitors within the first week.",
       "choices": [
@@ -8094,7 +8094,7 @@
     },
     {
       "id": "px012",
-      "category": "paraphrasing",
+      "category": "restatements",
       "difficulty": "hard",
       "text": "The negotiators reached a compromise that satisfied neither party fully but prevented further conflict.",
       "choices": [
