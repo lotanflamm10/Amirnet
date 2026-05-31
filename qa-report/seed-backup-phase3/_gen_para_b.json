@@ -442,7 +442,7 @@
       "difficulty": "easy",
       "text": "Philosophers have long questioned whether moral truths are universal or culturally relative.",
       "choices": [
-        "It is widely agreed among philosophers across nearly every modern tradition that moral truths are universal and apply uniformly across all cultures throughout history without significant exception.",
+        "It is widely agreed among philosophers that moral truths are universal.",
         "The question of whether moral standards apply to all cultures equally or vary by culture has been a persistent subject of philosophical inquiry.",
         "Philosophers have recently discovered that moral truths are entirely subjective.",
         "Cultural relativism has been rejected by most modern philosophers."
@@ -632,7 +632,7 @@
       "difficulty": "medium",
       "text": "The concept of diminishing marginal returns suggests that adding more of one input eventually yields smaller additional gains.",
       "choices": [
-        "Diminishing marginal returns implies that adding additional units of input steadily increases overall output without any upper limit, contrary to what intuition about resource constraints might suggest.",
+        "Diminishing marginal returns implies that adding inputs steadily increases overall output without limit.",
         "Beyond a certain point, each additional unit of input contributes less to output than the previous one, according to the principle of diminishing marginal returns.",
         "Diminishing marginal returns applies only when multiple inputs are increased simultaneously.",
         "The principle of diminishing marginal returns holds that output declines immediately upon adding any new input."
@@ -918,7 +918,7 @@
       "text": "Language policy in multilingual states often reflects underlying tensions between national unity and minority rights.",
       "choices": [
         "In multilingual countries, language policy is usually designed to protect minority rights at the expense of national unity.",
-        "Multilingual states typically resolve their underlying language tensions efficiently through neutral, technocratic policy frameworks that satisfy both the majority population and the various recognised minority communities equally well.",
+        "Multilingual states typically resolve language tensions through neutral policy frameworks.",
         "Language policy in countries with multiple linguistic communities often embodies the conflict between preserving a unified national identity and protecting minority linguistic rights.",
         "Language tensions in multilingual states are unrelated to official language policy."
       ],
@@ -1031,8 +1031,8 @@
       "difficulty": "medium",
       "text": "Comparative advantage theory suggests that countries benefit from specializing in goods they produce at relatively lower cost, even if another country could produce everything more efficiently.",
       "choices": [
-        "Comparative advantage holds that only the most efficient countries — those with the lowest absolute production costs in every category of goods — should produce and trade with others.",
-        "According to comparative advantage theory, countries gain from specializing in goods with the lowest relative cost, even when one country is more efficient at producing everything.",
+        "Comparative advantage holds that only the most efficient countries should produce goods and trade with others.",
+        "Countries gain from specializing in and trading goods where their relative production cost is lower, according to comparative advantage theory, even when one country has an absolute efficiency edge in all goods.",
         "Comparative advantage theory implies that trade benefits only countries with the highest absolute productivity.",
         "Countries should avoid specialization and instead produce all goods domestically, according to comparative advantage theory."
       ],
@@ -1050,7 +1050,7 @@
       "difficulty": "medium",
       "text": "Bioethics requires weighing patient autonomy against the duty of care that medical professionals owe their patients.",
       "choices": [
-        "In bioethics, patient autonomy always and unconditionally overrides the physician's duty of care, regardless of how serious the foreseeable medical consequences for the patient might be.",
+        "In bioethics, patient autonomy always overrides the physician's duty of care.",
         "Bioethical reasoning involves balancing a patient's right to make their own decisions against the medical professional's obligation to act in the patient's best interest.",
         "Medical professionals are not ethically obligated to consider patient autonomy.",
         "The duty of care always supersedes patient autonomy in bioethical frameworks."
@@ -1164,7 +1164,7 @@
       "difficulty": "medium",
       "text": "Micronutrient deficiencies, despite being largely preventable, remain a major public health concern in many regions.",
       "choices": [
-        "Micronutrient deficiencies persist as a major public health concern precisely because they are inherently difficult to prevent under current dietary, agricultural, and supplementation strategies in most affected regions.",
+        "Micronutrient deficiencies are a public health concern because they are difficult to prevent.",
         "Public health authorities have successfully eliminated micronutrient deficiencies in most regions.",
         "Though micronutrient deficiencies could in large part be prevented, they continue to pose a serious public health problem in numerous parts of the world.",
         "The public health impact of micronutrient deficiencies is confined to a small number of isolated regions."
@@ -1316,7 +1316,7 @@
       "difficulty": "hard",
       "text": "Development indices that aggregate multiple dimensions of well-being can obscure distributional inequalities within the populations they measure.",
       "choices": [
-        "Multidimensional development indices substantially improve the visibility of distributional inequalities within measured populations compared to traditional single-dimension measures, precisely because they aggregate several variables at once.",
+        "Multidimensional development indices improve the visibility of distributional inequalities compared to single-dimension measures.",
         "When multiple aspects of well-being are combined into a single index, the resulting measure may hide how unevenly those dimensions are distributed across the measured population.",
         "Development indices that aggregate well-being dimensions are only reliable when distributional inequalities are absent.",
         "Distributional inequalities within populations are best captured by single-dimension indices rather than composite measures."
@@ -1411,7 +1411,7 @@
       "difficulty": "hard",
       "text": "The precautionary principle holds that where an action risks harm to the public or the environment, precautionary measures should be taken even in the absence of full scientific certainty.",
       "choices": [
-        "Under the precautionary principle, any action intended to prevent potential harm to the public or environment should be carefully postponed until complete scientific certainty about the underlying mechanisms has been established beyond all reasonable doubt.",
+        "Under the precautionary principle, action to prevent harm should be postponed until complete scientific certainty is established.",
         "The precautionary principle requires precautionary action only when the scientific evidence of harm is conclusive.",
         "Precautionary measures to protect the public or environment are warranted under the precautionary principle even when scientific evidence is incomplete, provided harm is a credible risk.",
         "The precautionary principle limits the scope of regulatory action to cases where harm has already occurred."
@@ -1449,8 +1449,8 @@
       "difficulty": "hard",
       "text": "Carbon border adjustment mechanisms are designed not to protect domestic industries per se but to prevent carbon leakage by ensuring that imports are subject to equivalent carbon costs.",
       "choices": [
-        "Carbon border adjustments are primarily protectionist trade measures designed to shield domestic producers from foreign competition, while incidentally reducing carbon leakage as a secondary side effect.",
-        "Carbon border adjustment mechanisms apply equivalent carbon costs to imports, preventing carbon leakage rather than primarily protecting domestic industry.",
+        "Carbon border adjustments are primarily protectionist trade measures that incidentally reduce carbon leakage.",
+        "The purpose of carbon border adjustment mechanisms is to level the carbon cost playing field for imported goods, thereby preventing carbon leakage rather than shielding domestic industries as such.",
         "Carbon border adjustments prevent carbon leakage by exempting domestic industries from carbon pricing.",
         "Carbon border adjustment mechanisms are designed to eliminate trade competition by imposing costs on all imported goods equally."
       ],
@@ -1471,7 +1471,7 @@
         "Industrialization produces population growth acceleration by lowering mortality rates while leaving fertility unchanged.",
         "The demographic transition model holds that industrialization raises fertility while reducing mortality, stabilizing population size.",
         "According to the demographic transition model, both birth and death rates fall as societies undergo industrialization, leading to a population growing at a reduced pace.",
-        "The demographic transition model predicts that, in industrializing societies, fertility declines invariably precede mortality declines by a significant margin, eventually causing absolute population contraction rather than mere slower growth."
+        "The demographic transition model predicts that fertility declines precede mortality declines in industrializing societies, causing population contraction."
       ],
       "answer": 2,
       "explanation": "Choice C correctly restates all elements: both fertility and mortality decline with industrialization, and the result is slower population growth.",
@@ -1640,8 +1640,8 @@
       "text": "Loss aversion theory predicts that individuals weight potential losses more heavily than equivalent gains, producing systematic departures from expected utility maximization.",
       "choices": [
         "Loss aversion theory holds that individuals are indifferent between equivalent losses and gains, consistent with expected utility maximization.",
-        "According to loss aversion theory, people feel potential gains far more intensely than they feel equal potential losses of identical magnitude, leading to predictable and measurable deviations from rational utility maximization.",
-        "Loss aversion theory predicts that losing a given amount has greater psychological weight than gaining the same amount, causing systematic departures from utility maximization.",
+        "According to loss aversion theory, people feel potential gains more intensely than equal potential losses, leading to predictable deviations from rational utility maximization.",
+        "The theory of loss aversion predicts that the psychological impact of losing a given amount is greater than the impact of gaining the same amount, causing behaviour to diverge systematically from pure utility maximization.",
         "Loss aversion predicts that potential gains and losses are both discounted equally, producing no systematic departure from expected utility."
       ],
       "answer": 2,
@@ -1678,7 +1678,7 @@
       "text": "Circular economy principles seek to decouple economic growth from resource consumption by designing products for reuse, repair, and recycling.",
       "choices": [
         "Circular economy principles accept that resource consumption must increase proportionally with economic growth.",
-        "The circular economy aims to maintain the link between economic growth and resource use through the deployment of more efficient extraction technologies, leaner mining methods, and improved processing yields across raw-material supply chains.",
+        "The circular economy aims to maintain the link between growth and resource use through more efficient extraction technologies.",
         "By emphasizing product design that enables reuse, repair, and recycling, circular economy principles aim to allow economies to grow without a corresponding rise in resource consumption.",
         "Circular economy models prioritize degrowth over economic expansion as the means of reducing resource consumption."
       ],
@@ -1696,7 +1696,7 @@
       "difficulty": "hard",
       "text": "Though both aim at reducing poverty, conditional cash transfer programmes differ from unconditional ones in requiring recipients to fulfil specified behavioural obligations.",
       "choices": [
-        "Conditional and unconditional cash transfer programmes are virtually identical in structural design, the sole material difference being that conditional schemes typically provide substantially higher monetary amounts to qualifying recipients.",
+        "Conditional and unconditional cash transfer programmes are identical in structure except that the former provide higher monetary amounts.",
         "The distinguishing feature of conditional cash transfer programmes, as opposed to unconditional ones, is that they impose behavioural requirements on recipients as a condition of receiving funds.",
         "Unconditional cash transfer programmes require behavioural obligations from recipients, while conditional programmes do not.",
         "Cash transfer programmes, whether conditional or unconditional, all require some form of behavioural compliance as a condition of eligibility."
@@ -1772,7 +1772,7 @@
       "difficulty": "hard",
       "text": "Unlike models that treat preferences as exogenous, endogenous preference theories hold that preferences are themselves shaped by economic and social institutions.",
       "choices": [
-        "Endogenous preference theories ultimately agree with the older exogenous models that individual preferences are formed prior to and independently of economic institutions, differing only in terminology and emphasis rather than substance.",
+        "Endogenous preference theories agree with exogenous models that preferences are formed prior to and independently of economic institutions.",
         "Endogenous preference theories hold that economic and social institutions are determined by pre-existing preferences rather than shaping them.",
         "In contrast to approaches that treat preferences as given from outside the system, endogenous preference theories maintain that preferences are formed through interaction with economic and social structures.",
         "Endogenous preference theories hold that preferences are fixed at birth and cannot be altered by social institutions."
@@ -1829,8 +1829,8 @@
       "difficulty": "hard",
       "text": "Path dependency in institutional economics suggests that the range of viable future choices is constrained by prior decisions, even when those earlier choices were contingent and suboptimal.",
       "choices": [
-        "Path dependency holds that institutions always converge toward optimal arrangements over the long term, regardless of their particular historical origins or the contingent circumstances under which they first formed.",
-        "Path dependency holds that past institutional choices narrow the range of feasible future options, even when those choices were contingent or suboptimal.",
+        "Path dependency holds that institutions always converge toward optimal arrangements over time, regardless of their historical origins.",
+        "In institutional economics, path dependency refers to the tendency for historical choices to limit the set of feasible future options, even when the original choices were not necessarily the best ones available.",
         "Prior institutional decisions constrain future choices only when they were deliberate and optimal, according to path dependency theory.",
         "Path dependency suggests that suboptimal institutional choices can always be corrected by future policy interventions without significant constraint."
       ],

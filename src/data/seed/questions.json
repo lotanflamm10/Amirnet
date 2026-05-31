@@ -1049,7 +1049,7 @@
                         "passage":  {
                                         "id":  "r3-passage",
                                         "title":  "Why Some Innovations Spread Slowly",
-                                        "body":  "A useful invention does not always spread quickly. Economists note that adoption often depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. In addition, the value of some innovations increases only after many people adopt them. This means early users may see fewer benefits than later users. For that reason, governments and companies sometimes offer incentives during the first stage of adoption."
+                                        "body":  "A useful invention does not always spread quickly. Economists who study diffusion note that adoption depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. These social and practical barriers can slow even genuinely superior technologies, allowing established but inferior alternatives to remain dominant for decades.\n\nA second mechanism, more subtle but equally powerful, is what economists call network effects. The value of certain innovations increases only as more people adopt them. A telephone is useless if no one else owns one; a software platform becomes useful only when other users join. This means early users may see fewer benefits than later users, weakening the early incentive to adopt. To overcome this self-defeating loop, governments and companies sometimes offer incentives during the first stage of adoption — subsidies, free trials, or coordinated launches that bring many users on board at once.\n\nThe QWERTY keyboard layout, devised by Christopher Sholes in 1873, illustrates how lock-in can persist even when better alternatives exist. The Dvorak Simplified Keyboard, patented in 1936, allows faster typing in controlled tests, yet QWERTY remains the global standard because retraining millions of typists and replacing existing devices would cost far more than the productivity gain delivers in any individual case. Likewise, in the late nineteenth century, Thomas Edison's direct current grid was largely displaced by Nikola Tesla's alternating current, but only after a fierce public campaign in which entrenched investment delayed the transition for years.\n\nThese examples illustrate a recurring pattern: the technical merit of an innovation is only one input into its diffusion. Social trust, network effects, and prior infrastructure all shape which products take hold and which struggle. For policymakers, the practical implication is that promoting better technologies often requires more than demonstration of superiority — it requires deliberately reducing the costs of switching."
                                     }
                     },
                     {
@@ -1071,7 +1071,79 @@
                         "passage":  {
                                         "id":  "r3-passage",
                                         "title":  "Why Some Innovations Spread Slowly",
-                                        "body":  "A useful invention does not always spread quickly. Economists note that adoption often depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. In addition, the value of some innovations increases only after many people adopt them. This means early users may see fewer benefits than later users. For that reason, governments and companies sometimes offer incentives during the first stage of adoption."
+                                        "body":  "A useful invention does not always spread quickly. Economists who study diffusion note that adoption depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. These social and practical barriers can slow even genuinely superior technologies, allowing established but inferior alternatives to remain dominant for decades.\n\nA second mechanism, more subtle but equally powerful, is what economists call network effects. The value of certain innovations increases only as more people adopt them. A telephone is useless if no one else owns one; a software platform becomes useful only when other users join. This means early users may see fewer benefits than later users, weakening the early incentive to adopt. To overcome this self-defeating loop, governments and companies sometimes offer incentives during the first stage of adoption — subsidies, free trials, or coordinated launches that bring many users on board at once.\n\nThe QWERTY keyboard layout, devised by Christopher Sholes in 1873, illustrates how lock-in can persist even when better alternatives exist. The Dvorak Simplified Keyboard, patented in 1936, allows faster typing in controlled tests, yet QWERTY remains the global standard because retraining millions of typists and replacing existing devices would cost far more than the productivity gain delivers in any individual case. Likewise, in the late nineteenth century, Thomas Edison's direct current grid was largely displaced by Nikola Tesla's alternating current, but only after a fierce public campaign in which entrenched investment delayed the transition for years.\n\nThese examples illustrate a recurring pattern: the technical merit of an innovation is only one input into its diffusion. Social trust, network effects, and prior infrastructure all shape which products take hold and which struggle. For policymakers, the practical implication is that promoting better technologies often requires more than demonstration of superiority — it requires deliberately reducing the costs of switching."
+                                    }
+                    },
+                    {
+                        "id":  "r3-q3",
+                        "category":  "reading",
+                        "difficulty":  "easy",
+                        "text":  "In the third paragraph, the term 'lock-in' most nearly refers to:",
+                        "choices":  [
+                                        "A protective mechanism that prevents unauthorised access to a system",
+                                        "A situation in which an established standard persists even when better alternatives exist",
+                                        "A legal agreement that binds users to a specific technology brand",
+                                        "A psychological state in which consumers become emotionally attached to a product"
+                                    ],
+                        "answer":  1,
+                        "explanation":  "Lock-in here refers to a market state where switching costs and network effects keep an inferior standard dominant — exactly what QWERTY illustrates.",
+                        "wrongReasons":  [
+                                             "A is the literal sense of 'lock-in' from security or hardware, not the economic sense used in the passage.",
+                                             "C describes a specific type of contractual lock-in, but the passage's lock-in is structural, not contractual.",
+                                             "D introduces an emotional element not present in the passage's market-mechanism description."
+                                         ],
+                        "passage":  {
+                                        "id":  "r3-passage",
+                                        "title":  "Why Some Innovations Spread Slowly",
+                                        "body":  "A useful invention does not always spread quickly. Economists who study diffusion note that adoption depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. These social and practical barriers can slow even genuinely superior technologies, allowing established but inferior alternatives to remain dominant for decades.\n\nA second mechanism, more subtle but equally powerful, is what economists call network effects. The value of certain innovations increases only as more people adopt them. A telephone is useless if no one else owns one; a software platform becomes useful only when other users join. This means early users may see fewer benefits than later users, weakening the early incentive to adopt. To overcome this self-defeating loop, governments and companies sometimes offer incentives during the first stage of adoption — subsidies, free trials, or coordinated launches that bring many users on board at once.\n\nThe QWERTY keyboard layout, devised by Christopher Sholes in 1873, illustrates how lock-in can persist even when better alternatives exist. The Dvorak Simplified Keyboard, patented in 1936, allows faster typing in controlled tests, yet QWERTY remains the global standard because retraining millions of typists and replacing existing devices would cost far more than the productivity gain delivers in any individual case. Likewise, in the late nineteenth century, Thomas Edison's direct current grid was largely displaced by Nikola Tesla's alternating current, but only after a fierce public campaign in which entrenched investment delayed the transition for years.\n\nThese examples illustrate a recurring pattern: the technical merit of an innovation is only one input into its diffusion. Social trust, network effects, and prior infrastructure all shape which products take hold and which struggle. For policymakers, the practical implication is that promoting better technologies often requires more than demonstration of superiority — it requires deliberately reducing the costs of switching."
+                                    }
+                    },
+                    {
+                        "id":  "r3-q4",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "Based on the passage, what general principle do the QWERTY and Edison examples most directly illustrate?",
+                        "choices":  [
+                                        "Older technologies are always replaced as soon as better alternatives appear.",
+                                        "Once an inferior standard becomes dominant, the cost of switching can keep it in place for a long time.",
+                                        "Innovators with sufficient marketing budgets will always defeat their competitors.",
+                                        "Government regulation determines which technology becomes the industry standard."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "Both QWERTY and direct current persisted because switching costs and entrenched infrastructure made replacement expensive — the central diffusion lesson the passage draws.",
+                        "wrongReasons":  [
+                                             "A directly contradicts the passage; QWERTY remained dominant despite the better Dvorak alternative.",
+                                             "C is unsupported; the passage attributes persistence to network effects and switching costs, not marketing power.",
+                                             "D overstates the role of government; the passage mentions incentives but not regulation as the deciding factor."
+                                         ],
+                        "passage":  {
+                                        "id":  "r3-passage",
+                                        "title":  "Why Some Innovations Spread Slowly",
+                                        "body":  "A useful invention does not always spread quickly. Economists who study diffusion note that adoption depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. These social and practical barriers can slow even genuinely superior technologies, allowing established but inferior alternatives to remain dominant for decades.\n\nA second mechanism, more subtle but equally powerful, is what economists call network effects. The value of certain innovations increases only as more people adopt them. A telephone is useless if no one else owns one; a software platform becomes useful only when other users join. This means early users may see fewer benefits than later users, weakening the early incentive to adopt. To overcome this self-defeating loop, governments and companies sometimes offer incentives during the first stage of adoption — subsidies, free trials, or coordinated launches that bring many users on board at once.\n\nThe QWERTY keyboard layout, devised by Christopher Sholes in 1873, illustrates how lock-in can persist even when better alternatives exist. The Dvorak Simplified Keyboard, patented in 1936, allows faster typing in controlled tests, yet QWERTY remains the global standard because retraining millions of typists and replacing existing devices would cost far more than the productivity gain delivers in any individual case. Likewise, in the late nineteenth century, Thomas Edison's direct current grid was largely displaced by Nikola Tesla's alternating current, but only after a fierce public campaign in which entrenched investment delayed the transition for years.\n\nThese examples illustrate a recurring pattern: the technical merit of an innovation is only one input into its diffusion. Social trust, network effects, and prior infrastructure all shape which products take hold and which struggle. For policymakers, the practical implication is that promoting better technologies often requires more than demonstration of superiority — it requires deliberately reducing the costs of switching."
+                                    }
+                    },
+                    {
+                        "id":  "r3-q5",
+                        "category":  "reading",
+                        "difficulty":  "hard",
+                        "text":  "What is the primary purpose of the final paragraph of the passage?",
+                        "choices":  [
+                                        "To contradict the historical examples and argue that technical merit ultimately wins.",
+                                        "To extract a general lesson from the preceding examples and identify a practical implication for policy.",
+                                        "To introduce a third type of innovation distinct from those already discussed.",
+                                        "To narrate the most recent stage in the history of technological adoption."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The closing paragraph synthesises the preceding examples — 'these examples illustrate a recurring pattern' — and draws a policy implication about reducing switching costs.",
+                        "wrongReasons":  [
+                                             "A misreads the conclusion; the paragraph reinforces, rather than contradicts, the pattern shown by QWERTY and Edison.",
+                                             "C is wrong; the paragraph offers no new examples and instead synthesises existing ones.",
+                                             "D is too narrow; the paragraph is not chronological narration but a generalising synthesis."
+                                         ],
+                        "passage":  {
+                                        "id":  "r3-passage",
+                                        "title":  "Why Some Innovations Spread Slowly",
+                                        "body":  "A useful invention does not always spread quickly. Economists who study diffusion note that adoption depends on more than technical quality. A product may require users to change familiar routines, learn new skills, or trust a system they do not yet understand. These social and practical barriers can slow even genuinely superior technologies, allowing established but inferior alternatives to remain dominant for decades.\n\nA second mechanism, more subtle but equally powerful, is what economists call network effects. The value of certain innovations increases only as more people adopt them. A telephone is useless if no one else owns one; a software platform becomes useful only when other users join. This means early users may see fewer benefits than later users, weakening the early incentive to adopt. To overcome this self-defeating loop, governments and companies sometimes offer incentives during the first stage of adoption — subsidies, free trials, or coordinated launches that bring many users on board at once.\n\nThe QWERTY keyboard layout, devised by Christopher Sholes in 1873, illustrates how lock-in can persist even when better alternatives exist. The Dvorak Simplified Keyboard, patented in 1936, allows faster typing in controlled tests, yet QWERTY remains the global standard because retraining millions of typists and replacing existing devices would cost far more than the productivity gain delivers in any individual case. Likewise, in the late nineteenth century, Thomas Edison's direct current grid was largely displaced by Nikola Tesla's alternating current, but only after a fierce public campaign in which entrenched investment delayed the transition for years.\n\nThese examples illustrate a recurring pattern: the technical merit of an innovation is only one input into its diffusion. Social trust, network effects, and prior infrastructure all shape which products take hold and which struggle. For policymakers, the practical implication is that promoting better technologies often requires more than demonstration of superiority — it requires deliberately reducing the costs of switching."
                                     }
                     },
                     {
@@ -1141,7 +1213,7 @@
                         "passage":  {
                                         "id":  "r5-passage",
                                         "title":  "Ocean Acidification",
-                                        "body":  "The world\u0027s oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this reduces the amount of CO2 in the atmosphere, it has a side effect: when CO2 dissolves in seawater, it forms carbonic acid, making the ocean more acidic. Since the industrial era began, ocean acidity has increased by about 26 percent. Many marine organisms, particularly those that build shells or skeletons from calcium carbonate, are sensitive to these changes. As acidity increases, their shells dissolve faster than they can be rebuilt. Scientists warn that continued acidification could threaten entire food webs."
+                                        "body":  "The world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this absorption usefully reduces the amount of CO2 in the atmosphere, it carries a quieter cost: dissolved CO2 reacts with seawater to form carbonic acid, gradually lowering the ocean's pH. Since the Industrial Revolution began, ocean acidity has increased by about 26 percent — a swing larger than anything documented in the geological record for at least 800,000 years.\n\nMany marine organisms are sensitive to this chemical shift, particularly those that build shells or skeletons from calcium carbonate. Corals, oysters, mussels, and many planktonic species struggle to extract carbonate ions from increasingly acidic water; existing shells can also dissolve faster than the organism is able to rebuild them. Field surveys at sites near the Great Barrier Reef have already documented thinner shells in young clams, and laboratory studies on coral larvae have shown impaired settlement under near-future acidification conditions.\n\nBecause these organisms anchor entire food webs — corals support reef communities, plankton feed fish, and shellfish support coastal fisheries — the consequences extend well beyond the species directly affected. Scientists also caution that acidification interacts with rising ocean temperatures and oxygen loss in ways that may amplify damage rather than simply adding to it. Continued acidification, they argue, could destabilise marine ecosystems and the human livelihoods that depend on them within decades, not centuries."
                                     }
                     },
                     {
@@ -1163,7 +1235,79 @@
                         "passage":  {
                                         "id":  "r5-passage",
                                         "title":  "Ocean Acidification",
-                                        "body":  "The world\u0027s oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this reduces the amount of CO2 in the atmosphere, it has a side effect: when CO2 dissolves in seawater, it forms carbonic acid, making the ocean more acidic. Since the industrial era began, ocean acidity has increased by about 26 percent. Many marine organisms, particularly those that build shells or skeletons from calcium carbonate, are sensitive to these changes. As acidity increases, their shells dissolve faster than they can be rebuilt. Scientists warn that continued acidification could threaten entire food webs."
+                                        "body":  "The world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this absorption usefully reduces the amount of CO2 in the atmosphere, it carries a quieter cost: dissolved CO2 reacts with seawater to form carbonic acid, gradually lowering the ocean's pH. Since the Industrial Revolution began, ocean acidity has increased by about 26 percent — a swing larger than anything documented in the geological record for at least 800,000 years.\n\nMany marine organisms are sensitive to this chemical shift, particularly those that build shells or skeletons from calcium carbonate. Corals, oysters, mussels, and many planktonic species struggle to extract carbonate ions from increasingly acidic water; existing shells can also dissolve faster than the organism is able to rebuild them. Field surveys at sites near the Great Barrier Reef have already documented thinner shells in young clams, and laboratory studies on coral larvae have shown impaired settlement under near-future acidification conditions.\n\nBecause these organisms anchor entire food webs — corals support reef communities, plankton feed fish, and shellfish support coastal fisheries — the consequences extend well beyond the species directly affected. Scientists also caution that acidification interacts with rising ocean temperatures and oxygen loss in ways that may amplify damage rather than simply adding to it. Continued acidification, they argue, could destabilise marine ecosystems and the human livelihoods that depend on them within decades, not centuries."
+                                    }
+                    },
+                    {
+                        "id":  "r5-q3",
+                        "category":  "reading",
+                        "difficulty":  "easy",
+                        "text":  "As used in the second paragraph, the phrase 'anchor entire food webs' most nearly refers to:",
+                        "choices":  [
+                                        "physically attaching food sources to the sea floor with biological structures",
+                                        "playing a foundational role on which many other species depend",
+                                        "preventing food sources from drifting between ocean regions",
+                                        "providing stable shelter that protects fish from predators"
+                                    ],
+                        "answer":  1,
+                        "explanation":  "To 'anchor' a food web is to occupy a foundational position that other species depend upon — corals, plankton, and shellfish are described as supporting reefs, fish, and fisheries respectively.",
+                        "wrongReasons":  [
+                                             "A reads 'anchor' literally; the passage uses it figuratively to denote ecological dependence.",
+                                             "C is unsupported; no claim is made about preventing drift between regions.",
+                                             "D narrows the meaning to shelter, but the passage cites broader dependence (feeding, supporting communities)."
+                                         ],
+                        "passage":  {
+                                        "id":  "r5-passage",
+                                        "title":  "Ocean Acidification",
+                                        "body":  "The world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this absorption usefully reduces the amount of CO2 in the atmosphere, it carries a quieter cost: dissolved CO2 reacts with seawater to form carbonic acid, gradually lowering the ocean's pH. Since the Industrial Revolution began, ocean acidity has increased by about 26 percent — a swing larger than anything documented in the geological record for at least 800,000 years.\n\nMany marine organisms are sensitive to this chemical shift, particularly those that build shells or skeletons from calcium carbonate. Corals, oysters, mussels, and many planktonic species struggle to extract carbonate ions from increasingly acidic water; existing shells can also dissolve faster than the organism is able to rebuild them. Field surveys at sites near the Great Barrier Reef have already documented thinner shells in young clams, and laboratory studies on coral larvae have shown impaired settlement under near-future acidification conditions.\n\nBecause these organisms anchor entire food webs — corals support reef communities, plankton feed fish, and shellfish support coastal fisheries — the consequences extend well beyond the species directly affected. Scientists also caution that acidification interacts with rising ocean temperatures and oxygen loss in ways that may amplify damage rather than simply adding to it. Continued acidification, they argue, could destabilise marine ecosystems and the human livelihoods that depend on them within decades, not centuries."
+                                    }
+                    },
+                    {
+                        "id":  "r5-q4",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "Which of the following can be inferred from the passage about the combined effect of acidification and warming oceans?",
+                        "choices":  [
+                                        "The two pressures cancel each other out, leaving net marine impact unchanged.",
+                                        "Their combined effect may be more damaging than either pressure alone.",
+                                        "Warming will neutralise carbonic acid before it dissolves shells.",
+                                        "Acidification will eventually slow as warming intensifies."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage says acidification 'interacts with rising ocean temperatures and oxygen loss in ways that may amplify damage rather than simply adding to it' — i.e., the combined effect is potentially more than additive.",
+                        "wrongReasons":  [
+                                             "A contradicts the passage, which suggests amplification rather than cancellation.",
+                                             "C is unsupported; the passage does not claim warming neutralises acidification.",
+                                             "D reverses the implied trajectory; the passage warns of continued, not slowing, acidification."
+                                         ],
+                        "passage":  {
+                                        "id":  "r5-passage",
+                                        "title":  "Ocean Acidification",
+                                        "body":  "The world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this absorption usefully reduces the amount of CO2 in the atmosphere, it carries a quieter cost: dissolved CO2 reacts with seawater to form carbonic acid, gradually lowering the ocean's pH. Since the Industrial Revolution began, ocean acidity has increased by about 26 percent — a swing larger than anything documented in the geological record for at least 800,000 years.\n\nMany marine organisms are sensitive to this chemical shift, particularly those that build shells or skeletons from calcium carbonate. Corals, oysters, mussels, and many planktonic species struggle to extract carbonate ions from increasingly acidic water; existing shells can also dissolve faster than the organism is able to rebuild them. Field surveys at sites near the Great Barrier Reef have already documented thinner shells in young clams, and laboratory studies on coral larvae have shown impaired settlement under near-future acidification conditions.\n\nBecause these organisms anchor entire food webs — corals support reef communities, plankton feed fish, and shellfish support coastal fisheries — the consequences extend well beyond the species directly affected. Scientists also caution that acidification interacts with rising ocean temperatures and oxygen loss in ways that may amplify damage rather than simply adding to it. Continued acidification, they argue, could destabilise marine ecosystems and the human livelihoods that depend on them within decades, not centuries."
+                                    }
+                    },
+                    {
+                        "id":  "r5-q5",
+                        "category":  "reading",
+                        "difficulty":  "hard",
+                        "text":  "What is the primary function of the third paragraph in the structure of the passage?",
+                        "choices":  [
+                                        "To contradict the chemical mechanism described in the first paragraph.",
+                                        "To extend the consequences from individual organisms to ecosystems and human livelihoods.",
+                                        "To introduce a separate environmental threat unrelated to acidification.",
+                                        "To narrate the historical discovery of ocean acidification as a scientific concept."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The third paragraph generalises from the species-level effects described in paragraph two to ecosystem-wide and economic consequences, broadening the argument's scope.",
+                        "wrongReasons":  [
+                                             "A misreads the paragraph; it builds on, rather than contradicts, the earlier mechanism.",
+                                             "C is wrong because the threat discussed is acidification's downstream consequences, not a separate issue.",
+                                             "D is unsupported; the paragraph contains no historical narration of the concept's discovery."
+                                         ],
+                        "passage":  {
+                                        "id":  "r5-passage",
+                                        "title":  "Ocean Acidification",
+                                        "body":  "The world's oceans absorb roughly a quarter of the carbon dioxide humans release each year. While this absorption usefully reduces the amount of CO2 in the atmosphere, it carries a quieter cost: dissolved CO2 reacts with seawater to form carbonic acid, gradually lowering the ocean's pH. Since the Industrial Revolution began, ocean acidity has increased by about 26 percent — a swing larger than anything documented in the geological record for at least 800,000 years.\n\nMany marine organisms are sensitive to this chemical shift, particularly those that build shells or skeletons from calcium carbonate. Corals, oysters, mussels, and many planktonic species struggle to extract carbonate ions from increasingly acidic water; existing shells can also dissolve faster than the organism is able to rebuild them. Field surveys at sites near the Great Barrier Reef have already documented thinner shells in young clams, and laboratory studies on coral larvae have shown impaired settlement under near-future acidification conditions.\n\nBecause these organisms anchor entire food webs — corals support reef communities, plankton feed fish, and shellfish support coastal fisheries — the consequences extend well beyond the species directly affected. Scientists also caution that acidification interacts with rising ocean temperatures and oxygen loss in ways that may amplify damage rather than simply adding to it. Continued acidification, they argue, could destabilise marine ecosystems and the human livelihoods that depend on them within decades, not centuries."
                                     }
                     },
                     {
@@ -1187,7 +1331,7 @@
                         "passage":  {
                                         "id":  "r6-passage",
                                         "title":  "The Paradox of Choice",
-                                        "body":  "It might seem that having more options is always better. More choices mean greater freedom to find exactly what you want. However, psychologist Barry Schwartz argues that beyond a certain point, additional options reduce satisfaction rather than increase it. When people choose from a very large set, they are more likely to regret their decision, wondering whether a different option might have been better. They may also feel responsible for a poor outcome in a way that would not arise if the options had been limited. Schwartz calls this \u0027the paradox of choice\u0027: the very abundance of options can leave us worse off."
+                                        "body":  "It might seem self-evident that having more options is always better. More choices, the intuition runs, mean greater freedom to find exactly what one wants. Yet psychologist Barry Schwartz of Swarthmore College has argued, on the basis of decades of research, that beyond a certain point additional options reduce satisfaction rather than increase it. Schwartz calls this counter-intuitive phenomenon 'the paradox of choice'.\n\nThe mechanism is partly emotional. When people choose from a very large set, they are more likely to regret their decision afterwards, wondering whether a different option might have been better. They may also feel personally responsible for a poor outcome in a way that would not arise if the options had been limited. A famous field experiment in a California supermarket found that shoppers offered 24 varieties of jam were less likely to buy than shoppers offered only 6 — and those who did buy reported lower satisfaction.\n\nSchwartz distinguishes between 'maximisers', who try to find the absolute best option in any choice set, and 'satisficers', who accept the first option that meets a threshold of acceptability. Maximisers tend to make slightly better decisions on paper but feel worse about them; satisficers report higher life satisfaction overall. The practical implication for individuals is not to refuse choice but to set thresholds in advance — and for institutions, to curate options thoughtfully rather than dumping every possible variant in front of the user."
                                     }
                     },
                     {
@@ -1209,7 +1353,79 @@
                         "passage":  {
                                         "id":  "r6-passage",
                                         "title":  "The Paradox of Choice",
-                                        "body":  "It might seem that having more options is always better. More choices mean greater freedom to find exactly what you want. However, psychologist Barry Schwartz argues that beyond a certain point, additional options reduce satisfaction rather than increase it. When people choose from a very large set, they are more likely to regret their decision, wondering whether a different option might have been better. They may also feel responsible for a poor outcome in a way that would not arise if the options had been limited. Schwartz calls this \u0027the paradox of choice\u0027: the very abundance of options can leave us worse off."
+                                        "body":  "It might seem self-evident that having more options is always better. More choices, the intuition runs, mean greater freedom to find exactly what one wants. Yet psychologist Barry Schwartz of Swarthmore College has argued, on the basis of decades of research, that beyond a certain point additional options reduce satisfaction rather than increase it. Schwartz calls this counter-intuitive phenomenon 'the paradox of choice'.\n\nThe mechanism is partly emotional. When people choose from a very large set, they are more likely to regret their decision afterwards, wondering whether a different option might have been better. They may also feel personally responsible for a poor outcome in a way that would not arise if the options had been limited. A famous field experiment in a California supermarket found that shoppers offered 24 varieties of jam were less likely to buy than shoppers offered only 6 — and those who did buy reported lower satisfaction.\n\nSchwartz distinguishes between 'maximisers', who try to find the absolute best option in any choice set, and 'satisficers', who accept the first option that meets a threshold of acceptability. Maximisers tend to make slightly better decisions on paper but feel worse about them; satisficers report higher life satisfaction overall. The practical implication for individuals is not to refuse choice but to set thresholds in advance — and for institutions, to curate options thoughtfully rather than dumping every possible variant in front of the user."
+                                    }
+                    },
+                    {
+                        "id":  "r6-q3",
+                        "category":  "reading",
+                        "difficulty":  "easy",
+                        "text":  "As used in the third paragraph, a 'satisficer' is best described as:",
+                        "choices":  [
+                                        "Someone who insists on finding the absolute best available option in every situation.",
+                                        "Someone who accepts the first option that meets a threshold of acceptability.",
+                                        "Someone who refuses to make any choice when too many options are present.",
+                                        "Someone who randomly picks an option without considering quality."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage explicitly defines satisficers as people who 'accept the first option that meets a threshold of acceptability' — in contrast to maximisers who chase the absolute best.",
+                        "wrongReasons":  [
+                                             "A describes a maximiser, the opposite category.",
+                                             "C contradicts the definition; satisficers do choose, just with a lower bar.",
+                                             "D introduces randomness, which the passage does not mention as part of the satisficer strategy."
+                                         ],
+                        "passage":  {
+                                        "id":  "r6-passage",
+                                        "title":  "The Paradox of Choice",
+                                        "body":  "It might seem self-evident that having more options is always better. More choices, the intuition runs, mean greater freedom to find exactly what one wants. Yet psychologist Barry Schwartz of Swarthmore College has argued, on the basis of decades of research, that beyond a certain point additional options reduce satisfaction rather than increase it. Schwartz calls this counter-intuitive phenomenon 'the paradox of choice'.\n\nThe mechanism is partly emotional. When people choose from a very large set, they are more likely to regret their decision afterwards, wondering whether a different option might have been better. They may also feel personally responsible for a poor outcome in a way that would not arise if the options had been limited. A famous field experiment in a California supermarket found that shoppers offered 24 varieties of jam were less likely to buy than shoppers offered only 6 — and those who did buy reported lower satisfaction.\n\nSchwartz distinguishes between 'maximisers', who try to find the absolute best option in any choice set, and 'satisficers', who accept the first option that meets a threshold of acceptability. Maximisers tend to make slightly better decisions on paper but feel worse about them; satisficers report higher life satisfaction overall. The practical implication for individuals is not to refuse choice but to set thresholds in advance — and for institutions, to curate options thoughtfully rather than dumping every possible variant in front of the user."
+                                    }
+                    },
+                    {
+                        "id":  "r6-q4",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "What can be inferred from the passage about the jam experiment in California?",
+                        "choices":  [
+                                        "The smaller selection limited the variety of customers exposed to the products.",
+                                        "More options reduced both purchase rates and post-purchase satisfaction.",
+                                        "Customers preferred the larger selection because it offered greater freedom.",
+                                        "Satisfaction was unrelated to the size of the choice set."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage states that shoppers offered 24 varieties were less likely to buy AND those who did buy were less satisfied — both purchase and satisfaction declined with more choice.",
+                        "wrongReasons":  [
+                                             "A redirects attention to exposure variety, which the passage does not discuss as the relevant outcome.",
+                                             "C contradicts the data the passage cites about purchase rates.",
+                                             "D contradicts the passage's explicit finding that satisfaction was lower with more options."
+                                         ],
+                        "passage":  {
+                                        "id":  "r6-passage",
+                                        "title":  "The Paradox of Choice",
+                                        "body":  "It might seem self-evident that having more options is always better. More choices, the intuition runs, mean greater freedom to find exactly what one wants. Yet psychologist Barry Schwartz of Swarthmore College has argued, on the basis of decades of research, that beyond a certain point additional options reduce satisfaction rather than increase it. Schwartz calls this counter-intuitive phenomenon 'the paradox of choice'.\n\nThe mechanism is partly emotional. When people choose from a very large set, they are more likely to regret their decision afterwards, wondering whether a different option might have been better. They may also feel personally responsible for a poor outcome in a way that would not arise if the options had been limited. A famous field experiment in a California supermarket found that shoppers offered 24 varieties of jam were less likely to buy than shoppers offered only 6 — and those who did buy reported lower satisfaction.\n\nSchwartz distinguishes between 'maximisers', who try to find the absolute best option in any choice set, and 'satisficers', who accept the first option that meets a threshold of acceptability. Maximisers tend to make slightly better decisions on paper but feel worse about them; satisficers report higher life satisfaction overall. The practical implication for individuals is not to refuse choice but to set thresholds in advance — and for institutions, to curate options thoughtfully rather than dumping every possible variant in front of the user."
+                                    }
+                    },
+                    {
+                        "id":  "r6-q5",
+                        "category":  "reading",
+                        "difficulty":  "hard",
+                        "text":  "What is the author's purpose in distinguishing 'maximisers' from 'satisficers' near the end of the passage?",
+                        "choices":  [
+                                        "To argue that maximisers always make worse decisions than satisficers.",
+                                        "To show that individual psychology, not just option count, shapes how people experience choice.",
+                                        "To introduce a new category of decision-makers unrelated to the paradox of choice.",
+                                        "To suggest that satisficers should be discouraged from making important decisions."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The distinction shows that the same large choice set affects different people differently, depending on their decision style — refining the paradox of choice with a psychological variable.",
+                        "wrongReasons":  [
+                                             "A overstates the passage, which says maximisers make slightly better decisions on paper.",
+                                             "C is wrong; the categories directly extend the paradox of choice discussion.",
+                                             "D contradicts the passage, which presents satisficers as reporting higher satisfaction."
+                                         ],
+                        "passage":  {
+                                        "id":  "r6-passage",
+                                        "title":  "The Paradox of Choice",
+                                        "body":  "It might seem self-evident that having more options is always better. More choices, the intuition runs, mean greater freedom to find exactly what one wants. Yet psychologist Barry Schwartz of Swarthmore College has argued, on the basis of decades of research, that beyond a certain point additional options reduce satisfaction rather than increase it. Schwartz calls this counter-intuitive phenomenon 'the paradox of choice'.\n\nThe mechanism is partly emotional. When people choose from a very large set, they are more likely to regret their decision afterwards, wondering whether a different option might have been better. They may also feel personally responsible for a poor outcome in a way that would not arise if the options had been limited. A famous field experiment in a California supermarket found that shoppers offered 24 varieties of jam were less likely to buy than shoppers offered only 6 — and those who did buy reported lower satisfaction.\n\nSchwartz distinguishes between 'maximisers', who try to find the absolute best option in any choice set, and 'satisficers', who accept the first option that meets a threshold of acceptability. Maximisers tend to make slightly better decisions on paper but feel worse about them; satisficers report higher life satisfaction overall. The practical implication for individuals is not to refuse choice but to set thresholds in advance — and for institutions, to curate options thoughtfully rather than dumping every possible variant in front of the user."
                                     }
                     },
                     {
@@ -1277,7 +1493,7 @@
                         "passage":  {
                                         "id":  "r8-passage",
                                         "title":  "Urban Heat Islands",
-                                        "body":  "Cities are typically warmer than the rural areas surrounding them. This phenomenon, known as the urban heat island effect, occurs because concrete, asphalt, and buildings absorb and retain heat more effectively than vegetation and soil. Reduced airflow between tall structures also prevents cooling. The effect can raise urban temperatures by two to five degrees Celsius compared with nearby countryside. This increases energy consumption for air conditioning, worsens air quality, and has been linked to higher rates of heat-related illness. Urban planners are now using green roofs, tree planting, and reflective surfaces to counteract the effect."
+                                        "body":  "Cities are typically warmer than the rural areas surrounding them, a phenomenon known as the urban heat island effect. The cause lies in the materials and geometry of the built environment: concrete, asphalt, and brick absorb solar radiation during the day and release it slowly at night, while the dense arrangement of tall buildings restricts the airflow that would otherwise carry heat away. Vegetation, by contrast, cools its surroundings both through shade and through evapotranspiration, the process by which plants release water vapour from their leaves.\n\nMeasurements taken over decades show that large cities can be two to five degrees Celsius warmer than their immediate rural surroundings, and the difference is most pronounced during heatwaves and at night. The effect intensifies energy demand for air conditioning, worsens ground-level air quality by accelerating the formation of smog, and has been clearly linked to higher rates of heat-related illness and mortality. The 2003 European heatwave, which killed tens of thousands, struck dense urban centres including Paris and London disproportionately hard.\n\nUrban planners now treat heat-island mitigation as essential climate adaptation. Practical interventions include green roofs and walls, which cool buildings through shade and evapotranspiration; light-coloured 'cool' pavements and roofing materials, which reflect more sunlight than dark surfaces; and large-scale tree planting along streets and in parks. Cities such as Singapore and Medellín have demonstrated that integrating these measures from the start of major redevelopment can measurably reduce neighbourhood-scale temperatures within a few years."
                                     }
                     },
                     {
@@ -1299,7 +1515,79 @@
                         "passage":  {
                                         "id":  "r8-passage",
                                         "title":  "Urban Heat Islands",
-                                        "body":  "Cities are typically warmer than the rural areas surrounding them. This phenomenon, known as the urban heat island effect, occurs because concrete, asphalt, and buildings absorb and retain heat more effectively than vegetation and soil. Reduced airflow between tall structures also prevents cooling. The effect can raise urban temperatures by two to five degrees Celsius compared with nearby countryside. This increases energy consumption for air conditioning, worsens air quality, and has been linked to higher rates of heat-related illness. Urban planners are now using green roofs, tree planting, and reflective surfaces to counteract the effect."
+                                        "body":  "Cities are typically warmer than the rural areas surrounding them, a phenomenon known as the urban heat island effect. The cause lies in the materials and geometry of the built environment: concrete, asphalt, and brick absorb solar radiation during the day and release it slowly at night, while the dense arrangement of tall buildings restricts the airflow that would otherwise carry heat away. Vegetation, by contrast, cools its surroundings both through shade and through evapotranspiration, the process by which plants release water vapour from their leaves.\n\nMeasurements taken over decades show that large cities can be two to five degrees Celsius warmer than their immediate rural surroundings, and the difference is most pronounced during heatwaves and at night. The effect intensifies energy demand for air conditioning, worsens ground-level air quality by accelerating the formation of smog, and has been clearly linked to higher rates of heat-related illness and mortality. The 2003 European heatwave, which killed tens of thousands, struck dense urban centres including Paris and London disproportionately hard.\n\nUrban planners now treat heat-island mitigation as essential climate adaptation. Practical interventions include green roofs and walls, which cool buildings through shade and evapotranspiration; light-coloured 'cool' pavements and roofing materials, which reflect more sunlight than dark surfaces; and large-scale tree planting along streets and in parks. Cities such as Singapore and Medellín have demonstrated that integrating these measures from the start of major redevelopment can measurably reduce neighbourhood-scale temperatures within a few years."
+                                    }
+                    },
+                    {
+                        "id":  "r8-q3",
+                        "category":  "reading",
+                        "difficulty":  "easy",
+                        "text":  "As used in the first paragraph, 'evapotranspiration' most nearly refers to:",
+                        "choices":  [
+                                        "the process by which buildings absorb and re-emit solar radiation",
+                                        "the cooling effect of plants releasing water vapour from their leaves",
+                                        "the warming caused by densely packed urban structures",
+                                        "the movement of pollutants from streets into the atmosphere"
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage defines evapotranspiration as 'the process by which plants release water vapour from their leaves' — a cooling mechanism distinct from radiative heat exchange.",
+                        "wrongReasons":  [
+                                             "A describes thermal mass of buildings, not plant biology.",
+                                             "C describes the cause of the heat island, not the cooling mechanism in question.",
+                                             "D conflates evapotranspiration with smog dispersal, an unrelated process."
+                                         ],
+                        "passage":  {
+                                        "id":  "r8-passage",
+                                        "title":  "Urban Heat Islands",
+                                        "body":  "Cities are typically warmer than the rural areas surrounding them, a phenomenon known as the urban heat island effect. The cause lies in the materials and geometry of the built environment: concrete, asphalt, and brick absorb solar radiation during the day and release it slowly at night, while the dense arrangement of tall buildings restricts the airflow that would otherwise carry heat away. Vegetation, by contrast, cools its surroundings both through shade and through evapotranspiration, the process by which plants release water vapour from their leaves.\n\nMeasurements taken over decades show that large cities can be two to five degrees Celsius warmer than their immediate rural surroundings, and the difference is most pronounced during heatwaves and at night. The effect intensifies energy demand for air conditioning, worsens ground-level air quality by accelerating the formation of smog, and has been clearly linked to higher rates of heat-related illness and mortality. The 2003 European heatwave, which killed tens of thousands, struck dense urban centres including Paris and London disproportionately hard.\n\nUrban planners now treat heat-island mitigation as essential climate adaptation. Practical interventions include green roofs and walls, which cool buildings through shade and evapotranspiration; light-coloured 'cool' pavements and roofing materials, which reflect more sunlight than dark surfaces; and large-scale tree planting along streets and in parks. Cities such as Singapore and Medellín have demonstrated that integrating these measures from the start of major redevelopment can measurably reduce neighbourhood-scale temperatures within a few years."
+                                    }
+                    },
+                    {
+                        "id":  "r8-q4",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "What can be inferred from the passage about why heatwaves are particularly dangerous in cities?",
+                        "choices":  [
+                                        "Heatwaves cause buildings to physically deform, increasing risk.",
+                                        "The heat-island effect compounds the heatwave, raising urban temperatures further above the regional baseline.",
+                                        "City residents are biologically less tolerant of high temperatures than rural residents.",
+                                        "Heatwaves only occur in densely populated areas."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage says the heat-island effect is 'most pronounced during heatwaves and at night' and that urban centres were hit 'disproportionately hard' in the 2003 European heatwave — implying compounding rather than independent risk.",
+                        "wrongReasons":  [
+                                             "A introduces structural deformation, which the passage never mentions.",
+                                             "C is unsupported; the passage does not claim biological differences in heat tolerance.",
+                                             "D is false; heatwaves are not geographically restricted, and the passage does not say so."
+                                         ],
+                        "passage":  {
+                                        "id":  "r8-passage",
+                                        "title":  "Urban Heat Islands",
+                                        "body":  "Cities are typically warmer than the rural areas surrounding them, a phenomenon known as the urban heat island effect. The cause lies in the materials and geometry of the built environment: concrete, asphalt, and brick absorb solar radiation during the day and release it slowly at night, while the dense arrangement of tall buildings restricts the airflow that would otherwise carry heat away. Vegetation, by contrast, cools its surroundings both through shade and through evapotranspiration, the process by which plants release water vapour from their leaves.\n\nMeasurements taken over decades show that large cities can be two to five degrees Celsius warmer than their immediate rural surroundings, and the difference is most pronounced during heatwaves and at night. The effect intensifies energy demand for air conditioning, worsens ground-level air quality by accelerating the formation of smog, and has been clearly linked to higher rates of heat-related illness and mortality. The 2003 European heatwave, which killed tens of thousands, struck dense urban centres including Paris and London disproportionately hard.\n\nUrban planners now treat heat-island mitigation as essential climate adaptation. Practical interventions include green roofs and walls, which cool buildings through shade and evapotranspiration; light-coloured 'cool' pavements and roofing materials, which reflect more sunlight than dark surfaces; and large-scale tree planting along streets and in parks. Cities such as Singapore and Medellín have demonstrated that integrating these measures from the start of major redevelopment can measurably reduce neighbourhood-scale temperatures within a few years."
+                                    }
+                    },
+                    {
+                        "id":  "r8-q5",
+                        "category":  "reading",
+                        "difficulty":  "hard",
+                        "text":  "Why does the author conclude with the examples of Singapore and Medellín?",
+                        "choices":  [
+                                        "To argue that heat-island mitigation is impossible without a tropical climate.",
+                                        "To provide concrete evidence that the mitigation measures discussed actually reduce city temperatures.",
+                                        "To compare the architectural styles of two unrelated cities.",
+                                        "To suggest that only wealthy cities can afford heat-island mitigation."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "Singapore and Medellín function as case studies showing that the listed interventions — green roofs, cool pavements, urban tree planting — measurably reduced temperatures in real cities.",
+                        "wrongReasons":  [
+                                             "A reverses the argument; the examples support the feasibility of mitigation, not its limitation to tropics.",
+                                             "C is off-topic; architectural style is not the focus.",
+                                             "D contradicts the passage's claim that integration during redevelopment yielded measurable results — affordability is not framed as the bottleneck."
+                                         ],
+                        "passage":  {
+                                        "id":  "r8-passage",
+                                        "title":  "Urban Heat Islands",
+                                        "body":  "Cities are typically warmer than the rural areas surrounding them, a phenomenon known as the urban heat island effect. The cause lies in the materials and geometry of the built environment: concrete, asphalt, and brick absorb solar radiation during the day and release it slowly at night, while the dense arrangement of tall buildings restricts the airflow that would otherwise carry heat away. Vegetation, by contrast, cools its surroundings both through shade and through evapotranspiration, the process by which plants release water vapour from their leaves.\n\nMeasurements taken over decades show that large cities can be two to five degrees Celsius warmer than their immediate rural surroundings, and the difference is most pronounced during heatwaves and at night. The effect intensifies energy demand for air conditioning, worsens ground-level air quality by accelerating the formation of smog, and has been clearly linked to higher rates of heat-related illness and mortality. The 2003 European heatwave, which killed tens of thousands, struck dense urban centres including Paris and London disproportionately hard.\n\nUrban planners now treat heat-island mitigation as essential climate adaptation. Practical interventions include green roofs and walls, which cool buildings through shade and evapotranspiration; light-coloured 'cool' pavements and roofing materials, which reflect more sunlight than dark surfaces; and large-scale tree planting along streets and in parks. Cities such as Singapore and Medellín have demonstrated that integrating these measures from the start of major redevelopment can measurably reduce neighbourhood-scale temperatures within a few years."
                                     }
                     },
                     {
@@ -1322,7 +1610,7 @@
                         "passage":  {
                                         "id":  "r9-passage",
                                         "title":  "The Limits of Multitasking",
-                                        "body":  "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is actually rapid task-switching: the brain shifts attention quickly between tasks rather than processing them simultaneously. Each switch carries a cost. The brain takes time to disengage from one task and re-engage with another, a phenomenon researchers call \u0027switch cost\u0027. Studies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The perceived productivity of multitasking is largely an illusion."
+                                        "body":  "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is, with rare exceptions, rapid task-switching: the brain shifts attention quickly between tasks rather than processing them in parallel. Each switch carries a cost, because the brain takes time to disengage from one task and re-engage with another — a phenomenon researchers call 'switch cost'.\n\nStudies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The effect is largest when the tasks share cognitive resources — for example, writing an email while listening to a lecture, both of which compete for language processing. Even seemingly automatic combinations such as driving while using a phone produce measurable slowdowns in reaction time, equivalent in some studies to the impairment of a moderate amount of alcohol.\n\nThe perceived productivity of multitasking is largely an illusion sustained by the fact that switching feels active and engaged. Researchers in Stanford and elsewhere have also found that heavy media multitaskers perform worse on attention-control tasks than light multitaskers, suggesting that the habit may degrade the very skill it claims to exercise. The practical implication for work and study is that single-tasking, supported by deliberate scheduling and removal of distractions, tends to produce better outcomes than rapid switching, even when the switching feels more responsive in the moment."
                                     }
                     },
                     {
@@ -1344,7 +1632,79 @@
                         "passage":  {
                                         "id":  "r9-passage",
                                         "title":  "The Limits of Multitasking",
-                                        "body":  "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is actually rapid task-switching: the brain shifts attention quickly between tasks rather than processing them simultaneously. Each switch carries a cost. The brain takes time to disengage from one task and re-engage with another, a phenomenon researchers call \u0027switch cost\u0027. Studies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The perceived productivity of multitasking is largely an illusion."
+                                        "body":  "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is, with rare exceptions, rapid task-switching: the brain shifts attention quickly between tasks rather than processing them in parallel. Each switch carries a cost, because the brain takes time to disengage from one task and re-engage with another — a phenomenon researchers call 'switch cost'.\n\nStudies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The effect is largest when the tasks share cognitive resources — for example, writing an email while listening to a lecture, both of which compete for language processing. Even seemingly automatic combinations such as driving while using a phone produce measurable slowdowns in reaction time, equivalent in some studies to the impairment of a moderate amount of alcohol.\n\nThe perceived productivity of multitasking is largely an illusion sustained by the fact that switching feels active and engaged. Researchers in Stanford and elsewhere have also found that heavy media multitaskers perform worse on attention-control tasks than light multitaskers, suggesting that the habit may degrade the very skill it claims to exercise. The practical implication for work and study is that single-tasking, supported by deliberate scheduling and removal of distractions, tends to produce better outcomes than rapid switching, even when the switching feels more responsive in the moment."
+                                    }
+                    },
+                    {
+                        "id":  "r9-q3",
+                        "category":  "reading",
+                        "difficulty":  "easy",
+                        "text":  "According to the passage, when is the cost of task-switching largest?",
+                        "choices":  [
+                                        "When the two tasks involve completely different cognitive resources.",
+                                        "When the two tasks share cognitive resources, such as language processing.",
+                                        "When the person is well rested and recently practised.",
+                                        "When neither task involves any cognitive effort."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage states that the effect 'is largest when the tasks share cognitive resources' — for example, writing an email while listening to a lecture, both of which use language processing.",
+                        "wrongReasons":  [
+                                             "A reverses the relationship the passage describes.",
+                                             "C introduces rest as a variable not discussed.",
+                                             "D is illogical; cost-free tasks would not generate switch cost in the first place."
+                                         ],
+                        "passage":  {
+                                        "id":  "r9-passage",
+                                        "title":  "The Limits of Multitasking",
+                                        "body":  "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is, with rare exceptions, rapid task-switching: the brain shifts attention quickly between tasks rather than processing them in parallel. Each switch carries a cost, because the brain takes time to disengage from one task and re-engage with another — a phenomenon researchers call 'switch cost'.\n\nStudies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The effect is largest when the tasks share cognitive resources — for example, writing an email while listening to a lecture, both of which compete for language processing. Even seemingly automatic combinations such as driving while using a phone produce measurable slowdowns in reaction time, equivalent in some studies to the impairment of a moderate amount of alcohol.\n\nThe perceived productivity of multitasking is largely an illusion sustained by the fact that switching feels active and engaged. Researchers in Stanford and elsewhere have also found that heavy media multitaskers perform worse on attention-control tasks than light multitaskers, suggesting that the habit may degrade the very skill it claims to exercise. The practical implication for work and study is that single-tasking, supported by deliberate scheduling and removal of distractions, tends to produce better outcomes than rapid switching, even when the switching feels more responsive in the moment."
+                                    }
+                    },
+                    {
+                        "id":  "r9-q4",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "What can be inferred from the passage about heavy media multitaskers?",
+                        "choices":  [
+                                        "Their heavy practice has made them better at attention control than light multitaskers.",
+                                        "The habit may erode their ability to control attention rather than improve it.",
+                                        "They are immune to the switch-cost effect described earlier in the passage.",
+                                        "Their performance is best when given many short tasks at once."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage says heavy media multitaskers 'perform worse on attention-control tasks than light multitaskers, suggesting that the habit may degrade the very skill it claims to exercise.'",
+                        "wrongReasons":  [
+                                             "A directly contradicts the passage's finding.",
+                                             "C is unsupported; the passage does not claim heavy multitaskers escape switch cost.",
+                                             "D inverts the practical implication, which recommends single-tasking."
+                                         ],
+                        "passage":  {
+                                        "id":  "r9-passage",
+                                        "title":  "The Limits of Multitasking",
+                                        "body":  "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is, with rare exceptions, rapid task-switching: the brain shifts attention quickly between tasks rather than processing them in parallel. Each switch carries a cost, because the brain takes time to disengage from one task and re-engage with another — a phenomenon researchers call 'switch cost'.\n\nStudies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The effect is largest when the tasks share cognitive resources — for example, writing an email while listening to a lecture, both of which compete for language processing. Even seemingly automatic combinations such as driving while using a phone produce measurable slowdowns in reaction time, equivalent in some studies to the impairment of a moderate amount of alcohol.\n\nThe perceived productivity of multitasking is largely an illusion sustained by the fact that switching feels active and engaged. Researchers in Stanford and elsewhere have also found that heavy media multitaskers perform worse on attention-control tasks than light multitaskers, suggesting that the habit may degrade the very skill it claims to exercise. The practical implication for work and study is that single-tasking, supported by deliberate scheduling and removal of distractions, tends to produce better outcomes than rapid switching, even when the switching feels more responsive in the moment."
+                                    }
+                    },
+                    {
+                        "id":  "r9-q5",
+                        "category":  "reading",
+                        "difficulty":  "hard",
+                        "text":  "Why does the author compare phone use while driving to alcohol impairment?",
+                        "choices":  [
+                                        "To argue that drivers using phones should be treated identically to drunk drivers by law.",
+                                        "To make vivid, by analogy with a familiar standard, how large the measured slowdown is.",
+                                        "To suggest that drinking alcohol improves attention.",
+                                        "To distract from the main argument about cognitive resources."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The comparison gives the reader a concrete reference point for the size of the impairment — drunk driving is a well-known standard, so the analogy communicates magnitude without arguing legal equivalence.",
+                        "wrongReasons":  [
+                                             "A overstates the comparison; the passage is illustrative, not prescriptive.",
+                                             "C inverts the analogy; nothing in the passage suggests alcohol improves attention.",
+                                             "D mischaracterises a directly supporting example as a distraction."
+                                         ],
+                        "passage":  {
+                                        "id":  "r9-passage",
+                                        "title":  "The Limits of Multitasking",
+                                        "body":  "Many people believe they can multitask effectively. Research in cognitive psychology, however, suggests otherwise. What we experience as multitasking is, with rare exceptions, rapid task-switching: the brain shifts attention quickly between tasks rather than processing them in parallel. Each switch carries a cost, because the brain takes time to disengage from one task and re-engage with another — a phenomenon researchers call 'switch cost'.\n\nStudies show that people who frequently switch tasks make more errors and take longer overall than those who complete tasks sequentially. The effect is largest when the tasks share cognitive resources — for example, writing an email while listening to a lecture, both of which compete for language processing. Even seemingly automatic combinations such as driving while using a phone produce measurable slowdowns in reaction time, equivalent in some studies to the impairment of a moderate amount of alcohol.\n\nThe perceived productivity of multitasking is largely an illusion sustained by the fact that switching feels active and engaged. Researchers in Stanford and elsewhere have also found that heavy media multitaskers perform worse on attention-control tasks than light multitaskers, suggesting that the habit may degrade the very skill it claims to exercise. The practical implication for work and study is that single-tasking, supported by deliberate scheduling and removal of distractions, tends to produce better outcomes than rapid switching, even when the switching feels more responsive in the moment."
                                     }
                     },
                     {
@@ -1368,7 +1728,7 @@
                         "passage":  {
                                         "id":  "r10-passage",
                                         "title":  "The Role of Mistakes in Learning",
-                                        "body":  "Many educational systems treat mistakes as failures to be avoided. In contrast, researchers in learning science argue that errors are essential to growth. When students make a mistake and then receive corrective feedback, they engage in deeper processing than when they simply read correct information. The struggle to retrieve an answer Ã¢â‚¬â€ even an incorrect one Ã¢â‚¬â€ activates more neural pathways than passive study. This principle, known as \u0027desirable difficulty\u0027, suggests that some level of challenge is not just acceptable but necessary for lasting learning."
+                                        "body":  "Many educational systems treat mistakes as failures to be avoided. Researchers in learning science argue, in contrast, that errors are not obstacles to learning but engines of it. When students make a mistake and then receive corrective feedback, they engage in deeper cognitive processing than when they merely read correct information. The act of struggling to retrieve an answer — even an incorrect one — activates more neural pathways than passive study and leaves a more durable trace in memory.\n\nThis insight underpins the principle that psychologists Robert and Elizabeth Bjork call 'desirable difficulty': some level of cognitive challenge is not merely tolerable but necessary for lasting learning. Conditions that feel inefficient — spaced practice instead of massed practice, interleaved problem sets instead of blocks of the same problem type, and self-testing instead of rereading — reliably produce stronger long-term retention than conditions that feel smooth and confident. Crucially, the in-the-moment subjective sense of progress is a poor guide; learners who feel fluent often retain less than those who feel they are struggling.\n\nThe classroom implications are substantial. Teachers who frame mistakes as informative — rather than as evidence of inadequacy — encourage students to attempt harder problems and to learn from corrections rather than hide them. Some programmes deliberately design 'productive failure' tasks in which students wrestle unsuccessfully with a problem before instruction is given, on the theory that the prior struggle primes them to absorb the eventual explanation more fully. The overall picture from this research is consistent: errors, properly handled, are not the opposite of learning but one of its most effective drivers."
                                     }
                     },
                     {
@@ -1390,7 +1750,79 @@
                         "passage":  {
                                         "id":  "r10-passage",
                                         "title":  "The Role of Mistakes in Learning",
-                                        "body":  "Many educational systems treat mistakes as failures to be avoided. In contrast, researchers in learning science argue that errors are essential to growth. When students make a mistake and then receive corrective feedback, they engage in deeper processing than when they simply read correct information. The struggle to retrieve an answer Ã¢â‚¬â€ even an incorrect one Ã¢â‚¬â€ activates more neural pathways than passive study. This principle, known as \u0027desirable difficulty\u0027, suggests that some level of challenge is not just acceptable but necessary for lasting learning."
+                                        "body":  "Many educational systems treat mistakes as failures to be avoided. Researchers in learning science argue, in contrast, that errors are not obstacles to learning but engines of it. When students make a mistake and then receive corrective feedback, they engage in deeper cognitive processing than when they merely read correct information. The act of struggling to retrieve an answer — even an incorrect one — activates more neural pathways than passive study and leaves a more durable trace in memory.\n\nThis insight underpins the principle that psychologists Robert and Elizabeth Bjork call 'desirable difficulty': some level of cognitive challenge is not merely tolerable but necessary for lasting learning. Conditions that feel inefficient — spaced practice instead of massed practice, interleaved problem sets instead of blocks of the same problem type, and self-testing instead of rereading — reliably produce stronger long-term retention than conditions that feel smooth and confident. Crucially, the in-the-moment subjective sense of progress is a poor guide; learners who feel fluent often retain less than those who feel they are struggling.\n\nThe classroom implications are substantial. Teachers who frame mistakes as informative — rather than as evidence of inadequacy — encourage students to attempt harder problems and to learn from corrections rather than hide them. Some programmes deliberately design 'productive failure' tasks in which students wrestle unsuccessfully with a problem before instruction is given, on the theory that the prior struggle primes them to absorb the eventual explanation more fully. The overall picture from this research is consistent: errors, properly handled, are not the opposite of learning but one of its most effective drivers."
+                                    }
+                    },
+                    {
+                        "id":  "r10-q3",
+                        "category":  "reading",
+                        "difficulty":  "easy",
+                        "text":  "As used in the second paragraph, conditions that feel 'inefficient' are best described as:",
+                        "choices":  [
+                                        "useless practices that should be eliminated from study routines",
+                                        "study conditions that feel harder in the moment but produce stronger long-term retention",
+                                        "techniques that take less time than the alternatives",
+                                        "approaches favoured only by struggling students"
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage explains that conditions which 'feel inefficient' — spaced practice, interleaving, self-testing — reliably produce stronger long-term retention than the smoother alternatives.",
+                        "wrongReasons":  [
+                                             "A misreads the passage, which describes these conditions as effective despite feeling unproductive.",
+                                             "C reverses the claim; the inefficient-feeling conditions are not necessarily faster.",
+                                             "D introduces a student-type distinction the passage does not make."
+                                         ],
+                        "passage":  {
+                                        "id":  "r10-passage",
+                                        "title":  "The Role of Mistakes in Learning",
+                                        "body":  "Many educational systems treat mistakes as failures to be avoided. Researchers in learning science argue, in contrast, that errors are not obstacles to learning but engines of it. When students make a mistake and then receive corrective feedback, they engage in deeper cognitive processing than when they merely read correct information. The act of struggling to retrieve an answer — even an incorrect one — activates more neural pathways than passive study and leaves a more durable trace in memory.\n\nThis insight underpins the principle that psychologists Robert and Elizabeth Bjork call 'desirable difficulty': some level of cognitive challenge is not merely tolerable but necessary for lasting learning. Conditions that feel inefficient — spaced practice instead of massed practice, interleaved problem sets instead of blocks of the same problem type, and self-testing instead of rereading — reliably produce stronger long-term retention than conditions that feel smooth and confident. Crucially, the in-the-moment subjective sense of progress is a poor guide; learners who feel fluent often retain less than those who feel they are struggling.\n\nThe classroom implications are substantial. Teachers who frame mistakes as informative — rather than as evidence of inadequacy — encourage students to attempt harder problems and to learn from corrections rather than hide them. Some programmes deliberately design 'productive failure' tasks in which students wrestle unsuccessfully with a problem before instruction is given, on the theory that the prior struggle primes them to absorb the eventual explanation more fully. The overall picture from this research is consistent: errors, properly handled, are not the opposite of learning but one of its most effective drivers."
+                                    }
+                    },
+                    {
+                        "id":  "r10-q4",
+                        "category":  "reading",
+                        "difficulty":  "medium",
+                        "text":  "What can be inferred from the passage about a student who feels fluent and confident while studying?",
+                        "choices":  [
+                                        "Such a student is almost always retaining the material at a high level.",
+                                        "The feeling of fluency may be misleading and does not reliably indicate retention.",
+                                        "Confidence is a direct measurement of long-term retention.",
+                                        "Fluent students are using more cognitive resources than struggling ones."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "The passage warns that 'the in-the-moment subjective sense of progress is a poor guide; learners who feel fluent often retain less than those who feel they are struggling.'",
+                        "wrongReasons":  [
+                                             "A contradicts the passage's caution about fluency.",
+                                             "C overstates the relationship; the passage explicitly disconnects confidence from retention.",
+                                             "D inverts the cognitive-effort claim; struggling, not fluency, is the marker of deeper processing."
+                                         ],
+                        "passage":  {
+                                        "id":  "r10-passage",
+                                        "title":  "The Role of Mistakes in Learning",
+                                        "body":  "Many educational systems treat mistakes as failures to be avoided. Researchers in learning science argue, in contrast, that errors are not obstacles to learning but engines of it. When students make a mistake and then receive corrective feedback, they engage in deeper cognitive processing than when they merely read correct information. The act of struggling to retrieve an answer — even an incorrect one — activates more neural pathways than passive study and leaves a more durable trace in memory.\n\nThis insight underpins the principle that psychologists Robert and Elizabeth Bjork call 'desirable difficulty': some level of cognitive challenge is not merely tolerable but necessary for lasting learning. Conditions that feel inefficient — spaced practice instead of massed practice, interleaved problem sets instead of blocks of the same problem type, and self-testing instead of rereading — reliably produce stronger long-term retention than conditions that feel smooth and confident. Crucially, the in-the-moment subjective sense of progress is a poor guide; learners who feel fluent often retain less than those who feel they are struggling.\n\nThe classroom implications are substantial. Teachers who frame mistakes as informative — rather than as evidence of inadequacy — encourage students to attempt harder problems and to learn from corrections rather than hide them. Some programmes deliberately design 'productive failure' tasks in which students wrestle unsuccessfully with a problem before instruction is given, on the theory that the prior struggle primes them to absorb the eventual explanation more fully. The overall picture from this research is consistent: errors, properly handled, are not the opposite of learning but one of its most effective drivers."
+                                    }
+                    },
+                    {
+                        "id":  "r10-q5",
+                        "category":  "reading",
+                        "difficulty":  "hard",
+                        "text":  "Why does the author introduce 'productive failure' tasks in the third paragraph?",
+                        "choices":  [
+                                        "To argue that students should be allowed to fail without ever receiving feedback.",
+                                        "To give a concrete example of a teaching design that follows from the desirable-difficulty principle.",
+                                        "To suggest that productive failure replaces all other forms of instruction.",
+                                        "To recommend that schools penalise wrong answers more harshly."
+                                    ],
+                        "answer":  1,
+                        "explanation":  "Productive failure illustrates the desirable-difficulty principle in practice: students struggle first so that the eventual explanation is more deeply absorbed — a direct application of the theory introduced in paragraph two.",
+                        "wrongReasons":  [
+                                             "A contradicts the description, which still involves later instruction.",
+                                             "C overstates the claim; the passage presents productive failure as one approach, not a replacement for all instruction.",
+                                             "D inverts the message, which is that mistakes should be informative, not punished."
+                                         ],
+                        "passage":  {
+                                        "id":  "r10-passage",
+                                        "title":  "The Role of Mistakes in Learning",
+                                        "body":  "Many educational systems treat mistakes as failures to be avoided. Researchers in learning science argue, in contrast, that errors are not obstacles to learning but engines of it. When students make a mistake and then receive corrective feedback, they engage in deeper cognitive processing than when they merely read correct information. The act of struggling to retrieve an answer — even an incorrect one — activates more neural pathways than passive study and leaves a more durable trace in memory.\n\nThis insight underpins the principle that psychologists Robert and Elizabeth Bjork call 'desirable difficulty': some level of cognitive challenge is not merely tolerable but necessary for lasting learning. Conditions that feel inefficient — spaced practice instead of massed practice, interleaved problem sets instead of blocks of the same problem type, and self-testing instead of rereading — reliably produce stronger long-term retention than conditions that feel smooth and confident. Crucially, the in-the-moment subjective sense of progress is a poor guide; learners who feel fluent often retain less than those who feel they are struggling.\n\nThe classroom implications are substantial. Teachers who frame mistakes as informative — rather than as evidence of inadequacy — encourage students to attempt harder problems and to learn from corrections rather than hide them. Some programmes deliberately design 'productive failure' tasks in which students wrestle unsuccessfully with a problem before instruction is given, on the theory that the prior struggle primes them to absorb the eventual explanation more fully. The overall picture from this research is consistent: errors, properly handled, are not the opposite of learning but one of its most effective drivers."
                                     }
                     }
                 ],

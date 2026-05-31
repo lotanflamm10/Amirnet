@@ -708,7 +708,7 @@
       "difficulty": "medium",
       "text": "The legal reforms were designed to streamline court procedures, yet implementation proved slower than anticipated.",
       "choices": [
-        "The legal reforms were successfully implemented and the entire spectrum of court procedures was efficiently streamlined considerably ahead of the originally projected schedule.",
+        "The legal reforms were successfully implemented and court procedures were streamlined ahead of schedule.",
         "Although the intent of the legal reforms was to make court procedures more efficient, putting them into practice took longer than expected.",
         "Implementation of the legal reforms was rapid, but court procedures became more complex.",
         "The legal reforms were abandoned because implementation took too long."
@@ -1145,7 +1145,7 @@
       "difficulty": "medium",
       "text": "The rise of e-commerce has forced many traditional retailers to either adapt their business models or face closure.",
       "choices": [
-        "Traditional bricks-and-mortar retailers have unambiguously benefited from the rapid growth of e-commerce, primarily by expanding their available customer base into new geographic and demographic markets.",
+        "Traditional retailers have benefited from the growth of e-commerce by expanding their customer base.",
         "E-commerce growth has created new opportunities for traditional retailers without threatening existing ones.",
         "The expansion of online shopping has put conventional retailers in the position of needing to transform how they operate or risk going out of business.",
         "Traditional retailers chose to close rather than compete with e-commerce platforms."
@@ -1260,7 +1260,7 @@
       "text": "Critics of the study contend that the observed correlation between social media use and depression cannot be interpreted as evidence of causation without controlling for confounding variables.",
       "choices": [
         "Critics argue that the study has proven that social media use causes depression.",
-        "The study's critics hold that the observed correlation between social media use and depression is empirically meaningless and should be disregarded in any serious clinical or policy discussion of mental-health outcomes.",
+        "The study's critics hold that the correlation between social media use and depression is meaningless and should be disregarded.",
         "According to the critics, the correlation identified in the study does not establish that social media use leads to depression, unless other influencing factors are accounted for.",
         "Critics suggest that confounding variables, not social media use, are the direct cause of depression."
       ],
@@ -1354,7 +1354,7 @@
       "difficulty": "hard",
       "text": "The philosopher distinguishes between freedom as the absence of external constraint and freedom as the capacity to act in accordance with one's authentic values.",
       "choices": [
-        "The philosopher equates freedom solely with the absence of external constraint and treats any rival definition rooted in inner values or social context as a derivative, secondary matter unworthy of serious philosophical defence.",
+        "The philosopher equates freedom with the absence of external constraint and views all other definitions as secondary.",
         "The philosopher identifies two distinct conceptions of freedom: one defined by the lack of outside interference, and another by the ability to act in line with one's genuine values.",
         "According to the philosopher, true freedom requires both the absence of constraints and complete alignment with social norms.",
         "The philosopher argues that external constraints are necessary for authentic freedom."
@@ -1430,7 +1430,7 @@
       "difficulty": "hard",
       "text": "The regulation operates not by prohibiting the behavior outright but by restructuring the incentives in ways that make compliance the economically rational choice.",
       "choices": [
-        "The regulation achieves compliance by outright banning the targeted behavior and imposing substantial monetary penalties on any individual or firm that engages in non-compliant conduct.",
+        "The regulation achieves compliance by banning the behavior and imposing penalties for non-compliance.",
         "Rather than imposing an outright ban, the regulation works by altering the incentive structure so that following the rules becomes the most economically sensible option.",
         "The regulation assumes that economic incentives alone are insufficient to change behavior without accompanying prohibitions.",
         "By making non-compliance more attractive economically, the regulation encourages a shift in behavior."
@@ -1487,8 +1487,8 @@
       "difficulty": "hard",
       "text": "Proponents of the precautionary principle argue that in the absence of scientific consensus, the burden of proof should lie with those who advocate for a potentially harmful action, not those who seek to prevent it.",
       "choices": [
-        "The precautionary principle holds that potentially risky actions should be freely permitted unless and until a firm scientific consensus has established their definite harmfulness in advance.",
-        "Supporters of the precautionary principle hold that without scientific certainty, those proposing a potentially harmful action must prove its safety, not its opponents prove its harm.",
+        "The precautionary principle holds that actions should be permitted unless scientific consensus has established their harmfulness.",
+        "Supporters of the precautionary principle contend that when scientific certainty is lacking, those wishing to proceed with a potentially dangerous action must demonstrate its safety rather than expecting opponents to prove its harm.",
         "The precautionary principle requires scientific consensus before any potentially harmful action is either permitted or prevented.",
         "Advocates of the precautionary principle argue that both proponents and opponents of an action share equal responsibility for establishing its safety."
       ],
@@ -1546,8 +1546,8 @@
       "choices": [
         "Price controls are advocated by the economist as an effective long-term solution to both inflation and production shortages.",
         "According to the economist, price controls reduce inflation without any significant effect on production levels.",
-        "The economist argues that price controls, though superficially attractive against inflation, tend to cause shortages by discouraging production at the regulated price.",
-        "The economist warns that inflation, by undermining producers' purchasing power, naturally gives rise to price controls, which subsequently generate supply shortages by depressing producer margins."
+        "The economist contends that although price controls may seem like an attractive anti-inflation tool, they often lead to supply deficits by reducing producers' incentive to produce at the regulated price.",
+        "The economist warns that inflation tends to cause price controls, which then lead to shortages."
       ],
       "answer": 2,
       "explanation": "Price controls superficially appealing against inflation but produce shortages by discouraging production = although seemingly attractive anti-inflation tool, often lead to supply deficits by reducing producers' incentive at regulated price.",
@@ -1677,7 +1677,7 @@
       "difficulty": "hard",
       "text": "The principle of subsidiarity holds that decisions should be taken at the most local level capable of addressing the issue effectively, delegating to higher levels only when necessary.",
       "choices": [
-        "Subsidiarity argues that all genuinely significant decisions, no matter how local their immediate effects might be, should be made at the highest possible level of governance to ensure overall administrative efficiency and policy coherence.",
+        "Subsidiarity argues that all significant decisions should be made at the highest possible level of governance to ensure efficiency.",
         "Under subsidiarity, the default position is to address issues at the closest level to those affected, escalating to higher authority only when the local level lacks the capacity to handle it.",
         "The principle of subsidiarity requires decisions to be made jointly by local and higher-level authorities in all cases.",
         "Subsidiarity dictates that higher levels of governance should take precedence over local decision-making whenever efficiency is a concern."
@@ -1696,7 +1696,7 @@
       "difficulty": "hard",
       "text": "The text's silence on certain historical events is as revealing as its explicit statements, pointing to deliberate editorial choices rather than mere omission.",
       "choices": [
-        "The text's failure to address certain historical events should be read as evidence of poor research and inadequate archival work on the author's part, rather than as a sign of intentional editorial selection.",
+        "The text's failure to address certain historical events is evidence of poor research rather than intentional selection.",
         "Explicit statements in the text are more informative than its omissions regarding historical events.",
         "Just as informative as what the text openly states is what it leaves out, since the gaps appear to reflect conscious curatorial decisions rather than accidental oversight.",
         "The text addresses all relevant historical events, leaving no meaningful omissions."
@@ -1772,7 +1772,7 @@
       "difficulty": "hard",
       "text": "The study's authors acknowledge that their model accounts for the most commonly cited variables but cannot rule out the influence of factors that have not yet been identified in the literature.",
       "choices": [
-        "The authors claim their model is fully comprehensive in scope and entirely eliminates the possibility of any previously unknown influencing factors affecting the model's results in any meaningful, statistically detectable way whatsoever.",
+        "The authors claim their model is comprehensive and eliminates the possibility of any unknown influencing factors.",
         "The model's limitations stem entirely from the failure to include the most commonly cited variables.",
         "While the model incorporates the variables most frequently referenced in existing research, the authors admit it may still be affected by unknown factors not yet documented in the field.",
         "The study identifies previously unknown variables that explain the findings more fully than the commonly cited ones."
@@ -1791,9 +1791,9 @@
       "difficulty": "hard",
       "text": "The transition from authoritarian to democratic governance is rarely linear, often involving reversals, stagnation, and periods of hybrid rule in which democratic institutions coexist with authoritarian practices.",
       "choices": [
-        "Democratization is a straightforward and predictable linear process in which existing authoritarian institutions are gradually and reliably replaced, step by careful step, by democratic ones over time.",
+        "Democratization is a straightforward and predictable process in which authoritarian institutions are gradually replaced by democratic ones.",
         "Authoritarian governance systems always collapse before democratic ones can be established in their place.",
-        "The shift from authoritarian to democratic rule is rarely smooth, often involving setbacks, standstills, and phases of mixed governance.",
+        "The move from authoritarian to democratic systems is not a smooth progression but a complex and irregular process that may include setbacks, standstills, and phases where both types of governance operate simultaneously.",
         "Democratic transitions invariably succeed once they begin, though the pace of change may vary."
       ],
       "answer": 2,
@@ -1810,7 +1810,7 @@
       "difficulty": "hard",
       "text": "The concept of epistemic injustice, as developed by Miranda Fricker, refers to the wrong done to someone specifically in their capacity as a knower — that is, by being discredited as a source of knowledge or being denied the concepts needed to make sense of their own experience.",
       "choices": [
-        "Fricker's epistemic injustice describes the broader political harm caused when established knowledge itself, rather than ignorance, is deliberately deployed as a tool of state oppression against citizens.",
+        "Fricker's epistemic injustice describes the harm caused when knowledge itself is used as a tool of political oppression.",
         "Epistemic injustice, in Fricker's account, encompasses two related wrongs: being dismissed as a credible source of knowledge, and lacking the interpretive resources to understand one's own situation.",
         "The concept refers to the injustice of restricting access to education and thus limiting individuals' capacity for knowledge.",
         "Fricker argues that epistemic injustice occurs only when knowledge is deliberately withheld from marginalized communities."
@@ -1867,9 +1867,9 @@
       "difficulty": "hard",
       "text": "The paradox at the heart of the privacy debate is that individuals often voluntarily disclose personal information in exchange for services while simultaneously demanding stronger legal protections for their data.",
       "choices": [
-        "Legal protections for personal data have made individuals significantly more willing to share private information freely in exchange for the convenience of digital services they enjoy.",
+        "Legal protections for personal data have made individuals more willing to share information in exchange for services.",
         "Individuals who demand legal protections for their data rarely use digital services that require personal information disclosure.",
-        "The privacy debate contains an internal tension: people voluntarily trade personal data for services while also demanding stronger legal safeguards for it.",
+        "There is an internal tension in the privacy debate: people tend to give away personal data for services of their own accord while also calling for robust legislative safeguards for that same data.",
         "The paradox is resolved once individuals stop sharing personal information voluntarily, at which point legal protections become unnecessary."
       ],
       "answer": 2,
@@ -1886,7 +1886,7 @@
       "difficulty": "hard",
       "text": "The sociological concept of habitus, as theorized by Bourdieu, refers to the set of durable, transposable dispositions that individuals acquire through socialization and that shape their perceptions, actions, and aspirations in ways largely outside conscious awareness.",
       "choices": [
-        "Habitus, according to Bourdieu, is a fully consciously adopted set of explicit rules and procedures that individuals deliberately use to navigate the social environments they happen to find themselves in.",
+        "Habitus, according to Bourdieu, is a consciously adopted set of rules that individuals use to navigate social environments.",
         "Bourdieu's habitus describes the formal institutions through which social norms are transmitted to individuals.",
         "In Bourdieu's framework, habitus denotes the internalized, lasting tendencies formed through socialization that influence how people perceive, behave, and aspire, typically below the level of conscious reflection.",
         "Habitus refers to the economic capital that individuals accumulate over time through participation in social institutions."
@@ -1905,9 +1905,9 @@
       "difficulty": "hard",
       "text": "Democratic backsliding often proceeds incrementally through formally legal mechanisms — the amendment of electoral rules, the packing of courts, and the erosion of press freedom — rather than through outright coups.",
       "choices": [
-        "Democratic backsliding is characterized primarily by sudden, violent overthrows of elected governments by armed factions rather than by gradual, legally framed institutional reforms enacted from within.",
+        "Democratic backsliding is characterized primarily by violent overthrows of government rather than by gradual, legally framed changes.",
         "Amendments to electoral rules, court packing, and restrictions on press freedom are illegal under all democratic constitutions.",
-        "Democratic decline often advances step by step through technically lawful tools — changing election rules, packing courts, weakening press freedoms — rather than through outright coups.",
+        "The process of democratic decline frequently occurs step by step, using technically lawful tools such as changing election rules, appointing loyalists to courts, and weakening press freedoms, rather than via sudden unconstitutional seizures of power.",
         "Democratic backsliding is rare because legal mechanisms prevent the erosion of democratic institutions."
       ],
       "answer": 2,

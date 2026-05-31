@@ -14,7 +14,10 @@
     "qa:amirnet:returning": "tsx qa-agent/runner.ts --returning",
     "qa:amirnet:report": "node -e \"console.log(require('path').resolve('qa-report/amirnet-qa-report.md'))\"",
     "validate:questions": "node scripts/validate-question-bank.mjs",
-    "audit:sc-amirnet": "node scripts/audit-sc-simulation-composition.mjs"
+    "audit:sc-amirnet": "node scripts/audit-sc-simulation-composition.mjs",
+    "audit:length-bias": "node scripts/length-bias-scan.mjs",
+    "audit:category-key": "node scripts/scan-category-key-mismatch.mjs",
+    "audit:passage-eligibility": "node scripts/passage-eligibility-scan.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

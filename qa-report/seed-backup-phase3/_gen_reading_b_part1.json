@@ -1,0 +1,722 @@
+[
+  {
+    "id": "r33-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "The human eye can perceive millions of colours because of specialised cells called cones.",
+      "Colour perception is a purely physical process determined by light wavelengths alone.",
+      "Colour perception involves both physical light properties and complex brain interpretation.",
+      "Different cultures assign different names to the same objective colours."
+    ],
+    "answer": 2,
+    "explanation": "The passage explains that colour perception results from both the physical properties of light and the brain's active interpretation of signals from the retina.",
+    "wrongReasons": [
+      "Option A describes only one component (cones) without accounting for the brain's role.",
+      "Option B is contradicted by the passage, which stresses the brain's interpretive role.",
+      "Option D relates to cultural naming, which is mentioned only briefly and is not the central claim."
+    ],
+    "passage": {
+      "id": "r33-passage",
+      "title": "The Science of Colour Perception",
+      "body": "Colour perception is far more complex than simply detecting light wavelengths. When light enters the eye, it strikes the retina, where two types of photoreceptors — rods and cones — respond to it. Rods handle low-light vision, while the three varieties of cone cells are each sensitive to different ranges of wavelength, loosely corresponding to red, green, and blue. The signals from these cones are then transmitted to the brain via the optic nerve. Crucially, the brain does not passively receive these signals; it actively interprets and constructs the experience of colour. This is why two people looking at the same object may report slightly different colours, and why optical illusions can make identical shades appear different depending on their surroundings. Colour constancy — the brain's ability to perceive a surface as the same colour under varying lighting — further illustrates this active construction. Cultural and linguistic factors also shape colour experience: languages that have a dedicated word for a particular shade make speakers faster at distinguishing it. Altogether, colour is not merely a property of the physical world but a creation of the perceiving mind."
+    }
+  },
+  {
+    "id": "r33-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what is the function of rod cells in the eye?",
+    "choices": [
+      "They detect colour wavelengths corresponding to red, green, and blue.",
+      "They transmit colour signals directly to the visual cortex.",
+      "They are responsible for vision in low-light conditions.",
+      "They enable colour constancy under varying illumination."
+    ],
+    "answer": 2,
+    "explanation": "The passage states explicitly that rods handle low-light vision, distinguishing them from cones, which respond to colour.",
+    "wrongReasons": [
+      "Option A describes cone cells, not rod cells.",
+      "Option B describes the function of the optic nerve, not rods.",
+      "Option D describes a brain function (colour constancy), not a retinal cell function."
+    ],
+    "passage": {
+      "id": "r33-passage",
+      "title": "The Science of Colour Perception",
+      "body": "Colour perception is far more complex than simply detecting light wavelengths. When light enters the eye, it strikes the retina, where two types of photoreceptors — rods and cones — respond to it. Rods handle low-light vision, while the three varieties of cone cells are each sensitive to different ranges of wavelength, loosely corresponding to red, green, and blue. The signals from these cones are then transmitted to the brain via the optic nerve. Crucially, the brain does not passively receive these signals; it actively interprets and constructs the experience of colour. This is why two people looking at the same object may report slightly different colours, and why optical illusions can make identical shades appear different depending on their surroundings. Colour constancy — the brain's ability to perceive a surface as the same colour under varying lighting — further illustrates this active construction. Cultural and linguistic factors also shape colour experience: languages that have a dedicated word for a particular shade make speakers faster at distinguishing it. Altogether, colour is not merely a property of the physical world but a creation of the perceiving mind."
+    }
+  },
+  {
+    "id": "r33-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "Which of the following can be inferred from the passage about optical illusions involving colour?",
+    "choices": [
+      "They occur because the optic nerve sends incorrect signals to the brain.",
+      "They demonstrate that the brain's colour experience depends on context, not just raw input.",
+      "They prove that cone cells are unreliable detectors of wavelength.",
+      "They are more common in people who lack a word for a particular colour in their language."
+    ],
+    "answer": 1,
+    "explanation": "The passage uses optical illusions to illustrate that the brain actively constructs colour, meaning the surrounding context shapes perception beyond the raw signal.",
+    "wrongReasons": [
+      "Option A blames the optic nerve, but the passage locates active interpretation in the brain, not the nerve.",
+      "Option C concerns cone cell reliability, which the passage does not question.",
+      "Option D links illusions to linguistic factors, a connection not made in the passage."
+    ],
+    "passage": {
+      "id": "r33-passage",
+      "title": "The Science of Colour Perception",
+      "body": "Colour perception is far more complex than simply detecting light wavelengths. When light enters the eye, it strikes the retina, where two types of photoreceptors — rods and cones — respond to it. Rods handle low-light vision, while the three varieties of cone cells are each sensitive to different ranges of wavelength, loosely corresponding to red, green, and blue. The signals from these cones are then transmitted to the brain via the optic nerve. Crucially, the brain does not passively receive these signals; it actively interprets and constructs the experience of colour. This is why two people looking at the same object may report slightly different colours, and why optical illusions can make identical shades appear different depending on their surroundings. Colour constancy — the brain's ability to perceive a surface as the same colour under varying lighting — further illustrates this active construction. Cultural and linguistic factors also shape colour experience: languages that have a dedicated word for a particular shade make speakers faster at distinguishing it. Altogether, colour is not merely a property of the physical world but a creation of the perceiving mind."
+    }
+  },
+  {
+    "id": "r33-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, the word 'constancy' most nearly means:",
+    "choices": [
+      "Frequency of repetition",
+      "Loyalty to a principle",
+      "Stability of perception despite changing conditions",
+      "The exact matching of colours across cultures"
+    ],
+    "answer": 2,
+    "explanation": "Colour constancy is defined in the passage as the brain's ability to perceive a surface as the same colour even when lighting changes, so 'constancy' here means stability of perception despite changing conditions.",
+    "wrongReasons": [
+      "Option A (frequency of repetition) is a common meaning of the word in other contexts but does not fit the passage's definition.",
+      "Option B (loyalty) is an unrelated figurative meaning.",
+      "Option D introduces cross-cultural matching, which is not part of the passage's definition of colour constancy."
+    ],
+    "passage": {
+      "id": "r33-passage",
+      "title": "The Science of Colour Perception",
+      "body": "Colour perception is far more complex than simply detecting light wavelengths. When light enters the eye, it strikes the retina, where two types of photoreceptors — rods and cones — respond to it. Rods handle low-light vision, while the three varieties of cone cells are each sensitive to different ranges of wavelength, loosely corresponding to red, green, and blue. The signals from these cones are then transmitted to the brain via the optic nerve. Crucially, the brain does not passively receive these signals; it actively interprets and constructs the experience of colour. This is why two people looking at the same object may report slightly different colours, and why optical illusions can make identical shades appear different depending on their surroundings. Colour constancy — the brain's ability to perceive a surface as the same colour under varying lighting — further illustrates this active construction. Cultural and linguistic factors also shape colour experience: languages that have a dedicated word for a particular shade make speakers faster at distinguishing it. Altogether, colour is not merely a property of the physical world but a creation of the perceiving mind."
+    }
+  },
+  {
+    "id": "r33-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "What is the author's primary purpose in ending the passage with the statement that colour is 'a creation of the perceiving mind'?",
+    "choices": [
+      "To argue that physics has no role in explaining colour.",
+      "To summarise the cumulative evidence that colour experience is constructed rather than simply received.",
+      "To introduce the idea that colour perception varies only because of cultural differences.",
+      "To suggest that further scientific research into cones is unnecessary."
+    ],
+    "answer": 1,
+    "explanation": "The closing statement synthesises the passage's argument: after reviewing cones, optic-nerve signals, brain interpretation, optical illusions, colour constancy, and linguistic effects, the author concludes that colour is actively constructed by the mind, not passively recorded.",
+    "wrongReasons": [
+      "Option A overstates the claim; the passage acknowledges the physical role of wavelengths.",
+      "Option C narrows the conclusion to cultural differences, ignoring the broader biological and neurological evidence presented.",
+      "Option D draws an unjustified practical conclusion about research priorities not mentioned in the passage."
+    ],
+    "passage": {
+      "id": "r33-passage",
+      "title": "The Science of Colour Perception",
+      "body": "Colour perception is far more complex than simply detecting light wavelengths. When light enters the eye, it strikes the retina, where two types of photoreceptors — rods and cones — respond to it. Rods handle low-light vision, while the three varieties of cone cells are each sensitive to different ranges of wavelength, loosely corresponding to red, green, and blue. The signals from these cones are then transmitted to the brain via the optic nerve. Crucially, the brain does not passively receive these signals; it actively interprets and constructs the experience of colour. This is why two people looking at the same object may report slightly different colours, and why optical illusions can make identical shades appear different depending on their surroundings. Colour constancy — the brain's ability to perceive a surface as the same colour under varying lighting — further illustrates this active construction. Cultural and linguistic factors also shape colour experience: languages that have a dedicated word for a particular shade make speakers faster at distinguishing it. Altogether, colour is not merely a property of the physical world but a creation of the perceiving mind."
+    }
+  },
+  {
+    "id": "r34-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the central argument of the passage?",
+    "choices": [
+      "Humans cooperate primarily because of genetic programming inherited from primates.",
+      "Large-scale human cooperation is enabled by shared belief in abstract institutions.",
+      "Cooperation in humans evolved solely to improve individual survival chances.",
+      "Modern cooperation is less effective than the small-group cooperation of early humans."
+    ],
+    "answer": 1,
+    "explanation": "The passage argues that what makes human cooperation uniquely large-scale is the capacity to believe in abstract institutions — money, laws, religions — that allow strangers to coordinate.",
+    "wrongReasons": [
+      "Option A overstates the genetic argument; the passage emphasises cultural and cognitive factors.",
+      "Option C describes individual-level selection, which the passage goes beyond to explain group-scale cooperation.",
+      "Option D is a comparison the passage does not make."
+    ],
+    "passage": {
+      "id": "r34-passage",
+      "title": "Why Humans Cooperate",
+      "body": "Cooperation is not unique to humans — ants build colonies, wolves hunt in packs, and chimpanzees form alliances. Yet human cooperation operates at a scale no other species approaches. A city of millions functions because strangers share roads, obey traffic signals, and trust that paper notes have value. What makes this possible is the human capacity to believe in shared fictions: institutions such as money, legal systems, and religions exist not in the physical world but in the collective imagination. When enough people believe in them, these abstractions become enormously real in their consequences. Evolutionary theory suggests that small-group cooperation evolved because it benefited individual survival, but this cannot fully explain why humans cooperate with anonymous strangers they will never meet again. Cognitive scientists point to language and narrative as key tools: stories allow humans to transmit norms and punish defectors even across large groups. Research also shows that people are remarkably sensitive to cues of being observed — even stylised images of eyes increase prosocial behaviour in experiments. Human cooperation is therefore both an evolutionary inheritance and a cultural achievement, maintained by institutions, stories, and a finely tuned awareness of social reputation."
+    }
+  },
+  {
+    "id": "r34-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what does research on 'images of eyes' demonstrate?",
+    "choices": [
+      "That humans cooperate only when they are physically watched by others.",
+      "That stylised cues of being observed are sufficient to increase prosocial behaviour.",
+      "That eye contact is the primary driver of large-scale cooperation.",
+      "That evolutionary pressure favours individuals who make eye contact."
+    ],
+    "answer": 1,
+    "explanation": "The passage states that even stylised images of eyes — not actual observation — increase prosocial behaviour in experiments, illustrating sensitivity to social reputation cues.",
+    "wrongReasons": [
+      "Option A requires actual observation, but the passage specifies stylised images suffice.",
+      "Option C elevates eye contact to a primary driver, beyond what the passage claims.",
+      "Option D introduces evolutionary pressure on eye contact, a claim not made in the passage."
+    ],
+    "passage": {
+      "id": "r34-passage",
+      "title": "Why Humans Cooperate",
+      "body": "Cooperation is not unique to humans — ants build colonies, wolves hunt in packs, and chimpanzees form alliances. Yet human cooperation operates at a scale no other species approaches. A city of millions functions because strangers share roads, obey traffic signals, and trust that paper notes have value. What makes this possible is the human capacity to believe in shared fictions: institutions such as money, legal systems, and religions exist not in the physical world but in the collective imagination. When enough people believe in them, these abstractions become enormously real in their consequences. Evolutionary theory suggests that small-group cooperation evolved because it benefited individual survival, but this cannot fully explain why humans cooperate with anonymous strangers they will never meet again. Cognitive scientists point to language and narrative as key tools: stories allow humans to transmit norms and punish defectors even across large groups. Research also shows that people are remarkably sensitive to cues of being observed — even stylised images of eyes increase prosocial behaviour in experiments. Human cooperation is therefore both an evolutionary inheritance and a cultural achievement, maintained by institutions, stories, and a finely tuned awareness of social reputation."
+    }
+  },
+  {
+    "id": "r34-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about the author's view of evolutionary theory as an explanation for human cooperation?",
+    "choices": [
+      "It is completely incorrect and should be abandoned.",
+      "It is the most important explanation for large-scale cooperation.",
+      "It is necessary but insufficient to explain cooperation with anonymous strangers.",
+      "It applies only to non-human animals such as ants and wolves."
+    ],
+    "answer": 2,
+    "explanation": "The passage says evolutionary theory 'cannot fully explain' cooperation with strangers, implying it is partly correct (necessary) but not enough on its own (insufficient).",
+    "wrongReasons": [
+      "Option A is too strong; the passage acknowledges evolutionary theory's partial validity.",
+      "Option B contradicts the passage, which points out its limitations.",
+      "Option D is contradicted by the passage, which applies evolutionary theory to humans as well."
+    ],
+    "passage": {
+      "id": "r34-passage",
+      "title": "Why Humans Cooperate",
+      "body": "Cooperation is not unique to humans — ants build colonies, wolves hunt in packs, and chimpanzees form alliances. Yet human cooperation operates at a scale no other species approaches. A city of millions functions because strangers share roads, obey traffic signals, and trust that paper notes have value. What makes this possible is the human capacity to believe in shared fictions: institutions such as money, legal systems, and religions exist not in the physical world but in the collective imagination. When enough people believe in them, these abstractions become enormously real in their consequences. Evolutionary theory suggests that small-group cooperation evolved because it benefited individual survival, but this cannot fully explain why humans cooperate with anonymous strangers they will never meet again. Cognitive scientists point to language and narrative as key tools: stories allow humans to transmit norms and punish defectors even across large groups. Research also shows that people are remarkably sensitive to cues of being observed — even stylised images of eyes increase prosocial behaviour in experiments. Human cooperation is therefore both an evolutionary inheritance and a cultural achievement, maintained by institutions, stories, and a finely tuned awareness of social reputation."
+    }
+  },
+  {
+    "id": "r34-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, the term 'shared fictions' most nearly refers to:",
+    "choices": [
+      "False beliefs deliberately spread to deceive populations.",
+      "Myths and legends passed down through oral tradition.",
+      "Collectively held abstractions that gain real power through widespread belief.",
+      "Scientific theories that have not yet been experimentally verified."
+    ],
+    "answer": 2,
+    "explanation": "The passage defines shared fictions as institutions like money, laws, and religions that exist in the collective imagination and become real in their consequences when widely believed.",
+    "wrongReasons": [
+      "Option A implies deliberate deception, which the passage does not suggest.",
+      "Option B narrows the term to oral myths, missing the broader category of institutions.",
+      "Option D introduces unverified scientific theories, which are unrelated to the passage's examples."
+    ],
+    "passage": {
+      "id": "r34-passage",
+      "title": "Why Humans Cooperate",
+      "body": "Cooperation is not unique to humans — ants build colonies, wolves hunt in packs, and chimpanzees form alliances. Yet human cooperation operates at a scale no other species approaches. A city of millions functions because strangers share roads, obey traffic signals, and trust that paper notes have value. What makes this possible is the human capacity to believe in shared fictions: institutions such as money, legal systems, and religions exist not in the physical world but in the collective imagination. When enough people believe in them, these abstractions become enormously real in their consequences. Evolutionary theory suggests that small-group cooperation evolved because it benefited individual survival, but this cannot fully explain why humans cooperate with anonymous strangers they will never meet again. Cognitive scientists point to language and narrative as key tools: stories allow humans to transmit norms and punish defectors even across large groups. Research also shows that people are remarkably sensitive to cues of being observed — even stylised images of eyes increase prosocial behaviour in experiments. Human cooperation is therefore both an evolutionary inheritance and a cultural achievement, maintained by institutions, stories, and a finely tuned awareness of social reputation."
+    }
+  },
+  {
+    "id": "r34-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "The author's use of city traffic as an opening example serves primarily to:",
+    "choices": [
+      "Demonstrate that cooperation requires legal enforcement by governments.",
+      "Illustrate the scale and abstract nature of modern human cooperation.",
+      "Contrast human cooperation with the instinctive cooperation seen in ants.",
+      "Show that money is the most important institution enabling cooperation."
+    ],
+    "answer": 1,
+    "explanation": "The traffic example opens with a vivid, relatable scene of millions of strangers coordinating, thereby illustrating the extraordinary scale of human cooperation and implicitly raising the question of how such coordination is possible.",
+    "wrongReasons": [
+      "Option A adds a claim about legal enforcement that the passage does not make in the opening.",
+      "Option C introduces the contrast with ants, but the animal examples come after the city example and serve a different purpose.",
+      "Option D singles out money, whereas the opening uses roads, signals, and money together."
+    ],
+    "passage": {
+      "id": "r34-passage",
+      "title": "Why Humans Cooperate",
+      "body": "Cooperation is not unique to humans — ants build colonies, wolves hunt in packs, and chimpanzees form alliances. Yet human cooperation operates at a scale no other species approaches. A city of millions functions because strangers share roads, obey traffic signals, and trust that paper notes have value. What makes this possible is the human capacity to believe in shared fictions: institutions such as money, legal systems, and religions exist not in the physical world but in the collective imagination. When enough people believe in them, these abstractions become enormously real in their consequences. Evolutionary theory suggests that small-group cooperation evolved because it benefited individual survival, but this cannot fully explain why humans cooperate with anonymous strangers they will never meet again. Cognitive scientists point to language and narrative as key tools: stories allow humans to transmit norms and punish defectors even across large groups. Research also shows that people are remarkably sensitive to cues of being observed — even stylised images of eyes increase prosocial behaviour in experiments. Human cooperation is therefore both an evolutionary inheritance and a cultural achievement, maintained by institutions, stories, and a finely tuned awareness of social reputation."
+    }
+  },
+  {
+    "id": "r35-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Vaccination was invented in the eighteenth century and has remained unchanged since.",
+      "Edward Jenner single-handedly eliminated smallpox through his work on cowpox.",
+      "Vaccination has a long history of development and has transformed public health by preventing widespread disease.",
+      "Modern vaccines are derived exclusively from the cowpox virus discovered by Jenner."
+    ],
+    "answer": 2,
+    "explanation": "The passage traces vaccination from early practices through Jenner, Pasteur, and the twentieth century, concluding that it has been one of public health's greatest achievements in reducing infectious disease.",
+    "wrongReasons": [
+      "Option A ignores the passage's account of subsequent developments after Jenner.",
+      "Option B overstates Jenner's individual role; the passage describes a longer history.",
+      "Option D is factually incorrect per the passage, which notes Pasteur expanded the approach to other diseases."
+    ],
+    "passage": {
+      "id": "r35-passage",
+      "title": "The History of Vaccination",
+      "body": "Long before Edward Jenner formalised the concept in 1796, communities in Asia and the Ottoman Empire practised variolation — deliberately exposing healthy individuals to material from smallpox pustules to induce a mild infection and subsequent immunity. Jenner's key insight was that milkmaids who contracted cowpox rarely developed smallpox, suggesting that infection with a related, less dangerous pathogen could confer protection. He tested this by inoculating a boy with cowpox and then exposing him to smallpox; the boy remained healthy. Jenner called the procedure vaccination, from the Latin 'vacca' for cow. Nearly a century later, Louis Pasteur extended the principle to other diseases, developing vaccines for cholera, anthrax, and rabies, and coined the broader term 'vaccine' in honour of Jenner. The twentieth century brought the large-scale production and global distribution of vaccines, leading to the eradication of smallpox in 1980 — the only human disease ever fully eradicated — and the near-elimination of polio. Vaccination works by training the immune system to recognise a pathogen without causing full disease, so that future exposure triggers a rapid, effective defence. It remains one of the most cost-effective public health interventions ever developed."
+    }
+  },
+  {
+    "id": "r35-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, why did Jenner believe cowpox exposure might protect against smallpox?",
+    "choices": [
+      "Laboratory tests showed that cowpox and smallpox share identical genetic material.",
+      "He observed that milkmaids who had contracted cowpox rarely developed smallpox.",
+      "Ottoman physicians had already documented this relationship in medical texts.",
+      "Pasteur's earlier research on related pathogens suggested a connection."
+    ],
+    "answer": 1,
+    "explanation": "The passage states explicitly that Jenner noticed milkmaids who had cowpox rarely developed smallpox, which led to his hypothesis.",
+    "wrongReasons": [
+      "Option A refers to genetic analysis unavailable in Jenner's time and not mentioned in the passage.",
+      "Option C inverts the timeline; variolation came from Ottoman practice but not this specific observation.",
+      "Option D is impossible chronologically: Pasteur came nearly a century after Jenner."
+    ],
+    "passage": {
+      "id": "r35-passage",
+      "title": "The History of Vaccination",
+      "body": "Long before Edward Jenner formalised the concept in 1796, communities in Asia and the Ottoman Empire practised variolation — deliberately exposing healthy individuals to material from smallpox pustules to induce a mild infection and subsequent immunity. Jenner's key insight was that milkmaids who contracted cowpox rarely developed smallpox, suggesting that infection with a related, less dangerous pathogen could confer protection. He tested this by inoculating a boy with cowpox and then exposing him to smallpox; the boy remained healthy. Jenner called the procedure vaccination, from the Latin 'vacca' for cow. Nearly a century later, Louis Pasteur extended the principle to other diseases, developing vaccines for cholera, anthrax, and rabies, and coined the broader term 'vaccine' in honour of Jenner. The twentieth century brought the large-scale production and global distribution of vaccines, leading to the eradication of smallpox in 1980 — the only human disease ever fully eradicated — and the near-elimination of polio. Vaccination works by training the immune system to recognise a pathogen without causing full disease, so that future exposure triggers a rapid, effective defence. It remains one of the most cost-effective public health interventions ever developed."
+    }
+  },
+  {
+    "id": "r35-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "Which inference about Pasteur's contribution is best supported by the passage?",
+    "choices": [
+      "Pasteur discovered that vaccines must be made from dead rather than weakened pathogens.",
+      "Pasteur's work demonstrated that Jenner's cowpox method could be applied to multiple diseases.",
+      "Pasteur was the first person to use the word 'vaccine' for any protective inoculation.",
+      "Pasteur's research contradicted Jenner's findings about the immune system."
+    ],
+    "answer": 1,
+    "explanation": "The passage says Pasteur 'extended the principle to other diseases,' implying he showed Jenner's insight was generalisable beyond smallpox.",
+    "wrongReasons": [
+      "Option A adds a detail about live versus dead pathogens not stated in the passage.",
+      "Option C is partially correct (Pasteur coined 'vaccine'), but option B better captures his scientific contribution as described.",
+      "Option D contradicts the passage, which portrays Pasteur as building on, not contradicting, Jenner."
+    ],
+    "passage": {
+      "id": "r35-passage",
+      "title": "The History of Vaccination",
+      "body": "Long before Edward Jenner formalised the concept in 1796, communities in Asia and the Ottoman Empire practised variolation — deliberately exposing healthy individuals to material from smallpox pustules to induce a mild infection and subsequent immunity. Jenner's key insight was that milkmaids who contracted cowpox rarely developed smallpox, suggesting that infection with a related, less dangerous pathogen could confer protection. He tested this by inoculating a boy with cowpox and then exposing him to smallpox; the boy remained healthy. Jenner called the procedure vaccination, from the Latin 'vacca' for cow. Nearly a century later, Louis Pasteur extended the principle to other diseases, developing vaccines for cholera, anthrax, and rabies, and coined the broader term 'vaccine' in honour of Jenner. The twentieth century brought the large-scale production and global distribution of vaccines, leading to the eradication of smallpox in 1980 — the only human disease ever fully eradicated — and the near-elimination of polio. Vaccination works by training the immune system to recognise a pathogen without causing full disease, so that future exposure triggers a rapid, effective defence. It remains one of the most cost-effective public health interventions ever developed."
+    }
+  },
+  {
+    "id": "r35-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'variolation' most nearly means:",
+    "choices": [
+      "A surgical technique for removing infected tissue from smallpox patients.",
+      "A method of deliberately infecting healthy people with smallpox material to produce immunity.",
+      "The formal Latin name for Jenner's cowpox inoculation procedure.",
+      "A process of purifying vaccines to remove dangerous components."
+    ],
+    "answer": 1,
+    "explanation": "The passage defines variolation as 'deliberately exposing healthy individuals to material from smallpox pustules to induce a mild infection and subsequent immunity.'",
+    "wrongReasons": [
+      "Option A describes surgery, not inoculation; the passage gives no such definition.",
+      "Option C confuses variolation with Jenner's vaccination; the passage distinguishes them.",
+      "Option D describes a modern purification process not mentioned in the passage."
+    ],
+    "passage": {
+      "id": "r35-passage",
+      "title": "The History of Vaccination",
+      "body": "Long before Edward Jenner formalised the concept in 1796, communities in Asia and the Ottoman Empire practised variolation — deliberately exposing healthy individuals to material from smallpox pustules to induce a mild infection and subsequent immunity. Jenner's key insight was that milkmaids who contracted cowpox rarely developed smallpox, suggesting that infection with a related, less dangerous pathogen could confer protection. He tested this by inoculating a boy with cowpox and then exposing him to smallpox; the boy remained healthy. Jenner called the procedure vaccination, from the Latin 'vacca' for cow. Nearly a century later, Louis Pasteur extended the principle to other diseases, developing vaccines for cholera, anthrax, and rabies, and coined the broader term 'vaccine' in honour of Jenner. The twentieth century brought the large-scale production and global distribution of vaccines, leading to the eradication of smallpox in 1980 — the only human disease ever fully eradicated — and the near-elimination of polio. Vaccination works by training the immune system to recognise a pathogen without causing full disease, so that future exposure triggers a rapid, effective defence. It remains one of the most cost-effective public health interventions ever developed."
+    }
+  },
+  {
+    "id": "r35-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author describe smallpox as 'the only human disease ever fully eradicated'?",
+    "choices": [
+      "To suggest that vaccination programmes should be discontinued once a disease is eliminated.",
+      "To highlight the unprecedented scale of vaccination's success and implicitly contrast it with polio.",
+      "To argue that modern vaccines are more effective than those developed in the twentieth century.",
+      "To criticise the near-elimination of polio as an insufficient public health achievement."
+    ],
+    "answer": 1,
+    "explanation": "By labelling smallpox eradication as unique, the author emphasises how extraordinary vaccine-driven success can be, while the following phrase about polio's 'near-elimination' implicitly shows that complete eradication remains rare.",
+    "wrongReasons": [
+      "Option A draws a policy conclusion the passage does not make.",
+      "Option C compares vaccine generations in a way the passage does not.",
+      "Option D misreads the tone; the passage presents near-elimination of polio as a positive, not a failure."
+    ],
+    "passage": {
+      "id": "r35-passage",
+      "title": "The History of Vaccination",
+      "body": "Long before Edward Jenner formalised the concept in 1796, communities in Asia and the Ottoman Empire practised variolation — deliberately exposing healthy individuals to material from smallpox pustules to induce a mild infection and subsequent immunity. Jenner's key insight was that milkmaids who contracted cowpox rarely developed smallpox, suggesting that infection with a related, less dangerous pathogen could confer protection. He tested this by inoculating a boy with cowpox and then exposing him to smallpox; the boy remained healthy. Jenner called the procedure vaccination, from the Latin 'vacca' for cow. Nearly a century later, Louis Pasteur extended the principle to other diseases, developing vaccines for cholera, anthrax, and rabies, and coined the broader term 'vaccine' in honour of Jenner. The twentieth century brought the large-scale production and global distribution of vaccines, leading to the eradication of smallpox in 1980 — the only human disease ever fully eradicated — and the near-elimination of polio. Vaccination works by training the immune system to recognise a pathogen without causing full disease, so that future exposure triggers a rapid, effective defence. It remains one of the most cost-effective public health interventions ever developed."
+    }
+  },
+  {
+    "id": "r36-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Deforestation is the leading cause of climate change worldwide.",
+      "Forests regulate climate through carbon storage, water cycling, and surface cooling.",
+      "Tropical rainforests are more important for climate than boreal forests.",
+      "Reforestation alone can fully reverse the effects of current carbon emissions."
+    ],
+    "answer": 1,
+    "explanation": "The passage details three mechanisms by which forests regulate climate: carbon sequestration, the water cycle, and albedo effects, presenting forests as multifaceted climate regulators.",
+    "wrongReasons": [
+      "Option A is too narrow; the passage covers forest functions, not just the consequence of their loss.",
+      "Option C makes a comparative claim about forest types that the passage does not support.",
+      "Option D introduces a claim about reversibility that the passage does not make."
+    ],
+    "passage": {
+      "id": "r36-passage",
+      "title": "How Forests Regulate Climate",
+      "body": "Forests are among the planet's most powerful climate regulators, influencing temperature, precipitation, and atmospheric composition at both local and global scales. Through photosynthesis, trees absorb carbon dioxide and lock carbon into wood, roots, and soil, acting as vast carbon sinks. When forests are cleared and burned, this stored carbon is released, contributing significantly to greenhouse gas concentrations. Beyond carbon storage, forests drive regional water cycles: trees draw water from the soil and release it through their leaves in a process called transpiration. This moisture rises and condenses to form clouds, which in turn produce rainfall — sometimes hundreds of kilometres away. Researchers have shown that large forest systems, such as the Amazon, generate their own weather patterns, and that deforestation can reduce rainfall across entire regions. Forests also affect surface temperature through albedo — their dark canopies absorb more sunlight than open fields or snow, warming the local area, but the cooling effect of transpiration and cloud formation generally outweighs this warming. Boreal forests in high latitudes present a more complex picture, since their canopy over snow reduces albedo and may add net warming. Understanding these interactions is essential for designing effective climate policy."
+    }
+  },
+  {
+    "id": "r36-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what does transpiration refer to?",
+    "choices": [
+      "The process by which trees absorb carbon dioxide during photosynthesis.",
+      "The release of water from tree leaves that contributes to cloud formation.",
+      "The warming effect caused by dark forest canopies absorbing sunlight.",
+      "The burning of forests that releases stored carbon into the atmosphere."
+    ],
+    "answer": 1,
+    "explanation": "The passage defines transpiration as trees drawing water from soil and releasing it through their leaves, which then rises and condenses to form clouds.",
+    "wrongReasons": [
+      "Option A describes photosynthesis, not transpiration.",
+      "Option C describes the albedo warming effect, a separate concept.",
+      "Option D describes deforestation emissions, unrelated to transpiration."
+    ],
+    "passage": {
+      "id": "r36-passage",
+      "title": "How Forests Regulate Climate",
+      "body": "Forests are among the planet's most powerful climate regulators, influencing temperature, precipitation, and atmospheric composition at both local and global scales. Through photosynthesis, trees absorb carbon dioxide and lock carbon into wood, roots, and soil, acting as vast carbon sinks. When forests are cleared and burned, this stored carbon is released, contributing significantly to greenhouse gas concentrations. Beyond carbon storage, forests drive regional water cycles: trees draw water from the soil and release it through their leaves in a process called transpiration. This moisture rises and condenses to form clouds, which in turn produce rainfall — sometimes hundreds of kilometres away. Researchers have shown that large forest systems, such as the Amazon, generate their own weather patterns, and that deforestation can reduce rainfall across entire regions. Forests also affect surface temperature through albedo — their dark canopies absorb more sunlight than open fields or snow, warming the local area, but the cooling effect of transpiration and cloud formation generally outweighs this warming. Boreal forests in high latitudes present a more complex picture, since their canopy over snow reduces albedo and may add net warming. Understanding these interactions is essential for designing effective climate policy."
+    }
+  },
+  {
+    "id": "r36-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "Which of the following can be inferred about boreal forests from the passage?",
+    "choices": [
+      "They store more carbon per hectare than tropical forests like the Amazon.",
+      "Their climate effects are straightforward and well understood by researchers.",
+      "Their net effect on climate may differ from that of tropical forests.",
+      "They produce more rainfall than tropical forests through transpiration."
+    ],
+    "answer": 2,
+    "explanation": "The passage contrasts boreal forests with the general pattern by noting their canopy over snow reduces albedo and may add net warming, implying their climate role is more ambiguous than tropical forests.",
+    "wrongReasons": [
+      "Option A makes a carbon storage comparison not stated in the passage.",
+      "Option B contradicts the passage, which calls boreal forests 'a more complex picture.'",
+      "Option D is a rainfall comparison not supported by the passage."
+    ],
+    "passage": {
+      "id": "r36-passage",
+      "title": "How Forests Regulate Climate",
+      "body": "Forests are among the planet's most powerful climate regulators, influencing temperature, precipitation, and atmospheric composition at both local and global scales. Through photosynthesis, trees absorb carbon dioxide and lock carbon into wood, roots, and soil, acting as vast carbon sinks. When forests are cleared and burned, this stored carbon is released, contributing significantly to greenhouse gas concentrations. Beyond carbon storage, forests drive regional water cycles: trees draw water from the soil and release it through their leaves in a process called transpiration. This moisture rises and condenses to form clouds, which in turn produce rainfall — sometimes hundreds of kilometres away. Researchers have shown that large forest systems, such as the Amazon, generate their own weather patterns, and that deforestation can reduce rainfall across entire regions. Forests also affect surface temperature through albedo — their dark canopies absorb more sunlight than open fields or snow, warming the local area, but the cooling effect of transpiration and cloud formation generally outweighs this warming. Boreal forests in high latitudes present a more complex picture, since their canopy over snow reduces albedo and may add net warming. Understanding these interactions is essential for designing effective climate policy."
+    }
+  },
+  {
+    "id": "r36-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'albedo' most nearly means:",
+    "choices": [
+      "The amount of carbon dioxide stored per unit of forest area.",
+      "The reflectivity of a surface that determines how much solar energy it absorbs.",
+      "The rate at which moisture evaporates from tree leaves.",
+      "The density of cloud cover produced by forest transpiration."
+    ],
+    "answer": 1,
+    "explanation": "The passage explains albedo in the context of dark canopies absorbing more sunlight than open fields or snow, making clear it refers to surface reflectivity affecting solar energy absorption.",
+    "wrongReasons": [
+      "Option A defines a carbon metric, not albedo.",
+      "Option C defines transpiration, a separate process discussed earlier.",
+      "Option D defines cloud density, which is an outcome of transpiration, not albedo."
+    ],
+    "passage": {
+      "id": "r36-passage",
+      "title": "How Forests Regulate Climate",
+      "body": "Forests are among the planet's most powerful climate regulators, influencing temperature, precipitation, and atmospheric composition at both local and global scales. Through photosynthesis, trees absorb carbon dioxide and lock carbon into wood, roots, and soil, acting as vast carbon sinks. When forests are cleared and burned, this stored carbon is released, contributing significantly to greenhouse gas concentrations. Beyond carbon storage, forests drive regional water cycles: trees draw water from the soil and release it through their leaves in a process called transpiration. This moisture rises and condenses to form clouds, which in turn produce rainfall — sometimes hundreds of kilometres away. Researchers have shown that large forest systems, such as the Amazon, generate their own weather patterns, and that deforestation can reduce rainfall across entire regions. Forests also affect surface temperature through albedo — their dark canopies absorb more sunlight than open fields or snow, warming the local area, but the cooling effect of transpiration and cloud formation generally outweighs this warming. Boreal forests in high latitudes present a more complex picture, since their canopy over snow reduces albedo and may add net warming. Understanding these interactions is essential for designing effective climate policy."
+    }
+  },
+  {
+    "id": "r36-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "Why does the author conclude by stating that 'understanding these interactions is essential for designing effective climate policy'?",
+    "choices": [
+      "To argue that current climate policies are entirely wrong and must be abandoned.",
+      "To imply that simple solutions like planting trees are adequate to solve climate change.",
+      "To show that the complexity of forest climate effects demands informed, nuanced policy decisions.",
+      "To suggest that scientists have already reached consensus on optimal forest management."
+    ],
+    "answer": 2,
+    "explanation": "After presenting multiple, sometimes conflicting forest climate mechanisms (cooling and warming), the author concludes that such complexity must be understood before effective policy can be crafted — a call for nuanced, science-informed decisions.",
+    "wrongReasons": [
+      "Option A is too strong; the passage does not call current policies wrong.",
+      "Option B is contradicted by the passage's complexity, which implies simple solutions are inadequate.",
+      "Option D contradicts the passage's portrayal of ongoing complexity and differing forest effects."
+    ],
+    "passage": {
+      "id": "r36-passage",
+      "title": "How Forests Regulate Climate",
+      "body": "Forests are among the planet's most powerful climate regulators, influencing temperature, precipitation, and atmospheric composition at both local and global scales. Through photosynthesis, trees absorb carbon dioxide and lock carbon into wood, roots, and soil, acting as vast carbon sinks. When forests are cleared and burned, this stored carbon is released, contributing significantly to greenhouse gas concentrations. Beyond carbon storage, forests drive regional water cycles: trees draw water from the soil and release it through their leaves in a process called transpiration. This moisture rises and condenses to form clouds, which in turn produce rainfall — sometimes hundreds of kilometres away. Researchers have shown that large forest systems, such as the Amazon, generate their own weather patterns, and that deforestation can reduce rainfall across entire regions. Forests also affect surface temperature through albedo — their dark canopies absorb more sunlight than open fields or snow, warming the local area, but the cooling effect of transpiration and cloud formation generally outweighs this warming. Boreal forests in high latitudes present a more complex picture, since their canopy over snow reduces albedo and may add net warming. Understanding these interactions is essential for designing effective climate policy."
+    }
+  },
+  {
+    "id": "r37-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the main idea of the passage?",
+    "choices": [
+      "Education spending should be reduced because its benefits are difficult to measure.",
+      "Education produces both individual economic gains and broader social returns that justify public investment.",
+      "University education is more economically valuable than vocational training in all cases.",
+      "Governments should pay for education only when private returns are insufficient."
+    ],
+    "answer": 1,
+    "explanation": "The passage argues that education generates private wage premiums and social externalities — lower crime, better health, civic participation — making public investment economically rational.",
+    "wrongReasons": [
+      "Option A contradicts the passage's argument for the economic value of education.",
+      "Option C makes a comparison between university and vocational education that the passage does not support.",
+      "Option D is a conditional claim more restrictive than the passage's general argument for public investment."
+    ],
+    "passage": {
+      "id": "r37-passage",
+      "title": "The Economics of Education",
+      "body": "Economists have long debated whether education is primarily a private good, benefiting individuals through higher wages, or a public good, generating broader social returns. The evidence suggests it is both. At the individual level, each additional year of schooling is associated with wage increases averaging six to ten percent, depending on the country and level of education. These private returns provide a strong incentive for individuals to invest in their own education. However, education also generates substantial positive externalities — benefits that spill over to society at large. Better-educated populations tend to have lower crime rates, better public health outcomes, and higher levels of civic participation. These externalities mean that if education were left entirely to market forces, it would likely be under-provided relative to the socially optimal level, creating a compelling argument for government subsidy. The question of how much to subsidise, and at what level of education, is more contested. Vocational training often offers high private and social returns at lower cost, while the returns to university education vary considerably by field of study and institution. Economists also note that the signalling theory of education — the idea that degrees signal pre-existing ability rather than creating new skills — if true, would reduce but not eliminate the social case for public funding."
+    }
+  },
+  {
+    "id": "r37-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what are 'positive externalities' in the context of education?",
+    "choices": [
+      "The wage increases that individual graduates receive for completing more years of schooling.",
+      "Social benefits such as lower crime, better health, and civic participation that result from higher education levels.",
+      "Government subsidies that make education more affordable for low-income students.",
+      "The signalling effect that university degrees have on employers assessing job applicants."
+    ],
+    "answer": 1,
+    "explanation": "The passage defines positive externalities as benefits that 'spill over to society,' giving lower crime, better health, and civic participation as examples.",
+    "wrongReasons": [
+      "Option A describes private returns (wage increases), not externalities.",
+      "Option C describes government subsidies, which are a policy response to externalities, not the externalities themselves.",
+      "Option D describes the signalling theory, a separate concept discussed later in the passage."
+    ],
+    "passage": {
+      "id": "r37-passage",
+      "title": "The Economics of Education",
+      "body": "Economists have long debated whether education is primarily a private good, benefiting individuals through higher wages, or a public good, generating broader social returns. The evidence suggests it is both. At the individual level, each additional year of schooling is associated with wage increases averaging six to ten percent, depending on the country and level of education. These private returns provide a strong incentive for individuals to invest in their own education. However, education also generates substantial positive externalities — benefits that spill over to society at large. Better-educated populations tend to have lower crime rates, better public health outcomes, and higher levels of civic participation. These externalities mean that if education were left entirely to market forces, it would likely be under-provided relative to the socially optimal level, creating a compelling argument for government subsidy. The question of how much to subsidise, and at what level of education, is more contested. Vocational training often offers high private and social returns at lower cost, while the returns to university education vary considerably by field of study and institution. Economists also note that the signalling theory of education — the idea that degrees signal pre-existing ability rather than creating new skills — if true, would reduce but not eliminate the social case for public funding."
+    }
+  },
+  {
+    "id": "r37-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about the signalling theory's implications for public education funding?",
+    "choices": [
+      "If the signalling theory is correct, public funding for education is completely unjustifiable.",
+      "The signalling theory strengthens the case for subsidising vocational over university education.",
+      "Even if degrees only signal ability rather than build skills, some public funding case remains.",
+      "The signalling theory is accepted by most economists as the best explanation of education's value."
+    ],
+    "answer": 2,
+    "explanation": "The passage states the signalling theory 'would reduce but not eliminate the social case for public funding,' so even if true, some justification for subsidy remains.",
+    "wrongReasons": [
+      "Option A overstates; the passage says the case is reduced, not eliminated.",
+      "Option B introduces a vocational-vs-university preference that the signalling discussion does not support.",
+      "Option D misrepresents the passage, which presents signalling theory as a possibility economists 'note,' not a consensus."
+    ],
+    "passage": {
+      "id": "r37-passage",
+      "title": "The Economics of Education",
+      "body": "Economists have long debated whether education is primarily a private good, benefiting individuals through higher wages, or a public good, generating broader social returns. The evidence suggests it is both. At the individual level, each additional year of schooling is associated with wage increases averaging six to ten percent, depending on the country and level of education. These private returns provide a strong incentive for individuals to invest in their own education. However, education also generates substantial positive externalities — benefits that spill over to society at large. Better-educated populations tend to have lower crime rates, better public health outcomes, and higher levels of civic participation. These externalities mean that if education were left entirely to market forces, it would likely be under-provided relative to the socially optimal level, creating a compelling argument for government subsidy. The question of how much to subsidise, and at what level of education, is more contested. Vocational training often offers high private and social returns at lower cost, while the returns to university education vary considerably by field of study and institution. Economists also note that the signalling theory of education — the idea that degrees signal pre-existing ability rather than creating new skills — if true, would reduce but not eliminate the social case for public funding."
+    }
+  },
+  {
+    "id": "r37-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'under-provided' most nearly means:",
+    "choices": [
+      "Supplied at a quality level below government standards.",
+      "Produced in quantities less than what society would benefit from.",
+      "Distributed unequally across different income groups.",
+      "Funded insufficiently by individual students' tuition payments."
+    ],
+    "answer": 1,
+    "explanation": "In the economics context of the passage, 'under-provided' means that the market would supply less education than the socially optimal quantity, because it cannot capture externalities.",
+    "wrongReasons": [
+      "Option A focuses on quality standards, not quantity relative to social optimum.",
+      "Option C introduces distributional equity, which the passage does not discuss in this sentence.",
+      "Option D narrows the concept to tuition funding, whereas the passage refers to market provision overall."
+    ],
+    "passage": {
+      "id": "r37-passage",
+      "title": "The Economics of Education",
+      "body": "Economists have long debated whether education is primarily a private good, benefiting individuals through higher wages, or a public good, generating broader social returns. The evidence suggests it is both. At the individual level, each additional year of schooling is associated with wage increases averaging six to ten percent, depending on the country and level of education. These private returns provide a strong incentive for individuals to invest in their own education. However, education also generates substantial positive externalities — benefits that spill over to society at large. Better-educated populations tend to have lower crime rates, better public health outcomes, and higher levels of civic participation. These externalities mean that if education were left entirely to market forces, it would likely be under-provided relative to the socially optimal level, creating a compelling argument for government subsidy. The question of how much to subsidise, and at what level of education, is more contested. Vocational training often offers high private and social returns at lower cost, while the returns to university education vary considerably by field of study and institution. Economists also note that the signalling theory of education — the idea that degrees signal pre-existing ability rather than creating new skills — if true, would reduce but not eliminate the social case for public funding."
+    }
+  },
+  {
+    "id": "r37-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "How does the author structure the argument in the passage?",
+    "choices": [
+      "By presenting a hypothesis, then refuting it with contradictory evidence.",
+      "By establishing a consensus position, then showing it is incomplete, and finally qualifying the implications.",
+      "By listing evidence for public funding, then listing evidence against it, and concluding they are equal.",
+      "By comparing two countries' education systems and drawing a policy recommendation."
+    ],
+    "answer": 1,
+    "explanation": "The passage establishes that education generates both private and social returns (a broad consensus), then notes the contested questions of how much and at what level to subsidise, and finally qualifies the argument by introducing the signalling theory — a classic problem–complication–qualification structure.",
+    "wrongReasons": [
+      "Option A does not fit; the author does not refute the main thesis but qualifies it.",
+      "Option C is inaccurate; the passage does not conclude the arguments are equal.",
+      "Option D is wrong; no country comparison is made."
+    ],
+    "passage": {
+      "id": "r37-passage",
+      "title": "The Economics of Education",
+      "body": "Economists have long debated whether education is primarily a private good, benefiting individuals through higher wages, or a public good, generating broader social returns. The evidence suggests it is both. At the individual level, each additional year of schooling is associated with wage increases averaging six to ten percent, depending on the country and level of education. These private returns provide a strong incentive for individuals to invest in their own education. However, education also generates substantial positive externalities — benefits that spill over to society at large. Better-educated populations tend to have lower crime rates, better public health outcomes, and higher levels of civic participation. These externalities mean that if education were left entirely to market forces, it would likely be under-provided relative to the socially optimal level, creating a compelling argument for government subsidy. The question of how much to subsidise, and at what level of education, is more contested. Vocational training often offers high private and social returns at lower cost, while the returns to university education vary considerably by field of study and institution. Economists also note that the signalling theory of education — the idea that degrees signal pre-existing ability rather than creating new skills — if true, would reduce but not eliminate the social case for public funding."
+    }
+  },
+  {
+    "id": "r38-q1",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "What is the central claim of the passage?",
+    "choices": [
+      "Working memory is unlimited and can handle any number of information elements simultaneously.",
+      "Cognitive load theory explains why managing too many mental demands at once impairs learning and performance.",
+      "Long-term memory is more important than working memory for academic success.",
+      "Multimedia learning should be avoided because it always increases cognitive load."
+    ],
+    "answer": 1,
+    "explanation": "The passage centres on cognitive load theory — the idea that working memory is limited and overloading it degrades learning and performance.",
+    "wrongReasons": [
+      "Option A directly contradicts the passage's core claim about working memory limits.",
+      "Option C introduces a comparison between memory types that the passage does not assert.",
+      "Option D overstates; the passage says multimedia can reduce load when well designed."
+    ],
+    "passage": {
+      "id": "r38-passage",
+      "title": "Cognitive Load and Memory",
+      "body": "Cognitive load theory, developed by educational psychologist John Sweller, holds that working memory — the system that holds and manipulates information we are currently using — has a strictly limited capacity. When the demands placed on working memory exceed this capacity, performance and learning degrade sharply. Researchers distinguish three types of cognitive load: intrinsic load, which arises from the inherent complexity of the material being learned; extraneous load, caused by poor instructional design such as cluttered layouts or redundant information; and germane load, the mental effort devoted to constructing and automating knowledge schemas. Effective teaching aims to keep intrinsic load manageable, minimise extraneous load, and optimise germane load. Practical implications are substantial. Splitting information across multiple senses — for example, presenting a diagram with spoken explanation rather than written text — can reduce extraneous load because visual and verbal channels are processed somewhat independently. Worked examples, which show students complete solutions before asking them to solve problems independently, reduce intrinsic load by chunking complex information. As learners become more expert, their mental schemas allow larger amounts of information to be processed as single units, effectively expanding functional working memory capacity. Understanding cognitive load has reshaped curriculum design, software interfaces, and even the layout of instruction manuals."
+    }
+  },
+  {
+    "id": "r38-q2",
+    "category": "reading",
+    "difficulty": "easy",
+    "text": "According to the passage, what is 'extraneous load'?",
+    "choices": [
+      "The cognitive effort required to understand genuinely complex material.",
+      "The mental work invested in building and automating knowledge schemas.",
+      "Extra mental effort caused by poor instructional design rather than the material itself.",
+      "The increased working memory capacity that experts develop over time."
+    ],
+    "answer": 2,
+    "explanation": "The passage defines extraneous load as cognitive load 'caused by poor instructional design such as cluttered layouts or redundant information.'",
+    "wrongReasons": [
+      "Option A defines intrinsic load, not extraneous load.",
+      "Option B defines germane load.",
+      "Option D describes expert schema development, a separate concept."
+    ],
+    "passage": {
+      "id": "r38-passage",
+      "title": "Cognitive Load and Memory",
+      "body": "Cognitive load theory, developed by educational psychologist John Sweller, holds that working memory — the system that holds and manipulates information we are currently using — has a strictly limited capacity. When the demands placed on working memory exceed this capacity, performance and learning degrade sharply. Researchers distinguish three types of cognitive load: intrinsic load, which arises from the inherent complexity of the material being learned; extraneous load, caused by poor instructional design such as cluttered layouts or redundant information; and germane load, the mental effort devoted to constructing and automating knowledge schemas. Effective teaching aims to keep intrinsic load manageable, minimise extraneous load, and optimise germane load. Practical implications are substantial. Splitting information across multiple senses — for example, presenting a diagram with spoken explanation rather than written text — can reduce extraneous load because visual and verbal channels are processed somewhat independently. Worked examples, which show students complete solutions before asking them to solve problems independently, reduce intrinsic load by chunking complex information. As learners become more expert, their mental schemas allow larger amounts of information to be processed as single units, effectively expanding functional working memory capacity. Understanding cognitive load has reshaped curriculum design, software interfaces, and even the layout of instruction manuals."
+    }
+  },
+  {
+    "id": "r38-q3",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "What can be inferred about worked examples from the passage?",
+    "choices": [
+      "They are most useful for experts who already possess complex schemas.",
+      "They help beginners by reducing the complexity they must hold in mind at once.",
+      "They eliminate the need for students to ever solve problems independently.",
+      "They increase extraneous load by showing redundant steps in a solution."
+    ],
+    "answer": 1,
+    "explanation": "The passage says worked examples 'reduce intrinsic load by chunking complex information' and are used before students solve problems independently, implying they benefit learners who have not yet automated schemas — i.e., beginners.",
+    "wrongReasons": [
+      "Option A contradicts the implication; experts already have schemas and need worked examples less.",
+      "Option C overstates; the passage says worked examples come before independent practice, not that independent practice is eliminated.",
+      "Option D is the opposite of what the passage states — worked examples reduce, not increase, load."
+    ],
+    "passage": {
+      "id": "r38-passage",
+      "title": "Cognitive Load and Memory",
+      "body": "Cognitive load theory, developed by educational psychologist John Sweller, holds that working memory — the system that holds and manipulates information we are currently using — has a strictly limited capacity. When the demands placed on working memory exceed this capacity, performance and learning degrade sharply. Researchers distinguish three types of cognitive load: intrinsic load, which arises from the inherent complexity of the material being learned; extraneous load, caused by poor instructional design such as cluttered layouts or redundant information; and germane load, the mental effort devoted to constructing and automating knowledge schemas. Effective teaching aims to keep intrinsic load manageable, minimise extraneous load, and optimise germane load. Practical implications are substantial. Splitting information across multiple senses — for example, presenting a diagram with spoken explanation rather than written text — can reduce extraneous load because visual and verbal channels are processed somewhat independently. Worked examples, which show students complete solutions before asking them to solve problems independently, reduce intrinsic load by chunking complex information. As learners become more expert, their mental schemas allow larger amounts of information to be processed as single units, effectively expanding functional working memory capacity. Understanding cognitive load has reshaped curriculum design, software interfaces, and even the layout of instruction manuals."
+    }
+  },
+  {
+    "id": "r38-q4",
+    "category": "reading",
+    "difficulty": "medium",
+    "text": "As used in the passage, 'schemas' most nearly means:",
+    "choices": [
+      "Grading rubrics that teachers use to evaluate student assignments.",
+      "Organised mental structures that allow information to be grouped and processed efficiently.",
+      "Step-by-step worked examples provided before independent problem-solving.",
+      "The visual layout of instructional materials designed to reduce extraneous load."
+    ],
+    "answer": 1,
+    "explanation": "The passage uses 'schemas' to describe mental structures that allow 'larger amounts of information to be processed as single units,' consistent with organised cognitive frameworks.",
+    "wrongReasons": [
+      "Option A defines grading rubrics, an unrelated educational term.",
+      "Option C describes worked examples, a separate instructional strategy.",
+      "Option D describes layout design, part of reducing extraneous load but not the definition of schemas."
+    ],
+    "passage": {
+      "id": "r38-passage",
+      "title": "Cognitive Load and Memory",
+      "body": "Cognitive load theory, developed by educational psychologist John Sweller, holds that working memory — the system that holds and manipulates information we are currently using — has a strictly limited capacity. When the demands placed on working memory exceed this capacity, performance and learning degrade sharply. Researchers distinguish three types of cognitive load: intrinsic load, which arises from the inherent complexity of the material being learned; extraneous load, caused by poor instructional design such as cluttered layouts or redundant information; and germane load, the mental effort devoted to constructing and automating knowledge schemas. Effective teaching aims to keep intrinsic load manageable, minimise extraneous load, and optimise germane load. Practical implications are substantial. Splitting information across multiple senses — for example, presenting a diagram with spoken explanation rather than written text — can reduce extraneous load because visual and verbal channels are processed somewhat independently. Worked examples, which show students complete solutions before asking them to solve problems independently, reduce intrinsic load by chunking complex information. As learners become more expert, their mental schemas allow larger amounts of information to be processed as single units, effectively expanding functional working memory capacity. Understanding cognitive load has reshaped curriculum design, software interfaces, and even the layout of instruction manuals."
+    }
+  },
+  {
+    "id": "r38-q5",
+    "category": "reading",
+    "difficulty": "hard",
+    "text": "The author's mention of 'software interfaces' and 'instruction manuals' at the end of the passage serves primarily to:",
+    "choices": [
+      "Suggest that cognitive load theory was originally developed for industrial design, not education.",
+      "Illustrate that cognitive load theory has practical applications far beyond classroom instruction.",
+      "Warn that modern technology tends to increase cognitive load in harmful ways.",
+      "Compare the effectiveness of digital instruction with printed instruction manuals."
+    ],
+    "answer": 1,
+    "explanation": "The closing sentence lists non-educational domains (software interfaces, instruction manuals) alongside curriculum design to show that cognitive load theory's impact extends broadly across many fields of human-computer interaction and information design.",
+    "wrongReasons": [
+      "Option A misattributes the theory's origin; the passage clearly identifies Sweller as an educational psychologist.",
+      "Option C introduces a warning about technology not present in the passage.",
+      "Option D compares digital and print instruction, a comparison the passage does not make."
+    ],
+    "passage": {
+      "id": "r38-passage",
+      "title": "Cognitive Load and Memory",
+      "body": "Cognitive load theory, developed by educational psychologist John Sweller, holds that working memory — the system that holds and manipulates information we are currently using — has a strictly limited capacity. When the demands placed on working memory exceed this capacity, performance and learning degrade sharply. Researchers distinguish three types of cognitive load: intrinsic load, which arises from the inherent complexity of the material being learned; extraneous load, caused by poor instructional design such as cluttered layouts or redundant information; and germane load, the mental effort devoted to constructing and automating knowledge schemas. Effective teaching aims to keep intrinsic load manageable, minimise extraneous load, and optimise germane load. Practical implications are substantial. Splitting information across multiple senses — for example, presenting a diagram with spoken explanation rather than written text — can reduce extraneous load because visual and verbal channels are processed somewhat independently. Worked examples, which show students complete solutions before asking them to solve problems independently, reduce intrinsic load by chunking complex information. As learners become more expert, their mental schemas allow larger amounts of information to be processed as single units, effectively expanding functional working memory capacity. Understanding cognitive load has reshaped curriculum design, software interfaces, and even the layout of instruction manuals."
+    }
+  }
+]
